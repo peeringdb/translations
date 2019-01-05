@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-17 08:46+0000\n"
+"POT-Creation-Date: 2019-01-05 01:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,120 +17,89 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: peeringdb_server/static/peeringdb.js:415
-#: peeringdb_server/static/peeringdb.js:745
-msgid "Remove"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:425
-msgid "Canceled"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:449
-msgid "Add user"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:449
-msgid "to Organization?"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:466
-msgid "Deny"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:466
-msgid "request to join the Organization?"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:615
-msgid "Unknown request type:"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:631
-#: peeringdb_server/static/twentyc.edit.js:622
-msgid "The server rejected your data"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:635
-msgid "not yet been approved"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:636
-msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:773
-msgid "Exchange"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:789
-msgid "Participant"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:805
-msgid "Facility"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:816
-msgid "Network Contact"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:849
-msgid "Network - Exchange link"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:894
-msgid "Network - Facility link"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:920
-msgid "IXLAN"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:938
-msgid "IXLAN Prefix"
-msgstr ""
-
-#: peeringdb_server/static/peeringdb.js:959
-msgid "Exchange - Facility link"
-msgstr ""
-
-#: peeringdb_server/static/twentyc.edit.js:83
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:86
 msgid "Something went wrong."
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:783
+msgid "The server rejected your data"
+msgstr ""
+
 msgid "Invalid value"
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:787
 msgid "Input required"
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:870
 msgid "Needs to match password"
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:887
 msgid "Needs to be a valid email address"
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:916
 msgid "Needs to be a valid url"
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:936
 msgid "Needs to be a number"
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:946
 msgid "Yes"
 msgstr ""
 
-#: peeringdb_server/static/twentyc.edit.js:946
 msgid "No"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "Add user"
+msgstr ""
+
+msgid "to Organization?"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+msgid "request to join the Organization?"
+msgstr ""
+
+msgid "Unknown request type:"
+msgstr ""
+
+msgid "not yet been approved"
+msgstr ""
+
+msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
+msgstr ""
+
+msgid "Exchange"
+msgstr ""
+
+msgid "Participant"
+msgstr ""
+
+msgid "Facility"
+msgstr ""
+
+msgid "Network Contact"
+msgstr ""
+
+msgid "Network - Exchange link"
+msgstr ""
+
+msgid "Network - Facility link"
+msgstr ""
+
+msgid "IXLAN"
+msgstr ""
+
+msgid "IXLAN Prefix"
+msgstr ""
+
+msgid "Exchange - Facility link"
 msgstr ""
