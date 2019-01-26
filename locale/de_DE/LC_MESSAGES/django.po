@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-05 01:54+0000\n"
 "PO-Revision-Date: 2019-01-28 22:47+0000\n"
-"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
+"Last-Translator: Stefan Funke <sfunke@ipb.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/"
 "server/de/>\n"
 "Language: de_DE\n"
@@ -303,7 +303,7 @@ msgid "View"
 msgstr "Anzeigen"
 
 msgid "Affiliation request was approved and the user was notified."
-msgstr "Mitgliedschaft wurde bestätigt und der Nutzer darüber informiert"
+msgstr "Mitgliedschaft wurde bestätigt und der Nutzer darüber informiert."
 
 msgid "Approve and notify User"
 msgstr "Benutzer bestätigen und darüber informieren"
@@ -342,7 +342,7 @@ msgid "Updated"
 msgstr "Aktualisiert"
 
 msgid "Only POST requests allowed."
-msgstr "Nur Anfragen vom Typ POST erlaubt"
+msgstr "Nur Anfragen vom Typ POST erlaubt."
 
 msgid "{} (Preview)"
 msgstr "{} (Vorschau)"
@@ -538,7 +538,7 @@ msgid "No JSON could be parsed"
 msgstr "JSON konnte nicht analyisert werden"
 
 msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden"
+msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
 
 #, fuzzy
 msgid "IXF Import Log"
@@ -564,10 +564,10 @@ msgid "username"
 msgstr "Benutzername"
 
 msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr "Erforderlich. Buchstaben, Zahlen und die Zeichen [@.+-/_=|]"
+msgstr "Erforderlich. Buchstaben, Zahlen und die Zeichen [@.+-/_=|]."
 
 msgid "Enter a valid username."
-msgstr "Bitte einen gültigen Benutzernamen eingeben"
+msgstr "Bitte einen gültigen Benutzernamen eingeben."
 
 msgid "email address"
 msgstr "E-Mail Adresse"
@@ -582,7 +582,7 @@ msgid "staff status"
 msgstr "Firmenzugehörigkeit"
 
 msgid "Designates whether the user can log into admin site."
-msgstr "Gibt an, ob sich ein Benutzer auf der Admin-Seite einloggen darf"
+msgstr "Gibt an, ob sich ein Benutzer auf der Admin-Seite einloggen darf."
 
 msgid "active"
 msgstr "Aktiv"
@@ -1342,14 +1342,18 @@ msgid "Note"
 msgstr "Notiz"
 
 msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr "Der Vorgang sollte im gleichen Browser fortgeführt werden, in dem Sie damit angefangen haben"
+msgstr ""
+"Der Vorgang sollte im gleichen Browser fortgeführt werden, in dem Sie damit "
+"angefangen haben."
 
 # # unklarer Zusammenhang
 msgid "Please re-initiate it"
 msgstr "Bitte beginnen Sie noch einmal von vorn"
 
 msgid "This form allows you to retrieve the usernames associated with your email address."
-msgstr "Dieses Formular ermöglicht es Ihnen alle Benutzer anzuzeigen, die mit Ihrer E-Mail-Adresse verknüpft sind"
+msgstr ""
+"Dieses Formular ermöglicht es Ihnen alle Benutzer anzuzeigen, die mit Ihrer E"
+"-Mail-Adresse verknüpft sind."
 
 msgid "We've sent instructions to your email address, provided it is in our system."
 msgstr "Sofern uns Ihre E-Mail-Adresse bekannt ist, haben wir Ihnen dorthin Anweisungen zugesandt."
@@ -1481,7 +1485,7 @@ msgid "Some of the data on this page is incomplete, please update the fields mar
 msgstr "Einige der Daten auf dieser Seite sind unvollständig. Bitte aktualisieren Sie die Felder, die mit"
 
 msgid "to improve data quality"
-msgstr "markiert sind, um die Datenqualität zu erhöhen."
+msgstr "markiert sind, um die Datenqualität zu erhöhen"
 
 msgid "Address failed validation."
 msgstr "Adressüberprüfung fehlgeschlagen."
