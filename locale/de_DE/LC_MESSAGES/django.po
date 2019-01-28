@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-05 01:54+0000\n"
 "PO-Revision-Date: 2019-01-28 22:47+0000\n"
-"Last-Translator: Stefan Funke <sfunke@ipb.de>\n"
+"Last-Translator: Sara Fink <sara.fink@twl-kom.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/"
 "server/de/>\n"
 "Language: de_DE\n"
@@ -998,10 +998,8 @@ msgstr ""
 "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent "
 "sind"
 
-#, fuzzy
-#| msgid "Private Facility Presences"
 msgid "Facility Presence"
-msgstr "Präsenzen an privaten Liegenschaften"
+msgstr "Liegenschaftspräsenz"
 
 msgid "Search for networks that are present at one Facility, but absent from another facility"
 msgstr ""
@@ -1107,10 +1105,8 @@ msgstr "Alle Rechte vorbehalten. Durch die Nutzung dieses Dienstes erklären Sie
 msgid "AUP"
 msgstr "Nutzungsbedingung"
 
-#, fuzzy
-#| msgid "Peering Policy"
 msgid "Privacy Policy"
-msgstr "Peeringrichtlinien"
+msgstr "Datenschutzrichtlinie"
 
 msgid "Sponsors"
 msgstr "Sponsoren"
@@ -1160,10 +1156,8 @@ msgstr "Ausstehend"
 msgid "unverified"
 msgstr "Ungeprüft"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Suggest Facility"
-msgstr "Gebäude"
+msgstr "Liegenschaft vorschlagen"
 
 msgid "Profile"
 msgstr "Profil"
@@ -1319,15 +1313,11 @@ msgstr "Bitte fordern Sie Eigenturmsrechte an Objekten nur dann an, wenn Sie sic
 msgid "Only verified users may request ownership to an organization"
 msgstr "Nur freigebene und bestätigte Benutzer können Eigentum an Organisations-Objekten anfordern"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Suggest Exchange"
-msgstr "Austauschknoten"
+msgstr "Austauschknoten vorschlagen"
 
-#, fuzzy
-#| msgid "Submit Network"
 msgid "Suggest Network"
-msgstr "Netzwerk einreichen"
+msgstr "Netzwerk vorschlagen"
 
 msgid "Become a Sponsor"
 msgstr "Pate werden"
@@ -1722,18 +1712,17 @@ msgid "Thank you for your suggestion."
 msgstr "Vielen Dank für Ihren Vorschlag."
 
 msgid "Suggest another facility"
-msgstr ""
+msgstr "Einen weiteren Standort vorschlagen"
+
+msgid "Only verified users may suggest entities."
+msgstr "Nur verifizierte Benutzer können Objekte vorschlagen."
 
 #, fuzzy
-#| msgid "Only verified users may request ownership to an organization"
-msgid "Only verified users may suggest entities."
-msgstr "Nur freigebene und bestätigte Benutzer können Eigentum an Organisations-Objekten anfordern"
-
 msgid "Suggest another exchange"
-msgstr ""
+msgstr "Einen weiteren Austauschknoten vorschlagen"
 
 msgid "Suggest another network"
-msgstr ""
+msgstr "Ein weiteres Netzwerk vorschlagen"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Ihre E-Mail-Adresse entspricht nicht den Informationen, die uns zu dieser Organisation bekannt sind."
@@ -1785,7 +1774,7 @@ msgid "Either ASN or Organization required"
 msgstr "Entweder ASN oder Organisation erforderlich"
 
 msgid "RDAP Lookup Error: {}"
-msgstr ""
+msgstr "RDAP Suchfehler: {}"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "Bitte warten Sie, bevor Sie erneut eine Bestätigungsmail anfordern"
@@ -1838,7 +1827,7 @@ msgid "Markdown enabled"
 msgstr "Markdown verfügbar"
 
 msgid "Geocode"
-msgstr ""
+msgstr "Georeferenz"
 
 msgid "Protocols Supported"
 msgstr "Unterstützte Protokolle"
@@ -1856,7 +1845,7 @@ msgid "Policy Email"
 msgstr "E-Mail (Peeringrichtlinien)"
 
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 msgid "Also Known As"
 msgstr "Auch bekannt als"
@@ -1868,10 +1857,10 @@ msgid "Looking Glass URL"
 msgstr "Looking-Glass URL"
 
 msgid "IPv4 Prefixes"
-msgstr ""
+msgstr "IPv4-Präfixe"
 
 msgid "IPv6 Prefixes"
-msgstr ""
+msgstr "IPv6-Präfixe"
 
 msgid "Last Updated"
 msgstr "Zuletzt aktualisiert"
