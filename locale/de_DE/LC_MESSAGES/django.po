@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-05 01:54+0000\n"
 "PO-Revision-Date: 2019-03-01 02:45+0000\n"
-"Last-Translator: Sara Fink <sara.fink@twl-kom.de>\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/"
 "server/de/>\n"
 "Language: de_DE\n"
@@ -102,7 +102,7 @@ msgid "Balanced"
 msgstr "Ausgewogen"
 
 msgid "Mostly Inbound"
-msgstr "Vorweiegend eingehend"
+msgstr "Vorwiegend eingehend"
 
 msgid "Heavy Inbound"
 msgstr "Stark eingehend"
@@ -411,8 +411,6 @@ msgstr "IP Bereich umnummerieren"
 msgid "Merge Facilities"
 msgstr "Liegenschaften zusammenführen"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Merge Facilities: UNDO"
 msgstr "Zusammenlegung von Gebäuden: RÜCKGÄNGIG MACHEN"
 
@@ -540,11 +538,9 @@ msgstr "JSON konnte nicht analyisert werden"
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
 
-#, fuzzy
 msgid "IXF Import Log"
 msgstr "IX-F Import Bericht"
 
-#, fuzzy
 msgid "IXF Import Logs"
 msgstr "IX-F Import Berichte"
 
@@ -617,7 +613,6 @@ msgstr "JSON Anordung der Argumente und Optionen erfolgreich"
 msgid "result log"
 msgstr "Logeinträge der Resultate"
 
-#, fuzzy
 msgid "Descriptive text of command that can be searched"
 msgstr "Beschreibender Text des Kommandos nach dem gesucht werden kann"
 
@@ -671,11 +666,10 @@ msgstr "Muss eindeutig sein"
 msgid "This field is required"
 msgstr "Dieses Feld ist erforderlich"
 
-#, fuzzy
 msgid "RDAP Lookup Error"
 msgstr "Fehler bei der RDAP Suche"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Dieses Feld is nur bei diesen Anforderungen erlaubt: {methods}"
 
@@ -1028,26 +1022,23 @@ msgstr "Liegenschaften / Gebäude"
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Fügen Sie Ihrer Organisation eine neue Entität vom Typ %(entity_name)s hinzu. Beachten Sie, dass die neu erstellte Entität vom Typ %(entity_name)s von PeeringDB-Mitarbeitern genehmigt werden muss, bevor es in den Suchergebnissen oder den API-Auflistungen angezeigt wird"
 
-#, fuzzy
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr ""
 "Um als Liegenschaft / Gebäude aufgeführt zu werden erwarten wir, dass Sie "
 "Kolokation, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich "
-"anbieten"
+"anbieten."
 
 msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
 msgstr ""
 "Um als Internetaustauschpunkt in PeeringDB gelistet zu werden erwarten, dass "
 "Sie folgende Kriterien erfüllen:"
 
-#, fuzzy
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
 msgstr ""
 "Ein Internetaustauschpunkt (IXP) ist eine Netzwerkeinrichtung, die die "
 "Zusammenschaltung von mehr als zwei unabhängigen Autonomen Systemen "
 "vornehmlich mit dem Zweck des Austausches von Internetverkehr ermöglicht."
 
-#, fuzzy
 msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
 msgstr ""
 "Ein IXP stellt nur Zusammenschaltungen für Autonome System zur Verfügung. An "
@@ -1059,7 +1050,7 @@ msgstr ""
 msgid "Submit"
 msgstr "Absenden"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
 msgstr ""
 "Bitte schlagen Sie %(entity_name)s vor, dass es zur Datenbasis hinzugefügt "
@@ -1067,20 +1058,17 @@ msgstr ""
 "wird dann abschließend bearbeitet und in die Datenbank übernommen oder "
 "abgelehnt. Weitere Aktionen Ihrerseits sind nicht erforderlich."
 
-#, fuzzy
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr ""
 "Damit die vorgeschlagene Einrichtung genehmigt wird, erwarten wir, dass dort "
 "Kolokation-, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich "
 "angeboten werden."
 
-#, fuzzy
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr ""
 "Damit der vorgeschlagene Austauschpunkt genehmigt wird, erwarten wir, dass "
 "er folgende Kriterien erfüllt:"
 
-#, fuzzy
 msgid "Suggest"
 msgstr "Vorschlagen"
 
@@ -1375,7 +1363,6 @@ msgstr "Sie haben Ihre E-Mail-Adresse bestätigt!"
 msgid "Attention!"
 msgstr "Achtung!"
 
-#, fuzzy
 msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
 msgstr ""
 "Bitte geben Sie für Ihr Konto eine E-Mail-Adresse an. Solange Sie dies nicht "
@@ -1717,9 +1704,8 @@ msgstr "Einen weiteren Standort vorschlagen"
 msgid "Only verified users may suggest entities."
 msgstr "Nur verifizierte Benutzer können Objekte vorschlagen."
 
-#, fuzzy
 msgid "Suggest another exchange"
-msgstr "Einen weiteren Austauschknoten vorschlagen"
+msgstr "Einen weiteren Austauschpunkt vorschlagen"
 
 msgid "Suggest another network"
 msgstr "Ein weiteres Netzwerk vorschlagen"
