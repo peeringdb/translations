@@ -3,103 +3,105 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-05 01:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-02-24 14:35+0000\n"
+"Last-Translator: Wu Zhiyuan <bgp@wuzhiyuan.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.peeringdb.com/"
+"projects/peeringdb/javascript/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.3\n"
 
 msgid "Some of the fields contain invalid values - please correct and try again."
-msgstr ""
+msgstr "一些字段无效，请更正后重试。"
 
 msgid "Something went wrong."
-msgstr ""
+msgstr "有错误发生。"
 
 msgid "The server rejected your data"
-msgstr ""
+msgstr "服务器拒绝了您的数据"
 
 msgid "Invalid value"
-msgstr ""
+msgstr "无效值"
 
 msgid "Input required"
-msgstr ""
+msgstr "请输入"
 
 msgid "Needs to match password"
-msgstr ""
+msgstr "密码需要匹配"
 
 msgid "Needs to be a valid email address"
-msgstr ""
+msgstr "需要有效的 Email 地址"
 
 msgid "Needs to be a valid url"
-msgstr ""
+msgstr "需要有效的 URL"
 
 msgid "Needs to be a number"
-msgstr ""
+msgstr "需要数字"
 
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 msgid "No"
-msgstr ""
+msgstr "否"
 
 msgid "Remove"
-msgstr ""
+msgstr "删除"
 
 msgid "Canceled"
-msgstr ""
+msgstr "取消"
 
 msgid "Add user"
-msgstr ""
+msgstr "添加用户"
 
 msgid "to Organization?"
-msgstr ""
+msgstr "前往组织？"
 
 msgid "Deny"
-msgstr ""
+msgstr "拒绝"
 
 msgid "request to join the Organization?"
-msgstr ""
+msgstr "请求加入此组织？"
 
 msgid "Unknown request type:"
-msgstr ""
+msgstr "未知请求类型："
 
 msgid "not yet been approved"
-msgstr ""
+msgstr "尚未被批准"
 
 msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
-msgstr ""
+msgstr "父实体待审核 - 请在添加实体前等待批准"
 
 msgid "Exchange"
-msgstr ""
+msgstr "交换点"
 
 msgid "Participant"
-msgstr ""
+msgstr "成员"
 
 msgid "Facility"
-msgstr ""
+msgstr "设施"
 
 msgid "Network Contact"
-msgstr ""
+msgstr "网络联系人"
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "网络 - 交换点连接"
 
 msgid "Network - Facility link"
-msgstr ""
+msgstr "网络 - 设施连接"
 
 msgid "IXLAN"
-msgstr ""
+msgstr "IXLAN"
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "IXLAN 前缀"
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "交换点 - 设施连接"
