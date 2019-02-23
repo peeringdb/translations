@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-05 01:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-03-01 02:45+0000\n"
+"Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
+"Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/"
+"server/ja/>\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.3\n"
 
 msgid "Ethernet"
 msgstr "イーサネット"
@@ -27,7 +29,7 @@ msgid "Multiple"
 msgstr "複数の種類"
 
 msgid "Abuse"
-msgstr "Abuse"
+msgstr "不正使用"
 
 msgid "Maintenance"
 msgstr "メンテナンス"
@@ -90,19 +92,19 @@ msgid "Not Disclosed"
 msgstr "非公開"
 
 msgid "Heavy Outbound"
-msgstr "甚大な送信方向のトラフィック"
+msgstr "非常に大量なアウトバウンド"
 
 msgid "Mostly Outbound"
-msgstr "大部分が送信方向のトラフィック"
+msgstr "ほぼアウトバウンド"
 
 msgid "Balanced"
 msgstr "均衡"
 
 msgid "Mostly Inbound"
-msgstr "大部分が受信方向のトラフィック"
+msgstr "ほぼインバウンド"
 
 msgid "Heavy Inbound"
-msgstr "甚大な受信方向のトラフィック"
+msgstr "非常に大量なインバウンド"
 
 msgid "North America"
 msgstr "北米"
@@ -578,13 +580,13 @@ msgid "staff status"
 msgstr "スタッフの状態"
 
 msgid "Designates whether the user can log into admin site."
-msgstr "管理者サイトにログイン出来るユーザかどうか指定します"
+msgstr "管理者サイトにログイン出来るユーザかどうか指定します。"
 
 msgid "active"
 msgstr "アクティブ"
 
 msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr "そのユーザがアクティブユーザとして扱われるべきか指定します。もしアカウントを削除しないのであれば選択しないでください"
+msgstr "そのユーザがアクティブユーザとして扱われるべきか指定します。もしアカウントを削除しないのであれば選択しないでください。"
 
 msgid "date joined"
 msgstr "参加した日時"
@@ -1050,13 +1052,13 @@ msgid "404 - Not Found"
 msgstr "404 - Not Found"
 
 msgid "The page you requested does not exist."
-msgstr "あなたがリクエストしたページはありませんでした"
+msgstr "あなたがリクエストしたページはありませんでした。"
 
 msgid "403 - Forbidden"
 msgstr "403 - Forbidden"
 
 msgid "You dont have permissions to view this page."
-msgstr "あなたは、このページを閲覧する権限を持っていません"
+msgstr "あなたは、このページを閲覧する権限を持っていません。"
 
 msgid "Take me home"
 msgstr "Take me home"
@@ -1067,10 +1069,8 @@ msgstr "転載を禁じます。このサービスを利用する事は、著作
 msgid "AUP"
 msgstr "利用規定"
 
-#, fuzzy
-#| msgid "Peering Policy"
 msgid "Privacy Policy"
-msgstr "ピアリングポリシー"
+msgstr "個人情報保護ポリシー"
 
 msgid "Sponsors"
 msgstr "スポンサー"
@@ -1162,13 +1162,13 @@ msgid "reset lost passwords here"
 msgstr "パスワードリセットをしたいのであればここで出来ます"
 
 msgid "Still have questions?"
-msgstr "疑問点がありましたら"
+msgstr "まだ疑問点はありますか？"
 
 msgid "Read our FAQ"
 msgstr "まずは FAQ ページをご覧ください"
 
 msgid "MOST RECENT UPDATES"
-msgstr "最新のアップデート"
+msgstr "最新のアップデート日時"
 
 msgid "NETWORKS"
 msgstr "ネットワーク"
