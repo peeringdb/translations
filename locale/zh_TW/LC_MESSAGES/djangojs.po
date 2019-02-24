@@ -3,103 +3,105 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-05 01:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-03-01 02:44+0000\n"
+"Last-Translator: Wu Zhiyuan <bgp@wuzhiyuan.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.peeringdb.com/"
+"projects/peeringdb/javascript/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.3\n"
 
 msgid "Some of the fields contain invalid values - please correct and try again."
-msgstr ""
+msgstr "一些欄位無效，請更正後重試。"
 
 msgid "Something went wrong."
-msgstr ""
+msgstr "有錯誤發生。"
 
 msgid "The server rejected your data"
-msgstr ""
+msgstr "伺服器拒絕了您的資料"
 
 msgid "Invalid value"
-msgstr ""
+msgstr "無效值"
 
 msgid "Input required"
-msgstr ""
+msgstr "請輸入"
 
 msgid "Needs to match password"
-msgstr ""
+msgstr "密碼需要匹配"
 
 msgid "Needs to be a valid email address"
-msgstr ""
+msgstr "需要有效的 Email 位址"
 
 msgid "Needs to be a valid url"
-msgstr ""
+msgstr "需要有效的 URL"
 
 msgid "Needs to be a number"
-msgstr ""
+msgstr "需要數位"
 
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 msgid "No"
-msgstr ""
+msgstr "否"
 
 msgid "Remove"
-msgstr ""
+msgstr "刪除"
 
 msgid "Canceled"
-msgstr ""
+msgstr "取消"
 
 msgid "Add user"
-msgstr ""
+msgstr "添加用戶"
 
 msgid "to Organization?"
-msgstr ""
+msgstr "前往組織？"
 
 msgid "Deny"
-msgstr ""
+msgstr "拒絕"
 
 msgid "request to join the Organization?"
-msgstr ""
+msgstr "請求加入此組織？"
 
 msgid "Unknown request type:"
-msgstr ""
+msgstr "未知請求類型："
 
 msgid "not yet been approved"
-msgstr ""
+msgstr "尚未被批准"
 
 msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
-msgstr ""
+msgstr "父實體待審核 - 請在添加實體前等待批准"
 
 msgid "Exchange"
-msgstr ""
+msgstr "交換點"
 
 msgid "Participant"
-msgstr ""
+msgstr "成員"
 
 msgid "Facility"
-msgstr ""
+msgstr "設施"
 
 msgid "Network Contact"
-msgstr ""
+msgstr "網路連絡人"
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "網路 - 交換點連接"
 
 msgid "Network - Facility link"
-msgstr ""
+msgstr "網路 - 設施連接"
 
 msgid "IXLAN"
-msgstr ""
+msgstr "IXLAN"
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "IXLAN 首碼"
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "交換點 - 設施連接"
