@@ -1,1827 +1,2614 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <budiwijaya -at- gmail.com>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 01:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2018-06-06 04:57+0000\n"
+"PO-Revision-Date: 2018-06-10 05:10+0700\n"
+"Language: id_ID\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Budiwijaya\n"
+"Language-Team: \n"
+"X-Generator: Switched to VIM 7.4.8056 from Poedit 2.0.8\n"
 
+#: django_peeringdb/const.py:3
 msgid "Ethernet"
-msgstr ""
+msgstr "Ethernet"
 
+#: django_peeringdb/const.py:4
 msgid "ATM"
-msgstr ""
+msgstr "ATM"
 
+#: django_peeringdb/const.py:5
 msgid "Multiple"
-msgstr ""
+msgstr "Multiple"
 
+#: django_peeringdb/const.py:8
 msgid "Abuse"
-msgstr ""
+msgstr "Penyalahgunaan"
 
+#: django_peeringdb/const.py:9
 msgid "Maintenance"
-msgstr ""
+msgstr "Pemeliharaan"
 
+#: django_peeringdb/const.py:10
+#: peeringdb_server/templates/site/view_exchange_side.html:26
+#: peeringdb_server/templates/site/view_exchange_side.html:37
 msgid "Policy"
-msgstr ""
+msgstr "Kebijakan"
 
+#: django_peeringdb/const.py:11
 msgid "Technical"
-msgstr ""
+msgstr "Teknis"
 
+#: django_peeringdb/const.py:12
 msgid "NOC"
-msgstr ""
+msgstr "NOC"
 
+#: django_peeringdb/const.py:13
 msgid "Public Relations"
-msgstr ""
+msgstr "Humas"
 
+#: django_peeringdb/const.py:14
 msgid "Sales"
-msgstr ""
+msgstr "Sales"
 
+#: django_peeringdb/const.py:18
 msgid "Open"
-msgstr ""
+msgstr "Terbuka"
 
+#: django_peeringdb/const.py:19
 msgid "Selective"
-msgstr ""
+msgstr "Selektif"
 
+#: django_peeringdb/const.py:20
 msgid "Restrictive"
-msgstr ""
+msgstr "Terbatas"
 
+#: django_peeringdb/const.py:21 peeringdb_server/data_views.py:47
+#: peeringdb_server/data_views.py:48
+#: peeringdb_server/templates/site/view_organization_tools.html:516
 msgid "No"
-msgstr ""
+msgstr "Tidak"
 
+#: django_peeringdb/const.py:22 django_peeringdb/const.py:28
 msgid "Not Required"
-msgstr ""
+msgstr "Tidak Diperlukan"
 
+#: django_peeringdb/const.py:23
 msgid "Preferred"
-msgstr ""
+msgstr "Disukai"
 
+#: django_peeringdb/const.py:24
 msgid "Required - US"
-msgstr ""
+msgstr "Diperlukan - US"
 
+#: django_peeringdb/const.py:25
 msgid "Required - EU"
-msgstr ""
+msgstr "Diperlukan - EU"
 
+#: django_peeringdb/const.py:27
 msgid "Required - International"
-msgstr ""
+msgstr "Diperlukan - Internasional"
 
+#: django_peeringdb/const.py:29
 msgid "Private Only"
-msgstr ""
+msgstr "Cuma Privat"
 
+#: django_peeringdb/const.py:30
 msgid "Required"
-msgstr ""
+msgstr "Diperlukan"
 
+#: django_peeringdb/const.py:33
+#: peeringdb_server/templates/site/view_exchange_side.html:21
+#: peeringdb_server/templates/site/view_network_side.html:27
+#: peeringdb_server/templates/site/view_network_side.html:147
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
+#: django_peeringdb/const.py:34
+#: peeringdb_server/templates/site/view_exchange_side.html:22
+#: peeringdb_server/templates/site/view_network_side.html:28
+#: peeringdb_server/templates/site/view_network_side.html:156
+#: peeringdb_server/templates/site/view_organization_tools.html:261
+#: peeringdb_server/templates/site/view_organization_tools.html:430
+#: peeringdb_server/views.py:1084 peeringdb_server/views.py:1322
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
+#: django_peeringdb/const.py:38 django_peeringdb/const.py:39
+#: django_peeringdb/const.py:56 django_peeringdb/const.py:57
+#: django_peeringdb/const.py:69 django_peeringdb/const.py:87
+#: django_peeringdb/const.py:88 peeringdb_server/views.py:1272
+#: peeringdb_server/views.py:1292 peeringdb_server/views.py:1300
+#: peeringdb_server/views.py:1306
 msgid "Not Disclosed"
-msgstr ""
+msgstr "Tidak Disebutkan"
 
+#: django_peeringdb/const.py:40
 msgid "Heavy Outbound"
-msgstr ""
+msgstr "Heavy Outbond"
 
+#: django_peeringdb/const.py:41
 msgid "Mostly Outbound"
-msgstr ""
+msgstr "Mostly Outbond"
 
+#: django_peeringdb/const.py:42
 msgid "Balanced"
-msgstr ""
+msgstr "Seimbang"
 
+#: django_peeringdb/const.py:43
 msgid "Mostly Inbound"
-msgstr ""
+msgstr "Mostly Inbound"
 
+#: django_peeringdb/const.py:44
 msgid "Heavy Inbound"
-msgstr ""
+msgstr "Heavy Inbound"
 
+#: django_peeringdb/const.py:47 django_peeringdb/const.py:59
 msgid "North America"
-msgstr ""
+msgstr "Amerika Utara"
 
+#: django_peeringdb/const.py:48 django_peeringdb/const.py:60
 msgid "Asia Pacific"
-msgstr ""
+msgstr "Asia Pasifik"
 
+#: django_peeringdb/const.py:49 django_peeringdb/const.py:61
 msgid "Europe"
-msgstr ""
+msgstr "Eropa"
 
+#: django_peeringdb/const.py:50 django_peeringdb/const.py:62
 msgid "South America"
-msgstr ""
+msgstr "Amerika Selatan"
 
+#: django_peeringdb/const.py:51 django_peeringdb/const.py:63
 msgid "Africa"
-msgstr ""
+msgstr "Afrika"
 
+#: django_peeringdb/const.py:52 django_peeringdb/const.py:64
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
+#: django_peeringdb/const.py:53 django_peeringdb/const.py:65
 msgid "Middle East"
-msgstr ""
+msgstr "Timur Tengah"
 
+#: django_peeringdb/const.py:58
 msgid "Regional"
-msgstr ""
+msgstr "Regional"
 
+#: django_peeringdb/const.py:66
 msgid "Global"
-msgstr ""
+msgstr "Global"
 
+#: django_peeringdb/const.py:70
 msgid "0-20 Mbps"
-msgstr ""
+msgstr "0-20 Mbps"
 
+#: django_peeringdb/const.py:71
 msgid "20-100Mbps"
-msgstr ""
+msgstr "20-100Mbps"
 
+#: django_peeringdb/const.py:72
 msgid "100-1000Mbps"
-msgstr ""
+msgstr "100-1000Mbps"
 
+#: django_peeringdb/const.py:73
 msgid "1-5Gbps"
-msgstr ""
+msgstr "1-5Gbps"
 
+#: django_peeringdb/const.py:74
 msgid "5-10Gbps"
-msgstr ""
+msgstr "5-10Gbps"
 
+#: django_peeringdb/const.py:75
 msgid "10-20Gbps"
-msgstr ""
+msgstr "10-20Gbps"
 
+#: django_peeringdb/const.py:76
 msgid "20-50 Gbps"
-msgstr ""
+msgstr "20-50 Gbps"
 
+#: django_peeringdb/const.py:77
 msgid "50-100 Gbps"
-msgstr ""
+msgstr "50-100 Gbps"
 
+#: django_peeringdb/const.py:78
 msgid "100+ Gbps"
-msgstr ""
+msgstr "100+ Gbps"
 
+#: django_peeringdb/const.py:79
 msgid "100-200 Gbps"
-msgstr ""
+msgstr "100-200 Gbps"
 
+#: django_peeringdb/const.py:80
 msgid "200-300 Gbps"
-msgstr ""
+msgstr "200-300 Gbps"
 
+#: django_peeringdb/const.py:81
 msgid "300-500 Gbps"
-msgstr ""
+msgstr "300-500 Gbps"
 
+#: django_peeringdb/const.py:82
 msgid "500-1000 Gbps"
-msgstr ""
+msgstr "500-1000 Gbps"
 
+#: django_peeringdb/const.py:83
 msgid "1 Tbps+"
-msgstr ""
+msgstr "1 Tbps+"
 
+#: django_peeringdb/const.py:84
 msgid "10 Tbps+"
-msgstr ""
+msgstr "10 Tbps+"
 
+#: django_peeringdb/const.py:89
 msgid "NSP"
-msgstr ""
+msgstr "NSP"
 
+#: django_peeringdb/const.py:90
 msgid "Content"
-msgstr ""
+msgstr "Konten"
 
+#: django_peeringdb/const.py:91
 msgid "Cable/DSL/ISP"
-msgstr ""
+msgstr "Kabel/DSL/ISP"
 
+#: django_peeringdb/const.py:92
 msgid "Enterprise"
-msgstr ""
+msgstr "Perusahaan"
 
+#: django_peeringdb/const.py:93
 msgid "Educational/Research"
-msgstr ""
+msgstr "Pendidikan/Riset"
 
+#: django_peeringdb/const.py:94
 msgid "Non-Profit"
-msgstr ""
+msgstr "Nirlaba"
 
+#: django_peeringdb/const.py:95
 msgid "Route Server"
-msgstr ""
+msgstr "Route Server"
 
+#: django_peeringdb/const.py:99
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
+#: django_peeringdb/const.py:101
+#: peeringdb_server/templates/site/view_organization_tools.html:32
 msgid "Users"
-msgstr ""
+msgstr "Pengguna"
 
+#: django_peeringdb/const.py:102
 msgid "Public"
-msgstr ""
+msgstr "Umum"
 
+#: peeringdb_server/admin.py:54 peeringdb_server/admin.py:1135
+#: peeringdb_server/templates/site/footer.html:30
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
+#: peeringdb_server/admin.py:133
 msgid "Target org cannot be in selected organizations list"
-msgstr ""
+msgstr "Target org tidak bisa di organisasi ini"
 
+#: peeringdb_server/admin.py:258
 msgid "ROLLBACK"
-msgstr ""
+msgstr "ROLLBACK"
 
+#: peeringdb_server/admin.py:269
 msgid "SOFT DELETE"
-msgstr ""
+msgstr "SOFT DELETE"
 
+#: peeringdb_server/admin.py:340
 msgid "Verification Queue is currently disabled"
-msgstr ""
+msgstr "Antrian verifikasi saat ini tidak aktif"
 
+#: peeringdb_server/admin.py:343
 msgid "Verification Queue is currently disabled for this object type"
-msgstr ""
+msgstr "Antrian verifikasi saat ini tidak aktif untuk tipe object ini"
 
+#: peeringdb_server/admin.py:353
 msgid "APPROVE"
-msgstr ""
+msgstr "SETUJU"
 
+#: peeringdb_server/admin.py:354
 msgid "DENY"
-msgstr ""
+msgstr "TIDAK SETUJU"
 
+#: peeringdb_server/admin.py:355
 msgid "APPROVED"
-msgstr ""
+msgstr "DISETUJUI"
 
+#: peeringdb_server/admin.py:420 peeringdb_server/admin.py:429
 msgid "Ipaddress already exists elsewhere"
-msgstr ""
+msgstr "Ip address telah digunakan ditempat lain"
 
+#: peeringdb_server/admin.py:448
 msgid "User is looking to be affiliated to these Organizations"
-msgstr ""
+msgstr "Pengguna meminta untuk berafiliasi dengan Organisasi ini"
 
+#: peeringdb_server/admin.py:479
 msgid "IXF Import History"
-msgstr ""
+msgstr "IXF impor sejarah"
 
+#: peeringdb_server/admin.py:528
 msgid "Initial creation of netixlan"
-msgstr ""
+msgstr "Awal pembuatan dari netixlan"
 
+#: peeringdb_server/admin.py:548
 msgid "CAN BE ROLLED BACK"
-msgstr ""
+msgstr "CAN BE ROLLED BACK"
 
+#: peeringdb_server/admin.py:552 peeringdb_server/admin.py:556
 msgid "CANNOT BE ROLLED BACK"
-msgstr ""
+msgstr "CANNOT BE ROLLED BACK"
 
+#: peeringdb_server/admin.py:552
 msgid "Has been changed since"
-msgstr ""
+msgstr "Telah berubah sejak"
 
+#: peeringdb_server/admin.py:557
 msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr ""
+msgstr "Netixlan dengan ipaddress yg konflik saat ini ada ditempat lain"
 
+#: peeringdb_server/admin.py:560
 msgid "HAS BEEN ROLLED BACK"
-msgstr ""
+msgstr "HAS BEEN ROLLED BACK"
 
+#: peeringdb_server/admin.py:617
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-affil.txt:6
+#: peeringdb_server/templates/site/verify.html:112
+#: peeringdb_server/views.py:948 peeringdb_server/views.py:1041
+#: peeringdb_server/views.py:1231
 msgid "Organization"
-msgstr ""
+msgstr "Organisasi"
 
+#: peeringdb_server/admin.py:622
 msgid "Not Set"
-msgstr ""
+msgstr "Tidak diatur"
 
+#: peeringdb_server/admin.py:626 peeringdb_server/admin.py:657
 msgid "Logo Missing"
-msgstr ""
+msgstr "Logo tidak ada"
 
+#: peeringdb_server/admin.py:627 peeringdb_server/admin.py:658
 msgid "Active"
-msgstr ""
+msgstr "Aktif"
 
+#: peeringdb_server/admin.py:629
 msgid "Over"
-msgstr ""
+msgstr "Lebih"
 
+#: peeringdb_server/admin.py:631
 msgid "Waiting"
-msgstr ""
+msgstr "Menunggu"
 
+#: peeringdb_server/admin.py:688
 msgid "Malformed organization ids"
-msgstr ""
+msgstr "Organisasi ids tidak tepat"
 
+#: peeringdb_server/admin.py:695
 msgid "Merge target organization does not exist"
-msgstr ""
+msgstr "Target organisasi untuk penggabungan tidak ada"
 
+#: peeringdb_server/admin.py:709
 msgid "Organization Merging Tool"
-msgstr ""
+msgstr "Alat Penggabungan Organisasi"
 
+#: peeringdb_server/admin.py:736 peeringdb_server/admin.py:747
 msgid "Undo merge"
-msgstr ""
+msgstr "Batalkan penggabungan"
 
+#: peeringdb_server/admin.py:816
 msgid "APPROVE selected items"
-msgstr ""
+msgstr "SETUJUI item yang dipilih"
 
+#: peeringdb_server/admin.py:822
 msgid "DENY and delete selected items"
-msgstr ""
+msgstr "TOLAK dan hapus item yang dipilih"
 
+#: peeringdb_server/admin.py:827
 msgid "View"
-msgstr ""
+msgstr "Lihat"
 
+#: peeringdb_server/admin.py:843
 msgid "Affiliation request was approved and the user was notified."
-msgstr ""
+msgstr "Permintaan afiliasi sudah disetujui dan pengguna sudah diberi tahu."
 
+#: peeringdb_server/admin.py:845
 msgid "Approve and notify User"
-msgstr ""
+msgstr "Setujui dan beritahu pengguna"
 
+#: peeringdb_server/admin.py:851
+#: peeringdb_server/templates/site/view_organization_tools.html:520
 msgid "Approve"
-msgstr ""
+msgstr "Setujui"
 
+#: peeringdb_server/admin.py:857
+#: peeringdb_server/templates/site/view_organization_tools.html:521
 msgid "Deny"
-msgstr ""
+msgstr "Tolak"
 
+#: peeringdb_server/admin.py:926
+#: peeringdb_server/templates/site/verify.html:217
 msgid "Change Password"
-msgstr ""
+msgstr "Ganti Kata Sandi"
 
+#: peeringdb_server/admin.py:936
 msgid "Edit Permissions"
-msgstr ""
+msgstr "Ubah Izin"
 
+#: peeringdb_server/admin.py:943
 msgid "VERIFIED"
-msgstr ""
+msgstr "DIVERIFIKASI"
 
+#: peeringdb_server/admin.py:946
 msgid "UNVERIFIED"
-msgstr ""
+msgstr "TIDAK DIVERIFIKASI"
 
+#: peeringdb_server/admin.py:962
 msgid "User Permission"
-msgstr ""
+msgstr "Izin Pengguna"
 
+#: peeringdb_server/admin.py:963
 msgid "User Permissions"
-msgstr ""
+msgstr "Izin Pengguna"
 
+#: peeringdb_server/admin.py:1013
 msgid "Duplicate IP"
-msgstr ""
+msgstr "IP Duplikat"
 
+#: peeringdb_server/admin.py:1014
 msgid "Duplicate IPs"
-msgstr ""
+msgstr "IP Duplikat"
 
+#: peeringdb_server/admin.py:1141
 msgid "Updated"
-msgstr ""
+msgstr "Diperbarui"
 
+#: peeringdb_server/admin.py:1259 peeringdb_server/admin.py:1291
 msgid "Only POST requests allowed."
-msgstr ""
+msgstr "Hanya permintaan POST yg diperbolehkan."
 
+#: peeringdb_server/admin.py:1269
 msgid "{} (Preview)"
-msgstr ""
+msgstr "{} (Pratinjau)"
 
+#: peeringdb_server/admin_commandline_tools.py:141
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
-msgstr ""
+msgstr "Tiga octecs paling kiri dari prefik asli - cth. xxx.xxx.xxx"
 
+#: peeringdb_server/admin_commandline_tools.py:145
 msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
-msgstr ""
+msgstr "Tiga octecs paling kiri dari prefik baru - cth. xxx.xxx.xxx"
 
+#: peeringdb_server/admin_commandline_tools.py:174
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "Gabungkan fasilitas ini - akan dihapus"
 
+#: peeringdb_server/admin_commandline_tools.py:179
 msgid "Target facility"
-msgstr ""
+msgstr "Fasilitas tujuan"
 
+#: peeringdb_server/admin_commandline_tools.py:207
 msgid "Undo this merge"
-msgstr ""
+msgstr "Batalkan penggabungan ini"
 
+#: peeringdb_server/data_views.py:47 peeringdb_server/data_views.py:48
+#: peeringdb_server/templates/site/view_organization_tools.html:516
 msgid "Yes"
-msgstr ""
+msgstr "Ya"
 
+#: peeringdb_server/export_views.py:140
 msgid "Invalid export format"
-msgstr ""
+msgstr "Format export tidak valid"
 
+#: peeringdb_server/export_views.py:284
 msgid "Invalid tag"
-msgstr ""
+msgstr "Tag tidak valid"
 
+#: peeringdb_server/forms.py:21
 msgid "Invalid permission level"
-msgstr ""
+msgstr "Tingkat izin tidak valid"
 
+#: peeringdb_server/forms.py:59
 msgid "ASN needs to be a number"
-msgstr ""
+msgstr "ASN harus dalam bentuk angka"
 
+#: peeringdb_server/forms.py:71 peeringdb_server/views.py:694
 msgid "Needs to be at least 10 characters long"
-msgstr ""
+msgstr "Minimal 10 karakter"
 
+#: peeringdb_server/forms.py:80
 msgid "Passwords need to match"
-msgstr ""
+msgstr "Kata sandi harus sama"
 
+#: peeringdb_server/mail.py:57
 msgid "{} Merge Notification: {} -> {}"
-msgstr ""
+msgstr "{} Pemberitahuan Penggabungan: {} -> {}"
 
+#: peeringdb_server/models.py:42
+#: peeringdb_server/templates/site/sponsorships.html:56
 msgid "Silver"
-msgstr ""
+msgstr "Perak"
 
+#: peeringdb_server/models.py:42
+#: peeringdb_server/templates/site/sponsorships.html:43
 msgid "Gold"
-msgstr ""
+msgstr "Emas"
 
+#: peeringdb_server/models.py:42
+#: peeringdb_server/templates/site/sponsorships.html:28
 msgid "Platinum"
-msgstr ""
+msgstr "Platina"
 
+#: peeringdb_server/models.py:43
+#: peeringdb_server/templates/site/sponsorships.html:12
 msgid "Diamond"
-msgstr ""
+msgstr "Berlian"
 
+#: peeringdb_server/models.py:45
 msgid "Data Validation"
-msgstr ""
+msgstr "Validasi data"
 
+#: peeringdb_server/models.py:45
 msgid "RIR"
-msgstr ""
+msgstr "RIR"
 
+#: peeringdb_server/models.py:47
 msgid "Renumber IP Space"
-msgstr ""
+msgstr "Renumber IP Space"
 
+#: peeringdb_server/models.py:48
 msgid "Merge Facilities"
-msgstr ""
+msgstr "Gabungkan Fasilitas"
 
+#: peeringdb_server/models.py:49
 msgid "Merge Facilities: UNDO"
-msgstr ""
+msgstr "Gabungkan Fasilitas: BATAL"
 
+#: peeringdb_server/models.py:149
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgstr ""
+msgstr "Apakah garis lintang dan bujur objek sudah disamakan ke alamat"
 
+#: peeringdb_server/models.py:152
 msgid "Last time of attempted geocode"
-msgstr ""
+msgstr "Pembaruan terakhir melakukan geocode"
 
+#: peeringdb_server/models.py:155
 msgid "Error message of previous geocode attempt"
-msgstr ""
+msgstr "Pesan kesalahan dari percobaan geocode sebelumnya"
 
+#: peeringdb_server/models.py:202
 msgid "Address not found"
-msgstr ""
+msgstr "Alamat tidak ditemukan"
 
+#: peeringdb_server/models.py:210
 msgid "API Timeout"
-msgstr ""
+msgstr "API Timeout"
 
+#: peeringdb_server/models.py:236
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
-msgstr ""
+msgstr "Organisasi ini dalam basis data kami diturunkan dari ASN yg dimasukkan atau nama organisasi. Jika ini kosong artinya tidak ada organisasi yang cocok."
 
+#: peeringdb_server/models.py:241
 msgid "The organization name entered by the user"
-msgstr ""
+msgstr "Organisasi yang dimasukkan oleh pengguna"
 
+#: peeringdb_server/models.py:244
 msgid "The ASN entered by the user"
-msgstr ""
+msgstr "ASN yang dimasukkan oleh pengguna"
 
+#: peeringdb_server/models.py:247
 msgid "The user that made the request"
-msgstr ""
+msgstr "Pengguna yang meminta"
 
+#: peeringdb_server/models.py:253
 msgid "Pending"
-msgstr ""
+msgstr "Tertunda"
 
+#: peeringdb_server/models.py:254
 msgid "Approved"
-msgstr ""
+msgstr "Disetujui"
 
+#: peeringdb_server/models.py:255
 msgid "Denied"
-msgstr ""
+msgstr "Ditolak"
 
+#: peeringdb_server/models.py:256
 msgid "Status of this request"
-msgstr ""
+msgstr "Status permintaan ini"
 
+#: peeringdb_server/models.py:260
 msgid "User to Organization Affiliation Request"
-msgstr ""
+msgstr "Pengguna meminta afiliasi ke Organisasi"
 
+#: peeringdb_server/models.py:261
 msgid "User to Organization Affiliation Requests"
-msgstr ""
+msgstr "Pengguna meminta afiliasi ke Organisasi"
 
+#: peeringdb_server/models.py:318
 msgid "Your affiliation to Organization \"{}\" has been approved"
-msgstr ""
+msgstr "Permintaan afiliasi ke Organisasi \"{}\" telah disetujui"
 
+#: peeringdb_server/models.py:345
 msgid "The item that this queue is attached to was created by this user"
-msgstr ""
+msgstr "Item yang dimasukkan antrean ini dibuat oleh pengguna ini"
 
+#: peeringdb_server/models.py:437
 msgid "Allows you to upload and set a logo image file for this organization"
-msgstr ""
+msgstr "Memungkinkan Anda mengunggah dan mengatur file gambar logo untuk organisasi ini"
 
+#: peeringdb_server/models.py:660
 msgid "Sponsorship starts on"
-msgstr ""
+msgstr "Sponsor mulai dari"
 
+#: peeringdb_server/models.py:662
 msgid "Sponsorship ends on"
-msgstr ""
+msgstr "Sponsor berakhir sampai"
 
+#: peeringdb_server/models.py:664
 msgid "Expiration notification sent on"
-msgstr ""
+msgstr "Pemberitahuan kadaluwarsa dikirim"
 
+#: peeringdb_server/models.py:667 peeringdb_server/models.py:725
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
+#: peeringdb_server/models.py:668
 msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr ""
+msgstr "Jika diisi, meng-klik sponsor akan membawa pengguna ke lokasi ini"
 
+#: peeringdb_server/models.py:673
 msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr ""
+msgstr "Memungkinkan Anda mengunggah dan mengatur file gambar logo untuk sponsor ini"
 
+#: peeringdb_server/models.py:678
 msgid "Sponsorship"
-msgstr ""
+msgstr "Sponsor"
 
+#: peeringdb_server/models.py:679
 msgid "Sponsorships"
-msgstr ""
+msgstr "Sponsor"
 
+#: peeringdb_server/models.py:703
 msgid "Sponsorship Expired"
-msgstr ""
+msgstr "Sponsor kadaluwarsa"
 
+#: peeringdb_server/models.py:726
 msgid "If specified clicking the partnership will take the user to this location"
-msgstr ""
+msgstr "Jika diisi, meng-klik kemitraan akan membawa pengguna ke lokasi ini"
 
+#: peeringdb_server/models.py:731
 msgid "Allows you to upload and set a logo image file for this partnership"
-msgstr ""
+msgstr "Memungkinkan Anda menggungah dan mengatur file gambar logo untuk mitra ini"
 
+#: peeringdb_server/models.py:736
 msgid "Partnership"
-msgstr ""
+msgstr "Kemitraan"
 
+#: peeringdb_server/models.py:737
 msgid "Partnerships"
-msgstr ""
+msgstr "Kemitraan"
 
+#: peeringdb_server/models.py:752
 msgid "Merged on"
-msgstr ""
+msgstr "Digabungkan pada"
 
+#: peeringdb_server/models.py:756
 msgid "Organization Merge"
-msgstr ""
+msgstr "Penggabungan Organisasi"
 
+#: peeringdb_server/models.py:757
 msgid "Organization Merges"
-msgstr ""
+msgstr "Penggabungan Organisasi"
 
+#: peeringdb_server/models.py:810
 msgid "Organization Merge: Entity"
-msgstr ""
+msgstr "Penggabungan Organisasi: Entitas"
 
+#: peeringdb_server/models.py:811
 msgid "Organization Merge: Entities"
-msgstr ""
+msgstr "Penggabungan Organisasi: Entitas"
 
+#: peeringdb_server/models.py:913 peeringdb_server/models.py:1112
 msgid "Need to specify at least two asns"
-msgstr ""
+msgstr "Masukkan minimal dua asn"
 
+#: peeringdb_server/models.py:916 peeringdb_server/models.py:1115
 msgid "Can only compare a maximum of 25 asns"
-msgstr ""
+msgstr "Cuma bisa membandingkan maksimum 25 asn"
 
+#: peeringdb_server/models.py:1320
 msgid "No JSON could be parsed"
-msgstr ""
+msgstr "Tidak ada JSON yang bisa diparse"
 
+#: peeringdb_server/models.py:1346
 msgid "No entries in any of the vlan_list lists, aborting."
-msgstr ""
+msgstr "Tidak ada entri di vlan_list manapun, membatalkan."
 
+#: peeringdb_server/models.py:1711
 msgid "IXF Import Log"
-msgstr ""
+msgstr "Catatan impor IXF"
 
+#: peeringdb_server/models.py:1712
 msgid "IXF Import Logs"
-msgstr ""
+msgstr "Catatan impor IXF"
 
+#: peeringdb_server/models.py:1743
 msgid "IXF Import Log Entry"
-msgstr ""
+msgstr "Entri log impor IXF"
 
+#: peeringdb_server/models.py:1744
 msgid "IXF Import Log Entries"
-msgstr ""
+msgstr "Entri log impor IXF"
 
+#: peeringdb_server/models.py:1849
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr ""
+msgstr "Menentukan apakah ixp diperbolehkan menambahkan entri netixlan untuk jaringan ini melalui data ixp_member mereka"
 
+#: peeringdb_server/models.py:2285 peeringdb_server/models.py:2287
 msgid "Ip address already exists elsewhere"
-msgstr ""
+msgstr "Ip address telah dipakai ditempat lain"
 
+#: peeringdb_server/models.py:2298
 msgid "username"
-msgstr ""
+msgstr "nama pengguna"
 
+#: peeringdb_server/models.py:2299
 msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr ""
+msgstr "Diperlukan. Cuma Huruf, angka dan [@.+-/_=|]."
 
+#: peeringdb_server/models.py:2302
 msgid "Enter a valid username."
-msgstr ""
+msgstr "Masukkan nama pengguna yg valid."
 
+#: peeringdb_server/models.py:2305
 msgid "email address"
-msgstr ""
+msgstr "surat elektronik (surel)"
 
+#: peeringdb_server/models.py:2306
 msgid "first name"
-msgstr ""
+msgstr "nama depan"
 
+#: peeringdb_server/models.py:2307
 msgid "last name"
-msgstr ""
+msgstr "nama belakang"
 
+#: peeringdb_server/models.py:2309
 msgid "staff status"
-msgstr ""
+msgstr "status pegawai"
 
+#: peeringdb_server/models.py:2310
 msgid "Designates whether the user can log into admin site."
-msgstr ""
+msgstr "Menentukan apakah pengguna dapat masuk ke situs admin."
 
+#: peeringdb_server/models.py:2312
 msgid "active"
-msgstr ""
+msgstr "aktif"
 
+#: peeringdb_server/models.py:2313
 msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr ""
+msgstr "Menentukan apakah user ini dianggap aktif. Daripada menghapus, silahkan menonaktifkan."
 
+#: peeringdb_server/models.py:2315
 msgid "date joined"
-msgstr ""
+msgstr "tanggal bergabung"
 
+#: peeringdb_server/models.py:2318
 msgid "status"
-msgstr ""
+msgstr "status"
 
+#: peeringdb_server/models.py:2320
 msgid "language"
-msgstr ""
+msgstr "bahasa"
 
+#: peeringdb_server/models.py:2329
 msgid "user"
-msgstr ""
+msgstr "pengguna"
 
+#: peeringdb_server/models.py:2330
 msgid "users"
-msgstr ""
+msgstr "pengguna"
 
+#: peeringdb_server/models.py:2522
 msgid "Password Reset Initiated"
-msgstr ""
+msgstr "Mereset kata sandi telah dimulai"
 
+#: peeringdb_server/models.py:2590
 msgid "name of the tool"
-msgstr ""
+msgstr "nama alat"
 
+#: peeringdb_server/models.py:2593
 msgid "json serialization of arguments and options passed"
-msgstr ""
+msgstr "json serialization of arguments and options passed"
 
+#: peeringdb_server/models.py:2594
 msgid "result log"
-msgstr ""
+msgstr "hasil log"
 
+#: peeringdb_server/models.py:2596
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "Teks perintah deskriptif yang dapat dicari"
 
+#: peeringdb_server/models.py:2599
 msgid "the user that ran this command"
-msgstr ""
+msgstr "pengguna yg menjalankan perintah ini"
 
+#: peeringdb_server/models.py:2603
 msgid "command was run at this date and time"
-msgstr ""
+msgstr "perintah dijalankan pada tanggal dan jam"
 
+#: peeringdb_server/org_admin_views.py:140
 msgid "Organization and all Entities it owns"
-msgstr ""
+msgstr "Organisasi dan semua Entitas yang dimilikinya"
 
+#: peeringdb_server/org_admin_views.py:141
 msgid "Any Network"
-msgstr ""
+msgstr "Semua Jaringan"
 
+#: peeringdb_server/org_admin_views.py:142
 msgid "Any Facility"
-msgstr ""
+msgstr "Semua Lokasi"
 
+#: peeringdb_server/org_admin_views.py:143
 msgid "Any Exchange"
-msgstr ""
+msgstr "Semua Exchange"
 
+#: peeringdb_server/org_admin_views.py:147
 #, python-format
 msgid "Network - %(net_name)s"
-msgstr ""
+msgstr "Jaringan - %(net_name)s"
 
+#: peeringdb_server/org_admin_views.py:152
 #, python-format
-msgid "Exchange - %(ix_name)s"
-msgstr ""
+msgid "exchange - %(ix_name)s"
+msgstr "exchange - %(ix_name)s"
 
+#: peeringdb_server/org_admin_views.py:157
 #, python-format
 msgid "Facility - %(fac_name)s"
-msgstr ""
+msgstr "Lokasi - %(fac_name)s"
 
+#: peeringdb_server/org_admin_views.py:216
 msgid "Invalid organization specified"
-msgstr ""
+msgstr "Organisasi tidak valid"
 
+#: peeringdb_server/org_admin_views.py:309
 msgid "Needs to be member or admin"
-msgstr ""
+msgstr "Cuma member atau admin yang bisa"
 
+#: peeringdb_server/org_admin_views.py:448
 #, python-format
 msgid "%(user_name)s's afilliation request has been approved"
-msgstr ""
+msgstr "Permintaan afiliasi %(user_name)s telah disetujui"
 
+#: peeringdb_server/org_admin_views.py:502
 #, python-format
 msgid "%(user_name)s's afilliation request has been denied"
-msgstr ""
+msgstr "Permintaan afiliasi %(user_name)s telah ditolak"
 
+#: peeringdb_server/serializers.py:121
 msgid "Need to be unique"
-msgstr ""
+msgstr "Harus unik"
 
+#: peeringdb_server/serializers.py:151
 msgid "This field is required"
-msgstr ""
+msgstr "Bagian ini diwajibkan"
 
-msgid "RDAP Lookup Error"
-msgstr ""
+#: peeringdb_server/serializers.py:176
+msgid "We could not find the RiR entry for this ASN"
+msgstr "Tidak bisa menemukan entri RiR untuk ASN ini"
 
-#, python-brace-format
-msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
-
+#: peeringdb_server/serializers.py:229
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr ""
+msgstr "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 
+#: peeringdb_server/serializers.py:237
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr ""
+msgstr "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 
-msgid "Specify at least one email address"
-msgstr ""
-
+#: peeringdb_server/signals.py:161
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr ""
+msgstr "Pengguna %(u_name)s ingin berafiliasi dengan Organisasi anda"
 
+#: peeringdb_server/templates/account/email_confirm.html:13
 msgid "Confirm your e-mail address"
-msgstr ""
+msgstr "Konfirmasi surel anda"
 
+#: peeringdb_server/templates/account/email_confirm.html:15
 msgid "Please confirm that"
-msgstr ""
+msgstr "Tolong konfirmasi"
 
+#: peeringdb_server/templates/account/email_confirm.html:15
 msgid "is your email-address"
-msgstr ""
+msgstr "adalah surat elektronik anda"
 
+#: peeringdb_server/templates/account/email_confirm.html:19
 msgid "Confirm"
-msgstr ""
+msgstr "Konfirmasi"
 
+#: peeringdb_server/templates/account/email_confirm.html:23
 msgid "The email confirmation process for this email address has been terminated, please re-initate"
-msgstr ""
+msgstr "Proses konfirmasi surel untuk alamat surel ini telah dihentikan, silakan memulai kembali"
 
+#: peeringdb_server/templates/account/email_confirm.html:23
+#: peeringdb_server/templates/site/request-ownership.html:25
+#: peeringdb_server/templates/site/username-retrieve-complete.html:25
+#: peeringdb_server/templates/site/verification_banner.html:11
+#: peeringdb_server/templates/site/verification_banner.html:14
 msgid "here"
-msgstr ""
+msgstr "disini"
 
+#: peeringdb_server/templates/account/login.html:7
 msgid "Please use"
-msgstr ""
+msgstr "Tolong gunakan"
 
+#: peeringdb_server/templates/account/login.html:7
 msgid "this page"
-msgstr ""
+msgstr "halaman ini"
 
+#: peeringdb_server/templates/account/login.html:7
 msgid "instead"
-msgstr ""
+msgstr "sebagai gantinya"
 
+#: peeringdb_server/templates/admin/peeringdb_server/commandlinetool/prepare_command.html:18
+#: peeringdb_server/templates/admin/peeringdb_server/commandlinetool/preview_command.html:16
+#: peeringdb_server/templates/admin/peeringdb_server/commandlinetool/run_command.html:16
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
+#: peeringdb_server/templates/admin/peeringdb_server/commandlinetool/prepare_command.html:22
 msgid "Prepare"
-msgstr ""
+msgstr "Persiapan"
 
+#: peeringdb_server/templates/admin/peeringdb_server/commandlinetool/preview_command.html:20
 msgid "Preview"
-msgstr ""
+msgstr "Pratinjau"
 
+#: peeringdb_server/templates/admin/peeringdb_server/commandlinetool/run_command.html:20
 msgid "Result"
-msgstr ""
+msgstr "Hasil"
 
+#: peeringdb_server/templates/email/notify-org-admin-merge.txt:2
 msgid "Merge Notification"
-msgstr ""
+msgstr "Pemberitahuan penggabungan"
 
+#: peeringdb_server/templates/email/notify-org-admin-merge.txt:4
+#: peeringdb_server/templates/email/notify-org-admin-merge.txt:8
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
+#: peeringdb_server/templates/email/notify-org-admin-merge.txt:6
 msgid "has been merged into"
-msgstr ""
+msgstr "sudah digabungkan ke"
 
+#: peeringdb_server/templates/email/notify-org-admin-merge.txt:11
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "Semua penggabungan diproses secara manual oleh staf peeringdb. Jika Anda berpikir tindakan ini adalah kesalahan, jangan ragu untuk menghubungi staf peeringdb di"
 
+#: peeringdb_server/templates/email/notify-org-admin-user-affil-approved.txt:3
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
-msgstr ""
+msgstr "Permintaan afiliasi %(u_full_name)s kepada %(o_name)s udah DISETUJUI oleh %(admin_full_name)s."
 
+#: peeringdb_server/templates/email/notify-org-admin-user-affil-approved.txt:7
+#: peeringdb_server/templates/email/notify-org-admin-user-affil-denied.txt:7
 msgid "No further action is required on your part."
-msgstr ""
+msgstr "Tidak ada tindakan yg diperlukan dari sisi anda."
 
+#: peeringdb_server/templates/email/notify-org-admin-user-affil-approved.txt:9
+#: peeringdb_server/templates/email/notify-org-admin-user-affil-denied.txt:9
 msgid "As the organization's administrator you may view your organization's user list here"
-msgstr ""
+msgstr "Sebagai administrator organsiasi, anda bisa melihat daftar pengguna organisasi anda disini"
 
+#: peeringdb_server/templates/email/notify-org-admin-user-affil-denied.txt:3
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
-msgstr ""
+msgstr "Permintaan afiliasi %(u_full_name)s kepada %(o_name)s udah DITOLAK oleh %(admin_full_name)s."
 
+#: peeringdb_server/templates/email/notify-org-admin-user-affil.txt:3
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr ""
+msgstr "Pengguna %(u_name)s (%(u_email)s) ingin berafiliasi dengan %(o_name)s."
 
+#: peeringdb_server/templates/email/notify-org-admin-user-affil.txt:7
 msgid "As the organization's administrator you may approve or deny this request here"
-msgstr ""
+msgstr "Sebagai administrator organisasi, anda bisa menyetujui atau menolak permintaan disini"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-affil.txt:3
 msgid "Ownership of organization was automatically granted to user"
-msgstr ""
+msgstr "Kepemilikan organisasi secara otomatis diberikan kepada pengguna"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-affil.txt:5
+#: peeringdb_server/templates/site/view_organization_tools.html:496
+#: peeringdb_server/templates/site/view_organization_tools.html:542
 msgid "User"
-msgstr ""
+msgstr "Pengguna"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-affil.txt:7
+#: peeringdb_server/templates/site/view_organization_side.html:113
 msgid "Network"
-msgstr ""
+msgstr "Jaringan"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-affil.txt:7
 msgid "AS"
-msgstr ""
+msgstr "AS"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-entity-creation.txt:4
 #, python-format
 msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "Organisasi %(o_name)s (%(o_id)s) dibuat otomatis pada saat permintaan afiliasi pengguna '%(u_name)s ke AS%(asn)s"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-entity-creation.txt:9
 #, python-format
 msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "Jaringan %(n_name)s (%(n_id)s) dibuat otomatis pada saat permintaan afiliasi pengguna '%(u_name)s’ ke AS%(asn)s"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-skipvq.txt:4
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgstr ""
+msgstr "Pengguna '%(u_name)s' membuat Jaringan %(n_name)s AS%(n_asn)s (%(n_id)s) didalam organisasi %(o_name)s (%(o_id)s)."
 
+#: peeringdb_server/templates/email/notify-pdb-admin-asnauto-skipvq.txt:8
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgstr ""
+msgstr "Karena alamat surel pengguna berhasil dicocokkan dengan data entri RiR, jaringan ini telah melewati antrean verifikasi."
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:4
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
-msgstr ""
+msgstr "Pengguna %(u_name)s (%(u_email)s) ingin berafiliasi dengan ASN %(inst)s"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:8
 msgid "They also provided this organization name in their request"
-msgstr ""
+msgstr "Mereka juga memberikan nama organisasi ini dalam permintaan mereka"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:10
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
-msgstr ""
+msgstr "Tidak ada entri dalam basis data kami yang cocok dengan ASN, sehingga kemungkinan jaringan dan organisasi untuk itu perlu dibuat."
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:12
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr ""
+msgstr "Pengguna %(u_name)s (%(u_email)s) ingin membuat organisasi bernama %(o_name)s."
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:15
 msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
-msgstr ""
+msgstr "Tidak ada entri dalam basis data kami yang cocok dengan nama organisasi itu dan tidak ada ASN yang disediakan, sehingga kemungkinan organisasi ini perlu dibuat."
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:17
 msgid "You may create a new organization here"
-msgstr ""
+msgstr "Anda bisa membuat organisasi baru disini"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:18
 msgid "You may create a new network here"
-msgstr ""
+msgstr "Anda bisa membuat jaringan baru disini"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:20
 #, python-format
 msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
-msgstr ""
+msgstr "pengguna %(user_name)s (%(u_email)s) meminta untuk bergabung ke Organisasi '%(o_name)s'"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:23
 msgid "They also provided this ASN in their request"
-msgstr ""
+msgstr "Mereka juga memberikan ASN ini di permintaan mereka"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:25
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
-msgstr ""
+msgstr "PERHATIAN: Ini adalah permintaan hak milik, menyetujuinya akan memberikan pengguna hak administratif ke organisasi and semua entitas yg dimilikinya."
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:28
 msgid "These are the website addresses were able to derive from the organzation and it's entities"
-msgstr ""
+msgstr "Ini adalah alamat website yg berasal dari organisasi dan entitasnya"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:31
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
-msgstr ""
+msgstr "Ini adalah alamat surel yg bisa kami temukan dari ASN milik organisasi ini"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:34
 msgid "The user is affiliated with other organizations"
-msgstr ""
+msgstr "Pengguna ini berafiliasi dengan organisasi lain"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:37
 msgid "ADMIN"
-msgstr ""
+msgstr "ADMIN"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:39
 msgid "MEMBER"
-msgstr ""
+msgstr "MEMBER"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:44
 msgid "Review Affiliation/Ownership Request"
-msgstr ""
+msgstr "Tinjau Permintaan Afiliasi/Kepemilikan"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-user-affil.txt:46
 msgid "Approve Ownership Request and Notify User"
-msgstr ""
+msgstr "Setujui Permintaan Kepemilikan dan Beritahu Pengguna"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-vq.txt:3
 #, python-format
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr ""
+msgstr "'% (Entity_type_name)s' baru telah dibuat dan memerlukan persetujuan Anda."
 
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr ""
-
+#: peeringdb_server/templates/email/notify-pdb-admin-vq.txt:8
 msgid "We retrieved the RiR entry for the specified ASN"
-msgstr ""
+msgstr "Kami mengambil catatan RiR untuk ASN yang ditentukan"
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
-msgstr ""
+#: peeringdb_server/templates/email/notify-pdb-admin-vq.txt:9
+msgid "but found no match with the requesting user. Here are the email addresses we gatehered"
+msgstr "tidak menemukan kecocokan dengan pengguna yang diminta. Berikut adalah alamat surel yang kami temukan"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-vq.txt:13
+#: peeringdb_server/templates/site/advanced-search-fac.html:12
+#: peeringdb_server/templates/site/advanced-search-fac.html:139
+#: peeringdb_server/templates/site/advanced-search-ix.html:11
+#: peeringdb_server/templates/site/advanced-search-ix.html:102
+#: peeringdb_server/templates/site/advanced-search-net.html:11
+#: peeringdb_server/templates/site/advanced-search-net.html:141
+#: peeringdb_server/templates/site/view_exchange_bottom.html:23
+#: peeringdb_server/templates/site/view_exchange_bottom.html:40
+#: peeringdb_server/templates/site/view_exchange_bottom.html:161
+#: peeringdb_server/templates/site/view_network_bottom.html:38
+#: peeringdb_server/templates/site/view_network_bottom.html:139
+#: peeringdb_server/templates/site/view_organization_side.html:25
+#: peeringdb_server/templates/site/view_organization_side.html:40
+#: peeringdb_server/templates/site/view_organization_side.html:94
+#: peeringdb_server/templates/site/view_organization_side.html:108
+#: peeringdb_server/templates/site/view_organization_side.html:161
+#: peeringdb_server/templates/site/view_organization_side.html:176
+#: peeringdb_server/templates/site/view_organization_tools.html:61
+#: peeringdb_server/templates/site/view_organization_tools.html:175
+#: peeringdb_server/templates/site/view_organization_tools.html:357
+#: peeringdb_server/templates/site/view_organization_tools.html:495
+#: peeringdb_server/templates/site/view_organization_tools.html:541
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-vq.txt:14
 msgid "Requested by user"
-msgstr ""
+msgstr "Diminta oleh pengguna"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-vq.txt:16
 msgid "You can go to"
-msgstr ""
+msgstr "Anda dapat pergi ke"
 
+#: peeringdb_server/templates/email/notify-pdb-admin-vq.txt:16
 msgid "to view and approve or deny this entry"
-msgstr ""
+msgstr "untuk melihat dan menyetujui atau menolak entri ini"
 
+#: peeringdb_server/templates/email/notify-sponsorship-admin-expiration.txt:2
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
-msgstr ""
+msgstr "%(i_label)s sponsor dari '%(io_name)s' kadaluwarsa pada %(i_end_date)s."
 
+#: peeringdb_server/templates/email/notify-user-uoar-ownership-approved.txt:3
 #, python-format
 msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
-msgstr ""
+msgstr "Permintaan afiliasimu ke Organisasi '%(o_name)s' dan entitasnya telah disetujui."
 
+#: peeringdb_server/templates/email/notify-user-uoar-ownership-approved.txt:8
 msgid "This was the result of a manual review of your affiliation request to ASN"
-msgstr ""
+msgstr "Ini adalah hasil dari review manual dari permintaan afiliasi ke ASN"
 
+#: peeringdb_server/templates/email/notify-user-uoar-ownership-approved.txt:10
 msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
-msgstr ""
+msgstr "Ini adalah hasil dari review manual dari permintaan afiliasi ke organisasi dan entitasnya."
 
+#: peeringdb_server/templates/email/notify-user-uoar-ownership-approved.txt:13
 msgid "You may view and edit your organization at"
-msgstr ""
+msgstr "Anda bisa melihat dan menyunting organisasi anda di"
 
+#: peeringdb_server/templates/email/notify-user-uoar-ownership-approved.txt:15
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "Jika anda mempunyai pertanyaan, silahkan menghubungi staf peeringdb di"
 
+#: peeringdb_server/templates/email/password-reset.txt:2
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr ""
+msgstr "Anda memulai pengaturan ulang kata sandi di PeeringDB 2 - Silahkan ikuti url dibawah ini untuk mengatur ulang sandi anda."
 
+#: peeringdb_server/templates/email/password-reset.txt:6
 msgid "If you did not initiate the password reset request, please ignore this email."
-msgstr ""
+msgstr "Jika anda tidak meminta pengaturan ulang kata sandi, silahkan diabaikan surel ini."
 
+#: peeringdb_server/templates/email/username-retrieve.txt:2
 msgid "You requested a username retrieval on PeeringDB for the email address"
-msgstr ""
+msgstr "Anda meminta pengingat nama pengguna di PeeringDB untuk surat elektronik"
 
+#: peeringdb_server/templates/email/username-retrieve.txt:3
 msgid "Please follow the url below to view any usernames associated with your email."
-msgstr ""
+msgstr "Silahkan diikuti url dibawah ini untuk melihat nama pengguna yg terikat dengan surel anda."
 
+#: peeringdb_server/templates/email/username-retrieve.txt:7
 msgid "If you did not request username retrieval, you can ignore this email."
-msgstr ""
+msgstr "Jika anda tidak meminta pengingat nama pengguna, anda bisa mengabaikan surel ini."
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:21
 msgid "Address"
-msgstr ""
+msgstr "Alamat"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:30
+#: peeringdb_server/templates/site/advanced-search-fac.html:147
+#: peeringdb_server/templates/site/advanced-search-ix.html:20
+#: peeringdb_server/templates/site/advanced-search-ix.html:105
+#: peeringdb_server/templates/site/view_exchange_bottom.html:240
+#: peeringdb_server/templates/site/view_exchange_bottom.html:251
+#: peeringdb_server/templates/site/view_network_side.html:224
+#: peeringdb_server/templates/site/view_network_side.html:235
+#: peeringdb_server/templates/site/view_organization_side.html:29
+#: peeringdb_server/templates/site/view_organization_side.html:40
+#: peeringdb_server/templates/site/view_organization_side.html:165
+#: peeringdb_server/templates/site/view_organization_side.html:176
+#: peeringdb_server/templates/site/view_organization_tools.html:95
+#: peeringdb_server/templates/site/view_organization_tools.html:374
+#: peeringdb_server/views.py:1051
 msgid "City"
-msgstr ""
+msgstr "Kota"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:30
+#: peeringdb_server/templates/site/advanced-search-fac.html:151
+#: peeringdb_server/templates/site/view_organization_tools.html:104
 msgid "State"
-msgstr ""
+msgstr "Provinsi"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:30
 msgid "Postal"
-msgstr ""
+msgstr "Kodepos"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:55
+#: peeringdb_server/templates/site/advanced-search-fac.html:148
+#: peeringdb_server/templates/site/advanced-search-ix.html:29
+#: peeringdb_server/templates/site/advanced-search-ix.html:104
+#: peeringdb_server/templates/site/view_exchange_bottom.html:237
+#: peeringdb_server/templates/site/view_exchange_bottom.html:251
+#: peeringdb_server/templates/site/view_network_side.html:223
+#: peeringdb_server/templates/site/view_network_side.html:235
+#: peeringdb_server/templates/site/view_organization_side.html:28
+#: peeringdb_server/templates/site/view_organization_side.html:40
+#: peeringdb_server/templates/site/view_organization_side.html:164
+#: peeringdb_server/templates/site/view_organization_side.html:176
+#: peeringdb_server/templates/site/view_organization_tools.html:123
+#: peeringdb_server/templates/site/view_organization_tools.html:383
+#: peeringdb_server/views.py:1057
 msgid "Country"
-msgstr ""
+msgstr "Negara"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:55
+#: peeringdb_server/templates/site/advanced-search-ix.html:29
+#: peeringdb_server/templates/site/advanced-search-ix.html:41
+#: peeringdb_server/templates/site/advanced-search-ix.html:66
+#: peeringdb_server/templates/site/advanced-search-net.html:20
+#: peeringdb_server/templates/site/advanced-search-net.html:31
+#: peeringdb_server/templates/site/advanced-search-net.html:43
+#: peeringdb_server/templates/site/advanced-search-net.html:78
+#: peeringdb_server/templates/site/advanced-search-net.html:90
 msgid "click to select multiple"
-msgstr ""
+msgstr "klik untuk memilih beberapa"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:71
+#: peeringdb_server/templates/site/advanced-search-fac.html:140
 msgid "Management"
-msgstr ""
+msgstr "Manajemen"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:81
+#: peeringdb_server/templates/site/advanced-search-fac.html:143
 msgid "CLLI"
-msgstr ""
+msgstr "CLLI"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:91
+#: peeringdb_server/templates/site/advanced-search-fac.html:144
+#: peeringdb_server/templates/site/view_organization_tools.html:142
+#: peeringdb_server/views.py:987
 msgid "NPA-NXX"
-msgstr ""
+msgstr "NPA-NXX"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:103
+#: peeringdb_server/templates/site/advanced-search-ix.html:79
+#: peeringdb_server/templates/site/advanced-search-net.html:104
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:104
+#: peeringdb_server/templates/site/advanced-search-ix.html:80
+#: peeringdb_server/templates/site/advanced-search-net.html:105
 msgid "Search"
-msgstr ""
+msgstr "Cari"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:152
 msgid "Postal Code"
-msgstr ""
+msgstr "Kode Pos"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:155
+#: peeringdb_server/templates/site/advanced-search.html:11
+#: peeringdb_server/templates/site/search_result.html:18
+#: peeringdb_server/templates/site/search_result_frame.html:10
+#: peeringdb_server/templates/site/view_facility_bottom.html:23
 msgid "Networks"
-msgstr ""
+msgstr "Jaringan"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:162
+#: peeringdb_server/templates/site/advanced-search-ix.html:110
+#: peeringdb_server/templates/site/advanced-search-net.html:165
 msgid "Nothing matched your search criteria."
-msgstr ""
+msgstr "Pencarian tidak cocok"
 
+#: peeringdb_server/templates/site/advanced-search-fac.html:171
+#: peeringdb_server/templates/site/advanced-search-ix.html:119
+#: peeringdb_server/templates/site/advanced-search-net.html:174
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr ""
+msgstr "...More than %(row_limit)s entries matched your query, refine your request..."
 
+#: peeringdb_server/templates/site/advanced-search-ix.html:41
+#: peeringdb_server/templates/site/view_organization_tools.html:394
+#: peeringdb_server/views.py:1063
 msgid "Continental Region"
-msgstr ""
+msgstr "Benua"
 
+#: peeringdb_server/templates/site/advanced-search-ix.html:57
 msgid "IP Block"
-msgstr ""
+msgstr "Blok IP"
 
+#: peeringdb_server/templates/site/advanced-search-ix.html:66
+#: peeringdb_server/templates/site/advanced-search-ix.html:103
+#: peeringdb_server/templates/site/view_organization_tools.html:404
+#: peeringdb_server/views.py:1069
 msgid "Media Type"
-msgstr ""
+msgstr "Tipe Media"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:20
+#: peeringdb_server/templates/site/advanced-search-net.html:149
+#: peeringdb_server/templates/site/view_organization_tools.html:210
+#: peeringdb_server/views.py:1273
 msgid "Network Type"
-msgstr ""
+msgstr "Tipe Jaringan"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:31
+#: peeringdb_server/templates/site/advanced-search-net.html:153
+#: peeringdb_server/templates/site/view_organization_tools.html:219
+#: peeringdb_server/views.py:1293
 msgid "Traffic Levels"
-msgstr ""
+msgstr "Tingkat trafik"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:43
+#: peeringdb_server/templates/site/advanced-search-net.html:154
 msgid "Traffic Ratio"
-msgstr ""
+msgstr "Rasio trafik"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:58
+#: peeringdb_server/templates/site/view_organization_tools.html:192
+#: peeringdb_server/views.py:1248
 msgid "Primary ASN"
-msgstr ""
+msgstr "ASN Utama"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:68
 msgid "IRR Macro"
-msgstr ""
+msgstr "IRR Macro"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:78
 msgid "General Peering Policy"
-msgstr ""
+msgstr "Kebijakan Peering Umum"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:90
+#: peeringdb_server/templates/site/view_organization_tools.html:237
+#: peeringdb_server/views.py:1307
 msgid "Geographic Scope"
-msgstr ""
+msgstr "Cakupan Daerah"
 
-msgid "Exchange Presence"
-msgstr ""
-
-msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr ""
-
-msgid "Facility Presence"
-msgstr ""
-
-msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr ""
-
+#: peeringdb_server/templates/site/advanced-search-net.html:142
 msgid "Also known as"
-msgstr ""
+msgstr "Juga dikenal sebagai"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:145
+#: peeringdb_server/templates/site/verify.html:106
+#: peeringdb_server/templates/site/view_exchange_side.html:18
+#: peeringdb_server/templates/site/view_exchange_side.html:37
+#: peeringdb_server/templates/site/view_facility_side.html:19
+#: peeringdb_server/templates/site/view_facility_side.html:27
+#: peeringdb_server/templates/site/view_network_side.html:24
+#: peeringdb_server/templates/site/view_network_side.html:43
+#: peeringdb_server/templates/site/view_network_side.html:220
+#: peeringdb_server/templates/site/view_network_side.html:235
+#: peeringdb_server/templates/site/view_organization_side.html:97
+#: peeringdb_server/templates/site/view_organization_side.html:108
 msgid "ASN"
-msgstr ""
+msgstr "ASN"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:146
+#: peeringdb_server/templates/site/view_organization_tools.html:277
+#: peeringdb_server/views.py:1365
 msgid "General Policy"
-msgstr ""
+msgstr "Kebijakan Umum"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:150
 msgid "Network Scope"
-msgstr ""
+msgstr "Cakupan Jaringan"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:157
+#: peeringdb_server/templates/site/advanced-search.html:8
+#: peeringdb_server/templates/site/search_result.html:12
+#: peeringdb_server/templates/site/search_result_frame.html:6
+#: peeringdb_server/templates/site/view_organization_side.html:153
 msgid "Exchanges"
-msgstr ""
+msgstr "Exchanges"
 
+#: peeringdb_server/templates/site/advanced-search-net.html:158
+#: peeringdb_server/templates/site/advanced-search.html:14
+#: peeringdb_server/templates/site/search_result.html:24
+#: peeringdb_server/templates/site/search_result_frame.html:14
 msgid "Facilities"
-msgstr ""
+msgstr "Datacenter"
 
+#: peeringdb_server/templates/site/aup.html:7
+msgid "The PeeringDB Acceptable Use Policy explicitly states the parameters that copyright extends to:"
+msgstr "Kebijakan Penggunaan PeeringDB secara eksplisit menyatakan parameter yang mencakup hak cipta:"
+
+#: peeringdb_server/templates/site/aup.html:9
+msgid "Except for Internet operational purposes approved by PeeringDB, no part of the PeeringDB data may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, recording, or otherwise, without prior permission of PeeringDB on behalf of the copyright holders. Any use of this material to target advertising or similar activities is explicitly forbidden and will be prosecuted. PeeringDB requests to be notified of any such activities or suspicions thereof. The PeeringDB data may not be passed on in bulk to any other person or organization unless approved by PeeringDB."
+msgstr "Except for Internet operational purposes approved by PeeringDB, no part of the PeeringDB data may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, recording, or otherwise, without prior permission of PeeringDB on behalf of the copyright holders. Any use of this material to target advertising or similar activities is explicitly forbidden and will be prosecuted. PeeringDB requests to be notified of any such activities or suspicions thereof. The PeeringDB data may not be passed on in bulk to any other person or organization unless approved by PeeringDB."
+
+#: peeringdb_server/templates/site/aup.html:19
+msgid "Any request to pass on information to any other person or organization will be evaluated on the statement of purpose outlined by the requestor."
+msgstr "Any request to pass on information to any other person or organization will be evaluated on the statement of purpose outlined by the requestor."
+
+#: peeringdb_server/templates/site/aup.html:22
+msgid "Users will not be able to download the full contents of the database unless the intended use is for \"Internet operational issues\". These words are tightly defined and would include network trouble-shooting, abuse reporting, and Internet research and analysis. It would not include compiling marketing lists, demographic mapping, or any other commercial application."
+msgstr "Users will not be able to download the full contents of the database unless the intended use is for \"Internet operational issues\". These words are tightly defined and would include network trouble-shooting, abuse reporting, and Internet research and analysis. It would not include compiling marketing lists, demographic mapping, or any other commercial application."
+
+#: peeringdb_server/templates/site/aup.html:29
+msgid "Each request would be carefully considered in light of the PeeringDB Acceptable Use Policy."
+msgstr "Each request would be carefully considered in light of the PeeringDB Acceptable Use Policy."
+
+#: peeringdb_server/templates/site/entity_create.html:4
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
-msgstr ""
+msgstr "Tambahkan %(entity_name)s ke Organisasi Anda. Perhatikan bahwa %(entity_name)s yang baru dibuat harus disetujui oleh staf PeeringDB sebelum muncul dalam hasil pencarian atau daftar API"
 
-msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr ""
-
-msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr ""
-
-msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr ""
-
-msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr ""
-
+#: peeringdb_server/templates/site/entity_create.html:10
 msgid "Submit"
-msgstr ""
+msgstr "Kirim"
 
-#, python-format
-msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr ""
-
-msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr ""
-
-msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr ""
-
-msgid "Suggest"
-msgstr ""
-
+#: peeringdb_server/templates/site/error.html:23
 msgid "404 - Not Found"
-msgstr ""
+msgstr "404 - Tidak ditemukan"
 
+#: peeringdb_server/templates/site/error.html:24
 msgid "The page you requested does not exist."
-msgstr ""
+msgstr "Halaman yang anda minta tidak ada."
 
+#: peeringdb_server/templates/site/error.html:26
 msgid "403 - Forbidden"
-msgstr ""
+msgstr "403 - Terlarang"
 
+#: peeringdb_server/templates/site/error.html:27
 msgid "You dont have permissions to view this page."
-msgstr ""
+msgstr "Anda tidak mempunyai ijin untuk melihat halaman ini."
 
+#: peeringdb_server/templates/site/error.html:29
 msgid "Take me home"
-msgstr ""
+msgstr "Bawa ke halaman awal"
 
+#: peeringdb_server/templates/site/footer.html:9
 msgid "All Rights Reserved. By using this service, you agree to adhere to our"
-msgstr ""
+msgstr "Hak cipta dilindungi. Dengan menggunakan layanan ini, Anda setuju untuk mematuhi"
 
+#: peeringdb_server/templates/site/footer.html:10
 msgid "AUP"
-msgstr ""
+msgstr "AUP"
 
-msgid "Privacy Policy"
-msgstr ""
-
+#: peeringdb_server/templates/site/footer.html:23
+#: peeringdb_server/templates/site/sponsorships.html:12
+#: peeringdb_server/templates/site/sponsorships.html:28
+#: peeringdb_server/templates/site/sponsorships.html:43
+#: peeringdb_server/templates/site/sponsorships.html:56
 msgid "Sponsors"
-msgstr ""
+msgstr "Sponsor"
 
+#: peeringdb_server/templates/site/footer.html:26
+#: peeringdb_server/templates/site/partnerships.html:13
 msgid "Partners"
-msgstr ""
+msgstr "Mitra"
 
+#: peeringdb_server/templates/site/footer.html:29
 msgid "Resources"
-msgstr ""
+msgstr "Sumber daya"
 
+#: peeringdb_server/templates/site/footer.html:33
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasi"
 
+#: peeringdb_server/templates/site/footer.html:36
 msgid "API Documentation"
-msgstr ""
+msgstr "Dokumentasi API"
 
+#: peeringdb_server/templates/site/footer.html:39
 msgid "Contact Us"
-msgstr ""
+msgstr "Hubungi kami"
 
+#: peeringdb_server/templates/site/footer.html:43
 msgid "Global System Statistics"
-msgstr ""
+msgstr "Statistik sistem global"
 
+#: peeringdb_server/templates/site/footer.html:45
 msgid "Peering Networks"
-msgstr ""
+msgstr "Jaringan Peering"
 
+#: peeringdb_server/templates/site/footer.html:46
 msgid "Public Exchange Points"
-msgstr ""
+msgstr "Exchange Umum"
 
+#: peeringdb_server/templates/site/footer.html:47
 msgid "Unique Public Exchange Presences"
-msgstr ""
+msgstr "Unique Public Exchange Presences"
 
+#: peeringdb_server/templates/site/footer.html:48
 msgid "Private Facilities"
-msgstr ""
+msgstr "Fasilitas pribadi"
 
+#: peeringdb_server/templates/site/footer.html:49
 msgid "Private Facility Presences"
-msgstr ""
+msgstr "Ketersediaan Fasilitas Pribadi"
 
+#: peeringdb_server/templates/site/header.html:51
 msgid "Search here for a network, IX, or facility."
-msgstr ""
+msgstr "Cari jaringan, IX atau fasilitas disini"
 
+#: peeringdb_server/templates/site/header.html:54
 msgid "Advanced Search"
-msgstr ""
+msgstr "Pencarian Lanjutan"
 
+#: peeringdb_server/templates/site/header.html:65
 msgid "pending"
-msgstr ""
+msgstr "tunda"
 
+#: peeringdb_server/templates/site/header.html:67
 msgid "unverified"
-msgstr ""
+msgstr "belum terverifikasi"
 
-msgid "Suggest Facility"
-msgstr ""
-
+#: peeringdb_server/templates/site/header.html:80
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
+#: peeringdb_server/templates/site/header.html:81
 msgid "Logout"
-msgstr ""
+msgstr "Keluar"
 
+#: peeringdb_server/templates/site/header.html:85
 msgid "Register"
-msgstr ""
+msgstr "Daftar"
 
+#: peeringdb_server/templates/site/header.html:85
+#: peeringdb_server/templates/site/view_exchange_bottom.html:40
+#: peeringdb_server/templates/site/view_exchange_bottom.html:251
+#: peeringdb_server/templates/site/view_exchange_side.html:38
+#: peeringdb_server/templates/site/view_facility_bottom.html:31
+#: peeringdb_server/templates/site/view_facility_side.html:27
+#: peeringdb_server/templates/site/view_network_side.html:43
+#: peeringdb_server/templates/site/view_organization_side.html:40
+#: peeringdb_server/templates/site/view_organization_side.html:108
+#: peeringdb_server/templates/site/view_organization_side.html:176
 msgid "or"
-msgstr ""
+msgstr "atau"
 
+#: peeringdb_server/templates/site/header.html:85
+#: peeringdb_server/templates/site/login.html:21
 msgid "Login"
-msgstr ""
+msgstr "Masuk"
 
+#: peeringdb_server/templates/site/index.html:34
 msgid "PeeringDB facilitates the exchange of information related to Peering."
-msgstr ""
+msgstr "PeeringDB memfasilitasi tukar informasi terkait Peering."
 
+#: peeringdb_server/templates/site/index.html:38
 msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
-msgstr ""
+msgstr "Secara khusus, kami adalah basis data untuk jaringan, yang ber-peering, dimana mereka ber-peering dan apakah mereka mau untuk peer dengan anda. Jika anda tidak tahu apa itu peer dan atau anda belum melakukan peering, maka situs ini tidak ada artinya buat anda."
 
+#: peeringdb_server/templates/site/index.html:44
 msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
-msgstr ""
+msgstr "Anda saat ini sedang melihat data read-only. Jika anda punya jaringan dan ingin membuat akun,"
 
+#: peeringdb_server/templates/site/index.html:44
 msgid "you may register for one here"
-msgstr ""
+msgstr "anda bisa daftar disini"
 
+#: peeringdb_server/templates/site/index.html:44
 msgid "Please register ONLY if you are a peering network."
-msgstr ""
+msgstr "Silahkan mendaftar jika anda mempunyai jaringan."
 
+#: peeringdb_server/templates/site/index.html:44
 msgid "You may also"
-msgstr ""
+msgstr "Anda juga bisa"
 
+#: peeringdb_server/templates/site/index.html:44
 msgid "reset lost passwords here"
-msgstr ""
+msgstr "setel ulang kata sandi anda disini"
 
+#: peeringdb_server/templates/site/index.html:48
 msgid "Still have questions?"
-msgstr ""
+msgstr "Masih punya pertanyaan?"
 
+#: peeringdb_server/templates/site/index.html:48
 msgid "Read our FAQ"
-msgstr ""
+msgstr "Baca FAQ kami"
 
+#: peeringdb_server/templates/site/index.html:52
 msgid "MOST RECENT UPDATES"
-msgstr ""
+msgstr "PEMBARUAN TERBARU"
 
+#: peeringdb_server/templates/site/index.html:55
 msgid "NETWORKS"
-msgstr ""
+msgstr "JARINGAN"
 
+#: peeringdb_server/templates/site/index.html:66
 msgid "FACILITIES"
-msgstr ""
+msgstr "FASILITAS"
 
+#: peeringdb_server/templates/site/index.html:77
 msgid "EXCHANGES"
-msgstr ""
+msgstr "EXCHANGES"
 
+#: peeringdb_server/templates/site/login.html:15
+#: peeringdb_server/templates/site/register.html:34
 msgid "Username"
-msgstr ""
+msgstr "Nama Pengguna"
 
+#: peeringdb_server/templates/site/login.html:18
+#: peeringdb_server/templates/site/password-reset.html:42
+#: peeringdb_server/templates/site/register.html:41
+#: peeringdb_server/templates/site/verify.html:176
+#: peeringdb_server/templates/site/verify.html:204
 msgid "Password"
-msgstr ""
+msgstr "Kata sandi"
 
+#: peeringdb_server/templates/site/login.html:24
 msgid "I forgot my password .."
-msgstr ""
+msgstr "Saya lupa password saya .."
 
+#: peeringdb_server/templates/site/login.html:25
 msgid "I forgot my username .."
-msgstr ""
+msgstr "Saya lupa nama pengguna .."
 
+#: peeringdb_server/templates/site/oauth-login.html:6
 msgid "Login with oAuth"
-msgstr ""
+msgstr "Masuk dengan oAuth"
 
+#: peeringdb_server/templates/site/oauth-login.html:8
 msgid "Login with your google account"
-msgstr ""
+msgstr "Masuk dengan akun google"
 
+#: peeringdb_server/templates/site/oauth-login.html:9
 msgid "Login with your facebook account"
-msgstr ""
+msgstr "Masuk dengan akun facebook"
 
+#: peeringdb_server/templates/site/password-reset.html:15
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
-msgstr ""
+msgstr "Kita sudah mengirimkan instruksi ke surel yang anda masukkan. Anda punya waktu 30 menit untuk menyelesaikan prosesnya."
 
+#: peeringdb_server/templates/site/password-reset.html:19
+#: peeringdb_server/templates/site/register.html:62
+#: peeringdb_server/templates/site/username-retrieve.html:21
+#: peeringdb_server/templates/site/verify.html:169
+#: peeringdb_server/templates/site/view_network_bottom.html:149
+#: peeringdb_server/templates/site/view_organization_tools.html:499
+#: peeringdb_server/templates/site/view_organization_tools.html:545
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
+#: peeringdb_server/templates/site/password-reset.html:24
+#: peeringdb_server/templates/site/password-reset.html:55
 msgid "Reset Password"
-msgstr ""
+msgstr "Setel ulang kata sandi"
 
+#: peeringdb_server/templates/site/password-reset.html:33
 msgid "The password for your account"
-msgstr ""
+msgstr "Kata sandi untuk akun anda"
 
+#: peeringdb_server/templates/site/password-reset.html:33
 msgid "has been reset, proceed to the"
-msgstr ""
+msgstr "telah di setel ulang, silahkan lanjut ke"
 
+#: peeringdb_server/templates/site/password-reset.html:33
 msgid "login page"
-msgstr ""
+msgstr "layar login"
 
+#: peeringdb_server/templates/site/password-reset.html:49
 msgid "Verify Password"
-msgstr ""
+msgstr "Verifikasi Kata Sandi"
 
+#: peeringdb_server/templates/site/password-reset.html:61
 msgid "The security token you provided is invalid, please"
-msgstr ""
+msgstr "Token keamanan yg anda kirim tidak valid, silahkan"
 
+#: peeringdb_server/templates/site/password-reset.html:61
 msgid "try again"
-msgstr ""
+msgstr "coba lagi"
 
+#: peeringdb_server/templates/site/password-reset.html:63
 msgid "The password reset process has expired, please"
-msgstr ""
+msgstr "Proses setel ulang kata sandi telah kadaluarsa, silahkan"
 
+#: peeringdb_server/templates/site/password-reset.html:63
+#: peeringdb_server/views.py:605
 msgid "initiate again"
-msgstr ""
+msgstr "dicoba kembali"
 
+#: peeringdb_server/templates/site/register.html:11
 msgid "Account Created"
-msgstr ""
+msgstr "Akun dibuat"
 
+#: peeringdb_server/templates/site/register.html:13
 msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
-msgstr ""
+msgstr "Akun anda barusan dibuat, tapi belum mempunyai akses full sampai kita mereviewnya. Terima kasih."
 
+#: peeringdb_server/templates/site/register.html:16
 msgid "Return Home"
-msgstr ""
+msgstr "Kembali ke awal"
 
+#: peeringdb_server/templates/site/register.html:30
 msgid "Create account"
-msgstr ""
+msgstr "Buat akun"
 
+#: peeringdb_server/templates/site/register.html:48
 msgid "Confirm password"
-msgstr ""
+msgstr "Konfirmasi kata sandi"
 
+#: peeringdb_server/templates/site/register.html:55
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr ""
+msgstr "Untuk validasi yg cepat, diperlukan alamat surel kantor. Jika anda ingin mendaftarkan ASN anda ke PeeringDB, sangat direkomendasikan anda menggunakan surel yang ada di kontak publik di ASN anda."
 
+#: peeringdb_server/templates/site/register.html:69
 msgid "First name"
-msgstr ""
+msgstr "Nama depan"
 
+#: peeringdb_server/templates/site/register.html:75
 msgid "Last name"
-msgstr ""
+msgstr "Nama belakang"
 
+#: peeringdb_server/templates/site/register.html:81
+#: peeringdb_server/templates/site/view_organization_tools.html:612
 msgid "Create"
-msgstr ""
+msgstr "Buat"
 
+#: peeringdb_server/templates/site/request-ownership.html:15
+#: peeringdb_server/templates/site/request-ownership.html:23
 msgid "Thank you"
-msgstr ""
+msgstr "Terima kasih"
 
+#: peeringdb_server/templates/site/request-ownership.html:17
 #, python-format
 msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr ""
+msgstr "Kami telah menerima permintaan kepemilikan untuk %(o_name)s dan akan mereviewnya."
 
+#: peeringdb_server/templates/site/request-ownership.html:24
 msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr ""
+msgstr "Kami telah berhasil memverifikasi hubungan anda dengan entitas ini dan anda telah berhasil menjadi pemilik. Anda dapat melihat/sunting"
 
+#: peeringdb_server/templates/site/request-ownership.html:37
+#: peeringdb_server/templates/site/request-ownership.html:53
 msgid "Request Ownership"
-msgstr ""
+msgstr "Permintaan Kepemilikan"
 
+#: peeringdb_server/templates/site/request-ownership.html:48
 msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr ""
+msgstr "Apakah anda mempunyai hak untuk permintaan kepemilikan ini? Apakah anda akan melanjutkan?"
 
+#: peeringdb_server/templates/site/request-ownership.html:61
 msgid "Only verified users may request ownership to an organization"
-msgstr ""
+msgstr "Hanya pengguna yg terverifikasi yg bisa meminta kepemilikan organisasi"
 
-msgid "Suggest Exchange"
-msgstr ""
-
-msgid "Suggest Network"
-msgstr ""
-
+#: peeringdb_server/templates/site/sponsorships.html:71
 msgid "Become a Sponsor"
-msgstr ""
+msgstr "Menjadi Sponsor"
 
+#: peeringdb_server/templates/site/username-retrieve-complete.html:12
 msgid "These are the usernames associated with your email address"
-msgstr ""
+msgstr "Ini adalah nama pengguna yg diasosiasikan dengan surel anda"
 
+#: peeringdb_server/templates/site/username-retrieve-complete.html:21
 msgid "The secret you provided does not match the secret required to complete this process"
-msgstr ""
+msgstr "Secret yg anda masukkan tidak sama dengan secret yg diperlukan untuk menylesaikan proses ini"
 
+#: peeringdb_server/templates/site/username-retrieve-complete.html:23
 msgid "Note"
-msgstr ""
+msgstr "Catatan"
 
+#: peeringdb_server/templates/site/username-retrieve-complete.html:23
 msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr ""
+msgstr "Anda harus menyelesaikan proses ini di peramban yg sama dengan yg anda mulai proses ini."
 
+#: peeringdb_server/templates/site/username-retrieve-complete.html:25
 msgid "Please re-initiate it"
-msgstr ""
+msgstr "Tolong dicoba lagi"
 
+#: peeringdb_server/templates/site/username-retrieve.html:14
 msgid "This form allows you to retrieve the usernames associated with your email address."
-msgstr ""
+msgstr "Formulir ini dapat digunakan untuk mengambil nama pengguna yg berasosiasi dengan surel anda."
 
+#: peeringdb_server/templates/site/username-retrieve.html:17
 msgid "We've sent instructions to your email address, provided it is in our system."
-msgstr ""
+msgstr "Kami telah mengirimkan instruksi ke surel anda yang ada di data kami."
 
+#: peeringdb_server/templates/site/username-retrieve.html:26
 msgid "Retrieve username(s)"
-msgstr ""
+msgstr "Ambil nama pengguna"
 
+#: peeringdb_server/templates/site/verification_banner.html:6
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
-msgstr ""
+msgstr "Akun anda belum berafiliasi dengan Organisasi manapun, kareanya akan mempunyai akses yg terbatas (seperti kontak jaringan yg bukan umum)."
 
+#: peeringdb_server/templates/site/verification_banner.html:11
 msgid "Please take the time to confirm your email address and request affiliation"
-msgstr ""
+msgstr "Tolong konfirmasi surel anda dan sekalian mengurus afiliasi dengan organisasi anda"
 
+#: peeringdb_server/templates/site/verification_banner.html:14
 msgid "You may request affiliation to an Organization or ASN"
-msgstr ""
+msgstr "Anda dapat meminta afiliasi ke Organisasi atau ASN"
 
+#: peeringdb_server/templates/site/verify.html:17
 msgid "Select language"
-msgstr ""
+msgstr "Pilih bahasa"
 
+#: peeringdb_server/templates/site/verify.html:18
 msgid "Language preference saved"
-msgstr ""
+msgstr "Bahasa utama disimpan"
 
+#: peeringdb_server/templates/site/verify.html:30
 msgid "Set language preference"
-msgstr ""
+msgstr "Ganti bahasa utama"
 
+#: peeringdb_server/templates/site/verify.html:39
 msgid "You have confirmed your email address!"
-msgstr ""
+msgstr "Anda telah mengkonfirmasi surel anda!"
 
+#: peeringdb_server/templates/site/verify.html:43
 msgid "Attention!"
-msgstr ""
+msgstr "Perhatian!"
 
+#: peeringdb_server/templates/site/verify.html:45
 msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr ""
+msgstr "Tolong masukkan alamat surel untuk akun anda, kami tidak akan bisa melanjutkan proses verifikasi ini."
 
+#: peeringdb_server/templates/site/verify.html:48
 msgid "Email Confirmation"
-msgstr ""
+msgstr "Konfirmasi Surel"
 
+#: peeringdb_server/templates/site/verify.html:50
 msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr ""
+msgstr "Sebelum bisa mengakses ke fitur lainnya, anda harus mengkonfirmasi surel anda."
 
+#: peeringdb_server/templates/site/verify.html:51
 msgid "We have sent you a message containing the confirmation link."
-msgstr ""
+msgstr "Kami telah mengirimkan pesan yg berisi tautan konfirmasi."
 
+#: peeringdb_server/templates/site/verify.html:61
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr ""
+msgstr "Anda tidak akan mendapatkan full akses sampai kami atau organisasi yg berafiliasi dengan anda telah mereview akun anda. Terima kasih atas kesabarannya."
 
+#: peeringdb_server/templates/site/verify.html:75
 msgid "Affiliate with organization"
-msgstr ""
+msgstr "Afiliasi dengan organisasi"
 
+#: peeringdb_server/templates/site/verify.html:80
 #, python-format
 msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr ""
+msgstr "Afiliasi anda dengan %(ar_name) menunggu persetujuan."
 
+#: peeringdb_server/templates/site/verify.html:82
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
-msgstr ""
+msgstr "Afiliasi anda dengan %(ar_name) ditolak."
 
+#: peeringdb_server/templates/site/verify.html:84
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
-msgstr ""
+msgstr "Afiliasi anda dengan %(ar_name) telah disetujui"
 
+#: peeringdb_server/templates/site/verify.html:92
 msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr ""
+msgstr "Untuk berafiliasi dengan organisasi yg telah ada, silahkan masukkan ASN atau nama organisasi dibawah ini."
 
+#: peeringdb_server/templates/site/verify.html:96
 msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr ""
+msgstr "Untuk mendaftarkan jaringan baru, silahkan masukkan ASN atau nama organisasi dibawah ini."
 
+#: peeringdb_server/templates/site/verify.html:100
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr ""
+msgstr "Untuk mendaftarkan fasilitas atau exchange baru, silahkan masukkan nama organisasi dibawah ini (ASN tidak wajib)."
 
+#: peeringdb_server/templates/site/verify.html:118
 msgid "Affiliate"
-msgstr ""
+msgstr "Afiliasi"
 
+#: peeringdb_server/templates/site/verify.html:121
+#: peeringdb_server/templates/site/view_organization_tools.html:329
 msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr ""
+msgstr "Jika data RiR tidak dapat diambil untuk ASN anda, silahkan kontak ke"
 
+#: peeringdb_server/templates/site/verify.html:122
 msgid "for assistance"
-msgstr ""
+msgstr "untuk bantuan"
 
+#: peeringdb_server/templates/site/verify.html:126
 msgid "Existing affiliations"
-msgstr ""
+msgstr "Afiliasi saat ini"
 
+#: peeringdb_server/templates/site/verify.html:129
 msgid "Your affiliation with"
-msgstr ""
+msgstr "Afiliasi anda dengan"
 
+#: peeringdb_server/templates/site/verify.html:129
 msgid "has been approved"
-msgstr ""
+msgstr "telah disetujui"
 
+#: peeringdb_server/templates/site/verify.html:142
 msgid "Manage OAuth Applications"
-msgstr ""
+msgstr "Atur Aplikasi OAuth"
 
+#: peeringdb_server/templates/site/verify.html:157
 msgid "Change email address"
-msgstr ""
+msgstr "Ganti alamat surel"
 
+#: peeringdb_server/templates/site/verify.html:160
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr ""
+msgstr "Untuk validasi yg cepat, diperlukan alamat surel kerja anda. Jika anda berencana untuk mendaftarkan ASN anda dengan PeeringDB, sangat direkomendasikan untuk menggunakan alamat surle yg ada di informasi public untuk kontak ASN anda."
 
+#: peeringdb_server/templates/site/verify.html:181
 msgid "Change Email"
-msgstr ""
+msgstr "Ganti surel"
 
+#: peeringdb_server/templates/site/verify.html:192
 msgid "Change password"
-msgstr ""
+msgstr "Ganti password"
 
+#: peeringdb_server/templates/site/verify.html:193
 msgid "Password changed"
-msgstr ""
+msgstr "Password telah diganti"
 
+#: peeringdb_server/templates/site/verify.html:196
 msgid "Current Password"
-msgstr ""
+msgstr "Password saat ini"
 
+#: peeringdb_server/templates/site/verify.html:212
 msgid "Password Verification"
-msgstr ""
+msgstr "Verifikasi katasandi"
 
+#: peeringdb_server/templates/site/view.html:26
 msgid "Pending Review"
-msgstr ""
+msgstr "Review tertunda"
 
+#: peeringdb_server/templates/site/view.html:31
 msgid "Edit"
-msgstr ""
+msgstr "Sunting"
 
+#: peeringdb_server/templates/site/view.html:34
+#: peeringdb_server/templates/site/view.html:263
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
+#: peeringdb_server/templates/site/view.html:35
+#: peeringdb_server/templates/site/view.html:264
+#: peeringdb_server/templates/site/view_organization_tools.html:576
+#: peeringdb_server/templates/site/view_organization_tools.html:694
 msgid "Save"
-msgstr ""
+msgstr "Simpan"
 
+#: peeringdb_server/templates/site/view.html:56
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
-msgstr ""
+msgstr "Beberapa data ti halaman ini tidak lengkap, tolong perbarui isian yg ditandai dengan"
 
+#: peeringdb_server/templates/site/view.html:58
 msgid "to improve data quality"
-msgstr ""
+msgstr "untuk memperbaiki kualitas data"
 
+#: peeringdb_server/templates/site/view.html:216
 msgid "Address failed validation."
-msgstr ""
+msgstr "Alamat gagal di validasi."
 
+#: peeringdb_server/templates/site/view.html:218
 msgid "Geocoding error"
-msgstr ""
+msgstr "Error geocoding"
 
+#: peeringdb_server/templates/site/view.html:222
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
-msgstr ""
+msgstr "Data geocode untuk entitas ini tidak dapat diambil saat ini. Ini akan dilakukan otomatis saat pergantian isian alamat."
 
+#: peeringdb_server/templates/site/view.html:225
 msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr ""
+msgstr "Data geocode untuk entitas ini akan diperbaharui sesaat lagi"
 
+#: peeringdb_server/templates/site/view_exchange_assets.html:51
+#: peeringdb_server/templates/site/view_exchange_bottom.html:83
+#: peeringdb_server/templates/site/view_exchange_bottom.html:190
 msgid "IXF Member Export URL"
-msgstr ""
+msgstr "IXF Member Export URL"
 
+#: peeringdb_server/templates/site/view_exchange_assets.html:78
+#: peeringdb_server/templates/site/view_exchange_bottom.html:134
 msgid "Prefix"
-msgstr ""
+msgstr "Prefix"
 
+#: peeringdb_server/templates/site/view_exchange_assets.html:82
+#: peeringdb_server/templates/site/view_organization_tools.html:681
 msgid "Add"
-msgstr ""
+msgstr "Tambah"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:26
+#: peeringdb_server/templates/site/view_exchange_bottom.html:170
+#: peeringdb_server/views.py:1153
 msgid "DOT1Q"
-msgstr ""
+msgstr "DOT1Q"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:29
+#: peeringdb_server/templates/site/view_exchange_bottom.html:180
+#: peeringdb_server/views.py:1148
 msgid "MTU"
-msgstr ""
+msgstr "MTU"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:39
+#: peeringdb_server/templates/site/view_exchange_bottom.html:250
+#: peeringdb_server/templates/site/view_exchange_side.html:33
+#: peeringdb_server/templates/site/view_facility_bottom.html:30
+#: peeringdb_server/templates/site/view_facility_side.html:26
+#: peeringdb_server/templates/site/view_network_side.html:42
+#: peeringdb_server/templates/site/view_network_side.html:234
+#: peeringdb_server/templates/site/view_organization_side.html:39
+#: peeringdb_server/templates/site/view_organization_side.html:107
+#: peeringdb_server/templates/site/view_organization_side.html:175
 msgid "Nothing matched your filter"
-msgstr ""
+msgstr "Tidak ada yg sesuai dengan filter anda"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:40
+#: peeringdb_server/templates/site/view_exchange_bottom.html:251
+#: peeringdb_server/templates/site/view_exchange_side.html:36
+#: peeringdb_server/templates/site/view_facility_bottom.html:31
+#: peeringdb_server/templates/site/view_facility_side.html:27
+#: peeringdb_server/templates/site/view_network_side.html:43
+#: peeringdb_server/templates/site/view_network_side.html:235
+#: peeringdb_server/templates/site/view_organization_side.html:40
+#: peeringdb_server/templates/site/view_organization_side.html:108
+#: peeringdb_server/templates/site/view_organization_side.html:176
 msgid "You may filter by"
-msgstr ""
+msgstr "Anda dapat memfilter dengan"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:40
 msgid "dot1q"
-msgstr ""
+msgstr "dot1q"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:44
 msgid "IXLAN"
-msgstr ""
+msgstr "IXLAN"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:44
 msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr ""
+msgstr "PERHATIAN: Semua hubungan jaringan ke exchange via LAN ini akan dihapus semua"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:97
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "IXLAN Prefix"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:138
 msgid "Add Prefix"
-msgstr ""
+msgstr "Tambahkan Prefix"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:202
 msgid "Add LAN"
-msgstr ""
+msgstr "Tambah LAN"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:234
+#: peeringdb_server/templates/site/view_exchange_bottom.html:251
+#: peeringdb_server/templates/site/view_exchange_bottom.html:291
+#: peeringdb_server/templates/site/view_network_side.html:219
+#: peeringdb_server/templates/site/view_network_side.html:235
+#: peeringdb_server/templates/site/view_network_side.html:278
 msgid "Facility"
-msgstr ""
+msgstr "Fasilitas"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:256
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "Exchange - Link fasilitas"
 
+#: peeringdb_server/templates/site/view_exchange_bottom.html:303
+#: peeringdb_server/templates/site/view_network_side.html:290
+#: peeringdb_server/templates/site/view_organization_tools.html:10
 msgid "Add Facility"
-msgstr ""
+msgstr "Tambah fasilitas"
 
+#: peeringdb_server/templates/site/view_exchange_side.html:17
+#: peeringdb_server/templates/site/view_facility_side.html:16
+#: peeringdb_server/templates/site/view_facility_side.html:27
 msgid "Peer Name"
-msgstr ""
+msgstr "Nama peer"
 
+#: peeringdb_server/templates/site/view_exchange_side.html:25
+#: peeringdb_server/templates/site/view_exchange_side.html:38
+#: peeringdb_server/templates/site/view_network_side.html:31
+#: peeringdb_server/templates/site/view_network_side.html:43
 msgid "Speed"
-msgstr ""
+msgstr "Kecepatan"
 
+#: peeringdb_server/templates/site/view_exchange_side.html:37
+#: peeringdb_server/templates/site/view_facility_bottom.html:17
+#: peeringdb_server/templates/site/view_facility_bottom.html:31
+#: peeringdb_server/templates/site/view_network_side.html:23
+#: peeringdb_server/templates/site/view_network_side.html:43
+#: peeringdb_server/templates/site/view_network_side.html:123
+#: peeringdb_server/templates/site/view_organization_side.html:181
 msgid "Exchange"
-msgstr ""
+msgstr "Exchange"
 
+#: peeringdb_server/templates/site/view_exchange_side.html:38
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
+#: peeringdb_server/templates/site/view_facility_bottom.html:20
+#: peeringdb_server/templates/site/view_facility_bottom.html:31
+#: peeringdb_server/views.py:1047
 msgid "Long Name"
-msgstr ""
+msgstr "Nama panjang"
 
+#: peeringdb_server/templates/site/view_network_bottom.html:21
+#: peeringdb_server/templates/site/view_network_bottom.html:198
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
-msgstr ""
+msgstr "Beberapa kontak dari jaringan ini tersembunyi karena cuma tersedia untuk user yang sudah masuk dan saat ini anda belum masuk."
 
+#: peeringdb_server/templates/site/view_network_bottom.html:23
+#: peeringdb_server/templates/site/view_network_bottom.html:200
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
-msgstr ""
+msgstr "Beberapa kontak dari jaringan ini tersembunyi karena akun anda tidak berafiliasi dengan organisasi manapun."
 
+#: peeringdb_server/templates/site/view_network_bottom.html:32
+#: peeringdb_server/templates/site/view_network_bottom.html:129
 msgid "Role"
-msgstr ""
+msgstr "Role"
 
+#: peeringdb_server/templates/site/view_network_bottom.html:40
 msgid "Visiblity"
-msgstr ""
+msgstr "Visibilitas"
 
+#: peeringdb_server/templates/site/view_network_bottom.html:45
+#: peeringdb_server/templates/site/view_network_bottom.html:158
 msgid "Phone"
-msgstr ""
+msgstr "Telepon"
 
+#: peeringdb_server/templates/site/view_network_bottom.html:48
 msgid "E-Mail"
-msgstr ""
+msgstr "Surel"
 
+#: peeringdb_server/templates/site/view_network_bottom.html:167
 msgid "Visibility"
-msgstr ""
+msgstr "Visibilitas"
 
+#: peeringdb_server/templates/site/view_network_bottom.html:180
 msgid "Add Contact"
-msgstr ""
+msgstr "Tambah kontak"
 
+#: peeringdb_server/templates/site/view_network_side.html:15
 msgid "Public Peering Exchange Points"
-msgstr ""
+msgstr "Public Peering Exchange Points"
 
+#: peeringdb_server/templates/site/view_network_side.html:32
+#: peeringdb_server/templates/site/view_network_side.html:176
 msgid "RS Peer"
-msgstr ""
+msgstr "RS Peer"
 
+#: peeringdb_server/templates/site/view_network_side.html:48
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "Jaringan - Exchange link"
 
+#: peeringdb_server/templates/site/view_network_side.html:134
 msgid "Local ASN"
-msgstr ""
+msgstr "ASN Lokal"
 
+#: peeringdb_server/templates/site/view_network_side.html:165
 msgid "Speed (mbit/sec)"
-msgstr ""
+msgstr "Kecepatan (mbit/sec)"
 
+#: peeringdb_server/templates/site/view_network_side.html:189
 msgid "Add Exchange Point"
-msgstr ""
+msgstr "Tambah Exchange Point"
 
+#: peeringdb_server/templates/site/view_organization_assets.html:33
 msgid "member"
-msgstr ""
+msgstr "anggota"
 
+#: peeringdb_server/templates/site/view_organization_assets.html:36
+#: peeringdb_server/templates/site/view_organization_tools.html:569
 msgid "Remove"
-msgstr ""
+msgstr "Hapus"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:3
 msgid "Manage"
-msgstr ""
+msgstr "Kelola"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:17
 msgid "Add Network"
-msgstr ""
+msgstr "Tambah Jaringan"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:24
 msgid "Add Exchange"
-msgstr ""
+msgstr "Tambah Exchange"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:37
 msgid "Permissions"
-msgstr ""
+msgstr "Perizinan"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:70
+#: peeringdb_server/templates/site/view_organization_tools.html:184
+#: peeringdb_server/templates/site/view_organization_tools.html:366
+#: peeringdb_server/views.py:846 peeringdb_server/views.py:956
 msgid "Website"
-msgstr ""
+msgstr "Website"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:78
+#: peeringdb_server/views.py:849 peeringdb_server/views.py:959
 msgid "Address 1"
-msgstr ""
+msgstr "Alamat 1"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:87
+#: peeringdb_server/views.py:854 peeringdb_server/views.py:963
 msgid "Address 2"
-msgstr ""
+msgstr "Alamat 2"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:112
 msgid "Zip-Code"
-msgstr ""
+msgstr "Kodepos"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:134
+#: peeringdb_server/views.py:983
 msgid "CLLI Code"
-msgstr ""
+msgstr "Kode CLLI"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:201
+#: peeringdb_server/views.py:1253
 msgid "IRR Record"
-msgstr ""
+msgstr "IRR"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:228
+#: peeringdb_server/views.py:1299
 msgid "Traffic Ratios"
-msgstr ""
+msgstr "Rasio Trafik"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:246
+#: peeringdb_server/templates/site/view_organization_tools.html:414
+#: peeringdb_server/views.py:1076 peeringdb_server/views.py:1314
 msgid "Unicast IPv4"
-msgstr ""
+msgstr "Unicast IPv4"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:254
+#: peeringdb_server/templates/site/view_organization_tools.html:422
+#: peeringdb_server/views.py:1080 peeringdb_server/views.py:1318
 msgid "Multicast"
-msgstr ""
+msgstr "Multicast"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:268
 msgid "Policy URL"
-msgstr ""
+msgstr "URL Kebijakan"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:287
+#: peeringdb_server/views.py:1371
 msgid "Multiple Locations"
-msgstr ""
+msgstr "Beberapa Lokasi"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:297
+#: peeringdb_server/views.py:1377
 msgid "Ratio Requirement"
-msgstr ""
+msgstr "Kebutuhan rasio"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:305
+#: peeringdb_server/views.py:1385
 msgid "Contract Requirement"
-msgstr ""
+msgstr "Kebutuhan kontrak"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:318
 msgid "Add a new Network to your Organization."
-msgstr ""
+msgstr "Tambah jaringan baru ke organsiasi anda"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:319
 msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
-msgstr ""
+msgstr "Kami akan mencoba memeriksa secara otomatis hubungan anda ke jaringan ini dengan memeriksa alamat surel dalam entri ASN di RiR."
 
+#: peeringdb_server/templates/site/view_organization_tools.html:321
 msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr ""
+msgstr "Jika pemeriksaan gagal, maka jaringan harus menunggu untuk di setujui oleh staff PeeringDB sebelum bisa muncul dalam hasil pencarian atau hasil API."
 
+#: peeringdb_server/templates/site/view_organization_tools.html:325
 msgid "Submit Network"
-msgstr ""
+msgstr "Kirim Jaringan"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:331
 msgid "for assistance with the creation of your network in PeeringDB."
-msgstr ""
+msgstr "untuk bantuan dengan pembuatan jaringan baru di PeeringDB."
 
+#: peeringdb_server/templates/site/view_organization_tools.html:437
+#: peeringdb_server/views.py:1104
 msgid "Traffic Stats Website"
-msgstr ""
+msgstr "Website Statistik Trafik"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:444
 msgid "Technical E-mail"
-msgstr ""
+msgstr "Surel Teknis"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:451
+#: peeringdb_server/views.py:1114
 msgid "Technical Phone"
-msgstr ""
+msgstr "Telepon Teknis"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:458
 msgid "Policy E-mail"
-msgstr ""
+msgstr "Surel kebijakan"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:465
+#: peeringdb_server/views.py:1124
 msgid "Policy Phone"
-msgstr ""
+msgstr "Telepon kebijakan"
 
-msgid "IPv4 or IPv6 prefix"
-msgstr ""
-
+#: peeringdb_server/templates/site/view_organization_tools.html:500
 msgid "Confirmed"
-msgstr ""
+msgstr "Dikonfirmasi"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:502
 msgid "Date"
-msgstr ""
+msgstr "Tanggal"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:527
 msgid "Currently no users requesting affiliation with"
-msgstr ""
+msgstr "Saat ini tidak ada pengguna yg meminta untuk afiliasi"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:547
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:588
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr ""
+msgstr "Disini anda bisa menyetujui untuk pengguna biasa dari organisasi anda. User admin tidak ditampilkan disini."
 
+#: peeringdb_server/templates/site/view_organization_tools.html:593
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr ""
+msgstr "Selain itu, entitas yang menunggu review tidak dapat dilihat pengguna, dan tidak akan muncul dalam daftar entitas."
 
+#: peeringdb_server/templates/site/view_organization_tools.html:615
 msgid "Update"
-msgstr ""
+msgstr "Perbarui"
 
+#: peeringdb_server/templates/site/view_organization_tools.html:618
 msgid "Delete"
-msgstr ""
+msgstr "Hapus"
 
-msgid "Thank you for your suggestion."
-msgstr ""
-
-msgid "Suggest another facility"
-msgstr ""
-
-msgid "Only verified users may suggest entities."
-msgstr ""
-
-msgid "Suggest another exchange"
-msgstr ""
-
-msgid "Suggest another network"
-msgstr ""
-
+#: peeringdb_server/templatetags/util.py:80
 msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr ""
+msgstr "Alamat email Anda tidak cocok informasi domain yang kita miliki di file untuk organisasi ini."
 
+#: peeringdb_server/templatetags/util.py:139
 msgid "seconds ago"
-msgstr ""
+msgstr "detik lalu"
 
+#: peeringdb_server/templatetags/util.py:141
 msgid "minutes ago"
-msgstr ""
+msgstr "menit yang lalu"
 
+#: peeringdb_server/templatetags/util.py:143
 msgid "hours ago"
-msgstr ""
+msgstr "jam yang lalu"
 
+#: peeringdb_server/templatetags/util.py:145
 msgid "days ago"
-msgstr ""
+msgstr "hari yang lalu"
 
+#: peeringdb_server/validators.py:29
 msgid "Invalid prefix: {}"
-msgstr ""
+msgstr "Prefiks tidak valid: {}"
 
+#: peeringdb_server/validators.py:32
 msgid "Address space invalid: {}"
-msgstr ""
+msgstr "Address space tidak valid: {}"
 
+#: peeringdb_server/validators.py:38 peeringdb_server/validators.py:47
 msgid "Maximum value allowed {}"
-msgstr ""
+msgstr "Nilai maksimum yg diijinkan {}"
 
+#: peeringdb_server/validators.py:41 peeringdb_server/validators.py:51
 msgid "Negative value not allowed"
-msgstr ""
+msgstr "Nilai negatif tidak diperbolehkan"
 
+#: peeringdb_server/views.py:162 peeringdb_server/views.py:190
 msgid "Please wait a bit before requesting ownership again."
-msgstr ""
+msgstr "Mohon tunggu beberapa waktu sebelum meminta kepemilikan lagi"
 
+#: peeringdb_server/views.py:169
 msgid "Invalid organization"
-msgstr ""
+msgstr "Organisasi tidak valid"
 
+#: peeringdb_server/views.py:173 peeringdb_server/views.py:204
 #, python-format
 msgid "Organization '%(org_name)s' is already under ownership"
-msgstr ""
+msgstr "Organisasi '%(org_name)s' sudah dalam kepemilikan anda"
 
+#: peeringdb_server/views.py:198
 msgid "Organization does not exist"
-msgstr ""
+msgstr "Organisasi tidak ada"
 
+#: peeringdb_server/views.py:215
 msgid "You already have an ownership request pending for this organization"
-msgstr ""
+msgstr "Anda sudah masuk ke daftar tunggu kepemilikan untuk organisasi ini"
 
+#: peeringdb_server/views.py:245
 msgid "Please wait a bit before requesting affiliation again."
-msgstr ""
+msgstr "Mohon tunggu beberapa waktu sebelum meminta afiliasi kembali."
 
+#: peeringdb_server/views.py:256 peeringdb_server/views.py:257
 msgid "Either ASN or Organization required"
-msgstr ""
+msgstr "Memerlukan ASN atau Nama Organisasi"
 
-msgid "RDAP Lookup Error: {}"
-msgstr ""
+#: peeringdb_server/views.py:267 peeringdb_server/views.py:284
+msgid "Could not retrieve RiR entry"
+msgstr "Tidak dapat memeriksa daftar di RiR"
 
+#: peeringdb_server/views.py:302
 msgid "Please wait a bit before trying to resend the confirmation email again"
-msgstr ""
+msgstr "Mohon tunggu beberapa saat sebelum meminta kirim ulang surel konfirmasi"
 
+#: peeringdb_server/views.py:311
 msgid "We have resent your confirmation email"
-msgstr ""
+msgstr "Kami telah mengirimkan surel konfirmasi anda"
 
+#: peeringdb_server/views.py:424
 msgid "Please wait a bit before requesting another email change"
-msgstr ""
+msgstr "Mohon tunggu beberapa saat sebelum meminta perubahan surel kembali"
 
+#: peeringdb_server/views.py:442
 msgid "E-mail already exists in our system"
-msgstr ""
+msgstr "Surel (Surat Elektronik) telah ada di sistem kami"
 
+#: peeringdb_server/views.py:470
 msgid "Wrong password"
-msgstr ""
+msgstr "Kata sandi salah"
 
+#: peeringdb_server/views.py:511
 msgid "Please wait a bit before requesting your usernames again."
-msgstr ""
+msgstr "Mohon tunggu beberapa waktu sebelum meminta nama pengguna kembali."
 
+#: peeringdb_server/views.py:602
 msgid "Invalid Security Token"
-msgstr ""
+msgstr "Token Keamanan tidak valid"
 
+#: peeringdb_server/views.py:604
 msgid "Password Reset Process has expired, please"
-msgstr ""
+msgstr "Proses ubah kata sandi telah kadaluwarsa, tolong"
 
+#: peeringdb_server/views.py:653
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr ""
+msgstr "Mohon untuk keluar dari sesi saat ini sebelum mencoba untuk mendaftar. Catatan, akun ganda saat ini tidak diperbolehkan."
 
+#: peeringdb_server/views.py:681
 msgid "reCAPTCHA invalid"
-msgstr ""
+msgstr "reCaptcha tidak valid"
 
+#: peeringdb_server/views.py:687
 msgid "This email address has already been used"
-msgstr ""
+msgstr "Surel ini sudah dipakai"
 
+#: peeringdb_server/views.py:721
 msgid "Already logged in"
-msgstr ""
+msgstr "Sudah login"
 
+#: peeringdb_server/views.py:858 peeringdb_server/views.py:967
 msgid "Location"
-msgstr ""
+msgstr "Lokasi"
 
+#: peeringdb_server/views.py:866 peeringdb_server/views.py:974
 msgid "Country Code"
-msgstr ""
+msgstr "Kode Negara"
 
+#: peeringdb_server/views.py:871 peeringdb_server/views.py:991
+#: peeringdb_server/views.py:1089 peeringdb_server/views.py:1332
 msgid "Notes"
-msgstr ""
+msgstr "Catatan"
 
+#: peeringdb_server/views.py:872 peeringdb_server/views.py:992
+#: peeringdb_server/views.py:1090 peeringdb_server/views.py:1333
 msgid "Markdown enabled"
-msgstr ""
+msgstr "Markdown Aktif"
 
+#: peeringdb_server/views.py:978
 msgid "Geocode"
-msgstr ""
+msgstr "Geocode"
 
+#: peeringdb_server/views.py:1073 peeringdb_server/views.py:1311
 msgid "Protocols Supported"
-msgstr ""
+msgstr "Protokol yang didukung"
 
+#: peeringdb_server/views.py:1095
 msgid "Contact Information"
-msgstr ""
+msgstr "Kontak"
 
+#: peeringdb_server/views.py:1099 peeringdb_server/views.py:1242
 msgid "Company Website"
-msgstr ""
+msgstr "Website"
 
+#: peeringdb_server/views.py:1109
 msgid "Technical Email"
-msgstr ""
+msgstr "Surel Teknis"
 
+#: peeringdb_server/views.py:1119
 msgid "Policy Email"
-msgstr ""
+msgstr "Surel Kebijakan"
 
+#: peeringdb_server/views.py:1144
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
+#: peeringdb_server/views.py:1237
 msgid "Also Known As"
-msgstr ""
+msgstr "Juga Dikenal Sebagai"
 
+#: peeringdb_server/views.py:1259
 msgid "Route Server URL"
-msgstr ""
+msgstr "URL Route Server"
 
+#: peeringdb_server/views.py:1265
 msgid "Looking Glass URL"
-msgstr ""
+msgstr "URL Looking Glass"
 
+#: peeringdb_server/views.py:1278
 msgid "IPv4 Prefixes"
-msgstr ""
+msgstr "Prefiks IPv4"
 
+#: peeringdb_server/views.py:1284
 msgid "IPv6 Prefixes"
-msgstr ""
+msgstr "Prefiks IPv6"
 
+#: peeringdb_server/views.py:1328
 msgid "Last Updated"
-msgstr ""
+msgstr "Terakhir diperbaharui"
 
+#: peeringdb_server/views.py:1339
 msgid "PeeringDB Configuration"
-msgstr ""
+msgstr "Konfigurasi PeeringDB"
 
+#: peeringdb_server/views.py:1343
 msgid "Allow IXP Update"
-msgstr ""
+msgstr "Izinkan Pembaruan oleh IXP"
 
+#: peeringdb_server/views.py:1345
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
-msgstr ""
+msgstr "Jika diaktifkan, ixp bisa mengelola entri ini di daftar peering mereka"
 
+#: peeringdb_server/views.py:1354
 msgid "Peering Policy Information"
-msgstr ""
+msgstr "Informasi Kebijakan Peering"
 
+#: peeringdb_server/views.py:1357
 msgid "Peering Policy"
-msgstr ""
+msgstr "Kebijakan Peering"
 
+#: peeringdb_server/views.py:1537
 msgid "Please wait a bit before trying to login again."
-msgstr ""
+msgstr "Mohon tunggu beberapa saat, sebelum mencoba login kembali."
 
+#: peeringdb_server/views.py:1562
 msgid "Account disabled."
-msgstr ""
+msgstr "Akun nonaktif."
 
+#: peeringdb_server/views.py:1563
 msgid "Invalid username/password."
-msgstr ""
+msgstr "Nama Pengguna/Password salah."
+
+#: tests/django_init.py:62
+msgid "English"
+msgstr "Bahasa Inggris"
+
+#: tests/django_init.py:63
+msgid "Portuguese"
+msgstr "Portugis"
+
+#: tests/django_init.py:82
+msgid "Kosovo"
+msgstr "Kosovo"
