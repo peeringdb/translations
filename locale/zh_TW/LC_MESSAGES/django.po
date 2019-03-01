@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 01:54+0000\n"
+"POT-Creation-Date: 2019-03-01 02:46+0000\n"
 "PO-Revision-Date: 2019-03-01 02:45+0000\n"
 "Last-Translator: Wu Zhiyuan <bgp@wuzhiyuan.com>\n"
-"Language-Team: Chinese (Traditional) <https://translate.peeringdb.com/"
-"projects/peeringdb/server/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://translate.peeringdb.com/projects/peeringdb/server/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -346,6 +345,12 @@ msgstr "只有 POST 請求被允許。"
 msgid "{} (Preview)"
 msgstr "{} (預覽)"
 
+msgid "This command is already waiting / running - please wait for it to finish before executing it again"
+msgstr ""
+
+msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
+msgstr ""
+
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 msgstr "原始首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"
 
@@ -360,6 +365,18 @@ msgstr "目標設施"
 
 msgid "Undo this merge"
 msgstr "撤銷合併"
+
+msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
+msgstr ""
+
+msgid "Load data from peeringdb API"
+msgstr ""
+
+msgid "Restore this object - search by [reftag] [id]"
+msgstr ""
+
+msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
 
 msgid "Yes"
 msgstr "是"
@@ -381,6 +398,9 @@ msgstr "至少 10 個字元長"
 
 msgid "Passwords need to match"
 msgstr "密碼沒有匹配"
+
+msgid "ASNs in this range are not allowed in this environment"
+msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 合併通知: {} -> {}"
@@ -411,6 +431,12 @@ msgstr "合併設施"
 
 msgid "Merge Facilities: UNDO"
 msgstr "合併設施：撤銷"
+
+msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Reset Environment"
+msgstr ""
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "此物件的經緯度是否已與其位址欄位同步"
@@ -616,6 +642,12 @@ msgstr "運行命令的用戶"
 msgid "command was run at this date and time"
 msgstr "運行命令的時間"
 
+msgid "Done"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
 msgid "Organization and all Entities it owns"
 msgstr "組織及其擁有的實體"
 
@@ -776,9 +808,7 @@ msgstr "網路 %(n_name)s（%(n_id)s）在用戶 %(u_name)s 請求關聯AS%(asn)
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgstr ""
-"使用者 %(u_name)s 在組織 %(o_name)s（%(o_id)s） 下創建網路 %(n_name)s 及 "
-"AS%(n_asn)s（%(n_id)s）。"
+msgstr "使用者 %(u_name)s 在組織 %(o_name)s（%(o_id)s） 下創建網路 %(n_name)s 及 AS%(n_asn)s（%(n_id)s）。"
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "由於使用者的 Email 位址與 RIR 資料匹配，該網路已跳過驗證。"
@@ -898,6 +928,30 @@ msgstr "請提供下面的 URL 查看與您的 Email 關聯的用戶名。"
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "如果您未請求用戶名查找，請忽略此郵件。"
 
+msgid "Our Culture"
+msgstr ""
+
+msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
+msgstr ""
+
+msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
+msgstr ""
+
+msgid "I’m a network operator. How can PeeringDB help me?"
+msgstr ""
+
+msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
+msgstr ""
+
+msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
+msgstr ""
+
+msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
+msgstr ""
+
+msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
+msgstr ""
+
 msgid "Address"
 msgstr "地址"
 
@@ -1006,9 +1060,7 @@ msgstr "設施"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
-msgstr ""
-"將新的 %(entity_name)s 添加到您的組織。請注意，新創建的 %(entity_name)s 將在 PeeringDB "
-"員工批准後顯示在搜索結果和 API 列表中"
+msgstr "將新的 %(entity_name)s 添加到您的組織。請注意，新創建的 %(entity_name)s 將在 PeeringDB 員工批准後顯示在搜索結果和 API 列表中"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "為了在 PeeringDB 中列為設施，我們希望您向公眾提供主機託管，資料中心和/或 meet-me-room 服務。"
@@ -1027,8 +1079,7 @@ msgstr "提交"
 
 #, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr ""
-"建議將 %(entity_name)s 添加到資料庫。您的建議將被 PeeringDB 管理員審核。在最終確定它是否並進入資料庫前，您無需採取進一步行動。"
+msgstr "建議將 %(entity_name)s 添加到資料庫。您的建議將被 PeeringDB 管理員審核。在最終確定它是否並進入資料庫前，您無需採取進一步行動。"
 
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr "為了獲得批准，我們希望您建議的設施向公眾提供主機託管，資料中心和/或 meet-me-room 服務。"
@@ -1063,6 +1114,9 @@ msgstr "可接受使用政策"
 msgid "Privacy Policy"
 msgstr "隱私政策"
 
+msgid "About"
+msgstr ""
+
 msgid "Sponsors"
 msgstr "贊助商"
 
@@ -1071,6 +1125,9 @@ msgstr "合作夥伴"
 
 msgid "Resources"
 msgstr "資源"
+
+msgid "FAQ"
+msgstr ""
 
 msgid "Documentation"
 msgstr "文檔"
@@ -1084,20 +1141,15 @@ msgstr "聯繫我們"
 msgid "Global System Statistics"
 msgstr "全球系統統計"
 
-msgid "Peering Networks"
-msgstr "對等的網路"
+#, fuzzy
+#| msgid "Suggest Exchange"
+msgid "Connections to Exchanges"
+msgstr "建議的交換點"
 
-msgid "Public Exchange Points"
-msgstr "公共交換點"
-
-msgid "Unique Public Exchange Presences"
-msgstr "獨特的公共交換點存在"
-
-msgid "Private Facilities"
+#, fuzzy
+#| msgid "Private Facilities"
+msgid "Connections to Facilities"
 msgstr "私有設施"
-
-msgid "Private Facility Presences"
-msgstr "私有設施存在"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "在此搜索網路、IX或設施。"
@@ -1129,44 +1181,26 @@ msgstr "或"
 msgid "Login"
 msgstr "登陸"
 
-msgid "PeeringDB facilitates the exchange of information related to Peering."
-msgstr "PeeringDB 有助於交換與對等（Peering）相關的資訊。"
+msgid "The Interconnection Database"
+msgstr ""
 
-msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
-msgstr "具體來說，我們是一個有關網路對等及其位置、偏好資訊的資料庫。如果您不知道對等是什麼，或者您目前沒有進行對等，它可能對您幫助不大。"
+msgid "Join. Search. Grow your network."
+msgstr ""
 
-msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
-msgstr "您正在查看資料的唯讀視圖。如果您是想要創建帳戶的對等網路，"
+msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
+msgstr ""
 
-msgid "you may register for one here"
-msgstr "你可以在此註冊一個"
+msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
+msgstr ""
 
-msgid "Please register ONLY if you are a peering network."
-msgstr "請當您是對等網路時註冊。"
+msgid "Learn more"
+msgstr ""
 
-msgid "You may also"
-msgstr "您頁可以"
+msgid "about"
+msgstr ""
 
-msgid "reset lost passwords here"
-msgstr "在此重置密碼"
-
-msgid "Still have questions?"
-msgstr "還有問題？"
-
-msgid "Read our FAQ"
-msgstr "閱讀我們的 FAQ"
-
-msgid "MOST RECENT UPDATES"
-msgstr "最近更新"
-
-msgid "NETWORKS"
-msgstr "網路"
-
-msgid "FACILITIES"
-msgstr "設施"
-
-msgid "EXCHANGES"
-msgstr "交換點"
+msgid "Most Recent Updates"
+msgstr ""
 
 msgid "Username"
 msgstr "用戶名"
@@ -1180,13 +1214,25 @@ msgstr "忘記密碼.."
 msgid "I forgot my username .."
 msgstr "忘記用戶名.."
 
+#, fuzzy
+#| msgid "Maintenance"
+msgid "Maintenance Mode"
+msgstr "維護"
+
+msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+msgstr ""
+
 msgid "Login with oAuth"
 msgstr "通過 oAuth 登陸"
 
-msgid "Login with your google account"
+#, fuzzy
+#| msgid "Login with your google account"
+msgid "Login with your Google account"
 msgstr "使用 Google 帳號登陸"
 
-msgid "Login with your facebook account"
+#, fuzzy
+#| msgid "Login with your facebook account"
+msgid "Login with your Facebook account"
 msgstr "使用 Facebook 帳號登陸"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
@@ -1238,9 +1284,7 @@ msgid "Confirm password"
 msgstr "確認密碼"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr ""
-"為了快速驗證，您需要使用工作用 Email 位址。如您計畫在 PeeringDB 上註冊 ASN ，建議您使用 ASN 公共聯繫方式中存在的 Emali "
-"位址。"
+msgstr "為了快速驗證，您需要使用工作用 Email 位址。如您計畫在 PeeringDB 上註冊 ASN ，建議您使用 ASN 公共聯繫方式中存在的 Emali 位址。"
 
 msgid "First name"
 msgstr "姓"
@@ -1278,6 +1322,9 @@ msgstr "建議的網路"
 
 msgid "Become a Sponsor"
 msgstr "成為贊助商"
+
+msgid "This server is running in TUTORIAL MODE"
+msgstr ""
 
 msgid "These are the usernames associated with your email address"
 msgstr "這是與您的 Email 位址關聯的用戶名"
@@ -1391,9 +1438,7 @@ msgid "Change email address"
 msgstr "修改 Email 地址"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr ""
-"為了快速驗證，您需要使用工作用 Email 位址。如您計畫在 PeeringDB 上註冊 ASN ，建議您使用 ASN 公共聯繫方式中存在的 Emali "
-"位址。"
+msgstr "為了快速驗證，您需要使用工作用 Email 位址。如您計畫在 PeeringDB 上註冊 ASN ，建議您使用 ASN 公共聯繫方式中存在的 Emali 位址。"
 
 msgid "Change Email"
 msgstr "修改 Email"
@@ -1836,3 +1881,54 @@ msgstr "帳戶已禁用。"
 
 msgid "Invalid username/password."
 msgstr "無效的用戶名/密碼。"
+
+#~ msgid "Peering Networks"
+#~ msgstr "對等的網路"
+
+#~ msgid "Public Exchange Points"
+#~ msgstr "公共交換點"
+
+#~ msgid "Unique Public Exchange Presences"
+#~ msgstr "獨特的公共交換點存在"
+
+#~ msgid "Private Facility Presences"
+#~ msgstr "私有設施存在"
+
+#~ msgid "PeeringDB facilitates the exchange of information related to Peering."
+#~ msgstr "PeeringDB 有助於交換與對等（Peering）相關的資訊。"
+
+#~ msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
+#~ msgstr "具體來說，我們是一個有關網路對等及其位置、偏好資訊的資料庫。如果您不知道對等是什麼，或者您目前沒有進行對等，它可能對您幫助不大。"
+
+#~ msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
+#~ msgstr "您正在查看資料的唯讀視圖。如果您是想要創建帳戶的對等網路，"
+
+#~ msgid "you may register for one here"
+#~ msgstr "你可以在此註冊一個"
+
+#~ msgid "Please register ONLY if you are a peering network."
+#~ msgstr "請當您是對等網路時註冊。"
+
+#~ msgid "You may also"
+#~ msgstr "您頁可以"
+
+#~ msgid "reset lost passwords here"
+#~ msgstr "在此重置密碼"
+
+#~ msgid "Still have questions?"
+#~ msgstr "還有問題？"
+
+#~ msgid "Read our FAQ"
+#~ msgstr "閱讀我們的 FAQ"
+
+#~ msgid "MOST RECENT UPDATES"
+#~ msgstr "最近更新"
+
+#~ msgid "NETWORKS"
+#~ msgstr "網路"
+
+#~ msgid "FACILITIES"
+#~ msgstr "設施"
+
+#~ msgid "EXCHANGES"
+#~ msgstr "交換點"

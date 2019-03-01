@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 01:54+0000\n"
+"POT-Creation-Date: 2019-03-01 02:46+0000\n"
 "PO-Revision-Date: 2019-03-01 02:45+0000\n"
 "Last-Translator: Christoffer Hansen <christoffer@peeringdb.com>\n"
-"Language-Team: Danish <https://translate.peeringdb.com/projects/peeringdb/"
-"server/da/>\n"
+"Language-Team: Danish <https://translate.peeringdb.com/projects/peeringdb/server/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -346,6 +345,12 @@ msgstr ""
 msgid "{} (Preview)"
 msgstr ""
 
+msgid "This command is already waiting / running - please wait for it to finish before executing it again"
+msgstr ""
+
+msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
+msgstr ""
+
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 msgstr ""
 
@@ -359,6 +364,18 @@ msgid "Target facility"
 msgstr ""
 
 msgid "Undo this merge"
+msgstr ""
+
+msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
+msgstr ""
+
+msgid "Load data from peeringdb API"
+msgstr ""
+
+msgid "Restore this object - search by [reftag] [id]"
+msgstr ""
+
+msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
 
 msgid "Yes"
@@ -380,6 +397,9 @@ msgid "Needs to be at least 10 characters long"
 msgstr ""
 
 msgid "Passwords need to match"
+msgstr ""
+
+msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
@@ -410,6 +430,12 @@ msgid "Merge Facilities"
 msgstr ""
 
 msgid "Merge Facilities: UNDO"
+msgstr ""
+
+msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Reset Environment"
 msgstr ""
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
@@ -614,6 +640,12 @@ msgid "the user that ran this command"
 msgstr ""
 
 msgid "command was run at this date and time"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Running"
 msgstr ""
 
 msgid "Organization and all Entities it owns"
@@ -896,6 +928,30 @@ msgstr ""
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr ""
 
+msgid "Our Culture"
+msgstr ""
+
+msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
+msgstr ""
+
+msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
+msgstr ""
+
+msgid "I’m a network operator. How can PeeringDB help me?"
+msgstr ""
+
+msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
+msgstr ""
+
+msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
+msgstr ""
+
+msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
+msgstr ""
+
+msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
+msgstr ""
+
 msgid "Address"
 msgstr ""
 
@@ -1058,6 +1114,9 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
+msgid "About"
+msgstr ""
+
 msgid "Sponsors"
 msgstr ""
 
@@ -1065,6 +1124,9 @@ msgid "Partners"
 msgstr ""
 
 msgid "Resources"
+msgstr ""
+
+msgid "FAQ"
 msgstr ""
 
 msgid "Documentation"
@@ -1079,19 +1141,10 @@ msgstr ""
 msgid "Global System Statistics"
 msgstr ""
 
-msgid "Peering Networks"
+msgid "Connections to Exchanges"
 msgstr ""
 
-msgid "Public Exchange Points"
-msgstr ""
-
-msgid "Unique Public Exchange Presences"
-msgstr ""
-
-msgid "Private Facilities"
-msgstr ""
-
-msgid "Private Facility Presences"
+msgid "Connections to Facilities"
 msgstr ""
 
 msgid "Search here for a network, IX, or facility."
@@ -1124,43 +1177,25 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-msgid "PeeringDB facilitates the exchange of information related to Peering."
+msgid "The Interconnection Database"
 msgstr ""
 
-msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
+msgid "Join. Search. Grow your network."
 msgstr ""
 
-msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
+msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
 msgstr ""
 
-msgid "you may register for one here"
+msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
 msgstr ""
 
-msgid "Please register ONLY if you are a peering network."
+msgid "Learn more"
 msgstr ""
 
-msgid "You may also"
+msgid "about"
 msgstr ""
 
-msgid "reset lost passwords here"
-msgstr ""
-
-msgid "Still have questions?"
-msgstr ""
-
-msgid "Read our FAQ"
-msgstr ""
-
-msgid "MOST RECENT UPDATES"
-msgstr ""
-
-msgid "NETWORKS"
-msgstr ""
-
-msgid "FACILITIES"
-msgstr ""
-
-msgid "EXCHANGES"
+msgid "Most Recent Updates"
 msgstr ""
 
 msgid "Username"
@@ -1175,13 +1210,21 @@ msgstr ""
 msgid "I forgot my username .."
 msgstr ""
 
+#, fuzzy
+#| msgid "Maintenance"
+msgid "Maintenance Mode"
+msgstr "Vedligehold"
+
+msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+msgstr ""
+
 msgid "Login with oAuth"
 msgstr ""
 
-msgid "Login with your google account"
+msgid "Login with your Google account"
 msgstr ""
 
-msgid "Login with your facebook account"
+msgid "Login with your Facebook account"
 msgstr ""
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
@@ -1270,6 +1313,9 @@ msgid "Suggest Network"
 msgstr ""
 
 msgid "Become a Sponsor"
+msgstr ""
+
+msgid "This server is running in TUTORIAL MODE"
 msgstr ""
 
 msgid "These are the usernames associated with your email address"

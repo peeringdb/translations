@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 01:54+0000\n"
+"POT-Creation-Date: 2019-03-01 02:46+0000\n"
 "PO-Revision-Date: 2018-08-31 16:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -347,6 +347,12 @@ msgstr "Povoleny jsou pouze požadavky POST."
 msgid "{} (Preview)"
 msgstr "{} (Náhled)"
 
+msgid "This command is already waiting / running - please wait for it to finish before executing it again"
+msgstr ""
+
+msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
+msgstr ""
+
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 msgstr "Tři levé oktety původního prefixu - např. xxx.xxx.xxx"
 
@@ -361,6 +367,18 @@ msgstr "Cílové zařízení"
 
 msgid "Undo this merge"
 msgstr "Zrušit toto sloučení"
+
+msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
+msgstr ""
+
+msgid "Load data from peeringdb API"
+msgstr ""
+
+msgid "Restore this object - search by [reftag] [id]"
+msgstr ""
+
+msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
 
 msgid "Yes"
 msgstr "Ano"
@@ -382,6 +400,9 @@ msgstr "Musí být minimálně 10 znaků dlouhý"
 
 msgid "Passwords need to match"
 msgstr "Hesla musí odpovídat"
+
+msgid "ASNs in this range are not allowed in this environment"
+msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Notifikace sloučení: {} -> {}"
@@ -412,6 +433,12 @@ msgstr "Sloučit zařízení"
 
 msgid "Merge Facilities: UNDO"
 msgstr "Sloučit zařízení: ZRUŠIT"
+
+msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Reset Environment"
+msgstr ""
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "Má tento objekt synchronizovanou zeměpisnou šířku a délku s adresními poly"
@@ -619,6 +646,12 @@ msgstr "uživatel, který spustil tento příkaz"
 
 msgid "command was run at this date and time"
 msgstr "příkaz byl spuštěn v tento den a čas"
+
+msgid "Done"
+msgstr ""
+
+msgid "Running"
+msgstr ""
 
 msgid "Organization and all Entities it owns"
 msgstr "Organizace a všechny subjekty, které vlastní"
@@ -908,6 +941,30 @@ msgstr "Chcete-li zobrazit uživatelská jména přidružená k vašemu e-mailu,
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "Pokud jste nežádali o vyhledání uživatelského jména, můžete tento email ignorovat."
 
+msgid "Our Culture"
+msgstr ""
+
+msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
+msgstr ""
+
+msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
+msgstr ""
+
+msgid "I’m a network operator. How can PeeringDB help me?"
+msgstr ""
+
+msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
+msgstr ""
+
+msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
+msgstr ""
+
+msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
+msgstr ""
+
+msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
+msgstr ""
+
 msgid "Address"
 msgstr "Adresa"
 
@@ -1076,6 +1133,9 @@ msgstr "Podmínky využití"
 msgid "Privacy Policy"
 msgstr "Peering Policy"
 
+msgid "About"
+msgstr ""
+
 msgid "Sponsors"
 msgstr "Sponzoři"
 
@@ -1084,6 +1144,9 @@ msgstr "Partneři"
 
 msgid "Resources"
 msgstr "Zdroje"
+
+msgid "FAQ"
+msgstr ""
 
 msgid "Documentation"
 msgstr "Dokumentace"
@@ -1097,20 +1160,15 @@ msgstr "Kontaktujte nás"
 msgid "Global System Statistics"
 msgstr "Celkové statistiky systému"
 
-msgid "Peering Networks"
-msgstr "Peerujících Síťí"
+#, fuzzy
+#| msgid "Exchange"
+msgid "Connections to Exchanges"
+msgstr "Propojovací uzel"
 
-msgid "Public Exchange Points"
-msgstr "Veřejných propojovacích bodů"
-
-msgid "Unique Public Exchange Presences"
-msgstr "Jedinečná přítomnost propojovacích uzlů"
-
-msgid "Private Facilities"
+#, fuzzy
+#| msgid "Private Facilities"
+msgid "Connections to Facilities"
 msgstr "Soukromá zařízení"
-
-msgid "Private Facility Presences"
-msgstr "Umístění soukromých zařízení"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Vyhledat Síť, Propojovací uzel nebo Zařízení."
@@ -1144,44 +1202,26 @@ msgstr "nebo"
 msgid "Login"
 msgstr "Přihlásit"
 
-msgid "PeeringDB facilitates the exchange of information related to Peering."
-msgstr "PeeringDB usnadňuje výměnu informací souvisejících s peeringem."
+msgid "The Interconnection Database"
+msgstr ""
 
-msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
-msgstr "Konkrétně jsme databáze sítí, které peerují, kde peerují, a mají zájem s vámi peerovat. Pokud nevíte, co je peering, a/nebo nemáte v současné nepeerujete, nebudeme mít pro vás žádný význam."
+msgid "Join. Search. Grow your network."
+msgstr ""
 
-msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
-msgstr "Právě prohlížíte data, která jsou určená jen pro čtení. Pokud jste síť, která peeruje a chcete si vytvořit účet,"
+msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
+msgstr ""
 
-msgid "you may register for one here"
-msgstr "můžete se zaregistrovat zde"
+msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
+msgstr ""
 
-msgid "Please register ONLY if you are a peering network."
-msgstr "Registrujte se prosím pouze v případě, že jste síť, která peeruje."
+msgid "Learn more"
+msgstr ""
 
-msgid "You may also"
-msgstr "Můžete také"
+msgid "about"
+msgstr ""
 
-msgid "reset lost passwords here"
-msgstr "restart zapomenutého hesla zde"
-
-msgid "Still have questions?"
-msgstr "Máte další otázky?"
-
-msgid "Read our FAQ"
-msgstr "Přečtěte si naše FAQ"
-
-msgid "MOST RECENT UPDATES"
-msgstr "POSLEDNÍ AKTUALIZACE"
-
-msgid "NETWORKS"
-msgstr "SÍTĚ"
-
-msgid "FACILITIES"
-msgstr "OBJEKTY"
-
-msgid "EXCHANGES"
-msgstr "PROPOJOVACÍ UZLY"
+msgid "Most Recent Updates"
+msgstr ""
 
 msgid "Username"
 msgstr "Uživatelské jméno"
@@ -1195,13 +1235,25 @@ msgstr "Zapomněl jsem heslo .."
 msgid "I forgot my username .."
 msgstr "Zapomněl jsem uživatelské jméno .."
 
+#, fuzzy
+#| msgid "Maintenance"
+msgid "Maintenance Mode"
+msgstr "Údržba"
+
+msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+msgstr ""
+
 msgid "Login with oAuth"
 msgstr "Přihlásit se pomocí oAuth"
 
-msgid "Login with your google account"
+#, fuzzy
+#| msgid "Login with your google account"
+msgid "Login with your Google account"
 msgstr "Přihlásit se pomocí účtu Google"
 
-msgid "Login with your facebook account"
+#, fuzzy
+#| msgid "Login with your facebook account"
+msgid "Login with your Facebook account"
 msgstr "Přihlásit se pomocí účtu Facebook"
 
 #, fuzzy
@@ -1295,6 +1347,9 @@ msgstr "Odeslat síť"
 
 msgid "Become a Sponsor"
 msgstr "Staňte se sponzorem"
+
+msgid "This server is running in TUTORIAL MODE"
+msgstr ""
 
 msgid "These are the usernames associated with your email address"
 msgstr "Toto jsou uživatelská jména přidružená k vaší e-mailové adrese"
@@ -1879,6 +1934,57 @@ msgstr "Účet zablokován."
 
 msgid "Invalid username/password."
 msgstr "Neplatné uživatelské jméno / heslo."
+
+#~ msgid "Peering Networks"
+#~ msgstr "Peerujících Síťí"
+
+#~ msgid "Public Exchange Points"
+#~ msgstr "Veřejných propojovacích bodů"
+
+#~ msgid "Unique Public Exchange Presences"
+#~ msgstr "Jedinečná přítomnost propojovacích uzlů"
+
+#~ msgid "Private Facility Presences"
+#~ msgstr "Umístění soukromých zařízení"
+
+#~ msgid "PeeringDB facilitates the exchange of information related to Peering."
+#~ msgstr "PeeringDB usnadňuje výměnu informací souvisejících s peeringem."
+
+#~ msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
+#~ msgstr "Konkrétně jsme databáze sítí, které peerují, kde peerují, a mají zájem s vámi peerovat. Pokud nevíte, co je peering, a/nebo nemáte v současné nepeerujete, nebudeme mít pro vás žádný význam."
+
+#~ msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
+#~ msgstr "Právě prohlížíte data, která jsou určená jen pro čtení. Pokud jste síť, která peeruje a chcete si vytvořit účet,"
+
+#~ msgid "you may register for one here"
+#~ msgstr "můžete se zaregistrovat zde"
+
+#~ msgid "Please register ONLY if you are a peering network."
+#~ msgstr "Registrujte se prosím pouze v případě, že jste síť, která peeruje."
+
+#~ msgid "You may also"
+#~ msgstr "Můžete také"
+
+#~ msgid "reset lost passwords here"
+#~ msgstr "restart zapomenutého hesla zde"
+
+#~ msgid "Still have questions?"
+#~ msgstr "Máte další otázky?"
+
+#~ msgid "Read our FAQ"
+#~ msgstr "Přečtěte si naše FAQ"
+
+#~ msgid "MOST RECENT UPDATES"
+#~ msgstr "POSLEDNÍ AKTUALIZACE"
+
+#~ msgid "NETWORKS"
+#~ msgstr "SÍTĚ"
+
+#~ msgid "FACILITIES"
+#~ msgstr "OBJEKTY"
+
+#~ msgid "EXCHANGES"
+#~ msgstr "PROPOJOVACÍ UZLY"
 
 #~ msgid "We could not find the RiR entry for this ASN"
 #~ msgstr "Nemohli jsme najít RiR pro tento autonomní systém"

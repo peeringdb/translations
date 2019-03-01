@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 01:54+0000\n"
+"POT-Creation-Date: 2019-03-01 02:46+0000\n"
 "PO-Revision-Date: 2018-06-06 10:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -344,6 +344,12 @@ msgstr "Seules les requêtes de type POST sont autorisées."
 msgid "{} (Preview)"
 msgstr "{} (Prévisualisation)"
 
+msgid "This command is already waiting / running - please wait for it to finish before executing it again"
+msgstr ""
+
+msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
+msgstr ""
+
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 msgstr "Les trois premiers octets du préfixe d'origine - p.ex. xxx.xxx.xxx"
 
@@ -362,6 +368,18 @@ msgstr "Installation"
 #| msgid "Undo merge"
 msgid "Undo this merge"
 msgstr "Annuler la fusion"
+
+msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
+msgstr ""
+
+msgid "Load data from peeringdb API"
+msgstr ""
+
+msgid "Restore this object - search by [reftag] [id]"
+msgstr ""
+
+msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
 
 msgid "Yes"
 msgstr "Oui"
@@ -383,6 +401,9 @@ msgstr "Minimum 10 caractères"
 
 msgid "Passwords need to match"
 msgstr "Les mots de passe doivent correspondre"
+
+msgid "ASNs in this range are not allowed in this environment"
+msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Fusionner notification: {} -> {}"
@@ -417,6 +438,12 @@ msgstr "Installations"
 #| msgid "Private Facilities"
 msgid "Merge Facilities: UNDO"
 msgstr "Installations privées"
+
+msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Reset Environment"
+msgstr ""
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "Synchroniser les coordonnées géographiques de cet objet avec son adresse"
@@ -624,6 +651,12 @@ msgstr "l'utilisateur qui a exécuté cette commande"
 
 msgid "command was run at this date and time"
 msgstr "la commande a été exécutée à cette date"
+
+msgid "Done"
+msgstr ""
+
+msgid "Running"
+msgstr ""
 
 msgid "Organization and all Entities it owns"
 msgstr "L'organisation et toutes les entités qu'elle contient"
@@ -907,6 +940,30 @@ msgstr "Veuillez vous rendre sur l'URL ci-dessous pour visualiser les noms d'uti
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "Si vous n'avez pas effectué cette demande, merci d'ignorer cet email."
 
+msgid "Our Culture"
+msgstr ""
+
+msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
+msgstr ""
+
+msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
+msgstr ""
+
+msgid "I’m a network operator. How can PeeringDB help me?"
+msgstr ""
+
+msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
+msgstr ""
+
+msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
+msgstr ""
+
+msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
+msgstr ""
+
+msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
+msgstr ""
+
 msgid "Address"
 msgstr "Adresse"
 
@@ -1076,6 +1133,9 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr "Règlement de peering"
 
+msgid "About"
+msgstr ""
+
 msgid "Sponsors"
 msgstr "Parrains"
 
@@ -1084,6 +1144,9 @@ msgstr "Partenaires"
 
 msgid "Resources"
 msgstr "Ressources"
+
+msgid "FAQ"
+msgstr ""
 
 msgid "Documentation"
 msgstr "Documentation"
@@ -1097,20 +1160,15 @@ msgstr "Contactez nous"
 msgid "Global System Statistics"
 msgstr "Statistiques globale"
 
-msgid "Peering Networks"
-msgstr "Réseaux de peering"
+#, fuzzy
+#| msgid "Exchange"
+msgid "Connections to Exchanges"
+msgstr "Point d'échange"
 
-msgid "Public Exchange Points"
-msgstr "Points d'échange publics"
-
-msgid "Unique Public Exchange Presences"
-msgstr "Participants à des points d'échange publics"
-
-msgid "Private Facilities"
+#, fuzzy
+#| msgid "Private Facilities"
+msgid "Connections to Facilities"
 msgstr "Installations privées"
-
-msgid "Private Facility Presences"
-msgstr "Présences à des installations privées"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Recherche de réseau, point d'échange ou installation."
@@ -1144,44 +1202,26 @@ msgstr "ou"
 msgid "Login"
 msgstr "Identification"
 
-msgid "PeeringDB facilitates the exchange of information related to Peering."
-msgstr "PeeringDB facilite l'échange d'information liée aux Peerings."
+msgid "The Interconnection Database"
+msgstr ""
 
-msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
-msgstr "Plus précisément, nous sommes une base de données regroupant les informations concernant les réseaux participant à des peerings, leurs emplacements de peerings et les conditions auxquelles ils acceptent d'établir des peerings. Si vous ne savez pas ce qu'est un peering ou que vous ne participer pas actuellement à des peerings, ces informations ne vous seront probablement d'aucune utilité."
+msgid "Join. Search. Grow your network."
+msgstr ""
 
-msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
-msgstr "Vous visualisez actuellement une version en lecture-seule des données disponibles. Si vous representez un réseau participant à des peerings et que vous souhaitez créer un compte,"
+msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
+msgstr ""
 
-msgid "you may register for one here"
-msgstr "vous pouvez vous enregistrer ici"
+msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
+msgstr ""
 
-msgid "Please register ONLY if you are a peering network."
-msgstr "Merci de vous enregistrer si et seulement si vous représentez un réseau participant à des peerings."
+msgid "Learn more"
+msgstr ""
 
-msgid "You may also"
-msgstr "Vous pouvez également"
+msgid "about"
+msgstr ""
 
-msgid "reset lost passwords here"
-msgstr "réinitialiser votre mot de passe ici"
-
-msgid "Still have questions?"
-msgstr "Encode des questions?"
-
-msgid "Read our FAQ"
-msgstr "Lire notre FAQ"
-
-msgid "MOST RECENT UPDATES"
-msgstr "MISES-À-JOUR RÉCENTES"
-
-msgid "NETWORKS"
-msgstr "RÉSEAUX"
-
-msgid "FACILITIES"
-msgstr "INSTALLATIONS"
-
-msgid "EXCHANGES"
-msgstr "ÉCHANGES"
+msgid "Most Recent Updates"
+msgstr ""
 
 msgid "Username"
 msgstr "Nom d'utilisateur"
@@ -1195,13 +1235,25 @@ msgstr "J'ai oublié mon mot de passe..."
 msgid "I forgot my username .."
 msgstr "J'ai oublié mon nom d'utilisateur..."
 
+#, fuzzy
+#| msgid "Maintenance"
+msgid "Maintenance Mode"
+msgstr "Maintenance"
+
+msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+msgstr ""
+
 msgid "Login with oAuth"
 msgstr "Connexion avec oAuth"
 
-msgid "Login with your google account"
+#, fuzzy
+#| msgid "Login with your google account"
+msgid "Login with your Google account"
 msgstr "Connexion avec votre compte Google"
 
-msgid "Login with your facebook account"
+#, fuzzy
+#| msgid "Login with your facebook account"
+msgid "Login with your Facebook account"
 msgstr "Connexion avec votre compte Facebook"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
@@ -1295,6 +1347,9 @@ msgstr "Soumettre le réseau"
 
 msgid "Become a Sponsor"
 msgstr "Devenir parrain"
+
+msgid "This server is running in TUTORIAL MODE"
+msgstr ""
 
 msgid "These are the usernames associated with your email address"
 msgstr "Voici les noms d'utilisateur associés à votre adresse email"
@@ -1855,6 +1910,57 @@ msgstr "Compte désactivé."
 
 msgid "Invalid username/password."
 msgstr "Nom d'utilisateur ou mot de passe invalide."
+
+#~ msgid "Peering Networks"
+#~ msgstr "Réseaux de peering"
+
+#~ msgid "Public Exchange Points"
+#~ msgstr "Points d'échange publics"
+
+#~ msgid "Unique Public Exchange Presences"
+#~ msgstr "Participants à des points d'échange publics"
+
+#~ msgid "Private Facility Presences"
+#~ msgstr "Présences à des installations privées"
+
+#~ msgid "PeeringDB facilitates the exchange of information related to Peering."
+#~ msgstr "PeeringDB facilite l'échange d'information liée aux Peerings."
+
+#~ msgid "Specifically, we are a database of networks that are peering, where they are peering, and if they are likely to peer with you. If you don't know what peering is, and/or you don't currently engage in peering, this probably won't have any meaning for you."
+#~ msgstr "Plus précisément, nous sommes une base de données regroupant les informations concernant les réseaux participant à des peerings, leurs emplacements de peerings et les conditions auxquelles ils acceptent d'établir des peerings. Si vous ne savez pas ce qu'est un peering ou que vous ne participer pas actuellement à des peerings, ces informations ne vous seront probablement d'aucune utilité."
+
+#~ msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
+#~ msgstr "Vous visualisez actuellement une version en lecture-seule des données disponibles. Si vous representez un réseau participant à des peerings et que vous souhaitez créer un compte,"
+
+#~ msgid "you may register for one here"
+#~ msgstr "vous pouvez vous enregistrer ici"
+
+#~ msgid "Please register ONLY if you are a peering network."
+#~ msgstr "Merci de vous enregistrer si et seulement si vous représentez un réseau participant à des peerings."
+
+#~ msgid "You may also"
+#~ msgstr "Vous pouvez également"
+
+#~ msgid "reset lost passwords here"
+#~ msgstr "réinitialiser votre mot de passe ici"
+
+#~ msgid "Still have questions?"
+#~ msgstr "Encode des questions?"
+
+#~ msgid "Read our FAQ"
+#~ msgstr "Lire notre FAQ"
+
+#~ msgid "MOST RECENT UPDATES"
+#~ msgstr "MISES-À-JOUR RÉCENTES"
+
+#~ msgid "NETWORKS"
+#~ msgstr "RÉSEAUX"
+
+#~ msgid "FACILITIES"
+#~ msgstr "INSTALLATIONS"
+
+#~ msgid "EXCHANGES"
+#~ msgstr "ÉCHANGES"
 
 #~ msgid "We could not find the RiR entry for this ASN"
 #~ msgstr "Nous ne parvenons pas à trouver l'entée RIR pour ce numéro d'AS"
