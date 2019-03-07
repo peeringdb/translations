@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 09:15+0000\n"
-"PO-Revision-Date: 2019-03-01 02:45+0000\n"
+"PO-Revision-Date: 2019-03-08 09:17+0000\n"
 "Last-Translator: Christoffer Hansen <christoffer@peeringdb.com>\n"
-"Language-Team: Danish <https://translate.peeringdb.com/projects/peeringdb/server/da/>\n"
+"Language-Team: Danish <https://translate.peeringdb.com/projects/peeringdb/"
+"server/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,16 +20,16 @@ msgstr ""
 "X-Generator: Weblate 3.3\n"
 
 msgid "Ethernet"
-msgstr ""
+msgstr "Ethernet"
 
 msgid "ATM"
-msgstr ""
+msgstr "ATM"
 
 msgid "Multiple"
-msgstr ""
+msgstr "Flere"
 
 msgid "Abuse"
-msgstr ""
+msgstr "Misbrug"
 
 msgid "Maintenance"
 msgstr "Vedligehold"
@@ -42,8 +43,9 @@ msgstr "Teknisk"
 msgid "NOC"
 msgstr "NOC"
 
+#, fuzzy
 msgid "Public Relations"
-msgstr ""
+msgstr "Offentlige relationer"
 
 msgid "Sales"
 msgstr "Salg"
@@ -52,7 +54,7 @@ msgid "Open"
 msgstr "Åben"
 
 msgid "Selective"
-msgstr ""
+msgstr "Selektiv"
 
 msgid "Restrictive"
 msgstr "Restrektiv"
@@ -88,262 +90,285 @@ msgid "IPv6"
 msgstr "IPv6"
 
 msgid "Not Disclosed"
-msgstr ""
+msgstr "Ikke Offentliggjort"
 
 msgid "Heavy Outbound"
-msgstr ""
+msgstr "Primært udgående"
 
 msgid "Mostly Outbound"
-msgstr ""
+msgstr "Mest udgående"
 
 msgid "Balanced"
-msgstr ""
+msgstr "Balanceret"
 
 msgid "Mostly Inbound"
-msgstr ""
+msgstr "Mest indgående"
 
 msgid "Heavy Inbound"
-msgstr ""
+msgstr "Primært indgående"
 
 msgid "North America"
-msgstr ""
+msgstr "Nordamerika"
 
+#, fuzzy
 msgid "Asia Pacific"
-msgstr ""
+msgstr "Asien og Stillehavsområdet"
 
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 msgid "South America"
-msgstr ""
+msgstr "Sydamerika"
 
 msgid "Africa"
-msgstr ""
+msgstr "Afrika"
 
 msgid "Australia"
-msgstr ""
+msgstr "Australien"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Mellemøsten"
 
+#, fuzzy
 msgid "Regional"
-msgstr ""
+msgstr "Regional"
 
+#, fuzzy
 msgid "Global"
-msgstr ""
+msgstr "Global"
 
+#, fuzzy
 msgid "0-20 Mbps"
-msgstr ""
+msgstr "0-20 Mbps"
 
+#, fuzzy
 msgid "20-100Mbps"
-msgstr ""
+msgstr "20-100Mbps"
 
+#, fuzzy
 msgid "100-1000Mbps"
-msgstr ""
+msgstr "100-1000Mbps"
 
+#, fuzzy
 msgid "1-5Gbps"
-msgstr ""
+msgstr "1-5Gbps"
 
+#, fuzzy
 msgid "5-10Gbps"
-msgstr ""
+msgstr "5-10Gbps"
 
+#, fuzzy
 msgid "10-20Gbps"
-msgstr ""
+msgstr "10-20Gbps"
 
+#, fuzzy
 msgid "20-50 Gbps"
-msgstr ""
+msgstr "20-50 Gbps"
 
+#, fuzzy
 msgid "50-100 Gbps"
-msgstr ""
+msgstr "50-100 Gbps"
 
+#, fuzzy
 msgid "100+ Gbps"
-msgstr ""
+msgstr "100+ Gbps"
 
+#, fuzzy
 msgid "100-200 Gbps"
-msgstr ""
+msgstr "100-200 Gbps"
 
+#, fuzzy
 msgid "200-300 Gbps"
-msgstr ""
+msgstr "200-300 Gbps"
 
+#, fuzzy
 msgid "300-500 Gbps"
-msgstr ""
+msgstr "300-500 Gbps"
 
+#, fuzzy
 msgid "500-1000 Gbps"
-msgstr ""
+msgstr "500-1000 Gbps"
 
+#, fuzzy
 msgid "1 Tbps+"
-msgstr ""
+msgstr "1 Tbps+"
 
+#, fuzzy
 msgid "10 Tbps+"
-msgstr ""
+msgstr "10 Tbps+"
 
+#, fuzzy
 msgid "NSP"
-msgstr ""
+msgstr "NSP"
 
 msgid "Content"
-msgstr ""
+msgstr "Indhold"
 
 msgid "Cable/DSL/ISP"
-msgstr ""
+msgstr "Kabel/DSL/ISP"
 
+#, fuzzy
 msgid "Enterprise"
-msgstr ""
+msgstr "Virksomhed"
 
+#, fuzzy
 msgid "Educational/Research"
-msgstr ""
+msgstr "Uddannelse/Forskning"
 
 msgid "Non-Profit"
-msgstr ""
+msgstr "Nonprofit"
 
+#, fuzzy
 msgid "Route Server"
-msgstr ""
+msgstr "Route Server"
 
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 msgid "Users"
-msgstr ""
+msgstr "Brugere"
 
 msgid "Public"
-msgstr ""
+msgstr "Offentlig"
 
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 msgid "Target org cannot be in selected organizations list"
-msgstr ""
+msgstr "Organisation kan ikke vælges i listen"
 
 msgid "ROLLBACK"
-msgstr ""
+msgstr "Ruld tilbage"
 
 msgid "SOFT DELETE"
-msgstr ""
+msgstr "Blød sletning"
 
 msgid "Verification Queue is currently disabled"
-msgstr ""
+msgstr "Verifikationkø er på nuværende tidspunkt deaktiveret"
 
 msgid "Verification Queue is currently disabled for this object type"
 msgstr ""
+"Verifikationskø er på nuværende tidspunkt deaktiveret for denne objekttype"
 
 msgid "APPROVE"
-msgstr ""
+msgstr "Godkend"
 
 msgid "DENY"
-msgstr ""
+msgstr "Afvis"
 
 msgid "APPROVED"
-msgstr ""
+msgstr "Godkendt"
 
 msgid "Ipaddress already exists elsewhere"
-msgstr ""
+msgstr "IP adresse findes allerede et andet sted"
 
 msgid "User is looking to be affiliated to these Organizations"
-msgstr ""
+msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
 msgid "IXF Import History"
-msgstr ""
+msgstr "IXF Importeringshistorik"
 
 msgid "Initial creation of netixlan"
-msgstr ""
+msgstr "Første oprettelse af netixlan"
 
 msgid "CAN BE ROLLED BACK"
-msgstr ""
+msgstr "Kan rulles tilbage"
 
 msgid "CANNOT BE ROLLED BACK"
-msgstr ""
+msgstr "Kan ikke rulles tilbage"
 
 msgid "Has been changed since"
-msgstr ""
+msgstr "Har været opdateret siden"
 
 msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr ""
+msgstr "Netixlan med konfliktende IP adresse findes nu et andet sted"
 
 msgid "HAS BEEN ROLLED BACK"
-msgstr ""
+msgstr "Er blevet rullet tilbage"
 
 msgid "Organization"
-msgstr ""
+msgstr "Virksomhed"
 
 msgid "Not Set"
-msgstr ""
+msgstr "Ikke valgt"
 
 msgid "Logo Missing"
-msgstr ""
+msgstr "Logo mangler"
 
 msgid "Active"
-msgstr ""
+msgstr "Aktiv"
 
 msgid "Over"
 msgstr ""
 
 msgid "Waiting"
-msgstr ""
+msgstr "Afventer"
 
 msgid "Malformed organization ids"
-msgstr ""
+msgstr "Ukorrekt formateret virksomheds id'er"
 
 msgid "Merge target organization does not exist"
 msgstr ""
 
 msgid "Organization Merging Tool"
-msgstr ""
+msgstr "Virksomhed Sammenlægningsværktøj"
 
 msgid "Undo merge"
-msgstr ""
+msgstr "Fortryd sammenlægning"
 
 msgid "APPROVE selected items"
-msgstr ""
+msgstr "Godkend afkrydsede"
 
 msgid "DENY and delete selected items"
-msgstr ""
+msgstr "Afvis og slet afkrydsede"
 
 msgid "View"
-msgstr ""
+msgstr "Se"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr ""
 
 msgid "Approve and notify User"
-msgstr ""
+msgstr "Godkend og send notifikation til bruger"
 
 msgid "Approve"
-msgstr ""
+msgstr "Godkend"
 
 msgid "Deny"
 msgstr "Afvis"
 
 msgid "Change Password"
-msgstr ""
+msgstr "Ændre kodeord"
 
 msgid "Edit Permissions"
-msgstr ""
+msgstr "Rediger rettigheder"
 
 msgid "VERIFIED"
-msgstr ""
+msgstr "Godkendt"
 
 msgid "UNVERIFIED"
-msgstr ""
+msgstr "Ikke godkendt"
 
 msgid "User Permission"
-msgstr ""
+msgstr "Brugerrettigheder"
 
 msgid "User Permissions"
-msgstr ""
+msgstr "Brugerrettigheder"
 
 msgid "Duplicate IP"
-msgstr ""
+msgstr "Duplikeret IP"
 
 msgid "Duplicate IPs"
-msgstr ""
+msgstr "Duplikerede IP'er"
 
 msgid "Updated"
-msgstr ""
+msgstr "Opdateret"
 
 msgid "Only POST requests allowed."
-msgstr ""
+msgstr "Kun POST forespørgsler tilladt."
 
 msgid "{} (Preview)"
-msgstr ""
+msgstr "{} (Forehåndsvis)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
@@ -352,13 +377,13 @@ msgid "This command takes a while to complete and will be queued and ran in the 
 msgstr ""
 
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
-msgstr ""
+msgstr "Kun de 3 første oktetter af det originale præfiks - f.eks. xxx.xxx.xxx"
 
 msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
-msgstr ""
+msgstr "Kun de 3 første oktetter af det nye præfiks - f.eks. xxx.xxx.xxx"
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "Sammenlæg denne facilitet - den vil blive slettet"
 
 msgid "Target facility"
 msgstr ""
@@ -382,22 +407,22 @@ msgid "Yes"
 msgstr "Ja"
 
 msgid "Invalid export format"
-msgstr ""
+msgstr "Ugyldigt eksport format"
 
 msgid "Invalid tag"
 msgstr ""
 
 msgid "Invalid permission level"
-msgstr ""
+msgstr "Ugyldigt rettighedsniveau"
 
 msgid "ASN needs to be a number"
-msgstr ""
+msgstr "ASN skal være et heltal"
 
 msgid "Needs to be at least 10 characters long"
-msgstr ""
+msgstr "Skal være 10 tegn eller længere"
 
 msgid "Passwords need to match"
-msgstr ""
+msgstr "Kodeord skal være ens"
 
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
@@ -406,25 +431,26 @@ msgid "{} Merge Notification: {} -> {}"
 msgstr ""
 
 msgid "Silver"
-msgstr ""
+msgstr "Sølv"
 
 msgid "Gold"
-msgstr ""
+msgstr "Guld"
 
 msgid "Platinum"
-msgstr ""
+msgstr "Platin"
 
 msgid "Diamond"
-msgstr ""
+msgstr "Diamand"
 
 msgid "Data Validation"
 msgstr ""
 
 msgid "RIR"
-msgstr ""
+msgstr "RIR"
 
+#, fuzzy
 msgid "Renumber IP Space"
-msgstr ""
+msgstr "Gennummerer IP område"
 
 msgid "Merge Facilities"
 msgstr ""
@@ -441,41 +467,47 @@ msgstr ""
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr ""
 
+#, fuzzy
 msgid "Last time of attempted geocode"
-msgstr ""
+msgstr "Sidste forsøg på opdatering af geokoordinator"
 
+#, fuzzy
 msgid "Error message of previous geocode attempt"
-msgstr ""
+msgstr "Fejlbesked for sidste forsøg på opdatering af geokoordinator"
 
 msgid "Address not found"
-msgstr ""
+msgstr "Adresse ikke fundet"
 
+#, fuzzy
 msgid "API Timeout"
-msgstr ""
+msgstr "API Timeout"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr ""
+"Denne virksomhed i vores database var afledt af det oplyste ASN og "
+"virksomhedsnavn. Hvis dette felt er tomt, blev der ikke fundet nogen "
+"matchende virksomhed."
 
 msgid "The organization name entered by the user"
-msgstr ""
+msgstr "Virksomhedsnavnet indtastet af brugeren"
 
 msgid "The ASN entered by the user"
-msgstr ""
+msgstr "ASN indtastet af brugeren"
 
 msgid "The user that made the request"
-msgstr ""
+msgstr "Brugeren der udførte forespørgslen"
 
 msgid "Pending"
-msgstr ""
+msgstr "Afventer"
 
 msgid "Approved"
-msgstr ""
+msgstr "Godkendt"
 
 msgid "Denied"
-msgstr ""
+msgstr "Afvist"
 
 msgid "Status of this request"
-msgstr ""
+msgstr "Status for denne forespørgsel"
 
 msgid "User to Organization Affiliation Request"
 msgstr ""
@@ -490,34 +522,34 @@ msgid "The item that this queue is attached to was created by this user"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
-msgstr ""
+msgstr "Tillader dig at uploade et logo, billede fil, for denne virksomhed"
 
 msgid "Sponsorship starts on"
-msgstr ""
+msgstr "Sponsorat starter"
 
 msgid "Sponsorship ends on"
-msgstr ""
+msgstr "Sponsorat slutter"
 
 msgid "Expiration notification sent on"
-msgstr ""
+msgstr "Udløbsnotifikation sendt"
 
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr ""
+msgstr "Hvis konfigureret, vil klik på sponsorat tage brugeren til denne URL"
 
 msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr ""
+msgstr "Tillader dig at uploade et logo, billede fil, for dette sponsorat"
 
 msgid "Sponsorship"
-msgstr ""
+msgstr "Sponsorat"
 
 msgid "Sponsorships"
-msgstr ""
+msgstr "Sponsorater"
 
 msgid "Sponsorship Expired"
-msgstr ""
+msgstr "Sponsorat udløb"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr ""
@@ -526,49 +558,50 @@ msgid "Allows you to upload and set a logo image file for this partnership"
 msgstr ""
 
 msgid "Partnership"
-msgstr ""
+msgstr "Partnerskab"
 
 msgid "Partnerships"
-msgstr ""
+msgstr "Partnerskaber"
 
 msgid "Merged on"
-msgstr ""
+msgstr "Sammenlagt den"
 
 msgid "Organization Merge"
-msgstr ""
+msgstr "Virksomhedssammenlægning"
 
 msgid "Organization Merges"
-msgstr ""
+msgstr "Virksomhedssammenlægninger"
 
 msgid "Organization Merge: Entity"
-msgstr ""
+msgstr "Virksomhedssammenlægning: Entitet"
 
 msgid "Organization Merge: Entities"
-msgstr ""
+msgstr "Virksomhedssammenlægning: Entiteter"
 
 msgid "Need to specify at least two asns"
-msgstr ""
+msgstr "Mindst 2 ASNs skal være angivet"
 
 msgid "Can only compare a maximum of 25 asns"
-msgstr ""
+msgstr "Kan højest sammenligne op til 25 ASN'er"
 
+#, fuzzy
 msgid "No JSON could be parsed"
-msgstr ""
+msgstr "Intet JSON kunne behandles"
 
 msgid "No entries in any of the vlan_list lists, aborting."
-msgstr ""
+msgstr "Ingen entiteter i nogen af vlan_list listerne, afbryder."
 
 msgid "IXF Import Log"
-msgstr ""
+msgstr "IXF import log"
 
 msgid "IXF Import Logs"
-msgstr ""
+msgstr "IXF import logs"
 
 msgid "IXF Import Log Entry"
-msgstr ""
+msgstr "IXF Import Log Linje"
 
 msgid "IXF Import Log Entries"
-msgstr ""
+msgstr "IXF Import Log Linjer"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr ""
