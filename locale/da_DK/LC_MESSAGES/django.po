@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 09:15+0000\n"
-"PO-Revision-Date: 2019-03-08 09:17+0000\n"
+"PO-Revision-Date: 2019-03-28 00:47+0000\n"
 "Last-Translator: Christoffer Hansen <christoffer@peeringdb.com>\n"
 "Language-Team: Danish <https://translate.peeringdb.com/projects/peeringdb/"
 "server/da/>\n"
@@ -43,7 +43,6 @@ msgstr "Teknisk"
 msgid "NOC"
 msgstr "NOC"
 
-#, fuzzy
 msgid "Public Relations"
 msgstr "Offentlige relationer"
 
@@ -110,7 +109,6 @@ msgstr "Primært indgående"
 msgid "North America"
 msgstr "Nordamerika"
 
-#, fuzzy
 msgid "Asia Pacific"
 msgstr "Asien og Stillehavsområdet"
 
@@ -129,75 +127,57 @@ msgstr "Australien"
 msgid "Middle East"
 msgstr "Mellemøsten"
 
-#, fuzzy
 msgid "Regional"
 msgstr "Regional"
 
-#, fuzzy
 msgid "Global"
 msgstr "Global"
 
-#, fuzzy
 msgid "0-20 Mbps"
 msgstr "0-20 Mbps"
 
-#, fuzzy
 msgid "20-100Mbps"
-msgstr "20-100Mbps"
+msgstr "20-100 Mbps"
 
-#, fuzzy
 msgid "100-1000Mbps"
-msgstr "100-1000Mbps"
+msgstr "100-1000 Mbps"
 
-#, fuzzy
 msgid "1-5Gbps"
-msgstr "1-5Gbps"
+msgstr "1-5 Gbps"
 
-#, fuzzy
 msgid "5-10Gbps"
-msgstr "5-10Gbps"
+msgstr "5-10 Gbps"
 
-#, fuzzy
 msgid "10-20Gbps"
-msgstr "10-20Gbps"
+msgstr "10-20 Gbps"
 
-#, fuzzy
 msgid "20-50 Gbps"
 msgstr "20-50 Gbps"
 
-#, fuzzy
 msgid "50-100 Gbps"
 msgstr "50-100 Gbps"
 
-#, fuzzy
 msgid "100+ Gbps"
 msgstr "100+ Gbps"
 
-#, fuzzy
 msgid "100-200 Gbps"
 msgstr "100-200 Gbps"
 
-#, fuzzy
 msgid "200-300 Gbps"
 msgstr "200-300 Gbps"
 
-#, fuzzy
 msgid "300-500 Gbps"
 msgstr "300-500 Gbps"
 
-#, fuzzy
 msgid "500-1000 Gbps"
 msgstr "500-1000 Gbps"
 
-#, fuzzy
 msgid "1 Tbps+"
-msgstr "1 Tbps+"
+msgstr "1+ Tbps"
 
-#, fuzzy
 msgid "10 Tbps+"
-msgstr "10 Tbps+"
+msgstr "10+ Tbps"
 
-#, fuzzy
 msgid "NSP"
 msgstr "NSP"
 
@@ -207,20 +187,17 @@ msgstr "Indhold"
 msgid "Cable/DSL/ISP"
 msgstr "Kabel/DSL/ISP"
 
-#, fuzzy
 msgid "Enterprise"
 msgstr "Virksomhed"
 
-#, fuzzy
 msgid "Educational/Research"
 msgstr "Uddannelse/Forskning"
 
 msgid "Non-Profit"
 msgstr "Nonprofit"
 
-#, fuzzy
 msgid "Route Server"
-msgstr "Route Server"
+msgstr "Ruteningsserver"
 
 msgid "Private"
 msgstr "Privat"
@@ -305,7 +282,7 @@ msgid "Waiting"
 msgstr "Afventer"
 
 msgid "Malformed organization ids"
-msgstr "Ukorrekt formateret virksomheds id'er"
+msgstr "Ukorrekt formateret organisations id'er"
 
 msgid "Merge target organization does not exist"
 msgstr ""
@@ -1535,13 +1512,13 @@ msgid "dot1q"
 msgstr ""
 
 msgid "IXLAN"
-msgstr ""
+msgstr "IXLAN"
 
 msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 msgstr ""
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "IXLAN præfiks"
 
 msgid "Add Prefix"
 msgstr ""
@@ -1550,10 +1527,10 @@ msgid "Add LAN"
 msgstr ""
 
 msgid "Facility"
-msgstr ""
+msgstr "Facility"
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "Exchange - Facility link"
 
 msgid "Add Facility"
 msgstr ""
@@ -1568,7 +1545,7 @@ msgid "Speed"
 msgstr ""
 
 msgid "Exchange"
-msgstr ""
+msgstr "Exchange"
 
 msgid "IP"
 msgstr ""
@@ -1607,7 +1584,7 @@ msgid "RS Peer"
 msgstr ""
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "Netværk - Exchange link"
 
 msgid "Local ASN"
 msgstr ""
