@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 09:15+0000\n"
-"PO-Revision-Date: 2019-03-01 02:45+0000\n"
+"PO-Revision-Date: 2019-03-28 00:47+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
-"Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
+"Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/"
+"server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -194,7 +195,7 @@ msgid "Educational/Research"
 msgstr "Bildung/Forschung"
 
 msgid "Non-Profit"
-msgstr "Nicht Gewinnorientiert (Vereine)"
+msgstr "Nicht gewinnorientiert (Vereine)"
 
 msgid "Route Server"
 msgstr "Route Server"
@@ -212,7 +213,7 @@ msgid "Status"
 msgstr "Status"
 
 msgid "Target org cannot be in selected organizations list"
-msgstr "Zielorganisation  darf nicht in ausgewählter Organisationsliste sein"
+msgstr "Zielorganisation darf nicht in ausgewählter Organisationsliste sein"
 
 msgid "ROLLBACK"
 msgstr "ZURÜCKSETZEN"
@@ -269,7 +270,7 @@ msgid "Not Set"
 msgstr "Nicht zugewiesen"
 
 msgid "Logo Missing"
-msgstr "Kein Logo"
+msgstr "Logo fehlt"
 
 msgid "Active"
 msgstr "Aktiv"
@@ -284,10 +285,10 @@ msgid "Malformed organization ids"
 msgstr "Ungültige Unternehmens-ID"
 
 msgid "Merge target organization does not exist"
-msgstr "Unternehmen, zu dem zusammengeführt werden soll existiert nicht"
+msgstr "Unternehmen, zu dem zusammengeführt werden soll, existiert nicht"
 
 msgid "Organization Merging Tool"
-msgstr "Werkzeug zum zusammenführen von Unternehmen"
+msgstr "Werkzeug zum Zusammenführen von Unternehmen"
 
 msgid "Undo merge"
 msgstr "Veränderung rückgängig machen"
@@ -296,7 +297,7 @@ msgid "APPROVE selected items"
 msgstr "Gewählte Einträge FREIGEBEN"
 
 msgid "DENY and delete selected items"
-msgstr "Gewählte Einträge ABLEHNEN und LÖSCHEN"
+msgstr "Gewählte Einträge ABLEHNEN und löschen"
 
 msgid "View"
 msgstr "Anzeigen"
@@ -353,13 +354,16 @@ msgid "This command takes a while to complete and will be queued and ran in the 
 msgstr ""
 
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
-msgstr "Die ersten 3 Oktets von links des ursprünglichen Prefixes - z.B. xxx.xxx.xxx"
+msgstr ""
+"Die ersten drei Oktets von links des ursprünglichen Prefixes - z.B. "
+"xxx.xxx.xxx"
 
 msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
-msgstr "Die ersten 3 Oktets des neuen Prefixes - z.B. xxx.xxx.xxx"
+msgstr "Die ersten drei Oktets von links des neuen Prefixes - z.B. xxx.xxx.xxx"
 
 msgid "Merge this facility - it will be deleted"
-msgstr "legen Sie dieses Gebäude mit einem anderen zusammen - es wird entfernt werden"
+msgstr ""
+"Legen Sie dieses Gebäude mit einem anderen zusammen - es wird entfernt werden"
 
 msgid "Target facility"
 msgstr "Zielgebäude"
@@ -392,7 +396,7 @@ msgid "Invalid permission level"
 msgstr "Ungültiges Zugriffslevel"
 
 msgid "ASN needs to be a number"
-msgstr "ASN darf nur aus Nummern bestehen"
+msgstr "ASN muss eine Zahl sein"
 
 msgid "Needs to be at least 10 characters long"
 msgstr "Muss mindestens 10 Zeichen lang sein"
@@ -419,13 +423,13 @@ msgid "Diamond"
 msgstr "Diamant"
 
 msgid "Data Validation"
-msgstr "Daten Validierung"
+msgstr "Daten-Validierung"
 
 msgid "RIR"
 msgstr "RIR"
 
 msgid "Renumber IP Space"
-msgstr "IP Bereich umnummerieren"
+msgstr "IP-Bereich umnummerieren"
 
 msgid "Merge Facilities"
 msgstr "Liegenschaften zusammenführen"
