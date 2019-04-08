@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 09:15+0000\n"
-"PO-Revision-Date: 2019-03-28 00:47+0000\n"
+"PO-Revision-Date: 2019-04-09 21:59+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/"
 "server/de/>\n"
@@ -349,9 +349,15 @@ msgstr "{} (Vorschau)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
+"Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet "
+"wird, bevor sie es erneut ausführen"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr ""
+"Dieses Kommando erfordert etwas Zeit für die Durchführung. Daher wird es in "
+"eine Warteschlange eingereiht und im Hintergrund ausgeführt. Momentan kann "
+"kein Ausgabeprotokoll zur Verfügung gestellt werden. Bitte sehen Sie noch "
+"einmal nach, wenn das Kommando ausgeführt wurde."
 
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 msgstr ""
@@ -373,15 +379,20 @@ msgstr "Veränderung rückgängig machen"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
 msgstr ""
+"Bitte entfernen Sie keine Nutzer. Beachten Sie bitte auch, dass Superuser-"
+"Accounts nicht gelöscht werden können - unabhängig von der hier gesetzten "
+"Einstellung."
 
 msgid "Load data from peeringdb API"
-msgstr ""
+msgstr "Daten werden von der peeringdb API geladen"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "Stelle dieses Objekt wieder her - Suche über [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
+"Über diese Schnittstelle können momentab nur Objekte des Typs {} "
+"wiederhergestellt werden"
 
 msgid "Yes"
 msgstr "Ja"
@@ -405,7 +416,7 @@ msgid "Passwords need to match"
 msgstr "Passwörter stimmen nicht überein"
 
 msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
+msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
@@ -438,10 +449,10 @@ msgid "Merge Facilities: UNDO"
 msgstr "Zusammenlegung von Gebäuden: RÜCKGÄNGIG MACHEN"
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "Stelle Objekt(e) wieder her"
 
 msgid "Reset Environment"
-msgstr ""
+msgstr "Setze Umgebung zurück"
 
 # # unklare Funktion
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
@@ -641,7 +652,7 @@ msgid "result log"
 msgstr "Logeinträge der Resultate"
 
 msgid "Descriptive text of command that can be searched"
-msgstr "Beschreibender Text des Kommandos nach dem gesucht werden kann"
+msgstr "Beschreibender Text des Kommandos, nach dem gesucht werden kann"
 
 msgid "the user that ran this command"
 msgstr "Benutzer, der den Befehl ausgeführt hat"
@@ -650,7 +661,7 @@ msgid "command was run at this date and time"
 msgstr "Befehl zu diesem Datum und zu dieser Uhrzeit ausgeführt"
 
 msgid "Done"
-msgstr ""
+msgstr "Erledigt"
 
 msgid "Running"
 msgstr ""
@@ -1192,7 +1203,7 @@ msgid "The Interconnection Database"
 msgstr ""
 
 msgid "Join. Search. Grow your network."
-msgstr ""
+msgstr "Mitmachen. Finden. Netzwerk knüpfen."
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
 msgstr ""
