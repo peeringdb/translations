@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 09:15+0000\n"
 "PO-Revision-Date: 2019-04-09 21:59+0000\n"
-"Last-Translator: Stefan Funke <sfunke@ipb.de>\n"
+"Last-Translator: Sara Fink <sara.fink@twl-kom.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/"
 "server/de/>\n"
 "Language: de_DE\n"
@@ -949,11 +949,31 @@ msgstr "Wenn Sie die Wiederauffindung des Benutzernamen nicht angefordert haben,
 msgid "Our Culture"
 msgstr "Unsere Kultur"
 
+#, fuzzy
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
 msgstr ""
+"PeeringDB ist, wie der Name bereits vermuten lässt, eine Datenbank, die "
+"gegründet wurde um die Arbeit von Netzwerk- und Peering-Managern zu "
+"erleichtern. In den letzten Jahren hat sich die Vision der PeeringDB weiter "
+"entwickelt, vor allem um sich der Geschwindigkeit und den schnell ändernden "
+"Gepflogenheiten des wachsenden Internets anzupassen. Die Datenbank umfasst "
+"nun nicht mehr nur Informationen, die für das reine Peering nötig sind. "
+"Mittlerweile beherbergt es alle Arten von relevanten Daten für Netzwerk-, "
+"Cloud- oder Servicebetreiber sowie Großunternehmen mit Netzbetrieb, als auch "
+"Informationen über Vernetzungseinrichtungen, die das Fundament des Internets "
+"formen."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
 msgstr ""
+"Wir glauben an und verlassen uns auf die Community, um die PeeringDB-"
+"Datenbank hochzuziehen und zu verbessern. Die Freiwilligen, die die "
+"Datenbank betreiben, begeistern sich für Sicherheit, Datenschutz, Integrität "
+"und Gültigkeit der Daten in der Datenbank. Obwohl PeeringDB ein frei "
+"verfügbares und öffentliches Werkzeug ist, halten sich die Benutzer genau an "
+"die Nutzungsbedingungen, wodurch verhindert wird, dass die Datenbank für "
+"kommerzielle Zwecke genutzt wird, und unerbetenen Nachrichten Einhalt "
+"geboten wird. Dies wird größtenteils durch die Community kontrolliert und "
+"hat sich seit Start der PeeringDB als sehr effektiv erwiesen."
 
 msgid "I’m a network operator. How can PeeringDB help me?"
 msgstr ""
@@ -961,15 +981,36 @@ msgstr ""
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
 msgstr ""
+"Fast ein Drittel der Autonomen Systeme (ASNs) tragen ihre Verbindungsdaten "
+"die PeeringDB-Datenbank ein. Durch Nutzung der PeeringDB und Hinzufügen "
+"eigener Verbindungsdaten werden Sie in der Lage sein, zuverlässig "
+"Informationen zu Netzwerken zu finden, die auf der Suche nach "
+"Peeringmöglichkeiten sind, und wo und wie man sich mit ihnen verbinden kann, "
+"und andere Netzwerke werden in der Lage sein, diese Informationen zu Ihrem "
+"Netzwerk zu finden. Da die Datenbank von Benutzern gepflegt und von unseren "
+"freiwilligen Helfern geprüft wird, können Sie darauf vertrauen, dass die "
+"Informationen akkurat und aktuell sind."
 
+#, fuzzy
 msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
 msgstr ""
+"Diese Daten werden Ihnen helfen, den Prozess der Suche von und Verbindung "
+"mit anderen Netzwerken zu beschleunigen, und fördern dabei eine schnellere "
+"und bestimmtere Entfaltung Ihrer eigenen Netzwerkexpansion und "
+"Entwicklungspläne."
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
 msgstr ""
+"Ich gehöre zu einem Internet Exchange Point (IXP), Rechenzentrum oder "
+"anderer Art von Netzkopplungseinrichtung. Wie kann PeeringDB mir helfen?"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
+"IXPs und Rechenzentren können ihre Daten der Datenbank hinzufügen und "
+"pflegen, wodurch sich ihre Sichtbarkeit und Anziehungskraft für neue und "
+"bestehende Kunden erhöhen. Wenn Sie in der Datenbank sind ist es für andere "
+"Netzwerke viel einfacher, essentielle Informationen über Ihre Dienste und an "
+"Ihrem IXP oder Ihrer Einrichtung anwesende Netzwerke zu finden."
 
 msgid "Address"
 msgstr "Adresse"
@@ -1134,7 +1175,7 @@ msgid "Privacy Policy"
 msgstr "Datenschutzrichtlinie"
 
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 msgid "Sponsors"
 msgstr "Sponsoren"
@@ -1146,7 +1187,7 @@ msgid "Resources"
 msgstr "Ressourcen"
 
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ (Häufig gestellte Fragen)"
 
 msgid "Documentation"
 msgstr "Dokumentation"
@@ -1160,15 +1201,11 @@ msgstr "Kontaktieren Sie uns"
 msgid "Global System Statistics"
 msgstr "Globale Systemstatistik"
 
-#, fuzzy
-#| msgid "Suggest Exchange"
 msgid "Connections to Exchanges"
-msgstr "Austauschknoten vorschlagen"
+msgstr "Verbindungen zu Austauschpunkten"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Connections to Facilities"
-msgstr "Private Liegenschaften"
+msgstr "Verbindungen zu Liegenschaften"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
@@ -1208,15 +1245,25 @@ msgstr "Mitmachen. Finden. Netzwerk knüpfen."
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
 msgstr ""
+"PeeringDB ist eine frei verfügbare, von Nutzern gepflegte Datenbank von "
+"Netzwerken und die erste Anlaufstelle für Peeringinformationen. Die "
+"Datenbank vereinfacht die globale Verknüpfung von Netzwerken bei Internet-"
+"Austauschknoten (IXPs), Rechenzentren und anderen Vernetzungseinrichtungen "
+"und ist der erste Schritt der Entscheidungsfindung beim Peering."
 
 msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
 msgstr ""
+"Die Datenbank ist eine gemeinnützige, communitygesteuerte Initiative, die "
+"von ehrenamtlichen Helfern betrieben und vorangetrieben wird. Sie ist ein "
+"öffentliches Werkzeug für das Wachstum und das Wohl des Internets. Treten "
+"Sie der Community bei und unterstützen Sie die fortwährende Entwicklung des "
+"Internets."
 
 msgid "Learn more"
-msgstr ""
+msgstr "Mehr erfahren"
 
 msgid "about"
-msgstr ""
+msgstr "über"
 
 msgid "Most Recent Updates"
 msgstr ""
@@ -1233,24 +1280,20 @@ msgstr "Ich habe mein Passwort vergessen."
 msgid "I forgot my username .."
 msgstr "Ich habe meinen Benutzernamen vergessen."
 
-#, fuzzy
-#| msgid "Maintenance"
 msgid "Maintenance Mode"
-msgstr "Wartung"
+msgstr "Wartungsmodus"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
+"Die Seite ist aktuell im Wartungsmodus, während welchem diese Aktion "
+"deaktiviert ist. Bitte in ein paar Minuten nochmal versuchen"
 
 msgid "Login with oAuth"
 msgstr "Einloggen mit oAuth"
 
-#, fuzzy
-#| msgid "Login with your google account"
 msgid "Login with your Google account"
 msgstr "Mit Google einloggen"
 
-#, fuzzy
-#| msgid "Login with your facebook account"
 msgid "Login with your Facebook account"
 msgstr "Mit Facebook anmelden"
 
@@ -1343,7 +1386,7 @@ msgid "Become a Sponsor"
 msgstr "Pate werden"
 
 msgid "This server is running in TUTORIAL MODE"
-msgstr ""
+msgstr "Dieser Server befindet sich im TUTORIAL-MODUS"
 
 msgid "These are the usernames associated with your email address"
 msgstr "Folgene Benutzernamen sind mit Ihrer E-Mail-Adresse verknüpft"
@@ -1521,7 +1564,7 @@ msgid "MTU"
 msgstr "MTU"
 
 msgid "No filter matches."
-msgstr "Keine Einträge zum gewählten Filter gefunden"
+msgstr "Keine Einträge zum gewählten Filter gefunden."
 
 msgid "You may filter by"
 msgstr "Sie können filtern nach"
@@ -1553,10 +1596,8 @@ msgstr "Netzwerk-Liegenschaft-Link"
 msgid "Add Facility"
 msgstr "Gebäude hinzufügen"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Peers at this Exchange Point"
-msgstr "Öffentliche Peering-Exchanges"
+msgstr "Peers an diesem Exchange"
 
 msgid "Peer Name"
 msgstr "Peername"
