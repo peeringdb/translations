@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 09:15+0000\n"
-"PO-Revision-Date: 2019-03-01 02:45+0000\n"
+"PO-Revision-Date: 2019-05-13 05:02+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
-"Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
+"Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/"
+"server/ja/>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -133,7 +134,7 @@ msgid "Global"
 msgstr "世界全体"
 
 msgid "0-20 Mbps"
-msgstr "0-20 Mbps"
+msgstr "0-20Mbps"
 
 msgid "20-100Mbps"
 msgstr "20-100Mbps"
@@ -289,7 +290,7 @@ msgid "Organization Merging Tool"
 msgstr "組織統合ツール"
 
 msgid "Undo merge"
-msgstr "統合を元に戻す"
+msgstr "マージを元に戻す"
 
 msgid "APPROVE selected items"
 msgstr "選択したアイテムが承認されました"
@@ -301,7 +302,7 @@ msgid "View"
 msgstr "表示"
 
 msgid "Affiliation request was approved and the user was notified."
-msgstr "所属リクエストが承認されたので、そのユーザに通知しました"
+msgstr "所属リクエストが承認されたので、そのユーザに通知しました。"
 
 msgid "Approve and notify User"
 msgstr "承認とユーザ通知"
@@ -346,10 +347,12 @@ msgid "{} (Preview)"
 msgstr "{} (プレビュー)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "このコマンドは待機中もしくは実行中です。実行が完了するまでお待ちください。"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr ""
+"このコマンドはバックグラウンドで実行され、完了までしばらく時間がかかります。ログは現在のところ出力されませんが、コマンドが完了次第、確認する事が出来るでし"
+"ょう。"
 
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 msgstr "元プレフィクスの左側3オクテット - 例. xxx.xxx.xxx"
@@ -358,29 +361,25 @@ msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
 msgstr "新規プレフィクスの左側3オクテット - 例. xxx.xxx.xxx"
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "そのデータセンタはマージされた後、削除されます。"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Target facility"
-msgstr "データセンタ"
+msgstr "対象のデータセンタ"
 
-#, fuzzy
-#| msgid "Undo merge"
 msgid "Undo this merge"
 msgstr "統合を元に戻す"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
+msgstr "それらのユーザは削除されません。設定内容によらずスーパーユーザアカウントは保持され続けます。"
 
 msgid "Load data from peeringdb API"
-msgstr ""
+msgstr "PeeringDB API からデータをロードします"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "このオブジェクトを復元します - [reftag] [id] で検索"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "いまは、このインタフェースを介して {} タイプのオブジェクトのみが復元されます"
 
 msgid "Yes"
 msgstr "有り"
@@ -404,7 +403,7 @@ msgid "Passwords need to match"
 msgstr "文字列が一致するパスワードでお願いします"
 
 msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
+msgstr "この環境では、この範囲内の AS 番号は許可されていません"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 統合の通知: {} -> {}"
@@ -430,21 +429,17 @@ msgstr "RIR"
 msgid "Renumber IP Space"
 msgstr "IP アドレスの変更"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Merge Facilities"
-msgstr "データセンタ"
+msgstr "データセンタをマージする"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Merge Facilities: UNDO"
-msgstr "Private Facilities"
+msgstr "データセンタをマージする: 取り消す"
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "オブジェクトを復元します"
 
 msgid "Reset Environment"
-msgstr ""
+msgstr "環境をリセットします"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "このオブジェクトの緯度と経度は IP アドレスの情報と同期しています"
@@ -642,7 +637,7 @@ msgid "result log"
 msgstr "結果ログ"
 
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "検索可能なコマンドの説明"
 
 msgid "the user that ran this command"
 msgstr "このコマンドを実行したユーザ"
@@ -651,13 +646,13 @@ msgid "command was run at this date and time"
 msgstr "この日時に実行されたコマンド"
 
 msgid "Done"
-msgstr ""
+msgstr "完了"
 
 msgid "Running"
-msgstr ""
+msgstr "実行中"
 
 msgid "Organization and all Entities it owns"
-msgstr "それが所有している組織とエンティティ"
+msgstr "所有している組織と全エンティティ"
 
 msgid "Any Network"
 msgstr "あらゆるネットワーク"
@@ -701,11 +696,11 @@ msgid "This field is required"
 msgstr "このフィールドは必須です"
 
 msgid "RDAP Lookup Error"
-msgstr ""
+msgstr "RDAP 参照エラー"
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
+msgstr "このフィールドは以下のリクエストにのみ使用可能です {methods}"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
@@ -715,10 +710,8 @@ msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
 
-#, fuzzy
-#| msgid "Change email address"
 msgid "Specify at least one email address"
-msgstr "メールアドレスの変更"
+msgstr "最低限、メールアドレスを1つ指定してください"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -821,7 +814,7 @@ msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under
 msgstr "'%(u_name)s' のユーザが %(o_name)s (%(o_id)s) の組織下の %(n_name)s AS%(n_asn)s (%(n_id)s) のネットワークを生成しました。"
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "そのユーザのメールアドレスが RIR のデータに一致しましたので、確認キューをスキップしました"
+msgstr "そのユーザのメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました"
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
@@ -835,7 +828,7 @@ msgstr "この AS 番号に一致するエントリーがデータベースに�
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr "%(u_name)s (%(u_email)s) のユーザは %(o_name)s と言う組織を生成します"
+msgstr "%(u_name)s (%(u_email)s) のユーザが %(o_name)s と言う組織の生成を要望しています"
 
 msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
 msgstr "この組織名と AS 番号に一致するエントリーがデータベースにありませんでした。 組織を作成する必要があります"
@@ -883,7 +876,7 @@ msgstr "新しいエンティティ '%(entity_type_name)s' が作成された為
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr ""
+msgstr "この %(entity_type_name)s は提案の1つとして提出されており、レビューの後、適切な組織に割り当てられる必要があります"
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "その対象の AS 番号の RIR エントリーを検索しました"
@@ -924,7 +917,7 @@ msgid "If you have questions, please don't hesitate to contact peeringdb support
 msgstr "もし質問がありましたら、PeeringDB サポートまで連絡ください"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr "PeeringDB のパスワードリセットを実行します。下記の URL からパスワードのリセットをしてください"
+msgstr "PeeringDB のパスワードリセットを実行開始します。下記の URL からパスワードのリセットをしてください"
 
 msgid "If you did not initiate the password reset request, please ignore this email."
 msgstr "もしパスワードリセットのリクエストをしていない場合は、このメールは無視してください"
@@ -936,31 +929,47 @@ msgid "Please follow the url below to view any usernames associated with your em
 msgstr "そのメールアドレスと紐づくユーザ名を閲覧するには、下記の URL をクリックしてください"
 
 msgid "If you did not request username retrieval, you can ignore this email."
-msgstr "もしユーザ名検索のリクエストをしていない場合は、このメールは無視してください"
+msgstr "もしユーザ名の検索をリクエストしていない場合は、このメールは無視してください"
 
 msgid "Our Culture"
-msgstr ""
+msgstr "PeeringDB のカルチャー"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
 msgstr ""
+"PeeringDB は、その名のとおり、ネットワークのピアリング促進の為に作られました。近年は、インターネットの成長スピードと多様化に歩調を合わせ、"
+"PeeringDB のビジョンが発展してきています。このデータベースには、ピアリングそのものの情報やピアリングに関連する情報だけではなく、ネットワーク、ク"
+"ラウド、その他のサービスやエンタープライズのインターコネクションに関連する様々な情報やデータセンタの情報が含まれています。"
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
 msgstr ""
+"私たちは、PeeringDB を成長させ改善していく為に、コミュニティを信じています。データベースの運営ボランティアは、セキュリティ、プライバシー、整合性"
+"、データベースのデータ検証に熱心に取り組んでいます。PeeringDB は無償で公開されているツールですが、PeeringDB "
+"の利用者は、データベースを商業目的で使用する事を防ぎ、コミュニケーションの押し付けを妨ぐ為の利用規約を厳守します。PeeringDB "
+"は主にコミュニティによって維持管理されており、この運用は PeeringDB が立ち上がってから実施されているものです。"
 
 msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr ""
+msgstr "私はネットワーク運用者ですが、PeeringDB はどのような役に立ちますか？"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
 msgstr ""
+"全ての AS 番号のおよそ 1/3 の AS 運用者が、インターコネクションに関するデータを PeeringDB のデータベースに登録しています。つまり、"
+"PeeringDB に自分自身が持っているインターコネクションに関する情報を登録・追加していく事で、ピアをしたいと思っているネットワークに関する情報、どこ"
+"でどのようにピアをする事が出来るかについての情報を自信を持って見つける事が出来、一方相手からもあなたのネットワークに関する情報を見つける事が出来るようにな"
+"ります。データベースはユーザが管理し、ボランティアによって検証されている為、情報は正確で最新のものであると信頼する事が出来ます。"
 
 msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
 msgstr ""
+"Peering DB "
+"は、ネットワークの検索とピアを行うプロセスを促進させ、さらに迅速かつ確実なネットワークの拡張と構築計画のデプロイメントをサポートします。"
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr ""
+msgstr "私は IX、データセンタ運用者ですが、PeeringDB はどのような役に立ちますか？"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
+"IX とデータセンタは、データベースに情報を登録・追加し維持する事で、可視性を高め、新規および既存の顧客に対しての魅力を高める事が出来ます。既にデータベー"
+"スに情報が登録されている場合、ネットワーク運用者が IX やデータセンタのサービスに関連する重要な情報、その IX "
+"に接続している、もしくは、データセンタに設備を持っている他のネットワークを見つけやすくなります。"
 
 msgid "Address"
 msgstr "アドレス"
@@ -1038,21 +1047,17 @@ msgstr "ピアリングポリシー(概要)"
 msgid "Geographic Scope"
 msgstr "地域名"
 
-#, fuzzy
-#| msgid "Unique Public Exchange Presences"
 msgid "Exchange Presence"
-msgstr "Unique Public Exchange Presences"
+msgstr "接続エクスチェンジ"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr ""
+msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
 
-#, fuzzy
-#| msgid "Private Facility Presences"
 msgid "Facility Presence"
-msgstr "Private Facility Presences"
+msgstr "利用データセンタ"
 
 msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr ""
+msgstr "選択したデータセンタの利用・未利用の条件をもとにネットワークの検索が出来ます"
 
 msgid "Also known as"
 msgstr "別名"
@@ -1129,7 +1134,7 @@ msgid "Privacy Policy"
 msgstr "個人情報保護ポリシー"
 
 msgid "About"
-msgstr ""
+msgstr "PeeringDB とは"
 
 msgid "Sponsors"
 msgstr "スポンサー"
@@ -1141,7 +1146,7 @@ msgid "Resources"
 msgstr "情報リソース"
 
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 msgid "Documentation"
 msgstr "ドキュメント"
@@ -1155,15 +1160,11 @@ msgstr "連絡先"
 msgid "Global System Statistics"
 msgstr "システム全体の統計情報"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Connections to Exchanges"
-msgstr "エクスチェンジ"
+msgstr "エクスチェンジ接続数"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Connections to Facilities"
-msgstr "Private Facilities"
+msgstr "データセンタ利用数"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "ここで、ネットワーク・IX・データセンタの検索が出来ます"
@@ -1177,10 +1178,8 @@ msgstr "保留"
 msgid "unverified"
 msgstr "未認証の"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Suggest Facility"
-msgstr "データセンタ"
+msgstr "データセンタに情報追加の提案"
 
 msgid "Profile"
 msgstr "プロフィール"
@@ -1198,22 +1197,27 @@ msgid "Login"
 msgstr "ログイン"
 
 msgid "The Interconnection Database"
-msgstr ""
+msgstr "インターコネクション・データベース"
 
 msgid "Join. Search. Grow your network."
-msgstr ""
+msgstr "PeeringDB に登録して、検索して、あなたのネットワークを大きくしよう！"
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
 msgstr ""
+"PeeringDB は無料で使えて、利用者側で情報管理が出来る、ネットワークやインターコネクションに関する情報が集まったデータベースです。"
+"PeeringDB は IX、データセンタやその他のファシリティの場において、グローバルなインターコネクションを促進させ、インターコネクションをするかどう"
+"かの決断を考える為の最初のツールです。"
 
 msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
 msgstr ""
+"このデータベースは非営利コミュニティ主導のボランティアによって運用されているインターネットの成長と改善の為のパブリックなツールです。このコミュニティに参加"
+"し、インターネットの継続的な発展にご支援をお願いします。"
 
 msgid "Learn more"
-msgstr ""
+msgstr "さらなる情報は"
 
 msgid "about"
-msgstr ""
+msgstr "こちら"
 
 msgid "Most Recent Updates"
 msgstr ""
@@ -1230,24 +1234,18 @@ msgstr "パスワードを紛失しました"
 msgid "I forgot my username .."
 msgstr "ユーザ名を紛失しました"
 
-#, fuzzy
-#| msgid "Maintenance"
 msgid "Maintenance Mode"
-msgstr "メンテナンス"
+msgstr "メンテナンス状態"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr ""
+msgstr "このサイトは現在メンテナンスモードで、その操作は無効となっています。数分後に再度お試しください"
 
 msgid "Login with oAuth"
 msgstr "oAuth を使ってログイン"
 
-#, fuzzy
-#| msgid "Login with your google account"
 msgid "Login with your Google account"
 msgstr "Google アカウントを使ってログイン"
 
-#, fuzzy
-#| msgid "Login with your facebook account"
 msgid "Login with your Facebook account"
 msgstr "Facebook アカウントを使ってログイン"
 
@@ -1319,7 +1317,7 @@ msgid "We have received your ownership request for %(o_name)s and will review it
 msgstr "%(o_name)s に関する所有権リクエストを受領しました。これからレビューのプロセスに移ります"
 
 msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr "このエンティティに関する関係の確認が完了し、あなたからの所有権のリクエストが完了しました。あなたは閲覧と編集が出来ます。"
+msgstr "このエンティティとの関係性確認が完了し、所有権リクエストが正常に処理されました。あなたは閲覧と編集が出来るようになっています。"
 
 msgid "Request Ownership"
 msgstr "所有権のリクエスト"
@@ -1330,21 +1328,17 @@ msgstr "あなたが所有権をリクエストする権利を持っていれば
 msgid "Only verified users may request ownership to an organization"
 msgstr "確認済みユーザだけが、組織の所有権のリクエストが出来ます"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Suggest Exchange"
-msgstr "エクスチェンジ"
+msgstr "エクスチェンジに情報追加の提案"
 
-#, fuzzy
-#| msgid "Submit Network"
 msgid "Suggest Network"
-msgstr "ネットワークを登録"
+msgstr "ネットワークに情報追加の提案"
 
 msgid "Become a Sponsor"
-msgstr "スポンサーになる"
+msgstr "スポンサーになるには"
 
 msgid "This server is running in TUTORIAL MODE"
-msgstr ""
+msgstr "現在このサーバはチュートリアルモードで動いています"
 
 msgid "These are the usernames associated with your email address"
 msgstr "これらがあなたのメールアドレスに関連するユーザ名です"
@@ -1404,7 +1398,7 @@ msgid "Before getting access to any other features, you need to confirm your ema
 msgstr "他の機能へのアクセスをする前に、あなたのメールアドレスの確認が必要になります"
 
 msgid "We have sent you a message containing the confirmation link."
-msgstr "あなたに確認リンクが書かれたメッセージを送付しました"
+msgstr "あなたに確認 URL が書かれたメッセージを送付しました"
 
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "あなたのアカウントのレビューが完了するまでフルアクセスの権限を持つ事が出来ません。しばらくお待ちください"
@@ -1412,10 +1406,9 @@ msgstr "あなたのアカウントのレビューが完了するまでフルア
 msgid "Affiliate with organization"
 msgstr "組織に所属しましょう"
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s was approved"
+#, python-format
 msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "%(ar_name)s に対する所属が承認されました"
+msgstr "%(ar_name)s に対する所属が承認保留中です"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
@@ -1429,7 +1422,7 @@ msgid "To affiliate with an existing organization, please enter the ASN or organ
 msgstr "既存の組織に所属する為には、下記に AS 番号もしくは組織名を入力してください"
 
 msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr "組織を新規登録する為には、下記に AS 番号もしくは組織名を入力してください"
+msgstr "ネットワークを新規登録する為には、下記に AS 番号もしくは組織名を入力してください"
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "データセンタもしくはエクスチェンジの組織を新規登録する為には、下記に組織名を入力してください（AS 番号の登録は任意です）"
@@ -1465,7 +1458,7 @@ msgid "Change Email"
 msgstr "メールアドレスを変更する"
 
 msgid "Change password"
-msgstr "パスワードを変更する"
+msgstr "パスワードの変更"
 
 msgid "Password changed"
 msgstr "パスワードが変更されました"
@@ -1554,10 +1547,8 @@ msgstr "エクスチェンジ - データセンタ のリンク"
 msgid "Add Facility"
 msgstr "データセンタを追加"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Peers at this Exchange Point"
-msgstr "接続しているエクスチェンジポイント"
+msgstr "このエクスチェンジポイントでのピア"
 
 msgid "Peer Name"
 msgstr "ピア名"
@@ -1575,7 +1566,7 @@ msgid "Long Name"
 msgstr "ロングネーム"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
-msgstr "あなたは現在ログインしていない為、いくつかのネットワークコンタクト先が非表示になっています。認証済みのユーザであれば閲覧可能です"
+msgstr "あなたは現在ログインしていない為、いくつかのネットワークコンタクト先が非表示になっています。認証済みのユーザでログインすると閲覧可能となります"
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "あなたのアカウントがどの組織にも所属していない為、いくつかのネットワークコンテ区と先が非表示になっています。"
@@ -1680,7 +1671,8 @@ msgid "We will attempt to automatically verify your relationship to the network 
 msgstr "AS 番号の RIR エントリーに登録されているあなたのメールアドレスをチェックする事で、そのネットワークとあなたの関係性を確認します"
 
 msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr "認証に失敗すると、そのネットワークが検索結果や API リストに表示されるようになる為には、PeeringDB のスタッフによる承認が必要です"
+msgstr ""
+"認証に失敗した場合、そのネットワークが検索結果や API リストに表示されるようになるには、PeeringDB のスタッフによる承認が必要となります"
 
 msgid "Submit Network"
 msgstr "ネットワークを登録"
@@ -1703,10 +1695,8 @@ msgstr "ポリシー担当者のメールアドレス"
 msgid "Policy Phone"
 msgstr "ポリシー担当者の電話番号"
 
-#, fuzzy
-#| msgid "IPv4 Prefixes"
 msgid "IPv4 or IPv6 prefix"
-msgstr "IPv4 プレフィクス数"
+msgstr "IPv4 もしくは IPv6 のプレフィクス"
 
 msgid "Confirmed"
 msgstr "確認済み(Confirmed)"
@@ -1738,10 +1728,8 @@ msgstr ""
 msgid "Suggest another facility"
 msgstr ""
 
-#, fuzzy
-#| msgid "Only verified users may request ownership to an organization"
 msgid "Only verified users may suggest entities."
-msgstr "確認済みユーザだけが、組織の所有権のリクエストが出来ます"
+msgstr "確認済みユーザだけが、情報追加の提案が出来ます"
 
 msgid "Suggest another exchange"
 msgstr ""
@@ -1777,7 +1765,7 @@ msgid "Negative value not allowed"
 msgstr "負の数値は許可されません"
 
 msgid "Please wait a bit before requesting ownership again."
-msgstr "所有権の再リクエストの前にお待ちください"
+msgstr "所有権の再リクエストをするまで少々お待ちください"
 
 msgid "Invalid organization"
 msgstr "無効な組織"
@@ -1793,7 +1781,7 @@ msgid "You already have an ownership request pending for this organization"
 msgstr "既にこの組織についてペンディング中の所有権リクエストがあります"
 
 msgid "Please wait a bit before requesting affiliation again."
-msgstr "組織所属リクエストするまで少々お待ちください"
+msgstr "組織所属リクエストをするまで少々お待ちください"
 
 msgid "Either ASN or Organization required"
 msgstr "AS 番号もしくは組織のどちらかが必要となります"
@@ -1817,7 +1805,7 @@ msgid "Wrong password"
 msgstr "間違ったパスワード"
 
 msgid "Please wait a bit before requesting your usernames again."
-msgstr "ユーザ名変更のリクエストをする前に少々お待ちください"
+msgstr "ユーザ名変更のリクエストをするまで少々お待ちください"
 
 msgid "Invalid Security Token"
 msgstr "無効なセキュリティトークン"
