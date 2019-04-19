@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 09:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-05-13 05:02+0000\n"
+"Last-Translator: Michalis Oikonomakos <moikonom@admin.grnet.gr>\n"
+"Language-Team: Greek <https://translate.peeringdb.com/projects/peeringdb/"
+"server/el/>\n"
+"Language: el_GR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.3\n"
 
 msgid "Ethernet"
 msgstr "Ethernet"
@@ -346,12 +348,18 @@ msgstr "{} (Προεπισκόπηση)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
+"Aυτή η εντολή βρίσκεται σε αναμονή / εκτελείται - παρακαλούμε αναμείνατε έως "
+"ότου ολοκληρωθεί προτού την εκτελέσετε ξανά"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr ""
+"Αυτή η εντολή καθυστερεί να ολοκληρωθεί και πρόκειται να μπει στην ουρά "
+"εκτέλεσης στο παρασκήνιο. Την παρούσα χρονική στιγμή δεν υπάρχει η "
+"δυνατότητα παροχής αρχείου καταγραφής. Μπορείτε να αναθεωρήσετε τα παραπάνω "
+"όταν η εντολή ολοκληρώσει την εκτέλεσή της."
 
 msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
-msgstr "Ta τρία αριστερά octets του αρχικού prefix - π.χ. xxx.xxx.xxx"
+msgstr "Ta τρία πιο αριστερά octets του αρχικού prefix - π.χ. xxx.xxx.xxx"
 
 msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
 msgstr "Τα τρία αριστερά octets του νέου prefix - π.χ. xxx.xxx.xxx"
