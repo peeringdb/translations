@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 09:15+0000\n"
+"POT-Creation-Date: 2019-05-30 23:00+0000\n"
 "PO-Revision-Date: 2019-05-13 05:02+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
-"Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/"
-"server/de/>\n"
+"Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -209,6 +208,9 @@ msgstr "Benutzer"
 msgid "Public"
 msgstr "Öffentlich"
 
+msgid "Kosovo"
+msgstr "Kosovo"
+
 msgid "Status"
 msgstr "Status"
 
@@ -348,28 +350,19 @@ msgid "{} (Preview)"
 msgstr "{} (Vorschau)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
-"Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet "
-"wird, bevor sie es erneut ausführen"
+msgstr "Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet wird, bevor sie es erneut ausführen"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
-"Dieses Kommando erfordert etwas Zeit für die Durchführung. Daher wird es in "
-"eine Warteschlange eingereiht und im Hintergrund ausgeführt. Momentan kann "
-"kein Ausgabeprotokoll zur Verfügung gestellt werden. Bitte sehen Sie noch "
-"einmal nach, wenn das Kommando ausgeführt wurde."
+msgstr "Dieses Kommando erfordert etwas Zeit für die Durchführung. Daher wird es in eine Warteschlange eingereiht und im Hintergrund ausgeführt. Momentan kann kein Ausgabeprotokoll zur Verfügung gestellt werden. Bitte sehen Sie noch einmal nach, wenn das Kommando ausgeführt wurde."
 
-msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
+msgid "Old prefix - renumber all netixlans that fall into this prefix"
 msgstr ""
-"Die ersten drei Oktets von links des ursprünglichen Prefixes - z.B. "
-"xxx.xxx.xxx"
 
-msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
-msgstr "Die ersten drei Oktets von links des neuen Prefixes - z.B. xxx.xxx.xxx"
+msgid "New prefix - needs to be the same protocol and length as old prefix"
+msgstr ""
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
-"Legen Sie dieses Gebäude mit einem anderen zusammen - es wird entfernt werden"
+msgstr "Legen Sie dieses Gebäude mit einem anderen zusammen - es wird entfernt werden"
 
 msgid "Target facility"
 msgstr "Zielgebäude"
@@ -378,10 +371,7 @@ msgid "Undo this merge"
 msgstr "Veränderung rückgängig machen"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
-"Bitte entfernen Sie keine Nutzer. Beachten Sie bitte auch, dass Superuser-"
-"Accounts nicht gelöscht werden können - unabhängig von der hier gesetzten "
-"Einstellung."
+msgstr "Bitte entfernen Sie keine Nutzer. Beachten Sie bitte auch, dass Superuser-Accounts nicht gelöscht werden können - unabhängig von der hier gesetzten Einstellung."
 
 msgid "Load data from peeringdb API"
 msgstr "Daten werden von der peeringdb API geladen"
@@ -390,9 +380,7 @@ msgid "Restore this object - search by [reftag] [id]"
 msgstr "Stelle dieses Objekt wieder her - Suche über [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
-"Über diese Schnittstelle können momentab nur Objekte des Typs {} "
-"wiederhergestellt werden"
+msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiederhergestellt werden"
 
 msgid "Yes"
 msgstr "Ja"
@@ -415,8 +403,101 @@ msgstr "Muss mindestens 10 Zeichen lang sein"
 msgid "Passwords need to match"
 msgstr "Passwörter stimmen nicht überein"
 
+msgid "Please fill out the anti-spam challenge (captcha) field"
+msgstr ""
+
+msgid "reCAPTCHA invalid"
+msgstr "reCAPTCHA ungültig"
+
+msgid "captcha invalid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Please wait a bit before requesting another email change"
+msgid "Please wait a bit before requesting another ixf import preview."
+msgstr "Bitte warten Sie, bevor Sie eine weitere E-Mail-Änderung beantragen"
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Ixlan not found"
+msgstr "Adresse nicht gefunden"
+
+#, fuzzy
+#| msgid "Permissions"
+msgid "Permission denied"
+msgstr "Berechtigungen"
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF import url not specified"
+msgstr "IXF Import Log Einträge"
+
+msgid "No JSON could be parsed"
+msgstr "JSON konnte nicht analyisert werden"
+
+msgid "No entries in any of the vlan_list lists, aborting."
+msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
+
+msgid "No prefixes defined on ixlan"
+msgstr ""
+
+msgid "ASN no longer in data"
+msgstr ""
+
+msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+msgstr ""
+
+msgid "At least one ipaddress mismatched and network has disabled upates"
+msgstr ""
+
+msgid "Network status is '{}'"
+msgstr ""
+
+msgid "Network does not exist in peeringdb"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member type: {}"
+msgstr "Ungültiges Prefix: {}"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid connection state: {}"
+msgstr "Ungültiges Prefix: {}"
+
+msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
+msgstr ""
+
+msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
+msgstr ""
+
+msgid "Connection is currently marked as inactive"
+msgstr ""
+
+msgid "Network has disabled ixp updates"
+msgstr ""
+
+#, fuzzy
+#| msgid "email address"
+msgid "New ip-address"
+msgstr "E-Mail Adresse"
+
+msgid "Fields changed: {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "No changes"
+msgstr "Austauschpunkte"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid speed value: {}"
+msgstr "Ungültiges Prefix: {}"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
@@ -570,12 +651,6 @@ msgstr "Es müssen zumindest zwei ASNs angegeben werden"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Es können maximal 25 ASNs verglichen werden"
 
-msgid "No JSON could be parsed"
-msgstr "JSON konnte nicht analyisert werden"
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
-
 msgid "IXF Import Log"
 msgstr "IX-F Import Bericht"
 
@@ -590,6 +665,12 @@ msgstr "IXF Import Log Einträge"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Gibt an, ob es einem IXP erlaubt ist einen netixlan Eintrag für dieses Netzwerk vorzunehmen anhand der ixp_member Daten"
+
+msgid "IPv4 address outside of prefix"
+msgstr ""
+
+msgid "IPv6 address outside of prefix"
+msgstr ""
 
 msgid "Ip address already exists elsewhere"
 msgstr "IP Adresse wird bereits an anderer Stelle benutzt"
@@ -950,65 +1031,25 @@ msgid "Our Culture"
 msgstr "Unsere Kultur"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr ""
-"PeeringDB ist, wie der Name bereits vermuten lässt, eine Datenbank, die "
-"aufgesetzt wurde, um die Arbeit von Netzwerk- und Peering-Managern zu "
-"erleichtern. In den letzten Jahren hat sich die Vision der PeeringDB weiter "
-"entwickelt, vor allem, um sich der Geschwindigkeit und den schnell ändernden "
-"Gepflogenheiten des wachsenden Internets anzupassen. Die Datenbank umfasst "
-"nun nicht mehr nur Informationen, die für das reine Peering nötig sind. "
-"Mittlerweile beherbergt es alle Arten von relevanten Daten für Netzwerk-, "
-"Cloud- oder Servicebetreiber sowie Großunternehmen mit Netzbetrieb, als auch "
-"Informationen über Vernetzungseinrichtungen, die das Fundament des Internets "
-"formen."
+msgstr "PeeringDB ist, wie der Name bereits vermuten lässt, eine Datenbank, die aufgesetzt wurde, um die Arbeit von Netzwerk- und Peering-Managern zu erleichtern. In den letzten Jahren hat sich die Vision der PeeringDB weiter entwickelt, vor allem, um sich der Geschwindigkeit und den schnell ändernden Gepflogenheiten des wachsenden Internets anzupassen. Die Datenbank umfasst nun nicht mehr nur Informationen, die für das reine Peering nötig sind. Mittlerweile beherbergt es alle Arten von relevanten Daten für Netzwerk-, Cloud- oder Servicebetreiber sowie Großunternehmen mit Netzbetrieb, als auch Informationen über Vernetzungseinrichtungen, die das Fundament des Internets formen."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr ""
-"Wir glauben an und verlassen uns auf die Community, um die PeeringDB-"
-"Datenbank hochzuziehen und zu verbessern. Die Freiwilligen, die die "
-"Datenbank betreiben, begeistern sich für Sicherheit, Datenschutz, Integrität "
-"und Gültigkeit der Daten in der Datenbank. Obwohl PeeringDB ein frei "
-"verfügbares und öffentliches Werkzeug ist, halten sich die Benutzer genau an "
-"die Nutzungsbedingungen, wodurch verhindert wird, dass die Datenbank für "
-"kommerzielle Zwecke genutzt wird, und unerbetenen Nachrichten Einhalt "
-"geboten wird. Dies wird größtenteils durch die Community kontrolliert und "
-"hat sich seit Start der PeeringDB als sehr effektiv erwiesen."
+msgstr "Wir glauben an und verlassen uns auf die Community, um die PeeringDB-Datenbank hochzuziehen und zu verbessern. Die Freiwilligen, die die Datenbank betreiben, begeistern sich für Sicherheit, Datenschutz, Integrität und Gültigkeit der Daten in der Datenbank. Obwohl PeeringDB ein frei verfügbares und öffentliches Werkzeug ist, halten sich die Benutzer genau an die Nutzungsbedingungen, wodurch verhindert wird, dass die Datenbank für kommerzielle Zwecke genutzt wird, und unerbetenen Nachrichten Einhalt geboten wird. Dies wird größtenteils durch die Community kontrolliert und hat sich seit Start der PeeringDB als sehr effektiv erwiesen."
 
 msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr ""
-"Ich bin ein Netzwerkbetreiber. Wie kann die PeeringDB mich unterstützen?"
+msgstr "Ich bin ein Netzwerkbetreiber. Wie kann die PeeringDB mich unterstützen?"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
-msgstr ""
-"Fast ein Drittel der Autonomen Systeme (ASNs) tragen ihre Verbindungsdaten "
-"die PeeringDB-Datenbank ein. Durch Nutzung der PeeringDB und Hinzufügen "
-"eigener Verbindungsdaten werden Sie in der Lage sein, zuverlässig "
-"Informationen zu Netzwerken zu finden, die auf der Suche nach "
-"Peeringmöglichkeiten sind, und wo und wie man sich mit ihnen verbinden kann, "
-"und andere Netzwerke werden in der Lage sein, diese Informationen zu Ihrem "
-"Netzwerk zu finden. Da die Datenbank von Benutzern gepflegt und von unseren "
-"freiwilligen Helfern geprüft wird, können Sie darauf vertrauen, dass die "
-"Informationen akkurat und aktuell sind."
+msgstr "Fast ein Drittel der Autonomen Systeme (ASNs) tragen ihre Verbindungsdaten die PeeringDB-Datenbank ein. Durch Nutzung der PeeringDB und Hinzufügen eigener Verbindungsdaten werden Sie in der Lage sein, zuverlässig Informationen zu Netzwerken zu finden, die auf der Suche nach Peeringmöglichkeiten sind, und wo und wie man sich mit ihnen verbinden kann, und andere Netzwerke werden in der Lage sein, diese Informationen zu Ihrem Netzwerk zu finden. Da die Datenbank von Benutzern gepflegt und von unseren freiwilligen Helfern geprüft wird, können Sie darauf vertrauen, dass die Informationen akkurat und aktuell sind."
 
 msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
-msgstr ""
-"Diese Daten werden Ihnen helfen, den Prozess der Suche von und die "
-"Verbindung mit anderen Netzwerken zu beschleunigen, und fördern dabei eine "
-"schnellere und bestimmtere Entfaltung Ihrer eigenen Netzwerkexpansion und "
-"Entwicklungspläne."
+msgstr "Diese Daten werden Ihnen helfen, den Prozess der Suche von und die Verbindung mit anderen Netzwerken zu beschleunigen, und fördern dabei eine schnellere und bestimmtere Entfaltung Ihrer eigenen Netzwerkexpansion und Entwicklungspläne."
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr ""
-"Ich gehöre zu einem Internet Exchange Point (IXP), Rechenzentrum oder "
-"anderer Art von Netzkopplungseinrichtung. Wie kann PeeringDB mir helfen?"
+msgstr "Ich gehöre zu einem Internet Exchange Point (IXP), Rechenzentrum oder anderer Art von Netzkopplungseinrichtung. Wie kann PeeringDB mir helfen?"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
-msgstr ""
-"IXPs und Rechenzentren können ihre Daten der Datenbank hinzufügen und "
-"pflegen, wodurch sich ihre Sichtbarkeit und Anziehungskraft für neue und "
-"bestehende Kunden erhöhen. Wenn Sie in der Datenbank sind ist es für andere "
-"Netzwerke viel einfacher, essentielle Informationen über Ihre Dienste und an "
-"Ihrem IXP oder Ihrer Einrichtung anwesende Netzwerke zu finden."
+msgstr "IXPs und Rechenzentren können ihre Daten der Datenbank hinzufügen und pflegen, wodurch sich ihre Sichtbarkeit und Anziehungskraft für neue und bestehende Kunden erhöhen. Wenn Sie in der Datenbank sind ist es für andere Netzwerke viel einfacher, essentielle Informationen über Ihre Dienste und an Ihrem IXP oder Ihrer Einrichtung anwesende Netzwerke zu finden."
 
 msgid "Address"
 msgstr "Adresse"
@@ -1077,8 +1118,8 @@ msgstr "Verkehrsverhältnis"
 msgid "Primary ASN"
 msgstr "Primäres ASN"
 
-msgid "IRR Macro"
-msgstr "IRR-Makro"
+msgid "IRR as-set/route-set"
+msgstr ""
 
 msgid "General Peering Policy"
 msgstr "Allgemeine Peeringrichtlinie"
@@ -1175,11 +1216,11 @@ msgstr "Datenschutzrichtlinie"
 msgid "About"
 msgstr "Über"
 
+msgid "Register"
+msgstr "Registrieren"
+
 msgid "Sponsors"
 msgstr "Sponsoren"
-
-msgid "Partners"
-msgstr "Partner"
 
 msgid "Resources"
 msgstr "Ressourcen"
@@ -1226,9 +1267,6 @@ msgstr "Profil"
 msgid "Logout"
 msgstr "Abmelden"
 
-msgid "Register"
-msgstr "Registrieren"
-
 msgid "or"
 msgstr "oder"
 
@@ -1242,20 +1280,10 @@ msgid "Join. Search. Grow your network."
 msgstr "Mitmachen. Finden. Netzwerk knüpfen."
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
-msgstr ""
-"PeeringDB ist eine frei verfügbare, von Nutzern gepflegte Datenbank von "
-"Netzwerken und die erste Anlaufstelle für Peeringdaten. Die Datenbank "
-"vereinfacht die globale Verbindung von Netzwerken bei Internet-"
-"Austauschknoten (IXPs), Rechenzentren und anderen Kopplungseinrichtungen und "
-"ist der erste Schritt bei der Peering-Entscheidungsfindung."
+msgstr "PeeringDB ist eine frei verfügbare, von Nutzern gepflegte Datenbank von Netzwerken und die erste Anlaufstelle für Peeringdaten. Die Datenbank vereinfacht die globale Verbindung von Netzwerken bei Internet-Austauschknoten (IXPs), Rechenzentren und anderen Kopplungseinrichtungen und ist der erste Schritt bei der Peering-Entscheidungsfindung."
 
 msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
-msgstr ""
-"Die Datenbank ist eine gemeinnützige, communitygesteuerte Initiative, die "
-"von ehrenamtlichen Helfern betrieben und vorangetrieben wird. Sie ist ein "
-"öffentliches Werkzeug für das Wachstum und das Wohl des Internets. Treten "
-"Sie der Community bei und unterstützen Sie die fortwährende Entwicklung des "
-"Internets."
+msgstr "Die Datenbank ist eine gemeinnützige, communitygesteuerte Initiative, die von ehrenamtlichen Helfern betrieben und vorangetrieben wird. Sie ist ein öffentliches Werkzeug für das Wachstum und das Wohl des Internets. Treten Sie der Community bei und unterstützen Sie die fortwährende Entwicklung des Internets."
 
 msgid "Learn more"
 msgstr "Mehr erfahren"
@@ -1263,8 +1291,13 @@ msgstr "Mehr erfahren"
 msgid "about"
 msgstr "über"
 
+#, fuzzy
+#| msgid "Register"
+msgid "register"
+msgstr "Registrieren"
+
 msgid "Most Recent Updates"
-msgstr ""
+msgstr "Aktuelle Updates"
 
 msgid "Username"
 msgstr "Benutzername"
@@ -1282,9 +1315,7 @@ msgid "Maintenance Mode"
 msgstr "Wartungsmodus"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr ""
-"Die Seite ist aktuell im Wartungsmodus, während welchem diese Aktion "
-"deaktiviert ist. Bitte in ein paar Minuten nochmal versuchen"
+msgstr "Die Seite ist aktuell im Wartungsmodus, während welchem diese Aktion deaktiviert ist. Bitte in ein paar Minuten nochmal versuchen"
 
 msgid "Login with oAuth"
 msgstr "Einloggen mit oAuth"
@@ -1294,6 +1325,9 @@ msgstr "Mit Google einloggen"
 
 msgid "Login with your Facebook account"
 msgstr "Mit Facebook anmelden"
+
+msgid "Partners"
+msgstr "Partner"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Wir haben Anweisungen an Ihre E-Mail-Adresse geschickt, vorausgesetzt, sie ist in unserem System. Sie haben 30 Minuten, um den Vorgang abzuschließen."
@@ -1328,6 +1362,99 @@ msgstr "Dieser Link zum Zurücksetzen des Passworts ist abgelaufen, bitte"
 msgid "initiate again"
 msgstr "fordern Sie ein neues an"
 
+msgid "Affiliate with organization"
+msgstr "Zuordnung zu einer Organisation anfordern"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s is pending approval."
+msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was denied"
+msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was approved"
+msgstr "Ihre Zuordnung zu %(ar_name)s wurde bestätigt"
+
+msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
+msgstr "Um einer existierenden Organisation zugeordnet zu werden, geben Sie bitte die ASN oder den Organisationsnamen unten ein."
+
+msgid "To register a new network organization, please enter the ASN and organization name below."
+msgstr "Um eine neue Organisation zu registrieren, geben Sie bitte die ASN und den Organisationsnamen unten ein."
+
+msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
+msgstr "Um einen neuen Standort oder Exchange zu registrieren, geben Sie bitte den Organisationsnamen unten ein (ASN ist optional)."
+
+msgid "Affiliate"
+msgstr "Zuordnung anfordern"
+
+msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
+msgstr "Im Falle, dass der RIR-Eintrag für Ihre ASN nicht eingeholt werden kann, kontaktieren Sie bitte"
+
+msgid "for assistance"
+msgstr "für Unterstützung"
+
+msgid "Existing affiliations"
+msgstr "Bestehende Zuordnungen"
+
+msgid "Your affiliation with"
+msgstr "Ihre Zuordnung zu"
+
+msgid "has been approved"
+msgstr "wurde bestätigt"
+
+msgid "Change email address"
+msgstr "E-Mail-Adresse ändern"
+
+msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
+msgstr "Für eine schnelle Überprüfung ist es notwendig, dass sie eine Unternehmens-E-Mail-Adresse verwenden. Wenn Sie vorhaben, Ihre ASN bei PeeringDB zu registrieren, empfehlen wir, dass Sie eine E-Mail-Adresse verwenden, die bereits in den öffentlichen Kontaktdetails Ihrer ASN vorhanden ist."
+
+msgid "Change Email"
+msgstr "E-Mail-Adresse ändern"
+
+msgid "Change password"
+msgstr "Passwort ändern"
+
+msgid "Password changed"
+msgstr "Password geändert"
+
+msgid "Current Password"
+msgstr "Aktuelles Passwort"
+
+msgid "Password Verification"
+msgstr "Passwort erneut eingeben"
+
+msgid "You have confirmed your email address!"
+msgstr "Sie haben Ihre E-Mail-Adresse bestätigt!"
+
+msgid "Attention!"
+msgstr "Achtung!"
+
+msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
+msgstr "Bitte geben Sie für Ihr Konto eine E-Mail-Adresse an. Solange Sie dies nicht gemacht haben, sind wir außerstande, mit der Verifizierung fortzufahren."
+
+msgid "Email Confirmation"
+msgstr "E-Mail bestätigen"
+
+msgid "Before getting access to any other features, you need to confirm your email address."
+msgstr "Zugang zu weiteren Funktionen wird erst nach Bestätigung der E-Mail-Adresse gewährt."
+
+msgid "We have sent you a message containing the confirmation link."
+msgstr "Wir haben Ihnen eine Nachricht mit dem Bestätigungslink zugesandt."
+
+msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
+msgstr "Bevor wir oder die Organisation, der Sie angehören, Ihr Konto geprüft haben, werden Sie noch keinen Vollzugriff haben. Vielen Dank für Ihre Geduld."
+
+msgid "Select language"
+msgstr "Sprache auswählen"
+
+msgid "Language preference saved"
+msgstr "Sprachauswahl gespeichert"
+
+msgid "Set language preference"
+msgstr "Sprachauswahl speichern"
+
 msgid "Account Created"
 msgstr "Erstellungsdatum des Kontos"
 
@@ -1351,6 +1478,9 @@ msgstr "Vorname"
 
 msgid "Last name"
 msgstr "Nachname"
+
+msgid "Loading anti-spam challenge"
+msgstr ""
 
 msgid "Create"
 msgstr "Erstellen"
@@ -1420,101 +1550,8 @@ msgstr "Bitte nehmen Sie sich die Zeit und bestätigen Sie Ihre E-Mail Adresse s
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Sie können die Zugehörigkeit zu einer Organisation oder zu einem ASN beantragen"
 
-msgid "Select language"
-msgstr "Sprache auswählen"
-
-msgid "Language preference saved"
-msgstr "Sprachauswahl gespeichert"
-
-msgid "Set language preference"
-msgstr "Sprachauswahl speichern"
-
-msgid "You have confirmed your email address!"
-msgstr "Sie haben Ihre E-Mail-Adresse bestätigt!"
-
-msgid "Attention!"
-msgstr "Achtung!"
-
-msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr "Bitte geben Sie für Ihr Konto eine E-Mail-Adresse an. Solange Sie dies nicht gemacht haben, sind wir außerstande, mit der Verifizierung fortzufahren."
-
-msgid "Email Confirmation"
-msgstr "E-Mail bestätigen"
-
-msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr "Zugang zu weiteren Funktionen wird erst nach Bestätigung der E-Mail-Adresse gewährt."
-
-msgid "We have sent you a message containing the confirmation link."
-msgstr "Wir haben Ihnen eine Nachricht mit dem Bestätigungslink zugesandt."
-
-msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr "Bevor wir oder die Organisation, der Sie angehören, Ihr Konto geprüft haben, werden Sie noch keinen Vollzugriff haben. Vielen Dank für Ihre Geduld."
-
-msgid "Affiliate with organization"
-msgstr "Zuordnung zu einer Organisation anfordern"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was denied"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was approved"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde bestätigt"
-
-msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr "Um einer existierenden Organisation zugeordnet zu werden, geben Sie bitte die ASN oder den Organisationsnamen unten ein."
-
-msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr "Um eine neue Organisation zu registrieren, geben Sie bitte die ASN und den Organisationsnamen unten ein."
-
-msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "Um einen neuen Standort oder Exchange zu registrieren, geben Sie bitte den Organisationsnamen unten ein (ASN ist optional)."
-
-msgid "Affiliate"
-msgstr "Zuordnung anfordern"
-
-msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "Im Falle, dass der RIR-Eintrag für Ihre ASN nicht eingeholt werden kann, kontaktieren Sie bitte"
-
-msgid "for assistance"
-msgstr "für Unterstützung"
-
-msgid "Existing affiliations"
-msgstr "Bestehende Zuordnungen"
-
-msgid "Your affiliation with"
-msgstr "Ihre Zuordnung zu"
-
-msgid "has been approved"
-msgstr "wurde bestätigt"
-
 msgid "Manage OAuth Applications"
 msgstr "OAuth-Anwendungen verwalten"
-
-msgid "Change email address"
-msgstr "E-Mail-Adresse ändern"
-
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "Für eine schnelle Überprüfung ist es notwendig, dass sie eine Unternehmens-E-Mail-Adresse verwenden. Wenn Sie vorhaben, Ihre ASN bei PeeringDB zu registrieren, empfehlen wir, dass Sie eine E-Mail-Adresse verwenden, die bereits in den öffentlichen Kontaktdetails Ihrer ASN vorhanden ist."
-
-msgid "Change Email"
-msgstr "E-Mail-Adresse ändern"
-
-msgid "Change password"
-msgstr "Passwort ändern"
-
-msgid "Password changed"
-msgstr "Password geändert"
-
-msgid "Current Password"
-msgstr "Aktuelles Passwort"
-
-msgid "Password Verification"
-msgstr "Passwort erneut eingeben"
 
 msgid "Pending Review"
 msgstr "In Prüfung"
@@ -1549,6 +1586,11 @@ msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
 msgid "IXF Member Export URL"
 msgstr "IXF Member-Export-URL"
 
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "IX-F Import Bericht"
+
 msgid "Prefix"
 msgstr "Präfix"
 
@@ -1582,6 +1624,11 @@ msgstr "IXLAN-Präfix"
 msgid "Add Prefix"
 msgstr "Prefix hinzufügen"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Enabled"
+msgstr "IXF Import Log Einträge"
+
 msgid "Add LAN"
 msgstr "LAN hinzufügen"
 
@@ -1593,6 +1640,35 @@ msgstr "Netzwerk-Liegenschaft-Link"
 
 msgid "Add Facility"
 msgstr "Gebäude hinzufügen"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Preview"
+msgstr "IXF Import Log Einträge"
+
+msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "Changes"
+msgstr "Austauschpunkte"
+
+msgid "Errors"
+msgstr ""
+
+#, fuzzy
+#| msgid "Speed"
+msgid "speed"
+msgstr "Geschwindigkeit"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "routeserver"
+msgstr "Route Server"
+
+msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgstr ""
 
 msgid "Peers at this Exchange Point"
 msgstr "Peers an diesem Exchange"
@@ -1686,9 +1762,6 @@ msgstr "Postleitzahl"
 
 msgid "CLLI Code"
 msgstr "CLLI-Code (USA)"
-
-msgid "IRR Record"
-msgstr "IRR-Eintrag"
 
 msgid "Traffic Ratios"
 msgstr "Trafficverhältnis"
@@ -1804,6 +1877,14 @@ msgstr "Ungültiges Prefix: {}"
 msgid "Address space invalid: {}"
 msgstr "Adressbereich ungültig: {}"
 
+msgid "Minimum allowed prefix length is {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum allowed prefix length is {}"
+msgstr "gültiges Maximum {}"
+
 msgid "Maximum value allowed {}"
 msgstr "gültiges Maximum {}"
 
@@ -1861,9 +1942,6 @@ msgstr "Passwort-Zurücksetzungsprozess ist abgelaufen, bitte"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
 msgstr "Bitte aus der aktuellen Session ausloggen, bevor Sie versuchen, sich zu registrieren. Beachte: multiple Accounts werden nicht mehr benötigt."
-
-msgid "reCAPTCHA invalid"
-msgstr "reCAPTCHA ungültig"
 
 msgid "This email address has already been used"
 msgstr "Diese E-Mail-Adresse wurde bereits genutzt"
@@ -1946,6 +2024,18 @@ msgstr "Account deaktiviert."
 msgid "Invalid username/password."
 msgstr "Ungültiger Benutzername/Passwort."
 
+#~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
+#~ msgstr "Die ersten drei Oktets von links des ursprünglichen Prefixes - z.B. xxx.xxx.xxx"
+
+#~ msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
+#~ msgstr "Die ersten drei Oktets von links des neuen Prefixes - z.B. xxx.xxx.xxx"
+
+#~ msgid "IRR Macro"
+#~ msgstr "IRR-Makro"
+
+#~ msgid "IRR Record"
+#~ msgstr "IRR-Eintrag"
+
 #~ msgid "Peering Networks"
 #~ msgstr "Peering-Netzwerke"
 
@@ -1985,9 +2075,6 @@ msgstr "Ungültiger Benutzername/Passwort."
 #~ msgid "Read our FAQ"
 #~ msgstr "Lesen Sie unsere FAQ"
 
-#~ msgid "Most Recent Updates"
-#~ msgstr "Aktuelle Updates"
-
 #~ msgid "NETWORKS"
 #~ msgstr "Netzwerke"
 
@@ -2023,6 +2110,3 @@ msgstr "Ungültiger Benutzername/Passwort."
 
 #~ msgid "Portuguese"
 #~ msgstr "Portugiesisch"
-
-#~ msgid "Kosovo"
-#~ msgstr "Kosovo"
