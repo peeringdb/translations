@@ -11,7 +11,6 @@ msgstr ""
 "PO-Revision-Date: 2019-05-31 13:54+0000\n"
 "Last-Translator: Wei Chen <x@betaidc.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.peeringdb.com/"
-"projects/peeringdb/server/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -208,6 +207,9 @@ msgstr "用戶"
 msgid "Public"
 msgstr "公開"
 
+msgid "Kosovo"
+msgstr ""
+
 msgid "Status"
 msgstr "狀態"
 
@@ -352,11 +354,11 @@ msgstr ""
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr ""
 
-msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
-msgstr "原始首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"
+msgid "Old prefix - renumber all netixlans that fall into this prefix"
+msgstr ""
 
-msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
-msgstr "新首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"
+msgid "New prefix - needs to be the same protocol and length as old prefix"
+msgstr ""
 
 msgid "Merge this facility - it will be deleted"
 msgstr "合併此設施 - 它將被刪除"
@@ -400,8 +402,101 @@ msgstr "至少 10 個字元長"
 msgid "Passwords need to match"
 msgstr "密碼沒有匹配"
 
+msgid "Please fill out the anti-spam challenge (captcha) field"
+msgstr ""
+
+msgid "reCAPTCHA invalid"
+msgstr "reCAPTCHA 無效"
+
+msgid "captcha invalid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Please wait a bit before requesting another email change"
+msgid "Please wait a bit before requesting another ixf import preview."
+msgstr "請稍後再請求其他 Email 修改"
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Ixlan not found"
+msgstr "地址未找到"
+
+#, fuzzy
+#| msgid "Permissions"
+msgid "Permission denied"
+msgstr "許可權"
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF import url not specified"
+msgstr "IXF 導入日誌條目"
+
+msgid "No JSON could be parsed"
+msgstr "沒有可以被解析的JSON"
+
+msgid "No entries in any of the vlan_list lists, aborting."
+msgstr "在 vlan_list 列表中沒有條目，中止中。"
+
+msgid "No prefixes defined on ixlan"
+msgstr ""
+
+msgid "ASN no longer in data"
+msgstr ""
+
+msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+msgstr ""
+
+msgid "At least one ipaddress mismatched and network has disabled upates"
+msgstr ""
+
+msgid "Network status is '{}'"
+msgstr ""
+
+msgid "Network does not exist in peeringdb"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member type: {}"
+msgstr "首碼無效：{}"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid connection state: {}"
+msgstr "首碼無效：{}"
+
+msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
+msgstr ""
+
+msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
+msgstr ""
+
+msgid "Connection is currently marked as inactive"
+msgstr ""
+
+msgid "Network has disabled ixp updates"
+msgstr ""
+
+#, fuzzy
+#| msgid "email address"
+msgid "New ip-address"
+msgstr "電子郵件"
+
+msgid "Fields changed: {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "No changes"
+msgstr "交換點"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid speed value: {}"
+msgstr "首碼無效：{}"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 合併通知: {} -> {}"
@@ -553,12 +648,6 @@ msgstr "需要至少兩個 ASN"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "最多只能比較25個 ASN"
 
-msgid "No JSON could be parsed"
-msgstr "沒有可以被解析的JSON"
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "在 vlan_list 列表中沒有條目，中止中。"
-
 msgid "IXF Import Log"
 msgstr "IXF 導入日誌"
 
@@ -573,6 +662,12 @@ msgstr "IXF 導入日誌條目"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "聲明是否允許 IXP 通過其 IXP 成員資料為此網路添加 netixlan 條目"
+
+msgid "IPv4 address outside of prefix"
+msgstr ""
+
+msgid "IPv6 address outside of prefix"
+msgstr ""
 
 msgid "Ip address already exists elsewhere"
 msgstr "IP 地址已在別處存在"
@@ -1020,8 +1115,8 @@ msgstr "流量比率"
 msgid "Primary ASN"
 msgstr "主要 ASN"
 
-msgid "IRR Macro"
-msgstr "IRR 宏"
+msgid "IRR as-set/route-set"
+msgstr ""
 
 msgid "General Peering Policy"
 msgstr "一般對等政策"
@@ -1118,11 +1213,11 @@ msgstr "隱私政策"
 msgid "About"
 msgstr ""
 
+msgid "Register"
+msgstr "註冊"
+
 msgid "Sponsors"
 msgstr "贊助商"
-
-msgid "Partners"
-msgstr "合作夥伴"
 
 msgid "Resources"
 msgstr "資源"
@@ -1169,9 +1264,6 @@ msgstr "資料"
 msgid "Logout"
 msgstr "註銷"
 
-msgid "Register"
-msgstr "註冊"
-
 msgid "or"
 msgstr "或"
 
@@ -1196,8 +1288,13 @@ msgstr ""
 msgid "about"
 msgstr ""
 
+#, fuzzy
+#| msgid "Register"
+msgid "register"
+msgstr "註冊"
+
 msgid "Most Recent Updates"
-msgstr ""
+msgstr "最近更新"
 
 msgid "Username"
 msgstr "用戶名"
@@ -1225,6 +1322,9 @@ msgstr "使用 Google 帳號登入"
 
 msgid "Login with your Facebook account"
 msgstr "使用 Facebook 帳號登入"
+
+msgid "Partners"
+msgstr "合作夥伴"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "我們已將說明發送到您的 Email 位址（如果已在系統中）。 您有30分鐘的時間來完成此流程。"
@@ -1259,6 +1359,99 @@ msgstr "密碼重置過程已過期，請"
 msgid "initiate again"
 msgstr "再次發起"
 
+msgid "Affiliate with organization"
+msgstr "關聯組織"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s is pending approval."
+msgstr "您與 %(ar_name)s 的關聯待驗證。"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was denied"
+msgstr "您與 %(ar_name)s 的關聯被拒絕"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was approved"
+msgstr "您與 %(ar_name)s 的關聯已批准"
+
+msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
+msgstr "要關聯現有組織，請在下面輸入 ASN 或組織名稱。"
+
+msgid "To register a new network organization, please enter the ASN and organization name below."
+msgstr "要註冊新的網路組織，請在下面輸入 ASN 和組織名稱。"
+
+msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
+msgstr "要註冊新設施或交換點，請在下面輸入組織名稱（ ASN 選填）。"
+
+msgid "Affiliate"
+msgstr "關聯"
+
+msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
+msgstr "如無法為您的 ASN 檢索 RIR 條目，請聯繫"
+
+msgid "for assistance"
+msgstr "獲取幫助"
+
+msgid "Existing affiliations"
+msgstr "現有的關聯"
+
+msgid "Your affiliation with"
+msgstr "您的關聯"
+
+msgid "has been approved"
+msgstr "已經被批准"
+
+msgid "Change email address"
+msgstr "修改 Email 地址"
+
+msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
+msgstr "為了快速驗證，您需要使用工作用 Email 位址。如您計畫在 PeeringDB 上註冊 ASN ，建議您使用 ASN 公共聯繫方式中存在的 Emali 位址。"
+
+msgid "Change Email"
+msgstr "修改 Email"
+
+msgid "Change password"
+msgstr "修改密碼"
+
+msgid "Password changed"
+msgstr "密碼已修改"
+
+msgid "Current Password"
+msgstr "當前密碼"
+
+msgid "Password Verification"
+msgstr "密碼驗證"
+
+msgid "You have confirmed your email address!"
+msgstr "您已經確認了您的電子郵寄地址！"
+
+msgid "Attention!"
+msgstr "注意！"
+
+msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
+msgstr "請為您的帳戶指定一個 Email 位址，否則我們無法繼續驗證。"
+
+msgid "Email Confirmation"
+msgstr "電子郵件確認"
+
+msgid "Before getting access to any other features, you need to confirm your email address."
+msgstr "在訪問其他功能前，請確認您的 Email 位址。"
+
+msgid "We have sent you a message containing the confirmation link."
+msgstr "我們已向您發送包含確認連結的消息。"
+
+msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
+msgstr "在我們或相關組織審核您的帳戶前，您沒有完全存取權限。感謝您的耐心等待。"
+
+msgid "Select language"
+msgstr "選擇語言"
+
+msgid "Language preference saved"
+msgstr "語言偏好已保持"
+
+msgid "Set language preference"
+msgstr "設置語言偏好"
+
 msgid "Account Created"
 msgstr "帳號已創建"
 
@@ -1282,6 +1475,9 @@ msgstr "姓"
 
 msgid "Last name"
 msgstr "名"
+
+msgid "Loading anti-spam challenge"
+msgstr ""
 
 msgid "Create"
 msgstr "創建"
@@ -1350,101 +1546,8 @@ msgstr "請確認您的 Email 位址並請求關聯"
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "您可以請求關聯組織或 ASN"
 
-msgid "Select language"
-msgstr "選擇語言"
-
-msgid "Language preference saved"
-msgstr "語言偏好已保持"
-
-msgid "Set language preference"
-msgstr "設置語言偏好"
-
-msgid "You have confirmed your email address!"
-msgstr "您已經確認了您的電子郵寄地址！"
-
-msgid "Attention!"
-msgstr "注意！"
-
-msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr "請為您的帳戶指定一個 Email 位址，否則我們無法繼續驗證。"
-
-msgid "Email Confirmation"
-msgstr "電子郵件確認"
-
-msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr "在訪問其他功能前，請確認您的 Email 位址。"
-
-msgid "We have sent you a message containing the confirmation link."
-msgstr "我們已向您發送包含確認連結的消息。"
-
-msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr "在我們或相關組織審核您的帳戶前，您沒有完全存取權限。感謝您的耐心等待。"
-
-msgid "Affiliate with organization"
-msgstr "關聯組織"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "您與 %(ar_name)s 的關聯待驗證。"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was denied"
-msgstr "您與 %(ar_name)s 的關聯被拒絕"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was approved"
-msgstr "您與 %(ar_name)s 的關聯已批准"
-
-msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr "要關聯現有組織，請在下面輸入 ASN 或組織名稱。"
-
-msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr "要註冊新的網路組織，請在下面輸入 ASN 和組織名稱。"
-
-msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "要註冊新設施或交換點，請在下面輸入組織名稱（ ASN 選填）。"
-
-msgid "Affiliate"
-msgstr "關聯"
-
-msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "如無法為您的 ASN 檢索 RIR 條目，請聯繫"
-
-msgid "for assistance"
-msgstr "獲取幫助"
-
-msgid "Existing affiliations"
-msgstr "現有的關聯"
-
-msgid "Your affiliation with"
-msgstr "您的關聯"
-
-msgid "has been approved"
-msgstr "已經被批准"
-
 msgid "Manage OAuth Applications"
 msgstr "管理 OAuth 應用"
-
-msgid "Change email address"
-msgstr "修改 Email 地址"
-
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "為了快速驗證，您需要使用工作用 Email 位址。如您計畫在 PeeringDB 上註冊 ASN ，建議您使用 ASN 公共聯繫方式中存在的 Emali 位址。"
-
-msgid "Change Email"
-msgstr "修改 Email"
-
-msgid "Change password"
-msgstr "修改密碼"
-
-msgid "Password changed"
-msgstr "密碼已修改"
-
-msgid "Current Password"
-msgstr "當前密碼"
-
-msgid "Password Verification"
-msgstr "密碼驗證"
 
 msgid "Pending Review"
 msgstr "等待審核"
@@ -1479,6 +1582,11 @@ msgstr "該實體的地理編碼資料將被更新"
 msgid "IXF Member Export URL"
 msgstr "IXF 成員匯出 URL"
 
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "IXF 導入日誌"
+
 msgid "Prefix"
 msgstr "首碼"
 
@@ -1512,6 +1620,11 @@ msgstr "IXLAN 首碼"
 msgid "Add Prefix"
 msgstr "添加首碼"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Enabled"
+msgstr "IXF 導入日誌條目"
+
 msgid "Add LAN"
 msgstr "添加 LAN"
 
@@ -1523,6 +1636,35 @@ msgstr "交換點 - 設施連接"
 
 msgid "Add Facility"
 msgstr "添加設施"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Preview"
+msgstr "IXF 導入日誌條目"
+
+msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "Changes"
+msgstr "交換點"
+
+msgid "Errors"
+msgstr ""
+
+#, fuzzy
+#| msgid "Speed"
+msgid "speed"
+msgstr "速率"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "routeserver"
+msgstr "路由伺服器"
+
+msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgstr ""
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -1618,9 +1760,6 @@ msgstr "郵遞區號"
 
 msgid "CLLI Code"
 msgstr "CLLI 代碼"
-
-msgid "IRR Record"
-msgstr "IRR 記錄"
 
 msgid "Traffic Ratios"
 msgstr "交通比率"
@@ -1736,6 +1875,14 @@ msgstr "首碼無效：{}"
 msgid "Address space invalid: {}"
 msgstr "位址空間無效：{}"
 
+msgid "Minimum allowed prefix length is {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum allowed prefix length is {}"
+msgstr "允許的最大值為 {}"
+
 msgid "Maximum value allowed {}"
 msgstr "允許的最大值為 {}"
 
@@ -1793,9 +1940,6 @@ msgstr "密碼重置已過期，請"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
 msgstr "在註冊前，請登出當前會話。請注意，無需多個帳戶。"
-
-msgid "reCAPTCHA invalid"
-msgstr "reCAPTCHA 無效"
 
 msgid "This email address has already been used"
 msgstr "這個 Email 已被使用"
@@ -1878,6 +2022,18 @@ msgstr "帳戶已禁用。"
 msgid "Invalid username/password."
 msgstr "無效的用戶名/密碼。"
 
+#~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
+#~ msgstr "原始首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"
+
+#~ msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
+#~ msgstr "新首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"
+
+#~ msgid "IRR Macro"
+#~ msgstr "IRR 宏"
+
+#~ msgid "IRR Record"
+#~ msgstr "IRR 記錄"
+
 #~ msgid "Peering Networks"
 #~ msgstr "對等的網路"
 
@@ -1916,9 +2072,6 @@ msgstr "無效的用戶名/密碼。"
 
 #~ msgid "Read our FAQ"
 #~ msgstr "閱讀我們的 FAQ"
-
-#~ msgid "Most Recent Updates"
-#~ msgstr "最近更新"
 
 #~ msgid "NETWORKS"
 #~ msgstr "網路"

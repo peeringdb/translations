@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 09:15+0000\n"
+"POT-Creation-Date: 2019-05-30 23:00+0000\n"
 "PO-Revision-Date: 2018-06-27 01:00+0300\n"
 "Last-Translator: Alexander Ilin\n"
 "Language-Team: MSK-IX\n"
@@ -206,6 +206,9 @@ msgstr "Пользователи"
 msgid "Public"
 msgstr "Публичный"
 
+msgid "Kosovo"
+msgstr "Косово"
+
 msgid "Status"
 msgstr "Статус"
 
@@ -350,11 +353,11 @@ msgstr ""
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr ""
 
-msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
-msgstr "Три первых октета исходного префикса - например, xxx.xxx.xxx"
+msgid "Old prefix - renumber all netixlans that fall into this prefix"
+msgstr ""
 
-msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
-msgstr "Три первых октета нового префикса - например, xxx.xxx.xxx"
+msgid "New prefix - needs to be the same protocol and length as old prefix"
+msgstr ""
 
 msgid "Merge this facility - it will be deleted"
 msgstr ""
@@ -402,8 +405,101 @@ msgstr "Минимальная длина 10 символов"
 msgid "Passwords need to match"
 msgstr "Пароли должны совпадать"
 
+msgid "Please fill out the anti-spam challenge (captcha) field"
+msgstr ""
+
+msgid "reCAPTCHA invalid"
+msgstr "reCAPTCHA не пройдена"
+
+msgid "captcha invalid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Please wait a bit before requesting another email change"
+msgid "Please wait a bit before requesting another ixf import preview."
+msgstr "Перед повторной заявкой на изменение емайла подождите некоторое время"
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Ixlan not found"
+msgstr "Адрес не найден"
+
+#, fuzzy
+#| msgid "Permissions"
+msgid "Permission denied"
+msgstr "Права доступа"
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF import url not specified"
+msgstr "Записи лога импорта IXF"
+
+msgid "No JSON could be parsed"
+msgstr "Парсинг JSON невозможен"
+
+msgid "No entries in any of the vlan_list lists, aborting."
+msgstr "Нет записей ни в одном из списков vlan_list, операция прервана."
+
+msgid "No prefixes defined on ixlan"
+msgstr ""
+
+msgid "ASN no longer in data"
+msgstr ""
+
+msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+msgstr ""
+
+msgid "At least one ipaddress mismatched and network has disabled upates"
+msgstr ""
+
+msgid "Network status is '{}'"
+msgstr ""
+
+msgid "Network does not exist in peeringdb"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member type: {}"
+msgstr "Недействительный префикс: {}"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid connection state: {}"
+msgstr "Недействительный префикс: {}"
+
+msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
+msgstr ""
+
+msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
+msgstr ""
+
+msgid "Connection is currently marked as inactive"
+msgstr ""
+
+msgid "Network has disabled ixp updates"
+msgstr ""
+
+#, fuzzy
+#| msgid "email address"
+msgid "New ip-address"
+msgstr "емайл"
+
+msgid "Fields changed: {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "No changes"
+msgstr "IXP"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid speed value: {}"
+msgstr "Недействительный префикс: {}"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Уведомление о слиянии: {} -> {}"
@@ -559,12 +655,6 @@ msgstr "Укажите минимум две ASN"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Возможно сравнение максимум 25 ASN"
 
-msgid "No JSON could be parsed"
-msgstr "Парсинг JSON невозможен"
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Нет записей ни в одном из списков vlan_list, операция прервана."
-
 msgid "IXF Import Log"
 msgstr "Лог импорта IXF"
 
@@ -579,6 +669,12 @@ msgstr "Записи лога импорта IXF"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Определяет для IXP права добавления записи netixlan для данной сети через данные ixp_member"
+
+msgid "IPv4 address outside of prefix"
+msgstr ""
+
+msgid "IPv6 address outside of prefix"
+msgstr ""
 
 msgid "Ip address already exists elsewhere"
 msgstr "IP адрес уже существует"
@@ -1031,8 +1127,8 @@ msgstr "Соотношение трафика"
 msgid "Primary ASN"
 msgstr "Первичная ASN"
 
-msgid "IRR Macro"
-msgstr "IRR Макро"
+msgid "IRR as-set/route-set"
+msgstr ""
 
 msgid "General Peering Policy"
 msgstr "Информация о пиринговой политике"
@@ -1135,11 +1231,11 @@ msgstr "Пиринговая политика"
 msgid "About"
 msgstr ""
 
+msgid "Register"
+msgstr "Зарегистрироваться"
+
 msgid "Sponsors"
 msgstr "Спонсоры"
-
-msgid "Partners"
-msgstr "Партнеры"
 
 msgid "Resources"
 msgstr "Ресурсы"
@@ -1192,9 +1288,6 @@ msgstr "Профиль"
 msgid "Logout"
 msgstr "Выйти"
 
-msgid "Register"
-msgstr "Зарегистрироваться"
-
 msgid "or"
 msgstr "или"
 
@@ -1219,8 +1312,13 @@ msgstr ""
 msgid "about"
 msgstr ""
 
+#, fuzzy
+#| msgid "Register"
+msgid "register"
+msgstr "Зарегистрироваться"
+
 msgid "Most Recent Updates"
-msgstr ""
+msgstr "ПОСЛЕДНИЕ ОБНОВЛЕНИЯ"
 
 msgid "Username"
 msgstr "Имя пользователя"
@@ -1255,6 +1353,9 @@ msgstr "Войти с реквизитами Google"
 msgid "Login with your Facebook account"
 msgstr "Войти с реквизитами Facebook"
 
+msgid "Partners"
+msgstr "Партнеры"
+
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Инструкции высланы на ваш емайл, если он зарегистрирован в нашей системе. У вас 30 минут чтобы завершить процедуру."
 
@@ -1288,6 +1389,102 @@ msgstr "Время для сброса пароля истекло, пожалу
 msgid "initiate again"
 msgstr "начните снова"
 
+#, fuzzy
+msgid "Affiliate with organization"
+msgstr "Заявка на связь с организацией"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s is pending approval."
+msgstr "Ваша заявка на связь с %(ar_name)s находится на рассмотрении."
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was denied"
+msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was approved"
+msgstr "Ваша заявка на связь с %(ar_name)s одобрена"
+
+msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
+msgstr "Для установления связи с существующей организацией, введите номер ASN или наименование организации ниже."
+
+#, fuzzy
+msgid "To register a new network organization, please enter the ASN and organization name below."
+msgstr "Для регистрации новой сети, принадлежащей организации, введите номер ASN и наименование организации."
+
+#, fuzzy
+msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
+msgstr "Для регистрации новой площадки или IXP, принадлежащей организации, введите наименование организации (опционально номер ASN)."
+
+msgid "Affiliate"
+msgstr "Связать"
+
+msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
+msgstr "Если запись в базе данных RIR для вашей ASN недоступна, свяжитесь с"
+
+msgid "for assistance"
+msgstr "для помощи"
+
+msgid "Existing affiliations"
+msgstr "Имеющиеся связи"
+
+msgid "Your affiliation with"
+msgstr "Ваша связь с"
+
+msgid "has been approved"
+msgstr "одобрено"
+
+msgid "Change email address"
+msgstr "Изменить емайл"
+
+msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
+msgstr "Для ускорения проверки указывайте рабочий емайл. Если вы планируете внести в PeeringDB сведения о вашей ASN, рекомендуется использовать емайл, указанный в публичной контактной информации для вашей ASN."
+
+msgid "Change Email"
+msgstr "Изменить емайл"
+
+msgid "Change password"
+msgstr "Изменить пароль"
+
+msgid "Password changed"
+msgstr "Пароль изменен"
+
+msgid "Current Password"
+msgstr "Действующий пароль"
+
+msgid "Password Verification"
+msgstr "Проверка пароля"
+
+msgid "You have confirmed your email address!"
+msgstr "Ваш емайл подтвержден!"
+
+msgid "Attention!"
+msgstr "Внимание!"
+
+msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
+msgstr "Пожалуйста укажите емайл в вашем аккаунте, без этого подтверждение невозможно."
+
+msgid "Email Confirmation"
+msgstr "Подтверждение емайла"
+
+msgid "Before getting access to any other features, you need to confirm your email address."
+msgstr "Для получения доступа к другим функциям необходимо подтвердить ваш емайл."
+
+msgid "We have sent you a message containing the confirmation link."
+msgstr "Мы выслали вам сообщение с подтверждающей ссылкой."
+
+msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
+msgstr "Ваши права доступа будут ограничены, пока ваш аккаунт не пройдет одобрение нашими администраторами или организацией, с которой вы связаны. Благодарим за понимание."
+
+msgid "Select language"
+msgstr "Выберите язык"
+
+msgid "Language preference saved"
+msgstr "Выбор языка сохранен"
+
+msgid "Set language preference"
+msgstr "Установить язык"
+
 msgid "Account Created"
 msgstr "Аккаунт создан"
 
@@ -1311,6 +1508,9 @@ msgstr "Имя"
 
 msgid "Last name"
 msgstr "Фамилия"
+
+msgid "Loading anti-spam challenge"
+msgstr ""
 
 msgid "Create"
 msgstr "Создать"
@@ -1383,105 +1583,9 @@ msgstr "Пожалуйста подтвердите ваш емайл и под�
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Вы можете подать заявку на установление связи с Организацией или с ASN"
 
-msgid "Select language"
-msgstr "Выберите язык"
-
-msgid "Language preference saved"
-msgstr "Выбор языка сохранен"
-
-msgid "Set language preference"
-msgstr "Установить язык"
-
-msgid "You have confirmed your email address!"
-msgstr "Ваш емайл подтвержден!"
-
-msgid "Attention!"
-msgstr "Внимание!"
-
-msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr "Пожалуйста укажите емайл в вашем аккаунте, без этого подтверждение невозможно."
-
-msgid "Email Confirmation"
-msgstr "Подтверждение емайла"
-
-msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr "Для получения доступа к другим функциям необходимо подтвердить ваш емайл."
-
-msgid "We have sent you a message containing the confirmation link."
-msgstr "Мы выслали вам сообщение с подтверждающей ссылкой."
-
-msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr "Ваши права доступа будут ограничены, пока ваш аккаунт не пройдет одобрение нашими администраторами или организацией, с которой вы связаны. Благодарим за понимание."
-
-#, fuzzy
-msgid "Affiliate with organization"
-msgstr "Заявка на связь с организацией"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "Ваша заявка на связь с %(ar_name)s находится на рассмотрении."
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was denied"
-msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was approved"
-msgstr "Ваша заявка на связь с %(ar_name)s одобрена"
-
-msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr "Для установления связи с существующей организацией, введите номер ASN или наименование организации ниже."
-
-#, fuzzy
-msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr "Для регистрации новой сети, принадлежащей организации, введите номер ASN и наименование организации."
-
-#, fuzzy
-msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "Для регистрации новой площадки или IXP, принадлежащей организации, введите наименование организации (опционально номер ASN)."
-
-msgid "Affiliate"
-msgstr "Связать"
-
-msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "Если запись в базе данных RIR для вашей ASN недоступна, свяжитесь с"
-
-msgid "for assistance"
-msgstr "для помощи"
-
-msgid "Existing affiliations"
-msgstr "Имеющиеся связи"
-
-msgid "Your affiliation with"
-msgstr "Ваша связь с"
-
-msgid "has been approved"
-msgstr "одобрено"
-
 #, fuzzy
 msgid "Manage OAuth Applications"
 msgstr "Управление OAuth-авторизацией"
-
-msgid "Change email address"
-msgstr "Изменить емайл"
-
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "Для ускорения проверки указывайте рабочий емайл. Если вы планируете внести в PeeringDB сведения о вашей ASN, рекомендуется использовать емайл, указанный в публичной контактной информации для вашей ASN."
-
-msgid "Change Email"
-msgstr "Изменить емайл"
-
-msgid "Change password"
-msgstr "Изменить пароль"
-
-msgid "Password changed"
-msgstr "Пароль изменен"
-
-msgid "Current Password"
-msgstr "Действующий пароль"
-
-msgid "Password Verification"
-msgstr "Проверка пароля"
 
 msgid "Pending Review"
 msgstr "На одобрении"
@@ -1516,6 +1620,11 @@ msgstr "Обновленные данные геокодирования для 
 msgid "IXF Member Export URL"
 msgstr "URL экспортируемого списка участников IXF"
 
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Лог импорта IXF"
+
 msgid "Prefix"
 msgstr "Префикс"
 
@@ -1549,6 +1658,11 @@ msgstr "Префикс IXLAN"
 msgid "Add Prefix"
 msgstr "Новый префикс"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Enabled"
+msgstr "Записи лога импорта IXF"
+
 msgid "Add LAN"
 msgstr "Новый LAN"
 
@@ -1560,6 +1674,35 @@ msgstr "Связь IXP - Площадка"
 
 msgid "Add Facility"
 msgstr "Новая Площадка"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Preview"
+msgstr "Записи лога импорта IXF"
+
+msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "Changes"
+msgstr "IXP"
+
+msgid "Errors"
+msgstr ""
+
+#, fuzzy
+#| msgid "Speed"
+msgid "speed"
+msgstr "Скорость"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "routeserver"
+msgstr "Route Server"
+
+msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgstr ""
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -1656,9 +1799,6 @@ msgstr "Индекс"
 
 msgid "CLLI Code"
 msgstr "Код CLLI"
-
-msgid "IRR Record"
-msgstr "Запись IRR"
 
 msgid "Traffic Ratios"
 msgstr "Соотношения трафика"
@@ -1778,6 +1918,14 @@ msgstr "Недействительный префикс: {}"
 msgid "Address space invalid: {}"
 msgstr "Недействительное адресное пространство: {}"
 
+msgid "Minimum allowed prefix length is {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum allowed prefix length is {}"
+msgstr "Максимальное допустимое значение: {}"
+
 msgid "Maximum value allowed {}"
 msgstr "Максимальное допустимое значение: {}"
 
@@ -1835,9 +1983,6 @@ msgstr "Время для сброса пароля истекло, пожалу
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
 msgstr "Пожалуйста, выйдите из текущей сессии перед попыткой регистрации. Обратите внимание, что множественные аккаунты больше не являются необходимыми."
-
-msgid "reCAPTCHA invalid"
-msgstr "reCAPTCHA не пройдена"
 
 msgid "This email address has already been used"
 msgstr "Этот емайл уже используется"
@@ -1921,6 +2066,18 @@ msgstr "Аккаунт деактивирован."
 msgid "Invalid username/password."
 msgstr "Неверное имя пользователя/пароль."
 
+#~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
+#~ msgstr "Три первых октета исходного префикса - например, xxx.xxx.xxx"
+
+#~ msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
+#~ msgstr "Три первых октета нового префикса - например, xxx.xxx.xxx"
+
+#~ msgid "IRR Macro"
+#~ msgstr "IRR Макро"
+
+#~ msgid "IRR Record"
+#~ msgstr "Запись IRR"
+
 #~ msgid "Peering Networks"
 #~ msgstr "Сетей в пиринге"
 
@@ -1960,9 +2117,6 @@ msgstr "Неверное имя пользователя/пароль."
 #~ msgid "Read our FAQ"
 #~ msgstr "Ознакомьтесь с FAQ"
 
-#~ msgid "Most Recent Updates"
-#~ msgstr "ПОСЛЕДНИЕ ОБНОВЛЕНИЯ"
-
 #~ msgid "NETWORKS"
 #~ msgstr "СЕТИ"
 
@@ -1998,6 +2152,3 @@ msgstr "Неверное имя пользователя/пароль."
 
 #~ msgid "Portuguese"
 #~ msgstr "Португальский"
-
-#~ msgid "Kosovo"
-#~ msgstr "Косово"

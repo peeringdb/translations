@@ -11,6 +11,7 @@ function clean_up() {
     rm -f peeringdb_server
     rm -f django_peeringdb
 
+    echo
     error_code=$?
     echo exiting with $error_code
     exit $error_code
@@ -37,11 +38,20 @@ if test -e django_peeringdb; then
     exit 1
 fi
  
-ln -s $TMP_DIR/peeringdb/peeringdb_server
-ln -s $TMP_DIR/django-peeringdb/django_peeringdb
+ln -s $TMP_DIR/peeringdb/peeringdb_server .
+ln -s $TMP_DIR/django-peeringdb/django_peeringdb .
 
+echo
+echo If \"duplicate message definition\" errors in the below, edit indicated file by removing duplicate that _does_not_ already have a translation, even if commented out.  Then re-run.
+echo
+
+set -x
 django-admin makemessages $MAKEMSG_OPTIONS
 django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs
+django-admin compilemessages
+set +x
 
-echo please review and commit with
-echo git commit -a -S -m \"update from server:$server_head django:$django_head\"
+echo
+echo Please review and add files as appropriate with \"git add\".
+echo Commit with:
+echo   git commit -a -m \"update from server:$server_head django:$django_head\"

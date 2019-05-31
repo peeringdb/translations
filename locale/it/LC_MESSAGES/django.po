@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 09:15+0000\n"
+"POT-Creation-Date: 2019-05-30 23:00+0000\n"
 "PO-Revision-Date: 2018-06-02 12:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -209,6 +209,9 @@ msgstr "Utenti"
 msgid "Public"
 msgstr ""
 
+msgid "Kosovo"
+msgstr "Kosovo"
+
 msgid "Status"
 msgstr "Stato"
 
@@ -353,11 +356,11 @@ msgstr ""
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr ""
 
-msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
-msgstr "I tre byte più a sinistra del prefisso originale - eg. xxx.xxx.xxx"
+msgid "Old prefix - renumber all netixlans that fall into this prefix"
+msgstr ""
 
-msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
-msgstr "I tre byte più a sinistra del nuovo prefisso  - eg. xxx.xxx.xxx"
+msgid "New prefix - needs to be the same protocol and length as old prefix"
+msgstr ""
 
 msgid "Merge this facility - it will be deleted"
 msgstr ""
@@ -405,8 +408,101 @@ msgstr "Deve essere almeno 10 caratteri"
 msgid "Passwords need to match"
 msgstr "Le password devono coincidere"
 
+msgid "Please fill out the anti-spam challenge (captcha) field"
+msgstr ""
+
+msgid "reCAPTCHA invalid"
+msgstr "reCAPTCHA non valido"
+
+msgid "captcha invalid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Please wait a bit before requesting another email change"
+msgid "Please wait a bit before requesting another ixf import preview."
+msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Ixlan not found"
+msgstr "Indirizzo non trovato"
+
+#, fuzzy
+#| msgid "Permissions"
+msgid "Permission denied"
+msgstr "Permessi"
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF import url not specified"
+msgstr "Voci del registro di importazione IXF"
+
+msgid "No JSON could be parsed"
+msgstr "Nessun JSON è stato potuto essere analizzato"
+
+msgid "No entries in any of the vlan_list lists, aborting."
+msgstr "Nessuna entrata nella lista vlan_list, operazione non riuscita."
+
+msgid "No prefixes defined on ixlan"
+msgstr ""
+
+msgid "ASN no longer in data"
+msgstr ""
+
+msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+msgstr ""
+
+msgid "At least one ipaddress mismatched and network has disabled upates"
+msgstr ""
+
+msgid "Network status is '{}'"
+msgstr ""
+
+msgid "Network does not exist in peeringdb"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member type: {}"
+msgstr "Prefisso non valido: {}"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid connection state: {}"
+msgstr "Prefisso non valido: {}"
+
+msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
+msgstr ""
+
+msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
+msgstr ""
+
+msgid "Connection is currently marked as inactive"
+msgstr ""
+
+msgid "Network has disabled ixp updates"
+msgstr ""
+
+#, fuzzy
+#| msgid "email address"
+msgid "New ip-address"
+msgstr "indirizzo email"
+
+msgid "Fields changed: {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "No changes"
+msgstr "Punti di Interscambio"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid speed value: {}"
+msgstr "Prefisso non valido: {}"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Notifica di Unione: {} -> {}"
@@ -562,12 +658,6 @@ msgstr "Devono essere specificati almeno due ASN"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Possono essere confrontati al massimo 25 ASN"
 
-msgid "No JSON could be parsed"
-msgstr "Nessun JSON è stato potuto essere analizzato"
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Nessuna entrata nella lista vlan_list, operazione non riuscita."
-
 msgid "IXF Import Log"
 msgstr "Registro di importazione IXF"
 
@@ -582,6 +672,12 @@ msgstr "Voci del registro di importazione IXF"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifica se un IXP può aggiungere un'entrata netixlan per questa rete tramite i propri dati ixp_member"
+
+msgid "IPv4 address outside of prefix"
+msgstr ""
+
+msgid "IPv6 address outside of prefix"
+msgstr ""
 
 msgid "Ip address already exists elsewhere"
 msgstr "L'indirizzo IP esiste già altrove"
@@ -1031,8 +1127,8 @@ msgstr "Rapporto di traffico"
 msgid "Primary ASN"
 msgstr "ASN primario"
 
-msgid "IRR Macro"
-msgstr "Macro IRR"
+msgid "IRR as-set/route-set"
+msgstr ""
 
 msgid "General Peering Policy"
 msgstr "Peering Policy Generale"
@@ -1135,11 +1231,11 @@ msgstr "Policy di Peering"
 msgid "About"
 msgstr ""
 
+msgid "Register"
+msgstr "Regìstrati"
+
 msgid "Sponsors"
 msgstr "Sponsor"
-
-msgid "Partners"
-msgstr "Partner"
 
 msgid "Resources"
 msgstr "Risorse"
@@ -1192,9 +1288,6 @@ msgstr "Profilo"
 msgid "Logout"
 msgstr "Scollègati"
 
-msgid "Register"
-msgstr "Regìstrati"
-
 msgid "or"
 msgstr "o"
 
@@ -1219,8 +1312,13 @@ msgstr ""
 msgid "about"
 msgstr ""
 
+#, fuzzy
+#| msgid "Register"
+msgid "register"
+msgstr "Regìstrati"
+
 msgid "Most Recent Updates"
-msgstr ""
+msgstr "AGGIORNAMENTI RECENTI"
 
 msgid "Username"
 msgstr "Nome utente"
@@ -1255,6 +1353,9 @@ msgstr "Collègati con il tuo account google"
 msgid "Login with your Facebook account"
 msgstr "Collègati con il tuo account facebook"
 
+msgid "Partners"
+msgstr "Partner"
+
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Abbiamo inviato ulteriori istruzioni al tuo indirizzo email, a condizione che si trovi nel nostro sistema. Hai 30 minuti per completare il processo."
 
@@ -1288,6 +1389,99 @@ msgstr "Il processo di reimpostazione della password è scaduto, si prega di"
 msgid "initiate again"
 msgstr "avviarlo di nuovo"
 
+msgid "Affiliate with organization"
+msgstr "Affìliati con l'organizzazione"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s is pending approval."
+msgstr "La tua affiliazione con %(ar_name)s è in attesa di approvazione."
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was denied"
+msgstr "La tua affiliazione con %(ar_name)s è stata respinta"
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was approved"
+msgstr "La tua affiliazione con %(ar_name)s è stata accettata"
+
+msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
+msgstr "Per affiliarti con una organizzazione esistente, per favore inserisci l'ASN o il nome dell'organizzazione qua sotto"
+
+msgid "To register a new network organization, please enter the ASN and organization name below."
+msgstr "Per registrare una nuova organizzazione di rete, per favore inserisci l'ASN e il nome dell'organizzazione qua sotto"
+
+msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
+msgstr "Per registrare una nuova struttura o un nuovo punto di interscambio, inserire il nome dell'organizzazione qui sotto (l'ASN è facoltativo)."
+
+msgid "Affiliate"
+msgstr "Affìliati"
+
+msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
+msgstr "Nel caso in cui l'entrata RiR non possa essere recuperata per il proprio ASN, si prega di contattare"
+
+msgid "for assistance"
+msgstr "per assistenza"
+
+msgid "Existing affiliations"
+msgstr "Affiliazioni esistenti"
+
+msgid "Your affiliation with"
+msgstr "La tua affiliazione con"
+
+msgid "has been approved"
+msgstr "è stata approvata"
+
+msgid "Change email address"
+msgstr "Cambia indirizzo email"
+
+msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
+msgstr "Per una validazione più veloce si richiede di utilizzare un indirizzo e-mail di lavoro. Se pensi di registrare il tuo ASN su PeeringDB, si raccomanda di utilizzare un indirizzo e-mail che appaia fra i contatti pubblici del tuo ASN"
+
+msgid "Change Email"
+msgstr "Cambia Email"
+
+msgid "Change password"
+msgstr "Cambia password"
+
+msgid "Password changed"
+msgstr "Password cambiata"
+
+msgid "Current Password"
+msgstr "Password attuale"
+
+msgid "Password Verification"
+msgstr "Verifica Password"
+
+msgid "You have confirmed your email address!"
+msgstr "Hai confermato il tuo indirizzo email!"
+
+msgid "Attention!"
+msgstr "Attenzione!"
+
+msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
+msgstr "Specifica un indirizzo email per il tuo account, non saremo in grado di procedere con la verifica finché non lo farai."
+
+msgid "Email Confirmation"
+msgstr "Conferma via email"
+
+msgid "Before getting access to any other features, you need to confirm your email address."
+msgstr "Prima di accedere a qualsiasi altra funzionalità, devi confermare il tuo indirizzo email."
+
+msgid "We have sent you a message containing the confirmation link."
+msgstr "Ti abbiamo inviato un messaggio contenente il link di conferma."
+
+msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
+msgstr "Non avrai pieno accesso finché noi o l'organizzazione a cui sei affiliato non avremo revisionato il tuo account. Grazie per la vostra pazienza."
+
+msgid "Select language"
+msgstr "Seleziona lingua"
+
+msgid "Language preference saved"
+msgstr "Preferenza lingua salvata"
+
+msgid "Set language preference"
+msgstr "Imposta la preferenza della lingua"
+
 msgid "Account Created"
 msgstr "Account Creato"
 
@@ -1311,6 +1505,9 @@ msgstr "Nome"
 
 msgid "Last name"
 msgstr "Cognome"
+
+msgid "Loading anti-spam challenge"
+msgstr ""
 
 msgid "Create"
 msgstr "Crea"
@@ -1383,101 +1580,8 @@ msgstr "Si prega di confermare il tuo indirizzo email e richiedere affiliazione"
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Puoi richiedere affiliazione a un'Organizzazione o a un ASN"
 
-msgid "Select language"
-msgstr "Seleziona lingua"
-
-msgid "Language preference saved"
-msgstr "Preferenza lingua salvata"
-
-msgid "Set language preference"
-msgstr "Imposta la preferenza della lingua"
-
-msgid "You have confirmed your email address!"
-msgstr "Hai confermato il tuo indirizzo email!"
-
-msgid "Attention!"
-msgstr "Attenzione!"
-
-msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr "Specifica un indirizzo email per il tuo account, non saremo in grado di procedere con la verifica finché non lo farai."
-
-msgid "Email Confirmation"
-msgstr "Conferma via email"
-
-msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr "Prima di accedere a qualsiasi altra funzionalità, devi confermare il tuo indirizzo email."
-
-msgid "We have sent you a message containing the confirmation link."
-msgstr "Ti abbiamo inviato un messaggio contenente il link di conferma."
-
-msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr "Non avrai pieno accesso finché noi o l'organizzazione a cui sei affiliato non avremo revisionato il tuo account. Grazie per la vostra pazienza."
-
-msgid "Affiliate with organization"
-msgstr "Affìliati con l'organizzazione"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "La tua affiliazione con %(ar_name)s è in attesa di approvazione."
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was denied"
-msgstr "La tua affiliazione con %(ar_name)s è stata respinta"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was approved"
-msgstr "La tua affiliazione con %(ar_name)s è stata accettata"
-
-msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr "Per affiliarti con una organizzazione esistente, per favore inserisci l'ASN o il nome dell'organizzazione qua sotto"
-
-msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr "Per registrare una nuova organizzazione di rete, per favore inserisci l'ASN e il nome dell'organizzazione qua sotto"
-
-msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "Per registrare una nuova struttura o un nuovo punto di interscambio, inserire il nome dell'organizzazione qui sotto (l'ASN è facoltativo)."
-
-msgid "Affiliate"
-msgstr "Affìliati"
-
-msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "Nel caso in cui l'entrata RiR non possa essere recuperata per il proprio ASN, si prega di contattare"
-
-msgid "for assistance"
-msgstr "per assistenza"
-
-msgid "Existing affiliations"
-msgstr "Affiliazioni esistenti"
-
-msgid "Your affiliation with"
-msgstr "La tua affiliazione con"
-
-msgid "has been approved"
-msgstr "è stata approvata"
-
 msgid "Manage OAuth Applications"
 msgstr "Gestisci Applicazioni OAuth"
-
-msgid "Change email address"
-msgstr "Cambia indirizzo email"
-
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "Per una validazione più veloce si richiede di utilizzare un indirizzo e-mail di lavoro. Se pensi di registrare il tuo ASN su PeeringDB, si raccomanda di utilizzare un indirizzo e-mail che appaia fra i contatti pubblici del tuo ASN"
-
-msgid "Change Email"
-msgstr "Cambia Email"
-
-msgid "Change password"
-msgstr "Cambia password"
-
-msgid "Password changed"
-msgstr "Password cambiata"
-
-msgid "Current Password"
-msgstr "Password attuale"
-
-msgid "Password Verification"
-msgstr "Verifica Password"
 
 msgid "Pending Review"
 msgstr "In revisione"
@@ -1512,6 +1616,11 @@ msgstr "I dati di geocodifica aggiornati per questa entità saranno ottenuti a b
 msgid "IXF Member Export URL"
 msgstr "URL di esportazione membri IXF"
 
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Registro di importazione IXF"
+
 msgid "Prefix"
 msgstr "Prefisso"
 
@@ -1545,6 +1654,11 @@ msgstr "Prefisso della IXLAN"
 msgid "Add Prefix"
 msgstr "Aggiungi Prefisso"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Enabled"
+msgstr "Voci del registro di importazione IXF"
+
 msgid "Add LAN"
 msgstr "Aggiungi LAN"
 
@@ -1556,6 +1670,35 @@ msgstr "Collegamento Interscambio - Struttura"
 
 msgid "Add Facility"
 msgstr "Aggiungi Struttura"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Preview"
+msgstr "Voci del registro di importazione IXF"
+
+msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "Changes"
+msgstr "Punti di Interscambio"
+
+msgid "Errors"
+msgstr ""
+
+#, fuzzy
+#| msgid "Speed"
+msgid "speed"
+msgstr "Velocità"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "routeserver"
+msgstr "Route Server"
+
+msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgstr ""
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -1651,9 +1794,6 @@ msgstr "Codice postale"
 
 msgid "CLLI Code"
 msgstr "Codice CLLI"
-
-msgid "IRR Record"
-msgstr "Entrata IRR"
 
 msgid "Traffic Ratios"
 msgstr "Rapporti di traffico"
@@ -1773,6 +1913,14 @@ msgstr "Prefisso non valido: {}"
 msgid "Address space invalid: {}"
 msgstr "Spazio di indirizzamento non valido: {}"
 
+msgid "Minimum allowed prefix length is {}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum allowed prefix length is {}"
+msgstr "Massimo valore permesso {}"
+
 msgid "Maximum value allowed {}"
 msgstr "Massimo valore permesso {}"
 
@@ -1830,9 +1978,6 @@ msgstr "Il processo di reimpostazione della password è scaduto, per favore"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
 msgstr "Si prega di uscire dalla sessione corrente prima di provare a registrarsi. Si noti che più account non sono più necessari."
-
-msgid "reCAPTCHA invalid"
-msgstr "reCAPTCHA non valido"
 
 msgid "This email address has already been used"
 msgstr "Questo indirizzo email è già stato usato"
@@ -1915,6 +2060,18 @@ msgstr "Account disabilitato."
 msgid "Invalid username/password."
 msgstr "Nome utente o password non valido"
 
+#~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
+#~ msgstr "I tre byte più a sinistra del prefisso originale - eg. xxx.xxx.xxx"
+
+#~ msgid "Three leftmost octets of the new prefix - eg. xxx.xxx.xxx"
+#~ msgstr "I tre byte più a sinistra del nuovo prefisso  - eg. xxx.xxx.xxx"
+
+#~ msgid "IRR Macro"
+#~ msgstr "Macro IRR"
+
+#~ msgid "IRR Record"
+#~ msgstr "Entrata IRR"
+
 #~ msgid "Peering Networks"
 #~ msgstr "Reti di Peering"
 
@@ -1954,9 +2111,6 @@ msgstr "Nome utente o password non valido"
 #~ msgid "Read our FAQ"
 #~ msgstr "Leggi le nostre FAQ"
 
-#~ msgid "Most Recent Updates"
-#~ msgstr "AGGIORNAMENTI RECENTI"
-
 #~ msgid "NETWORKS"
 #~ msgstr "RETI"
 
@@ -1992,6 +2146,3 @@ msgstr "Nome utente o password non valido"
 
 #~ msgid "Portuguese"
 #~ msgstr "Portoghese"
-
-#~ msgid "Kosovo"
-#~ msgstr "Kosovo"
