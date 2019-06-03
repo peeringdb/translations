@@ -8,8 +8,11 @@
 # This is best run with a fresh "git clone https://github.com/peeringdb/translations.git"
 # of the latest translations from the weblate server.  The idea is this:
 #
+# As root, one time:
+# cd /efs && mkdir -p translations.new && chown pdb:pdb translations.new
+#
+# As pdb, regularly:
 # cd /efs                                                   && \
-#   mkdir -p translations.new                               && \
 #   cd translations.new                                     && \
 #   rm -r -f translations                                   && \
 #   git clone https://github.com/peeringdb/translations.git && \
