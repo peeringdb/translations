@@ -17,7 +17,7 @@
 #   chronic git clone https://github.com/peeringdb/translations.git && \
 #   cd translations                                                 && \
 #   chronic ./scripts/update-master.sh                              && \
-#   chronic rsync --dry-run --delete --archive --verbose /efs/translations.new/translations /efs/translations
+#   chronic rsync --dry-run --delete --archive --verbose /efs/translations.new/translations/ /efs/translations
 #
 # Then if the above proves good/safe, remove the "--dry-run" from the rsync line.
 #
