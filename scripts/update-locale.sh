@@ -50,7 +50,6 @@ echo
 set -x
 $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
 $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
-$PDB_BIN/django-admin compilemessages || exit 1
 set +x
 
 echo
