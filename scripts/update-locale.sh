@@ -53,6 +53,11 @@ $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
 set +x
 
 echo
+echo Fix any compilemessages messages errors indicated below on the https://translate.peeringdb.com/ site and then re-run $0 manually.
+echo
+$PDB_BIN/django-admin compilemessages || exit 1
+
+echo
 echo Please review and add files as appropriate with \"git add\".
 echo Commit with:
 echo   git commit -a -m \"update from server:$server_head django:$django_head\"
