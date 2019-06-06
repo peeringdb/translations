@@ -76,7 +76,8 @@ echo
 $PDB_BIN/django-admin compilemessages || exit 1
 
 git add locale || exit 1
-git commit -m "new translations (server:$server_head django:$django_head)" || exit 1
+# Deduce whether to perfom a commit:
+[[ -z $(git status --untracked-files=no --porcelain) ]] || git commit -m "new translations (server:$server_head django:$django_head)" || exit 1
 
 $WLC push || exit 1 # Push changes from Weblate to upstream repository
 $WLC pull || exit 1 # Tell Weblate to pull changes
