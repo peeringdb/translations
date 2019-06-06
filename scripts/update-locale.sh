@@ -63,7 +63,7 @@ $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
 $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
 set +x
 
-# Remove these since no longer needed and we don't want them added to the repo.
+# Remove these since no longer needed and we don't want them accidentally added to the repo.
 rm -f peeringdb_server
 rm -f django_peeringdb
 
@@ -75,11 +75,11 @@ echo Fix any compilemessages messages errors indicated below on the https://tran
 echo
 $PDB_BIN/django-admin compilemessages || exit 1
 
-git add . || exit 1
-git commit -a -m "new translations (server:$server_head django:$django_head)" || exit 1
+git add locale || exit 1
+git commit -m "new translations (server:$server_head django:$django_head)" || exit 1
 
-#$WLC push || exit 1 # Push changes from Weblate to upstream repository
-#$WLC pull || exit 1 # Tell Weblate to pull changes
+$WLC push || exit 1 # Push changes from Weblate to upstream repository
+$WLC pull || exit 1 # Tell Weblate to pull changes
 
 # Weblate unlocks are done as part of exit routine auto-cleanup.
 
