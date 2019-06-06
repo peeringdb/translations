@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-06-06 01:38+0000\n"
+"PO-Revision-Date: 2019-06-06 01:48+0000\n"
 "Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -918,7 +918,7 @@ msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under
 msgstr "L'utente '%(u_name)s' ha creato la Rete %(n_name)s in AS%(n_asn)s (%(n_id)s) sotto l'organizzazione %(o_name)s (%(o_id)s)."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "Questa rete ha saltato la coda di verifica dato che l'indirizzo email dell'utente è stato trovato nei dati contenuti nell'entrata RiR"
+msgstr "Questa rete ha saltato la coda di verifica dato che l'indirizzo email dell'utente è stato trovato nei dati contenuti nell'entrata RiR."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
