@@ -76,10 +76,10 @@ echo
 $PDB_BIN/django-admin compilemessages || exit 1
 
 git add . || exit 1
-git commit -a -m "update from server:$server_head django:$django_head" || exit 1
+git commit -a -m "new translations (server:$server_head django:$django_head)" || exit 1
 
-$WLC push || exit 1 # Push changes from Weblate to upstream repository
-$WLC pull || exit 1 # Tell Weblate to pull changes
+#$WLC push || exit 1 # Push changes from Weblate to upstream repository
+#$WLC pull || exit 1 # Tell Weblate to pull changes
 
 # Weblate unlocks are done as part of exit routine auto-cleanup.
 
