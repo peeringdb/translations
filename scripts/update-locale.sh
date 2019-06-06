@@ -16,13 +16,16 @@ TMP_DIR=`mktemp -d /tmp/pdblocale.XXXXXXXX`
 #MAKEMSG_OPTIONS="--all --symlinks --no-wrap --keep-pot"
 MAKEMSG_OPTIONS="--all --symlinks --no-wrap --no-location --keep-pot"
 WLC="/srv/translate.peeringdb.com/venv/bin/wlc"
+WLC_LOCKED="false"
 WORK_DIR="/srv/translate.peeringdb.com/data/vcs/peeringdb/server"
 
 function clean_up() {
     error_code=$?  # this needs to be here to catch the intended exit code
     set +x
-    $WLC unlock peeringdb/server
-    $WLC unlock peeringdb/javascript
+    if [ "$WLC_LOCKED" == "true" ]; then
+        $WLC unlock peeringdb/server
+        $WLC unlock peeringdb/javascript
+    fi
     rm -rf "$TMP_DIR"
     rm -f peeringdb_server
     rm -f django_peeringdb
@@ -60,6 +63,12 @@ echo If \"duplicate message definition\" errors in the below, edit indicated fil
 echo
 
 # Guidance from https://docs.weblate.org/en/latest/admin/continuous.html
+#
+# Exit if already locked:
+$WLC lock-status peeringdb/server | grep True && exit 1
+$WLC lock-status peeringdb/javascript | grep True && exit 1
+# Lock weblate components:  (mild race condition here since not atomic)
+WLC_LOCKED="true"
 $WLC lock peeringdb/server || exit 1 
 $WLC lock peeringdb/javascript || exit 1 
 
