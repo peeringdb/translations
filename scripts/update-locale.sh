@@ -63,6 +63,10 @@ $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
 $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
 set +x
 
+# Remove these since no longer needed and we don't want them added to the repo.
+rm -f peeringdb_server
+rm -f django_peeringdb
+
 # Remove "POT-Creation-Date:" lines from both .po and .pot files, so that we don't have a diff every run.
 find $WORK_DIR -name *.po* -print0 | xargs -0 sed -i /^\"POT-Creation-Date:/d || exit 1
 
