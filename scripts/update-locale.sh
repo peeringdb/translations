@@ -1,9 +1,15 @@
 #!/bin/bash
 #
-# clones latest PeeringDB projects to be translated and adds to the
-# translation files, and suggests commit command.
+# - Pushes updated translations to GitHub.
+# - Clones latest PeeringDB projects in order to update translation files.
+# - Pushes new translation files.
+# - Makes it so Weblate uses the new translation files.
 #
 # Meant to only be run on the trans0 instance.
+#
+# As user weblate, can be run from command line or from cron, ala:
+#
+#   59 * * * * chronic nice -n 19 flock -x -w 240 /tmp/update-local.lock /srv/translate.peeringdb.com/data/vcs/peeringdb/server/scripts/update-locale.sh
 #
 
 TMP_DIR=`mktemp -d /tmp/pdblocale.XXXXXXXX`
@@ -56,7 +62,10 @@ echo
 # Guidance from https://docs.weblate.org/en/latest/admin/continuous.html
 $WLC lock peeringdb/server || exit 1 
 $WLC lock peeringdb/javascript || exit 1 
-$WLC push || exit 1 # Push changes from Weblate to upstream repository
+
+# Push new translations from Weblate to upstream repository, in advance of any
+# changes as a result of the makemessages integration of sourcecode update.
+$WLC push || exit 1 
 
 set -x
 $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
@@ -79,8 +88,8 @@ git add locale || exit 1
 # Deduce whether to perfom a commit:
 [[ -z $(git status --untracked-files=no --porcelain) ]] || git commit -m "new translations (server:$server_head django:$django_head)" || exit 1
 
-$WLC push || exit 1 # Push changes from Weblate to upstream repository
-$WLC pull || exit 1 # Tell Weblate to pull changes
+$WLC push || exit 1 # Push the result of the git-commit above.
+$WLC pull || exit 1 # Tell Weblate to pull changes so it is aware of sourcecode-inspired updates.
 
 # Weblate unlocks are done as part of exit routine auto-cleanup.
 
