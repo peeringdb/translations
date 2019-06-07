@@ -58,13 +58,13 @@ django_head=`git --git-dir=$TMP_DIR/django-peeringdb/.git rev-parse --short HEAD
 ln -s $TMP_DIR/peeringdb/peeringdb_server || exit 1
 ln -s $TMP_DIR/django-peeringdb/django_peeringdb || exit 1
 
-echo
-echo If \"duplicate message definition\" errors in the below, edit indicated file by removing duplicate that _does_not_ already have a translation, even if commented out.  Then re-run $0 manually.
-echo
-
 # Guidance from https://docs.weblate.org/en/latest/admin/continuous.html
 #
 # Exit if already locked:
+echo
+echo If locked, connect to trans0.peeringdb.com and figure out why. Unlock with:
+echo "    $WLC unlock peeringdb/server"
+echo "    $WLC unlock peeringdb/javascript"
 $WLC lock-status peeringdb/server | grep True && exit 1
 $WLC lock-status peeringdb/javascript | grep True && exit 1
 # Lock weblate components:  (mild race condition here since not atomic)
@@ -75,6 +75,10 @@ $WLC lock peeringdb/javascript || exit 1
 # Push new translations from Weblate to upstream repository, in advance of any
 # changes as a result of the makemessages integration of sourcecode update.
 $WLC push || exit 1 
+
+echo
+echo If \"duplicate message definition\" errors in the below, edit indicated file by removing duplicate that _does_not_ already have a translation, even if commented out.  Then re-run $0 manually.
+echo
 
 set -x
 $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
