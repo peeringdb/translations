@@ -17,6 +17,198 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.3\n"
 
+msgid "Ethernet"
+msgstr "乙太網"
+
+msgid "ATM"
+msgstr "ATM"
+
+msgid "Multiple"
+msgstr "多樣化"
+
+msgid "Abuse"
+msgstr "濫用"
+
+msgid "Maintenance"
+msgstr "維護"
+
+msgid "Policy"
+msgstr "政策"
+
+msgid "Technical"
+msgstr "技術"
+
+msgid "NOC"
+msgstr "NOC"
+
+msgid "Public Relations"
+msgstr "公共關係"
+
+msgid "Sales"
+msgstr "銷售"
+
+msgid "Open"
+msgstr "開放"
+
+msgid "Selective"
+msgstr "選擇性"
+
+msgid "Restrictive"
+msgstr "限制"
+
+msgid "No"
+msgstr "否"
+
+msgid "Not Required"
+msgstr "不需要"
+
+msgid "Preferred"
+msgstr "首選"
+
+msgid "Required - US"
+msgstr "必需 — 美國"
+
+msgid "Required - EU"
+msgstr "必需 — 歐盟"
+
+msgid "Required - International"
+msgstr "必需 — 國際性"
+
+msgid "Private Only"
+msgstr "僅對私有連接"
+
+msgid "Required"
+msgstr "需要"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "Not Disclosed"
+msgstr "未披露"
+
+msgid "Heavy Outbound"
+msgstr "重度傳出"
+
+msgid "Mostly Outbound"
+msgstr "傳出為主"
+
+msgid "Balanced"
+msgstr "平衡"
+
+msgid "Mostly Inbound"
+msgstr "流入為主"
+
+msgid "Heavy Inbound"
+msgstr "重度流入"
+
+msgid "North America"
+msgstr "北美"
+
+msgid "Asia Pacific"
+msgstr "亞太"
+
+msgid "Europe"
+msgstr "歐洲"
+
+msgid "South America"
+msgstr "南美"
+
+msgid "Africa"
+msgstr "非洲"
+
+msgid "Australia"
+msgstr "澳大利亞"
+
+msgid "Middle East"
+msgstr "中東"
+
+msgid "Regional"
+msgstr "區域性"
+
+msgid "Global"
+msgstr "全球性"
+
+msgid "0-20 Mbps"
+msgstr "0-20 Mbps"
+
+msgid "20-100Mbps"
+msgstr "20-100 Mbps"
+
+msgid "100-1000Mbps"
+msgstr "100-1000 Mbps"
+
+msgid "1-5Gbps"
+msgstr "1-5 Gbps"
+
+msgid "5-10Gbps"
+msgstr "5-10 Gbps"
+
+msgid "10-20Gbps"
+msgstr "10-20 Gbps"
+
+msgid "20-50 Gbps"
+msgstr "20-50 Gbps"
+
+msgid "50-100 Gbps"
+msgstr "50-100 Gbps"
+
+msgid "100+ Gbps"
+msgstr "超過100 Gbps"
+
+msgid "100-200 Gbps"
+msgstr "100-200 Gbps"
+
+msgid "200-300 Gbps"
+msgstr "200-300 Gbps"
+
+msgid "300-500 Gbps"
+msgstr "300-500 Gbps"
+
+msgid "500-1000 Gbps"
+msgstr "500-1000 Gbps"
+
+msgid "1 Tbps+"
+msgstr "超過 1 Tbps"
+
+msgid "10 Tbps+"
+msgstr "超過 10 Tbps"
+
+msgid "NSP"
+msgstr "NSP"
+
+msgid "Content"
+msgstr "聯繫"
+
+msgid "Cable/DSL/ISP"
+msgstr "電纜/DSL/ISP"
+
+msgid "Enterprise"
+msgstr "商業"
+
+msgid "Educational/Research"
+msgstr "教育/研究"
+
+msgid "Non-Profit"
+msgstr "非盈利"
+
+msgid "Route Server"
+msgstr "路由伺服器"
+
+msgid "Private"
+msgstr "私有"
+
+msgid "Users"
+msgstr "用戶"
+
+msgid "Public"
+msgstr "公開"
+
+msgid "Kosovo"
+msgstr ""
+
 msgid "Status"
 msgstr "狀態"
 
@@ -187,9 +379,6 @@ msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
-
-msgid "No"
-msgstr "否"
 
 msgid "Yes"
 msgstr "是"
@@ -1484,17 +1673,8 @@ msgstr "公共對等交換點"
 msgid "Peer Name"
 msgstr "對等名稱"
 
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
 msgid "Speed"
 msgstr "速率"
-
-msgid "Policy"
-msgstr "政策"
 
 msgid "Exchange"
 msgstr "交換點"
@@ -1561,9 +1741,6 @@ msgstr "添加網路"
 
 msgid "Add Exchange"
 msgstr "添加交換點"
-
-msgid "Users"
-msgstr "用戶"
 
 msgid "Permissions"
 msgstr "許可權"
@@ -1811,9 +1988,6 @@ msgstr "路由伺服器 URL"
 msgid "Looking Glass URL"
 msgstr "Looking Glass URL"
 
-msgid "Not Disclosed"
-msgstr "未披露"
-
 msgid "IPv4 Prefixes"
 msgstr "IPv4 首碼"
 
@@ -1846,177 +2020,6 @@ msgstr "帳戶已禁用。"
 
 msgid "Invalid username/password."
 msgstr "無效的用戶名/密碼。"
-
-#~ msgid "Ethernet"
-#~ msgstr "乙太網"
-
-#~ msgid "ATM"
-#~ msgstr "ATM"
-
-#~ msgid "Multiple"
-#~ msgstr "多樣化"
-
-#~ msgid "Abuse"
-#~ msgstr "濫用"
-
-#~ msgid "Maintenance"
-#~ msgstr "維護"
-
-#~ msgid "Technical"
-#~ msgstr "技術"
-
-#~ msgid "NOC"
-#~ msgstr "NOC"
-
-#~ msgid "Public Relations"
-#~ msgstr "公共關係"
-
-#~ msgid "Sales"
-#~ msgstr "銷售"
-
-#~ msgid "Open"
-#~ msgstr "開放"
-
-#~ msgid "Selective"
-#~ msgstr "選擇性"
-
-#~ msgid "Restrictive"
-#~ msgstr "限制"
-
-#~ msgid "Not Required"
-#~ msgstr "不需要"
-
-#~ msgid "Preferred"
-#~ msgstr "首選"
-
-#~ msgid "Required - US"
-#~ msgstr "必需 — 美國"
-
-#~ msgid "Required - EU"
-#~ msgstr "必需 — 歐盟"
-
-#~ msgid "Required - International"
-#~ msgstr "必需 — 國際性"
-
-#~ msgid "Private Only"
-#~ msgstr "僅對私有連接"
-
-#~ msgid "Required"
-#~ msgstr "需要"
-
-#~ msgid "Heavy Outbound"
-#~ msgstr "重度傳出"
-
-#~ msgid "Mostly Outbound"
-#~ msgstr "傳出為主"
-
-#~ msgid "Balanced"
-#~ msgstr "平衡"
-
-#~ msgid "Mostly Inbound"
-#~ msgstr "流入為主"
-
-#~ msgid "Heavy Inbound"
-#~ msgstr "重度流入"
-
-#~ msgid "North America"
-#~ msgstr "北美"
-
-#~ msgid "Asia Pacific"
-#~ msgstr "亞太"
-
-#~ msgid "Europe"
-#~ msgstr "歐洲"
-
-#~ msgid "South America"
-#~ msgstr "南美"
-
-#~ msgid "Africa"
-#~ msgstr "非洲"
-
-#~ msgid "Australia"
-#~ msgstr "澳大利亞"
-
-#~ msgid "Middle East"
-#~ msgstr "中東"
-
-#~ msgid "Regional"
-#~ msgstr "區域性"
-
-#~ msgid "Global"
-#~ msgstr "全球性"
-
-#~ msgid "0-20 Mbps"
-#~ msgstr "0-20 Mbps"
-
-#~ msgid "20-100Mbps"
-#~ msgstr "20-100 Mbps"
-
-#~ msgid "100-1000Mbps"
-#~ msgstr "100-1000 Mbps"
-
-#~ msgid "1-5Gbps"
-#~ msgstr "1-5 Gbps"
-
-#~ msgid "5-10Gbps"
-#~ msgstr "5-10 Gbps"
-
-#~ msgid "10-20Gbps"
-#~ msgstr "10-20 Gbps"
-
-#~ msgid "20-50 Gbps"
-#~ msgstr "20-50 Gbps"
-
-#~ msgid "50-100 Gbps"
-#~ msgstr "50-100 Gbps"
-
-#~ msgid "100+ Gbps"
-#~ msgstr "超過100 Gbps"
-
-#~ msgid "100-200 Gbps"
-#~ msgstr "100-200 Gbps"
-
-#~ msgid "200-300 Gbps"
-#~ msgstr "200-300 Gbps"
-
-#~ msgid "300-500 Gbps"
-#~ msgstr "300-500 Gbps"
-
-#~ msgid "500-1000 Gbps"
-#~ msgstr "500-1000 Gbps"
-
-#~ msgid "1 Tbps+"
-#~ msgstr "超過 1 Tbps"
-
-#~ msgid "10 Tbps+"
-#~ msgstr "超過 10 Tbps"
-
-#~ msgid "NSP"
-#~ msgstr "NSP"
-
-#~ msgid "Content"
-#~ msgstr "聯繫"
-
-#~ msgid "Cable/DSL/ISP"
-#~ msgstr "電纜/DSL/ISP"
-
-#~ msgid "Enterprise"
-#~ msgstr "商業"
-
-#~ msgid "Educational/Research"
-#~ msgstr "教育/研究"
-
-#~ msgid "Non-Profit"
-#~ msgstr "非盈利"
-
-#~ msgid "Route Server"
-#~ msgstr "路由伺服器"
-
-#~ msgid "Private"
-#~ msgstr "私有"
-
-#~ msgid "Public"
-#~ msgstr "公開"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "原始首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"

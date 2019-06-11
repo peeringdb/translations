@@ -17,6 +17,200 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.3\n"
 
+msgid "Ethernet"
+msgstr "Ethernet"
+
+msgid "ATM"
+msgstr "ATM"
+
+msgid "Multiple"
+msgstr "Molteplici"
+
+msgid "Abuse"
+msgstr "Abusi"
+
+msgid "Maintenance"
+msgstr "Manutenzione"
+
+msgid "Policy"
+msgstr "Policy"
+
+msgid "Technical"
+msgstr "Tecnico"
+
+msgid "NOC"
+msgstr "NOC"
+
+msgid "Public Relations"
+msgstr "Pubbliche Relazioni"
+
+msgid "Sales"
+msgstr "Vendite"
+
+msgid "Open"
+msgstr "Aperta"
+
+msgid "Selective"
+msgstr "Selettiva"
+
+msgid "Restrictive"
+msgstr "Restrittiva"
+
+msgid "No"
+msgstr "No"
+
+msgid "Not Required"
+msgstr "Non Richiesto"
+
+msgid "Preferred"
+msgstr "Preferito"
+
+msgid "Required - US"
+msgstr "Richiesto - US"
+
+msgid "Required - EU"
+msgstr "Richiesto - EU"
+
+msgid "Required - International"
+msgstr "Richiesto - Internazionale"
+
+msgid "Private Only"
+msgstr "Solo Privati"
+
+msgid "Required"
+msgstr "Richiesto"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "Not Disclosed"
+msgstr "Non rivelato"
+
+msgid "Heavy Outbound"
+msgstr "Pesantemente in uscita"
+
+msgid "Mostly Outbound"
+msgstr "Prevalentemente in uscita"
+
+msgid "Balanced"
+msgstr "Bilanciato"
+
+msgid "Mostly Inbound"
+msgstr "Prevalentemente in entrata"
+
+msgid "Heavy Inbound"
+msgstr "Pesantemente in entrata"
+
+msgid "North America"
+msgstr "Nord America"
+
+msgid "Asia Pacific"
+msgstr "Asia Pacifico"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "South America"
+msgstr "Sud America"
+
+msgid "Africa"
+msgstr "Africa"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Middle East"
+msgstr "Medio Oriente"
+
+msgid "Regional"
+msgstr "Regionale"
+
+msgid "Global"
+msgstr "Globale"
+
+msgid "0-20 Mbps"
+msgstr ""
+
+msgid "20-100Mbps"
+msgstr ""
+
+msgid "100-1000Mbps"
+msgstr ""
+
+msgid "1-5Gbps"
+msgstr ""
+
+msgid "5-10Gbps"
+msgstr ""
+
+msgid "10-20Gbps"
+msgstr ""
+
+msgid "20-50 Gbps"
+msgstr ""
+
+msgid "50-100 Gbps"
+msgstr ""
+
+msgid "100+ Gbps"
+msgstr ""
+
+msgid "100-200 Gbps"
+msgstr ""
+
+msgid "200-300 Gbps"
+msgstr ""
+
+msgid "300-500 Gbps"
+msgstr ""
+
+msgid "500-1000 Gbps"
+msgstr ""
+
+msgid "1 Tbps+"
+msgstr ""
+
+msgid "10 Tbps+"
+msgstr ""
+
+msgid "NSP"
+msgstr "NSP"
+
+msgid "Content"
+msgstr "Contenuti"
+
+msgid "Cable/DSL/ISP"
+msgstr "Cable/DSL/ISP"
+
+msgid "Enterprise"
+msgstr "Aziendale"
+
+msgid "Educational/Research"
+msgstr "Didattica/Ricerca"
+
+msgid "Non-Profit"
+msgstr "No-Profit"
+
+msgid "Route Server"
+msgstr "Route Server"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private"
+msgstr "Solo Privati"
+
+msgid "Users"
+msgstr "Utenti"
+
+msgid "Public"
+msgstr ""
+
+msgid "Kosovo"
+msgstr "Kosovo"
+
 msgid "Status"
 msgstr "Stato"
 
@@ -191,9 +385,6 @@ msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
-
-msgid "No"
-msgstr "No"
 
 msgid "Yes"
 msgstr "Sì"
@@ -1516,17 +1707,8 @@ msgstr "Punti di Interscambio per Peering Pubblico"
 msgid "Peer Name"
 msgstr "Nome del Peer"
 
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
 msgid "Speed"
 msgstr "Velocità"
-
-msgid "Policy"
-msgstr "Policy"
 
 msgid "Exchange"
 msgstr "Interscambio"
@@ -1593,9 +1775,6 @@ msgstr "Aggiungi Rete"
 
 msgid "Add Exchange"
 msgstr "Aggiungi Interscambio"
-
-msgid "Users"
-msgstr "Utenti"
 
 msgid "Permissions"
 msgstr "Permessi"
@@ -1847,9 +2026,6 @@ msgstr "URL del Route Server"
 msgid "Looking Glass URL"
 msgstr "URL del Looking Glass"
 
-msgid "Not Disclosed"
-msgstr "Non rivelato"
-
 msgid "IPv4 Prefixes"
 msgstr "Prefissi IPv4"
 
@@ -1882,134 +2058,6 @@ msgstr "Account disabilitato."
 
 msgid "Invalid username/password."
 msgstr "Nome utente o password non valido."
-
-#~ msgid "Ethernet"
-#~ msgstr "Ethernet"
-
-#~ msgid "ATM"
-#~ msgstr "ATM"
-
-#~ msgid "Multiple"
-#~ msgstr "Molteplici"
-
-#~ msgid "Abuse"
-#~ msgstr "Abusi"
-
-#~ msgid "Maintenance"
-#~ msgstr "Manutenzione"
-
-#~ msgid "Technical"
-#~ msgstr "Tecnico"
-
-#~ msgid "NOC"
-#~ msgstr "NOC"
-
-#~ msgid "Public Relations"
-#~ msgstr "Pubbliche Relazioni"
-
-#~ msgid "Sales"
-#~ msgstr "Vendite"
-
-#~ msgid "Open"
-#~ msgstr "Aperta"
-
-#~ msgid "Selective"
-#~ msgstr "Selettiva"
-
-#~ msgid "Restrictive"
-#~ msgstr "Restrittiva"
-
-#~ msgid "Not Required"
-#~ msgstr "Non Richiesto"
-
-#~ msgid "Preferred"
-#~ msgstr "Preferito"
-
-#~ msgid "Required - US"
-#~ msgstr "Richiesto - US"
-
-#~ msgid "Required - EU"
-#~ msgstr "Richiesto - EU"
-
-#~ msgid "Required - International"
-#~ msgstr "Richiesto - Internazionale"
-
-#~ msgid "Private Only"
-#~ msgstr "Solo Privati"
-
-#~ msgid "Required"
-#~ msgstr "Richiesto"
-
-#~ msgid "Heavy Outbound"
-#~ msgstr "Pesantemente in uscita"
-
-#~ msgid "Mostly Outbound"
-#~ msgstr "Prevalentemente in uscita"
-
-#~ msgid "Balanced"
-#~ msgstr "Bilanciato"
-
-#~ msgid "Mostly Inbound"
-#~ msgstr "Prevalentemente in entrata"
-
-#~ msgid "Heavy Inbound"
-#~ msgstr "Pesantemente in entrata"
-
-#~ msgid "North America"
-#~ msgstr "Nord America"
-
-#~ msgid "Asia Pacific"
-#~ msgstr "Asia Pacifico"
-
-#~ msgid "Europe"
-#~ msgstr "Europa"
-
-#~ msgid "South America"
-#~ msgstr "Sud America"
-
-#~ msgid "Africa"
-#~ msgstr "Africa"
-
-#~ msgid "Australia"
-#~ msgstr "Australia"
-
-#~ msgid "Middle East"
-#~ msgstr "Medio Oriente"
-
-#~ msgid "Regional"
-#~ msgstr "Regionale"
-
-#~ msgid "Global"
-#~ msgstr "Globale"
-
-#~ msgid "NSP"
-#~ msgstr "NSP"
-
-#~ msgid "Content"
-#~ msgstr "Contenuti"
-
-#~ msgid "Cable/DSL/ISP"
-#~ msgstr "Cable/DSL/ISP"
-
-#~ msgid "Enterprise"
-#~ msgstr "Aziendale"
-
-#~ msgid "Educational/Research"
-#~ msgstr "Didattica/Ricerca"
-
-#~ msgid "Non-Profit"
-#~ msgstr "No-Profit"
-
-#~ msgid "Route Server"
-#~ msgstr "Route Server"
-
-#, fuzzy
-#~| msgid "Private Only"
-#~ msgid "Private"
-#~ msgstr "Solo Privati"
-
-#~ msgid "Kosovo"
-#~ msgstr "Kosovo"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "I tre byte più a sinistra del prefisso originale - eg. xxx.xxx.xxx"

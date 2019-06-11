@@ -16,6 +16,198 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Ethernet"
+msgstr "Ethernet"
+
+msgid "ATM"
+msgstr "ATM"
+
+msgid "Multiple"
+msgstr "Несколько"
+
+msgid "Abuse"
+msgstr "Жалобы"
+
+msgid "Maintenance"
+msgstr "Уведомления о перерывах"
+
+msgid "Policy"
+msgstr "Пиринговая политика"
+
+msgid "Technical"
+msgstr "Технический контакт"
+
+msgid "NOC"
+msgstr "NOC"
+
+msgid "Public Relations"
+msgstr "Общественные связи"
+
+msgid "Sales"
+msgstr "Продажи"
+
+msgid "Open"
+msgstr "Открытая"
+
+msgid "Selective"
+msgstr "Избирательная"
+
+msgid "Restrictive"
+msgstr "Закрытая"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Not Required"
+msgstr "Не требуется"
+
+msgid "Preferred"
+msgstr "Предпочтительно"
+
+msgid "Required - US"
+msgstr "Обязательно - США"
+
+msgid "Required - EU"
+msgstr "Обязательно - ЕС"
+
+msgid "Required - International"
+msgstr "Обязательно - Весь мир"
+
+msgid "Private Only"
+msgstr "Только приватные"
+
+msgid "Required"
+msgstr "Обязательно"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "Not Disclosed"
+msgstr "Нет данных"
+
+msgid "Heavy Outbound"
+msgstr "Существенный исходящий"
+
+msgid "Mostly Outbound"
+msgstr "Преобладает исходящий"
+
+msgid "Balanced"
+msgstr "Сбалансированный"
+
+msgid "Mostly Inbound"
+msgstr "Преобладает входящий"
+
+msgid "Heavy Inbound"
+msgstr "Существенный входящий"
+
+msgid "North America"
+msgstr "Северная Америка"
+
+msgid "Asia Pacific"
+msgstr "Азиатско-Тихоокеанский регион"
+
+msgid "Europe"
+msgstr "Европа"
+
+msgid "South America"
+msgstr "Южная Америка"
+
+msgid "Africa"
+msgstr "Африка"
+
+msgid "Australia"
+msgstr "Австралия"
+
+msgid "Middle East"
+msgstr "Ближний и средний Восток"
+
+msgid "Regional"
+msgstr "Региональный"
+
+msgid "Global"
+msgstr "Глобальный"
+
+msgid "0-20 Mbps"
+msgstr "0-20 Мбит/с"
+
+msgid "20-100Mbps"
+msgstr "20-100Мбит/с"
+
+msgid "100-1000Mbps"
+msgstr "100-1000Мбит/с"
+
+msgid "1-5Gbps"
+msgstr "1-5Гбит/с"
+
+msgid "5-10Gbps"
+msgstr "5-10Гбит/с"
+
+msgid "10-20Gbps"
+msgstr "10-20Гбит/с"
+
+msgid "20-50 Gbps"
+msgstr "20-50 Гбит/с"
+
+msgid "50-100 Gbps"
+msgstr "50-100 Гбит/с"
+
+msgid "100+ Gbps"
+msgstr "100+ Гбит/с"
+
+msgid "100-200 Gbps"
+msgstr "100-200 Гбит/c"
+
+msgid "200-300 Gbps"
+msgstr "200-300 Гбит/с"
+
+msgid "300-500 Gbps"
+msgstr "300-500 Гбит/с"
+
+msgid "500-1000 Gbps"
+msgstr "500-1000 Гбит/с"
+
+msgid "1 Tbps+"
+msgstr "1+ Тбит/с"
+
+msgid "10 Tbps+"
+msgstr "10+ Тбит/c"
+
+msgid "NSP"
+msgstr "Магистральный оператор"
+
+msgid "Content"
+msgstr "Контент"
+
+msgid "Cable/DSL/ISP"
+msgstr "Кабельный/DSL оператор"
+
+msgid "Enterprise"
+msgstr "Компания"
+
+msgid "Educational/Research"
+msgstr "Научно/образовательное учреждение"
+
+msgid "Non-Profit"
+msgstr "Некоммерческая организация"
+
+msgid "Route Server"
+msgstr "Route Server"
+
+msgid "Private"
+msgstr "Приватный"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Public"
+msgstr "Публичный"
+
+msgid "Kosovo"
+msgstr "Косово"
+
 msgid "Status"
 msgstr "Статус"
 
@@ -190,9 +382,6 @@ msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
-
-msgid "No"
-msgstr "Нет"
 
 msgid "Yes"
 msgstr "Да"
@@ -1523,17 +1712,8 @@ msgstr "IXP для публичного пиринга"
 msgid "Peer Name"
 msgstr "Имя пира"
 
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
 msgid "Speed"
 msgstr "Скорость"
-
-msgid "Policy"
-msgstr "Пиринговая политика"
 
 msgid "Exchange"
 msgstr "IXP"
@@ -1600,9 +1780,6 @@ msgstr "Новая сеть"
 
 msgid "Add Exchange"
 msgstr "Новый IXP"
-
-msgid "Users"
-msgstr "Пользователи"
 
 msgid "Permissions"
 msgstr "Права доступа"
@@ -1855,9 +2032,6 @@ msgstr "Route Server URL"
 msgid "Looking Glass URL"
 msgstr "Looking Glass URL"
 
-msgid "Not Disclosed"
-msgstr "Нет данных"
-
 msgid "IPv4 Prefixes"
 msgstr "IPv4-префиксы"
 
@@ -1890,180 +2064,6 @@ msgstr "Аккаунт деактивирован."
 
 msgid "Invalid username/password."
 msgstr "Неверное имя пользователя/пароль."
-
-#~ msgid "Ethernet"
-#~ msgstr "Ethernet"
-
-#~ msgid "ATM"
-#~ msgstr "ATM"
-
-#~ msgid "Multiple"
-#~ msgstr "Несколько"
-
-#~ msgid "Abuse"
-#~ msgstr "Жалобы"
-
-#~ msgid "Maintenance"
-#~ msgstr "Уведомления о перерывах"
-
-#~ msgid "Technical"
-#~ msgstr "Технический контакт"
-
-#~ msgid "NOC"
-#~ msgstr "NOC"
-
-#~ msgid "Public Relations"
-#~ msgstr "Общественные связи"
-
-#~ msgid "Sales"
-#~ msgstr "Продажи"
-
-#~ msgid "Open"
-#~ msgstr "Открытая"
-
-#~ msgid "Selective"
-#~ msgstr "Избирательная"
-
-#~ msgid "Restrictive"
-#~ msgstr "Закрытая"
-
-#~ msgid "Not Required"
-#~ msgstr "Не требуется"
-
-#~ msgid "Preferred"
-#~ msgstr "Предпочтительно"
-
-#~ msgid "Required - US"
-#~ msgstr "Обязательно - США"
-
-#~ msgid "Required - EU"
-#~ msgstr "Обязательно - ЕС"
-
-#~ msgid "Required - International"
-#~ msgstr "Обязательно - Весь мир"
-
-#~ msgid "Private Only"
-#~ msgstr "Только приватные"
-
-#~ msgid "Required"
-#~ msgstr "Обязательно"
-
-#~ msgid "Heavy Outbound"
-#~ msgstr "Существенный исходящий"
-
-#~ msgid "Mostly Outbound"
-#~ msgstr "Преобладает исходящий"
-
-#~ msgid "Balanced"
-#~ msgstr "Сбалансированный"
-
-#~ msgid "Mostly Inbound"
-#~ msgstr "Преобладает входящий"
-
-#~ msgid "Heavy Inbound"
-#~ msgstr "Существенный входящий"
-
-#~ msgid "North America"
-#~ msgstr "Северная Америка"
-
-#~ msgid "Asia Pacific"
-#~ msgstr "Азиатско-Тихоокеанский регион"
-
-#~ msgid "Europe"
-#~ msgstr "Европа"
-
-#~ msgid "South America"
-#~ msgstr "Южная Америка"
-
-#~ msgid "Africa"
-#~ msgstr "Африка"
-
-#~ msgid "Australia"
-#~ msgstr "Австралия"
-
-#~ msgid "Middle East"
-#~ msgstr "Ближний и средний Восток"
-
-#~ msgid "Regional"
-#~ msgstr "Региональный"
-
-#~ msgid "Global"
-#~ msgstr "Глобальный"
-
-#~ msgid "0-20 Mbps"
-#~ msgstr "0-20 Мбит/с"
-
-#~ msgid "20-100Mbps"
-#~ msgstr "20-100Мбит/с"
-
-#~ msgid "100-1000Mbps"
-#~ msgstr "100-1000Мбит/с"
-
-#~ msgid "1-5Gbps"
-#~ msgstr "1-5Гбит/с"
-
-#~ msgid "5-10Gbps"
-#~ msgstr "5-10Гбит/с"
-
-#~ msgid "10-20Gbps"
-#~ msgstr "10-20Гбит/с"
-
-#~ msgid "20-50 Gbps"
-#~ msgstr "20-50 Гбит/с"
-
-#~ msgid "50-100 Gbps"
-#~ msgstr "50-100 Гбит/с"
-
-#~ msgid "100+ Gbps"
-#~ msgstr "100+ Гбит/с"
-
-#~ msgid "100-200 Gbps"
-#~ msgstr "100-200 Гбит/c"
-
-#~ msgid "200-300 Gbps"
-#~ msgstr "200-300 Гбит/с"
-
-#~ msgid "300-500 Gbps"
-#~ msgstr "300-500 Гбит/с"
-
-#~ msgid "500-1000 Gbps"
-#~ msgstr "500-1000 Гбит/с"
-
-#~ msgid "1 Tbps+"
-#~ msgstr "1+ Тбит/с"
-
-#~ msgid "10 Tbps+"
-#~ msgstr "10+ Тбит/c"
-
-#~ msgid "NSP"
-#~ msgstr "Магистральный оператор"
-
-#~ msgid "Content"
-#~ msgstr "Контент"
-
-#~ msgid "Cable/DSL/ISP"
-#~ msgstr "Кабельный/DSL оператор"
-
-#~ msgid "Enterprise"
-#~ msgstr "Компания"
-
-#~ msgid "Educational/Research"
-#~ msgstr "Научно/образовательное учреждение"
-
-#~ msgid "Non-Profit"
-#~ msgstr "Некоммерческая организация"
-
-#~ msgid "Route Server"
-#~ msgstr "Route Server"
-
-#~ msgid "Private"
-#~ msgstr "Приватный"
-
-#~ msgid "Public"
-#~ msgstr "Публичный"
-
-#~ msgid "Kosovo"
-#~ msgstr "Косово"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Три первых октета исходного префикса - например, xxx.xxx.xxx"

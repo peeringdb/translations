@@ -17,6 +17,200 @@ msgstr ""
 "X-Generator: Poedit 2.0.8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "Ethernet"
+msgstr "Ethernet"
+
+msgid "ATM"
+msgstr "ATM"
+
+msgid "Multiple"
+msgstr "Multiple"
+
+msgid "Abuse"
+msgstr "Abuso"
+
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgid "Policy"
+msgstr "Política"
+
+msgid "Technical"
+msgstr "Técnico"
+
+msgid "NOC"
+msgstr "NOC"
+
+msgid "Public Relations"
+msgstr "Relaciones Públicas"
+
+msgid "Sales"
+msgstr "Ventas"
+
+msgid "Open"
+msgstr "Abierto"
+
+msgid "Selective"
+msgstr "Selectivo"
+
+msgid "Restrictive"
+msgstr "Restrictivo"
+
+msgid "No"
+msgstr "No"
+
+msgid "Not Required"
+msgstr "No necesario"
+
+msgid "Preferred"
+msgstr "Preferido"
+
+msgid "Required - US"
+msgstr "EE. UU. Necesario - EE. UU"
+
+msgid "Required - EU"
+msgstr "Necesario - UE"
+
+msgid "Required - International"
+msgstr "Campo obligatorio - Internacional"
+
+msgid "Private Only"
+msgstr "Privado solo"
+
+msgid "Required"
+msgstr "Necesario"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "Not Disclosed"
+msgstr "No divulgado"
+
+msgid "Heavy Outbound"
+msgstr "De Salida - Tráfico Pesado"
+
+msgid "Mostly Outbound"
+msgstr "Principalmente de Ida"
+
+msgid "Balanced"
+msgstr "Equilibrado"
+
+msgid "Mostly Inbound"
+msgstr "Principalmente de Entrada"
+
+msgid "Heavy Inbound"
+msgstr "Principalmente de Entrada - Tráfico Pesado"
+
+msgid "North America"
+msgstr "Norteamérica"
+
+msgid "Asia Pacific"
+msgstr "Asia Pacífico"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "South America"
+msgstr "Sudamérica"
+
+msgid "Africa"
+msgstr "África"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Middle East"
+msgstr "Oriente Medio"
+
+msgid "Regional"
+msgstr "Regional"
+
+msgid "Global"
+msgstr "Global"
+
+msgid "0-20 Mbps"
+msgstr ""
+
+msgid "20-100Mbps"
+msgstr ""
+
+msgid "100-1000Mbps"
+msgstr ""
+
+msgid "1-5Gbps"
+msgstr ""
+
+msgid "5-10Gbps"
+msgstr ""
+
+msgid "10-20Gbps"
+msgstr ""
+
+msgid "20-50 Gbps"
+msgstr ""
+
+msgid "50-100 Gbps"
+msgstr ""
+
+msgid "100+ Gbps"
+msgstr ""
+
+msgid "100-200 Gbps"
+msgstr ""
+
+msgid "200-300 Gbps"
+msgstr ""
+
+msgid "300-500 Gbps"
+msgstr ""
+
+msgid "500-1000 Gbps"
+msgstr ""
+
+msgid "1 Tbps+"
+msgstr ""
+
+msgid "10 Tbps+"
+msgstr ""
+
+msgid "NSP"
+msgstr "NSP"
+
+msgid "Content"
+msgstr "Contenido"
+
+msgid "Cable/DSL/ISP"
+msgstr "Cable/DSL/ISP"
+
+msgid "Enterprise"
+msgstr "Empresas"
+
+msgid "Educational/Research"
+msgstr "Educativo/Investigación"
+
+msgid "Non-Profit"
+msgstr "Sin fines de lucro"
+
+msgid "Route Server"
+msgstr "Servidor de ruta"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private"
+msgstr "Privado solo"
+
+msgid "Users"
+msgstr "Usuarios"
+
+msgid "Public"
+msgstr ""
+
+msgid "Kosovo"
+msgstr ""
+
 msgid "Status"
 msgstr "Estado"
 
@@ -191,9 +385,6 @@ msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
-
-msgid "No"
-msgstr "No"
 
 msgid "Yes"
 msgstr "Sí"
@@ -1517,17 +1708,8 @@ msgstr "Puntos de intercambio de Peering público"
 msgid "Peer Name"
 msgstr "Nombre del Peer"
 
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
 msgid "Speed"
 msgstr "Velocidad"
-
-msgid "Policy"
-msgstr "Política"
 
 msgid "Exchange"
 msgstr "Punto de Intercambio"
@@ -1594,9 +1776,6 @@ msgstr "Añadir una Red"
 
 msgid "Add Exchange"
 msgstr "Añadir un Punto de Intercambio"
-
-msgid "Users"
-msgstr "Usuarios"
 
 msgid "Permissions"
 msgstr "Permisos"
@@ -1848,9 +2027,6 @@ msgstr "URL del servidor de ruta"
 msgid "Looking Glass URL"
 msgstr "URL de Looking Glass"
 
-msgid "Not Disclosed"
-msgstr "No divulgado"
-
 msgid "IPv4 Prefixes"
 msgstr "Prefijos IPv4"
 
@@ -1883,131 +2059,6 @@ msgstr "Cuenta desactivada."
 
 msgid "Invalid username/password."
 msgstr "Nombre de usuario/contraseña no válida."
-
-#~ msgid "Ethernet"
-#~ msgstr "Ethernet"
-
-#~ msgid "ATM"
-#~ msgstr "ATM"
-
-#~ msgid "Multiple"
-#~ msgstr "Multiple"
-
-#~ msgid "Abuse"
-#~ msgstr "Abuso"
-
-#~ msgid "Maintenance"
-#~ msgstr "Mantenimiento"
-
-#~ msgid "Technical"
-#~ msgstr "Técnico"
-
-#~ msgid "NOC"
-#~ msgstr "NOC"
-
-#~ msgid "Public Relations"
-#~ msgstr "Relaciones Públicas"
-
-#~ msgid "Sales"
-#~ msgstr "Ventas"
-
-#~ msgid "Open"
-#~ msgstr "Abierto"
-
-#~ msgid "Selective"
-#~ msgstr "Selectivo"
-
-#~ msgid "Restrictive"
-#~ msgstr "Restrictivo"
-
-#~ msgid "Not Required"
-#~ msgstr "No necesario"
-
-#~ msgid "Preferred"
-#~ msgstr "Preferido"
-
-#~ msgid "Required - US"
-#~ msgstr "EE. UU. Necesario - EE. UU"
-
-#~ msgid "Required - EU"
-#~ msgstr "Necesario - UE"
-
-#~ msgid "Required - International"
-#~ msgstr "Campo obligatorio - Internacional"
-
-#~ msgid "Private Only"
-#~ msgstr "Privado solo"
-
-#~ msgid "Required"
-#~ msgstr "Necesario"
-
-#~ msgid "Heavy Outbound"
-#~ msgstr "De Salida - Tráfico Pesado"
-
-#~ msgid "Mostly Outbound"
-#~ msgstr "Principalmente de Ida"
-
-#~ msgid "Balanced"
-#~ msgstr "Equilibrado"
-
-#~ msgid "Mostly Inbound"
-#~ msgstr "Principalmente de Entrada"
-
-#~ msgid "Heavy Inbound"
-#~ msgstr "Principalmente de Entrada - Tráfico Pesado"
-
-#~ msgid "North America"
-#~ msgstr "Norteamérica"
-
-#~ msgid "Asia Pacific"
-#~ msgstr "Asia Pacífico"
-
-#~ msgid "Europe"
-#~ msgstr "Europa"
-
-#~ msgid "South America"
-#~ msgstr "Sudamérica"
-
-#~ msgid "Africa"
-#~ msgstr "África"
-
-#~ msgid "Australia"
-#~ msgstr "Australia"
-
-#~ msgid "Middle East"
-#~ msgstr "Oriente Medio"
-
-#~ msgid "Regional"
-#~ msgstr "Regional"
-
-#~ msgid "Global"
-#~ msgstr "Global"
-
-#~ msgid "NSP"
-#~ msgstr "NSP"
-
-#~ msgid "Content"
-#~ msgstr "Contenido"
-
-#~ msgid "Cable/DSL/ISP"
-#~ msgstr "Cable/DSL/ISP"
-
-#~ msgid "Enterprise"
-#~ msgstr "Empresas"
-
-#~ msgid "Educational/Research"
-#~ msgstr "Educativo/Investigación"
-
-#~ msgid "Non-Profit"
-#~ msgstr "Sin fines de lucro"
-
-#~ msgid "Route Server"
-#~ msgstr "Servidor de ruta"
-
-#, fuzzy
-#~| msgid "Private Only"
-#~ msgid "Private"
-#~ msgstr "Privado solo"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Los tres octetos más a la izquierda del prefijo original"
