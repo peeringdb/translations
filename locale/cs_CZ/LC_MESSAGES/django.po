@@ -16,198 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.1.1\n"
 
-msgid "Ethernet"
-msgstr "Ethernet"
-
-msgid "ATM"
-msgstr "ATM"
-
-msgid "Multiple"
-msgstr "Multiple"
-
-msgid "Abuse"
-msgstr "Abuse"
-
-msgid "Maintenance"
-msgstr "Údržba"
-
-msgid "Policy"
-msgstr "Politika"
-
-msgid "Technical"
-msgstr "Technický"
-
-msgid "NOC"
-msgstr "NOC"
-
-msgid "Public Relations"
-msgstr "Public Relations"
-
-msgid "Sales"
-msgstr "Obchod"
-
-msgid "Open"
-msgstr "Otevřená"
-
-msgid "Selective"
-msgstr "Selektivní"
-
-msgid "Restrictive"
-msgstr "Uzavřená"
-
-msgid "No"
-msgstr "Ne"
-
-msgid "Not Required"
-msgstr "Není požadováno"
-
-msgid "Preferred"
-msgstr "Preferovaný"
-
-msgid "Required - US"
-msgstr "Požadováno - USA"
-
-msgid "Required - EU"
-msgstr "Požadováno - EU"
-
-msgid "Required - International"
-msgstr "Požadováno - Mezinárodní"
-
-msgid "Private Only"
-msgstr "Pouze privátní"
-
-msgid "Required"
-msgstr "Požadováno"
-
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
-msgid "Not Disclosed"
-msgstr "Nezveřejněno"
-
-msgid "Heavy Outbound"
-msgstr "Silně odchozí"
-
-msgid "Mostly Outbound"
-msgstr "Více odchozí"
-
-msgid "Balanced"
-msgstr "Vyrovnaný"
-
-msgid "Mostly Inbound"
-msgstr "Více příchozí"
-
-msgid "Heavy Inbound"
-msgstr "Silně příchozí"
-
-msgid "North America"
-msgstr "Severní Amerika"
-
-msgid "Asia Pacific"
-msgstr "Asie a Tichomoří"
-
-msgid "Europe"
-msgstr "Evropa"
-
-msgid "South America"
-msgstr "Jižní Amerika"
-
-msgid "Africa"
-msgstr "Afrika"
-
-msgid "Australia"
-msgstr "Austrálie"
-
-msgid "Middle East"
-msgstr "Střední východ"
-
-msgid "Regional"
-msgstr "Regionální"
-
-msgid "Global"
-msgstr "Globální"
-
-msgid "0-20 Mbps"
-msgstr "0-20 Mbps"
-
-msgid "20-100Mbps"
-msgstr "20-100Mbps"
-
-msgid "100-1000Mbps"
-msgstr "100-1000Mbps"
-
-msgid "1-5Gbps"
-msgstr "1-5Gbps"
-
-msgid "5-10Gbps"
-msgstr "5-10Gbps"
-
-msgid "10-20Gbps"
-msgstr "10-20Gbps"
-
-msgid "20-50 Gbps"
-msgstr "20-50 Gbps"
-
-msgid "50-100 Gbps"
-msgstr "50-100 Gbps"
-
-msgid "100+ Gbps"
-msgstr "100+ Gbps"
-
-msgid "100-200 Gbps"
-msgstr "100-200 Gbps"
-
-msgid "200-300 Gbps"
-msgstr "200-300 Gbps"
-
-msgid "300-500 Gbps"
-msgstr "300-500 Gbps"
-
-msgid "500-1000 Gbps"
-msgstr "500-1000 Gbps"
-
-msgid "1 Tbps+"
-msgstr "1 Tbps+"
-
-msgid "10 Tbps+"
-msgstr "10 Tbps+"
-
-msgid "NSP"
-msgstr "Velkoobchodní poskytovatel připojení"
-
-msgid "Content"
-msgstr "Obsah"
-
-msgid "Cable/DSL/ISP"
-msgstr "Kabelový/DSL/ISP"
-
-msgid "Enterprise"
-msgstr "Podnikový"
-
-msgid "Educational/Research"
-msgstr "Věda/Výzkum"
-
-msgid "Non-Profit"
-msgstr "Neziskový"
-
-msgid "Route Server"
-msgstr "Route Server"
-
-msgid "Private"
-msgstr "Privátní"
-
-msgid "Users"
-msgstr "Užívatelé"
-
-msgid "Public"
-msgstr "Veřejný"
-
-msgid "Kosovo"
-msgstr "Kosovo"
-
 msgid "Status"
 msgstr "Status"
 
@@ -381,6 +189,9 @@ msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
+
+msgid "No"
+msgstr "Ne"
 
 msgid "Yes"
 msgstr "Ano"
@@ -1719,8 +1530,17 @@ msgstr "Veřejné propojovací uzly"
 msgid "Peer Name"
 msgstr "Název Peeru"
 
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
 msgid "Speed"
 msgstr "Rychlost"
+
+msgid "Policy"
+msgstr "Politika"
 
 msgid "Exchange"
 msgstr "Propojovací uzel"
@@ -1789,6 +1609,9 @@ msgstr "Přidat síť"
 
 msgid "Add Exchange"
 msgstr "Přidat propojovací uzel"
+
+msgid "Users"
+msgstr "Užívatelé"
 
 msgid "Permissions"
 msgstr "Oprávnění"
@@ -2050,6 +1873,9 @@ msgstr "Route Server URL"
 msgid "Looking Glass URL"
 msgstr "Looking Glass URL"
 
+msgid "Not Disclosed"
+msgstr "Nezveřejněno"
+
 msgid "IPv4 Prefixes"
 msgstr "IPv4 prefixy"
 
@@ -2083,6 +1909,180 @@ msgstr "Účet zablokován."
 
 msgid "Invalid username/password."
 msgstr "Neplatné uživatelské jméno / heslo."
+
+#~ msgid "Ethernet"
+#~ msgstr "Ethernet"
+
+#~ msgid "ATM"
+#~ msgstr "ATM"
+
+#~ msgid "Multiple"
+#~ msgstr "Multiple"
+
+#~ msgid "Abuse"
+#~ msgstr "Abuse"
+
+#~ msgid "Maintenance"
+#~ msgstr "Údržba"
+
+#~ msgid "Technical"
+#~ msgstr "Technický"
+
+#~ msgid "NOC"
+#~ msgstr "NOC"
+
+#~ msgid "Public Relations"
+#~ msgstr "Public Relations"
+
+#~ msgid "Sales"
+#~ msgstr "Obchod"
+
+#~ msgid "Open"
+#~ msgstr "Otevřená"
+
+#~ msgid "Selective"
+#~ msgstr "Selektivní"
+
+#~ msgid "Restrictive"
+#~ msgstr "Uzavřená"
+
+#~ msgid "Not Required"
+#~ msgstr "Není požadováno"
+
+#~ msgid "Preferred"
+#~ msgstr "Preferovaný"
+
+#~ msgid "Required - US"
+#~ msgstr "Požadováno - USA"
+
+#~ msgid "Required - EU"
+#~ msgstr "Požadováno - EU"
+
+#~ msgid "Required - International"
+#~ msgstr "Požadováno - Mezinárodní"
+
+#~ msgid "Private Only"
+#~ msgstr "Pouze privátní"
+
+#~ msgid "Required"
+#~ msgstr "Požadováno"
+
+#~ msgid "Heavy Outbound"
+#~ msgstr "Silně odchozí"
+
+#~ msgid "Mostly Outbound"
+#~ msgstr "Více odchozí"
+
+#~ msgid "Balanced"
+#~ msgstr "Vyrovnaný"
+
+#~ msgid "Mostly Inbound"
+#~ msgstr "Více příchozí"
+
+#~ msgid "Heavy Inbound"
+#~ msgstr "Silně příchozí"
+
+#~ msgid "North America"
+#~ msgstr "Severní Amerika"
+
+#~ msgid "Asia Pacific"
+#~ msgstr "Asie a Tichomoří"
+
+#~ msgid "Europe"
+#~ msgstr "Evropa"
+
+#~ msgid "South America"
+#~ msgstr "Jižní Amerika"
+
+#~ msgid "Africa"
+#~ msgstr "Afrika"
+
+#~ msgid "Australia"
+#~ msgstr "Austrálie"
+
+#~ msgid "Middle East"
+#~ msgstr "Střední východ"
+
+#~ msgid "Regional"
+#~ msgstr "Regionální"
+
+#~ msgid "Global"
+#~ msgstr "Globální"
+
+#~ msgid "0-20 Mbps"
+#~ msgstr "0-20 Mbps"
+
+#~ msgid "20-100Mbps"
+#~ msgstr "20-100Mbps"
+
+#~ msgid "100-1000Mbps"
+#~ msgstr "100-1000Mbps"
+
+#~ msgid "1-5Gbps"
+#~ msgstr "1-5Gbps"
+
+#~ msgid "5-10Gbps"
+#~ msgstr "5-10Gbps"
+
+#~ msgid "10-20Gbps"
+#~ msgstr "10-20Gbps"
+
+#~ msgid "20-50 Gbps"
+#~ msgstr "20-50 Gbps"
+
+#~ msgid "50-100 Gbps"
+#~ msgstr "50-100 Gbps"
+
+#~ msgid "100+ Gbps"
+#~ msgstr "100+ Gbps"
+
+#~ msgid "100-200 Gbps"
+#~ msgstr "100-200 Gbps"
+
+#~ msgid "200-300 Gbps"
+#~ msgstr "200-300 Gbps"
+
+#~ msgid "300-500 Gbps"
+#~ msgstr "300-500 Gbps"
+
+#~ msgid "500-1000 Gbps"
+#~ msgstr "500-1000 Gbps"
+
+#~ msgid "1 Tbps+"
+#~ msgstr "1 Tbps+"
+
+#~ msgid "10 Tbps+"
+#~ msgstr "10 Tbps+"
+
+#~ msgid "NSP"
+#~ msgstr "Velkoobchodní poskytovatel připojení"
+
+#~ msgid "Content"
+#~ msgstr "Obsah"
+
+#~ msgid "Cable/DSL/ISP"
+#~ msgstr "Kabelový/DSL/ISP"
+
+#~ msgid "Enterprise"
+#~ msgstr "Podnikový"
+
+#~ msgid "Educational/Research"
+#~ msgstr "Věda/Výzkum"
+
+#~ msgid "Non-Profit"
+#~ msgstr "Neziskový"
+
+#~ msgid "Route Server"
+#~ msgstr "Route Server"
+
+#~ msgid "Private"
+#~ msgstr "Privátní"
+
+#~ msgid "Public"
+#~ msgstr "Veřejný"
+
+#~ msgid "Kosovo"
+#~ msgstr "Kosovo"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Tři levé oktety původního prefixu - např. xxx.xxx.xxx"

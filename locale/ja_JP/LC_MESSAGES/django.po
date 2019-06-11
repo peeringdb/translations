@@ -17,198 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.3\n"
 
-msgid "Ethernet"
-msgstr "イーサネット"
-
-msgid "ATM"
-msgstr "ATM"
-
-msgid "Multiple"
-msgstr "複数の種類"
-
-msgid "Abuse"
-msgstr "不正使用"
-
-msgid "Maintenance"
-msgstr "メンテナンス"
-
-msgid "Policy"
-msgstr "ポリシー"
-
-msgid "Technical"
-msgstr "技術部"
-
-msgid "NOC"
-msgstr "NOC"
-
-msgid "Public Relations"
-msgstr "渉外部"
-
-msgid "Sales"
-msgstr "営業部"
-
-msgid "Open"
-msgstr "Open"
-
-msgid "Selective"
-msgstr "Selective"
-
-msgid "Restrictive"
-msgstr "Restrictive"
-
-msgid "No"
-msgstr "無し"
-
-msgid "Not Required"
-msgstr "必要無し"
-
-msgid "Preferred"
-msgstr "推奨"
-
-msgid "Required - US"
-msgstr "必須 - US"
-
-msgid "Required - EU"
-msgstr "必須 - EU"
-
-msgid "Required - International"
-msgstr "必須 - International"
-
-msgid "Private Only"
-msgstr "Private Only"
-
-msgid "Required"
-msgstr "必須"
-
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
-msgid "Not Disclosed"
-msgstr "非公開"
-
-msgid "Heavy Outbound"
-msgstr "非常に大量なアウトバウンド"
-
-msgid "Mostly Outbound"
-msgstr "ほぼアウトバウンド"
-
-msgid "Balanced"
-msgstr "均衡"
-
-msgid "Mostly Inbound"
-msgstr "ほぼインバウンド"
-
-msgid "Heavy Inbound"
-msgstr "非常に大量なインバウンド"
-
-msgid "North America"
-msgstr "北米"
-
-msgid "Asia Pacific"
-msgstr "アジア太平洋"
-
-msgid "Europe"
-msgstr "ヨーロッパ"
-
-msgid "South America"
-msgstr "南米"
-
-msgid "Africa"
-msgstr "アフリカ"
-
-msgid "Australia"
-msgstr "オーストラリア"
-
-msgid "Middle East"
-msgstr "中東"
-
-msgid "Regional"
-msgstr "特定地域"
-
-msgid "Global"
-msgstr "世界全体"
-
-msgid "0-20 Mbps"
-msgstr "0-20Mbps"
-
-msgid "20-100Mbps"
-msgstr "20-100Mbps"
-
-msgid "100-1000Mbps"
-msgstr "100-1000Mbps"
-
-msgid "1-5Gbps"
-msgstr "1-5Gbps"
-
-msgid "5-10Gbps"
-msgstr "5-10Gbps"
-
-msgid "10-20Gbps"
-msgstr "10-20Gbps"
-
-msgid "20-50 Gbps"
-msgstr "20-50 Gbps"
-
-msgid "50-100 Gbps"
-msgstr "50-100 Gbps"
-
-msgid "100+ Gbps"
-msgstr "100 Gbps 以上"
-
-msgid "100-200 Gbps"
-msgstr "100-200 Gbps"
-
-msgid "200-300 Gbps"
-msgstr "200-300 Gbps"
-
-msgid "300-500 Gbps"
-msgstr "300-500 Gbps"
-
-msgid "500-1000 Gbps"
-msgstr "500-1000 Gbps"
-
-msgid "1 Tbps+"
-msgstr "1 Tbps 以上"
-
-msgid "10 Tbps+"
-msgstr "10 Tbps 以上"
-
-msgid "NSP"
-msgstr "NSP"
-
-msgid "Content"
-msgstr "コンテンツ"
-
-msgid "Cable/DSL/ISP"
-msgstr "Cable/DSL/ISP"
-
-msgid "Enterprise"
-msgstr "エンタープライズ"
-
-msgid "Educational/Research"
-msgstr "教育・研究"
-
-msgid "Non-Profit"
-msgstr "非営利"
-
-msgid "Route Server"
-msgstr "ルートサーバ"
-
-msgid "Private"
-msgstr "プライベート"
-
-msgid "Users"
-msgstr "ユーザ"
-
-msgid "Public"
-msgstr "パブリック"
-
-msgid "Kosovo"
-msgstr "コソボ(Kosovo)"
-
 msgid "Status"
 msgstr "ステータス"
 
@@ -379,6 +187,9 @@ msgstr "このオブジェクトを復元します - [reftag] [id] で検索"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "いまは、このインタフェースを介して {} タイプのオブジェクトのみが復元されます"
+
+msgid "No"
+msgstr "無し"
 
 msgid "Yes"
 msgstr "有り"
@@ -1671,8 +1482,17 @@ msgstr "このエクスチェンジポイントでのピア"
 msgid "Peer Name"
 msgstr "ピア名"
 
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
 msgid "Speed"
 msgstr "帯域"
+
+msgid "Policy"
+msgstr "ポリシー"
 
 msgid "Exchange"
 msgstr "エクスチェンジ"
@@ -1739,6 +1559,9 @@ msgstr "ネットワークを追加"
 
 msgid "Add Exchange"
 msgstr "エクスチェンジを追加"
+
+msgid "Users"
+msgstr "ユーザ"
 
 msgid "Permissions"
 msgstr "パーミッション"
@@ -1986,6 +1809,9 @@ msgstr "ルートサーバの URL"
 msgid "Looking Glass URL"
 msgstr "Looking Glass の URL"
 
+msgid "Not Disclosed"
+msgstr "非公開"
+
 msgid "IPv4 Prefixes"
 msgstr "IPv4 プレフィクス数"
 
@@ -2018,6 +1844,180 @@ msgstr "アカウントが無効です"
 
 msgid "Invalid username/password."
 msgstr "無効なユーザ名・パスワードです"
+
+#~ msgid "Ethernet"
+#~ msgstr "イーサネット"
+
+#~ msgid "ATM"
+#~ msgstr "ATM"
+
+#~ msgid "Multiple"
+#~ msgstr "複数の種類"
+
+#~ msgid "Abuse"
+#~ msgstr "不正使用"
+
+#~ msgid "Maintenance"
+#~ msgstr "メンテナンス"
+
+#~ msgid "Technical"
+#~ msgstr "技術部"
+
+#~ msgid "NOC"
+#~ msgstr "NOC"
+
+#~ msgid "Public Relations"
+#~ msgstr "渉外部"
+
+#~ msgid "Sales"
+#~ msgstr "営業部"
+
+#~ msgid "Open"
+#~ msgstr "Open"
+
+#~ msgid "Selective"
+#~ msgstr "Selective"
+
+#~ msgid "Restrictive"
+#~ msgstr "Restrictive"
+
+#~ msgid "Not Required"
+#~ msgstr "必要無し"
+
+#~ msgid "Preferred"
+#~ msgstr "推奨"
+
+#~ msgid "Required - US"
+#~ msgstr "必須 - US"
+
+#~ msgid "Required - EU"
+#~ msgstr "必須 - EU"
+
+#~ msgid "Required - International"
+#~ msgstr "必須 - International"
+
+#~ msgid "Private Only"
+#~ msgstr "Private Only"
+
+#~ msgid "Required"
+#~ msgstr "必須"
+
+#~ msgid "Heavy Outbound"
+#~ msgstr "非常に大量なアウトバウンド"
+
+#~ msgid "Mostly Outbound"
+#~ msgstr "ほぼアウトバウンド"
+
+#~ msgid "Balanced"
+#~ msgstr "均衡"
+
+#~ msgid "Mostly Inbound"
+#~ msgstr "ほぼインバウンド"
+
+#~ msgid "Heavy Inbound"
+#~ msgstr "非常に大量なインバウンド"
+
+#~ msgid "North America"
+#~ msgstr "北米"
+
+#~ msgid "Asia Pacific"
+#~ msgstr "アジア太平洋"
+
+#~ msgid "Europe"
+#~ msgstr "ヨーロッパ"
+
+#~ msgid "South America"
+#~ msgstr "南米"
+
+#~ msgid "Africa"
+#~ msgstr "アフリカ"
+
+#~ msgid "Australia"
+#~ msgstr "オーストラリア"
+
+#~ msgid "Middle East"
+#~ msgstr "中東"
+
+#~ msgid "Regional"
+#~ msgstr "特定地域"
+
+#~ msgid "Global"
+#~ msgstr "世界全体"
+
+#~ msgid "0-20 Mbps"
+#~ msgstr "0-20Mbps"
+
+#~ msgid "20-100Mbps"
+#~ msgstr "20-100Mbps"
+
+#~ msgid "100-1000Mbps"
+#~ msgstr "100-1000Mbps"
+
+#~ msgid "1-5Gbps"
+#~ msgstr "1-5Gbps"
+
+#~ msgid "5-10Gbps"
+#~ msgstr "5-10Gbps"
+
+#~ msgid "10-20Gbps"
+#~ msgstr "10-20Gbps"
+
+#~ msgid "20-50 Gbps"
+#~ msgstr "20-50 Gbps"
+
+#~ msgid "50-100 Gbps"
+#~ msgstr "50-100 Gbps"
+
+#~ msgid "100+ Gbps"
+#~ msgstr "100 Gbps 以上"
+
+#~ msgid "100-200 Gbps"
+#~ msgstr "100-200 Gbps"
+
+#~ msgid "200-300 Gbps"
+#~ msgstr "200-300 Gbps"
+
+#~ msgid "300-500 Gbps"
+#~ msgstr "300-500 Gbps"
+
+#~ msgid "500-1000 Gbps"
+#~ msgstr "500-1000 Gbps"
+
+#~ msgid "1 Tbps+"
+#~ msgstr "1 Tbps 以上"
+
+#~ msgid "10 Tbps+"
+#~ msgstr "10 Tbps 以上"
+
+#~ msgid "NSP"
+#~ msgstr "NSP"
+
+#~ msgid "Content"
+#~ msgstr "コンテンツ"
+
+#~ msgid "Cable/DSL/ISP"
+#~ msgstr "Cable/DSL/ISP"
+
+#~ msgid "Enterprise"
+#~ msgstr "エンタープライズ"
+
+#~ msgid "Educational/Research"
+#~ msgstr "教育・研究"
+
+#~ msgid "Non-Profit"
+#~ msgstr "非営利"
+
+#~ msgid "Route Server"
+#~ msgstr "ルートサーバ"
+
+#~ msgid "Private"
+#~ msgstr "プライベート"
+
+#~ msgid "Public"
+#~ msgstr "パブリック"
+
+#~ msgid "Kosovo"
+#~ msgstr "コソボ(Kosovo)"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "元プレフィクスの左側3オクテット - 例. xxx.xxx.xxx"

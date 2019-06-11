@@ -17,198 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.3\n"
 
-msgid "Ethernet"
-msgstr "Ethernet"
-
-msgid "ATM"
-msgstr "ATM"
-
-msgid "Multiple"
-msgstr "Πολλαπλές"
-
-msgid "Abuse"
-msgstr "Abuse"
-
-msgid "Maintenance"
-msgstr "Maintenance"
-
-msgid "Policy"
-msgstr "Policy"
-
-msgid "Technical"
-msgstr "Technical"
-
-msgid "NOC"
-msgstr "NOC"
-
-msgid "Public Relations"
-msgstr "Δημόσιες Σχέσεις"
-
-msgid "Sales"
-msgstr "Πωλήσεις"
-
-msgid "Open"
-msgstr "Ανοιχτή"
-
-msgid "Selective"
-msgstr "Επιλεκτική"
-
-msgid "Restrictive"
-msgstr "Περιοριστική"
-
-msgid "No"
-msgstr "'Οχι"
-
-msgid "Not Required"
-msgstr "Δεν απαιτείται"
-
-msgid "Preferred"
-msgstr "Προτιμητέα"
-
-msgid "Required - US"
-msgstr "Απαιτείται - ΗΠΑ"
-
-msgid "Required - EU"
-msgstr "Απαιτείται - ΕΕ"
-
-msgid "Required - International"
-msgstr "Απαιτείται - Διεθνής"
-
-msgid "Private Only"
-msgstr "Ιδιωτικές Μόνο"
-
-msgid "Required"
-msgstr "Απαιτείται"
-
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
-msgid "Not Disclosed"
-msgstr "Δεν έχει ανακοινωθεί"
-
-msgid "Heavy Outbound"
-msgstr "Ιδιαίτερα Εξερχόμενη"
-
-msgid "Mostly Outbound"
-msgstr "Ως επί το πλείστον Εξερχόμενη"
-
-msgid "Balanced"
-msgstr "Ισορροπημένη"
-
-msgid "Mostly Inbound"
-msgstr "Ως επί το πλείστον Εισερχόμενη"
-
-msgid "Heavy Inbound"
-msgstr "Ιδιαίτερα Εισερχόμενη"
-
-msgid "North America"
-msgstr "Βόρεια Αμερική"
-
-msgid "Asia Pacific"
-msgstr "Ασία και Ειρηνικός"
-
-msgid "Europe"
-msgstr "Ευρώπη"
-
-msgid "South America"
-msgstr "Νότια Αμερική"
-
-msgid "Africa"
-msgstr "Αφρική"
-
-msgid "Australia"
-msgstr "Αυστραλία"
-
-msgid "Middle East"
-msgstr "Μέση Ανατολή"
-
-msgid "Regional"
-msgstr "Τοπικό"
-
-msgid "Global"
-msgstr "Παγκόσμιο"
-
-msgid "0-20 Mbps"
-msgstr "0-20 Mbps"
-
-msgid "20-100Mbps"
-msgstr "20-100Mbps"
-
-msgid "100-1000Mbps"
-msgstr "100-1000Mbps"
-
-msgid "1-5Gbps"
-msgstr "1-5Gbps"
-
-msgid "5-10Gbps"
-msgstr "5-10Gbps"
-
-msgid "10-20Gbps"
-msgstr "10-20Gbps"
-
-msgid "20-50 Gbps"
-msgstr "20-50 Gbps"
-
-msgid "50-100 Gbps"
-msgstr "50-100 Gbps"
-
-msgid "100+ Gbps"
-msgstr "100+ Gbps"
-
-msgid "100-200 Gbps"
-msgstr "100-200 Gbps"
-
-msgid "200-300 Gbps"
-msgstr "200-300 Gbps"
-
-msgid "300-500 Gbps"
-msgstr "300-500 Gbps"
-
-msgid "500-1000 Gbps"
-msgstr "500-1000 Gbps"
-
-msgid "1 Tbps+"
-msgstr "1 Tbps+"
-
-msgid "10 Tbps+"
-msgstr "10 Tbps+"
-
-msgid "NSP"
-msgstr "NSP"
-
-msgid "Content"
-msgstr "Περιεχόμενο"
-
-msgid "Cable/DSL/ISP"
-msgstr "Cable/DSL/ISP"
-
-msgid "Enterprise"
-msgstr "Εταιρεία"
-
-msgid "Educational/Research"
-msgstr "Εκπαιδευτικός/Ερευνητικός"
-
-msgid "Non-Profit"
-msgstr "Μη Κερδοσκοπικός"
-
-msgid "Route Server"
-msgstr "Route Server"
-
-msgid "Private"
-msgstr "Ιδιωτικός"
-
-msgid "Users"
-msgstr "Χρήστες"
-
-msgid "Public"
-msgstr "Δημόσιο"
-
-msgid "Kosovo"
-msgstr "Kosovo"
-
 msgid "Status"
 msgstr "Κατάσταση"
 
@@ -383,6 +191,9 @@ msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
+
+msgid "No"
+msgstr "'Οχι"
 
 msgid "Yes"
 msgstr "Ναι"
@@ -1705,8 +1516,17 @@ msgstr "Δημόσια Peering Exchange Points"
 msgid "Peer Name"
 msgstr "Όνομα Peer"
 
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
 msgid "Speed"
 msgstr "Ταχύτητα"
+
+msgid "Policy"
+msgstr "Policy"
 
 msgid "Exchange"
 msgstr "Exchange"
@@ -1773,6 +1593,9 @@ msgstr "Προσθήκη Δικτύου"
 
 msgid "Add Exchange"
 msgstr "Προσθήκη Exchange"
+
+msgid "Users"
+msgstr "Χρήστες"
 
 msgid "Permissions"
 msgstr "Δικαιώματα"
@@ -2024,6 +1847,9 @@ msgstr "Route Server URL"
 msgid "Looking Glass URL"
 msgstr "Looking Glass URL"
 
+msgid "Not Disclosed"
+msgstr "Δεν έχει ανακοινωθεί"
+
 msgid "IPv4 Prefixes"
 msgstr "IPv4 Prefixes"
 
@@ -2056,6 +1882,180 @@ msgstr "Ο λογαριασμός έχει απενεργοποιηθεί"
 
 msgid "Invalid username/password."
 msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
+
+#~ msgid "Ethernet"
+#~ msgstr "Ethernet"
+
+#~ msgid "ATM"
+#~ msgstr "ATM"
+
+#~ msgid "Multiple"
+#~ msgstr "Πολλαπλές"
+
+#~ msgid "Abuse"
+#~ msgstr "Abuse"
+
+#~ msgid "Maintenance"
+#~ msgstr "Maintenance"
+
+#~ msgid "Technical"
+#~ msgstr "Technical"
+
+#~ msgid "NOC"
+#~ msgstr "NOC"
+
+#~ msgid "Public Relations"
+#~ msgstr "Δημόσιες Σχέσεις"
+
+#~ msgid "Sales"
+#~ msgstr "Πωλήσεις"
+
+#~ msgid "Open"
+#~ msgstr "Ανοιχτή"
+
+#~ msgid "Selective"
+#~ msgstr "Επιλεκτική"
+
+#~ msgid "Restrictive"
+#~ msgstr "Περιοριστική"
+
+#~ msgid "Not Required"
+#~ msgstr "Δεν απαιτείται"
+
+#~ msgid "Preferred"
+#~ msgstr "Προτιμητέα"
+
+#~ msgid "Required - US"
+#~ msgstr "Απαιτείται - ΗΠΑ"
+
+#~ msgid "Required - EU"
+#~ msgstr "Απαιτείται - ΕΕ"
+
+#~ msgid "Required - International"
+#~ msgstr "Απαιτείται - Διεθνής"
+
+#~ msgid "Private Only"
+#~ msgstr "Ιδιωτικές Μόνο"
+
+#~ msgid "Required"
+#~ msgstr "Απαιτείται"
+
+#~ msgid "Heavy Outbound"
+#~ msgstr "Ιδιαίτερα Εξερχόμενη"
+
+#~ msgid "Mostly Outbound"
+#~ msgstr "Ως επί το πλείστον Εξερχόμενη"
+
+#~ msgid "Balanced"
+#~ msgstr "Ισορροπημένη"
+
+#~ msgid "Mostly Inbound"
+#~ msgstr "Ως επί το πλείστον Εισερχόμενη"
+
+#~ msgid "Heavy Inbound"
+#~ msgstr "Ιδιαίτερα Εισερχόμενη"
+
+#~ msgid "North America"
+#~ msgstr "Βόρεια Αμερική"
+
+#~ msgid "Asia Pacific"
+#~ msgstr "Ασία και Ειρηνικός"
+
+#~ msgid "Europe"
+#~ msgstr "Ευρώπη"
+
+#~ msgid "South America"
+#~ msgstr "Νότια Αμερική"
+
+#~ msgid "Africa"
+#~ msgstr "Αφρική"
+
+#~ msgid "Australia"
+#~ msgstr "Αυστραλία"
+
+#~ msgid "Middle East"
+#~ msgstr "Μέση Ανατολή"
+
+#~ msgid "Regional"
+#~ msgstr "Τοπικό"
+
+#~ msgid "Global"
+#~ msgstr "Παγκόσμιο"
+
+#~ msgid "0-20 Mbps"
+#~ msgstr "0-20 Mbps"
+
+#~ msgid "20-100Mbps"
+#~ msgstr "20-100Mbps"
+
+#~ msgid "100-1000Mbps"
+#~ msgstr "100-1000Mbps"
+
+#~ msgid "1-5Gbps"
+#~ msgstr "1-5Gbps"
+
+#~ msgid "5-10Gbps"
+#~ msgstr "5-10Gbps"
+
+#~ msgid "10-20Gbps"
+#~ msgstr "10-20Gbps"
+
+#~ msgid "20-50 Gbps"
+#~ msgstr "20-50 Gbps"
+
+#~ msgid "50-100 Gbps"
+#~ msgstr "50-100 Gbps"
+
+#~ msgid "100+ Gbps"
+#~ msgstr "100+ Gbps"
+
+#~ msgid "100-200 Gbps"
+#~ msgstr "100-200 Gbps"
+
+#~ msgid "200-300 Gbps"
+#~ msgstr "200-300 Gbps"
+
+#~ msgid "300-500 Gbps"
+#~ msgstr "300-500 Gbps"
+
+#~ msgid "500-1000 Gbps"
+#~ msgstr "500-1000 Gbps"
+
+#~ msgid "1 Tbps+"
+#~ msgstr "1 Tbps+"
+
+#~ msgid "10 Tbps+"
+#~ msgstr "10 Tbps+"
+
+#~ msgid "NSP"
+#~ msgstr "NSP"
+
+#~ msgid "Content"
+#~ msgstr "Περιεχόμενο"
+
+#~ msgid "Cable/DSL/ISP"
+#~ msgstr "Cable/DSL/ISP"
+
+#~ msgid "Enterprise"
+#~ msgstr "Εταιρεία"
+
+#~ msgid "Educational/Research"
+#~ msgstr "Εκπαιδευτικός/Ερευνητικός"
+
+#~ msgid "Non-Profit"
+#~ msgstr "Μη Κερδοσκοπικός"
+
+#~ msgid "Route Server"
+#~ msgstr "Route Server"
+
+#~ msgid "Private"
+#~ msgstr "Ιδιωτικός"
+
+#~ msgid "Public"
+#~ msgstr "Δημόσιο"
+
+#~ msgid "Kosovo"
+#~ msgstr "Kosovo"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Ta τρία πιο αριστερά octets του αρχικού prefix - π.χ. xxx.xxx.xxx"

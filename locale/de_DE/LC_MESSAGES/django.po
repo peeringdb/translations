@@ -18,198 +18,6 @@ msgstr ""
 "X-Generator: Weblate 3.3\n"
 "X-Poedit-Bookmarks: 260,-1,-1,-1,-1,-1,-1,-1,-1,372\n"
 
-msgid "Ethernet"
-msgstr "Ethernet"
-
-msgid "ATM"
-msgstr "ATM"
-
-msgid "Multiple"
-msgstr "Mehrfache"
-
-msgid "Abuse"
-msgstr "Missbrauch"
-
-msgid "Maintenance"
-msgstr "Wartung"
-
-msgid "Policy"
-msgstr "Peeringrichtlinien"
-
-msgid "Technical"
-msgstr "Technik"
-
-msgid "NOC"
-msgstr "NOC"
-
-msgid "Public Relations"
-msgstr "Presseanfragen"
-
-msgid "Sales"
-msgstr "Vertrieb"
-
-msgid "Open"
-msgstr "Offen"
-
-msgid "Selective"
-msgstr "Selektiv"
-
-msgid "Restrictive"
-msgstr "Restriktiv"
-
-msgid "No"
-msgstr "Nein"
-
-msgid "Not Required"
-msgstr "Nicht erforderlich"
-
-msgid "Preferred"
-msgstr "Bevorzugt"
-
-msgid "Required - US"
-msgstr "Erforderlich - US"
-
-msgid "Required - EU"
-msgstr "Erforderlich - EU"
-
-msgid "Required - International"
-msgstr "Erforderlich - International"
-
-msgid "Private Only"
-msgstr "Nur für den Benutzer"
-
-msgid "Required"
-msgstr "Erforderlich"
-
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
-msgid "Not Disclosed"
-msgstr "Vertraulich"
-
-msgid "Heavy Outbound"
-msgstr "Stark ausgehend"
-
-msgid "Mostly Outbound"
-msgstr "Vorwiegend ausgehend"
-
-msgid "Balanced"
-msgstr "Ausgewogen"
-
-msgid "Mostly Inbound"
-msgstr "Vorwiegend eingehend"
-
-msgid "Heavy Inbound"
-msgstr "Stark eingehend"
-
-msgid "North America"
-msgstr "Nordamerika"
-
-msgid "Asia Pacific"
-msgstr "Asien-Pazifik"
-
-msgid "Europe"
-msgstr "Europa"
-
-msgid "South America"
-msgstr "Südamerika"
-
-msgid "Africa"
-msgstr "Afrika"
-
-msgid "Australia"
-msgstr "Australien"
-
-msgid "Middle East"
-msgstr "Nahost"
-
-msgid "Regional"
-msgstr "Regional"
-
-msgid "Global"
-msgstr "Global"
-
-msgid "0-20 Mbps"
-msgstr "0-20 Mbit/s"
-
-msgid "20-100Mbps"
-msgstr "20-100 Mbit/s"
-
-msgid "100-1000Mbps"
-msgstr "100-1000 Mbit/s"
-
-msgid "1-5Gbps"
-msgstr "1-5 Gbit/s"
-
-msgid "5-10Gbps"
-msgstr "5-10 Gbit/s"
-
-msgid "10-20Gbps"
-msgstr "10-20 Gbit/s"
-
-msgid "20-50 Gbps"
-msgstr "20-50 Gbit/s"
-
-msgid "50-100 Gbps"
-msgstr "50-100 Gbit/s"
-
-msgid "100+ Gbps"
-msgstr "100+ Gbit/s"
-
-msgid "100-200 Gbps"
-msgstr "100-200 Gbit/s"
-
-msgid "200-300 Gbps"
-msgstr "200-300 Gbit/s"
-
-msgid "300-500 Gbps"
-msgstr "300-500 Gbit/s"
-
-msgid "500-1000 Gbps"
-msgstr "500-1000 Gbit/s"
-
-msgid "1 Tbps+"
-msgstr "1+ Tbit/s"
-
-msgid "10 Tbps+"
-msgstr "10+ Tbit/s"
-
-msgid "NSP"
-msgstr "NSP (Network Service Provider)"
-
-msgid "Content"
-msgstr "Content / Inhalte"
-
-msgid "Cable/DSL/ISP"
-msgstr "Kabel/DSL/ISP"
-
-msgid "Enterprise"
-msgstr "Unternehmen"
-
-msgid "Educational/Research"
-msgstr "Bildung/Forschung"
-
-msgid "Non-Profit"
-msgstr "Nicht gewinnorientiert (Vereine)"
-
-msgid "Route Server"
-msgstr "Route Server"
-
-msgid "Private"
-msgstr "Privat"
-
-msgid "Users"
-msgstr "Benutzer"
-
-msgid "Public"
-msgstr "Öffentlich"
-
-msgid "Kosovo"
-msgstr "Kosovo"
-
 msgid "Status"
 msgstr "Status"
 
@@ -380,6 +188,9 @@ msgstr "Stelle dieses Objekt wieder her - Suche über [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiederhergestellt werden"
+
+msgid "No"
+msgstr "Nein"
 
 msgid "Yes"
 msgstr "Ja"
@@ -1675,8 +1486,17 @@ msgstr "Peers an diesem Exchange"
 msgid "Peer Name"
 msgstr "Peername"
 
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
 msgid "Speed"
 msgstr "Geschwindigkeit"
+
+msgid "Policy"
+msgstr "Peeringrichtlinien"
 
 msgid "Exchange"
 msgstr "Austauschpunkt"
@@ -1743,6 +1563,9 @@ msgstr "Netzwerk hinzufügen"
 
 msgid "Add Exchange"
 msgstr "Exchange hinzufügen"
+
+msgid "Users"
+msgstr "Benutzer"
 
 msgid "Permissions"
 msgstr "Berechtigungen"
@@ -1990,6 +1813,9 @@ msgstr "Routenserver URL"
 msgid "Looking Glass URL"
 msgstr "Looking-Glass URL"
 
+msgid "Not Disclosed"
+msgstr "Vertraulich"
+
 msgid "IPv4 Prefixes"
 msgstr "IPv4-Präfixe"
 
@@ -2022,6 +1848,180 @@ msgstr "Account deaktiviert."
 
 msgid "Invalid username/password."
 msgstr "Ungültiger Benutzername/Passwort."
+
+#~ msgid "Ethernet"
+#~ msgstr "Ethernet"
+
+#~ msgid "ATM"
+#~ msgstr "ATM"
+
+#~ msgid "Multiple"
+#~ msgstr "Mehrfache"
+
+#~ msgid "Abuse"
+#~ msgstr "Missbrauch"
+
+#~ msgid "Maintenance"
+#~ msgstr "Wartung"
+
+#~ msgid "Technical"
+#~ msgstr "Technik"
+
+#~ msgid "NOC"
+#~ msgstr "NOC"
+
+#~ msgid "Public Relations"
+#~ msgstr "Presseanfragen"
+
+#~ msgid "Sales"
+#~ msgstr "Vertrieb"
+
+#~ msgid "Open"
+#~ msgstr "Offen"
+
+#~ msgid "Selective"
+#~ msgstr "Selektiv"
+
+#~ msgid "Restrictive"
+#~ msgstr "Restriktiv"
+
+#~ msgid "Not Required"
+#~ msgstr "Nicht erforderlich"
+
+#~ msgid "Preferred"
+#~ msgstr "Bevorzugt"
+
+#~ msgid "Required - US"
+#~ msgstr "Erforderlich - US"
+
+#~ msgid "Required - EU"
+#~ msgstr "Erforderlich - EU"
+
+#~ msgid "Required - International"
+#~ msgstr "Erforderlich - International"
+
+#~ msgid "Private Only"
+#~ msgstr "Nur für den Benutzer"
+
+#~ msgid "Required"
+#~ msgstr "Erforderlich"
+
+#~ msgid "Heavy Outbound"
+#~ msgstr "Stark ausgehend"
+
+#~ msgid "Mostly Outbound"
+#~ msgstr "Vorwiegend ausgehend"
+
+#~ msgid "Balanced"
+#~ msgstr "Ausgewogen"
+
+#~ msgid "Mostly Inbound"
+#~ msgstr "Vorwiegend eingehend"
+
+#~ msgid "Heavy Inbound"
+#~ msgstr "Stark eingehend"
+
+#~ msgid "North America"
+#~ msgstr "Nordamerika"
+
+#~ msgid "Asia Pacific"
+#~ msgstr "Asien-Pazifik"
+
+#~ msgid "Europe"
+#~ msgstr "Europa"
+
+#~ msgid "South America"
+#~ msgstr "Südamerika"
+
+#~ msgid "Africa"
+#~ msgstr "Afrika"
+
+#~ msgid "Australia"
+#~ msgstr "Australien"
+
+#~ msgid "Middle East"
+#~ msgstr "Nahost"
+
+#~ msgid "Regional"
+#~ msgstr "Regional"
+
+#~ msgid "Global"
+#~ msgstr "Global"
+
+#~ msgid "0-20 Mbps"
+#~ msgstr "0-20 Mbit/s"
+
+#~ msgid "20-100Mbps"
+#~ msgstr "20-100 Mbit/s"
+
+#~ msgid "100-1000Mbps"
+#~ msgstr "100-1000 Mbit/s"
+
+#~ msgid "1-5Gbps"
+#~ msgstr "1-5 Gbit/s"
+
+#~ msgid "5-10Gbps"
+#~ msgstr "5-10 Gbit/s"
+
+#~ msgid "10-20Gbps"
+#~ msgstr "10-20 Gbit/s"
+
+#~ msgid "20-50 Gbps"
+#~ msgstr "20-50 Gbit/s"
+
+#~ msgid "50-100 Gbps"
+#~ msgstr "50-100 Gbit/s"
+
+#~ msgid "100+ Gbps"
+#~ msgstr "100+ Gbit/s"
+
+#~ msgid "100-200 Gbps"
+#~ msgstr "100-200 Gbit/s"
+
+#~ msgid "200-300 Gbps"
+#~ msgstr "200-300 Gbit/s"
+
+#~ msgid "300-500 Gbps"
+#~ msgstr "300-500 Gbit/s"
+
+#~ msgid "500-1000 Gbps"
+#~ msgstr "500-1000 Gbit/s"
+
+#~ msgid "1 Tbps+"
+#~ msgstr "1+ Tbit/s"
+
+#~ msgid "10 Tbps+"
+#~ msgstr "10+ Tbit/s"
+
+#~ msgid "NSP"
+#~ msgstr "NSP (Network Service Provider)"
+
+#~ msgid "Content"
+#~ msgstr "Content / Inhalte"
+
+#~ msgid "Cable/DSL/ISP"
+#~ msgstr "Kabel/DSL/ISP"
+
+#~ msgid "Enterprise"
+#~ msgstr "Unternehmen"
+
+#~ msgid "Educational/Research"
+#~ msgstr "Bildung/Forschung"
+
+#~ msgid "Non-Profit"
+#~ msgstr "Nicht gewinnorientiert (Vereine)"
+
+#~ msgid "Route Server"
+#~ msgstr "Route Server"
+
+#~ msgid "Private"
+#~ msgstr "Privat"
+
+#~ msgid "Public"
+#~ msgstr "Öffentlich"
+
+#~ msgid "Kosovo"
+#~ msgstr "Kosovo"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Die ersten drei Oktets von links des ursprünglichen Prefixes - z.B. xxx.xxx.xxx"
