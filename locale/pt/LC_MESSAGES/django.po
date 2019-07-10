@@ -440,7 +440,9 @@ msgstr "ASN não encontrado"
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
 msgstr "Endereços IP não existem em informação validada ou não estão agora associados com este Sistema Autónomo"
 
-msgid "At least one ipaddress mismatched and network has disabled upates"
+#, fuzzy
+#| msgid "At least one ipaddress mismatched and network has disabled upates"
+msgid "At least one ipaddress mismatched and network has disabled updates"
 msgstr "Pelo menos um endereço IP falhou e a rede tem atualizações desabilitadas"
 
 msgid "Network status is '{}'"
