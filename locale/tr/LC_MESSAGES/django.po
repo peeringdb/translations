@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-07-18 08:58+0000\n"
-"Last-Translator: Mehmet Tik <mtik@fb.com>\n"
+"PO-Revision-Date: 2019-08-08 14:58+0000\n"
+"Last-Translator: Filiz Yilmaz <filiz@peeringdb.com>\n"
 "Language-Team: Turkish <https://translate.peeringdb.com/projects/peeringdb/server/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -18,100 +18,106 @@ msgstr ""
 "X-Generator: Weblate 3.6.1\n"
 
 msgid "Ethernet"
-msgstr ""
+msgstr "Ethernet"
 
 msgid "ATM"
 msgstr ""
 
 msgid "Multiple"
-msgstr ""
+msgstr "Çoklu"
 
 msgid "Abuse"
 msgstr ""
 
 msgid "Maintenance"
-msgstr ""
+msgstr "Bakım"
 
+#, fuzzy
 msgid "Policy"
-msgstr ""
+msgstr "Politika/Ilke"
 
 msgid "Technical"
-msgstr ""
+msgstr "Teknik"
 
 msgid "NOC"
-msgstr ""
+msgstr "Ağ işlem merkezi"
 
 msgid "Public Relations"
-msgstr ""
+msgstr "Halkla İlişkiler"
 
 msgid "Sales"
-msgstr ""
+msgstr "Satış"
 
 msgid "Open"
-msgstr ""
+msgstr "Açık"
 
 msgid "Selective"
-msgstr ""
+msgstr "Seçici"
 
 msgid "Restrictive"
-msgstr ""
+msgstr "Kısıtlı"
 
 msgid "No"
 msgstr "Hayır"
 
 msgid "Not Required"
-msgstr ""
+msgstr "Gerekli değil"
 
 msgid "Preferred"
-msgstr ""
+msgstr "Tercih edilen"
 
 msgid "Required - US"
-msgstr ""
+msgstr "Zorunlu - ABD"
 
 msgid "Required - EU"
-msgstr ""
+msgstr "Zorunlu - AB"
 
 msgid "Required - International"
-msgstr ""
+msgstr "Zorunlu - Uluslararası"
 
 msgid "Private Only"
-msgstr ""
+msgstr "Sadece Kişisel"
 
 msgid "Required"
-msgstr ""
+msgstr "Zorunlu"
 
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 msgid "IPv6"
-msgstr ""
+msgstr "IPv4"
 
+#, fuzzy
 msgid "Not Disclosed"
-msgstr ""
+msgstr "Açıklanmamış"
 
+#, fuzzy
 msgid "Heavy Outbound"
-msgstr ""
+msgstr "Yoğun giden"
 
+#, fuzzy
 msgid "Mostly Outbound"
-msgstr ""
+msgstr "Çoğunlukla giden"
 
 msgid "Balanced"
-msgstr ""
+msgstr "Dengeli"
 
+#, fuzzy
 msgid "Mostly Inbound"
-msgstr ""
+msgstr "Çoğunlukla gelen"
 
+#, fuzzy
 msgid "Heavy Inbound"
-msgstr ""
+msgstr "Yoğun gelen"
 
 msgid "North America"
-msgstr ""
+msgstr "Kuzey Amerika"
 
 msgid "Asia Pacific"
-msgstr ""
+msgstr "Asya Pasifik"
 
 msgid "Europe"
-msgstr ""
+msgstr "Avrupa"
 
 msgid "South America"
 msgstr ""
@@ -1608,9 +1614,8 @@ msgstr ""
 msgid "Facility"
 msgstr "Bina"
 
-#, fuzzy
 msgid "Exchange - Facility link"
-msgstr "Exchange - Bina/Tesis link"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "Add Facility"
 msgstr ""
@@ -1645,9 +1650,8 @@ msgstr ""
 msgid "Speed"
 msgstr ""
 
-#, fuzzy
 msgid "Exchange"
-msgstr "Exchange"
+msgstr "Değişim noktası"
 
 msgid "IP"
 msgstr ""
@@ -1685,9 +1689,8 @@ msgstr ""
 msgid "RS Peer"
 msgstr ""
 
-#, fuzzy
 msgid "Network - Exchange link"
-msgstr "Network - Exchange link"
+msgstr "Ağ - Değişim noktası bağlantısı"
 
 msgid "Local ASN"
 msgstr ""
