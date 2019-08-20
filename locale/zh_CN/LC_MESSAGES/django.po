@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-06-05 19:32+0000\n"
-"Last-Translator: Wu Zhiyuan <bgp@wuzhiyuan.com>\n"
+"PO-Revision-Date: 2019-08-20 02:58+0000\n"
+"Last-Translator: Zhang Xun <zx@zxinc.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.peeringdb.com/projects/peeringdb/server/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 3.6.1\n"
 
 msgid "Ethernet"
 msgstr "以太网"
@@ -207,7 +207,7 @@ msgid "Public"
 msgstr "公开"
 
 msgid "Kosovo"
-msgstr ""
+msgstr "科索沃"
 
 msgid "Status"
 msgstr "状态"
@@ -348,10 +348,10 @@ msgid "{} (Preview)"
 msgstr "{} (预览)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "该命令正在执行中，请等待执行完毕后再试一次"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
+msgstr "该命令需要一段时间来执行，因此会被放入后台执行队列，所以现在无法查看输出。你可以在执行完毕后查看。"
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
 msgstr ""
@@ -369,10 +369,10 @@ msgid "Undo this merge"
 msgstr "撤销合并"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
+msgstr "不删除用户。请注意管理员账户永远不会被删除，并不受该设置影响。"
 
 msgid "Load data from peeringdb API"
-msgstr ""
+msgstr "从 PeeringDB API 加载数据"
 
 msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
@@ -402,13 +402,13 @@ msgid "Passwords need to match"
 msgstr "密码没有匹配"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
+msgstr "请输入验证码"
 
 msgid "reCAPTCHA invalid"
 msgstr "reCAPTCHA 无效"
 
 msgid "captcha invalid"
-msgstr ""
+msgstr "验证码错误"
 
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
@@ -420,10 +420,8 @@ msgstr "请稍后再请求其他 Email 修改"
 msgid "Ixlan not found"
 msgstr "地址未找到"
 
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "权限"
+msgstr "没有权限"
 
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
@@ -431,7 +429,7 @@ msgstr ""
 #, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IXF import url not specified"
-msgstr "IXF 导入日志条目"
+msgstr "IXF 导入 URL 没有提供"
 
 msgid "No JSON could be parsed"
 msgstr "没有可以被解析的JSON"
@@ -462,10 +460,8 @@ msgstr ""
 msgid "Invalid member type: {}"
 msgstr "前缀无效：{}"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid connection state: {}"
-msgstr "前缀无效：{}"
+msgstr "连接状态无效：{}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
 msgstr ""
@@ -479,23 +475,17 @@ msgstr ""
 msgid "Network has disabled ixp updates"
 msgstr ""
 
-#, fuzzy
-#| msgid "email address"
 msgid "New ip-address"
-msgstr "电子邮件"
+msgstr "新 IP 地址"
 
 msgid "Fields changed: {}"
 msgstr ""
 
-#, fuzzy
-#| msgid "Exchanges"
 msgid "No changes"
-msgstr "交换点"
+msgstr "没有修改"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: {}"
-msgstr "前缀无效：{}"
+msgstr "无效速率：{}"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 合并通知: {} -> {}"
@@ -1060,7 +1050,7 @@ msgid "Postal"
 msgstr "邮政"
 
 msgid "Country"
-msgstr "国家"
+msgstr "国家和地区"
 
 msgid "click to select multiple"
 msgstr "单击以选中多个"
@@ -1236,15 +1226,11 @@ msgstr "联系我们"
 msgid "Global System Statistics"
 msgstr "全球系统统计"
 
-#, fuzzy
-#| msgid "Suggest Exchange"
 msgid "Connections to Exchanges"
-msgstr "建议的交换点"
+msgstr "连接的交换点"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Connections to Facilities"
-msgstr "私有设施"
+msgstr "连接的私有设施"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "在此搜索网络、IX或设施。"
@@ -1291,8 +1277,6 @@ msgstr ""
 msgid "about"
 msgstr ""
 
-#, fuzzy
-#| msgid "Register"
 msgid "register"
 msgstr "注册"
 
@@ -1311,10 +1295,8 @@ msgstr "忘记密码.."
 msgid "I forgot my username .."
 msgstr "忘记用户名.."
 
-#, fuzzy
-#| msgid "Maintenance"
 msgid "Maintenance Mode"
-msgstr "维护"
+msgstr "维护模式"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
@@ -1322,15 +1304,11 @@ msgstr ""
 msgid "Login with oAuth"
 msgstr "通过 oAuth 登陆"
 
-#, fuzzy
-#| msgid "Login with your google account"
 msgid "Login with your Google account"
-msgstr "使用 Google 账号登陆"
+msgstr "使用 Google 账号登录"
 
-#, fuzzy
-#| msgid "Login with your facebook account"
 msgid "Login with your Facebook account"
-msgstr "使用 Facebook 账号登陆"
+msgstr "使用 Facebook 账号登录"
 
 msgid "Partners"
 msgstr "合作伙伴"
@@ -1609,7 +1587,7 @@ msgid "MTU"
 msgstr "MTU"
 
 msgid "No filter matches."
-msgstr "没有内容符合"
+msgstr ""
 
 msgid "You may filter by"
 msgstr "您可以筛选"
@@ -1667,18 +1645,14 @@ msgstr ""
 msgid "speed"
 msgstr "速率"
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "routeserver"
 msgstr "路由服务器"
 
 msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
 msgstr ""
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Peers at this Exchange Point"
-msgstr "公共对等交换点"
+msgstr "该交换点的对等参与者"
 
 msgid "Peer Name"
 msgstr "对等名称"
@@ -1887,10 +1861,8 @@ msgstr "地址空间无效：{}"
 msgid "Minimum allowed prefix length is {}"
 msgstr ""
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Maximum allowed prefix length is {}"
-msgstr "允许的最大值为 {}"
+msgstr "允许的最大前缀长度为 {}"
 
 msgid "Maximum value allowed {}"
 msgstr "允许的最大值为 {}"
@@ -1963,7 +1935,7 @@ msgid "Location"
 msgstr "位置"
 
 msgid "Country Code"
-msgstr "国家代码"
+msgstr "国家和地区代码"
 
 msgid "Notes"
 msgstr "注释"
