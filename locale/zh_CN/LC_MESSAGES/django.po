@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-20 02:58+0000\n"
+"PO-Revision-Date: 2019-08-20 03:58+0000\n"
 "Last-Translator: Zhang Xun <zx@zxinc.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.peeringdb.com/projects/peeringdb/server/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -450,15 +450,13 @@ msgid "At least one ipaddress mismatched and network has disabled updates"
 msgstr ""
 
 msgid "Network status is '{}'"
-msgstr ""
+msgstr "网络状态为“{}”"
 
 msgid "Network does not exist in peeringdb"
-msgstr ""
+msgstr "网络没有在 PeeringDB 中找到"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid member type: {}"
-msgstr "前缀无效：{}"
+msgstr "会员类型无效：{}"
 
 msgid "Invalid connection state: {}"
 msgstr "连接状态无效：{}"
@@ -470,16 +468,16 @@ msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
 
 msgid "Connection is currently marked as inactive"
-msgstr ""
+msgstr "连接当前被标记为未生效"
 
 msgid "Network has disabled ixp updates"
-msgstr ""
+msgstr "网络禁止了交换点更新"
 
 msgid "New ip-address"
 msgstr "新 IP 地址"
 
 msgid "Fields changed: {}"
-msgstr ""
+msgstr "以下字段已被修改：{}"
 
 msgid "No changes"
 msgstr "没有修改"
@@ -518,10 +516,10 @@ msgid "Merge Facilities: UNDO"
 msgstr "合并设施：撤销"
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "恢复对象"
 
 msgid "Reset Environment"
-msgstr ""
+msgstr "重置环境"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "此对象的经纬度是否已与其地址字段同步"
@@ -653,10 +651,10 @@ msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this netw
 msgstr "声明是否允许 IXP 通过其 IXP 成员数据为此网络添加 netixlan 条目"
 
 msgid "IPv4 address outside of prefix"
-msgstr ""
+msgstr "IPv4 地址在前缀范围之外"
 
 msgid "IPv6 address outside of prefix"
-msgstr ""
+msgstr "IPv6 地址在前缀范围之外"
 
 msgid "Ip address already exists elsewhere"
 msgstr "IP 地址已在别处存在"
@@ -728,10 +726,10 @@ msgid "command was run at this date and time"
 msgstr "运行命令的时间"
 
 msgid "Done"
-msgstr ""
+msgstr "已完成"
 
 msgid "Running"
-msgstr ""
+msgstr "正在运行"
 
 msgid "Organization and all Entities it owns"
 msgstr "组织及其拥有的实体"
@@ -1014,7 +1012,7 @@ msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "如果您未请求用户名查找，请忽略此邮件。"
 
 msgid "Our Culture"
-msgstr ""
+msgstr "我们的文化"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
 msgstr ""
@@ -1023,7 +1021,7 @@ msgid "We believe in, and rely on the community to grow and improve the PeeringD
 msgstr ""
 
 msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr ""
+msgstr "我是网络管理员，PeeringDB 有什么用？"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
 msgstr ""
@@ -1032,7 +1030,7 @@ msgid "This data will help you to accelerate the process of finding and connecti
 msgstr ""
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr ""
+msgstr "我是交换点、数据中心或其它互联节点的网管。PeeringDB 有什么用？"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
@@ -1105,7 +1103,7 @@ msgid "Primary ASN"
 msgstr "主要 ASN"
 
 msgid "IRR as-set/route-set"
-msgstr ""
+msgstr "IRR as-set/route-set 对象"
 
 msgid "General Peering Policy"
 msgstr "一般对等政策"
@@ -1200,7 +1198,7 @@ msgid "Privacy Policy"
 msgstr "隐私政策"
 
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 msgid "Register"
 msgstr "注册"
@@ -1212,7 +1210,7 @@ msgid "Resources"
 msgstr "资源"
 
 msgid "FAQ"
-msgstr ""
+msgstr "常见问题"
 
 msgid "Documentation"
 msgstr "文档"
@@ -1260,10 +1258,10 @@ msgid "Login"
 msgstr "登陆"
 
 msgid "The Interconnection Database"
-msgstr ""
+msgstr "互联数据库"
 
 msgid "Join. Search. Grow your network."
-msgstr ""
+msgstr "加入。搜索。发展你的网络。"
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
 msgstr ""
@@ -1272,10 +1270,10 @@ msgid "The database is a non-profit, community-driven initiative run and promote
 msgstr ""
 
 msgid "Learn more"
-msgstr ""
+msgstr "更多信息"
 
 msgid "about"
-msgstr ""
+msgstr "关于"
 
 msgid "register"
 msgstr "注册"
@@ -1299,7 +1297,7 @@ msgid "Maintenance Mode"
 msgstr "维护模式"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr ""
+msgstr "网站正在维护中，请稍候再试"
 
 msgid "Login with oAuth"
 msgstr "通过 oAuth 登陆"
@@ -1464,7 +1462,7 @@ msgid "Last name"
 msgstr "名"
 
 msgid "Loading anti-spam challenge"
-msgstr ""
+msgstr "正在加载验证码"
 
 msgid "Create"
 msgstr "创建"
@@ -1498,7 +1496,7 @@ msgid "Become a Sponsor"
 msgstr "成为赞助商"
 
 msgid "This server is running in TUTORIAL MODE"
-msgstr ""
+msgstr "服务器正处于教学模式"
 
 msgid "These are the usernames associated with your email address"
 msgstr "这是与您的 Email 地址关联的用户名"
@@ -1632,16 +1630,12 @@ msgstr "IXF 导入日志条目"
 msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
 msgstr ""
 
-#, fuzzy
-#| msgid "Exchanges"
 msgid "Changes"
-msgstr "交换点"
+msgstr "修改"
 
 msgid "Errors"
-msgstr ""
+msgstr "错误"
 
-#, fuzzy
-#| msgid "Speed"
 msgid "speed"
 msgstr "速率"
 
@@ -1859,7 +1853,7 @@ msgid "Address space invalid: {}"
 msgstr "地址空间无效：{}"
 
 msgid "Minimum allowed prefix length is {}"
-msgstr ""
+msgstr "允许的最小前缀长度为{}"
 
 msgid "Maximum allowed prefix length is {}"
 msgstr "允许的最大前缀长度为 {}"
@@ -1871,7 +1865,7 @@ msgid "Negative value not allowed"
 msgstr "不允许负值"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr ""
+msgstr "两个前缀有重叠：{}和{}"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "请稍后再请求所有权。"
