@@ -3,184 +3,193 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-08-22 17:58+0000\n"
+"Last-Translator: Sara Hassan <sara@pch.net>\n"
+"Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 msgid "Ethernet"
-msgstr ""
+msgstr "شبكة إيثرنت"
 
 msgid "ATM"
-msgstr ""
+msgstr "أسلوب النقل اللاتزامني"
 
 msgid "Multiple"
-msgstr ""
+msgstr "متعدد"
 
 msgid "Abuse"
-msgstr ""
+msgstr "سوء الاستخدام"
 
 msgid "Maintenance"
-msgstr ""
+msgstr "صيانة"
 
 msgid "Policy"
-msgstr ""
+msgstr "سياسة"
 
 msgid "Technical"
-msgstr ""
+msgstr "تقني"
 
+#, fuzzy
 msgid "NOC"
-msgstr ""
+msgstr "مركز عمليات الشبكة"
 
 msgid "Public Relations"
-msgstr ""
+msgstr "العلاقات العامة"
 
 msgid "Sales"
-msgstr ""
+msgstr "المبيعات"
 
 msgid "Open"
-msgstr ""
+msgstr "مفتوح"
 
 msgid "Selective"
-msgstr ""
+msgstr "اختياري– انتقائي"
 
 msgid "Restrictive"
-msgstr ""
+msgstr "مقيدة"
 
 msgid "No"
-msgstr ""
+msgstr "لا"
 
 msgid "Not Required"
-msgstr ""
+msgstr "غير مطلوب"
 
 msgid "Preferred"
-msgstr ""
+msgstr "المفضلة"
 
+#, fuzzy
 msgid "Required - US"
-msgstr ""
+msgstr "مطلوب"
 
+#, fuzzy
 msgid "Required - EU"
-msgstr ""
+msgstr "مطلوب"
 
+#, fuzzy
 msgid "Required - International"
-msgstr ""
+msgstr "مطلوب - عالميا"
 
 msgid "Private Only"
 msgstr ""
 
 msgid "Required"
-msgstr ""
+msgstr "مطلوب"
 
 msgid "IPv4"
-msgstr ""
+msgstr "بروتوكول الإنترنت الإصدراة الرابعة"
 
 msgid "IPv6"
-msgstr ""
+msgstr "بروتوكول الإنترنت الإصدراة السادسة"
 
+#, fuzzy
 msgid "Not Disclosed"
-msgstr ""
+msgstr "لم يكشف عنها"
 
+#, fuzzy
 msgid "Heavy Outbound"
-msgstr ""
+msgstr "البيانات الصادرة كبيرة جدا"
 
+#, fuzzy
 msgid "Mostly Outbound"
-msgstr ""
+msgstr "البيانات الصادرة متوسطة"
 
 msgid "Balanced"
-msgstr ""
+msgstr "متوازنة"
 
+#, fuzzy
 msgid "Mostly Inbound"
-msgstr ""
+msgstr "البيانات الواردة متوسطة"
 
+#, fuzzy
 msgid "Heavy Inbound"
-msgstr ""
+msgstr "البيانات الواردة كبيرة جدا"
 
 msgid "North America"
-msgstr ""
+msgstr "أمريكا الشمالية"
 
 msgid "Asia Pacific"
-msgstr ""
+msgstr "آسيا والمحيط الهادئ"
 
 msgid "Europe"
-msgstr ""
+msgstr "اوروبا"
 
 msgid "South America"
-msgstr ""
+msgstr "أمريكا الجنوبية"
 
 msgid "Africa"
-msgstr ""
+msgstr "افريقيا"
 
 msgid "Australia"
-msgstr ""
+msgstr "أستراليا"
 
 msgid "Middle East"
-msgstr ""
+msgstr "الشرق الأوسط"
 
 msgid "Regional"
-msgstr ""
+msgstr "إقليمي"
 
 msgid "Global"
-msgstr ""
+msgstr "عالمي"
 
 msgid "0-20 Mbps"
-msgstr ""
+msgstr "٠ -٢٠ ميقابت/الثانية"
 
 msgid "20-100Mbps"
-msgstr ""
+msgstr "٢٠ - ١٠٠ ميقابت/الثانية"
 
 msgid "100-1000Mbps"
-msgstr ""
+msgstr "١٠٠ - ١٠٠٠ ميقابت/الثانية"
 
 msgid "1-5Gbps"
-msgstr ""
+msgstr "١ - ٥ قيقابت/الثانية"
 
 msgid "5-10Gbps"
-msgstr ""
+msgstr "٥ - ١٠ قيقابت/الثانية"
 
 msgid "10-20Gbps"
-msgstr ""
+msgstr "١٠ - ٢٠ قيقابت/الثانية"
 
 msgid "20-50 Gbps"
-msgstr ""
+msgstr "٢٠ - ٥٠ قيقابت/الثانية"
 
 msgid "50-100 Gbps"
-msgstr ""
+msgstr "٥٠ - ١٠٠ قيقابت/الثانية"
 
 msgid "100+ Gbps"
-msgstr ""
+msgstr "اكثر من ١٠٠ قيقابت/الثانية"
 
 msgid "100-200 Gbps"
-msgstr ""
+msgstr "١٠٠ - ٢٠٠ قيقابت/الثانية"
 
 msgid "200-300 Gbps"
-msgstr ""
+msgstr "٢٠٠ - ٣٠٠ قيقابت/الثانية"
 
 msgid "300-500 Gbps"
-msgstr ""
+msgstr "٣٠٠ - ٥٠٠ قيقابت/الثانية"
 
 msgid "500-1000 Gbps"
-msgstr ""
+msgstr "٥٠٠ - ١٠٠٠ قيقابت/الثانية"
 
 msgid "1 Tbps+"
-msgstr ""
+msgstr "اكثر من ١ تيرابت/الثانية"
 
 msgid "10 Tbps+"
-msgstr ""
+msgstr "اكثر من ١٠ تيرابت/الثانية"
 
 msgid "NSP"
 msgstr ""
 
 msgid "Content"
-msgstr ""
+msgstr "المحتوي"
 
 msgid "Cable/DSL/ISP"
 msgstr ""
