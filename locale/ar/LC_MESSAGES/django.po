@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-22 18:58+0000\n"
+"PO-Revision-Date: 2019-08-23 18:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -66,20 +66,18 @@ msgstr "غير مطلوب"
 msgid "Preferred"
 msgstr "المفضلة"
 
-#, fuzzy
 msgid "Required - US"
-msgstr "مطلوب"
+msgstr "مطلوب - الولايات المتحدة الاميركية"
 
-#, fuzzy
 msgid "Required - EU"
-msgstr "مطلوب"
+msgstr "مطلوب - أوروبا"
 
 #, fuzzy
 msgid "Required - International"
 msgstr "مطلوب - عالميا"
 
 msgid "Private Only"
-msgstr ""
+msgstr "خاص فقط"
 
 msgid "Required"
 msgstr "مطلوب"
@@ -185,8 +183,9 @@ msgstr "اكثر من ١ تيرابت/الثانية"
 msgid "10 Tbps+"
 msgstr "اكثر من ١٠ تيرابت/الثانية"
 
+#, fuzzy
 msgid "NSP"
-msgstr ""
+msgstr "مقدم خدمة الشبكة"
 
 msgid "Content"
 msgstr "المحتوي"
@@ -233,23 +232,25 @@ msgstr "مسح مبدئي"
 msgid "Verification Queue is currently disabled"
 msgstr "قائمة التحقق معطلة حالياً"
 
+#, fuzzy
 msgid "Verification Queue is currently disabled for this object type"
-msgstr ""
+msgstr "قائمة التحقق معطلة حالياً لنوع البند المحدد"
 
 msgid "APPROVE"
-msgstr ""
+msgstr "تأكيد"
 
 msgid "DENY"
-msgstr ""
+msgstr "رفض"
 
+#, fuzzy
 msgid "APPROVED"
-msgstr ""
+msgstr "تم التأكيد"
 
 msgid "Ipaddress already exists elsewhere"
-msgstr ""
+msgstr "هذا العنوان موجود بالفعل في مكان آخر"
 
 msgid "User is looking to be affiliated to these Organizations"
-msgstr ""
+msgstr "هذا المستخدم يطلب أن يكون منتسب إلى هذه المنظمات"
 
 msgid "IXF Import History"
 msgstr ""
