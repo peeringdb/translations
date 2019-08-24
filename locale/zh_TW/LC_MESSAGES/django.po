@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-24 18:58+0000\n"
+"PO-Revision-Date: 2019-08-24 19:58+0000\n"
 "Last-Translator: Jack Wang <b-noc@cht.com.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translate.peeringdb.com/projects/peeringdb/server/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -380,7 +380,7 @@ msgid "Restore this object - search by [reftag] [id]"
 msgstr "重置此物件 - 可使用[reftag] [id]搜尋"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "目前只有{}型態物件可透過此介面被重置"
 
 msgid "Yes"
 msgstr "是"
@@ -404,36 +404,28 @@ msgid "Passwords need to match"
 msgstr "密碼沒有匹配"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
+msgstr "請填入anti-spam挑戰欄位"
 
 msgid "reCAPTCHA invalid"
 msgstr "reCAPTCHA 無效"
 
 msgid "captcha invalid"
-msgstr ""
+msgstr "驗證無效"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
-msgstr "請稍後再請求其他 Email 修改"
+msgstr "在請求另一個ixf導入預覽之前，請稍等"
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "Ixlan not found"
-msgstr "地址未找到"
+msgstr "IX-LAN未找到"
 
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "許可權"
+msgstr "您沒有權限"
 
 msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
+msgstr "此環境不允許位於這個範圍的ASNs"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IXF import url not specified"
-msgstr "IXF 導入日誌條目"
+msgstr "未指定IXF導入之URL"
 
 msgid "No JSON could be parsed"
 msgstr "沒有可以被解析的JSON"
@@ -442,10 +434,10 @@ msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "在 vlan_list 列表中沒有條目，中止中。"
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
+msgstr "在IX-lan上沒有定義prefixes"
 
 msgid "ASN no longer in data"
-msgstr ""
+msgstr "此資料項目內不在包含此ASNs"
 
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
 msgstr ""
