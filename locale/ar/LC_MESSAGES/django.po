@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-26 09:58+0000\n"
+"PO-Revision-Date: 2019-08-26 14:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -332,38 +332,39 @@ msgstr "تغيير كلمة المرور"
 msgid "Edit Permissions"
 msgstr "تعديل/ تغيير الصلاحيات"
 
+#, fuzzy
 msgid "VERIFIED"
-msgstr ""
+msgstr "مؤكد"
 
 msgid "UNVERIFIED"
-msgstr ""
+msgstr "غير مؤكد"
 
 msgid "User Permission"
-msgstr ""
+msgstr "إذن المستخدم"
 
 msgid "User Permissions"
-msgstr ""
+msgstr "صلاحيات المستخدم"
 
 msgid "Duplicate IP"
-msgstr ""
+msgstr "عنوان بروتوكول الإنترنت مكرر"
 
 msgid "Duplicate IPs"
-msgstr ""
+msgstr "عناوين بروتوكول الإنترنت مكرره"
 
 msgid "Updated"
-msgstr ""
+msgstr "تم التحديث"
 
 msgid "Only POST requests allowed."
 msgstr ""
 
 msgid "{} (Preview)"
-msgstr ""
+msgstr "{} (معاينة)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "هذا الأمر قيد الانتظار / التشغيل  - يرجى الانتظار حتى الانتهاء قبل تنفيذه مرة أخرى"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
+msgstr "يستغرق هذا الأمر بعض الوقت حتي يكتمل وسيتم وضعه في قائمة الانتظار والتشغيل في الخلفية. لا يمكن توفير سجل مخرجات حاليا. يمكنك المراجعة بمجرد انتهاء الأمر."
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
 msgstr ""
