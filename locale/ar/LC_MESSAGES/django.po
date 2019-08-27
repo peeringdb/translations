@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-26 15:58+0000\n"
+"PO-Revision-Date: 2019-08-27 13:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -418,10 +418,11 @@ msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
 msgid "reCAPTCHA invalid"
-msgstr ""
+msgstr "اختبار التمييز (reCAPTCHA) غير صحيح"
 
+#, fuzzy
 msgid "captcha invalid"
-msgstr ""
+msgstr "كلمة التحقق غير صحيحة"
 
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr ""
@@ -429,8 +430,9 @@ msgstr ""
 msgid "Ixlan not found"
 msgstr ""
 
+#, fuzzy
 msgid "Permission denied"
-msgstr ""
+msgstr "الصلاحيات مرفوضة"
 
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
@@ -447,8 +449,9 @@ msgstr ""
 msgid "No prefixes defined on ixlan"
 msgstr ""
 
+#, fuzzy
 msgid "ASN no longer in data"
-msgstr ""
+msgstr "إسم النطاق الذاتي لم يعد ضمن البيانات"
 
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
 msgstr ""
