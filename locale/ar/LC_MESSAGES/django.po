@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-02 14:58+0000\n"
+"PO-Revision-Date: 2019-09-02 15:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -225,9 +225,8 @@ msgstr "مسح مبدئي"
 msgid "Verification Queue is currently disabled"
 msgstr "قائمة التحقق معطلة حالياً"
 
-#, fuzzy
 msgid "Verification Queue is currently disabled for this object type"
-msgstr "قائمة التحقق معطلة حالياً لنوع البند المحدد"
+msgstr "قائمة التحقق معطلة حالياً لهذا البند المحدد"
 
 msgid "APPROVE"
 msgstr "تأكيد"
@@ -235,7 +234,6 @@ msgstr "تأكيد"
 msgid "DENY"
 msgstr "رفض"
 
-#, fuzzy
 msgid "APPROVED"
 msgstr "تم التأكيد"
 
@@ -258,7 +256,7 @@ msgid "CANNOT BE ROLLED BACK"
 msgstr "لا يمكن الرجوع للخلف"
 
 msgid "Has been changed since"
-msgstr ""
+msgstr "تم تغييره منذ"
 
 msgid "Netixlan with conflicting ipaddress now exists elsewhere"
 msgstr ""
@@ -276,10 +274,10 @@ msgid "Logo Missing"
 msgstr "الشعار مفقود"
 
 msgid "Active"
-msgstr ""
+msgstr "فعّال/ نشط"
 
 msgid "Over"
-msgstr ""
+msgstr "أكثر"
 
 #, fuzzy
 msgid "Waiting"
@@ -291,9 +289,8 @@ msgstr ""
 msgid "Merge target organization does not exist"
 msgstr "خيار دمج المؤسسة المحددة غير موجود"
 
-#, fuzzy
 msgid "Organization Merging Tool"
-msgstr "الوسائل لدمج المؤسسة"
+msgstr "الوسائل/ أدوات دمج المؤسسة"
 
 msgid "Undo merge"
 msgstr "التراجع/ إلغاء الدمج"
@@ -393,13 +390,13 @@ msgid "Invalid export format"
 msgstr ""
 
 msgid "Invalid tag"
-msgstr ""
+msgstr "علامة غير صحيحة"
 
 msgid "Invalid permission level"
-msgstr ""
+msgstr "مستوى الإذن غير صحبح"
 
 msgid "ASN needs to be a number"
-msgstr ""
+msgstr "رقم النظام المستقل (ASN) يجب ان يكون رقم"
 
 msgid "Needs to be at least 10 characters long"
 msgstr ""
