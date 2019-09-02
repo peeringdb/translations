@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-02 12:58+0000\n"
+"PO-Revision-Date: 2019-09-02 14:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -72,7 +72,6 @@ msgstr "مطلوب - الولايات المتحدة الاميركية"
 msgid "Required - EU"
 msgstr "مطلوب - أوروبا"
 
-#, fuzzy
 msgid "Required - International"
 msgstr "مطلوب - عالميا"
 
@@ -88,26 +87,21 @@ msgstr "بروتوكول الإنترنت الإصدراة الرابعة"
 msgid "IPv6"
 msgstr "بروتوكول الإنترنت الإصدراة السادسة"
 
-#, fuzzy
 msgid "Not Disclosed"
-msgstr "لم يكشف عنها"
+msgstr "غير معلنة"
 
-#, fuzzy
 msgid "Heavy Outbound"
 msgstr "البيانات الصادرة كبيرة جدا"
 
-#, fuzzy
 msgid "Mostly Outbound"
 msgstr "البيانات الصادرة متوسطة"
 
 msgid "Balanced"
 msgstr "متوازنة"
 
-#, fuzzy
 msgid "Mostly Inbound"
 msgstr "البيانات الواردة متوسطة"
 
-#, fuzzy
 msgid "Heavy Inbound"
 msgstr "البيانات الواردة كبيرة جدا"
 
@@ -183,9 +177,8 @@ msgstr "اكثر من ١ تيرابت/الثانية"
 msgid "10 Tbps+"
 msgstr "اكثر من ١٠ تيرابت/الثانية"
 
-#, fuzzy
 msgid "NSP"
-msgstr "مقدم خدمة الشبكة"
+msgstr "مقدم خدمة الشبكة (NSP)"
 
 msgid "Content"
 msgstr "المحتوي"
@@ -194,10 +187,10 @@ msgid "Cable/DSL/ISP"
 msgstr "كايبل / الخط المشترك الرقمي / مقدم خدمة الإنترنت"
 
 msgid "Enterprise"
-msgstr ""
+msgstr "المؤسسات/ الشركات التجارية"
 
 msgid "Educational/Research"
-msgstr "تعليمي / الدراسات والبحوث"
+msgstr "تعليمي / دراسات والبحوث الأكاديمية"
 
 msgid "Non-Profit"
 msgstr "غير ربحية"
@@ -215,7 +208,7 @@ msgid "Public"
 msgstr "عام"
 
 msgid "Kosovo"
-msgstr ""
+msgstr "كوسوفو"
 
 msgid "Status"
 msgstr "الحالة"
@@ -1713,7 +1706,7 @@ msgid "member"
 msgstr ""
 
 msgid "Remove"
-msgstr "حذف / ازاله"
+msgstr "حذف / إزاله"
 
 msgid "Manage"
 msgstr ""
