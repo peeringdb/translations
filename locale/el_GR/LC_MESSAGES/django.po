@@ -429,6 +429,19 @@ msgstr "Δεν βρέθηκε η διεύθυνση"
 msgid "Permission denied"
 msgstr "Δικαιώματα"
 
+#, fuzzy
+#| msgid "Please wait a bit before requesting another email change"
+msgid "Please wait a bit before requesting another IX-F import postmortem."
+msgstr "Παρακαλώ περιμένετε λίγο πριν αιτηθείτε και άλλη αλλαγή email"
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Network not found"
+msgstr "Δεν βρέθηκε η διεύθυνση"
+
+msgid "Postmortem length cannot exceed {} entries"
+msgstr ""
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
@@ -439,6 +452,9 @@ msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
 
 msgid "No JSON could be parsed"
 msgstr "Κανένα JSON δεν μπορούσε να αναλυθεί"
+
+msgid "IX-F data not locally cached for this resource yet."
+msgstr ""
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Δεν υπάρχουν καταχωρήσεις σε καμμία από τις λίστες vlan_list, γίνεται διακοπή."
@@ -540,6 +556,11 @@ msgstr ""
 
 msgid "Reset Environment"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import"
+msgstr "Ημερολόγιο Εισαγωγών IXF"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "Έχει συγχρονιστεί το γεωγραφικό μήκος και πλάτος του αντικειμένου στα πεδία διεύθυνσης"
@@ -1741,6 +1762,39 @@ msgstr "Ορατότητα"
 msgid "Add Contact"
 msgstr "Προσθήκη Επαφής"
 
+msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
+msgstr ""
+
+msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
+msgstr ""
+
+#, fuzzy
+#| msgid "Location"
+msgid "action"
+msgstr "Τοποθεσία"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "exchange"
+msgstr "Exchange"
+
+msgid "Close"
+msgstr ""
+
+msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
+msgstr ""
+
+msgid "Showing most recent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "changes"
+msgstr "Exchanges"
+
+msgid "Refresh"
+msgstr ""
+
 msgid "Public Peering Exchange Points"
 msgstr "Δημόσια Peering Exchange Points"
 
@@ -2044,6 +2098,14 @@ msgstr "Έγκριση Ενημέρωσης IXP"
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgstr "Όταν είναι ενεργό, ένας IXP μπορεί να διαχειριστεί αυτή την καταχώρηση του δικτού στην λίστα peering τους"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "IXP Update Tools"
+msgstr "Έγκριση Ενημέρωσης IXP"
+
+msgid "Postmortem"
+msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "Πληροφορίες Πολιτικής Peering"

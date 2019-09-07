@@ -424,6 +424,15 @@ msgstr ""
 msgid "Permission denied"
 msgstr "الصلاحيات مرفوضة"
 
+msgid "Please wait a bit before requesting another IX-F import postmortem."
+msgstr ""
+
+msgid "Network not found"
+msgstr ""
+
+msgid "Postmortem length cannot exceed {} entries"
+msgstr ""
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
@@ -431,6 +440,9 @@ msgid "IXF import url not specified"
 msgstr ""
 
 msgid "No JSON could be parsed"
+msgstr ""
+
+msgid "IX-F data not locally cached for this resource yet."
 msgstr ""
 
 msgid "No entries in any of the vlan_list lists, aborting."
@@ -519,6 +531,9 @@ msgid "Restore Object(s)"
 msgstr ""
 
 msgid "Reset Environment"
+msgstr ""
+
+msgid "IX-F Import"
 msgstr ""
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
@@ -1681,6 +1696,33 @@ msgstr ""
 msgid "Add Contact"
 msgstr ""
 
+msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
+msgstr ""
+
+msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
+msgstr ""
+
+msgid "action"
+msgstr ""
+
+msgid "exchange"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
+msgstr ""
+
+msgid "Showing most recent"
+msgstr ""
+
+msgid "changes"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
 msgid "Public Peering Exchange Points"
 msgstr ""
 
@@ -1977,6 +2019,12 @@ msgid "Allow IXP Update"
 msgstr ""
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
+msgstr ""
+
+msgid "IXP Update Tools"
+msgstr ""
+
+msgid "Postmortem"
 msgstr ""
 
 msgid "Peering Policy Information"

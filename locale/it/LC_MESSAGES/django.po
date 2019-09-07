@@ -431,6 +431,19 @@ msgstr "Indirizzo non trovato"
 msgid "Permission denied"
 msgstr "Permessi"
 
+#, fuzzy
+#| msgid "Please wait a bit before requesting another email change"
+msgid "Please wait a bit before requesting another IX-F import postmortem."
+msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Network not found"
+msgstr "Indirizzo non trovato"
+
+msgid "Postmortem length cannot exceed {} entries"
+msgstr ""
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
@@ -441,6 +454,9 @@ msgstr "Voci del registro di importazione IXF"
 
 msgid "No JSON could be parsed"
 msgstr "Nessun JSON è stato potuto essere analizzato"
+
+msgid "IX-F data not locally cached for this resource yet."
+msgstr ""
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Nessuna entrata nella lista vlan_list, operazione non riuscita."
@@ -542,6 +558,11 @@ msgstr ""
 
 msgid "Reset Environment"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import"
+msgstr "Registro di importazione IXF"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "La latitudine e la longitudine di questo oggetto sono state sincronizzate con i suoi campi indirizzo"
@@ -1743,6 +1764,39 @@ msgstr "Visibilità"
 msgid "Add Contact"
 msgstr "Aggiungi Contatto"
 
+msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
+msgstr ""
+
+msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
+msgstr ""
+
+#, fuzzy
+#| msgid "Location"
+msgid "action"
+msgstr "Luogo"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "exchange"
+msgstr "Interscambio"
+
+msgid "Close"
+msgstr ""
+
+msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
+msgstr ""
+
+msgid "Showing most recent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "changes"
+msgstr "Punti di Interscambio"
+
+msgid "Refresh"
+msgstr ""
+
 msgid "Public Peering Exchange Points"
 msgstr "Punti di Interscambio per Peering Pubblico"
 
@@ -2046,6 +2100,14 @@ msgstr "Permetti Aggiornamento IXP"
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgstr "Se abilitato, un IXP può gestire l'entrata di questa rete nella loro lista di peering"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "IXP Update Tools"
+msgstr "Permetti Aggiornamento IXP"
+
+msgid "Postmortem"
+msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "Informazioni sulla Policy di Peering"

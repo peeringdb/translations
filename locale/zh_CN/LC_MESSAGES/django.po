@@ -423,6 +423,19 @@ msgstr "地址未找到"
 msgid "Permission denied"
 msgstr "没有权限"
 
+#, fuzzy
+#| msgid "Please wait a bit before requesting another email change"
+msgid "Please wait a bit before requesting another IX-F import postmortem."
+msgstr "请稍后再请求其他 Email 修改"
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Network not found"
+msgstr "地址未找到"
+
+msgid "Postmortem length cannot exceed {} entries"
+msgstr ""
+
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
@@ -433,6 +446,9 @@ msgstr "IXF 导入 URL 没有提供"
 
 msgid "No JSON could be parsed"
 msgstr "没有可以被解析的JSON"
+
+msgid "IX-F data not locally cached for this resource yet."
+msgstr ""
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "在 vlan_list 列表中没有条目，中止中。"
@@ -520,6 +536,11 @@ msgstr "恢复对象"
 
 msgid "Reset Environment"
 msgstr "重置环境"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import"
+msgstr "IXF 导入日志"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "此对象的经纬度是否已与其地址字段同步"
@@ -1687,6 +1708,39 @@ msgstr "可见性"
 msgid "Add Contact"
 msgstr "添加联系人"
 
+msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
+msgstr ""
+
+msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
+msgstr ""
+
+#, fuzzy
+#| msgid "Location"
+msgid "action"
+msgstr "位置"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "exchange"
+msgstr "交换点"
+
+msgid "Close"
+msgstr ""
+
+msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
+msgstr ""
+
+msgid "Showing most recent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "changes"
+msgstr "交换点"
+
+msgid "Refresh"
+msgstr ""
+
 msgid "Public Peering Exchange Points"
 msgstr "公共对等交换点"
 
@@ -1984,6 +2038,14 @@ msgstr "允许 IXP 更新"
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgstr "如果启用，IXP 可以在其对等列表中管理此网络的条目"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "IXP Update Tools"
+msgstr "允许 IXP 更新"
+
+msgid "Postmortem"
+msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "对等政策信息"
