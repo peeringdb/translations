@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-07 20:58+0000\n"
+"PO-Revision-Date: 2019-09-07 21:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -1045,358 +1045,358 @@ msgid "IXPs and data center facilities can add to and maintain their information
 msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și menține informațiile lor în baza de date, crescând vizibilitatea și devenind mai interesanți pentru clienții noi și existenți. Dacă vă aflați în baza de date, acest lucru face mult mai ușor pentru alte rețele să găsească informații cruciale despre serviciile dvs. și despre celelalte rețele prezente în platforma dvs. IXP sau facilitățile dvs."
 
 msgid "Address"
-msgstr ""
+msgstr "Adresă"
 
 msgid "City"
-msgstr ""
+msgstr "Oraș"
 
 msgid "State"
-msgstr ""
+msgstr "Stat"
 
 msgid "Postal"
-msgstr ""
+msgstr "Poștal"
 
 msgid "Country"
-msgstr ""
+msgstr "Țară"
 
 msgid "click to select multiple"
-msgstr ""
+msgstr "faceți click pentru a selecta mai multe"
 
 msgid "Management"
-msgstr ""
+msgstr "Management"
 
 msgid "CLLI"
-msgstr ""
+msgstr "CLLI"
 
 msgid "NPA-NXX"
-msgstr ""
+msgstr "NPA-XXX"
 
 msgid "Reset"
-msgstr ""
+msgstr "Resetare"
 
 msgid "Search"
-msgstr ""
+msgstr "Căutare"
 
 msgid "Postal Code"
-msgstr ""
+msgstr "Cod poștal"
 
 msgid "Networks"
-msgstr ""
+msgstr "Rețele"
 
 msgid "No search results."
-msgstr ""
+msgstr "Nu există rezultate."
 
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr ""
+msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea dvs., refaceți solicitarea..."
 
 msgid "Continental Region"
-msgstr ""
+msgstr "Regiune continentală"
 
 msgid "IP Block"
-msgstr ""
+msgstr "Bloc de adrese IP"
 
 msgid "Media Type"
-msgstr ""
+msgstr "Tip media"
 
 msgid "Network Type"
-msgstr ""
+msgstr "Tip rețea"
 
 msgid "Traffic Levels"
-msgstr ""
+msgstr "Niveluri de trafic"
 
 msgid "Traffic Ratio"
-msgstr ""
+msgstr "Raport de trafic"
 
 msgid "Primary ASN"
-msgstr ""
+msgstr "ASN primar"
 
 msgid "IRR as-set/route-set"
-msgstr ""
+msgstr "IRR as-set/route-set"
 
 msgid "General Peering Policy"
-msgstr ""
+msgstr "Politica generală de peering"
 
 msgid "Geographic Scope"
-msgstr ""
+msgstr "Domeniul geografic"
 
 msgid "Exchange Presence"
-msgstr ""
+msgstr "Prezență IXP"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr ""
+msgstr "Căutați rețele care sunt prezente la un Internet Exchange și absente la alt Internet Exchange"
 
 msgid "Facility Presence"
-msgstr ""
+msgstr "Prezență în facilități"
 
 msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr ""
+msgstr "Căutați rețele care sunt prezente la o facilitate, însă absente de la altă facilitate"
 
 msgid "Also known as"
-msgstr ""
+msgstr "cunoscut ca și"
 
 msgid "ASN"
-msgstr ""
+msgstr "ASN"
 
 msgid "General Policy"
-msgstr ""
+msgstr "Politica generală"
 
 msgid "Network Scope"
-msgstr ""
+msgstr "Sfera rețelei"
 
 msgid "Exchanges"
-msgstr ""
+msgstr "Internet Exchange-uri"
 
 msgid "Facilities"
-msgstr ""
+msgstr "Facilități"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
-msgstr ""
+msgstr "Adăugați o nouă %(entity_name)s organizației dvs. Rețineți că %(entity_name)s nou create vor trebui să fie aprobate de personalului PeeringDB înainte să apară în rezultatele căutărilor sau listările API"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+msgstr "Pentru a fi listat cu o facilitate în PeeringDB ne așteptăm să oferiți publicului servicii de colocare, centru de date și/sau servicii meet-me-room."
 
 msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr ""
+msgstr "Pentru a fi listat ca Internet Exchange în PeeringDB ne așteptăm să îndepliniți următoarele crieterii:"
 
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr ""
+msgstr "Un Internet Exchange (IXP) este o platformă care permite interconectarea a două sau mai multe sisteme autonome (ASN) independente, în principal pentru a facilita schimbul de trafic de internet."
 
 msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr ""
+msgstr "Un Internet Exchange oferă interconectare doar pentru numere de sistem autonom (ASN). Într-un IXP nu este necesar ca traficul schimbat între orice pereche de sisteme autonome să treacă printr-un al treilea sistem autonom, și nici să modifice sau să interfereze cu un astfel de trafic"
 
 msgid "Submit"
-msgstr ""
+msgstr "Trimite"
 
 #, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr ""
+msgstr "Sugerează %(entity_name)s pentru adăugarea la baza de date. Sugestia dvs. va fi revizuită de Comitetul de Administrare al PeeringDB. Apoi va fi finalizată și înregistrată în baza de date sau respinsă, după caz. Nu este necesară nici acțiune viitoare din partea dvs."
 
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+msgstr "Pentru a fi aprobată, ne așteptăm ca facilitatea sugerată să ofere publicului colocare, centru de date și/sau servicii meet-me-room."
 
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr ""
+msgstr "Pentru a fi aprobat, ne așteptăm ca Internet Exchange-ul sugerat să îndeplinească următoarele criterii:"
 
 msgid "Suggest"
-msgstr ""
+msgstr "Sugerează"
 
 msgid "404 - Not Found"
-msgstr ""
+msgstr "404 - Nu a fost găsit"
 
 msgid "The page you requested does not exist."
-msgstr ""
+msgstr "Pagina solicitată nu există."
 
 msgid "403 - Forbidden"
-msgstr ""
+msgstr "403 - Interzis"
 
 msgid "You dont have permissions to view this page."
-msgstr ""
+msgstr "Nu aveți permisiuni pentru a vizualiza această pagină."
 
 msgid "Take me home"
-msgstr ""
+msgstr "Du-mă acasă"
 
 msgid "All Rights Reserved. By using this service, you agree to adhere to our"
-msgstr ""
+msgstr "Toate drepturile rezervate. Prin utilizarea acestui serviciu sunteți de acord cu"
 
 msgid "AUP"
-msgstr ""
+msgstr "AUP"
 
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Politica de confidențialitate"
 
 msgid "About"
-msgstr ""
+msgstr "Despre"
 
 msgid "Register"
-msgstr ""
+msgstr "Înregistrează-te"
 
 msgid "Sponsors"
-msgstr ""
+msgstr "Sponsori"
 
 msgid "Resources"
-msgstr ""
+msgstr "Resurse"
 
 msgid "FAQ"
-msgstr ""
+msgstr "Întrebări frecvente"
 
 msgid "Documentation"
-msgstr ""
+msgstr "Documentație"
 
 msgid "API Documentation"
-msgstr ""
+msgstr "Documentație API"
 
 msgid "Contact Us"
-msgstr ""
+msgstr "Contactați-ne"
 
 msgid "Global System Statistics"
-msgstr ""
+msgstr "Statisticile globale ale sistemului"
 
 msgid "Connections to Exchanges"
-msgstr ""
+msgstr "Conexiuni la Internet Exchange-uri"
 
 msgid "Connections to Facilities"
-msgstr ""
+msgstr "Conexiuni la facilități"
 
 msgid "Search here for a network, IX, or facility."
-msgstr ""
+msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
 
 msgid "Advanced Search"
-msgstr ""
+msgstr "Căutare avansată"
 
 msgid "pending"
-msgstr ""
+msgstr "în așteptare"
 
 msgid "unverified"
-msgstr ""
+msgstr "neverificat"
 
 msgid "Suggest Facility"
-msgstr ""
+msgstr "Sugerează o facilitate"
 
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 msgid "Logout"
-msgstr ""
+msgstr "Deconectare"
 
 msgid "or"
-msgstr ""
+msgstr "sau"
 
 msgid "Login"
-msgstr ""
+msgstr "Conectare"
 
 msgid "The Interconnection Database"
-msgstr ""
+msgstr "Baza de date a interconectărilor"
 
 msgid "Join. Search. Grow your network."
-msgstr ""
+msgstr "Aderați. Căutați. Creșteți-vă rețeaua."
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
-msgstr ""
+msgstr "PeeringDB este o bază de date cu rețele și locații de interconectare disponibilă gratuit și întreținută de utilizatori. Baza de date facilitează interconectarea globală a rețelelor în punctele Internet Exchange (IXP), centre de date și alte facilități de interconectare și este primul pas în luarea deciziilor legate de interconectare."
 
 msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
-msgstr ""
+msgstr "Baza de date este o inițiativă non-profit a comunității și este condusă și promovată de voluntari. Ea este un instrument public pentru creșterea și dezvoltarea internetului. Alăturați-vă comunității și susțineți dezvoltarea continuă a internetului."
 
 msgid "Learn more"
-msgstr ""
+msgstr "Aflați mai multe"
 
 msgid "about"
-msgstr ""
+msgstr "despre"
 
 msgid "register"
-msgstr ""
+msgstr "înregistrați-vă"
 
 msgid "Most Recent Updates"
-msgstr ""
+msgstr "Cele mai recente actualizări"
 
 msgid "Username"
-msgstr ""
+msgstr "Nume de utilizator"
 
 msgid "Password"
-msgstr ""
+msgstr "Parolă"
 
 msgid "I forgot my password .."
-msgstr ""
+msgstr "Am uitat parola..."
 
 msgid "I forgot my username .."
-msgstr ""
+msgstr "Am uitat numele de utilizator..."
 
 msgid "Maintenance Mode"
-msgstr ""
+msgstr "Modul de întreținere"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr ""
+msgstr "Site-ul este în prezent în modul de întreținere, timp în care această acțiune este dezactivată, încercați din nou în câteva minute"
 
 msgid "Login with oAuth"
-msgstr ""
+msgstr "Autentificare cu oAuth"
 
 msgid "Login with your Google account"
-msgstr ""
+msgstr "Autentificare cu contul Google"
 
 msgid "Login with your Facebook account"
-msgstr ""
+msgstr "Autentificare cu contul Facebook"
 
 msgid "Partners"
-msgstr ""
+msgstr "Parteneri"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
-msgstr ""
+msgstr "Am trimis instrucțiuni la adresa dvs. de e-mail, cu condiția să fie în sistemul nostru. Aveți la dispoziție 30 de minute pentru a finaliza procesul."
 
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 msgid "Reset Password"
-msgstr ""
+msgstr "Resetează parola"
 
 msgid "The password for your account"
-msgstr ""
+msgstr "Parola contului dvs."
 
 msgid "has been reset, proceed to the"
-msgstr ""
+msgstr "a fost resetată, vă rugăm să accesați"
 
 msgid "login page"
-msgstr ""
+msgstr "pagina de autentificare"
 
 msgid "Verify Password"
-msgstr ""
+msgstr "Verifică parola"
 
 msgid "The security token you provided is invalid, please"
-msgstr ""
+msgstr "Simbolul de securitate furnizat nu este valid, vă rugăm"
 
 msgid "try again"
-msgstr ""
+msgstr "să încercați din nou"
 
 msgid "The password reset process has expired, please"
-msgstr ""
+msgstr "Procesul de resetare a parolei a expirat, vă rugăm"
 
 msgid "initiate again"
-msgstr ""
+msgstr "să inițiați din nou"
 
 msgid "Affiliate with organization"
-msgstr ""
+msgstr "Afiliați-vă la organizație"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr ""
+msgstr "Afilierea dvs. la %(ar_name)s așteaptă aprobarea."
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
-msgstr ""
+msgstr "Afilierea dvs. la %(ar_name)s a fost respinsă"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
-msgstr ""
+msgstr "Afilierea dvs. la %(ar_name)s a fost aprobată"
 
 msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr ""
+msgstr "Pentru a vă afilia la o organizație existentă, vă rugăm să introduceți mai jos ASN-ul sau numele organizației."
 
 msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr ""
+msgstr "Pentru a înregistra o nouă organizație sau rețea, vă rugăm să introduceți mai jos ASN-ul și numele organizației."
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr ""
+msgstr "Pentru a înregistra o nouă facilitate sau un Internet Exchange, vă rugăm să introduceți mai jos numele organizației (ASN-ul este opțional)."
 
 msgid "Affiliate"
-msgstr ""
+msgstr "Afiliați-vă"
 
 msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr ""
+msgstr "În cazul în care nu poate fi regăsită înregistrarea RIR pentru ASN-ul dvs., vă rugăm să contactați"
 
 msgid "for assistance"
-msgstr ""
+msgstr "pentru asistență"
 
 msgid "Existing affiliations"
-msgstr ""
+msgstr "Afilieri existente"
 
 msgid "Your affiliation with"
-msgstr ""
+msgstr "Afilierea dvs. cu"
 
 msgid "has been approved"
-msgstr ""
+msgstr "a fost aprobat(ă)"
 
 msgid "Change email address"
-msgstr ""
+msgstr "Schimbați adresa e-mail"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr ""
