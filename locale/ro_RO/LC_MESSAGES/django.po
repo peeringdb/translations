@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-07 17:58+0000\n"
+"PO-Revision-Date: 2019-09-07 18:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -522,7 +522,7 @@ msgid "Merge Facilities: UNDO"
 msgstr "Îmbină facilitățile: ANULEAZĂ"
 
 msgid "Restore Object(s)"
-msgstr "Restaurează obiect(ele)"
+msgstr "Restaurează obiect(e)"
 
 msgid "Reset Environment"
 msgstr "Resetează mediul"
@@ -678,242 +678,242 @@ msgid "Enter a valid username."
 msgstr "Introduceți un nume valid de utilizator."
 
 msgid "email address"
-msgstr "adresa e-mail"
+msgstr "adresă de e-mail"
 
 msgid "first name"
-msgstr ""
+msgstr "prenume"
 
 msgid "last name"
-msgstr ""
+msgstr "nume"
 
 msgid "staff status"
-msgstr ""
+msgstr "statutul de personal"
 
 msgid "Designates whether the user can log into admin site."
-msgstr ""
+msgstr "Desemnează dacă utilizatorul se poate conecta la site-ul de administrare."
 
 msgid "active"
-msgstr ""
+msgstr "activ"
 
 msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr ""
+msgstr "Desemnează dacă acest utilizator trebuie tratat ca activ. Deselectați această opțiune în loc să ștergeți conturile."
 
 msgid "date joined"
-msgstr ""
+msgstr "data înscrierii"
 
 msgid "status"
-msgstr ""
+msgstr "stare"
 
 msgid "language"
-msgstr ""
+msgstr "limbă"
 
 msgid "user"
-msgstr ""
+msgstr "utilizator"
 
 msgid "users"
-msgstr ""
+msgstr "utilizatori"
 
 msgid "Password Reset Initiated"
-msgstr ""
+msgstr "A fost inițiată resetarea parolei"
 
 msgid "name of the tool"
-msgstr ""
+msgstr "numele instrumentului"
 
 msgid "json serialization of arguments and options passed"
-msgstr ""
+msgstr "serializarea json a argumentelor și opțiunilor a trecut"
 
 msgid "result log"
-msgstr ""
+msgstr "jurnalul de rezultate"
 
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "Text descriptiv al comenzii care poate fi căutată"
 
 msgid "the user that ran this command"
-msgstr ""
+msgstr "utilizatorul care a executat această comandă"
 
 msgid "command was run at this date and time"
-msgstr ""
+msgstr "comanda a fost executată la această dată și oră"
 
 msgid "Done"
-msgstr ""
+msgstr "Terminat"
 
 msgid "Running"
-msgstr ""
+msgstr "Executare"
 
 msgid "Organization and all Entities it owns"
-msgstr ""
+msgstr "Organizația și toate entitățile pe care aceasta le deține"
 
 msgid "Any Network"
-msgstr ""
+msgstr "Orice rețea"
 
 msgid "Any Facility"
-msgstr ""
+msgstr "Orice facilitate"
 
 msgid "Any Exchange"
-msgstr ""
+msgstr "Orice Exchange"
 
 #, python-format
 msgid "Network - %(net_name)s"
-msgstr ""
+msgstr "Rețea - %(net_name)s"
 
 #, python-format
 msgid "Exchange - %(ix_name)s"
-msgstr ""
+msgstr "Exchange - %(ix_name)s"
 
 #, python-format
 msgid "Facility - %(fac_name)s"
-msgstr ""
+msgstr "Facilitate - %(fac_name)s"
 
 msgid "Invalid organization specified"
-msgstr ""
+msgstr "Organizația specificată nu este validă"
 
 msgid "Needs to be member or admin"
-msgstr ""
+msgstr "Trebuie să fie membru sau admin"
 
 #, python-format
 msgid "%(user_name)s's afilliation request has been approved"
-msgstr ""
+msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
 
 #, python-format
 msgid "%(user_name)s's afilliation request has been denied"
-msgstr ""
+msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
 msgid "Need to be unique"
-msgstr ""
+msgstr "Trebuie să fie unic"
 
 msgid "This field is required"
-msgstr ""
+msgstr "Acest câmp este necesar"
 
 msgid "RDAP Lookup Error"
-msgstr ""
+msgstr "Eroare de căutare RDAP"
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
+msgstr "Acest câmp este permis doar pentru aceste solicitări: {methods}"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr ""
+msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr ""
+msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
 msgid "Specify at least one email address"
-msgstr ""
+msgstr "Specificați cel puțin o adresă e-mail"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr ""
+msgstr "Utilizatorul %(u_name)s dorește să se afilieze la organizația voastră"
 
 msgid "Confirm your e-mail address"
-msgstr ""
+msgstr "Confirmați adresa e-mail"
 
 msgid "Please confirm that"
-msgstr ""
+msgstr "Confirmați că"
 
 msgid "is your email-address"
-msgstr ""
+msgstr "este adresa dvs. e-mail"
 
 msgid "Confirm"
-msgstr ""
+msgstr "Confirm"
 
 msgid "The email confirmation process for this email address has been terminated, please re-initate"
-msgstr ""
+msgstr "Procesul de confirmare pentru această adresă e-mail a fost încheiat, vă rugăm să îl reinițiați"
 
 msgid "here"
-msgstr ""
+msgstr "aici"
 
 msgid "Please use"
-msgstr ""
+msgstr "Vă rugăm să utilizați"
 
 msgid "this page"
-msgstr ""
+msgstr "această pagină"
 
 msgid "instead"
-msgstr ""
+msgstr "în locul"
 
 msgid "Home"
-msgstr ""
+msgstr "Acasă"
 
 msgid "Prepare"
-msgstr ""
+msgstr "Pregătiți"
 
 msgid "Preview"
-msgstr ""
+msgstr "Previzualizare"
 
 msgid "Result"
-msgstr ""
+msgstr "Rezultat"
 
 msgid "Merge Notification"
-msgstr ""
+msgstr "Îmbină notificarea"
 
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgid "has been merged into"
-msgstr ""
+msgstr "a fost îmbinat cu"
 
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "Toate îmbinările sunt procesate manual de către personalul de asistență al PeeringDB. Dacă credeți că această acțiune a fost executată greșit, nu ezitați să contactați asistența PeeringDB la"
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
-msgstr ""
+msgstr "Cererea de afiliere a '%(u_full_name)s la %(o_name)s a fost aprobată de %(admin_full_name)s."
 
 msgid "No further action is required on your part."
-msgstr ""
+msgstr "Nu este necesară nicio acțiune viitoare."
 
 msgid "As the organization's administrator you may view your organization's user list here"
-msgstr ""
+msgstr "În calitate de administrator al organizației puteți vedea lista utilizatorilor acesteia aici"
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
-msgstr ""
+msgstr "Cererea de afiliere a %(u_full_name)s la %(o_name)s a fost RESPINSĂ de %(admin_full_name)s."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr ""
+msgstr "Utilizatorul %(u_name)s (%(u_email)s) dorește să se afilieze la %(o_name)s."
 
 msgid "As the organization's administrator you may approve or deny this request here"
-msgstr ""
+msgstr "În calitate de administrator al organizației puteți aproba sau respinge această cerere aici"
 
 msgid "Ownership of organization was automatically granted to user"
-msgstr ""
+msgstr "Deținerea organizației a fost acordată automat utilizatorului"
 
 msgid "User"
-msgstr ""
+msgstr "Utilizator"
 
 msgid "Network"
-msgstr ""
+msgstr "Rețea"
 
 msgid "AS"
-msgstr ""
+msgstr "AS"
 
 #, python-format
 msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "Organizația %(o_name)s (%(o_id)s) a fost creată automat odată cu solicitarea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
 #, python-format
 msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "Rețeaua %(n_name)s (%(n_id)s) a fost creată automat odată cu cererea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgstr ""
+msgstr "Utilizatorul '%(u_name)s' a creat rețeaua %(n_name)s AS%(n_asn)s (%(n_id)s) sub organizația %(o_name)s (%(o_id)s)."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgstr ""
+msgstr "Dacă adresa e-mail a utilizatorului s-a potrivit cu înregistrarea RIR, această rețea a trecut peste lista de așteptare în vederea verificării."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
-msgstr ""
+msgstr "Utilizatorul %(u_name)s (%(u_email)s) dorește să fie afiliat la ASN %(inst)s"
 
 msgid "They also provided this organization name in their request"
-msgstr ""
+msgstr "De asemenea, au furnizat numele acestei organizații în cererea lor"
 
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
-msgstr ""
+msgstr "În baza noastră de date nu a existat nicio intrare care să corespundă ASN-ului, așa că este probabil să fie necesară crearea unei rețele și a unei organizații pentru aceasta."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
