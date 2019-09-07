@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-07 22:58+0000\n"
+"PO-Revision-Date: 2019-09-07 23:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -312,7 +312,7 @@ msgid "Approve"
 msgstr "Aprobă"
 
 msgid "Deny"
-msgstr "Respinge"
+msgstr "Respingeți"
 
 msgid "Change Password"
 msgstr "Schimbă parola"
@@ -1751,269 +1751,269 @@ msgid "Add Exchange"
 msgstr "Adăugați Internet Exchange"
 
 msgid "Permissions"
-msgstr ""
+msgstr "Permisiuni"
 
 msgid "Website"
-msgstr ""
+msgstr "Site web"
 
 msgid "Address 1"
-msgstr ""
+msgstr "Adresă 1"
 
 msgid "Address 2"
-msgstr ""
+msgstr "Adresă 2"
 
 msgid "Zip-Code"
-msgstr ""
+msgstr "Cod poștal"
 
 msgid "CLLI Code"
-msgstr ""
+msgstr "Cod CLLI"
 
 msgid "Traffic Ratios"
-msgstr ""
+msgstr "Raporturi de trafic"
 
 msgid "Unicast IPv4"
-msgstr ""
+msgstr "IPv4 Unicast"
 
 msgid "Multicast"
-msgstr ""
+msgstr "Multicast"
 
 msgid "Policy URL"
-msgstr ""
+msgstr "URL-ul pentru politici"
 
 msgid "Multiple Locations"
-msgstr ""
+msgstr "Locații multiple"
 
 msgid "Ratio Requirement"
-msgstr ""
+msgstr "Cerințe legate de raport"
 
 msgid "Contract Requirement"
-msgstr ""
+msgstr "Contract necesar"
 
 msgid "Add a new Network to your Organization."
-msgstr ""
+msgstr "Adăugați o nouă rețea la organizația dvs."
 
 msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
-msgstr ""
+msgstr "Vom încerca să verificăm automat relația dvs. cu rețeaua verificând adresa dvs. de e-mail în intrarea RiR a ASN-ului."
 
 msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr ""
+msgstr "În cazul eșecului verificării, rețeaua va trebui să fie aprobată de personalul PeeringDB înainte ca aceasta să apară în rezultatele căutării sau în listele API."
 
 msgid "Submit Network"
-msgstr ""
+msgstr "Trimiteți rețea"
 
 msgid "for assistance with the creation of your network in PeeringDB."
-msgstr ""
+msgstr "pentru asistență în legătură cu crearea rețelei dvs. în PeeringDB."
 
 msgid "Traffic Stats Website"
-msgstr ""
+msgstr "Adresa statisticilor de trafic"
 
 msgid "Technical E-mail"
-msgstr ""
+msgstr "E-mail tehnic"
 
 msgid "Technical Phone"
-msgstr ""
+msgstr "Telefon tehnic"
 
 msgid "Policy E-mail"
-msgstr ""
+msgstr "E-mail politici"
 
 msgid "Policy Phone"
-msgstr ""
+msgstr "Telefon politici"
 
 msgid "IPv4 or IPv6 prefix"
-msgstr ""
+msgstr "prefix IPv4 sau IPv6"
 
 msgid "Confirmed"
-msgstr ""
+msgstr "Confirmat"
 
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 msgid "Currently no users requesting affiliation with"
-msgstr ""
+msgstr "În prezent niciun utilizator nu solicită afilierea la"
 
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr ""
+msgstr "Aici puteți acorda permisiuni membrilor obișnuiți ai organizației dvs. Utilizatorii administrativi nu sunt enumerați aici, deoarece au acces la orice în mod implicit."
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr ""
+msgstr "În plus, entitățile care sunt în curs de revizuire nu pot fi autorizate utilizatorilor și nu vor apărea în lista de entități."
 
 msgid "Update"
-msgstr ""
+msgstr "Actualizați"
 
 msgid "Delete"
-msgstr ""
+msgstr "Ștergeți"
 
 msgid "Thank you for your suggestion."
-msgstr ""
+msgstr "Vă mulțumim pentru sugestie."
 
 msgid "Suggest another facility"
-msgstr ""
+msgstr "Sugerați o altă facilitate"
 
 msgid "Only verified users may suggest entities."
-msgstr ""
+msgstr "Doar utilizatorii verificați pot sugera entități."
 
 msgid "Suggest another exchange"
-msgstr ""
+msgstr "Sugerați un alt Internet Exchange"
 
 msgid "Suggest another network"
-msgstr ""
+msgstr "Sugerați o altă rețea"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr ""
+msgstr "Adresa dvs. de email nu se potrivește cu informațiile legate de domeniu pe care le deținem pentru această organizație."
 
 msgid "seconds ago"
-msgstr ""
+msgstr "acum câteva secunde"
 
 msgid "minutes ago"
-msgstr ""
+msgstr "acum câteva minute"
 
 msgid "hours ago"
-msgstr ""
+msgstr "acum câteva ore"
 
 msgid "days ago"
-msgstr ""
+msgstr "acum câteva zile"
 
 msgid "Invalid prefix: {}"
-msgstr ""
+msgstr "Prefixul nu este valid: {}"
 
 msgid "Address space invalid: {}"
-msgstr ""
+msgstr "Spațiul de adrese nu este valid: {}"
 
 msgid "Maximum allowed prefix length is {}"
-msgstr ""
+msgstr "Lungimea maximă permisă a prefixului este {}"
 
 msgid "Minimum allowed prefix length is {}"
-msgstr ""
+msgstr "Lungimea minimă permisă a prefixului este: {}"
 
 msgid "Maximum value allowed {}"
-msgstr ""
+msgstr "Valoarea maximă admisă {}"
 
 msgid "Negative value not allowed"
-msgstr ""
+msgstr "Valoarea negativă nu este permisă"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr ""
+msgstr "Prefixul se suprapune cu prefixul lui {}: {}"
 
 msgid "Please wait a bit before requesting ownership again."
-msgstr ""
+msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
 
 msgid "Invalid organization"
-msgstr ""
+msgstr "Organizația nu este validă"
 
 #, python-format
 msgid "Organization '%(org_name)s' is already under ownership"
-msgstr ""
+msgstr "Organizația '%(org_name)s' este deja deținută de altcineva"
 
 msgid "Organization does not exist"
-msgstr ""
+msgstr "Organizația nu există"
 
 msgid "You already have an ownership request pending for this organization"
-msgstr ""
+msgstr "Aveți deja o solicitare de proprietate pentru această organizație în curs de examinare"
 
 msgid "Please wait a bit before requesting affiliation again."
-msgstr ""
+msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilierea."
 
 msgid "Either ASN or Organization required"
-msgstr ""
+msgstr "Este necesar ASN-ul sau organizația"
 
 msgid "RDAP Lookup Error: {}"
-msgstr ""
+msgstr "Eroare de căutare RADP: {}"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
-msgstr ""
+msgstr "Vă rugăm să așteptați un pic înainte de a încerca să trimiteți din nou e-mailul de confirmare"
 
 msgid "We have resent your confirmation email"
-msgstr ""
+msgstr "V-am trimis un e-mail de confirmare"
 
 msgid "Please wait a bit before requesting another email change"
-msgstr ""
+msgstr "Vă rugăm să așteptați puțin înainte de a solicita o altă modificare prin e-mail"
 
 msgid "E-mail already exists in our system"
-msgstr ""
+msgstr "Adresa e-mail există deja în sistemul nostru"
 
 msgid "Wrong password"
-msgstr ""
+msgstr "Parola este greșită"
 
 msgid "Please wait a bit before requesting your usernames again."
-msgstr ""
+msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou numele de utilizator."
 
 msgid "Invalid Security Token"
-msgstr ""
+msgstr "Simbolul de securitate nu este valid"
 
 msgid "Password Reset Process has expired, please"
-msgstr ""
+msgstr "Procesul de resetare a parolei a expirat, vă rugăm"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr ""
+msgstr "Vă rugăm să vă deconectați de la sesiunea curentă înainte de a încerca să vă înregistrați. Vă informăm că nu mai sunt necesare conturi multiple."
 
 msgid "This email address has already been used"
-msgstr ""
+msgstr "Această adresă e-mail a fost deja utilizată"
 
 msgid "Already logged in"
-msgstr ""
+msgstr "Sunteți autentificat deja"
 
 msgid "Location"
-msgstr ""
+msgstr "Locație"
 
 msgid "Country Code"
-msgstr ""
+msgstr "Codul de țară"
 
 msgid "Notes"
-msgstr ""
+msgstr "Notițe"
 
 msgid "Markdown enabled"
-msgstr ""
+msgstr "Markdown activat"
 
 msgid "Geocode"
-msgstr ""
+msgstr "Geocod"
 
 msgid "Protocols Supported"
-msgstr ""
+msgstr "Protocoale acceptate"
 
 msgid "Contact Information"
-msgstr ""
+msgstr "Informații de contact"
 
 msgid "Company Website"
-msgstr ""
+msgstr "Website-ul companiei"
 
 msgid "Technical Email"
-msgstr ""
+msgstr "E-mail tehnic"
 
 msgid "Policy Email"
-msgstr ""
+msgstr "E-mail politici"
 
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 msgid "Also Known As"
-msgstr ""
+msgstr "Cunoscut ca și"
 
 msgid "Route Server URL"
-msgstr ""
+msgstr "URL Route Server"
 
 msgid "Looking Glass URL"
-msgstr ""
+msgstr "URL Looking Glass"
 
 msgid "IPv4 Prefixes"
-msgstr ""
+msgstr "Prefixe IPv4"
 
 msgid "IPv6 Prefixes"
-msgstr ""
+msgstr "Prefixe IPv6"
 
 msgid "Last Updated"
-msgstr ""
+msgstr "Ultima actualizare"
 
 msgid "PeeringDB Configuration"
-msgstr ""
+msgstr "Configurație PeeringDB"
 
 msgid "Allow IXP Update"
-msgstr ""
+msgstr "Permite actualizări de la IXP"
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
-msgstr ""
+msgstr "Dacă este activat, un IXP poate gestiona intrarea acestei rețele în lista lui de peering"
 
 msgid "IXP Update Tools"
 msgstr ""
@@ -2022,16 +2022,16 @@ msgid "Postmortem"
 msgstr ""
 
 msgid "Peering Policy Information"
-msgstr ""
+msgstr "Informații privind politica de peering"
 
 msgid "Peering Policy"
-msgstr ""
+msgstr "Politica de peering"
 
 msgid "Please wait a bit before trying to login again."
-msgstr ""
+msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
 
 msgid "Account disabled."
-msgstr ""
+msgstr "Cont dezactivat."
 
 msgid "Invalid username/password."
-msgstr ""
+msgstr "Numele de utilizator sau parola nu sunt valide."
