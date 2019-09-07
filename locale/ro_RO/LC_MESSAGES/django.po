@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-07 19:58+0000\n"
+"PO-Revision-Date: 2019-09-07 20:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -971,78 +971,78 @@ msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "Am preluat înregistrarea RIR pentru ASN-ul specificat"
 
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
-msgstr ""
+msgstr "dar nu a găsit nicio potrivire cu utilizatorul solicitant. Iată adresele e-mail pe care le-am adunat"
 
 msgid "Name"
-msgstr ""
+msgstr "Nume"
 
 msgid "Requested by user"
-msgstr ""
+msgstr "Solicitat de utilizator"
 
 msgid "You can go to"
-msgstr ""
+msgstr "Puteți merge la"
 
 msgid "to view and approve or deny this entry"
-msgstr ""
+msgstr "pentru a vedea și a aproba sau respinge această înregistrare"
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
-msgstr ""
+msgstr "Nivelul de sponsorizare %(i_label)s al '%(io_name)s' expiră la %(i_end_date)s."
 
 #, python-format
 msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
-msgstr ""
+msgstr "Cererea dvs. de afiliere la organizația '%(o_name)s' și entitățile deținute de aceasta a fost aprobată."
 
 msgid "This was the result of a manual review of your affiliation request to ASN"
-msgstr ""
+msgstr "Acesta a fost rezultatul unei revizuiri manuale a cererii dvs. de afiliere la ASN"
 
 msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
-msgstr ""
+msgstr "Acesta a fost rezultatul unei revizuiri manuale a cererii dvs. de afiliere la organizație sau una din entitățile sale."
 
 msgid "You may view and edit your organization at"
-msgstr ""
+msgstr "Puteți vedea și edita organizația dvs. la"
 
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "Dacă aveți întrebări, nu ezitați să contactați asistența PeeringDB la"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr ""
+msgstr "Ați inițiat o resetare de parolă la PeeringDB 2 - Vă rugăm să accesați URL-ul de mai jos pentru a vă reseta parola."
 
 msgid "If you did not initiate the password reset request, please ignore this email."
-msgstr ""
+msgstr "Dacă nu ați inițiat solicitarea de resetare a parolei, vă rugăm să ignorați acest e-mail."
 
 msgid "You requested a username retrieval on PeeringDB for the email address"
-msgstr ""
+msgstr "Ați solicitat o recuperare a numelui de utilizator din PeeringDB pentru adresa e-mail"
 
 msgid "Please follow the url below to view any usernames associated with your email."
-msgstr ""
+msgstr "Vă rugăm să accesați URL-ul de mai jos pentru a vedea numele de utilizatori asociate cu adresa de e-mail a dvs."
 
 msgid "If you did not request username retrieval, you can ignore this email."
-msgstr ""
+msgstr "Dacă nu ați solicitat furnizarea numelui de utilizator, puteți ignora acest e-mail."
 
 msgid "Our Culture"
-msgstr ""
+msgstr "Cultura noastră"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr ""
+msgstr "PeeringDB, după cum sugerează și numele, a fost înființat pentru a facilita peering-ul între rețele și coordonatori de peering. În ultimii ani, viziunea PeeringDB s-a dezvoltat astfel încât să țină pasul cu viteza și diversele moduri prin care internetul este în creștere. Baza de date nu se rezumă doar la peering și informații legate de peering. Ea include acum toate tipurile de date legate de interconectările între rețele, furnizori de cloud, furnizori de servicii și întreprinderi, precum și facilități de interconectare care se dezvoltă la marginea internetului."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr ""
+msgstr "Credem și ne bazăm pe comunitate pentru a crește și îmbunătăți baza de date a PeeringDB. Voluntarii care administrează baza de date sunt pasionați de securitate, confidențialitate, integritate și validarea datelor din baza de date. Chiar dacă PeeringDB este un instrument public și disponibil gratuit, utilizatorii respectă cu strictețe politica de utilizare acceptabilă, care împiedică utilizarea bazei de date în scopuri comerciale și descurajează comunicările nesolicitate. Această politică adoptată de comunitate și a fost foarte eficientă de la momentul lansării PeeringDB."
 
 msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr ""
+msgstr "Sunt un operator de rețea. Cum mă poate ajuta PeeringDB?"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
-msgstr ""
+msgstr "Aproape o treime din numerele de sistem autonome (ASN) își înregistrează datele de interconectare în baza de date PeeringDB. Aceasta înseamnă că, folosind PeeringDB și adăugând propriile date de interconectare, veți putea găsi cu încredere informații despre rețelele care doresc să interconecteze, unde și cum să vă conectați cu acestea și ceilalți vor putea găsi aceleași informații despre rețeaua dvs. Întrucât baza de date este întreținută de către utilizatori și validată de voluntari, puteți avea încredere că informațiile sunt corecte și actualizate."
 
 msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
-msgstr ""
+msgstr "Aceste date vă vor ajuta să accelerați procesul de identificare și conectare cu alte rețele, sprijinind în același timp o implementare mai rapidă și mai hotărâtă a propriilor dvs. planuri de extindere și dezvoltare a rețelei."
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr ""
+msgstr "Sunt un Internet Exchange (IXP), centru de date sau altă facilitate de interconectare. Cum mă poate ajuta PeeringDB?"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
-msgstr ""
+msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și menține informațiile lor în baza de date, crescând vizibilitatea și devenind mai interesanți pentru clienții noi și existenți. Dacă vă aflați în baza de date, acest lucru face mult mai ușor pentru alte rețele să găsească informații cruciale despre serviciile dvs. și despre celelalte rețele prezente în platforma dvs. IXP sau facilitățile dvs."
 
 msgid "Address"
 msgstr ""
