@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-07 18:58+0000\n"
+"PO-Revision-Date: 2019-09-07 19:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -917,58 +917,58 @@ msgstr "În baza noastră de date nu a existat nicio intrare care să corespund�
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr ""
+msgstr "Utilizatorul %(u_name)s (%(u_email)s) dorește să creeze o organizație numită %(o_name)s."
 
 msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
-msgstr ""
+msgstr "Nu a fost nicio înregistrare în baza noastră de date care să se potrivească cu numele organizației și nu a fost furnizat niciun ASN, deci este posibil să fie necesară crearea organizației."
 
 msgid "You may create a new organization here"
-msgstr ""
+msgstr "Puteți crea o organizație nouă aici"
 
 msgid "You may create a new network here"
-msgstr ""
+msgstr "Puteți crea o rețea nouă aici"
 
 #, python-format
 msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
-msgstr ""
+msgstr "utilizatorul %(user_name)s (%(u_email)s) dorește să se afilieze la organizația '%(o_name)s'"
 
 msgid "They also provided this ASN in their request"
-msgstr ""
+msgstr "De asemenea, ei au furnizat acest ASN în solicitarea lor"
 
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
-msgstr ""
+msgstr "ATENȚIE: Aceasta este o cerere de proprietate, aprobarea ei va acorda utilizatorului drepturi de administrare asupra organizației și a oricărei entități pe care o deține."
 
 msgid "These are the website addresses were able to derive from the organzation and it's entities"
-msgstr ""
+msgstr "Acestea sunt adresele website-urilor care au putut fi derivate din organizație și entitățile sale"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
-msgstr ""
+msgstr "Acestea sunt adresele e-mail pe care le-am putut extrage din ASN-urile care aparțin acestei organizații"
 
 msgid "The user is affiliated with other organizations"
-msgstr ""
+msgstr "Utilizatorul este afiliat la alte organizații"
 
 msgid "ADMIN"
-msgstr ""
+msgstr "ADMIN"
 
 msgid "MEMBER"
-msgstr ""
+msgstr "MEMBRU"
 
 msgid "Review Affiliation/Ownership Request"
-msgstr ""
+msgstr "Verificați cererea de afiliere/proprietate"
 
 msgid "Approve Ownership Request and Notify User"
-msgstr ""
+msgstr "Aprobă cererea de proprietate și notifică utilizatorul"
 
 #, python-format
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr ""
+msgstr "A fost creată o nouă entitate '%(entity_type_name)s' care necesită aprobare."
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr ""
+msgstr "Această %(entity_type_name)s a fost trimisă ca sugestie și va trebui să fie atribuită organizației corespunzătoare după revizuire"
 
 msgid "We retrieved the RiR entry for the specified ASN"
-msgstr ""
+msgstr "Am preluat înregistrarea RIR pentru ASN-ul specificat"
 
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr ""
