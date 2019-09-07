@@ -3,189 +3,190 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-09-07 15:58+0000\n"
+"Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
+"Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
+"Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 msgid "Ethernet"
-msgstr ""
+msgstr "Ethernet"
 
 msgid "ATM"
-msgstr ""
+msgstr "ATM"
 
 msgid "Multiple"
-msgstr ""
+msgstr "Multiple"
 
 msgid "Abuse"
-msgstr ""
+msgstr "Abuse"
 
 msgid "Maintenance"
-msgstr ""
+msgstr "Mentenanță"
 
 msgid "Policy"
-msgstr ""
+msgstr "Politici"
 
 msgid "Technical"
-msgstr ""
+msgstr "Tehnic"
 
 msgid "NOC"
-msgstr ""
+msgstr "NOC"
 
 msgid "Public Relations"
-msgstr ""
+msgstr "Relații Publice"
 
 msgid "Sales"
-msgstr ""
+msgstr "Vânzări"
 
 msgid "Open"
-msgstr ""
+msgstr "Deschis"
 
 msgid "Selective"
-msgstr ""
+msgstr "Selectiv"
 
 msgid "Restrictive"
-msgstr ""
+msgstr "Restrictiv"
 
 msgid "No"
-msgstr ""
+msgstr "Nu"
 
 msgid "Not Required"
-msgstr ""
+msgstr "Nu este necesar"
 
 msgid "Preferred"
-msgstr ""
+msgstr "Preferat"
 
 msgid "Required - US"
-msgstr ""
+msgstr "Necesar - SUA"
 
 msgid "Required - EU"
-msgstr ""
+msgstr "Necesar - UE"
 
 msgid "Required - International"
-msgstr ""
+msgstr "Necesar - internațional"
 
 msgid "Private Only"
-msgstr ""
+msgstr "Doar privat"
 
 msgid "Required"
-msgstr ""
+msgstr "Necesar"
 
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 msgid "Not Disclosed"
-msgstr ""
+msgstr "Nu este dezvăluit"
 
 msgid "Heavy Outbound"
-msgstr ""
+msgstr "Predominant de ieșire"
 
 msgid "Mostly Outbound"
-msgstr ""
+msgstr "Mai mult de ieșire"
 
 msgid "Balanced"
-msgstr ""
+msgstr "Echilibrat"
 
 msgid "Mostly Inbound"
-msgstr ""
+msgstr "Mai mult de intrare"
 
 msgid "Heavy Inbound"
-msgstr ""
+msgstr "Predominant de intrare"
 
 msgid "North America"
-msgstr ""
+msgstr "America de Nord"
 
 msgid "Asia Pacific"
-msgstr ""
+msgstr "Asia Pacific"
 
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 msgid "South America"
-msgstr ""
+msgstr "America de Sud"
 
 msgid "Africa"
-msgstr ""
+msgstr "Africa"
 
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Orientul Mijlociu"
 
 msgid "Regional"
-msgstr ""
+msgstr "Regional"
 
 msgid "Global"
-msgstr ""
+msgstr "Global"
 
 msgid "0-20 Mbps"
-msgstr ""
+msgstr "0-20 Mbps"
 
 msgid "20-100Mbps"
-msgstr ""
+msgstr "20-100 Mbps"
 
 msgid "100-1000Mbps"
-msgstr ""
+msgstr "100-1000 Mbps"
 
 msgid "1-5Gbps"
-msgstr ""
+msgstr "1-5 Gbps"
 
 msgid "5-10Gbps"
-msgstr ""
+msgstr "5-10 Gbps"
 
 msgid "10-20Gbps"
-msgstr ""
+msgstr "10-20 Gbps"
 
 msgid "20-50 Gbps"
-msgstr ""
+msgstr "20-50 Gbps"
 
 msgid "50-100 Gbps"
-msgstr ""
+msgstr "50-100 Gbps"
 
 msgid "100+ Gbps"
-msgstr ""
+msgstr "100+ Gbps"
 
 msgid "100-200 Gbps"
-msgstr ""
+msgstr "100-200 Gbps"
 
 msgid "200-300 Gbps"
-msgstr ""
+msgstr "200-300 Gbps"
 
 msgid "300-500 Gbps"
-msgstr ""
+msgstr "300-500 Gbps"
 
 msgid "500-1000 Gbps"
-msgstr ""
+msgstr "500-1000 Gbps"
 
 msgid "1 Tbps+"
-msgstr ""
+msgstr "1+ Tbps"
 
 msgid "10 Tbps+"
-msgstr ""
+msgstr "10+ Tbps"
 
 msgid "NSP"
-msgstr ""
+msgstr "NSP"
 
 msgid "Content"
-msgstr ""
+msgstr "Conținut"
 
 msgid "Cable/DSL/ISP"
-msgstr ""
+msgstr "Cablu/DSL/ISP"
 
 msgid "Enterprise"
-msgstr ""
+msgstr "Întreprindere"
 
 msgid "Educational/Research"
 msgstr ""
@@ -311,7 +312,7 @@ msgid "Approve"
 msgstr ""
 
 msgid "Deny"
-msgstr ""
+msgstr "Respinge"
 
 msgid "Change Password"
 msgstr ""
@@ -380,7 +381,7 @@ msgid "Only {} type objects may be restored through this interface at this point
 msgstr ""
 
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 msgid "Invalid export format"
 msgstr ""
@@ -1600,13 +1601,13 @@ msgid "dot1q"
 msgstr ""
 
 msgid "IXLAN"
-msgstr ""
+msgstr "IXLAN"
 
 msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 msgstr ""
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "Prefix IXLAN"
 
 msgid "Add Prefix"
 msgstr ""
@@ -1618,10 +1619,10 @@ msgid "Add LAN"
 msgstr ""
 
 msgid "Facility"
-msgstr ""
+msgstr "Facilitate"
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "legătura dintre Exchange și facilitate"
 
 msgid "Add Facility"
 msgstr ""
@@ -1657,7 +1658,7 @@ msgid "Speed"
 msgstr ""
 
 msgid "Exchange"
-msgstr ""
+msgstr "Exchange"
 
 msgid "IP"
 msgstr ""
@@ -1723,7 +1724,7 @@ msgid "RS Peer"
 msgstr ""
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "legătura dintre rețea și Exchange"
 
 msgid "Local ASN"
 msgstr ""
@@ -1738,7 +1739,7 @@ msgid "member"
 msgstr ""
 
 msgid "Remove"
-msgstr ""
+msgstr "Elimină"
 
 msgid "Manage"
 msgstr ""
