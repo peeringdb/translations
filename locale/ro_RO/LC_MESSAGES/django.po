@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-07 15:58+0000\n"
+"PO-Revision-Date: 2019-09-07 16:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -189,235 +189,235 @@ msgid "Enterprise"
 msgstr "Întreprindere"
 
 msgid "Educational/Research"
-msgstr ""
+msgstr "Educație/Cercetare"
 
 msgid "Non-Profit"
-msgstr ""
+msgstr "Non-Profit"
 
 msgid "Route Server"
-msgstr ""
+msgstr "Route Server"
 
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 msgid "Users"
-msgstr ""
+msgstr "Utilizatori"
 
 msgid "Public"
-msgstr ""
+msgstr "Public"
 
 msgid "Kosovo"
-msgstr ""
+msgstr "Kosovo"
 
 msgid "Status"
-msgstr ""
+msgstr "Stare"
 
 msgid "Target org cannot be in selected organizations list"
-msgstr ""
+msgstr "Elementul org vizat nu poate fi în lista de organizații selectată"
 
 msgid "ROLLBACK"
-msgstr ""
+msgstr "RESTAUREAZĂ"
 
 msgid "SOFT DELETE"
-msgstr ""
+msgstr "ȘTERGERE SOFT"
 
 msgid "Verification Queue is currently disabled"
-msgstr ""
+msgstr "În acest moment lista de așteptare în vederea verificării este dezactivată"
 
 msgid "Verification Queue is currently disabled for this object type"
-msgstr ""
+msgstr "În acest moment lista de așteptare în vederea verificării pentru acest tip de obiect este dezactivată"
 
 msgid "APPROVE"
-msgstr ""
+msgstr "APROBĂ"
 
 msgid "DENY"
-msgstr ""
+msgstr "RESPINGE"
 
 msgid "APPROVED"
-msgstr ""
+msgstr "APROBAT"
 
 msgid "Ipaddress already exists elsewhere"
-msgstr ""
+msgstr "Adresa IP mai există deja în altă parte"
 
 msgid "User is looking to be affiliated to these Organizations"
-msgstr ""
+msgstr "Utilizatorul dorește să se afilieze la aceste organizații"
 
 msgid "IXF Import History"
-msgstr ""
+msgstr "Istoricul importurilor IXF"
 
 msgid "Initial creation of netixlan"
-msgstr ""
+msgstr "Crearea inițială a netixlan"
 
 msgid "CAN BE ROLLED BACK"
-msgstr ""
+msgstr "POATE FI RESTAURAT"
 
 msgid "CANNOT BE ROLLED BACK"
-msgstr ""
+msgstr "NU POATE FI RESTAURAT"
 
 msgid "Has been changed since"
-msgstr ""
+msgstr "S-a modificat de la"
 
 msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr ""
+msgstr "Elementul netixlan cu adresa IP aflată în conflict se află acum în altă parte"
 
 msgid "HAS BEEN ROLLED BACK"
-msgstr ""
+msgstr "A FOST RESTAURAT"
 
 msgid "Organization"
-msgstr ""
+msgstr "Organizatie"
 
 msgid "Not Set"
-msgstr ""
+msgstr "Nu a fost setat"
 
 msgid "Logo Missing"
-msgstr ""
+msgstr "Lipsește sigla"
 
 msgid "Active"
-msgstr ""
+msgstr "Activ"
 
 msgid "Over"
-msgstr ""
+msgstr "Peste"
 
 msgid "Waiting"
-msgstr ""
+msgstr "Așteptare"
 
 msgid "Malformed organization ids"
-msgstr ""
+msgstr "ID-uri malformate ale organizației"
 
 msgid "Merge target organization does not exist"
-msgstr ""
+msgstr "Îmbinarea cu organizația vizată nu există"
 
 msgid "Organization Merging Tool"
-msgstr ""
+msgstr "Instrumentul de îmbinare a organizațiilor"
 
 msgid "Undo merge"
-msgstr ""
+msgstr "Anulează îmbinarea"
 
 msgid "APPROVE selected items"
-msgstr ""
+msgstr "APROBĂ elementele selectate"
 
 msgid "DENY and delete selected items"
-msgstr ""
+msgstr "RESPINGE și șterge elementele selectate"
 
 msgid "View"
-msgstr ""
+msgstr "Vezi"
 
 msgid "Affiliation request was approved and the user was notified."
-msgstr ""
+msgstr "Cererea de afiliere a fost aprobată și utilizatorul a fost notificat."
 
 msgid "Approve and notify User"
-msgstr ""
+msgstr "Aprobă și notifică utilizatorul"
 
 msgid "Approve"
-msgstr ""
+msgstr "Aprobă"
 
 msgid "Deny"
 msgstr "Respinge"
 
 msgid "Change Password"
-msgstr ""
+msgstr "Schimbă parola"
 
 msgid "Edit Permissions"
-msgstr ""
+msgstr "Editează permisiunile"
 
 msgid "VERIFIED"
-msgstr ""
+msgstr "VERIFICAT"
 
 msgid "UNVERIFIED"
-msgstr ""
+msgstr "NEVERIFICAT"
 
 msgid "User Permission"
-msgstr ""
+msgstr "Permisiunea utilizatorului"
 
 msgid "User Permissions"
-msgstr ""
+msgstr "Permisiunile utilizatorilor"
 
 msgid "Duplicate IP"
-msgstr ""
+msgstr "Copiază adresa IP"
 
 msgid "Duplicate IPs"
-msgstr ""
+msgstr "Copiază adresele IP"
 
 msgid "Updated"
-msgstr ""
+msgstr "Actualizat"
 
 msgid "Only POST requests allowed."
-msgstr ""
+msgstr "Doar solicitările de tip POST sunt permise."
 
 msgid "{} (Preview)"
-msgstr ""
+msgstr "{} (Previzualizare)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "Această comandă este deja în așteptare / rulare - vă rugăm să așteptați să se termine înainte de a o executa din nou"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
+msgstr "Această comandă durează un timp pentru a fi finalizată și va fi pusă pe lista de așteptare și rulată în fundal. Niciun jurnal de ieșire nu poate fi generat în acest moment. Puteți reveni de îndată ce această comandă va fi finalizată."
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "Prefix vechi - renumerotați toate netixlan-urile care se încadrează în acest prefix"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+msgstr "Prefix nou - trebuie sa fie același protocol și lungime ca prefixul vechi"
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "Îmbină această facilitate - ea va fi ștearsă"
 
 msgid "Target facility"
-msgstr ""
+msgstr "Facilitatea vizată"
 
 msgid "Undo this merge"
-msgstr ""
+msgstr "Anulează această îmbinare"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
+msgstr "Nu ștergeți utilizatorii. Rețineți că conturile de superutilizatori sunt păstrate întotdeauna - indiferent de această setare."
 
 msgid "Load data from peeringdb API"
-msgstr ""
+msgstr "Încarcă datele din PeeringDB API"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "Restaurați acest obiect - căutați după [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "În acest moment doar obiectele de tip {} pot fi restabilite prin intermediul acestei interfețe"
 
 msgid "Yes"
 msgstr "Da"
 
 msgid "Invalid export format"
-msgstr ""
+msgstr "Formatul exportului nu este valid"
 
 msgid "Invalid tag"
-msgstr ""
+msgstr "Eticheta nu este validă"
 
 msgid "Invalid permission level"
-msgstr ""
+msgstr "Nivelul de autorizare nu este valid"
 
 msgid "ASN needs to be a number"
-msgstr ""
+msgstr "ASN trebuie să fie un număr"
 
 msgid "Needs to be at least 10 characters long"
-msgstr ""
+msgstr "Trebuie să aibă cel puțin 10 caractere"
 
 msgid "Passwords need to match"
-msgstr ""
+msgstr "Parolele trebuie să se potrivească"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
+msgstr "Completați câmpul de verificare anti-spam (captcha)"
 
 msgid "reCAPTCHA invalid"
-msgstr ""
+msgstr "reCAPTCHA nu este valid"
 
 msgid "captcha invalid"
-msgstr ""
+msgstr "captcha nu este valid"
 
 msgid "Please wait a bit before requesting another ixf import preview."
-msgstr ""
+msgstr "Așteptați puțin înainte de a solicita o nouă previzualizare a importului IXF."
 
 msgid "Ixlan not found"
-msgstr ""
+msgstr "Ixlan nu a fost găsit"
 
 msgid "Permission denied"
-msgstr ""
+msgstr "Accesul nu este permis"
 
 msgid "Please wait a bit before requesting another IX-F import postmortem."
 msgstr ""
@@ -429,124 +429,124 @@ msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
 msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
+msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
 
 msgid "IXF import url not specified"
-msgstr ""
+msgstr "URL-ul importului IXF nu este specificat"
 
 msgid "No JSON could be parsed"
-msgstr ""
+msgstr "Niciun JSON nu a putut fi analizat"
 
 msgid "IX-F data not locally cached for this resource yet."
 msgstr ""
 
 msgid "No entries in any of the vlan_list lists, aborting."
-msgstr ""
+msgstr "Nu există înregistrări în niciunul din elementele vlan_lists, se anulează operațiunea."
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
+msgstr "Nu există prefixe definite pe ixlan"
 
 msgid "ASN no longer in data"
-msgstr ""
+msgstr "ASN nu mai este în date"
 
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr ""
+msgstr "Adresele IP nu mai există în datele validate sau nu mai sunt cu acest ASN"
 
 msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr ""
+msgstr "Cel puțin o adresă IP nu este corespunzătoare iar rețeaua a dezactivat actualizările"
 
 msgid "Network status is '{}'"
-msgstr ""
+msgstr "Starea rețelei este '{}'"
 
 msgid "Network does not exist in peeringdb"
-msgstr ""
+msgstr "Rețeaua nu există în PeeringDB"
 
 msgid "Invalid member type: {}"
-msgstr ""
+msgstr "Tipul de membru nu este valid: {}"
 
 msgid "Invalid connection state: {}"
-msgstr ""
+msgstr "Starea conexiunii nu este validă: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
+msgstr "Nu se poate găsi o adresă IPv4 sau IPv6 în înregistrarea vlan_list pentru vlan_id {} (AS{})"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
+msgstr "Eroare la adresa IP '{}' în înregistrarea vlan_list pentru vlan_id {}"
 
 msgid "Connection is currently marked as inactive"
-msgstr ""
+msgstr "Conexiunea este marcată în prezent ca fiind inactivă"
 
 msgid "Network has disabled ixp updates"
-msgstr ""
+msgstr "Rețeaua a dezactivat actualizările IXP"
 
 msgid "New ip-address"
-msgstr ""
+msgstr "Adresă IP nouă"
 
 msgid "Fields changed: {}"
-msgstr ""
+msgstr "Câmpuri modificate: {}"
 
 msgid "No changes"
-msgstr ""
+msgstr "Nu s-au făcut modificări"
 
 msgid "Invalid speed value: {}"
-msgstr ""
+msgstr "Valoarea vitezei nu este validă: {}"
 
 msgid "{} Merge Notification: {} -> {}"
-msgstr ""
+msgstr "{} Îmbină notificarea: {} -> {}"
 
 msgid "Silver"
-msgstr ""
+msgstr "Argint"
 
 msgid "Gold"
-msgstr ""
+msgstr "Aur"
 
 msgid "Platinum"
-msgstr ""
+msgstr "Platină"
 
 msgid "Diamond"
-msgstr ""
+msgstr "Diamant"
 
 msgid "Data Validation"
-msgstr ""
+msgstr "Validarea datelor"
 
 msgid "RIR"
-msgstr ""
+msgstr "RIR"
 
 msgid "Renumber IP Space"
-msgstr ""
+msgstr "Renumerotează spațiul IP"
 
 msgid "Merge Facilities"
-msgstr ""
+msgstr "Îmbină facilitățile"
 
 msgid "Merge Facilities: UNDO"
-msgstr ""
+msgstr "Îmbină facilitățile: ANULEAZĂ"
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "Restaurează obiect(ele)"
 
 msgid "Reset Environment"
-msgstr ""
+msgstr "Resetează mediul"
 
 msgid "IX-F Import"
 msgstr ""
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgstr ""
+msgstr "Are latitudinea și longitudinea acestui obiect a fost sincronizată cu câmpurile de adrese"
 
 msgid "Last time of attempted geocode"
-msgstr ""
+msgstr "Ultima încercare a geocode"
 
 msgid "Error message of previous geocode attempt"
-msgstr ""
+msgstr "Mesajul de eroare de la încercarea anterioară geocode"
 
 msgid "Address not found"
-msgstr ""
+msgstr "Adresa nu a fost găsită"
 
 msgid "API Timeout"
-msgstr ""
+msgstr "API a expirat"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
-msgstr ""
+msgstr "Această organizație din baza noastră de date care a derivat din ASN-ul sau numele organizației furnizate. Dacă acest lucru este gol înseamnă că nu a fost găsită nicio organizație potrivită."
 
 msgid "The organization name entered by the user"
 msgstr ""
