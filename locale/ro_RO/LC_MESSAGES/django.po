@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-07 23:58+0000\n"
+"PO-Revision-Date: 2019-09-08 08:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -33,7 +33,7 @@ msgid "Maintenance"
 msgstr "Mentenanță"
 
 msgid "Policy"
-msgstr "Politici"
+msgstr "Politică"
 
 msgid "Technical"
 msgstr "Tehnic"
@@ -213,7 +213,7 @@ msgid "Status"
 msgstr "Stare"
 
 msgid "Target org cannot be in selected organizations list"
-msgstr "Elementul org vizat nu poate fi în lista de organizații selectată"
+msgstr "Elementul org vizat nu poate fi în lista organizațiilor selectate"
 
 msgid "ROLLBACK"
 msgstr "RESTAUREAZĂ"
@@ -237,7 +237,7 @@ msgid "APPROVED"
 msgstr "APROBAT"
 
 msgid "Ipaddress already exists elsewhere"
-msgstr "Adresa IP mai există deja în altă parte"
+msgstr "Adresa IP există deja în altă parte"
 
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Utilizatorul dorește să se afilieze la aceste organizații"
@@ -264,10 +264,10 @@ msgid "HAS BEEN ROLLED BACK"
 msgstr "A FOST RESTAURAT"
 
 msgid "Organization"
-msgstr "Organizatie"
+msgstr "Organizație"
 
 msgid "Not Set"
-msgstr "Nu a fost setat"
+msgstr "Nu este setat"
 
 msgid "Logo Missing"
 msgstr "Lipsește sigla"
@@ -291,34 +291,34 @@ msgid "Organization Merging Tool"
 msgstr "Instrumentul de îmbinare a organizațiilor"
 
 msgid "Undo merge"
-msgstr "Anulează îmbinarea"
+msgstr "Anulați îmbinarea"
 
 msgid "APPROVE selected items"
-msgstr "APROBĂ elementele selectate"
+msgstr "APROBAȚI elementele selectate"
 
 msgid "DENY and delete selected items"
-msgstr "RESPINGE și șterge elementele selectate"
+msgstr "RESPINGEȚI și ștergeți elementele selectate"
 
 msgid "View"
-msgstr "Vezi"
+msgstr "Vedeți"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Cererea de afiliere a fost aprobată și utilizatorul a fost notificat."
 
 msgid "Approve and notify User"
-msgstr "Aprobă și notifică utilizatorul"
+msgstr "Aprobați și notificați utilizatorul"
 
 msgid "Approve"
-msgstr "Aprobă"
+msgstr "Aprobați"
 
 msgid "Deny"
 msgstr "Respingeți"
 
 msgid "Change Password"
-msgstr "Schimbă parola"
+msgstr "Schimbați parola"
 
 msgid "Edit Permissions"
-msgstr "Editează permisiunile"
+msgstr "Editați permisiunile"
 
 msgid "VERIFIED"
 msgstr "VERIFICAT"
@@ -333,10 +333,10 @@ msgid "User Permissions"
 msgstr "Permisiunile utilizatorilor"
 
 msgid "Duplicate IP"
-msgstr "Copiază adresa IP"
+msgstr "Copiați adresa IP"
 
 msgid "Duplicate IPs"
-msgstr "Copiază adresele IP"
+msgstr "Copiați adresele IP"
 
 msgid "Updated"
 msgstr "Actualizat"
@@ -360,19 +360,19 @@ msgid "New prefix - needs to be the same protocol and length as old prefix"
 msgstr "Prefix nou - trebuie sa fie același protocol și lungime ca prefixul vechi"
 
 msgid "Merge this facility - it will be deleted"
-msgstr "Îmbină această facilitate - ea va fi ștearsă"
+msgstr "Îmbinați această facilitate - ea va fi ștearsă"
 
 msgid "Target facility"
 msgstr "Facilitatea vizată"
 
 msgid "Undo this merge"
-msgstr "Anulează această îmbinare"
+msgstr "Anulați această îmbinare"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
 msgstr "Nu ștergeți utilizatorii. Rețineți că conturile de superutilizatori sunt păstrate întotdeauna - indiferent de această setare."
 
 msgid "Load data from peeringdb API"
-msgstr "Încarcă datele din PeeringDB API"
+msgstr "Încărcați datele din PeeringDB API"
 
 msgid "Restore this object - search by [reftag] [id]"
 msgstr "Restaurați acest obiect - căutați după [reftag] [id]"
@@ -396,7 +396,7 @@ msgid "ASN needs to be a number"
 msgstr "ASN trebuie să fie un număr"
 
 msgid "Needs to be at least 10 characters long"
-msgstr "Trebuie să aibă cel puțin 10 caractere"
+msgstr "Trebuie să aibă o lungime de cel puțin 10 caractere"
 
 msgid "Passwords need to match"
 msgstr "Parolele trebuie să se potrivească"
@@ -462,7 +462,7 @@ msgid "Network does not exist in peeringdb"
 msgstr "Rețeaua nu există în PeeringDB"
 
 msgid "Invalid member type: {}"
-msgstr "Tipul de membru nu este valid: {}"
+msgstr "Categoria de membru nu este validă: {}"
 
 msgid "Invalid connection state: {}"
 msgstr "Starea conexiunii nu este validă: {}"
@@ -1330,7 +1330,7 @@ msgid "Reset Password"
 msgstr "Resetează parola"
 
 msgid "The password for your account"
-msgstr "Parola contului dvs."
+msgstr "Parola pentru contul dvs."
 
 msgid "has been reset, proceed to the"
 msgstr "a fost resetată, vă rugăm să accesați"
