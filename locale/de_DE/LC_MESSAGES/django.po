@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-20 14:58+0000\n"
-"Last-Translator: Tobias Mädel <peeringdb@as203478.net>\n"
+"PO-Revision-Date: 2019-09-09 21:58+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -420,18 +420,14 @@ msgstr "Ixlan wurde nicht gefunden"
 msgid "Permission denied"
 msgstr "Berechtigung verweigert"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting another ixf import preview."
 msgid "Please wait a bit before requesting another IX-F import postmortem."
 msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "Network not found"
-msgstr "Adresse nicht gefunden"
+msgstr "Netz wurde nicht gefunden"
 
 msgid "Postmortem length cannot exceed {} entries"
-msgstr ""
+msgstr "Die Länge des Postmortem darf {} Einträge nicht überschreiten"
 
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
@@ -443,7 +439,7 @@ msgid "No JSON could be parsed"
 msgstr "JSON konnte nicht analyisert werden"
 
 msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
+msgstr "IX-F Daten wurden für diese Ressource noch nicht lokal im Cache abgelegt."
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
@@ -532,10 +528,8 @@ msgstr "Stelle Objekt(e) wieder her"
 msgid "Reset Environment"
 msgstr "Setze Umgebung zurück"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import"
-msgstr "IX-F Import Bericht"
+msgstr "IX-F Import"
 
 # # unklare Funktion
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
@@ -1701,15 +1695,13 @@ msgid "Add Contact"
 msgstr "Kontakt hinzufügen"
 
 msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
-msgstr ""
+msgstr "Unten finden Sie eine Vorschau auf Änderungen, die beim nächsten IX-F Datenimport an Ihrem Netz vorgenommen werden. Der eigentliche Import läuft einmal am Tag um 00:00Z"
 
 msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
-msgstr ""
+msgstr "Wir benutzen lokal gecachte IX-F Daten, um diese Vorschau zu generieren. Falls Sie Änderungen bei IX-F Daten eines Exchnages erwarten, so warten Sie bitte etwas, damit diese hier wiedergegeben werden."
 
-#, fuzzy
-#| msgid "Location"
 msgid "action"
-msgstr "Ort"
+msgstr "Aktion"
 
 #, fuzzy
 #| msgid "Exchange"
@@ -1717,7 +1709,7 @@ msgid "exchange"
 msgstr "Austauschpunkt"
 
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr ""
