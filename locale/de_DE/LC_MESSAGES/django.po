@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-09 22:58+0000\n"
+"PO-Revision-Date: 2019-09-12 18:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1703,8 +1703,6 @@ msgstr "Wir benutzen lokal gecachte IX-F Daten, um diese Vorschau zu generieren.
 msgid "action"
 msgstr "Aktion"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "exchange"
 msgstr "Austauschpunkt"
 
@@ -1712,7 +1710,7 @@ msgid "Close"
 msgstr "Schließen"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
-msgstr ""
+msgstr "Nachstehend finden Sie ein Protokoll der Änderungen, die an Ihren Austauschverbindungen infolge von IX-F-Datenimporten vorgenommen wurden. Beachten Sie, dass dies keine Anpassungen enthält, die von Mitarbeitern vorgenommen wurden, um solche Änderungen rückgängig zu machen. Sie sollten daher als unformatiertes Protokoll der vom IX-F-Datenimport ausgeführten Aktionen angesehen werden."
 
 msgid "Showing most recent"
 msgstr "Anzeige der Neuesten"
@@ -2021,13 +2019,11 @@ msgstr "IXP-Updates erlauben"
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgstr "Wenn aktiviert, darf ein IXP den Eintrag dieses Netzwerkes in seiner Peeringliste verwalten"
 
-#, fuzzy
-#| msgid "Allow IXP Update"
 msgid "IXP Update Tools"
-msgstr "IXP-Updates erlauben"
+msgstr "IXP-Update Werkzeug"
 
 msgid "Postmortem"
-msgstr "Postmortem"
+msgstr "Post mortem"
 
 msgid "Peering Policy Information"
 msgstr "Peeringrichtlinien-Information"
