@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-07-17 15:58+0000\n"
-"Last-Translator: Diego Dominguez <diegoman@fb.com>\n"
+"PO-Revision-Date: 2019-09-13 05:58+0000\n"
+"Last-Translator: Pete Sclafani <pete@6connect.com>\n"
 "Language-Team: Spanish <https://translate.peeringdb.com/projects/peeringdb/server/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -206,7 +206,7 @@ msgid "Users"
 msgstr "Usuarios"
 
 msgid "Public"
-msgstr ""
+msgstr "Publico"
 
 msgid "Kosovo"
 msgstr ""
@@ -350,19 +350,19 @@ msgid "{} (Preview)"
 msgstr "{} (Vista Previa)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "Este comando ya está en cola / ejecutándose, por favor espere a que termine antes de tratar de ejecutarlo otra vez"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
+msgstr "Como este comando toma bastante tiempo en completarse, se pondrá en cola y se ejecutará en segundo plano. No se puede proporcionar ningún registro de salida en este momento. Se va poder revisar una vez que el comando haya terminado."
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "Prefijo antiguo: vuelva a numerar todos los netixlans que se caen en este prefijo"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+msgstr "Prefijo nuevo: debe tener el mismo protocolo y la misma longitud que el prefijo antiguo"
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "Fusionar esta instalación: se va borrar"
 
 #, fuzzy
 #| msgid "Facility"
@@ -375,16 +375,16 @@ msgid "Undo this merge"
 msgstr "Anular fusión/combinación"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
+msgstr "No elimines usuarios. Debes notar que las cuentas de superusuario siempre se mantienen, independientemente de esta configuración."
 
 msgid "Load data from peeringdb API"
-msgstr ""
+msgstr "Cargar datos de la API PeeringDB"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "Restaurar este objeto - buscar por [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "Solo objetos de tipo {} se pueden restaurarse a través de esta interfaz en este momento"
 
 msgid "Yes"
 msgstr "Sí"
@@ -408,13 +408,13 @@ msgid "Passwords need to match"
 msgstr "Las contraseñas tienen que coincidir"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
+msgstr "Por favor complete el campo desafío anti-spam (captcha)"
 
 msgid "reCAPTCHA invalid"
 msgstr "reCAPTCHA inválido"
 
 msgid "captcha invalid"
-msgstr ""
+msgstr "captcha inválido"
 
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
@@ -426,26 +426,22 @@ msgstr "Por favor espere un momento antes de solicitar otro cambio de email"
 msgid "Ixlan not found"
 msgstr "Dirección no encontrada"
 
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "Permisos"
+msgstr "Permiso denegado"
 
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another IX-F import postmortem."
 msgstr "Por favor espere un momento antes de solicitar otro cambio de email"
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "Network not found"
-msgstr "Dirección no encontrada"
+msgstr "Red no encontrada"
 
 msgid "Postmortem length cannot exceed {} entries"
-msgstr ""
+msgstr "La longitud postmortem no puede exceder {} entradas"
 
 msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
+msgstr "Los ASN en este rango no se permiten en este entorno"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -456,16 +452,16 @@ msgid "No JSON could be parsed"
 msgstr "Ningún JSON fue analizado"
 
 msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
+msgstr "Los datos IX-F todavia no se almacenaron en caché local para este recurso."
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "No hay entradas en ninguna de las listas vlan_list, abortando."
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
+msgstr "No hay prefijos definidos en ixlan"
 
 msgid "ASN no longer in data"
-msgstr ""
+msgstr "ASN ya no está presente en los datos"
 
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
 msgstr ""
