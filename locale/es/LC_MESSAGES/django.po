@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-13 05:58+0000\n"
+"PO-Revision-Date: 2019-09-13 21:58+0000\n"
 "Last-Translator: Pete Sclafani <pete@6connect.com>\n"
 "Language-Team: Spanish <https://translate.peeringdb.com/projects/peeringdb/server/es/>\n"
 "Language: es\n"
@@ -464,26 +464,22 @@ msgid "ASN no longer in data"
 msgstr "ASN ya no está presente en los datos"
 
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr ""
+msgstr "Las direcciones IP ya no existen en los datos validados o ya no están con este ASN"
 
 msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr ""
+msgstr "Por lo menos una dirección IP no coincide y la red ha deshabilitado las actualizaciones"
 
 msgid "Network status is '{}'"
-msgstr ""
+msgstr "Estado de la red es '{}'"
 
 msgid "Network does not exist in peeringdb"
-msgstr ""
+msgstr "Red no existe en PeeringDB"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid member type: {}"
-msgstr "Prefijo inválido: {}"
+msgstr "Tipo de miembre inválido: {}"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid connection state: {}"
-msgstr "Prefijo inválido: {}"
+msgstr "Estado de conexión inválido: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
 msgstr ""
