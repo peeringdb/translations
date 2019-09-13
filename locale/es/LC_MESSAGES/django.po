@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-13 21:58+0000\n"
+"PO-Revision-Date: 2019-09-13 22:58+0000\n"
 "Last-Translator: Pete Sclafani <pete@6connect.com>\n"
 "Language-Team: Spanish <https://translate.peeringdb.com/projects/peeringdb/server/es/>\n"
 "Language: es\n"
@@ -482,34 +482,28 @@ msgid "Invalid connection state: {}"
 msgstr "Estado de conexión inválido: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
+msgstr "No se pudo encontrar la dirección IPv4 o IPv6 en la entrada vlan_list para vlan_id {} (AS {})"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
+msgstr "Error de dirección IP '{}' en la entrada vlan_list para vlan_id {}"
 
 msgid "Connection is currently marked as inactive"
-msgstr ""
+msgstr "Conexión ahora está marcada como inactiva"
 
 msgid "Network has disabled ixp updates"
-msgstr ""
+msgstr "Red ha deshabilitado las actualizaciones de ixp"
 
-#, fuzzy
-#| msgid "email address"
 msgid "New ip-address"
-msgstr "correo electrónico"
+msgstr "Nueva dirección IP"
 
 msgid "Fields changed: {}"
-msgstr ""
+msgstr "Campos cambiados : {}"
 
-#, fuzzy
-#| msgid "Exchanges"
 msgid "No changes"
-msgstr "Punto de intercambio de tráfico"
+msgstr "Sin cambios"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: {}"
-msgstr "Prefijo inválido: {}"
+msgstr "Valor de velocidad inválido: {}"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Notificación de fusión: {} -> {}"
@@ -535,26 +529,20 @@ msgstr "RIR"
 msgid "Renumber IP Space"
 msgstr "Cambiar IPes"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Merge Facilities"
-msgstr "Instalaciones"
+msgstr "Fusionar instalaciones"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Merge Facilities: UNDO"
-msgstr "Instalaciones privadas"
+msgstr "Fusionar instalaciones: DESHACER"
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "Restaurar Objeto(s)"
 
 msgid "Reset Environment"
-msgstr ""
+msgstr "Restablecer Entorno"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import"
-msgstr "Registro de Importación IXF"
+msgstr "Importar IX-F"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr "¿Han sido sincronizados la latitud y longitud de esta objeto a sus campos de dirección"
@@ -686,10 +674,10 @@ msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this netw
 msgstr "Especifica si se permite a un IXP para agrega una entrada netixlan a esta red por medio de su información de miembro_ixp ixp_member"
 
 msgid "IPv4 address outside of prefix"
-msgstr ""
+msgstr "Dirección IPv4 fuera del prefijo"
 
 msgid "IPv6 address outside of prefix"
-msgstr ""
+msgstr "Dirección IPv6 fuera del prefijo"
 
 msgid "Ip address already exists elsewhere"
 msgstr "Dirección IP ya está en uso"
