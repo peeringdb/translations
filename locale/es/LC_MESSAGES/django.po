@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-13 22:58+0000\n"
+"PO-Revision-Date: 2019-09-13 23:58+0000\n"
 "Last-Translator: Pete Sclafani <pete@6connect.com>\n"
 "Language-Team: Spanish <https://translate.peeringdb.com/projects/peeringdb/server/es/>\n"
 "Language: es\n"
@@ -740,7 +740,7 @@ msgid "result log"
 msgstr "registro de resultados"
 
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "Texto descriptivo del comando que se puede buscar"
 
 msgid "the user that ran this command"
 msgstr "el usuario que ejecutó este comando"
@@ -749,10 +749,10 @@ msgid "command was run at this date and time"
 msgstr "se ejecutó el comando en esta fecha y hora"
 
 msgid "Done"
-msgstr ""
+msgstr "Terminado"
 
 msgid "Running"
-msgstr ""
+msgstr "Corriendo"
 
 msgid "Organization and all Entities it owns"
 msgstr "Organización y todas las entidades que posee"
@@ -799,11 +799,11 @@ msgid "This field is required"
 msgstr "Campo obligatorio"
 
 msgid "RDAP Lookup Error"
-msgstr ""
+msgstr "Error de búsqueda RDAP"
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
+msgstr "Este campo solo está permitido para estas solicitudes: {methods}"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
@@ -813,15 +813,12 @@ msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s ha sido eliminada"
 
-#, fuzzy
-#| msgid "Change email address"
 msgid "Specify at least one email address"
-msgstr "Cambiar sus correos electrónicos"
+msgstr "Especifique al menos una dirección de correo electrónico"
 
-#, fuzzy, python-format
-#| msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
+#, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr "el usuario %(user_name) s (%(u_email) s) desea estar afiliado a la Organización '%(o_name) s'"
+msgstr "Usuario %(u_name)s desea estar afiliado a su Organización"
 
 msgid "Confirm your e-mail address"
 msgstr "Por favor, Confirme su correo electrónico"
@@ -982,7 +979,7 @@ msgstr "Un nuevo ‘%(entity_type_name)s’ has sido creador requiere su aprobac
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr ""
+msgstr "Este %(entity_type_name)s  se ha presentado una sugerencia y deberá asignarse a la organización apropiada después de revisión"
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "Hemos recogido la entrada RIR para el ASN especificado"
@@ -1041,13 +1038,13 @@ msgid "Our Culture"
 msgstr "Nuestra Cultura"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr ""
+msgstr "PeeringDB, como su nombre lo indica, se creó para facilitar la interconexión entre redes y coordinadores de interconexión. En los últimos años, la visión de PeeringDB se ha desarrollado para mantenerse con la velocidad y la forma diversa en que Internet está creciendo. Un base de datos ya no es solo para mirar e información relacionada. Ahora incluye todos los tipos de datos de interconexión para redes, nubes, servicios y empresas, así como las instalaciones de interconexión que se están desarrollando en el borde de Internet."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr ""
+msgstr "Creemos y confiamos en la comunidad para crecer y mejorar la base de datos de PeeringDB. Los voluntarios que manejan la base de datos son apasionados de la seguridad, privacidad, integridad y validación de la información que esta contenido en la base de datos. Aunque PeeringDB es una herramienta pública y de acceso libre, los usuarios se adhieren estrictamente a la política de uso aceptable, que impide que la base de datos se use con fines comerciales y desalienta las comunicaciones no solicitadas. Esto está controlado en gran medida por la comunidad y ha sido muy efectivo desde que se lanzó PeeringDB."
 
 msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr ""
+msgstr "Soy un operador de red. ¿Cómo me puede ayudar PeeringDB?"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
 msgstr ""
