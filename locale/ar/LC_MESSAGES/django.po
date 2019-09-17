@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-02 15:58+0000\n"
+"PO-Revision-Date: 2019-09-17 09:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -38,9 +38,8 @@ msgstr "سياسة"
 msgid "Technical"
 msgstr "تقني"
 
-#, fuzzy
 msgid "NOC"
-msgstr "مركز عمليات الشبكة"
+msgstr "مركز إدارة الشبكة"
 
 msgid "Public Relations"
 msgstr "العلاقات العامة"
@@ -1444,89 +1443,94 @@ msgid "You won't have full access until we or the organization you are affiliate
 msgstr ""
 
 msgid "Select language"
-msgstr ""
+msgstr "اختر اللغة"
 
 msgid "Language preference saved"
-msgstr ""
+msgstr "تم حفظ اللغة المفضلة"
 
 msgid "Set language preference"
-msgstr ""
+msgstr "ضبط اللغة المفضلة"
 
 msgid "Account Created"
-msgstr ""
+msgstr "تم إنشاء الحساب"
 
 msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
-msgstr ""
+msgstr "تم إنشاء حسابك ، ولكن لن يكون له حق الوصول الكامل حتى نراجعه. شكرا لك على صبرك."
 
 msgid "Return Home"
-msgstr ""
+msgstr "العودة إلى الصفحة الرئيسية"
 
 msgid "Create account"
-msgstr ""
+msgstr "إنشاء حساب"
 
 msgid "Confirm password"
-msgstr ""
+msgstr "تأكيد كلمة المرور"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr ""
+msgstr "للتحقق السريع، من الضروري أن تستخدم نفس البريد إلكتروني الخاص بالعمل. إذا كنت تخطط لتسجيل رقم النظام المستقل ASN الخاص بك في قاعدة بيانات PeeringDB ، فمن المستحسن أن تستخدم عنوان بريد إلكتروني موجود في تفاصيل الاتصال العامة الخاصة بـرقم النظام المستقل ASN الخاص بك."
 
 msgid "First name"
-msgstr ""
+msgstr "الاسم الأول"
 
 msgid "Last name"
-msgstr ""
+msgstr "اسم العائلة (الكنية)"
 
+#, fuzzy
 msgid "Loading anti-spam challenge"
-msgstr ""
+msgstr "تحميل تحدي مكافحة البريد المزعج"
 
 msgid "Create"
-msgstr ""
+msgstr "انشاء"
 
 msgid "Thank you"
-msgstr ""
+msgstr "شكرا"
 
-#, python-format
+#, fuzzy, python-format
 msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr ""
+msgstr "تم استلام طلب الملكية الخاص  بـ   %(o_name)s وسوف تتم مراجعته ."
 
+#, fuzzy
 msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr ""
+msgstr "تم التحقق بنجاح من علاقتك بهذا الكيان ( المؤسسة، المنظمة) . يمكنك  الان العرض / التحرير"
 
 msgid "Request Ownership"
-msgstr ""
+msgstr "طلب ملكية"
 
 msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr ""
+msgstr "الرجاء تنفيذ طلب الملكية فقط إذا كنت متأكدًا من أن لديك الحق في القيام بذلك. هل أنت متأكد أنك تريد المتابعة؟"
 
+#, fuzzy
 msgid "Only verified users may request ownership to an organization"
-msgstr ""
+msgstr "يمكن للمستخدمين الذين تم التحقق منهم فقط طلب \"ملكية مؤسسة\""
 
 msgid "Suggest Exchange"
 msgstr ""
 
+#, fuzzy
 msgid "Suggest Network"
-msgstr ""
+msgstr "اقتراح لشبكة"
 
+#, fuzzy
 msgid "Become a Sponsor"
-msgstr ""
+msgstr "انضم للداعمون والرعاه"
 
 msgid "This server is running in TUTORIAL MODE"
-msgstr ""
+msgstr "يعمل هذا الخادم في الوضع \"التعليمي\" وليس وضع \"التشغيل الأساسي\""
 
 msgid "These are the usernames associated with your email address"
-msgstr ""
+msgstr "هذه هي أسماء المستخدمين المرتبطة بعنوان بريدك الإلكتروني"
 
 msgid "The secret you provided does not match the secret required to complete this process"
-msgstr ""
+msgstr "\"الرمز السري\" الذي قدمته لا يتطابق مع الرمز السري المطلوب لإكمال هذه العملية"
 
 msgid "Note"
-msgstr ""
+msgstr "ملاحظه"
 
 msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr ""
+msgstr "يجب عليك إكمال العملية في نفس المستعرض web browser الذي قمت ببدء تشغيله في الأصل."
 
 msgid "Please re-initiate it"
-msgstr ""
+msgstr "يرجى إعادة البدء"
 
 msgid "This form allows you to retrieve the usernames associated with your email address."
 msgstr ""
