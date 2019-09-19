@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-19 11:58+0000\n"
+"PO-Revision-Date: 2019-09-19 12:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1677,28 +1677,29 @@ msgid "Long Name"
 msgstr ""
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
-msgstr ""
+msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
-msgstr ""
+msgstr "يتم إخفاء بعض جهات الاتصال لهذه الشبكة لأن حساب المستخدم الخاص بك لا ينتمي إلى أي مؤسسة."
 
+#, fuzzy
 msgid "Role"
-msgstr ""
+msgstr "دور"
 
 msgid "Visiblity"
 msgstr ""
 
 msgid "Phone"
-msgstr ""
+msgstr "الهاتف"
 
 msgid "E-Mail"
-msgstr ""
+msgstr "البريد الالكتروني"
 
 msgid "Visibility"
 msgstr ""
 
 msgid "Add Contact"
-msgstr ""
+msgstr "إضافة جهة اتصال"
 
 msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
 msgstr ""
@@ -1706,29 +1707,32 @@ msgstr ""
 msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
 msgstr ""
 
+#, fuzzy
 msgid "action"
-msgstr ""
+msgstr "الاجراء"
 
 msgid "exchange"
-msgstr ""
+msgstr "تبادل"
 
+#, fuzzy
 msgid "Close"
-msgstr ""
+msgstr "اغلاق"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr ""
 
 msgid "Showing most recent"
-msgstr ""
+msgstr "عرض أحدث"
 
 msgid "changes"
-msgstr ""
+msgstr "التغييرات"
 
+#, fuzzy
 msgid "Refresh"
-msgstr ""
+msgstr "تحديث"
 
 msgid "Public Peering Exchange Points"
-msgstr ""
+msgstr "نقاط تبادل التناظر العامة Public Peering Exchange Points"
 
 msgid "RS Peer"
 msgstr ""
@@ -1740,40 +1744,40 @@ msgid "Local ASN"
 msgstr ""
 
 msgid "Speed (mbit/sec)"
-msgstr ""
+msgstr "السرعة (ميقابت/ثانية)"
 
 msgid "Add Exchange Point"
-msgstr ""
+msgstr "إضافة نقطة تبادل"
 
 msgid "member"
-msgstr ""
+msgstr "عضو"
 
 msgid "Remove"
 msgstr "حذف / إزاله"
 
 msgid "Manage"
-msgstr ""
+msgstr "إداره"
 
 msgid "Add Network"
-msgstr ""
+msgstr "إضافة شبكة"
 
 msgid "Add Exchange"
 msgstr ""
 
 msgid "Permissions"
-msgstr ""
+msgstr "صلاحيات"
 
 msgid "Website"
-msgstr ""
+msgstr "الموقع الإلكتروني"
 
 msgid "Address 1"
-msgstr ""
+msgstr "العنوان ١"
 
 msgid "Address 2"
-msgstr ""
+msgstr "العنوان ٢"
 
 msgid "Zip-Code"
-msgstr ""
+msgstr "الرمز البريدي"
 
 msgid "CLLI Code"
 msgstr ""
