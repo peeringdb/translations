@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-19 12:58+0000\n"
+"PO-Revision-Date: 2019-09-22 10:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1855,52 +1855,57 @@ msgid "Additionally, entities that are pending review cannot be permissioned out
 msgstr ""
 
 msgid "Update"
-msgstr ""
+msgstr "تحديث"
 
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 msgid "Thank you for your suggestion."
-msgstr ""
+msgstr "شكرا على اقتراحكم."
 
+#, fuzzy
 msgid "Suggest another facility"
-msgstr ""
+msgstr "اقترح خدمة تسهيلية اخرى"
 
 msgid "Only verified users may suggest entities."
 msgstr ""
 
 msgid "Suggest another exchange"
-msgstr ""
+msgstr "اقترح نقطة تبادل الإنترنت اخرى"
 
 msgid "Suggest another network"
-msgstr ""
+msgstr "اقترح شبكة اخرى"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr ""
+msgstr "لا يتطابق عنوان بريدك الإلكتروني مع معلومات النطاق (domain information) الموجودة في ملف هذه المؤسسة."
 
+#, fuzzy
 msgid "seconds ago"
-msgstr ""
+msgstr "منذ ثوانى"
 
+#, fuzzy
 msgid "minutes ago"
-msgstr ""
+msgstr "منذ دقائق"
 
+#, fuzzy
 msgid "hours ago"
-msgstr ""
+msgstr "منذ ساعات"
 
 msgid "days ago"
-msgstr ""
+msgstr "منذ أيام"
 
+#, fuzzy
 msgid "Invalid prefix: {}"
-msgstr ""
+msgstr "بادئة غير صالحة: {}"
 
 msgid "Address space invalid: {}"
-msgstr ""
+msgstr "نطاق عناوين الانترنت غير صحيح: {}"
 
 msgid "Maximum allowed prefix length is {}"
-msgstr ""
+msgstr "الحد الأقصى المسموح به لطول البادئة العنوان هو {}"
 
 msgid "Minimum allowed prefix length is {}"
-msgstr ""
+msgstr "الحد الأدني المسموح به لطول البادئة العنوان هو {}"
 
 msgid "Maximum value allowed {}"
 msgstr ""
