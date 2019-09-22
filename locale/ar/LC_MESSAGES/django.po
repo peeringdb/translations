@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-22 10:58+0000\n"
+"PO-Revision-Date: 2019-09-22 11:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1908,56 +1908,58 @@ msgid "Minimum allowed prefix length is {}"
 msgstr "الحد الأدني المسموح به لطول البادئة العنوان هو {}"
 
 msgid "Maximum value allowed {}"
-msgstr ""
+msgstr "القيمة القصوى المسموح بها {}"
 
 msgid "Negative value not allowed"
-msgstr ""
+msgstr "القيمة السالبة غير مسموح بها"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr ""
+msgstr "تتداخل بادئة العنوان  {} مع بادئة: {}"
 
 msgid "Please wait a bit before requesting ownership again."
-msgstr ""
+msgstr "الرجاء الانتظار قليلاً قبل اجراء طلب الملكية مرة أخرى."
 
 msgid "Invalid organization"
-msgstr ""
+msgstr "المنظمة غير صحيحة"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Organization '%(org_name)s' is already under ownership"
 msgstr ""
+"(org_name)%\n"
+"هي بالفعل تحت الملكية"
 
 msgid "Organization does not exist"
-msgstr ""
+msgstr "المنظمة غير موجودة"
 
 msgid "You already have an ownership request pending for this organization"
-msgstr ""
+msgstr "لديك بالفعل طلب ملكية معلق في هذه المؤسسة"
 
 msgid "Please wait a bit before requesting affiliation again."
-msgstr ""
+msgstr "الرجاء الانتظار قليلاً قبل طلب الانتساب مرة أخرى."
 
 msgid "Either ASN or Organization required"
-msgstr ""
+msgstr "إما رقم النظام المستقل (ASN) أو اسم المنظمة مطلوب"
 
 msgid "RDAP Lookup Error: {}"
 msgstr ""
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
-msgstr ""
+msgstr "الرجاء الانتظار قليلاً قبل محاولة إعادة إرسال \"رسالة تأكيد البريد الإلكتروني\" مرة أخرى"
 
 msgid "We have resent your confirmation email"
-msgstr ""
+msgstr "تم إعادة إرسال رسالة التأكيد لبريدك الإكتروني"
 
 msgid "Please wait a bit before requesting another email change"
-msgstr ""
+msgstr "الرجاء الانتظار قليلاً قبل طلب تغيير البريد الإكتروني"
 
 msgid "E-mail already exists in our system"
-msgstr ""
+msgstr "البريد الإلكتروني موجود بالفعل في النظام"
 
 msgid "Wrong password"
-msgstr ""
+msgstr "كلمة المرور خاطئة"
 
 msgid "Please wait a bit before requesting your usernames again."
-msgstr "الرجاء الانتظار قليلاً قبل طلب أسماء المستخدمين مرة أخرى."
+msgstr "الرجاء الانتظار قليلاً قبل اجراء طلب \"أسماء المستخدمين\" مرة أخرى."
 
 msgid "Invalid Security Token"
 msgstr "رمز الأمان غير صالح"
@@ -1985,13 +1987,13 @@ msgid "Notes"
 msgstr "ملاحظات"
 
 msgid "Markdown enabled"
-msgstr ""
+msgstr "تفعيل \"وضع علامة لأسفل\""
 
 msgid "Geocode"
 msgstr "الرمز الجغرافي"
 
 msgid "Protocols Supported"
-msgstr ""
+msgstr "البروتوكولات المدعومة/ المتاحة"
 
 msgid "Contact Information"
 msgstr "بيانات الاتصال"
