@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-22 11:58+0000\n"
+"PO-Revision-Date: 2019-09-23 09:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1620,28 +1620,28 @@ msgid "IXLAN Prefix"
 msgstr ""
 
 msgid "Add Prefix"
-msgstr ""
+msgstr "إضافة بادئة عنوان انترنت"
 
 msgid "IXF Import Enabled"
 msgstr ""
 
 msgid "Add LAN"
-msgstr ""
+msgstr "إضافة شبكة محلية"
 
 msgid "Facility"
-msgstr ""
+msgstr "خدمة تسهيلية"
 
 msgid "Exchange - Facility link"
 msgstr ""
 
 msgid "Add Facility"
-msgstr ""
+msgstr "إضافة خدمة تسهيلية"
 
 msgid "IX-F Import Preview"
 msgstr ""
 
 msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
-msgstr ""
+msgstr "سيتم تشغيل عملية استيراد البيانات الفعلي مرة واحدة يوميًا في الساعة 00:00- استخدم هذا لمعاينة التغييرات التي سيتم إجراؤها"
 
 msgid "Changes"
 msgstr "التغييرات"
@@ -1656,10 +1656,10 @@ msgid "routeserver"
 msgstr "خادم التوجيه"
 
 msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
-msgstr ""
+msgstr "في بعض الأحيان نواجه بعض الأخطاء عند تحليل بيانات ix-f ، ستؤثر هذه عادة على عملية استيراد البيانات ، ويمكنك عرض أي من هذه الأخطاء أدناه"
 
 msgid "Peers at this Exchange Point"
-msgstr ""
+msgstr "النظائر/ الأقران في نقطة التبادل الانترنت هذه"
 
 msgid "Peer Name"
 msgstr "اسم النظير Peer"
@@ -1673,8 +1673,9 @@ msgstr "تبادل"
 msgid "IP"
 msgstr "عنوان بروتوكول الانترنت"
 
+#, fuzzy
 msgid "Long Name"
-msgstr ""
+msgstr "الاسم طويل"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
@@ -1687,7 +1688,7 @@ msgid "Role"
 msgstr "دور"
 
 msgid "Visiblity"
-msgstr ""
+msgstr "رؤية"
 
 msgid "Phone"
 msgstr "الهاتف"
@@ -1696,20 +1697,19 @@ msgid "E-Mail"
 msgstr "البريد الالكتروني"
 
 msgid "Visibility"
-msgstr ""
+msgstr "رؤية"
 
 msgid "Add Contact"
 msgstr "إضافة جهة اتصال"
 
 msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
-msgstr ""
+msgstr "فيما يلي معاينة للتغييرات التي سيتم إجراؤها على شبكتك أثناء عملية استيراد بيانات IX-F . سيتم تشغيل الاستيراد الفعلي مرة واحدة يوميًا في الساعة 00:00"
 
 msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
-msgstr ""
+msgstr "نحن نستخدم بيانات IX-F المخزنة مؤقتًا محليًا لإنشاء هذه المعاينة - إذا كنت تتوقع تغييرات في بيانات IX-F ، يرجى الانتظار بعض الوقت حتي تنعكس هنا."
 
-#, fuzzy
 msgid "action"
-msgstr "الاجراء"
+msgstr "إجراء"
 
 msgid "exchange"
 msgstr "تبادل"
@@ -1720,6 +1720,8 @@ msgstr "اغلاق"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr ""
+"ادناه سجل من التغييرات التي أُجريت علي الشبكة  -&gt; بيانات تبادل الاتصال بناءا علي عمليه استيراد بيانات IX-F\n"
+"ملاحظة، هذا السجل لا يحتوي على أي تعديلات قام بها الموظفون لاستعادة هذه التغييرات ، ولكن يجب أن ينظر إليها كسجل أولي للإجراءات التي اتخذتها عملية استيراد بيانات IX-F"
 
 msgid "Showing most recent"
 msgstr "عرض أحدث"
@@ -1735,13 +1737,13 @@ msgid "Public Peering Exchange Points"
 msgstr "نقاط تبادل التناظر العامة Public Peering Exchange Points"
 
 msgid "RS Peer"
-msgstr ""
+msgstr "نظير مخدم التوجيه RS"
 
 msgid "Network - Exchange link"
 msgstr ""
 
 msgid "Local ASN"
-msgstr ""
+msgstr "رقم النظام المستقل المحلي"
 
 msgid "Speed (mbit/sec)"
 msgstr "السرعة (ميقابت/ثانية)"
@@ -1786,70 +1788,72 @@ msgid "Traffic Ratios"
 msgstr ""
 
 msgid "Unicast IPv4"
-msgstr ""
+msgstr "عناوين بروتوكول الانترنت الاصدارة الرابعة"
 
 msgid "Multicast"
-msgstr ""
+msgstr "بث/ اتصال متعدد"
 
 msgid "Policy URL"
-msgstr ""
+msgstr "الرابط الإلكتروني للسياسة"
 
 msgid "Multiple Locations"
-msgstr ""
+msgstr "مواقع متعددة"
 
 msgid "Ratio Requirement"
 msgstr ""
 
+#, fuzzy
 msgid "Contract Requirement"
-msgstr ""
+msgstr "متطلبات العقد"
 
 msgid "Add a new Network to your Organization."
-msgstr ""
+msgstr "إضافة شبكة جديدة إلى المؤسسة/المنظمة."
 
 msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
-msgstr ""
+msgstr "سنحاول التحقق تلقائيًا من علاقتك بالشبكة من خلال التحقق من عنوان بريدك الإلكتروني في قاعدة بيانات المسجل RiR الخاص برقم النظام المستقل ASN."
 
 msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr ""
+msgstr "في حالة فشل التحقق، يجب أن تتم الموافقة على الشبكة من قبل موظفي قاعدة بيانات التناظر PeeringDB قبل ظهورها في نتائج البحث أو قوائم API."
 
 msgid "Submit Network"
-msgstr ""
+msgstr "تقديم / اضافة شبكة"
 
 msgid "for assistance with the creation of your network in PeeringDB."
-msgstr ""
+msgstr "للحصول على المساعدة في إنشاء الشبكة الخاصة بك بقاعدة بيانات التناظر PeeringDB."
 
 msgid "Traffic Stats Website"
-msgstr ""
+msgstr "الرابط الإلكتروني لإحصائيات بيانات الاتصال Traffic Stats"
 
 msgid "Technical E-mail"
-msgstr ""
+msgstr "البريد الإلكتروني للجهة التقنية"
 
 msgid "Technical Phone"
-msgstr ""
+msgstr "رقم الهاتف للجهة التقنية"
 
 msgid "Policy E-mail"
-msgstr ""
+msgstr "البريد الإلكتروني لجهه سياسات IXP"
 
 msgid "Policy Phone"
-msgstr ""
+msgstr "رقم الهاتف لجهه سياسات IXP"
 
 msgid "IPv4 or IPv6 prefix"
-msgstr ""
+msgstr "بادئة عنوان انترنت الاصدارة الرابعة او السادسة"
 
 msgid "Confirmed"
-msgstr ""
+msgstr "تم التأكيد"
 
 msgid "Date"
-msgstr ""
+msgstr "التاريخ"
 
 msgid "Currently no users requesting affiliation with"
-msgstr ""
+msgstr "حاليا لا يوجد مستخدمون يطلبون الانتساب إلى"
 
 msgid "Group"
-msgstr ""
+msgstr "مجموعه"
 
+#, fuzzy
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr ""
+msgstr "هنا يمكنك منح الأذونات/ الصلاحيات للأعضاء او المستخدمين في مؤسستك. لا يتم سرد المستخدمين الإداريين Admin  هنا حيث لديهم حق الوصول إلى كل شيء بشكل افتراضي."
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
 msgstr ""
