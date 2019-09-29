@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-29 09:58+0000\n"
+"PO-Revision-Date: 2019-09-29 10:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -412,21 +412,23 @@ msgstr "اختبار التمييز (reCAPTCHA) غير صحيح"
 msgid "captcha invalid"
 msgstr "كلمة التحقق غير صحيحة"
 
+#, fuzzy
 msgid "Please wait a bit before requesting another ixf import preview."
-msgstr ""
-
-msgid "Ixlan not found"
-msgstr ""
+msgstr "الرجاء الانتظار قليلا قبل اجراء طلب معاينه استيراد بيانات ixf آخر."
 
 #, fuzzy
-msgid "Permission denied"
-msgstr "الصلاحيات مرفوضة"
+msgid "Ixlan not found"
+msgstr "لم يتم العثور علي ixlan"
 
+msgid "Permission denied"
+msgstr "طلب الاذن مرفوض"
+
+#, fuzzy
 msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr ""
+msgstr "الرجاء الانتظار قليلا قبل اجراء طلب استيراد بيانات IX-F آخر"
 
 msgid "Network not found"
-msgstr ""
+msgstr "لم يتم العثور علي الشبكة"
 
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
