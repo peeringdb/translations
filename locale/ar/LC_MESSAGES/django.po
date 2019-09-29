@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-23 09:58+0000\n"
+"PO-Revision-Date: 2019-09-29 09:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -243,7 +243,7 @@ msgid "User is looking to be affiliated to these Organizations"
 msgstr "هذا المستخدم يطلب أن يكون منتسب إلى هذه المنظمات"
 
 msgid "IXF Import History"
-msgstr ""
+msgstr "ارشيف سجل استيراد بيانات IXF"
 
 msgid "Initial creation of netixlan"
 msgstr ""
@@ -278,9 +278,8 @@ msgstr "فعّال/ نشط"
 msgid "Over"
 msgstr "أكثر"
 
-#, fuzzy
 msgid "Waiting"
-msgstr "انتظر"
+msgstr "انتظار"
 
 msgid "Malformed organization ids"
 msgstr ""
@@ -321,7 +320,6 @@ msgstr "تغيير كلمة المرور"
 msgid "Edit Permissions"
 msgstr "تعديل/ تغيير الصلاحيات"
 
-#, fuzzy
 msgid "VERIFIED"
 msgstr "مؤكد"
 
@@ -343,8 +341,9 @@ msgstr "عناوين بروتوكول الإنترنت مكرره"
 msgid "Updated"
 msgstr "تم التحديث"
 
+#, fuzzy
 msgid "Only POST requests allowed."
-msgstr ""
+msgstr "تم السماح بطلبات POST فقط."
 
 msgid "{} (Preview)"
 msgstr "{} (معاينة)"
@@ -365,7 +364,7 @@ msgid "Merge this facility - it will be deleted"
 msgstr "دمج هذا المرفق - سيتم حذفه"
 
 msgid "Target facility"
-msgstr ""
+msgstr "الخدمة التسهيلية المطلوبه"
 
 msgid "Undo this merge"
 msgstr "التراجع عن الدمج"
@@ -386,7 +385,7 @@ msgid "Yes"
 msgstr "نعم"
 
 msgid "Invalid export format"
-msgstr ""
+msgstr "صيغة التنسيق لتصدير البيانات غير صحيحه"
 
 msgid "Invalid tag"
 msgstr "علامة غير صحيحة"
@@ -398,18 +397,18 @@ msgid "ASN needs to be a number"
 msgstr "رقم النظام المستقل (ASN) يجب ان يكون رقم"
 
 msgid "Needs to be at least 10 characters long"
-msgstr ""
+msgstr "يجب ان يكون الطول علي الأقل 10 أحرف"
 
 msgid "Passwords need to match"
-msgstr ""
+msgstr "يجب ان تتطابق كلمات المرور"
 
+#, fuzzy
 msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
+msgstr "يرجى ملء حقل كلمة التحقق (captcha)"
 
 msgid "reCAPTCHA invalid"
 msgstr "اختبار التمييز (reCAPTCHA) غير صحيح"
 
-#, fuzzy
 msgid "captcha invalid"
 msgstr "كلمة التحقق غير صحيحة"
 
