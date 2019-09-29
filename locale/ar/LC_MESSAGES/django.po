@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-29 10:58+0000\n"
+"PO-Revision-Date: 2019-09-29 11:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -433,11 +433,12 @@ msgstr "لم يتم العثور علي الشبكة"
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
+#, fuzzy
 msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
+msgstr "لا يسمح  باستخدام أرقام النظام المستقل ASNs في هذا النطاق"
 
 msgid "IXF import url not specified"
-msgstr ""
+msgstr "الرابط الإلكتروني لاستيراد بيانات IXF غير محدد"
 
 msgid "No JSON could be parsed"
 msgstr ""
@@ -451,27 +452,26 @@ msgstr ""
 msgid "No prefixes defined on ixlan"
 msgstr ""
 
-#, fuzzy
 msgid "ASN no longer in data"
-msgstr "إسم النطاق الذاتي لم يعد ضمن البيانات"
+msgstr "رقم النظام المستقل لم يعد ضمن البيانات"
 
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
 msgstr "عناوين برتوكول الانترنت لم تعد موجودة في البيانات التي تم التحقق منها أو لم تعد موجودة ضمن اسم النطاق الذاتي (ASN)"
 
 msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr ""
+msgstr "عدم تطابق عنوان انترنت IP واحد على الأقل، و تم تعطيل تحديثات الشبكة"
 
 msgid "Network status is '{}'"
-msgstr ""
+msgstr "حالة الشبكة هي '{}'"
 
 msgid "Network does not exist in peeringdb"
-msgstr ""
+msgstr "الشبكة غير موجودة في قاعدة بيانات التناظر peeringdb"
 
 msgid "Invalid member type: {}"
-msgstr ""
+msgstr "نوع العضو غير صحيح: {}"
 
 msgid "Invalid connection state: {}"
-msgstr ""
+msgstr "حالة الاتصال غير صحيح: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
 msgstr ""
@@ -479,47 +479,49 @@ msgstr ""
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
 
+#, fuzzy
 msgid "Connection is currently marked as inactive"
-msgstr ""
+msgstr "تم وضع علامة على الاتصال حاليًا على أنه غير نشط"
 
 msgid "Network has disabled ixp updates"
 msgstr ""
 
 msgid "New ip-address"
-msgstr ""
+msgstr "عنوان انترنت جديد"
 
+#, fuzzy
 msgid "Fields changed: {}"
-msgstr ""
+msgstr "تم تغيير الحقول: {}"
 
 msgid "No changes"
-msgstr ""
+msgstr "لا توجد تغييرات"
 
 msgid "Invalid speed value: {}"
-msgstr ""
+msgstr "قيم سرعة الاتصال غير صحيحة : {}"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr ""
 
 msgid "Silver"
-msgstr ""
+msgstr "فضي"
 
 msgid "Gold"
-msgstr ""
+msgstr "ذهبي"
 
 msgid "Platinum"
-msgstr ""
+msgstr "بلاتينيوم"
 
 msgid "Diamond"
-msgstr ""
+msgstr "ماسي"
 
 msgid "Data Validation"
-msgstr ""
+msgstr "التحقق من صحة البيانات"
 
 msgid "RIR"
-msgstr ""
+msgstr "مسجل الانترنت الإقليمي"
 
 msgid "Renumber IP Space"
-msgstr ""
+msgstr "إعادة ترقيم نطاق عناوين الانترنت IP"
 
 msgid "Merge Facilities"
 msgstr ""
@@ -534,19 +536,21 @@ msgid "Reset Environment"
 msgstr ""
 
 msgid "IX-F Import"
-msgstr ""
+msgstr "استيراد بيانات IX-F"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgstr ""
 
+#, fuzzy
 msgid "Last time of attempted geocode"
-msgstr ""
+msgstr "آخر مرة لمحاولة الترميز الجغرافي"
 
+#, fuzzy
 msgid "Error message of previous geocode attempt"
-msgstr ""
+msgstr "رسالة خطأ لمحاولة الترميز الجغرافي السابقة"
 
 msgid "Address not found"
-msgstr ""
+msgstr "لم يتم العثور على العنوان"
 
 msgid "API Timeout"
 msgstr ""
