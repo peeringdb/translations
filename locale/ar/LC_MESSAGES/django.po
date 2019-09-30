@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-30 12:58+0000\n"
+"PO-Revision-Date: 2019-09-30 13:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1855,12 +1855,11 @@ msgstr "حاليا لا يوجد مستخدمون يطلبون الانتساب 
 msgid "Group"
 msgstr "مجموعه"
 
-#, fuzzy
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr "هنا يمكنك منح الأذونات/ الصلاحيات للأعضاء او المستخدمين في مؤسستك. لا يتم سرد المستخدمين الإداريين Admin  هنا حيث لديهم حق الوصول إلى كل شيء بشكل افتراضي."
+msgstr "هنا يمكنك منح الأذونات/ الصلاحيات للأعضاء او المستخدمين في مؤسستك. لا يتم سرد المستخدم/المستخدمين الرئيسي  Administrative users  هنا حيث لديهم حق الوصول إلى كل شيء بشكل افتراضي."
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr ""
+msgstr "بالإضافة إلى ذلك ، لا يمكن التعامل مع الكيانات التي في انتظار المراجعة، ولن تظهر في قائمة الكيانات."
 
 msgid "Update"
 msgstr "تحديث"
@@ -1876,7 +1875,7 @@ msgid "Suggest another facility"
 msgstr "اقترح خدمة تسهيلية اخرى"
 
 msgid "Only verified users may suggest entities."
-msgstr ""
+msgstr "يمكن للمستخدمين الذين تم التحقق منهم فقط اقتراح كيانات."
 
 msgid "Suggest another exchange"
 msgstr "اقترح نقطة تبادل الإنترنت اخرى"
