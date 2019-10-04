@@ -1258,14 +1258,19 @@ msgstr "Σπόνσορες"
 msgid "Resources"
 msgstr "Πόροι"
 
-msgid "FAQ"
-msgstr ""
+#, fuzzy
+#| msgid "AUP"
+msgid "API"
+msgstr "ΠΟΧ"
 
 msgid "Documentation"
 msgstr "Εγχειρίδιο"
 
-msgid "API Documentation"
-msgstr "Εγχειρίδιο API"
+msgid "FAQ"
+msgstr ""
+
+msgid "Governance"
+msgstr ""
 
 msgid "Contact Us"
 msgstr "Επικοινωνήστε μαζί μας"
@@ -2121,6 +2126,9 @@ msgstr "Ο λογαριασμός έχει απενεργοποιηθεί"
 
 msgid "Invalid username/password."
 msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
+
+#~ msgid "API Documentation"
+#~ msgstr "Εγχειρίδιο API"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Ta τρία πιο αριστερά octets του αρχικού prefix - π.χ. xxx.xxx.xxx"

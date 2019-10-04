@@ -1230,14 +1230,19 @@ msgstr "Patrocinadores"
 msgid "Resources"
 msgstr "Recursos"
 
-msgid "FAQ"
-msgstr ""
+#, fuzzy
+#| msgid "AUP"
+msgid "API"
+msgstr "AUP"
 
 msgid "Documentation"
 msgstr "Documentação"
 
-msgid "API Documentation"
-msgstr "Documentação da API"
+msgid "FAQ"
+msgstr ""
+
+msgid "Governance"
+msgstr ""
 
 msgid "Contact Us"
 msgstr "Contate-Nos"
@@ -2094,6 +2099,9 @@ msgstr "Conta desativada."
 
 msgid "Invalid username/password."
 msgstr "Nome de usuário/senha inválido."
+
+#~ msgid "API Documentation"
+#~ msgstr "Documentação da API"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Três octetos mais à esquerda do prefixo de original - ex. xxx.xxx.xxx"

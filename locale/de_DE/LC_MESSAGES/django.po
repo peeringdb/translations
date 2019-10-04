@@ -1221,14 +1221,19 @@ msgstr "Sponsoren"
 msgid "Resources"
 msgstr "Ressourcen"
 
-msgid "FAQ"
-msgstr "FAQ (Häufig gestellte Fragen)"
+#, fuzzy
+#| msgid "AUP"
+msgid "API"
+msgstr "Nutzungsbedingung"
 
 msgid "Documentation"
 msgstr "Dokumentation"
 
-msgid "API Documentation"
-msgstr "API-Dokumentation"
+msgid "FAQ"
+msgstr "FAQ (Häufig gestellte Fragen)"
+
+msgid "Governance"
+msgstr ""
 
 msgid "Contact Us"
 msgstr "Kontaktieren Sie uns"
@@ -2039,6 +2044,9 @@ msgstr "Account deaktiviert."
 
 msgid "Invalid username/password."
 msgstr "Ungültiger Benutzername/Passwort."
+
+#~ msgid "API Documentation"
+#~ msgstr "API-Dokumentation"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Die ersten drei Oktets von links des ursprünglichen Prefixes - z.B. xxx.xxx.xxx"

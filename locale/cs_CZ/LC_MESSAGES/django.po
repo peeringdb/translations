@@ -1261,14 +1261,19 @@ msgstr "Sponzoři"
 msgid "Resources"
 msgstr "Zdroje"
 
-msgid "FAQ"
-msgstr ""
+#, fuzzy
+#| msgid "AUP"
+msgid "API"
+msgstr "Podmínky využití"
 
 msgid "Documentation"
 msgstr "Dokumentace"
 
-msgid "API Documentation"
-msgstr "Dokumentace rozhraní API"
+msgid "FAQ"
+msgstr ""
+
+msgid "Governance"
+msgstr ""
 
 msgid "Contact Us"
 msgstr "Kontaktujte nás"
@@ -2148,6 +2153,9 @@ msgstr "Účet zablokován."
 
 msgid "Invalid username/password."
 msgstr "Neplatné uživatelské jméno / heslo."
+
+#~ msgid "API Documentation"
+#~ msgstr "Dokumentace rozhraní API"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Tři levé oktety původního prefixu - např. xxx.xxx.xxx"

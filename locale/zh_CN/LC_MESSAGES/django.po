@@ -1230,14 +1230,19 @@ msgstr "赞助商"
 msgid "Resources"
 msgstr "资源"
 
-msgid "FAQ"
-msgstr "常见问题"
+#, fuzzy
+#| msgid "AUP"
+msgid "API"
+msgstr "可接受使用政策"
 
 msgid "Documentation"
 msgstr "文档"
 
-msgid "API Documentation"
-msgstr "API 文档"
+msgid "FAQ"
+msgstr "常见问题"
+
+msgid "Governance"
+msgstr ""
 
 msgid "Contact Us"
 msgstr "联系我们"
@@ -2061,6 +2066,9 @@ msgstr "帐户已禁用。"
 
 msgid "Invalid username/password."
 msgstr "无效的用户名/密码。"
+
+#~ msgid "API Documentation"
+#~ msgstr "API 文档"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "原始前缀最左侧的三个字节 - 例如 xxx.xxx.xxx"

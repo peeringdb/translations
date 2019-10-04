@@ -1236,14 +1236,19 @@ msgstr "贊助商"
 msgid "Resources"
 msgstr "資源"
 
-msgid "FAQ"
-msgstr ""
+#, fuzzy
+#| msgid "AUP"
+msgid "API"
+msgstr "可接受使用政策"
 
 msgid "Documentation"
 msgstr "文檔"
 
-msgid "API Documentation"
-msgstr "API 文檔"
+msgid "FAQ"
+msgstr ""
+
+msgid "Governance"
+msgstr ""
 
 msgid "Contact Us"
 msgstr "聯繫我們"
@@ -2079,6 +2084,9 @@ msgstr "帳戶已禁用。"
 
 msgid "Invalid username/password."
 msgstr "無效的用戶名/密碼。"
+
+#~ msgid "API Documentation"
+#~ msgstr "API 文檔"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "原始首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"

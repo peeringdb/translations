@@ -1242,14 +1242,19 @@ msgstr "スポンサー"
 msgid "Resources"
 msgstr "情報リソース"
 
-msgid "FAQ"
-msgstr "FAQ"
+#, fuzzy
+#| msgid "AUP"
+msgid "API"
+msgstr "利用規定"
 
 msgid "Documentation"
 msgstr "ドキュメント"
 
-msgid "API Documentation"
-msgstr "API 関連のドキュメント"
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Governance"
+msgstr ""
 
 msgid "Contact Us"
 msgstr "連絡先"
@@ -2083,6 +2088,9 @@ msgstr "アカウントが無効です"
 
 msgid "Invalid username/password."
 msgstr "無効なユーザ名・パスワードです"
+
+#~ msgid "API Documentation"
+#~ msgstr "API 関連のドキュメント"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "元プレフィクスの左側3オクテット - 例. xxx.xxx.xxx"
