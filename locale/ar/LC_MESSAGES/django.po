@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-10-06 14:58+0000\n"
+"PO-Revision-Date: 2019-10-06 15:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -433,7 +433,6 @@ msgstr "لم يتم العثور علي الشبكة"
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
-#, fuzzy
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "لا يسمح  باستخدام أرقام النظام المستقل ASNs في هذا النطاق"
 
@@ -441,7 +440,7 @@ msgid "IXF import url not specified"
 msgstr "الرابط الإلكتروني لاستيراد بيانات IXF غير محدد"
 
 msgid "No JSON could be parsed"
-msgstr ""
+msgstr "لا يمكن تحليل بيانات JSON"
 
 msgid "IX-F data not locally cached for this resource yet."
 msgstr ""
@@ -450,7 +449,7 @@ msgid "No entries in any of the vlan_list lists, aborting."
 msgstr ""
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
+msgstr "لم يتم تعريف بادئات عناوين شبكة التناظر"
 
 msgid "ASN no longer in data"
 msgstr "رقم النظام المستقل لم يعد ضمن البيانات"
@@ -479,17 +478,15 @@ msgstr ""
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
 
-#, fuzzy
 msgid "Connection is currently marked as inactive"
-msgstr "تم وضع علامة على الاتصال حاليًا على أنه غير نشط"
+msgstr "تم وضع علامة \"غير نشط\" على رابط الاتصال الحالي"
 
 msgid "Network has disabled ixp updates"
-msgstr ""
+msgstr "تم تعطيل تحديثات عناوين نقطة تبادل الإنترنت"
 
 msgid "New ip-address"
 msgstr "عنوان انترنت جديد"
 
-#, fuzzy
 msgid "Fields changed: {}"
 msgstr "تم تغيير الحقول: {}"
 
@@ -500,7 +497,7 @@ msgid "Invalid speed value: {}"
 msgstr "قيم سرعة الاتصال غير صحيحة : {}"
 
 msgid "{} Merge Notification: {} -> {}"
-msgstr ""
+msgstr "{} دمج الاشعار:   {} -> {}"
 
 msgid "Silver"
 msgstr "فضي"
@@ -530,22 +527,20 @@ msgid "Merge Facilities: UNDO"
 msgstr ""
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "استعادة المتغير (المتغيرات)"
 
 msgid "Reset Environment"
-msgstr ""
+msgstr "إعادة الضبط الافتراضي"
 
 msgid "IX-F Import"
 msgstr "استيراد بيانات IX-F"
 
 msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgstr ""
+msgstr "هل تمت مزامنة خطوط الطول والعرض لهذا الحقل مع حقل العنوان"
 
-#, fuzzy
 msgid "Last time of attempted geocode"
 msgstr "آخر مرة لمحاولة الترميز الجغرافي"
 
-#, fuzzy
 msgid "Error message of previous geocode attempt"
 msgstr "رسالة خطأ لمحاولة الترميز الجغرافي السابقة"
 
@@ -568,10 +563,10 @@ msgid "The user that made the request"
 msgstr ""
 
 msgid "Pending"
-msgstr ""
+msgstr "قيد الانتظار"
 
 msgid "Approved"
-msgstr ""
+msgstr "تم التأكيد"
 
 msgid "Denied"
 msgstr ""
