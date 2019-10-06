@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-09-30 13:58+0000\n"
+"PO-Revision-Date: 2019-10-06 14:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -247,7 +247,7 @@ msgstr "ارشيف سجل استيراد بيانات IXF"
 
 #, fuzzy
 msgid "Initial creation of netixlan"
-msgstr "إنشاء الأولي من netixlan"
+msgstr "الإنشاء الأولي لعنوان شبكة التناظر"
 
 msgid "CAN BE ROLLED BACK"
 msgstr "يمكن الرجوع للخلف"
@@ -258,8 +258,9 @@ msgstr "لا يمكن الرجوع للخلف"
 msgid "Has been changed since"
 msgstr "تم تغييره منذ"
 
+#, fuzzy
 msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr ""
+msgstr "يوجد عنوان من عناوين شبكة التناظر متعارض في مكان آخر"
 
 msgid "HAS BEEN ROLLED BACK"
 msgstr "تم الرجوع للخلف"
@@ -282,8 +283,9 @@ msgstr "أكثر"
 msgid "Waiting"
 msgstr "انتظار"
 
+#, fuzzy
 msgid "Malformed organization ids"
-msgstr ""
+msgstr "هويات المنظمة تالفة"
 
 msgid "Merge target organization does not exist"
 msgstr "خيار دمج المؤسسة المحددة غير موجود"
@@ -354,8 +356,9 @@ msgstr "هذا الأمر قيد الانتظار / التشغيل  - يرجى �
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr "يستغرق هذا الأمر بعض الوقت حتي يكتمل وسيتم وضعه في قائمة الانتظار والتشغيل في الخلفية. لا يمكن توفير سجل مخرجات حاليا. يمكنك المراجعة بمجرد انتهاء الأمر."
 
+#, fuzzy
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "بادئة عنوان انترنت قديمة - يعاد ترقيم جميع عناوين الإنترنت التي تقع في هذه البادئة"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
 msgstr "شبكة/ بادئة جديدة - يجب أن يكون نفس نوع البروتوكول وطول البادئة القديمة"
@@ -376,10 +379,11 @@ msgid "Load data from peeringdb API"
 msgstr "تحميل البيانات من واجهة برمجة التطبيق"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "استعادة هذا الكائن-البحث عن طريق [reftag] [id]"
 
+#, fuzzy
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "يمكن استعادة المتغيرات {}  فقط من خلال هذه الواجهة عند هذه النقطة"
 
 msgid "Yes"
 msgstr "نعم"
@@ -411,20 +415,17 @@ msgstr "اختبار التمييز (reCAPTCHA) غير صحيح"
 msgid "captcha invalid"
 msgstr "كلمة التحقق غير صحيحة"
 
-#, fuzzy
 msgid "Please wait a bit before requesting another ixf import preview."
-msgstr "الرجاء الانتظار قليلا قبل اجراء طلب معاينه استيراد بيانات ixf آخر."
+msgstr "الرجاء الانتظار قليلا قبل إجراء طلب معاينة استيراد بيانات ixf آخر."
 
-#, fuzzy
 msgid "Ixlan not found"
-msgstr "لم يتم العثور علي ixlan"
+msgstr "لم يتم العثور علي عنوان شبكة التناظر ixlan"
 
 msgid "Permission denied"
 msgstr "طلب الاذن مرفوض"
 
-#, fuzzy
 msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr "الرجاء الانتظار قليلا قبل اجراء طلب استيراد بيانات IX-F آخر"
+msgstr "الرجاء الانتظار قليلا قبل إجراء طلب استيراد بيانات IX-F آخر"
 
 msgid "Network not found"
 msgstr "لم يتم العثور علي الشبكة"
@@ -1618,13 +1619,13 @@ msgid "dot1q"
 msgstr ""
 
 msgid "IXLAN"
-msgstr ""
+msgstr "عنوان شبكة التناظر"
 
 msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 msgstr ""
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "بادئة عنوان شبكة التناظر"
 
 msgid "Add Prefix"
 msgstr "إضافة بادئة عنوان انترنت"
@@ -1747,7 +1748,7 @@ msgid "RS Peer"
 msgstr "نظير مخدم التوجيه RS"
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "رابط تبادل الشبكة"
 
 msgid "Local ASN"
 msgstr "رقم النظام المستقل المحلي"
