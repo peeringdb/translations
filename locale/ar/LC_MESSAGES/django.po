@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-11-07 13:58+0000\n"
+"PO-Revision-Date: 2019-11-07 14:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -549,13 +549,13 @@ msgid "This organization in our database that was derived from the provided ASN 
 msgstr ""
 
 msgid "The organization name entered by the user"
-msgstr ""
+msgstr "اسم المنظمة تم إدخاله من قِبل المستخدم"
 
 msgid "The ASN entered by the user"
-msgstr ""
+msgstr "رقم النظام المستقل تم إدخاله من قِبل المستخدم"
 
 msgid "The user that made the request"
-msgstr ""
+msgstr "المستخدم الذي قدم الطلب"
 
 msgid "Pending"
 msgstr "قيد الانتظار"
@@ -564,19 +564,20 @@ msgid "Approved"
 msgstr "تم التأكيد"
 
 msgid "Denied"
-msgstr ""
+msgstr "مرفوض"
 
 msgid "Status of this request"
-msgstr ""
+msgstr "حالة هذا الطلب"
 
+#, fuzzy
 msgid "User to Organization Affiliation Request"
-msgstr ""
+msgstr "طلب \"الانتساب إلى منظمة\""
 
 msgid "User to Organization Affiliation Requests"
-msgstr ""
+msgstr "طلبات \"الانتساب إلى منظمة\""
 
 msgid "Your affiliation to Organization \"{}\" has been approved"
-msgstr ""
+msgstr "طلب الانتساب إلى منظمة \"{}\" تمت الموافقة عليه"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr ""
@@ -585,31 +586,32 @@ msgid "Allows you to upload and set a logo image file for this organization"
 msgstr ""
 
 msgid "Sponsorship starts on"
-msgstr ""
+msgstr "الرعاية تبدأ في"
 
 msgid "Sponsorship ends on"
-msgstr ""
+msgstr "الرعاية تنتهي"
 
 msgid "Expiration notification sent on"
-msgstr ""
+msgstr "تم إرسال إشعار انتهاء الصلاحية بتاريخ"
 
 msgid "URL"
-msgstr ""
+msgstr "الرابط الإلكتروني"
 
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr ""
+msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه الرعاية"
 
 msgid "Sponsorship"
 msgstr ""
 
 msgid "Sponsorships"
-msgstr ""
+msgstr "الرعاية"
 
+#, fuzzy
 msgid "Sponsorship Expired"
-msgstr ""
+msgstr "الرعاية انتهت"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr ""
@@ -618,10 +620,10 @@ msgid "Allows you to upload and set a logo image file for this partnership"
 msgstr ""
 
 msgid "Partnership"
-msgstr ""
+msgstr "شراكة"
 
 msgid "Partnerships"
-msgstr ""
+msgstr "الشركاء"
 
 msgid "Merged on"
 msgstr ""
@@ -639,16 +641,16 @@ msgid "Organization Merge: Entities"
 msgstr ""
 
 msgid "Need to specify at least two asns"
-msgstr ""
+msgstr "تحتاج إلى تحديد ارقام النظام المستقل (اثنين على الأقل)"
 
 msgid "Can only compare a maximum of 25 asns"
-msgstr ""
+msgstr "يمكن فقط مقارنة 25 رقم نظام مستقل (كحد أقصى)"
 
 msgid "IXF Import Log"
-msgstr ""
+msgstr "سجل استيراد بيانات IXF"
 
 msgid "IXF Import Logs"
-msgstr ""
+msgstr "سجلات استيراد بيانات IXF"
 
 msgid "IXF Import Log Entry"
 msgstr ""
@@ -666,25 +668,25 @@ msgid "IPv6 address outside of prefix"
 msgstr ""
 
 msgid "Ip address already exists elsewhere"
-msgstr ""
+msgstr "عنوان الانترنت موجود بالفعل في مكان آخر"
 
 msgid "username"
-msgstr ""
+msgstr "اسم المستخدم"
 
 msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr ""
+msgstr "مطلوب الحروف والأرقام و [@. + - / _ = |] فقط."
 
 msgid "Enter a valid username."
-msgstr ""
+msgstr "أدخل اسم مستخدم صحيح."
 
 msgid "email address"
-msgstr ""
+msgstr "عنوان بريد الكتروني"
 
 msgid "first name"
-msgstr ""
+msgstr "الاسم الأول"
 
 msgid "last name"
-msgstr ""
+msgstr "الاسم الأخير / الكنية"
 
 msgid "staff status"
 msgstr ""
@@ -702,19 +704,19 @@ msgid "date joined"
 msgstr ""
 
 msgid "status"
-msgstr ""
+msgstr "حالة"
 
 msgid "language"
-msgstr ""
+msgstr "لغة"
 
 msgid "user"
-msgstr ""
+msgstr "المستخدم"
 
 msgid "users"
-msgstr ""
+msgstr "المستخدمون"
 
 msgid "Password Reset Initiated"
-msgstr ""
+msgstr "إعادة تعيين كلمة المرور"
 
 msgid "name of the tool"
 msgstr ""
@@ -729,16 +731,16 @@ msgid "Descriptive text of command that can be searched"
 msgstr ""
 
 msgid "the user that ran this command"
-msgstr ""
+msgstr "المستخدم الذي قام بتشغيل هذا الأمر"
 
 msgid "command was run at this date and time"
-msgstr ""
+msgstr "تم تشغيل الأمر في هذا التاريخ والوقت"
 
 msgid "Done"
-msgstr ""
+msgstr "تم"
 
 msgid "Running"
-msgstr ""
+msgstr "جاري"
 
 msgid "Organization and all Entities it owns"
 msgstr ""
