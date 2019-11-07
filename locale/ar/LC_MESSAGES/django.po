@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-10-06 15:58+0000\n"
+"PO-Revision-Date: 2019-11-07 13:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -245,7 +245,6 @@ msgstr "هذا المستخدم يطلب أن يكون منتسب إلى هذه 
 msgid "IXF Import History"
 msgstr "ارشيف سجل استيراد بيانات IXF"
 
-#, fuzzy
 msgid "Initial creation of netixlan"
 msgstr "الإنشاء الأولي لعنوان شبكة التناظر"
 
@@ -258,9 +257,8 @@ msgstr "لا يمكن الرجوع للخلف"
 msgid "Has been changed since"
 msgstr "تم تغييره منذ"
 
-#, fuzzy
 msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr "يوجد عنوان من عناوين شبكة التناظر متعارض في مكان آخر"
+msgstr "يوجد عنوان من عناوين شبكة التناظر متكرر/ متضارب في مكان آخر"
 
 msgid "HAS BEEN ROLLED BACK"
 msgstr "تم الرجوع للخلف"
@@ -283,7 +281,6 @@ msgstr "أكثر"
 msgid "Waiting"
 msgstr "انتظار"
 
-#, fuzzy
 msgid "Malformed organization ids"
 msgstr "هويات المنظمة تالفة"
 
@@ -356,9 +353,8 @@ msgstr "هذا الأمر قيد الانتظار / التشغيل  - يرجى �
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr "يستغرق هذا الأمر بعض الوقت حتي يكتمل وسيتم وضعه في قائمة الانتظار والتشغيل في الخلفية. لا يمكن توفير سجل مخرجات حاليا. يمكنك المراجعة بمجرد انتهاء الأمر."
 
-#, fuzzy
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr "بادئة عنوان انترنت قديمة - يعاد ترقيم جميع عناوين الإنترنت التي تقع في هذه البادئة"
+msgstr "بادئة عنوان الانترنت قديمة - يجب إعادة ترقيم جميع عناوين الإنترنت التي تقع في هذه البادئة"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
 msgstr "شبكة/ بادئة جديدة - يجب أن يكون نفس نوع البروتوكول وطول البادئة القديمة"
@@ -381,9 +377,8 @@ msgstr "تحميل البيانات من واجهة برمجة التطبيق"
 msgid "Restore this object - search by [reftag] [id]"
 msgstr "استعادة هذا الكائن-البحث عن طريق [reftag] [id]"
 
-#, fuzzy
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr "يمكن استعادة المتغيرات {}  فقط من خلال هذه الواجهة عند هذه النقطة"
+msgstr "يمكن استعادة هذه المتغيرات {}  فقط من خلال هذه الواجهة في هذه النقطة"
 
 msgid "Yes"
 msgstr "نعم"
@@ -425,7 +420,7 @@ msgid "Permission denied"
 msgstr "طلب الاذن مرفوض"
 
 msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr "الرجاء الانتظار قليلا قبل إجراء طلب استيراد بيانات IX-F آخر"
+msgstr "الرجاء الانتظار قليلا قبل إجراء طلب استيراد بيانات IX-F آخر."
 
 msgid "Network not found"
 msgstr "لم يتم العثور علي الشبكة"
@@ -443,10 +438,10 @@ msgid "No JSON could be parsed"
 msgstr "لا يمكن تحليل بيانات JSON"
 
 msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
+msgstr "بيانات IX-F لم يتم تخزينها مؤقتًا لهذا المورد حتى الآن."
 
 msgid "No entries in any of the vlan_list lists, aborting."
-msgstr ""
+msgstr "لا توجد أي مدخلات في أي من قوائم vlan_list ، إيقاف التنفيذ."
 
 msgid "No prefixes defined on ixlan"
 msgstr "لم يتم تعريف بادئات عناوين شبكة التناظر"
@@ -473,10 +468,10 @@ msgid "Invalid connection state: {}"
 msgstr "حالة الاتصال غير صحيح: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
+msgstr "لم يتم العثور علي عنوان انترنت (ipv4 or 6) في قائمة vlan_list لمعرفة  vlan_id {}  و (AS{})"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
+msgstr "عنوان انترنت خاطئ '{}'  في مدخلات vlan_list لـ vlan_id {}"
 
 msgid "Connection is currently marked as inactive"
 msgstr "تم وضع علامة \"غير نشط\" على رابط الاتصال الحالي"
