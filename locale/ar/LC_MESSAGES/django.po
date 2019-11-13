@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-11-07 14:58+0000\n"
+"PO-Revision-Date: 2019-11-13 08:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -419,6 +419,7 @@ msgstr "لم يتم العثور علي عنوان شبكة التناظر ixlan
 msgid "Permission denied"
 msgstr "طلب الاذن مرفوض"
 
+#, fuzzy
 msgid "Please wait a bit before requesting another IX-F import postmortem."
 msgstr "الرجاء الانتظار قليلا قبل إجراء طلب استيراد بيانات IX-F آخر."
 
@@ -429,7 +430,7 @@ msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
 msgid "ASNs in this range are not allowed in this environment"
-msgstr "لا يسمح  باستخدام أرقام النظام المستقل ASNs في هذا النطاق"
+msgstr "مدى أرقام الأنظمة المستقلة ASNs لا يسمح بإستخدامها هنا"
 
 msgid "IXF import url not specified"
 msgstr "الرابط الإلكتروني لاستيراد بيانات IXF غير محدد"
@@ -546,7 +547,7 @@ msgid "API Timeout"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
-msgstr ""
+msgstr "تم العثور على هذه المنظمة/ المؤسسة في قاعدة البيانات والتي تم اشتقاقها من رقم النظام المستقل ASN أو اسم المؤسسة المقدم. إذا كان هذا فارغًا فهذا يعني أنه لم يتم العثور على منظمة مطابقة."
 
 msgid "The organization name entered by the user"
 msgstr "اسم المنظمة تم إدخاله من قِبل المستخدم"
@@ -580,16 +581,16 @@ msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "طلب الانتساب إلى منظمة \"{}\" تمت الموافقة عليه"
 
 msgid "The item that this queue is attached to was created by this user"
-msgstr ""
+msgstr "تم إنشاء العنصر المرفق بقائمة الانتظار هذه بواسطة هذا المستخدم"
 
 msgid "Allows you to upload and set a logo image file for this organization"
-msgstr ""
+msgstr "يسمح لك بتحميل وتعيين صورة الشعار لهذه المؤسسة"
 
 msgid "Sponsorship starts on"
-msgstr "الرعاية تبدأ في"
+msgstr "تبدأ الرعاية في"
 
 msgid "Sponsorship ends on"
-msgstr "الرعاية تنتهي"
+msgstr "تنتهي الرعاية في"
 
 msgid "Expiration notification sent on"
 msgstr "تم إرسال إشعار انتهاء الصلاحية بتاريخ"
@@ -597,27 +598,28 @@ msgstr "تم إرسال إشعار انتهاء الصلاحية بتاريخ"
 msgid "URL"
 msgstr "الرابط الإلكتروني"
 
+#, fuzzy
 msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr ""
+msgstr "إذا تم تحديد ذلك ، فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
 
 msgid "Allows you to upload and set a logo image file for this sponsorship"
 msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه الرعاية"
 
 msgid "Sponsorship"
-msgstr ""
+msgstr "رعايه"
 
 msgid "Sponsorships"
-msgstr "الرعاية"
+msgstr "الرعاية / الرُعاه"
 
 #, fuzzy
 msgid "Sponsorship Expired"
 msgstr "الرعاية انتهت"
 
 msgid "If specified clicking the partnership will take the user to this location"
-msgstr ""
+msgstr "إذا تم تحديد ذلك ، فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
 
 msgid "Allows you to upload and set a logo image file for this partnership"
-msgstr ""
+msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه الرعاية"
 
 msgid "Partnership"
 msgstr "شراكة"
@@ -662,10 +664,10 @@ msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this netw
 msgstr ""
 
 msgid "IPv4 address outside of prefix"
-msgstr ""
+msgstr "عنوان IPv4 خارج بادئة عنوان الانترنت"
 
 msgid "IPv6 address outside of prefix"
-msgstr ""
+msgstr "عنوان IPv6 خارج بادئة عنوان الانترنت"
 
 msgid "Ip address already exists elsewhere"
 msgstr "عنوان الانترنت موجود بالفعل في مكان آخر"
@@ -692,16 +694,17 @@ msgid "staff status"
 msgstr ""
 
 msgid "Designates whether the user can log into admin site."
-msgstr ""
+msgstr "يحدد ما إذا كان المستخدم يمكن تسجيل الدخول إلى موقع الإدارة admin site."
 
+#, fuzzy
 msgid "active"
-msgstr ""
+msgstr "منشط"
 
 msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr ""
+msgstr "يحدد ما إذا كان يجب التعامل مع هذا المستخدم على أنه منشط. قم بإلغاء تحديد هذا بدلاً من حذف الحسابات."
 
 msgid "date joined"
-msgstr ""
+msgstr "تاريخ الإنضمام"
 
 msgid "status"
 msgstr "حالة"
@@ -725,10 +728,10 @@ msgid "json serialization of arguments and options passed"
 msgstr ""
 
 msgid "result log"
-msgstr ""
+msgstr "النتائج"
 
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "نص وصفي للأمر يمكن البحث عنه"
 
 msgid "the user that ran this command"
 msgstr "المستخدم الذي قام بتشغيل هذا الأمر"
@@ -743,7 +746,7 @@ msgid "Running"
 msgstr "جاري"
 
 msgid "Organization and all Entities it owns"
-msgstr ""
+msgstr "المنظمة/ المؤسسة وجميع الكيانات التي تملكها"
 
 msgid "Any Network"
 msgstr ""
@@ -781,17 +784,17 @@ msgid "%(user_name)s's afilliation request has been denied"
 msgstr ""
 
 msgid "Need to be unique"
-msgstr ""
+msgstr "يجب أن تكون فريد من نوعه"
 
 msgid "This field is required"
-msgstr ""
+msgstr "هذا الحقل/الخانة مطلوب"
 
 msgid "RDAP Lookup Error"
 msgstr ""
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
+msgstr "هذا الحقل/الخانة مسموح به فقط لهذه الطلبات:  {methods}"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
@@ -809,40 +812,40 @@ msgid "User %(u_name)s wishes to be affiliated to your Organization"
 msgstr ""
 
 msgid "Confirm your e-mail address"
-msgstr ""
+msgstr "تأكيد عنوان البريد الإلكتروني"
 
 msgid "Please confirm that"
-msgstr ""
+msgstr "يرجى تأكيد"
 
 msgid "is your email-address"
-msgstr ""
+msgstr "هو عنوان البريد الإلكتروني الخاص بك"
 
 msgid "Confirm"
-msgstr ""
+msgstr "تأكيد"
 
 msgid "The email confirmation process for this email address has been terminated, please re-initate"
-msgstr ""
+msgstr "تم إنهاء عملية تأكيد البريد الإلكتروني لهذا العنوان، الرجاء إعادة التنشيط"
 
 msgid "here"
-msgstr ""
+msgstr "هنا"
 
 msgid "Please use"
-msgstr ""
+msgstr "يرجي استخدام"
 
 msgid "this page"
-msgstr ""
+msgstr "هذه الصفحة"
 
 msgid "instead"
-msgstr ""
+msgstr "بدلا من"
 
 msgid "Home"
-msgstr ""
+msgstr "الصفحه الرئيسيه"
 
 msgid "Prepare"
 msgstr ""
 
 msgid "Preview"
-msgstr ""
+msgstr "معاينة"
 
 msgid "Result"
 msgstr ""
@@ -1356,10 +1359,10 @@ msgid "try again"
 msgstr ""
 
 msgid "The password reset process has expired, please"
-msgstr ""
+msgstr "انتهت عملية إعادة تعيين كلمة المرور ، من فضلك"
 
 msgid "initiate again"
-msgstr ""
+msgstr "البدء مرة أخرى"
 
 msgid "Affiliate with organization"
 msgstr ""
