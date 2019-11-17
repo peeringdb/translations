@@ -265,9 +265,6 @@ msgstr "Netixlan con dirección IP en conflicto"
 msgid "HAS BEEN ROLLED BACK"
 msgstr "HA SIDO RETROCEDIDO"
 
-msgid "Organization"
-msgstr "Organización"
-
 msgid "Not Set"
 msgstr "No configurado"
 
@@ -607,15 +604,6 @@ msgstr "El patrocinio termina en"
 msgid "Expiration notification sent on"
 msgstr "Notificación de vencimiento enviada"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Si especificado, haciendo clic en el patrocio llevará el usuario a esta posición/ubicación"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Le permite cargar y seleccionar un archivo de logotipo para este patrocinio"
-
 msgid "Sponsorship"
 msgstr "Patrocinio"
 
@@ -624,6 +612,15 @@ msgstr "Patrocinios"
 
 msgid "Sponsorship Expired"
 msgstr "Patrocinio vencido"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Si especificado, haciendo clic en el patrocio llevará el usuario a esta posición/ubicación"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Le permite cargar y seleccionar un archivo de logotipo para este patrocinio"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Si es especificado, haciendo clic en el patrocio llevará el usuario a esta posición/ubicación"
@@ -813,6 +810,9 @@ msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s ha sido eliminada"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Especifique al menos una dirección de correo electrónico"
 
@@ -897,6 +897,9 @@ msgstr "La propiedad de la organización se otorgó automáticamente al usuario"
 
 msgid "User"
 msgstr "Usuario"
+
+msgid "Organization"
+msgstr "Organización"
 
 msgid "Network"
 msgstr "Red"

@@ -263,9 +263,6 @@ msgstr "同じ IP アドレスを持つ netixlan が他の場所にもありま�
 msgid "HAS BEEN ROLLED BACK"
 msgstr "ロールバックされました"
 
-msgid "Organization"
-msgstr "組織名"
-
 msgid "Not Set"
 msgstr "設定されていません"
 
@@ -617,15 +614,6 @@ msgstr "にスポンサーシップが終了になります"
 msgid "Expiration notification sent on"
 msgstr "に期間満了の通知が送付されました"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "スポンサーをクリックすると、この場所にユーザを移動します"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "このスポンサーのロゴファイルのアップロードと設置が許可されました"
-
 msgid "Sponsorship"
 msgstr "スポンサーシップ(Sponsorship)"
 
@@ -634,6 +622,15 @@ msgstr "スポンサーシップ(Sponsorships)"
 
 msgid "Sponsorship Expired"
 msgstr "スポンサーシップが失効しました"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "スポンサーをクリックすると、この場所にユーザを移動します"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "このスポンサーのロゴファイルのアップロードと設置が許可されました"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "パートナーをクリックすると、この場所にユーザを移動します"
@@ -823,6 +820,9 @@ msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "最低限、メールアドレスを1つ指定してください"
 
@@ -907,6 +907,9 @@ msgstr "組織の所有権がユーザに許可されました"
 
 msgid "User"
 msgstr "ユーザ"
+
+msgid "Organization"
+msgstr "組織名"
 
 msgid "Network"
 msgstr "ネットワーク"

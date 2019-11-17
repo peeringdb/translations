@@ -263,9 +263,6 @@ msgstr "Netixlan com endereço ip conflituante agora existe em outro lugar"
 msgid "HAS BEEN ROLLED BACK"
 msgstr "Foi revertido"
 
-msgid "Organization"
-msgstr "Organização"
-
 msgid "Not Set"
 msgstr "Não configurado"
 
@@ -599,15 +596,6 @@ msgstr "Patrocínio termina em"
 msgid "Expiration notification sent on"
 msgstr "Notificação de expiração enviado em"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Se especificado clicando no patrocínio levará o usuário a este local"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Permite fazer o upload e configurar um arquivo de imagem de logomarca para este patrocinio"
-
 msgid "Sponsorship"
 msgstr "Patrocínio"
 
@@ -616,6 +604,15 @@ msgstr "Patrocínios"
 
 msgid "Sponsorship Expired"
 msgstr "Patrocínio Expirado"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Se especificado clicando no patrocínio levará o usuário a este local"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Permite fazer o upload e configurar um arquivo de imagem de logomarca para este patrocinio"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Se especificado clicando na parceria levará o usuário a este local"
@@ -805,6 +802,9 @@ msgstr "Objeto do tipo ‘%(type)s’ não pode ser criado porque a entidade con
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Objeto do tipo ‘%(type)s’ não pode ser criado porque a entidade controladora’%(parent_tag)s / %(parent_id)s’ foi marcada como excluída"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Especifique pelo menos um endereço de e-mail"
 
@@ -889,6 +889,9 @@ msgstr "A propriedade da organização foi automaticamente concedida ao usuário
 
 msgid "User"
 msgstr "Usuário"
+
+msgid "Organization"
+msgstr "Organização"
 
 msgid "Network"
 msgstr "Rede"

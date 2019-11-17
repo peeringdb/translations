@@ -263,9 +263,6 @@ msgstr "Netixlan 的 IP 地址冲突，在别处存在"
 msgid "HAS BEEN ROLLED BACK"
 msgstr "已经被回滚"
 
-msgid "Organization"
-msgstr "组织"
-
 msgid "Not Set"
 msgstr "未设置"
 
@@ -605,15 +602,6 @@ msgstr "赞助结束于"
 msgid "Expiration notification sent on"
 msgstr "过期通知发送于"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "当单击赞助时，用户会被带到此位置"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "允许您为此赞助上传并设置 Logo"
-
 msgid "Sponsorship"
 msgstr "赞助"
 
@@ -622,6 +610,15 @@ msgstr "赞助"
 
 msgid "Sponsorship Expired"
 msgstr "赞助过期"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "当单击赞助时，用户会被带到此位置"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "允许您为此赞助上传并设置 Logo"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "当单击合作伙伴时，用户会被带到此位置"
@@ -811,6 +808,9 @@ msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "至少指定一个电子邮件地址"
 
@@ -895,6 +895,9 @@ msgstr "组织的所有权自动授予用户"
 
 msgid "User"
 msgstr "用户"
+
+msgid "Organization"
+msgstr "组织"
 
 msgid "Network"
 msgstr "网络"

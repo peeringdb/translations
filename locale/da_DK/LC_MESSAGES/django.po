@@ -263,9 +263,6 @@ msgstr "Netixlan med konfliktende IP adresse findes nu et andet sted"
 msgid "HAS BEEN ROLLED BACK"
 msgstr "Er blevet rullet tilbage"
 
-msgid "Organization"
-msgstr "Virksomhed"
-
 msgid "Not Set"
 msgstr "Ikke valgt"
 
@@ -610,15 +607,6 @@ msgstr "Sponsorat slutter"
 msgid "Expiration notification sent on"
 msgstr "Udløbsnotifikation sendt"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Hvis konfigureret, vil klik på sponsorat tage brugeren til denne URL"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Tillader dig at uploade et logo, billede fil, for dette sponsorat"
-
 msgid "Sponsorship"
 msgstr "Sponsorat"
 
@@ -627,6 +615,15 @@ msgstr "Sponsorater"
 
 msgid "Sponsorship Expired"
 msgstr "Sponsorat udløb"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Hvis konfigureret, vil klik på sponsorat tage brugeren til denne URL"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Tillader dig at uploade et logo, billede fil, for dette sponsorat"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr ""
@@ -816,6 +813,9 @@ msgstr ""
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr ""
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr ""
 
@@ -900,6 +900,9 @@ msgstr ""
 
 msgid "User"
 msgstr ""
+
+msgid "Organization"
+msgstr "Virksomhed"
 
 msgid "Network"
 msgstr ""

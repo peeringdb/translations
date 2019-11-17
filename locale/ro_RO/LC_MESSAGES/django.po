@@ -263,9 +263,6 @@ msgstr "Elementul netixlan cu adresa IP aflată în conflict se află acum în a
 msgid "HAS BEEN ROLLED BACK"
 msgstr "A FOST RESTAURAT"
 
-msgid "Organization"
-msgstr "Organizație"
-
 msgid "Not Set"
 msgstr "Nu este setat"
 
@@ -593,15 +590,6 @@ msgstr "Perioada de sponsorizare se termină la"
 msgid "Expiration notification sent on"
 msgstr "Notificarea de expirare a fost trimisă"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Dacă este specificat, un click pe sponsorizare va trimite utilizatorul la această locație"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Vă permite să încărcați și să setați un fișier cu imaginea siglei pentru această sponsorizare"
-
 msgid "Sponsorship"
 msgstr "Sponsorizare"
 
@@ -610,6 +598,15 @@ msgstr "Sponsorizări"
 
 msgid "Sponsorship Expired"
 msgstr "Perioada de sponsorizare a expirat"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Dacă este specificat, un click pe sponsorizare va trimite utilizatorul la această locație"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Vă permite să încărcați și să setați un fișier cu imaginea siglei pentru această sponsorizare"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Dacă este specificat, un click pe parteneriat va trimite utilizatorul la această locație"
@@ -799,6 +796,9 @@ msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părin
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
 
@@ -883,6 +883,9 @@ msgstr "Deținerea organizației a fost acordată automat utilizatorului"
 
 msgid "User"
 msgstr "Utilizator"
+
+msgid "Organization"
+msgstr "Organizație"
 
 msgid "Network"
 msgstr "Rețea"

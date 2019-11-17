@@ -264,9 +264,6 @@ msgstr "Netixlan mit vorhandener IP-Adresse existiert bereits anderswo"
 msgid "HAS BEEN ROLLED BACK"
 msgstr "WURDE ZURÜCKGESETZT"
 
-msgid "Organization"
-msgstr "Unternehmen"
-
 msgid "Not Set"
 msgstr "Nicht zugewiesen"
 
@@ -596,15 +593,6 @@ msgstr "Sponsoring/Patenschaft endet am"
 msgid "Expiration notification sent on"
 msgstr "Ablaufdatum wurde gesendet am"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Paten (Sponsor) an diese Adresse weitergeleitet"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Erlaubt es ein Logo für diese Paten (Sponsor) hochzuladen und es zu ändern"
-
 msgid "Sponsorship"
 msgstr "Patenschaft"
 
@@ -613,6 +601,15 @@ msgstr "Patenschaften"
 
 msgid "Sponsorship Expired"
 msgstr "Abgelaufene Patenschaft"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Paten (Sponsor) an diese Adresse weitergeleitet"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Erlaubt es ein Logo für diese Paten (Sponsor) hochzuladen und es zu ändern"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Partner an diese Adresse weitergeleitet"
@@ -802,6 +799,9 @@ msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die überge
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
 
@@ -886,6 +886,9 @@ msgstr "Der Besitz der Organisation wurde automatisch dem Benutzer erteilt"
 
 msgid "User"
 msgstr "Benutzer"
+
+msgid "Organization"
+msgstr "Unternehmen"
 
 msgid "Network"
 msgstr "Netzwerk"

@@ -263,9 +263,6 @@ msgstr "Netixlan 的 IP 地址衝突，在別處存在"
 msgid "HAS BEEN ROLLED BACK"
 msgstr "已經被回滾"
 
-msgid "Organization"
-msgstr "組織"
-
 msgid "Not Set"
 msgstr "未設置"
 
@@ -611,15 +608,6 @@ msgstr "贊助結束於"
 msgid "Expiration notification sent on"
 msgstr "過期通知發送於"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "當按一下贊助時，用戶會被帶到此位置"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "允許您為此贊助上傳並設置 Logo"
-
 msgid "Sponsorship"
 msgstr "贊助"
 
@@ -628,6 +616,15 @@ msgstr "贊助"
 
 msgid "Sponsorship Expired"
 msgstr "贊助過期"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "當按一下贊助時，用戶會被帶到此位置"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "允許您為此贊助上傳並設置 Logo"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "當按一下合作夥伴時，用戶會被帶到此位置"
@@ -817,6 +814,9 @@ msgstr "物件類型 %(type)s 無法創建，因為其父實體 %(parent_tag)s/%
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "物件類型 %(type)s 無法創建，因為其父實體 %(parent_tag)s/%(parent_id)s 已標記為刪除"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "至少指定一個電子郵寄地址"
 
@@ -901,6 +901,9 @@ msgstr "組織的所有權自動授予使用者"
 
 msgid "User"
 msgstr "用戶"
+
+msgid "Organization"
+msgstr "組織"
 
 msgid "Network"
 msgstr "網路"

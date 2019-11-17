@@ -263,9 +263,6 @@ msgstr "To netixlan με αντικρουόμενη διεύθυνση IP τώρ
 msgid "HAS BEEN ROLLED BACK"
 msgstr "ΑΝΤΙΣΤΡΑΦΗΚΕ"
 
-msgid "Organization"
-msgstr "Οργανισμός"
-
 msgid "Not Set"
 msgstr "Δεν έχει ορισθεί"
 
@@ -625,15 +622,6 @@ msgstr "Η αιγίδα λήγει την"
 msgid "Expiration notification sent on"
 msgstr "Η ειδοποίηση λήξης απεστάλλη στις"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Αν έχει ορισθεί, κλικάροντας την αιγίδα θα μεταφέρει τον χρήστη σε αυτή την τοποθεσία"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Σας επιτρέπει να ανεβάσετε και να ορίσετε ένα αρχείο εικόνας λογότυπουγια αυτή την αιγίδα"
-
 msgid "Sponsorship"
 msgstr "Υπό την Αιγίδα"
 
@@ -642,6 +630,15 @@ msgstr "Υπό τις Αιγίδες"
 
 msgid "Sponsorship Expired"
 msgstr "Η αιγίδα έχει εκπνεύσει"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Αν έχει ορισθεί, κλικάροντας την αιγίδα θα μεταφέρει τον χρήστη σε αυτή την τοποθεσία"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Σας επιτρέπει να ανεβάσετε και να ορίσετε ένα αρχείο εικόνας λογότυπουγια αυτή την αιγίδα"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Αν έχει ορισθεί, κλικάροντας τον συνεταιρισμό θα μεταφέρει τον χρήστη σε αυτή την τοποθεσία"
@@ -831,6 +828,9 @@ msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπο
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Change email address"
 msgid "Specify at least one email address"
@@ -917,6 +917,9 @@ msgstr "Η ιδιοκτησία του οργανισμού δόθηκε αυτ�
 
 msgid "User"
 msgstr "Χρήστης"
+
+msgid "Organization"
+msgstr "Οργανισμός"
 
 msgid "Network"
 msgstr "Δίκτυο"

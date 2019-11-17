@@ -262,9 +262,6 @@ msgstr "Netixlan с конфликтующим IP-адресом существ�
 msgid "HAS BEEN ROLLED BACK"
 msgstr "ПРОИЗВЕДЕН ОТКАТ"
 
-msgid "Organization"
-msgstr "Организация"
-
 msgid "Not Set"
 msgstr "Не установлен"
 
@@ -624,15 +621,6 @@ msgstr "Окончание периода спонсорства"
 msgid "Expiration notification sent on"
 msgstr "Уведомление об истечение периода установлено на"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Если указан, для спонсора будет установлена ссылка на данный адрес"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Позволяет загрузить файл с логотипом спонсора"
-
 msgid "Sponsorship"
 msgstr "Спонсорство"
 
@@ -641,6 +629,15 @@ msgstr "Спонсорства"
 
 msgid "Sponsorship Expired"
 msgstr "Период спонсирования истек"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Если указан, для спонсора будет установлена ссылка на данный адрес"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Позволяет загрузить файл с логотипом спонсора"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Если указан, для партнера будет установлена ссылка на данный адрес"
@@ -833,6 +830,9 @@ msgstr "Объект типа '%(type)s' не может быть создан, 
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Объект типа '%(type)s' не может быть создан, так как его родительская сущность '%(parent_tag)s/%(parent_id)s' помечена как удаленная"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Change email address"
 msgid "Specify at least one email address"
@@ -919,6 +919,9 @@ msgstr "Права управления организацией назначе�
 
 msgid "User"
 msgstr "Пользователь"
+
+msgid "Organization"
+msgstr "Организация"
 
 msgid "Network"
 msgstr "Сеть"

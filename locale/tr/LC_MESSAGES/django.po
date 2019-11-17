@@ -270,9 +270,6 @@ msgstr ""
 msgid "HAS BEEN ROLLED BACK"
 msgstr ""
 
-msgid "Organization"
-msgstr ""
-
 msgid "Not Set"
 msgstr ""
 
@@ -600,15 +597,6 @@ msgstr ""
 msgid "Expiration notification sent on"
 msgstr ""
 
-msgid "URL"
-msgstr ""
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr ""
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr ""
-
 msgid "Sponsorship"
 msgstr ""
 
@@ -616,6 +604,15 @@ msgid "Sponsorships"
 msgstr ""
 
 msgid "Sponsorship Expired"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr ""
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
 msgstr ""
 
 msgid "If specified clicking the partnership will take the user to this location"
@@ -806,6 +803,9 @@ msgstr ""
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr ""
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr ""
 
@@ -889,6 +889,9 @@ msgid "Ownership of organization was automatically granted to user"
 msgstr ""
 
 msgid "User"
+msgstr ""
+
+msgid "Organization"
 msgstr ""
 
 msgid "Network"

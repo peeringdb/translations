@@ -263,9 +263,6 @@ msgstr "يوجد عنوان من عناوين شبكة التناظر متكرر
 msgid "HAS BEEN ROLLED BACK"
 msgstr "تم الرجوع للخلف"
 
-msgid "Organization"
-msgstr "المنظمة / المؤسسة"
-
 msgid "Not Set"
 msgstr "غير مضبوط"
 
@@ -595,16 +592,6 @@ msgstr "تنتهي الرعاية في"
 msgid "Expiration notification sent on"
 msgstr "تم إرسال إشعار انتهاء الصلاحية بتاريخ"
 
-msgid "URL"
-msgstr "الرابط الإلكتروني"
-
-#, fuzzy
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "إذا تم تحديد ذلك ، فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه الرعاية"
-
 msgid "Sponsorship"
 msgstr "رعايه"
 
@@ -614,6 +601,16 @@ msgstr "الرعاية / الرُعاه"
 #, fuzzy
 msgid "Sponsorship Expired"
 msgstr "الرعاية انتهت"
+
+msgid "URL"
+msgstr "الرابط الإلكتروني"
+
+#, fuzzy
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "إذا تم تحديد ذلك ، فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه الرعاية"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "إذا تم تحديد ذلك ، فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
@@ -804,6 +801,9 @@ msgstr ""
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr ""
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr ""
 
@@ -888,6 +888,9 @@ msgstr ""
 
 msgid "User"
 msgstr ""
+
+msgid "Organization"
+msgstr "المنظمة / المؤسسة"
 
 msgid "Network"
 msgstr ""

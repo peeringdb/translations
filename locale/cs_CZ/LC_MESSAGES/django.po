@@ -265,9 +265,6 @@ msgstr "Netixlan s konfliktní IP adresou nyní existuje na jiném místě"
 msgid "HAS BEEN ROLLED BACK"
 msgstr "BYL VRÁCEN ZPĚT"
 
-msgid "Organization"
-msgstr "Organizace"
-
 msgid "Not Set"
 msgstr "Nenastaveno"
 
@@ -619,15 +616,6 @@ msgstr "Sponzorem do"
 msgid "Expiration notification sent on"
 msgstr "Oznámení o vypršení platnosti bylo odesláno"
 
-msgid "URL"
-msgstr "URL"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Pokud kliknete na sponzorství, přejde uživatel do tohoto umístění"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Umožňuje nahrát a nastavit logo pro toto sponzorství"
-
 msgid "Sponsorship"
 msgstr "Sponzorství"
 
@@ -636,6 +624,15 @@ msgstr "Sponzorství"
 
 msgid "Sponsorship Expired"
 msgstr "Sponzorství vypršelo"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr "Pokud kliknete na sponzorství, přejde uživatel do tohoto umístění"
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr "Umožňuje nahrát a nastavit logo pro toto sponzorství"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Pokud kliknete na partnerství, přejde uživatel do tohoto umístění"
@@ -828,6 +825,9 @@ msgstr "Objekt typu \"% (typ) s\" nelze vytvořit, protože jeho nadřazená ent
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Objekt typu '%(type)s' nelze vytvořit, protože jeho nadřazená entita '%(parent_tag)s/%(parent_id)s' byla označena za smazanou"
 
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Change email address"
 msgid "Specify at least one email address"
@@ -914,6 +914,9 @@ msgstr "Vlastnictví organizace bylo automaticky přiděleno uživateli"
 
 msgid "User"
 msgstr "Uživatel"
+
+msgid "Organization"
+msgstr "Organizace"
 
 msgid "Network"
 msgstr "Síť"
