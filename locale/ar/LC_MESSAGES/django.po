@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-04 12:58+0000\n"
+"PO-Revision-Date: 2019-12-04 13:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -771,19 +771,20 @@ msgstr ""
 msgid "Facility - %(fac_name)s"
 msgstr ""
 
+#, fuzzy
 msgid "Invalid organization specified"
-msgstr ""
+msgstr "تم تحديد مؤسسة غير صحيحة"
 
 msgid "Needs to be member or admin"
-msgstr ""
+msgstr "يجب أن تكون عضوًا أو بصلاحيات مدير النظام"
 
 #, python-format
 msgid "%(user_name)s's afilliation request has been approved"
-msgstr ""
+msgstr "%(user_name)s's تمت الموافقة على طلب الانتساب/ الانضمام"
 
 #, python-format
 msgid "%(user_name)s's afilliation request has been denied"
-msgstr ""
+msgstr "%(user_name)s's تم رفض طلب الانتساب/ الانضمام"
 
 msgid "Need to be unique"
 msgstr "يجب أن تكون فريد من نوعه"
@@ -814,7 +815,7 @@ msgstr "حدد عنوان بريد إلكتروني واحد على الأقل"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr ""
+msgstr "يرغب المستخدم %(u_name)s في الانضمام /الانتساب إلى مؤسستك"
 
 msgid "Confirm your e-mail address"
 msgstr "تأكيد عنوان البريد الإلكتروني"
@@ -847,7 +848,7 @@ msgid "Home"
 msgstr "الصفحه الرئيسيه"
 
 msgid "Prepare"
-msgstr ""
+msgstr "إعداد"
 
 msgid "Preview"
 msgstr "معاينة"
@@ -856,52 +857,52 @@ msgid "Result"
 msgstr ""
 
 msgid "Merge Notification"
-msgstr ""
+msgstr "دمج الإشعار"
 
 msgid "ID"
-msgstr ""
+msgstr "بطاقة التعريف"
 
 msgid "has been merged into"
-msgstr ""
+msgstr "تم دمجها في"
 
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "تتم معالجة جميع عمليات الدمج يدويًا بواسطة موظفي دعم \"قاعدة بيانات التناظر\". إذا كنت تعتقد أن هذا الإجراء قد تم تنفيذه عن طريق الخطأ ، فالرجاء عدم التردد في الاتصال بالدعم على"
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
-msgstr ""
+msgstr "%(u_full_name)s's  طلب الانضمام / الانتساب الى  %(o_name)s  تمت الموافقة عليه من قِبل %(admin_full_name)s."
 
 msgid "No further action is required on your part."
-msgstr ""
+msgstr "لا يوجد إجراء آخر مطلوب من جانبك."
 
 msgid "As the organization's administrator you may view your organization's user list here"
-msgstr ""
+msgstr "بصفتك مسؤول المؤسسة ، يمكنك عرض قائمة مستخدمي مؤسستك هنا"
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
-msgstr ""
+msgstr "%(u_full_name)s's  طلب الانضمام / الانتساب الى  %(o_name)s  تم رفضه من قِبل %(admin_full_name)s."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr ""
+msgstr "المستخدم  %(u_name)s (%(u_email)s) يطلب الانضمام /الانتساب الى  %(o_name)s."
 
 msgid "As the organization's administrator you may approve or deny this request here"
-msgstr ""
+msgstr "بصفتك مسؤول المؤسسة ، يمكنك الموافقة على هذا الطلب أو رفضه هنا"
 
 msgid "Ownership of organization was automatically granted to user"
-msgstr ""
+msgstr "تم منح ملكية المنظمة تلقائيًا للمستخدم"
 
 msgid "User"
-msgstr ""
+msgstr "المستخدم"
 
 msgid "Organization"
 msgstr "المنظمة / المؤسسة"
 
 msgid "Network"
-msgstr ""
+msgstr "شبكة الاتصال"
 
 msgid "AS"
-msgstr ""
+msgstr "رقم النظام المستقل"
 
 #, python-format
 msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
@@ -926,14 +927,14 @@ msgid "They also provided this organization name in their request"
 msgstr ""
 
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
-msgstr ""
+msgstr "لا يوجد تطابق في قاعدة البيانات الخاصة بنا مع رقم النظام المستقل ، لذلك فمن المرجح أنه سيكون من الضروري أن يتم إنشاء شبكة اتصال ومؤسسة/ منظمة لذلك."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr ""
+msgstr "المستخدم %(u_name)s (%(u_email)s) يطلب إنشاء مؤسسة / منظمة باسم %(o_name)s."
 
 msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
-msgstr ""
+msgstr "لا يوجد تطابق في قاعدة البيانات الخاصة بنا اسم المؤسسة / المنظمة  ولم يتم تحديد رقم النظام المستقل، لذلك فمن المرجح أنه سيكون من الضروري أن يتم إنشاء المؤسسة / المنظمة."
 
 msgid "You may create a new organization here"
 msgstr "يمكنك إنشاء بيانات مؤسسة جديدة هنا"
@@ -1548,13 +1549,13 @@ msgid "Please re-initiate it"
 msgstr "يرجى إعادة البدء"
 
 msgid "This form allows you to retrieve the usernames associated with your email address."
-msgstr ""
+msgstr "هذة الاستمارة تسمح لك بإسترداد أسماء المستخدمين المرتبطة بعنوان البريد الإلكتروني الخاص بك."
 
 msgid "We've sent instructions to your email address, provided it is in our system."
-msgstr ""
+msgstr "تم إرسال تعليمات إلى عنوان البريد الإلكتروني الخاص بك المسجل بالنظام."
 
 msgid "Retrieve username(s)"
-msgstr ""
+msgstr "استرجاع اسم المستخدم (المستخدمين)"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr ""
@@ -1569,34 +1570,34 @@ msgid "Manage OAuth Applications"
 msgstr ""
 
 msgid "Pending Review"
-msgstr ""
+msgstr "قيد انتظار المراجعة"
 
 msgid "Edit"
-msgstr ""
+msgstr "تعديل"
 
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 msgid "Save"
-msgstr ""
+msgstr "حفظ"
 
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
-msgstr ""
+msgstr "بعض البيانات في هذه الصفحة غير مكتملة ، يرجى تحديث الحقول التي تحمل علامة"
 
 msgid "to improve data quality"
-msgstr ""
+msgstr "لتحسين جودة البيانات"
 
 msgid "Address failed validation."
 msgstr ""
 
 msgid "Geocoding error"
-msgstr ""
+msgstr "خطأ بالترميز الجغرافي"
 
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
-msgstr ""
+msgstr "تعذر الحصول على بيانات الترميز الجغرافي لهذا الكيان في هذه المرحلة. سيتم ذلك تلقائيًا عند تغيير حقل العنوان."
 
 msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr ""
+msgstr "سيتم الحصول على بيانات الترميز الجغرافي المحدثة لهذا الكيان بعد دقائق"
 
 msgid "IXF Member Export URL"
 msgstr ""
@@ -1611,19 +1612,19 @@ msgid "Add"
 msgstr ""
 
 msgid "DOT1Q"
-msgstr ""
+msgstr "بروتوكول dot1q"
 
 msgid "MTU"
-msgstr ""
+msgstr "وحدة الإرسال القصوى (MTU)"
 
 msgid "No filter matches."
-msgstr ""
+msgstr "لا يوجد تطابق في خيارات البحث."
 
 msgid "You may filter by"
-msgstr ""
+msgstr "يمكنك إجراء البحث حسب"
 
 msgid "dot1q"
-msgstr ""
+msgstr "بروتوكول dot1q"
 
 msgid "IXLAN"
 msgstr "عنوان شبكة التناظر"
@@ -1735,8 +1736,8 @@ msgstr "اغلاق"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr ""
-"ادناه سجل من التغييرات التي أُجريت علي الشبكة  -&gt; بيانات تبادل الاتصال بناءا علي عمليه استيراد بيانات IX-F\n"
-"ملاحظة، هذا السجل لا يحتوي على أي تعديلات قام بها الموظفون لاستعادة هذه التغييرات ، ولكن يجب أن ينظر إليها كسجل أولي للإجراءات التي اتخذتها عملية استيراد بيانات IX-F"
+"ادناه سجل من التغييرات التي أُجريت على الشبكة  -&gt; بيانات تبادل الاتصال بناء على عملية استيراد بيانات IX-F\n"
+"ملاحظة، هذا السجل لا يحتوي على أي تعديلات قام بها الموظفون لاستعادة هذه التغييرات ، ولكن يجب أن ينظر إليها كسجل أولي للإجراءات التي اتخذتها عملية استيراد بيانات IX-F."
 
 msgid "Showing most recent"
 msgstr "عرض أحدث"
@@ -1749,7 +1750,7 @@ msgid "Refresh"
 msgstr "تحديث"
 
 msgid "Public Peering Exchange Points"
-msgstr "نقاط تبادل التناظر العامة Public Peering Exchange Points"
+msgstr "نقاط تبادل التناظر العامة"
 
 msgid "RS Peer"
 msgstr "نظير مخدم التوجيه RS"
@@ -1800,10 +1801,10 @@ msgid "CLLI Code"
 msgstr ""
 
 msgid "Traffic Ratios"
-msgstr ""
+msgstr "نسب حركة مرور البيانات"
 
 msgid "Unicast IPv4"
-msgstr "عناوين بروتوكول الانترنت الاصدارة الرابعة"
+msgstr "عناوين بروتوكول الإنترنت الاصدارة الرابعة"
 
 msgid "Multicast"
 msgstr "بث/ اتصال متعدد"
@@ -2046,10 +2047,10 @@ msgid "Allow IXP Update"
 msgstr "السماح بتحديث نقطة تبادل الإنترنت IXP"
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
-msgstr ""
+msgstr "في حالة التفعيل ، قد تقوم نقطة تبادل الإنترنت بإدارة إدخال هذه الشبكة في قائمة النظائر/ الأقران الخاصة بهم"
 
 msgid "IXP Update Tools"
-msgstr "أدوات تحديث نقطة تبادل الإنترنت IXP"
+msgstr "أدوات تحديث نقطة تبادل الإنترنت"
 
 msgid "Postmortem"
 msgstr ""
