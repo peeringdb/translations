@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-11-24 10:58+0000\n"
+"PO-Revision-Date: 2019-12-04 12:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1371,25 +1371,25 @@ msgid "initiate again"
 msgstr "البدء مرة أخرى"
 
 msgid "Affiliate with organization"
-msgstr ""
+msgstr "انضم/ انتساب الى منظمة"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr ""
+msgstr "طلب الانتساب الى  %(ar_name)s  قيد الإنتظار."
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
-msgstr ""
+msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
-msgstr ""
+msgstr "طلب الانتساب الى  %(ar_name)s  تمت الموافقة عليه"
 
 msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr ""
+msgstr "للانضمام/انتساب إلى مؤسسة مسجلة بالنظام ، يرجى إدخال رقم النظام المستقل أو اسم المؤسسة أدناه."
 
 msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr ""
+msgstr "لتسجيل مؤسسة جديدة ، يرجى إدخال رقم النظام المستقل واسم المؤسسة أدناه."
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr ""
@@ -1397,11 +1397,12 @@ msgstr ""
 msgid "Affiliate"
 msgstr ""
 
+#, fuzzy
 msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr ""
+msgstr "في حالة تعذر استرجاع  RiR  برقم النظام المستقل الخاص بك ، يرجى الاتصال"
 
 msgid "for assistance"
-msgstr ""
+msgstr "للمساعدة"
 
 msgid "Existing affiliations"
 msgstr ""
@@ -1410,49 +1411,52 @@ msgid "Your affiliation with"
 msgstr ""
 
 msgid "has been approved"
-msgstr ""
+msgstr "تمت الموافقة عليه"
 
 msgid "Change email address"
-msgstr ""
+msgstr "تغيير البريد الالكتروني"
 
+#, fuzzy
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr ""
+"تسريع عملية التحقق، يفضل أن تستخدم عنوان العمل الرسمي في حقل \"البريد الإلكتروني\". \n"
+"إذا كنت تخطط لتسجيل رقم النظام المستقل الخاص بك في قاعدة بيانات التناظر ، فمن المستحسن أن تستخدم عنوان العمل الرسمي في حقل \"البريد الإلكتروني\" الموجود في قسم بيانات الاتصال العامة"
 
 msgid "Change Email"
-msgstr ""
+msgstr "تغيير البريد الالكتروني"
 
 msgid "Change password"
-msgstr ""
+msgstr "تغيير كلمة المرور"
 
 msgid "Password changed"
-msgstr ""
+msgstr "تم تغيير كلمة المرور"
 
 msgid "Current Password"
-msgstr ""
+msgstr "كلمة المرور الحالية"
 
 msgid "Password Verification"
-msgstr ""
+msgstr "التحقق من كلمة المرور"
 
 msgid "You have confirmed your email address!"
-msgstr ""
+msgstr "تم تأكيد عنوان بريدك الإلكتروني!"
 
 msgid "Attention!"
-msgstr ""
+msgstr "انتبه!"
 
 msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr ""
+msgstr "يرجى تحديد عنوان بريد إلكتروني لحسابك ، لا يمكن متابعة التحقق حتى تقوم بذلك."
 
 msgid "Email Confirmation"
-msgstr ""
+msgstr "تأكيد البريد الإلكتروني"
 
 msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr ""
+msgstr "قبل الوصول إلى أي ميزات أخرى بالنظام ، تحتاج إلى تأكيد عنوان بريدك الإلكتروني."
 
 msgid "We have sent you a message containing the confirmation link."
-msgstr ""
+msgstr "تم إرسال رسالة تحتوي على رابط التأكيد/التحقق ببريدك الإلكتروني."
 
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr ""
+msgstr "لن يكون لك حق الوصول الكامل لمميزات النظام إلى أن نكمل أو تكمل المؤسسة التي تنتمي إليها بمراجعة حسابك. شكرا لتفهمكم."
 
 msgid "Select language"
 msgstr "اختر اللغة"
@@ -1522,9 +1526,8 @@ msgstr ""
 msgid "Suggest Network"
 msgstr "اقتراح لشبكة"
 
-#, fuzzy
 msgid "Become a Sponsor"
-msgstr "انضم للداعمون والرعاه"
+msgstr "انضم للداعمين والرعاة"
 
 msgid "This server is running in TUTORIAL MODE"
 msgstr "يعمل هذا الخادم في الوضع \"التعليمي\" وليس وضع \"التشغيل الأساسي\""
