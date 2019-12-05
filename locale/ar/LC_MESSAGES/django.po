@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-05 11:58+0000\n"
+"PO-Revision-Date: 2019-12-05 12:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -474,7 +474,7 @@ msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})
 msgstr "لم يتم العثور علي عنوان انترنت (ipv4 or 6) في قائمة vlan_list لمعرفة  vlan_id {}  و (AS{})"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr "عنوان انترنت خاطئ '{}'  في مدخلات vlan_list لـ vlan_id {}"
+msgstr "عنوان انترنت خاطئ '{}'  في مدخلات vlan_list ل vlan_id {}"
 
 msgid "Connection is currently marked as inactive"
 msgstr "تم وضع علامة \"غير نشط\" على رابط الاتصال الحالي"
@@ -516,13 +516,13 @@ msgid "RIR"
 msgstr "مسجل الانترنت الإقليمي"
 
 msgid "Renumber IP Space"
-msgstr "إعادة ترقيم نطاق عناوين الانترنت IP"
+msgstr "إعادة ترقيم نطاق عناوين الإنترنت"
 
 msgid "Merge Facilities"
-msgstr ""
+msgstr "دمج مراكز بيانات/ تشغيل"
 
 msgid "Merge Facilities: UNDO"
-msgstr ""
+msgstr "التراجع عن دمج مراكز بيانات/ تشغيل"
 
 msgid "Restore Object(s)"
 msgstr "استعادة المتغير (المتغيرات)"
@@ -549,7 +549,7 @@ msgid "API Timeout"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
-msgstr "تم العثور على هذه المنظمة/ المؤسسة في قاعدة البيانات والتي تم اشتقاقها من رقم النظام المستقل ASN أو اسم المؤسسة المقدم. إذا كان هذا فارغًا فهذا يعني أنه لم يتم العثور على منظمة مطابقة."
+msgstr "تم العثور على هذه المنظمة/ المؤسسة في قاعدة البيانات والتي تم اشتقاقها من رقم النظام المستقل  أو اسم المؤسسة الموضح . إذا كان هذا فارغًا فهذا يعني أنه لم يتم العثور على منظمة مطابقة."
 
 msgid "The organization name entered by the user"
 msgstr "اسم المنظمة تم إدخاله من قِبل المستخدم"
@@ -561,7 +561,7 @@ msgid "The user that made the request"
 msgstr "المستخدم الذي قدم الطلب"
 
 msgid "Pending"
-msgstr "قيد الانتظار"
+msgstr "قيد الإنتظار"
 
 msgid "Approved"
 msgstr "تم التأكيد"
@@ -572,21 +572,20 @@ msgstr "مرفوض"
 msgid "Status of this request"
 msgstr "حالة هذا الطلب"
 
-#, fuzzy
 msgid "User to Organization Affiliation Request"
-msgstr "طلب \"الانتساب إلى منظمة\""
+msgstr "طلب طلب الانضمام / الانتساب إلى مؤسسة"
 
 msgid "User to Organization Affiliation Requests"
-msgstr "طلبات \"الانتساب إلى منظمة\""
+msgstr "طلبات الانضمام / الانتساب إلى مؤسسة"
 
 msgid "Your affiliation to Organization \"{}\" has been approved"
-msgstr "طلب الانتساب إلى منظمة \"{}\" تمت الموافقة عليه"
+msgstr "طلب الانضمام / الانتساب إلى منظمة \"{}\" تمت الموافقة عليه"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "تم إنشاء العنصر المرفق بقائمة الانتظار هذه بواسطة هذا المستخدم"
 
 msgid "Allows you to upload and set a logo image file for this organization"
-msgstr "يسمح لك بتحميل وتعيين صورة الشعار لهذه المؤسسة"
+msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه المؤسسة"
 
 msgid "Sponsorship starts on"
 msgstr "تبدأ الرعاية في"
@@ -598,7 +597,7 @@ msgid "Expiration notification sent on"
 msgstr "تم إرسال إشعار انتهاء الصلاحية بتاريخ"
 
 msgid "Sponsorship"
-msgstr "رعايه"
+msgstr "الرعاية"
 
 msgid "Sponsorships"
 msgstr "الرعاية / الرُعاه"
@@ -633,19 +632,20 @@ msgid "Merged on"
 msgstr ""
 
 msgid "Organization Merge"
-msgstr ""
+msgstr "دمج المؤسسة"
 
+#, fuzzy
 msgid "Organization Merges"
-msgstr ""
+msgstr "دمج المؤسسة"
 
 msgid "Organization Merge: Entity"
-msgstr ""
+msgstr "دمج المؤسسة : الكيان"
 
 msgid "Organization Merge: Entities"
-msgstr ""
+msgstr "دمج المؤسسة : الكيانات"
 
 msgid "Need to specify at least two asns"
-msgstr "تحتاج إلى تحديد ارقام النظام المستقل (اثنين على الأقل)"
+msgstr "تحتاج إلى تحديد أرقام الأنظمة المستقلة (اثنين على الأقل)"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "يمكن فقط مقارنة 25 رقم نظام مستقل (كحد أقصى)"
@@ -666,10 +666,10 @@ msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this netw
 msgstr ""
 
 msgid "IPv4 address outside of prefix"
-msgstr "عنوان IPv4 خارج بادئة عنوان الانترنت"
+msgstr "عنوان بروتوكول الإنترنت الاصدارة الرابعة خارج بادئة عنوان الإنترنت"
 
 msgid "IPv6 address outside of prefix"
-msgstr "عنوان IPv6 خارج بادئة عنوان الانترنت"
+msgstr "عنوان بروتوكول الإنترنت الاصدارة السادسة خارج بادئة عنوان الإنترنت"
 
 msgid "Ip address already exists elsewhere"
 msgstr "عنوان الانترنت موجود بالفعل في مكان آخر"
@@ -1484,7 +1484,7 @@ msgid "Confirm password"
 msgstr "تأكيد كلمة المرور"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr "للتحقق السريع، من الضروري أن تستخدم نفس البريد إلكتروني الخاص بالعمل. إذا كنت تخطط لتسجيل رقم النظام المستقل ASN الخاص بك في قاعدة بيانات PeeringDB ، فمن المستحسن أن تستخدم عنوان بريد إلكتروني موجود في تفاصيل الاتصال العامة الخاصة بـرقم النظام المستقل ASN الخاص بك."
+msgstr "للتحقق السريع، من الضروري أن تستخدم نفس البريد الإلكتروني الخاص بالعمل. إذا كنت تخطط لتسجيل رقم النظام المستقل  الخاص بك في قاعدة بيانات التناظر، فمن المستحسن أن تستخدم عنوان بريد إلكتروني موجود في تفاصيل الاتصال العامة الخاصة برقم النظام المستقل الخاص بك."
 
 msgid "First name"
 msgstr "الاسم الأول"
@@ -1645,7 +1645,7 @@ msgid "Add LAN"
 msgstr "إضافة شبكة محلية"
 
 msgid "Facility"
-msgstr "خدمة تسهيلية"
+msgstr "مركز البيانات"
 
 msgid "Exchange - Facility link"
 msgstr ""
@@ -1755,8 +1755,9 @@ msgstr "نقاط تبادل التناظر العامة"
 msgid "RS Peer"
 msgstr "نظير مخدم التوجيه RS"
 
+#, fuzzy
 msgid "Network - Exchange link"
-msgstr "رابط تبادل الشبكة"
+msgstr "شبكة اتصال"
 
 msgid "Local ASN"
 msgstr "رقم النظام المستقل المحلي"
