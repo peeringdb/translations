@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-11-19 13:58+0000\n"
+"PO-Revision-Date: 2019-12-07 03:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -278,10 +278,8 @@ msgstr "Peste"
 msgid "Waiting"
 msgstr "Așteptare"
 
-#, fuzzy
-#| msgid "Malformed organization ids"
 msgid "No organization(s) set"
-msgstr "ID-uri malformate ale organizației"
+msgstr "Nu sunt setate organizații"
 
 msgid "Malformed organization ids"
 msgstr "ID-uri malformate ale organizației"
@@ -802,7 +800,7 @@ msgid "Object of type '%(type)s' cannot be created because it's parent entity '%
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
 msgid "Network has been deleted. Please contact {}"
-msgstr ""
+msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
 
 msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
