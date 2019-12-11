@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-11 12:58+0000\n"
+"PO-Revision-Date: 2019-12-11 13:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -954,29 +954,30 @@ msgid "ATTENTION: This is an ownership request, approving it will grant the user
 msgstr "تنبيه: هذا طلب ملكية ، والموافقة عليه ستمنح حقوق إدارة المستخدم على المؤسسة وأي كيانات تمتلكها."
 
 msgid "These are the website addresses were able to derive from the organzation and it's entities"
-msgstr ""
+msgstr "هذه هي عناوين المواقع الإلكترونية التي تمكن من الحصول عليها من المؤسسة والكيانات التابعة لها"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
-msgstr ""
+msgstr "هذه هي عناوين البريد الإلكتروني التي تمكن الحصول عليها من رقم النظام المستقل لهذه المنظمة"
 
 msgid "The user is affiliated with other organizations"
-msgstr ""
+msgstr "هذا المستخدم تابع للمؤسسة/مؤسسات أخرى"
 
 msgid "ADMIN"
-msgstr ""
+msgstr "مدير النظام"
 
+#, fuzzy
 msgid "MEMBER"
-msgstr ""
+msgstr "العضو"
 
 msgid "Review Affiliation/Ownership Request"
-msgstr ""
+msgstr "مراجعة طلب الانضمام/ الانتساب/ الملكية"
 
 msgid "Approve Ownership Request and Notify User"
-msgstr ""
+msgstr "الموافقة على طلب الملكية وإخطار المستخدم"
 
-#, python-format
+#, fuzzy, python-format
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr ""
+msgstr "تم إنشاء '%(entity_type_name)s ويتطلب إذن بموافقتك"
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
@@ -989,16 +990,16 @@ msgid "but found no match with the requesting user. Here are the email addresses
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 msgid "Requested by user"
-msgstr ""
+msgstr "تم الطلب من قِبل المستخدم"
 
 msgid "You can go to"
-msgstr ""
+msgstr "يمكنك الذهاب إلى"
 
 msgid "to view and approve or deny this entry"
-msgstr ""
+msgstr "لعرض هذا الإدخال والموافقة عليه أو رفضه"
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
@@ -1006,40 +1007,40 @@ msgstr ""
 
 #, python-format
 msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
-msgstr ""
+msgstr "تمت الموافقة على طلبك بالانضمام/ الانتساب إلى المنظمة  '%(o_name)s' وكياناتها"
 
 msgid "This was the result of a manual review of your affiliation request to ASN"
-msgstr ""
+msgstr "هذه نتيجة المراجعة الأولية لطلب الانضمام/ الانتساب الخاص بك إلى رقم النظام المستقل"
 
 msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
-msgstr ""
+msgstr "هذه نتيجة المراجعة الأولية لطلب الانضمام/ الانتساب إلى المؤسسة أو أحد كياناتها."
 
 msgid "You may view and edit your organization at"
-msgstr ""
+msgstr "يمكنك عرض وتعديل بيانات مؤسستك على"
 
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "إذا كانت لديك أسئلة ، فالرجاء عدم التردد في الاتصال بفريق الدعم لقاعدة بيانات التناظر على"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr ""
+msgstr "لقد بدأت إعادة تعيين كلمة المرور على قاعدة بيانات التناظر - يرجى اتباع عنوان الرابط الالكتروني أدناه لإعادة تعيين كلمة المرور."
 
 msgid "If you did not initiate the password reset request, please ignore this email."
-msgstr ""
+msgstr "إذا لم تبدأ طلب إعادة تعيين كلمة المرور، يرجى تجاهل هذا البريد الإلكتروني."
 
 msgid "You requested a username retrieval on PeeringDB for the email address"
-msgstr ""
+msgstr "لقد طلبت استرداد اسم المستخدم على قاعدة بيانات التناظر لهذا البريد الإلكتروني"
 
 msgid "Please follow the url below to view any usernames associated with your email."
-msgstr ""
+msgstr "يرجى اتباع الرابط الالكتروني أدناه لعرض أي أسماء مستخدمين مرتبطة ببريدك الإلكتروني."
 
 msgid "If you did not request username retrieval, you can ignore this email."
-msgstr ""
+msgstr "إذا لم تطلب استرداد اسم المستخدم ، فيمكنك تجاهل هذا البريد الإلكتروني."
 
 msgid "Our Culture"
-msgstr ""
+msgstr "ثقافتنا"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr ""
+msgstr "قاعدة بيانات التناظر PeeringDB، وكما يوحي الاسم ، أنشئت لتسهيل المشاركة بين الشبكات ومشغلي نقاط تبادل الإنترنت. لكن في السنوات الأخيرة ، تطورت رؤية قاعدة بيانات التناظر لمواكبة السرعة والطريقة المتنوعة التي ينمو بها الإنترنت. لم تعد قاعدة البيانات لمجرد التناظر المعلومات ذات الصلة؛ بل يشمل جميع بيانات التوصيل البيني للشبكات، والخدمات و مراكز البيانات والتشغيل بالإضافة إلى كل موارد شبكات التوصيل البيني التي يتم تطويرها عبر الانترنت."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
 msgstr ""
