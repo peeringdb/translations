@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-05 12:58+0000\n"
+"PO-Revision-Date: 2019-12-11 12:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -724,7 +724,7 @@ msgid "Password Reset Initiated"
 msgstr "إعادة تعيين كلمة المرور"
 
 msgid "name of the tool"
-msgstr ""
+msgstr "اسم الأداة"
 
 msgid "json serialization of arguments and options passed"
 msgstr ""
@@ -759,9 +759,9 @@ msgstr ""
 msgid "Any Exchange"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
 msgid "Network - %(net_name)s"
-msgstr ""
+msgstr "شبكة الاتصال - %(net_name)s"
 
 #, python-format
 msgid "Exchange - %(ix_name)s"
@@ -769,7 +769,7 @@ msgstr ""
 
 #, python-format
 msgid "Facility - %(fac_name)s"
-msgstr ""
+msgstr "مركز البيانات - %(fac_name)s"
 
 #, fuzzy
 msgid "Invalid organization specified"
@@ -853,8 +853,9 @@ msgstr "إعداد"
 msgid "Preview"
 msgstr "معاينة"
 
+#, fuzzy
 msgid "Result"
-msgstr ""
+msgstr "نتيجة"
 
 msgid "Merge Notification"
 msgstr "دمج الإشعار"
@@ -924,7 +925,7 @@ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
 msgstr ""
 
 msgid "They also provided this organization name in their request"
-msgstr ""
+msgstr "ايضا تم توضيح اسم المؤسسة / المنظمة هذا في الطلب"
 
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
 msgstr "لا يوجد تطابق في قاعدة البيانات الخاصة بنا مع رقم النظام المستقل ، لذلك فمن المرجح أنه سيكون من الضروري أن يتم إنشاء شبكة اتصال ومؤسسة/ منظمة لذلك."
@@ -944,13 +945,13 @@ msgstr "يمكنك إنشاء بيانات شبكه جديده هنا"
 
 #, python-format
 msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
-msgstr ""
+msgstr "المستخدم %(user_name)s (%(u_email)s) يريد الانضمام الى مؤسسة / منظمة '%(o_name)s'"
 
 msgid "They also provided this ASN in their request"
-msgstr ""
+msgstr "تم توضيح رقم النظام المستقل في الطلب"
 
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
-msgstr ""
+msgstr "تنبيه: هذا طلب ملكية ، والموافقة عليه ستمنح حقوق إدارة المستخدم على المؤسسة وأي كيانات تمتلكها."
 
 msgid "These are the website addresses were able to derive from the organzation and it's entities"
 msgstr ""
