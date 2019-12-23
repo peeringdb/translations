@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-23 11:58+0000\n"
+"PO-Revision-Date: 2019-12-23 12:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -628,8 +628,9 @@ msgstr "شراكة"
 msgid "Partnerships"
 msgstr "الشركاء"
 
+#, fuzzy
 msgid "Merged on"
-msgstr ""
+msgstr "دُمجت"
 
 msgid "Organization Merge"
 msgstr "دمج المؤسسة"
@@ -692,8 +693,9 @@ msgstr "الاسم الأول"
 msgid "last name"
 msgstr "الاسم الأخير / الكنية"
 
+#, fuzzy
 msgid "staff status"
-msgstr ""
+msgstr "حالة الموظفين"
 
 msgid "Designates whether the user can log into admin site."
 msgstr "يحدد ما إذا كان المستخدم يمكن تسجيل الدخول إلى موقع الإدارة admin site."
@@ -750,28 +752,28 @@ msgstr "جاري"
 msgid "Organization and all Entities it owns"
 msgstr "المنظمة/ المؤسسة وجميع الكيانات التي تملكها"
 
+#, fuzzy
 msgid "Any Network"
-msgstr ""
+msgstr "اي شبكة اتصال"
 
 msgid "Any Facility"
-msgstr ""
+msgstr "اي مركز البيانات"
 
 msgid "Any Exchange"
-msgstr ""
+msgstr "اي تبادل بيانات"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Network - %(net_name)s"
 msgstr "شبكة الاتصال - %(net_name)s"
 
 #, python-format
 msgid "Exchange - %(ix_name)s"
-msgstr ""
+msgstr "تبادل البيانات -  %(ix_name)s"
 
 #, python-format
 msgid "Facility - %(fac_name)s"
 msgstr "مركز البيانات - %(fac_name)s"
 
-#, fuzzy
 msgid "Invalid organization specified"
 msgstr "تم تحديد مؤسسة غير صحيحة"
 
@@ -792,8 +794,9 @@ msgstr "يجب أن تكون فريد من نوعه"
 msgid "This field is required"
 msgstr "هذا الحقل/الخانة مطلوب"
 
+#, fuzzy
 msgid "RDAP Lookup Error"
-msgstr ""
+msgstr "خطأ في البحث بروتوكول الوصول إلى بيانات التسجيل (rdap)"
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
@@ -801,11 +804,11 @@ msgstr "هذا الحقل/الخانة مسموح به فقط لهذه الطل�
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr ""
+msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  لم تتم الموافقة عليه بعد"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr ""
+msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -907,22 +910,22 @@ msgstr "رقم النظام المستقل"
 
 #, python-format
 msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "المؤسسة  %(o_name)s (%(o_id)s)  تم إنشاؤها تلقائيا خلال طلب المستخدم '%(u_name)s's للانضمام الى رقم النظام المستقل AS%(asn)s"
 
 #, python-format
 msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "شبكة الاتصال %(n_name)s (%(n_id)s) تم إنشاؤها تلقائيا خلال طلب المستخدم '%(u_name)s's للانضمام الى رقم النظام المستقل AS%(asn)s"
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgstr ""
+msgstr "انشأ المستخدم '%(u_name)s'  شبكة اتصال  %(n_name)s ورقم النظام المستقل AS%(n_asn)s (%(n_id)s) تحت بيانات المؤسسة %(o_name)s (%(o_id)s)."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgstr ""
+msgstr "نظرًا لأنه تمت مطابقة عنوان البريد الإلكتروني للمستخدم بنجاح مع بيانات الإدخال لسجلات الإنترنت الإقليمية ، فقد تم تخطي عملية انتظار التحقق."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
-msgstr ""
+msgstr "المستخدم  %(u_name)s (%(u_email)s) يطلب الانضمام الى رقم النظام المستقل ASN %(inst)s"
 
 msgid "They also provided this organization name in their request"
 msgstr "ايضا تم توضيح اسم المؤسسة / المنظمة هذا في الطلب"
@@ -979,15 +982,15 @@ msgstr "الموافقة على طلب الملكية وإخطار المستخ�
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "تم إنشاء '%(entity_type_name)s ويتطلب إذن بموافقتك"
 
-#, python-format
+#, fuzzy, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr ""
+msgstr "تم تقديم  %(entity_type_name)s  كمقترح وسيحتاج إلى تعيين المؤسسة المناسبة بعد المراجعة"
 
 msgid "We retrieved the RiR entry for the specified ASN"
-msgstr ""
+msgstr "تم استرداد بيانات رقم النظام المستقل من قاعدة بيانات مسجلات الإنترنت الإقليمية"
 
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
-msgstr ""
+msgstr "ولكن لم يتم العثور على تطابق مع المستخدم . فيما يلي عناوين البريد الإلكتروني التي جمعناها"
 
 msgid "Name"
 msgstr "الاسم"
@@ -1003,7 +1006,7 @@ msgstr "لعرض هذا الإدخال والموافقة عليه أو رفضه
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
-msgstr ""
+msgstr "%(i_label)s مستوى الرعاية/ الدعم من '%(io_name)s'  و انتهت صلاحيتها  %(i_end_date)s."
 
 #, python-format
 msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
@@ -1051,16 +1054,16 @@ msgid "I’m a network operator. How can PeeringDB help me?"
 msgstr "أنا مشغل شبكة. كيف يمكن لقاعدة بيانات التناظر مساعدتي؟"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
-msgstr ""
+msgstr "حوالي  ثلث ارقام الأنظمة المستقلة سجلت بيانات الاتصال البيني الخاصة بهم بقاعدة بيانات التناظر،  هذا يعني أنه باستخدام قاعدة بيانات التناظر وإضافة بيانات التوصيل البيني الخاصة بك ، ستتمكن من العثور بثقة على معلومات حول الشبكات التي تتطلع إلى الاتصال وأين وكيف تتصل بها،  وستتمكن من العثور على نفس المعلومات حول شبكتك . نظرًا لأن قاعدة البيانات هذة تتم صيانتها من قِبل المتطوعين والتحقق من صحتها ، فيمكنك الوثوق في أن المعلومات دقيقة ومحدثة."
 
 msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
-msgstr ""
+msgstr "ستساعدك هذه البيانات على تسريع عملية البحث عن الشبكات الأخرى والاتصال بها ، مع دعم النشر الأسرع والأكثر أهمية لخطط توسيع الشبكة وتطويرها."
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr ""
+msgstr "انا نقطه تبادل الإنترنت (IXP) ، مركز بيانات أو مرفق للربط البيني،  كيف يمكن ل \"قاعدة بيانات التناظر\" مساعدتي ؟"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
-msgstr ""
+msgstr "يمكن نقاط تبادل الإنترنت مراكز البيانات إضافة معلوماتهم والحفاظ عليها تحديثها في قاعدة البيانات ، مما يزيد من وضوح وجاذبية العملاء الجدد والحاليين. إذا كنت في من المسجلين في قاعدة بيانات التناظر ، فإن ذلك يسهل على الشبكات العثور على معلومات مهمة حول خدماتك والشبكات الأخرى الموجودة في نقطة تبادل الإنترنت أو منشآت مراكز البيانات/ التشغيل."
 
 msgid "Address"
 msgstr "العنوان"
@@ -1081,7 +1084,7 @@ msgid "click to select multiple"
 msgstr "انقر لتحديد عدة خيارات"
 
 msgid "Management"
-msgstr ""
+msgstr "إدارة"
 
 msgid "CLLI"
 msgstr ""
@@ -1652,7 +1655,7 @@ msgid "Facility"
 msgstr "مركز البيانات"
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "نقطة التبادل - مركز البيانات"
 
 msgid "Add Facility"
 msgstr "إضافة خدمة تسهيلية"
@@ -1760,7 +1763,7 @@ msgid "RS Peer"
 msgstr "نظير مخدم التوجيه RS"
 
 msgid "Network - Exchange link"
-msgstr "شبكة اتصال -  رابط التبادل"
+msgstr "شبكة الاتصال - رابط التبادل"
 
 msgid "Local ASN"
 msgstr "رقم النظام المستقل المحلي"
