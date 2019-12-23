@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-23 12:58+0000\n"
+"PO-Revision-Date: 2019-12-23 13:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1086,75 +1086,79 @@ msgstr "انقر لتحديد عدة خيارات"
 msgid "Management"
 msgstr "إدارة"
 
+#, fuzzy
 msgid "CLLI"
-msgstr ""
+msgstr "لغة الموقع المعرفة العامة"
 
 msgid "NPA-NXX"
 msgstr ""
 
 msgid "Reset"
-msgstr ""
+msgstr "اعاده ضبط"
 
 msgid "Search"
-msgstr ""
+msgstr "ابحث"
 
 msgid "Postal Code"
 msgstr "الرمز البريدي"
 
 msgid "Networks"
-msgstr ""
+msgstr "شبكات الاتصال"
 
 msgid "No search results."
-msgstr ""
+msgstr "لا توجد نتائج بحث."
 
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr ""
+msgstr "... أكثر من %(row_limit)s  مدخل مطابق لطلبك ، أعد تنقيح الطلب ..."
 
+#, fuzzy
 msgid "Continental Region"
-msgstr ""
+msgstr "المنطقة القارية"
 
 msgid "IP Block"
-msgstr ""
+msgstr "حزمة عناوين الإنترنت"
 
 msgid "Media Type"
-msgstr ""
+msgstr "نوع الوسيط/التوصيل"
 
 msgid "Network Type"
-msgstr ""
+msgstr "نوع شبكة الاتصال"
 
 msgid "Traffic Levels"
-msgstr ""
+msgstr "مستوى حركة مرور البيانات"
 
 msgid "Traffic Ratio"
-msgstr ""
+msgstr "نسبة حركة مرور البيانات"
 
 msgid "Primary ASN"
-msgstr ""
+msgstr "رقم النظام المستقل الأساسي"
 
+#, fuzzy
 msgid "IRR as-set/route-set"
-msgstr ""
+msgstr "IRR as-set/route-set"
 
 msgid "General Peering Policy"
-msgstr ""
+msgstr "سياسة التناظر العامة"
 
 msgid "Geographic Scope"
-msgstr ""
+msgstr "النطاق الجغرافي"
 
+#, fuzzy
 msgid "Exchange Presence"
-msgstr ""
+msgstr "وجود تبادل البيانات / التناظر"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr ""
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 msgid "Facility Presence"
-msgstr ""
+msgstr "وجود مركز بيانات / تشغيل"
 
 msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr ""
+msgstr "ابحث عن الشبكات الموجودة في أحد مراكز البيانات ، وغير موجودة في مراكز أخرى"
 
 msgid "Also known as"
-msgstr ""
+msgstr "المعروف أيضا باسم"
 
 msgid "ASN"
 msgstr "رقم النظام المستقل"
@@ -1163,32 +1167,32 @@ msgid "General Policy"
 msgstr "السياسة العامة"
 
 msgid "Network Scope"
-msgstr ""
+msgstr "نطاق شبكة الاتصال"
 
 msgid "Exchanges"
-msgstr ""
+msgstr "عمليات التبادل"
 
 msgid "Facilities"
-msgstr ""
+msgstr "مراكز بيانات/ تشغيل"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
-msgstr ""
+msgstr "اضف  %(entity_name)s الى المؤسسة. تجدر الإشارة إلى أن %(entity_name)s الذي تم إنشاؤه حديثًا يحتاج إلى موافقة موظفي قاعدة بيانات التناظر اولاً قبل ظهوره في نتائج البحث أو واجهة برمجة التطبيقات"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+msgstr "ليتم إدراجها كمرفق \"مركز بيانات\" في قاعدة بيانات التناظر ، يجب ان تُقدم خدمات الاستضافة  و/أو خدمة الغرف للجمهور."
 
 msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr ""
+msgstr "لتتم اضافة نقطة تبادل الانترنت في قاعدة بيانات التناظر يجب أن تُستوفي المعايير التالية:"
 
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr ""
+msgstr "نقاط تبادل الإنترنت (IXP) هي شبكة اتصال تُمكن من الربط البيني لأكثر من نظامين مستقلين ذاتيا ، بغرض تسهيل تبادل حركة المرور على الإنترنت."
 
 msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr ""
+msgstr "توفر نقاط تبادل الإنترنت التوصيل البيني فقط للأنظمة المستقلة المتصلة بنقطة تبادل الإنترنت. نقاط تبادل الإنترنت لا تعارض حركة مرور البيانات بين أي زوجين من الأنظمة المستقلة عبر وسيط/ نظام ثالث. ولا تُغير أو تتعارض بشكل آخر مع حركة المرور هذه"
 
 msgid "Submit"
-msgstr ""
+msgstr "إرسال/ تقديم"
 
 #, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
