@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-01-06 11:58+0000\n"
+"PO-Revision-Date: 2020-01-06 12:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -1784,8 +1784,9 @@ msgstr "العنوان ٢"
 msgid "Zip-Code"
 msgstr "الرمز البريدي"
 
+#, fuzzy
 msgid "CLLI Code"
-msgstr ""
+msgstr "CLLI Code"
 
 msgid "Traffic Ratios"
 msgstr "نسب حركة مرور البيانات"
@@ -1939,7 +1940,7 @@ msgid "Either ASN or Organization required"
 msgstr "إما رقم النظام المستقل (ASN) أو اسم المنظمة مطلوب"
 
 msgid "RDAP Lookup Error: {}"
-msgstr ""
+msgstr "خطأ في البحث ببروتوكول الوصول إلى بيانات التسجيل"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "الرجاء الانتظار قليلاً قبل محاولة إعادة إرسال \"رسالة تأكيد البريد الإلكتروني\" مرة أخرى"
