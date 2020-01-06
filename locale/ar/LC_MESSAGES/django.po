@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-23 13:58+0000\n"
+"PO-Revision-Date: 2020-01-06 11:58+0000\n"
 "Last-Translator: Sara Hassan <sara@pch.net>\n"
 "Language-Team: Arabic <https://translate.peeringdb.com/projects/peeringdb/server/ar/>\n"
 "Language: ar\n"
@@ -602,16 +602,14 @@ msgstr "الرعاية"
 msgid "Sponsorships"
 msgstr "الرعاية / الرُعاه"
 
-#, fuzzy
 msgid "Sponsorship Expired"
-msgstr "الرعاية انتهت"
+msgstr "انتهت الرعاية"
 
 msgid "URL"
 msgstr "الرابط الإلكتروني"
 
-#, fuzzy
 msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "إذا تم تحديد ذلك ، فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
+msgstr "إذا تم تحديد ذلك فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
 
 msgid "Allows you to upload and set a logo image file for this sponsorship"
 msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه الرعاية"
@@ -628,14 +626,12 @@ msgstr "شراكة"
 msgid "Partnerships"
 msgstr "الشركاء"
 
-#, fuzzy
 msgid "Merged on"
-msgstr "دُمجت"
+msgstr "دُمجت / اندمجت على"
 
 msgid "Organization Merge"
 msgstr "دمج المؤسسة"
 
-#, fuzzy
 msgid "Organization Merges"
 msgstr "دمج المؤسسة"
 
@@ -693,16 +689,14 @@ msgstr "الاسم الأول"
 msgid "last name"
 msgstr "الاسم الأخير / الكنية"
 
-#, fuzzy
 msgid "staff status"
 msgstr "حالة الموظفين"
 
 msgid "Designates whether the user can log into admin site."
 msgstr "يحدد ما إذا كان المستخدم يمكن تسجيل الدخول إلى موقع الإدارة admin site."
 
-#, fuzzy
 msgid "active"
-msgstr "منشط"
+msgstr "نشط / مُفعّل"
 
 msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
 msgstr "يحدد ما إذا كان يجب التعامل مع هذا المستخدم على أنه منشط. قم بإلغاء تحديد هذا بدلاً من حذف الحسابات."
@@ -752,7 +746,6 @@ msgstr "جاري"
 msgid "Organization and all Entities it owns"
 msgstr "المنظمة/ المؤسسة وجميع الكيانات التي تملكها"
 
-#, fuzzy
 msgid "Any Network"
 msgstr "اي شبكة اتصال"
 
@@ -794,7 +787,6 @@ msgstr "يجب أن تكون فريد من نوعه"
 msgid "This field is required"
 msgstr "هذا الحقل/الخانة مطلوب"
 
-#, fuzzy
 msgid "RDAP Lookup Error"
 msgstr "خطأ في البحث بروتوكول الوصول إلى بيانات التسجيل (rdap)"
 
@@ -856,7 +848,6 @@ msgstr "إعداد"
 msgid "Preview"
 msgstr "معاينة"
 
-#, fuzzy
 msgid "Result"
 msgstr "نتيجة"
 
@@ -968,9 +959,8 @@ msgstr "هذا المستخدم تابع للمؤسسة/مؤسسات أخرى"
 msgid "ADMIN"
 msgstr "مدير النظام"
 
-#, fuzzy
 msgid "MEMBER"
-msgstr "العضو"
+msgstr "عضو"
 
 msgid "Review Affiliation/Ownership Request"
 msgstr "مراجعة طلب الانضمام/ الانتساب/ الملكية"
@@ -978,11 +968,11 @@ msgstr "مراجعة طلب الانضمام/ الانتساب/ الملكية"
 msgid "Approve Ownership Request and Notify User"
 msgstr "الموافقة على طلب الملكية وإخطار المستخدم"
 
-#, fuzzy, python-format
+#, python-format
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr "تم إنشاء '%(entity_type_name)s ويتطلب إذن بموافقتك"
+msgstr "تم إنشاء '%(entity_type_name)s ويتطلب إذنك بالموافقة على ذلك"
 
-#, fuzzy, python-format
+#, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
 msgstr "تم تقديم  %(entity_type_name)s  كمقترح وسيحتاج إلى تعيين المؤسسة المناسبة بعد المراجعة"
 
@@ -1086,7 +1076,6 @@ msgstr "انقر لتحديد عدة خيارات"
 msgid "Management"
 msgstr "إدارة"
 
-#, fuzzy
 msgid "CLLI"
 msgstr "لغة الموقع المعرفة العامة"
 
@@ -1112,7 +1101,6 @@ msgstr "لا توجد نتائج بحث."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "... أكثر من %(row_limit)s  مدخل مطابق لطلبك ، أعد تنقيح الطلب ..."
 
-#, fuzzy
 msgid "Continental Region"
 msgstr "المنطقة القارية"
 
@@ -1134,7 +1122,6 @@ msgstr "نسبة حركة مرور البيانات"
 msgid "Primary ASN"
 msgstr "رقم النظام المستقل الأساسي"
 
-#, fuzzy
 msgid "IRR as-set/route-set"
 msgstr "IRR as-set/route-set"
 
@@ -1144,7 +1131,6 @@ msgstr "سياسة التناظر العامة"
 msgid "Geographic Scope"
 msgstr "النطاق الجغرافي"
 
-#, fuzzy
 msgid "Exchange Presence"
 msgstr "وجود تبادل البيانات / التناظر"
 
@@ -1196,16 +1182,16 @@ msgstr "إرسال/ تقديم"
 
 #, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr ""
+msgstr "اقترح  %(entity_name)s  ليتم إضافتها إلى قاعدة البيانات. ستتم مراجعة اقتراحك من قبل لجنة إدارة قاعدة بيانات التناظر.سيتم بعد ذلك أما وضعه في صيغته النهائية وإدخاله في قاعدة البيانات ، أو رفضه. لا يوجد إجراء آخر مطلوب من جانبك."
 
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+msgstr "من أجل الحصول على الموافقة ، نتوقع أن يقدم مركز البيانات المقترح خدمات التنسيق  و / أو غرفة الاجتماعات إلى/ مع الجمهور."
 
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr ""
+msgstr "لكي تتم الموافقة ، نتوقع أن تفي نقطة التبادل المقترحة بالمعايير التالية:"
 
 msgid "Suggest"
-msgstr ""
+msgstr "اقترح"
 
 msgid "404 - Not Found"
 msgstr "خطأ 404 - غير موجود"
@@ -1256,19 +1242,19 @@ msgid "Governance"
 msgstr ""
 
 msgid "Contact Us"
-msgstr ""
+msgstr "اتصل بنا"
 
 msgid "Global System Statistics"
-msgstr ""
+msgstr "إحصائيات النظام العالمي"
 
 msgid "Connections to Exchanges"
-msgstr ""
+msgstr "الاتصالات إلى النظائر/التبادلات"
 
 msgid "Connections to Facilities"
-msgstr ""
+msgstr "الاتصالات إلى مراكز بيانات/ تشغيل"
 
 msgid "Search here for a network, IX, or facility."
-msgstr ""
+msgstr "ابحث هنا عن شبكة اتصال أو نقطة تبادل بيانات أو مركز البيانات/تشغيل."
 
 msgid "Advanced Search"
 msgstr "البحث المتقدم"
@@ -1280,7 +1266,7 @@ msgid "unverified"
 msgstr "غير مؤكد"
 
 msgid "Suggest Facility"
-msgstr ""
+msgstr "اقترح مركز بيانات/ تشغيل"
 
 msgid "Profile"
 msgstr "الملف التعريفي"
@@ -1330,7 +1316,6 @@ msgstr "نسيت كلمة المرور الخاصة بي."
 msgid "I forgot my username .."
 msgstr "نسيت اسم المستخدم الخاص بي."
 
-#, fuzzy
 msgid "Maintenance Mode"
 msgstr "وضع الصيانة"
 
@@ -1338,7 +1323,7 @@ msgid "The site is currently in maintenance mode, during which this action is di
 msgstr "الموقع حاليا في وضع الصيانة  حيث لا يمكنك متابعة هذا الإجراء ، يرجى المحاولة مرة أخرى بعد بضع دقائق"
 
 msgid "Login with oAuth"
-msgstr ""
+msgstr "تسجيل الدخول مع التحقق"
 
 msgid "Login with your Google account"
 msgstr "تسجيل الدخول باستخدام حسابك في قوقل"
@@ -1385,7 +1370,7 @@ msgstr "البدء مرة أخرى"
 msgid "Affiliate with organization"
 msgstr "انضم/ انتساب الى منظمة"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "طلب الانتساب الى  %(ar_name)s  قيد الإنتظار."
 
@@ -1404,23 +1389,22 @@ msgid "To register a new network organization, please enter the ASN and organiza
 msgstr "لتسجيل مؤسسة جديدة ، يرجى إدخال رقم النظام المستقل واسم المؤسسة أدناه."
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr ""
+msgstr "لتسجيل مركز بيانات/تشغيل جديد أو مؤسسة تبادل ، يرجى إدخال اسم المنظمة أدناه (رقم النظام المستقل اختياري)."
 
 msgid "Affiliate"
-msgstr ""
+msgstr "انضم/ انتساب"
 
-#, fuzzy
 msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "في حالة تعذر استرجاع  RiR  برقم النظام المستقل الخاص بك ، يرجى الاتصال"
+msgstr "في حالة تعذر استرجاع رقم النظام المستقل الخاص بك من قاعدة بيانات مسجلي الانترنت الإقليمين RiR ، يرجى الاتصال"
 
 msgid "for assistance"
 msgstr "للمساعدة"
 
 msgid "Existing affiliations"
-msgstr ""
+msgstr "الانتماءات الحالية"
 
 msgid "Your affiliation with"
-msgstr ""
+msgstr "الانضمام / الإنتساب مع"
 
 msgid "has been approved"
 msgstr "تمت الموافقة عليه"
@@ -1428,7 +1412,6 @@ msgstr "تمت الموافقة عليه"
 msgid "Change email address"
 msgstr "تغيير البريد الالكتروني"
 
-#, fuzzy
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr ""
 "تسريع عملية التحقق، يفضل أن تستخدم عنوان العمل الرسمي في حقل \"البريد الإلكتروني\". \n"
@@ -1503,7 +1486,6 @@ msgstr "الاسم الأول"
 msgid "Last name"
 msgstr "اسم العائلة (الكنية)"
 
-#, fuzzy
 msgid "Loading anti-spam challenge"
 msgstr "تحميل تحدي مكافحة البريد المزعج"
 
@@ -1513,13 +1495,12 @@ msgstr "انشاء"
 msgid "Thank you"
 msgstr "شكرا"
 
-#, fuzzy, python-format
+#, python-format
 msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr "تم استلام طلب الملكية الخاص  بـ   %(o_name)s وسوف تتم مراجعته ."
+msgstr "تم استلام طلب الملكية الخاص  بـ  %(o_name)s  وسوف تتم مراجعته ."
 
-#, fuzzy
 msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr "تم التحقق بنجاح من علاقتك بهذا الكيان ( المؤسسة، المنظمة) . يمكنك  الان العرض / التحرير"
+msgstr "تم التحقق بنجاح من علاقتك بهذا الكيان (المؤسسة، المنظمة) . يمكنك  الآن إجراء العرض/ التعديل"
 
 msgid "Request Ownership"
 msgstr "طلب ملكية"
@@ -1527,16 +1508,15 @@ msgstr "طلب ملكية"
 msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
 msgstr "الرجاء تنفيذ طلب الملكية فقط إذا كنت متأكدًا من أن لديك الحق في القيام بذلك. هل أنت متأكد أنك تريد المتابعة؟"
 
-#, fuzzy
 msgid "Only verified users may request ownership to an organization"
-msgstr "يمكن للمستخدمين الذين تم التحقق منهم فقط طلب \"ملكية مؤسسة\""
-
-msgid "Suggest Exchange"
-msgstr ""
+msgstr "يمكن للمستخدمين الذين تم التحقق منهم فقط  إجراء طلب \"ملكية مؤسسة\""
 
 #, fuzzy
+msgid "Suggest Exchange"
+msgstr "اقترح تبادل اتصال"
+
 msgid "Suggest Network"
-msgstr "اقتراح لشبكة"
+msgstr "اقتراح شبكة اتصال"
 
 msgid "Become a Sponsor"
 msgstr "انضم للداعمين والرعاة"
@@ -1569,16 +1549,16 @@ msgid "Retrieve username(s)"
 msgstr "استرجاع اسم المستخدم (المستخدمين)"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
-msgstr ""
+msgstr "حساب المستخدم الخاص بك غير تابع/ منضم لأي مؤسسه حتى الآن ، سيكون لديه وصول محدود إلى بعض البيانات (مثل معلومات الاتصال بالشبكة غير العامة)."
 
 msgid "Please take the time to confirm your email address and request affiliation"
-msgstr ""
+msgstr "يرجى تأكيد عنوان البريد الإلكتروني الخاص بك وطلب الانضمام / الانتساب"
 
 msgid "You may request affiliation to an Organization or ASN"
-msgstr ""
+msgstr "يمكنك طلب الانتساب إلى مؤسسة / منظمة أو رقم النظام المستقل ASN"
 
 msgid "Manage OAuth Applications"
-msgstr ""
+msgstr "إدارة تطبيقات التحقق"
 
 msgid "Pending Review"
 msgstr "قيد انتظار المراجعة"
@@ -1599,7 +1579,7 @@ msgid "to improve data quality"
 msgstr "لتحسين جودة البيانات"
 
 msgid "Address failed validation."
-msgstr ""
+msgstr "فشل التحقق من صحة العنوان."
 
 msgid "Geocoding error"
 msgstr "خطأ بالترميز الجغرافي"
@@ -1617,10 +1597,10 @@ msgid "Enable IX-F Import"
 msgstr ""
 
 msgid "Prefix"
-msgstr ""
+msgstr "بادئة عنوان الانترنت"
 
 msgid "Add"
-msgstr ""
+msgstr "إضافة"
 
 msgid "DOT1Q"
 msgstr "بروتوكول dot1q"
@@ -1641,7 +1621,7 @@ msgid "IXLAN"
 msgstr "عنوان شبكة التناظر"
 
 msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr ""
+msgstr "تنبيه: ستتم إزالة أي اتصالات شبكة للتبادل عبر هذه الشبكة المحلية"
 
 msgid "IXLAN Prefix"
 msgstr "بادئة عنوان شبكة التناظر"
@@ -1700,9 +1680,8 @@ msgstr "تبادل"
 msgid "IP"
 msgstr "عنوان بروتوكول الانترنت"
 
-#, fuzzy
 msgid "Long Name"
-msgstr "الاسم طويل"
+msgstr "الاسم كامل"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
@@ -1710,7 +1689,6 @@ msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنه
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "يتم إخفاء بعض جهات الاتصال لهذه الشبكة لأن حساب المستخدم الخاص بك لا ينتمي إلى أي مؤسسة."
 
-#, fuzzy
 msgid "Role"
 msgstr "دور"
 
@@ -1741,7 +1719,6 @@ msgstr "إجراء"
 msgid "exchange"
 msgstr "تبادل"
 
-#, fuzzy
 msgid "Close"
 msgstr "اغلاق"
 
@@ -1756,7 +1733,6 @@ msgstr "عرض أحدث"
 msgid "changes"
 msgstr "التغييرات"
 
-#, fuzzy
 msgid "Refresh"
 msgstr "تحديث"
 
@@ -1829,7 +1805,6 @@ msgstr "مواقع متعددة"
 msgid "Ratio Requirement"
 msgstr ""
 
-#, fuzzy
 msgid "Contract Requirement"
 msgstr "متطلبات العقد"
 
@@ -1893,9 +1868,8 @@ msgstr "حذف"
 msgid "Thank you for your suggestion."
 msgstr "شكرا على اقتراحكم."
 
-#, fuzzy
 msgid "Suggest another facility"
-msgstr "اقترح خدمة تسهيلية اخرى"
+msgstr "اقترح مركز البيانات آخر"
 
 msgid "Only verified users may suggest entities."
 msgstr "يمكن للمستخدمين الذين تم التحقق منهم فقط اقتراح كيانات."
