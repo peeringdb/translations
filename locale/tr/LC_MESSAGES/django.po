@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-08 15:58+0000\n"
-"Last-Translator: Filiz Yilmaz <filiz@peeringdb.com>\n"
+"PO-Revision-Date: 2020-01-07 06:58+0000\n"
+"Last-Translator: Alptekin Sunnetci <a.sunnetci@ciklet.com.tr>\n"
 "Language-Team: Turkish <https://translate.peeringdb.com/projects/peeringdb/server/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -21,18 +21,17 @@ msgid "Ethernet"
 msgstr "Ethernet"
 
 msgid "ATM"
-msgstr ""
+msgstr "ATM"
 
 msgid "Multiple"
 msgstr "Çoklu"
 
 msgid "Abuse"
-msgstr ""
+msgstr "Suistimal"
 
 msgid "Maintenance"
 msgstr "Bakım"
 
-#, fuzzy
 msgid "Policy"
 msgstr "Politika/Ilke"
 
@@ -87,28 +86,23 @@ msgstr "IPv4"
 msgid "IPv6"
 msgstr "IPv4"
 
-#, fuzzy
 msgid "Not Disclosed"
 msgstr "Açıklanmamış"
 
-#, fuzzy
 msgid "Heavy Outbound"
-msgstr "Yoğun giden"
+msgstr "Yoğun Giden"
 
-#, fuzzy
 msgid "Mostly Outbound"
-msgstr "Çoğunlukla giden"
+msgstr "Çoğunlukla Giden"
 
 msgid "Balanced"
 msgstr "Dengeli"
 
-#, fuzzy
 msgid "Mostly Inbound"
-msgstr "Çoğunlukla gelen"
+msgstr "Çoğunlukla Gelen"
 
-#, fuzzy
 msgid "Heavy Inbound"
-msgstr "Yoğun gelen"
+msgstr "Yoğun Gelen"
 
 msgid "North America"
 msgstr "Kuzey Amerika"
@@ -156,31 +150,31 @@ msgid "10-20Gbps"
 msgstr "10-20Gbps"
 
 msgid "20-50 Gbps"
-msgstr ""
+msgstr "20-50 Gbps"
 
 msgid "50-100 Gbps"
-msgstr ""
+msgstr "50-100 Gbps"
 
 msgid "100+ Gbps"
-msgstr ""
+msgstr "100+ Gbps"
 
 msgid "100-200 Gbps"
-msgstr ""
+msgstr "100-200 Gbps"
 
 msgid "200-300 Gbps"
-msgstr ""
+msgstr "200-300 Gbps"
 
 msgid "300-500 Gbps"
-msgstr ""
+msgstr "300-500 Gbps"
 
 msgid "500-1000 Gbps"
-msgstr ""
+msgstr "500-1000 Gbps"
 
 msgid "1 Tbps+"
-msgstr ""
+msgstr "1 Tbps+"
 
 msgid "10 Tbps+"
-msgstr ""
+msgstr "10 Tbps+"
 
 msgid "NSP"
 msgstr "Ağ Servis Sunucusu"
@@ -191,7 +185,6 @@ msgstr "İçerik"
 msgid "Cable/DSL/ISP"
 msgstr "Kablo/DSL/Internet Hizmet Sağlayıcısı"
 
-#, fuzzy
 msgid "Enterprise"
 msgstr "Ticari Kurum"
 
@@ -202,7 +195,7 @@ msgid "Non-Profit"
 msgstr "Kâr amacı gütmeyen"
 
 msgid "Route Server"
-msgstr ""
+msgstr "Rota Sunucusu"
 
 msgid "Private"
 msgstr "Kişisel"
@@ -220,37 +213,37 @@ msgid "Status"
 msgstr "Durum"
 
 msgid "Target org cannot be in selected organizations list"
-msgstr ""
+msgstr "Hedef kuruluş seçilmiş olan bu listede olamaz"
 
 msgid "ROLLBACK"
-msgstr ""
+msgstr "Aşağı Çekmek"
 
 msgid "SOFT DELETE"
-msgstr ""
+msgstr "Kaydı Sil"
 
 msgid "Verification Queue is currently disabled"
-msgstr ""
+msgstr "Doğrulama Sırası şuanda devre dışı"
 
 msgid "Verification Queue is currently disabled for this object type"
-msgstr ""
+msgstr "Doğrulama Sırası bu nesne için devre dışı"
 
 msgid "APPROVE"
-msgstr ""
+msgstr "ONAYLANDI"
 
 msgid "DENY"
-msgstr ""
+msgstr "REDDET"
 
 msgid "APPROVED"
-msgstr ""
+msgstr "ONAYLANDI"
 
 msgid "Ipaddress already exists elsewhere"
-msgstr ""
+msgstr "IP Adresi başka bir yerde kullanılıyor"
 
 msgid "User is looking to be affiliated to these Organizations"
-msgstr ""
+msgstr "Kullanıcı bu kuruluşa bağlanmak istiyor"
 
 msgid "IXF Import History"
-msgstr ""
+msgstr "IXF Liste Geçmişi"
 
 msgid "Initial creation of netixlan"
 msgstr ""
@@ -1616,16 +1609,14 @@ msgstr ""
 msgid "dot1q"
 msgstr ""
 
-#, fuzzy
 msgid "IXLAN"
 msgstr "IXLAN"
 
 msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 msgstr ""
 
-#, fuzzy
 msgid "IXLAN Prefix"
-msgstr "IXLAN Prefix"
+msgstr "IXLAN Öneki"
 
 msgid "Add Prefix"
 msgstr ""
@@ -2041,19 +2032,19 @@ msgid "IXP Update Tools"
 msgstr ""
 
 msgid "Postmortem"
-msgstr ""
+msgstr "Otopsi"
 
 msgid "Peering Policy Information"
-msgstr ""
+msgstr "Eşleşme Politikası Bilgileri"
 
 msgid "Peering Policy"
-msgstr ""
+msgstr "Eşleşme Politikası"
 
 msgid "Please wait a bit before trying to login again."
-msgstr ""
+msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 
 msgid "Account disabled."
-msgstr ""
+msgstr "Hesap hizmet dışı bırakılmıştır."
 
 msgid "Invalid username/password."
-msgstr ""
+msgstr "Geçersiz kullanıcı adı/şifre."
