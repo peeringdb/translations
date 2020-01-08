@@ -229,6 +229,9 @@ msgstr ""
 msgid "ROLLBACK"
 msgstr ""
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr ""
 
@@ -655,6 +658,12 @@ msgstr ""
 msgid "Can only compare a maximum of 25 asns"
 msgstr ""
 
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
 msgid "IXF Import Log"
 msgstr ""
 
@@ -668,6 +677,9 @@ msgid "IXF Import Log Entries"
 msgstr ""
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
+msgstr ""
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
 
 msgid "IPv4 address outside of prefix"
@@ -1167,6 +1179,16 @@ msgstr ""
 msgid "Facilities"
 msgstr ""
 
+msgid "Organizations"
+msgstr ""
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr ""
@@ -1593,37 +1615,13 @@ msgstr ""
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr ""
 
-msgid "IXF Member Export URL"
+msgid "Prefixes"
 msgstr ""
 
-msgid "Enable IX-F Import"
+msgid "Protocol"
 msgstr ""
 
 msgid "Prefix"
-msgstr ""
-
-msgid "Add"
-msgstr ""
-
-msgid "DOT1Q"
-msgstr ""
-
-msgid "MTU"
-msgstr ""
-
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr ""
-
-msgid "dot1q"
-msgstr ""
-
-msgid "IXLAN"
-msgstr ""
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 msgstr ""
 
 msgid "IXLAN Prefix"
@@ -1632,13 +1630,13 @@ msgstr ""
 msgid "Add Prefix"
 msgstr ""
 
-msgid "IXF Import Enabled"
-msgstr ""
-
-msgid "Add LAN"
-msgstr ""
-
 msgid "Facility"
+msgstr ""
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
 msgstr ""
 
 msgid "Exchange - Facility link"
@@ -1746,7 +1744,7 @@ msgstr ""
 msgid "Network - Exchange link"
 msgstr ""
 
-msgid "Local ASN"
+msgid "Entry needs to be moved to correct network"
 msgstr ""
 
 msgid "Speed (mbit/sec)"
@@ -1866,6 +1864,9 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
+msgid "Add"
+msgstr ""
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -1894,6 +1895,9 @@ msgid "hours ago"
 msgstr ""
 
 msgid "days ago"
+msgstr ""
+
+msgid "Not a valid phone number (E.164)"
 msgstr ""
 
 msgid "Invalid prefix: {}"
@@ -2008,6 +2012,18 @@ msgstr ""
 msgid "LAN"
 msgstr ""
 
+msgid "DOT1Q"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
+msgid "Enable IX-F Import"
+msgstr ""
+
+msgid "IX-F Member Export URL"
+msgstr ""
+
 msgid "Also Known As"
 msgstr ""
 
@@ -2021,6 +2037,9 @@ msgid "IPv4 Prefixes"
 msgstr ""
 
 msgid "IPv6 Prefixes"
+msgstr ""
+
+msgid "Never via route servers"
 msgstr ""
 
 msgid "Last Updated"

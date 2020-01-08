@@ -230,6 +230,9 @@ msgstr "Ο στοχοποιημένος οργανισμός δεν μπορεί
 msgid "ROLLBACK"
 msgstr "ΕΠΑΝΑΦΟΡΑ"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "ΗΠΙΑ ΔΙΑΓΡΑΦΗ"
 
@@ -690,6 +693,12 @@ msgstr "Πρέπει να ορίσετε τουλάχιστον 2 ASNs"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Μπορεί να συγκρίνει το πολύ 25 ASNs"
 
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
 msgid "IXF Import Log"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
 
@@ -704,6 +713,9 @@ msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Ορίζει αν ο IXP επιτρέπεται να προσθέσει μια καταχώρηση netixlan για αυτό το δίκτυο μέσω των ixp_member δεδομένων του"
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+msgstr ""
 
 msgid "IPv4 address outside of prefix"
 msgstr ""
@@ -1208,6 +1220,18 @@ msgstr "Exchanges"
 msgid "Facilities"
 msgstr "Eγκαταστάσεις"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Οργανισμός"
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Προσθήκη νέας οντότητας %(entity_name)s στον Οργανισμό σας. Σημειώστε πως η νεοδημιουργηθήσα %(entity_name)s θα χρειαστεί έγκριση από το προσωπικό του PeeringDB πριν να μπορέσει να εμφανιστεί σε αποτελέσματα αναζήτησης ή σε API καταχωρήσεις"
@@ -1656,40 +1680,16 @@ msgstr "Τα δεδομένα Geocode για αυτή την οντότητα δ
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Ανανεωμένα στοιχεία geocode για αυτή την οντότητα θα ανακτηθούν συντόμως"
 
-msgid "IXF Member Export URL"
-msgstr "URL εξαγωγής μελών IXF"
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "Ημερολόγιο Εισαγωγών IXF"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
+
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Prefix"
-
-msgid "Add"
-msgstr "Προσθήκη"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
-
-msgid "You may filter by"
-msgstr "Μπορείτε να φιλτράρετε με"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "ΠΡΟΣΟΧΗ: Οποιεσδήποτε δικτυακές σχέσεις με τον exchange μέσω αυτού του LAN θα αφαιρεθούν επίσης"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -1697,16 +1697,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "Προσθήκη Prefix"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
-
-msgid "Add LAN"
-msgstr "Προσθήκη LAN"
-
 msgid "Facility"
 msgstr "Εγκατάσταση"
+
+msgid "No filter matches."
+msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
+
+msgid "You may filter by"
+msgstr "Μπορείτε να φιλτράρετε με"
 
 msgid "Exchange - Facility link"
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
@@ -1829,8 +1827,8 @@ msgstr "RS Peer"
 msgid "Network - Exchange link"
 msgstr "Ζεύξη Δικτύου - Exchange"
 
-msgid "Local ASN"
-msgstr "Τοπικό ASN"
+msgid "Entry needs to be moved to correct network"
+msgstr ""
 
 msgid "Speed (mbit/sec)"
 msgstr "Ταχύτητα (mbit/sec)"
@@ -1951,6 +1949,9 @@ msgstr "Ενημέρωση"
 msgid "Delete"
 msgstr "Διαγραφή"
 
+msgid "Add"
+msgstr "Προσθήκη"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -1982,6 +1983,9 @@ msgstr "ώρες πριν"
 
 msgid "days ago"
 msgstr "μέρες πριν"
+
+msgid "Not a valid phone number (E.164)"
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Μη έγκυρο prefix: {}"
@@ -2097,6 +2101,22 @@ msgstr "Email για θέματα Πολιτικής"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Ημερολόγιο Εισαγωγών IXF"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "URL εξαγωγής μελών IXF"
+
 msgid "Also Known As"
 msgstr "Γνωστός/η/ο και ως"
 
@@ -2111,6 +2131,11 @@ msgstr "IPv4 Prefixes"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 Prefixes"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "Route Server"
 
 msgid "Last Updated"
 msgstr "Τελευταία Ενημέρωση"
@@ -2146,6 +2171,26 @@ msgstr "Ο λογαριασμός έχει απενεργοποιηθεί"
 
 msgid "Invalid username/password."
 msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
+
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "ΠΡΟΣΟΧΗ: Οποιεσδήποτε δικτυακές σχέσεις με τον exchange μέσω αυτού του LAN θα αφαιρεθούν επίσης"
+
+#, fuzzy
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
+
+#~ msgid "Add LAN"
+#~ msgstr "Προσθήκη LAN"
+
+#~ msgid "Local ASN"
+#~ msgstr "Τοπικό ASN"
 
 #~ msgid "API Documentation"
 #~ msgstr "Εγχειρίδιο API"

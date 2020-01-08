@@ -229,6 +229,9 @@ msgstr "Целевая организация не может быть в спи
 msgid "ROLLBACK"
 msgstr "ОТКАТИТЬ ВЕРСИЮ"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "УДАЛИТЬ УСЛОВНО"
 
@@ -689,6 +692,12 @@ msgstr "Укажите минимум две ASN"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Возможно сравнение максимум 25 ASN"
 
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
 msgid "IXF Import Log"
 msgstr "Лог импорта IXF"
 
@@ -703,6 +712,9 @@ msgstr "Записи лога импорта IXF"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Определяет для IXP права добавления записи netixlan для данной сети через данные ixp_member"
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+msgstr ""
 
 msgid "IPv4 address outside of prefix"
 msgstr ""
@@ -1210,6 +1222,18 @@ msgstr "IXP"
 msgid "Facilities"
 msgstr "Площадки"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Организация"
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Добавить %(entity_name)s к вашей Организации. Внимание, создаваемая сущность %(entity_name)s должна пройти одобрение администраторами PeeringDB, после чего она станет доступна в резульатах поиска и в листингах API"
@@ -1662,40 +1686,16 @@ msgstr "Данные геокодирования для данной сущно
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Обновленные данные геокодирования для данной сущности скоро будут получены"
 
-msgid "IXF Member Export URL"
-msgstr "URL экспортируемого списка участников IXF"
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "Лог импорта IXF"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Префикс"
+
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Префикс"
-
-msgid "Add"
-msgstr "Новый"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Нет соответствий фильтру"
-
-msgid "You may filter by"
-msgstr "Фильтровать по"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "ВНИМАНИЕ: Все связи сетей с IXP через данный LAN также будут удалены"
 
 msgid "IXLAN Prefix"
 msgstr "Префикс IXLAN"
@@ -1703,16 +1703,14 @@ msgstr "Префикс IXLAN"
 msgid "Add Prefix"
 msgstr "Новый префикс"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "Записи лога импорта IXF"
-
-msgid "Add LAN"
-msgstr "Новый LAN"
-
 msgid "Facility"
 msgstr "Площадка"
+
+msgid "No filter matches."
+msgstr "Нет соответствий фильтру"
+
+msgid "You may filter by"
+msgstr "Фильтровать по"
 
 msgid "Exchange - Facility link"
 msgstr "Связь IXP - Площадка"
@@ -1835,8 +1833,8 @@ msgstr "Пир с Route Server"
 msgid "Network - Exchange link"
 msgstr "Связь Сеть - IXP"
 
-msgid "Local ASN"
-msgstr "Локальная ASN"
+msgid "Entry needs to be moved to correct network"
+msgstr ""
 
 msgid "Speed (mbit/sec)"
 msgstr "Скорость (Мбит/с)"
@@ -1957,6 +1955,9 @@ msgstr "Изменить"
 msgid "Delete"
 msgstr "Удалить"
 
+msgid "Add"
+msgstr "Новый"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -1988,6 +1989,9 @@ msgstr "часов назад"
 
 msgid "days ago"
 msgstr "дней назад"
+
+msgid "Not a valid phone number (E.164)"
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Недействительный префикс: {}"
@@ -2104,6 +2108,22 @@ msgstr "Пиринговая политика, емайл"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Лог импорта IXF"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "URL экспортируемого списка участников IXF"
+
 msgid "Also Known As"
 msgstr "Другое наименование"
 
@@ -2118,6 +2138,11 @@ msgstr "IPv4-префиксы"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6-префиксы"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "Route Server"
 
 msgid "Last Updated"
 msgstr "Последнее обновление"
@@ -2153,6 +2178,26 @@ msgstr "Аккаунт деактивирован."
 
 msgid "Invalid username/password."
 msgstr "Неверное имя пользователя/пароль."
+
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "ВНИМАНИЕ: Все связи сетей с IXP через данный LAN также будут удалены"
+
+#, fuzzy
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "Записи лога импорта IXF"
+
+#~ msgid "Add LAN"
+#~ msgstr "Новый LAN"
+
+#~ msgid "Local ASN"
+#~ msgstr "Локальная ASN"
 
 #~ msgid "API Documentation"
 #~ msgstr "Документация API"

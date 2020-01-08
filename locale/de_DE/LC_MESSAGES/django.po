@@ -231,6 +231,9 @@ msgstr "Zielorganisation darf nicht in ausgewählter Organisationsliste sein"
 msgid "ROLLBACK"
 msgstr "ZURÜCKSETZEN"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
 
@@ -661,6 +664,12 @@ msgstr "Es müssen zumindest zwei ASNs angegeben werden"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Es können maximal 25 ASNs verglichen werden"
 
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
 msgid "IXF Import Log"
 msgstr "IX-F Import Bericht"
 
@@ -675,6 +684,9 @@ msgstr "IXF Import Log Einträge"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Gibt an, ob es einem IXP erlaubt ist einen netixlan Eintrag für dieses Netzwerk vorzunehmen anhand der ixp_member Daten"
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+msgstr ""
 
 msgid "IPv4 address outside of prefix"
 msgstr "IPv4-Adresse liegt außerhalb des Präfix"
@@ -1173,6 +1185,18 @@ msgstr "Austauschpunkte"
 msgid "Facilities"
 msgstr "Liegenschaften / Gebäude"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Unternehmen"
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Fügen Sie Ihrer Organisation eine neue Entität vom Typ %(entity_name)s hinzu. Beachten Sie, dass die neu erstellte Entität vom Typ %(entity_name)s von PeeringDB-Mitarbeitern genehmigt werden muss, bevor es in den Suchergebnissen oder den API-Auflistungen angezeigt wird"
@@ -1602,38 +1626,16 @@ msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgeru
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
 
-msgid "IXF Member Export URL"
-msgstr "IXF Member-Export-URL"
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Präfix"
 
-msgid "Enable IX-F Import"
-msgstr "Aktivieren Sie den IX-F Import"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Präfix"
-
-msgid "Add"
-msgstr "Hinzufügen"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Keine Einträge zum gewählten Filter gefunden."
-
-msgid "You may filter by"
-msgstr "Sie können filtern nach"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "ACHTUNG: Netzwerk-Beziehungen zu diesen Austauschknoten über dieses LAN werden ebenfalls entfernt"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN-Präfix"
@@ -1641,14 +1643,14 @@ msgstr "IXLAN-Präfix"
 msgid "Add Prefix"
 msgstr "Prefix hinzufügen"
 
-msgid "IXF Import Enabled"
-msgstr "IXF-Import wurde aktiviert"
-
-msgid "Add LAN"
-msgstr "LAN hinzufügen"
-
 msgid "Facility"
 msgstr "Liegenschaft"
+
+msgid "No filter matches."
+msgstr "Keine Einträge zum gewählten Filter gefunden."
+
+msgid "You may filter by"
+msgstr "Sie können filtern nach"
 
 msgid "Exchange - Facility link"
 msgstr "Netzwerk-Liegenschaft-Link"
@@ -1755,8 +1757,8 @@ msgstr "RS-Peer"
 msgid "Network - Exchange link"
 msgstr "Netzwerk-Austauschpunkt-Link"
 
-msgid "Local ASN"
-msgstr "Lokale ASN"
+msgid "Entry needs to be moved to correct network"
+msgstr ""
 
 msgid "Speed (mbit/sec)"
 msgstr "Datenrate (mbit/s)"
@@ -1875,6 +1877,9 @@ msgstr "Aktualisieren"
 msgid "Delete"
 msgstr "Löschen"
 
+msgid "Add"
+msgstr "Hinzufügen"
+
 msgid "Thank you for your suggestion."
 msgstr "Vielen Dank für Ihren Vorschlag."
 
@@ -1904,6 +1909,9 @@ msgstr "Stunden her"
 
 msgid "days ago"
 msgstr "Tage her"
+
+msgid "Not a valid phone number (E.164)"
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Ungültiges Prefix: {}"
@@ -2017,6 +2025,20 @@ msgstr "E-Mail (Peeringrichtlinien)"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Enable IX-F Import"
+msgstr "Aktivieren Sie den IX-F Import"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF Member-Export-URL"
+
 msgid "Also Known As"
 msgstr "Auch bekannt als"
 
@@ -2031,6 +2053,11 @@ msgstr "IPv4-Präfixe"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6-Präfixe"
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Never via route servers"
+msgstr "Routeserver"
 
 msgid "Last Updated"
 msgstr "Zuletzt aktualisiert"
@@ -2064,6 +2091,24 @@ msgstr "Account deaktiviert."
 
 msgid "Invalid username/password."
 msgstr "Ungültiger Benutzername/Passwort."
+
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "ACHTUNG: Netzwerk-Beziehungen zu diesen Austauschknoten über dieses LAN werden ebenfalls entfernt"
+
+#~ msgid "IXF Import Enabled"
+#~ msgstr "IXF-Import wurde aktiviert"
+
+#~ msgid "Add LAN"
+#~ msgstr "LAN hinzufügen"
+
+#~ msgid "Local ASN"
+#~ msgstr "Lokale ASN"
 
 #~ msgid "API Documentation"
 #~ msgstr "API-Dokumentation"

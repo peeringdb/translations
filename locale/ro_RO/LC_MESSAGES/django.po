@@ -230,6 +230,9 @@ msgstr "Elementul org vizat nu poate fi în lista organizațiilor selectate"
 msgid "ROLLBACK"
 msgstr "RESTAUREAZĂ"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
 
@@ -656,6 +659,12 @@ msgstr "Trebuie să specificați cel puțin două ASN-uri"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Poate compara un cel mult 25 de ASN-uri"
 
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
 msgid "IXF Import Log"
 msgstr "Jurnalul de import IXF"
 
@@ -670,6 +679,9 @@ msgstr "Înregistrările în jurnalul de import IXF"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifică dacă unui IXP i se permite să adauge un netixlan pentru această rețea prin intermediul datelor sale ixp_member"
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+msgstr ""
 
 msgid "IPv4 address outside of prefix"
 msgstr "Adresa IPv4 este în afara prefixului"
@@ -1168,6 +1180,18 @@ msgstr "Internet Exchange-uri"
 msgid "Facilities"
 msgstr "Facilități"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Organizație"
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Adăugați o nouă %(entity_name)s organizației dvs. Rețineți că %(entity_name)s nou create vor trebui să fie aprobate de personalului PeeringDB înainte să apară în rezultatele căutărilor sau listările API"
@@ -1594,38 +1618,16 @@ msgstr "Nu au putut fi obținute date geocod pentru această entitate. Acest luc
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obținute în scurt timp"
 
-msgid "IXF Member Export URL"
-msgstr "Adresa exportului IXF cu membri"
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
 
-msgid "Enable IX-F Import"
-msgstr "Activați importul IX-F"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Prefix"
-
-msgid "Add"
-msgstr "Adăugați"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Nu se potrivește niciun filtru."
-
-msgid "You may filter by"
-msgstr "Puteți filtra după"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "ATENȚIE: Toate corelările cu Internet Exchange-ul prin intermediul acestui LAN vor fi de asemenea eliminate"
 
 msgid "IXLAN Prefix"
 msgstr "Prefix IXLAN"
@@ -1633,14 +1635,14 @@ msgstr "Prefix IXLAN"
 msgid "Add Prefix"
 msgstr "Adăugați prefix"
 
-msgid "IXF Import Enabled"
-msgstr "Importul IXF activat"
-
-msgid "Add LAN"
-msgstr "Adăugați LAN"
-
 msgid "Facility"
 msgstr "Facilitate"
+
+msgid "No filter matches."
+msgstr "Nu se potrivește niciun filtru."
+
+msgid "You may filter by"
+msgstr "Puteți filtra după"
 
 msgid "Exchange - Facility link"
 msgstr "Legătura dintre Internet Exchange și facilitate"
@@ -1747,8 +1749,8 @@ msgstr "RS Peer"
 msgid "Network - Exchange link"
 msgstr "legătura dintre rețea și Internet Exchange"
 
-msgid "Local ASN"
-msgstr "ASN local"
+msgid "Entry needs to be moved to correct network"
+msgstr ""
 
 msgid "Speed (mbit/sec)"
 msgstr "Viteză (Mbit/sec)"
@@ -1867,6 +1869,9 @@ msgstr "Actualizați"
 msgid "Delete"
 msgstr "Ștergeți"
 
+msgid "Add"
+msgstr "Adăugați"
+
 msgid "Thank you for your suggestion."
 msgstr "Vă mulțumim pentru sugestie."
 
@@ -1896,6 +1901,9 @@ msgstr "ore în urmă"
 
 msgid "days ago"
 msgstr "zile în urmă"
+
+msgid "Not a valid phone number (E.164)"
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Prefixul nu este valid: {}"
@@ -2009,6 +2017,20 @@ msgstr "E-mail politici"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Enable IX-F Import"
+msgstr "Activați importul IX-F"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "Adresa exportului IXF cu membri"
+
 msgid "Also Known As"
 msgstr "Cunoscut ca și"
 
@@ -2023,6 +2045,11 @@ msgstr "Prefixe IPv4"
 
 msgid "IPv6 Prefixes"
 msgstr "Prefixe IPv6"
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Never via route servers"
+msgstr "routeserver"
 
 msgid "Last Updated"
 msgstr "Ultima actualizare"
@@ -2056,6 +2083,24 @@ msgstr "Cont dezactivat."
 
 msgid "Invalid username/password."
 msgstr "Numele de utilizator sau parola nu sunt valide."
+
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "ATENȚIE: Toate corelările cu Internet Exchange-ul prin intermediul acestui LAN vor fi de asemenea eliminate"
+
+#~ msgid "IXF Import Enabled"
+#~ msgstr "Importul IXF activat"
+
+#~ msgid "Add LAN"
+#~ msgstr "Adăugați LAN"
+
+#~ msgid "Local ASN"
+#~ msgstr "ASN local"
 
 #~ msgid "API Documentation"
 #~ msgstr "Documentație API"

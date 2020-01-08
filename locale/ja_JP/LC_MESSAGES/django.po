@@ -230,6 +230,9 @@ msgstr "対象の組織は、選択された組織のリストにはありませ
 msgid "ROLLBACK"
 msgstr "ロールバック"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "SOFT DELETE"
 
@@ -682,6 +685,12 @@ msgstr "2つ以上のAS番号の記載が必要です"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "最大25個のAS番号の比較まで可能です"
 
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
 msgid "IXF Import Log"
 msgstr "IXF Import のログ(IXF Import Log)"
 
@@ -696,6 +705,9 @@ msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "ixp_member のデータを介して、ixp がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+msgstr ""
 
 msgid "IPv4 address outside of prefix"
 msgstr ""
@@ -1194,6 +1206,18 @@ msgstr "エクスチェンジ"
 msgid "Facilities"
 msgstr "データセンタ"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "組織名"
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "新規の %(entity_name)s をあなたの組織に追加する事が出来ます。新規作成された %(entity_name)s は、検索結果や API リストに表示されるようになる前に PeeringDB スタッフに承認される必要があります"
@@ -1624,40 +1648,16 @@ msgstr "このエンティティのジオコードデータの取得に失敗し
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "まもなく、このエンティティについての更新されたジオコードデータの取得が行われます"
 
-msgid "IXF Member Export URL"
-msgstr "IXF メンバー出力 URL"
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "IXF Import のログ(IXF Import Log)"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "プレフィクス"
+
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "プレフィクス"
-
-msgid "Add"
-msgstr "追加"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "フィルタに一致するものはありませんでした"
-
-msgid "You may filter by"
-msgstr "フィルタされているかもしれません"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "注意: このエクスチェンジに関連したネットワークも削除されます"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -1665,16 +1665,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "プレフィクスを追加"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
-
-msgid "Add LAN"
-msgstr "LAN を追加"
-
 msgid "Facility"
 msgstr "データセンタ"
+
+msgid "No filter matches."
+msgstr "フィルタに一致するものはありませんでした"
+
+msgid "You may filter by"
+msgstr "フィルタされているかもしれません"
 
 msgid "Exchange - Facility link"
 msgstr "エクスチェンジ - データセンタ のリンク"
@@ -1795,8 +1793,8 @@ msgstr "RS ピア"
 msgid "Network - Exchange link"
 msgstr "ネットワーク - エクスチェンジ のリンク"
 
-msgid "Local ASN"
-msgstr "AS 番号"
+msgid "Entry needs to be moved to correct network"
+msgstr ""
 
 msgid "Speed (mbit/sec)"
 msgstr "帯域 (Mbit/sec)"
@@ -1915,6 +1913,9 @@ msgstr "更新"
 msgid "Delete"
 msgstr "削除"
 
+msgid "Add"
+msgstr "追加"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -1944,6 +1945,9 @@ msgstr "時間前"
 
 msgid "days ago"
 msgstr "日前"
+
+msgid "Not a valid phone number (E.164)"
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "無効なプレフィクス"
@@ -2059,6 +2063,22 @@ msgstr "ポリシー担当者のメールアドレス"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "IXF Import のログ(IXF Import Log)"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF メンバー出力 URL"
+
 msgid "Also Known As"
 msgstr "別名"
 
@@ -2073,6 +2093,11 @@ msgstr "IPv4 プレフィクス数"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 プレフィクス数"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "ルートサーバ"
 
 msgid "Last Updated"
 msgstr "最新のアップデート"
@@ -2108,6 +2133,26 @@ msgstr "アカウントが無効です"
 
 msgid "Invalid username/password."
 msgstr "無効なユーザ名・パスワードです"
+
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "注意: このエクスチェンジに関連したネットワークも削除されます"
+
+#, fuzzy
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+
+#~ msgid "Add LAN"
+#~ msgstr "LAN を追加"
+
+#~ msgid "Local ASN"
+#~ msgstr "AS 番号"
 
 #~ msgid "API Documentation"
 #~ msgstr "API 関連のドキュメント"

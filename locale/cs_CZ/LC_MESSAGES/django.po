@@ -229,6 +229,9 @@ msgstr "Cílová organizace nemůže být ve vybraném seznamu organizací"
 msgid "ROLLBACK"
 msgstr "VRÁCENÍ ZPĚT"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 #, fuzzy
 msgid "SOFT DELETE"
 msgstr "SMAZÁNÍ"
@@ -684,6 +687,12 @@ msgstr "Je třeba zadat alespoň dvě čísla autonomních systémů"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Můžete porovnat maximálně 25 autonomních systémů"
 
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
 msgid "IXF Import Log"
 msgstr "Protokol IXF Importu"
 
@@ -699,6 +708,9 @@ msgstr "Záznamy protokolů IXF Importu"
 #, fuzzy
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Zjišťuje, zda je ixp povoleno přidání položky netixlan pro tuto síť prostřednictvím jejich dat ixp_member"
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+msgstr ""
 
 msgid "IPv4 address outside of prefix"
 msgstr ""
@@ -1211,6 +1223,18 @@ msgstr "Propojovací uzly"
 msgid "Facilities"
 msgstr "Zařízení"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Organizace"
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Přidejte novou %(entity_name)s k vaší organizaci. Upozorňujeme, že nově vytvořené %(entity_name)s musí být schváleno pracovníky společnosti PeeringDB dříve, než se objeví ve výsledcích vyhledávání nebo v rozhraní API"
@@ -1668,40 +1692,16 @@ msgstr "V tomto okamžiku nebylo možné získat geolokační data pro tuto enti
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Aktualizovaný geocode pro tuto entitu budou brzy získána"
 
-msgid "IXF Member Export URL"
-msgstr "IXF Member Export URL"
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "Protokol IXF Importu"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
+
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Prefix"
-
-msgid "Add"
-msgstr "Přidat"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Nic neodpovídá vašemu filtru"
-
-msgid "You may filter by"
-msgstr "Můžete filtrovat podle"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "POZOR: Jakékoli síťové vztahy k propojovacímu bodu prostřednictvím této sítě LAN budou také odstraněny"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -1709,16 +1709,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "Přidat Prefix"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "Záznamy protokolů IXF Importu"
-
-msgid "Add LAN"
-msgstr "Přidat LAN"
-
 msgid "Facility"
 msgstr "Zařízení"
+
+msgid "No filter matches."
+msgstr "Nic neodpovídá vašemu filtru"
+
+msgid "You may filter by"
+msgstr "Můžete filtrovat podle"
 
 #, fuzzy
 msgid "Exchange - Facility link"
@@ -1845,8 +1843,8 @@ msgstr "RS Peer"
 msgid "Network - Exchange link"
 msgstr "Network - Exchange odkaz"
 
-msgid "Local ASN"
-msgstr "Lokální ASN"
+msgid "Entry needs to be moved to correct network"
+msgstr ""
 
 msgid "Speed (mbit/sec)"
 msgstr "Rychlost (mbit/sec)"
@@ -1971,6 +1969,9 @@ msgstr "Aktualizovat"
 msgid "Delete"
 msgstr "Smazat"
 
+msgid "Add"
+msgstr "Přidat"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2008,6 +2009,9 @@ msgstr "hodin před"
 #, fuzzy
 msgid "days ago"
 msgstr "dnů před"
+
+msgid "Not a valid phone number (E.164)"
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Neplatný prefix: {}"
@@ -2123,6 +2127,22 @@ msgstr "Policy Email"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Protokol IXF Importu"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF Member Export URL"
+
 msgid "Also Known As"
 msgstr "Také známý jako"
 
@@ -2137,6 +2157,11 @@ msgstr "IPv4 prefixy"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 prefixy"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "Route Server"
 
 msgid "Last Updated"
 msgstr "Poslední aktualizace"
@@ -2173,6 +2198,26 @@ msgstr "Účet zablokován."
 
 msgid "Invalid username/password."
 msgstr "Neplatné uživatelské jméno / heslo."
+
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "POZOR: Jakékoli síťové vztahy k propojovacímu bodu prostřednictvím této sítě LAN budou také odstraněny"
+
+#, fuzzy
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "Záznamy protokolů IXF Importu"
+
+#~ msgid "Add LAN"
+#~ msgstr "Přidat LAN"
+
+#~ msgid "Local ASN"
+#~ msgstr "Lokální ASN"
 
 #~ msgid "API Documentation"
 #~ msgstr "Dokumentace rozhraní API"
