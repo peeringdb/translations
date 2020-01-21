@@ -230,9 +230,6 @@ msgstr "Elementul org vizat nu poate fi în lista organizațiilor selectate"
 msgid "ROLLBACK"
 msgstr "RESTAUREAZĂ"
 
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
-
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
 
@@ -658,12 +655,6 @@ msgstr "Trebuie să specificați cel puțin două ASN-uri"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Poate compara un cel mult 25 de ASN-uri"
-
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
-
-msgid "Ixlan for exchange already exists"
-msgstr ""
 
 msgid "IXF Import Log"
 msgstr "Jurnalul de import IXF"
@@ -1619,15 +1610,39 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obținute în scurt timp"
 
 #, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Prefix"
+#| msgid "IXF Member Export URL"
+msgid "IXF Member Export URL"
+msgstr "Adresa exportului IXF cu membri"
 
-msgid "Protocol"
-msgstr ""
+msgid "Enable IX-F Import"
+msgstr "Activați importul IX-F"
 
 msgid "Prefix"
 msgstr "Prefix"
+
+msgid "Add"
+msgstr "Adăugați"
+
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "No filter matches."
+msgstr "Nu se potrivește niciun filtru."
+
+msgid "You may filter by"
+msgstr "Puteți filtra după"
+
+msgid "dot1q"
+msgstr "dot1q"
+
+msgid "IXLAN"
+msgstr "IXLAN"
+
+msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+msgstr "ATENȚIE: Toate corelările cu Internet Exchange-ul prin intermediul acestui LAN vor fi de asemenea eliminate"
 
 msgid "IXLAN Prefix"
 msgstr "Prefix IXLAN"
@@ -1635,14 +1650,14 @@ msgstr "Prefix IXLAN"
 msgid "Add Prefix"
 msgstr "Adăugați prefix"
 
+msgid "IXF Import Enabled"
+msgstr "Importul IXF activat"
+
+msgid "Add LAN"
+msgstr "Adăugați LAN"
+
 msgid "Facility"
 msgstr "Facilitate"
-
-msgid "No filter matches."
-msgstr "Nu se potrivește niciun filtru."
-
-msgid "You may filter by"
-msgstr "Puteți filtra după"
 
 msgid "Exchange - Facility link"
 msgstr "Legătura dintre Internet Exchange și facilitate"
@@ -1869,9 +1884,6 @@ msgstr "Actualizați"
 msgid "Delete"
 msgstr "Ștergeți"
 
-msgid "Add"
-msgstr "Adăugați"
-
 msgid "Thank you for your suggestion."
 msgstr "Vă mulțumim pentru sugestie."
 
@@ -2017,20 +2029,6 @@ msgstr "E-mail politici"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "Enable IX-F Import"
-msgstr "Activați importul IX-F"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "Adresa exportului IXF cu membri"
-
 msgid "Also Known As"
 msgstr "Cunoscut ca și"
 
@@ -2084,20 +2082,10 @@ msgstr "Cont dezactivat."
 msgid "Invalid username/password."
 msgstr "Numele de utilizator sau parola nu sunt valide."
 
-#~ msgid "dot1q"
-#~ msgstr "dot1q"
-
-#~ msgid "IXLAN"
-#~ msgstr "IXLAN"
-
-#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-#~ msgstr "ATENȚIE: Toate corelările cu Internet Exchange-ul prin intermediul acestui LAN vor fi de asemenea eliminate"
-
-#~ msgid "IXF Import Enabled"
-#~ msgstr "Importul IXF activat"
-
-#~ msgid "Add LAN"
-#~ msgstr "Adăugați LAN"
+#, fuzzy
+#~| msgid "Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "Prefix"
 
 #~ msgid "Local ASN"
 #~ msgstr "ASN local"

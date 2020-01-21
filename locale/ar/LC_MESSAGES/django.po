@@ -230,9 +230,6 @@ msgstr "لا يمكن أن تكون المؤسسة المعنية في قائم�
 msgid "ROLLBACK"
 msgstr "العوده للخلف"
 
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
-
 msgid "SOFT DELETE"
 msgstr "مسح مبدئي"
 
@@ -661,12 +658,6 @@ msgstr "تحتاج إلى تحديد أرقام الأنظمة المستقلة 
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "يمكن فقط مقارنة 25 رقم نظام مستقل (كحد أقصى)"
-
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
-
-msgid "Ixlan for exchange already exists"
-msgstr ""
 
 msgid "IXF Import Log"
 msgstr "سجل استيراد بيانات IXF"
@@ -1627,15 +1618,39 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "سيتم الحصول على بيانات الترميز الجغرافي المحدثة لهذا الكيان بعد دقائق"
 
 #, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "بادئة عنوان الانترنت"
+#| msgid "IXF Import Log"
+msgid "IXF Member Export URL"
+msgstr "سجل استيراد بيانات IXF"
 
-msgid "Protocol"
+msgid "Enable IX-F Import"
 msgstr ""
 
 msgid "Prefix"
 msgstr "بادئة عنوان الانترنت"
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "DOT1Q"
+msgstr "بروتوكول dot1q"
+
+msgid "MTU"
+msgstr "وحدة الإرسال القصوى (MTU)"
+
+msgid "No filter matches."
+msgstr "لا يوجد تطابق في خيارات البحث."
+
+msgid "You may filter by"
+msgstr "يمكنك إجراء البحث حسب"
+
+msgid "dot1q"
+msgstr "بروتوكول dot1q"
+
+msgid "IXLAN"
+msgstr "عنوان شبكة التناظر"
+
+msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+msgstr "تنبيه: ستتم إزالة أي اتصالات شبكة للتبادل عبر هذه الشبكة المحلية"
 
 msgid "IXLAN Prefix"
 msgstr "بادئة عنوان شبكة التناظر"
@@ -1643,14 +1658,16 @@ msgstr "بادئة عنوان شبكة التناظر"
 msgid "Add Prefix"
 msgstr "إضافة بادئة عنوان انترنت"
 
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IXF Import Enabled"
+msgstr "استيراد بيانات IX-F"
+
+msgid "Add LAN"
+msgstr "إضافة شبكة محلية"
+
 msgid "Facility"
 msgstr "مركز البيانات"
-
-msgid "No filter matches."
-msgstr "لا يوجد تطابق في خيارات البحث."
-
-msgid "You may filter by"
-msgstr "يمكنك إجراء البحث حسب"
 
 msgid "Exchange - Facility link"
 msgstr "نقطة التبادل - مركز البيانات"
@@ -1880,9 +1897,6 @@ msgstr "تحديث"
 msgid "Delete"
 msgstr "حذف"
 
-msgid "Add"
-msgstr "إضافة"
-
 msgid "Thank you for your suggestion."
 msgstr "شكرا على اقتراحكم."
 
@@ -2028,20 +2042,6 @@ msgstr "البريد الإلكتروني لجهة الاتصال الخاصه �
 msgid "LAN"
 msgstr "الشبكة المحلية"
 
-msgid "DOT1Q"
-msgstr "بروتوكول dot1q"
-
-msgid "MTU"
-msgstr "وحدة الإرسال القصوى (MTU)"
-
-msgid "Enable IX-F Import"
-msgstr ""
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Member Export URL"
-msgstr "سجل استيراد بيانات IXF"
-
 msgid "Also Known As"
 msgstr "المعروف أيضا بإسم"
 
@@ -2095,17 +2095,10 @@ msgstr "تم إيقاف الحساب."
 msgid "Invalid username/password."
 msgstr "اسم المستخدم / كلمة المرور غير صحيحة."
 
-#~ msgid "dot1q"
-#~ msgstr "بروتوكول dot1q"
-
-#~ msgid "IXLAN"
-#~ msgstr "عنوان شبكة التناظر"
-
-#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-#~ msgstr "تنبيه: ستتم إزالة أي اتصالات شبكة للتبادل عبر هذه الشبكة المحلية"
-
-#~ msgid "Add LAN"
-#~ msgstr "إضافة شبكة محلية"
+#, fuzzy
+#~| msgid "Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "بادئة عنوان الانترنت"
 
 #~ msgid "Local ASN"
 #~ msgstr "رقم النظام المستقل المحلي"

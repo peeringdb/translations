@@ -230,9 +230,6 @@ msgstr "目标组织不在选定的列表中"
 msgid "ROLLBACK"
 msgstr "回滚"
 
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
-
 msgid "SOFT DELETE"
 msgstr "软删除"
 
@@ -672,12 +669,6 @@ msgstr "需要至少两个 ASN"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "最多只能比较25个 ASN"
-
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
-
-msgid "Ixlan for exchange already exists"
-msgstr ""
 
 msgid "IXF Import Log"
 msgstr "IXF 导入日志"
@@ -1635,15 +1626,41 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "该实体的地理编码数据将被更新"
 
 #, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "前缀"
+#| msgid "IXF Member Export URL"
+msgid "IXF Member Export URL"
+msgstr "IXF 成员导出 URL"
 
-msgid "Protocol"
-msgstr ""
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "IXF 导入日志"
 
 msgid "Prefix"
 msgstr "前缀"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
+msgstr "您可以筛选"
+
+msgid "dot1q"
+msgstr "dot1q"
+
+msgid "IXLAN"
+msgstr "IXLAN"
+
+msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+msgstr "注意：通过此 LAN 与交换点的任何网络联系也将被删除"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 前缀"
@@ -1651,14 +1668,16 @@ msgstr "IXLAN 前缀"
 msgid "Add Prefix"
 msgstr "添加前缀"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Enabled"
+msgstr "IXF 导入日志条目"
+
+msgid "Add LAN"
+msgstr "添加 LAN"
+
 msgid "Facility"
 msgstr "设施"
-
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr "您可以筛选"
 
 msgid "Exchange - Facility link"
 msgstr "交换点 - 设施连接"
@@ -1893,9 +1912,6 @@ msgstr "更新"
 msgid "Delete"
 msgstr "删除"
 
-msgid "Add"
-msgstr "添加"
-
 msgid "Thank you for your suggestion."
 msgstr "感谢您的建议。"
 
@@ -2041,22 +2057,6 @@ msgstr "政策邮箱"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "IXF 导入日志"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "IXF 成员导出 URL"
-
 msgid "Also Known As"
 msgstr "别名"
 
@@ -2112,22 +2112,10 @@ msgstr "帐户已禁用。"
 msgid "Invalid username/password."
 msgstr "无效的用户名/密码。"
 
-#~ msgid "dot1q"
-#~ msgstr "dot1q"
-
-#~ msgid "IXLAN"
-#~ msgstr "IXLAN"
-
-#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-#~ msgstr "注意：通过此 LAN 与交换点的任何网络联系也将被删除"
-
 #, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "IXF 导入日志条目"
-
-#~ msgid "Add LAN"
-#~ msgstr "添加 LAN"
+#~| msgid "Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "前缀"
 
 #~ msgid "Local ASN"
 #~ msgstr "当地 ASN"

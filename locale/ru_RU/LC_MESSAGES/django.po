@@ -229,9 +229,6 @@ msgstr "Целевая организация не может быть в спи
 msgid "ROLLBACK"
 msgstr "ОТКАТИТЬ ВЕРСИЮ"
 
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
-
 msgid "SOFT DELETE"
 msgstr "УДАЛИТЬ УСЛОВНО"
 
@@ -691,12 +688,6 @@ msgstr "Укажите минимум две ASN"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Возможно сравнение максимум 25 ASN"
-
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
-
-msgid "Ixlan for exchange already exists"
-msgstr ""
 
 msgid "IXF Import Log"
 msgstr "Лог импорта IXF"
@@ -1687,15 +1678,41 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Обновленные данные геокодирования для данной сущности скоро будут получены"
 
 #, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Префикс"
+#| msgid "IXF Member Export URL"
+msgid "IXF Member Export URL"
+msgstr "URL экспортируемого списка участников IXF"
 
-msgid "Protocol"
-msgstr ""
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Лог импорта IXF"
 
 msgid "Prefix"
 msgstr "Префикс"
+
+msgid "Add"
+msgstr "Новый"
+
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "No filter matches."
+msgstr "Нет соответствий фильтру"
+
+msgid "You may filter by"
+msgstr "Фильтровать по"
+
+msgid "dot1q"
+msgstr "dot1q"
+
+msgid "IXLAN"
+msgstr "IXLAN"
+
+msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+msgstr "ВНИМАНИЕ: Все связи сетей с IXP через данный LAN также будут удалены"
 
 msgid "IXLAN Prefix"
 msgstr "Префикс IXLAN"
@@ -1703,14 +1720,16 @@ msgstr "Префикс IXLAN"
 msgid "Add Prefix"
 msgstr "Новый префикс"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Enabled"
+msgstr "Записи лога импорта IXF"
+
+msgid "Add LAN"
+msgstr "Новый LAN"
+
 msgid "Facility"
 msgstr "Площадка"
-
-msgid "No filter matches."
-msgstr "Нет соответствий фильтру"
-
-msgid "You may filter by"
-msgstr "Фильтровать по"
 
 msgid "Exchange - Facility link"
 msgstr "Связь IXP - Площадка"
@@ -1955,9 +1974,6 @@ msgstr "Изменить"
 msgid "Delete"
 msgstr "Удалить"
 
-msgid "Add"
-msgstr "Новый"
-
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2108,22 +2124,6 @@ msgstr "Пиринговая политика, емайл"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "Лог импорта IXF"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "URL экспортируемого списка участников IXF"
-
 msgid "Also Known As"
 msgstr "Другое наименование"
 
@@ -2179,22 +2179,10 @@ msgstr "Аккаунт деактивирован."
 msgid "Invalid username/password."
 msgstr "Неверное имя пользователя/пароль."
 
-#~ msgid "dot1q"
-#~ msgstr "dot1q"
-
-#~ msgid "IXLAN"
-#~ msgstr "IXLAN"
-
-#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-#~ msgstr "ВНИМАНИЕ: Все связи сетей с IXP через данный LAN также будут удалены"
-
 #, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "Записи лога импорта IXF"
-
-#~ msgid "Add LAN"
-#~ msgstr "Новый LAN"
+#~| msgid "Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "Префикс"
 
 #~ msgid "Local ASN"
 #~ msgstr "Локальная ASN"

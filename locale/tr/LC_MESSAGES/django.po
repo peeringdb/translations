@@ -230,9 +230,6 @@ msgstr "Hedef kuruluş seçilmiş olan bu listede olamaz"
 msgid "ROLLBACK"
 msgstr "Aşağı Çekmek"
 
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
-
 msgid "SOFT DELETE"
 msgstr "Kaydı Sil"
 
@@ -657,12 +654,6 @@ msgid "Need to specify at least two asns"
 msgstr ""
 
 msgid "Can only compare a maximum of 25 asns"
-msgstr ""
-
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
-
-msgid "Ixlan for exchange already exists"
 msgstr ""
 
 msgid "IXF Import Log"
@@ -1616,15 +1607,37 @@ msgstr ""
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr ""
 
-#, fuzzy
-#| msgid "IXLAN Prefix"
-msgid "Prefixes"
-msgstr "IXLAN Öneki"
+msgid "IXF Member Export URL"
+msgstr ""
 
-msgid "Protocol"
+msgid "Enable IX-F Import"
 msgstr ""
 
 msgid "Prefix"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "DOT1Q"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
+msgstr ""
+
+msgid "dot1q"
+msgstr ""
+
+msgid "IXLAN"
+msgstr "IXLAN"
+
+msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 msgstr ""
 
 msgid "IXLAN Prefix"
@@ -1633,14 +1646,16 @@ msgstr "IXLAN Öneki"
 msgid "Add Prefix"
 msgstr ""
 
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IXF Import Enabled"
+msgstr "IXF Liste Geçmişi"
+
+msgid "Add LAN"
+msgstr ""
+
 msgid "Facility"
 msgstr "Bina"
-
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr ""
 
 msgid "Exchange - Facility link"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
@@ -1871,9 +1886,6 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-msgid "Add"
-msgstr ""
-
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2019,18 +2031,6 @@ msgstr ""
 msgid "LAN"
 msgstr ""
 
-msgid "DOT1Q"
-msgstr ""
-
-msgid "MTU"
-msgstr ""
-
-msgid "Enable IX-F Import"
-msgstr ""
-
-msgid "IX-F Member Export URL"
-msgstr ""
-
 msgid "Also Known As"
 msgstr ""
 
@@ -2082,5 +2082,7 @@ msgstr "Hesap hizmet dışı bırakılmıştır."
 msgid "Invalid username/password."
 msgstr "Geçersiz kullanıcı adı/şifre."
 
-#~ msgid "IXLAN"
-#~ msgstr "IXLAN"
+#, fuzzy
+#~| msgid "IXLAN Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "IXLAN Öneki"
