@@ -231,6 +231,9 @@ msgstr "Zielorganisation darf nicht in ausgewählter Organisationsliste sein"
 msgid "ROLLBACK"
 msgstr "ZURÜCKSETZEN"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
 
@@ -660,6 +663,12 @@ msgstr "Es müssen zumindest zwei ASNs angegeben werden"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Es können maximal 25 ASNs verglichen werden"
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
 
 msgid "IXF Import Log"
 msgstr "IX-F Import Bericht"
@@ -1214,6 +1223,9 @@ msgstr "Bitte schlagen Sie %(entity_name)s vor, dass es zur Datenbasis hinzugef�
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr "Damit die vorgeschlagene Einrichtung genehmigt wird, erwarten wir, dass dort Kolokation-, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich angeboten werden."
 
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr "Damit der vorgeschlagene Austauschpunkt genehmigt wird, erwarten wir, dass er folgende Kriterien erfüllt:"
 
@@ -1618,39 +1630,15 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
 
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IXF Member Export URL"
-msgstr "IXF Member-Export-URL"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Präfix"
 
-msgid "Enable IX-F Import"
-msgstr "Aktivieren Sie den IX-F Import"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Präfix"
-
-msgid "Add"
-msgstr "Hinzufügen"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Keine Einträge zum gewählten Filter gefunden."
-
-msgid "You may filter by"
-msgstr "Sie können filtern nach"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "ACHTUNG: Netzwerk-Beziehungen zu diesen Austauschknoten über dieses LAN werden ebenfalls entfernt"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN-Präfix"
@@ -1658,14 +1646,14 @@ msgstr "IXLAN-Präfix"
 msgid "Add Prefix"
 msgstr "Prefix hinzufügen"
 
-msgid "IXF Import Enabled"
-msgstr "IXF-Import wurde aktiviert"
-
-msgid "Add LAN"
-msgstr "LAN hinzufügen"
-
 msgid "Facility"
 msgstr "Liegenschaft"
+
+msgid "No filter matches."
+msgstr "Keine Einträge zum gewählten Filter gefunden."
+
+msgid "You may filter by"
+msgstr "Sie können filtern nach"
 
 msgid "Exchange - Facility link"
 msgstr "Netzwerk-Liegenschaft-Link"
@@ -1892,6 +1880,9 @@ msgstr "Aktualisieren"
 msgid "Delete"
 msgstr "Löschen"
 
+msgid "Add"
+msgstr "Hinzufügen"
+
 msgid "Thank you for your suggestion."
 msgstr "Vielen Dank für Ihren Vorschlag."
 
@@ -2037,6 +2028,20 @@ msgstr "E-Mail (Peeringrichtlinien)"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Enable IX-F Import"
+msgstr "Aktivieren Sie den IX-F Import"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF Member-Export-URL"
+
 msgid "Also Known As"
 msgstr "Auch bekannt als"
 
@@ -2090,10 +2095,20 @@ msgstr "Account deaktiviert."
 msgid "Invalid username/password."
 msgstr "Ungültiger Benutzername/Passwort."
 
-#, fuzzy
-#~| msgid "Prefix"
-#~ msgid "Prefixes"
-#~ msgstr "Präfix"
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "ACHTUNG: Netzwerk-Beziehungen zu diesen Austauschknoten über dieses LAN werden ebenfalls entfernt"
+
+#~ msgid "IXF Import Enabled"
+#~ msgstr "IXF-Import wurde aktiviert"
+
+#~ msgid "Add LAN"
+#~ msgstr "LAN hinzufügen"
 
 #~ msgid "Local ASN"
 #~ msgstr "Lokale ASN"

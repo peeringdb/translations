@@ -230,6 +230,9 @@ msgstr "Organisation kan ikke vælges i listen"
 msgid "ROLLBACK"
 msgstr "Ruld tilbage"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Blød sletning"
 
@@ -674,6 +677,12 @@ msgstr "Mindst 2 ASNs skal være angivet"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Kan højest sammenligne op til 25 ASN'er"
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
 
 msgid "IXF Import Log"
 msgstr "IXF import log"
@@ -1228,6 +1237,9 @@ msgstr ""
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr ""
 
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr ""
 
@@ -1631,40 +1643,14 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr ""
 
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "IXF Member Export URL"
-msgstr "IXF import log"
+#| msgid "IXLAN Prefix"
+msgid "Prefixes"
+msgstr "IXLAN præfiks"
 
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "IXF import log"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
-msgstr ""
-
-msgid "Add"
-msgstr ""
-
-msgid "DOT1Q"
-msgstr ""
-
-msgid "MTU"
-msgstr ""
-
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr ""
-
-msgid "dot1q"
-msgstr ""
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 msgstr ""
 
 msgid "IXLAN Prefix"
@@ -1673,16 +1659,14 @@ msgstr "IXLAN præfiks"
 msgid "Add Prefix"
 msgstr ""
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "IXF Import Log Linjer"
-
-msgid "Add LAN"
-msgstr ""
-
 msgid "Facility"
 msgstr "Facility"
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
+msgstr ""
 
 msgid "Exchange - Facility link"
 msgstr "Exchange - Facility link"
@@ -1919,6 +1903,9 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
+msgid "Add"
+msgstr ""
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2064,6 +2051,22 @@ msgstr ""
 msgid "LAN"
 msgstr ""
 
+msgid "DOT1Q"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "IXF import log"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Member Export URL"
+msgstr "IXF import log"
+
 msgid "Also Known As"
 msgstr ""
 
@@ -2117,7 +2120,10 @@ msgstr ""
 msgid "Invalid username/password."
 msgstr ""
 
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
 #, fuzzy
-#~| msgid "IXLAN Prefix"
-#~ msgid "Prefixes"
-#~ msgstr "IXLAN præfiks"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "IXF Import Log Linjer"

@@ -229,6 +229,9 @@ msgstr "Cílová organizace nemůže být ve vybraném seznamu organizací"
 msgid "ROLLBACK"
 msgstr "VRÁCENÍ ZPĚT"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 #, fuzzy
 msgid "SOFT DELETE"
 msgstr "SMAZÁNÍ"
@@ -683,6 +686,12 @@ msgstr "Je třeba zadat alespoň dvě čísla autonomních systémů"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Můžete porovnat maximálně 25 autonomních systémů"
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
 
 msgid "IXF Import Log"
 msgstr "Protokol IXF Importu"
@@ -1252,6 +1261,9 @@ msgstr ""
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr ""
 
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr ""
 
@@ -1684,41 +1696,15 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Aktualizovaný geocode pro tuto entitu budou brzy získána"
 
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IXF Member Export URL"
-msgstr "IXF Member Export URL"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
 
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "Protokol IXF Importu"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Prefix"
-
-msgid "Add"
-msgstr "Přidat"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Nic neodpovídá vašemu filtru"
-
-msgid "You may filter by"
-msgstr "Můžete filtrovat podle"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "POZOR: Jakékoli síťové vztahy k propojovacímu bodu prostřednictvím této sítě LAN budou také odstraněny"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -1726,16 +1712,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "Přidat Prefix"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "Záznamy protokolů IXF Importu"
-
-msgid "Add LAN"
-msgstr "Přidat LAN"
-
 msgid "Facility"
 msgstr "Zařízení"
+
+msgid "No filter matches."
+msgstr "Nic neodpovídá vašemu filtru"
+
+msgid "You may filter by"
+msgstr "Můžete filtrovat podle"
 
 #, fuzzy
 msgid "Exchange - Facility link"
@@ -1988,6 +1972,9 @@ msgstr "Aktualizovat"
 msgid "Delete"
 msgstr "Smazat"
 
+msgid "Add"
+msgstr "Přidat"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2143,6 +2130,22 @@ msgstr "Policy Email"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Protokol IXF Importu"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF Member Export URL"
+
 msgid "Also Known As"
 msgstr "Také známý jako"
 
@@ -2199,10 +2202,22 @@ msgstr "Účet zablokován."
 msgid "Invalid username/password."
 msgstr "Neplatné uživatelské jméno / heslo."
 
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "POZOR: Jakékoli síťové vztahy k propojovacímu bodu prostřednictvím této sítě LAN budou také odstraněny"
+
 #, fuzzy
-#~| msgid "Prefix"
-#~ msgid "Prefixes"
-#~ msgstr "Prefix"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "Záznamy protokolů IXF Importu"
+
+#~ msgid "Add LAN"
+#~ msgstr "Přidat LAN"
 
 #~ msgid "Local ASN"
 #~ msgstr "Lokální ASN"

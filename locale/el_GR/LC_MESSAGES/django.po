@@ -230,6 +230,9 @@ msgstr "Ο στοχοποιημένος οργανισμός δεν μπορεί
 msgid "ROLLBACK"
 msgstr "ΕΠΑΝΑΦΟΡΑ"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "ΗΠΙΑ ΔΙΑΓΡΑΦΗ"
 
@@ -689,6 +692,12 @@ msgstr "Πρέπει να ορίσετε τουλάχιστον 2 ASNs"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Μπορεί να συγκρίνει το πολύ 25 ASNs"
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
 
 msgid "IXF Import Log"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
@@ -1249,6 +1258,9 @@ msgstr ""
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr ""
 
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr ""
 
@@ -1672,41 +1684,15 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Ανανεωμένα στοιχεία geocode για αυτή την οντότητα θα ανακτηθούν συντόμως"
 
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IXF Member Export URL"
-msgstr "URL εξαγωγής μελών IXF"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
 
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "Ημερολόγιο Εισαγωγών IXF"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Prefix"
-
-msgid "Add"
-msgstr "Προσθήκη"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
-
-msgid "You may filter by"
-msgstr "Μπορείτε να φιλτράρετε με"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "ΠΡΟΣΟΧΗ: Οποιεσδήποτε δικτυακές σχέσεις με τον exchange μέσω αυτού του LAN θα αφαιρεθούν επίσης"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -1714,16 +1700,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "Προσθήκη Prefix"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
-
-msgid "Add LAN"
-msgstr "Προσθήκη LAN"
-
 msgid "Facility"
 msgstr "Εγκατάσταση"
+
+msgid "No filter matches."
+msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
+
+msgid "You may filter by"
+msgstr "Μπορείτε να φιλτράρετε με"
 
 msgid "Exchange - Facility link"
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
@@ -1968,6 +1952,9 @@ msgstr "Ενημέρωση"
 msgid "Delete"
 msgstr "Διαγραφή"
 
+msgid "Add"
+msgstr "Προσθήκη"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2117,6 +2104,22 @@ msgstr "Email για θέματα Πολιτικής"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Ημερολόγιο Εισαγωγών IXF"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "URL εξαγωγής μελών IXF"
+
 msgid "Also Known As"
 msgstr "Γνωστός/η/ο και ως"
 
@@ -2172,10 +2175,22 @@ msgstr "Ο λογαριασμός έχει απενεργοποιηθεί"
 msgid "Invalid username/password."
 msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
 
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "ΠΡΟΣΟΧΗ: Οποιεσδήποτε δικτυακές σχέσεις με τον exchange μέσω αυτού του LAN θα αφαιρεθούν επίσης"
+
 #, fuzzy
-#~| msgid "Prefix"
-#~ msgid "Prefixes"
-#~ msgstr "Prefix"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
+
+#~ msgid "Add LAN"
+#~ msgstr "Προσθήκη LAN"
 
 #~ msgid "Local ASN"
 #~ msgstr "Τοπικό ASN"

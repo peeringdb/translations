@@ -232,6 +232,9 @@ msgstr "El objetivo org no puede estar en la lista seleccionada de organizacione
 msgid "ROLLBACK"
 msgstr "Reversión"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Eliminación Temporal"
 
@@ -671,6 +674,12 @@ msgstr "Hay que especificar por lo menos dos ASNes"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Se puede comparar solamente"
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
 
 msgid "IXF Import Log"
 msgstr "Registro de Importación IXF"
@@ -1229,6 +1238,9 @@ msgstr ""
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr ""
 
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr ""
 
@@ -1652,41 +1664,15 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "ILs datos actualizados de Geocodigo para esta entidad se obtendrá pronto"
 
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IXF Member Export URL"
-msgstr "IXF miembro exportación URL"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefijo"
 
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "Registro de Importación IXF"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "Prefijo"
-
-msgid "Add"
-msgstr "Añadir"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "Nada coincide con su filtro"
-
-msgid "You may filter by"
-msgstr "Se puede filtrar por"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "ATENCIÓN: cualquier relación de red con el intercambio a través de esta LAN se eliminará también"
 
 msgid "IXLAN Prefix"
 msgstr "Prefijo IXLAN"
@@ -1694,16 +1680,14 @@ msgstr "Prefijo IXLAN"
 msgid "Add Prefix"
 msgstr "Añadir prefijo"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "Entradas en el registro de importación IXF"
-
-msgid "Add LAN"
-msgstr "Agregar LAN"
-
 msgid "Facility"
 msgstr "Instalaciones"
+
+msgid "No filter matches."
+msgstr "Nada coincide con su filtro"
+
+msgid "You may filter by"
+msgstr "Se puede filtrar por"
 
 msgid "Exchange - Facility link"
 msgstr "Punto de Intercambio - Enlace a una Instalación"
@@ -1948,6 +1932,9 @@ msgstr "Actualizar"
 msgid "Delete"
 msgstr "Borrar"
 
+msgid "Add"
+msgstr "Añadir"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2097,6 +2084,22 @@ msgstr "Email de políticas"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "Registro de Importación IXF"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF miembro exportación URL"
+
 msgid "Also Known As"
 msgstr "También conocido como"
 
@@ -2152,10 +2155,22 @@ msgstr "Cuenta desactivada."
 msgid "Invalid username/password."
 msgstr "Nombre de usuario/contraseña no válida."
 
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "ATENCIÓN: cualquier relación de red con el intercambio a través de esta LAN se eliminará también"
+
 #, fuzzy
-#~| msgid "Prefix"
-#~ msgid "Prefixes"
-#~ msgstr "Prefijo"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "Entradas en el registro de importación IXF"
+
+#~ msgid "Add LAN"
+#~ msgstr "Agregar LAN"
 
 #~ msgid "Local ASN"
 #~ msgstr "ASN local"

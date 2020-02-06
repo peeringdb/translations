@@ -230,6 +230,9 @@ msgstr "目標群組織不在選定的列表中"
 msgid "ROLLBACK"
 msgstr "回滾"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "軟刪除"
 
@@ -675,6 +678,12 @@ msgstr "需要至少兩個 ASN"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "最多只能比較25個 ASN"
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
 
 msgid "IXF Import Log"
 msgstr "IXF 導入日誌"
@@ -1229,6 +1238,9 @@ msgstr "建議將 %(entity_name)s 添加到資料庫。您的建議將被 Peerin
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr "為了獲得批准，我們希望您建議的設施向公眾提供主機託管，資料中心和/或 meet-me-room 服務。"
 
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr "為了在PeeringDB中列為互聯網交換點，我們希望您符合以下條件："
 
@@ -1634,41 +1646,15 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "該實體的地理編碼資料將被更新"
 
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IXF Member Export URL"
-msgstr "IXF 成員匯出 URL"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "首碼"
 
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "IXF 導入日誌"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "首碼"
-
-msgid "Add"
-msgstr "添加"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "沒有內容符合。"
-
-msgid "You may filter by"
-msgstr "您可以篩選"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "注意：通過此 LAN 與交換點的任何網路聯繫也將被刪除"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 首碼"
@@ -1676,16 +1662,14 @@ msgstr "IXLAN 首碼"
 msgid "Add Prefix"
 msgstr "添加首碼"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "IXF 導入日誌條目"
-
-msgid "Add LAN"
-msgstr "添加 LAN"
-
 msgid "Facility"
 msgstr "設施"
+
+msgid "No filter matches."
+msgstr "沒有內容符合。"
+
+msgid "You may filter by"
+msgstr "您可以篩選"
 
 msgid "Exchange - Facility link"
 msgstr "交換點 - 設施連接"
@@ -1928,6 +1912,9 @@ msgstr "更新"
 msgid "Delete"
 msgstr "刪除"
 
+msgid "Add"
+msgstr "添加"
+
 msgid "Thank you for your suggestion."
 msgstr "感謝您的建議。"
 
@@ -2075,6 +2062,22 @@ msgstr "政策郵箱"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "IXF 導入日誌"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF 成員匯出 URL"
+
 msgid "Also Known As"
 msgstr "別名"
 
@@ -2130,10 +2133,22 @@ msgstr "帳戶已禁用。"
 msgid "Invalid username/password."
 msgstr "無效的用戶名/密碼。"
 
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "注意：通過此 LAN 與交換點的任何網路聯繫也將被刪除"
+
 #, fuzzy
-#~| msgid "Prefix"
-#~ msgid "Prefixes"
-#~ msgstr "首碼"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "IXF 導入日誌條目"
+
+#~ msgid "Add LAN"
+#~ msgstr "添加 LAN"
 
 #~ msgid "Local ASN"
 #~ msgstr "當地 ASN"

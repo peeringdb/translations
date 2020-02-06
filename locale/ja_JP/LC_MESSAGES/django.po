@@ -230,6 +230,9 @@ msgstr "対象の組織は、選択された組織のリストにはありませ
 msgid "ROLLBACK"
 msgstr "ロールバック"
 
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "SOFT DELETE"
 
@@ -681,6 +684,12 @@ msgstr "2つ以上のAS番号の記載が必要です"
 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "最大25個のAS番号の比較まで可能です"
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
 
 msgid "IXF Import Log"
 msgstr "IXF Import のログ(IXF Import Log)"
@@ -1235,6 +1244,9 @@ msgstr ""
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
 msgstr ""
 
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr ""
 
@@ -1640,41 +1652,15 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "まもなく、このエンティティについての更新されたジオコードデータの取得が行われます"
 
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IXF Member Export URL"
-msgstr "IXF メンバー出力 URL"
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "プレフィクス"
 
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "IXF Import のログ(IXF Import Log)"
+msgid "Protocol"
+msgstr ""
 
 msgid "Prefix"
 msgstr "プレフィクス"
-
-msgid "Add"
-msgstr "追加"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "No filter matches."
-msgstr "フィルタに一致するものはありませんでした"
-
-msgid "You may filter by"
-msgstr "フィルタされているかもしれません"
-
-msgid "dot1q"
-msgstr "dot1q"
-
-msgid "IXLAN"
-msgstr "IXLAN"
-
-msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
-msgstr "注意: このエクスチェンジに関連したネットワークも削除されます"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -1682,16 +1668,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "プレフィクスを追加"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IXF Import Enabled"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
-
-msgid "Add LAN"
-msgstr "LAN を追加"
-
 msgid "Facility"
 msgstr "データセンタ"
+
+msgid "No filter matches."
+msgstr "フィルタに一致するものはありませんでした"
+
+msgid "You may filter by"
+msgstr "フィルタされているかもしれません"
 
 msgid "Exchange - Facility link"
 msgstr "エクスチェンジ - データセンタ のリンク"
@@ -1932,6 +1916,9 @@ msgstr "更新"
 msgid "Delete"
 msgstr "削除"
 
+msgid "Add"
+msgstr "追加"
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2079,6 +2066,22 @@ msgstr "ポリシー担当者のメールアドレス"
 msgid "LAN"
 msgstr "LAN"
 
+msgid "DOT1Q"
+msgstr "DOT1Q"
+
+msgid "MTU"
+msgstr "MTU"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Enable IX-F Import"
+msgstr "IXF Import のログ(IXF Import Log)"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF メンバー出力 URL"
+
 msgid "Also Known As"
 msgstr "別名"
 
@@ -2134,10 +2137,22 @@ msgstr "アカウントが無効です"
 msgid "Invalid username/password."
 msgstr "無効なユーザ名・パスワードです"
 
+#~ msgid "dot1q"
+#~ msgstr "dot1q"
+
+#~ msgid "IXLAN"
+#~ msgstr "IXLAN"
+
+#~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
+#~ msgstr "注意: このエクスチェンジに関連したネットワークも削除されます"
+
 #, fuzzy
-#~| msgid "Prefix"
-#~ msgid "Prefixes"
-#~ msgstr "プレフィクス"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IXF Import Enabled"
+#~ msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+
+#~ msgid "Add LAN"
+#~ msgstr "LAN を追加"
 
 #~ msgid "Local ASN"
 #~ msgstr "AS 番号"
