@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-01-26 07:58+0000\n"
+"PO-Revision-Date: 2020-02-10 20:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -829,7 +829,7 @@ msgid "Object of type '%(type)s' cannot be created because it's parent entity '%
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
 msgid "Network has been deleted. Please contact {}"
-msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}."
+msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
 
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
