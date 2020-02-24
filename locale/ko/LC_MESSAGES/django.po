@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-24 07:58+0000\n"
+"PO-Revision-Date: 2020-02-24 08:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -454,34 +454,34 @@ msgid "No JSON could be parsed"
 msgstr ""
 
 msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
+msgstr "이 리소스에 대해 아직 부분적으로 캐시되지 않은 IX-F 데이터."
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr ""
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
+msgstr "ixlan에 정의된 프리픽스 없음"
 
 msgid "ASN no longer in data"
-msgstr ""
+msgstr "ASN이 더 이상 데이터에 없음"
 
 msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr ""
+msgstr "IP 주소가 더 이상 유효한 데이터에 존재하지 않거나 이 asn에 더 이상 없음"
 
 msgid "At least one ipaddress mismatched and network has disabled updates"
 msgstr ""
 
 msgid "Network status is '{}'"
-msgstr ""
+msgstr "네트워크 상태가 '{}'임"
 
 msgid "Network does not exist in peeringdb"
-msgstr ""
+msgstr "네트워크가 peeringdb에 존재하지 않음"
 
 msgid "Invalid member type: {}"
-msgstr ""
+msgstr "잘못된 멤버 형식: {}"
 
 msgid "Invalid connection state: {}"
-msgstr ""
+msgstr "잘못된 연결 상태: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
 msgstr ""
@@ -490,40 +490,40 @@ msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
 
 msgid "Connection is currently marked as inactive"
-msgstr ""
+msgstr "연결이 현재 비활성으로 표시됨"
 
 msgid "Network has disabled ixp updates"
-msgstr ""
+msgstr "네트워크가 ixp 업데이트를 사용하지 않도록 설정함"
 
 msgid "New ip-address"
-msgstr ""
+msgstr "새로운 ip 주소"
 
 msgid "Fields changed: {}"
-msgstr ""
+msgstr "필드가 변경됨: {}"
 
 msgid "No changes"
-msgstr ""
+msgstr "변경사항 없음"
 
 msgid "Invalid speed value: {}"
-msgstr ""
+msgstr "잘못된 속도 값: {}"
 
 msgid "{} Merge Notification: {} -> {}"
-msgstr ""
+msgstr "{} 병합 공지: {} -> {}"
 
 msgid "Silver"
-msgstr ""
+msgstr "실버"
 
 msgid "Gold"
-msgstr ""
+msgstr "골드"
 
 msgid "Platinum"
-msgstr ""
+msgstr "플라티넘"
 
 msgid "Diamond"
-msgstr ""
+msgstr "다이아몬드"
 
 msgid "Data Validation"
-msgstr ""
+msgstr "데이터 유효성 검사"
 
 msgid "RIR"
 msgstr ""
