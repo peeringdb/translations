@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-23 04:58+0000\n"
+"PO-Revision-Date: 2020-02-24 04:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -91,7 +91,7 @@ msgid "Not Disclosed"
 msgstr "미공개"
 
 msgid "Heavy Outbound"
-msgstr ""
+msgstr "헤비 아웃바운드"
 
 msgid "Mostly Outbound"
 msgstr ""
@@ -184,7 +184,7 @@ msgid "Content"
 msgstr "내용"
 
 msgid "Cable/DSL/ISP"
-msgstr ""
+msgstr "케이블/DSL(디지털 가입자 회선)/ISP(인터넷 서비스 제공자)"
 
 msgid "Enterprise"
 msgstr "기업"
@@ -214,10 +214,10 @@ msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr "IRR(인터넷 라우팅 레지스트리)에서 AS-SET 또는 ROUTE-SET 참조"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
 
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
 
 msgid "Indicates if this network will announce its routes via rout servers or not"
 msgstr ""
@@ -295,7 +295,7 @@ msgid "Waiting"
 msgstr "대기 중"
 
 msgid "No organization(s) set"
-msgstr ""
+msgstr "설정된 조직 없음"
 
 msgid "Malformed organization ids"
 msgstr "잘못된 형식의 조직 ID"
@@ -358,28 +358,28 @@ msgid "Updated"
 msgstr "업데이트됨"
 
 msgid "Only POST requests allowed."
-msgstr ""
+msgstr "POST 요청만 허용됨."
 
 msgid "{} (Preview)"
-msgstr ""
+msgstr "{} (미리보기)"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "이 명령은 이미 대기/실행 중이므로 완료될 때까지 기다린 후 다시 실행하십시오"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
+msgstr "이 명령은 완료하는 데 시간이 좀 걸리며, 백그라운드에서 대기하고 실행될 것입니다. 현재 시점에서는 출력 로그를 제공할 수 없니습니다. 명령이 완료되면 한번 더 검토하십시오."
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
 msgstr ""
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+msgstr "새로운 프리픽스 - 이전 프리픽스와 동일한 프로토콜 및 길이 필요"
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "이 시설을 병합 - 삭제될 예정"
 
 msgid "Target facility"
-msgstr ""
+msgstr "타겟 시설"
 
 msgid "Undo this merge"
 msgstr ""
