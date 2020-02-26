@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-24 14:58+0000\n"
+"PO-Revision-Date: 2020-02-26 04:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -430,7 +430,7 @@ msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "다른 ixf 가져오기 미리 보기를 요청하기 전에 잠시 기다리십시오."
 
 msgid "Ixlan not found"
-msgstr ""
+msgstr "익슬란을 찾을 수 없음"
 
 msgid "Permission denied"
 msgstr "승인 거부됨"
@@ -469,7 +469,7 @@ msgid "Ip addresses no longer exist in validated data or are no longer with this
 msgstr "IP 주소가 더 이상 유효한 데이터에 존재하지 않거나 이 asn에 더 이상 없음"
 
 msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr ""
+msgstr "적어도 하나 이상의 ip주소가 일치하지 않고 네트워크가 업데이트를 사용하지 않도록 설정함"
 
 msgid "Network status is '{}'"
 msgstr "네트워크 상태가 '{}'임"
@@ -529,19 +529,19 @@ msgid "RIR"
 msgstr "RIR"
 
 msgid "Renumber IP Space"
-msgstr ""
+msgstr "IP 공간 리넘버"
 
 msgid "Merge Facilities"
-msgstr ""
+msgstr "시설 합병"
 
 msgid "Merge Facilities: UNDO"
-msgstr ""
+msgstr "시설 합병: 실행 취소"
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "개체 복원"
 
 msgid "Reset Environment"
-msgstr ""
+msgstr "환경 재설정"
 
 msgid "IX-F Import"
 msgstr ""
