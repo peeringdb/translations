@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-28 06:58+0000\n"
+"PO-Revision-Date: 2020-02-28 07:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -71,7 +71,6 @@ msgstr "필수 - 미국"
 msgid "Required - EU"
 msgstr "필수 - 유럽"
 
-#, fuzzy
 msgid "Required - International"
 msgstr "필수 - 국제"
 
@@ -97,7 +96,7 @@ msgid "Mostly Outbound"
 msgstr ""
 
 msgid "Balanced"
-msgstr ""
+msgstr "안정된"
 
 msgid "Mostly Inbound"
 msgstr ""
@@ -235,7 +234,7 @@ msgid "Ixlans can no longer be directly deleted as they are now synced to the pa
 msgstr ""
 
 msgid "SOFT DELETE"
-msgstr ""
+msgstr "삭제 보류 표시"
 
 msgid "Verification Queue is currently disabled"
 msgstr "검증 대기열이 현재 비활성화되어있습니다"
@@ -370,7 +369,7 @@ msgid "This command takes a while to complete and will be queued and ran in the 
 msgstr "이 명령은 완료하는 데 시간이 좀 걸리며, 백그라운드에서 대기하고 실행될 것입니다. 현재 시점에서는 출력 로그를 제공할 수 없니습니다. 명령이 완료되면 한번 더 검토하십시오."
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "이전 프리픽스 - 이 프리픽스에 속하는 모든 netixlan의 번호 리넘버함"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
 msgstr "새로운 프리픽스 - 이전 프리픽스와 동일한 프로토콜 및 길이 필요"
@@ -442,7 +441,7 @@ msgid "Network not found"
 msgstr "네트워크를 찾을 수 없음"
 
 msgid "Postmortem length cannot exceed {} entries"
-msgstr ""
+msgstr "사후 길이는 {}개 항목을 초과할 수 없음"
 
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "이 환경에서는 이 범위의 ASN이 허용되지 않음"
@@ -601,7 +600,7 @@ msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "이 조직의 로고 이미지 파일을 업로드하고 설정할 수 있음"
 
 msgid "Sponsorship starts on"
-msgstr ""
+msgstr "스폰서쉽 시작 날짜"
 
 msgid "Sponsorship ends on"
 msgstr "스폰서쉽 종료"
