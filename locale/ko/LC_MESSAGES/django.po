@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-28 07:58+0000\n"
+"PO-Revision-Date: 2020-02-29 04:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -585,10 +585,10 @@ msgid "Status of this request"
 msgstr "요청 상태"
 
 msgid "User to Organization Affiliation Request"
-msgstr ""
+msgstr "조직 소속 요청한 사용자"
 
 msgid "User to Organization Affiliation Requests"
-msgstr ""
+msgstr "조직 소속 요청한 사용자"
 
 msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "조직 \"{}\"에 대한 가입이 승인됨"
@@ -621,7 +621,7 @@ msgid "URL"
 msgstr "URL"
 
 msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr ""
+msgstr "협찬을 클릭하면 사용자가 이 위치로 이동함"
 
 msgid "Allows you to upload and set a logo image file for this sponsorship"
 msgstr "이 협찬에 사용할 로고 이미지 파일을 업로드하고 설정할 수 있음"
@@ -669,49 +669,49 @@ msgid "IXF Import Log"
 msgstr "IXF 가져오기 로그"
 
 msgid "IXF Import Logs"
-msgstr ""
+msgstr "IXF 가져오기 로그"
 
 msgid "IXF Import Log Entry"
 msgstr "IXF 가져오기 로그 항목"
 
 msgid "IXF Import Log Entries"
-msgstr ""
+msgstr "IXF 가져오기 로그 항목"
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr ""
+msgstr "ixp가 ixp_member 데이터를 통해 이 네트워크에 대해 netixlan 항목을 추가할 수 있는지 확인"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr ""
+msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
 
 msgid "IPv4 address outside of prefix"
-msgstr ""
+msgstr "IPv4 주소가 프리픽스를 벗어남"
 
 msgid "IPv6 address outside of prefix"
-msgstr ""
+msgstr "IPv6가 프리픽스를 벗어남"
 
 msgid "Ip address already exists elsewhere"
-msgstr ""
+msgstr "IP 주소가 이미 다른 곳에 존재함"
 
 msgid "username"
-msgstr ""
+msgstr "사용자이름"
 
 msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr ""
+msgstr "필수. 문자, 숫자 및 [@.+-/_=|]만 가능."
 
 msgid "Enter a valid username."
-msgstr ""
+msgstr "유효한 사용자이름을 입력하시오."
 
 msgid "email address"
-msgstr ""
+msgstr "이메일 주소"
 
 msgid "first name"
-msgstr ""
+msgstr "이름"
 
 msgid "last name"
-msgstr ""
+msgstr "성"
 
 msgid "staff status"
-msgstr ""
+msgstr "직위"
 
 msgid "Designates whether the user can log into admin site."
 msgstr ""
