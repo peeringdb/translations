@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-29 04:58+0000\n"
+"PO-Revision-Date: 2020-02-29 05:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -714,67 +714,67 @@ msgid "staff status"
 msgstr "직위"
 
 msgid "Designates whether the user can log into admin site."
-msgstr ""
+msgstr "사용자가 관리 사이트에 로그인할 수 있는지 여부를 지정한다."
 
 msgid "active"
-msgstr ""
+msgstr "활성화"
 
 msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr ""
+msgstr "이 사용자를 활성 상태로 취급할지 여부를 지정하십시오. 계정을 삭제하는 대신 이 옵션을 선택 해제하십시오."
 
 msgid "date joined"
-msgstr ""
+msgstr "가입 날짜"
 
 msgid "status"
-msgstr ""
+msgstr "상태"
 
 msgid "language"
-msgstr ""
+msgstr "언어"
 
 msgid "user"
-msgstr ""
+msgstr "사용자"
 
 msgid "users"
-msgstr ""
+msgstr "사용자"
 
 msgid "Password Reset Initiated"
-msgstr ""
+msgstr "암호 재설정 시작됨"
 
 msgid "name of the tool"
-msgstr ""
+msgstr "도구 이름"
 
 msgid "json serialization of arguments and options passed"
 msgstr ""
 
 msgid "result log"
-msgstr ""
+msgstr "결과 로그"
 
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "검색할 수 있는 명령의 서술적 텍스트"
 
 msgid "the user that ran this command"
-msgstr ""
+msgstr "이 명령을 실행한 사용자"
 
 msgid "command was run at this date and time"
-msgstr ""
+msgstr "명령이 이 날짜와 시간에 실행됨"
 
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 msgid "Running"
-msgstr ""
+msgstr "실행 중"
 
 msgid "Organization and all Entities it owns"
-msgstr ""
+msgstr "조직 및 그 조직이 소유하는 모든 항목들"
 
 msgid "Any Network"
-msgstr ""
+msgstr "모든 네트워크"
 
 msgid "Any Facility"
-msgstr ""
+msgstr "모든 설비"
 
 msgid "Any Exchange"
-msgstr ""
+msgstr "모든 익스체인지"
 
 #, python-format
 msgid "Network - %(net_name)s"
