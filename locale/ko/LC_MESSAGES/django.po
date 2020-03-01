@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-01 03:58+0000\n"
-"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
+"PO-Revision-Date: 2020-03-01 04:08+0000\n"
+"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -817,7 +817,7 @@ msgstr "이 필드는 다음 요청에 대해서만 허용됨: {methods}"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "상위 엔티티 '%(parent_tag)/%(parent_id)'가 아직 승인되지 않았으므로 '%(type)s' 유형의 개체를 만들 수 없음"
+msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 않았으므로 '%(type)s' 유형의 개체를 만들 수 없음"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
