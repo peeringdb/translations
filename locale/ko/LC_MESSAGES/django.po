@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-29 05:58+0000\n"
+"PO-Revision-Date: 2020-03-01 03:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -778,125 +778,125 @@ msgstr "모든 익스체인지"
 
 #, python-format
 msgid "Network - %(net_name)s"
-msgstr ""
+msgstr "네트워크 - %(net_name)s"
 
 #, python-format
 msgid "Exchange - %(ix_name)s"
-msgstr ""
+msgstr "익스체인지 - %(ix_name)s"
 
 #, python-format
 msgid "Facility - %(fac_name)s"
-msgstr ""
+msgstr "설비 - %(fac_name)s"
 
 msgid "Invalid organization specified"
-msgstr ""
+msgstr "잘못된 조직이 지정됨"
 
 msgid "Needs to be member or admin"
-msgstr ""
+msgstr "구성원 또는 관리자 필요"
 
 #, python-format
 msgid "%(user_name)s's afilliation request has been approved"
-msgstr ""
+msgstr "%(user_name)s의 가입 요청이 승인되었음"
 
 #, python-format
 msgid "%(user_name)s's afilliation request has been denied"
-msgstr ""
+msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
 msgid "Need to be unique"
 msgstr ""
 
 msgid "This field is required"
-msgstr ""
+msgstr "필수 입력"
 
 msgid "RDAP Lookup Error"
-msgstr ""
+msgstr "RDAP 룩업 오류"
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
+msgstr "이 필드는 다음 요청에 대해서만 허용됨: {methods}"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr ""
+msgstr "상위 엔티티 '%(parent_tag)/%(parent_id)'가 아직 승인되지 않았으므로 '%(type)s' 유형의 개체를 만들 수 없음"
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr ""
+msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
 
 msgid "Network has been deleted. Please contact {}"
-msgstr ""
+msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
 
 msgid "Specify at least one email address"
-msgstr ""
+msgstr "하나 이상의 이메일 주소를 지정하시오"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr ""
+msgstr "사용자 %(u_name)s이(가) 조직에 가입되기를 희망함"
 
 msgid "Confirm your e-mail address"
-msgstr ""
+msgstr "이메일 주소를 확인하시오"
 
 msgid "Please confirm that"
-msgstr ""
+msgstr "확인 바람"
 
 msgid "is your email-address"
-msgstr ""
+msgstr "는 당신의 이메일 주소입니다"
 
 msgid "Confirm"
-msgstr ""
+msgstr "확인"
 
 msgid "The email confirmation process for this email address has been terminated, please re-initate"
-msgstr ""
+msgstr "이 이메일 주소에 대한 이메일 확인 프로세스가 종료되었으므로 다시 시작하십시오"
 
 msgid "here"
-msgstr ""
+msgstr "여기"
 
 msgid "Please use"
-msgstr ""
+msgstr "사용 바랍니다"
 
 msgid "this page"
-msgstr ""
+msgstr "이 페이지"
 
 msgid "instead"
-msgstr ""
+msgstr "대신"
 
 msgid "Home"
-msgstr ""
+msgstr "메인 페이지"
 
 msgid "Prepare"
-msgstr ""
+msgstr "준비"
 
 msgid "Preview"
-msgstr ""
+msgstr "미리보기"
 
 msgid "Result"
-msgstr ""
+msgstr "결과"
 
 msgid "Merge Notification"
-msgstr ""
+msgstr "병합 알림"
 
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 msgid "has been merged into"
-msgstr ""
+msgstr "로 합병되었음"
 
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
 msgstr ""
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
-msgstr ""
+msgstr "%(u_full_name)s의 %(o_name)s에 대한 가입 요청이 %(admin_full_name)s에 의해 승인되었음."
 
 msgid "No further action is required on your part."
 msgstr ""
 
 msgid "As the organization's administrator you may view your organization's user list here"
-msgstr ""
+msgstr "조직의 관리자로서 여기에서 조직의 사용자 목록을 볼 수 있음"
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
-msgstr ""
+msgstr "%(u_full_name)s의 %(o_name)s에 대한 가입 요청이 %(admin_full_name)s에 의해 거부됨."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
