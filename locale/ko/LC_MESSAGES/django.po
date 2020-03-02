@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-02 13:58+0000\n"
-"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
+"PO-Revision-Date: 2020-03-02 16:16+0000\n"
+"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -900,7 +900,7 @@ msgstr "%(u_full_name)s의 %(o_name)s에 대한 가입 요청이 %(admin_full_na
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr "사용자 %(u_name)s (%(u_mail)s은 %(o_name)s에 속하기를 원한다."
+msgstr "사용자 %(u_name)s (%(u_email)s) 은 %(o_name)s 에 속하기를 원한다."
 
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "조직의 관리자로서 당신은 여기에서 이 요청을 승인하거나 거부할 수 있음"
@@ -930,7 +930,7 @@ msgstr "%(n_name)s(%(n_id)s)는 사용자 '%(u_name)s'의 AS%(asn)s에 대한 �
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgstr "사용자 '%(u_name)s'는 %(o_name)s(%)s(o_id)s 조직 아래에 네트워크 %(n_name)s AS%(n_asn)s(%(n_id)s)를 생성했다."
+msgstr "사용자 '%(u_name)s' 는 %(o_name)s(%)s (%(o_id)s) 조직 아래에 네트워크 %(n_name)s AS%(n_asn)s (%(n_id)s) 를 생성했다."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었다."
