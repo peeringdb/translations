@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-02 11:58+0000\n"
+"PO-Revision-Date: 2020-03-02 12:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -909,64 +909,64 @@ msgid "Ownership of organization was automatically granted to user"
 msgstr "사용자에게 조직의 소유권이 자동으로 부여됨"
 
 msgid "User"
-msgstr ""
+msgstr "사용자"
 
 msgid "Organization"
-msgstr ""
+msgstr "조직"
 
 msgid "Network"
-msgstr ""
+msgstr "네트워크"
 
 msgid "AS"
-msgstr ""
+msgstr "AS"
 
 #, python-format
 msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "사용자 '%(u_name)s의 AS%(asn)s에 대한 가입 요청 중에 조직 %(o_name)s %(o_id)s가 자동으로 생성됨"
 
 #, python-format
 msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+msgstr "%(n_name)s(%(n_id)s)는 사용자 '%(u_name)s'의 AS%(asn)s에 대한 소속 요청 중에 자동으로 생성됨"
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgstr ""
+msgstr "사용자 '%(u_name)s'는 %(o_name)s(%)s(o_id)s 조직 아래에 네트워크 %(n_name)s AS%(n_asn)s(%(n_id)s)를 생성했다."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgstr ""
+msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었다."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
-msgstr ""
+msgstr "사용자 %(u_name)s(%(u_email)s)가 ASN %(inst)s에 소속되기를 희망함"
 
 msgid "They also provided this organization name in their request"
 msgstr ""
 
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
-msgstr ""
+msgstr "데이터베이스에는 ASN과 일치하는 항목이 없었기 때문에, 그것에 대한 네트워크와 조직을 만들 필요가 있을 것 같다."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr ""
+msgstr "%(u_name)s(%(u_email)s)는 %(o_name)s라는 조직을 만들고자 한다."
 
 msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
-msgstr ""
+msgstr "데이터베이스에는 그 조직 이름과 일치하는 항목이 없었고 ASN도 제공되지 않았기 때문에 이 조직을 만들 필요가 있을 것 같다."
 
 msgid "You may create a new organization here"
-msgstr ""
+msgstr "여기에 새 조직을 만들 수 있습니다"
 
 msgid "You may create a new network here"
-msgstr ""
+msgstr "여기에 새로운 네트워크를 만들 수 있습니다"
 
 #, python-format
 msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
-msgstr ""
+msgstr "사용자%(user_name)s(%(u_email)s)이(가) 조직 '%(o_name)s'에 소속되기를 희망함"
 
 msgid "They also provided this ASN in their request"
 msgstr ""
 
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
-msgstr ""
+msgstr "주의: 이것은 소유권 요청이며, 이를 승인하면 사용자에게 조직과 그것이 소유한 모든 기업에 대한 관리 권한이 부여된다."
 
 msgid "These are the website addresses were able to derive from the organzation and it's entities"
 msgstr ""
