@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-01 04:08+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2020-03-02 11:58+0000\n"
+"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -882,7 +882,7 @@ msgid "has been merged into"
 msgstr "로 합병되었음"
 
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "모든 병합은 peeringdb 지원 담당자가 수동으로 처리합니다. 이 작업이 실수로 실행되었다고 생각되면 peeringdb 지원팀에 문의하십시오."
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
@@ -900,13 +900,13 @@ msgstr "%(u_full_name)s의 %(o_name)s에 대한 가입 요청이 %(admin_full_na
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr ""
+msgstr "사용자 %(u_name)s (%(u_mail)s은 %(o_name)s에 속하기를 원한다."
 
 msgid "As the organization's administrator you may approve or deny this request here"
-msgstr ""
+msgstr "조직의 관리자로서 당신은 여기에서 이 요청을 승인하거나 거부할 수 있음"
 
 msgid "Ownership of organization was automatically granted to user"
-msgstr ""
+msgstr "사용자에게 조직의 소유권이 자동으로 부여됨"
 
 msgid "User"
 msgstr ""
