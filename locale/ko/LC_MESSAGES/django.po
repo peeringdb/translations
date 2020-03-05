@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-02 16:19+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2020-03-05 00:58+0000\n"
+"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -940,7 +940,7 @@ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
 msgstr "사용자 %(u_name)s(%(u_email)s)가 ASN %(inst)s에 소속되기를 희망함"
 
 msgid "They also provided this organization name in their request"
-msgstr ""
+msgstr "그들은 또한 그들의 요청으로 이 조직명을 제공했다"
 
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
 msgstr "데이터베이스에는 ASN과 일치하는 항목이 없었기 때문에, 그것에 대한 네트워크와 조직을 만들 필요가 있을 것 같다."
@@ -963,7 +963,7 @@ msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization 
 msgstr "사용자%(user_name)s(%(u_email)s)이(가) 조직 '%(o_name)s'에 소속되기를 희망함"
 
 msgid "They also provided this ASN in their request"
-msgstr ""
+msgstr "그들은 또한 그들의 요청으로 이 ASN을 제공했다"
 
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "주의: 이것은 소유권 요청이며, 이를 승인하면 사용자에게 조직과 그것이 소유한 모든 기업에 대한 관리 권한이 부여된다."
@@ -972,26 +972,26 @@ msgid "These are the website addresses were able to derive from the organzation 
 msgstr "이것들은 조직과 그것의 독립체들로부터 파생될 수 있는 웹사이트 주소이다"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
-msgstr ""
+msgstr "이 조직에 속한 ASN에서 가져올 수 있는 이메일 주소 입니다"
 
 msgid "The user is affiliated with other organizations"
-msgstr ""
+msgstr "사용자가 다른 조직에 가입되어 있음"
 
 msgid "ADMIN"
-msgstr ""
+msgstr "관리자"
 
 msgid "MEMBER"
-msgstr ""
+msgstr "구성원"
 
 msgid "Review Affiliation/Ownership Request"
-msgstr ""
+msgstr "가입/소유 요청 검토"
 
 msgid "Approve Ownership Request and Notify User"
-msgstr ""
+msgstr "소유권 요청 승인 및 사용자에게 통지"
 
 #, python-format
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr ""
+msgstr "새 '%(entity_type_name)s'가 생성되었으며 사용자의 승인이 필요하다."
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
