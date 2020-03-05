@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-05 00:58+0000\n"
+"PO-Revision-Date: 2020-03-05 01:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -995,63 +995,63 @@ msgstr "새 '%(entity_type_name)s'가 생성되었으며 사용자의 승인이 
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr ""
+msgstr "이 %(entity_type_name)s는 제안서로 제출되었으며 검토 후 적절한 조직을 할당해야 함"
 
 msgid "We retrieved the RiR entry for the specified ASN"
-msgstr ""
+msgstr "지정된 ASN에 대한 RiR 항목을 검색함"
 
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
-msgstr ""
+msgstr "요청된 사용자와 일치하는 항목을 찾을 수 없습니다. 여기 이메일 주소들이 있습니다"
 
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 msgid "Requested by user"
-msgstr ""
+msgstr "사용자에 의해 요청됨"
 
 msgid "You can go to"
 msgstr ""
 
 msgid "to view and approve or deny this entry"
-msgstr ""
+msgstr "이 항목을 검토하고 승인 또는 거절"
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
-msgstr ""
+msgstr "%(i_label)s의 '%(io_name)s' 레벨 스폰서쉽이 %(i_end_date)s에 만료됨."
 
 #, python-format
 msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
-msgstr ""
+msgstr "조직의 '%(o_name)s'에 대한 가입 요청과 해당 항목들이 승인됨."
 
 msgid "This was the result of a manual review of your affiliation request to ASN"
-msgstr ""
+msgstr "이것은 ASN에 대한 당신의 가입 요청에 대한 수동 검토 결과였습니다"
 
 msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
-msgstr ""
+msgstr "이는 조직 또는 조직 중 하나에 대한 소속 요청에 대한 수동 검토 결과였습니다."
 
 msgid "You may view and edit your organization at"
-msgstr ""
+msgstr "다음 위치에서 당신의 조직을 보고 편집할 수 있습니다"
 
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr ""
+msgstr "질문이 있으면 주저하지 말고 다음 사이트에서 peeringdb 지원팀에 문의하십시오."
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr ""
+msgstr "PeeringDB 2에서 암호 재설정을 시작하셨습니다. 암호를 재설정하려면 아래 URL을 클릭하십시오."
 
 msgid "If you did not initiate the password reset request, please ignore this email."
-msgstr ""
+msgstr "암호 재설정 요청을 시작하지 않은 경우 이 이메일을 무시하십시오."
 
 msgid "You requested a username retrieval on PeeringDB for the email address"
-msgstr ""
+msgstr "당신은 PeeringDB에서 이메일 주소에 대한 사용자 이름 검색을 요청했습니다"
 
 msgid "Please follow the url below to view any usernames associated with your email."
-msgstr ""
+msgstr "아래 URL을 따라 당신의 이메일과 관련된 사용자 이름을 확인하십시오."
 
 msgid "If you did not request username retrieval, you can ignore this email."
-msgstr ""
+msgstr "사용자이름 검색을 요청하지 않은 경우, 이 이메일을 무시하십시오."
 
 msgid "Our Culture"
-msgstr ""
+msgstr "우리의 문화"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
 msgstr ""
