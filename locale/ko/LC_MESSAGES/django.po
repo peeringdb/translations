@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-06 11:58+0000\n"
+"PO-Revision-Date: 2020-03-08 01:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -483,10 +483,10 @@ msgid "Invalid connection state: {}"
 msgstr "잘못된 연결 상태: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
+msgstr "vlan_id {}의 vlan_list 항목에서 ipv4 또는 6 주소를 찾을 수 없음(AS{})"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
+msgstr "vlan_id {}에 대한 vlan_list 항목에서 IP 주소 오류 '{}'"
 
 msgid "Connection is currently marked as inactive"
 msgstr "연결이 현재 비활성으로 표시됨"
@@ -549,7 +549,7 @@ msgid "Has this object's latitude and longitude been syncronized to it's address
 msgstr "이 개체의 위도와 경도가 주소 필드와 동기화되었음"
 
 msgid "Last time of attempted geocode"
-msgstr ""
+msgstr "마지막으로 시도된 지오코드"
 
 msgid "Error message of previous geocode attempt"
 msgstr "이전 지오코드 시도 오류 메세지"
@@ -889,7 +889,7 @@ msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by 
 msgstr "%(u_full_name)s의 %(o_name)s에 대한 가입 요청이 %(admin_full_name)s에 의해 승인되었음."
 
 msgid "No further action is required on your part."
-msgstr ""
+msgstr "당신이 해야 할 더이상의 조치는 없음."
 
 msgid "As the organization's administrator you may view your organization's user list here"
 msgstr "조직의 관리자로서 여기에서 조직의 사용자 목록을 볼 수 있음"
@@ -1136,7 +1136,7 @@ msgid "Traffic Levels"
 msgstr "트래픽 레벨"
 
 msgid "Traffic Ratio"
-msgstr ""
+msgstr "트래픽 비율"
 
 msgid "Primary ASN"
 msgstr "주요 ASN"
@@ -1145,19 +1145,19 @@ msgid "IRR as-set/route-set"
 msgstr "IRR as-set/route-set"
 
 msgid "General Peering Policy"
-msgstr ""
+msgstr "일반적인 피어링 정책"
 
 msgid "Geographic Scope"
 msgstr "지리적 범위"
 
 msgid "Exchange Presence"
-msgstr ""
+msgstr "익스체인지 프레즌스"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "한 익스체인지에는 있고 다른 익스체인지에는 없는 네트워크 검색"
 
 msgid "Facility Presence"
-msgstr ""
+msgstr "설비 프레즌스"
 
 msgid "Search for networks that are present at one Facility, but absent from another facility"
 msgstr "한 시설에는 있지만 다른 시설에는 없는 네트워크 검색"
@@ -1201,35 +1201,35 @@ msgid "To be listed as an Internet Exchange in PeeringDB we would expect that yo
 msgstr "PeeringDB에서 인터넷 Exchange로 등록하려면 다음 기준을 충족하십시오:"
 
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr ""
+msgstr "IXP(Internet Exchange Point)는 주로 인터넷 트래픽의 교환을 용이하게 하기 위해 두 개 이상의 독립적인 자율 시스템을 상호 접속할 수 있는 네트워크 시설이다."
 
 msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr ""
+msgstr "IXP는 자율 시스템에 대해서만 상호 연결을 제공한다. IXP는 참여 자율 시스템 쌍을 통과하는 인터넷 트래픽이 제3자 자율 시스템을 통과하도록 요구하지 않으며, 이러한 트래픽을 변경하거나 방해하지 않는다"
 
 msgid "Submit"
-msgstr ""
+msgstr "제출"
 
 #, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr ""
+msgstr "데이터베이스에 추가할 %(entity_name)s를 제안하시오. 당신의 제안은 PeeringDB 관리 위원회에 의해 검토될 것입니다. 그 다음, 그것은 확정되어 데이터베이스에 입력되거나 거절될 것입니다. 당신 쪽에서 더 이상의 조치는 필요하지 않습니다."
 
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+msgstr "제안된 시설이 대중에게 코로케이션, 데이터 센터 및/또는 meet-me-room 서비스를 제공해야 승인 받을 수 있음."
 
 msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
 msgstr ""
 
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr ""
+msgstr "제안된 익스체인지가 다음 기준을 충족해야 승인받을 수 있음:"
 
 msgid "Suggest"
-msgstr ""
+msgstr "제안"
 
 msgid "404 - Not Found"
-msgstr ""
+msgstr "404 - 찾을 수 없음"
 
 msgid "The page you requested does not exist."
-msgstr ""
+msgstr "요청한 페이지를 찾을 수 없음."
 
 msgid "403 - Forbidden"
 msgstr ""
