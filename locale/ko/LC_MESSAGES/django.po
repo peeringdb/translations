@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-15 19:58+0000\n"
+"PO-Revision-Date: 2020-03-15 20:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1508,80 +1508,80 @@ msgid "Confirm password"
 msgstr "비밀번호 확인"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr ""
+msgstr "신속한 검증을 위해서는 업무용 전자우편 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 계획이라면 ASN의 공개 연락처 세부 정보에 존재하는 이메일 주소를 사용하는 것이 좋습니다."
 
 msgid "First name"
-msgstr ""
+msgstr "이름"
 
 msgid "Last name"
-msgstr ""
+msgstr "성"
 
 msgid "Loading anti-spam challenge"
 msgstr ""
 
 msgid "Create"
-msgstr ""
+msgstr "만들기"
 
 msgid "Thank you"
-msgstr ""
+msgstr "감사합니다"
 
 #, python-format
 msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr ""
+msgstr "%(o_name)s에 대한 당신의 소유권 요청을 받았으며 검토할 것입니다."
 
 msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr ""
+msgstr "우리는 이 항목과 당신의 관계를 확인했고 당신은 성공적으로 소유권을 주장했습니다. 보기/편집 가능"
 
 msgid "Request Ownership"
-msgstr ""
+msgstr "소유권 요청"
 
 msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr ""
+msgstr "소유권을 확실히 가지고 있는 경우에만 소유권을 요청하십시오. 계속하시겠습니까?"
 
 msgid "Only verified users may request ownership to an organization"
-msgstr ""
+msgstr "확인된 사용자만 조직에 소유권을 요청할 수 있음"
 
 msgid "Suggest Exchange"
-msgstr ""
+msgstr "익스체인지 제안"
 
 msgid "Suggest Network"
-msgstr ""
+msgstr "네트워크 제안"
 
 msgid "Become a Sponsor"
-msgstr ""
+msgstr "스폰서 되기"
 
 msgid "This server is running in TUTORIAL MODE"
-msgstr ""
+msgstr "이 서버는 튜토리얼 모드에서 실행 중 입니다"
 
 msgid "These are the usernames associated with your email address"
-msgstr ""
+msgstr "이것은 당신의 이메일 주소와 관련된 사용자 이름입니다"
 
 msgid "The secret you provided does not match the secret required to complete this process"
-msgstr ""
+msgstr "당신이 입력한 암호와 이 프로세스를 완료하는 데 필요한 암호가 일치하지 않습니다"
 
 msgid "Note"
-msgstr ""
+msgstr "기타"
 
 msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr ""
+msgstr "원래 시작한 브라우저와 동일한 브라우저에서 프로세스를 완료해야 합니다."
 
 msgid "Please re-initiate it"
-msgstr ""
+msgstr "다시 시작하십시오"
 
 msgid "This form allows you to retrieve the usernames associated with your email address."
-msgstr ""
+msgstr "이 양식을 사용하여 이메일 주소와 관련된 사용자 이름을 검색할 수 있습니다."
 
 msgid "We've sent instructions to your email address, provided it is in our system."
 msgstr ""
 
 msgid "Retrieve username(s)"
-msgstr ""
+msgstr "사용자 이름 검색"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
-msgstr ""
+msgstr "당신의 계정은 아직 조직에 가입되어 있지 않으며 일부 데이터(예: 비공개 네트워크 연락처 정보)에 대한 액세스가 제한됩니다."
 
 msgid "Please take the time to confirm your email address and request affiliation"
-msgstr ""
+msgstr "이메일 주소를 확인하고 가입을 요청하십시오"
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr ""
@@ -1990,7 +1990,7 @@ msgid "Country Code"
 msgstr "국가 코드"
 
 msgid "Notes"
-msgstr ""
+msgstr "기타"
 
 msgid "Markdown enabled"
 msgstr ""
@@ -2047,7 +2047,7 @@ msgid "Never via route servers"
 msgstr ""
 
 msgid "Last Updated"
-msgstr ""
+msgstr "최신 업데이트"
 
 msgid "PeeringDB Configuration"
 msgstr ""
