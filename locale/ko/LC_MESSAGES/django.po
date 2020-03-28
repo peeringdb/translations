@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-18 10:58+0000\n"
+"PO-Revision-Date: 2020-03-28 11:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1590,22 +1590,22 @@ msgid "Manage OAuth Applications"
 msgstr ""
 
 msgid "Pending Review"
-msgstr ""
+msgstr "보류 검토"
 
 msgid "Edit"
-msgstr ""
+msgstr "수정"
 
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr ""
 
 msgid "to improve data quality"
-msgstr ""
+msgstr "데이터 퀄리티를 개선하기"
 
 msgid "Address failed validation."
 msgstr ""
@@ -1647,7 +1647,7 @@ msgid "Exchange - Facility link"
 msgstr "익스체인지 - 시설 링크"
 
 msgid "Add Facility"
-msgstr ""
+msgstr "설비 추가"
 
 msgid "IX-F Import Preview"
 msgstr ""
@@ -1662,7 +1662,7 @@ msgid "Errors"
 msgstr ""
 
 msgid "speed"
-msgstr ""
+msgstr "속도"
 
 msgid "routeserver"
 msgstr ""
@@ -1677,7 +1677,7 @@ msgid "Peer Name"
 msgstr ""
 
 msgid "Speed"
-msgstr ""
+msgstr "속도"
 
 msgid "Exchange"
 msgstr "익스체인지"
@@ -1686,7 +1686,7 @@ msgid "IP"
 msgstr ""
 
 msgid "Long Name"
-msgstr ""
+msgstr "성명"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr ""
@@ -1701,16 +1701,16 @@ msgid "Visiblity"
 msgstr ""
 
 msgid "Phone"
-msgstr ""
+msgstr "폰"
 
 msgid "E-Mail"
-msgstr ""
+msgstr "이메일"
 
 msgid "Visibility"
-msgstr ""
+msgstr "가시성"
 
 msgid "Add Contact"
-msgstr ""
+msgstr "연락처 추가"
 
 msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
 msgstr ""
@@ -1722,10 +1722,10 @@ msgid "action"
 msgstr ""
 
 msgid "exchange"
-msgstr ""
+msgstr "익스체인지"
 
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr ""
@@ -1737,7 +1737,7 @@ msgid "changes"
 msgstr ""
 
 msgid "Refresh"
-msgstr ""
+msgstr "새로고침"
 
 msgid "Public Peering Exchange Points"
 msgstr ""
@@ -1755,34 +1755,34 @@ msgid "Speed (mbit/sec)"
 msgstr ""
 
 msgid "Add Exchange Point"
-msgstr ""
+msgstr "익스체인지 포인트 추가"
 
 msgid "member"
-msgstr ""
+msgstr "구성원"
 
 msgid "Remove"
 msgstr "삭제"
 
 msgid "Manage"
-msgstr ""
+msgstr "관리"
 
 msgid "Add Network"
-msgstr ""
+msgstr "네트워크 추가"
 
 msgid "Add Exchange"
-msgstr ""
+msgstr "익스체인지 추가"
 
 msgid "Permissions"
-msgstr ""
+msgstr "권한"
 
 msgid "Website"
 msgstr "웹사이트"
 
 msgid "Address 1"
-msgstr ""
+msgstr "주소 1"
 
 msgid "Address 2"
-msgstr ""
+msgstr "주소 2"
 
 msgid "Zip-Code"
 msgstr ""
@@ -1812,7 +1812,7 @@ msgid "Contract Requirement"
 msgstr ""
 
 msgid "Add a new Network to your Organization."
-msgstr ""
+msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
 
 msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
 msgstr ""
@@ -1821,7 +1821,7 @@ msgid "In case of verification failure the network will need to be approved by P
 msgstr ""
 
 msgid "Submit Network"
-msgstr ""
+msgstr "네트워크 제출"
 
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr ""
@@ -1869,7 +1869,7 @@ msgid "Delete"
 msgstr ""
 
 msgid "Add"
-msgstr ""
+msgstr "추가"
 
 msgid "Thank you for your suggestion."
 msgstr ""
@@ -1984,7 +1984,7 @@ msgid "Already logged in"
 msgstr ""
 
 msgid "Location"
-msgstr ""
+msgstr "위치"
 
 msgid "Country Code"
 msgstr "국가 코드"
