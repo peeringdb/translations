@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-28 11:58+0000\n"
+"PO-Revision-Date: 2020-04-08 16:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1785,7 +1785,7 @@ msgid "Address 2"
 msgstr "주소 2"
 
 msgid "Zip-Code"
-msgstr ""
+msgstr "우편번호"
 
 msgid "CLLI Code"
 msgstr ""
@@ -1945,7 +1945,7 @@ msgid "Please wait a bit before requesting affiliation again."
 msgstr ""
 
 msgid "Either ASN or Organization required"
-msgstr ""
+msgstr "ASN 또는 조직이 요구됨"
 
 msgid "RDAP Lookup Error: {}"
 msgstr ""
@@ -1978,10 +1978,10 @@ msgid "Please log out of your current session before trying to register. Notice,
 msgstr ""
 
 msgid "This email address has already been used"
-msgstr ""
+msgstr "이 이메일 주소는 이미 사용되었습니다"
 
 msgid "Already logged in"
-msgstr ""
+msgstr "이미 로그인되어 있습니다"
 
 msgid "Location"
 msgstr "위치"
@@ -1993,19 +1993,19 @@ msgid "Notes"
 msgstr "기타"
 
 msgid "Markdown enabled"
-msgstr ""
+msgstr "마크다운 사용가능"
 
 msgid "Geocode"
-msgstr ""
+msgstr "지오코드"
 
 msgid "Protocols Supported"
-msgstr ""
+msgstr "프로토콜 지원됨"
 
 msgid "Contact Information"
-msgstr ""
+msgstr "연락처 정보"
 
 msgid "Company Website"
-msgstr ""
+msgstr "회사 웹사이트"
 
 msgid "Technical Email"
 msgstr ""
@@ -2014,7 +2014,7 @@ msgid "Policy Email"
 msgstr ""
 
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 msgid "DOT1Q"
 msgstr ""
@@ -2032,16 +2032,16 @@ msgid "Also Known As"
 msgstr "다음으로도 알려진"
 
 msgid "Route Server URL"
-msgstr ""
+msgstr "라우트 서버 URL"
 
 msgid "Looking Glass URL"
 msgstr ""
 
 msgid "IPv4 Prefixes"
-msgstr ""
+msgstr "IPv4 프리픽스"
 
 msgid "IPv6 Prefixes"
-msgstr ""
+msgstr "IPv6 프리픽스"
 
 msgid "Never via route servers"
 msgstr ""
@@ -2050,16 +2050,16 @@ msgid "Last Updated"
 msgstr "최신 업데이트"
 
 msgid "PeeringDB Configuration"
-msgstr ""
+msgstr "PeeringDB 구성"
 
 msgid "Allow IXP Update"
-msgstr ""
+msgstr "IXP 업데이트 허용"
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgstr ""
 
 msgid "IXP Update Tools"
-msgstr ""
+msgstr "IXP 업데이트 도구"
 
 msgid "Postmortem"
 msgstr ""
@@ -2071,10 +2071,10 @@ msgid "Peering Policy"
 msgstr ""
 
 msgid "Please wait a bit before trying to login again."
-msgstr ""
+msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
 
 msgid "Account disabled."
-msgstr ""
+msgstr "계정이 잠겼습니다."
 
 msgid "Invalid username/password."
-msgstr ""
+msgstr "유효하지 않은 아이디/비밀번호."
