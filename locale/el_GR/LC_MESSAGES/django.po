@@ -319,6 +319,9 @@ msgstr "ΑΠΟΡΡΙΨΗ και διαγραφή επιλεγμένων αντι
 msgid "View"
 msgstr "Θέαση"
 
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Το αίτημα συσχέτισης εγκρίθηκε και ο χρήστης ειδοποιήθηκε."
 
@@ -327,6 +330,9 @@ msgstr "΄Εγκριση και ειδοποίηση Χρήστη"
 
 msgid "Approve"
 msgstr "'Εγκριση"
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
 
 msgid "Deny"
 msgstr "Απόρριψη"
@@ -399,6 +405,115 @@ msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchange name"
+msgstr "Exchange"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility name"
+msgstr "Εγκατάσταση"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility country"
+msgstr "Εγκατάσταση"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility city"
+msgstr "Εγκατάσταση"
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
 msgstr ""
 
 msgid "Yes"
@@ -615,6 +730,11 @@ msgstr "Eγκεκριμένο"
 msgid "Denied"
 msgstr "Απορρίφθηκε"
 
+#, fuzzy
+#| msgid "Cancel"
+msgid "Canceled"
+msgstr "Ακύρωση"
+
 msgid "Status of this request"
 msgstr "Κατάσταση του αιτήματος"
 
@@ -629,6 +749,12 @@ msgstr "Η συσχέτισή σας με τον Οργανισμό \"{}\" εγ�
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Το αντικείμενο στου οποίου η σειρά έχει επισυναφθεί δημιουργήθηκε από αυτόν τον χρήστη"
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Σας δίνει τη δυνατότητα να ανεβάσετε και να ορίσετε ένα αρχείο εικόνας λογότυπου για αυτόν τον οργανισμό"
@@ -908,6 +1034,11 @@ msgstr "Προεπισκόπηση"
 msgid "Result"
 msgstr "Αποτέλεσμα"
 
+#, fuzzy
+#| msgid "API Documentation"
+msgid "PeeringDB API Documentation"
+msgstr "Εγχειρίδιο API"
+
 msgid "Merge Notification"
 msgstr "Ειδοποίηση Συγχώνευσης"
 
@@ -956,16 +1087,19 @@ msgstr "Δίκτυο"
 msgid "AS"
 msgstr "AS"
 
-#, python-format
-msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "O Οργανισμός %(o_name)s (%(o_id)s) δημιουργήθηκε αυτόματα κατά τη διάρκεια του αιτήματος συσχέτισης του/της %(u_name)s με το AS%(asn)s"
 
-#, python-format
-msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "To δίκτυο %(n_name)s (%(n_id)s δημιουργήθηκε αυτόματα κατά τη διάρκειατου αιτήματος συσχέτισης του/της %(u_name)s με το AS%(asn)s"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Ο/η χρήστης '%(u_name)s' δημιούργησε το Δίκτυο %(n_name)s AS%(n_asn)s (%(n_id)s) υπό τον οργανισμό %(o_name)s (%(o_id)s)."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1466,6 +1600,19 @@ msgstr "Συσχέτιση με οργανισμό"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Ο συσχετισμός σας με %(ar_name)s εκκρεμεί έγκρισης."
 
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s is pending approval."
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr "Ο συσχετισμός σας με %(ar_name)s εκκρεμεί έγκρισης."
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr "Ο συσχετισμός σας με %(ar_name)s απορρίφθηκε"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Ο συσχετισμός σας με %(ar_name)s απορρίφθηκε"
@@ -1482,6 +1629,9 @@ msgstr "Για να εγγράψετε έναν νέο δικτυακό οργα
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "Για να εγγράψετε μια νέα εγκατάσταση ή οργανισμό exchange, παρακαλούμε εισάγετε το όνομα του οργανισμού παρακάτω (το ASN είναι προαιρετικό)."
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
 
 msgid "Affiliate"
 msgstr "Συσχετισμένος/η"
@@ -1659,9 +1809,6 @@ msgstr "Εκκρεμεί Ανασκόπησης"
 msgid "Edit"
 msgstr "Επεξεργασία"
 
-msgid "Cancel"
-msgstr "Ακύρωση"
-
 msgid "Save"
 msgstr "Αποθήκευση"
 
@@ -1761,8 +1908,16 @@ msgstr "Exchange"
 msgid "IP"
 msgstr "IP"
 
+msgid "Not operational"
+msgstr ""
+
 msgid "Long Name"
 msgstr "Πλήρες Όνομα"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Τοπικό"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς είναι ορατές μόνο σε συνδεδεμένους χρήστες και εσείς δεν είστε συνδεδεμένος."
@@ -2013,6 +2168,15 @@ msgstr "Αρνητική αξία δεν επιτρέπεται"
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""
 
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν αιτηθείτε ξανά κυριότητας."
 
@@ -2028,6 +2192,9 @@ msgstr "Ο Οργανισμός δεν υπάρχει"
 
 msgid "You already have an ownership request pending for this organization"
 msgstr "Έχετε ήδη ένα αίτημα ιδιοκτησίας που εκκρεμεί για τον οργανισμό αυτό"
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
+msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "Παρακαλούμε περιμένετε λίγο πριν ζητήσετε ξανά συσχετισμό."
@@ -2086,6 +2253,19 @@ msgstr "Η Markdown ενεργοποιήθηκε"
 msgid "Geocode"
 msgstr "Γεωκωδικός (Geocode)"
 
+msgid "Technical Email"
+msgstr "Email για τεχνικά θέματα"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Αλλαγή email"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Πωλήσεις"
+
 msgid "Protocols Supported"
 msgstr "Υποστηριζόμενα Πρωτόκολλα"
 
@@ -2094,9 +2274,6 @@ msgstr "Πληροφορίες Επικοινωνίας"
 
 msgid "Company Website"
 msgstr "Εταιρική Ιστοσελίδα"
-
-msgid "Technical Email"
-msgstr "Email για τεχνικά θέματα"
 
 msgid "Policy Email"
 msgstr "Email για θέματα Πολιτικής"
@@ -2194,9 +2371,6 @@ msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
 
 #~ msgid "Local ASN"
 #~ msgstr "Τοπικό ASN"
-
-#~ msgid "API Documentation"
-#~ msgstr "Εγχειρίδιο API"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Ta τρία πιο αριστερά octets του αρχικού prefix - π.χ. xxx.xxx.xxx"

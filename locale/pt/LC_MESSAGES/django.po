@@ -319,6 +319,9 @@ msgstr "Negar e excluir os itens selecionados"
 msgid "View"
 msgstr "Visualização"
 
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Solicitação de afiliação foi aprovada e o usuário/utilizador foi notificado."
 
@@ -327,6 +330,9 @@ msgstr "Aprovar e notificar usuário/utilizador"
 
 msgid "Approve"
 msgstr "Aprovar"
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
 
 msgid "Deny"
 msgstr "Negar"
@@ -396,6 +402,115 @@ msgstr "Restaurar este objeto - procurar por [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "Apenas objetos do tipo {} podem ser restaurados através deste interface neste momento"
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchange name"
+msgstr "Troca"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility name"
+msgstr "Infraestrutura"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility country"
+msgstr "Infraestrutura"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility city"
+msgstr "Infraestrutura"
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
+msgstr ""
 
 msgid "Yes"
 msgstr "Sim"
@@ -589,6 +704,11 @@ msgstr "Aprovado"
 msgid "Denied"
 msgstr "Negado"
 
+#, fuzzy
+#| msgid "Cancel"
+msgid "Canceled"
+msgstr "Cancelar"
+
 msgid "Status of this request"
 msgstr "Status do solicitação"
 
@@ -603,6 +723,12 @@ msgstr "Sua afiliação a Organização \"{}\" foi aprovado"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "O item ao qual esta fila está anexada foi criado por este usuário"
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Permite fazer o upload e configurar um arquivo de imagem de logomarca para esta organização"
@@ -880,6 +1006,11 @@ msgstr "Pre-visualização"
 msgid "Result"
 msgstr "Resultado"
 
+#, fuzzy
+#| msgid "API Documentation"
+msgid "PeeringDB API Documentation"
+msgstr "Documentação da API"
+
 msgid "Merge Notification"
 msgstr "Notificação de Mesclagem"
 
@@ -928,16 +1059,19 @@ msgstr "Rede"
 msgid "AS"
 msgstr "AS"
 
-#, python-format
-msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "A Organização %(o_name)s (%(o_id)s) foi criada automaticamente durante a solicitação de afiliação do usuário do %(u_name)s ao AS%(asn)s"
 
-#, python-format
-msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "A Rede%(n_name)s (%(n_id)s) foi criada automaticamente durante a solicitação de afiliação do usuário %(u_name)s ao AS%(asn)s"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "O usuário ‘%(u_name)s’ criou a rede %(n_name)s AS%(n_asn)s (%(n_id)s) sob a organização %(o_name)s (%(o_id)s)."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1438,6 +1572,19 @@ msgstr "Afilie-se à organização"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Sua afiliação a %(ar_name)s está pendente de aprovação."
 
+msgid "Cancel"
+msgstr "Cancelar"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s is pending approval."
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr "Sua afiliação a %(ar_name)s está pendente de aprovação."
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr "Sua afiliação a %(ar_name)s foi negada"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Sua afiliação a %(ar_name)s foi negada"
@@ -1454,6 +1601,9 @@ msgstr "Para registrar uma nova organização de rede, favor inserir abaixo o AS
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "Para registrar uma nova infraestrutura ou organização de ponto de troca, favor inserir abaixo o nome da organização (o ASN é opcional)."
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
 
 msgid "Affiliate"
 msgstr "Afiliado"
@@ -1631,9 +1781,6 @@ msgstr "Revisão pendente"
 msgid "Edit"
 msgstr "Editar"
 
-msgid "Cancel"
-msgstr "Cancelar"
-
 msgid "Save"
 msgstr "Salvar"
 
@@ -1733,8 +1880,16 @@ msgstr "Troca"
 msgid "IP"
 msgstr "IP"
 
+msgid "Not operational"
+msgstr ""
+
 msgid "Long Name"
 msgstr "Nome Completo"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Regional"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Alguns dos contatos desta rede estão escondidos porque eles são visíveis apenas aos usuários autenticados e você não está atualmente logado."
@@ -1985,6 +2140,15 @@ msgstr "Valor negativo não permitido"
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""
 
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Favor aguardar um pouco antes de solicitar propriedade novamente."
 
@@ -2000,6 +2164,9 @@ msgstr "Organização não existe"
 
 msgid "You already have an ownership request pending for this organization"
 msgstr "Você já tem uma solicitação de propriedade pendente para esta organização"
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
+msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "Favor aguardar alguns instantes antes de solicitar afiliação novamente."
@@ -2059,6 +2226,19 @@ msgstr "Markdown habilitado"
 msgid "Geocode"
 msgstr "Geocódigo"
 
+msgid "Technical Email"
+msgstr "Email técnico"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Alterar seu e-mail"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Vendas"
+
 msgid "Protocols Supported"
 msgstr "Protocolos suportados"
 
@@ -2067,9 +2247,6 @@ msgstr "Informações de contato"
 
 msgid "Company Website"
 msgstr "Website da Empresa"
-
-msgid "Technical Email"
-msgstr "Email técnico"
 
 msgid "Policy Email"
 msgstr "Email da política"
@@ -2167,9 +2344,6 @@ msgstr "Nome de usuário/senha inválido."
 
 #~ msgid "Local ASN"
 #~ msgstr "ASN local"
-
-#~ msgid "API Documentation"
-#~ msgstr "Documentação da API"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Três octetos mais à esquerda do prefixo de original - ex. xxx.xxx.xxx"

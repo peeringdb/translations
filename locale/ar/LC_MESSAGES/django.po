@@ -319,6 +319,9 @@ msgstr "رفض العناصر المحددة وحذفها"
 msgid "View"
 msgstr "عرض"
 
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "تمت الموافقة على طلب الانتساب وتم إخطار المستخدم."
 
@@ -327,6 +330,9 @@ msgstr "موافق وإخطار المستخدم"
 
 msgid "Approve"
 msgstr "موافق"
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
 
 msgid "Deny"
 msgstr "رفض"
@@ -396,6 +402,117 @@ msgstr "استعادة هذا الكائن-البحث عن طريق [reftag] [id
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "يمكن استعادة هذه المتغيرات {}  فقط من خلال هذه الواجهة في هذه النقطة"
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchange name"
+msgstr "تبادل"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility name"
+msgstr "مركز البيانات"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility country"
+msgstr "مركز البيانات"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility city"
+msgstr "مركز البيانات"
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
+msgstr ""
 
 msgid "Yes"
 msgstr "نعم"
@@ -584,6 +701,11 @@ msgstr "تم التأكيد"
 msgid "Denied"
 msgstr "مرفوض"
 
+#, fuzzy
+#| msgid "Cancel"
+msgid "Canceled"
+msgstr "إلغاء"
+
 msgid "Status of this request"
 msgstr "حالة هذا الطلب"
 
@@ -598,6 +720,12 @@ msgstr "طلب الانضمام / الانتساب إلى منظمة \"{}\" تم
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "تم إنشاء العنصر المرفق بقائمة الانتظار هذه بواسطة هذا المستخدم"
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه المؤسسة"
@@ -875,6 +1003,11 @@ msgstr "معاينة"
 msgid "Result"
 msgstr "نتيجة"
 
+#, fuzzy
+#| msgid "PeeringDB Configuration"
+msgid "PeeringDB API Documentation"
+msgstr "تهيئه قاعدة بيانات التناظر PeeringDB"
+
 msgid "Merge Notification"
 msgstr "دمج الإشعار"
 
@@ -923,16 +1056,19 @@ msgstr "شبكة الاتصال"
 msgid "AS"
 msgstr "رقم النظام المستقل"
 
-#, python-format
-msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "المؤسسة  %(o_name)s (%(o_id)s)  تم إنشاؤها تلقائيا خلال طلب المستخدم '%(u_name)s's للانضمام الى رقم النظام المستقل AS%(asn)s"
 
-#, python-format
-msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "شبكة الاتصال %(n_name)s (%(n_id)s) تم إنشاؤها تلقائيا خلال طلب المستخدم '%(u_name)s's للانضمام الى رقم النظام المستقل AS%(asn)s"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "انشأ المستخدم '%(u_name)s'  شبكة اتصال  %(n_name)s ورقم النظام المستقل AS%(n_asn)s (%(n_id)s) تحت بيانات المؤسسة %(o_name)s (%(o_id)s)."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1413,6 +1549,19 @@ msgstr "انضم/ انتساب الى منظمة"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "طلب الانتساب الى  %(ar_name)s  قيد الإنتظار."
 
+msgid "Cancel"
+msgstr "إلغاء"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s is pending approval."
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr "طلب الانتساب الى  %(ar_name)s  قيد الإنتظار."
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
@@ -1429,6 +1578,9 @@ msgstr "لتسجيل مؤسسة جديدة ، يرجى إدخال رقم الن�
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "لتسجيل مركز بيانات/تشغيل جديد أو مؤسسة تبادل ، يرجى إدخال اسم المنظمة أدناه (رقم النظام المستقل اختياري)."
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
 
 msgid "Affiliate"
 msgstr "انضم/ انتساب"
@@ -1605,9 +1757,6 @@ msgstr "قيد انتظار المراجعة"
 msgid "Edit"
 msgstr "تعديل"
 
-msgid "Cancel"
-msgstr "إلغاء"
-
 msgid "Save"
 msgstr "حفظ"
 
@@ -1697,8 +1846,16 @@ msgstr "تبادل"
 msgid "IP"
 msgstr "عنوان بروتوكول الانترنت"
 
+msgid "Not operational"
+msgstr ""
+
 msgid "Long Name"
 msgstr "الاسم كامل"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "إقليمي"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
@@ -1940,6 +2097,15 @@ msgstr "القيمة السالبة غير مسموح بها"
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "تتداخل بادئة العنوان  {} مع بادئة: {}"
 
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "الرجاء الانتظار قليلاً قبل اجراء طلب الملكية مرة أخرى."
 
@@ -1955,6 +2121,9 @@ msgstr "المنظمة غير موجودة"
 
 msgid "You already have an ownership request pending for this organization"
 msgstr "لديك بالفعل طلب ملكية معلق في هذه المؤسسة"
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
+msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "الرجاء الانتظار قليلاً قبل طلب الانتساب مرة أخرى."
@@ -2013,6 +2182,19 @@ msgstr "تفعيل \"وضع علامة لأسفل\""
 msgid "Geocode"
 msgstr "الرمز الجغرافي"
 
+msgid "Technical Email"
+msgstr "البريد الإلكتروني لجهة الاتصال التقنية"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "تغيير البريد الالكتروني"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "المبيعات"
+
 msgid "Protocols Supported"
 msgstr "البروتوكولات المدعومة/ المتاحة"
 
@@ -2021,9 +2203,6 @@ msgstr "بيانات الاتصال"
 
 msgid "Company Website"
 msgstr "الموقع الإكتروني للشركة/ المؤسسة"
-
-msgid "Technical Email"
-msgstr "البريد الإلكتروني لجهة الاتصال التقنية"
 
 msgid "Policy Email"
 msgstr "البريد الإلكتروني لجهة الاتصال الخاصه بسياسة التشغيل"

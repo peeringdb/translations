@@ -317,6 +317,9 @@ msgstr "선택한 항목 거부 및 삭제"
 msgid "View"
 msgstr "보기"
 
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "가입 요청이 승인되어 사용자에게 공지함."
 
@@ -325,6 +328,9 @@ msgstr "사용자에게 승인 및 공지"
 
 msgid "Approve"
 msgstr "승인"
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
 
 msgid "Deny"
 msgstr "거절"
@@ -394,6 +400,117 @@ msgstr "이 개체 복원 -  [reftag] [id]로 검색"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "{} 유형 개체만 이 지점에서 이 인터페이스를 통해 복원 가능함"
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr "한 익스체인지에는 있고 다른 익스체인지에는 없는 네트워크 검색"
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchange name"
+msgstr "익스체인지"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility name"
+msgstr "시설"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility country"
+msgstr "시설"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility city"
+msgstr "시설"
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
+msgstr ""
 
 msgid "Yes"
 msgstr "네"
@@ -581,6 +698,11 @@ msgstr "승인됨"
 msgid "Denied"
 msgstr "거부됨"
 
+#, fuzzy
+#| msgid "Cancel"
+msgid "Canceled"
+msgstr "취소"
+
 msgid "Status of this request"
 msgstr "요청 상태"
 
@@ -595,6 +717,12 @@ msgstr "조직 \"{}\"에 대한 가입이 승인됨"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "이 조직의 로고 이미지 파일을 업로드하고 설정할 수 있음"
@@ -872,6 +1000,11 @@ msgstr "미리보기"
 msgid "Result"
 msgstr "결과"
 
+#, fuzzy
+#| msgid "PeeringDB Configuration"
+msgid "PeeringDB API Documentation"
+msgstr "PeeringDB 구성"
+
 msgid "Merge Notification"
 msgstr "병합 알림"
 
@@ -920,16 +1053,19 @@ msgstr "네트워크"
 msgid "AS"
 msgstr "AS"
 
-#, python-format
-msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "사용자 '%(u_name)s의 AS%(asn)s에 대한 가입 요청 중에 조직 %(o_name)s %(o_id)s가 자동으로 생성됨"
 
-#, python-format
-msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "%(n_name)s(%(n_id)s)는 사용자 '%(u_name)s'의 AS%(asn)s에 대한 소속 요청 중에 자동으로 생성됨"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "사용자 '%(u_name)s' 는 %(o_name)s (%(o_id)s) 조직 아래에 네트워크 %(n_name)s AS%(n_asn)s (%(n_id)s) 를 생성했다."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1406,6 +1542,19 @@ msgstr "조직에 가입하기"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "%(ar_name)s와의 가입이 승인 보류 중."
 
+msgid "Cancel"
+msgstr "취소"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s is pending approval."
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr "%(ar_name)s와의 가입이 승인 보류 중."
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr "%(ar_name)s와의 가입이 거부됨"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "%(ar_name)s와의 가입이 거부됨"
@@ -1422,6 +1571,9 @@ msgstr "새 네트워크 조직을 등록하려면 아래에 ASN과 조직 이�
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "새 시설 또는 익스체인지 조직을 등록하려면 아래에 조직 이름을 입력하십시오(ASN은 선택 사항임)."
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
 
 msgid "Affiliate"
 msgstr "가입하기"
@@ -1595,9 +1747,6 @@ msgstr "보류 검토"
 msgid "Edit"
 msgstr "수정"
 
-msgid "Cancel"
-msgstr "취소"
-
 msgid "Save"
 msgstr "저장"
 
@@ -1685,8 +1834,16 @@ msgstr "익스체인지"
 msgid "IP"
 msgstr ""
 
+msgid "Not operational"
+msgstr ""
+
 msgid "Long Name"
 msgstr "성명"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "지역"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr ""
@@ -1925,6 +2082,15 @@ msgstr ""
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""
 
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr ""
 
@@ -1939,6 +2105,9 @@ msgid "Organization does not exist"
 msgstr ""
 
 msgid "You already have an ownership request pending for this organization"
+msgstr ""
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
 msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
@@ -1998,6 +2167,19 @@ msgstr "마크다운 사용가능"
 msgid "Geocode"
 msgstr "지오코드"
 
+msgid "Technical Email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "이메일 변경"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "영업"
+
 msgid "Protocols Supported"
 msgstr "프로토콜 지원됨"
 
@@ -2006,9 +2188,6 @@ msgstr "연락처 정보"
 
 msgid "Company Website"
 msgstr "회사 웹사이트"
-
-msgid "Technical Email"
-msgstr ""
 
 msgid "Policy Email"
 msgstr ""

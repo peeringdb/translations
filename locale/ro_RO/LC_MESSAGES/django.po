@@ -317,6 +317,9 @@ msgstr "RESPINGEȚI și ștergeți elementele selectate"
 msgid "View"
 msgstr "Vedeți"
 
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Cererea de afiliere a fost aprobată și utilizatorul a fost notificat."
 
@@ -325,6 +328,9 @@ msgstr "Aprobați și notificați utilizatorul"
 
 msgid "Approve"
 msgstr "Aprobați"
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
 
 msgid "Deny"
 msgstr "Respingeți"
@@ -394,6 +400,117 @@ msgstr "Restaurați acest obiect - căutați după [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "În acest moment doar obiectele de tip {} pot fi restabilite prin intermediul acestei interfețe"
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr "Căutați rețele care sunt prezente la un Internet Exchange și absente la alt Internet Exchange"
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchange name"
+msgstr "Internet Exchange"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility name"
+msgstr "Facilitate"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility country"
+msgstr "Facilitate"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility city"
+msgstr "Facilitate"
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
+msgstr ""
 
 msgid "Yes"
 msgstr "Da"
@@ -581,6 +698,11 @@ msgstr "Aprobat"
 msgid "Denied"
 msgstr "Respins"
 
+#, fuzzy
+#| msgid "Cancel"
+msgid "Canceled"
+msgstr "Anulați"
+
 msgid "Status of this request"
 msgstr "Starea acestei cereri"
 
@@ -595,6 +717,12 @@ msgstr "Afilierea dvs. la organizația „{}” a fost aprobată"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
@@ -872,6 +1000,11 @@ msgstr "Previzualizare"
 msgid "Result"
 msgstr "Rezultat"
 
+#, fuzzy
+#| msgid "API Documentation"
+msgid "PeeringDB API Documentation"
+msgstr "Documentație API"
+
 msgid "Merge Notification"
 msgstr "Îmbină notificarea"
 
@@ -920,16 +1053,19 @@ msgstr "Rețea"
 msgid "AS"
 msgstr "AS"
 
-#, python-format
-msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "Organizația %(o_name)s (%(o_id)s) a fost creată automat odată cu solicitarea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
-#, python-format
-msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "Rețeaua %(n_name)s (%(n_id)s) a fost creată automat odată cu cererea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Utilizatorul '%(u_name)s' a creat rețeaua %(n_name)s AS%(n_asn)s (%(n_id)s) sub organizația %(o_name)s (%(o_id)s)."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1408,6 +1544,19 @@ msgstr "Afiliați-vă la organizație"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Afilierea dvs. la %(ar_name)s așteaptă aprobarea."
 
+msgid "Cancel"
+msgstr "Anulați"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s is pending approval."
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr "Afilierea dvs. la %(ar_name)s așteaptă aprobarea."
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr "Afilierea dvs. la %(ar_name)s a fost respinsă"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Afilierea dvs. la %(ar_name)s a fost respinsă"
@@ -1424,6 +1573,9 @@ msgstr "Pentru a înregistra o nouă organizație sau rețea, vă rugăm să int
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "Pentru a înregistra o nouă facilitate sau un Internet Exchange, vă rugăm să introduceți mai jos numele organizației (ASN-ul este opțional)."
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
 
 msgid "Affiliate"
 msgstr "Afiliați-vă"
@@ -1597,9 +1749,6 @@ msgstr "Revizuire în așteptare"
 msgid "Edit"
 msgstr "Editați"
 
-msgid "Cancel"
-msgstr "Anulați"
-
 msgid "Save"
 msgstr "Salvați"
 
@@ -1689,8 +1838,16 @@ msgstr "Internet Exchange"
 msgid "IP"
 msgstr "Adresă IP"
 
+msgid "Not operational"
+msgstr ""
+
 msgid "Long Name"
 msgstr "Nume lung"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Regional"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Unele dintre contactele acestei rețele sunt ascunse deoarece acestea sunt vizibile numai pentru utilizatorii autentificați și momentan dvs. nu sunteți autentificat."
@@ -1929,6 +2086,15 @@ msgstr "Valoarea negativă nu este permisă"
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "Prefixul se suprapune cu prefixul lui {}: {}"
 
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
 
@@ -1944,6 +2110,9 @@ msgstr "Organizația nu există"
 
 msgid "You already have an ownership request pending for this organization"
 msgstr "Aveți deja o solicitare de proprietate pentru această organizație în curs de examinare"
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
+msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilierea."
@@ -2002,6 +2171,19 @@ msgstr "Markdown activat"
 msgid "Geocode"
 msgstr "Geocod"
 
+msgid "Technical Email"
+msgstr "E-mail tehnic"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Schimbare e-mail"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Vânzări"
+
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
 
@@ -2010,9 +2192,6 @@ msgstr "Informații de contact"
 
 msgid "Company Website"
 msgstr "Website-ul companiei"
-
-msgid "Technical Email"
-msgstr "E-mail tehnic"
 
 msgid "Policy Email"
 msgstr "E-mail politici"
@@ -2104,6 +2283,3 @@ msgstr "Numele de utilizator sau parola nu sunt valide."
 
 #~ msgid "Local ASN"
 #~ msgstr "ASN local"
-
-#~ msgid "API Documentation"
-#~ msgstr "Documentație API"

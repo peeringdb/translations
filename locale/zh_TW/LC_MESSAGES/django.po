@@ -319,6 +319,9 @@ msgstr "拒絕並刪除選中的專案"
 msgid "View"
 msgstr "查看"
 
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "關聯請求已批准並通知了用戶。"
 
@@ -327,6 +330,9 @@ msgstr "批准並通知用戶"
 
 msgid "Approve"
 msgstr "批准"
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
 
 msgid "Deny"
 msgstr "拒絕"
@@ -398,6 +404,117 @@ msgstr "重置此物件 - 可使用[reftag] [id]搜尋"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "目前只有{}型態物件可透過此介面被重置"
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchange name"
+msgstr "交換點"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility name"
+msgstr "設施"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility country"
+msgstr "設施"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility city"
+msgstr "設施"
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
+msgstr ""
 
 msgid "Yes"
 msgstr "是"
@@ -601,6 +718,11 @@ msgstr "批准"
 msgid "Denied"
 msgstr "拒絕"
 
+#, fuzzy
+#| msgid "Cancel"
+msgid "Canceled"
+msgstr "取消"
+
 msgid "Status of this request"
 msgstr "請求狀態"
 
@@ -615,6 +737,12 @@ msgstr "您與組織 \"{}\" 的關聯已被批准"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "此佇列附加到的專案由此用戶創建"
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "允許您上傳並設置此組織的 Logo 圖像"
@@ -892,6 +1020,11 @@ msgstr "預覽"
 msgid "Result"
 msgstr "結果"
 
+#, fuzzy
+#| msgid "API Documentation"
+msgid "PeeringDB API Documentation"
+msgstr "API 文檔"
+
 msgid "Merge Notification"
 msgstr "合併通知"
 
@@ -940,16 +1073,19 @@ msgstr "網路"
 msgid "AS"
 msgstr "AS"
 
-#, python-format
-msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "組織 %(o_name)s（%(o_id)s）在用戶 %(u_name)s 請求關聯AS%(asn)s時自動創建"
 
-#, python-format
-msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "網路 %(n_name)s（%(n_id)s）在用戶 %(u_name)s 請求關聯AS%(asn)s時自動創建"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "使用者 %(u_name)s 在組織 %(o_name)s（%(o_id)s） 下創建網路 %(n_name)s 及 AS%(n_asn)s（%(n_id)s）。"
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1432,6 +1568,19 @@ msgstr "關聯組織"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "您與 %(ar_name)s 的關聯待驗證。"
 
+msgid "Cancel"
+msgstr "取消"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s is pending approval."
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr "您與 %(ar_name)s 的關聯待驗證。"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr "您與 %(ar_name)s 的關聯被拒絕"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "您與 %(ar_name)s 的關聯被拒絕"
@@ -1448,6 +1597,9 @@ msgstr "要註冊新的網路組織，請在下面輸入 ASN 和組織名稱。"
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "要註冊新設施或交換點，請在下面輸入組織名稱（ ASN 選填）。"
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
 
 msgid "Affiliate"
 msgstr "關聯"
@@ -1621,9 +1773,6 @@ msgstr "等待審核"
 msgid "Edit"
 msgstr "編輯"
 
-msgid "Cancel"
-msgstr "取消"
-
 msgid "Save"
 msgstr "保存"
 
@@ -1723,8 +1872,16 @@ msgstr "交換點"
 msgid "IP"
 msgstr "IP"
 
+msgid "Not operational"
+msgstr ""
+
 msgid "Long Name"
 msgstr "長名稱"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "區域性"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "此網路的某些連絡人僅對驗證的用戶可見，您當前未登錄。"
@@ -1971,6 +2128,15 @@ msgstr "不允許負值"
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""
 
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "請稍後再請求所有權。"
 
@@ -1986,6 +2152,9 @@ msgstr "組織不存在"
 
 msgid "You already have an ownership request pending for this organization"
 msgstr "您已經請求了該組織的所有權"
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
+msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "請稍後再請求關聯。"
@@ -2044,6 +2213,19 @@ msgstr "Markdown 已啟用"
 msgid "Geocode"
 msgstr "地理編碼"
 
+msgid "Technical Email"
+msgstr "技術郵箱"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "修改 Email"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "銷售"
+
 msgid "Protocols Supported"
 msgstr "支援的協定"
 
@@ -2052,9 +2234,6 @@ msgstr "聯繫資訊"
 
 msgid "Company Website"
 msgstr "公司網站"
-
-msgid "Technical Email"
-msgstr "技術郵箱"
 
 msgid "Policy Email"
 msgstr "政策郵箱"
@@ -2152,9 +2331,6 @@ msgstr "無效的用戶名/密碼。"
 
 #~ msgid "Local ASN"
 #~ msgstr "當地 ASN"
-
-#~ msgid "API Documentation"
-#~ msgstr "API 文檔"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "原始首碼最左側的三個位元組 - 例如 xxx.xxx.xxx"

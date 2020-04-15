@@ -319,6 +319,9 @@ msgstr "選択したアイテムは承認されず削除されました"
 msgid "View"
 msgstr "表示"
 
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "所属リクエストが承認されたので、そのユーザに通知しました。"
 
@@ -327,6 +330,9 @@ msgstr "承認とユーザ通知"
 
 msgid "Approve"
 msgstr "承認(Approve)"
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
 
 msgid "Deny"
 msgstr "拒否(Deny)"
@@ -396,6 +402,117 @@ msgstr "このオブジェクトを復元します - [reftag] [id] で検索"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "いまは、このインタフェースを介して {} タイプのオブジェクトのみが復元されます"
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchange name"
+msgstr "エクスチェンジ"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility name"
+msgstr "データセンタ"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility country"
+msgstr "データセンタ"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility city"
+msgstr "データセンタ"
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
+msgstr ""
 
 msgid "Yes"
 msgstr "有り"
@@ -607,6 +724,11 @@ msgstr "承認された(Approved)"
 msgid "Denied"
 msgstr "拒否された(Denied)"
 
+#, fuzzy
+#| msgid "Cancel"
+msgid "Canceled"
+msgstr "キャンセル"
+
 msgid "Status of this request"
 msgstr "このリクエストの状態"
 
@@ -621,6 +743,12 @@ msgstr "組織所属 \"{}\" が承認されました"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "このユーザによって、このキューに加わっているこのアイテムが生成されました"
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "この組織のロゴファイルのアップロードが許可されました"
@@ -898,6 +1026,11 @@ msgstr "プレビュー"
 msgid "Result"
 msgstr "結果"
 
+#, fuzzy
+#| msgid "API Documentation"
+msgid "PeeringDB API Documentation"
+msgstr "API 関連のドキュメント"
+
 msgid "Merge Notification"
 msgstr "統合の通知"
 
@@ -946,16 +1079,19 @@ msgstr "ネットワーク"
 msgid "AS"
 msgstr "AS"
 
-#, python-format
-msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(o_name)s (%(o_id)s) の組織が自動生成されました。"
 
-#, python-format
-msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, fuzzy, python-format
+#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(n_name)s (%(n_id)s) のネットワークが自動生成されました。"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "'%(u_name)s' のユーザが %(o_name)s (%(o_id)s) の組織下の %(n_name)s AS%(n_asn)s (%(n_id)s) のネットワークを生成しました。"
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1438,6 +1574,19 @@ msgstr "組織に所属しましょう"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "%(ar_name)s に対する所属が承認保留中です"
 
+msgid "Cancel"
+msgstr "キャンセル"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s is pending approval."
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr "%(ar_name)s に対する所属が承認保留中です"
+
+#, fuzzy, python-format
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr "%(ar_name)s に対する所属が拒否されました"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "%(ar_name)s に対する所属が拒否されました"
@@ -1454,6 +1603,9 @@ msgstr "ネットワークを新規登録する為には、下記に AS 番号�
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
 msgstr "データセンタもしくはエクスチェンジの組織を新規登録する為には、下記に組織名を入力してください（AS 番号の登録は任意です）"
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
 
 msgid "Affiliate"
 msgstr "所属します"
@@ -1627,9 +1779,6 @@ msgstr "レビューをペンディング中"
 msgid "Edit"
 msgstr "編集"
 
-msgid "Cancel"
-msgstr "キャンセル"
-
 msgid "Save"
 msgstr "保存"
 
@@ -1727,8 +1876,16 @@ msgstr "エクスチェンジ"
 msgid "IP"
 msgstr "IP"
 
+msgid "Not operational"
+msgstr ""
+
 msgid "Long Name"
 msgstr "ロングネーム"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "特定地域"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "あなたは現在ログインしていない為、いくつかのネットワークコンタクト先が非表示になっています。認証済みのユーザでログインすると閲覧可能となります"
@@ -1975,6 +2132,15 @@ msgstr "負の数値は許可されません"
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""
 
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "所有権の再リクエストをするまで少々お待ちください"
 
@@ -1990,6 +2156,9 @@ msgstr "その組織は存在していません"
 
 msgid "You already have an ownership request pending for this organization"
 msgstr "既にこの組織についてペンディング中の所有権リクエストがあります"
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
+msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "組織所属リクエストをするまで少々お待ちください"
@@ -2048,6 +2217,19 @@ msgstr "マークダウン記法が利用可能です"
 msgid "Geocode"
 msgstr "ジオコード"
 
+msgid "Technical Email"
+msgstr "技術者のメールアドレス"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "メールアドレスを変更する"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "営業部"
+
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル(Protocols Supported)"
 
@@ -2056,9 +2238,6 @@ msgstr "連絡先情報"
 
 msgid "Company Website"
 msgstr "Web サイト"
-
-msgid "Technical Email"
-msgstr "技術者のメールアドレス"
 
 msgid "Policy Email"
 msgstr "ポリシー担当者のメールアドレス"
@@ -2156,9 +2335,6 @@ msgstr "無効なユーザ名・パスワードです"
 
 #~ msgid "Local ASN"
 #~ msgstr "AS 番号"
-
-#~ msgid "API Documentation"
-#~ msgstr "API 関連のドキュメント"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "元プレフィクスの左側3オクテット - 例. xxx.xxx.xxx"
