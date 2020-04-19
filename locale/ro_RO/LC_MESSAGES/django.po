@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-12-07 03:58+0000\n"
+"PO-Revision-Date: 2020-04-19 22:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -210,13 +210,13 @@ msgid "Kosovo"
 msgstr "Kosovo"
 
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
-msgstr ""
+msgstr "Referință la un AS-SET sau ROUTE-SET în Registrul de Rutare Internet (IRR)"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Limita maximă recomandată de prefixe IPv4 pentru a fi configurată în sesiunile de peering pentru acest ASN"
 
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Limită maximă recomandată de prefixe IPv6 pentru a fi configurată în sesiunile de peering pentru acest ASN"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
@@ -231,7 +231,7 @@ msgid "ROLLBACK"
 msgstr "RESTAUREAZĂ"
 
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+msgstr "Ixlans nu mai pot fi șterse direct, deoarece sunt sincronizate acum la Exchange-ul părinte"
 
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
@@ -788,10 +788,10 @@ msgid "Can only compare a maximum of 25 asns"
 msgstr "Poate compara un cel mult 25 de ASN-uri"
 
 msgid "IXLan id needs to match parent ix id"
-msgstr ""
+msgstr "ID-ul IXLan trebuie să se potrivească cu ID-ul IX-ului părinte"
 
 msgid "Ixlan for exchange already exists"
-msgstr ""
+msgstr "Ixlan pentru acest Exchange există deja"
 
 msgid "IXF Import Log"
 msgstr "Jurnalul de import IXF"
@@ -809,7 +809,7 @@ msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this netw
 msgstr "Specifică dacă unui IXP i se permite să adauge un netixlan pentru această rețea prin intermediul datelor sale ixp_member"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr ""
+msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
 
 msgid "IPv4 address outside of prefix"
 msgstr "Adresa IPv4 este în afara prefixului"
@@ -1316,17 +1316,15 @@ msgstr "Internet Exchange-uri"
 msgid "Facilities"
 msgstr "Facilități"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
-msgstr "Organizație"
+msgstr "Organizații"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr ""
+msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracteristici pot funcționa diferit de mediul de producție. Nu stocați aici datele pe care intenționați să le păstrați"
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
-msgstr ""
+msgstr "- toate datele vor fi reîmprospătate din mediul de producție la %(dt)sZ"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
@@ -1355,7 +1353,7 @@ msgid "In order to be approved we would expect that the suggested Facility offer
 msgstr "Pentru a fi aprobată, ne așteptăm ca facilitatea sugerată să ofere publicului colocare, centru de date și/sau servicii meet-me-room."
 
 msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
-msgstr ""
+msgstr "Utilizați numai dacă nu dețineți Facilitatea. Dacă sunteți proprietarul, vă rugăm să utilizați „Adăugați Facilitate” din registrul organizației dvs."
 
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr "Pentru a fi aprobat, ne așteptăm ca Internet Exchange-ul sugerat să îndeplinească următoarele criterii:"
@@ -1770,13 +1768,11 @@ msgstr "Nu au putut fi obținute date geocod pentru această entitate. Acest luc
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obținute în scurt timp"
 
-#, fuzzy
-#| msgid "Prefix"
 msgid "Prefixes"
-msgstr "Prefix"
+msgstr "Prefixe"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Protocol"
 
 msgid "Prefix"
 msgstr "Prefix"
@@ -1910,7 +1906,7 @@ msgid "Network - Exchange link"
 msgstr "legătura dintre rețea și Internet Exchange"
 
 msgid "Entry needs to be moved to correct network"
-msgstr ""
+msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
 
 msgid "Speed (mbit/sec)"
 msgstr "Viteză (Mbit/sec)"
@@ -2063,7 +2059,7 @@ msgid "days ago"
 msgstr "zile în urmă"
 
 msgid "Not a valid phone number (E.164)"
-msgstr ""
+msgstr "Nu este un număr de telefon valid (E.164)"
 
 msgid "Invalid prefix: {}"
 msgstr "Prefixul nu este valid: {}"
@@ -2220,10 +2216,8 @@ msgstr "MTU"
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
 
-#, fuzzy
-#| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
-msgstr "Adresa exportului IXF cu membri"
+msgstr "Adresa URL a exportului de membri IX-F"
 
 msgid "Also Known As"
 msgstr "Cunoscut ca și"
@@ -2240,10 +2234,8 @@ msgstr "Prefixe IPv4"
 msgid "IPv6 Prefixes"
 msgstr "Prefixe IPv6"
 
-#, fuzzy
-#| msgid "routeserver"
 msgid "Never via route servers"
-msgstr "routeserver"
+msgstr "Niciodată prin serverele de rute"
 
 msgid "Last Updated"
 msgstr "Ultima actualizare"
