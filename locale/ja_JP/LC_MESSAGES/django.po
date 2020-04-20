@@ -1995,6 +1995,22 @@ msgstr "郵便番号"
 msgid "CLLI Code"
 msgstr "CLLI コード"
 
+msgid "Technical E-mail"
+msgstr "技術者のメールアドレス"
+
+msgid "Technical Phone"
+msgstr "技術者の電話番号"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales E-mail"
+msgstr "メールアドレスを変更する"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "営業部"
+
 msgid "Traffic Ratios"
 msgstr "トラフィックの方向"
 
@@ -2033,12 +2049,6 @@ msgstr "PeeringDB であなたのネットワークを作成する手助けの�
 
 msgid "Traffic Stats Website"
 msgstr "トラフィック量グラフ"
-
-msgid "Technical E-mail"
-msgstr "技術者のメールアドレス"
-
-msgid "Technical Phone"
-msgstr "技術者の電話番号"
 
 msgid "Policy E-mail"
 msgstr "ポリシー担当者のメールアドレス"
@@ -2236,11 +2246,6 @@ msgstr "技術者のメールアドレス"
 #| msgid "Change Email"
 msgid "Sales Email"
 msgstr "メールアドレスを変更する"
-
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "営業部"
 
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル(Protocols Supported)"

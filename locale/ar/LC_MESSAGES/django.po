@@ -1962,6 +1962,22 @@ msgstr "الرمز البريدي"
 msgid "CLLI Code"
 msgstr "CLLI Code"
 
+msgid "Technical E-mail"
+msgstr "البريد الإلكتروني للجهة التقنية"
+
+msgid "Technical Phone"
+msgstr "رقم الهاتف للجهة التقنية"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales E-mail"
+msgstr "تغيير البريد الالكتروني"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "المبيعات"
+
 msgid "Traffic Ratios"
 msgstr "نسب حركة مرور البيانات"
 
@@ -2000,12 +2016,6 @@ msgstr "للحصول على المساعدة في إنشاء الشبكة الخ
 
 msgid "Traffic Stats Website"
 msgstr "الرابط الإلكتروني لإحصائيات بيانات الاتصال Traffic Stats"
-
-msgid "Technical E-mail"
-msgstr "البريد الإلكتروني للجهة التقنية"
-
-msgid "Technical Phone"
-msgstr "رقم الهاتف للجهة التقنية"
 
 msgid "Policy E-mail"
 msgstr "البريد الإلكتروني لجهه سياسات IXP"
@@ -2201,11 +2211,6 @@ msgstr "البريد الإلكتروني لجهة الاتصال التقنية
 #| msgid "Change Email"
 msgid "Sales Email"
 msgstr "تغيير البريد الالكتروني"
-
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "المبيعات"
 
 msgid "Protocols Supported"
 msgstr "البروتوكولات المدعومة/ المتاحة"

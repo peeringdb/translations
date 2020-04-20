@@ -1991,6 +1991,22 @@ msgstr "郵遞區號"
 msgid "CLLI Code"
 msgstr "CLLI 代碼"
 
+msgid "Technical E-mail"
+msgstr "技術 Email"
+
+msgid "Technical Phone"
+msgstr "技術手機"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales E-mail"
+msgstr "修改 Email"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "銷售"
+
 msgid "Traffic Ratios"
 msgstr "交通比率"
 
@@ -2029,12 +2045,6 @@ msgstr "説明您在 PeeringDB 中創建網路。"
 
 msgid "Traffic Stats Website"
 msgstr "流量統計網站"
-
-msgid "Technical E-mail"
-msgstr "技術 Email"
-
-msgid "Technical Phone"
-msgstr "技術手機"
 
 msgid "Policy E-mail"
 msgstr "政策 Email"
@@ -2232,11 +2242,6 @@ msgstr "技術郵箱"
 #| msgid "Change Email"
 msgid "Sales Email"
 msgstr "修改 Email"
-
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "銷售"
 
 msgid "Protocols Supported"
 msgstr "支援的協定"
