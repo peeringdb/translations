@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-09 10:58+0000\n"
+"PO-Revision-Date: 2020-05-09 11:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1849,16 +1849,16 @@ msgid "Some of this network's contacts are hidden because they are only visible 
 msgstr "이 네트워크의 일부 연락처는 인증된 사용자만 볼 수 있고 현재 로그인하지 않았기 때문에 볼 수 없습니다."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
-msgstr ""
+msgstr "이 네트워크의 일부 연락처는 당신의 계정이 어떤 조직에도 소속되어 있지 않기 때문에 숨겨져 있습니다."
 
 msgid "Role"
-msgstr ""
+msgstr "역할"
 
 msgid "Visiblity"
-msgstr ""
+msgstr "가시성"
 
 msgid "Phone"
-msgstr "폰"
+msgstr "연락처"
 
 msgid "E-Mail"
 msgstr "이메일"
@@ -1870,13 +1870,13 @@ msgid "Add Contact"
 msgstr "연락처 추가"
 
 msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
-msgstr ""
+msgstr "아래는 다음 IX-F 데이터 가져오기 중에 네트워크에 수행될 변경사항의 미리 보기입니다. 실제 가져오기는 하루에 한 번 00:00Z에서 실행될 것입니다"
 
 msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
-msgstr ""
+msgstr "로컬로 캐시된 IX-F 데이터를 사용하여 이 미리 보기를 생성하며, 익스체인지의 IX-F 데이터에 대한 변경이 필요한 경우 여기에 반영될 수 있는 시간을 제공하십시오."
 
 msgid "action"
-msgstr ""
+msgstr "조치"
 
 msgid "exchange"
 msgstr "익스체인지"
