@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-09 11:58+0000\n"
+"PO-Revision-Date: 2020-05-10 14:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1885,31 +1885,31 @@ msgid "Close"
 msgstr "닫기"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
-msgstr ""
+msgstr "아래는 IX-F 데이터 가져오기의 결과로 네트워크 교환 연결에 수행된 변경사항의 로그 입니다.  -&gt; 이러한 변경사항을 롤백하기 위해 직원이 수행한 조정 내용은 포함하지 않지만, IX-F 데이터 가져오기에서 수행된 활동의 원시 로그로 간주해야 합니다."
 
 msgid "Showing most recent"
-msgstr ""
+msgstr "최신 정보 보기"
 
 msgid "changes"
-msgstr ""
+msgstr "변경 사항"
 
 msgid "Refresh"
 msgstr "새로고침"
 
 msgid "Public Peering Exchange Points"
-msgstr ""
+msgstr "공용 피어링 익스체인지 포인트"
 
 msgid "RS Peer"
-msgstr ""
+msgstr "RS Peer"
 
 msgid "Network - Exchange link"
 msgstr "네트워크 - 익스체인지 링크"
 
 msgid "Entry needs to be moved to correct network"
-msgstr ""
+msgstr "올바른 네트워크로 항목을 이동해야 함"
 
 msgid "Speed (mbit/sec)"
-msgstr ""
+msgstr "속도 (mbit/초)"
 
 msgid "Add Exchange Point"
 msgstr "익스체인지 포인트 추가"
@@ -1945,13 +1945,13 @@ msgid "Zip-Code"
 msgstr "우편번호"
 
 msgid "CLLI Code"
-msgstr ""
+msgstr "CLLI 코드"
 
 msgid "Technical E-mail"
-msgstr ""
+msgstr "테크니컬 이메일"
 
 msgid "Technical Phone"
-msgstr ""
+msgstr "테크니컬 폰"
 
 #, fuzzy
 #| msgid "Change Email"
@@ -1964,34 +1964,34 @@ msgid "Sales Phone"
 msgstr "영업"
 
 msgid "Traffic Ratios"
-msgstr ""
+msgstr "트래픽 비율"
 
 msgid "Unicast IPv4"
-msgstr ""
+msgstr "유니캐스트 IPv4"
 
 msgid "Multicast"
-msgstr ""
+msgstr "멀티캐스트"
 
 msgid "Policy URL"
-msgstr ""
+msgstr "정책 URL"
 
 msgid "Multiple Locations"
-msgstr ""
+msgstr "여러 위치"
 
 msgid "Ratio Requirement"
-msgstr ""
+msgstr "비율 요구 사항"
 
 msgid "Contract Requirement"
-msgstr ""
+msgstr "계약 요구 사항"
 
 msgid "Add a new Network to your Organization."
 msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
 
 msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
-msgstr ""
+msgstr "우리는 ASN의 RiR 항목에서 당신의 이메일 주소를 확인함으로써 당신의 네트워크와의 관계를 자동으로 확인하려고 시도할 것입니다."
 
 msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr ""
+msgstr "검증 실패 시 네트워크는 검색 결과나 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 합니다."
 
 msgid "Submit Network"
 msgstr "네트워크 제출"
@@ -2000,28 +2000,28 @@ msgid "for assistance with the creation of your network in PeeringDB."
 msgstr ""
 
 msgid "Traffic Stats Website"
-msgstr ""
+msgstr "Traffic Stats Website"
 
 msgid "Policy E-mail"
-msgstr ""
+msgstr "정책 이메일"
 
 msgid "Policy Phone"
-msgstr ""
+msgstr "정책 폰"
 
 msgid "IPv4 or IPv6 prefix"
-msgstr ""
+msgstr "IPv4 또는 IPv6 프리픽스"
 
 msgid "Confirmed"
-msgstr ""
+msgstr "확인됨"
 
 msgid "Date"
-msgstr ""
+msgstr "날짜"
 
 msgid "Currently no users requesting affiliation with"
-msgstr ""
+msgstr "현재 다음에 소속을 요청하는 사용자가 없음"
 
 msgid "Group"
-msgstr ""
+msgstr "그룹"
 
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr ""
@@ -2030,16 +2030,16 @@ msgid "Additionally, entities that are pending review cannot be permissioned out
 msgstr ""
 
 msgid "Update"
-msgstr ""
+msgstr "업데이트"
 
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 msgid "Add"
 msgstr "추가"
 
 msgid "Thank you for your suggestion."
-msgstr ""
+msgstr "제안해주셔서 감사합니다."
 
 msgid "Suggest another facility"
 msgstr ""
