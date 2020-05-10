@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-10 16:58+0000\n"
+"PO-Revision-Date: 2020-05-10 17:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -42,7 +42,7 @@ msgid "NOC"
 msgstr "NOC"
 
 msgid "Public Relations"
-msgstr ""
+msgstr "언론 홍보"
 
 msgid "Sales"
 msgstr "영업"
@@ -75,7 +75,7 @@ msgid "Required - International"
 msgstr "필수 - 국제"
 
 msgid "Private Only"
-msgstr ""
+msgstr "프라이빗 온리"
 
 msgid "Required"
 msgstr "필수"
@@ -666,7 +666,7 @@ msgid "Has this object's latitude and longitude been syncronized to it's address
 msgstr "이 개체의 위도와 경도가 주소 필드와 동기화되었음"
 
 msgid "Last time of attempted geocode"
-msgstr "마지막으로 시도된 지오코드"
+msgstr "최근 지오코드를 시도한 시간"
 
 msgid "Error message of previous geocode attempt"
 msgstr "이전 지오코드 시도 오류 메세지"
@@ -1766,7 +1766,7 @@ msgid "Geocode data for this entity could not obtained at this point. This is do
 msgstr "이 항목에 대한 지오코드 데이터는 이 시점에서 얻을 수 없었습니다. 이것은 주소 필드가 변경될 때 자동으로 수행됩니다."
 
 msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수집될 것입니다."
+msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수집될 것입니다"
 
 msgid "Prefixes"
 msgstr ""
@@ -1997,7 +1997,7 @@ msgid "Submit Network"
 msgstr "네트워크 제출"
 
 msgid "for assistance with the creation of your network in PeeringDB."
-msgstr ""
+msgstr "은/는 PeeringDB에서 네트워크 생성에 대한 지원을 위함이다."
 
 msgid "Traffic Stats Website"
 msgstr "Traffic Stats Website"
@@ -2024,10 +2024,10 @@ msgid "Group"
 msgstr "그룹"
 
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr ""
+msgstr "여기서 조직의 일반 구성원에게 권한을 부여할 수 있습니다. 관리 사용자는 기본적으로 모든 항목에 액세스할 수 있으므로 여기에 나열되지 않습니다."
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr ""
+msgstr "또한 검토가 보류 중인 항목들은 사용자에게 권한을 부여할 수 없으며, 그 목록에 나타나지 않는다."
 
 msgid "Update"
 msgstr "업데이트"
@@ -2045,52 +2045,52 @@ msgid "Suggest another facility"
 msgstr "다른 시설 제안"
 
 msgid "Only verified users may suggest entities."
-msgstr ""
+msgstr "확인된 사용자만 항목들을 제안할 수 있음."
 
 msgid "Suggest another exchange"
-msgstr ""
+msgstr "다른 익스체인지 제안"
 
 msgid "Suggest another network"
-msgstr ""
+msgstr "다른 네트워크 제안"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr ""
+msgstr "귀하의 이메일 주소가 이 조직의 파일에 있는 도메인 정보와 일치하지 않습니다."
 
 msgid "seconds ago"
-msgstr ""
+msgstr "초 전"
 
 msgid "minutes ago"
-msgstr ""
+msgstr "분 전"
 
 msgid "hours ago"
-msgstr ""
+msgstr "시간 전"
 
 msgid "days ago"
-msgstr ""
+msgstr "일 전"
 
 msgid "Not a valid phone number (E.164)"
-msgstr ""
+msgstr "잘못된 전화 번호(E.164)"
 
 msgid "Invalid prefix: {}"
-msgstr ""
+msgstr "유효하지 않는 프리픽스: {}"
 
 msgid "Address space invalid: {}"
-msgstr ""
+msgstr "잘못된 주소 스페이스: {}"
 
 msgid "Maximum allowed prefix length is {}"
-msgstr ""
+msgstr "허용되는 최대 프리픽스 길이는 {}임"
 
 msgid "Minimum allowed prefix length is {}"
-msgstr ""
+msgstr "허용되는 최소 프리픽스 길이는 {}임"
 
 msgid "Maximum value allowed {}"
-msgstr ""
+msgstr "허용되는 최대 값 {}"
 
 msgid "Negative value not allowed"
-msgstr ""
+msgstr "음수 값은 허용되지 않음"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr ""
+msgstr "프리픽스가 {}의 프리픽스와 겹침: {}"
 
 msgid "IRR AS-SET value must be string type"
 msgstr ""
@@ -2114,59 +2114,59 @@ msgid "At least one component must be an actual set name"
 msgstr ""
 
 msgid "Please wait a bit before requesting ownership again."
-msgstr ""
+msgstr "소유권을 다시 요청하기 전에 잠시 기다리십시오."
 
 msgid "Invalid organization"
-msgstr ""
+msgstr "유효하지 않는 조직"
 
 #, python-format
 msgid "Organization '%(org_name)s' is already under ownership"
-msgstr ""
+msgstr "조직 '%(org_name)s'가 이미 소유권 내에 있음"
 
 msgid "Organization does not exist"
-msgstr ""
+msgstr "조직이 존재하지 않음"
 
 msgid "You already have an ownership request pending for this organization"
-msgstr ""
+msgstr "이 조직에 대해 보류 중인 소유권 요청이 이미 있습니다"
 
 msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
 msgstr ""
 
 msgid "Please wait a bit before requesting affiliation again."
-msgstr ""
+msgstr "제휴를 다시 요청하기 전에 잠시 기다리십시오."
 
 msgid "Either ASN or Organization required"
 msgstr "ASN 또는 조직이 요구됨"
 
 msgid "RDAP Lookup Error: {}"
-msgstr ""
+msgstr "RDAP 룩업 오류: {}"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
-msgstr ""
+msgstr "확인 이메일을 다시 전송하기 전에 잠시 기다리십시오"
 
 msgid "We have resent your confirmation email"
-msgstr ""
+msgstr "당신의 확인 이메일을 다시 전송하였습니다"
 
 msgid "Please wait a bit before requesting another email change"
-msgstr ""
+msgstr "다른 이메일 변경을 요청하기 전에 잠시 기다리십시오"
 
 msgid "E-mail already exists in our system"
-msgstr ""
+msgstr "이메일이 시스템에 이미 있음"
 
 msgid "Wrong password"
-msgstr ""
+msgstr "잘못된 비밀번호"
 
 msgid "Please wait a bit before requesting your usernames again."
-msgstr ""
+msgstr "ID를 다시 요청하기 전에 잠시 기다리십시오."
 
 msgid "Invalid Security Token"
-msgstr ""
+msgstr "유효하지 않은 보안 토큰"
 
 msgid "Password Reset Process has expired, please"
-msgstr ""
+msgstr "암호 재설정 프로세스가 만료되었습니다,"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr ""
+msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 복수의 계좌는 더 이상 필요하지 않습니다."
 
 msgid "This email address has already been used"
 msgstr "이 이메일 주소는 이미 사용되었습니다"
@@ -2190,7 +2190,7 @@ msgid "Geocode"
 msgstr "지오코드"
 
 msgid "Technical Email"
-msgstr ""
+msgstr "테크니컬 이메일"
 
 #, fuzzy
 #| msgid "Change Email"
@@ -2207,7 +2207,7 @@ msgid "Company Website"
 msgstr "회사 웹사이트"
 
 msgid "Policy Email"
-msgstr ""
+msgstr "정책 이메일"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2231,7 +2231,7 @@ msgid "Route Server URL"
 msgstr "라우트 서버 URL"
 
 msgid "Looking Glass URL"
-msgstr ""
+msgstr "Looking Glass URL"
 
 msgid "IPv4 Prefixes"
 msgstr "IPv4 프리픽스"
@@ -2240,7 +2240,7 @@ msgid "IPv6 Prefixes"
 msgstr "IPv6 프리픽스"
 
 msgid "Never via route servers"
-msgstr ""
+msgstr "라우트 서버를 경유하지 않음"
 
 msgid "Last Updated"
 msgstr "최신 업데이트"
@@ -2252,19 +2252,19 @@ msgid "Allow IXP Update"
 msgstr "IXP 업데이트 허용"
 
 msgid "If enabled, an ixp may manage this network's entry in their peering list"
-msgstr ""
+msgstr "활성화된 경우 ixp는 피어링 목록에서 이 네트워크 항목을 관리할 수 있음"
 
 msgid "IXP Update Tools"
 msgstr "IXP 업데이트 도구"
 
 msgid "Postmortem"
-msgstr ""
+msgstr "사후 검토"
 
 msgid "Peering Policy Information"
-msgstr ""
+msgstr "피어링 정책 정보"
 
 msgid "Peering Policy"
-msgstr ""
+msgstr "피어링 정책"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
