@@ -1,0 +1,2248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Ethernet"
+msgstr ""
+
+msgid "ATM"
+msgstr ""
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Abuse"
+msgstr ""
+
+msgid "Maintenance"
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid "Technical"
+msgstr ""
+
+msgid "NOC"
+msgstr ""
+
+msgid "Public Relations"
+msgstr ""
+
+msgid "Sales"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Selective"
+msgstr ""
+
+msgid "Restrictive"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Not Required"
+msgstr ""
+
+msgid "Preferred"
+msgstr ""
+
+msgid "Required - US"
+msgstr ""
+
+msgid "Required - EU"
+msgstr ""
+
+msgid "Required - International"
+msgstr ""
+
+msgid "Private Only"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "IPv4"
+msgstr ""
+
+msgid "IPv6"
+msgstr ""
+
+msgid "Not Disclosed"
+msgstr ""
+
+msgid "Heavy Outbound"
+msgstr ""
+
+msgid "Mostly Outbound"
+msgstr ""
+
+msgid "Balanced"
+msgstr ""
+
+msgid "Mostly Inbound"
+msgstr ""
+
+msgid "Heavy Inbound"
+msgstr ""
+
+msgid "North America"
+msgstr ""
+
+msgid "Asia Pacific"
+msgstr ""
+
+msgid "Europe"
+msgstr ""
+
+msgid "South America"
+msgstr ""
+
+msgid "Africa"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Middle East"
+msgstr ""
+
+msgid "Regional"
+msgstr ""
+
+msgid "Global"
+msgstr ""
+
+msgid "0-20 Mbps"
+msgstr ""
+
+msgid "20-100Mbps"
+msgstr ""
+
+msgid "100-1000Mbps"
+msgstr ""
+
+msgid "1-5Gbps"
+msgstr ""
+
+msgid "5-10Gbps"
+msgstr ""
+
+msgid "10-20Gbps"
+msgstr ""
+
+msgid "20-50 Gbps"
+msgstr ""
+
+msgid "50-100 Gbps"
+msgstr ""
+
+msgid "100+ Gbps"
+msgstr ""
+
+msgid "100-200 Gbps"
+msgstr ""
+
+msgid "200-300 Gbps"
+msgstr ""
+
+msgid "300-500 Gbps"
+msgstr ""
+
+msgid "500-1000 Gbps"
+msgstr ""
+
+msgid "1 Tbps+"
+msgstr ""
+
+msgid "10 Tbps+"
+msgstr ""
+
+msgid "NSP"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Cable/DSL/ISP"
+msgstr ""
+
+msgid "Enterprise"
+msgstr ""
+
+msgid "Educational/Research"
+msgstr ""
+
+msgid "Non-Profit"
+msgstr ""
+
+msgid "Route Server"
+msgstr ""
+
+msgid "Private"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Public"
+msgstr ""
+
+msgid "Kosovo"
+msgstr ""
+
+msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
+msgstr ""
+
+msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgstr ""
+
+msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgstr ""
+
+msgid "Indicates if this network will announce its routes via route servers or not"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Target org cannot be in selected organizations list"
+msgstr ""
+
+msgid "ROLLBACK"
+msgstr ""
+
+msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
+msgstr ""
+
+msgid "SOFT DELETE"
+msgstr ""
+
+msgid "Verification Queue is currently disabled"
+msgstr ""
+
+msgid "Verification Queue is currently disabled for this object type"
+msgstr ""
+
+msgid "APPROVE"
+msgstr ""
+
+msgid "DENY"
+msgstr ""
+
+msgid "APPROVED"
+msgstr ""
+
+msgid "Ipaddress already exists elsewhere"
+msgstr ""
+
+msgid "User is looking to be affiliated to these Organizations"
+msgstr ""
+
+msgid "IXF Import History"
+msgstr ""
+
+msgid "Initial creation of netixlan"
+msgstr ""
+
+msgid "CAN BE ROLLED BACK"
+msgstr ""
+
+msgid "CANNOT BE ROLLED BACK"
+msgstr ""
+
+msgid "Has been changed since"
+msgstr ""
+
+msgid "Netixlan with conflicting ipaddress now exists elsewhere"
+msgstr ""
+
+msgid "HAS BEEN ROLLED BACK"
+msgstr ""
+
+msgid "Not Set"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Logo Missing"
+msgstr ""
+
+msgid "Over"
+msgstr ""
+
+msgid "Waiting"
+msgstr ""
+
+msgid "No organization(s) set"
+msgstr ""
+
+msgid "Malformed organization ids"
+msgstr ""
+
+msgid "Merge target organization does not exist"
+msgstr ""
+
+msgid "Organization Merging Tool"
+msgstr ""
+
+msgid "Undo merge"
+msgstr ""
+
+msgid "APPROVE selected items"
+msgstr ""
+
+msgid "DENY and delete selected items"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Cannot approve a canceled affiliation request"
+msgstr ""
+
+msgid "Affiliation request was approved and the user was notified."
+msgstr ""
+
+msgid "Approve and notify User"
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Cannot deny a canceled affiliation request"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Edit Permissions"
+msgstr ""
+
+msgid "VERIFIED"
+msgstr ""
+
+msgid "UNVERIFIED"
+msgstr ""
+
+msgid "User Permission"
+msgstr ""
+
+msgid "User Permissions"
+msgstr ""
+
+msgid "Duplicate IP"
+msgstr ""
+
+msgid "Duplicate IPs"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Only POST requests allowed."
+msgstr ""
+
+msgid "{} (Preview)"
+msgstr ""
+
+msgid "This command is already waiting / running - please wait for it to finish before executing it again"
+msgstr ""
+
+msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
+msgstr ""
+
+msgid "Old prefix - renumber all netixlans that fall into this prefix"
+msgstr ""
+
+msgid "New prefix - needs to be the same protocol and length as old prefix"
+msgstr ""
+
+msgid "Merge this facility - it will be deleted"
+msgstr ""
+
+msgid "Target facility"
+msgstr ""
+
+msgid "Undo this merge"
+msgstr ""
+
+msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
+msgstr ""
+
+msgid "Load data from peeringdb API"
+msgstr ""
+
+msgid "Restore this object - search by [reftag] [id]"
+msgstr ""
+
+msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a single `{obj_type}` type object by id"
+msgstr ""
+
+msgid "Expand nested sets according to depth."
+msgstr ""
+
+#, python-brace-format
+msgid "Retrieves a list of `{obj_type}` type objects"
+msgstr ""
+
+msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
+msgstr ""
+
+msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
+msgstr ""
+
+msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
+msgstr ""
+
+msgid "Filter results by matching a value against this field."
+msgstr ""
+
+msgid "Supported filter suffixes: {}"
+msgstr ""
+
+msgid "Number of networks present at this facility"
+msgstr ""
+
+msgid "Targets both AKA and name fields for filtering"
+msgstr ""
+
+msgid "Find networks not present at an exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks present at exchange (exchange id)"
+msgstr ""
+
+msgid "Find networks not present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks present at a facility (facility id)"
+msgstr ""
+
+msgid "Find networks connected at ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the network that contains this netixlan (netixlan id)"
+msgstr ""
+
+msgid "Find the network that this netfac belongs to (netfac id)"
+msgstr ""
+
+msgid "Find exchanges present at a facility (facility id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixlan (ixlan id)"
+msgstr ""
+
+msgid "Find the exchange that contains this ixfac (ixfac id)"
+msgstr ""
+
+msgid "Number of networks present at this exchange"
+msgstr ""
+
+msgid "Find exchanges where this network has a presence at (net id)"
+msgstr ""
+
+msgid "Find organization that contains the network (network asn)"
+msgstr ""
+
+msgid "Find prefixes by exchange (exchange id)"
+msgstr ""
+
+msgid "Find prefixes by ip address"
+msgstr ""
+
+msgid "Exchange name"
+msgstr ""
+
+msgid "Facility name"
+msgstr ""
+
+msgid "Facility country"
+msgstr ""
+
+msgid "Facility city"
+msgstr ""
+
+#, python-brace-format
+msgid "Creates a new `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Updates an existing `{obj_type}` type object."
+msgstr ""
+
+#, python-brace-format
+msgid "Marks an `{obj_type}` type object as `deleted`."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Invalid export format"
+msgstr ""
+
+msgid "Invalid tag"
+msgstr ""
+
+msgid "Invalid permission level"
+msgstr ""
+
+msgid "ASN needs to be a number"
+msgstr ""
+
+msgid "Needs to be at least 10 characters long"
+msgstr ""
+
+msgid "Passwords need to match"
+msgstr ""
+
+msgid "Please fill out the anti-spam challenge (captcha) field"
+msgstr ""
+
+msgid "reCAPTCHA invalid"
+msgstr ""
+
+msgid "captcha invalid"
+msgstr ""
+
+msgid "Please wait a bit before requesting another ixf import preview."
+msgstr ""
+
+msgid "Ixlan not found"
+msgstr ""
+
+msgid "Permission denied"
+msgstr ""
+
+msgid "Please wait a bit before requesting another IX-F import postmortem."
+msgstr ""
+
+msgid "Network not found"
+msgstr ""
+
+msgid "Postmortem length cannot exceed {} entries"
+msgstr ""
+
+msgid "ASNs in this range are not allowed in this environment"
+msgstr ""
+
+msgid "IXF import url not specified"
+msgstr ""
+
+msgid "No JSON could be parsed"
+msgstr ""
+
+msgid "IX-F data not locally cached for this resource yet."
+msgstr ""
+
+msgid "No entries in any of the vlan_list lists, aborting."
+msgstr ""
+
+msgid "No prefixes defined on ixlan"
+msgstr ""
+
+msgid "ASN no longer in data"
+msgstr ""
+
+msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+msgstr ""
+
+msgid "At least one ipaddress mismatched and network has disabled updates"
+msgstr ""
+
+msgid "Network status is '{}'"
+msgstr ""
+
+msgid "Network does not exist in peeringdb"
+msgstr ""
+
+msgid "Invalid member type: {}"
+msgstr ""
+
+msgid "Invalid connection state: {}"
+msgstr ""
+
+msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
+msgstr ""
+
+msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
+msgstr ""
+
+msgid "Connection is currently marked as inactive"
+msgstr ""
+
+msgid "Network has disabled ixp updates"
+msgstr ""
+
+msgid "New ip-address"
+msgstr ""
+
+msgid "Fields changed: {}"
+msgstr ""
+
+msgid "No changes"
+msgstr ""
+
+msgid "Invalid speed value: {}"
+msgstr ""
+
+msgid "{} Merge Notification: {} -> {}"
+msgstr ""
+
+msgid "Silver"
+msgstr ""
+
+msgid "Gold"
+msgstr ""
+
+msgid "Platinum"
+msgstr ""
+
+msgid "Diamond"
+msgstr ""
+
+msgid "Data Validation"
+msgstr ""
+
+msgid "RIR"
+msgstr ""
+
+msgid "Renumber IP Space"
+msgstr ""
+
+msgid "Merge Facilities"
+msgstr ""
+
+msgid "Merge Facilities: UNDO"
+msgstr ""
+
+msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Reset Environment"
+msgstr ""
+
+msgid "IX-F Import"
+msgstr ""
+
+msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgstr ""
+
+msgid "Last time of attempted geocode"
+msgstr ""
+
+msgid "Error message of previous geocode attempt"
+msgstr ""
+
+msgid "Address not found"
+msgstr ""
+
+msgid "API Timeout"
+msgstr ""
+
+msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
+msgstr ""
+
+msgid "The organization name entered by the user"
+msgstr ""
+
+msgid "The ASN entered by the user"
+msgstr ""
+
+msgid "The user that made the request"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Denied"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "Status of this request"
+msgstr ""
+
+msgid "User to Organization Affiliation Request"
+msgstr ""
+
+msgid "User to Organization Affiliation Requests"
+msgstr ""
+
+msgid "Your affiliation to Organization \"{}\" has been approved"
+msgstr ""
+
+msgid "The item that this queue is attached to was created by this user"
+msgstr ""
+
+msgid "DeskPRO Ticket"
+msgstr ""
+
+msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "Allows you to upload and set a logo image file for this organization"
+msgstr ""
+
+msgid "Sponsorship starts on"
+msgstr ""
+
+msgid "Sponsorship ends on"
+msgstr ""
+
+msgid "Expiration notification sent on"
+msgstr ""
+
+msgid "Sponsorship"
+msgstr ""
+
+msgid "Sponsorships"
+msgstr ""
+
+msgid "Sponsorship Expired"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "If specified clicking the sponsorship will take the user to this location"
+msgstr ""
+
+msgid "Allows you to upload and set a logo image file for this sponsorship"
+msgstr ""
+
+msgid "If specified clicking the partnership will take the user to this location"
+msgstr ""
+
+msgid "Allows you to upload and set a logo image file for this partnership"
+msgstr ""
+
+msgid "Partnership"
+msgstr ""
+
+msgid "Partnerships"
+msgstr ""
+
+msgid "Merged on"
+msgstr ""
+
+msgid "Organization Merge"
+msgstr ""
+
+msgid "Organization Merges"
+msgstr ""
+
+msgid "Organization Merge: Entity"
+msgstr ""
+
+msgid "Organization Merge: Entities"
+msgstr ""
+
+msgid "Need to specify at least two asns"
+msgstr ""
+
+msgid "Can only compare a maximum of 25 asns"
+msgstr ""
+
+msgid "IXLan id needs to match parent ix id"
+msgstr ""
+
+msgid "Ixlan for exchange already exists"
+msgstr ""
+
+msgid "IXF Import Log"
+msgstr ""
+
+msgid "IXF Import Logs"
+msgstr ""
+
+msgid "IXF Import Log Entry"
+msgstr ""
+
+msgid "IXF Import Log Entries"
+msgstr ""
+
+msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
+msgstr ""
+
+msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+msgstr ""
+
+msgid "IPv4 address outside of prefix"
+msgstr ""
+
+msgid "IPv6 address outside of prefix"
+msgstr ""
+
+msgid "Ip address already exists elsewhere"
+msgstr ""
+
+msgid "username"
+msgstr ""
+
+msgid "Required. Letters, digits and [@.+-/_=|] only."
+msgstr ""
+
+msgid "Enter a valid username."
+msgstr ""
+
+msgid "email address"
+msgstr ""
+
+msgid "first name"
+msgstr ""
+
+msgid "last name"
+msgstr ""
+
+msgid "staff status"
+msgstr ""
+
+msgid "Designates whether the user can log into admin site."
+msgstr ""
+
+msgid "active"
+msgstr ""
+
+msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
+msgstr ""
+
+msgid "date joined"
+msgstr ""
+
+msgid "status"
+msgstr ""
+
+msgid "language"
+msgstr ""
+
+msgid "user"
+msgstr ""
+
+msgid "users"
+msgstr ""
+
+msgid "Password Reset Initiated"
+msgstr ""
+
+msgid "name of the tool"
+msgstr ""
+
+msgid "json serialization of arguments and options passed"
+msgstr ""
+
+msgid "result log"
+msgstr ""
+
+msgid "Descriptive text of command that can be searched"
+msgstr ""
+
+msgid "the user that ran this command"
+msgstr ""
+
+msgid "command was run at this date and time"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Organization and all Entities it owns"
+msgstr ""
+
+msgid "Any Network"
+msgstr ""
+
+msgid "Any Facility"
+msgstr ""
+
+msgid "Any Exchange"
+msgstr ""
+
+#, python-format
+msgid "Network - %(net_name)s"
+msgstr ""
+
+#, python-format
+msgid "Exchange - %(ix_name)s"
+msgstr ""
+
+#, python-format
+msgid "Facility - %(fac_name)s"
+msgstr ""
+
+msgid "Invalid organization specified"
+msgstr ""
+
+msgid "Needs to be member or admin"
+msgstr ""
+
+#, python-format
+msgid "%(user_name)s's afilliation request has been approved"
+msgstr ""
+
+#, python-format
+msgid "%(user_name)s's afilliation request has been denied"
+msgstr ""
+
+msgid "Need to be unique"
+msgstr ""
+
+msgid "This field is required"
+msgstr ""
+
+msgid "RDAP Lookup Error"
+msgstr ""
+
+#, python-brace-format
+msgid "This field is only allowed for these requests: {methods}"
+msgstr ""
+
+#, python-format
+msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr ""
+
+#, python-format
+msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr ""
+
+msgid "Network has been deleted. Please contact {}"
+msgstr ""
+
+msgid "Specify at least one email address"
+msgstr ""
+
+#, python-format
+msgid "User %(u_name)s wishes to be affiliated to your Organization"
+msgstr ""
+
+msgid "Confirm your e-mail address"
+msgstr ""
+
+msgid "Please confirm that"
+msgstr ""
+
+msgid "is your email-address"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "Please use"
+msgstr ""
+
+msgid "this page"
+msgstr ""
+
+msgid "instead"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Prepare"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "PeeringDB API Documentation"
+msgstr ""
+
+msgid "Merge Notification"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "has been merged into"
+msgstr ""
+
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgstr ""
+
+#, python-format
+msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
+msgstr ""
+
+msgid "No further action is required on your part."
+msgstr ""
+
+msgid "As the organization's administrator you may view your organization's user list here"
+msgstr ""
+
+#, python-format
+msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
+msgstr ""
+
+#, python-format
+msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
+msgstr ""
+
+msgid "As the organization's administrator you may approve or deny this request here"
+msgstr ""
+
+msgid "Ownership of organization was automatically granted to user"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Organization"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "AS"
+msgstr ""
+
+#, python-format
+msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgstr ""
+
+#, python-format
+msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+msgstr ""
+
+#, python-format
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr ""
+
+msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgstr ""
+
+#, python-format
+msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
+msgstr ""
+
+msgid "They also provided this organization name in their request"
+msgstr ""
+
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgstr ""
+
+#, python-format
+msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
+msgstr ""
+
+msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
+msgstr ""
+
+msgid "You may create a new organization here"
+msgstr ""
+
+msgid "You may create a new network here"
+msgstr ""
+
+#, python-format
+msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
+msgstr ""
+
+msgid "They also provided this ASN in their request"
+msgstr ""
+
+msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
+msgstr ""
+
+msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgstr ""
+
+msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
+msgstr ""
+
+msgid "The user is affiliated with other organizations"
+msgstr ""
+
+msgid "ADMIN"
+msgstr ""
+
+msgid "MEMBER"
+msgstr ""
+
+msgid "Review Affiliation/Ownership Request"
+msgstr ""
+
+msgid "Approve Ownership Request and Notify User"
+msgstr ""
+
+#, python-format
+msgid "A new '%(entity_type_name)s' has been created and requires your approval."
+msgstr ""
+
+#, python-format
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgstr ""
+
+msgid "We retrieved the RiR entry for the specified ASN"
+msgstr ""
+
+msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Requested by user"
+msgstr ""
+
+msgid "You can go to"
+msgstr ""
+
+msgid "to view and approve or deny this entry"
+msgstr ""
+
+#, python-format
+msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
+msgstr ""
+
+#, python-format
+msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
+msgstr ""
+
+msgid "This was the result of a manual review of your affiliation request to ASN"
+msgstr ""
+
+msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
+msgstr ""
+
+msgid "You may view and edit your organization at"
+msgstr ""
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr ""
+
+msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
+msgstr ""
+
+msgid "If you did not initiate the password reset request, please ignore this email."
+msgstr ""
+
+msgid "You requested a username retrieval on PeeringDB for the email address"
+msgstr ""
+
+msgid "Please follow the url below to view any usernames associated with your email."
+msgstr ""
+
+msgid "If you did not request username retrieval, you can ignore this email."
+msgstr ""
+
+msgid "Our Culture"
+msgstr ""
+
+msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
+msgstr ""
+
+msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
+msgstr ""
+
+msgid "I’m a network operator. How can PeeringDB help me?"
+msgstr ""
+
+msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
+msgstr ""
+
+msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
+msgstr ""
+
+msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
+msgstr ""
+
+msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Postal"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "click to select multiple"
+msgstr ""
+
+msgid "Management"
+msgstr ""
+
+msgid "CLLI"
+msgstr ""
+
+msgid "NPA-NXX"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Postal Code"
+msgstr ""
+
+msgid "Networks"
+msgstr ""
+
+msgid "No search results."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr ""
+
+msgid "Continental Region"
+msgstr ""
+
+msgid "IP Block"
+msgstr ""
+
+msgid "Media Type"
+msgstr ""
+
+msgid "Network Type"
+msgstr ""
+
+msgid "Traffic Levels"
+msgstr ""
+
+msgid "Traffic Ratio"
+msgstr ""
+
+msgid "Primary ASN"
+msgstr ""
+
+msgid "IRR as-set/route-set"
+msgstr ""
+
+msgid "General Peering Policy"
+msgstr ""
+
+msgid "Geographic Scope"
+msgstr ""
+
+msgid "Exchange Presence"
+msgstr ""
+
+msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgstr ""
+
+msgid "Facility Presence"
+msgstr ""
+
+msgid "Search for networks that are present at one Facility, but absent from another facility"
+msgstr ""
+
+msgid "Also known as"
+msgstr ""
+
+msgid "ASN"
+msgstr ""
+
+msgid "General Policy"
+msgstr ""
+
+msgid "Network Scope"
+msgstr ""
+
+msgid "Exchanges"
+msgstr ""
+
+msgid "Facilities"
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
+msgstr ""
+
+#, python-format
+msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr ""
+
+msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
+msgstr ""
+
+msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
+msgstr ""
+
+msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
+msgstr ""
+
+msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+#, python-format
+msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
+msgstr ""
+
+msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
+msgstr ""
+
+msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
+msgstr ""
+
+msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
+msgstr ""
+
+msgid "Suggest"
+msgstr ""
+
+msgid "404 - Not Found"
+msgstr ""
+
+msgid "The page you requested does not exist."
+msgstr ""
+
+msgid "403 - Forbidden"
+msgstr ""
+
+msgid "You dont have permissions to view this page."
+msgstr ""
+
+msgid "Take me home"
+msgstr ""
+
+msgid "All Rights Reserved. By using this service, you agree to adhere to our"
+msgstr ""
+
+msgid "AUP"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Sponsors"
+msgstr ""
+
+msgid "Resources"
+msgstr ""
+
+msgid "API"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "FAQ"
+msgstr ""
+
+msgid "Governance"
+msgstr ""
+
+msgid "Contact Us"
+msgstr ""
+
+msgid "Global System Statistics"
+msgstr ""
+
+msgid "Connections to Exchanges"
+msgstr ""
+
+msgid "Connections to Facilities"
+msgstr ""
+
+msgid "Search here for a network, IX, or facility."
+msgstr ""
+
+msgid "Advanced Search"
+msgstr ""
+
+msgid "pending"
+msgstr ""
+
+msgid "unverified"
+msgstr ""
+
+msgid "Suggest Facility"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "The Interconnection Database"
+msgstr ""
+
+msgid "Join. Search. Grow your network."
+msgstr ""
+
+msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
+msgstr ""
+
+msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
+msgstr ""
+
+msgid "Learn more"
+msgstr ""
+
+msgid "about"
+msgstr ""
+
+msgid "register"
+msgstr ""
+
+msgid "Most Recent Updates"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "I forgot my password .."
+msgstr ""
+
+msgid "I forgot my username .."
+msgstr ""
+
+msgid "Maintenance Mode"
+msgstr ""
+
+msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+msgstr ""
+
+msgid "Login with oAuth"
+msgstr ""
+
+msgid "Login with your Google account"
+msgstr ""
+
+msgid "Login with your Facebook account"
+msgstr ""
+
+msgid "Partners"
+msgstr ""
+
+msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Reset Password"
+msgstr ""
+
+msgid "The password for your account"
+msgstr ""
+
+msgid "has been reset, proceed to the"
+msgstr ""
+
+msgid "login page"
+msgstr ""
+
+msgid "Verify Password"
+msgstr ""
+
+msgid "The security token you provided is invalid, please"
+msgstr ""
+
+msgid "try again"
+msgstr ""
+
+msgid "The password reset process has expired, please"
+msgstr ""
+
+msgid "initiate again"
+msgstr ""
+
+msgid "Affiliate with organization"
+msgstr ""
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s is pending approval."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+msgstr ""
+
+#, python-format
+msgid "You have canceled your affiliation request with %(ar_name)s"
+msgstr ""
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was denied"
+msgstr ""
+
+#, python-format
+msgid "Your affiliation with %(ar_name)s was approved"
+msgstr ""
+
+msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
+msgstr ""
+
+msgid "To register a new network organization, please enter the ASN and organization name below."
+msgstr ""
+
+msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
+msgstr ""
+
+msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
+msgstr ""
+
+msgid "Affiliate"
+msgstr ""
+
+msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
+msgstr ""
+
+msgid "for assistance"
+msgstr ""
+
+msgid "Existing affiliations"
+msgstr ""
+
+msgid "Your affiliation with"
+msgstr ""
+
+msgid "has been approved"
+msgstr ""
+
+msgid "Change email address"
+msgstr ""
+
+msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
+msgstr ""
+
+msgid "Change Email"
+msgstr ""
+
+msgid "Change password"
+msgstr ""
+
+msgid "Password changed"
+msgstr ""
+
+msgid "Current Password"
+msgstr ""
+
+msgid "Password Verification"
+msgstr ""
+
+msgid "You have confirmed your email address!"
+msgstr ""
+
+msgid "Attention!"
+msgstr ""
+
+msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
+msgstr ""
+
+msgid "Email Confirmation"
+msgstr ""
+
+msgid "Before getting access to any other features, you need to confirm your email address."
+msgstr ""
+
+msgid "We have sent you a message containing the confirmation link."
+msgstr ""
+
+msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
+msgstr ""
+
+msgid "Select language"
+msgstr ""
+
+msgid "Language preference saved"
+msgstr ""
+
+msgid "Set language preference"
+msgstr ""
+
+msgid "Account Created"
+msgstr ""
+
+msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
+msgstr ""
+
+msgid "Return Home"
+msgstr ""
+
+msgid "Create account"
+msgstr ""
+
+msgid "Confirm password"
+msgstr ""
+
+msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Loading anti-spam challenge"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Thank you"
+msgstr ""
+
+#, python-format
+msgid "We have received your ownership request for %(o_name)s and will review it."
+msgstr ""
+
+msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
+msgstr ""
+
+msgid "Request Ownership"
+msgstr ""
+
+msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
+msgstr ""
+
+msgid "Only verified users may request ownership to an organization"
+msgstr ""
+
+msgid "Suggest Exchange"
+msgstr ""
+
+msgid "Suggest Network"
+msgstr ""
+
+msgid "Become a Sponsor"
+msgstr ""
+
+msgid "This server is running in TUTORIAL MODE"
+msgstr ""
+
+msgid "These are the usernames associated with your email address"
+msgstr ""
+
+msgid "The secret you provided does not match the secret required to complete this process"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "You should complete the process in the same browser that you originally initiated it in."
+msgstr ""
+
+msgid "Please re-initiate it"
+msgstr ""
+
+msgid "This form allows you to retrieve the usernames associated with your email address."
+msgstr ""
+
+msgid "We've sent instructions to your email address, provided it is in our system."
+msgstr ""
+
+msgid "Retrieve username(s)"
+msgstr ""
+
+msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
+msgstr ""
+
+msgid "Please take the time to confirm your email address and request affiliation"
+msgstr ""
+
+msgid "You may request affiliation to an Organization or ASN"
+msgstr ""
+
+msgid "Manage OAuth Applications"
+msgstr ""
+
+msgid "Pending Review"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Some of the data on this page is incomplete, please update the fields marked with"
+msgstr ""
+
+msgid "to improve data quality"
+msgstr ""
+
+msgid "Address failed validation."
+msgstr ""
+
+msgid "Geocoding error"
+msgstr ""
+
+msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+msgstr ""
+
+msgid "Updated geocode data for this entity will be obtained shortly"
+msgstr ""
+
+msgid "Prefixes"
+msgstr ""
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
+
+msgid "IXLAN Prefix"
+msgstr ""
+
+msgid "Add Prefix"
+msgstr ""
+
+msgid "Facility"
+msgstr ""
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
+msgstr ""
+
+msgid "Exchange - Facility link"
+msgstr ""
+
+msgid "Add Facility"
+msgstr ""
+
+msgid "IX-F Import Preview"
+msgstr ""
+
+msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
+msgstr ""
+
+msgid "Changes"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+msgid "speed"
+msgstr ""
+
+msgid "routeserver"
+msgstr ""
+
+msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgstr ""
+
+msgid "Peers at this Exchange Point"
+msgstr ""
+
+msgid "Peer Name"
+msgstr ""
+
+msgid "Speed"
+msgstr ""
+
+msgid "Exchange"
+msgstr ""
+
+msgid "IP"
+msgstr ""
+
+msgid "Not operational"
+msgstr ""
+
+msgid "Long Name"
+msgstr ""
+
+msgid "Operational"
+msgstr ""
+
+msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgstr ""
+
+msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Visiblity"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "E-Mail"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Add Contact"
+msgstr ""
+
+msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
+msgstr ""
+
+msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
+msgstr ""
+
+msgid "action"
+msgstr ""
+
+msgid "exchange"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
+msgstr ""
+
+msgid "Showing most recent"
+msgstr ""
+
+msgid "changes"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Public Peering Exchange Points"
+msgstr ""
+
+msgid "RS Peer"
+msgstr ""
+
+msgid "Network - Exchange link"
+msgstr ""
+
+msgid "Entry needs to be moved to correct network"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr ""
+
+msgid "Add Exchange Point"
+msgstr ""
+
+msgid "member"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Manage"
+msgstr ""
+
+msgid "Add Network"
+msgstr ""
+
+msgid "Add Exchange"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Address 1"
+msgstr ""
+
+msgid "Address 2"
+msgstr ""
+
+msgid "Zip-Code"
+msgstr ""
+
+msgid "CLLI Code"
+msgstr ""
+
+msgid "Technical E-mail"
+msgstr ""
+
+msgid "Technical Phone"
+msgstr ""
+
+msgid "Sales E-mail"
+msgstr ""
+
+msgid "Sales Phone"
+msgstr ""
+
+msgid "Traffic Ratios"
+msgstr ""
+
+msgid "Unicast IPv4"
+msgstr ""
+
+msgid "Multicast"
+msgstr ""
+
+msgid "Policy URL"
+msgstr ""
+
+msgid "Multiple Locations"
+msgstr ""
+
+msgid "Ratio Requirement"
+msgstr ""
+
+msgid "Contract Requirement"
+msgstr ""
+
+msgid "Add a new Network to your Organization."
+msgstr ""
+
+msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
+msgstr ""
+
+msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
+msgstr ""
+
+msgid "Submit Network"
+msgstr ""
+
+msgid "for assistance with the creation of your network in PeeringDB."
+msgstr ""
+
+msgid "Traffic Stats Website"
+msgstr ""
+
+msgid "Policy E-mail"
+msgstr ""
+
+msgid "Policy Phone"
+msgstr ""
+
+msgid "IPv4 or IPv6 prefix"
+msgstr ""
+
+msgid "Confirmed"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Currently no users requesting affiliation with"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+msgstr ""
+
+msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Thank you for your suggestion."
+msgstr ""
+
+msgid "Suggest another facility"
+msgstr ""
+
+msgid "Only verified users may suggest entities."
+msgstr ""
+
+msgid "Suggest another exchange"
+msgstr ""
+
+msgid "Suggest another network"
+msgstr ""
+
+msgid "Your email address does not match the domain information we have on file for this organization."
+msgstr ""
+
+msgid "seconds ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "hours ago"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+msgid "Not a valid phone number (E.164)"
+msgstr ""
+
+msgid "Invalid prefix: {}"
+msgstr ""
+
+msgid "Address space invalid: {}"
+msgstr ""
+
+msgid "Maximum allowed prefix length is {}"
+msgstr ""
+
+msgid "Minimum allowed prefix length is {}"
+msgstr ""
+
+msgid "Maximum value allowed {}"
+msgstr ""
+
+msgid "Negative value not allowed"
+msgstr ""
+
+msgid "Prefix overlaps with {}'s prefix: {}"
+msgstr ""
+
+msgid "IRR AS-SET value must be string type"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+msgstr ""
+
+msgid "Unknown IRR source: {}"
+msgstr ""
+
+msgid "Maximum AS-SET hierarchy depth: {}"
+msgstr ""
+
+msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
+msgstr ""
+
+msgid "All parts of an hierarchical name have to be of the same type"
+msgstr ""
+
+msgid "At least one component must be an actual set name"
+msgstr ""
+
+msgid "Please wait a bit before requesting ownership again."
+msgstr ""
+
+msgid "Invalid organization"
+msgstr ""
+
+#, python-format
+msgid "Organization '%(org_name)s' is already under ownership"
+msgstr ""
+
+msgid "Organization does not exist"
+msgstr ""
+
+msgid "You already have an ownership request pending for this organization"
+msgstr ""
+
+msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
+msgstr ""
+
+msgid "Please wait a bit before requesting affiliation again."
+msgstr ""
+
+msgid "Either ASN or Organization required"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr ""
+
+msgid "Please wait a bit before trying to resend the confirmation email again"
+msgstr ""
+
+msgid "We have resent your confirmation email"
+msgstr ""
+
+msgid "Please wait a bit before requesting another email change"
+msgstr ""
+
+msgid "E-mail already exists in our system"
+msgstr ""
+
+msgid "Wrong password"
+msgstr ""
+
+msgid "Please wait a bit before requesting your usernames again."
+msgstr ""
+
+msgid "Invalid Security Token"
+msgstr ""
+
+msgid "Password Reset Process has expired, please"
+msgstr ""
+
+msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
+msgstr ""
+
+msgid "This email address has already been used"
+msgstr ""
+
+msgid "Already logged in"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Country Code"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Markdown enabled"
+msgstr ""
+
+msgid "Geocode"
+msgstr ""
+
+msgid "Technical Email"
+msgstr ""
+
+msgid "Sales Email"
+msgstr ""
+
+msgid "Protocols Supported"
+msgstr ""
+
+msgid "Contact Information"
+msgstr ""
+
+msgid "Company Website"
+msgstr ""
+
+msgid "Policy Email"
+msgstr ""
+
+msgid "LAN"
+msgstr ""
+
+msgid "DOT1Q"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
+msgid "Enable IX-F Import"
+msgstr ""
+
+msgid "IX-F Member Export URL"
+msgstr ""
+
+msgid "Also Known As"
+msgstr ""
+
+msgid "Route Server URL"
+msgstr ""
+
+msgid "Looking Glass URL"
+msgstr ""
+
+msgid "IPv4 Prefixes"
+msgstr ""
+
+msgid "IPv6 Prefixes"
+msgstr ""
+
+msgid "Never via route servers"
+msgstr ""
+
+msgid "Last Updated"
+msgstr ""
+
+msgid "PeeringDB Configuration"
+msgstr ""
+
+msgid "Allow IXP Update"
+msgstr ""
+
+msgid "If enabled, an ixp may manage this network's entry in their peering list"
+msgstr ""
+
+msgid "IXP Update Tools"
+msgstr ""
+
+msgid "Postmortem"
+msgstr ""
+
+msgid "Peering Policy Information"
+msgstr ""
+
+msgid "Peering Policy"
+msgstr ""
+
+msgid "Please wait a bit before trying to login again."
+msgstr ""
+
+msgid "Account disabled."
+msgstr ""
+
+msgid "Invalid username/password."
+msgstr ""
