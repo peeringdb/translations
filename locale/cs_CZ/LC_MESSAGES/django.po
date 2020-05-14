@@ -208,17 +208,295 @@ msgstr "Veřejný"
 msgid "Kosovo"
 msgstr "Kosovo"
 
+msgid "Address 1"
+msgstr "Adresa 1"
+
+msgid "Address 2"
+msgstr "Adresa 2"
+
+msgid "City"
+msgstr "Město"
+
+msgid "State"
+msgstr "Stát"
+
+msgid "Zip-Code"
+msgstr "PSČ"
+
+msgid "Country"
+msgstr "Země"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "Jméno"
+
+msgid "Website"
+msgstr "Web adresa"
+
+msgid "Notes"
+msgstr "Poznámky"
+
+msgid "Organization"
+msgstr "Organizace"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Organizace"
+
+msgid "CLLI Code"
+msgstr "CLLI Code"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "Geocode"
+
+msgid "NPA-NXX"
+msgstr "NPA-NXX"
+
+msgid "Technical Email"
+msgstr "Technický Email"
+
+msgid "Technical Phone"
+msgstr "Technický kontakt"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Změna e-mailu"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Obchod"
+
+msgid "Facility"
+msgstr "Zařízení"
+
+msgid "Facilities"
+msgstr "Zařízení"
+
+msgid "Role"
+msgstr "Role"
+
+#, fuzzy
+msgid "Visibility"
+msgstr "Viditelnost"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "Kontaktujte nás"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "Kontaktujte nás"
+
+msgid "Also Known As"
+msgstr "Také známý jako"
+
+msgid "IRR as-set/route-set"
+msgstr ""
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr ""
+
+msgid "Looking Glass URL"
+msgstr "Looking Glass URL"
+
+msgid "Route Server URL"
+msgstr "Route Server URL"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "Pouze privátní"
+
+msgid "Traffic Levels"
+msgstr "Velikost síťového provozu"
+
+msgid "Traffic Ratios"
+msgstr "Poměr provozu"
+
+msgid "Geographic Scope"
+msgstr "Geografický rozsah"
+
+msgid "Network Type"
+msgstr "Typ Sítě"
+
+msgid "IPv4 Prefixes"
+msgstr "IPv4 prefixy"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr "IPv6 prefixy"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr "Unicast IPv4"
+
+msgid "Multicast"
+msgstr "Multicast"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "Unicast IPv4"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "Route Server"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "Peering Policy"
+
+msgid "General Policy"
+msgstr "Všeobecné podmínky"
+
+msgid "Multiple Locations"
+msgstr "Více lokalit"
+
+msgid "Ratio Requirement"
+msgstr "Požadavek na poměr provozu"
+
+msgid "Contract Requirement"
+msgstr "Požadavek na smlouvu"
+
+msgid "Network"
+msgstr "Síť"
+
+msgid "Networks"
+msgstr "Síťě"
+
+msgid "Long Name"
+msgstr "Dlouhý název"
+
+msgid "Continental Region"
+msgstr "Region"
+
+msgid "Media Type"
+msgstr "Typ Média"
+
+msgid "Company Website"
+msgstr "Web společnosti"
+
+msgid "Traffic Stats Website"
+msgstr "Stránka se statistikou provozu"
+
+msgid "Policy Email"
+msgstr "Policy Email"
+
+#, fuzzy
+msgid "Policy Phone"
+msgstr "Policy telefon"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "Jakýkoliv propojovací uzel"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchanges"
+msgstr "Propojovací uzel"
+
+#, fuzzy
+msgid "Internet Exchange facility"
+msgstr "Propojovací uzel - Zařízení odkaz"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Internet Exchange facilities"
+msgstr "Sloučit zařízení"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "Route Server"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "Jakýkoliv propojovací uzel"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchange LANs"
+msgstr "Propojovací uzel"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "Prefix"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "Lokální ASN"
+
+#, fuzzy
+#| msgid "Target facility"
+msgid "Network Facility"
+msgstr "Cílové zařízení"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Network Facilities"
+msgstr "Sloučit zařízení"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "Rychlost (mbit/sec)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Regionální"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "Veřejné propojovací uzly"
+
+msgid "Public Peering Exchange Points"
+msgstr "Veřejné propojovací uzly"
 
 msgid "Status"
 msgstr "Status"
@@ -771,9 +1049,6 @@ msgstr "Sponzorství"
 msgid "Sponsorship Expired"
 msgstr "Sponzorství vypršelo"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "Pokud kliknete na sponzorství, přejde uživatel do tohoto umístění"
 
@@ -1075,12 +1350,6 @@ msgstr "Vlastnictví organizace bylo automaticky přiděleno uživateli"
 msgid "User"
 msgstr "Uživatel"
 
-msgid "Organization"
-msgstr "Organizace"
-
-msgid "Network"
-msgstr "Síť"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1175,9 +1444,6 @@ msgstr "Získali jsme položku RiR pro zadané ASN"
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "ale nenalezl žádnou shodu s žádajícím uživatelem. Zde jsou e-mailové adresy, které jsme zadali"
 
-msgid "Name"
-msgstr "Jméno"
-
 msgid "Requested by user"
 msgstr "Požadováno uživatelem"
 
@@ -1250,17 +1516,8 @@ msgstr ""
 msgid "Address"
 msgstr "Adresa"
 
-msgid "City"
-msgstr "Město"
-
-msgid "State"
-msgstr "Stát"
-
 msgid "Postal"
 msgstr "Poštovní"
-
-msgid "Country"
-msgstr "Země"
 
 msgid "click to select multiple"
 msgstr "kliknutím vyberte více"
@@ -1271,9 +1528,6 @@ msgstr "Řízení"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "NPA-NXX"
-
 msgid "Reset"
 msgstr "Resetovat"
 
@@ -1283,9 +1537,6 @@ msgstr "Hledat"
 msgid "Postal Code"
 msgstr "PSČ"
 
-msgid "Networks"
-msgstr "Síťě"
-
 msgid "No search results."
 msgstr "Žádný záznam neodpovídá vyhledávacímu dotazu."
 
@@ -1293,20 +1544,8 @@ msgstr "Žádný záznam neodpovídá vyhledávacímu dotazu."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...vašemu dotazu odpovídá více než %(row_limit)s záznamů, upřesnete váš požadavek ..."
 
-msgid "Continental Region"
-msgstr "Region"
-
 msgid "IP Block"
 msgstr "IP Block"
-
-msgid "Media Type"
-msgstr "Typ Média"
-
-msgid "Network Type"
-msgstr "Typ Sítě"
-
-msgid "Traffic Levels"
-msgstr "Velikost síťového provozu"
 
 msgid "Traffic Ratio"
 msgstr "Poměr síťového provozu"
@@ -1314,14 +1553,8 @@ msgstr "Poměr síťového provozu"
 msgid "Primary ASN"
 msgstr "Primární ASN"
 
-msgid "IRR as-set/route-set"
-msgstr ""
-
 msgid "General Peering Policy"
 msgstr "Všeobecná peeringová politika"
-
-msgid "Geographic Scope"
-msgstr "Geografický rozsah"
 
 #, fuzzy
 #| msgid "Unique Public Exchange Presences"
@@ -1345,22 +1578,11 @@ msgstr "Známí také jako"
 msgid "ASN"
 msgstr "ASN"
 
-msgid "General Policy"
-msgstr "Všeobecné podmínky"
-
 msgid "Network Scope"
 msgstr "Síťový rozsah"
 
 msgid "Exchanges"
 msgstr "Propojovací uzly"
-
-msgid "Facilities"
-msgstr "Zařízení"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Organizations"
-msgstr "Organizace"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -1566,9 +1788,6 @@ msgstr "Partneři"
 #, fuzzy
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Na vaší e-mailovou adresu jsme zaslali pokyny, které jsou v našem systému. Pro dokončení procesu máte 30 minut."
-
-msgid "Email"
-msgstr "Email"
 
 msgid "Reset Password"
 msgstr "Restart hesla"
@@ -1847,20 +2066,11 @@ msgstr "Aktualizovaný geocode pro tuto entitu budou brzy získána"
 msgid "Prefixes"
 msgstr "Prefix"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "Prefix"
-
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
 
 msgid "Add Prefix"
 msgstr "Přidat Prefix"
-
-msgid "Facility"
-msgstr "Zařízení"
 
 msgid "No filter matches."
 msgstr "Nic neodpovídá vašemu filtru"
@@ -1925,36 +2135,18 @@ msgstr "IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "Dlouhý název"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "Regionální"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Některé kontakty této sítě jsou skryté, protože jsou viditelné pouze pro ověřené uživatele a v současné době nejste přihlášeni."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "Některé kontakty této sítě jsou skryté, protože váš uživatelský účet není spojen s žádnou organizací."
 
-msgid "Role"
-msgstr "Role"
-
 #, fuzzy
 msgid "Visiblity"
 msgstr "Viditelnost"
 
-msgid "Phone"
-msgstr "Telefon"
-
 msgid "E-Mail"
 msgstr "Email"
-
-#, fuzzy
-msgid "Visibility"
-msgstr "Viditelnost"
 
 msgid "Add Contact"
 msgstr "Přidat kontakt"
@@ -1992,9 +2184,6 @@ msgstr "Propojovací uzly"
 msgid "Refresh"
 msgstr ""
 
-msgid "Public Peering Exchange Points"
-msgstr "Veřejné propojovací uzly"
-
 msgid "RS Peer"
 msgstr "RS Peer"
 
@@ -2003,9 +2192,6 @@ msgstr "Network - Exchange odkaz"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
-
-msgid "Speed (mbit/sec)"
-msgstr "Rychlost (mbit/sec)"
 
 msgid "Add Exchange Point"
 msgstr "Přidat propojovací uzel"
@@ -2028,57 +2214,16 @@ msgstr "Přidat propojovací uzel"
 msgid "Permissions"
 msgstr "Oprávnění"
 
-msgid "Website"
-msgstr "Web adresa"
-
-msgid "Address 1"
-msgstr "Adresa 1"
-
-msgid "Address 2"
-msgstr "Adresa 2"
-
-msgid "Zip-Code"
-msgstr "PSČ"
-
-msgid "CLLI Code"
-msgstr "CLLI Code"
-
 msgid "Technical E-mail"
 msgstr "Technický email"
-
-msgid "Technical Phone"
-msgstr "Technický kontakt"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "Změna e-mailu"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "Obchod"
-
-msgid "Traffic Ratios"
-msgstr "Poměr provozu"
-
-msgid "Unicast IPv4"
-msgstr "Unicast IPv4"
-
-msgid "Multicast"
-msgstr "Multicast"
-
 msgid "Policy URL"
 msgstr "Adresa na stránku s podmínkami peeringu"
-
-msgid "Multiple Locations"
-msgstr "Více lokalit"
-
-msgid "Ratio Requirement"
-msgstr "Požadavek na poměr provozu"
-
-msgid "Contract Requirement"
-msgstr "Požadavek na smlouvu"
 
 msgid "Add a new Network to your Organization."
 msgstr "Prodat novou Síť k vaší organizaci."
@@ -2097,16 +2242,9 @@ msgstr "Odeslat síť"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "pro pomoc při vytváření vaší sítě v PeeringDB."
 
-msgid "Traffic Stats Website"
-msgstr "Stránka se statistikou provozu"
-
 #, fuzzy
 msgid "Policy E-mail"
 msgstr "Policy email"
-
-#, fuzzy
-msgid "Policy Phone"
-msgstr "Policy telefon"
 
 #, fuzzy
 #| msgid "IPv4 Prefixes"
@@ -2292,34 +2430,17 @@ msgstr "Lokalita"
 msgid "Country Code"
 msgstr "Kód země"
 
-msgid "Notes"
-msgstr "Poznámky"
-
 msgid "Markdown enabled"
 msgstr "Označování povoleno"
 
 msgid "Geocode"
 msgstr "Geocode"
 
-msgid "Technical Email"
-msgstr "Technický Email"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "Změna e-mailu"
-
 msgid "Protocols Supported"
 msgstr "Podporované protokoly"
 
 msgid "Contact Information"
 msgstr "Kontaktní informace"
-
-msgid "Company Website"
-msgstr "Web společnosti"
-
-msgid "Policy Email"
-msgstr "Policy Email"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2339,26 +2460,6 @@ msgstr "Protokol IXF Importu"
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
 msgstr "IXF Member Export URL"
-
-msgid "Also Known As"
-msgstr "Také známý jako"
-
-msgid "Route Server URL"
-msgstr "Route Server URL"
-
-msgid "Looking Glass URL"
-msgstr "Looking Glass URL"
-
-msgid "IPv4 Prefixes"
-msgstr "IPv4 prefixy"
-
-msgid "IPv6 Prefixes"
-msgstr "IPv6 prefixy"
-
-#, fuzzy
-#| msgid "Route Server"
-msgid "Never via route servers"
-msgstr "Route Server"
 
 msgid "Last Updated"
 msgstr "Poslední aktualizace"
@@ -2383,9 +2484,6 @@ msgstr ""
 #, fuzzy
 msgid "Peering Policy Information"
 msgstr "Peering Policy Information"
-
-msgid "Peering Policy"
-msgstr "Peering Policy"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
@@ -2412,9 +2510,6 @@ msgstr "Neplatné uživatelské jméno / heslo."
 
 #~ msgid "Add LAN"
 #~ msgstr "Přidat LAN"
-
-#~ msgid "Local ASN"
-#~ msgstr "Lokální ASN"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Tři levé oktety původního prefixu - např. xxx.xxx.xxx"

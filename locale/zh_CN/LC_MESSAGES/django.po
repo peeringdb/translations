@@ -209,17 +209,294 @@ msgstr "公开"
 msgid "Kosovo"
 msgstr "科索沃"
 
+msgid "Address 1"
+msgstr "地址行 1"
+
+msgid "Address 2"
+msgstr "地址行 2"
+
+msgid "City"
+msgstr "城市"
+
+msgid "State"
+msgstr "省（州）"
+
+msgid "Zip-Code"
+msgstr "邮政编码"
+
+msgid "Country"
+msgstr "国家和地区"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Website"
+msgstr "网站"
+
+msgid "Notes"
+msgstr "注释"
+
+msgid "Organization"
+msgstr "组织"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "组织"
+
+msgid "CLLI Code"
+msgstr "CLLI 代码"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "地理编码"
+
+msgid "NPA-NXX"
+msgstr "NPA-NXX"
+
+msgid "Technical Email"
+msgstr "技术邮箱"
+
+msgid "Technical Phone"
+msgstr "技术手机"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "修改 Email"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "销售"
+
+msgid "Facility"
+msgstr "设施"
+
+msgid "Facilities"
+msgstr "设施"
+
+msgid "Role"
+msgstr "角色"
+
+msgid "Visibility"
+msgstr "可见性"
+
+msgid "Phone"
+msgstr "手机"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "联系我们"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "联系我们"
+
+msgid "Also Known As"
+msgstr "别名"
+
+msgid "IRR as-set/route-set"
+msgstr "IRR as-set/route-set 对象"
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr ""
+
+msgid "Looking Glass URL"
+msgstr "Looking Glass URL"
+
+msgid "Route Server URL"
+msgstr "路由服务器 URL"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "仅对私有连接"
+
+msgid "Traffic Levels"
+msgstr "流量级别"
+
+msgid "Traffic Ratios"
+msgstr "交通比率"
+
+msgid "Geographic Scope"
+msgstr "地理范围"
+
+msgid "Network Type"
+msgstr "网络类型"
+
+msgid "IPv4 Prefixes"
+msgstr "IPv4 前缀"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr "IPv6 前缀"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr "单播 IPv4"
+
+msgid "Multicast"
+msgstr "多播"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "单播 IPv4"
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Never via route servers"
+msgstr "路由服务器"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "对等政策"
+
+msgid "General Policy"
+msgstr "一般政策"
+
+msgid "Multiple Locations"
+msgstr "多个地点"
+
+msgid "Ratio Requirement"
+msgstr "比率要求"
+
+msgid "Contract Requirement"
+msgstr "合同要求"
+
+msgid "Network"
+msgstr "网络"
+
+msgid "Networks"
+msgstr "网络"
+
+msgid "Long Name"
+msgstr "长名称"
+
+msgid "Continental Region"
+msgstr "地域"
+
+msgid "Media Type"
+msgstr "介质类型"
+
+msgid "Company Website"
+msgstr "公司网站"
+
+msgid "Traffic Stats Website"
+msgstr "流量统计网站"
+
+msgid "Policy Email"
+msgstr "政策邮箱"
+
+msgid "Policy Phone"
+msgstr "政策手机"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "任何交换点"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchanges"
+msgstr "连接的交换点"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "交换点 - 设施连接"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Internet Exchange facilities"
+msgstr "合并设施"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "路由服务器"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "任何交换点"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchange LANs"
+msgstr "连接的交换点"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "前缀"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "当地 ASN"
+
+#, fuzzy
+#| msgid "Suggest Facility"
+msgid "Network Facility"
+msgstr "建议的设施"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Network Facilities"
+msgstr "合并设施"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "速度（Mbit/s）"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "区域性"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "公共对等交换点"
+
+msgid "Public Peering Exchange Points"
+msgstr "公共对等交换点"
 
 msgid "Status"
 msgstr "状态"
@@ -759,9 +1036,6 @@ msgstr "赞助"
 msgid "Sponsorship Expired"
 msgstr "赞助过期"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "当单击赞助时，用户会被带到此位置"
 
@@ -1058,12 +1332,6 @@ msgstr "组织的所有权自动授予用户"
 msgid "User"
 msgstr "用户"
 
-msgid "Organization"
-msgstr "组织"
-
-msgid "Network"
-msgstr "网络"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1153,9 +1421,6 @@ msgstr "我们检索了指定 ASN 的 RIR 条目"
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "但与请求用户不匹配。以下是我们收集的 Email 地址"
 
-msgid "Name"
-msgstr "名称"
-
 msgid "Requested by user"
 msgstr "用户请求"
 
@@ -1227,17 +1492,8 @@ msgstr ""
 msgid "Address"
 msgstr "地址"
 
-msgid "City"
-msgstr "城市"
-
-msgid "State"
-msgstr "省（州）"
-
 msgid "Postal"
 msgstr "邮政"
-
-msgid "Country"
-msgstr "国家和地区"
 
 msgid "click to select multiple"
 msgstr "单击以选中多个"
@@ -1248,9 +1504,6 @@ msgstr "管理"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "NPA-NXX"
-
 msgid "Reset"
 msgstr "重置"
 
@@ -1260,9 +1513,6 @@ msgstr "搜索"
 msgid "Postal Code"
 msgstr "邮政编码"
 
-msgid "Networks"
-msgstr "网络"
-
 msgid "No search results."
 msgstr "没有匹配结果。"
 
@@ -1270,20 +1520,8 @@ msgstr "没有匹配结果。"
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
 
-msgid "Continental Region"
-msgstr "地域"
-
 msgid "IP Block"
 msgstr "IP 块"
-
-msgid "Media Type"
-msgstr "介质类型"
-
-msgid "Network Type"
-msgstr "网络类型"
-
-msgid "Traffic Levels"
-msgstr "流量级别"
 
 msgid "Traffic Ratio"
 msgstr "流量比率"
@@ -1291,14 +1529,8 @@ msgstr "流量比率"
 msgid "Primary ASN"
 msgstr "主要 ASN"
 
-msgid "IRR as-set/route-set"
-msgstr "IRR as-set/route-set 对象"
-
 msgid "General Peering Policy"
 msgstr "一般对等政策"
-
-msgid "Geographic Scope"
-msgstr "地理范围"
 
 msgid "Exchange Presence"
 msgstr "交换存在"
@@ -1318,22 +1550,11 @@ msgstr "别名"
 msgid "ASN"
 msgstr "ASN"
 
-msgid "General Policy"
-msgstr "一般政策"
-
 msgid "Network Scope"
 msgstr "网络范围"
 
 msgid "Exchanges"
 msgstr "交换点"
-
-msgid "Facilities"
-msgstr "设施"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Organizations"
-msgstr "组织"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -1522,9 +1743,6 @@ msgstr "合作伙伴"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "我们已将说明发送到您的 Email 地址（如果已在系统中）。 您有30分钟的时间来完成此流程。"
-
-msgid "Email"
-msgstr "Email"
 
 msgid "Reset Password"
 msgstr "重置密码"
@@ -1791,20 +2009,11 @@ msgstr "该实体的地理编码数据将被更新"
 msgid "Prefixes"
 msgstr "前缀"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "前缀"
-
 msgid "IXLAN Prefix"
 msgstr "IXLAN 前缀"
 
 msgid "Add Prefix"
 msgstr "添加前缀"
-
-msgid "Facility"
-msgstr "设施"
 
 msgid "No filter matches."
 msgstr ""
@@ -1859,34 +2068,17 @@ msgstr "IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "长名称"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "区域性"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "此网络的某些联系人仅对验证的用户可见，您当前未登录。"
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "此网络的某些联系人已隐藏，因为您的帐户未关联组织。"
 
-msgid "Role"
-msgstr "角色"
-
 msgid "Visiblity"
 msgstr "可见性"
 
-msgid "Phone"
-msgstr "手机"
-
 msgid "E-Mail"
 msgstr "Email"
-
-msgid "Visibility"
-msgstr "可见性"
 
 msgid "Add Contact"
 msgstr "添加联系人"
@@ -1924,9 +2116,6 @@ msgstr "交换点"
 msgid "Refresh"
 msgstr ""
 
-msgid "Public Peering Exchange Points"
-msgstr "公共对等交换点"
-
 msgid "RS Peer"
 msgstr "RS 对等"
 
@@ -1935,9 +2124,6 @@ msgstr "网络 - 交换点连接"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
-
-msgid "Speed (mbit/sec)"
-msgstr "速度（Mbit/s）"
 
 msgid "Add Exchange Point"
 msgstr "添加交换点"
@@ -1960,57 +2146,16 @@ msgstr "添加交换点"
 msgid "Permissions"
 msgstr "权限"
 
-msgid "Website"
-msgstr "网站"
-
-msgid "Address 1"
-msgstr "地址行 1"
-
-msgid "Address 2"
-msgstr "地址行 2"
-
-msgid "Zip-Code"
-msgstr "邮政编码"
-
-msgid "CLLI Code"
-msgstr "CLLI 代码"
-
 msgid "Technical E-mail"
 msgstr "技术 Email"
-
-msgid "Technical Phone"
-msgstr "技术手机"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "修改 Email"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "销售"
-
-msgid "Traffic Ratios"
-msgstr "交通比率"
-
-msgid "Unicast IPv4"
-msgstr "单播 IPv4"
-
-msgid "Multicast"
-msgstr "多播"
-
 msgid "Policy URL"
 msgstr "政策 URL"
-
-msgid "Multiple Locations"
-msgstr "多个地点"
-
-msgid "Ratio Requirement"
-msgstr "比率要求"
-
-msgid "Contract Requirement"
-msgstr "合同要求"
 
 msgid "Add a new Network to your Organization."
 msgstr "向您的组织添加新网络。"
@@ -2027,14 +2172,8 @@ msgstr "提交网络"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "帮助您在 PeeringDB 中创建网络。"
 
-msgid "Traffic Stats Website"
-msgstr "流量统计网站"
-
 msgid "Policy E-mail"
 msgstr "政策 Email"
-
-msgid "Policy Phone"
-msgstr "政策手机"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 或 IPv6 前缀"
@@ -2208,34 +2347,17 @@ msgstr "位置"
 msgid "Country Code"
 msgstr "国家和地区代码"
 
-msgid "Notes"
-msgstr "注释"
-
 msgid "Markdown enabled"
 msgstr "Markdown 已启用"
 
 msgid "Geocode"
 msgstr "地理编码"
 
-msgid "Technical Email"
-msgstr "技术邮箱"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "修改 Email"
-
 msgid "Protocols Supported"
 msgstr "支持的协议"
 
 msgid "Contact Information"
 msgstr "联系信息"
-
-msgid "Company Website"
-msgstr "公司网站"
-
-msgid "Policy Email"
-msgstr "政策邮箱"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2255,26 +2377,6 @@ msgstr "IXF 导入日志"
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
 msgstr "IXF 成员导出 URL"
-
-msgid "Also Known As"
-msgstr "别名"
-
-msgid "Route Server URL"
-msgstr "路由服务器 URL"
-
-msgid "Looking Glass URL"
-msgstr "Looking Glass URL"
-
-msgid "IPv4 Prefixes"
-msgstr "IPv4 前缀"
-
-msgid "IPv6 Prefixes"
-msgstr "IPv6 前缀"
-
-#, fuzzy
-#| msgid "routeserver"
-msgid "Never via route servers"
-msgstr "路由服务器"
 
 msgid "Last Updated"
 msgstr "上次更新"
@@ -2298,9 +2400,6 @@ msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "对等政策信息"
-
-msgid "Peering Policy"
-msgstr "对等政策"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
@@ -2327,9 +2426,6 @@ msgstr "无效的用户名/密码。"
 
 #~ msgid "Add LAN"
 #~ msgstr "添加 LAN"
-
-#~ msgid "Local ASN"
-#~ msgstr "当地 ASN"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "原始前缀最左侧的三个字节 - 例如 xxx.xxx.xxx"

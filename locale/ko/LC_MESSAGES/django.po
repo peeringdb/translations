@@ -209,17 +209,290 @@ msgstr "공개"
 msgid "Kosovo"
 msgstr "코소보"
 
+msgid "Address 1"
+msgstr "주소 1"
+
+msgid "Address 2"
+msgstr "주소 2"
+
+msgid "City"
+msgstr "도시"
+
+msgid "State"
+msgstr "주"
+
+msgid "Zip-Code"
+msgstr "우편번호"
+
+msgid "Country"
+msgstr "국가"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Website"
+msgstr "웹사이트"
+
+msgid "Notes"
+msgstr "기타"
+
+msgid "Organization"
+msgstr "조직"
+
+msgid "Organizations"
+msgstr "조직"
+
+msgid "CLLI Code"
+msgstr "CLLI 코드"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "지오코드"
+
+msgid "NPA-NXX"
+msgstr "NPA-NXX"
+
+msgid "Technical Email"
+msgstr "테크니컬 이메일"
+
+msgid "Technical Phone"
+msgstr "테크니컬 폰"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "이메일 변경"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "영업"
+
+msgid "Facility"
+msgstr "시설"
+
+msgid "Facilities"
+msgstr "설비"
+
+msgid "Role"
+msgstr "역할"
+
+msgid "Visibility"
+msgstr "가시성"
+
+msgid "Phone"
+msgstr "연락처"
+
+msgid "Email"
+msgstr "이메일"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "연락처"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "연락처"
+
+msgid "Also Known As"
+msgstr "다음으로도 알려진"
+
+msgid "IRR as-set/route-set"
+msgstr "IRR as-set/route-set"
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr "IRR(인터넷 라우팅 레지스트리)에서 AS-SET 또는 ROUTE-SET 참조"
+
+msgid "Looking Glass URL"
+msgstr "Looking Glass URL"
+
+msgid "Route Server URL"
+msgstr "라우트 서버 URL"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "프라이빗 온리"
+
+msgid "Traffic Levels"
+msgstr "트래픽 레벨"
+
+msgid "Traffic Ratios"
+msgstr "트래픽 비율"
+
+msgid "Geographic Scope"
+msgstr "지리적 범위"
+
+msgid "Network Type"
+msgstr "네트워크 유형"
+
+msgid "IPv4 Prefixes"
+msgstr "IPv4 프리픽스"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
 
+msgid "IPv6 Prefixes"
+msgstr "IPv6 프리픽스"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
 
+msgid "Unicast IPv4"
+msgstr "유니캐스트 IPv4"
+
+msgid "Multicast"
+msgstr "멀티캐스트"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "유니캐스트 IPv4"
+
+msgid "Never via route servers"
+msgstr "라우트 서버를 경유하지 않음"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "피어링 정책"
+
+msgid "General Policy"
+msgstr "일반 정책"
+
+msgid "Multiple Locations"
+msgstr "여러 위치"
+
+msgid "Ratio Requirement"
+msgstr "비율 요구 사항"
+
+msgid "Contract Requirement"
+msgstr "계약 요구 사항"
+
+msgid "Network"
+msgstr "네트워크"
+
+msgid "Networks"
+msgstr "네트워크"
+
+msgid "Long Name"
+msgstr "성명"
+
+msgid "Continental Region"
+msgstr "대륙 지역"
+
+msgid "Media Type"
+msgstr "미디어 유형"
+
+msgid "Company Website"
+msgstr "회사 웹사이트"
+
+msgid "Traffic Stats Website"
+msgstr "Traffic Stats Website"
+
+msgid "Policy Email"
+msgstr "정책 이메일"
+
+msgid "Policy Phone"
+msgstr "정책 폰"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "모든 익스체인지"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchanges"
+msgstr "익스체인지로 연결"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "익스체인지 - 시설 링크"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Internet Exchange facilities"
+msgstr "시설 합병"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "경로 서버"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "모든 익스체인지"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchange LANs"
+msgstr "익스체인지로 연결"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "프리픽스"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr ""
+
+#, fuzzy
+#| msgid "Suggest Facility"
+msgid "Network Facility"
+msgstr "시설 제안"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Network Facilities"
+msgstr "시설 합병"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "속도 (mbit/초)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "지역"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "공용 피어링 익스체인지 포인트"
+
+msgid "Public Peering Exchange Points"
+msgstr "공용 피어링 익스체인지 포인트"
 
 msgid "Status"
 msgstr "상태"
@@ -745,9 +1018,6 @@ msgstr "스폰서쉽"
 msgid "Sponsorship Expired"
 msgstr "스폰서쉽 만료"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "협찬을 클릭하면 사용자가 이 위치로 이동함"
 
@@ -1044,12 +1314,6 @@ msgstr "사용자에게 조직의 소유권이 자동으로 부여됨"
 msgid "User"
 msgstr "사용자"
 
-msgid "Organization"
-msgstr "조직"
-
-msgid "Network"
-msgstr "네트워크"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1139,9 +1403,6 @@ msgstr "지정된 ASN에 대한 RiR 항목을 검색함"
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "요청된 사용자와 일치하는 항목을 찾을 수 없습니다. 여기 이메일 주소들이 있습니다"
 
-msgid "Name"
-msgstr "이름"
-
 msgid "Requested by user"
 msgstr "사용자에 의해 요청됨"
 
@@ -1213,17 +1474,8 @@ msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가
 msgid "Address"
 msgstr "주소"
 
-msgid "City"
-msgstr "도시"
-
-msgid "State"
-msgstr "주"
-
 msgid "Postal"
 msgstr "우편"
-
-msgid "Country"
-msgstr "국가"
 
 msgid "click to select multiple"
 msgstr "여러 개를 선택하려면 클릭하십시오"
@@ -1234,9 +1486,6 @@ msgstr "관리"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "NPA-NXX"
-
 msgid "Reset"
 msgstr "재설정"
 
@@ -1246,9 +1495,6 @@ msgstr "검색"
 msgid "Postal Code"
 msgstr "우편 번호"
 
-msgid "Networks"
-msgstr "네트워크"
-
 msgid "No search results."
 msgstr "검색 결과 없음."
 
@@ -1256,20 +1502,8 @@ msgstr "검색 결과 없음."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...%(row_limit)s 이상의 항목이 쿼리와 일치합니다. 요청을 수정하십시오..."
 
-msgid "Continental Region"
-msgstr "대륙 지역"
-
 msgid "IP Block"
 msgstr "IP 블록"
-
-msgid "Media Type"
-msgstr "미디어 유형"
-
-msgid "Network Type"
-msgstr "네트워크 유형"
-
-msgid "Traffic Levels"
-msgstr "트래픽 레벨"
 
 msgid "Traffic Ratio"
 msgstr "트래픽 비율"
@@ -1277,14 +1511,8 @@ msgstr "트래픽 비율"
 msgid "Primary ASN"
 msgstr "주요 ASN"
 
-msgid "IRR as-set/route-set"
-msgstr "IRR as-set/route-set"
-
 msgid "General Peering Policy"
 msgstr "일반적인 피어링 정책"
-
-msgid "Geographic Scope"
-msgstr "지리적 범위"
 
 msgid "Exchange Presence"
 msgstr "익스체인지 프레즌스"
@@ -1304,20 +1532,11 @@ msgstr "다음으로도 알려진"
 msgid "ASN"
 msgstr "ASN"
 
-msgid "General Policy"
-msgstr "일반 정책"
-
 msgid "Network Scope"
 msgstr "네트워크 범위"
 
 msgid "Exchanges"
 msgstr "익스체인지"
-
-msgid "Facilities"
-msgstr "설비"
-
-msgid "Organizations"
-msgstr "조직"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "이것은 PeeringDB의 베타/테스트 인스턴스 입니다. 일부 특성은 생산과 다르게 작용할 수 있습니다. 보관하려는 데이터를 여기에 저장하지 마십시오"
@@ -1504,9 +1723,6 @@ msgstr "파트너"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "우리의 시스템에 있는 한, 제공되는  지시사항을 당신의 이메일 주소로 보냈습니다. 30분 내에 완료하십시오."
-
-msgid "Email"
-msgstr "이메일"
 
 msgid "Reset Password"
 msgstr "비밀번호 재설정"
@@ -1771,20 +1987,11 @@ msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수�
 msgid "Prefixes"
 msgstr ""
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "프리픽스"
-
 msgid "IXLAN Prefix"
 msgstr "IXLAN 프리픽스"
 
 msgid "Add Prefix"
 msgstr "프리픽스 추가"
-
-msgid "Facility"
-msgstr "시설"
 
 msgid "No filter matches."
 msgstr "일치하는 필터가 없음."
@@ -1837,34 +2044,17 @@ msgstr "IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "성명"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "지역"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "이 네트워크의 일부 연락처는 인증된 사용자만 볼 수 있고 현재 로그인하지 않았기 때문에 볼 수 없습니다."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "이 네트워크의 일부 연락처는 당신의 계정이 어떤 조직에도 소속되어 있지 않기 때문에 숨겨져 있습니다."
 
-msgid "Role"
-msgstr "역할"
-
 msgid "Visiblity"
 msgstr "가시성"
 
-msgid "Phone"
-msgstr "연락처"
-
 msgid "E-Mail"
 msgstr "이메일"
-
-msgid "Visibility"
-msgstr "가시성"
 
 msgid "Add Contact"
 msgstr "연락처 추가"
@@ -1896,9 +2086,6 @@ msgstr "변경 사항"
 msgid "Refresh"
 msgstr "새로고침"
 
-msgid "Public Peering Exchange Points"
-msgstr "공용 피어링 익스체인지 포인트"
-
 msgid "RS Peer"
 msgstr "RS Peer"
 
@@ -1907,9 +2094,6 @@ msgstr "네트워크 - 익스체인지 링크"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "올바른 네트워크로 항목을 이동해야 함"
-
-msgid "Speed (mbit/sec)"
-msgstr "속도 (mbit/초)"
 
 msgid "Add Exchange Point"
 msgstr "익스체인지 포인트 추가"
@@ -1932,57 +2116,16 @@ msgstr "익스체인지 추가"
 msgid "Permissions"
 msgstr "권한"
 
-msgid "Website"
-msgstr "웹사이트"
-
-msgid "Address 1"
-msgstr "주소 1"
-
-msgid "Address 2"
-msgstr "주소 2"
-
-msgid "Zip-Code"
-msgstr "우편번호"
-
-msgid "CLLI Code"
-msgstr "CLLI 코드"
-
 msgid "Technical E-mail"
 msgstr "테크니컬 이메일"
-
-msgid "Technical Phone"
-msgstr "테크니컬 폰"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "이메일 변경"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "영업"
-
-msgid "Traffic Ratios"
-msgstr "트래픽 비율"
-
-msgid "Unicast IPv4"
-msgstr "유니캐스트 IPv4"
-
-msgid "Multicast"
-msgstr "멀티캐스트"
-
 msgid "Policy URL"
 msgstr "정책 URL"
-
-msgid "Multiple Locations"
-msgstr "여러 위치"
-
-msgid "Ratio Requirement"
-msgstr "비율 요구 사항"
-
-msgid "Contract Requirement"
-msgstr "계약 요구 사항"
 
 msgid "Add a new Network to your Organization."
 msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
@@ -1999,14 +2142,8 @@ msgstr "네트워크 제출"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "은/는 PeeringDB에서 네트워크 생성에 대한 지원을 위함이다."
 
-msgid "Traffic Stats Website"
-msgstr "Traffic Stats Website"
-
 msgid "Policy E-mail"
 msgstr "정책 이메일"
-
-msgid "Policy Phone"
-msgstr "정책 폰"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 또는 IPv6 프리픽스"
@@ -2180,34 +2317,17 @@ msgstr "위치"
 msgid "Country Code"
 msgstr "국가 코드"
 
-msgid "Notes"
-msgstr "기타"
-
 msgid "Markdown enabled"
 msgstr "마크다운 사용가능"
 
 msgid "Geocode"
 msgstr "지오코드"
 
-msgid "Technical Email"
-msgstr "테크니컬 이메일"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "이메일 변경"
-
 msgid "Protocols Supported"
 msgstr "프로토콜 지원됨"
 
 msgid "Contact Information"
 msgstr "연락처 정보"
-
-msgid "Company Website"
-msgstr "회사 웹사이트"
-
-msgid "Policy Email"
-msgstr "정책 이메일"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2223,24 +2343,6 @@ msgstr "IX-F 가져오기 사용"
 
 msgid "IX-F Member Export URL"
 msgstr ""
-
-msgid "Also Known As"
-msgstr "다음으로도 알려진"
-
-msgid "Route Server URL"
-msgstr "라우트 서버 URL"
-
-msgid "Looking Glass URL"
-msgstr "Looking Glass URL"
-
-msgid "IPv4 Prefixes"
-msgstr "IPv4 프리픽스"
-
-msgid "IPv6 Prefixes"
-msgstr "IPv6 프리픽스"
-
-msgid "Never via route servers"
-msgstr "라우트 서버를 경유하지 않음"
 
 msgid "Last Updated"
 msgstr "최신 업데이트"
@@ -2262,9 +2364,6 @@ msgstr "사후 검토"
 
 msgid "Peering Policy Information"
 msgstr "피어링 정책 정보"
-
-msgid "Peering Policy"
-msgstr "피어링 정책"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."

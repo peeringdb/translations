@@ -209,16 +209,277 @@ msgstr "Umumi/aleni"
 msgid "Kosovo"
 msgstr "Kosova"
 
+msgid "Address 1"
+msgstr ""
+
+msgid "Address 2"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Zip-Code"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Organization"
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "CLLI Code"
+msgstr ""
+
+msgid "Rencode"
+msgstr ""
+
+msgid "NPA-NXX"
+msgstr ""
+
+msgid "Technical Email"
+msgstr ""
+
+msgid "Technical Phone"
+msgstr ""
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Email"
+msgstr "Satış"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Satış"
+
+msgid "Facility"
+msgstr "Bina"
+
+msgid "Facilities"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+#, fuzzy
+#| msgid "Content"
+msgid "Contact"
+msgstr "İçerik"
+
+#, fuzzy
+#| msgid "Content"
+msgid "Contacts"
+msgstr "İçerik"
+
+msgid "Also Known As"
+msgstr ""
+
+msgid "IRR as-set/route-set"
+msgstr ""
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
+msgstr ""
+
+msgid "Looking Glass URL"
+msgstr ""
+
+msgid "Route Server URL"
+msgstr ""
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "Sadece Kişisel"
+
+msgid "Traffic Levels"
+msgstr ""
+
+msgid "Traffic Ratios"
+msgstr ""
+
+msgid "Geographic Scope"
+msgstr ""
+
+msgid "Network Type"
+msgstr ""
+
+msgid "IPv4 Prefixes"
 msgstr ""
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr ""
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr ""
+
+msgid "Multicast"
+msgstr ""
+
+msgid "Unicast IPv6"
+msgstr ""
+
+msgid "Never via route servers"
+msgstr ""
+
 msgid "Indicates if this network will announce its routes via route servers or not"
+msgstr ""
+
+msgid "Peering Policy"
+msgstr "Eşleşme Politikası"
+
+msgid "General Policy"
+msgstr ""
+
+msgid "Multiple Locations"
+msgstr ""
+
+msgid "Ratio Requirement"
+msgstr ""
+
+msgid "Contract Requirement"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Networks"
+msgstr ""
+
+msgid "Long Name"
+msgstr ""
+
+msgid "Continental Region"
+msgstr ""
+
+msgid "Media Type"
+msgstr ""
+
+msgid "Company Website"
+msgstr ""
+
+msgid "Traffic Stats Website"
+msgstr ""
+
+msgid "Policy Email"
+msgstr ""
+
+msgid "Policy Phone"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchange"
+msgstr "Değişim noktası"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchanges"
+msgstr "Değişim noktası"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facilities"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "Rota Sunucusu"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+msgid "Internet Exchange LAN"
+msgstr ""
+
+msgid "Internet Exchange LANs"
+msgstr ""
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Network Facility"
+msgstr "Bina"
+
+msgid "Network Facilities"
+msgstr ""
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Bölgesel"
+
+msgid "Public Peering Exchange Point"
+msgstr ""
+
+msgid "Public Peering Exchange Points"
 msgstr ""
 
 msgid "Status"
@@ -743,9 +1004,6 @@ msgstr ""
 msgid "Sponsorship Expired"
 msgstr ""
 
-msgid "URL"
-msgstr ""
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr ""
 
@@ -1042,12 +1300,6 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-msgid "Organization"
-msgstr ""
-
-msgid "Network"
-msgstr ""
-
 msgid "AS"
 msgstr ""
 
@@ -1134,9 +1386,6 @@ msgstr ""
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr ""
 
-msgid "Name"
-msgstr ""
-
 msgid "Requested by user"
 msgstr ""
 
@@ -1208,16 +1457,7 @@ msgstr ""
 msgid "Address"
 msgstr ""
 
-msgid "City"
-msgstr ""
-
-msgid "State"
-msgstr ""
-
 msgid "Postal"
-msgstr ""
-
-msgid "Country"
 msgstr ""
 
 msgid "click to select multiple"
@@ -1229,9 +1469,6 @@ msgstr ""
 msgid "CLLI"
 msgstr ""
 
-msgid "NPA-NXX"
-msgstr ""
-
 msgid "Reset"
 msgstr ""
 
@@ -1241,9 +1478,6 @@ msgstr ""
 msgid "Postal Code"
 msgstr ""
 
-msgid "Networks"
-msgstr ""
-
 msgid "No search results."
 msgstr ""
 
@@ -1251,19 +1485,7 @@ msgstr ""
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr ""
 
-msgid "Continental Region"
-msgstr ""
-
 msgid "IP Block"
-msgstr ""
-
-msgid "Media Type"
-msgstr ""
-
-msgid "Network Type"
-msgstr ""
-
-msgid "Traffic Levels"
 msgstr ""
 
 msgid "Traffic Ratio"
@@ -1272,13 +1494,7 @@ msgstr ""
 msgid "Primary ASN"
 msgstr ""
 
-msgid "IRR as-set/route-set"
-msgstr ""
-
 msgid "General Peering Policy"
-msgstr ""
-
-msgid "Geographic Scope"
 msgstr ""
 
 msgid "Exchange Presence"
@@ -1299,19 +1515,10 @@ msgstr ""
 msgid "ASN"
 msgstr ""
 
-msgid "General Policy"
-msgstr ""
-
 msgid "Network Scope"
 msgstr ""
 
 msgid "Exchanges"
-msgstr ""
-
-msgid "Facilities"
-msgstr ""
-
-msgid "Organizations"
 msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
@@ -1498,9 +1705,6 @@ msgid "Partners"
 msgstr ""
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
-msgstr ""
-
-msgid "Email"
 msgstr ""
 
 msgid "Reset Password"
@@ -1766,20 +1970,11 @@ msgstr ""
 msgid "Prefixes"
 msgstr "IXLAN Öneki"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr ""
-
 msgid "IXLAN Prefix"
 msgstr "IXLAN Öneki"
 
 msgid "Add Prefix"
 msgstr ""
-
-msgid "Facility"
-msgstr "Bina"
 
 msgid "No filter matches."
 msgstr ""
@@ -1832,33 +2027,16 @@ msgstr ""
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr ""
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "Bölgesel"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr ""
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr ""
 
-msgid "Role"
-msgstr ""
-
 msgid "Visiblity"
 msgstr ""
 
-msgid "Phone"
-msgstr ""
-
 msgid "E-Mail"
-msgstr ""
-
-msgid "Visibility"
 msgstr ""
 
 msgid "Add Contact"
@@ -1895,9 +2073,6 @@ msgstr "Değişim noktası"
 msgid "Refresh"
 msgstr ""
 
-msgid "Public Peering Exchange Points"
-msgstr ""
-
 msgid "RS Peer"
 msgstr ""
 
@@ -1905,9 +2080,6 @@ msgid "Network - Exchange link"
 msgstr "Ağ - Değişim noktası bağlantısı"
 
 msgid "Entry needs to be moved to correct network"
-msgstr ""
-
-msgid "Speed (mbit/sec)"
 msgstr ""
 
 msgid "Add Exchange Point"
@@ -1931,25 +2103,7 @@ msgstr ""
 msgid "Permissions"
 msgstr ""
 
-msgid "Website"
-msgstr ""
-
-msgid "Address 1"
-msgstr ""
-
-msgid "Address 2"
-msgstr ""
-
-msgid "Zip-Code"
-msgstr ""
-
-msgid "CLLI Code"
-msgstr ""
-
 msgid "Technical E-mail"
-msgstr ""
-
-msgid "Technical Phone"
 msgstr ""
 
 #, fuzzy
@@ -1957,30 +2111,7 @@ msgstr ""
 msgid "Sales E-mail"
 msgstr "Satış"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "Satış"
-
-msgid "Traffic Ratios"
-msgstr ""
-
-msgid "Unicast IPv4"
-msgstr ""
-
-msgid "Multicast"
-msgstr ""
-
 msgid "Policy URL"
-msgstr ""
-
-msgid "Multiple Locations"
-msgstr ""
-
-msgid "Ratio Requirement"
-msgstr ""
-
-msgid "Contract Requirement"
 msgstr ""
 
 msgid "Add a new Network to your Organization."
@@ -1998,13 +2129,7 @@ msgstr ""
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr ""
 
-msgid "Traffic Stats Website"
-msgstr ""
-
 msgid "Policy E-mail"
-msgstr ""
-
-msgid "Policy Phone"
 msgstr ""
 
 msgid "IPv4 or IPv6 prefix"
@@ -2179,33 +2304,16 @@ msgstr ""
 msgid "Country Code"
 msgstr ""
 
-msgid "Notes"
-msgstr ""
-
 msgid "Markdown enabled"
 msgstr ""
 
 msgid "Geocode"
 msgstr ""
 
-msgid "Technical Email"
-msgstr ""
-
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Email"
-msgstr "Satış"
-
 msgid "Protocols Supported"
 msgstr ""
 
 msgid "Contact Information"
-msgstr ""
-
-msgid "Company Website"
-msgstr ""
-
-msgid "Policy Email"
 msgstr ""
 
 msgid "LAN"
@@ -2221,24 +2329,6 @@ msgid "Enable IX-F Import"
 msgstr ""
 
 msgid "IX-F Member Export URL"
-msgstr ""
-
-msgid "Also Known As"
-msgstr ""
-
-msgid "Route Server URL"
-msgstr ""
-
-msgid "Looking Glass URL"
-msgstr ""
-
-msgid "IPv4 Prefixes"
-msgstr ""
-
-msgid "IPv6 Prefixes"
-msgstr ""
-
-msgid "Never via route servers"
 msgstr ""
 
 msgid "Last Updated"
@@ -2261,9 +2351,6 @@ msgstr "Otopsi"
 
 msgid "Peering Policy Information"
 msgstr "Eşleşme Politikası Bilgileri"
-
-msgid "Peering Policy"
-msgstr "Eşleşme Politikası"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."

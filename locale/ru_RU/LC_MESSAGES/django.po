@@ -208,17 +208,294 @@ msgstr "Публичный"
 msgid "Kosovo"
 msgstr "Косово"
 
+msgid "Address 1"
+msgstr "Адрес, строка 1"
+
+msgid "Address 2"
+msgstr "Адрес, строка 2"
+
+msgid "City"
+msgstr "Город"
+
+msgid "State"
+msgstr "Штат"
+
+msgid "Zip-Code"
+msgstr "Индекс"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Website"
+msgstr "Веб-сайт"
+
+msgid "Notes"
+msgstr "Дополнительная информация"
+
+msgid "Organization"
+msgstr "Организация"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Организация"
+
+msgid "CLLI Code"
+msgstr "Код CLLI"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "Геокод"
+
+msgid "NPA-NXX"
+msgstr "NPA-NXX"
+
+msgid "Technical Email"
+msgstr "Технический контакт, емайл"
+
+msgid "Technical Phone"
+msgstr "Технический контакт, телефон"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Изменить емайл"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Продажи"
+
+msgid "Facility"
+msgstr "Площадка"
+
+msgid "Facilities"
+msgstr "Площадки"
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "Visibility"
+msgstr "Показывать"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Email"
+msgstr "Емайл"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "Свяжитесь с нами"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "Свяжитесь с нами"
+
+msgid "Also Known As"
+msgstr "Другое наименование"
+
+msgid "IRR as-set/route-set"
+msgstr ""
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr ""
+
+msgid "Looking Glass URL"
+msgstr "Looking Glass URL"
+
+msgid "Route Server URL"
+msgstr "Route Server URL"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "Только приватные"
+
+msgid "Traffic Levels"
+msgstr "Уровень трафика"
+
+msgid "Traffic Ratios"
+msgstr "Соотношения трафика"
+
+msgid "Geographic Scope"
+msgstr "Географический охват"
+
+msgid "Network Type"
+msgstr "Тип сети"
+
+msgid "IPv4 Prefixes"
+msgstr "IPv4-префиксы"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr "IPv6-префиксы"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr "Unicast IPv4"
+
+msgid "Multicast"
+msgstr "Multicast"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "Unicast IPv4"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "Route Server"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "Пиринговая политика"
+
+msgid "General Policy"
+msgstr "Общая политика"
+
+msgid "Multiple Locations"
+msgstr "Несколько локаций"
+
+msgid "Ratio Requirement"
+msgstr "Требуется соотношение трафика"
+
+msgid "Contract Requirement"
+msgstr "Контракт обязателен"
+
+msgid "Network"
+msgstr "Сеть"
+
+msgid "Networks"
+msgstr "Сети"
+
+msgid "Long Name"
+msgstr "Полное наименование"
+
+msgid "Continental Region"
+msgstr "Континентальный регион"
+
+msgid "Media Type"
+msgstr "Среда передачи"
+
+msgid "Company Website"
+msgstr "Веб-сайт компании"
+
+msgid "Traffic Stats Website"
+msgstr "Веб-сайт с данными о трафике"
+
+msgid "Policy Email"
+msgstr "Пиринговая политика, емайл"
+
+msgid "Policy Phone"
+msgstr "Пиринговая политика, телефон"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "Любой IXP"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchanges"
+msgstr "IXP"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "Связь IXP - Площадка"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Internet Exchange facilities"
+msgstr "Площадки"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "Route Server"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "Любой IXP"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchange LANs"
+msgstr "IXP"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "Префикс"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "Локальная ASN"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Network Facility"
+msgstr "Площадка"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Network Facilities"
+msgstr "Площадки"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "Скорость (Мбит/с)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Региональный"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "IXP для публичного пиринга"
+
+msgid "Public Peering Exchange Points"
+msgstr "IXP для публичного пиринга"
 
 msgid "Status"
 msgstr "Статус"
@@ -776,9 +1053,6 @@ msgstr "Спонсорства"
 msgid "Sponsorship Expired"
 msgstr "Период спонсирования истек"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "Если указан, для спонсора будет установлена ссылка на данный адрес"
 
@@ -1080,12 +1354,6 @@ msgstr "Права управления организацией назначе�
 msgid "User"
 msgstr "Пользователь"
 
-msgid "Organization"
-msgstr "Организация"
-
-msgid "Network"
-msgstr "Сеть"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1175,9 +1443,6 @@ msgstr "Мы извлекли записи из базы данных RIR для
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "но не совпадает с запрашивающим пользователем. Вот емайлы, которые мы зарегистрировали"
 
-msgid "Name"
-msgstr "Имя"
-
 msgid "Requested by user"
 msgstr "Зарегистрировано пользователем"
 
@@ -1249,17 +1514,8 @@ msgstr ""
 msgid "Address"
 msgstr "Адрес"
 
-msgid "City"
-msgstr "Город"
-
-msgid "State"
-msgstr "Штат"
-
 msgid "Postal"
 msgstr "Почтовый"
-
-msgid "Country"
-msgstr "Страна"
 
 msgid "click to select multiple"
 msgstr "кликните, чтобы выбрать несколько"
@@ -1270,9 +1526,6 @@ msgstr "Менеджмент"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "NPA-NXX"
-
 msgid "Reset"
 msgstr "Сбросить"
 
@@ -1282,9 +1535,6 @@ msgstr "Поиск"
 msgid "Postal Code"
 msgstr "Почтовый индекс"
 
-msgid "Networks"
-msgstr "Сети"
-
 msgid "No search results."
 msgstr "По запросу ничего не найдено."
 
@@ -1292,20 +1542,8 @@ msgstr "По запросу ничего не найдено."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "… Найдено более %(row_limit)s записей, уточните запрос …"
 
-msgid "Continental Region"
-msgstr "Континентальный регион"
-
 msgid "IP Block"
 msgstr "IP блок"
-
-msgid "Media Type"
-msgstr "Среда передачи"
-
-msgid "Network Type"
-msgstr "Тип сети"
-
-msgid "Traffic Levels"
-msgstr "Уровень трафика"
 
 msgid "Traffic Ratio"
 msgstr "Соотношение трафика"
@@ -1313,14 +1551,8 @@ msgstr "Соотношение трафика"
 msgid "Primary ASN"
 msgstr "Первичная ASN"
 
-msgid "IRR as-set/route-set"
-msgstr ""
-
 msgid "General Peering Policy"
 msgstr "Информация о пиринговой политике"
-
-msgid "Geographic Scope"
-msgstr "Географический охват"
 
 #, fuzzy
 #| msgid "Unique Public Exchange Presences"
@@ -1344,22 +1576,11 @@ msgstr "Другое наименование"
 msgid "ASN"
 msgstr "ASN"
 
-msgid "General Policy"
-msgstr "Общая политика"
-
 msgid "Network Scope"
 msgstr "Охват сети"
 
 msgid "Exchanges"
 msgstr "IXP"
-
-msgid "Facilities"
-msgstr "Площадки"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Organizations"
-msgstr "Организация"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -1564,9 +1785,6 @@ msgstr "Партнеры"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Инструкции высланы на ваш емайл, если он зарегистрирован в нашей системе. У вас 30 минут чтобы завершить процедуру."
-
-msgid "Email"
-msgstr "Емайл"
 
 msgid "Reset Password"
 msgstr "Сбросить пароль"
@@ -1841,20 +2059,11 @@ msgstr "Обновленные данные геокодирования для 
 msgid "Prefixes"
 msgstr "Префикс"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "Префикс"
-
 msgid "IXLAN Prefix"
 msgstr "Префикс IXLAN"
 
 msgid "Add Prefix"
 msgstr "Новый префикс"
-
-msgid "Facility"
-msgstr "Площадка"
 
 msgid "No filter matches."
 msgstr "Нет соответствий фильтру"
@@ -1918,34 +2127,17 @@ msgstr "IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "Полное наименование"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "Региональный"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Некоторые контакты данной сети скрыты и доступны только авторизованным пользователям."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "Некоторые контакты данной сети скрыты, поскольку ваш аккаунт пользователя не присоединен к какой-либо организации."
 
-msgid "Role"
-msgstr "Роль"
-
 msgid "Visiblity"
 msgstr "Показывать"
 
-msgid "Phone"
-msgstr "Телефон"
-
 msgid "E-Mail"
 msgstr "Емайл"
-
-msgid "Visibility"
-msgstr "Показывать"
 
 msgid "Add Contact"
 msgstr "Новый контакт"
@@ -1982,9 +2174,6 @@ msgstr "IXP"
 msgid "Refresh"
 msgstr ""
 
-msgid "Public Peering Exchange Points"
-msgstr "IXP для публичного пиринга"
-
 msgid "RS Peer"
 msgstr "Пир с Route Server"
 
@@ -1993,9 +2182,6 @@ msgstr "Связь Сеть - IXP"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
-
-msgid "Speed (mbit/sec)"
-msgstr "Скорость (Мбит/с)"
 
 msgid "Add Exchange Point"
 msgstr "Новый IXP"
@@ -2018,57 +2204,16 @@ msgstr "Новый IXP"
 msgid "Permissions"
 msgstr "Права доступа"
 
-msgid "Website"
-msgstr "Веб-сайт"
-
-msgid "Address 1"
-msgstr "Адрес, строка 1"
-
-msgid "Address 2"
-msgstr "Адрес, строка 2"
-
-msgid "Zip-Code"
-msgstr "Индекс"
-
-msgid "CLLI Code"
-msgstr "Код CLLI"
-
 msgid "Technical E-mail"
 msgstr "Технический контакт, емайл"
-
-msgid "Technical Phone"
-msgstr "Технический контакт, телефон"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "Изменить емайл"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "Продажи"
-
-msgid "Traffic Ratios"
-msgstr "Соотношения трафика"
-
-msgid "Unicast IPv4"
-msgstr "Unicast IPv4"
-
-msgid "Multicast"
-msgstr "Multicast"
-
 msgid "Policy URL"
 msgstr "URL Пиринговой политики"
-
-msgid "Multiple Locations"
-msgstr "Несколько локаций"
-
-msgid "Ratio Requirement"
-msgstr "Требуется соотношение трафика"
-
-msgid "Contract Requirement"
-msgstr "Контракт обязателен"
 
 msgid "Add a new Network to your Organization."
 msgstr "Новая сеть для Организации."
@@ -2085,14 +2230,8 @@ msgstr "Отправить заявку на сеть"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "для помощи в регистрации вашей сети в PeeringDB."
 
-msgid "Traffic Stats Website"
-msgstr "Веб-сайт с данными о трафике"
-
 msgid "Policy E-mail"
 msgstr "Пиринговая политика, емайл"
-
-msgid "Policy Phone"
-msgstr "Пиринговая политика, телефон"
 
 #, fuzzy
 #| msgid "IPv4 Prefixes"
@@ -2273,34 +2412,17 @@ msgstr "Локация"
 msgid "Country Code"
 msgstr "Код страны"
 
-msgid "Notes"
-msgstr "Дополнительная информация"
-
 msgid "Markdown enabled"
 msgstr "Разметка Markdown включена"
 
 msgid "Geocode"
 msgstr "Геокод"
 
-msgid "Technical Email"
-msgstr "Технический контакт, емайл"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "Изменить емайл"
-
 msgid "Protocols Supported"
 msgstr "Поддерживаеvst протоколы"
 
 msgid "Contact Information"
 msgstr "Контактная информация"
-
-msgid "Company Website"
-msgstr "Веб-сайт компании"
-
-msgid "Policy Email"
-msgstr "Пиринговая политика, емайл"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2320,26 +2442,6 @@ msgstr "Лог импорта IXF"
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
 msgstr "URL экспортируемого списка участников IXF"
-
-msgid "Also Known As"
-msgstr "Другое наименование"
-
-msgid "Route Server URL"
-msgstr "Route Server URL"
-
-msgid "Looking Glass URL"
-msgstr "Looking Glass URL"
-
-msgid "IPv4 Prefixes"
-msgstr "IPv4-префиксы"
-
-msgid "IPv6 Prefixes"
-msgstr "IPv6-префиксы"
-
-#, fuzzy
-#| msgid "Route Server"
-msgid "Never via route servers"
-msgstr "Route Server"
 
 msgid "Last Updated"
 msgstr "Последнее обновление"
@@ -2363,9 +2465,6 @@ msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "Информация о пиринговой политике"
-
-msgid "Peering Policy"
-msgstr "Пиринговая политика"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Подождите несколько секунд перед повторной попыткой авторизации."
@@ -2392,9 +2491,6 @@ msgstr "Неверное имя пользователя/пароль."
 
 #~ msgid "Add LAN"
 #~ msgstr "Новый LAN"
-
-#~ msgid "Local ASN"
-#~ msgstr "Локальная ASN"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Три первых октета исходного префикса - например, xxx.xxx.xxx"

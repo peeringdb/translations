@@ -209,17 +209,295 @@ msgstr "عام"
 msgid "Kosovo"
 msgstr "كوسوفو"
 
+msgid "Address 1"
+msgstr "العنوان ١"
+
+msgid "Address 2"
+msgstr "العنوان ٢"
+
+msgid "City"
+msgstr "المدينة"
+
+msgid "State"
+msgstr "الدولة / الإقليم"
+
+msgid "Zip-Code"
+msgstr "الرمز البريدي"
+
+msgid "Country"
+msgstr "الدولة"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+msgid "Notes"
+msgstr "ملاحظات"
+
+msgid "Organization"
+msgstr "المنظمة / المؤسسة"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "المنظمة / المؤسسة"
+
+#, fuzzy
+msgid "CLLI Code"
+msgstr "CLLI Code"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "الرمز الجغرافي"
+
+msgid "NPA-NXX"
+msgstr ""
+
+msgid "Technical Email"
+msgstr "البريد الإلكتروني لجهة الاتصال التقنية"
+
+msgid "Technical Phone"
+msgstr "رقم الهاتف للجهة التقنية"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "تغيير البريد الالكتروني"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "المبيعات"
+
+msgid "Facility"
+msgstr "مركز البيانات"
+
+msgid "Facilities"
+msgstr "مراكز بيانات/ تشغيل"
+
+msgid "Role"
+msgstr "دور"
+
+msgid "Visibility"
+msgstr "رؤية"
+
+msgid "Phone"
+msgstr "الهاتف"
+
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+msgid "URL"
+msgstr "الرابط الإلكتروني"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "اتصل بنا"
+
+msgid "Also Known As"
+msgstr "المعروف أيضا بإسم"
+
+msgid "IRR as-set/route-set"
+msgstr "IRR as-set/route-set"
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr ""
+
+msgid "Looking Glass URL"
+msgstr "الرابط الإلكتروني لمخدم Looking Glass"
+
+msgid "Route Server URL"
+msgstr "الرابط الإلكتروني لمخدم التوجية Route Server"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "خاص فقط"
+
+msgid "Traffic Levels"
+msgstr "مستوى حركة مرور البيانات"
+
+msgid "Traffic Ratios"
+msgstr "نسب حركة مرور البيانات"
+
+msgid "Geographic Scope"
+msgstr "النطاق الجغرافي"
+
+msgid "Network Type"
+msgstr "نوع شبكة الاتصال"
+
+msgid "IPv4 Prefixes"
+msgstr "شبكات بروتوكول الانترنت الإصدارة الرابعة"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr "شبكات بروتوكول الانترنت الإصدارة السادسة"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr "عناوين بروتوكول الإنترنت الاصدارة الرابعة"
+
+msgid "Multicast"
+msgstr "بث/ اتصال متعدد"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "عناوين بروتوكول الإنترنت الاصدارة الرابعة"
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Never via route servers"
+msgstr "خادم التوجيه"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "سياسة التناظر"
+
+msgid "General Policy"
+msgstr "السياسة العامة"
+
+msgid "Multiple Locations"
+msgstr "مواقع متعددة"
+
+msgid "Ratio Requirement"
+msgstr ""
+
+msgid "Contract Requirement"
+msgstr "متطلبات العقد"
+
+msgid "Network"
+msgstr "شبكة الاتصال"
+
+msgid "Networks"
+msgstr "شبكات الاتصال"
+
+msgid "Long Name"
+msgstr "الاسم كامل"
+
+msgid "Continental Region"
+msgstr "المنطقة القارية"
+
+msgid "Media Type"
+msgstr "نوع الوسيط/التوصيل"
+
+msgid "Company Website"
+msgstr "الموقع الإكتروني للشركة/ المؤسسة"
+
+msgid "Traffic Stats Website"
+msgstr "الرابط الإلكتروني لإحصائيات بيانات الاتصال Traffic Stats"
+
+msgid "Policy Email"
+msgstr "البريد الإلكتروني لجهة الاتصال الخاصه بسياسة التشغيل"
+
+msgid "Policy Phone"
+msgstr "رقم الهاتف لجهه سياسات IXP"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "اي تبادل بيانات"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchanges"
+msgstr "الاتصالات إلى النظائر/التبادلات"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "نقطة التبادل - مركز البيانات"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Internet Exchange facilities"
+msgstr "دمج مراكز بيانات/ تشغيل"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "خادم التوجيه"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "اي تبادل بيانات"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchange LANs"
+msgstr "الاتصالات إلى النظائر/التبادلات"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "بادئة عنوان الانترنت"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "رقم النظام المستقل المحلي"
+
+#, fuzzy
+#| msgid "Suggest Facility"
+msgid "Network Facility"
+msgstr "اقترح مركز بيانات/ تشغيل"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Network Facilities"
+msgstr "دمج مراكز بيانات/ تشغيل"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "السرعة (ميقابت/ثانية)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "إقليمي"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "نقاط تبادل التناظر العامة"
+
+msgid "Public Peering Exchange Points"
+msgstr "نقاط تبادل التناظر العامة"
 
 msgid "Status"
 msgstr "الحالة"
@@ -748,9 +1026,6 @@ msgstr "الرعاية / الرُعاه"
 msgid "Sponsorship Expired"
 msgstr "انتهت الرعاية"
 
-msgid "URL"
-msgstr "الرابط الإلكتروني"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "إذا تم تحديد ذلك فسيؤدي النقر برابط الرعاية إلى نقل المستخدم إلى هذا الموقع"
 
@@ -1047,12 +1322,6 @@ msgstr "تم منح ملكية المنظمة تلقائيًا للمستخدم"
 msgid "User"
 msgstr "المستخدم"
 
-msgid "Organization"
-msgstr "المنظمة / المؤسسة"
-
-msgid "Network"
-msgstr "شبكة الاتصال"
-
 msgid "AS"
 msgstr "رقم النظام المستقل"
 
@@ -1142,9 +1411,6 @@ msgstr "تم استرداد بيانات رقم النظام المستقل من
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "ولكن لم يتم العثور على تطابق مع المستخدم . فيما يلي عناوين البريد الإلكتروني التي جمعناها"
 
-msgid "Name"
-msgstr "الاسم"
-
 msgid "Requested by user"
 msgstr "تم الطلب من قِبل المستخدم"
 
@@ -1218,17 +1484,8 @@ msgstr "يمكن نقاط تبادل الإنترنت مراكز البيانا�
 msgid "Address"
 msgstr "العنوان"
 
-msgid "City"
-msgstr "المدينة"
-
-msgid "State"
-msgstr "الدولة / الإقليم"
-
 msgid "Postal"
 msgstr "الرقم البريدي"
-
-msgid "Country"
-msgstr "الدولة"
 
 msgid "click to select multiple"
 msgstr "انقر لتحديد عدة خيارات"
@@ -1239,9 +1496,6 @@ msgstr "إدارة"
 msgid "CLLI"
 msgstr "لغة الموقع المعرفة العامة"
 
-msgid "NPA-NXX"
-msgstr ""
-
 msgid "Reset"
 msgstr "اعاده ضبط"
 
@@ -1251,9 +1505,6 @@ msgstr "ابحث"
 msgid "Postal Code"
 msgstr "الرمز البريدي"
 
-msgid "Networks"
-msgstr "شبكات الاتصال"
-
 msgid "No search results."
 msgstr "لا توجد نتائج بحث."
 
@@ -1261,20 +1512,8 @@ msgstr "لا توجد نتائج بحث."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "... أكثر من %(row_limit)s  مدخل مطابق لطلبك ، أعد تنقيح الطلب ..."
 
-msgid "Continental Region"
-msgstr "المنطقة القارية"
-
 msgid "IP Block"
 msgstr "حزمة عناوين الإنترنت"
-
-msgid "Media Type"
-msgstr "نوع الوسيط/التوصيل"
-
-msgid "Network Type"
-msgstr "نوع شبكة الاتصال"
-
-msgid "Traffic Levels"
-msgstr "مستوى حركة مرور البيانات"
 
 msgid "Traffic Ratio"
 msgstr "نسبة حركة مرور البيانات"
@@ -1282,14 +1521,8 @@ msgstr "نسبة حركة مرور البيانات"
 msgid "Primary ASN"
 msgstr "رقم النظام المستقل الأساسي"
 
-msgid "IRR as-set/route-set"
-msgstr "IRR as-set/route-set"
-
 msgid "General Peering Policy"
 msgstr "سياسة التناظر العامة"
-
-msgid "Geographic Scope"
-msgstr "النطاق الجغرافي"
 
 msgid "Exchange Presence"
 msgstr "وجود تبادل البيانات / التناظر"
@@ -1309,22 +1542,11 @@ msgstr "المعروف أيضا باسم"
 msgid "ASN"
 msgstr "رقم النظام المستقل"
 
-msgid "General Policy"
-msgstr "السياسة العامة"
-
 msgid "Network Scope"
 msgstr "نطاق شبكة الاتصال"
 
 msgid "Exchanges"
 msgstr "عمليات التبادل"
-
-msgid "Facilities"
-msgstr "مراكز بيانات/ تشغيل"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Organizations"
-msgstr "المنظمة / المؤسسة"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -1511,9 +1733,6 @@ msgstr "الشركاء"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "تم إرسال التعليمات إلى عنوان البريد الإلكتروني الخاص بك المسجل بالنظام . لديك 30 دقيقة لإكمال العملية."
-
-msgid "Email"
-msgstr "البريد الالكتروني"
 
 msgid "Reset Password"
 msgstr "إعادة تعيين كلمة المرور"
@@ -1783,20 +2002,11 @@ msgstr "سيتم الحصول على بيانات الترميز الجغراف�
 msgid "Prefixes"
 msgstr "بادئة عنوان الانترنت"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "بادئة عنوان الانترنت"
-
 msgid "IXLAN Prefix"
 msgstr "بادئة عنوان شبكة التناظر"
 
 msgid "Add Prefix"
 msgstr "إضافة بادئة عنوان انترنت"
-
-msgid "Facility"
-msgstr "مركز البيانات"
 
 msgid "No filter matches."
 msgstr "لا يوجد تطابق في خيارات البحث."
@@ -1849,34 +2059,17 @@ msgstr "عنوان بروتوكول الانترنت"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "الاسم كامل"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "إقليمي"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "يتم إخفاء بعض جهات الاتصال لهذه الشبكة لأن حساب المستخدم الخاص بك لا ينتمي إلى أي مؤسسة."
 
-msgid "Role"
-msgstr "دور"
-
 msgid "Visiblity"
 msgstr "رؤية"
 
-msgid "Phone"
-msgstr "الهاتف"
-
 msgid "E-Mail"
 msgstr "البريد الالكتروني"
-
-msgid "Visibility"
-msgstr "رؤية"
 
 msgid "Add Contact"
 msgstr "إضافة جهة اتصال"
@@ -1910,9 +2103,6 @@ msgstr "التغييرات"
 msgid "Refresh"
 msgstr "تحديث"
 
-msgid "Public Peering Exchange Points"
-msgstr "نقاط تبادل التناظر العامة"
-
 msgid "RS Peer"
 msgstr "نظير مخدم التوجيه RS"
 
@@ -1921,9 +2111,6 @@ msgstr "شبكة الاتصال - رابط التبادل"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
-
-msgid "Speed (mbit/sec)"
-msgstr "السرعة (ميقابت/ثانية)"
 
 msgid "Add Exchange Point"
 msgstr "إضافة نقطة تبادل"
@@ -1946,58 +2133,16 @@ msgstr ""
 msgid "Permissions"
 msgstr "صلاحيات"
 
-msgid "Website"
-msgstr "الموقع الإلكتروني"
-
-msgid "Address 1"
-msgstr "العنوان ١"
-
-msgid "Address 2"
-msgstr "العنوان ٢"
-
-msgid "Zip-Code"
-msgstr "الرمز البريدي"
-
-#, fuzzy
-msgid "CLLI Code"
-msgstr "CLLI Code"
-
 msgid "Technical E-mail"
 msgstr "البريد الإلكتروني للجهة التقنية"
-
-msgid "Technical Phone"
-msgstr "رقم الهاتف للجهة التقنية"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "تغيير البريد الالكتروني"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "المبيعات"
-
-msgid "Traffic Ratios"
-msgstr "نسب حركة مرور البيانات"
-
-msgid "Unicast IPv4"
-msgstr "عناوين بروتوكول الإنترنت الاصدارة الرابعة"
-
-msgid "Multicast"
-msgstr "بث/ اتصال متعدد"
-
 msgid "Policy URL"
 msgstr "الرابط الإلكتروني للسياسة"
-
-msgid "Multiple Locations"
-msgstr "مواقع متعددة"
-
-msgid "Ratio Requirement"
-msgstr ""
-
-msgid "Contract Requirement"
-msgstr "متطلبات العقد"
 
 msgid "Add a new Network to your Organization."
 msgstr "إضافة شبكة جديدة إلى المؤسسة/المنظمة."
@@ -2014,14 +2159,8 @@ msgstr "تقديم / اضافة شبكة"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "للحصول على المساعدة في إنشاء الشبكة الخاصة بك بقاعدة بيانات التناظر PeeringDB."
 
-msgid "Traffic Stats Website"
-msgstr "الرابط الإلكتروني لإحصائيات بيانات الاتصال Traffic Stats"
-
 msgid "Policy E-mail"
 msgstr "البريد الإلكتروني لجهه سياسات IXP"
-
-msgid "Policy Phone"
-msgstr "رقم الهاتف لجهه سياسات IXP"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "بادئة عنوان انترنت الاصدارة الرابعة او السادسة"
@@ -2195,34 +2334,17 @@ msgstr "الموقع"
 msgid "Country Code"
 msgstr "رمز البلد"
 
-msgid "Notes"
-msgstr "ملاحظات"
-
 msgid "Markdown enabled"
 msgstr "تفعيل \"وضع علامة لأسفل\""
 
 msgid "Geocode"
 msgstr "الرمز الجغرافي"
 
-msgid "Technical Email"
-msgstr "البريد الإلكتروني لجهة الاتصال التقنية"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "تغيير البريد الالكتروني"
-
 msgid "Protocols Supported"
 msgstr "البروتوكولات المدعومة/ المتاحة"
 
 msgid "Contact Information"
 msgstr "بيانات الاتصال"
-
-msgid "Company Website"
-msgstr "الموقع الإكتروني للشركة/ المؤسسة"
-
-msgid "Policy Email"
-msgstr "البريد الإلكتروني لجهة الاتصال الخاصه بسياسة التشغيل"
 
 msgid "LAN"
 msgstr "الشبكة المحلية"
@@ -2240,26 +2362,6 @@ msgstr ""
 #| msgid "IXF Import Log"
 msgid "IX-F Member Export URL"
 msgstr "سجل استيراد بيانات IXF"
-
-msgid "Also Known As"
-msgstr "المعروف أيضا بإسم"
-
-msgid "Route Server URL"
-msgstr "الرابط الإلكتروني لمخدم التوجية Route Server"
-
-msgid "Looking Glass URL"
-msgstr "الرابط الإلكتروني لمخدم Looking Glass"
-
-msgid "IPv4 Prefixes"
-msgstr "شبكات بروتوكول الانترنت الإصدارة الرابعة"
-
-msgid "IPv6 Prefixes"
-msgstr "شبكات بروتوكول الانترنت الإصدارة السادسة"
-
-#, fuzzy
-#| msgid "routeserver"
-msgid "Never via route servers"
-msgstr "خادم التوجيه"
 
 msgid "Last Updated"
 msgstr "آخر تحديث"
@@ -2281,9 +2383,6 @@ msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "معلومات سياسات التناظر"
-
-msgid "Peering Policy"
-msgstr "سياسة التناظر"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
@@ -2310,6 +2409,3 @@ msgstr "اسم المستخدم / كلمة المرور غير صحيحة."
 
 #~ msgid "Add LAN"
 #~ msgstr "إضافة شبكة محلية"
-
-#~ msgid "Local ASN"
-#~ msgstr "رقم النظام المستقل المحلي"

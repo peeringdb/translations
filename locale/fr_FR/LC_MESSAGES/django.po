@@ -209,17 +209,294 @@ msgstr "Publique"
 msgid "Kosovo"
 msgstr "Kosovo"
 
+msgid "Address 1"
+msgstr "Adresse 1"
+
+msgid "Address 2"
+msgstr "Adresse 2"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "State"
+msgstr "Etat"
+
+msgid "Zip-Code"
+msgstr "Code postal"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Website"
+msgstr "Site Internet"
+
+msgid "Notes"
+msgstr "Remarques"
+
+msgid "Organization"
+msgstr "Organisation"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Organisation"
+
+msgid "CLLI Code"
+msgstr "Code CLLI"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "Géocode"
+
+msgid "NPA-NXX"
+msgstr "NPA-NXX"
+
+msgid "Technical Email"
+msgstr "Adresse email technique"
+
+msgid "Technical Phone"
+msgstr "Téléphone technique"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Changer l'adresse email"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Ventes"
+
+msgid "Facility"
+msgstr "Installation"
+
+msgid "Facilities"
+msgstr "Installations"
+
+msgid "Role"
+msgstr "Rôle"
+
+msgid "Visibility"
+msgstr "Visibilité"
+
+msgid "Phone"
+msgstr "Téléphone"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "Contactez nous"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "Contactez nous"
+
+msgid "Also Known As"
+msgstr "Alias"
+
+msgid "IRR as-set/route-set"
+msgstr ""
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr ""
+
+msgid "Looking Glass URL"
+msgstr "Looking Glass URL"
+
+msgid "Route Server URL"
+msgstr "Route Server URL"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "Privé seulement"
+
+msgid "Traffic Levels"
+msgstr "Niveaux de trafic"
+
+msgid "Traffic Ratios"
+msgstr "Direction du trafic"
+
+msgid "Geographic Scope"
+msgstr "Zone d'intérêt"
+
+msgid "Network Type"
+msgstr "Type de réseau"
+
+msgid "IPv4 Prefixes"
+msgstr "Préfixes IPv4"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr "Préfixes IPv6"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr "Unicast IPv4"
+
+msgid "Multicast"
+msgstr "Multicast"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "Unicast IPv4"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "Serveur de routes"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "Règlement de peering"
+
+msgid "General Policy"
+msgstr "Politique générale"
+
+msgid "Multiple Locations"
+msgstr "Emplacements multiples"
+
+msgid "Ratio Requirement"
+msgstr "Pré-requis de direction"
+
+msgid "Contract Requirement"
+msgstr "Contrat requis"
+
+msgid "Network"
+msgstr "Réseau"
+
+msgid "Networks"
+msgstr "Réseaux"
+
+msgid "Long Name"
+msgstr "Nom long"
+
+msgid "Continental Region"
+msgstr "Région continentale"
+
+msgid "Media Type"
+msgstr "Type de média"
+
+msgid "Company Website"
+msgstr "Site Internet"
+
+msgid "Traffic Stats Website"
+msgstr "Site de statistiques du trafic"
+
+msgid "Policy Email"
+msgstr "Email administratif"
+
+msgid "Policy Phone"
+msgstr "Téléphone administratif"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "N'importe quel échange"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchanges"
+msgstr "Point d'échange"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "Point d'échange - Lien de l'installation"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Internet Exchange facilities"
+msgstr "Installations"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "Serveur de routes"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "N'importe quel échange"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchange LANs"
+msgstr "Point d'échange"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "Préfixe"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "Numéro d'AS local"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Network Facility"
+msgstr "Installation"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Network Facilities"
+msgstr "Installations"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "Vitesse (mbit/s)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Régional"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "Points d'échange publics"
+
+msgid "Public Peering Exchange Points"
+msgstr "Points d'échange publics"
 
 msgid "Status"
 msgstr "Statut"
@@ -780,9 +1057,6 @@ msgstr "Parrainages"
 msgid "Sponsorship Expired"
 msgstr "Parrainage expiré"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "Si précisé, l'utilisateur qui clique sur le lien de parrainage sera transféré à cette adresse"
 
@@ -1081,12 +1355,6 @@ msgstr "La propriété de l'organisation a automatiquement été attribuée à l
 msgid "User"
 msgstr "Utilisateur"
 
-msgid "Organization"
-msgstr "Organisation"
-
-msgid "Network"
-msgstr "Réseau"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1176,9 +1444,6 @@ msgstr "Nous avons obtenu l'entrée RIR pour le numéro d'AS spécifié"
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "mais nous n'avons rien trouvé correspond à l'utilisateur. Voici les adresses email que nous avons obtenu"
 
-msgid "Name"
-msgstr "Nom"
-
 msgid "Requested by user"
 msgstr "Demandé par l'utilisateur"
 
@@ -1250,17 +1515,8 @@ msgstr ""
 msgid "Address"
 msgstr "Adresse"
 
-msgid "City"
-msgstr "Ville"
-
-msgid "State"
-msgstr "Etat"
-
 msgid "Postal"
 msgstr "Postal"
-
-msgid "Country"
-msgstr "Pays"
 
 msgid "click to select multiple"
 msgstr "cliquez pour effectuer une sélection multiple"
@@ -1271,9 +1527,6 @@ msgstr "Gestion"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "NPA-NXX"
-
 msgid "Reset"
 msgstr "Vider"
 
@@ -1283,9 +1536,6 @@ msgstr "Chercher"
 msgid "Postal Code"
 msgstr "Code postal"
 
-msgid "Networks"
-msgstr "Réseaux"
-
 msgid "No search results."
 msgstr "Aucun résultat correspondant à vos critères de recherche."
 
@@ -1293,20 +1543,8 @@ msgstr "Aucun résultat correspondant à vos critères de recherche."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Plus de %(row_limit)s résultats trouvés, veuillez affiner votre recherche..."
 
-msgid "Continental Region"
-msgstr "Région continentale"
-
 msgid "IP Block"
 msgstr "Bloc IP"
-
-msgid "Media Type"
-msgstr "Type de média"
-
-msgid "Network Type"
-msgstr "Type de réseau"
-
-msgid "Traffic Levels"
-msgstr "Niveaux de trafic"
 
 msgid "Traffic Ratio"
 msgstr "Direction du trafic"
@@ -1314,14 +1552,8 @@ msgstr "Direction du trafic"
 msgid "Primary ASN"
 msgstr "Numéro d'AS principal"
 
-msgid "IRR as-set/route-set"
-msgstr ""
-
 msgid "General Peering Policy"
 msgstr "Politique de peering"
-
-msgid "Geographic Scope"
-msgstr "Zone d'intérêt"
 
 #, fuzzy
 #| msgid "Unique Public Exchange Presences"
@@ -1345,22 +1577,11 @@ msgstr "Alias"
 msgid "ASN"
 msgstr "Numéro d'AS"
 
-msgid "General Policy"
-msgstr "Politique générale"
-
 msgid "Network Scope"
 msgstr "Étendue du réseau"
 
 msgid "Exchanges"
 msgstr "Échanges"
-
-msgid "Facilities"
-msgstr "Installations"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Organizations"
-msgstr "Organisation"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -1564,9 +1785,6 @@ msgstr "Partenaires"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Nous vous avons envoyé un email content les instructions à suivre. Vous avez 30 minutes pour effectuer ce processus."
-
-msgid "Email"
-msgstr "Email"
 
 msgid "Reset Password"
 msgstr "Réinitialiser le mot de passe"
@@ -1837,20 +2055,11 @@ msgstr "Des données de géocodage actualisées pour cette entité vont être ob
 msgid "Prefixes"
 msgstr "Préfixe"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "Préfixe"
-
 msgid "IXLAN Prefix"
 msgstr "Préfixe IXLAN"
 
 msgid "Add Prefix"
 msgstr "Ajouter un préfixe"
-
-msgid "Facility"
-msgstr "Installation"
 
 msgid "No filter matches."
 msgstr "Aucune correspondance à vos filtres."
@@ -1913,34 +2122,17 @@ msgstr "IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "Nom long"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "Régional"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Une partie des contacts de ce réseau ne sont visibles qu'aux utilisateurs enregistrés et vous n'être actuellement pas connecté."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "Une partie des contacts de ce réseau ne sont visibles qu'aux utilisateurs affiliés à une organisation."
 
-msgid "Role"
-msgstr "Rôle"
-
 msgid "Visiblity"
 msgstr "Visibilité"
 
-msgid "Phone"
-msgstr "Téléphone"
-
 msgid "E-Mail"
 msgstr "Email"
-
-msgid "Visibility"
-msgstr "Visibilité"
 
 msgid "Add Contact"
 msgstr "Ajouter contact"
@@ -1978,9 +2170,6 @@ msgstr "Échanges"
 msgid "Refresh"
 msgstr ""
 
-msgid "Public Peering Exchange Points"
-msgstr "Points d'échange publics"
-
 msgid "RS Peer"
 msgstr "RS Peer"
 
@@ -1989,9 +2178,6 @@ msgstr "Réseau - Lien du point d'échange"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
-
-msgid "Speed (mbit/sec)"
-msgstr "Vitesse (mbit/s)"
 
 msgid "Add Exchange Point"
 msgstr "Ajouter un point d'échange"
@@ -2014,57 +2200,16 @@ msgstr "Ajouter un point d'échange"
 msgid "Permissions"
 msgstr "Permissions"
 
-msgid "Website"
-msgstr "Site Internet"
-
-msgid "Address 1"
-msgstr "Adresse 1"
-
-msgid "Address 2"
-msgstr "Adresse 2"
-
-msgid "Zip-Code"
-msgstr "Code postal"
-
-msgid "CLLI Code"
-msgstr "Code CLLI"
-
 msgid "Technical E-mail"
 msgstr "Email technique"
-
-msgid "Technical Phone"
-msgstr "Téléphone technique"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "Changer l'adresse email"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "Ventes"
-
-msgid "Traffic Ratios"
-msgstr "Direction du trafic"
-
-msgid "Unicast IPv4"
-msgstr "Unicast IPv4"
-
-msgid "Multicast"
-msgstr "Multicast"
-
 msgid "Policy URL"
 msgstr "Policy URL"
-
-msgid "Multiple Locations"
-msgstr "Emplacements multiples"
-
-msgid "Ratio Requirement"
-msgstr "Pré-requis de direction"
-
-msgid "Contract Requirement"
-msgstr "Contrat requis"
 
 msgid "Add a new Network to your Organization."
 msgstr "Ajouter un nouveau réseau à votre organisation."
@@ -2081,14 +2226,8 @@ msgstr "Soumettre le réseau"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "pour obtenir de l'aide avec la création de votre réseau sur PeeringDB."
 
-msgid "Traffic Stats Website"
-msgstr "Site de statistiques du trafic"
-
 msgid "Policy E-mail"
 msgstr "Email administratif"
-
-msgid "Policy Phone"
-msgstr "Téléphone administratif"
 
 #, fuzzy
 #| msgid "IPv4 Prefixes"
@@ -2268,34 +2407,17 @@ msgstr "Emplacement"
 msgid "Country Code"
 msgstr "Code pays"
 
-msgid "Notes"
-msgstr "Remarques"
-
 msgid "Markdown enabled"
 msgstr "Markdown activé"
 
 msgid "Geocode"
 msgstr "Géocode"
 
-msgid "Technical Email"
-msgstr "Adresse email technique"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "Changer l'adresse email"
-
 msgid "Protocols Supported"
 msgstr "Protocoles supportés"
 
 msgid "Contact Information"
 msgstr "Informations de contact"
-
-msgid "Company Website"
-msgstr "Site Internet"
-
-msgid "Policy Email"
-msgstr "Email administratif"
 
 msgid "LAN"
 msgstr "Réseau local"
@@ -2315,26 +2437,6 @@ msgstr "Journal d'importation IXF"
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
 msgstr "URL d'export des membres IXF"
-
-msgid "Also Known As"
-msgstr "Alias"
-
-msgid "Route Server URL"
-msgstr "Route Server URL"
-
-msgid "Looking Glass URL"
-msgstr "Looking Glass URL"
-
-msgid "IPv4 Prefixes"
-msgstr "Préfixes IPv4"
-
-msgid "IPv6 Prefixes"
-msgstr "Préfixes IPv6"
-
-#, fuzzy
-#| msgid "Route Server"
-msgid "Never via route servers"
-msgstr "Serveur de routes"
 
 msgid "Last Updated"
 msgstr "Dernières mises à jour"
@@ -2358,9 +2460,6 @@ msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "Informations sur le règlement de peering"
-
-msgid "Peering Policy"
-msgstr "Règlement de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de bien vouloir patienter avant d'essayer de vous identifier à nouveau."
@@ -2387,9 +2486,6 @@ msgstr "Nom d'utilisateur ou mot de passe invalide."
 
 #~ msgid "Add LAN"
 #~ msgstr "Ajouter un réseau local"
-
-#~ msgid "Local ASN"
-#~ msgstr "Numéro d'AS local"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Les trois premiers octets du préfixe d'origine - p.ex. xxx.xxx.xxx"

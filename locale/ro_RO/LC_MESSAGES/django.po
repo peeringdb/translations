@@ -209,17 +209,290 @@ msgstr "Public"
 msgid "Kosovo"
 msgstr "Kosovo"
 
+msgid "Address 1"
+msgstr "Adresă 1"
+
+msgid "Address 2"
+msgstr "Adresă 2"
+
+msgid "City"
+msgstr "Oraș"
+
+msgid "State"
+msgstr "Stat"
+
+msgid "Zip-Code"
+msgstr "Cod poștal"
+
+msgid "Country"
+msgstr "Țară"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "Nume"
+
+msgid "Website"
+msgstr "Site web"
+
+msgid "Notes"
+msgstr "Notițe"
+
+msgid "Organization"
+msgstr "Organizație"
+
+msgid "Organizations"
+msgstr "Organizații"
+
+msgid "CLLI Code"
+msgstr "Cod CLLI"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "Geocod"
+
+msgid "NPA-NXX"
+msgstr "NPA-XXX"
+
+msgid "Technical Email"
+msgstr "E-mail tehnic"
+
+msgid "Technical Phone"
+msgstr "Telefon tehnic"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Schimbare e-mail"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Vânzări"
+
+msgid "Facility"
+msgstr "Facilitate"
+
+msgid "Facilities"
+msgstr "Facilități"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "Contactați-ne"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "Contactați-ne"
+
+msgid "Also Known As"
+msgstr "Cunoscut ca și"
+
+msgid "IRR as-set/route-set"
+msgstr "IRR as-set/route-set"
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr "Referință la un AS-SET sau ROUTE-SET în Registrul de Rutare Internet (IRR)"
+
+msgid "Looking Glass URL"
+msgstr "URL Looking Glass"
+
+msgid "Route Server URL"
+msgstr "URL Route Server"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "Doar privat"
+
+msgid "Traffic Levels"
+msgstr "Niveluri de trafic"
+
+msgid "Traffic Ratios"
+msgstr "Raporturi de trafic"
+
+msgid "Geographic Scope"
+msgstr "Domeniul geografic"
+
+msgid "Network Type"
+msgstr "Tip rețea"
+
+msgid "IPv4 Prefixes"
+msgstr "Prefixe IPv4"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr "Limita maximă recomandată de prefixe IPv4 pentru a fi configurată în sesiunile de peering pentru acest ASN"
 
+msgid "IPv6 Prefixes"
+msgstr "Prefixe IPv6"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr "Limită maximă recomandată de prefixe IPv6 pentru a fi configurată în sesiunile de peering pentru acest ASN"
 
+msgid "Unicast IPv4"
+msgstr "IPv4 Unicast"
+
+msgid "Multicast"
+msgstr "Multicast"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "IPv4 Unicast"
+
+msgid "Never via route servers"
+msgstr "Niciodată prin serverele de rute"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "Politica de peering"
+
+msgid "General Policy"
+msgstr "Politica generală"
+
+msgid "Multiple Locations"
+msgstr "Locații multiple"
+
+msgid "Ratio Requirement"
+msgstr "Cerințe legate de raport"
+
+msgid "Contract Requirement"
+msgstr "Contract necesar"
+
+msgid "Network"
+msgstr "Rețea"
+
+msgid "Networks"
+msgstr "Rețele"
+
+msgid "Long Name"
+msgstr "Nume lung"
+
+msgid "Continental Region"
+msgstr "Regiune continentală"
+
+msgid "Media Type"
+msgstr "Tip media"
+
+msgid "Company Website"
+msgstr "Website-ul companiei"
+
+msgid "Traffic Stats Website"
+msgstr "Adresa statisticilor de trafic"
+
+msgid "Policy Email"
+msgstr "E-mail politici"
+
+msgid "Policy Phone"
+msgstr "Telefon politici"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "Orice Exchange"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchanges"
+msgstr "Conexiuni la Internet Exchange-uri"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "Legătura dintre Internet Exchange și facilitate"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Internet Exchange facilities"
+msgstr "Îmbină facilitățile"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "Route Server"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "Orice Exchange"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchange LANs"
+msgstr "Conexiuni la Internet Exchange-uri"
+
+msgid "Protocol"
+msgstr "Protocol"
+
+msgid "Prefix"
+msgstr "Prefix"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "ASN local"
+
+#, fuzzy
+#| msgid "Suggest Facility"
+msgid "Network Facility"
+msgstr "Sugerează o facilitate"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Network Facilities"
+msgstr "Îmbină facilitățile"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "Viteză (Mbit/sec)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Regional"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "Peering public în Internet Exchange-uri"
+
+msgid "Public Peering Exchange Points"
+msgstr "Peering public în Internet Exchange-uri"
 
 msgid "Status"
 msgstr "Stare"
@@ -745,9 +1018,6 @@ msgstr "Sponsorizări"
 msgid "Sponsorship Expired"
 msgstr "Perioada de sponsorizare a expirat"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "Dacă este specificat, un click pe sponsorizare va trimite utilizatorul la această locație"
 
@@ -1044,12 +1314,6 @@ msgstr "Deținerea organizației a fost acordată automat utilizatorului"
 msgid "User"
 msgstr "Utilizator"
 
-msgid "Organization"
-msgstr "Organizație"
-
-msgid "Network"
-msgstr "Rețea"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1139,9 +1403,6 @@ msgstr "Am preluat înregistrarea RIR pentru ASN-ul specificat"
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "dar nu a găsit nicio potrivire cu utilizatorul solicitant. Iată adresele e-mail pe care le-am adunat"
 
-msgid "Name"
-msgstr "Nume"
-
 msgid "Requested by user"
 msgstr "Solicitat de utilizator"
 
@@ -1213,17 +1474,8 @@ msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și men
 msgid "Address"
 msgstr "Adresă"
 
-msgid "City"
-msgstr "Oraș"
-
-msgid "State"
-msgstr "Stat"
-
 msgid "Postal"
 msgstr "Poștal"
-
-msgid "Country"
-msgstr "Țară"
 
 msgid "click to select multiple"
 msgstr "faceți click pentru a selecta mai multe"
@@ -1234,9 +1486,6 @@ msgstr "Management"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "NPA-XXX"
-
 msgid "Reset"
 msgstr "Resetare"
 
@@ -1246,9 +1495,6 @@ msgstr "Căutare"
 msgid "Postal Code"
 msgstr "Cod poștal"
 
-msgid "Networks"
-msgstr "Rețele"
-
 msgid "No search results."
 msgstr "Nu există rezultate."
 
@@ -1256,20 +1502,8 @@ msgstr "Nu există rezultate."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea dvs., refaceți solicitarea..."
 
-msgid "Continental Region"
-msgstr "Regiune continentală"
-
 msgid "IP Block"
 msgstr "Bloc de adrese IP"
-
-msgid "Media Type"
-msgstr "Tip media"
-
-msgid "Network Type"
-msgstr "Tip rețea"
-
-msgid "Traffic Levels"
-msgstr "Niveluri de trafic"
 
 msgid "Traffic Ratio"
 msgstr "Raport de trafic"
@@ -1277,14 +1511,8 @@ msgstr "Raport de trafic"
 msgid "Primary ASN"
 msgstr "ASN primar"
 
-msgid "IRR as-set/route-set"
-msgstr "IRR as-set/route-set"
-
 msgid "General Peering Policy"
 msgstr "Politica generală de peering"
-
-msgid "Geographic Scope"
-msgstr "Domeniul geografic"
 
 msgid "Exchange Presence"
 msgstr "Prezență IXP"
@@ -1304,20 +1532,11 @@ msgstr "cunoscut ca și"
 msgid "ASN"
 msgstr "ASN"
 
-msgid "General Policy"
-msgstr "Politica generală"
-
 msgid "Network Scope"
 msgstr "Sfera rețelei"
 
 msgid "Exchanges"
 msgstr "Internet Exchange-uri"
-
-msgid "Facilities"
-msgstr "Facilități"
-
-msgid "Organizations"
-msgstr "Organizații"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracteristici pot funcționa diferit de mediul de producție. Nu stocați aici datele pe care intenționați să le păstrați"
@@ -1504,9 +1723,6 @@ msgstr "Parteneri"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Am trimis instrucțiuni la adresa dvs. de e-mail, cu condiția să fie în sistemul nostru. Aveți la dispoziție 30 de minute pentru a finaliza procesul."
-
-msgid "Email"
-msgstr "E-mail"
 
 msgid "Reset Password"
 msgstr "Resetează parola"
@@ -1771,20 +1987,11 @@ msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obțin
 msgid "Prefixes"
 msgstr "Prefixe"
 
-msgid "Protocol"
-msgstr "Protocol"
-
-msgid "Prefix"
-msgstr "Prefix"
-
 msgid "IXLAN Prefix"
 msgstr "Prefix IXLAN"
 
 msgid "Add Prefix"
 msgstr "Adăugați prefix"
-
-msgid "Facility"
-msgstr "Facilitate"
 
 msgid "No filter matches."
 msgstr "Nu se potrivește niciun filtru."
@@ -1837,34 +2044,17 @@ msgstr "Adresă IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "Nume lung"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "Regional"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Unele dintre contactele acestei rețele sunt ascunse deoarece acestea sunt vizibile numai pentru utilizatorii autentificați și momentan dvs. nu sunteți autentificat."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "Unele dintre contactele acestei rețele sunt ascunse, deoarece contul dvs. de utilizator nu este afiliat la nicio organizație."
 
-msgid "Role"
-msgstr "Rol"
-
 msgid "Visiblity"
 msgstr "Vizibilitate"
 
-msgid "Phone"
-msgstr "Telefon"
-
 msgid "E-Mail"
 msgstr "E-mail"
-
-msgid "Visibility"
-msgstr "Vizibilitate"
 
 msgid "Add Contact"
 msgstr "Adăugați contact"
@@ -1896,9 +2086,6 @@ msgstr "schimbări"
 msgid "Refresh"
 msgstr "Reîmprospătează"
 
-msgid "Public Peering Exchange Points"
-msgstr "Peering public în Internet Exchange-uri"
-
 msgid "RS Peer"
 msgstr "RS Peer"
 
@@ -1907,9 +2094,6 @@ msgstr "legătura dintre rețea și Internet Exchange"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
-
-msgid "Speed (mbit/sec)"
-msgstr "Viteză (Mbit/sec)"
 
 msgid "Add Exchange Point"
 msgstr "Adăugați Internet Exchange"
@@ -1932,57 +2116,16 @@ msgstr "Adăugați Internet Exchange"
 msgid "Permissions"
 msgstr "Permisiuni"
 
-msgid "Website"
-msgstr "Site web"
-
-msgid "Address 1"
-msgstr "Adresă 1"
-
-msgid "Address 2"
-msgstr "Adresă 2"
-
-msgid "Zip-Code"
-msgstr "Cod poștal"
-
-msgid "CLLI Code"
-msgstr "Cod CLLI"
-
 msgid "Technical E-mail"
 msgstr "E-mail tehnic"
-
-msgid "Technical Phone"
-msgstr "Telefon tehnic"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "Schimbare e-mail"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "Vânzări"
-
-msgid "Traffic Ratios"
-msgstr "Raporturi de trafic"
-
-msgid "Unicast IPv4"
-msgstr "IPv4 Unicast"
-
-msgid "Multicast"
-msgstr "Multicast"
-
 msgid "Policy URL"
 msgstr "URL-ul pentru politici"
-
-msgid "Multiple Locations"
-msgstr "Locații multiple"
-
-msgid "Ratio Requirement"
-msgstr "Cerințe legate de raport"
-
-msgid "Contract Requirement"
-msgstr "Contract necesar"
 
 msgid "Add a new Network to your Organization."
 msgstr "Adăugați o nouă rețea la organizația dvs."
@@ -1999,14 +2142,8 @@ msgstr "Trimiteți rețea"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "pentru asistență în legătură cu crearea rețelei dvs. în PeeringDB."
 
-msgid "Traffic Stats Website"
-msgstr "Adresa statisticilor de trafic"
-
 msgid "Policy E-mail"
 msgstr "E-mail politici"
-
-msgid "Policy Phone"
-msgstr "Telefon politici"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "prefix IPv4 sau IPv6"
@@ -2180,34 +2317,17 @@ msgstr "Locație"
 msgid "Country Code"
 msgstr "Codul de țară"
 
-msgid "Notes"
-msgstr "Notițe"
-
 msgid "Markdown enabled"
 msgstr "Markdown activat"
 
 msgid "Geocode"
 msgstr "Geocod"
 
-msgid "Technical Email"
-msgstr "E-mail tehnic"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "Schimbare e-mail"
-
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
 
 msgid "Contact Information"
 msgstr "Informații de contact"
-
-msgid "Company Website"
-msgstr "Website-ul companiei"
-
-msgid "Policy Email"
-msgstr "E-mail politici"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2223,24 +2343,6 @@ msgstr "Activați importul IX-F"
 
 msgid "IX-F Member Export URL"
 msgstr "Adresa URL a exportului de membri IX-F"
-
-msgid "Also Known As"
-msgstr "Cunoscut ca și"
-
-msgid "Route Server URL"
-msgstr "URL Route Server"
-
-msgid "Looking Glass URL"
-msgstr "URL Looking Glass"
-
-msgid "IPv4 Prefixes"
-msgstr "Prefixe IPv4"
-
-msgid "IPv6 Prefixes"
-msgstr "Prefixe IPv6"
-
-msgid "Never via route servers"
-msgstr "Niciodată prin serverele de rute"
 
 msgid "Last Updated"
 msgstr "Ultima actualizare"
@@ -2262,9 +2364,6 @@ msgstr "Postmortem"
 
 msgid "Peering Policy Information"
 msgstr "Informații privind politica de peering"
-
-msgid "Peering Policy"
-msgstr "Politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
@@ -2289,6 +2388,3 @@ msgstr "Numele de utilizator sau parola nu sunt valide."
 
 #~ msgid "Add LAN"
 #~ msgstr "Adăugați LAN"
-
-#~ msgid "Local ASN"
-#~ msgstr "ASN local"

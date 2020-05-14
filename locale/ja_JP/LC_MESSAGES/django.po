@@ -209,17 +209,294 @@ msgstr "パブリック"
 msgid "Kosovo"
 msgstr "コソボ(Kosovo)"
 
+msgid "Address 1"
+msgstr "アドレス 1"
+
+msgid "Address 2"
+msgstr "アドレス 2"
+
+msgid "City"
+msgstr "都市名"
+
+msgid "State"
+msgstr "都道府県・州"
+
+msgid "Zip-Code"
+msgstr "郵便番号"
+
+msgid "Country"
+msgstr "国名"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Website"
+msgstr "Web サイト"
+
+msgid "Notes"
+msgstr "メモ"
+
+msgid "Organization"
+msgstr "組織名"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "組織名"
+
+msgid "CLLI Code"
+msgstr "CLLI コード"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "ジオコード"
+
+msgid "NPA-NXX"
+msgstr "NPA-NXX"
+
+msgid "Technical Email"
+msgstr "技術者のメールアドレス"
+
+msgid "Technical Phone"
+msgstr "技術者の電話番号"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "メールアドレスを変更する"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "営業部"
+
+msgid "Facility"
+msgstr "データセンタ"
+
+msgid "Facilities"
+msgstr "データセンタ"
+
+msgid "Role"
+msgstr "役割"
+
+msgid "Visibility"
+msgstr "表示・非表示"
+
+msgid "Phone"
+msgstr "電話"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "連絡先"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "連絡先"
+
+msgid "Also Known As"
+msgstr "別名"
+
+msgid "IRR as-set/route-set"
+msgstr ""
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr ""
+
+msgid "Looking Glass URL"
+msgstr "Looking Glass の URL"
+
+msgid "Route Server URL"
+msgstr "ルートサーバの URL"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "Private Only"
+
+msgid "Traffic Levels"
+msgstr "トラフィック量"
+
+msgid "Traffic Ratios"
+msgstr "トラフィックの方向"
+
+msgid "Geographic Scope"
+msgstr "地域名"
+
+msgid "Network Type"
+msgstr "ネットワークの種類"
+
+msgid "IPv4 Prefixes"
+msgstr "IPv4 プレフィクス数"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr "IPv6 プレフィクス数"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr "ユニキャスト IPv4"
+
+msgid "Multicast"
+msgstr "マルチキャスト"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "ユニキャスト IPv4"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "ルートサーバ"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "ピアリングポリシー"
+
+msgid "General Policy"
+msgstr "ピアリングポリシー(概要)"
+
+msgid "Multiple Locations"
+msgstr "複数地域での接続"
+
+msgid "Ratio Requirement"
+msgstr "トラフィック割合の条件"
+
+msgid "Contract Requirement"
+msgstr "コンタクトに関する条件"
+
+msgid "Network"
+msgstr "ネットワーク"
+
+msgid "Networks"
+msgstr "ネットワーク"
+
+msgid "Long Name"
+msgstr "ロングネーム"
+
+msgid "Continental Region"
+msgstr "地域"
+
+msgid "Media Type"
+msgstr "通信プロトコル"
+
+msgid "Company Website"
+msgstr "Web サイト"
+
+msgid "Traffic Stats Website"
+msgstr "トラフィック量グラフ"
+
+msgid "Policy Email"
+msgstr "ポリシー担当者のメールアドレス"
+
+msgid "Policy Phone"
+msgstr "ポリシー担当者の電話番号"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "あらゆるエクスチェンジ"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchanges"
+msgstr "エクスチェンジ接続数"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "エクスチェンジ - データセンタ のリンク"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Internet Exchange facilities"
+msgstr "データセンタをマージする"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "ルートサーバ"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "あらゆるエクスチェンジ"
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Internet Exchange LANs"
+msgstr "エクスチェンジ接続数"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "プレフィクス"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "AS 番号"
+
+#, fuzzy
+#| msgid "Suggest Facility"
+msgid "Network Facility"
+msgstr "データセンタに情報追加の提案"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Network Facilities"
+msgstr "データセンタをマージする"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "帯域 (Mbit/sec)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "特定地域"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "接続しているエクスチェンジポイント"
+
+msgid "Public Peering Exchange Points"
+msgstr "接続しているエクスチェンジポイント"
 
 msgid "Status"
 msgstr "ステータス"
@@ -771,9 +1048,6 @@ msgstr "スポンサーシップ(Sponsorships)"
 msgid "Sponsorship Expired"
 msgstr "スポンサーシップが失効しました"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "スポンサーをクリックすると、この場所にユーザを移動します"
 
@@ -1070,12 +1344,6 @@ msgstr "組織の所有権がユーザに許可されました"
 msgid "User"
 msgstr "ユーザ"
 
-msgid "Organization"
-msgstr "組織名"
-
-msgid "Network"
-msgstr "ネットワーク"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1165,9 +1433,6 @@ msgstr "その対象の AS 番号の RIR エントリーを検索しました"
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "しかし、リクエストしたユーザと一致するものは見つかりませんでした。データにあったメールアドレスはこちらになります"
 
-msgid "Name"
-msgstr "名前"
-
 msgid "Requested by user"
 msgstr "ユーザによってリクエストされました"
 
@@ -1239,17 +1504,8 @@ msgstr "IX とデータセンタは、データベースに情報を登録・追
 msgid "Address"
 msgstr "アドレス"
 
-msgid "City"
-msgstr "都市名"
-
-msgid "State"
-msgstr "都道府県・州"
-
 msgid "Postal"
 msgstr "郵便"
-
-msgid "Country"
-msgstr "国名"
 
 msgid "click to select multiple"
 msgstr "で複数選択可能です"
@@ -1260,9 +1516,6 @@ msgstr "管理組織"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "NPA-NXX"
-
 msgid "Reset"
 msgstr "リセット"
 
@@ -1272,9 +1525,6 @@ msgstr "検索"
 msgid "Postal Code"
 msgstr "郵便番号"
 
-msgid "Networks"
-msgstr "ネットワーク"
-
 msgid "No search results."
 msgstr "検索条件に一致するものはありませんでした"
 
@@ -1282,20 +1532,8 @@ msgstr "検索条件に一致するものはありませんでした"
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "%(row_limit)s 個以上のエントリーがあなたの検索に合致しています。検索条件を見直してみてください"
 
-msgid "Continental Region"
-msgstr "地域"
-
 msgid "IP Block"
 msgstr "IP ブロック"
-
-msgid "Media Type"
-msgstr "通信プロトコル"
-
-msgid "Network Type"
-msgstr "ネットワークの種類"
-
-msgid "Traffic Levels"
-msgstr "トラフィック量"
 
 msgid "Traffic Ratio"
 msgstr "トラフィックの方向"
@@ -1303,14 +1541,8 @@ msgstr "トラフィックの方向"
 msgid "Primary ASN"
 msgstr "Primary AS 番号"
 
-msgid "IRR as-set/route-set"
-msgstr ""
-
 msgid "General Peering Policy"
 msgstr "ピアリングポリシー(概要)"
-
-msgid "Geographic Scope"
-msgstr "地域名"
 
 msgid "Exchange Presence"
 msgstr "接続エクスチェンジ"
@@ -1330,22 +1562,11 @@ msgstr "別名"
 msgid "ASN"
 msgstr "AS 番号"
 
-msgid "General Policy"
-msgstr "ピアリングポリシー(概要)"
-
 msgid "Network Scope"
 msgstr "Network Scope"
 
 msgid "Exchanges"
 msgstr "エクスチェンジ"
-
-msgid "Facilities"
-msgstr "データセンタ"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Organizations"
-msgstr "組織名"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -1536,9 +1757,6 @@ msgstr "パートナー"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "あなたのメールアドレスに説明書を送りました。プロセス完了まで30分お待ちください"
-
-msgid "Email"
-msgstr "Email"
 
 msgid "Reset Password"
 msgstr "パスワードリセット"
@@ -1805,20 +2023,11 @@ msgstr "まもなく、このエンティティについての更新されたジ
 msgid "Prefixes"
 msgstr "プレフィクス"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "プレフィクス"
-
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
 
 msgid "Add Prefix"
 msgstr "プレフィクスを追加"
-
-msgid "Facility"
-msgstr "データセンタ"
 
 msgid "No filter matches."
 msgstr "フィルタに一致するものはありませんでした"
@@ -1879,34 +2088,17 @@ msgstr "IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "ロングネーム"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "特定地域"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "あなたは現在ログインしていない為、いくつかのネットワークコンタクト先が非表示になっています。認証済みのユーザでログインすると閲覧可能となります"
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "あなたのアカウントがどの組織にも所属していない為、いくつかのネットワークコンテ区と先が非表示になっています。"
 
-msgid "Role"
-msgstr "役割"
-
 msgid "Visiblity"
 msgstr "表示・非表示"
 
-msgid "Phone"
-msgstr "電話"
-
 msgid "E-Mail"
 msgstr "メール"
-
-msgid "Visibility"
-msgstr "表示・非表示"
 
 msgid "Add Contact"
 msgstr "このコンタクト先を追加"
@@ -1944,9 +2136,6 @@ msgstr "エクスチェンジ"
 msgid "Refresh"
 msgstr ""
 
-msgid "Public Peering Exchange Points"
-msgstr "接続しているエクスチェンジポイント"
-
 msgid "RS Peer"
 msgstr "RS ピア"
 
@@ -1955,9 +2144,6 @@ msgstr "ネットワーク - エクスチェンジ のリンク"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
-
-msgid "Speed (mbit/sec)"
-msgstr "帯域 (Mbit/sec)"
 
 msgid "Add Exchange Point"
 msgstr "このエクスチェンジポイントを追加"
@@ -1980,57 +2166,16 @@ msgstr "エクスチェンジを追加"
 msgid "Permissions"
 msgstr "パーミッション"
 
-msgid "Website"
-msgstr "Web サイト"
-
-msgid "Address 1"
-msgstr "アドレス 1"
-
-msgid "Address 2"
-msgstr "アドレス 2"
-
-msgid "Zip-Code"
-msgstr "郵便番号"
-
-msgid "CLLI Code"
-msgstr "CLLI コード"
-
 msgid "Technical E-mail"
 msgstr "技術者のメールアドレス"
-
-msgid "Technical Phone"
-msgstr "技術者の電話番号"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "メールアドレスを変更する"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "営業部"
-
-msgid "Traffic Ratios"
-msgstr "トラフィックの方向"
-
-msgid "Unicast IPv4"
-msgstr "ユニキャスト IPv4"
-
-msgid "Multicast"
-msgstr "マルチキャスト"
-
 msgid "Policy URL"
 msgstr "ポリシー URL"
-
-msgid "Multiple Locations"
-msgstr "複数地域での接続"
-
-msgid "Ratio Requirement"
-msgstr "トラフィック割合の条件"
-
-msgid "Contract Requirement"
-msgstr "コンタクトに関する条件"
 
 msgid "Add a new Network to your Organization."
 msgstr "あなたの組織に新しいネットワークを追加する事が出来ます"
@@ -2047,14 +2192,8 @@ msgstr "ネットワークを登録"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "PeeringDB であなたのネットワークを作成する手助けの為に"
 
-msgid "Traffic Stats Website"
-msgstr "トラフィック量グラフ"
-
 msgid "Policy E-mail"
 msgstr "ポリシー担当者のメールアドレス"
-
-msgid "Policy Phone"
-msgstr "ポリシー担当者の電話番号"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 もしくは IPv6 のプレフィクス"
@@ -2230,34 +2369,17 @@ msgstr "住所"
 msgid "Country Code"
 msgstr "国コード"
 
-msgid "Notes"
-msgstr "メモ"
-
 msgid "Markdown enabled"
 msgstr "マークダウン記法が利用可能です"
 
 msgid "Geocode"
 msgstr "ジオコード"
 
-msgid "Technical Email"
-msgstr "技術者のメールアドレス"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "メールアドレスを変更する"
-
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル(Protocols Supported)"
 
 msgid "Contact Information"
 msgstr "連絡先情報"
-
-msgid "Company Website"
-msgstr "Web サイト"
-
-msgid "Policy Email"
-msgstr "ポリシー担当者のメールアドレス"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2277,26 +2399,6 @@ msgstr "IXF Import のログ(IXF Import Log)"
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
 msgstr "IXF メンバー出力 URL"
-
-msgid "Also Known As"
-msgstr "別名"
-
-msgid "Route Server URL"
-msgstr "ルートサーバの URL"
-
-msgid "Looking Glass URL"
-msgstr "Looking Glass の URL"
-
-msgid "IPv4 Prefixes"
-msgstr "IPv4 プレフィクス数"
-
-msgid "IPv6 Prefixes"
-msgstr "IPv6 プレフィクス数"
-
-#, fuzzy
-#| msgid "Route Server"
-msgid "Never via route servers"
-msgstr "ルートサーバ"
 
 msgid "Last Updated"
 msgstr "最新のアップデート"
@@ -2320,9 +2422,6 @@ msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "ピアリングポリシー情報"
-
-msgid "Peering Policy"
-msgstr "ピアリングポリシー"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
@@ -2349,9 +2448,6 @@ msgstr "無効なユーザ名・パスワードです"
 
 #~ msgid "Add LAN"
 #~ msgstr "LAN を追加"
-
-#~ msgid "Local ASN"
-#~ msgstr "AS 番号"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "元プレフィクスの左側3オクテット - 例. xxx.xxx.xxx"

@@ -209,17 +209,294 @@ msgstr "Δημόσιο"
 msgid "Kosovo"
 msgstr "Kosovo"
 
+msgid "Address 1"
+msgstr "Διεύθυνση 1"
+
+msgid "Address 2"
+msgstr "Διεύθυνση 2"
+
+msgid "City"
+msgstr "Πόλη"
+
+msgid "State"
+msgstr "Πολιτεία"
+
+msgid "Zip-Code"
+msgstr "Tαχυδρομικός Κωδικός"
+
+msgid "Country"
+msgstr "Χώρα"
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Name"
+msgstr "Όνομα"
+
+msgid "Website"
+msgstr "Ιστοσελίδα"
+
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+msgid "Organization"
+msgstr "Οργανισμός"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Organizations"
+msgstr "Οργανισμός"
+
+msgid "CLLI Code"
+msgstr "Κωδικός CLII"
+
+#, fuzzy
+#| msgid "Geocode"
+msgid "Rencode"
+msgstr "Γεωκωδικός (Geocode)"
+
+msgid "NPA-NXX"
+msgstr "ΝPA-NXX"
+
+msgid "Technical Email"
+msgstr "Email για τεχνικά θέματα"
+
+msgid "Technical Phone"
+msgstr "Τηλέφωνο για τεχνικά ζητήματα"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Sales Email"
+msgstr "Αλλαγή email"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Sales Phone"
+msgstr "Πωλήσεις"
+
+msgid "Facility"
+msgstr "Εγκατάσταση"
+
+msgid "Facilities"
+msgstr "Eγκαταστάσεις"
+
+msgid "Role"
+msgstr "Ρόλος"
+
+msgid "Visibility"
+msgstr "Ορατότητα"
+
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact"
+msgstr "Επικοινωνήστε μαζί μας"
+
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contacts"
+msgstr "Επικοινωνήστε μαζί μας"
+
+msgid "Also Known As"
+msgstr "Γνωστός/η/ο και ως"
+
+msgid "IRR as-set/route-set"
+msgstr ""
+
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr ""
+
+msgid "Looking Glass URL"
+msgstr "Looking Glass URL"
+
+msgid "Route Server URL"
+msgstr "Route Server URL"
+
+#, fuzzy
+#| msgid "Private Only"
+msgid "Private notes"
+msgstr "Ιδιωτικές Μόνο"
+
+msgid "Traffic Levels"
+msgstr "Επίπεδα Κίνησης"
+
+msgid "Traffic Ratios"
+msgstr "Αναλογίες Κίνησης"
+
+msgid "Geographic Scope"
+msgstr "Γεωγραφικό Εύρος"
+
+msgid "Network Type"
+msgstr "Tύπος Δικτύου"
+
+msgid "IPv4 Prefixes"
+msgstr "IPv4 Prefixes"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "IPv6 Prefixes"
+msgstr "IPv6 Prefixes"
+
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgstr ""
 
+msgid "Unicast IPv4"
+msgstr "Unicast IPv4"
+
+msgid "Multicast"
+msgstr "Multicast"
+
+#, fuzzy
+#| msgid "Unicast IPv4"
+msgid "Unicast IPv6"
+msgstr "Unicast IPv4"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Never via route servers"
+msgstr "Route Server"
+
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
+
+msgid "Peering Policy"
+msgstr "Πολιτική Peering"
+
+msgid "General Policy"
+msgstr "Γενική Πολιτική"
+
+msgid "Multiple Locations"
+msgstr "Πολλαπλές Τοποθεσίες"
+
+msgid "Ratio Requirement"
+msgstr "Απαιτήσεις Αναλογίας"
+
+msgid "Contract Requirement"
+msgstr "Συμβατικές Απαιτήσεις"
+
+msgid "Network"
+msgstr "Δίκτυο"
+
+msgid "Networks"
+msgstr "Δίκτυα"
+
+msgid "Long Name"
+msgstr "Πλήρες Όνομα"
+
+msgid "Continental Region"
+msgstr "Hπειρωτική Περιοχή"
+
+msgid "Media Type"
+msgstr "Tύπος Μέσου (Media Type)"
+
+msgid "Company Website"
+msgstr "Εταιρική Ιστοσελίδα"
+
+msgid "Traffic Stats Website"
+msgstr "Ιστοσελίδα Στατιστικών Κίνησης"
+
+msgid "Policy Email"
+msgstr "Email για θέματα Πολιτικής"
+
+msgid "Policy Phone"
+msgstr "Τηλέφωνο για θέματα πολιτικής"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange"
+msgstr "Οποιοδήποτε Exchange"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchanges"
+msgstr "Exchange"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Internet Exchange facility"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Internet Exchange facilities"
+msgstr "Eγκαταστάσεις"
+
+msgid "Description"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server ASN"
+msgstr "Route Server"
+
+msgid "ARP sponging MAC"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Internet Exchange LAN"
+msgstr "Οποιοδήποτε Exchange"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Internet Exchange LANs"
+msgstr "Exchange"
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Prefix"
+msgstr "Prefix"
+
+msgid "Internet Exchange LAN prefix"
+msgstr ""
+
+msgid "Internet Exchange LAN prefixes"
+msgstr ""
+
+msgid "Local ASN"
+msgstr "Τοπικό ASN"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Network Facility"
+msgstr "Εγκατάσταση"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Network Facilities"
+msgstr "Eγκαταστάσεις"
+
+msgid "RS peer"
+msgstr ""
+
+msgid "Speed (mbit/sec)"
+msgstr "Ταχύτητα (mbit/sec)"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Operational"
+msgstr "Τοπικό"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Exchange Point"
+msgstr "Δημόσια Peering Exchange Points"
+
+msgid "Public Peering Exchange Points"
+msgstr "Δημόσια Peering Exchange Points"
 
 msgid "Status"
 msgstr "Κατάσταση"
@@ -777,9 +1054,6 @@ msgstr "Υπό τις Αιγίδες"
 msgid "Sponsorship Expired"
 msgstr "Η αιγίδα έχει εκπνεύσει"
 
-msgid "URL"
-msgstr "URL"
-
 msgid "If specified clicking the sponsorship will take the user to this location"
 msgstr "Αν έχει ορισθεί, κλικάροντας την αιγίδα θα μεταφέρει τον χρήστη σε αυτή την τοποθεσία"
 
@@ -1078,12 +1352,6 @@ msgstr "Η ιδιοκτησία του οργανισμού δόθηκε αυτ�
 msgid "User"
 msgstr "Χρήστης"
 
-msgid "Organization"
-msgstr "Οργανισμός"
-
-msgid "Network"
-msgstr "Δίκτυο"
-
 msgid "AS"
 msgstr "AS"
 
@@ -1173,9 +1441,6 @@ msgstr "Ανακτήσαμε την καταχώρηση RIR για το συγ�
 msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgstr "αλλά δεν βρήκαμε καταχώρηση με τον/την αιτούντα χρήστη. Σας παραθέτουμε τη λίστα διευθύνσεων email που αποκομίσαμε"
 
-msgid "Name"
-msgstr "Όνομα"
-
 msgid "Requested by user"
 msgstr "Αιτήθηκε από τον/ην χρήστη"
 
@@ -1247,17 +1512,8 @@ msgstr ""
 msgid "Address"
 msgstr "Διεύθυνση"
 
-msgid "City"
-msgstr "Πόλη"
-
-msgid "State"
-msgstr "Πολιτεία"
-
 msgid "Postal"
 msgstr "Ταχυδρομικός Κωδικός"
-
-msgid "Country"
-msgstr "Χώρα"
 
 msgid "click to select multiple"
 msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
@@ -1268,9 +1524,6 @@ msgstr "Διαχείριση"
 msgid "CLLI"
 msgstr "CLLI"
 
-msgid "NPA-NXX"
-msgstr "ΝPA-NXX"
-
 msgid "Reset"
 msgstr "Επαναφορά"
 
@@ -1280,9 +1533,6 @@ msgstr "Αναζήτηση"
 msgid "Postal Code"
 msgstr "Ταχυδρομικός Κωδικός"
 
-msgid "Networks"
-msgstr "Δίκτυα"
-
 msgid "No search results."
 msgstr "Δεν βρέθηκε τίποτα με τα κριτήρια αναζήτησής σας."
 
@@ -1290,20 +1540,8 @@ msgstr "Δεν βρέθηκε τίποτα με τα κριτήρια αναζή
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Βρέθηκαν περισσότερες από %(row_limit)s καταχωρήσεις, παρακαλούμε συγκεκριμενοποιήστε το αίτημά σας..."
 
-msgid "Continental Region"
-msgstr "Hπειρωτική Περιοχή"
-
 msgid "IP Block"
 msgstr "Mπλοκ IP"
-
-msgid "Media Type"
-msgstr "Tύπος Μέσου (Media Type)"
-
-msgid "Network Type"
-msgstr "Tύπος Δικτύου"
-
-msgid "Traffic Levels"
-msgstr "Επίπεδα Κίνησης"
 
 msgid "Traffic Ratio"
 msgstr "Αναλογία Κίνησης"
@@ -1311,14 +1549,8 @@ msgstr "Αναλογία Κίνησης"
 msgid "Primary ASN"
 msgstr "Kύριο ASN"
 
-msgid "IRR as-set/route-set"
-msgstr ""
-
 msgid "General Peering Policy"
 msgstr "Γενική Πολιτική Peering"
-
-msgid "Geographic Scope"
-msgstr "Γεωγραφικό Εύρος"
 
 #, fuzzy
 #| msgid "Unique Public Exchange Presences"
@@ -1342,22 +1574,11 @@ msgstr "γνωστός/η/ο και ως"
 msgid "ASN"
 msgstr "ASN"
 
-msgid "General Policy"
-msgstr "Γενική Πολιτική"
-
 msgid "Network Scope"
 msgstr "Δικτυακό Εύρος"
 
 msgid "Exchanges"
 msgstr "Exchanges"
-
-msgid "Facilities"
-msgstr "Eγκαταστάσεις"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Organizations"
-msgstr "Οργανισμός"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -1562,9 +1783,6 @@ msgstr "Συνέταιροι"
 
 msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
 msgstr "Αποστείλλαμε οδηγίες στην διεύθυνση email σας, δεδομένου πως είναι καταχωρημένη στο σύστημά μας. Έχετε 30 λεπτά να ολοκληρώσετε τη διαδικασία."
-
-msgid "Email"
-msgstr "Email"
 
 msgid "Reset Password"
 msgstr "Επανάκτηση Κωδικού"
@@ -1835,20 +2053,11 @@ msgstr "Ανανεωμένα στοιχεία geocode για αυτή την ο�
 msgid "Prefixes"
 msgstr "Prefix"
 
-msgid "Protocol"
-msgstr ""
-
-msgid "Prefix"
-msgstr "Prefix"
-
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
 
 msgid "Add Prefix"
 msgstr "Προσθήκη Prefix"
-
-msgid "Facility"
-msgstr "Εγκατάσταση"
 
 msgid "No filter matches."
 msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
@@ -1911,34 +2120,17 @@ msgstr "IP"
 msgid "Not operational"
 msgstr ""
 
-msgid "Long Name"
-msgstr "Πλήρες Όνομα"
-
-#, fuzzy
-#| msgid "Regional"
-msgid "Operational"
-msgstr "Τοπικό"
-
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς είναι ορατές μόνο σε συνδεδεμένους χρήστες και εσείς δεν είστε συνδεδεμένος."
 
 msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς τα στοιχεία του λογαριασμού σας δεν είναι συσχετισμένα με κάποιον οργανισμό."
 
-msgid "Role"
-msgstr "Ρόλος"
-
 msgid "Visiblity"
 msgstr "Ορατότητα"
 
-msgid "Phone"
-msgstr "Τηλέφωνο"
-
 msgid "E-Mail"
 msgstr "E-Mail"
-
-msgid "Visibility"
-msgstr "Ορατότητα"
 
 msgid "Add Contact"
 msgstr "Προσθήκη Επαφής"
@@ -1976,9 +2168,6 @@ msgstr "Exchanges"
 msgid "Refresh"
 msgstr ""
 
-msgid "Public Peering Exchange Points"
-msgstr "Δημόσια Peering Exchange Points"
-
 msgid "RS Peer"
 msgstr "RS Peer"
 
@@ -1987,9 +2176,6 @@ msgstr "Ζεύξη Δικτύου - Exchange"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
-
-msgid "Speed (mbit/sec)"
-msgstr "Ταχύτητα (mbit/sec)"
 
 msgid "Add Exchange Point"
 msgstr "Προσθήκη Exchange Point"
@@ -2012,57 +2198,16 @@ msgstr "Προσθήκη Exchange"
 msgid "Permissions"
 msgstr "Δικαιώματα"
 
-msgid "Website"
-msgstr "Ιστοσελίδα"
-
-msgid "Address 1"
-msgstr "Διεύθυνση 1"
-
-msgid "Address 2"
-msgstr "Διεύθυνση 2"
-
-msgid "Zip-Code"
-msgstr "Tαχυδρομικός Κωδικός"
-
-msgid "CLLI Code"
-msgstr "Κωδικός CLII"
-
 msgid "Technical E-mail"
 msgstr "Ε-mail για τεχνικά ζητήματα"
-
-msgid "Technical Phone"
-msgstr "Τηλέφωνο για τεχνικά ζητήματα"
 
 #, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
 msgstr "Αλλαγή email"
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Sales Phone"
-msgstr "Πωλήσεις"
-
-msgid "Traffic Ratios"
-msgstr "Αναλογίες Κίνησης"
-
-msgid "Unicast IPv4"
-msgstr "Unicast IPv4"
-
-msgid "Multicast"
-msgstr "Multicast"
-
 msgid "Policy URL"
 msgstr "Διεύθυνση Πολιτικής (Policy URL)"
-
-msgid "Multiple Locations"
-msgstr "Πολλαπλές Τοποθεσίες"
-
-msgid "Ratio Requirement"
-msgstr "Απαιτήσεις Αναλογίας"
-
-msgid "Contract Requirement"
-msgstr "Συμβατικές Απαιτήσεις"
 
 msgid "Add a new Network to your Organization."
 msgstr "Προσθέστε ένα νέο Δίκτυο στον Οργανισμό σας"
@@ -2079,14 +2224,8 @@ msgstr "Υποβολή Δικτύου"
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "για βοήθεια στη δημιουργία του δικτύου σας στο PeeringDB."
 
-msgid "Traffic Stats Website"
-msgstr "Ιστοσελίδα Στατιστικών Κίνησης"
-
 msgid "Policy E-mail"
 msgstr "Ε-mail για θέματα πολιτικής"
-
-msgid "Policy Phone"
-msgstr "Τηλέφωνο για θέματα πολιτικής"
 
 #, fuzzy
 #| msgid "IPv4 Prefixes"
@@ -2266,34 +2405,17 @@ msgstr "Τοποθεσία"
 msgid "Country Code"
 msgstr "Κωδικός Χώρας"
 
-msgid "Notes"
-msgstr "Σημειώσεις"
-
 msgid "Markdown enabled"
 msgstr "Η Markdown ενεργοποιήθηκε"
 
 msgid "Geocode"
 msgstr "Γεωκωδικός (Geocode)"
 
-msgid "Technical Email"
-msgstr "Email για τεχνικά θέματα"
-
-#, fuzzy
-#| msgid "Change Email"
-msgid "Sales Email"
-msgstr "Αλλαγή email"
-
 msgid "Protocols Supported"
 msgstr "Υποστηριζόμενα Πρωτόκολλα"
 
 msgid "Contact Information"
 msgstr "Πληροφορίες Επικοινωνίας"
-
-msgid "Company Website"
-msgstr "Εταιρική Ιστοσελίδα"
-
-msgid "Policy Email"
-msgstr "Email για θέματα Πολιτικής"
 
 msgid "LAN"
 msgstr "LAN"
@@ -2313,26 +2435,6 @@ msgstr "Ημερολόγιο Εισαγωγών IXF"
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
 msgstr "URL εξαγωγής μελών IXF"
-
-msgid "Also Known As"
-msgstr "Γνωστός/η/ο και ως"
-
-msgid "Route Server URL"
-msgstr "Route Server URL"
-
-msgid "Looking Glass URL"
-msgstr "Looking Glass URL"
-
-msgid "IPv4 Prefixes"
-msgstr "IPv4 Prefixes"
-
-msgid "IPv6 Prefixes"
-msgstr "IPv6 Prefixes"
-
-#, fuzzy
-#| msgid "Route Server"
-msgid "Never via route servers"
-msgstr "Route Server"
 
 msgid "Last Updated"
 msgstr "Τελευταία Ενημέρωση"
@@ -2356,9 +2458,6 @@ msgstr ""
 
 msgid "Peering Policy Information"
 msgstr "Πληροφορίες Πολιτικής Peering"
-
-msgid "Peering Policy"
-msgstr "Πολιτική Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
@@ -2385,9 +2484,6 @@ msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
 
 #~ msgid "Add LAN"
 #~ msgstr "Προσθήκη LAN"
-
-#~ msgid "Local ASN"
-#~ msgstr "Τοπικό ASN"
 
 #~ msgid "Three leftmost octets of the original prefix - eg. xxx.xxx.xxx"
 #~ msgstr "Ta τρία πιο αριστερά octets του αρχικού prefix - π.χ. xxx.xxx.xxx"
