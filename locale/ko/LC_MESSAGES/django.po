@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-17 09:58+0000\n"
+"PO-Revision-Date: 2020-05-17 10:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -24,7 +24,7 @@ msgid "ATM"
 msgstr "ATM"
 
 msgid "Multiple"
-msgstr "다수의"
+msgstr "여러 개"
 
 msgid "Abuse"
 msgstr "남용"
@@ -108,7 +108,7 @@ msgid "North America"
 msgstr "북미"
 
 msgid "Asia Pacific"
-msgstr "아시아퍼시픽"
+msgstr "아시아"
 
 msgid "Europe"
 msgstr "유럽"
@@ -265,15 +265,11 @@ msgstr "테크니컬 이메일"
 msgid "Technical Phone"
 msgstr "테크니컬 폰"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales Email"
-msgstr "이메일 변경"
+msgstr "영업 이메일"
 
-#, fuzzy
-#| msgid "Sales"
 msgid "Sales Phone"
-msgstr "영업"
+msgstr "영업 연락처"
 
 msgid "Facility"
 msgstr "시설"
@@ -481,10 +477,8 @@ msgstr ""
 msgid "Speed (mbit/sec)"
 msgstr "속도 (mbit/초)"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Operational"
-msgstr "지역"
+msgstr "작동 가능"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -1303,20 +1297,17 @@ msgstr "사용자"
 msgid "AS"
 msgstr "AS"
 
-#, fuzzy, python-format
-#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, python-format
 msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "사용자 '%(u_name)s의 AS%(asn)s에 대한 가입 요청 중에 조직 %(o_name)s %(o_id)s가 자동으로 생성됨"
+msgstr "조직 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) %(u_name)s가 AS%(asn)s 에 대한 사용자 '%(u_name)s's 의 소속 요청 중에 자동으로 생성됨"
 
-#, fuzzy, python-format
-#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, python-format
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "%(n_name)s(%(n_id)s)는 사용자 '%(u_name)s'의 AS%(asn)s에 대한 소속 요청 중에 자동으로 생성됨"
+msgstr "네트워크 %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) 가 AS%(asn)s 에 대한 사용자 '%(u_name)s's 의 소속 요청 중 자동으로 생성됨"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "사용자 '%(u_name)s' 는 %(o_name)s (%(o_id)s) 조직 아래에 네트워크 %(n_name)s AS%(n_asn)s (%(n_id)s) 를 생성했다."
+msgstr "사용자 '%(u_name)s'는 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) 조직 아래 %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>)네트워크를 생성했다."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었다."
@@ -1525,7 +1516,7 @@ msgid "Exchanges"
 msgstr "익스체인지"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr "이것은 PeeringDB의 베타/테스트 인스턴스 입니다. 일부 특성은 생산과 다르게 작용할 수 있습니다. 보관하려는 데이터를 여기에 저장하지 마십시오"
+msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성은 다르게 작용할 수 있습니다. 보관하려는 데이터를 여기에 저장하지 마십시오"
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
@@ -1582,7 +1573,7 @@ msgid "Take me home"
 msgstr "홈페이지로 이동"
 
 msgid "All Rights Reserved. By using this service, you agree to adhere to our"
-msgstr "무단 전재 금지. 이 서비스를 이용함으로써, 당신은 다음 정책을 지키는 것에 동의한다"
+msgstr "무단 전재 금지. 이 서비스를 이용함으로써, 당신은 다음 정책을 지키는 것에 동의합니다"
 
 msgid "AUP"
 msgstr "AUP(제한적 사용 정책)"
@@ -1591,7 +1582,7 @@ msgid "Privacy Policy"
 msgstr "개인정보보호정책"
 
 msgid "About"
-msgstr "에 관한"
+msgstr "관련 정보"
 
 msgid "Register"
 msgstr "등록"
@@ -1660,10 +1651,10 @@ msgid "Join. Search. Grow your network."
 msgstr "가입하세요. 검색하세요. 당신의 네트워크를 확장하세요."
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
-msgstr "PeeringDB는 자유롭게 이용할 수 있고, 사용자가 유지하며, 네트워크와 상호 접속 데이터를 위한 곳입니다. 데이터베이스는 인터넷 익스체인지 포인트(IXP), 데이터 센터 및 기타 상호 접속 시설에서의 네트워크의 글로벌 상호 접속을 용이하게 하며, 상호 접속 의사결정의 첫번째 단계입니다."
+msgstr "PeeringDB는 자유롭게 이용할 수 있고, 사용자가 관리하며, 네트워크와 상호 접속 데이터를 위한 곳입니다. 데이터베이스는 인터넷 익스체인지 포인트(IXP), 데이터 센터 및 기타 상호 접속 시설에서 네트워크의 글로벌 상호 접속을 용이하게 하며, 상호 접속 의사결정의 첫번째 단계입니다."
 
 msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
-msgstr "이 데이터베이스는 비영리적이고 커뮤니티가 주도하며 자원봉사자들에 의해 운영되고 촉진된다. 그것은 인터넷의 성장과 이익을 위한 공공의 도구다. 커뮤니티에 참여하고 인터넷의 지속적인 발전을 지원한다하십시오."
+msgstr "이 데이터베이스는 비영리적이고 커뮤니티가 주도하며 자원봉사자들에 의해 운영되고 촉진됩니다. 인터넷의 성장과 이익을 위한 공공의 도구입니다. 커뮤니티에 참여하고 인터넷의 지속적인 발전을 지원하십시오."
 
 msgid "Learn more"
 msgstr "더 알아보기"
@@ -1672,7 +1663,7 @@ msgid "about"
 msgstr "에 대해"
 
 msgid "register"
-msgstr "등록하기"
+msgstr "등록"
 
 msgid "Most Recent Updates"
 msgstr "최신 업데이트"
@@ -1742,20 +1733,18 @@ msgstr "조직에 가입하기"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "%(ar_name)s와의 가입이 승인 보류 중."
+msgstr "%(ar_name)s다음 조직과의 가입이 승인 보류 중."
 
 msgid "Cancel"
 msgstr "취소"
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s is pending approval."
+#, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr "%(ar_name)s와의 가입이 승인 보류 중."
+msgstr "%(ar_name)s와의 제휴는 PeeringDB 관리 직원이 검토하고 있습니다."
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s was denied"
+#, python-format
 msgid "You have canceled your affiliation request with %(ar_name)s"
-msgstr "%(ar_name)s와의 가입이 거부됨"
+msgstr "%(ar_name)s의 소속 요청을 취소하셨습니다"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
@@ -1784,7 +1773,7 @@ msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
 msgstr "ASN에 대해 RiR 항목을 검색할 수 없는 경우, 다음으로 문의바랍니다"
 
 msgid "for assistance"
-msgstr "도움"
+msgstr " "
 
 msgid "Existing affiliations"
 msgstr "기존 소속"
@@ -1799,7 +1788,7 @@ msgid "Change email address"
 msgstr "이메일 주소 변경"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "신속한 검증을 위해서는 업무용 전자우편 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 계획이라면 ASN의 공개 연락처 세부 정보에 존재하는 이메일 주소를 사용하는 것이 좋습니다."
+msgstr "신속한 검증을 위해서는 업무용 전자우편 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 계획이라면 ASN의 공개 연락처 세부 정보에 있는 이메일 주소를 사용하는 것이 좋습니다."
 
 msgid "Change Email"
 msgstr "이메일 변경"
@@ -2105,10 +2094,8 @@ msgstr "권한"
 msgid "Technical E-mail"
 msgstr "테크니컬 이메일"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales E-mail"
-msgstr "이메일 변경"
+msgstr "영업 이메일"
 
 msgid "Policy URL"
 msgstr "정책 URL"
