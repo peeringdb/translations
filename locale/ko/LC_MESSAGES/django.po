@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-12 03:10+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2020-05-17 07:58+0000\n"
+"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -365,7 +365,7 @@ msgid "Never via route servers"
 msgstr "라우트 서버를 경유하지 않음"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
-msgstr ""
+msgstr "이 네트워크가 경로 서버를 통해 경로를 공지할지 말지 표시함"
 
 msgid "Peering Policy"
 msgstr "피어링 정책"
@@ -504,7 +504,7 @@ msgid "ROLLBACK"
 msgstr "롤백"
 
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+msgstr "Ixlans는 이제 상위 익스체인지에 동기화되므로 더 이상 직접 삭제할 수 없음"
 
 msgid "SOFT DELETE"
 msgstr "삭제 보류 표시"
@@ -591,7 +591,7 @@ msgid "View"
 msgstr "보기"
 
 msgid "Cannot approve a canceled affiliation request"
-msgstr ""
+msgstr "취소된 소속 요청을 승인할 수 없음"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "가입 요청이 승인되어 사용자에게 공지함."
@@ -603,7 +603,7 @@ msgid "Approve"
 msgstr "승인"
 
 msgid "Cannot deny a canceled affiliation request"
-msgstr ""
+msgstr "취소된 소속 요청을 승인할 수 없음"
 
 msgid "Deny"
 msgstr "거절"
@@ -676,35 +676,35 @@ msgstr "{} 유형 개체만 이 지점에서 이 인터페이스를 통해 복�
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr ""
+msgstr "ID별로 단일 '{obj_type}' 유형 개체 검색"
 
 msgid "Expand nested sets according to depth."
-msgstr ""
+msgstr "깊이에 따라 중첩 세트를 확장하십시오."
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
+msgstr "'{obj_type}' 유형 개체 목록 검색"
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
+msgstr "결과 집합에서 반환되는 행 수 제한('skip'과 함께 페이지 지정에 사용)"
 
 msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
+msgstr "결과 집합에서 n 결과들 건너뛰기('한계'와 함께 페이지 지정에 사용)"
 
 msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
+msgstr "유닉스 타임스탬프(초). 이후 업데이트된 개체만 반환"
 
 msgid "Filter results by matching a value against this field."
-msgstr ""
+msgstr "이 필드에 값을 일치시켜 결과를 필터링하십시오."
 
 msgid "Supported filter suffixes: {}"
-msgstr ""
+msgstr "지원되는 필터 접미사: {}"
 
 msgid "Number of networks present at this facility"
-msgstr ""
+msgstr "이 시설에 존재하는 네트워크 수"
 
 msgid "Targets both AKA and name fields for filtering"
-msgstr ""
+msgstr "필터링 대상 AKA 및 이름 필드 모두"
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -712,25 +712,25 @@ msgid "Find networks not present at an exchange (exchange id)"
 msgstr "한 익스체인지에는 있고 다른 익스체인지에는 없는 네트워크 검색"
 
 msgid "Find networks present at exchange (exchange id)"
-msgstr ""
+msgstr "익스체인지 시 존재하는 네트워크 찾기(익스체인지 ID)"
 
 msgid "Find networks not present at a facility (facility id)"
-msgstr ""
+msgstr "시설에 없는 네트워크 찾기(시설 ID)"
 
 msgid "Find networks present at a facility (facility id)"
-msgstr ""
+msgstr "시설에 있는 네트워크 찾기(시설 ID)"
 
 msgid "Find networks connected at ixlan (ixlan id)"
-msgstr ""
+msgstr "ixlan(ixlan ID)에서 연결된 네트워크 찾기"
 
 msgid "Find the network that contains this netixlan (netixlan id)"
-msgstr ""
+msgstr "이 netixlan(netixlan ID)이 포함된 네트워크 찾기"
 
 msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr ""
+msgstr "이 netfac이 속한 네트워크 찾기(netfac id)"
 
 msgid "Find exchanges present at a facility (facility id)"
-msgstr ""
+msgstr "시설에 존재하는 익스체인지 찾기(시설 ID)"
 
 msgid "Find the exchange that contains this ixlan (ixlan id)"
 msgstr ""
