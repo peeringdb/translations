@@ -499,1890 +499,1704 @@ msgstr "Öffentliche Peering Austauschpunkte"
 msgid "Public Peering Exchange Points"
 msgstr "Öffentliche Peering Austauschpunkte"
 
-msgid "Status"
-msgstr "Status"
+#~ msgid "Status"
+#~ msgstr "Status"
 
-msgid "Target org cannot be in selected organizations list"
-msgstr "Zielorganisation darf nicht in ausgewählter Organisationsliste sein"
+#~ msgid "Target org cannot be in selected organizations list"
+#~ msgstr "Zielorganisation darf nicht in ausgewählter Organisationsliste sein"
 
-msgid "ROLLBACK"
-msgstr "ZURÜCKSETZEN"
+#~ msgid "ROLLBACK"
+#~ msgstr "ZURÜCKSETZEN"
 
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+#~ msgid "SOFT DELETE"
+#~ msgstr "Zum Löschen vormerken"
 
-msgid "SOFT DELETE"
-msgstr "Zum Löschen vormerken"
+#~ msgid "Verification Queue is currently disabled"
+#~ msgstr "Die Überprüfungswarteschlange ist derzeit deaktiviert"
 
-msgid "Verification Queue is currently disabled"
-msgstr "Die Überprüfungswarteschlange ist derzeit deaktiviert"
+#~ msgid "Verification Queue is currently disabled for this object type"
+#~ msgstr "Die Überprüfungswarteschlange ist derzeit für diesen Objekttyp deaktiviert"
 
-msgid "Verification Queue is currently disabled for this object type"
-msgstr "Die Überprüfungswarteschlange ist derzeit für diesen Objekttyp deaktiviert"
+#~ msgid "APPROVE"
+#~ msgstr "BESTÄTIGEN"
 
-msgid "APPROVE"
-msgstr "BESTÄTIGEN"
+#~ msgid "DENY"
+#~ msgstr "ABLEHNEN"
 
-msgid "DENY"
-msgstr "ABLEHNEN"
+#~ msgid "APPROVED"
+#~ msgstr "BESTÄTIGT"
 
-msgid "APPROVED"
-msgstr "BESTÄTIGT"
+#~ msgid "Ipaddress already exists elsewhere"
+#~ msgstr "IP Adresse wird bereits an anderer Stelle benutzt"
 
-msgid "Ipaddress already exists elsewhere"
-msgstr "IP Adresse wird bereits an anderer Stelle benutzt"
+#~ msgid "User is looking to be affiliated to these Organizations"
+#~ msgstr "Der Benutzer möchte mit diesen Unternehmen verbunden werden"
 
-msgid "User is looking to be affiliated to these Organizations"
-msgstr "Der Benutzer möchte mit diesen Unternehmen verbunden werden"
+#~ msgid "IXF Import History"
+#~ msgstr "IXF Import Verlauf"
 
-msgid "IXF Import History"
-msgstr "IXF Import Verlauf"
+#~ msgid "Initial creation of netixlan"
+#~ msgstr "Netixlan initial angelegt"
 
-msgid "Initial creation of netixlan"
-msgstr "Netixlan initial angelegt"
+#~ msgid "CAN BE ROLLED BACK"
+#~ msgstr "KANN ZURÜCK GESETZT WERDEN"
 
-msgid "CAN BE ROLLED BACK"
-msgstr "KANN ZURÜCK GESETZT WERDEN"
+#~ msgid "CANNOT BE ROLLED BACK"
+#~ msgstr "KANN NICHT ZURÜCK GESETZT WERDEN"
 
-msgid "CANNOT BE ROLLED BACK"
-msgstr "KANN NICHT ZURÜCK GESETZT WERDEN"
+#~ msgid "Has been changed since"
+#~ msgstr "Wurde seitdem verändert"
 
-msgid "Has been changed since"
-msgstr "Wurde seitdem verändert"
+#~ msgid "Netixlan with conflicting ipaddress now exists elsewhere"
+#~ msgstr "Netixlan mit vorhandener IP-Adresse existiert bereits anderswo"
 
-msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr "Netixlan mit vorhandener IP-Adresse existiert bereits anderswo"
+#~ msgid "HAS BEEN ROLLED BACK"
+#~ msgstr "WURDE ZURÜCKGESETZT"
 
-msgid "HAS BEEN ROLLED BACK"
-msgstr "WURDE ZURÜCKGESETZT"
+#~ msgid "Not Set"
+#~ msgstr "Nicht zugewiesen"
 
-msgid "Not Set"
-msgstr "Nicht zugewiesen"
+#~ msgid "Active"
+#~ msgstr "Aktiv"
 
-msgid "Active"
-msgstr "Aktiv"
+#~ msgid "Logo Missing"
+#~ msgstr "Logo fehlt"
 
-msgid "Logo Missing"
-msgstr "Logo fehlt"
+#~ msgid "Over"
+#~ msgstr "Über"
 
-msgid "Over"
-msgstr "Über"
+#~ msgid "Waiting"
+#~ msgstr "Ausstehend"
 
-msgid "Waiting"
-msgstr "Ausstehend"
+#~ msgid "No organization(s) set"
+#~ msgstr "Keine Unternehmens-ID(s) gesetzt"
 
-msgid "No organization(s) set"
-msgstr "Keine Unternehmens-ID(s) gesetzt"
+#~ msgid "Malformed organization ids"
+#~ msgstr "Ungültige Unternehmens-ID"
 
-msgid "Malformed organization ids"
-msgstr "Ungültige Unternehmens-ID"
+#~ msgid "Merge target organization does not exist"
+#~ msgstr "Unternehmen, zu dem zusammengeführt werden soll, existiert nicht"
 
-msgid "Merge target organization does not exist"
-msgstr "Unternehmen, zu dem zusammengeführt werden soll, existiert nicht"
+#~ msgid "Organization Merging Tool"
+#~ msgstr "Werkzeug zum Zusammenführen von Unternehmen"
 
-msgid "Organization Merging Tool"
-msgstr "Werkzeug zum Zusammenführen von Unternehmen"
+#~ msgid "Undo merge"
+#~ msgstr "Veränderung rückgängig machen"
 
-msgid "Undo merge"
-msgstr "Veränderung rückgängig machen"
+#~ msgid "APPROVE selected items"
+#~ msgstr "Gewählte Einträge FREIGEBEN"
 
-msgid "APPROVE selected items"
-msgstr "Gewählte Einträge FREIGEBEN"
+#~ msgid "DENY and delete selected items"
+#~ msgstr "Gewählte Einträge ABLEHNEN und löschen"
 
-msgid "DENY and delete selected items"
-msgstr "Gewählte Einträge ABLEHNEN und löschen"
+#~ msgid "View"
+#~ msgstr "Anzeigen"
 
-msgid "View"
-msgstr "Anzeigen"
+#~ msgid "Affiliation request was approved and the user was notified."
+#~ msgstr "Mitgliedschaft wurde bestätigt und der Nutzer darüber informiert."
 
-msgid "Cannot approve a canceled affiliation request"
-msgstr ""
+#~ msgid "Approve and notify User"
+#~ msgstr "Benutzer bestätigen und darüber informieren"
 
-msgid "Affiliation request was approved and the user was notified."
-msgstr "Mitgliedschaft wurde bestätigt und der Nutzer darüber informiert."
+#~ msgid "Approve"
+#~ msgstr "Freigeben"
 
-msgid "Approve and notify User"
-msgstr "Benutzer bestätigen und darüber informieren"
+#~ msgid "Deny"
+#~ msgstr "Ablehnen"
 
-msgid "Approve"
-msgstr "Freigeben"
+#~ msgid "Change Password"
+#~ msgstr "Passwort ändern"
 
-msgid "Cannot deny a canceled affiliation request"
-msgstr ""
+#~ msgid "Edit Permissions"
+#~ msgstr "Berechtigungen ändern"
 
-msgid "Deny"
-msgstr "Ablehnen"
+#~ msgid "VERIFIED"
+#~ msgstr "BESTÄTIGT"
 
-msgid "Change Password"
-msgstr "Passwort ändern"
+#~ msgid "UNVERIFIED"
+#~ msgstr "UNBESTÄTIGT"
 
-msgid "Edit Permissions"
-msgstr "Berechtigungen ändern"
+#~ msgid "User Permission"
+#~ msgstr "Benutzerrecht"
 
-msgid "VERIFIED"
-msgstr "BESTÄTIGT"
+#~ msgid "User Permissions"
+#~ msgstr "Benutzerrechte"
 
-msgid "UNVERIFIED"
-msgstr "UNBESTÄTIGT"
+#~ msgid "Duplicate IP"
+#~ msgstr "Mehrfach vergebene IP"
 
-msgid "User Permission"
-msgstr "Benutzerrecht"
+#~ msgid "Duplicate IPs"
+#~ msgstr "Mehrfach vergebene IPs"
 
-msgid "User Permissions"
-msgstr "Benutzerrechte"
+#~ msgid "Updated"
+#~ msgstr "Aktualisiert"
 
-msgid "Duplicate IP"
-msgstr "Mehrfach vergebene IP"
+#~ msgid "Only POST requests allowed."
+#~ msgstr "Nur Anfragen vom Typ POST erlaubt."
 
-msgid "Duplicate IPs"
-msgstr "Mehrfach vergebene IPs"
+#~ msgid "{} (Preview)"
+#~ msgstr "{} (Vorschau)"
 
-msgid "Updated"
-msgstr "Aktualisiert"
+#~ msgid "This command is already waiting / running - please wait for it to finish before executing it again"
+#~ msgstr "Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet wird, bevor sie es erneut ausführen"
 
-msgid "Only POST requests allowed."
-msgstr "Nur Anfragen vom Typ POST erlaubt."
+#~ msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
+#~ msgstr "Dieses Kommando erfordert etwas Zeit für die Durchführung. Daher wird es in eine Warteschlange eingereiht und im Hintergrund ausgeführt. Momentan kann kein Ausgabeprotokoll zur Verfügung gestellt werden. Bitte sehen Sie noch einmal nach, wenn das Kommando ausgeführt wurde."
 
-msgid "{} (Preview)"
-msgstr "{} (Vorschau)"
+#~ msgid "Old prefix - renumber all netixlans that fall into this prefix"
+#~ msgstr "Alter Präfix - nummeriere alle netixlans neu, die unter dieses Präfix fallen"
 
-msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr "Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet wird, bevor sie es erneut ausführen"
+#~ msgid "New prefix - needs to be the same protocol and length as old prefix"
+#~ msgstr "Neues Präfix - muss das selbe Protokoll und Länge wie das alte Präfix haben"
 
-msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr "Dieses Kommando erfordert etwas Zeit für die Durchführung. Daher wird es in eine Warteschlange eingereiht und im Hintergrund ausgeführt. Momentan kann kein Ausgabeprotokoll zur Verfügung gestellt werden. Bitte sehen Sie noch einmal nach, wenn das Kommando ausgeführt wurde."
+#~ msgid "Merge this facility - it will be deleted"
+#~ msgstr "Legen Sie dieses Gebäude mit einem anderen zusammen - es wird entfernt werden"
 
-msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr "Alter Präfix - nummeriere alle netixlans neu, die unter dieses Präfix fallen"
+#~ msgid "Target facility"
+#~ msgstr "Zielgebäude"
 
-msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr "Neues Präfix - muss das selbe Protokoll und Länge wie das alte Präfix haben"
+#~ msgid "Undo this merge"
+#~ msgstr "Veränderung rückgängig machen"
 
-msgid "Merge this facility - it will be deleted"
-msgstr "Legen Sie dieses Gebäude mit einem anderen zusammen - es wird entfernt werden"
+#~ msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
+#~ msgstr "Bitte entfernen Sie keine Nutzer. Beachten Sie bitte auch, dass Superuser-Accounts nicht gelöscht werden können - unabhängig von der hier gesetzten Einstellung."
 
-msgid "Target facility"
-msgstr "Zielgebäude"
+#~ msgid "Load data from peeringdb API"
+#~ msgstr "Daten werden von der peeringdb API geladen"
 
-msgid "Undo this merge"
-msgstr "Veränderung rückgängig machen"
+#~ msgid "Restore this object - search by [reftag] [id]"
+#~ msgstr "Stelle dieses Objekt wieder her - Suche über [reftag] [id]"
 
-msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr "Bitte entfernen Sie keine Nutzer. Beachten Sie bitte auch, dass Superuser-Accounts nicht gelöscht werden können - unabhängig von der hier gesetzten Einstellung."
-
-msgid "Load data from peeringdb API"
-msgstr "Daten werden von der peeringdb API geladen"
-
-msgid "Restore this object - search by [reftag] [id]"
-msgstr "Stelle dieses Objekt wieder her - Suche über [reftag] [id]"
-
-msgid "Only {} type objects may be restored through this interface at this point"
-msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiederhergestellt werden"
-
-#, python-brace-format
-msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr ""
-
-msgid "Expand nested sets according to depth."
-msgstr ""
-
-#, python-brace-format
-msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
-
-msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
-
-msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
-
-msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
-
-msgid "Filter results by matching a value against this field."
-msgstr ""
-
-msgid "Supported filter suffixes: {}"
-msgstr ""
-
-msgid "Number of networks present at this facility"
-msgstr ""
-
-msgid "Targets both AKA and name fields for filtering"
-msgstr ""
+#~ msgid "Only {} type objects may be restored through this interface at this point"
+#~ msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiederhergestellt werden"
 
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find networks not present at an exchange (exchange id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
-
-msgid "Find networks present at exchange (exchange id)"
-msgstr ""
-
-msgid "Find networks not present at a facility (facility id)"
-msgstr ""
-
-msgid "Find networks present at a facility (facility id)"
-msgstr ""
-
-msgid "Find networks connected at ixlan (ixlan id)"
-msgstr ""
-
-msgid "Find the network that contains this netixlan (netixlan id)"
-msgstr ""
-
-msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr ""
-
-msgid "Find exchanges present at a facility (facility id)"
-msgstr ""
-
-msgid "Find the exchange that contains this ixlan (ixlan id)"
-msgstr ""
-
-msgid "Find the exchange that contains this ixfac (ixfac id)"
-msgstr ""
-
-msgid "Number of networks present at this exchange"
-msgstr ""
-
-msgid "Find exchanges where this network has a presence at (net id)"
-msgstr ""
-
-msgid "Find organization that contains the network (network asn)"
-msgstr ""
-
-msgid "Find prefixes by exchange (exchange id)"
-msgstr ""
-
-msgid "Find prefixes by ip address"
-msgstr ""
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find networks not present at an exchange (exchange id)"
+#~ msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "Exchange name"
-msgstr "Austauschpunkt"
+#~| msgid "Exchange"
+#~ msgid "Exchange name"
+#~ msgstr "Austauschpunkt"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Facility name"
-msgstr "Liegenschaft"
+#~| msgid "Facility"
+#~ msgid "Facility name"
+#~ msgstr "Liegenschaft"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Facility country"
-msgstr "Liegenschaft"
+#~| msgid "Facility"
+#~ msgid "Facility country"
+#~ msgstr "Liegenschaft"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Facility city"
-msgstr "Liegenschaft"
+#~| msgid "Facility"
+#~ msgid "Facility city"
+#~ msgstr "Liegenschaft"
 
-#, python-brace-format
-msgid "Creates a new `{obj_type}` type object."
-msgstr ""
+#~ msgid "Yes"
+#~ msgstr "Ja"
 
-#, python-brace-format
-msgid "Updates an existing `{obj_type}` type object."
-msgstr ""
+#~ msgid "Invalid export format"
+#~ msgstr "Ungültiges Export-Format"
 
-#, python-brace-format
-msgid "Marks an `{obj_type}` type object as `deleted`."
-msgstr ""
+#~ msgid "Invalid tag"
+#~ msgstr "Ungültiges Stichwort (tag)"
 
-msgid "Yes"
-msgstr "Ja"
+#~ msgid "Invalid permission level"
+#~ msgstr "Ungültiges Zugriffslevel"
 
-msgid "Invalid export format"
-msgstr "Ungültiges Export-Format"
+#~ msgid "ASN needs to be a number"
+#~ msgstr "ASN muss eine Zahl sein"
 
-msgid "Invalid tag"
-msgstr "Ungültiges Stichwort (tag)"
+#~ msgid "Needs to be at least 10 characters long"
+#~ msgstr "Muss mindestens 10 Zeichen lang sein"
 
-msgid "Invalid permission level"
-msgstr "Ungültiges Zugriffslevel"
+#~ msgid "Passwords need to match"
+#~ msgstr "Passwörter stimmen nicht überein"
 
-msgid "ASN needs to be a number"
-msgstr "ASN muss eine Zahl sein"
+#~ msgid "Please fill out the anti-spam challenge (captcha) field"
+#~ msgstr "Bitte füllen Sie das Anti-Spam Aufforderungsfeld (Captcha) aus"
 
-msgid "Needs to be at least 10 characters long"
-msgstr "Muss mindestens 10 Zeichen lang sein"
+#~ msgid "reCAPTCHA invalid"
+#~ msgstr "reCAPTCHA ungültig"
 
-msgid "Passwords need to match"
-msgstr "Passwörter stimmen nicht überein"
+#~ msgid "captcha invalid"
+#~ msgstr "Captcha ungültig"
 
-msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr "Bitte füllen Sie das Anti-Spam Aufforderungsfeld (Captcha) aus"
+#~ msgid "Please wait a bit before requesting another ixf import preview."
+#~ msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
 
-msgid "reCAPTCHA invalid"
-msgstr "reCAPTCHA ungültig"
+#~ msgid "Ixlan not found"
+#~ msgstr "Ixlan wurde nicht gefunden"
 
-msgid "captcha invalid"
-msgstr "Captcha ungültig"
+#~ msgid "Permission denied"
+#~ msgstr "Berechtigung verweigert"
 
-msgid "Please wait a bit before requesting another ixf import preview."
-msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
+#~ msgid "Please wait a bit before requesting another IX-F import postmortem."
+#~ msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
 
-msgid "Ixlan not found"
-msgstr "Ixlan wurde nicht gefunden"
+#~ msgid "Network not found"
+#~ msgstr "Netz wurde nicht gefunden"
 
-msgid "Permission denied"
-msgstr "Berechtigung verweigert"
+#~ msgid "Postmortem length cannot exceed {} entries"
+#~ msgstr "Die Länge des Postmortem darf {} Einträge nicht überschreiten"
 
-msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
+#~ msgid "ASNs in this range are not allowed in this environment"
+#~ msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
 
-msgid "Network not found"
-msgstr "Netz wurde nicht gefunden"
+#~ msgid "IXF import url not specified"
+#~ msgstr "Keine IXF-Import-URL vorhanden"
 
-msgid "Postmortem length cannot exceed {} entries"
-msgstr "Die Länge des Postmortem darf {} Einträge nicht überschreiten"
+#~ msgid "No JSON could be parsed"
+#~ msgstr "JSON konnte nicht analyisert werden"
 
-msgid "ASNs in this range are not allowed in this environment"
-msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
+#~ msgid "IX-F data not locally cached for this resource yet."
+#~ msgstr "IX-F Daten wurden für diese Ressource noch nicht lokal im Cache abgelegt."
 
-msgid "IXF import url not specified"
-msgstr "Keine IXF-Import-URL vorhanden"
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
 
-msgid "No JSON could be parsed"
-msgstr "JSON konnte nicht analyisert werden"
+#~ msgid "No prefixes defined on ixlan"
+#~ msgstr "Kein Präfix auf dem Ixlan definiert"
 
-msgid "IX-F data not locally cached for this resource yet."
-msgstr "IX-F Daten wurden für diese Ressource noch nicht lokal im Cache abgelegt."
+#~ msgid "ASN no longer in data"
+#~ msgstr "ASN existiert nicht länger"
 
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
+#~ msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+#~ msgstr "Die IP-Adressen existieren nicht länger als validierte Daten oder gehören nicht länger zu diesem ASN"
 
-msgid "No prefixes defined on ixlan"
-msgstr "Kein Präfix auf dem Ixlan definiert"
+#~ msgid "At least one ipaddress mismatched and network has disabled updates"
+#~ msgstr "Mindestens eine IP-Adresse passt nicht und das Netzwerk/ASN hat Aktualisierung abgeschaltet"
 
-msgid "ASN no longer in data"
-msgstr "ASN existiert nicht länger"
+#~ msgid "Network status is '{}'"
+#~ msgstr "Der Netzwerk-Status ist '{}'"
 
-msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr "Die IP-Adressen existieren nicht länger als validierte Daten oder gehören nicht länger zu diesem ASN"
+#~ msgid "Network does not exist in peeringdb"
+#~ msgstr "Das Netwzerk existiert nicht in PeeringDB"
 
-msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr "Mindestens eine IP-Adresse passt nicht und das Netzwerk/ASN hat Aktualisierung abgeschaltet"
+#~ msgid "Invalid member type: {}"
+#~ msgstr "Ungültiger Mitglieder-Typ: {}"
 
-msgid "Network status is '{}'"
-msgstr "Der Netzwerk-Status ist '{}'"
+#~ msgid "Invalid connection state: {}"
+#~ msgstr "Ungültiger Anschlussstatus: {}"
 
-msgid "Network does not exist in peeringdb"
-msgstr "Das Netwzerk existiert nicht in PeeringDB"
+#~ msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
+#~ msgstr "Die IPv4- bzw. IPv6-Adresse konnte nicht in der vlan_list für vlan_id {} (AS{}) gefunden werden"
 
-msgid "Invalid member type: {}"
-msgstr "Ungültiger Mitglieder-Typ: {}"
+#~ msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
+#~ msgstr "Fehler '{}' für IP-Adresse im vlan_list Eintrag für vlan_id {}"
 
-msgid "Invalid connection state: {}"
-msgstr "Ungültiger Anschlussstatus: {}"
+#~ msgid "Connection is currently marked as inactive"
+#~ msgstr "Die Verbindung ist derzeit als inaktiv markiert"
 
-msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr "Die IPv4- bzw. IPv6-Adresse konnte nicht in der vlan_list für vlan_id {} (AS{}) gefunden werden"
+#~ msgid "Network has disabled ixp updates"
+#~ msgstr "Das Netwzerk hat IXP-Aktualisierungen abgeschaltet"
 
-msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr "Fehler '{}' für IP-Adresse im vlan_list Eintrag für vlan_id {}"
+#~ msgid "New ip-address"
+#~ msgstr "Neue IP-Adresse"
 
-msgid "Connection is currently marked as inactive"
-msgstr "Die Verbindung ist derzeit als inaktiv markiert"
+#~ msgid "Fields changed: {}"
+#~ msgstr "Felder haben sich geändert: {}"
 
-msgid "Network has disabled ixp updates"
-msgstr "Das Netwzerk hat IXP-Aktualisierungen abgeschaltet"
+#~ msgid "No changes"
+#~ msgstr "Keine Veränderungen"
 
-msgid "New ip-address"
-msgstr "Neue IP-Adresse"
+#~ msgid "Invalid speed value: {}"
+#~ msgstr "Ungültiger Geschwindigkeitswert: {}"
 
-msgid "Fields changed: {}"
-msgstr "Felder haben sich geändert: {}"
+#~ msgid "{} Merge Notification: {} -> {}"
+#~ msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
 
-msgid "No changes"
-msgstr "Keine Veränderungen"
+#~ msgid "Silver"
+#~ msgstr "Silber"
 
-msgid "Invalid speed value: {}"
-msgstr "Ungültiger Geschwindigkeitswert: {}"
+#~ msgid "Gold"
+#~ msgstr "Gold"
 
-msgid "{} Merge Notification: {} -> {}"
-msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
+#~ msgid "Platinum"
+#~ msgstr "Platin"
 
-msgid "Silver"
-msgstr "Silber"
+#~ msgid "Diamond"
+#~ msgstr "Diamant"
 
-msgid "Gold"
-msgstr "Gold"
+#~ msgid "Data Validation"
+#~ msgstr "Daten-Validierung"
 
-msgid "Platinum"
-msgstr "Platin"
+#~ msgid "RIR"
+#~ msgstr "RIR"
 
-msgid "Diamond"
-msgstr "Diamant"
+#~ msgid "Renumber IP Space"
+#~ msgstr "IP-Bereich umnummerieren"
 
-msgid "Data Validation"
-msgstr "Daten-Validierung"
+#~ msgid "Merge Facilities"
+#~ msgstr "Liegenschaften zusammenführen"
 
-msgid "RIR"
-msgstr "RIR"
+#~ msgid "Merge Facilities: UNDO"
+#~ msgstr "Zusammenlegung von Gebäuden: RÜCKGÄNGIG MACHEN"
 
-msgid "Renumber IP Space"
-msgstr "IP-Bereich umnummerieren"
+#~ msgid "Restore Object(s)"
+#~ msgstr "Stelle Objekt(e) wieder her"
 
-msgid "Merge Facilities"
-msgstr "Liegenschaften zusammenführen"
+#~ msgid "Reset Environment"
+#~ msgstr "Setze Umgebung zurück"
 
-msgid "Merge Facilities: UNDO"
-msgstr "Zusammenlegung von Gebäuden: RÜCKGÄNGIG MACHEN"
-
-msgid "Restore Object(s)"
-msgstr "Stelle Objekt(e) wieder her"
-
-msgid "Reset Environment"
-msgstr "Setze Umgebung zurück"
-
-msgid "IX-F Import"
-msgstr "IX-F Import"
+#~ msgid "IX-F Import"
+#~ msgstr "IX-F Import"
 
 # # unklare Funktion
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgstr "Die Breiten- und Längenangaben dieses Objekts wurden über die Adresse ermittelt"
+#~ msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#~ msgstr "Die Breiten- und Längenangaben dieses Objekts wurden über die Adresse ermittelt"
 
-msgid "Last time of attempted geocode"
-msgstr "Zeit, zu der die Georeferenz zuletzt ermittelt wurde"
+#~ msgid "Last time of attempted geocode"
+#~ msgstr "Zeit, zu der die Georeferenz zuletzt ermittelt wurde"
 
 # # Unklarer Zusammenhang
-msgid "Error message of previous geocode attempt"
-msgstr "Fehlernachricht des letzten Lokalisierungsversuchs"
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "Fehlernachricht des letzten Lokalisierungsversuchs"
 
-msgid "Address not found"
-msgstr "Adresse nicht gefunden"
+#~ msgid "Address not found"
+#~ msgstr "Adresse nicht gefunden"
 
-msgid "API Timeout"
-msgstr "API Zeitüberschreitung"
+#~ msgid "API Timeout"
+#~ msgstr "API Zeitüberschreitung"
 
-msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
-msgstr "Dieser Unternehmenseintrag wurde vom angegeben ASN oder vom Namen übernommen. Wenn dieser Eintrag leer ist, konnte kein zugehöriges Unternehmen gefunden werden."
+#~ msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
+#~ msgstr "Dieser Unternehmenseintrag wurde vom angegeben ASN oder vom Namen übernommen. Wenn dieser Eintrag leer ist, konnte kein zugehöriges Unternehmen gefunden werden."
 
-msgid "The organization name entered by the user"
-msgstr "Durch den Benutzer eingetragener Unternehmensname"
+#~ msgid "The organization name entered by the user"
+#~ msgstr "Durch den Benutzer eingetragener Unternehmensname"
 
-msgid "The ASN entered by the user"
-msgstr "Durch den Benutzer eingetragenes ASN"
+#~ msgid "The ASN entered by the user"
+#~ msgstr "Durch den Benutzer eingetragenes ASN"
 
-msgid "The user that made the request"
-msgstr "Beantragender Benutzer"
+#~ msgid "The user that made the request"
+#~ msgstr "Beantragender Benutzer"
 
-msgid "Pending"
-msgstr "Ausstehend"
+#~ msgid "Pending"
+#~ msgstr "Ausstehend"
 
-msgid "Approved"
-msgstr "Genehmigt"
+#~ msgid "Approved"
+#~ msgstr "Genehmigt"
 
-msgid "Denied"
-msgstr "Abgelehnt"
+#~ msgid "Denied"
+#~ msgstr "Abgelehnt"
 
-msgid "Canceled"
-msgstr "Abgebrochen"
+#~ msgid "Canceled"
+#~ msgstr "Abgebrochen"
 
-msgid "Status of this request"
-msgstr "Status der Anfrage"
+#~ msgid "Status of this request"
+#~ msgstr "Status der Anfrage"
 
-msgid "User to Organization Affiliation Request"
-msgstr "Anfragen zu Benutzern, die zum Unternehmen hinzugefügt werden sollen"
+#~ msgid "User to Organization Affiliation Request"
+#~ msgstr "Anfragen zu Benutzern, die zum Unternehmen hinzugefügt werden sollen"
 
-msgid "User to Organization Affiliation Requests"
-msgstr "Anfragen zu Benutzern, die zum Unternehmen hinzugefügt werden sollen"
+#~ msgid "User to Organization Affiliation Requests"
+#~ msgstr "Anfragen zu Benutzern, die zum Unternehmen hinzugefügt werden sollen"
 
-msgid "Your affiliation to Organization \"{}\" has been approved"
-msgstr "Die Zugehörigkeit zum Unternehmen \"{}\" wurde freigegeben"
+#~ msgid "Your affiliation to Organization \"{}\" has been approved"
+#~ msgstr "Die Zugehörigkeit zum Unternehmen \"{}\" wurde freigegeben"
 
-msgid "The item that this queue is attached to was created by this user"
-msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
+#~ msgid "The item that this queue is attached to was created by this user"
+#~ msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
 
-msgid "DeskPRO Ticket"
-msgstr ""
+#~ msgid "Allows you to upload and set a logo image file for this organization"
+#~ msgstr "Erlaubt es ein Unternehmens-Logo für dieses Unternehmen hochzuladen und es zu ändern"
 
-msgid "DeskPRO Tickets"
-msgstr ""
+#~ msgid "Sponsorship starts on"
+#~ msgstr "Sponsoring/Patenschaft beginnt am"
 
-msgid "Allows you to upload and set a logo image file for this organization"
-msgstr "Erlaubt es ein Unternehmens-Logo für dieses Unternehmen hochzuladen und es zu ändern"
+#~ msgid "Sponsorship ends on"
+#~ msgstr "Sponsoring/Patenschaft endet am"
 
-msgid "Sponsorship starts on"
-msgstr "Sponsoring/Patenschaft beginnt am"
+#~ msgid "Expiration notification sent on"
+#~ msgstr "Ablaufdatum wurde gesendet am"
 
-msgid "Sponsorship ends on"
-msgstr "Sponsoring/Patenschaft endet am"
+#~ msgid "Sponsorship"
+#~ msgstr "Patenschaft"
 
-msgid "Expiration notification sent on"
-msgstr "Ablaufdatum wurde gesendet am"
+#~ msgid "Sponsorships"
+#~ msgstr "Patenschaften"
 
-msgid "Sponsorship"
-msgstr "Patenschaft"
+#~ msgid "Sponsorship Expired"
+#~ msgstr "Abgelaufene Patenschaft"
 
-msgid "Sponsorships"
-msgstr "Patenschaften"
+#~ msgid "If specified clicking the sponsorship will take the user to this location"
+#~ msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Paten (Sponsor) an diese Adresse weitergeleitet"
 
-msgid "Sponsorship Expired"
-msgstr "Abgelaufene Patenschaft"
+#~ msgid "Allows you to upload and set a logo image file for this sponsorship"
+#~ msgstr "Erlaubt es ein Logo für diese Paten (Sponsor) hochzuladen und es zu ändern"
 
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Paten (Sponsor) an diese Adresse weitergeleitet"
+#~ msgid "If specified clicking the partnership will take the user to this location"
+#~ msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Partner an diese Adresse weitergeleitet"
 
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Erlaubt es ein Logo für diese Paten (Sponsor) hochzuladen und es zu ändern"
+#~ msgid "Allows you to upload and set a logo image file for this partnership"
+#~ msgstr "Erlaubt es ein Logo für diesen Partnerschaft hochzuladen un es zu ändern"
 
-msgid "If specified clicking the partnership will take the user to this location"
-msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Partner an diese Adresse weitergeleitet"
+#~ msgid "Partnership"
+#~ msgstr "Partnerschaft"
 
-msgid "Allows you to upload and set a logo image file for this partnership"
-msgstr "Erlaubt es ein Logo für diesen Partnerschaft hochzuladen un es zu ändern"
+#~ msgid "Partnerships"
+#~ msgstr "Partnerschaften"
 
-msgid "Partnership"
-msgstr "Partnerschaft"
+#~ msgid "Merged on"
+#~ msgstr "Zusammengeführt am"
 
-msgid "Partnerships"
-msgstr "Partnerschaften"
+#~ msgid "Organization Merge"
+#~ msgstr "Organisation zusammenführen"
 
-msgid "Merged on"
-msgstr "Zusammengeführt am"
+#~ msgid "Organization Merges"
+#~ msgstr "Zusammengeführte Organisationen"
 
-msgid "Organization Merge"
-msgstr "Organisation zusammenführen"
+#~ msgid "Organization Merge: Entity"
+#~ msgstr "Organisation zusammenführen: Einheit"
 
-msgid "Organization Merges"
-msgstr "Zusammengeführte Organisationen"
+#~ msgid "Organization Merge: Entities"
+#~ msgstr "Organisation zusammenführen: Einheiten"
 
-msgid "Organization Merge: Entity"
-msgstr "Organisation zusammenführen: Einheit"
+#~ msgid "Need to specify at least two asns"
+#~ msgstr "Es müssen zumindest zwei ASNs angegeben werden"
 
-msgid "Organization Merge: Entities"
-msgstr "Organisation zusammenführen: Einheiten"
+#~ msgid "Can only compare a maximum of 25 asns"
+#~ msgstr "Es können maximal 25 ASNs verglichen werden"
 
-msgid "Need to specify at least two asns"
-msgstr "Es müssen zumindest zwei ASNs angegeben werden"
+#~ msgid "IXF Import Log"
+#~ msgstr "IX-F Import Bericht"
 
-msgid "Can only compare a maximum of 25 asns"
-msgstr "Es können maximal 25 ASNs verglichen werden"
+#~ msgid "IXF Import Logs"
+#~ msgstr "IX-F Import Berichte"
 
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
+#~ msgid "IXF Import Log Entry"
+#~ msgstr "IXF Import Log Eintrag"
 
-msgid "Ixlan for exchange already exists"
-msgstr ""
+#~ msgid "IXF Import Log Entries"
+#~ msgstr "IXF Import Log Einträge"
 
-msgid "IXF Import Log"
-msgstr "IX-F Import Bericht"
+#~ msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
+#~ msgstr "Gibt an, ob es einem IXP erlaubt ist einen netixlan Eintrag für dieses Netzwerk vorzunehmen anhand der ixp_member Daten"
 
-msgid "IXF Import Logs"
-msgstr "IX-F Import Berichte"
+#~ msgid "IPv4 address outside of prefix"
+#~ msgstr "IPv4-Adresse liegt außerhalb des Präfix"
 
-msgid "IXF Import Log Entry"
-msgstr "IXF Import Log Eintrag"
+#~ msgid "IPv6 address outside of prefix"
+#~ msgstr "Die IPv6-Adresse liegt außerhalb des Präfix"
 
-msgid "IXF Import Log Entries"
-msgstr "IXF Import Log Einträge"
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "IP Adresse wird bereits an anderer Stelle benutzt"
 
-msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr "Gibt an, ob es einem IXP erlaubt ist einen netixlan Eintrag für dieses Netzwerk vorzunehmen anhand der ixp_member Daten"
+#~ msgid "username"
+#~ msgstr "Benutzername"
 
-msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr ""
+#~ msgid "Required. Letters, digits and [@.+-/_=|] only."
+#~ msgstr "Erforderlich. Buchstaben, Zahlen und die Zeichen [@.+-/_=|]."
 
-msgid "IPv4 address outside of prefix"
-msgstr "IPv4-Adresse liegt außerhalb des Präfix"
+#~ msgid "Enter a valid username."
+#~ msgstr "Bitte einen gültigen Benutzernamen eingeben."
 
-msgid "IPv6 address outside of prefix"
-msgstr "Die IPv6-Adresse liegt außerhalb des Präfix"
+#~ msgid "email address"
+#~ msgstr "E-Mail Adresse"
 
-msgid "Ip address already exists elsewhere"
-msgstr "IP Adresse wird bereits an anderer Stelle benutzt"
+#~ msgid "first name"
+#~ msgstr "Vorname"
 
-msgid "username"
-msgstr "Benutzername"
+#~ msgid "last name"
+#~ msgstr "Nachname"
 
-msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr "Erforderlich. Buchstaben, Zahlen und die Zeichen [@.+-/_=|]."
+#~ msgid "staff status"
+#~ msgstr "Firmenzugehörigkeit"
 
-msgid "Enter a valid username."
-msgstr "Bitte einen gültigen Benutzernamen eingeben."
+#~ msgid "Designates whether the user can log into admin site."
+#~ msgstr "Gibt an, ob sich ein Benutzer auf der Admin-Seite einloggen darf."
 
-msgid "email address"
-msgstr "E-Mail Adresse"
+#~ msgid "active"
+#~ msgstr "Aktiv"
 
-msgid "first name"
-msgstr "Vorname"
+#~ msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
+#~ msgstr "Gibt an ob ein Benutzer als aktiv geführt werden soll. Statt Benutzer zu löschen bitte diesen Punkt deaktivieren."
 
-msgid "last name"
-msgstr "Nachname"
+#~ msgid "date joined"
+#~ msgstr "Beitrittsdatum"
 
-msgid "staff status"
-msgstr "Firmenzugehörigkeit"
+#~ msgid "status"
+#~ msgstr "Status"
 
-msgid "Designates whether the user can log into admin site."
-msgstr "Gibt an, ob sich ein Benutzer auf der Admin-Seite einloggen darf."
+#~ msgid "language"
+#~ msgstr "Sprache"
 
-msgid "active"
-msgstr "Aktiv"
+#~ msgid "user"
+#~ msgstr "Benutzer"
 
-msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr "Gibt an ob ein Benutzer als aktiv geführt werden soll. Statt Benutzer zu löschen bitte diesen Punkt deaktivieren."
+#~ msgid "users"
+#~ msgstr "Benutzer"
 
-msgid "date joined"
-msgstr "Beitrittsdatum"
+#~ msgid "Password Reset Initiated"
+#~ msgstr "Passwort zurücksetzen wurde eingeleitet"
 
-msgid "status"
-msgstr "Status"
+#~ msgid "name of the tool"
+#~ msgstr "Name des Programms"
 
-msgid "language"
-msgstr "Sprache"
+#~ msgid "json serialization of arguments and options passed"
+#~ msgstr "JSON Anordung der Argumente und Optionen erfolgreich"
 
-msgid "user"
-msgstr "Benutzer"
+#~ msgid "result log"
+#~ msgstr "Logeinträge der Resultate"
 
-msgid "users"
-msgstr "Benutzer"
+#~ msgid "Descriptive text of command that can be searched"
+#~ msgstr "Beschreibender Text des Kommandos, nach dem gesucht werden kann"
 
-msgid "Password Reset Initiated"
-msgstr "Passwort zurücksetzen wurde eingeleitet"
+#~ msgid "the user that ran this command"
+#~ msgstr "Benutzer, der den Befehl ausgeführt hat"
 
-msgid "name of the tool"
-msgstr "Name des Programms"
+#~ msgid "command was run at this date and time"
+#~ msgstr "Befehl zu diesem Datum und zu dieser Uhrzeit ausgeführt"
 
-msgid "json serialization of arguments and options passed"
-msgstr "JSON Anordung der Argumente und Optionen erfolgreich"
+#~ msgid "Done"
+#~ msgstr "Erledigt"
 
-msgid "result log"
-msgstr "Logeinträge der Resultate"
+#~ msgid "Running"
+#~ msgstr "verarbeitet"
 
-msgid "Descriptive text of command that can be searched"
-msgstr "Beschreibender Text des Kommandos, nach dem gesucht werden kann"
+#~ msgid "Organization and all Entities it owns"
+#~ msgstr "Unternehmen und alle dazugehörigen Einträge"
 
-msgid "the user that ran this command"
-msgstr "Benutzer, der den Befehl ausgeführt hat"
+#~ msgid "Any Network"
+#~ msgstr "Alle Netzwerke"
 
-msgid "command was run at this date and time"
-msgstr "Befehl zu diesem Datum und zu dieser Uhrzeit ausgeführt"
+#~ msgid "Any Facility"
+#~ msgstr "Alle Gebäude"
 
-msgid "Done"
-msgstr "Erledigt"
+#~ msgid "Any Exchange"
+#~ msgstr "Alle Austauschknoten"
 
-msgid "Running"
-msgstr "verarbeitet"
+#~ msgid "Network - %(net_name)s"
+#~ msgstr "Netzwerk - %(net_name)s"
 
-msgid "Organization and all Entities it owns"
-msgstr "Unternehmen und alle dazugehörigen Einträge"
+#~ msgid "Exchange - %(ix_name)s"
+#~ msgstr "Austauschknoten - %(ix_name)s"
 
-msgid "Any Network"
-msgstr "Alle Netzwerke"
+#~ msgid "Facility - %(fac_name)s"
+#~ msgstr "Gebäude - %(fac_name)s"
 
-msgid "Any Facility"
-msgstr "Alle Gebäude"
+#~ msgid "Invalid organization specified"
+#~ msgstr "Ungültiges Unternehmen angegeben"
 
-msgid "Any Exchange"
-msgstr "Alle Austauschknoten"
+#~ msgid "Needs to be member or admin"
+#~ msgstr "Muss Mitglied oder Admin sein"
 
-#, python-format
-msgid "Network - %(net_name)s"
-msgstr "Netzwerk - %(net_name)s"
+#~ msgid "%(user_name)s's afilliation request has been approved"
+#~ msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 
-#, python-format
-msgid "Exchange - %(ix_name)s"
-msgstr "Austauschknoten - %(ix_name)s"
+#~ msgid "%(user_name)s's afilliation request has been denied"
+#~ msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
-#, python-format
-msgid "Facility - %(fac_name)s"
-msgstr "Gebäude - %(fac_name)s"
+#~ msgid "Need to be unique"
+#~ msgstr "Muss eindeutig sein"
 
-msgid "Invalid organization specified"
-msgstr "Ungültiges Unternehmen angegeben"
+#~ msgid "This field is required"
+#~ msgstr "Dieses Feld ist erforderlich"
 
-msgid "Needs to be member or admin"
-msgstr "Muss Mitglied oder Admin sein"
+#~ msgid "RDAP Lookup Error"
+#~ msgstr "Fehler bei der RDAP Suche"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
-msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
+#~ msgid "This field is only allowed for these requests: {methods}"
+#~ msgstr "Dieses Feld is nur bei diesen Anforderungen erlaubt: {methods}"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
-msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
+#~ msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#~ msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' noch nicht genehmigt wurde"
 
-msgid "Need to be unique"
-msgstr "Muss eindeutig sein"
+#~ msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#~ msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
-msgid "This field is required"
-msgstr "Dieses Feld ist erforderlich"
+#~ msgid "Network has been deleted. Please contact {}"
+#~ msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
 
-msgid "RDAP Lookup Error"
-msgstr "Fehler bei der RDAP Suche"
+#~ msgid "Specify at least one email address"
+#~ msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
 
-#, python-brace-format
-msgid "This field is only allowed for these requests: {methods}"
-msgstr "Dieses Feld is nur bei diesen Anforderungen erlaubt: {methods}"
+#~ msgid "User %(u_name)s wishes to be affiliated to your Organization"
+#~ msgstr "Benutzer%(u_name)s wünscht, zu Ihrer Organisation zuzugehören"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' noch nicht genehmigt wurde"
+#~ msgid "Confirm your e-mail address"
+#~ msgstr "Bestätigen Sie Ihre E-Mail Adresse"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
+#~ msgid "Please confirm that"
+#~ msgstr "Bitte bestätigen Sie, dass"
 
-msgid "Network has been deleted. Please contact {}"
-msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
+#~ msgid "is your email-address"
+#~ msgstr "ist Ihre E-Mail-Adresse"
 
-msgid "Specify at least one email address"
-msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
+#~ msgid "Confirm"
+#~ msgstr "Bestätigen"
 
-#, python-format
-msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr "Benutzer%(u_name)s wünscht, zu Ihrer Organisation zuzugehören"
+#~ msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#~ msgstr "Der E-Mail-Bestätigungsvorgang für diese E-Mail-Adresse wurde beendet, bitte erneut initialisieren"
 
-msgid "Confirm your e-mail address"
-msgstr "Bestätigen Sie Ihre E-Mail Adresse"
+#~ msgid "here"
+#~ msgstr "hier"
 
-msgid "Please confirm that"
-msgstr "Bitte bestätigen Sie, dass"
+#~ msgid "Please use"
+#~ msgstr "Bitte verwenden Sie"
 
-msgid "is your email-address"
-msgstr "ist Ihre E-Mail-Adresse"
+#~ msgid "this page"
+#~ msgstr "diese Seite"
 
-msgid "Confirm"
-msgstr "Bestätigen"
+#~ msgid "instead"
+#~ msgstr "stattdessen"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
-msgstr "Der E-Mail-Bestätigungsvorgang für diese E-Mail-Adresse wurde beendet, bitte erneut initialisieren"
+#~ msgid "Home"
+#~ msgstr "Startseite"
 
-msgid "here"
-msgstr "hier"
+#~ msgid "Prepare"
+#~ msgstr "Vorbereiten"
 
-msgid "Please use"
-msgstr "Bitte verwenden Sie"
+#~ msgid "Preview"
+#~ msgstr "Vorschau"
 
-msgid "this page"
-msgstr "diese Seite"
-
-msgid "instead"
-msgstr "stattdessen"
-
-msgid "Home"
-msgstr "Startseite"
-
-msgid "Prepare"
-msgstr "Vorbereiten"
-
-msgid "Preview"
-msgstr "Vorschau"
-
-msgid "Result"
-msgstr "Ergebnis"
+#~ msgid "Result"
+#~ msgstr "Ergebnis"
 
 #, fuzzy
-#| msgid "API Documentation"
-msgid "PeeringDB API Documentation"
-msgstr "API-Dokumentation"
+#~| msgid "API Documentation"
+#~ msgid "PeeringDB API Documentation"
+#~ msgstr "API-Dokumentation"
 
-msgid "Merge Notification"
-msgstr "Benachrichtigung über Zusammenführung"
+#~ msgid "Merge Notification"
+#~ msgstr "Benachrichtigung über Zusammenführung"
 
-msgid "ID"
-msgstr "ID"
+#~ msgid "ID"
+#~ msgstr "ID"
 
-msgid "has been merged into"
-msgstr "wurde zusammengeführt mit"
+#~ msgid "has been merged into"
+#~ msgstr "wurde zusammengeführt mit"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
-msgstr "Alle Zusammenführungen werden von PeeringDB-Supportpersonal manuell ausgeführt. Wenn Sie der Meinung sind, dass diese Aktion fehlerhaft ausgeführt wurde, wenden Sie sich bitte an den PeeringDB-Support unter"
+#~ msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#~ msgstr "Alle Zusammenführungen werden von PeeringDB-Supportpersonal manuell ausgeführt. Wenn Sie der Meinung sind, dass diese Aktion fehlerhaft ausgeführt wurde, wenden Sie sich bitte an den PeeringDB-Support unter"
 
-#, python-format
-msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
-msgstr "Die Anfrage von %(u_full_name)s, zu %(o_name)s dazu zu gehören, wurde von %(admin_full_name)s genehmigt."
+#~ msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
+#~ msgstr "Die Anfrage von %(u_full_name)s, zu %(o_name)s dazu zu gehören, wurde von %(admin_full_name)s genehmigt."
 
-msgid "No further action is required on your part."
-msgstr "Von Ihrer Seite sind keine weiteren Maßnahmen erforderlich."
+#~ msgid "No further action is required on your part."
+#~ msgstr "Von Ihrer Seite sind keine weiteren Maßnahmen erforderlich."
 
-msgid "As the organization's administrator you may view your organization's user list here"
-msgstr "Als Administrator der Organisation können Sie die Benutzerliste Ihrer Organisation hier anzeigen"
+#~ msgid "As the organization's administrator you may view your organization's user list here"
+#~ msgstr "Als Administrator der Organisation können Sie die Benutzerliste Ihrer Organisation hier anzeigen"
 
-#, python-format
-msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
-msgstr "Die Anfrage von %(u_full_name)s, zu %(o_name)s dazu zu gehören, wurde von %(admin_full_name)s abgelehnt."
+#~ msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
+#~ msgstr "Die Anfrage von %(u_full_name)s, zu %(o_name)s dazu zu gehören, wurde von %(admin_full_name)s abgelehnt."
 
-#, python-format
-msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr "Benutzer %(u_name)s (%(u_email)s) möchte zu %(o_name)s dazu gehören."
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
+#~ msgstr "Benutzer %(u_name)s (%(u_email)s) möchte zu %(o_name)s dazu gehören."
 
-msgid "As the organization's administrator you may approve or deny this request here"
-msgstr "Als Administrator der Organisation können Sie diese Anfrage genehmigen oder ablehnen"
+#~ msgid "As the organization's administrator you may approve or deny this request here"
+#~ msgstr "Als Administrator der Organisation können Sie diese Anfrage genehmigen oder ablehnen"
 
-msgid "Ownership of organization was automatically granted to user"
-msgstr "Der Besitz der Organisation wurde automatisch dem Benutzer erteilt"
+#~ msgid "Ownership of organization was automatically granted to user"
+#~ msgstr "Der Besitz der Organisation wurde automatisch dem Benutzer erteilt"
 
-msgid "User"
-msgstr "Benutzer"
+#~ msgid "User"
+#~ msgstr "Benutzer"
 
-msgid "AS"
-msgstr "AS"
+#~ msgid "AS"
+#~ msgstr "AS"
 
-#, fuzzy, python-format
-#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "Die Organisation %(o_name)s (%(o_id)s) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
+#, fuzzy
+#~| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgstr "Die Organisation %(o_name)s (%(o_id)s) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
 
-#, fuzzy, python-format
-#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "Das Netzwerk %(n_name)s (%(n_id)s) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
+#, fuzzy
+#~| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgstr "Das Netzwerk %(n_name)s (%(n_id)s) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (%(n_id)s) unter Organisation %(o_name)s (%(o_id)s) erstellt."
+#, fuzzy
+#~| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#~ msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#~ msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (%(n_id)s) unter Organisation %(o_name)s (%(o_id)s) erstellt."
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten abgeglichen werden konnte, hat dieses Netzwerk die Überprüfungswarteschlange übersprungen."
+#~ msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#~ msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten abgeglichen werden konnte, hat dieses Netzwerk die Überprüfungswarteschlange übersprungen."
 
-#, python-format
-msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
-msgstr "Benutzer %(u_name)s (%(u_email)s) möchte zu ASN %(inst)s dazu gehören"
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
+#~ msgstr "Benutzer %(u_name)s (%(u_email)s) möchte zu ASN %(inst)s dazu gehören"
 
-msgid "They also provided this organization name in their request"
-msgstr "Sie haben ferner diesen Organisationsnamen in ihrer Anforderung angegeben"
+#~ msgid "They also provided this organization name in their request"
+#~ msgstr "Sie haben ferner diesen Organisationsnamen in ihrer Anforderung angegeben"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
-msgstr "Es gab keinen Eintrag in unserer Datenbank, der diesem ASN entspricht. Daher ist es wahrscheinlich, dass ein Netzwerk- und Organisationseintrag erstellt werden muss."
+#~ msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#~ msgstr "Es gab keinen Eintrag in unserer Datenbank, der diesem ASN entspricht. Daher ist es wahrscheinlich, dass ein Netzwerk- und Organisationseintrag erstellt werden muss."
 
-#, python-format
-msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr "Benutzer %(u_name)s (%(u_email)s) möchte eine Organisation mit dem Namen %(o_name)s erstellen."
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
+#~ msgstr "Benutzer %(u_name)s (%(u_email)s) möchte eine Organisation mit dem Namen %(o_name)s erstellen."
 
-msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
-msgstr "Es war kein Eintrag in unserer Datenbank vorhanden, der diesem Organisationsnamen entspricht, und es wurde kein ASN angegeben, daher ist es wahrscheinlich, dass diese Organisation angelegt werden muss."
+#~ msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
+#~ msgstr "Es war kein Eintrag in unserer Datenbank vorhanden, der diesem Organisationsnamen entspricht, und es wurde kein ASN angegeben, daher ist es wahrscheinlich, dass diese Organisation angelegt werden muss."
 
-msgid "You may create a new organization here"
-msgstr "Sie können hier eine neue Organisation anlegen"
+#~ msgid "You may create a new organization here"
+#~ msgstr "Sie können hier eine neue Organisation anlegen"
 
-msgid "You may create a new network here"
-msgstr "Sie können hier ein neues Netzwerk anlegen"
+#~ msgid "You may create a new network here"
+#~ msgstr "Sie können hier ein neues Netzwerk anlegen"
 
-#, python-format
-msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
-msgstr "Benutzer %(user_name)s (%(u_email)s) möchte der Organisation '%(o_name)s' zugeordnet werden"
+#~ msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
+#~ msgstr "Benutzer %(user_name)s (%(u_email)s) möchte der Organisation '%(o_name)s' zugeordnet werden"
 
-msgid "They also provided this ASN in their request"
-msgstr "Sie haben ferner dieses ASN in ihrer Anforderung angegeben"
+#~ msgid "They also provided this ASN in their request"
+#~ msgstr "Sie haben ferner dieses ASN in ihrer Anforderung angegeben"
 
-msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
-msgstr "Achtung: Hierbei handelt es sich um eine Anfrage nach Übertragung von Besitzrechten. Durch die Genehmigung werden dem Benutzer Verwaltungsrechte für die Organisation und alle Entitäten, die sie besitzt, gewährt."
+#~ msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
+#~ msgstr "Achtung: Hierbei handelt es sich um eine Anfrage nach Übertragung von Besitzrechten. Durch die Genehmigung werden dem Benutzer Verwaltungsrechte für die Organisation und alle Entitäten, die sie besitzt, gewährt."
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
-msgstr "Diese Website-Adressen wurden von der Organisation und ihren Entitäten abgeleitet"
+#~ msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#~ msgstr "Diese Website-Adressen wurden von der Organisation und ihren Entitäten abgeleitet"
 
-msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
-msgstr "Diese E-Mail-Adressen konnten aus dem ASN-Satz der Organisation extrahiert werden"
+#~ msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
+#~ msgstr "Diese E-Mail-Adressen konnten aus dem ASN-Satz der Organisation extrahiert werden"
 
-msgid "The user is affiliated with other organizations"
-msgstr "Der Benutzer ist auch anderen Organisationen zugeordnet"
+#~ msgid "The user is affiliated with other organizations"
+#~ msgstr "Der Benutzer ist auch anderen Organisationen zugeordnet"
 
-msgid "ADMIN"
-msgstr "ADMINISTRATOR"
+#~ msgid "ADMIN"
+#~ msgstr "ADMINISTRATOR"
 
-msgid "MEMBER"
-msgstr "MITGLIED"
+#~ msgid "MEMBER"
+#~ msgstr "MITGLIED"
 
-msgid "Review Affiliation/Ownership Request"
-msgstr "Überprüfen Sie bitte die Anfrage nach Zuordnung / Gewährung von Besitzrechten"
+#~ msgid "Review Affiliation/Ownership Request"
+#~ msgstr "Überprüfen Sie bitte die Anfrage nach Zuordnung / Gewährung von Besitzrechten"
 
-msgid "Approve Ownership Request and Notify User"
-msgstr "Genehmigen Sie bitte die Anfrage nach Zuordnung / Gewährung von Besitzrechten und benachrichtigen den Benutzer"
+#~ msgid "Approve Ownership Request and Notify User"
+#~ msgstr "Genehmigen Sie bitte die Anfrage nach Zuordnung / Gewährung von Besitzrechten und benachrichtigen den Benutzer"
 
-#, python-format
-msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr "Ein/e neue/s '%(entity_type_name)s' wurde erstellt und erfordert Ihre Genehmigung."
+#~ msgid "A new '%(entity_type_name)s' has been created and requires your approval."
+#~ msgstr "Ein/e neue/s '%(entity_type_name)s' wurde erstellt und erfordert Ihre Genehmigung."
 
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr "Dieser %(entity_type_name)s wurde vorgeschlagen. Nach Prüfung werden wir ihn der richtigen Organisation zuweisen"
+#~ msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#~ msgstr "Dieser %(entity_type_name)s wurde vorgeschlagen. Nach Prüfung werden wir ihn der richtigen Organisation zuweisen"
 
-msgid "We retrieved the RiR entry for the specified ASN"
-msgstr "Wir haben den RiR-Eintrag für die angegebene ASN abgerufen"
+#~ msgid "We retrieved the RiR entry for the specified ASN"
+#~ msgstr "Wir haben den RiR-Eintrag für die angegebene ASN abgerufen"
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
-msgstr "aber fand keine Übereinstimmung mit dem Benutzer, der die Anforderung stellte. Hier sind die E-Mail-Adressen, die wir fanden"
+#~ msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+#~ msgstr "aber fand keine Übereinstimmung mit dem Benutzer, der die Anforderung stellte. Hier sind die E-Mail-Adressen, die wir fanden"
 
-msgid "Requested by user"
-msgstr "Beantragt von Benutzer"
+#~ msgid "Requested by user"
+#~ msgstr "Beantragt von Benutzer"
 
-msgid "You can go to"
-msgstr "Bitte gehen Sie zu"
+#~ msgid "You can go to"
+#~ msgstr "Bitte gehen Sie zu"
 
-msgid "to view and approve or deny this entry"
-msgstr "Um den Benutzer freizuschalten oder abzulehnen"
+#~ msgid "to view and approve or deny this entry"
+#~ msgstr "Um den Benutzer freizuschalten oder abzulehnen"
 
-#, python-format
-msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
-msgstr "%(i_label)s-Sponsorpaket von '%(io_name)s ' ist am %(i_end_date)s abgelaufen."
+#~ msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
+#~ msgstr "%(i_label)s-Sponsorpaket von '%(io_name)s ' ist am %(i_end_date)s abgelaufen."
 
-#, python-format
-msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
-msgstr "Ihre Anfrage, der Organisation '%(o_name)s' und ihren Entitäten zugeordnet zu werden, wurde genehmigt."
+#~ msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
+#~ msgstr "Ihre Anfrage, der Organisation '%(o_name)s' und ihren Entitäten zugeordnet zu werden, wurde genehmigt."
 
-msgid "This was the result of a manual review of your affiliation request to ASN"
-msgstr "Dies war das Ergebnis einer manuellen Überprüfung Ihrer Anfrage, dem ASN zugeordnet zu werden"
+#~ msgid "This was the result of a manual review of your affiliation request to ASN"
+#~ msgstr "Dies war das Ergebnis einer manuellen Überprüfung Ihrer Anfrage, dem ASN zugeordnet zu werden"
 
-msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
-msgstr "Dies war das Ergebnis einer manuellen Überprüfung Ihrer Anfrage, der Organisation und ihren Entitäten zugeordnet zu werden."
+#~ msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
+#~ msgstr "Dies war das Ergebnis einer manuellen Überprüfung Ihrer Anfrage, der Organisation und ihren Entitäten zugeordnet zu werden."
 
-msgid "You may view and edit your organization at"
-msgstr "Sie können Daten Ihrer Organisation anschauen und editieren unter"
+#~ msgid "You may view and edit your organization at"
+#~ msgstr "Sie können Daten Ihrer Organisation anschauen und editieren unter"
 
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Wenn Sie Fragen haben, wenden Sie sich bitte an den PeeringDB-Support unter"
+#~ msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+#~ msgstr "Wenn Sie Fragen haben, wenden Sie sich bitte an den PeeringDB-Support unter"
 
-msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr "Sie haben das Zurücksetzen eines Passworts auf PeeringDB 2 initiiert. Bitte folgen Sie der untenstehenden URL, um Ihr Passwort zurückzusetzen."
+#~ msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
+#~ msgstr "Sie haben das Zurücksetzen eines Passworts auf PeeringDB 2 initiiert. Bitte folgen Sie der untenstehenden URL, um Ihr Passwort zurückzusetzen."
 
-msgid "If you did not initiate the password reset request, please ignore this email."
-msgstr "Wenn Sie das Zurücksetzen des Passworts nicht initiiert haben, ignorieren Sie diese E-Mail."
+#~ msgid "If you did not initiate the password reset request, please ignore this email."
+#~ msgstr "Wenn Sie das Zurücksetzen des Passworts nicht initiiert haben, ignorieren Sie diese E-Mail."
 
-msgid "You requested a username retrieval on PeeringDB for the email address"
-msgstr "Sie haben die Wiederauffindung eines Benutzernamen auf PeeringDB für folgende E-Mail-Adresse angefordert"
+#~ msgid "You requested a username retrieval on PeeringDB for the email address"
+#~ msgstr "Sie haben die Wiederauffindung eines Benutzernamen auf PeeringDB für folgende E-Mail-Adresse angefordert"
 
-msgid "Please follow the url below to view any usernames associated with your email."
-msgstr "Bitte folgen Sie der untenstehenden URL, um alle mit Ihrer E-Mail verbundenen Benutzernamen anzuzeigen."
+#~ msgid "Please follow the url below to view any usernames associated with your email."
+#~ msgstr "Bitte folgen Sie der untenstehenden URL, um alle mit Ihrer E-Mail verbundenen Benutzernamen anzuzeigen."
 
-msgid "If you did not request username retrieval, you can ignore this email."
-msgstr "Wenn Sie die Wiederauffindung des Benutzernamen nicht angefordert haben, können Sie diese E-Mail ignorieren."
+#~ msgid "If you did not request username retrieval, you can ignore this email."
+#~ msgstr "Wenn Sie die Wiederauffindung des Benutzernamen nicht angefordert haben, können Sie diese E-Mail ignorieren."
 
-msgid "Our Culture"
-msgstr "Unsere Kultur"
+#~ msgid "Our Culture"
+#~ msgstr "Unsere Kultur"
 
-msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr "PeeringDB ist, wie der Name bereits vermuten lässt, eine Datenbank, die aufgesetzt wurde, um die Arbeit von Netzwerk- und Peering-Managern zu erleichtern. In den letzten Jahren hat sich die Vision der PeeringDB weiter entwickelt, vor allem, um sich der Geschwindigkeit und den schnell ändernden Gepflogenheiten des wachsenden Internets anzupassen. Die Datenbank umfasst nun nicht mehr nur Informationen, die für das reine Peering nötig sind. Mittlerweile beherbergt es alle Arten von relevanten Daten für Netzwerk-, Cloud- oder Servicebetreiber sowie Großunternehmen mit Netzbetrieb, als auch Informationen über Vernetzungseinrichtungen, die das Fundament des Internets formen."
+#~ msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
+#~ msgstr "PeeringDB ist, wie der Name bereits vermuten lässt, eine Datenbank, die aufgesetzt wurde, um die Arbeit von Netzwerk- und Peering-Managern zu erleichtern. In den letzten Jahren hat sich die Vision der PeeringDB weiter entwickelt, vor allem, um sich der Geschwindigkeit und den schnell ändernden Gepflogenheiten des wachsenden Internets anzupassen. Die Datenbank umfasst nun nicht mehr nur Informationen, die für das reine Peering nötig sind. Mittlerweile beherbergt es alle Arten von relevanten Daten für Netzwerk-, Cloud- oder Servicebetreiber sowie Großunternehmen mit Netzbetrieb, als auch Informationen über Vernetzungseinrichtungen, die das Fundament des Internets formen."
 
-msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr "Wir glauben an und verlassen uns auf die Community, um die PeeringDB-Datenbank hochzuziehen und zu verbessern. Die Freiwilligen, die die Datenbank betreiben, begeistern sich für Sicherheit, Datenschutz, Integrität und Gültigkeit der Daten in der Datenbank. Obwohl PeeringDB ein frei verfügbares und öffentliches Werkzeug ist, halten sich die Benutzer genau an die Nutzungsbedingungen, wodurch verhindert wird, dass die Datenbank für kommerzielle Zwecke genutzt wird, und unerbetenen Nachrichten Einhalt geboten wird. Dies wird größtenteils durch die Community kontrolliert und hat sich seit Start der PeeringDB als sehr effektiv erwiesen."
+#~ msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
+#~ msgstr "Wir glauben an und verlassen uns auf die Community, um die PeeringDB-Datenbank hochzuziehen und zu verbessern. Die Freiwilligen, die die Datenbank betreiben, begeistern sich für Sicherheit, Datenschutz, Integrität und Gültigkeit der Daten in der Datenbank. Obwohl PeeringDB ein frei verfügbares und öffentliches Werkzeug ist, halten sich die Benutzer genau an die Nutzungsbedingungen, wodurch verhindert wird, dass die Datenbank für kommerzielle Zwecke genutzt wird, und unerbetenen Nachrichten Einhalt geboten wird. Dies wird größtenteils durch die Community kontrolliert und hat sich seit Start der PeeringDB als sehr effektiv erwiesen."
 
-msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr "Ich bin ein Netzwerkbetreiber. Wie kann die PeeringDB mich unterstützen?"
+#~ msgid "I’m a network operator. How can PeeringDB help me?"
+#~ msgstr "Ich bin ein Netzwerkbetreiber. Wie kann die PeeringDB mich unterstützen?"
 
-msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
-msgstr "Fast ein Drittel der Autonomen Systeme (ASNs) tragen ihre Verbindungsdaten die PeeringDB-Datenbank ein. Durch Nutzung der PeeringDB und Hinzufügen eigener Verbindungsdaten werden Sie in der Lage sein, zuverlässig Informationen zu Netzwerken zu finden, die auf der Suche nach Peeringmöglichkeiten sind, und wo und wie man sich mit ihnen verbinden kann, und andere Netzwerke werden in der Lage sein, diese Informationen zu Ihrem Netzwerk zu finden. Da die Datenbank von Benutzern gepflegt und von unseren freiwilligen Helfern geprüft wird, können Sie darauf vertrauen, dass die Informationen akkurat und aktuell sind."
+#~ msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
+#~ msgstr "Fast ein Drittel der Autonomen Systeme (ASNs) tragen ihre Verbindungsdaten die PeeringDB-Datenbank ein. Durch Nutzung der PeeringDB und Hinzufügen eigener Verbindungsdaten werden Sie in der Lage sein, zuverlässig Informationen zu Netzwerken zu finden, die auf der Suche nach Peeringmöglichkeiten sind, und wo und wie man sich mit ihnen verbinden kann, und andere Netzwerke werden in der Lage sein, diese Informationen zu Ihrem Netzwerk zu finden. Da die Datenbank von Benutzern gepflegt und von unseren freiwilligen Helfern geprüft wird, können Sie darauf vertrauen, dass die Informationen akkurat und aktuell sind."
 
-msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
-msgstr "Diese Daten werden Ihnen helfen, den Prozess der Suche von und die Verbindung mit anderen Netzwerken zu beschleunigen, und fördern dabei eine schnellere und bestimmtere Entfaltung Ihrer eigenen Netzwerkexpansion und Entwicklungspläne."
+#~ msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
+#~ msgstr "Diese Daten werden Ihnen helfen, den Prozess der Suche von und die Verbindung mit anderen Netzwerken zu beschleunigen, und fördern dabei eine schnellere und bestimmtere Entfaltung Ihrer eigenen Netzwerkexpansion und Entwicklungspläne."
 
-msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr "Ich gehöre zu einem Internet Exchange Point (IXP), Rechenzentrum oder anderer Art von Netzkopplungseinrichtung. Wie kann PeeringDB mir helfen?"
+#~ msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
+#~ msgstr "Ich gehöre zu einem Internet Exchange Point (IXP), Rechenzentrum oder anderer Art von Netzkopplungseinrichtung. Wie kann PeeringDB mir helfen?"
 
-msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
-msgstr "IXPs und Rechenzentren können ihre Daten der Datenbank hinzufügen und pflegen, wodurch sich ihre Sichtbarkeit und Anziehungskraft für neue und bestehende Kunden erhöhen. Wenn Sie in der Datenbank sind ist es für andere Netzwerke viel einfacher, essentielle Informationen über Ihre Dienste und an Ihrem IXP oder Ihrer Einrichtung anwesende Netzwerke zu finden."
+#~ msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
+#~ msgstr "IXPs und Rechenzentren können ihre Daten der Datenbank hinzufügen und pflegen, wodurch sich ihre Sichtbarkeit und Anziehungskraft für neue und bestehende Kunden erhöhen. Wenn Sie in der Datenbank sind ist es für andere Netzwerke viel einfacher, essentielle Informationen über Ihre Dienste und an Ihrem IXP oder Ihrer Einrichtung anwesende Netzwerke zu finden."
 
-msgid "Address"
-msgstr "Adresse"
+#~ msgid "Address"
+#~ msgstr "Adresse"
 
-msgid "Postal"
-msgstr "Postleitzahl"
+#~ msgid "Postal"
+#~ msgstr "Postleitzahl"
 
-msgid "click to select multiple"
-msgstr "STRG + klicken, um mehrere auswählen"
+#~ msgid "click to select multiple"
+#~ msgstr "STRG + klicken, um mehrere auswählen"
 
-msgid "Management"
-msgstr "Management"
+#~ msgid "Management"
+#~ msgstr "Management"
 
-msgid "CLLI"
-msgstr "CLLI"
+#~ msgid "CLLI"
+#~ msgstr "CLLI"
 
-msgid "Reset"
-msgstr "Zurücksetzen"
+#~ msgid "Reset"
+#~ msgstr "Zurücksetzen"
 
-msgid "Search"
-msgstr "Suche"
+#~ msgid "Search"
+#~ msgstr "Suche"
 
-msgid "Postal Code"
-msgstr "Postleitzahl"
+#~ msgid "Postal Code"
+#~ msgstr "Postleitzahl"
 
-msgid "No search results."
-msgstr "Keine Übereinstimmung mit Ihren Suchkriterien."
+#~ msgid "No search results."
+#~ msgstr "Keine Übereinstimmung mit Ihren Suchkriterien."
 
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "... Mehr als %(row_limit)s Einträge trafen auf Ihre Anfrage zu. Bitte verfeinern Sie Ihre Anforderung..."
+#~ msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+#~ msgstr "... Mehr als %(row_limit)s Einträge trafen auf Ihre Anfrage zu. Bitte verfeinern Sie Ihre Anforderung..."
 
-msgid "IP Block"
-msgstr "IP-Block"
+#~ msgid "IP Block"
+#~ msgstr "IP-Block"
 
-msgid "Traffic Ratio"
-msgstr "Verkehrsverhältnis"
+#~ msgid "Traffic Ratio"
+#~ msgstr "Verkehrsverhältnis"
 
-msgid "Primary ASN"
-msgstr "Primäres ASN"
+#~ msgid "Primary ASN"
+#~ msgstr "Primäres ASN"
 
-msgid "General Peering Policy"
-msgstr "Allgemeine Peeringrichtlinie"
+#~ msgid "General Peering Policy"
+#~ msgstr "Allgemeine Peeringrichtlinie"
 
-msgid "Exchange Presence"
-msgstr "Eindeutige öffentliche Austausch-Präsenz"
+#~ msgid "Exchange Presence"
+#~ msgstr "Eindeutige öffentliche Austausch-Präsenz"
 
-msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+#~ msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
 
-msgid "Facility Presence"
-msgstr "Liegenschaftspräsenz"
+#~ msgid "Facility Presence"
+#~ msgstr "Liegenschaftspräsenz"
 
-msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr "Suche nach Netzen, die in einem Gebäude aber nicht in einem anderen präsent sind"
+#~ msgid "Search for networks that are present at one Facility, but absent from another facility"
+#~ msgstr "Suche nach Netzen, die in einem Gebäude aber nicht in einem anderen präsent sind"
 
-msgid "Also known as"
-msgstr "Auch bekannt als"
+#~ msgid "Also known as"
+#~ msgstr "Auch bekannt als"
 
-msgid "ASN"
-msgstr "ASN"
+#~ msgid "ASN"
+#~ msgstr "ASN"
 
-msgid "Network Scope"
-msgstr "Netzwerkgeltungsbereich"
+#~ msgid "Network Scope"
+#~ msgstr "Netzwerkgeltungsbereich"
 
-msgid "Exchanges"
-msgstr "Austauschpunkte"
+#~ msgid "Exchanges"
+#~ msgstr "Austauschpunkte"
 
-msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr ""
+#~ msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+#~ msgstr "Fügen Sie Ihrer Organisation eine neue Entität vom Typ %(entity_name)s hinzu. Beachten Sie, dass die neu erstellte Entität vom Typ %(entity_name)s von PeeringDB-Mitarbeitern genehmigt werden muss, bevor es in den Suchergebnissen oder den API-Auflistungen angezeigt wird"
 
-#, python-format
-msgid "- all data will be refreshed from production at %(dt)sZ"
-msgstr ""
+#~ msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
+#~ msgstr "Um als Liegenschaft / Gebäude aufgeführt zu werden erwarten wir, dass Sie Kolokation, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich anbieten."
 
-#, python-format
-msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
-msgstr "Fügen Sie Ihrer Organisation eine neue Entität vom Typ %(entity_name)s hinzu. Beachten Sie, dass die neu erstellte Entität vom Typ %(entity_name)s von PeeringDB-Mitarbeitern genehmigt werden muss, bevor es in den Suchergebnissen oder den API-Auflistungen angezeigt wird"
+#~ msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
+#~ msgstr "Um als Internetaustauschpunkt in PeeringDB gelistet zu werden erwarten, dass Sie folgende Kriterien erfüllen:"
 
-msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr "Um als Liegenschaft / Gebäude aufgeführt zu werden erwarten wir, dass Sie Kolokation, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich anbieten."
+#~ msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
+#~ msgstr "Ein Internetaustauschpunkt (IXP) ist eine Netzwerkeinrichtung, die die Zusammenschaltung von mehr als zwei unabhängigen Autonomen Systemen vornehmlich mit dem Zweck des Austausches von Internetverkehr ermöglicht."
 
-msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr "Um als Internetaustauschpunkt in PeeringDB gelistet zu werden erwarten, dass Sie folgende Kriterien erfüllen:"
+#~ msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
+#~ msgstr "Ein IXP stellt nur Zusammenschaltungen für Autonome System zur Verfügung. An einem IXP wird Internetverkehr zwischen je zwei teilnehmenden Autonomen System direkt ausgetauscht, ohne dass er über ein drittes Autonomes System gehen muss. Ferner verändert der IXP diesen nicht oder greift sonstwie in ihn ein"
 
-msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr "Ein Internetaustauschpunkt (IXP) ist eine Netzwerkeinrichtung, die die Zusammenschaltung von mehr als zwei unabhängigen Autonomen Systemen vornehmlich mit dem Zweck des Austausches von Internetverkehr ermöglicht."
+#~ msgid "Submit"
+#~ msgstr "Absenden"
 
-msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr "Ein IXP stellt nur Zusammenschaltungen für Autonome System zur Verfügung. An einem IXP wird Internetverkehr zwischen je zwei teilnehmenden Autonomen System direkt ausgetauscht, ohne dass er über ein drittes Autonomes System gehen muss. Ferner verändert der IXP diesen nicht oder greift sonstwie in ihn ein"
+#~ msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
+#~ msgstr "Bitte schlagen Sie %(entity_name)s vor, dass es zur Datenbasis hinzugefügt wird. Ihr Vorschlag wird vom PeeringDB Administration Committee geprüft. Er wird dann abschließend bearbeitet und in die Datenbank übernommen oder abgelehnt. Weitere Aktionen Ihrerseits sind nicht erforderlich."
 
-msgid "Submit"
-msgstr "Absenden"
+#~ msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
+#~ msgstr "Damit die vorgeschlagene Einrichtung genehmigt wird, erwarten wir, dass dort Kolokation-, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich angeboten werden."
 
-#, python-format
-msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr "Bitte schlagen Sie %(entity_name)s vor, dass es zur Datenbasis hinzugefügt wird. Ihr Vorschlag wird vom PeeringDB Administration Committee geprüft. Er wird dann abschließend bearbeitet und in die Datenbank übernommen oder abgelehnt. Weitere Aktionen Ihrerseits sind nicht erforderlich."
+#~ msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
+#~ msgstr "Damit der vorgeschlagene Austauschpunkt genehmigt wird, erwarten wir, dass er folgende Kriterien erfüllt:"
 
-msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr "Damit die vorgeschlagene Einrichtung genehmigt wird, erwarten wir, dass dort Kolokation-, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich angeboten werden."
+#~ msgid "Suggest"
+#~ msgstr "Vorschlagen"
 
-msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
-msgstr ""
+#~ msgid "404 - Not Found"
+#~ msgstr "404 - Nicht gefunden"
 
-msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr "Damit der vorgeschlagene Austauschpunkt genehmigt wird, erwarten wir, dass er folgende Kriterien erfüllt:"
+#~ msgid "The page you requested does not exist."
+#~ msgstr "Die Seite existiert nicht."
 
-msgid "Suggest"
-msgstr "Vorschlagen"
+#~ msgid "403 - Forbidden"
+#~ msgstr "403 Nicht erlaubt"
 
-msgid "404 - Not Found"
-msgstr "404 - Nicht gefunden"
+#~ msgid "You dont have permissions to view this page."
+#~ msgstr "Sie sind nicht berechtigt, diese Seite anzuzeigen."
 
-msgid "The page you requested does not exist."
-msgstr "Die Seite existiert nicht."
+#~ msgid "Take me home"
+#~ msgstr "Zur Startseite"
 
-msgid "403 - Forbidden"
-msgstr "403 Nicht erlaubt"
+#~ msgid "All Rights Reserved. By using this service, you agree to adhere to our"
+#~ msgstr "Alle Rechte vorbehalten. Durch die Nutzung dieses Dienstes erklären Sie sich einverstanden mit unserer"
 
-msgid "You dont have permissions to view this page."
-msgstr "Sie sind nicht berechtigt, diese Seite anzuzeigen."
+#~ msgid "AUP"
+#~ msgstr "Nutzungsbedingung"
 
-msgid "Take me home"
-msgstr "Zur Startseite"
+#~ msgid "Privacy Policy"
+#~ msgstr "Datenschutzrichtlinie"
 
-msgid "All Rights Reserved. By using this service, you agree to adhere to our"
-msgstr "Alle Rechte vorbehalten. Durch die Nutzung dieses Dienstes erklären Sie sich einverstanden mit unserer"
+#~ msgid "About"
+#~ msgstr "Über"
 
-msgid "AUP"
-msgstr "Nutzungsbedingung"
+#~ msgid "Register"
+#~ msgstr "Registrieren"
 
-msgid "Privacy Policy"
-msgstr "Datenschutzrichtlinie"
+#~ msgid "Sponsors"
+#~ msgstr "Sponsoren"
 
-msgid "About"
-msgstr "Über"
+#~ msgid "Resources"
+#~ msgstr "Ressourcen"
 
-msgid "Register"
-msgstr "Registrieren"
+#~ msgid "API"
+#~ msgstr "API"
 
-msgid "Sponsors"
-msgstr "Sponsoren"
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
 
-msgid "Resources"
-msgstr "Ressourcen"
+#~ msgid "FAQ"
+#~ msgstr "FAQ (Häufig gestellte Fragen)"
 
-msgid "API"
-msgstr "API"
+#~ msgid "Contact Us"
+#~ msgstr "Kontaktieren Sie uns"
 
-msgid "Documentation"
-msgstr "Dokumentation"
+#~ msgid "Global System Statistics"
+#~ msgstr "Globale Systemstatistik"
 
-msgid "FAQ"
-msgstr "FAQ (Häufig gestellte Fragen)"
+#~ msgid "Connections to Exchanges"
+#~ msgstr "Verbindungen zu Austauschpunkten"
 
-msgid "Governance"
-msgstr ""
+#~ msgid "Connections to Facilities"
+#~ msgstr "Verbindungen zu Liegenschaften"
 
-msgid "Contact Us"
-msgstr "Kontaktieren Sie uns"
+#~ msgid "Search here for a network, IX, or facility."
+#~ msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
 
-msgid "Global System Statistics"
-msgstr "Globale Systemstatistik"
+#~ msgid "Advanced Search"
+#~ msgstr "Erweiterte Suche"
 
-msgid "Connections to Exchanges"
-msgstr "Verbindungen zu Austauschpunkten"
+#~ msgid "pending"
+#~ msgstr "Ausstehend"
 
-msgid "Connections to Facilities"
-msgstr "Verbindungen zu Liegenschaften"
+#~ msgid "unverified"
+#~ msgstr "Ungeprüft"
 
-msgid "Search here for a network, IX, or facility."
-msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
+#~ msgid "Suggest Facility"
+#~ msgstr "Liegenschaft vorschlagen"
 
-msgid "Advanced Search"
-msgstr "Erweiterte Suche"
+#~ msgid "Profile"
+#~ msgstr "Profil"
 
-msgid "pending"
-msgstr "Ausstehend"
+#~ msgid "Logout"
+#~ msgstr "Abmelden"
 
-msgid "unverified"
-msgstr "Ungeprüft"
+#~ msgid "or"
+#~ msgstr "oder"
 
-msgid "Suggest Facility"
-msgstr "Liegenschaft vorschlagen"
+#~ msgid "Login"
+#~ msgstr "Anmelden"
 
-msgid "Profile"
-msgstr "Profil"
+#~ msgid "The Interconnection Database"
+#~ msgstr "Die Vernetzungsdatenbank"
 
-msgid "Logout"
-msgstr "Abmelden"
+#~ msgid "Join. Search. Grow your network."
+#~ msgstr "Mitmachen. Finden. Netzwerk knüpfen."
 
-msgid "or"
-msgstr "oder"
+#~ msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
+#~ msgstr "PeeringDB ist eine frei verfügbare, von Nutzern gepflegte Datenbank von Netzwerken und die erste Anlaufstelle für Peeringdaten. Die Datenbank vereinfacht die globale Verbindung von Netzwerken bei Internet-Austauschknoten (IXPs), Rechenzentren und anderen Kopplungseinrichtungen und ist der erste Schritt bei der Peering-Entscheidungsfindung."
 
-msgid "Login"
-msgstr "Anmelden"
+#~ msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
+#~ msgstr "Die Datenbank ist eine gemeinnützige, communitygesteuerte Initiative, die von ehrenamtlichen Helfern betrieben und vorangetrieben wird. Sie ist ein öffentliches Werkzeug für das Wachstum und das Wohl des Internets. Treten Sie der Community bei und unterstützen Sie die fortwährende Entwicklung des Internets."
 
-msgid "The Interconnection Database"
-msgstr "Die Vernetzungsdatenbank"
+#~ msgid "Learn more"
+#~ msgstr "Mehr erfahren"
 
-msgid "Join. Search. Grow your network."
-msgstr "Mitmachen. Finden. Netzwerk knüpfen."
+#~ msgid "about"
+#~ msgstr "über"
 
-msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
-msgstr "PeeringDB ist eine frei verfügbare, von Nutzern gepflegte Datenbank von Netzwerken und die erste Anlaufstelle für Peeringdaten. Die Datenbank vereinfacht die globale Verbindung von Netzwerken bei Internet-Austauschknoten (IXPs), Rechenzentren und anderen Kopplungseinrichtungen und ist der erste Schritt bei der Peering-Entscheidungsfindung."
+#~ msgid "register"
+#~ msgstr "Registrieren Sie sich"
 
-msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
-msgstr "Die Datenbank ist eine gemeinnützige, communitygesteuerte Initiative, die von ehrenamtlichen Helfern betrieben und vorangetrieben wird. Sie ist ein öffentliches Werkzeug für das Wachstum und das Wohl des Internets. Treten Sie der Community bei und unterstützen Sie die fortwährende Entwicklung des Internets."
+#~ msgid "Most Recent Updates"
+#~ msgstr "Aktuelle Updates"
 
-msgid "Learn more"
-msgstr "Mehr erfahren"
+#~ msgid "Username"
+#~ msgstr "Benutzername"
 
-msgid "about"
-msgstr "über"
+#~ msgid "Password"
+#~ msgstr "Passwort"
 
-msgid "register"
-msgstr "Registrieren Sie sich"
+#~ msgid "I forgot my password .."
+#~ msgstr "Ich habe mein Passwort vergessen."
 
-msgid "Most Recent Updates"
-msgstr "Aktuelle Updates"
+#~ msgid "I forgot my username .."
+#~ msgstr "Ich habe meinen Benutzernamen vergessen."
 
-msgid "Username"
-msgstr "Benutzername"
+#~ msgid "Maintenance Mode"
+#~ msgstr "Wartungsmodus"
 
-msgid "Password"
-msgstr "Passwort"
+#~ msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+#~ msgstr "Die Seite ist aktuell im Wartungsmodus, während welchem diese Aktion deaktiviert ist. Bitte in ein paar Minuten nochmal versuchen"
 
-msgid "I forgot my password .."
-msgstr "Ich habe mein Passwort vergessen."
+#~ msgid "Login with oAuth"
+#~ msgstr "Einloggen mit oAuth"
 
-msgid "I forgot my username .."
-msgstr "Ich habe meinen Benutzernamen vergessen."
+#~ msgid "Login with your Google account"
+#~ msgstr "Mit Google einloggen"
 
-msgid "Maintenance Mode"
-msgstr "Wartungsmodus"
+#~ msgid "Login with your Facebook account"
+#~ msgstr "Mit Facebook anmelden"
 
-msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr "Die Seite ist aktuell im Wartungsmodus, während welchem diese Aktion deaktiviert ist. Bitte in ein paar Minuten nochmal versuchen"
+#~ msgid "Partners"
+#~ msgstr "Partner"
 
-msgid "Login with oAuth"
-msgstr "Einloggen mit oAuth"
+#~ msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
+#~ msgstr "Wir haben Anweisungen an Ihre E-Mail-Adresse geschickt, vorausgesetzt, sie ist in unserem System. Sie haben 30 Minuten, um den Vorgang abzuschließen."
 
-msgid "Login with your Google account"
-msgstr "Mit Google einloggen"
+#~ msgid "Reset Password"
+#~ msgstr "Passwort zurücksetzen"
 
-msgid "Login with your Facebook account"
-msgstr "Mit Facebook anmelden"
+#~ msgid "The password for your account"
+#~ msgstr "Das Passwort für Ihr Konto"
 
-msgid "Partners"
-msgstr "Partner"
+#~ msgid "has been reset, proceed to the"
+#~ msgstr "wurde zurückgesetzt, fahren Sie mit"
 
-msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
-msgstr "Wir haben Anweisungen an Ihre E-Mail-Adresse geschickt, vorausgesetzt, sie ist in unserem System. Sie haben 30 Minuten, um den Vorgang abzuschließen."
+#~ msgid "login page"
+#~ msgstr "Anmeldeseite"
 
-msgid "Reset Password"
-msgstr "Passwort zurücksetzen"
+#~ msgid "Verify Password"
+#~ msgstr "Passwort bestätigen"
 
-msgid "The password for your account"
-msgstr "Das Passwort für Ihr Konto"
+#~ msgid "The security token you provided is invalid, please"
+#~ msgstr "Das von Ihnen angegebene Sicherheitstoken ist ungültig, bitte"
 
-msgid "has been reset, proceed to the"
-msgstr "wurde zurückgesetzt, fahren Sie mit"
+#~ msgid "try again"
+#~ msgstr "versuchen Sie es bitte erneut"
 
-msgid "login page"
-msgstr "Anmeldeseite"
+#~ msgid "The password reset process has expired, please"
+#~ msgstr "Dieser Link zum Zurücksetzen des Passworts ist abgelaufen, bitte"
 
-msgid "Verify Password"
-msgstr "Passwort bestätigen"
+#~ msgid "initiate again"
+#~ msgstr "fordern Sie ein neues an"
 
-msgid "The security token you provided is invalid, please"
-msgstr "Das von Ihnen angegebene Sicherheitstoken ist ungültig, bitte"
+#~ msgid "Affiliate with organization"
+#~ msgstr "Zuordnung zu einer Organisation anfordern"
 
-msgid "try again"
-msgstr "versuchen Sie es bitte erneut"
+#~ msgid "Your affiliation with %(ar_name)s is pending approval."
+#~ msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
 
-msgid "The password reset process has expired, please"
-msgstr "Dieser Link zum Zurücksetzen des Passworts ist abgelaufen, bitte"
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
 
-msgid "initiate again"
-msgstr "fordern Sie ein neues an"
+#, fuzzy
+#~| msgid "Your affiliation with %(ar_name)s is pending approval."
+#~ msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+#~ msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
 
-msgid "Affiliate with organization"
-msgstr "Zuordnung zu einer Organisation anfordern"
+#, fuzzy
+#~| msgid "Your affiliation with %(ar_name)s was denied"
+#~ msgid "You have canceled your affiliation request with %(ar_name)s"
+#~ msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
 
-#, python-format
-msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
+#~ msgid "Your affiliation with %(ar_name)s was denied"
+#~ msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
 
-msgid "Cancel"
-msgstr "Abbrechen"
+#~ msgid "Your affiliation with %(ar_name)s was approved"
+#~ msgstr "Ihre Zuordnung zu %(ar_name)s wurde bestätigt"
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s is pending approval."
-msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
+#~ msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
+#~ msgstr "Um einer existierenden Organisation zugeordnet zu werden, geben Sie bitte die ASN oder den Organisationsnamen unten ein."
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s was denied"
-msgid "You have canceled your affiliation request with %(ar_name)s"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
+#~ msgid "To register a new network organization, please enter the ASN and organization name below."
+#~ msgstr "Um eine neue Organisation zu registrieren, geben Sie bitte die ASN und den Organisationsnamen unten ein."
 
-#, python-format
-msgid "Your affiliation with %(ar_name)s was denied"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
+#~ msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
+#~ msgstr "Um einen neuen Standort oder Exchange zu registrieren, geben Sie bitte den Organisationsnamen unten ein (ASN ist optional)."
 
-#, python-format
-msgid "Your affiliation with %(ar_name)s was approved"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde bestätigt"
+#~ msgid "Affiliate"
+#~ msgstr "Zuordnung anfordern"
 
-msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr "Um einer existierenden Organisation zugeordnet zu werden, geben Sie bitte die ASN oder den Organisationsnamen unten ein."
+#~ msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
+#~ msgstr "Im Falle, dass der RIR-Eintrag für Ihre ASN nicht eingeholt werden kann, kontaktieren Sie bitte"
 
-msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr "Um eine neue Organisation zu registrieren, geben Sie bitte die ASN und den Organisationsnamen unten ein."
+#~ msgid "for assistance"
+#~ msgstr "für Unterstützung"
 
-msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "Um einen neuen Standort oder Exchange zu registrieren, geben Sie bitte den Organisationsnamen unten ein (ASN ist optional)."
+#~ msgid "Existing affiliations"
+#~ msgstr "Bestehende Zuordnungen"
 
-msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
-msgstr ""
+#~ msgid "Your affiliation with"
+#~ msgstr "Ihre Zuordnung zu"
 
-msgid "Affiliate"
-msgstr "Zuordnung anfordern"
+#~ msgid "has been approved"
+#~ msgstr "wurde bestätigt"
 
-msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "Im Falle, dass der RIR-Eintrag für Ihre ASN nicht eingeholt werden kann, kontaktieren Sie bitte"
+#~ msgid "Change email address"
+#~ msgstr "E-Mail-Adresse ändern"
 
-msgid "for assistance"
-msgstr "für Unterstützung"
+#~ msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
+#~ msgstr "Für eine schnelle Überprüfung ist es notwendig, dass sie eine Unternehmens-E-Mail-Adresse verwenden. Wenn Sie vorhaben, Ihre ASN bei PeeringDB zu registrieren, empfehlen wir, dass Sie eine E-Mail-Adresse verwenden, die bereits in den öffentlichen Kontaktdetails Ihrer ASN vorhanden ist."
 
-msgid "Existing affiliations"
-msgstr "Bestehende Zuordnungen"
+#~ msgid "Change Email"
+#~ msgstr "E-Mail-Adresse ändern"
 
-msgid "Your affiliation with"
-msgstr "Ihre Zuordnung zu"
+#~ msgid "Change password"
+#~ msgstr "Passwort ändern"
 
-msgid "has been approved"
-msgstr "wurde bestätigt"
+#~ msgid "Password changed"
+#~ msgstr "Password geändert"
 
-msgid "Change email address"
-msgstr "E-Mail-Adresse ändern"
+#~ msgid "Current Password"
+#~ msgstr "Aktuelles Passwort"
 
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "Für eine schnelle Überprüfung ist es notwendig, dass sie eine Unternehmens-E-Mail-Adresse verwenden. Wenn Sie vorhaben, Ihre ASN bei PeeringDB zu registrieren, empfehlen wir, dass Sie eine E-Mail-Adresse verwenden, die bereits in den öffentlichen Kontaktdetails Ihrer ASN vorhanden ist."
+#~ msgid "Password Verification"
+#~ msgstr "Passwort erneut eingeben"
 
-msgid "Change Email"
-msgstr "E-Mail-Adresse ändern"
+#~ msgid "You have confirmed your email address!"
+#~ msgstr "Sie haben Ihre E-Mail-Adresse bestätigt!"
 
-msgid "Change password"
-msgstr "Passwort ändern"
+#~ msgid "Attention!"
+#~ msgstr "Achtung!"
 
-msgid "Password changed"
-msgstr "Password geändert"
+#~ msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
+#~ msgstr "Bitte geben Sie für Ihr Konto eine E-Mail-Adresse an. Solange Sie dies nicht gemacht haben, sind wir außerstande, mit der Verifizierung fortzufahren."
 
-msgid "Current Password"
-msgstr "Aktuelles Passwort"
+#~ msgid "Email Confirmation"
+#~ msgstr "E-Mail bestätigen"
 
-msgid "Password Verification"
-msgstr "Passwort erneut eingeben"
+#~ msgid "Before getting access to any other features, you need to confirm your email address."
+#~ msgstr "Zugang zu weiteren Funktionen wird erst nach Bestätigung der E-Mail-Adresse gewährt."
 
-msgid "You have confirmed your email address!"
-msgstr "Sie haben Ihre E-Mail-Adresse bestätigt!"
+#~ msgid "We have sent you a message containing the confirmation link."
+#~ msgstr "Wir haben Ihnen eine Nachricht mit dem Bestätigungslink zugesandt."
 
-msgid "Attention!"
-msgstr "Achtung!"
+#~ msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
+#~ msgstr "Bevor wir oder die Organisation, der Sie angehören, Ihr Konto geprüft haben, werden Sie noch keinen Vollzugriff haben. Vielen Dank für Ihre Geduld."
 
-msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr "Bitte geben Sie für Ihr Konto eine E-Mail-Adresse an. Solange Sie dies nicht gemacht haben, sind wir außerstande, mit der Verifizierung fortzufahren."
+#~ msgid "Select language"
+#~ msgstr "Sprache auswählen"
 
-msgid "Email Confirmation"
-msgstr "E-Mail bestätigen"
+#~ msgid "Language preference saved"
+#~ msgstr "Sprachauswahl gespeichert"
 
-msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr "Zugang zu weiteren Funktionen wird erst nach Bestätigung der E-Mail-Adresse gewährt."
+#~ msgid "Set language preference"
+#~ msgstr "Sprachauswahl speichern"
 
-msgid "We have sent you a message containing the confirmation link."
-msgstr "Wir haben Ihnen eine Nachricht mit dem Bestätigungslink zugesandt."
+#~ msgid "Account Created"
+#~ msgstr "Erstellungsdatum des Kontos"
 
-msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr "Bevor wir oder die Organisation, der Sie angehören, Ihr Konto geprüft haben, werden Sie noch keinen Vollzugriff haben. Vielen Dank für Ihre Geduld."
+#~ msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
+#~ msgstr "Ihr Konto wurde erstellt, erhält die vollen Zugriffsrechte aber erst nach einer Überprüfung. Danke für Ihr Verständnis."
 
-msgid "Select language"
-msgstr "Sprache auswählen"
+#~ msgid "Return Home"
+#~ msgstr "Zur Startseite zurückkehren"
 
-msgid "Language preference saved"
-msgstr "Sprachauswahl gespeichert"
+#~ msgid "Create account"
+#~ msgstr "Zugang erstellen"
 
-msgid "Set language preference"
-msgstr "Sprachauswahl speichern"
+#~ msgid "Confirm password"
+#~ msgstr "Passwort bestätigen"
 
-msgid "Account Created"
-msgstr "Erstellungsdatum des Kontos"
+#~ msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
+#~ msgstr "Für ein schnellere Validierung ist es nötig eine E-Mail Adresse der jeweiligen Organisation/Firme zu benutzen. Wenn Sie vorhaben Ihr ASN der PeeringDB hinzuzufügen, wird es empfohlen eine E-Mail Adresse zu benutzen, die bereits in den öffentlichen Kontaktdaten des ASNs aufgeführt ist."
 
-msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
-msgstr "Ihr Konto wurde erstellt, erhält die vollen Zugriffsrechte aber erst nach einer Überprüfung. Danke für Ihr Verständnis."
+#~ msgid "First name"
+#~ msgstr "Vorname"
 
-msgid "Return Home"
-msgstr "Zur Startseite zurückkehren"
+#~ msgid "Last name"
+#~ msgstr "Nachname"
 
-msgid "Create account"
-msgstr "Zugang erstellen"
+#~ msgid "Loading anti-spam challenge"
+#~ msgstr "Anti-Spam-Aufforderung wird geladen"
 
-msgid "Confirm password"
-msgstr "Passwort bestätigen"
+#~ msgid "Create"
+#~ msgstr "Erstellen"
 
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr "Für ein schnellere Validierung ist es nötig eine E-Mail Adresse der jeweiligen Organisation/Firme zu benutzen. Wenn Sie vorhaben Ihr ASN der PeeringDB hinzuzufügen, wird es empfohlen eine E-Mail Adresse zu benutzen, die bereits in den öffentlichen Kontaktdaten des ASNs aufgeführt ist."
+#~ msgid "Thank you"
+#~ msgstr "Vielen Dank"
 
-msgid "First name"
-msgstr "Vorname"
+#~ msgid "We have received your ownership request for %(o_name)s and will review it."
+#~ msgstr "Ihre Anfrage %(o_name)s zu übernehmen wurde empfangen und liegt zur Überprüfung vor."
 
-msgid "Last name"
-msgstr "Nachname"
+#~ msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
+#~ msgstr "Ihre Anfrage diesen Eintrag zu übernehmen wurde nach einer Überprüfung freigegeben. Sie können diesen Eintrag jetzt einsehen und bearbeiten"
 
-msgid "Loading anti-spam challenge"
-msgstr "Anti-Spam-Aufforderung wird geladen"
+#~ msgid "Request Ownership"
+#~ msgstr "Eigentum/Besitzrecht anfordern"
 
-msgid "Create"
-msgstr "Erstellen"
+#~ msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
+#~ msgstr "Bitte fordern Sie Eigenturmsrechte an Objekten nur dann an, wenn Sie sicher sind, dass diese zu Ihnen gehören. Möchten Sie fortfahren?"
 
-msgid "Thank you"
-msgstr "Vielen Dank"
+#~ msgid "Only verified users may request ownership to an organization"
+#~ msgstr "Nur freigebene und bestätigte Benutzer können Eigentum an Organisations-Objekten anfordern"
 
-#, python-format
-msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr "Ihre Anfrage %(o_name)s zu übernehmen wurde empfangen und liegt zur Überprüfung vor."
+#~ msgid "Suggest Exchange"
+#~ msgstr "Austauschknoten vorschlagen"
 
-msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr "Ihre Anfrage diesen Eintrag zu übernehmen wurde nach einer Überprüfung freigegeben. Sie können diesen Eintrag jetzt einsehen und bearbeiten"
+#~ msgid "Suggest Network"
+#~ msgstr "Netzwerk vorschlagen"
 
-msgid "Request Ownership"
-msgstr "Eigentum/Besitzrecht anfordern"
+#~ msgid "Become a Sponsor"
+#~ msgstr "Pate werden"
 
-msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr "Bitte fordern Sie Eigenturmsrechte an Objekten nur dann an, wenn Sie sicher sind, dass diese zu Ihnen gehören. Möchten Sie fortfahren?"
+#~ msgid "This server is running in TUTORIAL MODE"
+#~ msgstr "Dieser Server befindet sich im TUTORIAL-MODUS"
 
-msgid "Only verified users may request ownership to an organization"
-msgstr "Nur freigebene und bestätigte Benutzer können Eigentum an Organisations-Objekten anfordern"
+#~ msgid "These are the usernames associated with your email address"
+#~ msgstr "Folgene Benutzernamen sind mit Ihrer E-Mail-Adresse verknüpft"
 
-msgid "Suggest Exchange"
-msgstr "Austauschknoten vorschlagen"
+#~ msgid "The secret you provided does not match the secret required to complete this process"
+#~ msgstr "Das übermittelte Kennwort stimmt nicht mit dem hinterlegten Kennwort überein, was benötigt wird um fortzufahren"
 
-msgid "Suggest Network"
-msgstr "Netzwerk vorschlagen"
+#~ msgid "Note"
+#~ msgstr "Notiz"
 
-msgid "Become a Sponsor"
-msgstr "Pate werden"
-
-msgid "This server is running in TUTORIAL MODE"
-msgstr "Dieser Server befindet sich im TUTORIAL-MODUS"
-
-msgid "These are the usernames associated with your email address"
-msgstr "Folgene Benutzernamen sind mit Ihrer E-Mail-Adresse verknüpft"
-
-msgid "The secret you provided does not match the secret required to complete this process"
-msgstr "Das übermittelte Kennwort stimmt nicht mit dem hinterlegten Kennwort überein, was benötigt wird um fortzufahren"
-
-msgid "Note"
-msgstr "Notiz"
-
-msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr "Der Vorgang sollte im gleichen Browser fortgeführt werden, in dem Sie damit angefangen haben."
+#~ msgid "You should complete the process in the same browser that you originally initiated it in."
+#~ msgstr "Der Vorgang sollte im gleichen Browser fortgeführt werden, in dem Sie damit angefangen haben."
 
 # # unklarer Zusammenhang
-msgid "Please re-initiate it"
-msgstr "Bitte beginnen Sie noch einmal von vorn"
+#~ msgid "Please re-initiate it"
+#~ msgstr "Bitte beginnen Sie noch einmal von vorn"
 
-msgid "This form allows you to retrieve the usernames associated with your email address."
-msgstr "Dieses Formular ermöglicht es Ihnen alle Benutzer anzuzeigen, die mit Ihrer E-Mail-Adresse verknüpft sind."
+#~ msgid "This form allows you to retrieve the usernames associated with your email address."
+#~ msgstr "Dieses Formular ermöglicht es Ihnen alle Benutzer anzuzeigen, die mit Ihrer E-Mail-Adresse verknüpft sind."
 
-msgid "We've sent instructions to your email address, provided it is in our system."
-msgstr "Sofern uns Ihre E-Mail-Adresse bekannt ist, haben wir Ihnen dorthin Anweisungen zugesandt."
+#~ msgid "We've sent instructions to your email address, provided it is in our system."
+#~ msgstr "Sofern uns Ihre E-Mail-Adresse bekannt ist, haben wir Ihnen dorthin Anweisungen zugesandt."
 
-msgid "Retrieve username(s)"
-msgstr "Benutzername(n) abrufen"
+#~ msgid "Retrieve username(s)"
+#~ msgstr "Benutzername(n) abrufen"
 
-msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
-msgstr "Ihr Zugang wurde mit noch keiner Organisation verbunden und hat deshalb nur eingeschränkten Zugang zu manchen Daten (wie z.B. nicht öffentiche Kontaktinformationen)."
+#~ msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
+#~ msgstr "Ihr Zugang wurde mit noch keiner Organisation verbunden und hat deshalb nur eingeschränkten Zugang zu manchen Daten (wie z.B. nicht öffentiche Kontaktinformationen)."
 
-msgid "Please take the time to confirm your email address and request affiliation"
-msgstr "Bitte nehmen Sie sich die Zeit und bestätigen Sie Ihre E-Mail Adresse sowie zusammenhängende Zugehörigkeiten"
+#~ msgid "Please take the time to confirm your email address and request affiliation"
+#~ msgstr "Bitte nehmen Sie sich die Zeit und bestätigen Sie Ihre E-Mail Adresse sowie zusammenhängende Zugehörigkeiten"
 
-msgid "You may request affiliation to an Organization or ASN"
-msgstr "Sie können die Zugehörigkeit zu einer Organisation oder zu einem ASN beantragen"
+#~ msgid "You may request affiliation to an Organization or ASN"
+#~ msgstr "Sie können die Zugehörigkeit zu einer Organisation oder zu einem ASN beantragen"
 
-msgid "Manage OAuth Applications"
-msgstr "OAuth-Anwendungen verwalten"
+#~ msgid "Manage OAuth Applications"
+#~ msgstr "OAuth-Anwendungen verwalten"
 
-msgid "Pending Review"
-msgstr "In Prüfung"
+#~ msgid "Pending Review"
+#~ msgstr "In Prüfung"
 
-msgid "Edit"
-msgstr "Bearbeiten"
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
 
-msgid "Save"
-msgstr "Speichern"
+#~ msgid "Save"
+#~ msgstr "Speichern"
 
-msgid "Some of the data on this page is incomplete, please update the fields marked with"
-msgstr "Einige der Daten auf dieser Seite sind unvollständig. Bitte aktualisieren Sie die Felder, die mit"
+#~ msgid "Some of the data on this page is incomplete, please update the fields marked with"
+#~ msgstr "Einige der Daten auf dieser Seite sind unvollständig. Bitte aktualisieren Sie die Felder, die mit"
 
-msgid "to improve data quality"
-msgstr "markiert sind, um die Datenqualität zu erhöhen"
+#~ msgid "to improve data quality"
+#~ msgstr "markiert sind, um die Datenqualität zu erhöhen"
 
-msgid "Address failed validation."
-msgstr "Adressüberprüfung fehlgeschlagen."
+#~ msgid "Address failed validation."
+#~ msgstr "Adressüberprüfung fehlgeschlagen."
 
-msgid "Geocoding error"
-msgstr "Geocode-Fehler"
+#~ msgid "Geocoding error"
+#~ msgstr "Geocode-Fehler"
 
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
-msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgerufen werden. Dies geschieht automatisch bei Änderungen im Adressfeld."
+#~ msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+#~ msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgerufen werden. Dies geschieht automatisch bei Änderungen im Adressfeld."
 
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
-
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Präfix"
-
-msgid "IXLAN Prefix"
-msgstr "IXLAN-Präfix"
-
-msgid "Add Prefix"
-msgstr "Prefix hinzufügen"
-
-msgid "No filter matches."
-msgstr "Keine Einträge zum gewählten Filter gefunden."
-
-msgid "You may filter by"
-msgstr "Sie können filtern nach"
-
-msgid "Exchange - Facility link"
-msgstr "Netzwerk-Liegenschaft-Link"
-
-msgid "Add Facility"
-msgstr "Gebäude hinzufügen"
-
-msgid "IX-F Import Preview"
-msgstr "Vorschau auf den IXF-Import"
-
-msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
-msgstr "Der aktuelle Import wird einmal am Tag um 00:00Z ausgeführt - benutzen sie dies, um die Änderungen, die durchgeführt werden, sich vorher anzusehen"
-
-msgid "Changes"
-msgstr "Änderungen"
-
-msgid "Errors"
-msgstr "Fehler"
-
-msgid "speed"
-msgstr "Geschwindigkeit"
-
-msgid "routeserver"
-msgstr "Routeserver"
-
-msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
-msgstr "Manchmal laufen wir auf Fehler, wenn IX-F-Daten geparst werden. Diese betreffen gewöhnlicherweise den Import. Weiter unten sehen Sie diese Fehler"
-
-msgid "Peers at this Exchange Point"
-msgstr "Peers an diesem Exchange"
-
-msgid "Peer Name"
-msgstr "Peername"
-
-msgid "Speed"
-msgstr "Geschwindigkeit"
-
-msgid "Exchange"
-msgstr "Austauschpunkt"
-
-msgid "IP"
-msgstr "IP"
-
-msgid "Not operational"
-msgstr ""
-
-msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
-msgstr "Einige der Kontaktdaten werden nur angemeldeten Benutzern angezeigt. Bitte melden Sie sich an."
-
-msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
-msgstr "Einige der Kontaktdaten dieses Netzwerks werden nicht angezeigt, da Ihr Zugang nicht mit dieser Organisation verknüpft ist."
-
-msgid "Visiblity"
-msgstr "Sichtbarkeit"
-
-msgid "E-Mail"
-msgstr "E-Mail"
-
-msgid "Add Contact"
-msgstr "Kontakt hinzufügen"
-
-msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
-msgstr "Unten finden Sie eine Vorschau auf Änderungen, die beim nächsten IX-F Datenimport an Ihrem Netz vorgenommen werden. Der eigentliche Import läuft einmal am Tag um 00:00Z"
-
-msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
-msgstr "Wir benutzen lokal gecachte IX-F Daten, um diese Vorschau zu generieren. Falls Sie Änderungen bei IX-F Daten eines Exchnages erwarten, so warten Sie bitte etwas, damit diese hier wiedergegeben werden."
-
-msgid "action"
-msgstr "Aktion"
-
-msgid "exchange"
-msgstr "Austauschpunkt"
-
-msgid "Close"
-msgstr "Schließen"
-
-msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
-msgstr "Nachstehend finden Sie ein Protokoll der Änderungen, die an Ihren Austauschverbindungen infolge von IX-F-Datenimporten vorgenommen wurden. Beachten Sie, dass dies keine Anpassungen enthält, die von Mitarbeitern vorgenommen wurden, um solche Änderungen rückgängig zu machen. Sie sollten daher als unformatiertes Protokoll der vom IX-F-Datenimport ausgeführten Aktionen angesehen werden."
-
-msgid "Showing most recent"
-msgstr "Anzeige der Neuesten"
-
-msgid "changes"
-msgstr "Änderungen"
-
-msgid "Refresh"
-msgstr "Aktualisierung"
-
-msgid "RS Peer"
-msgstr "RS-Peer"
-
-msgid "Network - Exchange link"
-msgstr "Netzwerk-Austauschpunkt-Link"
-
-msgid "Entry needs to be moved to correct network"
-msgstr ""
-
-msgid "Add Exchange Point"
-msgstr "Exchange hinzufügen"
-
-msgid "member"
-msgstr "Mitglied"
-
-msgid "Remove"
-msgstr "Entfernen"
-
-msgid "Manage"
-msgstr "Verwalten"
-
-msgid "Add Network"
-msgstr "Netzwerk hinzufügen"
-
-msgid "Add Exchange"
-msgstr "Exchange hinzufügen"
-
-msgid "Permissions"
-msgstr "Berechtigungen"
-
-msgid "Technical E-mail"
-msgstr "E-Mail (technisch)"
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
 
 #, fuzzy
-#| msgid "Change Email"
-msgid "Sales E-mail"
-msgstr "E-Mail-Adresse ändern"
+#~| msgid "Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "Präfix"
 
-msgid "Policy URL"
-msgstr "Peeringrichtlinien-URL"
+#~ msgid "IXLAN Prefix"
+#~ msgstr "IXLAN-Präfix"
 
-msgid "Add a new Network to your Organization."
-msgstr "Fügen Sie Ihrer Organisation ein neues Netzwerk hinzu."
+#~ msgid "Add Prefix"
+#~ msgstr "Prefix hinzufügen"
 
-msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
-msgstr "Wir werden versuchen, automatisch Ihre Verbindung zu diesem Netzwerk zu prüfen, indem wir Ihre E-Mail-Adresse gegen den ASN-RIR-Eintrag prüfen."
+#~ msgid "No filter matches."
+#~ msgstr "Keine Einträge zum gewählten Filter gefunden."
 
-msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr "Sollte die Überprüfung nicht gelingen muss das Netzwerk von PeeringDB-Mitarbeitern akzeptiert werden, bevor es in den Suchergebnissen oder den API-Listungen aufgeführt wird."
+#~ msgid "You may filter by"
+#~ msgstr "Sie können filtern nach"
 
-msgid "Submit Network"
-msgstr "Netzwerk einreichen"
+#~ msgid "Exchange - Facility link"
+#~ msgstr "Netzwerk-Liegenschaft-Link"
 
-msgid "for assistance with the creation of your network in PeeringDB."
-msgstr "für Unterstützung bei der Erstellung Ihres Netzwerkes in PeeringDB."
+#~ msgid "Add Facility"
+#~ msgstr "Gebäude hinzufügen"
 
-msgid "Policy E-mail"
-msgstr "E-Mail (Peeringrichtlinien)"
+#~ msgid "IX-F Import Preview"
+#~ msgstr "Vorschau auf den IXF-Import"
 
-msgid "IPv4 or IPv6 prefix"
-msgstr "IPv4- oder IPv6-Präfix"
+#~ msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
+#~ msgstr "Der aktuelle Import wird einmal am Tag um 00:00Z ausgeführt - benutzen sie dies, um die Änderungen, die durchgeführt werden, sich vorher anzusehen"
 
-msgid "Confirmed"
-msgstr "Bestätigt"
+#~ msgid "Changes"
+#~ msgstr "Änderungen"
 
-msgid "Date"
-msgstr "Datum"
+#~ msgid "Errors"
+#~ msgstr "Fehler"
 
-msgid "Currently no users requesting affiliation with"
-msgstr "Derzeit wartet kein Nutzer auf Zuordnung zu"
+#~ msgid "speed"
+#~ msgstr "Geschwindigkeit"
 
-msgid "Group"
-msgstr "Gruppe"
+#~ msgid "routeserver"
+#~ msgstr "Routeserver"
 
-msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr "Hier können regulären Mitgliedern Berechtigungen zugeteilt werden. Administratoren werden hier nicht aufgelistet, da sie standardmäßig zu allem Zugriff haben."
+#~ msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+#~ msgstr "Manchmal laufen wir auf Fehler, wenn IX-F-Daten geparst werden. Diese betreffen gewöhnlicherweise den Import. Weiter unten sehen Sie diese Fehler"
 
-msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr "Außerdem können für noch zu prüfende Objekte keine Berechtigungen verteilt werden und werden daher nicht aufgelistet."
+#~ msgid "Peers at this Exchange Point"
+#~ msgstr "Peers an diesem Exchange"
 
-msgid "Update"
-msgstr "Aktualisieren"
+#~ msgid "Peer Name"
+#~ msgstr "Peername"
 
-msgid "Delete"
-msgstr "Löschen"
+#~ msgid "Speed"
+#~ msgstr "Geschwindigkeit"
 
-msgid "Add"
-msgstr "Hinzufügen"
+#~ msgid "Exchange"
+#~ msgstr "Austauschpunkt"
 
-msgid "Thank you for your suggestion."
-msgstr "Vielen Dank für Ihren Vorschlag."
+#~ msgid "IP"
+#~ msgstr "IP"
 
-msgid "Suggest another facility"
-msgstr "Einen weiteren Standort vorschlagen"
+#~ msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+#~ msgstr "Einige der Kontaktdaten werden nur angemeldeten Benutzern angezeigt. Bitte melden Sie sich an."
 
-msgid "Only verified users may suggest entities."
-msgstr "Nur verifizierte Benutzer können Objekte vorschlagen."
+#~ msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+#~ msgstr "Einige der Kontaktdaten dieses Netzwerks werden nicht angezeigt, da Ihr Zugang nicht mit dieser Organisation verknüpft ist."
 
-msgid "Suggest another exchange"
-msgstr "Einen weiteren Austauschpunkt vorschlagen"
+#~ msgid "Visiblity"
+#~ msgstr "Sichtbarkeit"
 
-msgid "Suggest another network"
-msgstr "Ein weiteres Netzwerk vorschlagen"
+#~ msgid "E-Mail"
+#~ msgstr "E-Mail"
 
-msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr "Ihre E-Mail-Adresse entspricht nicht den Informationen, die uns zu dieser Organisation bekannt sind."
+#~ msgid "Add Contact"
+#~ msgstr "Kontakt hinzufügen"
 
-msgid "seconds ago"
-msgstr "Sekunden her"
+#~ msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
+#~ msgstr "Unten finden Sie eine Vorschau auf Änderungen, die beim nächsten IX-F Datenimport an Ihrem Netz vorgenommen werden. Der eigentliche Import läuft einmal am Tag um 00:00Z"
 
-msgid "minutes ago"
-msgstr "Minuten her"
+#~ msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
+#~ msgstr "Wir benutzen lokal gecachte IX-F Daten, um diese Vorschau zu generieren. Falls Sie Änderungen bei IX-F Daten eines Exchnages erwarten, so warten Sie bitte etwas, damit diese hier wiedergegeben werden."
 
-msgid "hours ago"
-msgstr "Stunden her"
+#~ msgid "action"
+#~ msgstr "Aktion"
 
-msgid "days ago"
-msgstr "Tage her"
+#~ msgid "exchange"
+#~ msgstr "Austauschpunkt"
 
-msgid "Not a valid phone number (E.164)"
-msgstr ""
+#~ msgid "Close"
+#~ msgstr "Schließen"
 
-msgid "Invalid prefix: {}"
-msgstr "Ungültiges Prefix: {}"
+#~ msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
+#~ msgstr "Nachstehend finden Sie ein Protokoll der Änderungen, die an Ihren Austauschverbindungen infolge von IX-F-Datenimporten vorgenommen wurden. Beachten Sie, dass dies keine Anpassungen enthält, die von Mitarbeitern vorgenommen wurden, um solche Änderungen rückgängig zu machen. Sie sollten daher als unformatiertes Protokoll der vom IX-F-Datenimport ausgeführten Aktionen angesehen werden."
 
-msgid "Address space invalid: {}"
-msgstr "Adressbereich ungültig: {}"
+#~ msgid "Showing most recent"
+#~ msgstr "Anzeige der Neuesten"
 
-msgid "Maximum allowed prefix length is {}"
-msgstr "Maximale, gültige Präfixlänge ist {}"
+#~ msgid "changes"
+#~ msgstr "Änderungen"
 
-msgid "Minimum allowed prefix length is {}"
-msgstr "Minimale, erlaubte Präfix-Länge ist {}"
+#~ msgid "Refresh"
+#~ msgstr "Aktualisierung"
 
-msgid "Maximum value allowed {}"
-msgstr "gültiges Maximum {}"
+#~ msgid "RS Peer"
+#~ msgstr "RS-Peer"
 
-msgid "Negative value not allowed"
-msgstr "Negativwerte nicht erlaubt"
+#~ msgid "Network - Exchange link"
+#~ msgstr "Netzwerk-Austauschpunkt-Link"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr "Das Präfix überlappt mit dem Präfix von {}: {}"
+#~ msgid "Add Exchange Point"
+#~ msgstr "Exchange hinzufügen"
 
-msgid "IRR AS-SET value must be string type"
-msgstr ""
+#~ msgid "member"
+#~ msgstr "Mitglied"
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
-msgstr ""
+#~ msgid "Remove"
+#~ msgstr "Entfernen"
 
-msgid "Unknown IRR source: {}"
-msgstr ""
+#~ msgid "Manage"
+#~ msgstr "Verwalten"
 
-msgid "Maximum AS-SET hierarchy depth: {}"
-msgstr ""
+#~ msgid "Add Network"
+#~ msgstr "Netzwerk hinzufügen"
 
-msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
-msgstr ""
+#~ msgid "Add Exchange"
+#~ msgstr "Exchange hinzufügen"
 
-msgid "All parts of an hierarchical name have to be of the same type"
-msgstr ""
+#~ msgid "Permissions"
+#~ msgstr "Berechtigungen"
 
-msgid "At least one component must be an actual set name"
-msgstr ""
-
-msgid "Please wait a bit before requesting ownership again."
-msgstr "Bitte warten Sie, bevor Sie erneut Besitz beantragen."
-
-msgid "Invalid organization"
-msgstr "Ungültige Organisation"
-
-#, python-format
-msgid "Organization '%(org_name)s' is already under ownership"
-msgstr "Organisation '%(org_name)s' ist bereits in Besitz"
-
-msgid "Organization does not exist"
-msgstr "Organisation existiert nicht"
-
-msgid "You already have an ownership request pending for this organization"
-msgstr "Sie haben bereits eine Besitzanfrage für diese Organisation gestellt"
-
-msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
-msgstr ""
-
-msgid "Please wait a bit before requesting affiliation again."
-msgstr "Bitte warten Sie, bevor Sie erneut Zuordnung anfordern."
-
-msgid "Either ASN or Organization required"
-msgstr "Entweder ASN oder Organisation erforderlich"
-
-msgid "RDAP Lookup Error: {}"
-msgstr "RDAP Suchfehler: {}"
-
-msgid "Please wait a bit before trying to resend the confirmation email again"
-msgstr "Bitte warten Sie, bevor Sie erneut eine Bestätigungsmail anfordern"
-
-msgid "We have resent your confirmation email"
-msgstr "Wir haben Ihnen erneut eine Bestätigungsmail zugesandt"
-
-msgid "Please wait a bit before requesting another email change"
-msgstr "Bitte warten Sie, bevor Sie eine weitere E-Mail-Änderung beantragen"
-
-msgid "E-mail already exists in our system"
-msgstr "E-Mail-Adresse existiert bereits in unserem System"
-
-msgid "Wrong password"
-msgstr "Falsches Passwort"
-
-msgid "Please wait a bit before requesting your usernames again."
-msgstr "Bitte warten Sie ein bisschen, bevor Sie Ihren Benutzernamen erneut anfordern."
-
-msgid "Invalid Security Token"
-msgstr "Ungültiges Sicherheitstoken"
-
-msgid "Password Reset Process has expired, please"
-msgstr "Passwort-Zurücksetzungsprozess ist abgelaufen, bitte"
-
-msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr "Bitte aus der aktuellen Session ausloggen, bevor Sie versuchen, sich zu registrieren. Beachte: multiple Accounts werden nicht mehr benötigt."
-
-msgid "This email address has already been used"
-msgstr "Diese E-Mail-Adresse wurde bereits genutzt"
-
-msgid "Already logged in"
-msgstr "Bereits eingeloggt"
-
-msgid "Location"
-msgstr "Ort"
-
-msgid "Country Code"
-msgstr "Land"
-
-msgid "Markdown enabled"
-msgstr "Markdown verfügbar"
-
-msgid "Geocode"
-msgstr "Georeferenz"
-
-msgid "Protocols Supported"
-msgstr "Unterstützte Protokolle"
-
-msgid "Contact Information"
-msgstr "Kontaktinformationen"
-
-msgid "LAN"
-msgstr "LAN"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
-msgid "Enable IX-F Import"
-msgstr "Aktivieren Sie den IX-F Import"
+#~ msgid "Technical E-mail"
+#~ msgstr "E-Mail (technisch)"
 
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "IXF Member-Export-URL"
+#~| msgid "Change Email"
+#~ msgid "Sales E-mail"
+#~ msgstr "E-Mail-Adresse ändern"
 
-msgid "Last Updated"
-msgstr "Zuletzt aktualisiert"
+#~ msgid "Policy URL"
+#~ msgstr "Peeringrichtlinien-URL"
 
-msgid "PeeringDB Configuration"
-msgstr "PeeringDB-Konfiguration"
+#~ msgid "Add a new Network to your Organization."
+#~ msgstr "Fügen Sie Ihrer Organisation ein neues Netzwerk hinzu."
 
-msgid "Allow IXP Update"
-msgstr "IXP-Updates erlauben"
+#~ msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
+#~ msgstr "Wir werden versuchen, automatisch Ihre Verbindung zu diesem Netzwerk zu prüfen, indem wir Ihre E-Mail-Adresse gegen den ASN-RIR-Eintrag prüfen."
 
-msgid "If enabled, an ixp may manage this network's entry in their peering list"
-msgstr "Wenn aktiviert, darf ein IXP den Eintrag dieses Netzwerkes in seiner Peeringliste verwalten"
+#~ msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
+#~ msgstr "Sollte die Überprüfung nicht gelingen muss das Netzwerk von PeeringDB-Mitarbeitern akzeptiert werden, bevor es in den Suchergebnissen oder den API-Listungen aufgeführt wird."
 
-msgid "IXP Update Tools"
-msgstr "IXP-Update Werkzeug"
+#~ msgid "Submit Network"
+#~ msgstr "Netzwerk einreichen"
 
-msgid "Postmortem"
-msgstr "Post mortem"
+#~ msgid "for assistance with the creation of your network in PeeringDB."
+#~ msgstr "für Unterstützung bei der Erstellung Ihres Netzwerkes in PeeringDB."
 
-msgid "Peering Policy Information"
-msgstr "Peeringrichtlinien-Information"
+#~ msgid "Policy E-mail"
+#~ msgstr "E-Mail (Peeringrichtlinien)"
 
-msgid "Please wait a bit before trying to login again."
-msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+#~ msgid "IPv4 or IPv6 prefix"
+#~ msgstr "IPv4- oder IPv6-Präfix"
 
-msgid "Account disabled."
-msgstr "Account deaktiviert."
+#~ msgid "Confirmed"
+#~ msgstr "Bestätigt"
 
-msgid "Invalid username/password."
-msgstr "Ungültiger Benutzername/Passwort."
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Currently no users requesting affiliation with"
+#~ msgstr "Derzeit wartet kein Nutzer auf Zuordnung zu"
+
+#~ msgid "Group"
+#~ msgstr "Gruppe"
+
+#~ msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+#~ msgstr "Hier können regulären Mitgliedern Berechtigungen zugeteilt werden. Administratoren werden hier nicht aufgelistet, da sie standardmäßig zu allem Zugriff haben."
+
+#~ msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
+#~ msgstr "Außerdem können für noch zu prüfende Objekte keine Berechtigungen verteilt werden und werden daher nicht aufgelistet."
+
+#~ msgid "Update"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Thank you for your suggestion."
+#~ msgstr "Vielen Dank für Ihren Vorschlag."
+
+#~ msgid "Suggest another facility"
+#~ msgstr "Einen weiteren Standort vorschlagen"
+
+#~ msgid "Only verified users may suggest entities."
+#~ msgstr "Nur verifizierte Benutzer können Objekte vorschlagen."
+
+#~ msgid "Suggest another exchange"
+#~ msgstr "Einen weiteren Austauschpunkt vorschlagen"
+
+#~ msgid "Suggest another network"
+#~ msgstr "Ein weiteres Netzwerk vorschlagen"
+
+#~ msgid "Your email address does not match the domain information we have on file for this organization."
+#~ msgstr "Ihre E-Mail-Adresse entspricht nicht den Informationen, die uns zu dieser Organisation bekannt sind."
+
+#~ msgid "seconds ago"
+#~ msgstr "Sekunden her"
+
+#~ msgid "minutes ago"
+#~ msgstr "Minuten her"
+
+#~ msgid "hours ago"
+#~ msgstr "Stunden her"
+
+#~ msgid "days ago"
+#~ msgstr "Tage her"
+
+#~ msgid "Invalid prefix: {}"
+#~ msgstr "Ungültiges Prefix: {}"
+
+#~ msgid "Address space invalid: {}"
+#~ msgstr "Adressbereich ungültig: {}"
+
+#~ msgid "Maximum allowed prefix length is {}"
+#~ msgstr "Maximale, gültige Präfixlänge ist {}"
+
+#~ msgid "Minimum allowed prefix length is {}"
+#~ msgstr "Minimale, erlaubte Präfix-Länge ist {}"
+
+#~ msgid "Maximum value allowed {}"
+#~ msgstr "gültiges Maximum {}"
+
+#~ msgid "Negative value not allowed"
+#~ msgstr "Negativwerte nicht erlaubt"
+
+#~ msgid "Prefix overlaps with {}'s prefix: {}"
+#~ msgstr "Das Präfix überlappt mit dem Präfix von {}: {}"
+
+#~ msgid "Please wait a bit before requesting ownership again."
+#~ msgstr "Bitte warten Sie, bevor Sie erneut Besitz beantragen."
+
+#~ msgid "Invalid organization"
+#~ msgstr "Ungültige Organisation"
+
+#~ msgid "Organization '%(org_name)s' is already under ownership"
+#~ msgstr "Organisation '%(org_name)s' ist bereits in Besitz"
+
+#~ msgid "Organization does not exist"
+#~ msgstr "Organisation existiert nicht"
+
+#~ msgid "You already have an ownership request pending for this organization"
+#~ msgstr "Sie haben bereits eine Besitzanfrage für diese Organisation gestellt"
+
+#~ msgid "Please wait a bit before requesting affiliation again."
+#~ msgstr "Bitte warten Sie, bevor Sie erneut Zuordnung anfordern."
+
+#~ msgid "Either ASN or Organization required"
+#~ msgstr "Entweder ASN oder Organisation erforderlich"
+
+#~ msgid "RDAP Lookup Error: {}"
+#~ msgstr "RDAP Suchfehler: {}"
+
+#~ msgid "Please wait a bit before trying to resend the confirmation email again"
+#~ msgstr "Bitte warten Sie, bevor Sie erneut eine Bestätigungsmail anfordern"
+
+#~ msgid "We have resent your confirmation email"
+#~ msgstr "Wir haben Ihnen erneut eine Bestätigungsmail zugesandt"
+
+#~ msgid "Please wait a bit before requesting another email change"
+#~ msgstr "Bitte warten Sie, bevor Sie eine weitere E-Mail-Änderung beantragen"
+
+#~ msgid "E-mail already exists in our system"
+#~ msgstr "E-Mail-Adresse existiert bereits in unserem System"
+
+#~ msgid "Wrong password"
+#~ msgstr "Falsches Passwort"
+
+#~ msgid "Please wait a bit before requesting your usernames again."
+#~ msgstr "Bitte warten Sie ein bisschen, bevor Sie Ihren Benutzernamen erneut anfordern."
+
+#~ msgid "Invalid Security Token"
+#~ msgstr "Ungültiges Sicherheitstoken"
+
+#~ msgid "Password Reset Process has expired, please"
+#~ msgstr "Passwort-Zurücksetzungsprozess ist abgelaufen, bitte"
+
+#~ msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
+#~ msgstr "Bitte aus der aktuellen Session ausloggen, bevor Sie versuchen, sich zu registrieren. Beachte: multiple Accounts werden nicht mehr benötigt."
+
+#~ msgid "This email address has already been used"
+#~ msgstr "Diese E-Mail-Adresse wurde bereits genutzt"
+
+#~ msgid "Already logged in"
+#~ msgstr "Bereits eingeloggt"
+
+#~ msgid "Location"
+#~ msgstr "Ort"
+
+#~ msgid "Country Code"
+#~ msgstr "Land"
+
+#~ msgid "Markdown enabled"
+#~ msgstr "Markdown verfügbar"
+
+#~ msgid "Geocode"
+#~ msgstr "Georeferenz"
+
+#~ msgid "Protocols Supported"
+#~ msgstr "Unterstützte Protokolle"
+
+#~ msgid "Contact Information"
+#~ msgstr "Kontaktinformationen"
+
+#~ msgid "LAN"
+#~ msgstr "LAN"
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
+
+#~ msgid "Enable IX-F Import"
+#~ msgstr "Aktivieren Sie den IX-F Import"
+
+#, fuzzy
+#~| msgid "IXF Member Export URL"
+#~ msgid "IX-F Member Export URL"
+#~ msgstr "IXF Member-Export-URL"
+
+#~ msgid "Last Updated"
+#~ msgstr "Zuletzt aktualisiert"
+
+#~ msgid "PeeringDB Configuration"
+#~ msgstr "PeeringDB-Konfiguration"
+
+#~ msgid "Allow IXP Update"
+#~ msgstr "IXP-Updates erlauben"
+
+#~ msgid "If enabled, an ixp may manage this network's entry in their peering list"
+#~ msgstr "Wenn aktiviert, darf ein IXP den Eintrag dieses Netzwerkes in seiner Peeringliste verwalten"
+
+#~ msgid "IXP Update Tools"
+#~ msgstr "IXP-Update Werkzeug"
+
+#~ msgid "Postmortem"
+#~ msgstr "Post mortem"
+
+#~ msgid "Peering Policy Information"
+#~ msgstr "Peeringrichtlinien-Information"
+
+#~ msgid "Please wait a bit before trying to login again."
+#~ msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+
+#~ msgid "Account disabled."
+#~ msgstr "Account deaktiviert."
+
+#~ msgid "Invalid username/password."
+#~ msgstr "Ungültiger Benutzername/Passwort."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"
