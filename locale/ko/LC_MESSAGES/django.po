@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-23 16:58+0000\n"
+"PO-Revision-Date: 2020-05-23 17:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -260,7 +260,7 @@ msgid "NPA-NXX"
 msgstr "NPA-NXX"
 
 msgid "Technical Email"
-msgstr "테크니컬 이메일"
+msgstr "기술부 이메일"
 
 msgid "Technical Phone"
 msgstr "기술부 연락처"
@@ -311,7 +311,6 @@ msgstr "IRR as-set/route-set"
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
 msgstr "IRR(인터넷 라우팅 레지스트리)에서 AS-SET 또는 ROUTE-SET 참조"
 
-#, fuzzy
 msgid "Looking Glass URL"
 msgstr "Looking Glass URL"
 
@@ -386,10 +385,10 @@ msgid "Networks"
 msgstr "네트워크"
 
 msgid "Long Name"
-msgstr "성명"
+msgstr "이름"
 
 msgid "Continental Region"
-msgstr "대륙 지역"
+msgstr "대륙"
 
 msgid "Media Type"
 msgstr "미디어 유형"
@@ -397,15 +396,14 @@ msgstr "미디어 유형"
 msgid "Company Website"
 msgstr "회사 웹사이트"
 
-#, fuzzy
 msgid "Traffic Stats Website"
-msgstr "Traffic Stats Website"
+msgstr "트래픽 통계 웹사이트"
 
 msgid "Policy Email"
-msgstr "정책 이메일"
+msgstr "정책부 이메일"
 
 msgid "Policy Phone"
-msgstr "정책 폰"
+msgstr "정책부 연락처"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -1529,7 +1527,7 @@ msgid "Add a new %(entity_name)s to your Organization. Note that the newly creat
 msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성된 %(entity_name)s가 검색 결과 또는 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 함을 주의하십시오"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr "PeeringDB의 시설로 등록하기 위해 우리는 당신이 대중에게 코로케이션, 데이터 센터 및/또는 meet-me-room 서비스를 제공할 것을 기대할 것입니다."
+msgstr "PeeringDB의 시설로 등록하기 위해 우리는 당신이 코로케이션, 데이터 센터 및/또는 meet-me-room 서비스를 제공할 것을 기대할 것입니다."
 
 msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
 msgstr "PeeringDB에서 인터넷 Exchange로 등록하려면 다음 기준을 충족하십시오:"
@@ -1545,13 +1543,13 @@ msgstr "제출"
 
 #, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr "데이터베이스에 추가할 %(entity_name)s를 제안하시오. 당신의 제안은 PeeringDB 관리 위원회에 의해 검토될 것입니다. 그 다음, 그것은 확정되어 데이터베이스에 입력되거나 거절될 것입니다. 당신 쪽에서 더 이상의 조치는 필요하지 않습니다."
+msgstr "데이터베이스에 추가할 %(entity_name)s를 제안하십시오. 당신의 제안은 PeeringDB 관리 위원회에 의해 검토될 것입니다. 그 다음, 그 제안은 확정되어 데이터베이스에 입력되거나 거절될 것입니다. 당신 쪽에서 더 이상의 조치는 필요하지 않습니다."
 
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr "제안된 시설이 대중에게 코로케이션, 데이터 센터 및/또는 meet-me-room 서비스를 제공해야 승인 받을 수 있음."
+msgstr "제안된 시설이 코로케이션, 데이터 센터 및/또는 meet-me-room 서비스를 제공해야 승인 받을 수 있습니다."
 
 msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
-msgstr "시설을 소유하지 않은 경우에만 이 기능을 사용하십시오. 소유하는 경우, 조직 기록의 \"설비 추가\"를 사용하십시오."
+msgstr "시설을 소유하지 않은 경우에만 이 기능을 사용하십시오. 소유하고 있으면, 조직 기록의 \"설비 추가\"를 사용하십시오."
 
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr "제안된 익스체인지가 다음 기준을 충족해야 승인받을 수 있음:"
@@ -1763,7 +1761,7 @@ msgid "To register a new network organization, please enter the ASN and organiza
 msgstr "새 네트워크 조직을 등록하려면 아래에 ASN과 조직 이름을 입력하십시오."
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "새 시설 또는 익스체인지 조직을 등록하려면 아래에 조직 이름을 입력하십시오(ASN은 선택 사항임)."
+msgstr "새 시설 또는 익스체인지 조직을 등록하려면 아래에 조직 이름을 입력하십시오(ASN은 선택 사항)."
 
 msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
 msgstr "소속은 당신 소유의 조직입니다. 그것은 당신이 직원이거나 다른 방법으로 그 조직에서 일하는 것을 의미합니다. 아직 해당 기관에 소속된 사람이 없는 경우 support@peeringdb.com으로 소속 요청을 전송하십시오. 아니면 관리자에게 연락하십시오. 조직 당 한 번만 제휴하십시오. 며칠 내에 답변이 오지 않으면 support@peeringdb.com으로 문의하십시오."
@@ -1790,7 +1788,7 @@ msgid "Change email address"
 msgstr "이메일 주소 변경"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "신속한 검증을 위해서는 업무용 전자우편 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 계획이라면 ASN의 공개 연락처 세부 정보에 있는 이메일 주소를 사용하는 것이 좋습니다."
+msgstr "신속한 검증을 위해서는 업무용 이메일 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 계획이라면 ASN의 공개 연락처 세부 정보에 있는 이메일 주소를 사용하는 것이 좋습니다."
 
 msgid "Change Email"
 msgstr "이메일 변경"
@@ -1853,7 +1851,7 @@ msgid "Confirm password"
 msgstr "비밀번호 확인"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr "신속한 검증을 위해서는 업무용 전자우편 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 계획이라면 ASN의 공개 연락처 세부 정보에 존재하는 이메일 주소를 사용하는 것이 좋습니다."
+msgstr "신속한 검증을 위해서는 업무용 전자우편 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 예정이라면 ASN의 공개 연락처 세부 정보에 존재하는 이메일 주소를 사용하는 것이 좋습니다."
 
 msgid "First name"
 msgstr "이름"
@@ -2004,7 +2002,7 @@ msgid "Sometimes we encounter some errors when parsing ix-f data, these will usu
 msgstr "때때로 ix-f 데이터를 분석할 때 일부 오류가 발생하는데, 이러한 오류는 일반적으로 가져오기에 영향을 미치며, 아래에서 이러한 오류를 볼 수 있다"
 
 msgid "Peers at this Exchange Point"
-msgstr "이 익스체인지 지점에서의 Peers"
+msgstr "이 익스체인지포인트에서의 Peers"
 
 msgid "Peer Name"
 msgstr "Peer 이름"
@@ -2118,7 +2116,7 @@ msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "은/는 PeeringDB에서 네트워크 생성에 대한 지원을 위함이다."
 
 msgid "Policy E-mail"
-msgstr "정책 이메일"
+msgstr "정책부 이메일"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 또는 IPv6 프리픽스"
@@ -2299,7 +2297,7 @@ msgid "Geocode"
 msgstr "지오코드"
 
 msgid "Protocols Supported"
-msgstr "프로토콜 지원됨"
+msgstr "지원되는 프로토콜"
 
 msgid "Contact Information"
 msgstr "연락처 정보"
