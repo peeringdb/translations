@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-23 17:58+0000\n"
+"PO-Revision-Date: 2020-05-24 07:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -48,16 +48,16 @@ msgid "Sales"
 msgstr "영업"
 
 msgid "Open"
-msgstr "열기"
+msgstr "오픈"
 
 msgid "Selective"
-msgstr "선택적인"
+msgstr "선택적"
 
 msgid "Restrictive"
 msgstr "제한적"
 
 msgid "No"
-msgstr "아니요"
+msgstr "없음"
 
 msgid "Not Required"
 msgstr "필요 없음"
@@ -96,7 +96,7 @@ msgid "Mostly Outbound"
 msgstr "대부분 아웃바운드"
 
 msgid "Balanced"
-msgstr "안정된"
+msgstr "안정"
 
 msgid "Mostly Inbound"
 msgstr "대부분 인바운드"
@@ -180,7 +180,7 @@ msgid "NSP"
 msgstr "NSP (네트워크 서비스 공급자)"
 
 msgid "Content"
-msgstr "내용"
+msgstr "콘텐츠"
 
 msgid "Cable/DSL/ISP"
 msgstr "케이블/DSL(디지털 가입자 회선)/ISP(인터넷 서비스 제공자)"
@@ -740,10 +740,10 @@ msgid "Find organization that contains the network (network asn)"
 msgstr "네트워크(네트워크 asn)가 포함된 조직 찾기"
 
 msgid "Find prefixes by exchange (exchange id)"
-msgstr "익스체인지로 접두사 찾기(익스체인지 ID)"
+msgstr "익스체인지로 프리픽스 찾기(익스체인지 ID)"
 
 msgid "Find prefixes by ip address"
-msgstr "IP 주소로 접두사 찾기"
+msgstr "IP 주소로 프리픽스 찾기"
 
 msgid "Exchange name"
 msgstr "익스체인지 이름"
@@ -1431,22 +1431,22 @@ msgid "PeeringDB, as the name suggests, was set up to facilitate peering between
 msgstr "PeeringDB는 이름에서 알 수 있듯이 네트워크와 피어링 코디네이터 간의 피어링을 용이하게 하기 위해 설치되었습니다. 최근 몇 년 간, PeeringDB의 비전은 인터넷이 성장하고 있는 속도와 다양한 방식을 따라잡기 위해 발전했습니다. 그 데이터베이스는 더 이상 단지 피어링과 정보 관련 피어링이 아닙니다. 그것은 이제 네트워크, 클라우드, 서비스 및 기업을 위한 모든 종류의 상호연결 데이터와 인터넷 가장자리에서 개발되고 있는 상호연결 시설을 포함합니다."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr "우리는 커뮤니티가 PeeringDB 데이터베이스를 확장하고 향상시킬 것을 믿습니다. 데이터베이스를 실행하는 자원 봉사자들은 데이터베이스의 보안, 프라이버시, 무결성 및 데이터의 검증에 열정적입니다. PeeringDB는 자유롭게 이용할 수 있고 공개적인 도구임에도 불구하고, 사용자들은 허용 가능한 사용 정책을 엄격하게 고수하고 있는데, 이것은 데이터베이스가 상업적인 목적으로 사용되는 것을 막고, 원하지 않는 의사소통을 지양합니다. 이것은 지역사회에 의해 주로 감시되고 있으며 PeeringDB가 출시된 이후 매우 효과적이었습니다."
+msgstr "우리는 커뮤니티가 PeeringDB 데이터베이스를 확장하고 향상시킬 것을 믿습니다. 데이터베이스를 실행하는 자원 봉사자들은 데이터베이스의 보안, 프라이버시, 무결성 및 데이터의 검증에 열정적입니다. PeeringDB는 자유롭게 이용할 수 있고 공개적인 도구임에도 불구하고, 사용자들은 허용 가능한 사용 정책을 엄격하게 고수하고 있는데, 이것은 데이터베이스가 상업적인 목적으로 사용되는 것을 막고, 원하지 않는 의사소통을 지양하도록 합니다. 이것은 지역사회에 의해 주로 감시되고 있으며 PeeringDB가 출시된 이후 매우 효과적이었습니다."
 
 msgid "I’m a network operator. How can PeeringDB help me?"
 msgstr "저는 네트워크 운영자입니다. PeeringDB가 저를 어떻게 도울 수 있을까요?"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
-msgstr "자율 시스템 번호(ASN)의 거의 3분의 1이 상호 연결 데이터를 PeeringDB 데이터베이스에 등록합니다. 즉, PeeringDB를 사용하고 자신의 상호연결 데이터를 추가함으로써, 상호연결을 모색하는 네트워크에 관한 정보, 어디에서 어떻게 접속할 것인지에 대한 정보를 자신 있게 찾을 수 있을 것이고, 그들은 당신의 네트워크에 대한 동일한 정보를 찾을 수 있을 것입니다. 데이터베이스는 우리의 자원 봉사자들에 의해 사용자 유지되고 검증되기 때문에, 당신은 정보가 정확하고 최신이라는 것을 믿을 수 있습니다."
+msgstr "자율 시스템 번호(ASN)의 거의 3분의 1이 상호 연결 데이터를 PeeringDB 데이터베이스에 등록합니다. 즉, PeeringDB를 사용하고 자신의 상호연결 데이터를 추가함으로써, 상호연결을 모색하는 네트워크에 관한 정보, 어디에서 어떻게 접속할 것인지에 대한 정보를 자신 있게 찾을 수 있을 것이고, 그들은 당신의 네트워크에 대한 동일한 정보를 찾을 수 있을 것입니다. 데이터베이스는 우리의 자원 봉사자들에 의해 관리되고 검증되기 때문에, 당신은 정보가 정확하고 최신이라는 것을 믿을 수 있습니다."
 
 msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
-msgstr "이 데이터는 다른 네트워크와의 찾고 연결하는 과정을 가속화하는 동시에 자신의 네트워크 확장 및 개발 계획을 보다 빠르고 확실하게 지원하는 데 도움이 될 것입니다."
+msgstr "이 데이터는 다른 네트워크와의 검색하고 연결하는 과정을 가속화하는 동시에 자신의 네트워크 확장 및 개발 계획을 보다 빠르고 확실하게 지원하는 데 도움이 될 것입니다."
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
 msgstr "인터넷 익스체인지 포인트(IXP), 데이터 센터 또는 기타 상호 연결 시설.  PeeringDB가 이것들을 어떻게 도울 수 있을까요?"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
-msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가하고 유지함으로써 가시성과 기존 고객에 대한 매력을 높일 수 있습니다. 만약 당신이 데이터베이스에 있다면, 이것은 네트워크가 당신의 서비스와 당신의 IXP나 시설에 존재하는 다른 네트워크에 대한 중요한 정보를 찾는 것을 훨씬 더 쉽게 만듭니."
+msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가하고 유지함으로써 가시성과 기존 고객에 대한 매력을 높일 수 있습니다. 만약 당신이 데이터베이스에 있다면, 이것은 네트워크가 당신의 서비스와 당신의 IXP나 시설에 존재하는 다른 네트워크에 대한 중요한 정보를 찾는 것을 훨씬 더 쉽게 만듭니다."
 
 msgid "Address"
 msgstr "주소"
@@ -1960,7 +1960,7 @@ msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수집될 것입니다"
 
 msgid "Prefixes"
-msgstr "접두사"
+msgstr "프리픽스"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 프리픽스"
@@ -2276,7 +2276,7 @@ msgid "Password Reset Process has expired, please"
 msgstr "암호 재설정 프로세스가 만료되었습니다,"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 복수의 계좌는 더 이상 필요하지 않습니다."
+msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 다수의 계좌는 더 이상 필요하지 않습니다."
 
 msgid "This email address has already been used"
 msgstr "이 이메일 주소는 이미 사용되었습니다"
