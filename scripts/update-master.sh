@@ -49,17 +49,18 @@ fi
 # Determine peeringdb.git version currently deployed:
 PDB_TAG="NULL"
 PDB_TREE="/srv/www.peeringdb.com"
-PDB_VERSION="$PDB_TREE/etc/peeringdb.version"
+#PDB_VERSION="$PDB_TREE/etc/peeringdb.version"
 if [ $PDB_TAG = "NULL" ] && [ -f $PDB_VERSION ]; then
-    PDB_TAG=`cat $PDB_VERSION`
+#    PDB_TAG=`cat $PDB_VERSION`
     PDB_BIN="$PDB_TREE/venv/bin"
 fi
 PDB_TREE="/srv/beta.peeringdb.com"
-PDB_VERSION="$PDB_TREE/etc/peeringdb.version"
+#PDB_VERSION="$PDB_TREE/etc/peeringdb.version"
 if [ $PDB_TAG = "NULL" ] && [ -f $PDB_VERSION ]; then
-    PDB_TAG=`cat $PDB_VERSION`
+#    PDB_TAG=`cat $PDB_VERSION`
     PDB_BIN="$PDB_TREE/venv/bin"
 fi
+PDB_TAG=`docker image inspect pdb:server-latest | grep peeringdb:server | tr -d '\"' | cut -f 2 -d '-'`
 if [ $PDB_TAG = "NULL" ]; then
     echo Was not able to determine peeringdb version.
     exit 1
