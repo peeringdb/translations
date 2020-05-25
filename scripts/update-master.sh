@@ -47,24 +47,8 @@ if [ -d "/srv/translate.peeringdb.com" ]; then
 fi
 
 # Determine peeringdb.git version currently deployed:
-PDB_TAG="NULL"
-PDB_TREE="/srv/www.peeringdb.com"
-#PDB_VERSION="$PDB_TREE/etc/peeringdb.version"
-if [ $PDB_TAG = "NULL" ] && [ -f $PDB_VERSION ]; then
-#    PDB_TAG=`cat $PDB_VERSION`
-    PDB_BIN="$PDB_TREE/venv/bin"
-fi
-PDB_TREE="/srv/beta.peeringdb.com"
-#PDB_VERSION="$PDB_TREE/etc/peeringdb.version"
-if [ $PDB_TAG = "NULL" ] && [ -f $PDB_VERSION ]; then
-#    PDB_TAG=`cat $PDB_VERSION`
-    PDB_BIN="$PDB_TREE/venv/bin"
-fi
+PDB_DJANGO_ADMIN=`find /srv -name django-admin | grep -E "www|beta" | head -1`
 PDB_TAG=`docker image inspect pdb:server-latest | grep peeringdb:server | tr -d '\"' | cut -f 2 -d '-'`
-if [ $PDB_TAG = "NULL" ]; then
-    echo Was not able to determine peeringdb version.
-    exit 1
-fi
 
 # 20190602: Caputo hasn't figured out how to determine version of
 # django-peeringdb.git installed, so using latest.  Is this determinable?
@@ -83,8 +67,8 @@ echo If \"duplicate message definition\" errors in the below, edit indicated fil
 echo
 
 set -x
-$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
-$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
-$PDB_BIN/django-admin compilemessages || exit 1
+$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS || exit 1
+$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
+$PDB_DJANGO_ADMIN compilemessages || exit 1
 set +x
 
