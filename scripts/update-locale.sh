@@ -55,8 +55,8 @@ git clone https://github.com/peeringdb/django-peeringdb.git
 server_head=`git --git-dir=$TMP_DIR/peeringdb/.git rev-parse --short HEAD`
 django_head=`git --git-dir=$TMP_DIR/django-peeringdb/.git rev-parse --short HEAD`
 
-ln -s $TMP_DIR/peeringdb/peeringdb_server || exit 1
-ln -s $TMP_DIR/django-peeringdb/django_peeringdb || exit 1
+ln -s $TMP_DIR/peeringdb || exit 1
+ln -s $TMP_DIR/django-peeringdb || exit 1
 
 # Guidance from https://docs.weblate.org/en/latest/admin/continuous.html
 #
@@ -86,8 +86,8 @@ $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
 set +x
 
 # Remove these since no longer needed and we don't want them accidentally added to the repo.
-rm -f peeringdb_server
-rm -f django_peeringdb
+rm -f peeringdb
+rm -f django-peeringdb
 
 # Remove "POT-Creation-Date:" lines from both .po and .pot files, so that we don't have a diff every run.
 find $WORK_DIR -name *.po* -print0 | xargs -0 sed -i /^\"POT-Creation-Date:/d || exit 1
