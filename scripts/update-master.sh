@@ -24,15 +24,13 @@
 # The slave servers will then begin using the updated translations automatically.
 #
 
-TMP_DIR=`mktemp -d /tmp/pdblocale.XXXXXXXX`
 MAKEMSG_OPTIONS="--all --symlinks --no-wrap --no-location --keep-pot"
 
 function clean_up() {
     error_code=$?  # this needs to be here to catch the intended exit code
     set +x
-    rm -rf "$TMP_DIR"
-    rm -f peeringdb_server
-    rm -f django_peeringdb
+    rm -r -f peeringdb
+    rm -r -f django-peeringdb
     echo
     echo exiting with $error_code
     exit $error_code
@@ -47,7 +45,7 @@ if [ -d "/srv/translate.peeringdb.com" ]; then
 fi
 
 # Determine peeringdb.git version currently deployed:
-PDB_DJANGO_ADMIN=`find /srv -name django-admin | grep -E "www|beta" | head -1`
+PDB_DJANGO_ADMIN="/home/pdb/bin/pdb-container"
 PDB_TAG=`docker image inspect pdb:server-latest | grep peeringdb:server | tr -d '\"' | cut -f 2 -d '-'`
 
 # 20190602: Caputo hasn't figured out how to determine version of
@@ -55,12 +53,9 @@ PDB_TAG=`docker image inspect pdb:server-latest | grep peeringdb:server | tr -d 
 # If yes, then duplicate section above for a django_tag and apply below.
 
 (
-cd $TMP_DIR && git clone https://github.com/peeringdb/peeringdb.git && cd peeringdb && git checkout $PDB_TAG || exit 1
-cd $TMP_DIR && git clone https://github.com/peeringdb/django-peeringdb.git || exit 1
+git clone https://github.com/peeringdb/peeringdb.git && cd peeringdb && git checkout $PDB_TAG || exit 1
+git clone https://github.com/peeringdb/django-peeringdb.git || exit 1
 )
-
-ln -s $TMP_DIR/peeringdb/peeringdb_server || exit 1
-ln -s $TMP_DIR/django-peeringdb/django_peeringdb || exit 1
 
 echo
 echo If \"duplicate message definition\" errors in the below, edit indicated file by removing duplicate that _does_not_ already have a translation, even if commented out.  Then re-run $0 manually.
