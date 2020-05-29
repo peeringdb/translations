@@ -31,6 +31,7 @@ function clean_up() {
     set +x
     rm -r -f peeringdb
     rm -r -f django-peeringdb
+    rm -r -f django-oauth-toolkit
     echo
     echo exiting with $error_code
     exit $error_code
@@ -55,6 +56,7 @@ PDB_TAG=`docker image inspect pdb:server-latest | grep peeringdb:server | tr -d 
 (
 git clone https://github.com/peeringdb/peeringdb.git && cd peeringdb && git checkout $PDB_TAG || exit 1
 git clone https://github.com/peeringdb/django-peeringdb.git || exit 1
+git clone https://github.com/jazzband/django-oauth-toolkit.git || exit 1
 )
 
 echo
