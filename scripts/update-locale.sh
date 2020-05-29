@@ -59,6 +59,7 @@ django_auth_head=`git --git-dir=$TMP_DIR/django-oauth-toolkit/.git rev-parse --s
 
 ln -s $TMP_DIR/peeringdb || exit 1
 ln -s $TMP_DIR/django-peeringdb || exit 1
+ln -s $TMP_DIR/django-oauth-toolkit || exit 1
 
 # Guidance from https://docs.weblate.org/en/latest/admin/continuous.html
 #
@@ -90,6 +91,7 @@ set +x
 # Remove these since no longer needed and we don't want them accidentally added to the repo.
 rm -f peeringdb
 rm -f django-peeringdb
+rm -f django-oauth-toolkit
 
 # Remove "POT-Creation-Date:" lines from both .po and .pot files, so that we don't have a diff every run.
 find $WORK_DIR -name *.po* -print0 | xargs -0 sed -i /^\"POT-Creation-Date:/d || exit 1
