@@ -50,10 +50,12 @@ cd $WORK_DIR || exit 1
 cd $TMP_DIR
 git clone https://github.com/peeringdb/peeringdb.git
 git clone https://github.com/peeringdb/django-peeringdb.git
+git clone https://github.com/jazzband/django-oauth-toolkit.git
 )
 
 server_head=`git --git-dir=$TMP_DIR/peeringdb/.git rev-parse --short HEAD`
 django_head=`git --git-dir=$TMP_DIR/django-peeringdb/.git rev-parse --short HEAD`
+django_auth_head=`git --git-dir=$TMP_DIR/django-oauth-toolkit/.git rev-parse --short HEAD`
 
 ln -s $TMP_DIR/peeringdb || exit 1
 ln -s $TMP_DIR/django-peeringdb || exit 1
@@ -99,7 +101,7 @@ $PDB_BIN/django-admin compilemessages || exit 1
 
 git add locale || exit 1
 # Deduce whether to perfom a commit:
-[[ -z $(git status --untracked-files=no --porcelain) ]] || git commit -m "new translations (server:$server_head django:$django_head)" || exit 1
+[[ -z $(git status --untracked-files=no --porcelain) ]] || git commit -m "new translations (server:$server_head django:$django_head django-oauth-toolkit:$django_auth_head)" || exit 1
 
 $WLC push || exit 1 # Push the result of the git-commit above.
 $WLC pull || exit 1 # Tell Weblate to pull changes so it is aware of sourcecode-inspired updates.
