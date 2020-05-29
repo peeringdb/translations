@@ -17,6 +17,121 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.3\n"
 
+msgid "Confidential"
+msgstr ""
+
+msgid "Public"
+msgstr "Δημόσιο"
+
+msgid "Authorization code"
+msgstr ""
+
+msgid "Implicit"
+msgstr ""
+
+msgid "Resource owner password-based"
+msgstr ""
+
+msgid "Client credentials"
+msgstr ""
+
+msgid "Allowed URIs list, space separated"
+msgstr ""
+
+#, python-brace-format
+msgid "Unauthorized redirect scheme: {scheme}"
+msgstr ""
+
+#, python-brace-format
+msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+msgstr ""
+
+msgid "The access token is invalid."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The access token has expired."
+msgstr "Η διαδικασία επανάκτησης κωδικού έχει εκπνεύσει, παρακαλούμε"
+
+msgid "The access token is valid but does not have enough scope."
+msgstr ""
+
+msgid "Are you sure to delete the application"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "Client id"
+msgstr ""
+
+msgid "Client secret"
+msgstr ""
+
+msgid "Client type"
+msgstr ""
+
+msgid "Authorization Grant Type"
+msgstr ""
+
+msgid "Redirect Uris"
+msgstr ""
+
+msgid "Go Back"
+msgstr ""
+
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Edit application"
+msgstr "Υπάρχοντες συσχετισμοί"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "Η συσχέτισή σας"
+
+msgid "No applications defined"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "μπορείτε να εγγραφείτε για ένα εδώ"
+
+msgid "Register a new application"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Application requires following permissions"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Please return to your application and enter this code:"
+msgstr ""
+
+msgid "Are you sure you want to delete this token?"
+msgstr ""
+
+msgid "Tokens"
+msgstr ""
+
+msgid "There are no authorized tokens yet."
+msgstr ""
+
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -202,9 +317,6 @@ msgstr "Ιδιωτικός"
 
 msgid "Users"
 msgstr "Χρήστες"
-
-msgid "Public"
-msgstr "Δημόσιο"
 
 msgid "Kosovo"
 msgstr "Kosovo"
@@ -1872,9 +1984,6 @@ msgstr "Συσχέτιση με οργανισμό"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Ο συσχετισμός σας με %(ar_name)s εκκρεμεί έγκρισης."
 
-msgid "Cancel"
-msgstr "Ακύρωση"
-
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2077,9 +2186,6 @@ msgstr "Διαχείριση εφαρμογών OAuth"
 
 msgid "Pending Review"
 msgstr "Εκκρεμεί Ανασκόπησης"
-
-msgid "Edit"
-msgstr "Επεξεργασία"
 
 msgid "Save"
 msgstr "Αποθήκευση"
@@ -2313,9 +2419,6 @@ msgstr "Επιπλέον, οντότητες που εκκρεμούν ανασ�
 
 msgid "Update"
 msgstr "Ενημέρωση"
-
-msgid "Delete"
-msgstr "Διαγραφή"
 
 msgid "Add"
 msgstr "Προσθήκη"
@@ -2586,9 +2689,6 @@ msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
 
 #~ msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
 #~ msgstr "Αυτή τη στιγμή βλέπετε μια read-only εικόνα των δεδομένων που υπάρχουν εδώ. Αν είστε μέλος δικτύου που κάνει peering και θα θέλατε να δημιουργήσετε ένα λογαριασμό,"
-
-#~ msgid "you may register for one here"
-#~ msgstr "μπορείτε να εγγραφείτε για ένα εδώ"
 
 #~ msgid "Please register ONLY if you are a peering network."
 #~ msgstr "Παρακαλώ εγγραφείτε ΜΟΝΟ αν είστε δίκτυο που κάνει peering."

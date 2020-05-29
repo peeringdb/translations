@@ -16,6 +16,121 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Confidential"
+msgstr ""
+
+msgid "Public"
+msgstr "Публичный"
+
+msgid "Authorization code"
+msgstr ""
+
+msgid "Implicit"
+msgstr ""
+
+msgid "Resource owner password-based"
+msgstr ""
+
+msgid "Client credentials"
+msgstr ""
+
+msgid "Allowed URIs list, space separated"
+msgstr ""
+
+#, python-brace-format
+msgid "Unauthorized redirect scheme: {scheme}"
+msgstr ""
+
+#, python-brace-format
+msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+msgstr ""
+
+msgid "The access token is invalid."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The access token has expired."
+msgstr "Время для сброса пароля истекло, пожалуйста"
+
+msgid "The access token is valid but does not have enough scope."
+msgstr ""
+
+msgid "Are you sure to delete the application"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Client id"
+msgstr ""
+
+msgid "Client secret"
+msgstr ""
+
+msgid "Client type"
+msgstr ""
+
+msgid "Authorization Grant Type"
+msgstr ""
+
+msgid "Redirect Uris"
+msgstr ""
+
+msgid "Go Back"
+msgstr ""
+
+msgid "Edit"
+msgstr "Редактировать"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Edit application"
+msgstr "Имеющиеся связи"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "Ваша связь с"
+
+msgid "No applications defined"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "создайте его здесь"
+
+msgid "Register a new application"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Application requires following permissions"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Please return to your application and enter this code:"
+msgstr ""
+
+msgid "Are you sure you want to delete this token?"
+msgstr ""
+
+msgid "Tokens"
+msgstr ""
+
+msgid "There are no authorized tokens yet."
+msgstr ""
+
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -201,9 +316,6 @@ msgstr "Приватный"
 
 msgid "Users"
 msgstr "Пользователи"
-
-msgid "Public"
-msgstr "Публичный"
 
 msgid "Kosovo"
 msgstr "Косово"
@@ -1875,9 +1987,6 @@ msgstr "Заявка на связь с организацией"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Ваша заявка на связь с %(ar_name)s находится на рассмотрении."
 
-msgid "Cancel"
-msgstr "Отмена"
-
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2083,9 +2192,6 @@ msgstr "Управление OAuth-авторизацией"
 
 msgid "Pending Review"
 msgstr "На одобрении"
-
-msgid "Edit"
-msgstr "Редактировать"
 
 msgid "Save"
 msgstr "Сохранить"
@@ -2319,9 +2425,6 @@ msgstr "Также сущности на одобрении не показыв�
 
 msgid "Update"
 msgstr "Изменить"
-
-msgid "Delete"
-msgstr "Удалить"
 
 msgid "Add"
 msgstr "Новый"
@@ -2593,9 +2696,6 @@ msgstr "Неверное имя пользователя/пароль."
 
 #~ msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
 #~ msgstr "Сейчас вам доступны данные в режиме чтения. Если ваша сеть участвует в пиринге и вам требуется аккаунт,"
-
-#~ msgid "you may register for one here"
-#~ msgstr "создайте его здесь"
 
 #~ msgid "Please register ONLY if you are a peering network."
 #~ msgstr "Пожалуйста, регистрируйтесь ТОЛЬКО если вы представляете сеть, чуствующую в пиринге."

@@ -17,6 +17,121 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.6.1\n"
 
+msgid "Confidential"
+msgstr ""
+
+msgid "Public"
+msgstr "Publico"
+
+msgid "Authorization code"
+msgstr ""
+
+msgid "Implicit"
+msgstr ""
+
+msgid "Resource owner password-based"
+msgstr ""
+
+msgid "Client credentials"
+msgstr ""
+
+msgid "Allowed URIs list, space separated"
+msgstr ""
+
+#, python-brace-format
+msgid "Unauthorized redirect scheme: {scheme}"
+msgstr ""
+
+#, python-brace-format
+msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+msgstr ""
+
+msgid "The access token is invalid."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The access token has expired."
+msgstr "El proceso de restablecimiento de contraseña ha expirado, por favor"
+
+msgid "The access token is valid but does not have enough scope."
+msgstr ""
+
+msgid "Are you sure to delete the application"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Client id"
+msgstr ""
+
+msgid "Client secret"
+msgstr ""
+
+msgid "Client type"
+msgstr ""
+
+msgid "Authorization Grant Type"
+msgstr ""
+
+msgid "Redirect Uris"
+msgstr ""
+
+msgid "Go Back"
+msgstr ""
+
+msgid "Edit"
+msgstr "﻿Editar"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Edit application"
+msgstr "Afiliaciones actuales"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "Su afiliación con"
+
+msgid "No applications defined"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "puede registrarse aquí"
+
+msgid "Register a new application"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Application requires following permissions"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Please return to your application and enter this code:"
+msgstr ""
+
+msgid "Are you sure you want to delete this token?"
+msgstr ""
+
+msgid "Tokens"
+msgstr ""
+
+msgid "There are no authorized tokens yet."
+msgstr ""
+
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -204,9 +319,6 @@ msgstr "Privado solo"
 
 msgid "Users"
 msgstr "Usuarios"
-
-msgid "Public"
-msgstr "Publico"
 
 msgid "Kosovo"
 msgstr ""
@@ -1848,9 +1960,6 @@ msgstr "Afiliar con la organización"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Su afiliación con s %(ar_name)s está pendiente de aprobación."
 
-msgid "Cancel"
-msgstr "Cancelar"
-
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2053,9 +2162,6 @@ msgstr "Administrar aplicaciones OAuth"
 
 msgid "Pending Review"
 msgstr "Revisión Pendiente"
-
-msgid "Edit"
-msgstr "﻿Editar"
 
 msgid "Save"
 msgstr "Guardar"
@@ -2289,9 +2395,6 @@ msgstr "Adicionalmente, entidades con verificación pendiente no."
 
 msgid "Update"
 msgstr "Actualizar"
-
-msgid "Delete"
-msgstr "Borrar"
 
 msgid "Add"
 msgstr "Añadir"
@@ -2564,9 +2667,6 @@ msgstr "Nombre de usuario/contraseña no válida."
 
 #~ msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
 #~ msgstr "Actualmente está viendo una vista de solo lectura de los datos aquí contenidos. Si tiene una red de peering y desea crear una cuenta,"
-
-#~ msgid "you may register for one here"
-#~ msgstr "puede registrarse aquí"
 
 #~ msgid "Please register ONLY if you are a peering network."
 #~ msgstr "Por favor regístrese SOLO si es una red de peering."

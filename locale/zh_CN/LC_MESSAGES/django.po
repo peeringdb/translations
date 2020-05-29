@@ -17,6 +17,121 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.6.1\n"
 
+msgid "Confidential"
+msgstr ""
+
+msgid "Public"
+msgstr "公开"
+
+msgid "Authorization code"
+msgstr ""
+
+msgid "Implicit"
+msgstr ""
+
+msgid "Resource owner password-based"
+msgstr ""
+
+msgid "Client credentials"
+msgstr ""
+
+msgid "Allowed URIs list, space separated"
+msgstr ""
+
+#, python-brace-format
+msgid "Unauthorized redirect scheme: {scheme}"
+msgstr ""
+
+#, python-brace-format
+msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+msgstr ""
+
+msgid "The access token is invalid."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The access token has expired."
+msgstr "密码重置过程已过期，请"
+
+msgid "The access token is valid but does not have enough scope."
+msgstr ""
+
+msgid "Are you sure to delete the application"
+msgstr ""
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Client id"
+msgstr ""
+
+msgid "Client secret"
+msgstr ""
+
+msgid "Client type"
+msgstr ""
+
+msgid "Authorization Grant Type"
+msgstr ""
+
+msgid "Redirect Uris"
+msgstr ""
+
+msgid "Go Back"
+msgstr ""
+
+msgid "Edit"
+msgstr "编辑"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Edit application"
+msgstr "现有的关联"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "您的关联"
+
+msgid "No applications defined"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "你可以在此注册一个"
+
+msgid "Register a new application"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Application requires following permissions"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Please return to your application and enter this code:"
+msgstr ""
+
+msgid "Are you sure you want to delete this token?"
+msgstr ""
+
+msgid "Tokens"
+msgstr ""
+
+msgid "There are no authorized tokens yet."
+msgstr ""
+
 msgid "Ethernet"
 msgstr "以太网"
 
@@ -202,9 +317,6 @@ msgstr "私有"
 
 msgid "Users"
 msgstr "用户"
-
-msgid "Public"
-msgstr "公开"
 
 msgid "Kosovo"
 msgstr "科索沃"
@@ -1840,9 +1952,6 @@ msgstr "关联组织"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "您与 %(ar_name)s 的关联待验证。"
 
-msgid "Cancel"
-msgstr "取消"
-
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2041,9 +2150,6 @@ msgstr "管理 OAuth 应用"
 
 msgid "Pending Review"
 msgstr "等待审核"
-
-msgid "Edit"
-msgstr "编辑"
 
 msgid "Save"
 msgstr "保存"
@@ -2267,9 +2373,6 @@ msgstr "此外，待审核的实体不能被授权给用户，也不会出现在
 
 msgid "Update"
 msgstr "更新"
-
-msgid "Delete"
-msgstr "删除"
 
 msgid "Add"
 msgstr "添加"
@@ -2528,9 +2631,6 @@ msgstr "无效的用户名/密码。"
 
 #~ msgid "You are currently viewing a read-only view of the data contained here. If you are a peering network who would like to create an account,"
 #~ msgstr "您正在查看数据的只读视图。如果您是想要创建帐户的对等网络，"
-
-#~ msgid "you may register for one here"
-#~ msgstr "你可以在此注册一个"
 
 #~ msgid "Please register ONLY if you are a peering network."
 #~ msgstr "请当您是对等网络时注册。"

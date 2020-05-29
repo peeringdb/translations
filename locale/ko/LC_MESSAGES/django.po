@@ -17,6 +17,119 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.0.4\n"
 
+msgid "Confidential"
+msgstr ""
+
+msgid "Public"
+msgstr "공개"
+
+msgid "Authorization code"
+msgstr ""
+
+msgid "Implicit"
+msgstr ""
+
+msgid "Resource owner password-based"
+msgstr ""
+
+msgid "Client credentials"
+msgstr ""
+
+msgid "Allowed URIs list, space separated"
+msgstr ""
+
+#, python-brace-format
+msgid "Unauthorized redirect scheme: {scheme}"
+msgstr ""
+
+#, python-brace-format
+msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+msgstr ""
+
+msgid "The access token is invalid."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The access token has expired."
+msgstr "암호 재설정 프로세스가 만료되었습니다,"
+
+msgid "The access token is valid but does not have enough scope."
+msgstr ""
+
+msgid "Are you sure to delete the application"
+msgstr ""
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Delete"
+msgstr "삭제"
+
+msgid "Client id"
+msgstr ""
+
+msgid "Client secret"
+msgstr ""
+
+msgid "Client type"
+msgstr ""
+
+msgid "Authorization Grant Type"
+msgstr ""
+
+msgid "Redirect Uris"
+msgstr ""
+
+msgid "Go Back"
+msgstr ""
+
+msgid "Edit"
+msgstr "수정"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Edit application"
+msgstr "기존 소속"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "와의 가입이"
+
+msgid "No applications defined"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+msgid "if you want to register a new one"
+msgstr ""
+
+msgid "Register a new application"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Application requires following permissions"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Please return to your application and enter this code:"
+msgstr ""
+
+msgid "Are you sure you want to delete this token?"
+msgstr ""
+
+msgid "Tokens"
+msgstr ""
+
+msgid "There are no authorized tokens yet."
+msgstr ""
+
 msgid "Ethernet"
 msgstr "이더넷"
 
@@ -202,9 +315,6 @@ msgstr "비공개"
 
 msgid "Users"
 msgstr "사용자"
-
-msgid "Public"
-msgstr "공개"
 
 msgid "Kosovo"
 msgstr "코소보"
@@ -1779,9 +1889,6 @@ msgstr "조직에 가입하기"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "%(ar_name)s다음 조직과의 가입이 승인 보류 중."
 
-msgid "Cancel"
-msgstr "취소"
-
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr "%(ar_name)s와의 제휴는 PeeringDB 관리 직원이 검토하고 있습니다."
@@ -1978,9 +2085,6 @@ msgstr "OAuth 애플리케이션 관리"
 
 msgid "Pending Review"
 msgstr "보류 검토"
-
-msgid "Edit"
-msgstr "수정"
 
 msgid "Save"
 msgstr "저장"
@@ -2190,9 +2294,6 @@ msgstr "또한 검토가 보류 중인 항목들은 사용자에게 권한을 �
 
 msgid "Update"
 msgstr "업데이트"
-
-msgid "Delete"
-msgstr "삭제"
 
 msgid "Add"
 msgstr "추가"
