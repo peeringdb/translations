@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-31 06:58+0000\n"
+"PO-Revision-Date: 2020-05-31 07:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -49,10 +49,8 @@ msgstr "redirect_uris는 grant_type {grant_type}에서 비워 둘 수 없음"
 msgid "The access token is invalid."
 msgstr "액세스 토큰이 유효하지 않습니다."
 
-#, fuzzy
-#| msgid "The password reset process has expired, please"
 msgid "The access token has expired."
-msgstr "암호 재설정 프로세스가 만료되었습니다,"
+msgstr "액세스 토큰이 만료되었습니다."
 
 msgid "The access token is valid but does not have enough scope."
 msgstr "액세스 토큰은 유효하지만 범위가 충분하지 않습니다."
@@ -87,15 +85,11 @@ msgstr "돌아가기"
 msgid "Edit"
 msgstr "수정"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Edit application"
-msgstr "기존 소속"
+msgstr "응용 프로그램 편집"
 
-#, fuzzy
-#| msgid "Your affiliation with"
 msgid "Your applications"
-msgstr "와의 가입이"
+msgstr "응용 프로그램"
 
 msgid "No applications defined"
 msgstr "정의된 응용 프로그램이 없습니다"
@@ -361,10 +355,8 @@ msgstr "조직"
 msgid "CLLI Code"
 msgstr "CLLI 코드"
 
-#, fuzzy
-#| msgid "Geocode"
 msgid "Rencode"
-msgstr "지오코드"
+msgstr "렌코드"
 
 msgid "NPA-NXX"
 msgstr "NPA-NXX"
@@ -402,13 +394,9 @@ msgstr "이메일"
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contact"
 msgstr "연락처"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contacts"
 msgstr "연락처"
 
@@ -427,10 +415,8 @@ msgstr "Looking Glass URL"
 msgid "Route Server URL"
 msgstr "라우트 서버 URL"
 
-#, fuzzy
-#| msgid "Private Only"
 msgid "Private notes"
-msgstr "프라이빗 온리"
+msgstr "프라이빗 노트"
 
 msgid "Traffic Levels"
 msgstr "트래픽 레벨"
@@ -462,10 +448,8 @@ msgstr "유니캐스트 IPv4"
 msgid "Multicast"
 msgstr "멀티캐스트"
 
-#, fuzzy
-#| msgid "Unicast IPv4"
 msgid "Unicast IPv6"
-msgstr "유니캐스트 IPv4"
+msgstr "유니캐스트 IPv6"
 
 msgid "Never via route servers"
 msgstr "라우트 서버를 경유하지 않음"
@@ -515,46 +499,32 @@ msgstr "정책부 이메일"
 msgid "Policy Phone"
 msgstr "정책부 연락처"
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange"
-msgstr "모든 익스체인지"
+msgstr "인터넷 익스체인지"
 
-#, fuzzy
-#| msgid "Connections to Exchanges"
 msgid "Internet Exchanges"
-msgstr "익스체인지로 연결"
+msgstr "인터넷 익스체인지"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "Internet Exchange facility"
-msgstr "익스체인지 - 시설 링크"
+msgstr "인터넷 익스체인지 시설"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Internet Exchange facilities"
-msgstr "시설 합병"
+msgstr "인터넷 익스체인지 시설"
 
 msgid "Description"
 msgstr "설명"
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "Route Server ASN"
-msgstr "경로 서버"
+msgstr "경로 서버 ASN"
 
 msgid "ARP sponging MAC"
 msgstr ""
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange LAN"
-msgstr "모든 익스체인지"
+msgstr "인터넷 익스체인지 LAN"
 
-#, fuzzy
-#| msgid "Connections to Exchanges"
 msgid "Internet Exchange LANs"
-msgstr "익스체인지로 연결"
+msgstr "인터넷 익스체인지 LANs"
 
 msgid "Protocol"
 msgstr "프로토콜"
@@ -571,15 +541,11 @@ msgstr "인터넷 익스체인지 LAN 프리픽스"
 msgid "Local ASN"
 msgstr "로컬 ASN"
 
-#, fuzzy
-#| msgid "Suggest Facility"
 msgid "Network Facility"
-msgstr "시설 제안"
+msgstr "네트워크 시설"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Network Facilities"
-msgstr "시설 합병"
+msgstr "네트워크 시설"
 
 msgid "RS peer"
 msgstr "RS 피어"
@@ -590,8 +556,6 @@ msgstr "속도 (mbit/초)"
 msgid "Operational"
 msgstr "작동 가능"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Public Peering Exchange Point"
 msgstr "공용 피어링 익스체인지 포인트"
 
@@ -616,31 +580,29 @@ msgstr "스페인어"
 msgid "French"
 msgstr "프랑스어"
 
-#, fuzzy
-#| msgid "Australia"
 msgid "Italian"
-msgstr "호주"
+msgstr "이탈리아어"
 
 msgid "Japanese"
 msgstr "일본어"
 
 msgid "Occitan"
-msgstr ""
+msgstr "프로방스어"
 
 msgid "Portuguese"
-msgstr ""
+msgstr "포르투갈어"
 
 msgid "Romanian"
-msgstr ""
+msgstr "루마니아어"
 
 msgid "Russian"
-msgstr ""
+msgstr "러시아어"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "중국어(간체)"
 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "중국어(번체)"
 
 msgid "Status"
 msgstr "상태"
@@ -2269,10 +2231,8 @@ msgstr "정책부 이메일"
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 또는 IPv6 프리픽스"
 
-#, fuzzy
-#| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
-msgstr "현재 소속을 요청하는 사용자가 없음"
+msgstr "소속을 요청하는 사용자"
 
 msgid "Confirmed"
 msgstr "확인됨"
