@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-12 11:58+0000\n"
-"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
+"PO-Revision-Date: 2020-06-02 09:58+0000\n"
+"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -50,10 +50,8 @@ msgstr ""
 msgid "The access token is invalid."
 msgstr ""
 
-#, fuzzy
-#| msgid "The password reset process has expired, please"
 msgid "The access token has expired."
-msgstr "Dieser Link zum Zurücksetzen des Passworts ist abgelaufen, bitte"
+msgstr "Der Zugangscode ist abgelaufen."
 
 msgid "The access token is valid but does not have enough scope."
 msgstr ""
@@ -88,15 +86,11 @@ msgstr ""
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Edit application"
-msgstr "Bestehende Zuordnungen"
+msgstr "Anwendungen anpassen"
 
-#, fuzzy
-#| msgid "Your affiliation with"
 msgid "Your applications"
-msgstr "Ihre Zuordnung zu"
+msgstr "Ihre Anwendungen"
 
 msgid "No applications defined"
 msgstr ""
@@ -104,10 +98,8 @@ msgstr ""
 msgid "Click here"
 msgstr ""
 
-#, fuzzy
-#| msgid "you may register for one here"
 msgid "if you want to register a new one"
-msgstr "können Sie sich hier für eines registrieren"
+msgstr "wenn Sie eine neue registrieren wollen"
 
 msgid "Register a new application"
 msgstr ""
@@ -358,8 +350,6 @@ msgstr "Notizen"
 msgid "Organization"
 msgstr "Unternehmen"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
 msgstr "Unternehmen"
 
@@ -380,15 +370,11 @@ msgstr "E-Mail (technisch)"
 msgid "Technical Phone"
 msgstr "Telefon (technisch)"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales Email"
-msgstr "E-Mail-Adresse ändern"
+msgstr "Vertriebs Email"
 
-#, fuzzy
-#| msgid "Sales"
 msgid "Sales Phone"
-msgstr "Vertrieb"
+msgstr "Vertriebs Telefon"
 
 msgid "Facility"
 msgstr "Liegenschaft"
@@ -411,15 +397,11 @@ msgstr "E-Mail"
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contact"
-msgstr "Kontaktieren Sie uns"
+msgstr "Kontakt"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contacts"
-msgstr "Kontaktieren Sie uns"
+msgstr "Kontakte"
 
 msgid "Also Known As"
 msgstr "Auch bekannt als"
@@ -471,15 +453,11 @@ msgstr "Unicast IPv4"
 msgid "Multicast"
 msgstr "Multicast"
 
-#, fuzzy
-#| msgid "Unicast IPv4"
 msgid "Unicast IPv6"
-msgstr "Unicast IPv4"
+msgstr "Unicast IPv6"
 
-#, fuzzy
-#| msgid "routeserver"
 msgid "Never via route servers"
-msgstr "Routeserver"
+msgstr "Niemals per Routeserver"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
@@ -526,15 +504,11 @@ msgstr "E-Mail (Peeringrichtlinien)"
 msgid "Policy Phone"
 msgstr "Telefon (Peeringrichtlinien)"
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange"
-msgstr "Alle Austauschknoten"
+msgstr "Austauschknoten"
 
-#, fuzzy
-#| msgid "Connections to Exchanges"
 msgid "Internet Exchanges"
-msgstr "Verbindungen zu Austauschpunkten"
+msgstr "Austauschpunkte"
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -549,18 +523,14 @@ msgstr "Liegenschaften zusammenführen"
 msgid "Description"
 msgstr ""
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "Route Server ASN"
-msgstr "Route Server"
+msgstr "Route Server ASN"
 
 msgid "ARP sponging MAC"
 msgstr ""
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange LAN"
-msgstr "Alle Austauschknoten"
+msgstr "Austauschknoten LAN"
 
 #, fuzzy
 #| msgid "Connections to Exchanges"
@@ -598,15 +568,11 @@ msgstr ""
 msgid "Speed (mbit/sec)"
 msgstr "Datenrate (mbit/s)"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Operational"
-msgstr "Regional"
+msgstr "In Betrieb"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Public Peering Exchange Point"
-msgstr "Öffentliche Peering Austauschpunkte"
+msgstr "Öffentlicher Peering Austauschpunkt"
 
 msgid "Public Peering Exchange Points"
 msgstr "Öffentliche Peering Austauschpunkte"
@@ -629,10 +595,8 @@ msgstr ""
 msgid "French"
 msgstr ""
 
-#, fuzzy
-#| msgid "Australia"
 msgid "Italian"
-msgstr "Australien"
+msgstr "Italien"
 
 msgid "Japanese"
 msgstr ""
@@ -751,10 +715,8 @@ msgstr "Gewählte Einträge ABLEHNEN und löschen"
 msgid "View"
 msgstr "Anzeigen"
 
-#, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "Cannot approve a canceled affiliation request"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
+msgstr "Kann keine abgebrochene Zuordnungsanforderung genehmigen"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Mitgliedschaft wurde bestätigt und der Nutzer darüber informiert."
@@ -765,10 +727,8 @@ msgstr "Benutzer bestätigen und darüber informieren"
 msgid "Approve"
 msgstr "Freigeben"
 
-#, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "Cannot deny a canceled affiliation request"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
+msgstr "Kann keine abgebrochene Zuordnungsanforderung ablehnen"
 
 msgid "Deny"
 msgstr "Ablehnen"
