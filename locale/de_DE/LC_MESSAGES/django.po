@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-06-02 09:58+0000\n"
+"PO-Revision-Date: 2020-06-02 10:43+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -19,16 +19,16 @@ msgstr ""
 "X-Poedit-Bookmarks: 260,-1,-1,-1,-1,-1,-1,-1,-1,372\n"
 
 msgid "Confidential"
-msgstr ""
+msgstr "Vertraulich"
 
 msgid "Public"
 msgstr "Öffentlich"
 
 msgid "Authorization code"
-msgstr ""
+msgstr "Authorisierungscode"
 
 msgid "Implicit"
-msgstr ""
+msgstr "Implizit"
 
 msgid "Resource owner password-based"
 msgstr ""
@@ -48,7 +48,7 @@ msgid "redirect_uris cannot be empty with grant_type {grant_type}"
 msgstr ""
 
 msgid "The access token is invalid."
-msgstr ""
+msgstr "Der Zugangscode ist ungültig."
 
 msgid "The access token has expired."
 msgstr "Der Zugangscode ist abgelaufen."
@@ -57,7 +57,7 @@ msgid "The access token is valid but does not have enough scope."
 msgstr ""
 
 msgid "Are you sure to delete the application"
-msgstr ""
+msgstr "Bist du dir sicher die Anwendung zu löschen"
 
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -81,7 +81,7 @@ msgid "Redirect Uris"
 msgstr ""
 
 msgid "Go Back"
-msgstr ""
+msgstr "Gehe zurück"
 
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -93,28 +93,28 @@ msgid "Your applications"
 msgstr "Ihre Anwendungen"
 
 msgid "No applications defined"
-msgstr ""
+msgstr "Keine Anwendungen definiert"
 
 msgid "Click here"
-msgstr ""
+msgstr "Klicke hier"
 
 msgid "if you want to register a new one"
 msgstr "wenn Sie eine neue registrieren wollen"
 
 msgid "Register a new application"
-msgstr ""
+msgstr "Registriere eine neue Anwendung"
 
 msgid "Authorize"
-msgstr ""
+msgstr "Authorisiere"
 
 msgid "Application requires following permissions"
-msgstr ""
+msgstr "Anwendung benötigt folgende Berechtigungen"
 
 msgid "Success"
-msgstr ""
+msgstr "Erfolgreich"
 
 msgid "Please return to your application and enter this code:"
-msgstr ""
+msgstr "Bitte gehe in deine Anwendung zurück und gebe folgenden Code ein:"
 
 msgid "Are you sure you want to delete this token?"
 msgstr ""
@@ -333,10 +333,10 @@ msgid "Country"
 msgstr "Land"
 
 msgid "Latitude"
-msgstr ""
+msgstr "Breitengrad"
 
 msgid "Longitude"
-msgstr ""
+msgstr "Längengrad"
 
 msgid "Name"
 msgstr "Name"
@@ -521,7 +521,7 @@ msgid "Internet Exchange facilities"
 msgstr "Liegenschaften zusammenführen"
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid "Route Server ASN"
 msgstr "Route Server ASN"
@@ -538,7 +538,7 @@ msgid "Internet Exchange LANs"
 msgstr "Verbindungen zu Austauschpunkten"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Protokoll"
 
 msgid "Prefix"
 msgstr "Präfix"
@@ -578,28 +578,28 @@ msgid "Public Peering Exchange Points"
 msgstr "Öffentliche Peering Austauschpunkte"
 
 msgid "Czech"
-msgstr ""
+msgstr "Tschechisch"
 
 msgid "German"
-msgstr ""
+msgstr "Deutsch"
 
 msgid "Greek"
-msgstr ""
+msgstr "Griechisch"
 
 msgid "English"
 msgstr "Englisch"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Spanisch"
 
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 msgid "Italian"
 msgstr "Italien"
 
 msgid "Japanese"
-msgstr ""
+msgstr "Japanisch"
 
 msgid "Occitan"
 msgstr ""
@@ -608,16 +608,16 @@ msgid "Portuguese"
 msgstr "Portugiesisch"
 
 msgid "Romanian"
-msgstr ""
+msgstr "Rumänisch"
 
 msgid "Russian"
-msgstr ""
+msgstr "Russisch"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Chinesisch (Vereinfacht)"
 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "Chinesisch (Traditionell)"
 
 msgid "Status"
 msgstr "Status"
@@ -831,15 +831,11 @@ msgstr ""
 msgid "Targets both AKA and name fields for filtering"
 msgstr ""
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks not present at an exchange (exchange id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Suche nach Netzen, die an einem Exchange nicht präsent sind (Exchange ID)"
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks present at exchange (exchange id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Suche nach Netzen, die an einem Exchange präsent sind (Exchange ID)"
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -873,10 +869,8 @@ msgstr ""
 msgid "Find the exchange that contains this ixfac (ixfac id)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Number of networks present at this exchange"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Anzahl der Netzwerke die an diesem Exchange angeschlossen sind"
 
 msgid "Find exchanges where this network has a presence at (net id)"
 msgstr ""
@@ -892,10 +886,8 @@ msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen pr�
 msgid "Find prefixes by ip address"
 msgstr ""
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Exchange name"
-msgstr "Austauschpunkt"
+msgstr "Name des Austauschpunkt"
 
 #, fuzzy
 #| msgid "Facility"
@@ -1409,10 +1401,8 @@ msgstr "Vorschau"
 msgid "Result"
 msgstr "Ergebnis"
 
-#, fuzzy
-#| msgid "API Documentation"
 msgid "PeeringDB API Documentation"
-msgstr "API-Dokumentation"
+msgstr "PeeringDB API-Dokumentation"
 
 msgid "Merge Notification"
 msgstr "Benachrichtigung über Zusammenführung"
@@ -1456,20 +1446,17 @@ msgstr "Benutzer"
 msgid "AS"
 msgstr "AS"
 
-#, fuzzy, python-format
-#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, python-format
 msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "Die Organisation %(o_name)s (%(o_id)s) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
+msgstr "Die Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
 
-#, fuzzy, python-format
-#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, python-format
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "Das Netzwerk %(n_name)s (%(n_id)s) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
+msgstr "Das Netzwerk %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (%(n_id)s) unter Organisation %(o_name)s (%(o_id)s) erstellt."
+msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
 
 msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten abgeglichen werden konnte, hat dieses Netzwerk die Überprüfungswarteschlange übersprungen."
@@ -1678,11 +1665,11 @@ msgid "Exchanges"
 msgstr "Austauschpunkte"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr ""
+msgstr "Dies ist eine Beta/Test Instanz von PeeringDB. Manche Funktionen könnten anders als in der Produktion funktionieren. Bitte speichere keine Daten hier die du behalten willst"
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
-msgstr ""
+msgstr "- alle Daten werden am %(dt)sZ von der Produktion geladen"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
@@ -1897,15 +1884,13 @@ msgstr "Zuordnung zu einer Organisation anfordern"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s is pending approval."
+#, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
+msgstr "Ihre Zuordnung zu %(ar_name)s wird vom PeeringDB Team geprüft."
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s was denied"
+#, python-format
 msgid "You have canceled your affiliation request with %(ar_name)s"
-msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
+msgstr "Sie haben Ihre Zuordnungsanfordeung zu %(ar_name)s abgebrochen"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
@@ -2118,10 +2103,8 @@ msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgeru
 msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
 
-#, fuzzy
-#| msgid "Prefix"
 msgid "Prefixes"
-msgstr "Präfix"
+msgstr "Präfixe"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN-Präfix"
@@ -2177,10 +2160,8 @@ msgstr "Austauschpunkt"
 msgid "IP"
 msgstr "IP"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Not operational"
-msgstr "Regional"
+msgstr "Nicht in Betrieb"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Einige der Kontaktdaten werden nur angemeldeten Benutzern angezeigt. Bitte melden Sie sich an."
@@ -2231,7 +2212,7 @@ msgid "Network - Exchange link"
 msgstr "Netzwerk-Austauschpunkt-Link"
 
 msgid "Entry needs to be moved to correct network"
-msgstr ""
+msgstr "Eintrag muss zum korrekten Netzwerk verschoben werden"
 
 msgid "Add Exchange Point"
 msgstr "Exchange hinzufügen"
@@ -2257,10 +2238,8 @@ msgstr "Berechtigungen"
 msgid "Technical E-mail"
 msgstr "E-Mail (technisch)"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales E-mail"
-msgstr "E-Mail-Adresse ändern"
+msgstr "Vertriebs E-mail"
 
 msgid "Policy URL"
 msgstr "Peeringrichtlinien-URL"
@@ -2286,10 +2265,8 @@ msgstr "E-Mail (Peeringrichtlinien)"
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4- oder IPv6-Präfix"
 
-#, fuzzy
-#| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
-msgstr "Derzeit wartet kein Nutzer auf Zuordnung zu"
+msgstr "Nutzer die eine Zuordnung anfordern"
 
 msgid "Confirmed"
 msgstr "Bestätigt"
@@ -2346,7 +2323,7 @@ msgid "days ago"
 msgstr "Tage her"
 
 msgid "Not a valid phone number (E.164)"
-msgstr ""
+msgstr "Keine gültige Telefonnummer (E.164)"
 
 msgid "Invalid prefix: {}"
 msgstr "Ungültiges Prefix: {}"
@@ -2370,13 +2347,13 @@ msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "Das Präfix überlappt mit dem Präfix von {}: {}"
 
 msgid "IRR AS-SET value must be string type"
-msgstr ""
+msgstr "IRR AS-SET muss eine Zeichenkette sein"
 
 msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
 msgstr ""
 
 msgid "Unknown IRR source: {}"
-msgstr ""
+msgstr "Unbekannte IRR source: {}"
 
 msgid "Maximum AS-SET hierarchy depth: {}"
 msgstr ""
@@ -2407,7 +2384,7 @@ msgid "You already have an ownership request pending for this organization"
 msgstr "Sie haben bereits eine Besitzanfrage für diese Organisation gestellt"
 
 msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
-msgstr ""
+msgstr "Sie haben zu viele Zuordnungsanforderungen gestellt, bitte warten sie bis diese gelöst wurden, before sie neue stellen."
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "Bitte warten Sie, bevor Sie erneut Zuordnung anfordern."
@@ -2481,10 +2458,8 @@ msgstr "MTU"
 msgid "Enable IX-F Import"
 msgstr "Aktivieren Sie den IX-F Import"
 
-#, fuzzy
-#| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
-msgstr "IXF Member-Export-URL"
+msgstr "IX-F Member-Export-URL"
 
 msgid "Last Updated"
 msgstr "Zuletzt aktualisiert"
