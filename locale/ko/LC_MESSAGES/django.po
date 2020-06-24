@@ -634,9 +634,6 @@ msgstr "거부"
 msgid "APPROVED"
 msgstr "승인됨"
 
-msgid "Ipaddress already exists elsewhere"
-msgstr "IP주소가 이미 다른 곳에 존재함"
-
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "사용자가 이 조직에 소속되기 위해 대기 중"
 
@@ -1098,6 +1095,12 @@ msgstr "데스크프로 티켓"
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "이 조직의 로고 이미지 파일을 업로드하고 설정할 수 있음"
 
+msgid "Organization currently has one or more active objects under it."
+msgstr ""
+
+msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgstr ""
+
 msgid "Sponsorship starts on"
 msgstr "스폰서쉽 시작 날짜"
 
@@ -1318,6 +1321,9 @@ msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
+
+msgid "Permission denied to restore deleted object/relationship"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
@@ -1638,6 +1644,12 @@ msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성�
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- 모든 데이터는 %(dt)sZ에서 생산으로부터 새로 고쳐질 것입니다"
 
+msgid "Only use this if you own the facility"
+msgstr ""
+
+msgid "Only use this if you own the exchange"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성된 %(entity_name)s가 검색 결과 또는 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 함을 주의하십시오"
@@ -1784,18 +1796,6 @@ msgstr "등록"
 msgid "Most Recent Updates"
 msgstr "최신 업데이트"
 
-msgid "Username"
-msgstr "아이디"
-
-msgid "Password"
-msgstr "비밀번호"
-
-msgid "I forgot my password .."
-msgstr "비밀번호 찾기 .."
-
-msgid "I forgot my username .."
-msgstr "아이디 찾기 .."
-
 msgid "Maintenance Mode"
 msgstr "유지 보수 모드"
 
@@ -1829,6 +1829,9 @@ msgstr "이/가 리셋되었습니다, 다음 단계로 진행하십시오"
 msgid "login page"
 msgstr "로그인 페이지"
 
+msgid "Password"
+msgstr "비밀번호"
+
 msgid "Verify Password"
 msgstr "비밀번호 확인"
 
@@ -1843,6 +1846,16 @@ msgstr "암호 재설정 프로세스가 만료되었습니다,"
 
 msgid "initiate again"
 msgstr "다시 시작하십시오"
+
+#, fuzzy
+#| msgid "Account Created"
+msgid "Account Security"
+msgstr "계정이 생성됨"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Manage Two-Factor Authentication"
+msgstr "OAuth 애플리케이션 관리"
 
 msgid "Affiliate with organization"
 msgstr "조직에 가입하기"
@@ -1960,6 +1973,9 @@ msgstr "홈으로 돌아가기"
 msgid "Create account"
 msgstr "계정 만들기"
 
+msgid "Username"
+msgstr "아이디"
+
 msgid "Confirm password"
 msgstr "비밀번호 확인"
 
@@ -2071,6 +2087,9 @@ msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수�
 
 msgid "Prefixes"
 msgstr "프리픽스"
+
+msgid "In DFZ"
+msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 프리픽스"
@@ -2201,6 +2220,11 @@ msgstr "익스체인지 추가"
 msgid "Permissions"
 msgstr "권한"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Delete Organization"
+msgstr "조직"
+
 msgid "Technical E-mail"
 msgstr "기술부 이메일"
 
@@ -2209,6 +2233,9 @@ msgstr "영업 이메일"
 
 msgid "Policy URL"
 msgstr "정책 URL"
+
+msgid "Only use this if you own the network"
+msgstr ""
 
 msgid "Add a new Network to your Organization."
 msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
@@ -2258,6 +2285,22 @@ msgstr "업데이트"
 msgid "Add"
 msgstr "추가"
 
+#, python-format
+msgid "%(name)s cannot be deleted."
+msgstr ""
+
+msgid "Remove this organization from PeeringDB."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Delete organization?"
+msgstr "유효하지 않는 조직"
+
+#, python-format
+msgid "Delete %(name)s"
+msgstr ""
+
 msgid "Thank you for your suggestion."
 msgstr "제안해주셔서 감사합니다."
 
@@ -2272,6 +2315,60 @@ msgstr "다른 익스체인지 제안"
 
 msgid "Suggest another network"
 msgstr "다른 네트워크 제안"
+
+msgid "I forgot my password .."
+msgstr "비밀번호 찾기 .."
+
+msgid "I forgot my username .."
+msgstr "아이디 찾기 .."
+
+#, fuzzy
+#| msgid "Tokens"
+msgid "Token"
+msgstr "토큰"
+
+#, fuzzy
+#| msgid "Client credentials"
+msgid "Enter your credentials."
+msgstr "클라이언트 자격 증명"
+
+msgid ""
+"We are calling your phone right now, please enter the\n"
+"        digits you hear."
+msgstr ""
+
+msgid ""
+"We sent you a text message, please enter the tokens we\n"
+"        sent."
+msgstr ""
+
+msgid "We sent you an email, please enter the one time password we sent."
+msgstr ""
+
+msgid ""
+"Please enter the tokens generated by your token\n"
+"        generator."
+msgstr ""
+
+msgid ""
+"Use this form for entering backup tokens for logging in.\n"
+"      These tokens have been generated for you to print and keep safe. Please\n"
+"      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
+msgstr ""
+
+msgid "As a last resort, you can use a backup token:"
+msgstr ""
+
+msgid "Use Backup Token"
+msgstr ""
+
+#, fuzzy
+#| msgid "Confirm password"
+msgid "Email one time password"
+msgstr "비밀번호 확인"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "귀하의 이메일 주소가 이 조직의 파일에 있는 도메인 정보와 일치하지 않습니다."
@@ -2391,14 +2488,14 @@ msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 다수
 msgid "This email address has already been used"
 msgstr "이 이메일 주소는 이미 사용되었습니다"
 
-msgid "Already logged in"
-msgstr "이미 로그인되어 있습니다"
-
 msgid "Location"
 msgstr "위치"
 
 msgid "Country Code"
 msgstr "국가 코드"
+
+msgid "Last Updated"
+msgstr "최신 업데이트"
 
 msgid "Markdown enabled"
 msgstr "마크다운 사용가능"
@@ -2427,9 +2524,6 @@ msgstr "IX-F 가져오기 사용"
 msgid "IX-F Member Export URL"
 msgstr "IX-F 멤버 내보내기 URL"
 
-msgid "Last Updated"
-msgstr "최신 업데이트"
-
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB 구성"
 
@@ -2451,8 +2545,14 @@ msgstr "피어링 정책 정보"
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
 
-msgid "Account disabled."
-msgstr "계정이 잠겼습니다."
+#~ msgid "Ipaddress already exists elsewhere"
+#~ msgstr "IP주소가 이미 다른 곳에 존재함"
 
-msgid "Invalid username/password."
-msgstr "유효하지 않은 아이디/비밀번호."
+#~ msgid "Already logged in"
+#~ msgstr "이미 로그인되어 있습니다"
+
+#~ msgid "Account disabled."
+#~ msgstr "계정이 잠겼습니다."
+
+#~ msgid "Invalid username/password."
+#~ msgstr "유효하지 않은 아이디/비밀번호."

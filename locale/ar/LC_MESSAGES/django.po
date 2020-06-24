@@ -683,9 +683,6 @@ msgstr "رفض"
 msgid "APPROVED"
 msgstr "تم التأكيد"
 
-msgid "Ipaddress already exists elsewhere"
-msgstr "هذا العنوان موجود بالفعل في مكان آخر"
-
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "هذا المستخدم يطلب أن يكون منتسب إلى هذه المنظمات"
 
@@ -1180,6 +1177,12 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه المؤسسة"
 
+msgid "Organization currently has one or more active objects under it."
+msgstr ""
+
+msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgstr ""
+
 msgid "Sponsorship starts on"
 msgstr "تبدأ الرعاية في"
 
@@ -1404,6 +1407,9 @@ msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤ
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
+
+msgid "Permission denied to restore deleted object/relationship"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -1731,6 +1737,12 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+msgid "Only use this if you own the facility"
+msgstr ""
+
+msgid "Only use this if you own the exchange"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "اضف  %(entity_name)s الى المؤسسة. تجدر الإشارة إلى أن %(entity_name)s الذي تم إنشاؤه حديثًا يحتاج إلى موافقة موظفي قاعدة بيانات التناظر اولاً قبل ظهوره في نتائج البحث أو واجهة برمجة التطبيقات"
@@ -1879,18 +1891,6 @@ msgstr "تسجيل دخول"
 msgid "Most Recent Updates"
 msgstr "آخر التحديثات"
 
-msgid "Username"
-msgstr "المستخدم"
-
-msgid "Password"
-msgstr "كلمة المرور"
-
-msgid "I forgot my password .."
-msgstr "نسيت كلمة المرور الخاصة بي."
-
-msgid "I forgot my username .."
-msgstr "نسيت اسم المستخدم الخاص بي."
-
 msgid "Maintenance Mode"
 msgstr "وضع الصيانة"
 
@@ -1924,6 +1924,9 @@ msgstr "تم إعادة ضبطها ، إذهب إلى"
 msgid "login page"
 msgstr "صفحة تسجيل الدخول"
 
+msgid "Password"
+msgstr "كلمة المرور"
+
 msgid "Verify Password"
 msgstr "التحقق من كلمة المرور"
 
@@ -1938,6 +1941,16 @@ msgstr "انتهت عملية إعادة تعيين كلمة المرور ، ا�
 
 msgid "initiate again"
 msgstr "البدء مرة أخرى"
+
+#, fuzzy
+#| msgid "Account Created"
+msgid "Account Security"
+msgstr "تم إنشاء الحساب"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Manage Two-Factor Authentication"
+msgstr "إدارة تطبيقات التحقق"
 
 msgid "Affiliate with organization"
 msgstr "انضم/ انتساب الى منظمة"
@@ -2059,6 +2072,9 @@ msgstr "العودة إلى الصفحة الرئيسية"
 msgid "Create account"
 msgstr "إنشاء حساب"
 
+msgid "Username"
+msgstr "المستخدم"
+
 msgid "Confirm password"
 msgstr "تأكيد كلمة المرور"
 
@@ -2173,6 +2189,9 @@ msgstr "سيتم الحصول على بيانات الترميز الجغراف�
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "بادئة عنوان الانترنت"
+
+msgid "In DFZ"
+msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "بادئة عنوان شبكة التناظر"
@@ -2311,6 +2330,11 @@ msgstr "اي تبادل بيانات"
 msgid "Permissions"
 msgstr "صلاحيات"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Delete Organization"
+msgstr "المنظمة / المؤسسة"
+
 msgid "Technical E-mail"
 msgstr "البريد الإلكتروني للجهة التقنية"
 
@@ -2321,6 +2345,9 @@ msgstr "تغيير البريد الالكتروني"
 
 msgid "Policy URL"
 msgstr "الرابط الإلكتروني للسياسة"
+
+msgid "Only use this if you own the network"
+msgstr ""
 
 msgid "Add a new Network to your Organization."
 msgstr "إضافة شبكة جديدة إلى المؤسسة/المنظمة."
@@ -2372,6 +2399,22 @@ msgstr "تحديث"
 msgid "Add"
 msgstr "إضافة"
 
+#, python-format
+msgid "%(name)s cannot be deleted."
+msgstr ""
+
+msgid "Remove this organization from PeeringDB."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Delete organization?"
+msgstr "المنظمة غير صحيحة"
+
+#, python-format
+msgid "Delete %(name)s"
+msgstr ""
+
 msgid "Thank you for your suggestion."
 msgstr "شكرا على اقتراحكم."
 
@@ -2386,6 +2429,56 @@ msgstr "اقترح نقطة تبادل الإنترنت اخرى"
 
 msgid "Suggest another network"
 msgstr "اقترح شبكة اخرى"
+
+msgid "I forgot my password .."
+msgstr "نسيت كلمة المرور الخاصة بي."
+
+msgid "I forgot my username .."
+msgstr "نسيت اسم المستخدم الخاص بي."
+
+msgid "Token"
+msgstr ""
+
+msgid "Enter your credentials."
+msgstr ""
+
+msgid ""
+"We are calling your phone right now, please enter the\n"
+"        digits you hear."
+msgstr ""
+
+msgid ""
+"We sent you a text message, please enter the tokens we\n"
+"        sent."
+msgstr ""
+
+msgid "We sent you an email, please enter the one time password we sent."
+msgstr ""
+
+msgid ""
+"Please enter the tokens generated by your token\n"
+"        generator."
+msgstr ""
+
+msgid ""
+"Use this form for entering backup tokens for logging in.\n"
+"      These tokens have been generated for you to print and keep safe. Please\n"
+"      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
+msgstr ""
+
+msgid "As a last resort, you can use a backup token:"
+msgstr ""
+
+msgid "Use Backup Token"
+msgstr ""
+
+#, fuzzy
+#| msgid "Confirm password"
+msgid "Email one time password"
+msgstr "تأكيد كلمة المرور"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "لا يتطابق عنوان بريدك الإلكتروني مع معلومات النطاق (domain information) الموجودة في ملف هذه المؤسسة."
@@ -2505,14 +2598,14 @@ msgstr "الرجاء تسجيل الخروج من جلسة العمل الحال
 msgid "This email address has already been used"
 msgstr "تم استخدام هذا البريد الإلكتروني من قبل"
 
-msgid "Already logged in"
-msgstr "تم تسجيل الدخول بالفعل"
-
 msgid "Location"
 msgstr "الموقع"
 
 msgid "Country Code"
 msgstr "رمز البلد"
+
+msgid "Last Updated"
+msgstr "آخر تحديث"
 
 msgid "Markdown enabled"
 msgstr "تفعيل \"وضع علامة لأسفل\""
@@ -2545,9 +2638,6 @@ msgstr "استيراد بيانات IX-F"
 msgid "IX-F Member Export URL"
 msgstr "سجل استيراد بيانات IXF"
 
-msgid "Last Updated"
-msgstr "آخر تحديث"
-
 msgid "PeeringDB Configuration"
 msgstr "تهيئه قاعدة بيانات التناظر PeeringDB"
 
@@ -2569,11 +2659,17 @@ msgstr "معلومات سياسات التناظر"
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
 
-msgid "Account disabled."
-msgstr "تم إيقاف الحساب."
+#~ msgid "Ipaddress already exists elsewhere"
+#~ msgstr "هذا العنوان موجود بالفعل في مكان آخر"
 
-msgid "Invalid username/password."
-msgstr "اسم المستخدم / كلمة المرور غير صحيحة."
+#~ msgid "Already logged in"
+#~ msgstr "تم تسجيل الدخول بالفعل"
+
+#~ msgid "Account disabled."
+#~ msgstr "تم إيقاف الحساب."
+
+#~ msgid "Invalid username/password."
+#~ msgstr "اسم المستخدم / كلمة المرور غير صحيحة."
 
 #~ msgid "dot1q"
 #~ msgstr "بروتوكول dot1q"

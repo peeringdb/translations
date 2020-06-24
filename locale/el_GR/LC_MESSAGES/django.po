@@ -684,9 +684,6 @@ msgstr "ΑΠΑΓΟΡΕΥΣΗ"
 msgid "APPROVED"
 msgstr "ΕΓΚΕΚΡΙΜΕΝΟ"
 
-msgid "Ipaddress already exists elsewhere"
-msgstr "Η διεύθυνση IP υπάρχει ήδη αλλού"
-
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Ο χρήστης ενδιαφέρεται να συσχετισθεί με αυτούς τους οργανισμούς"
 
@@ -1200,6 +1197,12 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Σας δίνει τη δυνατότητα να ανεβάσετε και να ορίσετε ένα αρχείο εικόνας λογότυπου για αυτόν τον οργανισμό"
 
+msgid "Organization currently has one or more active objects under it."
+msgstr ""
+
+msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgstr ""
+
 msgid "Sponsorship starts on"
 msgstr "Η αιγίδα ξεκινά την"
 
@@ -1420,6 +1423,9 @@ msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπο
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
+
+msgid "Permission denied to restore deleted object/relationship"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -1751,6 +1757,12 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+msgid "Only use this if you own the facility"
+msgstr ""
+
+msgid "Only use this if you own the exchange"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Προσθήκη νέας οντότητας %(entity_name)s στον Οργανισμό σας. Σημειώστε πως η νεοδημιουργηθήσα %(entity_name)s θα χρειαστεί έγκριση από το προσωπικό του PeeringDB πριν να μπορέσει να εμφανιστεί σε αποτελέσματα αναζήτησης ή σε API καταχωρήσεις"
@@ -1911,18 +1923,6 @@ msgstr "Εγγραφή"
 msgid "Most Recent Updates"
 msgstr "ΤΕΛΕΥΤΑΙΕΣ ΕΝΗΜΕΡΩΣΕΙΣ"
 
-msgid "Username"
-msgstr "Όνομα Χρήστη"
-
-msgid "Password"
-msgstr "Κωδικός"
-
-msgid "I forgot my password .."
-msgstr "Ξέχασα τον κωδικό μου .."
-
-msgid "I forgot my username .."
-msgstr "Ξέχασα το όνομα χρήστη μου .."
-
 #, fuzzy
 #| msgid "Maintenance"
 msgid "Maintenance Mode"
@@ -1962,6 +1962,9 @@ msgstr "έχει επανακτηθεί, προχωρήστε στη"
 msgid "login page"
 msgstr "σελίδα σύνδεσης"
 
+msgid "Password"
+msgstr "Κωδικός"
+
 msgid "Verify Password"
 msgstr "Επαληθεύστε τον Κωδικό"
 
@@ -1976,6 +1979,16 @@ msgstr "Η διαδικασία επανάκτησης κωδικού έχει �
 
 msgid "initiate again"
 msgstr "επανακκινήστε την"
+
+#, fuzzy
+#| msgid "Account Created"
+msgid "Account Security"
+msgstr "Ο Λογαριασμός Δημιουργήθηκε"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Manage Two-Factor Authentication"
+msgstr "Διαχείριση εφαρμογών OAuth"
 
 msgid "Affiliate with organization"
 msgstr "Συσχέτιση με οργανισμό"
@@ -2095,6 +2108,9 @@ msgstr "Επιστροφή στην Αρχική Σελίδα"
 msgid "Create account"
 msgstr "Δημιουργία λογαριασμού"
 
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
 msgid "Confirm password"
 msgstr "Επιβεβαίωση κωδικού"
 
@@ -2212,6 +2228,9 @@ msgstr "Ανανεωμένα στοιχεία geocode για αυτή την ο�
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "Prefix"
+
+msgid "In DFZ"
+msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -2360,6 +2379,11 @@ msgstr "Προσθήκη Exchange"
 msgid "Permissions"
 msgstr "Δικαιώματα"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Delete Organization"
+msgstr "Οργανισμός"
+
 msgid "Technical E-mail"
 msgstr "Ε-mail για τεχνικά ζητήματα"
 
@@ -2370,6 +2394,9 @@ msgstr "Αλλαγή email"
 
 msgid "Policy URL"
 msgstr "Διεύθυνση Πολιτικής (Policy URL)"
+
+msgid "Only use this if you own the network"
+msgstr ""
 
 msgid "Add a new Network to your Organization."
 msgstr "Προσθέστε ένα νέο Δίκτυο στον Οργανισμό σας"
@@ -2423,6 +2450,22 @@ msgstr "Ενημέρωση"
 msgid "Add"
 msgstr "Προσθήκη"
 
+#, python-format
+msgid "%(name)s cannot be deleted."
+msgstr ""
+
+msgid "Remove this organization from PeeringDB."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Delete organization?"
+msgstr "Μη έγκυρος οργανισμός"
+
+#, python-format
+msgid "Delete %(name)s"
+msgstr ""
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2445,6 +2488,56 @@ msgstr "Exchange"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Υποβολή Δικτύου"
+
+msgid "I forgot my password .."
+msgstr "Ξέχασα τον κωδικό μου .."
+
+msgid "I forgot my username .."
+msgstr "Ξέχασα το όνομα χρήστη μου .."
+
+msgid "Token"
+msgstr ""
+
+msgid "Enter your credentials."
+msgstr ""
+
+msgid ""
+"We are calling your phone right now, please enter the\n"
+"        digits you hear."
+msgstr ""
+
+msgid ""
+"We sent you a text message, please enter the tokens we\n"
+"        sent."
+msgstr ""
+
+msgid "We sent you an email, please enter the one time password we sent."
+msgstr ""
+
+msgid ""
+"Please enter the tokens generated by your token\n"
+"        generator."
+msgstr ""
+
+msgid ""
+"Use this form for entering backup tokens for logging in.\n"
+"      These tokens have been generated for you to print and keep safe. Please\n"
+"      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
+msgstr ""
+
+msgid "As a last resort, you can use a backup token:"
+msgstr ""
+
+msgid "Use Backup Token"
+msgstr ""
+
+#, fuzzy
+#| msgid "Confirm password"
+msgid "Email one time password"
+msgstr "Επιβεβαίωση κωδικού"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "H διεύθυνση email σας δεν ταιριάζει με τα στοιχεία που έχουμε καταχωρημένα για αυτό το domain."
@@ -2568,14 +2661,14 @@ msgstr "Παρακαλούμε αποσυνδεθείτε από την υπάρ
 msgid "This email address has already been used"
 msgstr "Αυτή η διεύθυνση email έχει ήδη χρησιμοποιηθεί"
 
-msgid "Already logged in"
-msgstr "Είνα ήδη συνδεδεμένος/η"
-
 msgid "Location"
 msgstr "Τοποθεσία"
 
 msgid "Country Code"
 msgstr "Κωδικός Χώρας"
+
+msgid "Last Updated"
+msgstr "Τελευταία Ενημέρωση"
 
 msgid "Markdown enabled"
 msgstr "Η Markdown ενεργοποιήθηκε"
@@ -2608,9 +2701,6 @@ msgstr "Ημερολόγιο Εισαγωγών IXF"
 msgid "IX-F Member Export URL"
 msgstr "URL εξαγωγής μελών IXF"
 
-msgid "Last Updated"
-msgstr "Τελευταία Ενημέρωση"
-
 msgid "PeeringDB Configuration"
 msgstr "Ρύθμιση PeeringDB"
 
@@ -2634,11 +2724,17 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
 
-msgid "Account disabled."
-msgstr "Ο λογαριασμός έχει απενεργοποιηθεί"
+#~ msgid "Ipaddress already exists elsewhere"
+#~ msgstr "Η διεύθυνση IP υπάρχει ήδη αλλού"
 
-msgid "Invalid username/password."
-msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
+#~ msgid "Already logged in"
+#~ msgstr "Είνα ήδη συνδεδεμένος/η"
+
+#~ msgid "Account disabled."
+#~ msgstr "Ο λογαριασμός έχει απενεργοποιηθεί"
+
+#~ msgid "Invalid username/password."
+#~ msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"

@@ -686,9 +686,6 @@ msgstr "NEGAR"
 msgid "APPROVED"
 msgstr "APROBADO"
 
-msgid "Ipaddress already exists elsewhere"
-msgstr "Dirección IP ya está en uso"
-
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Usuario quiere ser afiliado a estas organizaciones"
 
@@ -1178,6 +1175,12 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Le permite cargar y seleccionar un archivo de logotipo para esta organización"
 
+msgid "Organization currently has one or more active objects under it."
+msgstr ""
+
+msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgstr ""
+
 msgid "Sponsorship starts on"
 msgstr "El patrocinio comienza en"
 
@@ -1398,6 +1401,9 @@ msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s ha sido eliminada"
+
+msgid "Permission denied to restore deleted object/relationship"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -1727,6 +1733,12 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+msgid "Only use this if you own the facility"
+msgstr ""
+
+msgid "Only use this if you own the exchange"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Añadir una nueva s %(entity_name)s a su organización. Nota que %(entity_name)s recién creados tendrán que ser aprobados por el personal de PeeringDB antes de que aparezcan en los resultados de la búsqueda o la lista de APIs"
@@ -1887,18 +1899,6 @@ msgstr "Registrarse"
 msgid "Most Recent Updates"
 msgstr "ACTUALIZACIONES MÁS RECIENTES"
 
-msgid "Username"
-msgstr "Nombre de usuario"
-
-msgid "Password"
-msgstr "Contraseña"
-
-msgid "I forgot my password .."
-msgstr "Olvidé mi contraseña."
-
-msgid "I forgot my username .."
-msgstr "Olvidé mi nombre de usuario."
-
 #, fuzzy
 #| msgid "Maintenance"
 msgid "Maintenance Mode"
@@ -1938,6 +1938,9 @@ msgstr "ha sido cambiado, proceda a la"
 msgid "login page"
 msgstr "la página de inicio"
 
+msgid "Password"
+msgstr "Contraseña"
+
 msgid "Verify Password"
 msgstr "Verificar contraseña"
 
@@ -1952,6 +1955,16 @@ msgstr "El proceso de restablecimiento de contraseña ha expirado, por favor"
 
 msgid "initiate again"
 msgstr "intente de nuevo"
+
+#, fuzzy
+#| msgid "Account Created"
+msgid "Account Security"
+msgstr "Cuenta Creada"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Manage Two-Factor Authentication"
+msgstr "Administrar aplicaciones OAuth"
 
 msgid "Affiliate with organization"
 msgstr "Afiliar con la organización"
@@ -2071,6 +2084,9 @@ msgstr "Regresar a la página de inicio"
 msgid "Create account"
 msgstr "Crear una cuenta"
 
+msgid "Username"
+msgstr "Nombre de usuario"
+
 msgid "Confirm password"
 msgstr "Confirmar la contraseña"
 
@@ -2188,6 +2204,9 @@ msgstr "ILs datos actualizados de Geocodigo para esta entidad se obtendrá pront
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "Prefijo"
+
+msgid "In DFZ"
+msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "Prefijo IXLAN"
@@ -2336,6 +2355,11 @@ msgstr "Añadir un Punto de Intercambio"
 msgid "Permissions"
 msgstr "Permisos"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Delete Organization"
+msgstr "Organización"
+
 msgid "Technical E-mail"
 msgstr "E-mail técnico"
 
@@ -2346,6 +2370,9 @@ msgstr "Cambiar su e-mail"
 
 msgid "Policy URL"
 msgstr "URL de Política"
+
+msgid "Only use this if you own the network"
+msgstr ""
 
 msgid "Add a new Network to your Organization."
 msgstr "Añadir una red nueva a su organización."
@@ -2399,6 +2426,22 @@ msgstr "Actualizar"
 msgid "Add"
 msgstr "Añadir"
 
+#, python-format
+msgid "%(name)s cannot be deleted."
+msgstr ""
+
+msgid "Remove this organization from PeeringDB."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Delete organization?"
+msgstr "Organización inválida"
+
+#, python-format
+msgid "Delete %(name)s"
+msgstr ""
+
 msgid "Thank you for your suggestion."
 msgstr ""
 
@@ -2421,6 +2464,56 @@ msgstr "Punto de Intercambio"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Enviar red"
+
+msgid "I forgot my password .."
+msgstr "Olvidé mi contraseña."
+
+msgid "I forgot my username .."
+msgstr "Olvidé mi nombre de usuario."
+
+msgid "Token"
+msgstr ""
+
+msgid "Enter your credentials."
+msgstr ""
+
+msgid ""
+"We are calling your phone right now, please enter the\n"
+"        digits you hear."
+msgstr ""
+
+msgid ""
+"We sent you a text message, please enter the tokens we\n"
+"        sent."
+msgstr ""
+
+msgid "We sent you an email, please enter the one time password we sent."
+msgstr ""
+
+msgid ""
+"Please enter the tokens generated by your token\n"
+"        generator."
+msgstr ""
+
+msgid ""
+"Use this form for entering backup tokens for logging in.\n"
+"      These tokens have been generated for you to print and keep safe. Please\n"
+"      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
+msgstr ""
+
+msgid "As a last resort, you can use a backup token:"
+msgstr ""
+
+msgid "Use Backup Token"
+msgstr ""
+
+#, fuzzy
+#| msgid "Confirm password"
+msgid "Email one time password"
+msgstr "Confirmar la contraseña"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Su email no corresponde con la información del dominio que tenemos registrads para esta organización."
@@ -2546,14 +2639,14 @@ msgstr "Por favor cierre la sesión actual antes de intentar a registrarse. Avis
 msgid "This email address has already been used"
 msgstr "Este email ya está en uso"
 
-msgid "Already logged in"
-msgstr "Usuario ya tiene una sesión activa"
-
 msgid "Location"
 msgstr "Ubicación"
 
 msgid "Country Code"
 msgstr "Código de país"
+
+msgid "Last Updated"
+msgstr "Última actualización"
 
 msgid "Markdown enabled"
 msgstr "Markdown habilitado"
@@ -2586,9 +2679,6 @@ msgstr "Registro de Importación IXF"
 msgid "IX-F Member Export URL"
 msgstr "IXF miembro exportación URL"
 
-msgid "Last Updated"
-msgstr "Última actualización"
-
 msgid "PeeringDB Configuration"
 msgstr "Configuración de PeeringDB"
 
@@ -2612,11 +2702,17 @@ msgstr "Información sobre la política are Peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Por favor, esperar unos minutos antes de intentar otra vez."
 
-msgid "Account disabled."
-msgstr "Cuenta desactivada."
+#~ msgid "Ipaddress already exists elsewhere"
+#~ msgstr "Dirección IP ya está en uso"
 
-msgid "Invalid username/password."
-msgstr "Nombre de usuario/contraseña no válida."
+#~ msgid "Already logged in"
+#~ msgstr "Usuario ya tiene una sesión activa"
+
+#~ msgid "Account disabled."
+#~ msgstr "Cuenta desactivada."
+
+#~ msgid "Invalid username/password."
+#~ msgstr "Nombre de usuario/contraseña no válida."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"

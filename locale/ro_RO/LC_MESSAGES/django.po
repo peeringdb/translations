@@ -678,9 +678,6 @@ msgstr "RESPINGE"
 msgid "APPROVED"
 msgstr "APROBAT"
 
-msgid "Ipaddress already exists elsewhere"
-msgstr "Adresa IP există deja în altă parte"
-
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Utilizatorul dorește să se afilieze la aceste organizații"
 
@@ -1172,6 +1169,12 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
 
+msgid "Organization currently has one or more active objects under it."
+msgstr ""
+
+msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgstr ""
+
 msgid "Sponsorship starts on"
 msgstr "Perioada de sponsorizare începe de la"
 
@@ -1392,6 +1395,9 @@ msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părin
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
+
+msgid "Permission denied to restore deleted object/relationship"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
@@ -1717,6 +1723,12 @@ msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracterist
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- toate datele vor fi reîmprospătate din mediul de producție la %(dt)sZ"
 
+msgid "Only use this if you own the facility"
+msgstr ""
+
+msgid "Only use this if you own the exchange"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Adăugați o nouă %(entity_name)s organizației dvs. Rețineți că %(entity_name)s nou create vor trebui să fie aprobate de personalului PeeringDB înainte să apară în rezultatele căutărilor sau listările API"
@@ -1863,18 +1875,6 @@ msgstr "înregistrați-vă"
 msgid "Most Recent Updates"
 msgstr "Cele mai recente actualizări"
 
-msgid "Username"
-msgstr "Nume de utilizator"
-
-msgid "Password"
-msgstr "Parolă"
-
-msgid "I forgot my password .."
-msgstr "Am uitat parola..."
-
-msgid "I forgot my username .."
-msgstr "Am uitat numele de utilizator..."
-
 msgid "Maintenance Mode"
 msgstr "Modul de întreținere"
 
@@ -1908,6 +1908,9 @@ msgstr "a fost resetată, vă rugăm să accesați"
 msgid "login page"
 msgstr "pagina de autentificare"
 
+msgid "Password"
+msgstr "Parolă"
+
 msgid "Verify Password"
 msgstr "Verifică parola"
 
@@ -1922,6 +1925,16 @@ msgstr "Procesul de resetare a parolei a expirat, vă rugăm"
 
 msgid "initiate again"
 msgstr "să inițiați din nou"
+
+#, fuzzy
+#| msgid "Account Created"
+msgid "Account Security"
+msgstr "Contul a fost creat"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Manage Two-Factor Authentication"
+msgstr "Gestionați aplicațiile OAuth"
 
 msgid "Affiliate with organization"
 msgstr "Afiliați-vă la organizație"
@@ -2041,6 +2054,9 @@ msgstr "Înapoi acasă"
 msgid "Create account"
 msgstr "Creați un cont"
 
+msgid "Username"
+msgstr "Nume de utilizator"
+
 msgid "Confirm password"
 msgstr "Confirmați parola"
 
@@ -2152,6 +2168,9 @@ msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obțin
 
 msgid "Prefixes"
 msgstr "Prefixe"
+
+msgid "In DFZ"
+msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "Prefix IXLAN"
@@ -2284,6 +2303,11 @@ msgstr "Adăugați Internet Exchange"
 msgid "Permissions"
 msgstr "Permisiuni"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "Delete Organization"
+msgstr "Organizație"
+
 msgid "Technical E-mail"
 msgstr "E-mail tehnic"
 
@@ -2294,6 +2318,9 @@ msgstr "Schimbare e-mail"
 
 msgid "Policy URL"
 msgstr "URL-ul pentru politici"
+
+msgid "Only use this if you own the network"
+msgstr ""
 
 msgid "Add a new Network to your Organization."
 msgstr "Adăugați o nouă rețea la organizația dvs."
@@ -2345,6 +2372,22 @@ msgstr "Actualizați"
 msgid "Add"
 msgstr "Adăugați"
 
+#, python-format
+msgid "%(name)s cannot be deleted."
+msgstr ""
+
+msgid "Remove this organization from PeeringDB."
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Delete organization?"
+msgstr "Organizația nu este validă"
+
+#, python-format
+msgid "Delete %(name)s"
+msgstr ""
+
 msgid "Thank you for your suggestion."
 msgstr "Vă mulțumim pentru sugestie."
 
@@ -2359,6 +2402,56 @@ msgstr "Sugerați un alt Internet Exchange"
 
 msgid "Suggest another network"
 msgstr "Sugerați o altă rețea"
+
+msgid "I forgot my password .."
+msgstr "Am uitat parola..."
+
+msgid "I forgot my username .."
+msgstr "Am uitat numele de utilizator..."
+
+msgid "Token"
+msgstr ""
+
+msgid "Enter your credentials."
+msgstr ""
+
+msgid ""
+"We are calling your phone right now, please enter the\n"
+"        digits you hear."
+msgstr ""
+
+msgid ""
+"We sent you a text message, please enter the tokens we\n"
+"        sent."
+msgstr ""
+
+msgid "We sent you an email, please enter the one time password we sent."
+msgstr ""
+
+msgid ""
+"Please enter the tokens generated by your token\n"
+"        generator."
+msgstr ""
+
+msgid ""
+"Use this form for entering backup tokens for logging in.\n"
+"      These tokens have been generated for you to print and keep safe. Please\n"
+"      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
+msgstr ""
+
+msgid "As a last resort, you can use a backup token:"
+msgstr ""
+
+msgid "Use Backup Token"
+msgstr ""
+
+#, fuzzy
+#| msgid "Confirm password"
+msgid "Email one time password"
+msgstr "Confirmați parola"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Adresa dvs. de email nu se potrivește cu informațiile legate de domeniu pe care le deținem pentru această organizație."
@@ -2478,14 +2571,14 @@ msgstr "Vă rugăm să vă deconectați de la sesiunea curentă înainte de a î
 msgid "This email address has already been used"
 msgstr "Această adresă e-mail a fost deja utilizată"
 
-msgid "Already logged in"
-msgstr "Sunteți autentificat deja"
-
 msgid "Location"
 msgstr "Locație"
 
 msgid "Country Code"
 msgstr "Codul de țară"
+
+msgid "Last Updated"
+msgstr "Ultima actualizare"
 
 msgid "Markdown enabled"
 msgstr "Markdown activat"
@@ -2514,9 +2607,6 @@ msgstr "Activați importul IX-F"
 msgid "IX-F Member Export URL"
 msgstr "Adresa URL a exportului de membri IX-F"
 
-msgid "Last Updated"
-msgstr "Ultima actualizare"
-
 msgid "PeeringDB Configuration"
 msgstr "Configurație PeeringDB"
 
@@ -2538,11 +2628,17 @@ msgstr "Informații privind politica de peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
 
-msgid "Account disabled."
-msgstr "Cont dezactivat."
+#~ msgid "Ipaddress already exists elsewhere"
+#~ msgstr "Adresa IP există deja în altă parte"
 
-msgid "Invalid username/password."
-msgstr "Numele de utilizator sau parola nu sunt valide."
+#~ msgid "Already logged in"
+#~ msgstr "Sunteți autentificat deja"
+
+#~ msgid "Account disabled."
+#~ msgstr "Cont dezactivat."
+
+#~ msgid "Invalid username/password."
+#~ msgstr "Numele de utilizator sau parola nu sunt valide."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"
