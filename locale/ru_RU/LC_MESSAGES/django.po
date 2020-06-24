@@ -1468,6 +1468,43 @@ msgstr "эту страницу"
 msgid "instead"
 msgstr "вместо"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "Отменить слияние"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "Организация"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "Организация"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "Организация"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "Результат"
+
 msgid "Home"
 msgstr "Главная"
 
@@ -1699,9 +1736,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "Сбросить"
 
-msgid "Search"
-msgstr "Поиск"
-
 msgid "Postal Code"
 msgstr "Почтовый индекс"
 
@@ -1730,6 +1764,12 @@ msgid "Exchange Presence"
 msgstr "Уникальных присутствий на публичных IXP"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
 msgstr ""
 
 #, fuzzy
@@ -2243,6 +2283,14 @@ msgstr "Префикс IXLAN"
 msgid "Add Prefix"
 msgstr "Новый префикс"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "Площадки"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "Нет соответствий фильтру"
 
@@ -2307,6 +2355,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Региональный"
 
+msgid "Contact Information"
+msgstr "Контактная информация"
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Некоторые контакты данной сети скрыты и доступны только авторизованным пользователям."
 
@@ -2365,6 +2416,11 @@ msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "Новый IXP"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Private Peering Facilities"
+msgstr "Площадки"
 
 msgid "member"
 msgstr "участник"
@@ -2439,6 +2495,11 @@ msgstr "Дата"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "Сейчас нет пользователей, запрашивающих установление связи с"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "Организация"
 
 msgid "Group"
 msgstr "Группа"
@@ -2684,9 +2745,6 @@ msgstr "Геокод"
 
 msgid "Protocols Supported"
 msgstr "Поддерживаеvst протоколы"
-
-msgid "Contact Information"
-msgstr "Контактная информация"
 
 msgid "LAN"
 msgstr "LAN"

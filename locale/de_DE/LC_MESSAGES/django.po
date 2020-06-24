@@ -1395,6 +1395,43 @@ msgstr "diese Seite"
 msgid "instead"
 msgstr "stattdessen"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "Veränderung rückgängig machen"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "Unternehmen"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "Unternehmen"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organizations"
+msgid "Merge Organizations"
+msgstr "Unternehmen"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "Ergebnis"
+
 msgid "Home"
 msgstr "Startseite"
 
@@ -1621,9 +1658,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "Zurücksetzen"
 
-msgid "Search"
-msgstr "Suche"
-
 msgid "Postal Code"
 msgstr "Postleitzahl"
 
@@ -1651,6 +1685,12 @@ msgstr "Eindeutige öffentliche Austausch-Präsenz"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
+msgstr ""
 
 msgid "Facility Presence"
 msgstr "Liegenschaftspräsenz"
@@ -2131,6 +2171,14 @@ msgstr "IXLAN-Präfix"
 msgid "Add Prefix"
 msgstr "Prefix hinzufügen"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "Liegenschaften / Gebäude"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "Keine Einträge zum gewählten Filter gefunden."
 
@@ -2181,6 +2229,9 @@ msgstr "IP"
 
 msgid "Not operational"
 msgstr "Nicht in Betrieb"
+
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Einige der Kontaktdaten werden nur angemeldeten Benutzern angezeigt. Bitte melden Sie sich an."
@@ -2235,6 +2286,11 @@ msgstr "Eintrag muss zum korrekten Netzwerk verschoben werden"
 
 msgid "Add Exchange Point"
 msgstr "Exchange hinzufügen"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "Liegenschaften zusammenführen"
 
 msgid "member"
 msgstr "Mitglied"
@@ -2303,6 +2359,11 @@ msgstr "Datum"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "Derzeit wartet kein Nutzer auf Zuordnung zu"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "Unternehmen"
 
 msgid "Group"
 msgstr "Gruppe"
@@ -2535,9 +2596,6 @@ msgstr "Georeferenz"
 
 msgid "Protocols Supported"
 msgstr "Unterstützte Protokolle"
-
-msgid "Contact Information"
-msgstr "Kontaktinformationen"
 
 msgid "LAN"
 msgstr "LAN"

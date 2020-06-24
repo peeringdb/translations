@@ -1472,6 +1472,43 @@ msgstr ""
 msgid "instead"
 msgstr ""
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "Fortryd sammenlægning"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "Virksomhed"
+
+msgid "Search"
+msgstr ""
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "Virksomhed"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "Virksomhed"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Merge Results"
+msgstr "Exchange - Facility link"
+
 msgid "Home"
 msgstr ""
 
@@ -1711,9 +1748,6 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-msgid "Search"
-msgstr ""
-
 msgid "Postal Code"
 msgstr ""
 
@@ -1742,6 +1776,12 @@ msgid "Exchange Presence"
 msgstr "Exchange"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
 msgstr ""
 
 #, fuzzy
@@ -2270,6 +2310,14 @@ msgstr "IXLAN præfiks"
 msgid "Add Prefix"
 msgstr "IXLAN præfiks"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Local Facilities"
+msgstr "Exchange - Facility link"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr ""
 
@@ -2333,6 +2381,9 @@ msgstr "IPv4"
 msgid "Not operational"
 msgstr "Regional"
 
+msgid "Contact Information"
+msgstr ""
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr ""
 
@@ -2394,6 +2445,11 @@ msgstr ""
 #| msgid "Exchange"
 msgid "Add Exchange Point"
 msgstr "Exchange"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Private Peering Facilities"
+msgstr "Exchange - Facility link"
 
 msgid "member"
 msgstr ""
@@ -2474,6 +2530,11 @@ msgstr ""
 
 msgid "Currently no users requesting affiliation with"
 msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "Virksomhed"
 
 msgid "Group"
 msgstr ""
@@ -2721,9 +2782,6 @@ msgid "Geocode"
 msgstr ""
 
 msgid "Protocols Supported"
-msgstr ""
-
-msgid "Contact Information"
 msgstr ""
 
 #, fuzzy

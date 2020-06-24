@@ -1466,6 +1466,43 @@ msgstr "αυτή τη σελίδα"
 msgid "instead"
 msgstr "αντί"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "Αντιστροφή συγχώνευσης"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "Οργανισμός"
+
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "Οργανισμός"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "Οργανισμός"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "Αποτέλεσμα"
+
 msgid "Home"
 msgstr "Αρχική"
 
@@ -1697,9 +1734,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "Επαναφορά"
 
-msgid "Search"
-msgstr "Αναζήτηση"
-
 msgid "Postal Code"
 msgstr "Ταχυδρομικός Κωδικός"
 
@@ -1728,6 +1762,12 @@ msgid "Exchange Presence"
 msgstr "Μοναδικές Παρουσίες "
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
 msgstr ""
 
 #, fuzzy
@@ -2238,6 +2278,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "Προσθήκη Prefix"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "Eγκαταστάσεις"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
 
@@ -2301,6 +2349,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Τοπικό"
 
+msgid "Contact Information"
+msgstr "Πληροφορίες Επικοινωνίας"
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς είναι ορατές μόνο σε συνδεδεμένους χρήστες και εσείς δεν είστε συνδεδεμένος."
 
@@ -2360,6 +2411,11 @@ msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "Προσθήκη Exchange Point"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Private Peering Facilities"
+msgstr "Eγκαταστάσεις"
 
 msgid "member"
 msgstr "μέλος"
@@ -2434,6 +2490,11 @@ msgstr "Ημερομηνία"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "Αυτή τη στιγμή δεν υπάρχουν χρήστες που ζητούν συσχέτιση με"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "Οργανισμός"
 
 msgid "Group"
 msgstr "Ομάδα"
@@ -2678,9 +2739,6 @@ msgstr "Γεωκωδικός (Geocode)"
 
 msgid "Protocols Supported"
 msgstr "Υποστηριζόμενα Πρωτόκολλα"
-
-msgid "Contact Information"
-msgstr "Πληροφορίες Επικοινωνίας"
 
 msgid "LAN"
 msgstr "LAN"

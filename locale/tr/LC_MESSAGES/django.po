@@ -1447,6 +1447,37 @@ msgstr ""
 msgid "instead"
 msgstr ""
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+msgid "You may undo merges"
+msgstr ""
+
+msgid "Selected Organizations"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+msgid "Merge Into Organization"
+msgstr ""
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Merge Organizations"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Merge Results"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
 msgid "Home"
 msgstr ""
 
@@ -1680,9 +1711,6 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-msgid "Search"
-msgstr ""
-
 msgid "Postal Code"
 msgstr ""
 
@@ -1713,6 +1741,12 @@ msgid "Exchange Presence"
 msgstr "Değişim noktası"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
 msgstr ""
 
 #, fuzzy
@@ -2225,6 +2259,14 @@ msgstr "IXLAN Öneki"
 msgid "Add Prefix"
 msgstr "IXLAN Öneki"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Local Facilities"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr ""
 
@@ -2288,6 +2330,11 @@ msgstr "IPv4"
 msgid "Not operational"
 msgstr "Bölgesel"
 
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Contact Information"
+msgstr "Eşleşme Politikası Bilgileri"
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr ""
 
@@ -2349,6 +2396,11 @@ msgstr ""
 #| msgid "Exchange"
 msgid "Add Exchange Point"
 msgstr "Değişim noktası"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Private Peering Facilities"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "member"
 msgstr ""
@@ -2427,6 +2479,11 @@ msgstr ""
 
 msgid "Currently no users requesting affiliation with"
 msgstr ""
+
+#, fuzzy
+#| msgid "Please wait a bit before trying to login again."
+msgid "Users in Organization"
+msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 
 msgid "Group"
 msgstr ""
@@ -2667,11 +2724,6 @@ msgstr ""
 
 msgid "Protocols Supported"
 msgstr ""
-
-#, fuzzy
-#| msgid "Peering Policy Information"
-msgid "Contact Information"
-msgstr "Eşleşme Politikası Bilgileri"
 
 #, fuzzy
 #| msgid "IXLAN"

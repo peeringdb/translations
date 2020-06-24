@@ -1442,6 +1442,43 @@ msgstr "esta página"
 msgid "instead"
 msgstr "en vez"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "Anular fusión/combinación"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "Organización"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "Organización"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "Organización"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "Resultado"
+
 msgid "Home"
 msgstr "Regresar a la página de inicio"
 
@@ -1673,9 +1710,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "Reiniciar"
 
-msgid "Search"
-msgstr "Buscar"
-
 msgid "Postal Code"
 msgstr "Código Postal"
 
@@ -1704,6 +1738,12 @@ msgid "Exchange Presence"
 msgstr "Presencias únicas de intercambio público"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
 msgstr ""
 
 #, fuzzy
@@ -2214,6 +2254,14 @@ msgstr "Prefijo IXLAN"
 msgid "Add Prefix"
 msgstr "Añadir prefijo"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "Instalaciones"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "Nada coincide con su filtro"
 
@@ -2277,6 +2325,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Regional"
 
+msgid "Contact Information"
+msgstr "Información de Contacto"
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Algunos de los contactos para esta red están escondidos porque solo están visibles a usuarios autenticados y actualmente usted no tiene una sesión activa."
 
@@ -2336,6 +2387,11 @@ msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "Añadir punto de intercambio"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "Fusionar instalaciones"
 
 msgid "member"
 msgstr "miembro"
@@ -2410,6 +2466,11 @@ msgstr "Fecha"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "Actualmente no hay usuarios solicitando afiliación con"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "Organización"
 
 msgid "Group"
 msgstr "Grupo"
@@ -2656,9 +2717,6 @@ msgstr "Geocodificación"
 
 msgid "Protocols Supported"
 msgstr "Protocolos compatibles"
-
-msgid "Contact Information"
-msgstr "Información de Contacto"
 
 msgid "LAN"
 msgstr "LAN"

@@ -1448,6 +1448,43 @@ msgstr "هذه الصفحة"
 msgid "instead"
 msgstr "بدلا من"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "التراجع/ إلغاء الدمج"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "المنظمة / المؤسسة"
+
+msgid "Search"
+msgstr "ابحث"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "المنظمة / المؤسسة"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "المنظمة / المؤسسة"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "نتيجة"
+
 msgid "Home"
 msgstr "الصفحه الرئيسيه"
 
@@ -1681,9 +1718,6 @@ msgstr "لغة الموقع المعرفة العامة"
 msgid "Reset"
 msgstr "اعاده ضبط"
 
-msgid "Search"
-msgstr "ابحث"
-
 msgid "Postal Code"
 msgstr "الرمز البريدي"
 
@@ -1711,6 +1745,12 @@ msgstr "وجود تبادل البيانات / التناظر"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
+msgstr ""
 
 msgid "Facility Presence"
 msgstr "وجود مركز بيانات / تشغيل"
@@ -2199,6 +2239,14 @@ msgstr "بادئة عنوان شبكة التناظر"
 msgid "Add Prefix"
 msgstr "إضافة بادئة عنوان انترنت"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "مراكز بيانات/ تشغيل"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "لا يوجد تطابق في خيارات البحث."
 
@@ -2253,6 +2301,9 @@ msgstr "عنوان بروتوكول الانترنت"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "إقليمي"
+
+msgid "Contact Information"
+msgstr "بيانات الاتصال"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
@@ -2309,6 +2360,11 @@ msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "إضافة نقطة تبادل"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "دمج مراكز بيانات/ تشغيل"
 
 msgid "member"
 msgstr "عضو"
@@ -2383,6 +2439,11 @@ msgstr "التاريخ"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "حاليا لا يوجد مستخدمون يطلبون الانتساب إلى"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "المنظمة / المؤسسة"
 
 msgid "Group"
 msgstr "مجموعه"
@@ -2615,9 +2676,6 @@ msgstr "الرمز الجغرافي"
 
 msgid "Protocols Supported"
 msgstr "البروتوكولات المدعومة/ المتاحة"
-
-msgid "Contact Information"
-msgstr "بيانات الاتصال"
 
 msgid "LAN"
 msgstr "الشبكة المحلية"

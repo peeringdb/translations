@@ -1466,6 +1466,43 @@ msgstr "此頁"
 msgid "instead"
 msgstr "代替"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "撤銷合併"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "組織"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "組織"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "組織"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "結果"
+
 msgid "Home"
 msgstr "首頁"
 
@@ -1697,9 +1734,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "重設"
 
-msgid "Search"
-msgstr "搜索"
-
 msgid "Postal Code"
 msgstr "郵遞區號"
 
@@ -1727,6 +1761,12 @@ msgstr "交換存在"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
+msgstr ""
 
 msgid "Facility Presence"
 msgstr "設施存在"
@@ -2214,6 +2254,14 @@ msgstr "IXLAN 首碼"
 msgid "Add Prefix"
 msgstr "添加首碼"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "設施"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "沒有內容符合。"
 
@@ -2277,6 +2325,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "區域性"
 
+msgid "Contact Information"
+msgstr "聯繫資訊"
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "此網路的某些連絡人僅對驗證的用戶可見，您當前未登錄。"
 
@@ -2336,6 +2387,11 @@ msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "添加交換點"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "合併設施"
 
 msgid "member"
 msgstr "成員"
@@ -2408,6 +2464,11 @@ msgstr "日期"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "當前沒有用戶請求關聯"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "組織"
 
 msgid "Group"
 msgstr "組"
@@ -2644,9 +2705,6 @@ msgstr "地理編碼"
 
 msgid "Protocols Supported"
 msgstr "支援的協定"
-
-msgid "Contact Information"
-msgstr "聯繫資訊"
 
 msgid "LAN"
 msgstr "LAN"

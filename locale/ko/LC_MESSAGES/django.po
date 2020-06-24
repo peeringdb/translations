@@ -1362,6 +1362,43 @@ msgstr "이 페이지"
 msgid "instead"
 msgstr "대신"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "병합 취소"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "조직"
+
+msgid "Search"
+msgstr "검색"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "조직"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organizations"
+msgid "Merge Organizations"
+msgstr "조직"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "결과"
+
 msgid "Home"
 msgstr "메인 페이지"
 
@@ -1588,9 +1625,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "재설정"
 
-msgid "Search"
-msgstr "검색"
-
 msgid "Postal Code"
 msgstr "우편 번호"
 
@@ -1618,6 +1652,12 @@ msgstr "익스체인지 프레즌스"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "한 익스체인지에는 있고 다른 익스체인지에는 없는 네트워크 검색"
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
+msgstr ""
 
 msgid "Facility Presence"
 msgstr "설비 프레즌스"
@@ -2097,6 +2137,14 @@ msgstr "IXLAN 프리픽스"
 msgid "Add Prefix"
 msgstr "프리픽스 추가"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "설비"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "일치하는 필터 없음."
 
@@ -2147,6 +2195,9 @@ msgstr "IP"
 
 msgid "Not operational"
 msgstr "작동하지 않음"
+
+msgid "Contact Information"
+msgstr "연락처 정보"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "이 네트워크의 일부 연락처는 인증된 사용자만 볼 수 있고 현재 로그인하지 않았기 때문에 볼 수 없습니다."
@@ -2201,6 +2252,11 @@ msgstr "올바른 네트워크로 항목을 이동해야 함"
 
 msgid "Add Exchange Point"
 msgstr "익스체인지 포인트 추가"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "시설 합병"
 
 msgid "member"
 msgstr "구성원"
@@ -2269,6 +2325,11 @@ msgstr "날짜"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "현재 소속을 요청하는 사용자가 없음"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "조직"
 
 msgid "Group"
 msgstr "그룹"
@@ -2505,9 +2566,6 @@ msgstr "지오코드"
 
 msgid "Protocols Supported"
 msgstr "지원되는 프로토콜"
-
-msgid "Contact Information"
-msgstr "연락처 정보"
 
 msgid "LAN"
 msgstr "LAN"

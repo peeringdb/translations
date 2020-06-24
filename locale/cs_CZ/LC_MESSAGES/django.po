@@ -1463,6 +1463,43 @@ msgstr "tato stránka"
 msgid "instead"
 msgstr "místo toho"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "Zrušit sloučení"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "Organizace"
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "Organizace"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "Organizace"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "Výsledek"
+
 msgid "Home"
 msgstr "Dumů"
 
@@ -1700,9 +1737,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "Resetovat"
 
-msgid "Search"
-msgstr "Hledat"
-
 msgid "Postal Code"
 msgstr "PSČ"
 
@@ -1731,6 +1765,12 @@ msgid "Exchange Presence"
 msgstr "Jedinečná přítomnost propojovacích uzlů"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
 msgstr ""
 
 #, fuzzy
@@ -2248,6 +2288,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "Přidat Prefix"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "Zařízení"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "Nic neodpovídá vašemu filtru"
 
@@ -2313,6 +2361,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Regionální"
 
+msgid "Contact Information"
+msgstr "Kontaktní informace"
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Některé kontakty této sítě jsou skryté, protože jsou viditelné pouze pro ověřené uživatele a v současné době nejste přihlášeni."
 
@@ -2373,6 +2424,11 @@ msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "Přidat propojovací uzel"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "Sloučit zařízení"
 
 msgid "member"
 msgstr "člen"
@@ -2450,6 +2506,11 @@ msgstr "Datum"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "V současné době nejsou žádní uživatelé žádající o přidružení k"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "Organizace"
 
 msgid "Group"
 msgstr "Skupina"
@@ -2697,9 +2758,6 @@ msgstr "Geocode"
 
 msgid "Protocols Supported"
 msgstr "Podporované protokoly"
-
-msgid "Contact Information"
-msgstr "Kontaktní informace"
 
 msgid "LAN"
 msgstr "LAN"

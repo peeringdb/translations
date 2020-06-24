@@ -1436,6 +1436,43 @@ msgstr "această pagină"
 msgid "instead"
 msgstr "în locul"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "Anulați îmbinarea"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "Organizație"
+
+msgid "Search"
+msgstr "Căutare"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "Organizație"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organizations"
+msgid "Merge Organizations"
+msgstr "Organizații"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "Rezultat"
+
 msgid "Home"
 msgstr "Acasă"
 
@@ -1667,9 +1704,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "Resetare"
 
-msgid "Search"
-msgstr "Căutare"
-
 msgid "Postal Code"
 msgstr "Cod poștal"
 
@@ -1697,6 +1731,12 @@ msgstr "Prezență IXP"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "Căutați rețele care sunt prezente la un Internet Exchange și absente la alt Internet Exchange"
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
+msgstr ""
 
 msgid "Facility Presence"
 msgstr "Prezență în facilități"
@@ -2178,6 +2218,14 @@ msgstr "Prefix IXLAN"
 msgid "Add Prefix"
 msgstr "Adăugați prefix"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "Facilități"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "Nu se potrivește niciun filtru."
 
@@ -2230,6 +2278,9 @@ msgstr "Adresă IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Regional"
+
+msgid "Contact Information"
+msgstr "Informații de contact"
 
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "Unele dintre contactele acestei rețele sunt ascunse deoarece acestea sunt vizibile numai pentru utilizatorii autentificați și momentan dvs. nu sunteți autentificat."
@@ -2284,6 +2335,11 @@ msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
 
 msgid "Add Exchange Point"
 msgstr "Adăugați Internet Exchange"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "Îmbină facilitățile"
 
 msgid "member"
 msgstr "membru"
@@ -2356,6 +2412,11 @@ msgstr "Data"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "În prezent niciun utilizator nu solicită afilierea la"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "Organizație"
 
 msgid "Group"
 msgstr "Grup"
@@ -2588,9 +2649,6 @@ msgstr "Geocod"
 
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
-
-msgid "Contact Information"
-msgstr "Informații de contact"
 
 msgid "LAN"
 msgstr "LAN"

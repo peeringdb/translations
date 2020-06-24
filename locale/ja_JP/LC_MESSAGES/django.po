@@ -1472,6 +1472,43 @@ msgstr "このページ"
 msgid "instead"
 msgstr "代わりに"
 
+msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
+msgstr ""
+
+#, fuzzy
+#| msgid "Undo merge"
+msgid "You may undo merges"
+msgstr "マージを元に戻す"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Selected Organizations"
+msgstr "組織名"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Into Organization"
+msgstr "組織名"
+
+msgid "Organizations in the left column will be merged into this organization"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Merge Organizations"
+msgstr "組織名"
+
+#, fuzzy
+#| msgid "Result"
+msgid "Merge Results"
+msgstr "結果"
+
 msgid "Home"
 msgstr "ホーム"
 
@@ -1703,9 +1740,6 @@ msgstr "CLLI"
 msgid "Reset"
 msgstr "リセット"
 
-msgid "Search"
-msgstr "検索"
-
 msgid "Postal Code"
 msgstr "郵便番号"
 
@@ -1733,6 +1767,12 @@ msgstr "接続エクスチェンジ"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+
+msgid "Present"
+msgstr ""
+
+msgid "Absent"
+msgstr ""
 
 msgid "Facility Presence"
 msgstr "利用データセンタ"
@@ -2222,6 +2262,14 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "プレフィクスを追加"
 
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "データセンタ"
+
+msgid "Filter"
+msgstr ""
+
 msgid "No filter matches."
 msgstr "フィルタに一致するものはありませんでした"
 
@@ -2283,6 +2331,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "特定地域"
 
+msgid "Contact Information"
+msgstr "連絡先情報"
+
 msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgstr "あなたは現在ログインしていない為、いくつかのネットワークコンタクト先が非表示になっています。認証済みのユーザでログインすると閲覧可能となります"
 
@@ -2342,6 +2393,11 @@ msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "このエクスチェンジポイントを追加"
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Private Peering Facilities"
+msgstr "データセンタをマージする"
 
 msgid "member"
 msgstr "メンバー"
@@ -2414,6 +2470,11 @@ msgstr "日時"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "所属リクエストをしているユーザは現在いません"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Users in Organization"
+msgstr "組織名"
 
 msgid "Group"
 msgstr "グループ"
@@ -2658,9 +2719,6 @@ msgstr "ジオコード"
 
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル(Protocols Supported)"
-
-msgid "Contact Information"
-msgstr "連絡先情報"
 
 msgid "LAN"
 msgstr "LAN"
