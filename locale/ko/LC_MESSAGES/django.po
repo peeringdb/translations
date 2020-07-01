@@ -238,7 +238,9 @@ msgstr "지역"
 msgid "Global"
 msgstr "글로벌"
 
-msgid "0-20 Mbps"
+#, fuzzy
+#| msgid "0-20 Mbps"
+msgid "0-20Mbps"
 msgstr "0-20 메가비트"
 
 msgid "20-100Mbps"
@@ -256,32 +258,65 @@ msgstr "5-10 기가비트"
 msgid "10-20Gbps"
 msgstr "10-20 기가비트"
 
-msgid "20-50 Gbps"
+#, fuzzy
+#| msgid "20-50 Gbps"
+msgid "20-50Gbps"
 msgstr "20-50 기가비트"
 
-msgid "50-100 Gbps"
+#, fuzzy
+#| msgid "50-100 Gbps"
+msgid "50-100Gbps"
 msgstr "50-100 기가비트"
 
-msgid "100+ Gbps"
-msgstr "100 기가비트 이상"
-
-msgid "100-200 Gbps"
+#, fuzzy
+#| msgid "100-200 Gbps"
+msgid "100-200Gbps"
 msgstr "100-200 기가비트"
 
-msgid "200-300 Gbps"
+#, fuzzy
+#| msgid "200-300 Gbps"
+msgid "200-300Gbps"
 msgstr "200-300 기가비트"
 
-msgid "300-500 Gbps"
+#, fuzzy
+#| msgid "300-500 Gbps"
+msgid "300-500Gbps"
 msgstr "300-500 기가비트"
 
-msgid "500-1000 Gbps"
+#, fuzzy
+#| msgid "500-1000 Gbps"
+msgid "500-1000Gbps"
 msgstr "500-1000 기가비트"
 
-msgid "1 Tbps+"
+#, fuzzy
+#| msgid "1 Tbps+"
+msgid "1-5Tbps"
 msgstr "1 테라비트 이상"
 
-msgid "10 Tbps+"
-msgstr "10 테라비트 이상"
+#, fuzzy
+#| msgid "5-10Gbps"
+msgid "5-10Tbps"
+msgstr "5-10 기가비트"
+
+#, fuzzy
+#| msgid "10-20Gbps"
+msgid "10-20Tbps"
+msgstr "10-20 기가비트"
+
+#, fuzzy
+#| msgid "20-50 Gbps"
+msgid "20-50Tbps"
+msgstr "20-50 기가비트"
+
+#, fuzzy
+#| msgid "50-100 Gbps"
+msgid "50-100Tbps"
+msgstr "50-100 기가비트"
+
+#, fuzzy
+#| msgid "100+ Gbps"
+msgid "100+Tbps"
+msgstr "100 기가비트 이상"
 
 msgid "NSP"
 msgstr "NSP (네트워크 서비스 공급자)"
@@ -2602,6 +2637,9 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "10 Tbps+"
+#~ msgstr "10 테라비트 이상"
 
 #~ msgid "Ipaddress already exists elsewhere"
 #~ msgstr "IP주소가 이미 다른 곳에 존재함"

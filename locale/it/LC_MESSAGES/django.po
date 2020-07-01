@@ -246,7 +246,9 @@ msgstr "Regionale"
 msgid "Global"
 msgstr "Globale"
 
-msgid "0-20 Mbps"
+#, fuzzy
+#| msgid "0-20 Mbps"
+msgid "0-20Mbps"
 msgstr "0-20 Mbps"
 
 msgid "20-100Mbps"
@@ -264,31 +266,54 @@ msgstr ""
 msgid "10-20Gbps"
 msgstr ""
 
-msgid "20-50 Gbps"
+#, fuzzy
+#| msgid "1-5Gbps"
+msgid "20-50Gbps"
+msgstr "1-5Gbps"
+
+#, fuzzy
+#| msgid "20-100Mbps"
+msgid "50-100Gbps"
+msgstr "20-100Mbps"
+
+#, fuzzy
+#| msgid "100-1000Mbps"
+msgid "100-200Gbps"
+msgstr "100-1000Mbps"
+
+msgid "200-300Gbps"
 msgstr ""
 
-msgid "50-100 Gbps"
+#, fuzzy
+#| msgid "1-5Gbps"
+msgid "300-500Gbps"
+msgstr "1-5Gbps"
+
+#, fuzzy
+#| msgid "100-1000Mbps"
+msgid "500-1000Gbps"
+msgstr "100-1000Mbps"
+
+msgid "1-5Tbps"
 msgstr ""
 
-msgid "100+ Gbps"
+msgid "5-10Tbps"
 msgstr ""
 
-msgid "100-200 Gbps"
+#, fuzzy
+#| msgid "0-20 Mbps"
+msgid "10-20Tbps"
+msgstr "0-20 Mbps"
+
+msgid "20-50Tbps"
 msgstr ""
 
-msgid "200-300 Gbps"
-msgstr ""
+#, fuzzy
+#| msgid "20-100Mbps"
+msgid "50-100Tbps"
+msgstr "20-100Mbps"
 
-msgid "300-500 Gbps"
-msgstr ""
-
-msgid "500-1000 Gbps"
-msgstr ""
-
-msgid "1 Tbps+"
-msgstr ""
-
-msgid "10 Tbps+"
+msgid "100+Tbps"
 msgstr ""
 
 msgid "NSP"

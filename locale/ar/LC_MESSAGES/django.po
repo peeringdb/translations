@@ -244,7 +244,9 @@ msgstr "إقليمي"
 msgid "Global"
 msgstr "عالمي"
 
-msgid "0-20 Mbps"
+#, fuzzy
+#| msgid "0-20 Mbps"
+msgid "0-20Mbps"
 msgstr "٠ -٢٠ ميقابت/الثانية"
 
 msgid "20-100Mbps"
@@ -262,32 +264,65 @@ msgstr "٥ - ١٠ قيقابت/الثانية"
 msgid "10-20Gbps"
 msgstr "١٠ - ٢٠ قيقابت/الثانية"
 
-msgid "20-50 Gbps"
+#, fuzzy
+#| msgid "20-50 Gbps"
+msgid "20-50Gbps"
 msgstr "٢٠ - ٥٠ قيقابت/الثانية"
 
-msgid "50-100 Gbps"
+#, fuzzy
+#| msgid "50-100 Gbps"
+msgid "50-100Gbps"
 msgstr "٥٠ - ١٠٠ قيقابت/الثانية"
 
-msgid "100+ Gbps"
-msgstr "اكثر من ١٠٠ قيقابت/الثانية"
-
-msgid "100-200 Gbps"
+#, fuzzy
+#| msgid "100-200 Gbps"
+msgid "100-200Gbps"
 msgstr "١٠٠ - ٢٠٠ قيقابت/الثانية"
 
-msgid "200-300 Gbps"
+#, fuzzy
+#| msgid "200-300 Gbps"
+msgid "200-300Gbps"
 msgstr "٢٠٠ - ٣٠٠ قيقابت/الثانية"
 
-msgid "300-500 Gbps"
+#, fuzzy
+#| msgid "300-500 Gbps"
+msgid "300-500Gbps"
 msgstr "٣٠٠ - ٥٠٠ قيقابت/الثانية"
 
-msgid "500-1000 Gbps"
+#, fuzzy
+#| msgid "500-1000 Gbps"
+msgid "500-1000Gbps"
 msgstr "٥٠٠ - ١٠٠٠ قيقابت/الثانية"
 
-msgid "1 Tbps+"
+#, fuzzy
+#| msgid "1 Tbps+"
+msgid "1-5Tbps"
 msgstr "اكثر من ١ تيرابت/الثانية"
 
-msgid "10 Tbps+"
-msgstr "اكثر من ١٠ تيرابت/الثانية"
+#, fuzzy
+#| msgid "5-10Gbps"
+msgid "5-10Tbps"
+msgstr "٥ - ١٠ قيقابت/الثانية"
+
+#, fuzzy
+#| msgid "10-20Gbps"
+msgid "10-20Tbps"
+msgstr "١٠ - ٢٠ قيقابت/الثانية"
+
+#, fuzzy
+#| msgid "20-50 Gbps"
+msgid "20-50Tbps"
+msgstr "٢٠ - ٥٠ قيقابت/الثانية"
+
+#, fuzzy
+#| msgid "50-100 Gbps"
+msgid "50-100Tbps"
+msgstr "٥٠ - ١٠٠ قيقابت/الثانية"
+
+#, fuzzy
+#| msgid "100+ Gbps"
+msgid "100+Tbps"
+msgstr "اكثر من ١٠٠ قيقابت/الثانية"
 
 msgid "NSP"
 msgstr "مقدم خدمة الشبكة (NSP)"
@@ -2716,6 +2751,9 @@ msgstr "معلومات سياسات التناظر"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
+
+#~ msgid "10 Tbps+"
+#~ msgstr "اكثر من ١٠ تيرابت/الثانية"
 
 #~ msgid "Ipaddress already exists elsewhere"
 #~ msgstr "هذا العنوان موجود بالفعل في مكان آخر"

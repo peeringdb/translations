@@ -246,7 +246,9 @@ msgstr "区域性"
 msgid "Global"
 msgstr "全球性"
 
-msgid "0-20 Mbps"
+#, fuzzy
+#| msgid "0-20 Mbps"
+msgid "0-20Mbps"
 msgstr "0-20 Mbps"
 
 msgid "20-100Mbps"
@@ -264,32 +266,65 @@ msgstr "5-10 Gbps"
 msgid "10-20Gbps"
 msgstr "10-20 Gbps"
 
-msgid "20-50 Gbps"
+#, fuzzy
+#| msgid "20-50 Gbps"
+msgid "20-50Gbps"
 msgstr "20-50 Gbps"
 
-msgid "50-100 Gbps"
+#, fuzzy
+#| msgid "50-100 Gbps"
+msgid "50-100Gbps"
 msgstr "50-100 Gbps"
 
-msgid "100+ Gbps"
-msgstr "超过100 Gbps"
-
-msgid "100-200 Gbps"
+#, fuzzy
+#| msgid "100-200 Gbps"
+msgid "100-200Gbps"
 msgstr "100-200 Gbps"
 
-msgid "200-300 Gbps"
+#, fuzzy
+#| msgid "200-300 Gbps"
+msgid "200-300Gbps"
 msgstr "200-300 Gbps"
 
-msgid "300-500 Gbps"
+#, fuzzy
+#| msgid "300-500 Gbps"
+msgid "300-500Gbps"
 msgstr "300-500 Gbps"
 
-msgid "500-1000 Gbps"
+#, fuzzy
+#| msgid "500-1000 Gbps"
+msgid "500-1000Gbps"
 msgstr "500-1000 Gbps"
 
-msgid "1 Tbps+"
+#, fuzzy
+#| msgid "1 Tbps+"
+msgid "1-5Tbps"
 msgstr "超过 1 Tbps"
 
-msgid "10 Tbps+"
-msgstr "超过 10 Tbps"
+#, fuzzy
+#| msgid "5-10Gbps"
+msgid "5-10Tbps"
+msgstr "5-10 Gbps"
+
+#, fuzzy
+#| msgid "10-20Gbps"
+msgid "10-20Tbps"
+msgstr "10-20 Gbps"
+
+#, fuzzy
+#| msgid "20-50 Gbps"
+msgid "20-50Tbps"
+msgstr "20-50 Gbps"
+
+#, fuzzy
+#| msgid "50-100 Gbps"
+msgid "50-100Tbps"
+msgstr "50-100 Gbps"
+
+#, fuzzy
+#| msgid "100+ Gbps"
+msgid "100+Tbps"
+msgstr "超过100 Gbps"
 
 msgid "NSP"
 msgstr "NSP"
@@ -2723,6 +2758,9 @@ msgstr "对等政策信息"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
+
+#~ msgid "10 Tbps+"
+#~ msgstr "超过 10 Tbps"
 
 #~ msgid "Ipaddress already exists elsewhere"
 #~ msgstr "IP 地址已存在于别处"
