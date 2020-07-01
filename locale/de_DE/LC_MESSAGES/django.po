@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-06-02 10:43+0000\n"
+"PO-Revision-Date: 2020-07-01 18:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -34,14 +34,14 @@ msgid "Resource owner password-based"
 msgstr ""
 
 msgid "Client credentials"
-msgstr ""
+msgstr "Client Zugangsdaten"
 
 msgid "Allowed URIs list, space separated"
 msgstr ""
 
 #, python-brace-format
 msgid "Unauthorized redirect scheme: {scheme}"
-msgstr ""
+msgstr "Unerlaubtes Umleitungsschema: {scheme}"
 
 #, python-brace-format
 msgid "redirect_uris cannot be empty with grant_type {grant_type}"
@@ -66,13 +66,13 @@ msgid "Delete"
 msgstr "Löschen"
 
 msgid "Client id"
-msgstr ""
+msgstr "Client ID"
 
 msgid "Client secret"
-msgstr ""
+msgstr "Client Geheimnis"
 
 msgid "Client type"
-msgstr ""
+msgstr "Client Typ"
 
 msgid "Authorization Grant Type"
 msgstr ""
@@ -474,13 +474,13 @@ msgid "IPv4 Prefixes"
 msgstr "IPv4-Präfixe"
 
 msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Maximale empfohlene zu konfigurierende IPv4 Prefix-Länge für peering sessions mit diesem AS"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6-Präfixe"
 
 msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Maximale empfohlene zu konfigurierende IPv6 Prefix-Länge für peering sessions mit diesem AS"
 
 msgid "Unicast IPv4"
 msgstr "Unicast IPv4"
@@ -495,7 +495,7 @@ msgid "Never via route servers"
 msgstr "Niemals per Routeserver"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
-msgstr ""
+msgstr "Zeigt an, ob das Netzwerk seine Routen per route server verteilt oder nicht"
 
 msgid "Peering Policy"
 msgstr "Peeringrichtlinien"
@@ -598,7 +598,7 @@ msgid "Network Facilities"
 msgstr "Liegenschaften zusammenführen"
 
 msgid "RS peer"
-msgstr ""
+msgstr "RS peer"
 
 msgid "Speed (mbit/sec)"
 msgstr "Datenrate (mbit/s)"
@@ -852,10 +852,10 @@ msgid "Unix epoch time stamp (seconds). Only return objects that have been updat
 msgstr ""
 
 msgid "Filter results by matching a value against this field."
-msgstr ""
+msgstr "Filtere die Resultate gegen passende Werte in dem Feld."
 
 msgid "Supported filter suffixes: {}"
-msgstr ""
+msgstr "Unterstütze Filtersuffixe: {}"
 
 msgid "Number of networks present at this facility"
 msgstr ""
@@ -896,19 +896,19 @@ msgid "Find exchanges present at a facility (facility id)"
 msgstr ""
 
 msgid "Find the exchange that contains this ixlan (ixlan id)"
-msgstr ""
+msgstr "Finde den Austauschpunkt der dieses ixlan beinhaltet (ixlan id)"
 
 msgid "Find the exchange that contains this ixfac (ixfac id)"
-msgstr ""
+msgstr "Finde den Austauschpunkt der dieses ixfac beinhaltet (ixfac id)"
 
 msgid "Number of networks present at this exchange"
 msgstr "Anzahl der Netzwerke die an diesem Exchange angeschlossen sind"
 
 msgid "Find exchanges where this network has a presence at (net id)"
-msgstr ""
+msgstr "Finde Austauschpunkt wo dieses Netzwerk präsent ist (net id)"
 
 msgid "Find organization that contains the network (network asn)"
-msgstr ""
+msgstr "Finde die Organisation die diesem Netzwerk zugehört (network asn)"
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -916,7 +916,7 @@ msgid "Find prefixes by exchange (exchange id)"
 msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
 
 msgid "Find prefixes by ip address"
-msgstr ""
+msgstr "Finde Präfixe durch IP Adresse"
 
 msgid "Exchange name"
 msgstr "Name des Austauschpunkt"
