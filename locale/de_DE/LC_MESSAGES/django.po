@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-07-02 11:58+0000\n"
+"PO-Revision-Date: 2020-07-04 07:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -37,7 +37,7 @@ msgid "Client credentials"
 msgstr "Client Zugangsdaten"
 
 msgid "Allowed URIs list, space separated"
-msgstr ""
+msgstr "Liste erlaubter URIs, Leerzeichen separiert"
 
 #, python-brace-format
 msgid "Unauthorized redirect scheme: {scheme}"
@@ -48,13 +48,13 @@ msgid "redirect_uris cannot be empty with grant_type {grant_type}"
 msgstr ""
 
 msgid "The access token is invalid."
-msgstr "Der Zugangscode ist ungültig."
+msgstr "Der Zugangstoken ist ungültig."
 
 msgid "The access token has expired."
-msgstr "Der Zugangscode ist abgelaufen."
+msgstr "Der Zugangstoken ist abgelaufen."
 
 msgid "The access token is valid but does not have enough scope."
-msgstr ""
+msgstr "Der Zuganstoken ist gültig jedoch reicht sein Umfang nicht."
 
 msgid "Are you sure to delete the application"
 msgstr "Bist du dir sicher die Anwendung zu löschen"
@@ -78,7 +78,7 @@ msgid "Authorization Grant Type"
 msgstr ""
 
 msgid "Redirect Uris"
-msgstr ""
+msgstr "Umleitungs Uris"
 
 msgid "Go Back"
 msgstr "Gehe zurück"
@@ -117,13 +117,13 @@ msgid "Please return to your application and enter this code:"
 msgstr "Bitte gehe in deine Anwendung zurück und gebe folgenden Code ein:"
 
 msgid "Are you sure you want to delete this token?"
-msgstr ""
+msgstr "Sind sie sich sicher das sie diesen Token löschen wollen?"
 
 msgid "Tokens"
-msgstr ""
+msgstr "Tokens"
 
 msgid "There are no authorized tokens yet."
-msgstr ""
+msgstr "Da sind bisher keine Authorisierungstokens."
 
 msgid "Ethernet"
 msgstr "Ethernet"
@@ -453,10 +453,8 @@ msgstr "Looking-Glass URL"
 msgid "Route Server URL"
 msgstr "Routenserver URL"
 
-#, fuzzy
-#| msgid "Private Only"
 msgid "Private notes"
-msgstr "Nur für den Benutzer"
+msgstr "Private Notiz"
 
 msgid "Traffic Levels"
 msgstr "Verkehrsniveau"
@@ -664,7 +662,7 @@ msgid "ROLLBACK"
 msgstr "ZURÜCKSETZEN"
 
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+msgstr "Ixlans können nicht mehr direkt gelöscht werden, da sie nun mit dem übergeordneten Austauschpunkt abgeglichen werden"
 
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
@@ -840,7 +838,7 @@ msgstr ""
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
+msgstr "Frage eine Liste von Objekten des Typs `{obj_type}` ab"
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
 msgstr ""
@@ -879,18 +877,14 @@ msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen pr�
 msgid "Find networks present at a facility (facility id)"
 msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks connected at ixlan (ixlan id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Finde Netzwerke die am ixlan (ixlan id) konnektiert sind"
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find the network that contains this netixlan (netixlan id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Finde das Netzwerk das dieses netixlan (netixlan id) beeinhaltet"
 
 msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr ""
+msgstr "Finden Sie das Netzwerk, zu dem dieses Netfac gehört (netfac id)"
 
 msgid "Find exchanges present at a facility (facility id)"
 msgstr ""
@@ -946,7 +940,7 @@ msgstr ""
 
 #, python-brace-format
 msgid "Marks an `{obj_type}` type object as `deleted`."
-msgstr ""
+msgstr "Markiert ein Objekt des Typs `{obj_type}` als `gelöscht`."
 
 msgid "Yes"
 msgstr "Ja"
@@ -2551,7 +2545,7 @@ msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
 msgstr "Ungültige Formatierung: {} - sollte RS-SET, AS-SET oder AS123 sein"
 
 msgid "All parts of an hierarchical name have to be of the same type"
-msgstr ""
+msgstr "Alle Teile eines hierarchischem Namen müssen vom selben Typ sein"
 
 msgid "At least one component must be an actual set name"
 msgstr ""
