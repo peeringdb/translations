@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-07-04 02:58+0000\n"
+"PO-Revision-Date: 2020-07-04 03:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -2349,10 +2349,8 @@ msgstr "E-mail politici"
 msgid "IPv4 or IPv6 prefix"
 msgstr "prefix IPv4 sau IPv6"
 
-#, fuzzy
-#| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
-msgstr "În prezent niciun utilizator nu solicită afilierea la"
+msgstr "Utilizatorii care au solicitat afilierea"
 
 msgid "Confirmed"
 msgstr "Confirmat"
@@ -2504,25 +2502,25 @@ msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "Prefixul se suprapune cu prefixul lui {}: {}"
 
 msgid "IRR AS-SET value must be string type"
-msgstr ""
+msgstr "Valoarea IRR AS-SET trebuie să fie de tip string"
 
 msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
-msgstr ""
+msgstr "Formatare invalidă {} - trebuie să fie AS-SET, ASx, AS-SET@SOURCE sau SOURCE::AS-SET"
 
 msgid "Unknown IRR source: {}"
-msgstr ""
+msgstr "Sursă IRR necunoscută: {}"
 
 msgid "Maximum AS-SET hierarchy depth: {}"
-msgstr ""
+msgstr "Adâncimea maximă a ierarhiei AS-SET: {}"
 
 msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
-msgstr ""
+msgstr "Formatare invalidă {} - trebuie să fie RS-SET, AS-SET sau AS123"
 
 msgid "All parts of an hierarchical name have to be of the same type"
-msgstr ""
+msgstr "Toate părțile unui nume ierarhic trebuie să fie de același tip"
 
 msgid "At least one component must be an actual set name"
-msgstr ""
+msgstr "Cel puțin o componentă trebuie să fie un nume set real"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
@@ -2541,7 +2539,7 @@ msgid "You already have an ownership request pending for this organization"
 msgstr "Aveți deja o solicitare de proprietate pentru această organizație în curs de examinare"
 
 msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
-msgstr ""
+msgstr "Aveți prea multe solicitări de afiliere în așteptare, vă rugăm să așteptați rezolvarea lor înainte de a deschide mai multe."
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilierea."
