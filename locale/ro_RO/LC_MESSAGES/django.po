@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-07-04 02:55+0000\n"
+"PO-Revision-Date: 2020-07-04 02:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -1965,7 +1965,7 @@ msgid "To register a new facility or exchange organization, please enter the org
 msgstr "Pentru a înregistra o nouă facilitate sau un Internet Exchange, vă rugăm să introduceți mai jos numele organizației (ASN-ul este opțional)."
 
 msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
-msgstr ""
+msgstr "Afilierea este propria organizație. Asta înseamnă că ești angajat sau lucrezi în alt mod pentru organizație. Solicitarea de afiliere este trimisă la support@peeringdb.com dacă nimeni nu este încă afiliat organizației. În caz contrar, administratorii sunt contactați. Afiliază-te o singură dată la câte o organizație. Dacă nu primești un răspuns în câteva zile, contactează support@peeringdb.com."
 
 msgid "Affiliate"
 msgstr "Afiliați-vă"
@@ -2228,10 +2228,8 @@ msgstr "Internet Exchange"
 msgid "IP"
 msgstr "Adresă IP"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Not operational"
-msgstr "Regional"
+msgstr "Nu este operațional"
 
 msgid "Contact Information"
 msgstr "Informații de contact"
@@ -2321,10 +2319,8 @@ msgstr "Organizație"
 msgid "Technical E-mail"
 msgstr "E-mail tehnic"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales E-mail"
-msgstr "Schimbare e-mail"
+msgstr "E-mail de vânzări"
 
 msgid "Policy URL"
 msgstr "URL-ul pentru politici"
