@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-07-04 07:58+0000\n"
+"PO-Revision-Date: 2020-07-07 19:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -577,10 +577,10 @@ msgid "Prefix"
 msgstr "Präfix"
 
 msgid "Internet Exchange LAN prefix"
-msgstr ""
+msgstr "Austauschknoten LAN prefix"
 
 msgid "Internet Exchange LAN prefixes"
-msgstr ""
+msgstr "Austauschknoten LAN prefixe"
 
 msgid "Local ASN"
 msgstr "Lokale ASN"
@@ -831,14 +831,14 @@ msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiede
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr ""
+msgstr "Fragt ein einzelnes Objekt des Typs `{obj_type}` mithilfe seiner ID ab"
 
 msgid "Expand nested sets according to depth."
 msgstr ""
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr "Frage eine Liste von Objekten des Typs `{obj_type}` ab"
+msgstr "Fragt eine Liste von Objekten des Typs `{obj_type}` ab"
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
 msgstr ""
@@ -2533,13 +2533,13 @@ msgid "IRR AS-SET value must be string type"
 msgstr "IRR AS-SET muss eine Zeichenkette sein"
 
 msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
-msgstr ""
+msgstr "Ungültige Formatierung: {} - sollte AS-SET, ASx, AS-SET@SOURCE oder SOURCE::AS-SET sein"
 
 msgid "Unknown IRR source: {}"
 msgstr "Unbekannte IRR source: {}"
 
 msgid "Maximum AS-SET hierarchy depth: {}"
-msgstr ""
+msgstr "Maximale AS-SET Hierarchietiefe: {}"
 
 msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
 msgstr "Ungültige Formatierung: {} - sollte RS-SET, AS-SET oder AS123 sein"
