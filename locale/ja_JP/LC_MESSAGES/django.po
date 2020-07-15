@@ -561,6 +561,16 @@ msgid "Policy Phone"
 msgstr "ポリシー担当者の電話番号"
 
 #, fuzzy
+#| msgid "Address not found"
+msgid "IX-F Network Count"
+msgstr "アドレスが見つかりません"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Last Import"
+msgstr "IXF Import のログ(IXF Import Log)"
+
+#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange"
 msgstr "あらゆるエクスチェンジ"
@@ -590,6 +600,16 @@ msgstr "ルートサーバ"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF メンバー出力 URL"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "IXF メンバー出力 URL"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -2768,11 +2788,6 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF Import のログ(IXF Import Log)"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "IXF メンバー出力 URL"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB の設定"

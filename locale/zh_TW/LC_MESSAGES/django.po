@@ -561,6 +561,16 @@ msgid "Policy Phone"
 msgstr "政策手機"
 
 #, fuzzy
+#| msgid "Address not found"
+msgid "IX-F Network Count"
+msgstr "地址未找到"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Last Import"
+msgstr "IXF 導入日誌"
+
+#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange"
 msgstr "任何交換點"
@@ -590,6 +600,16 @@ msgstr "路由伺服器"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF 成員匯出 URL"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "IXF 成員匯出 URL"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -2754,11 +2774,6 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF 導入日誌"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "IXF 成員匯出 URL"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB 配置"

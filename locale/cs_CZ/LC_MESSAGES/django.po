@@ -561,6 +561,16 @@ msgid "Policy Phone"
 msgstr "Policy telefon"
 
 #, fuzzy
+#| msgid "Address not found"
+msgid "IX-F Network Count"
+msgstr "Adresa nenalezena"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Last Import"
+msgstr "Protokol IXF Importu"
+
+#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange"
 msgstr "Jakýkoliv propojovací uzel"
@@ -589,6 +599,16 @@ msgstr "Route Server"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF Member Export URL"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "IXF Member Export URL"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -2807,11 +2827,6 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Protokol IXF Importu"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "IXF Member Export URL"
 
 msgid "PeeringDB Configuration"
 msgstr "Konfigurace PeeringDB"

@@ -553,6 +553,16 @@ msgid "Policy Phone"
 msgstr ""
 
 #, fuzzy
+#| msgid "Address not found"
+msgid "IX-F Network Count"
+msgstr "Adresse ikke fundet"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Last Import"
+msgstr "IXF import log"
+
+#, fuzzy
 #| msgid "Exchange"
 msgid "Internet Exchange"
 msgstr "Exchange"
@@ -582,6 +592,16 @@ msgstr "Ruteningsserver"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Member Export URL"
+msgstr "IXF import log"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Member Export URL Visibility"
+msgstr "IXF import log"
 
 msgid "Internet Exchange LAN"
 msgstr ""
@@ -2833,11 +2853,6 @@ msgstr ""
 #, fuzzy
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
-msgstr "IXF import log"
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Member Export URL"
 msgstr "IXF import log"
 
 msgid "PeeringDB Configuration"

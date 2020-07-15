@@ -561,6 +561,16 @@ msgid "Policy Phone"
 msgstr "Τηλέφωνο για θέματα πολιτικής"
 
 #, fuzzy
+#| msgid "Address not found"
+msgid "IX-F Network Count"
+msgstr "Δεν βρέθηκε η διεύθυνση"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Last Import"
+msgstr "Ημερολόγιο Εισαγωγών IXF"
+
+#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange"
 msgstr "Οποιοδήποτε Exchange"
@@ -590,6 +600,16 @@ msgstr "Route Server"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "URL εξαγωγής μελών IXF"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "URL εξαγωγής μελών IXF"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -2788,11 +2808,6 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "URL εξαγωγής μελών IXF"
 
 msgid "PeeringDB Configuration"
 msgstr "Ρύθμιση PeeringDB"

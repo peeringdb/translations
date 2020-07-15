@@ -534,6 +534,16 @@ msgstr "E-mail politici"
 msgid "Policy Phone"
 msgstr "Telefon politici"
 
+#, fuzzy
+#| msgid "Network not found"
+msgid "IX-F Network Count"
+msgstr "Rețeaua nu a fost găsită"
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F Last Import"
+msgstr "Importul IX-F"
+
 msgid "Internet Exchange"
 msgstr "Internet Exchange"
 
@@ -554,6 +564,14 @@ msgstr "ASN-ul serverului de rute"
 
 msgid "ARP sponging MAC"
 msgstr "Adresa MAC curățată din ARP"
+
+msgid "IX-F Member Export URL"
+msgstr "Adresa URL a exportului de membri IX-F"
+
+#, fuzzy
+#| msgid "IX-F Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "Adresa URL a exportului de membri IX-F"
 
 msgid "Internet Exchange LAN"
 msgstr "LAN-ul Internet Exchange-ului"
@@ -2609,9 +2627,6 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
-
-msgid "IX-F Member Export URL"
-msgstr "Adresa URL a exportului de membri IX-F"
 
 msgid "PeeringDB Configuration"
 msgstr "Configurație PeeringDB"

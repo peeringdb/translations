@@ -534,6 +534,16 @@ msgstr "정책부 이메일"
 msgid "Policy Phone"
 msgstr "정책부 연락처"
 
+#, fuzzy
+#| msgid "Network not found"
+msgid "IX-F Network Count"
+msgstr "네트워크를 찾을 수 없음"
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F Last Import"
+msgstr "IX-F 가져오기"
+
 msgid "Internet Exchange"
 msgstr "인터넷 익스체인지"
 
@@ -554,6 +564,14 @@ msgstr "경로 서버 ASN"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+msgid "IX-F Member Export URL"
+msgstr "IX-F 멤버 내보내기 URL"
+
+#, fuzzy
+#| msgid "IX-F Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "IX-F 멤버 내보내기 URL"
 
 msgid "Internet Exchange LAN"
 msgstr "인터넷 익스체인지 LAN"
@@ -2613,9 +2631,6 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "IX-F 가져오기 사용"
-
-msgid "IX-F Member Export URL"
-msgstr "IX-F 멤버 내보내기 URL"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB 구성"

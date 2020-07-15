@@ -560,6 +560,16 @@ msgid "Policy Phone"
 msgstr "رقم الهاتف لجهه سياسات IXP"
 
 #, fuzzy
+#| msgid "Network not found"
+msgid "IX-F Network Count"
+msgstr "لم يتم العثور علي الشبكة"
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F Last Import"
+msgstr "استيراد بيانات IX-F"
+
+#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange"
 msgstr "اي تبادل بيانات"
@@ -589,6 +599,16 @@ msgstr "خادم التوجيه"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Member Export URL"
+msgstr "سجل استيراد بيانات IXF"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Member Export URL Visibility"
+msgstr "سجل استيراد بيانات IXF"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -2725,11 +2745,6 @@ msgstr "وحدة الإرسال القصوى (MTU)"
 #| msgid "IX-F Import"
 msgid "Enable IX-F Import"
 msgstr "استيراد بيانات IX-F"
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Member Export URL"
-msgstr "سجل استيراد بيانات IXF"
 
 msgid "PeeringDB Configuration"
 msgstr "تهيئه قاعدة بيانات التناظر PeeringDB"

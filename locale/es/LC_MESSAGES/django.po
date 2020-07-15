@@ -537,6 +537,16 @@ msgid "Policy Phone"
 msgstr "Teléfono para cuestiones de política"
 
 #, fuzzy
+#| msgid "Network not found"
+msgid "IX-F Network Count"
+msgstr "Red no encontrada"
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F Last Import"
+msgstr "Importar IX-F"
+
+#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange"
 msgstr "Cualquier Punto de Intercambio de tráfico"
@@ -566,6 +576,16 @@ msgstr "Servidor de ruta"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL"
+msgstr "IXF miembro exportación URL"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "IXF miembro exportación URL"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -2740,11 +2760,6 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Registro de Importación IXF"
-
-#, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Export URL"
-msgstr "IXF miembro exportación URL"
 
 msgid "PeeringDB Configuration"
 msgstr "Configuración de PeeringDB"

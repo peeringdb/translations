@@ -537,6 +537,16 @@ msgstr "E-Mail (Peeringrichtlinien)"
 msgid "Policy Phone"
 msgstr "Telefon (Peeringrichtlinien)"
 
+#, fuzzy
+#| msgid "Network not found"
+msgid "IX-F Network Count"
+msgstr "Netz wurde nicht gefunden"
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F Last Import"
+msgstr "IX-F Import"
+
 msgid "Internet Exchange"
 msgstr "Austauschknoten"
 
@@ -561,6 +571,14 @@ msgstr "Route Server ASN"
 
 msgid "ARP sponging MAC"
 msgstr ""
+
+msgid "IX-F Member Export URL"
+msgstr "IX-F Member-Export-URL"
+
+#, fuzzy
+#| msgid "IX-F Member Export URL"
+msgid "IX-F Member Export URL Visibility"
+msgstr "IX-F Member-Export-URL"
 
 msgid "Internet Exchange LAN"
 msgstr "Austauschknoten LAN"
@@ -2637,9 +2655,6 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Aktivieren Sie den IX-F Import"
-
-msgid "IX-F Member Export URL"
-msgstr "IX-F Member-Export-URL"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB-Konfiguration"
