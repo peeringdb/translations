@@ -816,19 +816,13 @@ msgstr ""
 msgid "User Permissions"
 msgstr ""
 
-msgid "Duplicate IP"
-msgstr ""
-
-msgid "Duplicate IPs"
-msgstr ""
-
-msgid "Updated"
-msgstr ""
-
 msgid "Only POST requests allowed."
 msgstr ""
 
 msgid "{} (Preview)"
+msgstr ""
+
+msgid "Apply"
 msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
@@ -1030,6 +1024,15 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
+msgstr ""
+
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
+msgstr ""
+
+msgid "Data differences between PeeringDB and the exchange's IX-F data"
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr ""
 
@@ -1043,15 +1046,6 @@ msgid "No entries in any of the vlan_list lists, aborting."
 msgstr ""
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
-
-msgid "ASN no longer in data"
-msgstr ""
-
-msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr ""
-
-msgid "At least one ipaddress mismatched and network has disabled updates"
 msgstr ""
 
 msgid "Network status is '{}'"
@@ -1071,23 +1065,6 @@ msgstr ""
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
-
-msgid "Connection is currently marked as inactive"
-msgstr ""
-
-msgid "Network has disabled ixp updates"
-msgstr ""
-
-msgid "New ip-address"
-msgstr ""
-
-msgid "Fields changed: {}"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "No changes"
-msgstr "Değişim noktası"
 
 msgid "Invalid speed value: {}"
 msgstr ""
@@ -1200,7 +1177,7 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr ""
 
-msgid "Organization currently has one or more active objects under it."
+msgid "Organization has active objects under it."
 msgstr ""
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
@@ -1263,6 +1240,32 @@ msgstr ""
 msgid "Can only compare a maximum of 25 asns"
 msgstr ""
 
+msgid "Facility has active exchange presence(s): {} ..."
+msgstr ""
+
+msgid "Facility has active network presence(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active facility connection(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active peer(s)"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F error"
+msgstr "IXF Liste Geçmişi"
+
+msgid "Reason IX-F data could not be parsed"
+msgstr ""
+
+msgid "IX-F error notification date"
+msgstr ""
+
+msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr ""
 
@@ -1288,6 +1291,50 @@ msgstr "IXF Liste Geçmişi"
 #| msgid "IXF Import History"
 msgid "IXF Import Log Entries"
 msgstr "IXF Liste Geçmişi"
+
+msgid "JSON snapshot of the ix-f member data that created this entry"
+msgstr ""
+
+msgid "Activity for this entry"
+msgstr ""
+
+msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
+msgstr ""
+
+msgid "Trying to apply data to peeringdb raised an issue"
+msgstr ""
+
+msgid "Last Fetched"
+msgstr ""
+
+msgid "IXF Member Data"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "IX-F changed"
+msgstr "Değişim noktası"
+
+msgid "Modify"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "There are active peers at this exchange that fall into this address space"
+msgstr ""
+
+msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
+msgstr ""
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr ""
@@ -1434,6 +1481,9 @@ msgstr ""
 msgid "%(user_name)s's afilliation request has been denied"
 msgstr ""
 
+msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
 msgid "Need to be unique"
 msgstr ""
 
@@ -1455,10 +1505,10 @@ msgstr ""
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr ""
 
-msgid "Permission denied to restore deleted object/relationship"
+msgid "Network has been deleted. Please contact {}"
 msgstr ""
 
-msgid "Network has been deleted. Please contact {}"
+msgid "ASN cannot be changed."
 msgstr ""
 
 msgid "Specify at least one email address"
@@ -1494,6 +1544,15 @@ msgid "this page"
 msgstr ""
 
 msgid "instead"
+msgstr ""
+
+msgid "Save and Apply"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save and continue editing"
 msgstr ""
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
@@ -1938,6 +1997,9 @@ msgstr "Değişim noktası"
 msgid "Connections to Facilities"
 msgstr ""
 
+msgid "Automated Networks"
+msgstr ""
+
 msgid "Search here for a network, IX, or facility."
 msgstr ""
 
@@ -2271,9 +2333,6 @@ msgstr ""
 msgid "Pending Review"
 msgstr ""
 
-msgid "Save"
-msgstr ""
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr ""
 
@@ -2432,7 +2491,79 @@ msgstr "Değişim noktası"
 msgid "Refresh"
 msgstr ""
 
+msgid "Some exchanges suggest updates to your entries in their peering list."
+msgstr ""
+
+msgid "Review suggestions"
+msgstr ""
+
+msgid "You have dismissed some suggestions that are still available."
+msgstr ""
+
+msgid "Will restore any suggestions you have previously dismissed"
+msgstr ""
+
+msgid "Reset Suggestions"
+msgstr ""
+
+msgid "Expand each exchange below to review, apply or dismiss those suggestions"
+msgstr ""
+
+msgid "Their PeeringDB entry"
+msgstr ""
+
+msgid "Autoamtically update and remove all suggested entries"
+msgstr ""
+
+msgid "Auto-resolve"
+msgstr ""
+
+msgid "Automatically add all suggested entries"
+msgstr ""
+
+msgid "Auto-add"
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Options"
+msgstr "Bölgesel"
+
 msgid "RS Peer"
+msgstr ""
+
+msgid "Hide this suggestion until the exchange updates it."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+msgid "Add this entry to public peering exchange points"
+msgstr ""
+
+msgid "Remove this entry from your public peering exchange points list"
+msgstr ""
+
+#, python-format
+msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
+msgstr ""
+
+msgid "Will add all suggested entries"
+msgstr ""
+
+msgid "Auto Add"
 msgstr ""
 
 msgid "Network - Exchange link"
@@ -2453,9 +2584,6 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "member"
 msgstr ""
-
-msgid "Remove"
-msgstr "Kaldır"
 
 msgid "Manage"
 msgstr ""
@@ -2541,12 +2669,6 @@ msgid "Here you can grant permissions to regular members of your organization. A
 msgstr ""
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr ""
-
-msgid "Update"
-msgstr ""
-
-msgid "Add"
 msgstr ""
 
 #, python-format

@@ -799,20 +799,14 @@ msgstr "Benutzerrecht"
 msgid "User Permissions"
 msgstr "Benutzerrechte"
 
-msgid "Duplicate IP"
-msgstr "Mehrfach vergebene IP"
-
-msgid "Duplicate IPs"
-msgstr "Mehrfach vergebene IPs"
-
-msgid "Updated"
-msgstr "Aktualisiert"
-
 msgid "Only POST requests allowed."
 msgstr "Nur Anfragen vom Typ POST erlaubt."
 
 msgid "{} (Preview)"
 msgstr "{} (Vorschau)"
+
+msgid "Apply"
+msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet wird, bevor sie es erneut ausführen"
@@ -1011,6 +1005,15 @@ msgstr "Die Länge des Postmortem darf {} Einträge nicht überschreiten"
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
 
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
+msgstr ""
+
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
+msgstr ""
+
+msgid "Data differences between PeeringDB and the exchange's IX-F data"
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "Keine IXF-Import-URL vorhanden"
 
@@ -1025,15 +1028,6 @@ msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
 
 msgid "No prefixes defined on ixlan"
 msgstr "Kein Präfix auf dem Ixlan definiert"
-
-msgid "ASN no longer in data"
-msgstr "ASN existiert nicht länger"
-
-msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr "Die IP-Adressen existieren nicht länger als validierte Daten oder gehören nicht länger zu diesem ASN"
-
-msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr "Mindestens eine IP-Adresse passt nicht und das Netzwerk/ASN hat Aktualisierung abgeschaltet"
 
 msgid "Network status is '{}'"
 msgstr "Der Netzwerk-Status ist '{}'"
@@ -1052,21 +1046,6 @@ msgstr "Die IPv4- bzw. IPv6-Adresse konnte nicht in der vlan_list für vlan_id {
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr "Fehler '{}' für IP-Adresse im vlan_list Eintrag für vlan_id {}"
-
-msgid "Connection is currently marked as inactive"
-msgstr "Die Verbindung ist derzeit als inaktiv markiert"
-
-msgid "Network has disabled ixp updates"
-msgstr "Das Netwzerk hat IXP-Aktualisierungen abgeschaltet"
-
-msgid "New ip-address"
-msgstr "Neue IP-Adresse"
-
-msgid "Fields changed: {}"
-msgstr "Felder haben sich geändert: {}"
-
-msgid "No changes"
-msgstr "Keine Veränderungen"
 
 msgid "Invalid speed value: {}"
 msgstr "Ungültiger Geschwindigkeitswert: {}"
@@ -1175,8 +1154,10 @@ msgstr "DeskPRO Tickets"
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Erlaubt es ein Unternehmens-Logo für dieses Unternehmen hochzuladen und es zu ändern"
 
-msgid "Organization currently has one or more active objects under it."
-msgstr ""
+#, fuzzy
+#| msgid "Organization does not exist"
+msgid "Organization has active objects under it."
+msgstr "Organisation existiert nicht"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
@@ -1238,6 +1219,36 @@ msgstr "Es müssen zumindest zwei ASNs angegeben werden"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Es können maximal 25 ASNs verglichen werden"
 
+msgid "Facility has active exchange presence(s): {} ..."
+msgstr ""
+
+msgid "Facility has active network presence(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active facility connection(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active peer(s)"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F error"
+msgstr "IX-F Import"
+
+#, fuzzy
+#| msgid "No JSON could be parsed"
+msgid "Reason IX-F data could not be parsed"
+msgstr "JSON konnte nicht analyisert werden"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "IX-F error notification date"
+msgstr "Benachrichtigung über Zusammenführung"
+
+msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr "IXLan id muss mit der übergeordneten ix id übereinstimmen"
 
@@ -1255,6 +1266,54 @@ msgstr "IXF Import Log Eintrag"
 
 msgid "IXF Import Log Entries"
 msgstr "IXF Import Log Einträge"
+
+msgid "JSON snapshot of the ix-f member data that created this entry"
+msgstr ""
+
+msgid "Activity for this entry"
+msgstr ""
+
+msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
+msgstr ""
+
+msgid "Trying to apply data to peeringdb raised an issue"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last Fetched"
+msgstr "Zuletzt aktualisiert"
+
+#, fuzzy
+#| msgid "IX-F Member Export URL"
+msgid "IXF Member Data"
+msgstr "IX-F Member-Export-URL"
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+#, fuzzy
+#| msgid "No changes"
+msgid "IX-F changed"
+msgstr "Keine Veränderungen"
+
+msgid "Modify"
+msgstr ""
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "There are active peers at this exchange that fall into this address space"
+msgstr ""
+
+msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
+msgstr ""
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Gibt an, ob es einem IXP erlaubt ist einen netixlan Eintrag für dieses Netzwerk vorzunehmen anhand der ixp_member Daten"
@@ -1381,6 +1440,9 @@ msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 msgid "%(user_name)s's afilliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
+msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
 msgid "Need to be unique"
 msgstr "Muss eindeutig sein"
 
@@ -1402,11 +1464,13 @@ msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die überge
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
-msgid "Permission denied to restore deleted object/relationship"
-msgstr ""
-
 msgid "Network has been deleted. Please contact {}"
 msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
+
+#, fuzzy
+#| msgid "Suggest another exchange"
+msgid "ASN cannot be changed."
+msgstr "Einen weiteren Austauschpunkt vorschlagen"
 
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
@@ -1441,6 +1505,15 @@ msgstr "diese Seite"
 
 msgid "instead"
 msgstr "stattdessen"
+
+msgid "Save and Apply"
+msgstr ""
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Save and continue editing"
+msgstr ""
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr ""
@@ -1865,6 +1938,11 @@ msgstr "Verbindungen zu Austauschpunkten"
 msgid "Connections to Facilities"
 msgstr "Verbindungen zu Liegenschaften"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Automated Networks"
+msgstr "Netzwerk hinzufügen"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
 
@@ -2185,9 +2263,6 @@ msgstr "OAuth-Anwendungen verwalten"
 msgid "Pending Review"
 msgstr "In Prüfung"
 
-msgid "Save"
-msgstr "Speichern"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Einige der Daten auf dieser Seite sind unvollständig. Bitte aktualisieren Sie die Felder, die mit"
 
@@ -2322,8 +2397,82 @@ msgstr "Änderungen"
 msgid "Refresh"
 msgstr "Aktualisierung"
 
+msgid "Some exchanges suggest updates to your entries in their peering list."
+msgstr ""
+
+msgid "Review suggestions"
+msgstr ""
+
+msgid "You have dismissed some suggestions that are still available."
+msgstr ""
+
+msgid "Will restore any suggestions you have previously dismissed"
+msgstr ""
+
+msgid "Reset Suggestions"
+msgstr ""
+
+msgid "Expand each exchange below to review, apply or dismiss those suggestions"
+msgstr ""
+
+msgid "Their PeeringDB entry"
+msgstr ""
+
+msgid "Autoamtically update and remove all suggested entries"
+msgstr ""
+
+msgid "Auto-resolve"
+msgstr ""
+
+msgid "Automatically add all suggested entries"
+msgstr ""
+
+msgid "Auto-add"
+msgstr ""
+
+#, fuzzy
+#| msgid "Operational"
+msgid "Options"
+msgstr "In Betrieb"
+
 msgid "RS Peer"
 msgstr "RS-Peer"
+
+msgid "Hide this suggestion until the exchange updates it."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Add this entry to public peering exchange points"
+msgstr "Öffentliche Peering Austauschpunkte"
+
+msgid "Remove this entry from your public peering exchange points list"
+msgstr ""
+
+#, python-format
+msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
+msgstr ""
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
+msgstr ""
+
+msgid "Will add all suggested entries"
+msgstr ""
+
+msgid "Auto Add"
+msgstr ""
 
 msgid "Network - Exchange link"
 msgstr "Netzwerk-Austauschpunkt-Link"
@@ -2341,9 +2490,6 @@ msgstr "Liegenschaften zusammenführen"
 
 msgid "member"
 msgstr "Mitglied"
-
-msgid "Remove"
-msgstr "Entfernen"
 
 msgid "Manage"
 msgstr "Verwalten"
@@ -2420,12 +2566,6 @@ msgstr "Hier können regulären Mitgliedern Berechtigungen zugeteilt werden. Adm
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
 msgstr "Außerdem können für noch zu prüfende Objekte keine Berechtigungen verteilt werden und werden daher nicht aufgelistet."
-
-msgid "Update"
-msgstr "Aktualisieren"
-
-msgid "Add"
-msgstr "Hinzufügen"
 
 #, python-format
 msgid "%(name)s cannot be deleted."
@@ -2676,6 +2816,36 @@ msgstr "Peeringrichtlinien-Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+
+#~ msgid "Duplicate IP"
+#~ msgstr "Mehrfach vergebene IP"
+
+#~ msgid "Duplicate IPs"
+#~ msgstr "Mehrfach vergebene IPs"
+
+#~ msgid "Updated"
+#~ msgstr "Aktualisiert"
+
+#~ msgid "ASN no longer in data"
+#~ msgstr "ASN existiert nicht länger"
+
+#~ msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+#~ msgstr "Die IP-Adressen existieren nicht länger als validierte Daten oder gehören nicht länger zu diesem ASN"
+
+#~ msgid "At least one ipaddress mismatched and network has disabled updates"
+#~ msgstr "Mindestens eine IP-Adresse passt nicht und das Netzwerk/ASN hat Aktualisierung abgeschaltet"
+
+#~ msgid "Connection is currently marked as inactive"
+#~ msgstr "Die Verbindung ist derzeit als inaktiv markiert"
+
+#~ msgid "Network has disabled ixp updates"
+#~ msgstr "Das Netwzerk hat IXP-Aktualisierungen abgeschaltet"
+
+#~ msgid "New ip-address"
+#~ msgstr "Neue IP-Adresse"
+
+#~ msgid "Fields changed: {}"
+#~ msgstr "Felder haben sich geändert: {}"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "10+ Tbit/s"

@@ -843,20 +843,14 @@ msgstr "إذن المستخدم"
 msgid "User Permissions"
 msgstr "صلاحيات المستخدم"
 
-msgid "Duplicate IP"
-msgstr "عنوان بروتوكول الإنترنت مكرر"
-
-msgid "Duplicate IPs"
-msgstr "عناوين بروتوكول الإنترنت مكرره"
-
-msgid "Updated"
-msgstr "تم التحديث"
-
 msgid "Only POST requests allowed."
 msgstr "تم السماح بطلبات POST فقط."
 
 msgid "{} (Preview)"
 msgstr "{} (معاينة)"
+
+msgid "Apply"
+msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "هذا الأمر قيد الانتظار / التشغيل  - يرجى الانتظار حتى الانتهاء قبل تنفيذه مرة أخرى"
@@ -1068,6 +1062,15 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "مدى أرقام الأنظمة المستقلة ASNs لا يسمح بإستخدامها هنا"
 
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
+msgstr ""
+
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
+msgstr ""
+
+msgid "Data differences between PeeringDB and the exchange's IX-F data"
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "الرابط الإلكتروني لاستيراد بيانات IXF غير محدد"
 
@@ -1082,15 +1085,6 @@ msgstr "لا توجد أي مدخلات في أي من قوائم vlan_list ، �
 
 msgid "No prefixes defined on ixlan"
 msgstr "لم يتم تعريف بادئات عناوين شبكة التناظر"
-
-msgid "ASN no longer in data"
-msgstr "رقم النظام المستقل لم يعد ضمن البيانات"
-
-msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr "عناوين برتوكول الانترنت لم تعد موجودة في البيانات التي تم التحقق منها أو لم تعد موجودة ضمن اسم النطاق الذاتي (ASN)"
-
-msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr "عدم تطابق عنوان انترنت IP واحد على الأقل، و تم تعطيل تحديثات الشبكة"
 
 msgid "Network status is '{}'"
 msgstr "حالة الشبكة هي '{}'"
@@ -1109,21 +1103,6 @@ msgstr "لم يتم العثور علي عنوان انترنت (ipv4 or 6) في
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr "عنوان انترنت خاطئ '{}'  في مدخلات vlan_list ل vlan_id {}"
-
-msgid "Connection is currently marked as inactive"
-msgstr "تم وضع علامة \"غير نشط\" على رابط الاتصال الحالي"
-
-msgid "Network has disabled ixp updates"
-msgstr "تم تعطيل تحديثات عناوين نقطة تبادل الإنترنت"
-
-msgid "New ip-address"
-msgstr "عنوان انترنت جديد"
-
-msgid "Fields changed: {}"
-msgstr "تم تغيير الحقول: {}"
-
-msgid "No changes"
-msgstr "لا توجد تغييرات"
 
 msgid "Invalid speed value: {}"
 msgstr "قيم سرعة الاتصال غير صحيحة : {}"
@@ -1232,8 +1211,10 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه المؤسسة"
 
-msgid "Organization currently has one or more active objects under it."
-msgstr ""
+#, fuzzy
+#| msgid "Organization does not exist"
+msgid "Organization has active objects under it."
+msgstr "المنظمة غير موجودة"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
@@ -1295,6 +1276,36 @@ msgstr "تحتاج إلى تحديد أرقام الأنظمة المستقلة 
 msgid "Can only compare a maximum of 25 asns"
 msgstr "يمكن فقط مقارنة 25 رقم نظام مستقل (كحد أقصى)"
 
+msgid "Facility has active exchange presence(s): {} ..."
+msgstr ""
+
+msgid "Facility has active network presence(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active facility connection(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active peer(s)"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F error"
+msgstr "استيراد بيانات IX-F"
+
+#, fuzzy
+#| msgid "No JSON could be parsed"
+msgid "Reason IX-F data could not be parsed"
+msgstr "لا يمكن تحليل بيانات JSON"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "IX-F error notification date"
+msgstr "دمج الإشعار"
+
+msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr ""
 
@@ -1316,6 +1327,54 @@ msgstr "سجل استيراد بيانات IXF"
 #| msgid "IXF Import Logs"
 msgid "IXF Import Log Entries"
 msgstr "سجلات استيراد بيانات IXF"
+
+msgid "JSON snapshot of the ix-f member data that created this entry"
+msgstr ""
+
+msgid "Activity for this entry"
+msgstr ""
+
+msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
+msgstr ""
+
+msgid "Trying to apply data to peeringdb raised an issue"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last Fetched"
+msgstr "آخر تحديث"
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IXF Member Data"
+msgstr "سجل استيراد بيانات IXF"
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+#, fuzzy
+#| msgid "No changes"
+msgid "IX-F changed"
+msgstr "لا توجد تغييرات"
+
+msgid "Modify"
+msgstr ""
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "Remove"
+msgstr "حذف / إزالة"
+
+msgid "There are active peers at this exchange that fall into this address space"
+msgstr ""
+
+msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
+msgstr ""
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr ""
@@ -1442,6 +1501,9 @@ msgstr "%(user_name)s's تمت الموافقة على طلب الانتساب/ 
 msgid "%(user_name)s's afilliation request has been denied"
 msgstr "%(user_name)s's تم رفض طلب الانتساب/ الانضمام"
 
+msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
 msgid "Need to be unique"
 msgstr "يجب أن تكون فريد من نوعه"
 
@@ -1463,11 +1525,13 @@ msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤ
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
 
-msgid "Permission denied to restore deleted object/relationship"
-msgstr ""
-
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
+
+#, fuzzy
+#| msgid "Suggest another exchange"
+msgid "ASN cannot be changed."
+msgstr "اقترح نقطة تبادل الإنترنت اخرى"
 
 msgid "Specify at least one email address"
 msgstr "حدد عنوان بريد إلكتروني واحد على الأقل"
@@ -1502,6 +1566,15 @@ msgstr "هذه الصفحة"
 
 msgid "instead"
 msgstr "بدلا من"
+
+msgid "Save and Apply"
+msgstr ""
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Save and continue editing"
+msgstr ""
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr ""
@@ -1935,6 +2008,11 @@ msgstr "الاتصالات إلى النظائر/التبادلات"
 msgid "Connections to Facilities"
 msgstr "الاتصالات إلى مراكز بيانات/ تشغيل"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Automated Networks"
+msgstr "إضافة شبكة"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "ابحث هنا عن شبكة اتصال أو نقطة تبادل بيانات أو مركز البيانات/تشغيل."
 
@@ -2259,9 +2337,6 @@ msgstr "إدارة تطبيقات التحقق"
 msgid "Pending Review"
 msgstr "قيد انتظار المراجعة"
 
-msgid "Save"
-msgstr "حفظ"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "بعض البيانات في هذه الصفحة غير مكتملة ، يرجى تحديث الحقول التي تحمل علامة"
 
@@ -2404,8 +2479,82 @@ msgstr "التغييرات"
 msgid "Refresh"
 msgstr "تحديث"
 
+msgid "Some exchanges suggest updates to your entries in their peering list."
+msgstr ""
+
+msgid "Review suggestions"
+msgstr ""
+
+msgid "You have dismissed some suggestions that are still available."
+msgstr ""
+
+msgid "Will restore any suggestions you have previously dismissed"
+msgstr ""
+
+msgid "Reset Suggestions"
+msgstr ""
+
+msgid "Expand each exchange below to review, apply or dismiss those suggestions"
+msgstr ""
+
+msgid "Their PeeringDB entry"
+msgstr ""
+
+msgid "Autoamtically update and remove all suggested entries"
+msgstr ""
+
+msgid "Auto-resolve"
+msgstr ""
+
+msgid "Automatically add all suggested entries"
+msgstr ""
+
+msgid "Auto-add"
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Options"
+msgstr "إقليمي"
+
 msgid "RS Peer"
 msgstr "نظير مخدم التوجيه RS"
+
+msgid "Hide this suggestion until the exchange updates it."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Add this entry to public peering exchange points"
+msgstr "نقاط تبادل التناظر العامة"
+
+msgid "Remove this entry from your public peering exchange points list"
+msgstr ""
+
+#, python-format
+msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
+msgstr ""
+
+msgid "Update"
+msgstr "تحديث"
+
+msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
+msgstr ""
+
+msgid "Will add all suggested entries"
+msgstr ""
+
+msgid "Auto Add"
+msgstr ""
 
 msgid "Network - Exchange link"
 msgstr "شبكة الاتصال - رابط التبادل"
@@ -2423,9 +2572,6 @@ msgstr "دمج مراكز بيانات/ تشغيل"
 
 msgid "member"
 msgstr "عضو"
-
-msgid "Remove"
-msgstr "حذف / إزالة"
 
 msgid "Manage"
 msgstr "إداره"
@@ -2508,12 +2654,6 @@ msgstr "هنا يمكنك منح الأذونات/ الصلاحيات للأعض
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
 msgstr "بالإضافة إلى ذلك ، لا يمكن التعامل مع الكيانات التي في انتظار المراجعة، ولن تظهر في قائمة الكيانات."
-
-msgid "Update"
-msgstr "تحديث"
-
-msgid "Add"
-msgstr "إضافة"
 
 #, python-format
 msgid "%(name)s cannot be deleted."
@@ -2766,6 +2906,36 @@ msgstr "معلومات سياسات التناظر"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
+
+#~ msgid "Duplicate IP"
+#~ msgstr "عنوان بروتوكول الإنترنت مكرر"
+
+#~ msgid "Duplicate IPs"
+#~ msgstr "عناوين بروتوكول الإنترنت مكرره"
+
+#~ msgid "Updated"
+#~ msgstr "تم التحديث"
+
+#~ msgid "ASN no longer in data"
+#~ msgstr "رقم النظام المستقل لم يعد ضمن البيانات"
+
+#~ msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+#~ msgstr "عناوين برتوكول الانترنت لم تعد موجودة في البيانات التي تم التحقق منها أو لم تعد موجودة ضمن اسم النطاق الذاتي (ASN)"
+
+#~ msgid "At least one ipaddress mismatched and network has disabled updates"
+#~ msgstr "عدم تطابق عنوان انترنت IP واحد على الأقل، و تم تعطيل تحديثات الشبكة"
+
+#~ msgid "Connection is currently marked as inactive"
+#~ msgstr "تم وضع علامة \"غير نشط\" على رابط الاتصال الحالي"
+
+#~ msgid "Network has disabled ixp updates"
+#~ msgstr "تم تعطيل تحديثات عناوين نقطة تبادل الإنترنت"
+
+#~ msgid "New ip-address"
+#~ msgstr "عنوان انترنت جديد"
+
+#~ msgid "Fields changed: {}"
+#~ msgstr "تم تغيير الحقول: {}"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "اكثر من ١٠ تيرابت/الثانية"

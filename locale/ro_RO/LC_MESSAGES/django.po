@@ -786,20 +786,14 @@ msgstr "Permisiunea utilizatorului"
 msgid "User Permissions"
 msgstr "Permisiunile utilizatorilor"
 
-msgid "Duplicate IP"
-msgstr "Copiați adresa IP"
-
-msgid "Duplicate IPs"
-msgstr "Copiați adresele IP"
-
-msgid "Updated"
-msgstr "Actualizat"
-
 msgid "Only POST requests allowed."
 msgstr "Doar solicitările de tip POST sunt permise."
 
 msgid "{} (Preview)"
 msgstr "{} (Previzualizare)"
+
+msgid "Apply"
+msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Această comandă este deja în așteptare / rulare - vă rugăm să așteptați să se termine înainte de a o executa din nou"
@@ -986,6 +980,15 @@ msgstr "Lungimea postmortem nu poate depăși {} înregistrări"
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
 
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
+msgstr ""
+
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
+msgstr ""
+
+msgid "Data differences between PeeringDB and the exchange's IX-F data"
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "URL-ul importului IXF nu este specificat"
 
@@ -1000,15 +1003,6 @@ msgstr "Nu există înregistrări în niciunul din elementele vlan_lists, se anu
 
 msgid "No prefixes defined on ixlan"
 msgstr "Nu există prefixe definite pe ixlan"
-
-msgid "ASN no longer in data"
-msgstr "ASN nu mai este în date"
-
-msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr "Adresele IP nu mai există în datele validate sau nu mai sunt cu acest ASN"
-
-msgid "At least one ipaddress mismatched and network has disabled updates"
-msgstr "Cel puțin o adresă IP nu este corespunzătoare iar rețeaua a dezactivat actualizările"
 
 msgid "Network status is '{}'"
 msgstr "Starea rețelei este '{}'"
@@ -1027,21 +1021,6 @@ msgstr "Nu se poate găsi o adresă IPv4 sau IPv6 în înregistrarea vlan_list p
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr "Eroare la adresa IP '{}' în înregistrarea vlan_list pentru vlan_id {}"
-
-msgid "Connection is currently marked as inactive"
-msgstr "Conexiunea este marcată în prezent ca fiind inactivă"
-
-msgid "Network has disabled ixp updates"
-msgstr "Rețeaua a dezactivat actualizările IXP"
-
-msgid "New ip-address"
-msgstr "Adresă IP nouă"
-
-msgid "Fields changed: {}"
-msgstr "Câmpuri modificate: {}"
-
-msgid "No changes"
-msgstr "Nu s-au făcut modificări"
 
 msgid "Invalid speed value: {}"
 msgstr "Valoarea vitezei nu este validă: {}"
@@ -1148,8 +1127,10 @@ msgstr "Tickete DeskPRO"
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
 
-msgid "Organization currently has one or more active objects under it."
-msgstr ""
+#, fuzzy
+#| msgid "Organization does not exist"
+msgid "Organization has active objects under it."
+msgstr "Organizația nu există"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
@@ -1211,6 +1192,36 @@ msgstr "Trebuie să specificați cel puțin două ASN-uri"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Poate compara un cel mult 25 de ASN-uri"
 
+msgid "Facility has active exchange presence(s): {} ..."
+msgstr ""
+
+msgid "Facility has active network presence(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active facility connection(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active peer(s)"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IX-F error"
+msgstr "Importul IX-F"
+
+#, fuzzy
+#| msgid "No JSON could be parsed"
+msgid "Reason IX-F data could not be parsed"
+msgstr "Niciun JSON nu a putut fi analizat"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "IX-F error notification date"
+msgstr "Îmbină notificarea"
+
+msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr "ID-ul IXLan trebuie să se potrivească cu ID-ul IX-ului părinte"
 
@@ -1228,6 +1239,54 @@ msgstr "Înregistrare în jurnalul de import IXF"
 
 msgid "IXF Import Log Entries"
 msgstr "Înregistrările în jurnalul de import IXF"
+
+msgid "JSON snapshot of the ix-f member data that created this entry"
+msgstr ""
+
+msgid "Activity for this entry"
+msgstr ""
+
+msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
+msgstr ""
+
+msgid "Trying to apply data to peeringdb raised an issue"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last Fetched"
+msgstr "Ultima actualizare"
+
+#, fuzzy
+#| msgid "IX-F Member Export URL"
+msgid "IXF Member Data"
+msgstr "Adresa URL a exportului de membri IX-F"
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+#, fuzzy
+#| msgid "No changes"
+msgid "IX-F changed"
+msgstr "Nu s-au făcut modificări"
+
+msgid "Modify"
+msgstr ""
+
+msgid "Add"
+msgstr "Adăugați"
+
+msgid "Remove"
+msgstr "Eliminați"
+
+msgid "There are active peers at this exchange that fall into this address space"
+msgstr ""
+
+msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
+msgstr ""
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifică dacă unui IXP i se permite să adauge un netixlan pentru această rețea prin intermediul datelor sale ixp_member"
@@ -1354,6 +1413,9 @@ msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
 msgid "%(user_name)s's afilliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
+msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
 msgid "Need to be unique"
 msgstr "Trebuie să fie unic"
 
@@ -1375,11 +1437,13 @@ msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părin
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
-msgid "Permission denied to restore deleted object/relationship"
-msgstr ""
-
 msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
+
+#, fuzzy
+#| msgid "Suggest another exchange"
+msgid "ASN cannot be changed."
+msgstr "Sugerați un alt Internet Exchange"
 
 msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
@@ -1414,6 +1478,15 @@ msgstr "această pagină"
 
 msgid "instead"
 msgstr "în locul"
+
+msgid "Save and Apply"
+msgstr ""
+
+msgid "Save"
+msgstr "Salvați"
+
+msgid "Save and continue editing"
+msgstr ""
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr ""
@@ -1838,6 +1911,11 @@ msgstr "Conexiuni la Internet Exchange-uri"
 msgid "Connections to Facilities"
 msgstr "Conexiuni la facilități"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Automated Networks"
+msgstr "Adăugați rețea"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
 
@@ -2157,9 +2235,6 @@ msgstr "Gestionați aplicațiile OAuth"
 msgid "Pending Review"
 msgstr "Revizuire în așteptare"
 
-msgid "Save"
-msgstr "Salvați"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Unele dintre datele de pe această pagină sunt incomplete, vă rugăm să actualizați câmpurile marcate cu"
 
@@ -2294,8 +2369,82 @@ msgstr "schimbări"
 msgid "Refresh"
 msgstr "Reîmprospătează"
 
+msgid "Some exchanges suggest updates to your entries in their peering list."
+msgstr ""
+
+msgid "Review suggestions"
+msgstr ""
+
+msgid "You have dismissed some suggestions that are still available."
+msgstr ""
+
+msgid "Will restore any suggestions you have previously dismissed"
+msgstr ""
+
+msgid "Reset Suggestions"
+msgstr ""
+
+msgid "Expand each exchange below to review, apply or dismiss those suggestions"
+msgstr ""
+
+msgid "Their PeeringDB entry"
+msgstr ""
+
+msgid "Autoamtically update and remove all suggested entries"
+msgstr ""
+
+msgid "Auto-resolve"
+msgstr ""
+
+msgid "Automatically add all suggested entries"
+msgstr ""
+
+msgid "Auto-add"
+msgstr ""
+
+#, fuzzy
+#| msgid "Operational"
+msgid "Options"
+msgstr "Operațional"
+
 msgid "RS Peer"
 msgstr "RS Peer"
+
+msgid "Hide this suggestion until the exchange updates it."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Add this entry to public peering exchange points"
+msgstr "Peering public în Internet Exchange-uri"
+
+msgid "Remove this entry from your public peering exchange points list"
+msgstr ""
+
+#, python-format
+msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
+msgstr ""
+
+msgid "Update"
+msgstr "Actualizați"
+
+msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
+msgstr ""
+
+msgid "Will add all suggested entries"
+msgstr ""
+
+msgid "Auto Add"
+msgstr ""
 
 msgid "Network - Exchange link"
 msgstr "legătura dintre rețea și Internet Exchange"
@@ -2313,9 +2462,6 @@ msgstr "Îmbină facilitățile"
 
 msgid "member"
 msgstr "membru"
-
-msgid "Remove"
-msgstr "Eliminați"
 
 msgid "Manage"
 msgstr "Gestionați"
@@ -2392,12 +2538,6 @@ msgstr "Aici puteți acorda permisiuni membrilor obișnuiți ai organizației dv
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
 msgstr "În plus, entitățile care sunt în curs de revizuire nu pot fi autorizate utilizatorilor și nu vor apărea în lista de entități."
-
-msgid "Update"
-msgstr "Actualizați"
-
-msgid "Add"
-msgstr "Adăugați"
 
 #, python-format
 msgid "%(name)s cannot be deleted."
@@ -2648,6 +2788,36 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "Duplicate IP"
+#~ msgstr "Copiați adresa IP"
+
+#~ msgid "Duplicate IPs"
+#~ msgstr "Copiați adresele IP"
+
+#~ msgid "Updated"
+#~ msgstr "Actualizat"
+
+#~ msgid "ASN no longer in data"
+#~ msgstr "ASN nu mai este în date"
+
+#~ msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
+#~ msgstr "Adresele IP nu mai există în datele validate sau nu mai sunt cu acest ASN"
+
+#~ msgid "At least one ipaddress mismatched and network has disabled updates"
+#~ msgstr "Cel puțin o adresă IP nu este corespunzătoare iar rețeaua a dezactivat actualizările"
+
+#~ msgid "Connection is currently marked as inactive"
+#~ msgstr "Conexiunea este marcată în prezent ca fiind inactivă"
+
+#~ msgid "Network has disabled ixp updates"
+#~ msgstr "Rețeaua a dezactivat actualizările IXP"
+
+#~ msgid "New ip-address"
+#~ msgstr "Adresă IP nouă"
+
+#~ msgid "Fields changed: {}"
+#~ msgstr "Câmpuri modificate: {}"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "10+ Tbps"

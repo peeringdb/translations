@@ -844,20 +844,14 @@ msgstr "用户权限"
 msgid "User Permissions"
 msgstr "用户权限"
 
-msgid "Duplicate IP"
-msgstr "重复的 IP"
-
-msgid "Duplicate IPs"
-msgstr "重复的 IP"
-
-msgid "Updated"
-msgstr "更新"
-
 msgid "Only POST requests allowed."
 msgstr "只有 POST 请求被允许。"
 
 msgid "{} (Preview)"
 msgstr "{} (预览)"
+
+msgid "Apply"
+msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "该命令正在执行中，请等待执行完毕后再试一次"
@@ -1076,6 +1070,15 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
+msgstr ""
+
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
+msgstr ""
+
+msgid "Data differences between PeeringDB and the exchange's IX-F data"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IXF import url not specified"
@@ -1091,15 +1094,6 @@ msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "在 vlan_list 列表中没有条目，中止中。"
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
-
-msgid "ASN no longer in data"
-msgstr ""
-
-msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr ""
-
-msgid "At least one ipaddress mismatched and network has disabled updates"
 msgstr ""
 
 msgid "Network status is '{}'"
@@ -1119,21 +1113,6 @@ msgstr ""
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
-
-msgid "Connection is currently marked as inactive"
-msgstr "连接当前被标记为未生效"
-
-msgid "Network has disabled ixp updates"
-msgstr "网络禁止了交换点更新"
-
-msgid "New ip-address"
-msgstr "新 IP 地址"
-
-msgid "Fields changed: {}"
-msgstr "以下字段已被修改：{}"
-
-msgid "No changes"
-msgstr "没有修改"
 
 msgid "Invalid speed value: {}"
 msgstr "无效速率：{}"
@@ -1244,8 +1223,10 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "允许您上传并设置此组织的 Logo 图像"
 
-msgid "Organization currently has one or more active objects under it."
-msgstr ""
+#, fuzzy
+#| msgid "Organization does not exist"
+msgid "Organization has active objects under it."
+msgstr "组织不存在"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
@@ -1307,6 +1288,36 @@ msgstr "需要至少两个 ASN"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "最多只能比较25个 ASN"
 
+msgid "Facility has active exchange presence(s): {} ..."
+msgstr ""
+
+msgid "Facility has active network presence(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active facility connection(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active peer(s)"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F error"
+msgstr "IXF 导入日志"
+
+#, fuzzy
+#| msgid "No JSON could be parsed"
+msgid "Reason IX-F data could not be parsed"
+msgstr "没有可以被解析的JSON"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "IX-F error notification date"
+msgstr "合并通知"
+
+msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr ""
 
@@ -1324,6 +1335,54 @@ msgstr "IXF 导入日志条目"
 
 msgid "IXF Import Log Entries"
 msgstr "IXF 导入日志条目"
+
+msgid "JSON snapshot of the ix-f member data that created this entry"
+msgstr ""
+
+msgid "Activity for this entry"
+msgstr ""
+
+msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
+msgstr ""
+
+msgid "Trying to apply data to peeringdb raised an issue"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last Fetched"
+msgstr "上次更新"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IXF Member Data"
+msgstr "IXF 成员导出 URL"
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+#, fuzzy
+#| msgid "No changes"
+msgid "IX-F changed"
+msgstr "没有修改"
+
+msgid "Modify"
+msgstr ""
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "There are active peers at this exchange that fall into this address space"
+msgstr ""
+
+msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
+msgstr ""
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "声明是否允许 IXP 通过其 IXP 成员数据为此网络添加 netixlan 条目"
@@ -1450,6 +1509,9 @@ msgstr "%(user_name)s 的关联请求已批准"
 msgid "%(user_name)s's afilliation request has been denied"
 msgstr "%(user_name)s 的关联请求被拒绝"
 
+msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
 msgid "Need to be unique"
 msgstr "需要是唯一的"
 
@@ -1471,11 +1533,13 @@ msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
 
-msgid "Permission denied to restore deleted object/relationship"
-msgstr ""
-
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
+
+#, fuzzy
+#| msgid "Suggest another exchange"
+msgid "ASN cannot be changed."
+msgstr "建议另一个交换点"
 
 msgid "Specify at least one email address"
 msgstr "至少指定一个电子邮件地址"
@@ -1510,6 +1574,15 @@ msgstr "此页"
 
 msgid "instead"
 msgstr "代替"
+
+msgid "Save and Apply"
+msgstr ""
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save and continue editing"
+msgstr ""
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr ""
@@ -1941,6 +2014,11 @@ msgstr "连接的交换点"
 msgid "Connections to Facilities"
 msgstr "连接的私有设施"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Automated Networks"
+msgstr "添加网络"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "在此搜索网络、IX或设施。"
 
@@ -2262,9 +2340,6 @@ msgstr "管理 OAuth 应用"
 msgid "Pending Review"
 msgstr "等待审核"
 
-msgid "Save"
-msgstr "保存"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "此页面上的部分数据不完整。为了提高数据质量，请更新标有"
 
@@ -2411,8 +2486,82 @@ msgstr "交换点"
 msgid "Refresh"
 msgstr ""
 
+msgid "Some exchanges suggest updates to your entries in their peering list."
+msgstr ""
+
+msgid "Review suggestions"
+msgstr ""
+
+msgid "You have dismissed some suggestions that are still available."
+msgstr ""
+
+msgid "Will restore any suggestions you have previously dismissed"
+msgstr ""
+
+msgid "Reset Suggestions"
+msgstr ""
+
+msgid "Expand each exchange below to review, apply or dismiss those suggestions"
+msgstr ""
+
+msgid "Their PeeringDB entry"
+msgstr ""
+
+msgid "Autoamtically update and remove all suggested entries"
+msgstr ""
+
+msgid "Auto-resolve"
+msgstr ""
+
+msgid "Automatically add all suggested entries"
+msgstr ""
+
+msgid "Auto-add"
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Options"
+msgstr "区域性"
+
 msgid "RS Peer"
 msgstr "RS 对等"
+
+msgid "Hide this suggestion until the exchange updates it."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Add this entry to public peering exchange points"
+msgstr "公共对等交换点"
+
+msgid "Remove this entry from your public peering exchange points list"
+msgstr ""
+
+#, python-format
+msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
+msgstr ""
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
+msgstr ""
+
+msgid "Will add all suggested entries"
+msgstr ""
+
+msgid "Auto Add"
+msgstr ""
 
 msgid "Network - Exchange link"
 msgstr "网络 - 交换点连接"
@@ -2430,9 +2579,6 @@ msgstr "合并设施"
 
 msgid "member"
 msgstr "成员"
-
-msgid "Remove"
-msgstr "删除"
 
 msgid "Manage"
 msgstr "管理"
@@ -2513,12 +2659,6 @@ msgstr "您可以在此向组织的普通成员授予权限。此处未列出管
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
 msgstr "此外，待审核的实体不能被授权给用户，也不会出现在实体列表中。"
-
-msgid "Update"
-msgstr "更新"
-
-msgid "Add"
-msgstr "添加"
 
 #, python-format
 msgid "%(name)s cannot be deleted."
@@ -2773,6 +2913,27 @@ msgstr "对等政策信息"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
+
+#~ msgid "Duplicate IP"
+#~ msgstr "重复的 IP"
+
+#~ msgid "Duplicate IPs"
+#~ msgstr "重复的 IP"
+
+#~ msgid "Updated"
+#~ msgstr "更新"
+
+#~ msgid "Connection is currently marked as inactive"
+#~ msgstr "连接当前被标记为未生效"
+
+#~ msgid "Network has disabled ixp updates"
+#~ msgstr "网络禁止了交换点更新"
+
+#~ msgid "New ip-address"
+#~ msgstr "新 IP 地址"
+
+#~ msgid "Fields changed: {}"
+#~ msgstr "以下字段已被修改：{}"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "超过 10 Tbps"

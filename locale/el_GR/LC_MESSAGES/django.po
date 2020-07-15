@@ -844,20 +844,14 @@ msgstr "Δικαίωμα Χρήστη"
 msgid "User Permissions"
 msgstr "Δικαιώματα Χρήστη"
 
-msgid "Duplicate IP"
-msgstr "Διπλότυπη IP"
-
-msgid "Duplicate IPs"
-msgstr "Διπλότυπες IP"
-
-msgid "Updated"
-msgstr "Ενημερώθηκε"
-
 msgid "Only POST requests allowed."
 msgstr "Επιτρέπονται μόνο POST αιτήματα"
 
 msgid "{} (Preview)"
 msgstr "{} (Προεπισκόπηση)"
+
+msgid "Apply"
+msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Aυτή η εντολή βρίσκεται σε αναμονή / εκτελείται - παρακαλούμε αναμείνατε έως ότου ολοκληρωθεί προτού την εκτελέσετε ξανά"
@@ -1066,6 +1060,15 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
+msgstr ""
+
+msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
+msgstr ""
+
+msgid "Data differences between PeeringDB and the exchange's IX-F data"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IXF import url not specified"
@@ -1081,15 +1084,6 @@ msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Δεν υπάρχουν καταχωρήσεις σε καμμία από τις λίστες vlan_list, γίνεται διακοπή."
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
-
-msgid "ASN no longer in data"
-msgstr ""
-
-msgid "Ip addresses no longer exist in validated data or are no longer with this asn"
-msgstr ""
-
-msgid "At least one ipaddress mismatched and network has disabled updates"
 msgstr ""
 
 #, fuzzy
@@ -1115,27 +1109,6 @@ msgstr ""
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
-
-msgid "Connection is currently marked as inactive"
-msgstr ""
-
-#, fuzzy
-#| msgid "Facilities"
-msgid "Network has disabled ixp updates"
-msgstr "Eγκαταστάσεις"
-
-#, fuzzy
-#| msgid "email address"
-msgid "New ip-address"
-msgstr "διεύθυνση email"
-
-msgid "Fields changed: {}"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchanges"
-msgid "No changes"
-msgstr "Exchanges"
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"
@@ -1252,8 +1225,10 @@ msgstr ""
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Σας δίνει τη δυνατότητα να ανεβάσετε και να ορίσετε ένα αρχείο εικόνας λογότυπου για αυτόν τον οργανισμό"
 
-msgid "Organization currently has one or more active objects under it."
-msgstr ""
+#, fuzzy
+#| msgid "Organization does not exist"
+msgid "Organization has active objects under it."
+msgstr "Ο Οργανισμός δεν υπάρχει"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
@@ -1315,6 +1290,36 @@ msgstr "Πρέπει να ορίσετε τουλάχιστον 2 ASNs"
 msgid "Can only compare a maximum of 25 asns"
 msgstr "Μπορεί να συγκρίνει το πολύ 25 ASNs"
 
+msgid "Facility has active exchange presence(s): {} ..."
+msgstr ""
+
+msgid "Facility has active network presence(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active facility connection(s): {} ..."
+msgstr ""
+
+msgid "Exchange has active peer(s)"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F error"
+msgstr "Ημερολόγιο Εισαγωγών IXF"
+
+#, fuzzy
+#| msgid "No JSON could be parsed"
+msgid "Reason IX-F data could not be parsed"
+msgstr "Κανένα JSON δεν μπορούσε να αναλυθεί"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "IX-F error notification date"
+msgstr "Ειδοποίηση Συγχώνευσης"
+
+msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr ""
 
@@ -1332,6 +1337,54 @@ msgstr "Καταχώρηση Ημερολογίου Εισαγωγών IXF"
 
 msgid "IXF Import Log Entries"
 msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
+
+msgid "JSON snapshot of the ix-f member data that created this entry"
+msgstr ""
+
+msgid "Activity for this entry"
+msgstr ""
+
+msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
+msgstr ""
+
+msgid "Trying to apply data to peeringdb raised an issue"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last Fetched"
+msgstr "Τελευταία Ενημέρωση"
+
+#, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IXF Member Data"
+msgstr "URL εξαγωγής μελών IXF"
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchanges"
+msgid "IX-F changed"
+msgstr "Exchanges"
+
+msgid "Modify"
+msgstr ""
+
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+msgid "There are active peers at this exchange that fall into this address space"
+msgstr ""
+
+msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
+msgstr ""
 
 msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Ορίζει αν ο IXP επιτρέπεται να προσθέσει μια καταχώρηση netixlan για αυτό το δίκτυο μέσω των ixp_member δεδομένων του"
@@ -1458,6 +1511,9 @@ msgstr "Η αίτηση συσχετισμού του/της %(user_name)s εγ�
 msgid "%(user_name)s's afilliation request has been denied"
 msgstr "H αίτηση συσχετισμού του/της %(user_name)s's απορρίφθηκε"
 
+msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
 msgid "Need to be unique"
 msgstr "Πρέπει να είναι μοναδικά"
 
@@ -1479,11 +1535,13 @@ msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπο
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
 
-msgid "Permission denied to restore deleted object/relationship"
-msgstr ""
-
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "ASN cannot be changed."
+msgstr "Exchange"
 
 #, fuzzy
 #| msgid "Change email address"
@@ -1520,6 +1578,15 @@ msgstr "αυτή τη σελίδα"
 
 msgid "instead"
 msgstr "αντί"
+
+msgid "Save and Apply"
+msgstr ""
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Save and continue editing"
+msgstr ""
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr ""
@@ -1963,6 +2030,11 @@ msgstr "Exchange"
 msgid "Connections to Facilities"
 msgstr "Ιδιωτικές Εγκαταστάσεις"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Automated Networks"
+msgstr "Προσθήκη Δικτύου"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Αναζητήστε εδώ για ένα δίκτυο, IXP, ή εγκατάσταση."
 
@@ -2298,9 +2370,6 @@ msgstr "Διαχείριση εφαρμογών OAuth"
 msgid "Pending Review"
 msgstr "Εκκρεμεί Ανασκόπησης"
 
-msgid "Save"
-msgstr "Αποθήκευση"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Κάποια από τα δεδομένα σε αυτή τη σελίδα είναι ελλειπή, παρακαλούμε ενημερώστε τα πεδία μαρκαρισμένα ως"
 
@@ -2455,8 +2524,82 @@ msgstr "Exchanges"
 msgid "Refresh"
 msgstr ""
 
+msgid "Some exchanges suggest updates to your entries in their peering list."
+msgstr ""
+
+msgid "Review suggestions"
+msgstr ""
+
+msgid "You have dismissed some suggestions that are still available."
+msgstr ""
+
+msgid "Will restore any suggestions you have previously dismissed"
+msgstr ""
+
+msgid "Reset Suggestions"
+msgstr ""
+
+msgid "Expand each exchange below to review, apply or dismiss those suggestions"
+msgstr ""
+
+msgid "Their PeeringDB entry"
+msgstr ""
+
+msgid "Autoamtically update and remove all suggested entries"
+msgstr ""
+
+msgid "Auto-resolve"
+msgstr ""
+
+msgid "Automatically add all suggested entries"
+msgstr ""
+
+msgid "Auto-add"
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Options"
+msgstr "Τοπικό"
+
 msgid "RS Peer"
 msgstr "RS Peer"
+
+msgid "Hide this suggestion until the exchange updates it."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Add this entry to public peering exchange points"
+msgstr "Δημόσια Peering Exchange Points"
+
+msgid "Remove this entry from your public peering exchange points list"
+msgstr ""
+
+#, python-format
+msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
+msgstr ""
+
+msgid "Update"
+msgstr "Ενημέρωση"
+
+msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
+msgstr ""
+
+msgid "Will add all suggested entries"
+msgstr ""
+
+msgid "Auto Add"
+msgstr ""
 
 msgid "Network - Exchange link"
 msgstr "Ζεύξη Δικτύου - Exchange"
@@ -2474,9 +2617,6 @@ msgstr "Eγκαταστάσεις"
 
 msgid "member"
 msgstr "μέλος"
-
-msgid "Remove"
-msgstr "Αφαίρεση"
 
 msgid "Manage"
 msgstr "Διαχείριση"
@@ -2559,12 +2699,6 @@ msgstr "Εδώ μπορείτε να παραχωρήσετε άδεια σε α
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
 msgstr "Επιπλέον, οντότητες που εκκρεμούν ανασκόπησης δεν μπορούν να αδειοδοτηθούν σε χρήστες, και δεν θα εμφανιστούν στη λίστα οντοτήτων."
-
-msgid "Update"
-msgstr "Ενημέρωση"
-
-msgid "Add"
-msgstr "Προσθήκη"
 
 #, python-format
 msgid "%(name)s cannot be deleted."
@@ -2831,6 +2965,25 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
+
+#~ msgid "Duplicate IP"
+#~ msgstr "Διπλότυπη IP"
+
+#~ msgid "Duplicate IPs"
+#~ msgstr "Διπλότυπες IP"
+
+#~ msgid "Updated"
+#~ msgstr "Ενημερώθηκε"
+
+#, fuzzy
+#~| msgid "Facilities"
+#~ msgid "Network has disabled ixp updates"
+#~ msgstr "Eγκαταστάσεις"
+
+#, fuzzy
+#~| msgid "email address"
+#~ msgid "New ip-address"
+#~ msgstr "διεύθυνση email"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "10 Tbps+"
