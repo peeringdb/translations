@@ -1394,7 +1394,9 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
-msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
+#, fuzzy
+#| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "ixp_member のデータを介して、ixp がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -2929,7 +2931,9 @@ msgstr "PeeringDB の設定"
 msgid "Allow IXP Update"
 msgstr "IXP Update を許可する"
 
-msgid "If enabled, an ixp may manage this network's entry in their peering list"
+#, fuzzy
+#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
+msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "有効にすると、IXP はピアリングリストにあるこのネットワークの項目を管理する事が出来ます"
 
 #, fuzzy

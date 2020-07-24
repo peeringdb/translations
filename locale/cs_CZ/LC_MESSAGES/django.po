@@ -1381,7 +1381,7 @@ msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'
 msgstr ""
 
 #, fuzzy
-msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Zjišťuje, zda je ixp povoleno přidání položky netixlan pro tuto síť prostřednictvím jejich dat ixp_member"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -2968,7 +2968,9 @@ msgstr "Konfigurace PeeringDB"
 msgid "Allow IXP Update"
 msgstr "Povolit aktualizace ze strany IXP"
 
-msgid "If enabled, an ixp may manage this network's entry in their peering list"
+#, fuzzy
+#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
+msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Je-li zapnuta, může IXP spravovat tuto síťovou položku ve svém peeringovém seznamu"
 
 #, fuzzy
