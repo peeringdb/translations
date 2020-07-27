@@ -853,6 +853,14 @@ msgstr "{} (預覽)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Ratio Requirement"
+msgid "No requirements"
+msgstr "比率要求"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "此命令已正在等待/運行 - 再次執行此命令前，請等待它完成本次執行項目"
 
@@ -887,6 +895,30 @@ msgstr "重置此物件 - 可使用[reftag] [id]搜尋"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "目前只有{}型態物件可透過此介面被重置"
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset all"
+msgstr "重設"
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset hints"
+msgstr "重設"
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Reset email"
+msgstr "修改 Email"
+
+msgid "Reset tickets"
+msgstr ""
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1121,6 +1153,21 @@ msgstr ""
 msgid "Invalid speed value: {}"
 msgstr "首碼無效：{}"
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 合併通知: {} -> {}"
 
@@ -1217,6 +1264,12 @@ msgstr "您與組織 \"{}\" 的關聯已被批准"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "此佇列附加到的專案由此用戶創建"
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr ""
@@ -1357,30 +1410,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "上次更新"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IXF Member Data"
 msgstr "IXF 成員匯出 URL"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchanges"
-msgid "IX-F changed"
-msgstr "交換點"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr "添加"
-
-msgid "Remove"
-msgstr "刪除"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1453,6 +1492,16 @@ msgstr "用戶"
 msgid "Password Reset Initiated"
 msgstr "密碼重置已啟動"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Email"
+msgstr "IXF 導入日誌條目"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Emails"
+msgstr "IXF 導入日誌條目"
+
 msgid "name of the tool"
 msgstr "工具名稱"
 
@@ -1476,6 +1525,26 @@ msgstr "完成"
 
 msgid "Running"
 msgstr "執行中"
+
+msgid "Environment Setting"
+msgstr ""
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr "上次更新"
+
+#, fuzzy
+#| msgid "Confirmed"
+msgid "Configured on"
+msgstr "已確認"
+
+msgid "Last updated by this user"
+msgstr ""
 
 msgid "Organization and all Entities it owns"
 msgstr "組織及其擁有的實體"
@@ -1580,6 +1649,9 @@ msgstr "此頁"
 
 msgid "instead"
 msgstr "代替"
+
+msgid "To use regex search, begin search term with ^ and end with $."
+msgstr ""
 
 msgid "Save and Apply"
 msgstr ""
@@ -2535,6 +2607,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr "添加"
+
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2554,6 +2629,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "公共對等交換點"
 
+msgid "Remove"
+msgstr "刪除"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2563,6 +2641,16 @@ msgstr ""
 
 msgid "Update"
 msgstr "更新"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv6 address"
+msgstr "電子郵件"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv4 address"
+msgstr "電子郵件"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2885,9 +2973,6 @@ msgstr "位置"
 msgid "Country Code"
 msgstr "國家代碼"
 
-msgid "Last Updated"
-msgstr "上次更新"
-
 msgid "Markdown enabled"
 msgstr "Markdown 已啟用"
 
@@ -2935,6 +3020,11 @@ msgstr "對等政策資訊"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "請稍後再嘗試登錄。"
+
+#, fuzzy
+#~| msgid "Exchanges"
+#~ msgid "IX-F changed"
+#~ msgstr "交換點"
 
 #~ msgid "Duplicate IP"
 #~ msgstr "重複的 IP"
@@ -2984,11 +3074,6 @@ msgstr "請稍後再嘗試登錄。"
 
 #~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 #~ msgstr "注意：通過此 LAN 與交換點的任何網路聯繫也將被刪除"
-
-#, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "IXF 導入日誌條目"
 
 #~ msgid "Add LAN"
 #~ msgstr "添加 LAN"

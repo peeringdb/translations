@@ -835,6 +835,14 @@ msgstr "{} (Forehåndsvis)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Not Required"
+msgid "No requirements"
+msgstr "Ikke påkrævet"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -870,6 +878,28 @@ msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Change Password"
+msgid "Reset all"
+msgstr "Ændre kodeord"
+
+msgid "Reset hints"
+msgstr ""
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Reset email"
+msgstr "Salg"
+
+msgid "Reset tickets"
 msgstr ""
 
 #, python-brace-format
@@ -1088,6 +1118,21 @@ msgstr ""
 msgid "Invalid speed value: {}"
 msgstr ""
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr ""
 
@@ -1189,6 +1234,12 @@ msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr ""
 
 msgid "The item that this queue is attached to was created by this user"
+msgstr ""
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
 msgstr ""
 
 msgid "DeskPRO Ticket"
@@ -1331,30 +1382,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "Opdateret"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import Log"
 msgid "IXF Member Data"
 msgstr "IXF import log"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "IX-F changed"
-msgstr "Exchange"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr ""
-
-msgid "Remove"
-msgstr "Fjern"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1439,6 +1476,16 @@ msgstr "Brugere"
 msgid "Password Reset Initiated"
 msgstr "Kodeord skal være ens"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Email"
+msgstr "IXF Import Log Linjer"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Emails"
+msgstr "IXF Import Log Linjer"
+
 msgid "name of the tool"
 msgstr ""
 
@@ -1463,6 +1510,26 @@ msgid "Done"
 msgstr ""
 
 msgid "Running"
+msgstr ""
+
+msgid "Environment Setting"
+msgstr ""
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+#, fuzzy
+#| msgid "Updated"
+msgid "Last Updated"
+msgstr "Opdateret"
+
+msgid "Configured on"
+msgstr ""
+
+msgid "Last updated by this user"
 msgstr ""
 
 #, fuzzy
@@ -1582,6 +1649,9 @@ msgid "this page"
 msgstr ""
 
 msgid "instead"
+msgstr ""
+
+msgid "To use regex search, begin search term with ^ and end with $."
 msgstr ""
 
 msgid "Save and Apply"
@@ -2586,6 +2656,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr ""
+
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2603,6 +2676,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr ""
 
+msgid "Remove"
+msgstr "Fjern"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2614,6 +2690,12 @@ msgstr ""
 #| msgid "Updated"
 msgid "Update"
 msgstr "Opdateret"
+
+msgid "Set IPv6 address"
+msgstr ""
+
+msgid "Set IPv4 address"
+msgstr ""
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2954,11 +3036,6 @@ msgstr ""
 msgid "Country Code"
 msgstr ""
 
-#, fuzzy
-#| msgid "Updated"
-msgid "Last Updated"
-msgstr "Opdateret"
-
 msgid "Markdown enabled"
 msgstr ""
 
@@ -3005,6 +3082,11 @@ msgstr ""
 msgid "Please wait a bit before trying to login again."
 msgstr ""
 
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "IX-F changed"
+#~ msgstr "Exchange"
+
 #~ msgid "Duplicate IP"
 #~ msgstr "Duplikeret IP"
 
@@ -3019,8 +3101,3 @@ msgstr ""
 
 #~ msgid "Ipaddress already exists elsewhere"
 #~ msgstr "IP adresse findes allerede et andet sted"
-
-#, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "IXF Import Log Linjer"

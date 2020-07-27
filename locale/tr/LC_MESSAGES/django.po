@@ -825,6 +825,14 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Not Required"
+msgid "No requirements"
+msgstr "Gerekli değil"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -858,6 +866,26 @@ msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+msgid "Reset all"
+msgstr ""
+
+msgid "Reset hints"
+msgstr ""
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Reset email"
+msgstr "Satış"
+
+msgid "Reset tickets"
 msgstr ""
 
 #, python-brace-format
@@ -1069,6 +1097,21 @@ msgstr ""
 msgid "Invalid speed value: {}"
 msgstr ""
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr ""
 
@@ -1166,6 +1209,12 @@ msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr ""
 
 msgid "The item that this queue is attached to was created by this user"
+msgstr ""
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
 msgstr ""
 
 msgid "DeskPRO Ticket"
@@ -1307,28 +1356,14 @@ msgstr ""
 msgid "Last Fetched"
 msgstr ""
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 msgid "IXF Member Data"
 msgstr ""
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "IX-F changed"
-msgstr "Değişim noktası"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr ""
-
-msgid "Remove"
-msgstr "Kaldır"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1413,6 +1448,16 @@ msgstr "Kullanıcılar"
 msgid "Password Reset Initiated"
 msgstr ""
 
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IXF Import Email"
+msgstr "IXF Liste Geçmişi"
+
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IXF Import Emails"
+msgstr "IXF Liste Geçmişi"
+
 msgid "name of the tool"
 msgstr ""
 
@@ -1435,6 +1480,24 @@ msgid "Done"
 msgstr ""
 
 msgid "Running"
+msgstr ""
+
+msgid "Environment Setting"
+msgstr ""
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr ""
+
+msgid "Configured on"
+msgstr ""
+
+msgid "Last updated by this user"
 msgstr ""
 
 msgid "Organization and all Entities it owns"
@@ -1544,6 +1607,9 @@ msgid "this page"
 msgstr ""
 
 msgid "instead"
+msgstr ""
+
+msgid "To use regex search, begin search term with ^ and end with $."
 msgstr ""
 
 msgid "Save and Apply"
@@ -2524,6 +2590,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr ""
+
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2541,6 +2610,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr ""
 
+msgid "Remove"
+msgstr "Kaldır"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2549,6 +2621,12 @@ msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exch
 msgstr ""
 
 msgid "Update"
+msgstr ""
+
+msgid "Set IPv6 address"
+msgstr ""
+
+msgid "Set IPv4 address"
 msgstr ""
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -2884,9 +2962,6 @@ msgstr ""
 msgid "Country Code"
 msgstr ""
 
-msgid "Last Updated"
-msgstr ""
-
 msgid "Markdown enabled"
 msgstr ""
 
@@ -2932,6 +3007,11 @@ msgstr "Eşleşme Politikası Bilgileri"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
+
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "IX-F changed"
+#~ msgstr "Değişim noktası"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "10 Tbps+"

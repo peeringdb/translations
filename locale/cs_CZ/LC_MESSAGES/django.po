@@ -855,6 +855,14 @@ msgstr "{} (Náhled)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Ratio Requirement"
+msgid "No requirements"
+msgstr "Požadavek na poměr provozu"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -886,6 +894,30 @@ msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset all"
+msgstr "Resetovat"
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset hints"
+msgstr "Resetovat"
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Reset email"
+msgstr "Změna e-mailu"
+
+msgid "Reset tickets"
 msgstr ""
 
 #, python-brace-format
@@ -1113,6 +1145,21 @@ msgstr ""
 msgid "Invalid speed value: {}"
 msgstr "Neplatný prefix: {}"
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Notifikace sloučení: {} -> {}"
 
@@ -1209,6 +1256,12 @@ msgstr "Vaše žádost o přidružení se k organizaci \"{}\" byla schválena"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Tato položka, do které je tato fronta připojena, byl vytvořen tímto uživatelem"
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr ""
@@ -1349,30 +1402,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "Poslední aktualizace"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IXF Member Data"
 msgstr "IXF Member Export URL"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchanges"
-msgid "IX-F changed"
-msgstr "Propojovací uzly"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr "Přidat"
-
-msgid "Remove"
-msgstr "Odebrat"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1445,6 +1484,16 @@ msgstr "uživatelé"
 msgid "Password Reset Initiated"
 msgstr "Reset hesla zahájen"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Email"
+msgstr "Záznamy protokolů IXF Importu"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Emails"
+msgstr "Záznamy protokolů IXF Importu"
+
 msgid "name of the tool"
 msgstr "jméno nástroje"
 
@@ -1468,6 +1517,26 @@ msgid "Done"
 msgstr ""
 
 msgid "Running"
+msgstr ""
+
+msgid "Environment Setting"
+msgstr ""
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr "Poslední aktualizace"
+
+#, fuzzy
+#| msgid "Confirmed"
+msgid "Configured on"
+msgstr "Potrzeno"
+
+msgid "Last updated by this user"
 msgstr ""
 
 msgid "Organization and all Entities it owns"
@@ -1575,6 +1644,9 @@ msgstr "tato stránka"
 
 msgid "instead"
 msgstr "místo toho"
+
+msgid "To use regex search, begin search term with ^ and end with $."
+msgstr ""
 
 msgid "Save and Apply"
 msgstr ""
@@ -2570,6 +2642,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr "Přidat"
+
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2589,6 +2664,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "Veřejné propojovací uzly"
 
+msgid "Remove"
+msgstr "Odebrat"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2598,6 +2676,16 @@ msgstr ""
 
 msgid "Update"
 msgstr "Aktualizovat"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv6 address"
+msgstr "e-mailová adresa"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv4 address"
+msgstr "e-mailová adresa"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2936,9 +3024,6 @@ msgstr "Lokalita"
 msgid "Country Code"
 msgstr "Kód země"
 
-msgid "Last Updated"
-msgstr "Poslední aktualizace"
-
 msgid "Markdown enabled"
 msgstr "Označování povoleno"
 
@@ -2988,6 +3073,11 @@ msgstr "Peering Policy Information"
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 
+#, fuzzy
+#~| msgid "Exchanges"
+#~ msgid "IX-F changed"
+#~ msgstr "Propojovací uzly"
+
 #~ msgid "Duplicate IP"
 #~ msgstr "Duplicitní IP adresa"
 
@@ -3030,11 +3120,6 @@ msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 
 #~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 #~ msgstr "POZOR: Jakékoli síťové vztahy k propojovacímu bodu prostřednictvím této sítě LAN budou také odstraněny"
-
-#, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "Záznamy protokolů IXF Importu"
 
 #~ msgid "Add LAN"
 #~ msgstr "Přidat LAN"

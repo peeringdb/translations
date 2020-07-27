@@ -853,6 +853,14 @@ msgstr "{} (Pré-visualização)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Ratio Requirement"
+msgid "No requirements"
+msgstr "Requisito de Proporção"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Este comando está já em espera / a correr - por favor espere o seu final antes de executar novamente"
 
@@ -885,6 +893,32 @@ msgstr "Restaurar este objeto - procurar por [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "Apenas objetos do tipo {} podem ser restaurados através deste interface neste momento"
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset all"
+msgstr "Redefinir"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Reset hints"
+msgstr "Reiniciar Ambiente"
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Reset email"
+msgstr "Alterar seu e-mail"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Reset tickets"
+msgstr "Reiniciar Ambiente"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1095,6 +1129,21 @@ msgstr "Erro de endereço IP '{}' na vlan_list para vlan_id {}"
 msgid "Invalid speed value: {}"
 msgstr "Valor de velocidade inválido: {}"
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Mesclar Notificação: {} -> {}"
 
@@ -1191,6 +1240,12 @@ msgstr "Sua afiliação a Organização \"{}\" foi aprovado"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "O item ao qual esta fila está anexada foi criado por este usuário"
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr ""
@@ -1331,30 +1386,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "Ultima atualização"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IXF Member Data"
 msgstr "URL de Exportação de Membro IXF"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "No changes"
-msgid "IX-F changed"
-msgstr "Sem alterações"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr "Adicionar"
-
-msgid "Remove"
-msgstr "Remover"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1427,6 +1468,16 @@ msgstr "Usuários"
 msgid "Password Reset Initiated"
 msgstr "Redefinição de senha Iniciada"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Email"
+msgstr "IXF Entradas no registro de importação "
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Emails"
+msgstr "IXF Entradas no registro de importação "
+
 msgid "name of the tool"
 msgstr "nome da ferramenta"
 
@@ -1450,6 +1501,28 @@ msgstr "Terminado"
 
 msgid "Running"
 msgstr "A correr"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Environment Setting"
+msgstr "Reiniciar Ambiente"
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr "Ultima atualização"
+
+#, fuzzy
+#| msgid "Confirmed"
+msgid "Configured on"
+msgstr "Confirmado"
+
+msgid "Last updated by this user"
+msgstr ""
 
 msgid "Organization and all Entities it owns"
 msgstr "Organização e todas as suas Entidades"
@@ -1554,6 +1627,9 @@ msgstr "esta página"
 
 msgid "instead"
 msgstr "em vez de"
+
+msgid "To use regex search, begin search term with ^ and end with $."
+msgstr ""
 
 msgid "Save and Apply"
 msgstr ""
@@ -2533,6 +2609,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr "Adicionar"
+
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2552,6 +2631,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "Pontos de Troca de Peering Público"
 
+msgid "Remove"
+msgstr "Remover"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2561,6 +2643,16 @@ msgstr ""
 
 msgid "Update"
 msgstr "Atualizar"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv6 address"
+msgstr "E-mail"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv4 address"
+msgstr "E-mail"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2895,9 +2987,6 @@ msgstr "Localização"
 msgid "Country Code"
 msgstr "Código do país"
 
-msgid "Last Updated"
-msgstr "Ultima atualização"
-
 msgid "Markdown enabled"
 msgstr "Markdown habilitado"
 
@@ -2945,6 +3034,11 @@ msgstr "Informação da Política de Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
+
+#, fuzzy
+#~| msgid "No changes"
+#~ msgid "IX-F changed"
+#~ msgstr "Sem alterações"
 
 #~ msgid "Duplicate IP"
 #~ msgstr "IP duplicado"
@@ -3000,11 +3094,6 @@ msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
 
 #~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 #~ msgstr "ATENÇÃO: Todos os relacionamentoa de rede com o ponto de troca por meio dessa LAN também serão removidos"
-
-#, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "IXF Entradas no registro de importação "
 
 #~ msgid "Add LAN"
 #~ msgstr "Adicionar LAN"

@@ -853,6 +853,14 @@ msgstr "{} (プレビュー)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Ratio Requirement"
+msgid "No requirements"
+msgstr "トラフィック割合の条件"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "このコマンドは待機中もしくは実行中です。実行が完了するまでお待ちください。"
 
@@ -885,6 +893,32 @@ msgstr "このオブジェクトを復元します - [reftag] [id] で検索"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "いまは、このインタフェースを介して {} タイプのオブジェクトのみが復元されます"
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset all"
+msgstr "リセット"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Reset hints"
+msgstr "環境をリセットします"
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Reset email"
+msgstr "メールアドレスを変更する"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Reset tickets"
+msgstr "環境をリセットします"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1127,6 +1161,21 @@ msgstr ""
 msgid "Invalid speed value: {}"
 msgstr "無効なプレフィクス"
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 統合の通知: {} -> {}"
 
@@ -1223,6 +1272,12 @@ msgstr "組織所属 \"{}\" が承認されました"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "このユーザによって、このキューに加わっているこのアイテムが生成されました"
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr ""
@@ -1363,30 +1418,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "最新のアップデート"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IXF Member Data"
 msgstr "IXF メンバー出力 URL"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchanges"
-msgid "IX-F changed"
-msgstr "エクスチェンジ"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr "追加"
-
-msgid "Remove"
-msgstr "削除する"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1459,6 +1500,16 @@ msgstr "ユーザ(users)"
 msgid "Password Reset Initiated"
 msgstr "パスワードの初期化"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Email"
+msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Emails"
+msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+
 msgid "name of the tool"
 msgstr "ツール名"
 
@@ -1482,6 +1533,28 @@ msgstr "完了"
 
 msgid "Running"
 msgstr "実行中"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Environment Setting"
+msgstr "環境をリセットします"
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr "最新のアップデート"
+
+#, fuzzy
+#| msgid "Confirmed"
+msgid "Configured on"
+msgstr "確認済み(Confirmed)"
+
+msgid "Last updated by this user"
+msgstr ""
 
 msgid "Organization and all Entities it owns"
 msgstr "所有している組織と全エンティティ"
@@ -1586,6 +1659,9 @@ msgstr "このページ"
 
 msgid "instead"
 msgstr "代わりに"
+
+msgid "To use regex search, begin search term with ^ and end with $."
+msgstr ""
 
 msgid "Save and Apply"
 msgstr ""
@@ -2541,6 +2617,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr "追加"
+
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2560,6 +2639,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "接続しているエクスチェンジポイント"
 
+msgid "Remove"
+msgstr "削除する"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2569,6 +2651,16 @@ msgstr ""
 
 msgid "Update"
 msgstr "更新"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv6 address"
+msgstr "メールアドレス"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv4 address"
+msgstr "メールアドレス"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2899,9 +2991,6 @@ msgstr "住所"
 msgid "Country Code"
 msgstr "国コード"
 
-msgid "Last Updated"
-msgstr "最新のアップデート"
-
 msgid "Markdown enabled"
 msgstr "マークダウン記法が利用可能です"
 
@@ -2950,6 +3039,11 @@ msgstr "ピアリングポリシー情報"
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
 
+#, fuzzy
+#~| msgid "Exchanges"
+#~ msgid "IX-F changed"
+#~ msgstr "エクスチェンジ"
+
 #~ msgid "Duplicate IP"
 #~ msgstr "重複した IP アドレス(IP)"
 
@@ -2992,11 +3086,6 @@ msgstr "再度ログインを試す前に少々お待ちください"
 
 #~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 #~ msgstr "注意: このエクスチェンジに関連したネットワークも削除されます"
-
-#, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
 
 #~ msgid "Add LAN"
 #~ msgstr "LAN を追加"

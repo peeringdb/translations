@@ -795,6 +795,14 @@ msgstr "{} (미리보기)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Ratio Requirement"
+msgid "No requirements"
+msgstr "비율 요구 사항"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "이 명령은 이미 대기/실행 중이므로 완료될 때까지 기다린 후 다시 실행하십시오"
 
@@ -827,6 +835,32 @@ msgstr "이 개체 복원 -  [reftag] [id]로 검색"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "{} 유형 개체만 이 지점에서 이 인터페이스를 통해 복원 가능함"
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset all"
+msgstr "재설정"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Reset hints"
+msgstr "환경 재설정"
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Sales Email"
+msgid "Reset email"
+msgstr "영업 이메일"
+
+#, fuzzy
+#| msgid "DeskPRO Tickets"
+msgid "Reset tickets"
+msgstr "데스크프로 티켓"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1025,6 +1059,21 @@ msgstr "vlan_id {}에 대한 vlan_list 항목에서 IP 주소 오류 '{}'"
 msgid "Invalid speed value: {}"
 msgstr "잘못된 속도 값: {}"
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 병합 공지: {} -> {}"
 
@@ -1117,6 +1166,12 @@ msgstr "조직 \"{}\"에 대한 가입이 승인됨"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr "데스크프로 티켓"
@@ -1257,30 +1312,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "최신 업데이트"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IX-F Member Export URL"
 msgid "IXF Member Data"
 msgstr "IX-F 멤버 내보내기 URL"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "No changes"
-msgid "IX-F changed"
-msgstr "변경사항 없음"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr "추가"
-
-msgid "Remove"
-msgstr "삭제"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1353,6 +1394,16 @@ msgstr "사용자"
 msgid "Password Reset Initiated"
 msgstr "암호 재설정 시작됨"
 
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "IXF Import Email"
+msgstr "IX-F 가져오기"
+
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IXF Import Emails"
+msgstr "IXF 가져오기 로그"
+
 msgid "name of the tool"
 msgstr "도구 이름"
 
@@ -1376,6 +1427,28 @@ msgstr "완료"
 
 msgid "Running"
 msgstr "실행 중"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Environment Setting"
+msgstr "환경 재설정"
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr "최신 업데이트"
+
+#, fuzzy
+#| msgid "Confirmed"
+msgid "Configured on"
+msgstr "확인됨"
+
+msgid "Last updated by this user"
+msgstr ""
 
 msgid "Organization and all Entities it owns"
 msgstr "조직 및 그 조직이 소유하는 모든 항목들"
@@ -1480,6 +1553,9 @@ msgstr "이 페이지"
 
 msgid "instead"
 msgstr "대신"
+
+msgid "To use regex search, begin search term with ^ and end with $."
+msgstr ""
 
 msgid "Save and Apply"
 msgstr ""
@@ -2404,6 +2480,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr "추가"
+
 #, fuzzy
 #| msgid "Operational"
 msgid "Options"
@@ -2423,6 +2502,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "공용 피어링 익스체인지 포인트"
 
+msgid "Remove"
+msgstr "삭제"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2432,6 +2514,16 @@ msgstr ""
 
 msgid "Update"
 msgstr "업데이트"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv6 address"
+msgstr "이메일 주소"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv4 address"
+msgstr "이메일 주소"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2750,9 +2842,6 @@ msgstr "위치"
 msgid "Country Code"
 msgstr "국가 코드"
 
-msgid "Last Updated"
-msgstr "최신 업데이트"
-
 msgid "Markdown enabled"
 msgstr "마크다운 사용가능"
 
@@ -2796,6 +2885,11 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#, fuzzy
+#~| msgid "No changes"
+#~ msgid "IX-F changed"
+#~ msgstr "변경사항 없음"
 
 #~ msgid "Duplicate IP"
 #~ msgstr "IP 중복"

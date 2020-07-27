@@ -795,6 +795,14 @@ msgstr "{} (Previzualizare)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Ratio Requirement"
+msgid "No requirements"
+msgstr "Cerințe legate de raport"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Această comandă este deja în așteptare / rulare - vă rugăm să așteptați să se termine înainte de a o executa din nou"
 
@@ -827,6 +835,32 @@ msgstr "Restaurați acest obiect - căutați după [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "În acest moment doar obiectele de tip {} pot fi restabilite prin intermediul acestei interfețe"
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset all"
+msgstr "Resetare"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Reset hints"
+msgstr "Resetează mediul"
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Sales Email"
+msgid "Reset email"
+msgstr "Adresă e-mail pentru vânzări"
+
+#, fuzzy
+#| msgid "DeskPRO Tickets"
+msgid "Reset tickets"
+msgstr "Tickete DeskPRO"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1025,6 +1059,21 @@ msgstr "Eroare la adresa IP '{}' în înregistrarea vlan_list pentru vlan_id {}"
 msgid "Invalid speed value: {}"
 msgstr "Valoarea vitezei nu este validă: {}"
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Îmbină notificarea: {} -> {}"
 
@@ -1117,6 +1166,12 @@ msgstr "Afilierea dvs. la organizația „{}” a fost aprobată"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr "Ticket DeskPRO"
@@ -1257,30 +1312,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "Ultima actualizare"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IX-F Member Export URL"
 msgid "IXF Member Data"
 msgstr "Adresa URL a exportului de membri IX-F"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "No changes"
-msgid "IX-F changed"
-msgstr "Nu s-au făcut modificări"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr "Adăugați"
-
-msgid "Remove"
-msgstr "Eliminați"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1353,6 +1394,16 @@ msgstr "utilizatori"
 msgid "Password Reset Initiated"
 msgstr "A fost inițiată resetarea parolei"
 
+#, fuzzy
+#| msgid "IXF Import Enabled"
+msgid "IXF Import Email"
+msgstr "Importul IXF activat"
+
+#, fuzzy
+#| msgid "IXF Import Enabled"
+msgid "IXF Import Emails"
+msgstr "Importul IXF activat"
+
 msgid "name of the tool"
 msgstr "numele instrumentului"
 
@@ -1376,6 +1427,28 @@ msgstr "Terminat"
 
 msgid "Running"
 msgstr "Executare"
+
+#, fuzzy
+#| msgid "Reset Environment"
+msgid "Environment Setting"
+msgstr "Resetează mediul"
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr "Ultima actualizare"
+
+#, fuzzy
+#| msgid "Confirmed"
+msgid "Configured on"
+msgstr "Confirmat"
+
+msgid "Last updated by this user"
+msgstr ""
 
 msgid "Organization and all Entities it owns"
 msgstr "Organizația și toate entitățile pe care aceasta le deține"
@@ -1480,6 +1553,9 @@ msgstr "această pagină"
 
 msgid "instead"
 msgstr "în locul"
+
+msgid "To use regex search, begin search term with ^ and end with $."
+msgstr ""
 
 msgid "Save and Apply"
 msgstr ""
@@ -2404,6 +2480,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr "Adăugați"
+
 #, fuzzy
 #| msgid "Operational"
 msgid "Options"
@@ -2423,6 +2502,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "Peering public în Internet Exchange-uri"
 
+msgid "Remove"
+msgstr "Eliminați"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2432,6 +2514,16 @@ msgstr ""
 
 msgid "Update"
 msgstr "Actualizați"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv6 address"
+msgstr "adresă de e-mail"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv4 address"
+msgstr "adresă de e-mail"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2746,9 +2838,6 @@ msgstr "Locație"
 msgid "Country Code"
 msgstr "Codul de țară"
 
-msgid "Last Updated"
-msgstr "Ultima actualizare"
-
 msgid "Markdown enabled"
 msgstr "Markdown activat"
 
@@ -2792,6 +2881,11 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#, fuzzy
+#~| msgid "No changes"
+#~ msgid "IX-F changed"
+#~ msgstr "Nu s-au făcut modificări"
 
 #~ msgid "Duplicate IP"
 #~ msgstr "Copiați adresa IP"
@@ -2846,9 +2940,6 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 
 #~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 #~ msgstr "ATENȚIE: Toate corelările cu Internet Exchange-ul prin intermediul acestui LAN vor fi de asemenea eliminate"
-
-#~ msgid "IXF Import Enabled"
-#~ msgstr "Importul IXF activat"
 
 #~ msgid "Add LAN"
 #~ msgstr "Adăugați LAN"

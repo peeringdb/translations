@@ -852,6 +852,14 @@ msgstr "{} (Предпросмотр)"
 msgid "Apply"
 msgstr ""
 
+#, fuzzy
+#| msgid "Ratio Requirement"
+msgid "No requirements"
+msgstr "Требуется соотношение трафика"
+
+msgid "Value"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -887,6 +895,30 @@ msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
 
 msgid "Only {} type objects may be restored through this interface at this point"
+msgstr ""
+
+msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgstr ""
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset all"
+msgstr "Сбросить"
+
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset hints"
+msgstr "Сбросить"
+
+msgid "Reset dismisses"
+msgstr ""
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Reset email"
+msgstr "Изменить емайл"
+
+msgid "Reset tickets"
 msgstr ""
 
 #, python-brace-format
@@ -1114,6 +1146,21 @@ msgstr ""
 msgid "Invalid speed value: {}"
 msgstr "Недействительный префикс: {}"
 
+msgid "IP addresses moved to same entry"
+msgstr ""
+
+msgid "IPv6 not set"
+msgstr ""
+
+msgid "IPv4 not set"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
+msgstr ""
+
+msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Уведомление о слиянии: {} -> {}"
 
@@ -1214,6 +1261,12 @@ msgstr "Ваша заявка на связь с Организацией \"{}\"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Элемент с которым ассоциирована данная очередь был создан пользователем"
+
+msgid "Ticket reference on the DeskPRO side"
+msgstr ""
+
+msgid "Ticket id on the DeskPRO side"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr ""
@@ -1354,30 +1407,16 @@ msgstr ""
 msgid "Last Fetched"
 msgstr "Последнее обновление"
 
+msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IXF Member Data"
 msgstr "URL экспортируемого списка участников IXF"
 
-msgid "IPv4 not set"
+msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchanges"
-msgid "IX-F changed"
-msgstr "IXP"
-
-msgid "Modify"
-msgstr ""
-
-msgid "Add"
-msgstr "Новый"
-
-msgid "Remove"
-msgstr "Удалить"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr ""
@@ -1452,6 +1491,16 @@ msgstr "пользователи"
 msgid "Password Reset Initiated"
 msgstr "Инициирована смена пароля"
 
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Email"
+msgstr "Записи лога импорта IXF"
+
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IXF Import Emails"
+msgstr "Записи лога импорта IXF"
+
 msgid "name of the tool"
 msgstr "наименование утилиты"
 
@@ -1474,6 +1523,26 @@ msgid "Done"
 msgstr ""
 
 msgid "Running"
+msgstr ""
+
+msgid "Environment Setting"
+msgstr ""
+
+msgid "Environment Settings"
+msgstr ""
+
+msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgstr ""
+
+msgid "Last Updated"
+msgstr "Последнее обновление"
+
+#, fuzzy
+#| msgid "Confirmed"
+msgid "Configured on"
+msgstr "Подтверждено"
+
+msgid "Last updated by this user"
 msgstr ""
 
 msgid "Organization and all Entities it owns"
@@ -1582,6 +1651,9 @@ msgstr "эту страницу"
 
 msgid "instead"
 msgstr "вместо"
+
+msgid "To use regex search, begin search term with ^ and end with $."
+msgstr ""
 
 msgid "Save and Apply"
 msgstr ""
@@ -2564,6 +2636,9 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
+msgid "Add"
+msgstr "Новый"
+
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2583,6 +2658,9 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "IXP для публичного пиринга"
 
+msgid "Remove"
+msgstr "Удалить"
+
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -2592,6 +2670,16 @@ msgstr ""
 
 msgid "Update"
 msgstr "Изменить"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv6 address"
+msgstr "емайл"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Set IPv4 address"
+msgstr "емайл"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -2925,9 +3013,6 @@ msgstr "Локация"
 msgid "Country Code"
 msgstr "Код страны"
 
-msgid "Last Updated"
-msgstr "Последнее обновление"
-
 msgid "Markdown enabled"
 msgstr "Разметка Markdown включена"
 
@@ -2976,6 +3061,11 @@ msgstr "Информация о пиринговой политике"
 msgid "Please wait a bit before trying to login again."
 msgstr "Подождите несколько секунд перед повторной попыткой авторизации."
 
+#, fuzzy
+#~| msgid "Exchanges"
+#~ msgid "IX-F changed"
+#~ msgstr "IXP"
+
 #~ msgid "Duplicate IP"
 #~ msgstr "Конфликтующие IP-адрес"
 
@@ -3018,11 +3108,6 @@ msgstr "Подождите несколько секунд перед повто
 
 #~ msgid "ATTENTION: Any network relationships to the exchange via this LAN will be removed as well"
 #~ msgstr "ВНИМАНИЕ: Все связи сетей с IXP через данный LAN также будут удалены"
-
-#, fuzzy
-#~| msgid "IXF Import Log Entries"
-#~ msgid "IXF Import Enabled"
-#~ msgstr "Записи лога импорта IXF"
 
 #~ msgid "Add LAN"
 #~ msgstr "Новый LAN"
