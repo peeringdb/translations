@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-31 07:58+0000\n"
+"PO-Revision-Date: 2020-08-02 09:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -793,7 +793,7 @@ msgid "{} (Preview)"
 msgstr "{} (미리보기)"
 
 msgid "Apply"
-msgstr ""
+msgstr "적용"
 
 #, fuzzy
 #| msgid "Ratio Requirement"
@@ -1015,13 +1015,13 @@ msgid "ASNs in this range are not allowed in this environment"
 msgstr "이 환경에서는 이 범위의 ASN이 허용되지 않음"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr ""
+msgstr "(asn, IPv4 및 IPv6)에 대한 항목이 단일 멤버 연결로 익스체인지의 IX-F 데이터에 존재하지 않음"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr ""
+msgstr "(asn, IPv4 및 IPv6)의 항목이 PeeringDB에 단일한 네트워크 -> ix 연결로 존재하지 않음"
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr ""
+msgstr "PeeringDB와 익스체인지의 IX-F 데이터 간의 데이터 차이"
 
 msgid "IXF import url not specified"
 msgstr "IXF 가져오기 URL이 지정되지 않음"
