@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-08-02 09:58+0000\n"
+"PO-Revision-Date: 2020-08-02 10:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1018,7 +1018,7 @@ msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX
 msgstr "(asn, IPv4 및 IPv6)에 대한 항목이 단일 멤버 연결로 익스체인지의 IX-F 데이터에 존재하지 않음"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr "(asn, IPv4 및 IPv6)의 항목이 PeeringDB에 단일한 네트워크 -> ix 연결로 존재하지 않음"
+msgstr "(asn, IPv4 및 IPv6)의 항목이 PeeringDB에 단일한 네트워크로 존재하지 않음 -> ix 연결"
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "PeeringDB와 익스체인지의 IX-F 데이터 간의 데이터 차이"
@@ -1515,10 +1515,8 @@ msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 �
 msgid "Network has been deleted. Please contact {}"
 msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
 
-#, fuzzy
-#| msgid "Suggest another exchange"
 msgid "ASN cannot be changed."
-msgstr "다른 익스체인지 제안"
+msgstr "ASN은 변경될 수 없습니다."
 
 msgid "Specify at least one email address"
 msgstr "하나 이상의 이메일 주소를 지정하시오"
@@ -2640,10 +2638,8 @@ msgstr ""
 msgid "Remove this organization from PeeringDB."
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid organization"
 msgid "Delete organization?"
-msgstr "유효하지 않는 조직"
+msgstr "조직을 삭제하시겠습니까?"
 
 #, python-format
 msgid "Delete %(name)s"
@@ -2675,10 +2671,8 @@ msgstr "아이디 찾기 .."
 msgid "Token"
 msgstr "토큰"
 
-#, fuzzy
-#| msgid "Client credentials"
 msgid "Enter your credentials."
-msgstr "클라이언트 자격 증명"
+msgstr "로그인 정보를 입력하십시오."
 
 msgid ""
 "We are calling your phone right now, please enter the\n"
