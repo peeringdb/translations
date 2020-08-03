@@ -1102,6 +1102,9 @@ msgstr "Nenhum JSON pode ser analisado"
 msgid "IX-F data not locally cached for this resource yet."
 msgstr ""
 
+msgid "Address {} assigned to more than one distinct connection"
+msgstr ""
+
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Nenhuma entrada em nenhuma das listas vlan_list, abortando."
 
@@ -1127,6 +1130,11 @@ msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr "Erro de endereço IP '{}' na vlan_list para vlan_id {}"
 
 msgid "Invalid speed value: {}"
+msgstr "Valor de velocidade inválido: {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Invalid speed value: could not be parsed"
 msgstr "Valor de velocidade inválido: {}"
 
 msgid "IP addresses moved to same entry"
@@ -1351,6 +1359,12 @@ msgstr "Notificação de Mesclagem"
 msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr ""
 
+msgid "IX-F sent IPs for unsupported protocol"
+msgstr ""
+
+msgid "IX has been sending IP addresses for protocol not supported by network"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr ""
 
@@ -1377,6 +1391,9 @@ msgstr ""
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
 msgstr ""
+
+msgid "RS Peer"
+msgstr "Peer RS"
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
@@ -1628,7 +1645,10 @@ msgstr "esta página"
 msgid "instead"
 msgstr "em vez de"
 
-msgid "To use regex search, begin search term with ^ and end with $."
+#, python-format
+msgid ""
+"\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -2597,7 +2617,7 @@ msgstr ""
 msgid "Their PeeringDB entry"
 msgstr ""
 
-msgid "Autoamtically update and remove all suggested entries"
+msgid "Automatically update and remove all suggested entries"
 msgstr ""
 
 msgid "Auto-resolve"
@@ -2616,9 +2636,6 @@ msgstr "Adicionar"
 #| msgid "Regional"
 msgid "Options"
 msgstr "Regional"
-
-msgid "RS Peer"
-msgstr "Peer RS"
 
 msgid "Hide this suggestion until the exchange updates it."
 msgstr ""

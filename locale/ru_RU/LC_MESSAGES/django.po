@@ -1111,6 +1111,9 @@ msgstr "Парсинг JSON невозможен"
 msgid "IX-F data not locally cached for this resource yet."
 msgstr ""
 
+msgid "Address {} assigned to more than one distinct connection"
+msgstr ""
+
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Нет записей ни в одном из списков vlan_list, операция прервана."
 
@@ -1144,6 +1147,11 @@ msgstr ""
 #, fuzzy
 #| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: {}"
+msgstr "Недействительный префикс: {}"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid speed value: could not be parsed"
 msgstr "Недействительный префикс: {}"
 
 msgid "IP addresses moved to same entry"
@@ -1372,6 +1380,12 @@ msgstr "Уведомление о слиянии"
 msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr ""
 
+msgid "IX-F sent IPs for unsupported protocol"
+msgstr ""
+
+msgid "IX has been sending IP addresses for protocol not supported by network"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr ""
 
@@ -1398,6 +1412,9 @@ msgstr ""
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
 msgstr ""
+
+msgid "RS Peer"
+msgstr "Пир с Route Server"
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
@@ -1652,7 +1669,10 @@ msgstr "эту страницу"
 msgid "instead"
 msgstr "вместо"
 
-msgid "To use regex search, begin search term with ^ and end with $."
+#, python-format
+msgid ""
+"\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -2624,7 +2644,7 @@ msgstr ""
 msgid "Their PeeringDB entry"
 msgstr ""
 
-msgid "Autoamtically update and remove all suggested entries"
+msgid "Automatically update and remove all suggested entries"
 msgstr ""
 
 msgid "Auto-resolve"
@@ -2643,9 +2663,6 @@ msgstr "Новый"
 #| msgid "Regional"
 msgid "Options"
 msgstr "Региональный"
-
-msgid "RS Peer"
-msgstr "Пир с Route Server"
 
 msgid "Hide this suggestion until the exchange updates it."
 msgstr ""

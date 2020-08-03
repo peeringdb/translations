@@ -1032,6 +1032,9 @@ msgstr "Niciun JSON nu a putut fi analizat"
 msgid "IX-F data not locally cached for this resource yet."
 msgstr "Datele IX-F încă nu sunt memorate în cache-ul local pentru această resursă."
 
+msgid "Address {} assigned to more than one distinct connection"
+msgstr ""
+
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Nu există înregistrări în niciunul din elementele vlan_lists, se anulează operațiunea."
 
@@ -1057,6 +1060,11 @@ msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr "Eroare la adresa IP '{}' în înregistrarea vlan_list pentru vlan_id {}"
 
 msgid "Invalid speed value: {}"
+msgstr "Valoarea vitezei nu este validă: {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Invalid speed value: could not be parsed"
 msgstr "Valoarea vitezei nu este validă: {}"
 
 msgid "IP addresses moved to same entry"
@@ -1277,6 +1285,12 @@ msgstr "Îmbină notificarea"
 msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr ""
 
+msgid "IX-F sent IPs for unsupported protocol"
+msgstr ""
+
+msgid "IX has been sending IP addresses for protocol not supported by network"
+msgstr ""
+
 msgid "IXLan id needs to match parent ix id"
 msgstr "ID-ul IXLan trebuie să se potrivească cu ID-ul IX-ului părinte"
 
@@ -1303,6 +1317,9 @@ msgstr ""
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
 msgstr ""
+
+msgid "RS Peer"
+msgstr "RS Peer"
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
@@ -1554,7 +1571,10 @@ msgstr "această pagină"
 msgid "instead"
 msgstr "în locul"
 
-msgid "To use regex search, begin search term with ^ and end with $."
+#, python-format
+msgid ""
+"\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -2468,7 +2488,7 @@ msgstr ""
 msgid "Their PeeringDB entry"
 msgstr ""
 
-msgid "Autoamtically update and remove all suggested entries"
+msgid "Automatically update and remove all suggested entries"
 msgstr ""
 
 msgid "Auto-resolve"
@@ -2487,9 +2507,6 @@ msgstr "Adăugați"
 #| msgid "Operational"
 msgid "Options"
 msgstr "Operațional"
-
-msgid "RS Peer"
-msgstr "RS Peer"
 
 msgid "Hide this suggestion until the exchange updates it."
 msgstr ""
