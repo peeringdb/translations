@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-08-16 10:58+0000\n"
+"PO-Revision-Date: 2020-08-16 11:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -238,10 +238,8 @@ msgstr "지역"
 msgid "Global"
 msgstr "글로벌"
 
-#, fuzzy
-#| msgid "0-20 Mbps"
 msgid "0-20Mbps"
-msgstr "0-20 메가비트"
+msgstr "0-20메가비트"
 
 msgid "20-100Mbps"
 msgstr "20-100 메가비트"
@@ -258,65 +256,41 @@ msgstr "5-10 기가비트"
 msgid "10-20Gbps"
 msgstr "10-20 기가비트"
 
-#, fuzzy
-#| msgid "20-50 Gbps"
 msgid "20-50Gbps"
-msgstr "20-50 기가비트"
+msgstr "20-50기가비트"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Gbps"
-msgstr "50-100 기가비트"
+msgstr "50-100기가비트"
 
-#, fuzzy
-#| msgid "100-200 Gbps"
 msgid "100-200Gbps"
-msgstr "100-200 기가비트"
+msgstr "100-200기가비트"
 
-#, fuzzy
-#| msgid "200-300 Gbps"
 msgid "200-300Gbps"
-msgstr "200-300 기가비트"
+msgstr "200-300기가비트"
 
-#, fuzzy
-#| msgid "300-500 Gbps"
 msgid "300-500Gbps"
-msgstr "300-500 기가비트"
+msgstr "300-500기가비트"
 
-#, fuzzy
-#| msgid "500-1000 Gbps"
 msgid "500-1000Gbps"
-msgstr "500-1000 기가비트"
+msgstr "500-1000기가비트"
 
-#, fuzzy
-#| msgid "1 Tbps+"
 msgid "1-5Tbps"
-msgstr "1 테라비트 이상"
+msgstr "1-5테라비트"
 
-#, fuzzy
-#| msgid "5-10Gbps"
 msgid "5-10Tbps"
-msgstr "5-10 기가비트"
+msgstr "5-10테라비트"
 
-#, fuzzy
-#| msgid "10-20Gbps"
 msgid "10-20Tbps"
-msgstr "10-20 기가비트"
+msgstr "10-20테라비트"
 
-#, fuzzy
-#| msgid "20-50 Gbps"
 msgid "20-50Tbps"
-msgstr "20-50 기가비트"
+msgstr "20-50테라비트"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Tbps"
-msgstr "50-100 기가비트"
+msgstr "50-100테라비트"
 
-#, fuzzy
-#| msgid "100+ Gbps"
 msgid "100+Tbps"
-msgstr "100 기가비트 이상"
+msgstr "100테라비트 이상"
 
 msgid "NSP"
 msgstr "NSP (네트워크 서비스 공급자)"
@@ -534,15 +508,11 @@ msgstr "정책부 이메일"
 msgid "Policy Phone"
 msgstr "정책부 연락처"
 
-#, fuzzy
-#| msgid "Network not found"
 msgid "IX-F Network Count"
-msgstr "네트워크를 찾을 수 없음"
+msgstr "IX-F 네트워크 수"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "IX-F Last Import"
-msgstr "IX-F 가져오기"
+msgstr "IX-F 마지막 가져오기"
 
 msgid "Internet Exchange"
 msgstr "인터넷 익스체인지"
@@ -568,10 +538,8 @@ msgstr ""
 msgid "IX-F Member Export URL"
 msgstr "IX-F 멤버 내보내기 URL"
 
-#, fuzzy
-#| msgid "IX-F Member Export URL"
 msgid "IX-F Member Export URL Visibility"
-msgstr "IX-F 멤버 내보내기 URL"
+msgstr "IX-F 멤버 내보내기 URL 가시성"
 
 msgid "Internet Exchange LAN"
 msgstr "인터넷 익스체인지 LAN"
@@ -2367,7 +2335,7 @@ msgid "Local Facilities"
 msgstr "설비"
 
 msgid "Filter"
-msgstr ""
+msgstr "필터"
 
 msgid "No filter matches."
 msgstr "일치하는 필터 없음."
@@ -2466,37 +2434,37 @@ msgid "Refresh"
 msgstr "새로고침"
 
 msgid "Some exchanges suggest updates to your entries in their peering list."
-msgstr ""
+msgstr "일부 익스체인지에서는 피어링 목록의 항목을 업데이트하도록 제안합니다."
 
 msgid "Review suggestions"
-msgstr ""
+msgstr "검토 제안"
 
 msgid "You have dismissed some suggestions that are still available."
-msgstr ""
+msgstr "당신은 아직 이용할 수 있는 몇 가지 제안을 거절했습니다."
 
 msgid "Will restore any suggestions you have previously dismissed"
-msgstr ""
+msgstr "이전에 취소한 모든 제안이 복원될 것입니다"
 
 msgid "Reset Suggestions"
-msgstr ""
+msgstr "제안 재설정"
 
 msgid "Expand each exchange below to review, apply or dismiss those suggestions"
-msgstr ""
+msgstr "아래 각 교환을 확장하여 해당 제안을 검토, 적용 또는 취소하십시오"
 
 msgid "Their PeeringDB entry"
-msgstr ""
+msgstr "PeringDB 항목"
 
 msgid "Automatically update and remove all suggested entries"
 msgstr ""
 
 msgid "Auto-resolve"
-msgstr ""
+msgstr "자동 해결"
 
 msgid "Automatically add all suggested entries"
-msgstr ""
+msgstr "모든 제안된 항목들 자동 추가"
 
 msgid "Auto-add"
-msgstr ""
+msgstr "자동 추가"
 
 msgid "Add"
 msgstr "추가"
@@ -2507,10 +2475,10 @@ msgid "Options"
 msgstr "작동 가능"
 
 msgid "Hide this suggestion until the exchange updates it."
-msgstr ""
+msgstr "익스체인지가 업데이트할 때 까지 이 제안을 숨기기."
 
 msgid "Dismiss"
-msgstr ""
+msgstr "제거"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -2521,11 +2489,11 @@ msgid "Remove"
 msgstr "삭제"
 
 msgid "Remove this entry from your public peering exchange points list"
-msgstr ""
+msgstr "이 항목을 당신의 공용 피어링 익스체인지 포인트 리스트에서 제거"
 
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr ""
+msgstr "공용 피어링 익스체인지 포인트 목록에서 %(ix_name)s 에 대한 %(ixf_id)s 항목을 제거하시겠습니까?"
 
 msgid "Update"
 msgstr "업데이트"
@@ -2541,19 +2509,19 @@ msgid "Set IPv4 address"
 msgstr "이메일 주소"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
+msgstr "공용 피어링 교환 지점 목록에서 이 항목을 업데이트하십시오. 또한 이러한 변경사항을 수락한 후에도 계속 변경사항을 유지하려면 네트워크 기록을 저장해야 합니다."
 
 msgid "Accept"
-msgstr ""
+msgstr "수락"
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
-msgstr ""
+msgstr "네트워크에 의해 제거된 익스체인지로부터 활성 제안들을 복구할 것입니다"
 
 msgid "Will add all suggested entries"
-msgstr ""
+msgstr "모든 제안된 항목들을 추가할 것입니다"
 
 msgid "Auto Add"
-msgstr ""
+msgstr "자동 추가"
 
 msgid "Network - Exchange link"
 msgstr "네트워크 - 익스체인지 링크"
@@ -2599,7 +2567,7 @@ msgid "Policy URL"
 msgstr "정책 URL"
 
 msgid "Only use this if you own the network"
-msgstr ""
+msgstr "당신이 네트워크를 소유하는 경우에만 사용하십시오"
 
 msgid "Add a new Network to your Organization."
 msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
@@ -2650,17 +2618,17 @@ msgstr "또한 검토가 보류 중인 항목들은 사용자에게 권한을 �
 
 #, python-format
 msgid "%(name)s cannot be deleted."
-msgstr ""
+msgstr "%(name)s 을(를) 삭제할 수 없음."
 
 msgid "Remove this organization from PeeringDB."
-msgstr ""
+msgstr "PeeringDB에서 이 조직 제거하기."
 
 msgid "Delete organization?"
 msgstr "조직을 삭제하시겠습니까?"
 
 #, python-format
 msgid "Delete %(name)s"
-msgstr ""
+msgstr "%(name)s 삭제"
 
 msgid "Thank you for your suggestion."
 msgstr "제안해주셔서 감사합니다."
@@ -2695,34 +2663,43 @@ msgid ""
 "We are calling your phone right now, please enter the\n"
 "        digits you hear."
 msgstr ""
+"지금 당신의 폰으로 전화를 걸고 있습니다, 들리는 숫자를 \n"
+"입력하십시오."
 
 msgid ""
 "We sent you a text message, please enter the tokens we\n"
 "        sent."
 msgstr ""
+"문자를 발송하였습니다, 발송된\n"
+"인증번호를 입력하십시오."
 
 msgid "We sent you an email, please enter the one time password we sent."
-msgstr ""
+msgstr "메일을 발송하였습니다, 발송된 일회용 비밀번호를 입력하십시오."
 
 msgid ""
 "Please enter the tokens generated by your token\n"
 "        generator."
 msgstr ""
+"토큰\n"
+"제너레이터에서 생성된 토큰을 입력하십시오."
 
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
 msgstr ""
+"로그인을 위한 백업 토큰을 입력하려면 이 양식을 사용하십시오.\n"
+"이 토큰들은 당신이 인쇄하고 안전하게 보관할 수 있도록 생성되었습니다. \n"
+"계정에 로그인하려면 이러한 백업 토큰 중 하나를 입력하십시오."
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
-msgstr ""
+msgstr "또는, 대안으로, 복구 옵션 중 하나를 통해 일회용 암호를 요청할 수 있습니다:"
 
 msgid "As a last resort, you can use a backup token:"
-msgstr ""
+msgstr "최후의 수단으로, 당신은 백업 토크을 사용할 수 있습니다:"
 
 msgid "Use Backup Token"
-msgstr ""
+msgstr "백업 토큰 사용하기"
 
 #, fuzzy
 #| msgid "Confirm password"
