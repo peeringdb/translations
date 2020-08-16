@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-08-02 10:58+0000\n"
+"PO-Revision-Date: 2020-08-16 10:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1071,10 +1071,10 @@ msgid "IP addresses moved to same entry"
 msgstr ""
 
 msgid "IPv6 not set"
-msgstr ""
+msgstr "IPv6가 설정되지 않음"
 
 msgid "IPv4 not set"
-msgstr ""
+msgstr "IPv4가 설정되지 않음"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
 msgstr ""
@@ -1196,7 +1196,7 @@ msgid "Organization has active objects under it."
 msgstr "조직이 존재하지 않음"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr ""
+msgstr "조직은 현재 적극적인 후원자입니다. 이 조직을 쉽게 제거할 수 있도록 PeeringDB 지원팀에 문의하십시오."
 
 msgid "Sponsorship starts on"
 msgstr "스폰서쉽 시작 날짜"
@@ -1256,10 +1256,10 @@ msgid "Can only compare a maximum of 25 asns"
 msgstr "최대 25개의 ASN만 비교할 수 있음"
 
 msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
+msgstr "시설에 활성 익스체인지 존재: {}..."
 
 msgid "Facility has active network presence(s): {} ..."
-msgstr ""
+msgstr "설비에 활성 네트워크 존재: {}..."
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1283,7 +1283,7 @@ msgid "IX-F error notification date"
 msgstr "병합 알림"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
+msgstr "지난번 IX-F 파싱 문제에 대해 익스체인지에 공지했을 때"
 
 msgid "IX-F sent IPs for unsupported protocol"
 msgstr ""
@@ -1310,10 +1310,10 @@ msgid "IXF Import Log Entries"
 msgstr "IXF 가져오기 로그 항목"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
-msgstr ""
+msgstr "이 항목을 생성한 ix-f 멤버 데이터의 JSON 스냅샷"
 
 msgid "Activity for this entry"
-msgstr ""
+msgstr "이 항목에 대한 활동"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
 msgstr ""
@@ -1322,7 +1322,7 @@ msgid "RS Peer"
 msgstr "RS Peer"
 
 msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
+msgstr "피어링DB에 데이터를 적용하려고 시도하는 중 문제가 발생함"
 
 #, fuzzy
 #| msgid "Last Updated"
@@ -1341,10 +1341,10 @@ msgid "No suitable ipaddresses when validating against the enabled network proto
 msgstr ""
 
 msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
+msgstr "이 익스체인지에는 이 주소 공간에 속하는 활성 피어가 있음"
 
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
+msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음."
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -1506,7 +1506,7 @@ msgid "%(user_name)s's afilliation request has been denied"
 msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
 msgid "Please contact {} to help with the deletion of this object"
-msgstr ""
+msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
 
 msgid "Need to be unique"
 msgstr "고유해야 함"
@@ -1576,16 +1576,16 @@ msgid ""
 msgstr ""
 
 msgid "Save and Apply"
-msgstr ""
+msgstr "저장 후 적용"
 
 msgid "Save"
 msgstr "저장"
 
 msgid "Save and continue editing"
-msgstr ""
+msgstr "저장 후 편집 계속"
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
-msgstr ""
+msgstr "주의하여 처리하십시오, 이 도구에 대해 설명하는 사람이 없는 경우 진행하기 전에 다른 사람의 지침을 받으십시오"
 
 #, fuzzy
 #| msgid "Undo merge"
@@ -1601,7 +1601,7 @@ msgid "Search"
 msgstr "검색"
 
 msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
-msgstr ""
+msgstr "이 열의 조직은 오른쪽 열의 조직으로 통합될 것입니다. 선택에서 제거할 항목을 누르십시오."
 
 #, fuzzy
 #| msgid "Organization"
@@ -1609,7 +1609,7 @@ msgid "Merge Into Organization"
 msgstr "조직"
 
 msgid "Organizations in the left column will be merged into this organization"
-msgstr ""
+msgstr "왼쪽 열의 조직이 이 조직으로 통합될 것입니다"
 
 #, fuzzy
 #| msgid "Organizations"
@@ -1876,10 +1876,10 @@ msgid "Search for networks that are present at one exchange and absent at anothe
 msgstr "한 익스체인지에는 있고 다른 익스체인지에는 없는 네트워크 검색"
 
 msgid "Present"
-msgstr ""
+msgstr "존재함"
 
 msgid "Absent"
-msgstr ""
+msgstr "부재함"
 
 msgid "Facility Presence"
 msgstr "설비 프레즌스"
@@ -1907,10 +1907,10 @@ msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- 모든 데이터는 %(dt)sZ에서 생산으로부터 새로 고쳐질 것입니다"
 
 msgid "Only use this if you own the facility"
-msgstr ""
+msgstr "당신이 시설을 소유하는 경우에만 사용하십시오"
 
 msgid "Only use this if you own the exchange"
-msgstr ""
+msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
@@ -2353,7 +2353,7 @@ msgid "Prefixes"
 msgstr "프리픽스"
 
 msgid "In DFZ"
-msgstr ""
+msgstr "DFZ에서"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 프리픽스"
