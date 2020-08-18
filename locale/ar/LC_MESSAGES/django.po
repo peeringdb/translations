@@ -720,6 +720,9 @@ msgstr "العوده للخلف"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "مسح مبدئي"
 
@@ -1623,6 +1626,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr "اقترح نقطة تبادل الإنترنت اخرى"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "حدد عنوان بريد إلكتروني واحد على الأقل"
 
@@ -2455,9 +2461,6 @@ msgstr "سيتم الحصول على بيانات الترميز الجغراف�
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "بادئة عنوان الانترنت"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "بادئة عنوان شبكة التناظر"

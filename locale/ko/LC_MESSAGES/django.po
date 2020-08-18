@@ -637,6 +637,9 @@ msgstr "롤백"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr "Ixlans는 이제 상위 익스체인지에 동기화되므로 더 이상 직접 삭제할 수 없음"
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "삭제 보류 표시"
 
@@ -1501,6 +1504,9 @@ msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
 msgid "ASN cannot be changed."
 msgstr "ASN은 변경될 수 없습니다."
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "하나 이상의 이메일 주소를 지정하시오"
 
@@ -2318,9 +2324,6 @@ msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수�
 msgid "Prefixes"
 msgstr "프리픽스"
 
-msgid "In DFZ"
-msgstr "DFZ에서"
-
 msgid "IXLAN Prefix"
 msgstr "IXLAN 프리픽스"
 
@@ -2871,6 +2874,9 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "In DFZ"
+#~ msgstr "DFZ에서"
 
 #, fuzzy
 #~| msgid "No changes"

@@ -721,6 +721,9 @@ msgstr "RETOUR EN ARRIERE"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "SUPPRESSION DOUCE"
 
@@ -1634,6 +1637,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr "Point d'échange"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 #, fuzzy
 #| msgid "Change email address"
 msgid "Specify at least one email address"
@@ -2487,9 +2493,6 @@ msgstr "Des données de géocodage actualisées pour cette entité vont être ob
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "Préfixe"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "Préfixe IXLAN"

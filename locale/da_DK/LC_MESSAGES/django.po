@@ -705,6 +705,9 @@ msgstr "Ruld tilbage"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Blød sletning"
 
@@ -1630,6 +1633,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr ""
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 #, fuzzy
 #| msgid "Need to specify at least two asns"
 msgid "Specify at least one email address"
@@ -2508,9 +2514,6 @@ msgstr ""
 #| msgid "IXLAN Prefix"
 msgid "Prefixes"
 msgstr "IXLAN præfiks"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN præfiks"

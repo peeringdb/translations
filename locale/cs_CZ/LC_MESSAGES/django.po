@@ -720,6 +720,9 @@ msgstr "VRÁCENÍ ZPĚT"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 #, fuzzy
 msgid "SOFT DELETE"
 msgstr "SMAZÁNÍ"
@@ -1626,6 +1629,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr "Propojovací uzel"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 #, fuzzy
 #| msgid "Change email address"
 msgid "Specify at least one email address"
@@ -2494,9 +2500,6 @@ msgstr "Aktualizovaný geocode pro tuto entitu budou brzy získána"
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "Prefix"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"

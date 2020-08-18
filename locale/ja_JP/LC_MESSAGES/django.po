@@ -721,6 +721,9 @@ msgstr "ロールバック"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "SOFT DELETE"
 
@@ -1643,6 +1646,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr "エクスチェンジに情報追加の提案"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "最低限、メールアドレスを1つ指定してください"
 
@@ -2474,9 +2480,6 @@ msgstr "まもなく、このエンティティについての更新されたジ
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "プレフィクス"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"

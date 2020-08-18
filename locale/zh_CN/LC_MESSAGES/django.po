@@ -721,6 +721,9 @@ msgstr "回滚"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "软删除"
 
@@ -1633,6 +1636,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr "建议另一个交换点"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "至少指定一个电子邮件地址"
 
@@ -2460,9 +2466,6 @@ msgstr "该实体的地理编码数据将被更新"
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "前缀"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 前缀"

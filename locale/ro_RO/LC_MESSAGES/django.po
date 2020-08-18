@@ -669,6 +669,9 @@ msgstr "RESTAUREAZĂ"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr "Ixlans nu mai pot fi șterse direct, deoarece sunt sincronizate acum la Exchange-ul părinte"
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
 
@@ -1537,6 +1540,9 @@ msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
 msgid "ASN cannot be changed."
 msgstr "Sugerați un alt Internet Exchange"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
 
@@ -2353,9 +2359,6 @@ msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obțin
 
 msgid "Prefixes"
 msgstr "Prefixe"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "Prefix IXLAN"

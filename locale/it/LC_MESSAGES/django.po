@@ -713,6 +713,9 @@ msgstr "RIPRISTINA"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "ELIMINAZIONE TEMPORANEA"
 
@@ -1623,6 +1626,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr "Interscambio"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 #, fuzzy
 #| msgid "Change email address"
 msgid "Specify at least one email address"
@@ -2478,9 +2484,6 @@ msgstr "I dati di geocodifica aggiornati per questa entità saranno ottenuti a b
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "Prefisso"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "Prefisso della IXLAN"

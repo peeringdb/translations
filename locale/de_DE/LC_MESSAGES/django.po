@@ -682,6 +682,9 @@ msgstr "ZURÜCKSETZEN"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr "Ixlans können nicht mehr direkt gelöscht werden, da sie nun mit dem übergeordneten Austauschpunkt abgeglichen werden"
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
 
@@ -1564,6 +1567,9 @@ msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
 msgid "ASN cannot be changed."
 msgstr "Einen weiteren Austauschpunkt vorschlagen"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
 
@@ -2381,9 +2387,6 @@ msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
 
 msgid "Prefixes"
 msgstr "Präfixe"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN-Präfix"

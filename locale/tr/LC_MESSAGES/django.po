@@ -695,6 +695,9 @@ msgstr "Aşağı Çekmek"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Kaydı Sil"
 
@@ -1589,6 +1592,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr ""
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr ""
 
@@ -2439,9 +2445,6 @@ msgstr ""
 #| msgid "IXLAN Prefix"
 msgid "Prefixes"
 msgstr "IXLAN Öneki"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Öneki"

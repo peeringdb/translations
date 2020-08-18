@@ -697,6 +697,9 @@ msgstr "Reversión"
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
 msgstr ""
 
+msgid "Protected object '{}': {}"
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Eliminación Temporal"
 
@@ -1593,6 +1596,9 @@ msgstr ""
 msgid "ASN cannot be changed."
 msgstr "Punto de Intercambio"
 
+msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Especifique al menos una dirección de correo electrónico"
 
@@ -2446,9 +2452,6 @@ msgstr "ILs datos actualizados de Geocodigo para esta entidad se obtendrá pront
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "Prefijo"
-
-msgid "In DFZ"
-msgstr ""
 
 msgid "IXLAN Prefix"
 msgstr "Prefijo IXLAN"
