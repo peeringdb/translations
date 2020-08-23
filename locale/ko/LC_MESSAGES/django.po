@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-08-16 12:58+0000\n"
+"PO-Revision-Date: 2020-08-23 09:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1231,25 +1231,19 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr "설비에 활성 네트워크 존재: {}..."
 
 msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
+msgstr "익스체인지에 활성 시설 연결이 있음: {}..."
 
 msgid "Exchange has active peer(s)"
-msgstr ""
+msgstr "익스체인지에 활성 피어가 있음"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "IX-F error"
-msgstr "IX-F 가져오기"
+msgstr "IX-F 오류"
 
-#, fuzzy
-#| msgid "No JSON could be parsed"
 msgid "Reason IX-F data could not be parsed"
-msgstr "분석할 수 있는 JSON 없음"
+msgstr "IX-F 데이터를 구문 분석할 수 없는 이유"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "IX-F error notification date"
-msgstr "병합 알림"
+msgstr "IX-F 오류 알림 날짜"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr "지난번 IX-F 파싱 문제에 대해 익스체인지에 공지했을 때"
@@ -1293,18 +1287,14 @@ msgstr "RS Peer"
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "피어링DB에 데이터를 적용하려고 시도하는 중 문제가 발생함"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "Last Fetched"
-msgstr "최신 업데이트"
+msgstr "최신 가져오기"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
 msgstr ""
 
-#, fuzzy
-#| msgid "IX-F Member Export URL"
 msgid "IXF Member Data"
-msgstr "IX-F 멤버 내보내기 URL"
+msgstr "IX-F 멤버 데이터"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
@@ -1559,15 +1549,11 @@ msgstr "저장 후 편집 계속"
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr "주의하여 처리하십시오, 이 도구에 대해 설명하는 사람이 없는 경우 진행하기 전에 다른 사람의 지침을 받으십시오"
 
-#, fuzzy
-#| msgid "Undo merge"
 msgid "You may undo merges"
-msgstr "병합 취소"
+msgstr "병합 실행 취소 가능"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Selected Organizations"
-msgstr "조직"
+msgstr "선택된 조직"
 
 msgid "Search"
 msgstr "검색"
@@ -1575,23 +1561,17 @@ msgstr "검색"
 msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
 msgstr "이 열의 조직은 오른쪽 열의 조직으로 통합될 것입니다. 선택에서 제거할 항목을 누르십시오."
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Merge Into Organization"
-msgstr "조직"
+msgstr "조직으로 병합"
 
 msgid "Organizations in the left column will be merged into this organization"
 msgstr "왼쪽 열의 조직이 이 조직으로 통합될 것입니다"
 
-#, fuzzy
-#| msgid "Organizations"
 msgid "Merge Organizations"
-msgstr "조직"
+msgstr "조직 병합"
 
-#, fuzzy
-#| msgid "Result"
 msgid "Merge Results"
-msgstr "결과"
+msgstr "병합 결과"
 
 msgid "Home"
 msgstr "메인 페이지"
@@ -1979,10 +1959,8 @@ msgstr "익스체인지로 연결"
 msgid "Connections to Facilities"
 msgstr "시설로 연결"
 
-#, fuzzy
-#| msgid "Add Network"
 msgid "Automated Networks"
-msgstr "네트워크 추가"
+msgstr "자동화된 네트워크"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "여기에서 네트워크, IX 또는 시설을 검색하십시오."
@@ -2086,15 +2064,11 @@ msgstr "암호 재설정 프로세스가 만료되었습니다,"
 msgid "initiate again"
 msgstr "다시 시작하십시오"
 
-#, fuzzy
-#| msgid "Account Created"
 msgid "Account Security"
-msgstr "계정이 생성됨"
+msgstr "계정 보안"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "Manage Two-Factor Authentication"
-msgstr "OAuth 애플리케이션 관리"
+msgstr "2단계 인증 관리"
 
 msgid "Affiliate with organization"
 msgstr "조직에 가입하기"
@@ -2330,10 +2304,8 @@ msgstr "IXLAN 프리픽스"
 msgid "Add Prefix"
 msgstr "프리픽스 추가"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Local Facilities"
-msgstr "설비"
+msgstr "현지 시설"
 
 msgid "Filter"
 msgstr "필터"
@@ -2470,10 +2442,8 @@ msgstr "자동 추가"
 msgid "Add"
 msgstr "추가"
 
-#, fuzzy
-#| msgid "Operational"
 msgid "Options"
-msgstr "작동 가능"
+msgstr "조건"
 
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "익스체인지가 업데이트할 때 까지 이 제안을 숨기기."
@@ -2481,10 +2451,8 @@ msgstr "익스체인지가 업데이트할 때 까지 이 제안을 숨기기."
 msgid "Dismiss"
 msgstr "제거"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Add this entry to public peering exchange points"
-msgstr "공용 피어링 익스체인지 포인트"
+msgstr "공용 피어링 익스체인지 포인트에 이 항목 추가"
 
 msgid "Remove"
 msgstr "삭제"
@@ -2533,10 +2501,8 @@ msgstr "올바른 네트워크로 항목을 이동해야 함"
 msgid "Add Exchange Point"
 msgstr "익스체인지 포인트 추가"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Private Peering Facilities"
-msgstr "시설 합병"
+msgstr "사설 피어링 시설"
 
 msgid "member"
 msgstr "구성원"
@@ -2553,10 +2519,8 @@ msgstr "익스체인지 추가"
 msgid "Permissions"
 msgstr "권한"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Delete Organization"
-msgstr "조직"
+msgstr "조직 삭제"
 
 msgid "Technical E-mail"
 msgstr "기술부 이메일"
@@ -2603,10 +2567,8 @@ msgstr "날짜"
 msgid "Currently no users requesting affiliation with"
 msgstr "현재 소속을 요청하는 사용자가 없음"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Users in Organization"
-msgstr "조직"
+msgstr "조직의 사용자"
 
 msgid "Group"
 msgstr "그룹"
@@ -2652,8 +2614,6 @@ msgstr "비밀번호 찾기 .."
 msgid "I forgot my username .."
 msgstr "아이디 찾기 .."
 
-#, fuzzy
-#| msgid "Tokens"
 msgid "Token"
 msgstr "토큰"
 
@@ -2702,10 +2662,8 @@ msgstr "최후의 수단으로, 당신은 백업 토크을 사용할 수 있습�
 msgid "Use Backup Token"
 msgstr "백업 토큰 사용하기"
 
-#, fuzzy
-#| msgid "Confirm password"
 msgid "Email one time password"
-msgstr "비밀번호 확인"
+msgstr "이메일 일회용 비밀번호"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "귀하의 이메일 주소가 이 조직의 파일에 있는 도메인 정보와 일치하지 않습니다."
