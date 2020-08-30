@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-08-23 09:58+0000\n"
+"PO-Revision-Date: 2020-08-30 10:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -377,10 +377,10 @@ msgid "Technical Phone"
 msgstr "기술부 연락처"
 
 msgid "Sales Email"
-msgstr "영업 이메일"
+msgstr "영업부 이메일"
 
 msgid "Sales Phone"
-msgstr "영업 연락처"
+msgstr "영업부 연락처"
 
 msgid "Facility"
 msgstr "시설"
@@ -1761,13 +1761,13 @@ msgid "Our Culture"
 msgstr "우리의 문화"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr "PeeringDB는 이름에서 알 수 있듯이 네트워크와 피어링 코디네이터 간의 피어링을 용이하게 하기 위해 설치되었습니다. 최근 몇 년 간, PeeringDB의 비전은 인터넷이 성장하고 있는 속도와 다양한 방식을 따라잡기 위해 발전했습니다. 그 데이터베이스는 더 이상 단지 피어링과 정보 관련 피어링이 아닙니다. 그것은 이제 네트워크, 클라우드, 서비스 및 기업을 위한 모든 종류의 상호연결 데이터와 인터넷 가장자리에서 개발되고 있는 상호연결 시설을 포함합니다."
+msgstr "PeeringDB는 이름에서 알 수 있듯이 네트워크와 피어링 코디네이터 간의 피어링을 용이하게 하기 위해 만들어졌습니다. 최근 몇 년 간, PeeringDB의 비전은 인터넷이 성장하고 있는 속도와 다양한 방식을 따라잡기 위해 발전했습니다. 그 데이터베이스는 더 이상 단지 피어링과 정보 관련 피어링이 아닙니다. 그것은 이제 네트워크, 클라우드, 서비스 및 기업을 위한 모든 종류의 상호연결 데이터와 인터넷 가장자리에서 개발되고 있는 상호연결 시설을 포함합니다."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr "우리는 커뮤니티가 PeeringDB 데이터베이스를 확장하고 향상시킬 것을 믿습니다. 데이터베이스를 실행하는 자원 봉사자들은 데이터베이스의 보안, 프라이버시, 무결성 및 데이터의 검증에 열정적입니다. PeeringDB는 자유롭게 이용할 수 있고 공개적인 도구임에도 불구하고, 사용자들은 허용 가능한 사용 정책을 엄격하게 고수하고 있는데, 이것은 데이터베이스가 상업적인 목적으로 사용되는 것을 막고, 원하지 않는 의사소통을 지양하도록 합니다. 이것은 지역사회에 의해 주로 감시되고 있으며 PeeringDB가 출시된 이후 매우 효과적이었습니다."
+msgstr "우리는 커뮤니티가 PeeringDB 데이터베이스를 확장하고 향상시킬 것을 믿습니다. 데이터베이스를 실행하는 자원 봉사자들은 데이터베이스의 보안, 프라이버시, 무결성 및 데이터의 검증에 열정적입니다. PeeringDB는 자유롭게 이용할 수 있고 공개적인 도구임에도 불구하고, 사용자들은 허용 가능한 사용 정책을 엄격하게 고수하고 있는데, 이것은 데이터베이스가 상업적인 목적으로 사용되는 것을 막고, 원하지 않는 의사소통을 지양하도록 합니다. 이것은 커뮤니티에 의해 주로 감시되고 있으며 PeeringDB가 출시된 이후 매우 효과적이었습니다."
 
 msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr "저는 네트워크 운영자입니다. PeeringDB가 저를 어떻게 도울 수 있을까요?"
+msgstr "저는 네트워크 운영자입니다. PeeringDB가 저를 어떻게 도와줄 수 있을까요?"
 
 msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
 msgstr "자율 시스템 번호(ASN)의 거의 3분의 1이 상호 연결 데이터를 PeeringDB 데이터베이스에 등록합니다. 즉, PeeringDB를 사용하고 자신의 상호연결 데이터를 추가함으로써, 상호연결을 모색하는 네트워크에 관한 정보, 어디에서 어떻게 접속할 것인지에 대한 정보를 자신 있게 찾을 수 있을 것이고, 그들은 당신의 네트워크에 대한 동일한 정보를 찾을 수 있을 것입니다. 데이터베이스는 우리의 자원 봉사자들에 의해 관리되고 검증되기 때문에, 당신은 정보가 정확하고 최신이라는 것을 믿을 수 있습니다."
@@ -1875,10 +1875,10 @@ msgid "To be listed as an Internet Exchange in PeeringDB we would expect that yo
 msgstr "PeeringDB에서 인터넷 Exchange로 등록하려면 다음 기준을 충족하십시오:"
 
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr "IXP(Internet Exchange Point)는 주로 인터넷 트래픽의 교환을 용이하게 하기 위해 두 개 이상의 독립적인 자율 시스템을 상호 접속할 수 있는 네트워크 시설이다."
+msgstr "IXP(Internet Exchange Point)는 주로 인터넷 트래픽의 교환을 용이하게 하기 위해 두 개 이상의 독립적인 자율 시스템을 상호 접속할 수 있는 네트워크 시설입니다."
 
 msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr "IXP는 자율 시스템에 대해서만 상호 연결을 제공한다. IXP는 참여 자율 시스템 쌍을 통과하는 인터넷 트래픽이 제3자 자율 시스템을 통과하도록 요구하지 않으며, 이러한 트래픽을 변경하거나 방해하지 않는다"
+msgstr "IXP는 자율 시스템에 대해서만 상호 연결을 제공합니다. IXP는 참여 자율 시스템 쌍을 통과하는 인터넷 트래픽이 제3자 자율 시스템을 통과하도록 요구하지 않으며, 이러한 트래픽을 변경하거나 방해하지 않습니다"
 
 msgid "Submit"
 msgstr "제출"
@@ -2103,7 +2103,7 @@ msgid "To register a new facility or exchange organization, please enter the org
 msgstr "새 시설 또는 익스체인지 조직을 등록하려면 아래에 조직 이름을 입력하십시오(ASN은 선택 사항)."
 
 msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
-msgstr "소속은 당신 소유의 조직입니다. 그것은 당신이 직원이거나 다른 방법으로 그 조직에서 일하는 것을 의미합니다. 아직 해당 기관에 소속된 사람이 없는 경우 support@peeringdb.com으로 소속 요청을 전송하십시오. 아니면 관리자에게 연락하십시오. 조직 당 한 번만 제휴하십시오. 며칠 내에 답변이 오지 않으면 support@peeringdb.com으로 문의하십시오."
+msgstr "소속은 당신 소유의 조직입니다. 그것은 당신이 직원이거나 다른 방법으로 그 조직에서 일하는 것을 의미합니다. 아직 해당 기관에 소속된 사람이 없는 경우 support@peeringdb.com으로 소속 요청을 보내십시오. 아니면 관리자에게 연락하십시오. 조직 당 한 번만 제휴하십시오. 며칠 내에 답변이 오지 않으면 support@peeringdb.com으로 문의하십시오."
 
 msgid "Affiliate"
 msgstr "가입하기"
@@ -2547,7 +2547,7 @@ msgid "Submit Network"
 msgstr "네트워크 제출"
 
 msgid "for assistance with the creation of your network in PeeringDB."
-msgstr "은/는 PeeringDB에서 네트워크 생성에 대한 지원을 위함."
+msgstr "PeeringDB에서 네트워크 생성에 대한 지원을 위해."
 
 msgid "Policy E-mail"
 msgstr "정책부 이메일"
@@ -2778,7 +2778,7 @@ msgid "Password Reset Process has expired, please"
 msgstr "암호 재설정 프로세스가 만료되었습니다,"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 다수의 계좌는 더 이상 필요하지 않습니다."
+msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 복수의 계좌는 필요하지 않습니다."
 
 msgid "This email address has already been used"
 msgstr "이 이메일 주소는 이미 사용되었습니다"
