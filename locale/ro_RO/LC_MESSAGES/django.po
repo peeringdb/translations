@@ -1133,7 +1133,9 @@ msgstr "Resetează mediul"
 msgid "IX-F Import"
 msgstr "Importul IX-F"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "Are latitudinea și longitudinea acestui obiect a fost sincronizată cu câmpurile de adrese"
 
 msgid "Last time of attempted geocode"
@@ -1360,7 +1362,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifică dacă unui IXP i se permite să adauge un netixlan pentru această rețea prin intermediul datelor sale ixp_member"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1519,12 +1521,14 @@ msgstr "Organizația specificată nu este validă"
 msgid "Needs to be member or admin"
 msgstr "Trebuie să fie membru sau admin"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1543,12 +1547,14 @@ msgstr "Eroare de căutare RDAP"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Acest câmp este permis doar pentru aceste solicitări: {methods}"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1584,7 +1590,9 @@ msgstr "este adresa dvs. e-mail"
 msgid "Confirm"
 msgstr "Confirm"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "Procesul de confirmare pentru această adresă e-mail a fost încheiat, vă rugăm să îl reinițiați"
 
 msgid "here"
@@ -1675,7 +1683,9 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "a fost îmbinat cu"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "Toate îmbinările sunt procesate manual de către personalul de asistență al PeeringDB. Dacă credeți că această acțiune a fost executată greșit, nu ezitați să contactați asistența PeeringDB la"
 
 #, python-format
@@ -1716,11 +1726,14 @@ msgstr "Organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) a fost crea
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "Rețeaua %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) a fost creată automat odată cu cererea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Utilizatorul '%(u_name)s' a creat rețeaua %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sub organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Dacă adresa e-mail a utilizatorului s-a potrivit cu înregistrarea RIR, această rețea a trecut peste lista de așteptare în vederea verificării."
 
 #, python-format
@@ -1730,7 +1743,9 @@ msgstr "Utilizatorul %(u_name)s (%(u_email)s) dorește să fie afiliat la ASN %(
 msgid "They also provided this organization name in their request"
 msgstr "De asemenea, au furnizat numele acestei organizații în cererea lor"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "În baza noastră de date nu a existat nicio intrare care să corespundă ASN-ului, așa că este probabil să fie necesară crearea unei rețele și a unei organizații pentru aceasta."
 
 #, python-format
@@ -1756,7 +1771,9 @@ msgstr "De asemenea, ei au furnizat acest ASN în solicitarea lor"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "ATENȚIE: Aceasta este o cerere de proprietate, aprobarea ei va acorda utilizatorului drepturi de administrare asupra organizației și a oricărei entități pe care o deține."
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#, fuzzy
+#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "Acestea sunt adresele website-urilor care au putut fi derivate din organizație și entitățile sale"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -1986,7 +2003,9 @@ msgstr "Pagina solicitată nu există."
 msgid "403 - Forbidden"
 msgstr "403 - Interzis"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "Nu aveți permisiuni pentru a vizualiza această pagină."
 
 msgid "Take me home"

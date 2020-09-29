@@ -1237,7 +1237,9 @@ msgstr "環境をリセットします"
 msgid "IX-F Import"
 msgstr "IXF Import のログ(IXF Import Log)"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "このオブジェクトの緯度と経度は IP アドレスの情報と同期しています"
 
 msgid "Last time of attempted geocode"
@@ -1466,7 +1468,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "ixp_member のデータを介して、ixp がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1625,12 +1627,14 @@ msgstr "指定された組織は無効です"
 msgid "Needs to be member or admin"
 msgstr "メンバーもしくは管理者になる必要があります"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s's 所属リクエストが承認されました"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s's 所属リクエストが拒否されました"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1649,12 +1653,14 @@ msgstr "RDAP 参照エラー"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "このフィールドは以下のリクエストにのみ使用可能です {methods}"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が承認されていない為です"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1690,7 +1696,9 @@ msgstr "はあなたのメールアドレスです"
 msgid "Confirm"
 msgstr "確認"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "このメールアドレスの確認プロセスが終了しました。再開してください"
 
 msgid "here"
@@ -1783,7 +1791,9 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "に統合されました"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "全ての統合が PeeringDB サポートスタッフによって処理されました。もし間違って実行されたと思われた場合は、PeeringDB サポートスタッフに連絡してください"
 
 #, python-format
@@ -1828,10 +1838,12 @@ msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(n_name)s 
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "'%(u_name)s' のユーザが %(o_name)s (%(o_id)s) の組織下の %(n_name)s AS%(n_asn)s (%(n_id)s) のネットワークを生成しました。"
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "そのユーザのメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました"
 
 #, python-format
@@ -1841,7 +1853,9 @@ msgstr "AS 番号 %(inst)s への所属を希望しているユーザ %(u_name)s
 msgid "They also provided this organization name in their request"
 msgstr "リクエストによってこの組織を提供しました"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "この AS 番号に一致するエントリーがデータベースにありませんでした。 ネットワークと組織を作成する必要があります"
 
 #, python-format
@@ -1867,7 +1881,9 @@ msgstr "リクエストによってこの AS 番号が与えられました"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "注意: これは所有権のリクエストです。これを承認すると組織と組織が所有するエンティティに対してのユーザ管理権限を付与します"
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#, fuzzy
+#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "これらは、組織情報とそのエンティティから抽出されえる Web サイトのアドレスです"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -2099,7 +2115,9 @@ msgstr "あなたがリクエストしたページはありませんでした。
 msgid "403 - Forbidden"
 msgstr "403 - Forbidden"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "あなたは、このページを閲覧する権限を持っていません。"
 
 msgid "Take me home"

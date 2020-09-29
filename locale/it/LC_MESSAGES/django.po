@@ -1219,7 +1219,9 @@ msgstr ""
 msgid "IX-F Import"
 msgstr "Registro di importazione IXF"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "La latitudine e la longitudine di questo oggetto sono state sincronizzate con i suoi campi indirizzo"
 
 msgid "Last time of attempted geocode"
@@ -1448,7 +1450,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifica se un IXP può aggiungere un'entrata netixlan per questa rete tramite i propri dati ixp_member"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1605,12 +1607,14 @@ msgstr "Organizzazione specificata non valida"
 msgid "Needs to be member or admin"
 msgstr "Deve essere membro o amministratore"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "La richiesta di affiliazione di %(user_name)s è stata approvata"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "La richiesta di affiliazione di %(user_name)s è stata respinta"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1629,12 +1633,14 @@ msgstr ""
 msgid "This field is only allowed for these requests: {methods}"
 msgstr ""
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "L'oggetto di tipo '%(type)s' non può essere creato perché la sua entità padre '%(parent_tag)s/%(parent_id)s' non è stata ancora approvata"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "L'oggetto di tipo '%(type)s' non può essere creato perché la sua entità padre '%(parent_tag)s/%(parent_id)s' è stata segnata come rimossa"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1672,7 +1678,9 @@ msgstr "sia il tuo indirizzo email"
 msgid "Confirm"
 msgstr "Conferma"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "Il processo di conferma email per questo indirizzo email è stato completato, si prega di riavviare"
 
 msgid "here"
@@ -1765,7 +1773,9 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "è stato unito in"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "Tutti i processi di unione sono processati manualmente dallo staff di supporto di peeringdb. Se pensi che questa azione è stata eseguita per sbaglio, non esitare a contattare il supporto di peeringdb a"
 
 #, python-format
@@ -1810,10 +1820,12 @@ msgstr "La rete %(n_name)s (%(n_id)s) è stata creata automaticamente durante la
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "L'utente '%(u_name)s' ha creato la Rete %(n_name)s in AS%(n_asn)s (%(n_id)s) sotto l'organizzazione %(o_name)s (%(o_id)s)."
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Questa rete ha saltato la coda di verifica dato che l'indirizzo email dell'utente è stato trovato nei dati contenuti nell'entrata RiR."
 
 #, python-format
@@ -1823,7 +1835,9 @@ msgstr "L'utente %(u_name)s (%(u_email)s) desidera essere affiliato a ASN %(inst
 msgid "They also provided this organization name in their request"
 msgstr "Hanno anche fornito il nome dell'organizzazione nella loro richiesta"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "Non esiste alcuna entrata nel nostro database che corrisponde a quel ASN, pertanto è prevedibile che dovranno essere create una rete e una organizzazione per tale ASN."
 
 #, python-format
@@ -1849,7 +1863,9 @@ msgstr "Hanno anche fornito questo ASN nella loro richiesta"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "ATTENZIONE: Questa è una richiesta di possesso, approvarla garantirà all'utente i permessi di amministratore su tale organizzazione e su tutte le entità che tale organizzazione possiede."
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#, fuzzy
+#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "Questi sono gli indirizzi dei siti web che siamo stati in grado di derivare dall'organizzazione e dalle sue entità"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -2085,7 +2101,9 @@ msgstr "La pagina richiesta non esiste."
 msgid "403 - Forbidden"
 msgstr "403 - Proibito"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "Non hai i permessi per vedere questa pagina."
 
 msgid "Take me home"

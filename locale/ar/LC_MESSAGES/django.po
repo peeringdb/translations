@@ -1215,7 +1215,9 @@ msgstr "إعادة الضبط الافتراضي"
 msgid "IX-F Import"
 msgstr "استيراد بيانات IX-F"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "هل تمت مزامنة خطوط الطول والعرض لهذا الحقل مع حقل العنوان"
 
 msgid "Last time of attempted geocode"
@@ -1446,7 +1448,7 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1605,12 +1607,14 @@ msgstr "تم تحديد مؤسسة غير صحيحة"
 msgid "Needs to be member or admin"
 msgstr "يجب أن تكون عضوًا أو بصلاحيات مدير النظام"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s's تمت الموافقة على طلب الانتساب/ الانضمام"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s's تم رفض طلب الانتساب/ الانضمام"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1629,12 +1633,14 @@ msgstr "خطأ في البحث بروتوكول الوصول إلى بيانات
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "هذا الحقل/الخانة مسموح به فقط لهذه الطلبات:  {methods}"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  لم تتم الموافقة عليه بعد"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1670,7 +1676,9 @@ msgstr "هو عنوان البريد الإلكتروني الخاص بك"
 msgid "Confirm"
 msgstr "تأكيد"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "تم إنهاء عملية تأكيد البريد الإلكتروني لهذا العنوان، الرجاء إعادة التنشيط"
 
 msgid "here"
@@ -1763,7 +1771,9 @@ msgstr "بطاقة التعريف"
 msgid "has been merged into"
 msgstr "تم دمجها في"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "تتم معالجة جميع عمليات الدمج يدويًا بواسطة موظفي دعم \"قاعدة بيانات التناظر\". إذا كنت تعتقد أن هذا الإجراء قد تم تنفيذه عن طريق الخطأ ، فالرجاء عدم التردد في الاتصال بالدعم على"
 
 #, python-format
@@ -1808,10 +1818,12 @@ msgstr "شبكة الاتصال %(n_name)s (%(n_id)s) تم إنشاؤها تلق
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "انشأ المستخدم '%(u_name)s'  شبكة اتصال  %(n_name)s ورقم النظام المستقل AS%(n_asn)s (%(n_id)s) تحت بيانات المؤسسة %(o_name)s (%(o_id)s)."
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "نظرًا لأنه تمت مطابقة عنوان البريد الإلكتروني للمستخدم بنجاح مع بيانات الإدخال لسجلات الإنترنت الإقليمية ، فقد تم تخطي عملية انتظار التحقق."
 
 #, python-format
@@ -1821,7 +1833,9 @@ msgstr "المستخدم  %(u_name)s (%(u_email)s) يطلب الانضمام ا�
 msgid "They also provided this organization name in their request"
 msgstr "ايضا تم توضيح اسم المؤسسة / المنظمة هذا في الطلب"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "لا يوجد تطابق في قاعدة البيانات الخاصة بنا مع رقم النظام المستقل ، لذلك فمن المرجح أنه سيكون من الضروري أن يتم إنشاء شبكة اتصال ومؤسسة/ منظمة لذلك."
 
 #, python-format
@@ -1847,7 +1861,9 @@ msgstr "تم توضيح رقم النظام المستقل في الطلب"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "تنبيه: هذا طلب ملكية ، والموافقة عليه ستمنح حقوق إدارة المستخدم على المؤسسة وأي كيانات تمتلكها."
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#, fuzzy
+#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "هذه هي عناوين المواقع الإلكترونية التي تمكن من الحصول عليها من المؤسسة والكيانات التابعة لها"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -2079,7 +2095,9 @@ msgstr "الصفحة المطلوبة غير موجودة."
 msgid "403 - Forbidden"
 msgstr "خطأ 403 - ممنوع الدخول"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "ليس لديك الإذن لعرض هذه الصفحة."
 
 msgid "Take me home"

@@ -1227,7 +1227,9 @@ msgstr ""
 msgid "IX-F Import"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "Έχει συγχρονιστεί το γεωγραφικό μήκος και πλάτος του αντικειμένου στα πεδία διεύθυνσης"
 
 msgid "Last time of attempted geocode"
@@ -1456,7 +1458,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Ορίζει αν ο IXP επιτρέπεται να προσθέσει μια καταχώρηση netixlan για αυτό το δίκτυο μέσω των ixp_member δεδομένων του"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1613,12 +1615,14 @@ msgstr "Ορίστηκε μη έγκυρος οργανισμός"
 msgid "Needs to be member or admin"
 msgstr "Πρέπει να είναι μέλος ή διαχειριστής"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "Η αίτηση συσχετισμού του/της %(user_name)s εγκρίθηκε"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "H αίτηση συσχετισμού του/της %(user_name)s's απορρίφθηκε"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1637,12 +1641,14 @@ msgstr ""
 msgid "This field is only allowed for these requests: {methods}"
 msgstr ""
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπορεί να δημιουργηθεί καθώς η γονική οντότητα δεν έχει εγκριθεί ακόμα i: '%(parent_tag)s/%(parent_id)s"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1680,7 +1686,9 @@ msgstr "είναι η διεύθυνση email σας"
 msgid "Confirm"
 msgstr "Eπιβεβαιώστε"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "H διαδικασία επιβεβαίωσης για αυτό το email τερματίστηκε, παρακαλώ επανεκκινήστε την"
 
 msgid "here"
@@ -1773,7 +1781,9 @@ msgstr "Ταυτότητα"
 msgid "has been merged into"
 msgstr "έχει συγχωνευθεί σε"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "Όλες οι συγχωνεύσεις επεξεργάζονται χειροκίνητα από το προσωπικό υποστήριξης. Αν πιστεύετε πως αυτή η ενέργεια εκτελέστηκε κατά λάθος, παρακαλούμε μη διστάσετε να επικοινωνήσετε στο"
 
 #, python-format
@@ -1818,10 +1828,12 @@ msgstr "To δίκτυο %(n_name)s (%(n_id)s δημιουργήθηκε αυτό
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Ο/η χρήστης '%(u_name)s' δημιούργησε το Δίκτυο %(n_name)s AS%(n_asn)s (%(n_id)s) υπό τον οργανισμό %(o_name)s (%(o_id)s)."
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Καθώς η διεύθυνση email του χρήστη ταυτοποιήθηκε με την καταχώρηση RIR το δίκτυο έχει παραπέμπψει την ουρά επαλήθευσης."
 
 #, python-format
@@ -1831,7 +1843,9 @@ msgstr "O/η χρήστης %(u_name)s (%(u_email)s) επιθυμεί να συ�
 msgid "They also provided this organization name in their request"
 msgstr "Παρείχαν επίσης και αυτό το όνομα οργανισμού στο αίτημά τους"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "Δεν υπήρχε καταχώρηση στην βάση δεδομένων μας που να ταιριάζει σε αυτό το ASN, συνεπώς θα πρέπει να δημιουργηθεί ένα δίκτυο και ένας οργανισμός."
 
 #, python-format
@@ -1857,7 +1871,9 @@ msgstr "Παρείχαν επίσης αυτό το ASN στο αίτημά το
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "ΠΡΟΣΟΧΗ: Αυτό είναι αίτημα ιδιοκτησίας, έγκρισή του θα δώσει στον/ην χρήστη δικαιώματα διαχείρισης του οργανισμού και των οντοτήτων που του ανήκουν."
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#, fuzzy
+#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "Αυτές είναι οι διευθύνσεις ιστοσελίδων που μπορέσαμε να αντλήσουμε από τον οργανισμό και τις οντότητες του"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -2093,7 +2109,9 @@ msgstr "Η σελίδα που αιτηθήκατε δεν υπάρχει."
 msgid "403 - Forbidden"
 msgstr "403 - Απαγορεύεται"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "Δεν έχετε άδεια για να δείτε αυτή την σελίδα."
 
 msgid "Take me home"

@@ -1221,7 +1221,9 @@ msgstr ""
 msgid "IX-F Import"
 msgstr "Protokol IXF Importu"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "Má tento objekt synchronizovanou zeměpisnou šířku a délku s adresními poly"
 
 msgid "Last time of attempted geocode"
@@ -1449,7 +1451,7 @@ msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'
 msgstr ""
 
 #, fuzzy
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Zjišťuje, zda je ixp povoleno přidání položky netixlan pro tuto síť prostřednictvím jejich dat ixp_member"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1609,11 +1611,12 @@ msgid "Needs to be member or admin"
 msgstr "Potřeba být členem nebo administrátorem"
 
 #, fuzzy, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s žádost o přidružení byla schválena"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s žádost o přidružení byla zamítnuta"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1633,11 +1636,12 @@ msgid "This field is only allowed for these requests: {methods}"
 msgstr ""
 
 #, fuzzy, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "Objekt typu \"% (typ) s\" nelze vytvořit, protože jeho nadřazená entita '% (parent_tag) s /% (parent_id) s' nebyla dosud schválena"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Objekt typu '%(type)s' nelze vytvořit, protože jeho nadřazená entita '%(parent_tag)s/%(parent_id)s' byla označena za smazanou"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1675,7 +1679,9 @@ msgstr "je Vaše e-mailová adresa"
 msgid "Confirm"
 msgstr "Potvrdit"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "Proces potvrzení pro tuto e-mailovou adresu byl ukončen, znovu spusťte znovu"
 
 msgid "here"
@@ -1768,7 +1774,9 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "sloučeno od"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "Všechna sloučení jsou zpracovávána ručně pracovníky podpory peeringdb. Pokud si myslíte, že tato akce byla provedena chybně, neváhejte kontaktovat podporu peeringdb na"
 
 #, python-format
@@ -1813,11 +1821,11 @@ msgstr "Síť %(n_name)s (%(n_id)s) byla automaticky vytvořena uživatelskou ž
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Uživatel '%(u_name)s' vytvořil Síť %(n_name)s AS%(n_asn)s (%(n_id)s) pod organizaci %(o_name)s (%(o_id)s)."
 
 #, fuzzy
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Vzhledem k tomu, že e-mailová adresa uživatele byla úspěšně porovnána s údaji v RiR, přeskočila tato síť kontrolní frontu."
 
 #, python-format
@@ -1827,7 +1835,9 @@ msgstr "Uživatel %(u_name)s (%(u_email)s) žádá o přidružení k ASN %(inst)
 msgid "They also provided this organization name in their request"
 msgstr "Poskytli také název organizace ve své žádosti"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "V naší databázi nebyl nalezen žádný záznam, který by odpovídal ASN. Je tedy potřeba vytvořit síť a organizaci."
 
 #, python-format
@@ -1855,7 +1865,7 @@ msgid "ATTENTION: This is an ownership request, approving it will grant the user
 msgstr "UPOZORNĚNÍ: Jedná se o žádost vlastnictví, která schvaluje, že uživateli budou udělena administrativní práva nad organizací a všemi jejími objekty, které vlastní."
 
 #, fuzzy
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "Jedná se o adresy webových stránek, které byly odvozeny od organizace a jejích objektů"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -2093,7 +2103,9 @@ msgstr "Požadovaná stránka neexistuje."
 msgid "403 - Forbidden"
 msgstr "403 - Zakázáno"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "Nemáte oprávnění k zobrazení této stránky."
 
 msgid "Take me home"

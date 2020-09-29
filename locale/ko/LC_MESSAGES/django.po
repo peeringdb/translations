@@ -1101,7 +1101,9 @@ msgstr "환경 재설정"
 msgid "IX-F Import"
 msgstr "IX-F 가져오기"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "이 개체의 위도와 경도가 주소 필드와 동기화되었음"
 
 msgid "Last time of attempted geocode"
@@ -1316,7 +1318,7 @@ msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "ixp가 ixp_member 데이터를 통해 이 네트워크에 대해 netixlan 항목을 추가할 수 있는지 확인"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1475,12 +1477,14 @@ msgstr "잘못된 조직이 지정됨"
 msgid "Needs to be member or admin"
 msgstr "구성원 또는 관리자 필요"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s의 가입 요청이 승인되었음"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1499,12 +1503,14 @@ msgstr "RDAP 룩업 오류"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "이 필드는 다음 요청에 대해서만 허용됨: {methods}"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 않았으므로 '%(type)s' 유형의 개체를 만들 수 없음"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1538,7 +1544,9 @@ msgstr "는 당신의 이메일 주소입니다"
 msgid "Confirm"
 msgstr "확인"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "이 이메일 주소에 대한 이메일 확인 프로세스가 종료되었으므로 다시 시작하십시오"
 
 msgid "here"
@@ -1619,7 +1627,9 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "로 합병되었음"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "모든 병합은 peeringdb 지원 담당자가 수동으로 처리합니다. 이 작업이 실수로 실행되었다고 생각되면 peeringdb 지원팀에 문의하십시오"
 
 #, python-format
@@ -1660,11 +1670,14 @@ msgstr "조직 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) %(u_name)s가 AS%
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "네트워크 %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) 가 AS%(asn)s 에 대한 사용자 '%(u_name)s's 의 소속 요청 중 자동으로 생성됨"
 
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "사용자 '%(u_name)s'는 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) 조직 아래 %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>)네트워크를 생성했다."
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었다."
 
 #, python-format
@@ -1674,7 +1687,9 @@ msgstr "사용자 %(u_name)s(%(u_email)s)가 ASN %(inst)s에 소속되기를 희
 msgid "They also provided this organization name in their request"
 msgstr "그들은 또한 그들의 요청으로 이 조직명을 제공했다"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "데이터베이스에는 ASN과 일치하는 항목이 없었기 때문에, 그것에 대한 네트워크와 조직을 만들 필요가 있을 것 같다."
 
 #, python-format
@@ -1700,7 +1715,9 @@ msgstr "그들은 또한 그들의 요청으로 이 ASN을 제공했다"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "주의: 이것은 소유권 요청이며, 이를 승인하면 사용자에게 조직과 그것이 소유한 모든 기업에 대한 관리 권한이 부여된다."
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#, fuzzy
+#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "이것들은 조직과 그것의 독립체들로부터 파생될 수 있는 웹사이트 주소이다"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -1930,7 +1947,9 @@ msgstr "요청한 페이지를 찾을 수 없음."
 msgid "403 - Forbidden"
 msgstr "403 - 금지됨"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "이 페이지를 볼 수 있는 권한이 없음."
 
 msgid "Take me home"

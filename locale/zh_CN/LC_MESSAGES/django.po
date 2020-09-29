@@ -1227,7 +1227,9 @@ msgstr "重置环境"
 msgid "IX-F Import"
 msgstr "IXF 导入日志"
 
-msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#, fuzzy
+#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "此对象的经纬度是否已与其地址字段同步"
 
 msgid "Last time of attempted geocode"
@@ -1456,7 +1458,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgid "Sepcifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "声明是否允许 IXP 通过其 IXP 成员数据为此网络添加 netixlan 条目"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -1615,12 +1617,14 @@ msgstr "指定的组织无效"
 msgid "Needs to be member or admin"
 msgstr "需要为成员或管理员"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been approved"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been approved"
+msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s 的关联请求已批准"
 
-#, python-format
-msgid "%(user_name)s's afilliation request has been denied"
+#, fuzzy, python-format
+#| msgid "%(user_name)s's afilliation request has been denied"
+msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s 的关联请求被拒绝"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -1639,12 +1643,14 @@ msgstr "RDAP 查找错误"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "此字段仅允许这些请求：{methods}"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 未被批准"
 
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
@@ -1680,7 +1686,9 @@ msgstr "是你的电子邮件地址"
 msgid "Confirm"
 msgstr "确认"
 
-msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#, fuzzy
+#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "此电子邮件地址的邮件确认流程已终止，请重新启动"
 
 msgid "here"
@@ -1773,7 +1781,9 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "被合并进"
 
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#, fuzzy
+#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "所有的合并都由 PeeringDB 支持手动处理。如果您认为此操作错误，请联系 PeeringDB 支持"
 
 #, python-format
@@ -1818,10 +1828,12 @@ msgstr "网络 %(n_name)s（%(n_id)s）在用户 %(u_name)s 请求关联AS%(asn)
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "用户 %(u_name)s 在组织 %(o_name)s（%(o_id)s） 下创建网络 %(n_name)s 及 AS%(n_asn)s（%(n_id)s）。"
 
-msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "由于用户的 Email 地址与 RIR 数据匹配，该网络已跳过验证。"
 
 #, python-format
@@ -1831,7 +1843,9 @@ msgstr "用户 %(u_name)s（%(u_email)s）希望关联 ASN%(inst)s"
 msgid "They also provided this organization name in their request"
 msgstr "他们还在他们的请求中提供了这个组织名称"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#, fuzzy
+#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "数据库中没有与 ASN 匹配的条目，可能需要创建网络和组织。"
 
 #, python-format
@@ -1857,7 +1871,9 @@ msgstr "他们还在请求中提供了这个ASN"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "注意：这是一个所有权请求，批准它意味着授予用户权限去管理该组织及其拥有的实体。"
 
-msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#, fuzzy
+#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "这些是能够从组织及其实体派生而来的网址"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
@@ -2087,7 +2103,9 @@ msgstr "您请求的页面不存在。"
 msgid "403 - Forbidden"
 msgstr "403 - 被阻止"
 
-msgid "You dont have permissions to view this page."
+#, fuzzy
+#| msgid "You dont have permissions to view this page."
+msgid "You don't have permissions to view this page."
 msgstr "您没有权限查看此页面。"
 
 msgid "Take me home"
