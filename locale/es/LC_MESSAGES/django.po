@@ -1428,6 +1428,16 @@ msgstr "Dirección IPv4 fuera del prefijo"
 msgid "IPv6 address outside of prefix"
 msgstr "Dirección IPv6 fuera del prefijo"
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "Valor máximo permitido {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Minimum speed: {}"
+msgstr "Valor de velocidad inválido: {}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "Dirección IP ya está en uso"
 
@@ -1596,6 +1606,9 @@ msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s ha sido eliminada"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -2885,6 +2898,11 @@ msgstr "hace días"
 
 msgid "Not a valid phone number (E.164)"
 msgstr ""
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "No necesario"
 
 msgid "Invalid prefix: {}"
 msgstr "Prefijo inválido: {}"

@@ -1328,6 +1328,16 @@ msgstr "IPv4 주소가 프리픽스를 벗어남"
 msgid "IPv6 address outside of prefix"
 msgstr "IPv6가 프리픽스를 벗어남"
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "허용되는 최대 값 {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Minimum speed: {}"
+msgstr "잘못된 속도 값: {}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "IP 주소가 이미 다른 곳에 존재함"
 
@@ -1496,6 +1506,9 @@ msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
@@ -2691,6 +2704,11 @@ msgstr "일 전"
 
 msgid "Not a valid phone number (E.164)"
 msgstr "잘못된 전화 번호(E.164)"
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "필요 없음"
 
 msgid "Invalid prefix: {}"
 msgstr "유효하지 않는 프리픽스: {}"

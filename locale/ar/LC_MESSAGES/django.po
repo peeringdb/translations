@@ -1458,6 +1458,16 @@ msgstr "عنوان بروتوكول الإنترنت الاصدارة الراب
 msgid "IPv6 address outside of prefix"
 msgstr "عنوان بروتوكول الإنترنت الاصدارة السادسة خارج بادئة عنوان الإنترنت"
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "القيمة القصوى المسموح بها {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Minimum speed: {}"
+msgstr "قيم سرعة الاتصال غير صحيحة : {}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "عنوان الانترنت موجود بالفعل في مكان آخر"
 
@@ -1626,6 +1636,9 @@ msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤ
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -2874,6 +2887,11 @@ msgstr "منذ يوم"
 
 msgid "Not a valid phone number (E.164)"
 msgstr ""
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "غير مطلوب"
 
 msgid "Invalid prefix: {}"
 msgstr "بادئة عنوان انترنت غير صالحة: {}"

@@ -1313,6 +1313,12 @@ msgstr ""
 msgid "IPv6 address outside of prefix"
 msgstr ""
 
+msgid "Maximum speed: {}"
+msgstr ""
+
+msgid "Minimum speed: {}"
+msgstr ""
+
 msgid "Ip address already exists elsewhere"
 msgstr ""
 
@@ -1472,6 +1478,9 @@ msgstr ""
 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr ""
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2654,6 +2663,9 @@ msgid "days ago"
 msgstr ""
 
 msgid "Not a valid phone number (E.164)"
+msgstr ""
+
+msgid "Input required"
 msgstr ""
 
 msgid "Invalid prefix: {}"

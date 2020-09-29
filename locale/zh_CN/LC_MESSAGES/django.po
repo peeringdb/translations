@@ -1468,6 +1468,16 @@ msgstr "IPv4 地址在前缀范围之外"
 msgid "IPv6 address outside of prefix"
 msgstr "IPv6 地址在前缀范围之外"
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "允许的最大值为 {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Minimum speed: {}"
+msgstr "无效速率：{}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "IP 地址已在别处存在"
 
@@ -1636,6 +1646,9 @@ msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -2881,6 +2894,11 @@ msgstr "天前"
 
 msgid "Not a valid phone number (E.164)"
 msgstr ""
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "不需要"
 
 msgid "Invalid prefix: {}"
 msgstr "前缀无效：{}"

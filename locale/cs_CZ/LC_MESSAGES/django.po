@@ -1461,6 +1461,16 @@ msgstr ""
 msgid "IPv6 address outside of prefix"
 msgstr ""
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "Maximální přípustná hodnota {}"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Minimum speed: {}"
+msgstr "Neplatný prefix: {}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "IP adresa již použita jinde"
 
@@ -1629,6 +1639,9 @@ msgstr "Objekt typu \"% (typ) s\" nelze vytvořit, protože jeho nadřazená ent
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Objekt typu '%(type)s' nelze vytvořit, protože jeho nadřazená entita '%(parent_tag)s/%(parent_id)s' byla označena za smazanou"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -2942,6 +2955,11 @@ msgstr "dnů před"
 
 msgid "Not a valid phone number (E.164)"
 msgstr ""
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "Není požadováno"
 
 msgid "Invalid prefix: {}"
 msgstr "Neplatný prefix: {}"

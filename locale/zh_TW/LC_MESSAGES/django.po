@@ -1470,6 +1470,16 @@ msgstr ""
 msgid "IPv6 address outside of prefix"
 msgstr ""
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "允許的最大值為 {}"
+
+#, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Minimum speed: {}"
+msgstr "首碼無效：{}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "IP 地址已在別處存在"
 
@@ -1636,6 +1646,9 @@ msgstr "物件類型 %(type)s 無法創建，因為其父實體 %(parent_tag)s/%
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "物件類型 %(type)s 無法創建，因為其父實體 %(parent_tag)s/%(parent_id)s 已標記為刪除"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
@@ -2891,6 +2904,11 @@ msgstr "天前"
 
 msgid "Not a valid phone number (E.164)"
 msgstr ""
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "不需要"
 
 msgid "Invalid prefix: {}"
 msgstr "首碼無效：{}"

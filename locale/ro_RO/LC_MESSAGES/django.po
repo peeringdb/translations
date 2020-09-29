@@ -1372,6 +1372,16 @@ msgstr "Adresa IPv4 este în afara prefixului"
 msgid "IPv6 address outside of prefix"
 msgstr "Adresa IPv6 este în afara prefixului"
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "Valoarea maximă admisă {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Minimum speed: {}"
+msgstr "Valoarea vitezei nu este validă: {}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "Adresa IP există deja în altă parte"
 
@@ -1540,6 +1550,9 @@ msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părin
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
@@ -2760,6 +2773,11 @@ msgstr "zile în urmă"
 
 msgid "Not a valid phone number (E.164)"
 msgstr "Nu este un număr de telefon valid (E.164)"
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "Nu este necesar"
 
 msgid "Invalid prefix: {}"
 msgstr "Prefixul nu este valid: {}"

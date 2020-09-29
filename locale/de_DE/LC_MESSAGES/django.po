@@ -1399,6 +1399,16 @@ msgstr "IPv4-Adresse liegt außerhalb des Präfix"
 msgid "IPv6 address outside of prefix"
 msgstr "Die IPv6-Adresse liegt außerhalb des Präfix"
 
+#, fuzzy
+#| msgid "Maximum value allowed {}"
+msgid "Maximum speed: {}"
+msgstr "gültiges Maximum {}"
+
+#, fuzzy
+#| msgid "Invalid speed value: {}"
+msgid "Minimum speed: {}"
+msgstr "Ungültiger Geschwindigkeitswert: {}"
+
 msgid "Ip address already exists elsewhere"
 msgstr "IP Adresse wird bereits an anderer Stelle benutzt"
 
@@ -1567,6 +1577,9 @@ msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die überge
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
+
+msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
@@ -2788,6 +2801,11 @@ msgstr "Tage her"
 
 msgid "Not a valid phone number (E.164)"
 msgstr "Keine gültige Telefonnummer (E.164)"
+
+#, fuzzy
+#| msgid "Not Required"
+msgid "Input required"
+msgstr "Nicht erforderlich"
 
 msgid "Invalid prefix: {}"
 msgstr "Ungültiges Prefix: {}"
