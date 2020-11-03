@@ -339,6 +339,19 @@ msgstr "Non-Profit"
 msgid "Route Server"
 msgstr "Route Server"
 
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Services"
+msgstr "Sfera rețelei"
+
+msgid "Route Collector"
+msgstr ""
+
+#, fuzzy
+#| msgid "Governance"
+msgid "Government"
+msgstr "Guvernare"
+
 msgid "Private"
 msgstr "Privat"
 
@@ -468,13 +481,17 @@ msgstr "Tip rețea"
 msgid "IPv4 Prefixes"
 msgstr "Prefixe IPv4"
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+#, fuzzy
+#| msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr "Limita maximă recomandată de prefixe IPv4 pentru a fi configurată în sesiunile de peering pentru acest ASN"
 
 msgid "IPv6 Prefixes"
 msgstr "Prefixe IPv6"
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+#, fuzzy
+#| msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr "Limită maximă recomandată de prefixe IPv6 pentru a fi configurată în sesiunile de peering pentru acest ASN"
 
 msgid "Unicast IPv4"

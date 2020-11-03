@@ -347,6 +347,17 @@ msgstr "非盈利"
 msgid "Route Server"
 msgstr "路由服务器"
 
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Services"
+msgstr "网络范围"
+
+msgid "Route Collector"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
 msgid "Private"
 msgstr "私有"
 
@@ -490,13 +501,13 @@ msgstr "网络类型"
 msgid "IPv4 Prefixes"
 msgstr "IPv4 前缀"
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 前缀"
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "Unicast IPv4"

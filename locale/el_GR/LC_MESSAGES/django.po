@@ -347,6 +347,17 @@ msgstr "Μη Κερδοσκοπικός"
 msgid "Route Server"
 msgstr "Route Server"
 
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Services"
+msgstr "Δικτυακό Εύρος"
+
+msgid "Route Collector"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
 msgid "Private"
 msgstr "Ιδιωτικός"
 
@@ -490,13 +501,13 @@ msgstr "Tύπος Δικτύου"
 msgid "IPv4 Prefixes"
 msgstr "IPv4 Prefixes"
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 Prefixes"
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "Unicast IPv4"

@@ -340,6 +340,17 @@ msgstr "Nicht gewinnorientiert (Vereine)"
 msgid "Route Server"
 msgstr "Route Server"
 
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Services"
+msgstr "Netzwerkgeltungsbereich"
+
+msgid "Route Collector"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
 msgid "Private"
 msgstr "Privat"
 
@@ -471,13 +482,17 @@ msgstr "Typ des Netzwerks"
 msgid "IPv4 Prefixes"
 msgstr "IPv4-Präfixe"
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+#, fuzzy
+#| msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr "Maximale empfohlene zu konfigurierende IPv4 Prefix-Länge für peering sessions mit diesem AS"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6-Präfixe"
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+#, fuzzy
+#| msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr "Maximale empfohlene zu konfigurierende IPv6 Prefix-Länge für peering sessions mit diesem AS"
 
 msgid "Unicast IPv4"

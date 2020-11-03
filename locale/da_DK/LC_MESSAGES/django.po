@@ -343,6 +343,17 @@ msgstr "Nonprofit"
 msgid "Route Server"
 msgstr "Ruteningsserver"
 
+#, fuzzy
+#| msgid "Facility"
+msgid "Network Services"
+msgstr "Facility"
+
+msgid "Route Collector"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
 msgid "Private"
 msgstr "Privat"
 
@@ -484,13 +495,13 @@ msgstr ""
 msgid "IPv4 Prefixes"
 msgstr ""
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "IPv6 Prefixes"
 msgstr ""
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "Unicast IPv4"

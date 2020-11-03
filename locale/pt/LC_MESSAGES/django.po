@@ -347,6 +347,17 @@ msgstr "Sem fins lucrativos"
 msgid "Route Server"
 msgstr "Servidor de rotas"
 
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Services"
+msgstr "Esopo da rede"
+
+msgid "Route Collector"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
 msgid "Private"
 msgstr "Privado"
 
@@ -490,13 +501,13 @@ msgstr "Tipo de rede"
 msgid "IPv4 Prefixes"
 msgstr "Prefixos IPv4"
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "IPv6 Prefixes"
 msgstr "Prefixos IPv6"
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "Unicast IPv4"

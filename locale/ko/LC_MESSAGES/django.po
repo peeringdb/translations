@@ -313,6 +313,19 @@ msgstr "비영리"
 msgid "Route Server"
 msgstr "경로 서버"
 
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Services"
+msgstr "네트워크 범위"
+
+msgid "Route Collector"
+msgstr ""
+
+#, fuzzy
+#| msgid "Governance"
+msgid "Government"
+msgstr "거버넌스"
+
 msgid "Private"
 msgstr "비공개"
 
@@ -442,13 +455,17 @@ msgstr "네트워크 유형"
 msgid "IPv4 Prefixes"
 msgstr "IPv4 프리픽스"
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+#, fuzzy
+#| msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 프리픽스"
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+#, fuzzy
+#| msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
 
 msgid "Unicast IPv4"

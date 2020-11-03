@@ -345,6 +345,17 @@ msgstr "غير ربحية"
 msgid "Route Server"
 msgstr "خادم التوجيه"
 
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Services"
+msgstr "نطاق شبكة الاتصال"
+
+msgid "Route Collector"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
 msgid "Private"
 msgstr "خاص"
 
@@ -489,13 +500,13 @@ msgstr "نوع شبكة الاتصال"
 msgid "IPv4 Prefixes"
 msgstr "شبكات بروتوكول الانترنت الإصدارة الرابعة"
 
-msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "IPv6 Prefixes"
 msgstr "شبكات بروتوكول الانترنت الإصدارة السادسة"
 
-msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
+msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgstr ""
 
 msgid "Unicast IPv4"
