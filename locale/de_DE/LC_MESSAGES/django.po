@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-07-07 19:58+0000\n"
-"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
+"PO-Revision-Date: 2020-11-05 18:58+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -264,60 +264,38 @@ msgstr "10-20 Gbit/s"
 msgid "20-50Gbps"
 msgstr "20-50 Gbit/s"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Gbps"
-msgstr "50-100 Gbit/s"
+msgstr "50-100Gbit/s"
 
-#, fuzzy
-#| msgid "100-200 Gbps"
 msgid "100-200Gbps"
-msgstr "100-200 Gbit/s"
+msgstr "100-200Gbit/s"
 
-#, fuzzy
-#| msgid "200-300 Gbps"
 msgid "200-300Gbps"
-msgstr "200-300 Gbit/s"
+msgstr "200-300Gbit/s"
 
-#, fuzzy
-#| msgid "300-500 Gbps"
 msgid "300-500Gbps"
-msgstr "300-500 Gbit/s"
+msgstr "300-500Gbit/s"
 
-#, fuzzy
-#| msgid "500-1000 Gbps"
 msgid "500-1000Gbps"
-msgstr "500-1000 Gbit/s"
+msgstr "500-1000Gbit/s"
 
-#, fuzzy
-#| msgid "1 Tbps+"
 msgid "1-5Tbps"
-msgstr "1+ Tbit/s"
+msgstr "1-5Tbit/s"
 
-#, fuzzy
-#| msgid "5-10Gbps"
 msgid "5-10Tbps"
-msgstr "5-10 Gbit/s"
+msgstr "5-10Tbit/s"
 
-#, fuzzy
-#| msgid "10-20Gbps"
 msgid "10-20Tbps"
-msgstr "10-20 Gbit/s"
+msgstr "10-20Tbit/s"
 
-#, fuzzy
-#| msgid "20-50 Gbps"
 msgid "20-50Tbps"
-msgstr "20-50 Gbit/s"
+msgstr "20-50Tbit/s"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Tbps"
-msgstr "50-100 Gbit/s"
+msgstr "50-100Tbit/s"
 
-#, fuzzy
-#| msgid "100+ Gbps"
 msgid "100+Tbps"
-msgstr "100+ Gbit/s"
+msgstr "100+Tbit/s"
 
 msgid "NSP"
 msgstr "NSP (Network Service Provider)"
@@ -557,10 +535,8 @@ msgstr "Telefon (Peeringrichtlinien)"
 msgid "IX-F Network Count"
 msgstr "Netz wurde nicht gefunden"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "IX-F Last Import"
-msgstr "IX-F Import"
+msgstr "Letzter IX-F Import"
 
 msgid "Internet Exchange"
 msgstr "Austauschknoten"
@@ -668,7 +644,7 @@ msgid "Japanese"
 msgstr "Japanisch"
 
 msgid "Occitan"
-msgstr ""
+msgstr "Okzitan"
 
 msgid "Portuguese"
 msgstr "Portugiesisch"
@@ -698,7 +674,7 @@ msgid "Ixlans can no longer be directly deleted as they are now synced to the pa
 msgstr "Ixlans können nicht mehr direkt gelöscht werden, da sie nun mit dem übergeordneten Austauschpunkt abgeglichen werden"
 
 msgid "Protected object '{}': {}"
-msgstr ""
+msgstr "Geschütztes Objekt '{}': {}"
 
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
@@ -832,7 +808,7 @@ msgid "No requirements"
 msgstr "Trafficverhältnis-Anforderung"
 
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet wird, bevor sie es erneut ausführen"
@@ -870,15 +846,11 @@ msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiede
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
 msgstr ""
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset all"
-msgstr "Zurücksetzen"
+msgstr "Alles zurücksetzen"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Reset hints"
-msgstr "Setze Umgebung zurück"
+msgstr "Hinweise zum Zurücksetzen"
 
 msgid "Reset dismisses"
 msgstr ""
