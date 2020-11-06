@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-11-06 06:58+0000\n"
-"Last-Translator: Jan Gilla <ripe@jangilla.de>\n"
+"Last-Translator: Bernd SPIESS <bernd.spiess@ip-it.com>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -526,27 +526,23 @@ msgstr "E-Mail (Peeringrichtlinien)"
 msgid "Policy Phone"
 msgstr "Telefon (Peeringrichtlinien)"
 
-#, fuzzy
-#| msgid "Network not found"
 msgid "IX-F Network Count"
-msgstr "Netz wurde nicht gefunden"
+msgstr "IX-F Netzwerk Anzahl"
 
 msgid "IX-F Last Import"
 msgstr "Letzter IX-F Import"
 
 msgid "Internet Exchange"
-msgstr "Austauschknoten"
+msgstr "Internet Exchange"
 
 msgid "Internet Exchanges"
-msgstr "Austauschpunkte"
+msgstr "Internet Exchanges"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "Internet Exchange facility"
-msgstr "Netzwerk-Liegenschaft-Link"
+msgstr "Internet Exchange Standort"
 
 msgid "Internet Exchange facilities"
-msgstr "Internet Exchange Standort"
+msgstr "Internet Exchange Standorte"
 
 msgid "Description"
 msgstr "Beschreibung"
@@ -555,7 +551,7 @@ msgid "Route Server ASN"
 msgstr "Route Server ASN"
 
 msgid "ARP sponging MAC"
-msgstr ""
+msgstr "ARP sponging MAC"
 
 msgid "IX-F Member Export URL"
 msgstr "IX-F Member-Export-URL"
@@ -564,7 +560,7 @@ msgid "IX-F Member Export URL Visibility"
 msgstr "IX-F Mitglieder-Export-URL Sichtbarkeit"
 
 msgid "Internet Exchange LAN"
-msgstr "Austauschknoten LAN"
+msgstr "Internet Exchange LAN"
 
 msgid "Internet Exchange LANs"
 msgstr "Internet Exchange LANs"
@@ -576,10 +572,10 @@ msgid "Prefix"
 msgstr "Präfix"
 
 msgid "Internet Exchange LAN prefix"
-msgstr "Austauschknoten LAN prefix"
+msgstr "Internet Exchange LAN Präfix"
 
 msgid "Internet Exchange LAN prefixes"
-msgstr "Austauschknoten LAN prefixe"
+msgstr "Internet Exchange LAN Präfixe"
 
 msgid "Local ASN"
 msgstr "Lokale ASN"
