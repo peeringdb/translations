@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-11-06 06:58+0000\n"
-"Last-Translator: Bernd SPIESS <bernd.spiess@ip-it.com>\n"
+"PO-Revision-Date: 2020-11-06 08:58+0000\n"
+"Last-Translator: Elmar K. Bins <elmi@4ever.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "Unerlaubtes Umleitungsschema: {scheme}"
 
 #, python-brace-format
 msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr ""
+msgstr "redirect_uris muss einen Wert enthalten, wenn grant_type= {grant_type}"
 
 msgid "The access token is invalid."
 msgstr "Der Zugangstoken ist ungültig."
@@ -580,15 +580,11 @@ msgstr "Internet Exchange LAN Präfixe"
 msgid "Local ASN"
 msgstr "Lokale ASN"
 
-#, fuzzy
-#| msgid "Suggest Facility"
 msgid "Network Facility"
-msgstr "Liegenschaft vorschlagen"
+msgstr "Rechenzentrum"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Network Facilities"
-msgstr "Liegenschaften zusammenführen"
+msgstr "Rechenzentren zusammenführen"
 
 msgid "RS peer"
 msgstr "RS peer"
@@ -828,7 +824,7 @@ msgid "Only {} type objects may be restored through this interface at this point
 msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiederhergestellt werden"
 
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
+msgstr "Internet Exchange auswählen, um Mitgliederdaten zu importieren"
 
 msgid "Reset all"
 msgstr "Alles zurücksetzen"
@@ -837,17 +833,13 @@ msgid "Reset hints"
 msgstr "Hinweise zum Zurücksetzen"
 
 msgid "Reset dismisses"
-msgstr ""
+msgstr "Reset verwirft alle Änderungen"
 
-#, fuzzy
-#| msgid "Sales Email"
 msgid "Reset email"
-msgstr "Vertriebs Email"
+msgstr "E-Mail zurücksetzen"
 
-#, fuzzy
-#| msgid "DeskPRO Tickets"
 msgid "Reset tickets"
-msgstr "DeskPRO Tickets"
+msgstr "Tickets zurücksetzen"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -861,13 +853,13 @@ msgid "Retrieves a list of `{obj_type}` type objects"
 msgstr "Fragt eine Liste von Objekten des Typs `{obj_type}` ab"
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
+msgstr "Anzahl Ergebnisse limitieren (für seitenweise Ausgabe, in Kombination mit \"skip\")"
 
 msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
+msgstr "n Ergebnisse überspringen (für seitenweise Ausgabe, in Kombination mit \"skip\")"
 
 msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
+msgstr "UNIX epoch (Sekunden). Nur Objekte mit späterem Änderungsdatum anzeigen"
 
 msgid "Filter results by matching a value against this field."
 msgstr "Filtere die Resultate gegen passende Werte in dem Feld."
@@ -879,7 +871,7 @@ msgid "Number of networks present at this facility"
 msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
 
 msgid "Targets both AKA and name fields for filtering"
-msgstr ""
+msgstr "Verwendet AKA (Alias) und Namensfelder im Filter"
 
 msgid "Find networks not present at an exchange (exchange id)"
 msgstr "Suche nach Netzen, die an einem Exchange nicht präsent sind (Exchange ID)"
@@ -887,15 +879,11 @@ msgstr "Suche nach Netzen, die an einem Exchange nicht präsent sind (Exchange I
 msgid "Find networks present at exchange (exchange id)"
 msgstr "Suche nach Netzen, die an einem Exchange präsent sind (Exchange ID)"
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks not present at a facility (facility id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Suche nach Netzen, die in Rechenzentrum (facility id) nicht präsent sind"
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks present at a facility (facility id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Suche nach Netzen, die in Rechenzentrum (facility id) präsent sind"
 
 msgid "Find networks connected at ixlan (ixlan id)"
 msgstr "Finde Netzwerke die am ixlan (ixlan id) konnektiert sind"
@@ -924,10 +912,8 @@ msgstr "Finde Austauschpunkt wo dieses Netzwerk präsent ist (net id)"
 msgid "Find organization that contains the network (network asn)"
 msgstr "Finde die Organisation die diesem Netzwerk zugehört (network asn)"
 
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find prefixes by exchange (exchange id)"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Netze nach Internet Exchange (exchange id) suchen"
 
 msgid "Find prefixes by ip address"
 msgstr "Finde Präfixe durch IP Adresse"
@@ -1008,13 +994,13 @@ msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr ""
+msgstr "Diese Kombination aus ASN, IPv4- und IPv6-Adresse existiert nicht für ein einzelnes Mitglied an diesem Internet Exchange"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr ""
+msgstr "Diese Kombination aus ASN, IPv4- und IPv6-Adresse existiert nicht für ein einzelnes Mitglied in PeeringDB"
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr ""
+msgstr "Diskrepanz zwischen Daten von PeeringDB und Internet Exchange"
 
 msgid "IXF import url not specified"
 msgstr "Keine IXF-Import-URL vorhanden"
@@ -1026,7 +1012,7 @@ msgid "IX-F data not locally cached for this resource yet."
 msgstr "IX-F Daten wurden für diese Ressource noch nicht lokal im Cache abgelegt."
 
 msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
+msgstr "Addresse {} ist für mehr als eine Verbindung in Benutzung"
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."
@@ -1068,10 +1054,10 @@ msgid "IPv4 not set"
 msgstr "IPv4 nicht gesetzt"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr ""
+msgstr "PeeringDB: bitte korrigieren: IX-F Importer, Datendiskrepanz zwischen AS{} und einem oder mehreren Internet Exchanges"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
-msgstr ""
+msgstr "PeeringDB: bitte korrigieren: IX-F Importer, Datendiskrepanz zwischen {} und einem oder mehreren Netzen"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
@@ -1249,38 +1235,34 @@ msgid "Can only compare a maximum of 25 asns"
 msgstr "Es können maximal 25 ASNs verglichen werden"
 
 msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
+msgstr "Rechenzentrum hat noch aktive Internet Exchanges: {} ..."
 
 msgid "Facility has active network presence(s): {} ..."
-msgstr ""
+msgstr "Rechenzentrum hat noch aktive Netze zugeordnet: {} ..."
 
 msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
+msgstr "Internet Exchange ist mit aktiven Rechenzentren verbunden: {} ..."
 
 msgid "Exchange has active peer(s)"
-msgstr ""
+msgstr "Internet Exchange hat aktive Peers"
 
 msgid "IX-F error"
 msgstr "IX-F Fehler"
 
-#, fuzzy
-#| msgid "No JSON could be parsed"
 msgid "Reason IX-F data could not be parsed"
-msgstr "JSON konnte nicht analyisert werden"
+msgstr "IX-F data JSON konnte nicht analyisert werden, Grund:"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "IX-F error notification date"
-msgstr "Benachrichtigung über Zusammenführung"
+msgstr "IX-F Datumsfehler"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
+msgstr "Letzte Mitteilung zum IX-F Formatproblem an den Internet Exchange"
 
 msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
+msgstr "IX-F: IPs für nicht unterstütztes Protokoll gefunden"
 
 msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
+msgstr "Internet Exchange: IP-Adressen für vom Netzwerk nicht unterstützes Protokoll"
 
 msgid "IXLan id needs to match parent ix id"
 msgstr "IXLan id muss mit der übergeordneten ix id übereinstimmen"
@@ -1301,7 +1283,7 @@ msgid "IXF Import Log Entries"
 msgstr "IXF Import Log Einträge"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
-msgstr ""
+msgstr "JSON snapshot der Quelle für diesen Eintrag (IX-F Mitglied)"
 
 msgid "Activity for this entry"
 msgstr "Aktivitäten für diesen Eintrag"
@@ -1313,7 +1295,7 @@ msgid "RS Peer"
 msgstr "RS-Peer"
 
 msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
+msgstr "Datenimport in PeeringDB problematisch"
 
 msgid "Last Fetched"
 msgstr "Zuletzt aktualisiert"
@@ -1325,13 +1307,13 @@ msgid "IXF Member Data"
 msgstr "IX-F Mitglieds Daten"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
+msgstr "Keine verwendbaren IP-Adressen für aktivierte Netzwerkprotokolle gefunden"
 
 msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
+msgstr "Aktive Peers in diesem Adressraum an diesem Internet Exchange"
 
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
+msgstr "IXLanPrefix mit Status '{}' kann nicht mit IXLan mit Status '{}' verknüpft werden."
 
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -1438,16 +1420,14 @@ msgstr "Erledigt"
 msgid "Running"
 msgstr "verarbeitet"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Environment Setting"
-msgstr "Setze Umgebung zurück"
+msgstr "Umgebungseinstellungen"
 
 msgid "Environment Settings"
 msgstr "Umgebungs-Einstellungen"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr ""
+msgstr "IX-F Importer: Tage bis DeskPRO Ticket erzeugt wird"
 
 msgid "Last Updated"
 msgstr "Zuletzt aktualisiert"
@@ -1534,7 +1514,7 @@ msgid "ASN cannot be changed."
 msgstr "ASN kann nicht geändert werden."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr ""
+msgstr "Eigenschaft `in_dfz` ist veraltet und kann nicht mehr auf `False` gesetzt werden"
 
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
@@ -1577,6 +1557,8 @@ msgid ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgstr ""
+"\n"
+"Für RegEx-Suche à la  <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, muß die Suchanfrage mit ^ beginnen und mit $ enden.\n"
 
 msgid "Save and Apply"
 msgstr "Speichern und Anwenden"
@@ -1588,12 +1570,10 @@ msgid "Save and continue editing"
 msgstr "Speichern und Bearbeiten vorzusetzen"
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
-msgstr ""
+msgstr "Vorsicht - bitte die Dokumentation lesen oder jemanden mit Erfahrung hinzuziehen"
 
-#, fuzzy
-#| msgid "Undo merge"
 msgid "You may undo merges"
-msgstr "Veränderung rückgängig machen"
+msgstr "Zusammenführungen können rückgängig gemacht werden"
 
 msgid "Selected Organizations"
 msgstr "Ausgewählte Organisationen"
@@ -1602,13 +1582,13 @@ msgid "Search"
 msgstr "Suche"
 
 msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
-msgstr ""
+msgstr "Org's in dieser Spalte werden mit Org's in der rechten Spalte zusammengeführt. Zum Deselektieren anklicken."
 
 msgid "Merge Into Organization"
 msgstr "Zusammenführen in Organisation"
 
 msgid "Organizations in the left column will be merged into this organization"
-msgstr ""
+msgstr "Org's in der linken Spalte werden mit dieser Org zusammengeführt"
 
 msgid "Merge Organizations"
 msgstr "Organisationen zusammenführen"
@@ -1880,10 +1860,10 @@ msgid "Search for networks that are present at one exchange and absent at anothe
 msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
 
 msgid "Present"
-msgstr ""
+msgstr "Vorhanden"
 
 msgid "Absent"
-msgstr ""
+msgstr "Nicht vorhanden"
 
 msgid "Facility Presence"
 msgstr "Liegenschaftspräsenz"
@@ -1911,10 +1891,10 @@ msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- alle Daten werden am %(dt)sZ von der Produktion geladen"
 
 msgid "Only use this if you own the facility"
-msgstr ""
+msgstr "Nur für Betreiber des Rechenzentrums"
 
 msgid "Only use this if you own the exchange"
-msgstr ""
+msgstr "Nur für Betreiber des Internet Exchange"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
@@ -1943,7 +1923,7 @@ msgid "In order to be approved we would expect that the suggested Facility offer
 msgstr "Damit die vorgeschlagene Einrichtung genehmigt wird, erwarten wir, dass dort Kolokation-, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich angeboten werden."
 
 msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
-msgstr ""
+msgstr "Betreiber des Rechenzentrums, bitte \"Add Facility\" im eigenen Org Objekt verwenden."
 
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
 msgstr "Damit der vorgeschlagene Austauschpunkt genehmigt wird, erwarten wir, dass er folgende Kriterien erfüllt:"
@@ -2016,7 +1996,7 @@ msgstr "Verbindungen zu Liegenschaften"
 #, fuzzy
 #| msgid "Add Network"
 msgid "Automated Networks"
-msgstr "Netzwerk hinzufügen"
+msgstr "Automatisierte Netzwerke"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
@@ -2464,10 +2444,10 @@ msgid "Refresh"
 msgstr "Aktualisierung"
 
 msgid "Some exchanges suggest updates to your entries in their peering list."
-msgstr ""
+msgstr "Änderungsvorschläge für Ihre Einträge in der Peeringliste einiger Internet Exchanges."
 
 msgid "Review suggestions"
-msgstr ""
+msgstr "Änderungsvorschläge bestätigen"
 
 msgid "You have dismissed some suggestions that are still available."
 msgstr ""
