@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-11-06 05:58+0000\n"
+"PO-Revision-Date: 2020-11-06 06:58+0000\n"
 "Last-Translator: Jan Gilla <ripe@jangilla.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1534,10 +1534,8 @@ msgstr ""
 msgid "Network has been deleted. Please contact {}"
 msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
 
-#, fuzzy
-#| msgid "Suggest another exchange"
 msgid "ASN cannot be changed."
-msgstr "Einen weiteren Austauschpunkt vorschlagen"
+msgstr "ASN kann nicht geändert werden."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr ""
@@ -1585,13 +1583,13 @@ msgid ""
 msgstr ""
 
 msgid "Save and Apply"
-msgstr ""
+msgstr "Speichern und Anwenden"
 
 msgid "Save"
 msgstr "Speichern"
 
 msgid "Save and continue editing"
-msgstr ""
+msgstr "Speichern und Bearbeiten vorzusetzen"
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr ""
@@ -1601,10 +1599,8 @@ msgstr ""
 msgid "You may undo merges"
 msgstr "Veränderung rückgängig machen"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Selected Organizations"
-msgstr "Unternehmen"
+msgstr "Ausgewählte Organisationen"
 
 msgid "Search"
 msgstr "Suche"
@@ -1612,23 +1608,17 @@ msgstr "Suche"
 msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
 msgstr ""
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Merge Into Organization"
-msgstr "Unternehmen"
+msgstr "Zusammenführen in Organisation"
 
 msgid "Organizations in the left column will be merged into this organization"
 msgstr ""
 
-#, fuzzy
-#| msgid "Organizations"
 msgid "Merge Organizations"
-msgstr "Unternehmen"
+msgstr "Organisationen zusammenführen"
 
-#, fuzzy
-#| msgid "Result"
 msgid "Merge Results"
-msgstr "Ergebnis"
+msgstr "Ergebnis der Zusammenfassung"
 
 msgid "Home"
 msgstr "Startseite"
@@ -2134,15 +2124,11 @@ msgstr "Dieser Link zum Zurücksetzen des Passworts ist abgelaufen, bitte"
 msgid "initiate again"
 msgstr "fordern Sie ein neues an"
 
-#, fuzzy
-#| msgid "Account Created"
 msgid "Account Security"
-msgstr "Erstellungsdatum des Kontos"
+msgstr "Konto Sicherheit"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "Manage Two-Factor Authentication"
-msgstr "OAuth-Anwendungen verwalten"
+msgstr "Zwei-Faktor Authentifizierung verwalten"
 
 msgid "Affiliate with organization"
 msgstr "Zuordnung zu einer Organisation anfordern"
@@ -2379,13 +2365,11 @@ msgstr "IXLAN-Präfix"
 msgid "Add Prefix"
 msgstr "Prefix hinzufügen"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Local Facilities"
-msgstr "Liegenschaften / Gebäude"
+msgstr "Lokale Liegenschaften"
 
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 msgid "No filter matches."
 msgstr "Keine Einträge zum gewählten Filter gefunden."
@@ -2502,7 +2486,7 @@ msgid "Expand each exchange below to review, apply or dismiss those suggestions"
 msgstr ""
 
 msgid "Their PeeringDB entry"
-msgstr ""
+msgstr "Ihr PeeringDB Eintrag"
 
 msgid "Automatically update and remove all suggested entries"
 msgstr ""
@@ -2514,21 +2498,19 @@ msgid "Automatically add all suggested entries"
 msgstr ""
 
 msgid "Auto-add"
-msgstr ""
+msgstr "Automatisches Hinzufügen"
 
 msgid "Add"
 msgstr "Hinzufügen"
 
-#, fuzzy
-#| msgid "Operational"
 msgid "Options"
-msgstr "In Betrieb"
+msgstr "Optionen"
 
 msgid "Hide this suggestion until the exchange updates it."
 msgstr ""
 
 msgid "Dismiss"
-msgstr ""
+msgstr "Ablehnen"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -2548,21 +2530,17 @@ msgstr ""
 msgid "Update"
 msgstr "Aktualisieren"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv6 address"
-msgstr "E-Mail Adresse"
+msgstr "IPv6 Adresse setzen"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv4 address"
-msgstr "E-Mail Adresse"
+msgstr "IPv4 Adresse setzen"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
 
 msgid "Accept"
-msgstr ""
+msgstr "Akzeptieren"
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
 msgstr ""
@@ -2582,10 +2560,8 @@ msgstr "Eintrag muss zum korrekten Netzwerk verschoben werden"
 msgid "Add Exchange Point"
 msgstr "Exchange hinzufügen"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Private Peering Facilities"
-msgstr "Liegenschaften zusammenführen"
+msgstr "Private Peering Liegenschaften"
 
 msgid "member"
 msgstr "Mitglied"
@@ -2602,10 +2578,8 @@ msgstr "Exchange hinzufügen"
 msgid "Permissions"
 msgstr "Berechtigungen"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Delete Organization"
-msgstr "Unternehmen"
+msgstr "Organisation löschen"
 
 msgid "Technical E-mail"
 msgstr "E-Mail (technisch)"
@@ -2652,10 +2626,8 @@ msgstr "Datum"
 msgid "Currently no users requesting affiliation with"
 msgstr "Derzeit wartet kein Nutzer auf Zuordnung zu"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Users in Organization"
-msgstr "Unternehmen"
+msgstr "User in der Organisation"
 
 msgid "Group"
 msgstr "Gruppe"
@@ -2668,19 +2640,17 @@ msgstr "Außerdem können für noch zu prüfende Objekte keine Berechtigungen ve
 
 #, python-format
 msgid "%(name)s cannot be deleted."
-msgstr ""
+msgstr "%(name)s können nicht gelöscht werden."
 
 msgid "Remove this organization from PeeringDB."
-msgstr ""
+msgstr "Entferne diese Organisation aus der PeeringDB."
 
-#, fuzzy
-#| msgid "Invalid organization"
 msgid "Delete organization?"
-msgstr "Ungültige Organisation"
+msgstr "Organisation löschen?"
 
 #, python-format
 msgid "Delete %(name)s"
-msgstr ""
+msgstr "Lösche %(name)s"
 
 msgid "Thank you for your suggestion."
 msgstr "Vielen Dank für Ihren Vorschlag."
@@ -2704,10 +2674,10 @@ msgid "I forgot my username .."
 msgstr "Ich habe meinen Benutzernamen vergessen."
 
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 msgid "Enter your credentials."
-msgstr ""
+msgstr "Geben Sie Ihre Zugangsdaten ein."
 
 msgid ""
 "We are calling your phone right now, please enter the\n"
@@ -2720,7 +2690,7 @@ msgid ""
 msgstr ""
 
 msgid "We sent you an email, please enter the one time password we sent."
-msgstr ""
+msgstr "Wir haben Ihnen eine Mail geschickt. Bitte geben Sie das Einmal-Passwort aus der Mail ein."
 
 msgid ""
 "Please enter the tokens generated by your token\n"
@@ -2740,12 +2710,10 @@ msgid "As a last resort, you can use a backup token:"
 msgstr ""
 
 msgid "Use Backup Token"
-msgstr ""
+msgstr "Backup Token verwenden"
 
-#, fuzzy
-#| msgid "Confirm password"
 msgid "Email one time password"
-msgstr "Passwort bestätigen"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Ihre E-Mail-Adresse entspricht nicht den Informationen, die uns zu dieser Organisation bekannt sind."
