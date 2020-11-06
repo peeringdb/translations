@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-11-06 05:38+0000\n"
+"PO-Revision-Date: 2020-11-06 05:58+0000\n"
 "Last-Translator: Jan Gilla <ripe@jangilla.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -545,10 +545,8 @@ msgstr "Austauschpunkte"
 msgid "Internet Exchange facility"
 msgstr "Netzwerk-Liegenschaft-Link"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Internet Exchange facilities"
-msgstr "Liegenschaften zusammenführen"
+msgstr "Internet Exchange Standort"
 
 msgid "Description"
 msgstr "Beschreibung"
@@ -562,18 +560,14 @@ msgstr ""
 msgid "IX-F Member Export URL"
 msgstr "IX-F Member-Export-URL"
 
-#, fuzzy
-#| msgid "IX-F Member Export URL"
 msgid "IX-F Member Export URL Visibility"
-msgstr "IX-F Member-Export-URL"
+msgstr "IX-F Mitglieder-Export-URL Sichtbarkeit"
 
 msgid "Internet Exchange LAN"
 msgstr "Austauschknoten LAN"
 
-#, fuzzy
-#| msgid "Connections to Exchanges"
 msgid "Internet Exchange LANs"
-msgstr "Verbindungen zu Austauschpunkten"
+msgstr "Internet Exchange LANs"
 
 msgid "Protocol"
 msgstr "Protokoll"
@@ -796,12 +790,10 @@ msgid "{} (Preview)"
 msgstr "{} (Vorschau)"
 
 msgid "Apply"
-msgstr ""
+msgstr "Anwenden"
 
-#, fuzzy
-#| msgid "Ratio Requirement"
 msgid "No requirements"
-msgstr "Trafficverhältnis-Anforderung"
+msgstr "Keine Anforderungen"
 
 msgid "Value"
 msgstr "Wert"
@@ -888,7 +880,7 @@ msgid "Supported filter suffixes: {}"
 msgstr "Unterstütze Filtersuffixe: {}"
 
 msgid "Number of networks present at this facility"
-msgstr ""
+msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
 
 msgid "Targets both AKA and name fields for filtering"
 msgstr ""
@@ -919,7 +911,7 @@ msgid "Find the network that this netfac belongs to (netfac id)"
 msgstr "Finden Sie das Netzwerk, zu dem dieses Netfac gehört (netfac id)"
 
 msgid "Find exchanges present at a facility (facility id)"
-msgstr ""
+msgstr "Finde Internet Exchanges, die an der Liegenschaft (facility id) verfügbar sind"
 
 msgid "Find the exchange that contains this ixlan (ixlan id)"
 msgstr "Finde den Austauschpunkt der dieses ixlan beinhaltet (ixlan id)"
@@ -947,28 +939,22 @@ msgstr "Finde Präfixe durch IP Adresse"
 msgid "Exchange name"
 msgstr "Name des Austauschpunkt"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility name"
-msgstr "Liegenschaft"
+msgstr "Liegenschaft Name"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility country"
-msgstr "Liegenschaft"
+msgstr "Liegenschaft Land"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility city"
-msgstr "Liegenschaft"
+msgstr "Liegenschaft Stadt"
 
 #, python-brace-format
 msgid "Creates a new `{obj_type}` type object."
-msgstr ""
+msgstr "Erstelle ein neues Objekt vom Typ `{obj_type}`."
 
 #, python-brace-format
 msgid "Updates an existing `{obj_type}` type object."
-msgstr ""
+msgstr "Aktualisiere ein vorhandenes Objekt vom Typ `{obj_type}`."
 
 #, python-brace-format
 msgid "Marks an `{obj_type}` type object as `deleted`."
@@ -1073,19 +1059,17 @@ msgstr "Fehler '{}' für IP-Adresse im vlan_list Eintrag für vlan_id {}"
 msgid "Invalid speed value: {}"
 msgstr "Ungültiger Geschwindigkeitswert: {}"
 
-#, fuzzy
-#| msgid "Invalid speed value: {}"
 msgid "Invalid speed value: could not be parsed"
-msgstr "Ungültiger Geschwindigkeitswert: {}"
+msgstr "Ungültiger Geschwindigkeitswert: Konnte nicht ausgewertet werden"
 
 msgid "IP addresses moved to same entry"
-msgstr ""
+msgstr "IP Adresse verschoben zum gleichen Eintrag"
 
 msgid "IPv6 not set"
-msgstr ""
+msgstr "IPv6 nicht gesetzt"
 
 msgid "IPv4 not set"
-msgstr ""
+msgstr "IPv4 nicht gesetzt"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
 msgstr ""
@@ -1191,10 +1175,10 @@ msgid "The item that this queue is attached to was created by this user"
 msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
 
 msgid "Ticket reference on the DeskPRO side"
-msgstr ""
+msgstr "Ticket Referenz auf der DeskPRO Seite"
 
 msgid "Ticket id on the DeskPRO side"
-msgstr ""
+msgstr "Ticket ID auf der DeskPRO Seite"
 
 msgid "DeskPRO Ticket"
 msgstr "DeskPRO Ticket"
@@ -1205,13 +1189,11 @@ msgstr "DeskPRO Tickets"
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Erlaubt es ein Unternehmens-Logo für dieses Unternehmen hochzuladen und es zu ändern"
 
-#, fuzzy
-#| msgid "Organization does not exist"
 msgid "Organization has active objects under it."
-msgstr "Organisation existiert nicht"
+msgstr "Die Organisation hat keine aktiven Objekte unter sich."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr ""
+msgstr "Die Organisation ist ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
 
 msgid "Sponsorship starts on"
 msgstr "Sponsoring/Patenschaft beginnt am"
@@ -1282,10 +1264,8 @@ msgstr ""
 msgid "Exchange has active peer(s)"
 msgstr ""
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "IX-F error"
-msgstr "IX-F Import"
+msgstr "IX-F Fehler"
 
 #, fuzzy
 #| msgid "No JSON could be parsed"
@@ -1328,7 +1308,7 @@ msgid "JSON snapshot of the ix-f member data that created this entry"
 msgstr ""
 
 msgid "Activity for this entry"
-msgstr ""
+msgstr "Aktivitäten für diesen Eintrag"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
 msgstr ""
@@ -1339,18 +1319,14 @@ msgstr "RS-Peer"
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "Last Fetched"
 msgstr "Zuletzt aktualisiert"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
 msgstr ""
 
-#, fuzzy
-#| msgid "IX-F Member Export URL"
 msgid "IXF Member Data"
-msgstr "IX-F Member-Export-URL"
+msgstr "IX-F Mitglieds Daten"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
@@ -1436,15 +1412,11 @@ msgstr "Benutzer"
 msgid "Password Reset Initiated"
 msgstr "Passwort zurücksetzen wurde eingeleitet"
 
-#, fuzzy
-#| msgid "IXF Import Enabled"
 msgid "IXF Import Email"
-msgstr "IXF-Import wurde aktiviert"
+msgstr "IXF-Import Mail"
 
-#, fuzzy
-#| msgid "IXF Import Enabled"
 msgid "IXF Import Emails"
-msgstr "IXF-Import wurde aktiviert"
+msgstr "IXF-Import Mails"
 
 msgid "name of the tool"
 msgstr "Name des Programms"
@@ -1476,7 +1448,7 @@ msgid "Environment Setting"
 msgstr "Setze Umgebung zurück"
 
 msgid "Environment Settings"
-msgstr ""
+msgstr "Umgebungs-Einstellungen"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
 msgstr ""
@@ -1484,13 +1456,11 @@ msgstr ""
 msgid "Last Updated"
 msgstr "Zuletzt aktualisiert"
 
-#, fuzzy
-#| msgid "Confirmed"
 msgid "Configured on"
-msgstr "Bestätigt"
+msgstr "Konfiguriert am"
 
 msgid "Last updated by this user"
-msgstr ""
+msgstr "Zuletzt aktualisiert durch diesen User"
 
 msgid "Organization and all Entities it owns"
 msgstr "Unternehmen und alle dazugehörigen Einträge"
@@ -1533,7 +1503,7 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
 msgid "Please contact {} to help with the deletion of this object"
-msgstr ""
+msgstr "Bitte kontaktieren Sie {} um Unterstützung bei der Löschung dieses Objekts zu bekommen"
 
 msgid "Need to be unique"
 msgstr "Muss eindeutig sein"
