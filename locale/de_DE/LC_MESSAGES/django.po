@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-11-14 01:58+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Mario Rimann <mario@rimann.org>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -1250,7 +1250,7 @@ msgid "IX-F error"
 msgstr "IX-F Fehler"
 
 msgid "Reason IX-F data could not be parsed"
-msgstr "IX-F data JSON konnte nicht analyisert werden, Grund:"
+msgstr "IX-F data JSON konnte nicht analyisert werden, Grund"
 
 msgid "IX-F error notification date"
 msgstr "IX-F Datumsfehler"
@@ -2847,8 +2847,6 @@ msgstr "PeeringDB-Konfiguration"
 msgid "Allow IXP Update"
 msgstr "IXP-Updates erlauben"
 
-#, fuzzy
-#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Wenn aktiviert, darf ein IXP den Eintrag dieses Netzwerkes in seiner Peeringliste verwalten"
 
