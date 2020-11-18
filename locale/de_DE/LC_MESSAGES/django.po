@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-11-15 09:58+0000\n"
-"Last-Translator: Henry Schaefer <Henry.Schaefer@intl.verizon.com>\n"
+"PO-Revision-Date: 2020-11-18 08:58+0000\n"
+"Last-Translator: Tobias Mädel <peeringdb@as203478.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "Implicit"
 msgstr "Implizit"
 
 msgid "Resource owner password-based"
-msgstr "Ressourceneingentümer Passwortbasiert"
+msgstr "passwort-basierter Ressourceneigentümer"
 
 msgid "Client credentials"
 msgstr "Client Zugangsdaten"
@@ -75,10 +75,10 @@ msgid "Client type"
 msgstr "Client Typ"
 
 msgid "Authorization Grant Type"
-msgstr ""
+msgstr "Art der gewährten Autorisierung"
 
 msgid "Redirect Uris"
-msgstr "Umleitungs Uris"
+msgstr "Umleitungs URIs"
 
 msgid "Go Back"
 msgstr "Gehe zurück"
@@ -846,7 +846,7 @@ msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr "Fragt ein einzelnes Objekt des Typs `{obj_type}` mithilfe seiner ID ab"
 
 msgid "Expand nested sets according to depth."
-msgstr ""
+msgstr "Verschachtelte Datensätze entsprechend der depth auflösen."
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
