@@ -1129,6 +1129,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IXF import url not specified"
@@ -1156,11 +1159,6 @@ msgstr "データセンタをマージする"
 
 msgid "Network does not exist in peeringdb"
 msgstr ""
-
-#, fuzzy
-#| msgid "Invalid prefix: {}"
-msgid "Invalid member type: {}"
-msgstr "無効なプレフィクス"
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"
@@ -2726,7 +2724,17 @@ msgstr "メールアドレス"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "メールアドレス"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "メールアドレス"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "メールアドレス"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -3110,6 +3118,11 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#, fuzzy
+#~| msgid "Invalid prefix: {}"
+#~ msgid "Invalid member type: {}"
+#~ msgstr "無効なプレフィクス"
 
 #, fuzzy
 #~| msgid "Exchanges"

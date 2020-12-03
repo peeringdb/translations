@@ -1011,6 +1011,9 @@ msgstr "(asn, IPv4 및 IPv6)의 항목이 PeeringDB에 단일한 네트워크로
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "PeeringDB와 익스체인지의 IX-F 데이터 간의 데이터 차이"
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "IXF 가져오기 URL이 지정되지 않음"
 
@@ -1034,9 +1037,6 @@ msgstr "네트워크 상태가 '{}'임"
 
 msgid "Network does not exist in peeringdb"
 msgstr "네트워크가 peeringdb에 존재하지 않음"
-
-msgid "Invalid member type: {}"
-msgstr "잘못된 멤버 형식: {}"
 
 msgid "Invalid connection state: {}"
 msgstr "잘못된 연결 상태: {}"
@@ -2528,7 +2528,17 @@ msgstr "이메일 주소"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "이메일 주소"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "이메일 주소"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "이메일 주소"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -2891,6 +2901,9 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "Invalid member type: {}"
+#~ msgstr "잘못된 멤버 형식: {}"
 
 #~ msgid "In DFZ"
 #~ msgstr "DFZ에서"

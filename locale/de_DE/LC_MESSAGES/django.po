@@ -1002,6 +1002,9 @@ msgstr "Diese Kombination aus ASN, IPv4- und IPv6-Adresse existiert nicht für e
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "Diskrepanz zwischen Daten von PeeringDB und Internet Exchange"
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "Keine IXF-Import-URL vorhanden"
 
@@ -1025,9 +1028,6 @@ msgstr "Der Netzwerk-Status ist '{}'"
 
 msgid "Network does not exist in peeringdb"
 msgstr "Das Netwzerk existiert nicht in PeeringDB"
-
-msgid "Invalid member type: {}"
-msgstr "Ungültiger Mitglieder-Typ: {}"
 
 msgid "Invalid connection state: {}"
 msgstr "Ungültiger Anschlussstatus: {}"
@@ -2514,7 +2514,17 @@ msgstr "Aktualisieren"
 msgid "Set IPv6 address"
 msgstr "IPv6 Adresse setzen"
 
+#, fuzzy
+#| msgid "Set IPv6 address"
+msgid "Clear IPv6 address"
+msgstr "IPv6 Adresse setzen"
+
 msgid "Set IPv4 address"
+msgstr "IPv4 Adresse setzen"
+
+#, fuzzy
+#| msgid "Set IPv4 address"
+msgid "Clear IPv4 address"
 msgstr "IPv4 Adresse setzen"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -2866,6 +2876,9 @@ msgstr "Peeringrichtlinien-Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+
+#~ msgid "Invalid member type: {}"
+#~ msgstr "Ungültiger Mitglieder-Typ: {}"
 
 #, fuzzy
 #~| msgid "No changes"

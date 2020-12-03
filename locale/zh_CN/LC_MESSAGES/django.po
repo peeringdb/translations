@@ -1127,6 +1127,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IXF import url not specified"
@@ -1152,9 +1155,6 @@ msgstr "网络状态为“{}”"
 
 msgid "Network does not exist in peeringdb"
 msgstr "网络没有在 PeeringDB 中找到"
-
-msgid "Invalid member type: {}"
-msgstr "会员类型无效：{}"
 
 msgid "Invalid connection state: {}"
 msgstr "连接状态无效：{}"
@@ -2706,7 +2706,17 @@ msgstr "电子邮件"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "电子邮件"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "电子邮件"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "电子邮件"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -3078,6 +3088,9 @@ msgstr "对等政策信息"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
+
+#~ msgid "Invalid member type: {}"
+#~ msgstr "会员类型无效：{}"
 
 #, fuzzy
 #~| msgid "No changes"

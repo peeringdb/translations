@@ -1075,6 +1075,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr ""
 
@@ -1097,9 +1100,6 @@ msgid "Network status is '{}'"
 msgstr ""
 
 msgid "Network does not exist in peeringdb"
-msgstr ""
-
-msgid "Invalid member type: {}"
 msgstr ""
 
 msgid "Invalid connection state: {}"
@@ -2669,7 +2669,13 @@ msgstr ""
 msgid "Set IPv6 address"
 msgstr ""
 
+msgid "Clear IPv6 address"
+msgstr ""
+
 msgid "Set IPv4 address"
+msgstr ""
+
+msgid "Clear IPv4 address"
 msgstr ""
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."

@@ -1115,6 +1115,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IXF import url not specified"
@@ -1142,11 +1145,6 @@ msgstr "Eγκαταστάσεις"
 
 msgid "Network does not exist in peeringdb"
 msgstr ""
-
-#, fuzzy
-#| msgid "Invalid prefix: {}"
-msgid "Invalid member type: {}"
-msgstr "Μη έγκυρο prefix: {}"
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"
@@ -2740,7 +2738,17 @@ msgstr "διεύθυνση email"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "διεύθυνση email"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "διεύθυνση email"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "διεύθυνση email"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -3126,6 +3134,11 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
+
+#, fuzzy
+#~| msgid "Invalid prefix: {}"
+#~ msgid "Invalid member type: {}"
+#~ msgstr "Μη έγκυρο prefix: {}"
 
 #, fuzzy
 #~| msgid "Exchanges"

@@ -1107,6 +1107,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "URL de importação de IXF não especificado"
 
@@ -1130,9 +1133,6 @@ msgstr "Estado da rede é '{}'"
 
 msgid "Network does not exist in peeringdb"
 msgstr "Rede não existe em peeringdb"
-
-msgid "Invalid member type: {}"
-msgstr "Tipo de membro inválido: {}"
 
 msgid "Invalid connection state: {}"
 msgstr "Estado de ligação inválido: {}"
@@ -2718,7 +2718,17 @@ msgstr "E-mail"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "E-mail"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "E-mail"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "E-mail"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -3106,6 +3116,9 @@ msgstr "Informação da Política de Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
+
+#~ msgid "Invalid member type: {}"
+#~ msgstr "Tipo de membro inválido: {}"
 
 #, fuzzy
 #~| msgid "No changes"

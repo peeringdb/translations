@@ -1119,6 +1119,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "الرابط الإلكتروني لاستيراد بيانات IXF غير محدد"
 
@@ -1142,9 +1145,6 @@ msgstr "حالة الشبكة هي '{}'"
 
 msgid "Network does not exist in peeringdb"
 msgstr "الشبكة غير موجودة في قاعدة بيانات التناظر peeringdb"
-
-msgid "Invalid member type: {}"
-msgstr "نوع العضو غير صحيح: {}"
 
 msgid "Invalid connection state: {}"
 msgstr "حالة الاتصال غير صحيح: {}"
@@ -2697,7 +2697,17 @@ msgstr "عنوان بريد الكتروني"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "عنوان بريد الكتروني"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "عنوان بريد الكتروني"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "عنوان بريد الكتروني"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -3069,6 +3079,9 @@ msgstr "معلومات سياسات التناظر"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
+
+#~ msgid "Invalid member type: {}"
+#~ msgstr "نوع العضو غير صحيح: {}"
 
 #, fuzzy
 #~| msgid "No changes"

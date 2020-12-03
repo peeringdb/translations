@@ -1123,6 +1123,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "未指定IXF導入之URL"
 
@@ -1148,11 +1151,6 @@ msgstr "合併設施"
 
 msgid "Network does not exist in peeringdb"
 msgstr ""
-
-#, fuzzy
-#| msgid "Invalid prefix: {}"
-msgid "Invalid member type: {}"
-msgstr "首碼無效：{}"
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"
@@ -2716,7 +2714,17 @@ msgstr "電子郵件"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "電子郵件"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "電子郵件"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "電子郵件"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -3092,6 +3100,11 @@ msgstr "對等政策資訊"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "請稍後再嘗試登錄。"
+
+#, fuzzy
+#~| msgid "Invalid prefix: {}"
+#~ msgid "Invalid member type: {}"
+#~ msgstr "首碼無效：{}"
 
 #, fuzzy
 #~| msgid "Exchanges"

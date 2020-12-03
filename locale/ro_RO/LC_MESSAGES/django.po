@@ -1043,6 +1043,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "We found that your IX-F output "
+msgstr ""
+
 msgid "IXF import url not specified"
 msgstr "URL-ul importului IXF nu este specificat"
 
@@ -1066,9 +1069,6 @@ msgstr "Starea rețelei este '{}'"
 
 msgid "Network does not exist in peeringdb"
 msgstr "Rețeaua nu există în PeeringDB"
-
-msgid "Invalid member type: {}"
-msgstr "Categoria de membru nu este validă: {}"
 
 msgid "Invalid connection state: {}"
 msgstr "Starea conexiunii nu este validă: {}"
@@ -2596,7 +2596,17 @@ msgstr "adresă de e-mail"
 
 #, fuzzy
 #| msgid "email address"
+msgid "Clear IPv6 address"
+msgstr "adresă de e-mail"
+
+#, fuzzy
+#| msgid "email address"
 msgid "Set IPv4 address"
+msgstr "adresă de e-mail"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Clear IPv4 address"
 msgstr "adresă de e-mail"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
@@ -2960,6 +2970,9 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "Invalid member type: {}"
+#~ msgstr "Categoria de membru nu este validă: {}"
 
 #, fuzzy
 #~| msgid "No changes"
