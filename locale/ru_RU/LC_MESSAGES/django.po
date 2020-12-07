@@ -3,43 +3,44 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-06-27 01:00+0300\n"
-"Last-Translator: Alexander Ilin\n"
-"Language-Team: MSK-IX\n"
-"Language: ru\n"
+"PO-Revision-Date: 2020-12-07 13:58+0000\n"
+"Last-Translator: Irshad Guliyev <irshad.guliyev@aztelekom.net>\n"
+"Language-Team: Russian <https://translate.peeringdb.com/projects/peeringdb/server/ru/>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 msgid "Confidential"
-msgstr ""
+msgstr "Конфиденциальный"
 
 msgid "Public"
 msgstr "Публичный"
 
 msgid "Authorization code"
-msgstr ""
+msgstr "Код авторизации"
 
 msgid "Implicit"
-msgstr ""
+msgstr "Скрытый"
 
 msgid "Resource owner password-based"
 msgstr ""
 
 msgid "Client credentials"
-msgstr ""
+msgstr "Учетные данные"
 
 msgid "Allowed URIs list, space separated"
-msgstr ""
+msgstr "Список разрешенных URI (разделенных пробелами)"
 
 #, python-brace-format
 msgid "Unauthorized redirect scheme: {scheme}"
-msgstr ""
+msgstr "Неавторизованное перенаправление: {scheme}"
 
 #, python-brace-format
 msgid "redirect_uris cannot be empty with grant_type {grant_type}"
