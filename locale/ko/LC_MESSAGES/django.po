@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-12-26 13:58+0000\n"
+"PO-Revision-Date: 2020-12-26 14:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1089,8 +1089,6 @@ msgstr "환경 재설정"
 msgid "IX-F Import"
 msgstr "IX-F 가져오기"
 
-#, fuzzy
-#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgid "Has this object's latitude and longitude been synchronized to its address fields"
 msgstr "이 개체의 위도와 경도가 주소 필드와 동기화되었음"
 
@@ -1373,15 +1371,11 @@ msgstr "사용자"
 msgid "Password Reset Initiated"
 msgstr "암호 재설정 시작됨"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "IXF Import Email"
-msgstr "IX-F 가져오기"
+msgstr "IX-F 임포트 이메일"
 
-#, fuzzy
-#| msgid "IXF Import Logs"
 msgid "IXF Import Emails"
-msgstr "IXF 가져오기 로그"
+msgstr "IXF 임포트 이메일"
 
 msgid "name of the tool"
 msgstr "도구 이름"
@@ -1414,7 +1408,7 @@ msgid "Environment Settings"
 msgstr "환경 설정"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr ""
+msgstr "IX-F 임포터: DeskPRO 티켓 생성까지 일 수"
 
 msgid "Last Updated"
 msgstr "최신 업데이트"
@@ -2398,10 +2392,8 @@ msgstr "익스체인지"
 msgid "Close"
 msgstr "닫기"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import Postmortem"
-msgstr "IXF 수입 히스토리"
+msgstr "IX-F 사후 불러오기"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr "아래는 IX-F 데이터 가져오기의 결과로 네트워크 교환 연결에 수행된 변경사항의 로그 입니다.  -&gt; 이러한 변경사항을 롤백하기 위해 직원이 수행한 조정 내용은 포함하지 않지만, IX-F 데이터 가져오기에서 수행된 활동의 원시 로그로 간주해야 합니다."
@@ -2437,7 +2429,7 @@ msgid "Their PeeringDB entry"
 msgstr "PeringDB 항목"
 
 msgid "Automatically update and remove all suggested entries"
-msgstr ""
+msgstr "제안된 모든 항목 자동 업데이트 및 제거"
 
 msgid "Auto-resolve"
 msgstr "자동 해결"
@@ -2476,20 +2468,16 @@ msgstr "공용 피어링 익스체인지 포인트 목록에서 %(ix_name)s 에 
 msgid "Update"
 msgstr "업데이트"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv6 address"
-msgstr "이메일 주소"
+msgstr "IPv6 주소 설정"
 
 #, fuzzy
 #| msgid "email address"
 msgid "Clear IPv6 address"
 msgstr "이메일 주소"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv4 address"
-msgstr "이메일 주소"
+msgstr "IPv4 주소 설정"
 
 #, fuzzy
 #| msgid "email address"
@@ -2702,10 +2690,8 @@ msgstr "일 전"
 msgid "Not a valid phone number (E.164)"
 msgstr "잘못된 전화 번호(E.164)"
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "필요 없음"
+msgstr "필수 입력란"
 
 msgid "Invalid prefix: {}"
 msgstr "유효하지 않는 프리픽스: {}"
@@ -2840,10 +2826,8 @@ msgstr "PeeringDB 구성"
 msgid "Allow IXP Update"
 msgstr "IXP 업데이트 허용"
 
-#, fuzzy
-#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
-msgstr "활성화된 경우 ixp는 피어링 목록에서 이 네트워크 항목을 관리할 수 있음"
+msgstr "활성화된 경우 IXP는 피어 목록에서 이 네트워크의 항목을 관리할 수 있습니다"
 
 msgid "IXP Update Tools"
 msgstr "IXP 업데이트 도구"
