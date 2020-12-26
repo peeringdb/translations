@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-12-26 12:58+0000\n"
+"PO-Revision-Date: 2020-12-26 13:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1304,10 +1304,8 @@ msgstr "이 익스체인지에는 이 주소 공간에 속하는 활성 피어�
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음."
 
-#, fuzzy
-#| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr "ixp가 ixp_member 데이터를 통해 이 네트워크에 대해 netixlan 항목을 추가할 수 있는지 확인"
+msgstr "IXP가 해당 ixp_구성원 데이터를 통해 이 네트워크에 대해 netixlan 항목을 추가할 수 있는지 여부를 지정합니다"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
@@ -1318,15 +1316,11 @@ msgstr "IPv4 주소가 프리픽스를 벗어남"
 msgid "IPv6 address outside of prefix"
 msgstr "IPv6가 프리픽스를 벗어남"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Maximum speed: {}"
-msgstr "허용되는 최대 값 {}"
+msgstr "최대 속도: {}"
 
-#, fuzzy
-#| msgid "Invalid speed value: {}"
 msgid "Minimum speed: {}"
-msgstr "잘못된 속도 값: {}"
+msgstr "최소 속도: {}"
 
 msgid "Ip address already exists elsewhere"
 msgstr "IP 주소가 이미 다른 곳에 존재함"
@@ -1413,13 +1407,11 @@ msgstr "완료"
 msgid "Running"
 msgstr "실행 중"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Environment Setting"
-msgstr "환경 재설정"
+msgstr "환경 설정"
 
 msgid "Environment Settings"
-msgstr ""
+msgstr "환경 설정"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
 msgstr ""
@@ -1427,13 +1419,11 @@ msgstr ""
 msgid "Last Updated"
 msgstr "최신 업데이트"
 
-#, fuzzy
-#| msgid "Confirmed"
 msgid "Configured on"
-msgstr "확인됨"
+msgstr "구성 날짜"
 
 msgid "Last updated by this user"
-msgstr ""
+msgstr "이 사용자가 마지막으로 업데이트했습니다"
 
 msgid "Organization and all Entities it owns"
 msgstr "조직 및 그 조직이 소유하는 모든 항목들"
@@ -1465,13 +1455,11 @@ msgstr "잘못된 조직이 지정됨"
 msgid "Needs to be member or admin"
 msgstr "구성원 또는 관리자 필요"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been approved"
+#, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s의 가입 요청이 승인되었음"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been denied"
+#, python-format
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
@@ -1491,18 +1479,16 @@ msgstr "RDAP 룩업 오류"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "이 필드는 다음 요청에 대해서만 허용됨: {methods}"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 않았으므로 '%(type)s' 유형의 개체를 만들 수 없음"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
-msgstr ""
+msgstr "익스체인지 포인트를 추가하기 전에 네트워크에 기술, NOC 또는 정책 부문에 유효한 이메일을 포함한 연락처가 있어야 합니다."
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
@@ -1532,8 +1518,6 @@ msgstr "는 당신의 이메일 주소입니다"
 msgid "Confirm"
 msgstr "확인"
 
-#, fuzzy
-#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
 msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "이 이메일 주소에 대한 이메일 확인 프로세스가 종료되었으므로 다시 시작하십시오"
 
@@ -1554,6 +1538,8 @@ msgid ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgstr ""
+"\n"
+"<a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> 를 사용하려면 검색어를 ^ 로 시작하고 $로 끝냅니다.\n"
 
 msgid "Save and Apply"
 msgstr "저장 후 적용"
@@ -1615,8 +1601,6 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "로 합병되었음"
 
-#, fuzzy
-#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "모든 병합은 peeringdb 지원 담당자가 수동으로 처리합니다. 이 작업이 실수로 실행되었다고 생각되면 peeringdb 지원팀에 문의하십시오"
 
@@ -1658,15 +1642,12 @@ msgstr "조직 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) %(u_name)s가 AS%
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "네트워크 %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) 가 AS%(asn)s 에 대한 사용자 '%(u_name)s's 의 소속 요청 중 자동으로 생성됨"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "사용자 '%(u_name)s'는 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) 조직 아래 %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>)네트워크를 생성했다."
+msgstr "사용자 '%(u_name)s'는 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) 조직 아래 %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>)네트워크를 생성했습니다."
 
-#, fuzzy
-#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었다."
+msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었습니다."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
@@ -1675,10 +1656,8 @@ msgstr "사용자 %(u_name)s(%(u_email)s)가 ASN %(inst)s에 소속되기를 희
 msgid "They also provided this organization name in their request"
 msgstr "그들은 또한 그들의 요청으로 이 조직명을 제공했다"
 
-#, fuzzy
-#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
-msgstr "데이터베이스에는 ASN과 일치하는 항목이 없었기 때문에, 그것에 대한 네트워크와 조직을 만들 필요가 있을 것 같다."
+msgstr "데이터베이스에는 ASN과 일치하는 항목이 없었기 때문에, 그것에 대한 네트워크와 조직을 만들 필요가 있을 것 같습니다."
 
 #, python-format
 msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
@@ -1703,10 +1682,8 @@ msgstr "그들은 또한 그들의 요청으로 이 ASN을 제공했다"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "주의: 이것은 소유권 요청이며, 이를 승인하면 사용자에게 조직과 그것이 소유한 모든 기업에 대한 관리 권한이 부여된다."
 
-#, fuzzy
-#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
 msgid "These are the website addresses were able to derive from the organization and it's entities"
-msgstr "이것들은 조직과 그것의 독립체들로부터 파생될 수 있는 웹사이트 주소이다"
+msgstr "이것들은 조직과 그것의 독립체들로부터 파생될 수 있는 웹사이트 주소입니다"
 
 msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
 msgstr "이 조직에 속한 ASN에서 가져올 수 있는 이메일 주소 입니다"
@@ -1935,8 +1912,6 @@ msgstr "요청한 페이지를 찾을 수 없음."
 msgid "403 - Forbidden"
 msgstr "403 - 금지됨"
 
-#, fuzzy
-#| msgid "You dont have permissions to view this page."
 msgid "You don't have permissions to view this page."
 msgstr "이 페이지를 볼 수 있는 권한이 없음."
 
