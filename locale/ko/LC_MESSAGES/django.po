@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-08-30 18:47+0000\n"
+"PO-Revision-Date: 2020-12-26 12:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -313,18 +313,14 @@ msgstr "비영리"
 msgid "Route Server"
 msgstr "경로 서버"
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Services"
-msgstr "네트워크 범위"
+msgstr "네트워크 서비스"
 
 msgid "Route Collector"
-msgstr ""
+msgstr "라우트 콜렉터"
 
-#, fuzzy
-#| msgid "Governance"
 msgid "Government"
-msgstr "거버넌스"
+msgstr "정부"
 
 msgid "Private"
 msgstr "비공개"
@@ -455,18 +451,14 @@ msgstr "네트워크 유형"
 msgid "IPv4 Prefixes"
 msgstr "IPv4 프리픽스"
 
-#, fuzzy
-#| msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
+msgstr "이 ASN에 대해 피어 세션에서 구성할 IPv4 경로/ 프리픽스의 최대 권장 수"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 프리픽스"
 
-#, fuzzy
-#| msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr "이 ASN을 피어링 세션에서 설정되기 위해 권장된 IPv4 최대 프리픽스 제한"
+msgstr "이 ASN에 대해 피어 세션에서 구성할 IPv6 경로/ 프리픽스의 최대 권장 수"
 
 msgid "Unicast IPv4"
 msgstr "유니캐스트 IPv4"
@@ -655,7 +647,7 @@ msgid "Ixlans can no longer be directly deleted as they are now synced to the pa
 msgstr "Ixlans는 이제 상위 익스체인지에 동기화되므로 더 이상 직접 삭제할 수 없음"
 
 msgid "Protected object '{}': {}"
-msgstr ""
+msgstr "보호된 개체 '{}: {}"
 
 msgid "SOFT DELETE"
 msgstr "삭제 보류 표시"
@@ -783,13 +775,11 @@ msgstr "{} (미리보기)"
 msgid "Apply"
 msgstr "적용"
 
-#, fuzzy
-#| msgid "Ratio Requirement"
 msgid "No requirements"
-msgstr "비율 요구 사항"
+msgstr "요구 사항 없음"
 
 msgid "Value"
-msgstr ""
+msgstr "가치"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "이 명령은 이미 대기/실행 중이므로 완료될 때까지 기다린 후 다시 실행하십시오"
@@ -825,30 +815,22 @@ msgid "Only {} type objects may be restored through this interface at this point
 msgstr "{} 유형 개체만 이 지점에서 이 인터페이스를 통해 복원 가능함"
 
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
+msgstr "ix-f 멤버 데이터 가져오기를 수행할 인터넷 익스체인지 선택하기"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset all"
-msgstr "재설정"
+msgstr "모두 재설정"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Reset hints"
-msgstr "환경 재설정"
+msgstr "힌트 재설정"
 
 msgid "Reset dismisses"
-msgstr ""
+msgstr "재설정 해제"
 
-#, fuzzy
-#| msgid "Sales Email"
 msgid "Reset email"
-msgstr "영업 이메일"
+msgstr "이메일 재설정"
 
-#, fuzzy
-#| msgid "DeskPRO Tickets"
 msgid "Reset tickets"
-msgstr "데스크프로 티켓"
+msgstr "티켓 재설정"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1024,7 +1006,7 @@ msgid "IX-F data not locally cached for this resource yet."
 msgstr "이 리소스에 대해 아직 부분적으로 캐시되지 않은 IX-F 데이터."
 
 msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
+msgstr "둘 이상의 고유 연결에 할당된 주소 {}"
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "vlan_list 목록에 항목이 없음, 중단함."
@@ -1050,13 +1032,11 @@ msgstr "vlan_id {}에 대한 vlan_list 항목에서 IP 주소 오류 '{}'"
 msgid "Invalid speed value: {}"
 msgstr "잘못된 속도 값: {}"
 
-#, fuzzy
-#| msgid "Invalid speed value: {}"
 msgid "Invalid speed value: could not be parsed"
-msgstr "잘못된 속도 값: {}"
+msgstr "잘못된 속도 값: 분석할 수 없습니다"
 
 msgid "IP addresses moved to same entry"
-msgstr ""
+msgstr "IP 주소가 동일한 항목으로 이동됨"
 
 msgid "IPv6 not set"
 msgstr "IPv6가 설정되지 않음"
@@ -1065,10 +1045,10 @@ msgid "IPv4 not set"
 msgstr "IPv4가 설정되지 않음"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr ""
+msgstr "PeeringDB: 조치가 필요할 수 있음: IX-F 임포터 데이터가 AS{}과(와) 하나 이상의 IXP 간에 일치하지 않음"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
-msgstr ""
+msgstr "PeeringDB: 조치가 필요할 수 있음: IX-F 임포터 데이터가 {}와 하나 이상의 네트워크 간에 일치하지 않음"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 병합 공지: {} -> {}"
@@ -1166,10 +1146,10 @@ msgid "The item that this queue is attached to was created by this user"
 msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
 
 msgid "Ticket reference on the DeskPRO side"
-msgstr ""
+msgstr "DeskPRO 측의 티켓 참조"
 
 msgid "Ticket id on the DeskPRO side"
-msgstr ""
+msgstr "DeskPRO 측의 티켓 ID"
 
 msgid "DeskPRO Ticket"
 msgstr "데스크프로 티켓"
@@ -1268,10 +1248,10 @@ msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr "지난번 IX-F 파싱 문제에 대해 익스체인지에 공지했을 때"
 
 msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
+msgstr "지원되지 않는 프로토콜에 대한 IX-F 송신 IP"
 
 msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
+msgstr "IX가 네트워크에서 지원되지 않는 프로토콜의 IP 주소를 전송했습니다"
 
 msgid "IXLan id needs to match parent ix id"
 msgstr "IXLan ID는 상위 Ix ID와 일치해야 함"
@@ -1298,7 +1278,7 @@ msgid "Activity for this entry"
 msgstr "이 항목에 대한 활동"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
+msgstr "고객 대면 네트워크 뷰에서 변경 내용을 숨길 수 있는 이 제안된 변경 사항의 네트워크 거부"
 
 msgid "RS Peer"
 msgstr "RS Peer"
@@ -1316,7 +1296,7 @@ msgid "IXF Member Data"
 msgstr "IX-F 멤버 데이터"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
+msgstr "사용 가능한 네트워크 프로토콜에 대해 유효성을 검사할 때 적합한 IP 주소가 없음"
 
 msgid "There are active peers at this exchange that fall into this address space"
 msgstr "이 익스체인지에는 이 주소 공간에 속하는 활성 피어가 있음"
