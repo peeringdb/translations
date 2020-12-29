@@ -57,6 +57,7 @@ server_head=`git --git-dir=$TMP_DIR/peeringdb/.git rev-parse --short HEAD`
 django_head=`git --git-dir=$TMP_DIR/django-peeringdb/.git rev-parse --short HEAD`
 django_auth_head=`git --git-dir=$TMP_DIR/django-oauth-toolkit/.git rev-parse --short HEAD`
 
+rm -f peeringdb django-peeringdb django-oauth-toolkit # remove symlinks, if any, from failed previous run
 ln -s $TMP_DIR/peeringdb || exit 1
 ln -s $TMP_DIR/django-peeringdb || exit 1
 ln -s $TMP_DIR/django-oauth-toolkit || exit 1
