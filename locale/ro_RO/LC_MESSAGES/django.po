@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-01-08 16:40+0000\n"
+"PO-Revision-Date: 2021-01-08 20:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -836,23 +836,17 @@ msgstr "Selectați un Internet Exchange pentru a efectua un import cu datele mem
 msgid "Reset all"
 msgstr "Resetare generală"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Reset hints"
-msgstr "Resetează mediul"
+msgstr "Resetați indiciile"
 
 msgid "Reset dismisses"
-msgstr ""
+msgstr "Resetați respingerile"
 
-#, fuzzy
-#| msgid "Sales Email"
 msgid "Reset email"
-msgstr "Adresă e-mail pentru vânzări"
+msgstr "Resetați adresa de e-mail"
 
-#, fuzzy
-#| msgid "DeskPRO Tickets"
 msgid "Reset tickets"
-msgstr "Tickete DeskPRO"
+msgstr "Resetați tichetele"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1007,16 +1001,16 @@ msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr ""
+msgstr "Intrarea pentru (ASN și IPv4 și IPv6) nu există în datele IX-F ale Exchange-ului ca o conexiune singulară a membrului"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr ""
+msgstr "Intrarea pentru (ASN și IPv4 și IPv6) nu există în PeeringDB ca o conexiune singulară rețea -> IX"
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr ""
+msgstr "Diferențele datelor între PeeringDB și datele IX-F ale Exchange-ului"
 
 msgid "We found that your IX-F output "
-msgstr ""
+msgstr "Am constatat că ieșirea dvs. IX-F "
 
 msgid "IXF import url not specified"
 msgstr "URL-ul importului IXF nu este specificat"
@@ -1028,7 +1022,7 @@ msgid "IX-F data not locally cached for this resource yet."
 msgstr "Datele IX-F încă nu sunt memorate în cache-ul local pentru această resursă."
 
 msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
+msgstr "Adresa {} alocată mai multor conexiuni distincte"
 
 msgid "No entries in any of the vlan_list lists, aborting."
 msgstr "Nu există înregistrări în niciunul din elementele vlan_lists, se anulează operațiunea."
@@ -1054,25 +1048,23 @@ msgstr "Eroare la adresa IP '{}' în înregistrarea vlan_list pentru vlan_id {}"
 msgid "Invalid speed value: {}"
 msgstr "Valoarea vitezei nu este validă: {}"
 
-#, fuzzy
-#| msgid "Invalid speed value: {}"
 msgid "Invalid speed value: could not be parsed"
-msgstr "Valoarea vitezei nu este validă: {}"
+msgstr "Valoare de viteză nevalidă: nu a putut fi analizată"
 
 msgid "IP addresses moved to same entry"
-msgstr ""
+msgstr "Adresele IP s-au mutat la aceeași intrare"
 
 msgid "IPv6 not set"
-msgstr ""
+msgstr "IPv6 nu este setat"
 
 msgid "IPv4 not set"
-msgstr ""
+msgstr "IPv4 nu este setat"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr ""
+msgstr "PeeringDB: poate fi necesară o acțiune: nepotrivirea datelor din importatorul IX-F între AS{} și unul sau mai multe IXP-uri"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
-msgstr ""
+msgstr "PeeringDB: poate fi necesară o acțiune: nepotrivirea datelor din importatorul IX-F între {} și una sau mai multe rețele"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Îmbină notificarea: {} -> {}"
@@ -1113,10 +1105,8 @@ msgstr "Resetează mediul"
 msgid "IX-F Import"
 msgstr "Importul IX-F"
 
-#, fuzzy
-#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "Are latitudinea și longitudinea acestui obiect a fost sincronizată cu câmpurile de adrese"
+msgstr "Latitudinea și longitudinea acestui obiect au fost sincronizate cu câmpurile de adrese ale acestuia"
 
 msgid "Last time of attempted geocode"
 msgstr "Ultima încercare a geocode"
@@ -1170,10 +1160,10 @@ msgid "The item that this queue is attached to was created by this user"
 msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
 
 msgid "Ticket reference on the DeskPRO side"
-msgstr ""
+msgstr "Referința tichetului din partea DeskPRO"
 
 msgid "Ticket id on the DeskPRO side"
-msgstr ""
+msgstr "Codul tichetului pe partea DeskPRO"
 
 msgid "DeskPRO Ticket"
 msgstr "Ticket DeskPRO"
@@ -1184,13 +1174,11 @@ msgstr "Tickete DeskPRO"
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
 
-#, fuzzy
-#| msgid "Organization does not exist"
 msgid "Organization has active objects under it."
-msgstr "Organizația nu există"
+msgstr "Organizația are obiecte active sub aceasta."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr ""
+msgstr "Organizația este în prezent un sponsor activ. Vă rugăm să contactați asistența PeeringDB pentru a ajuta la facilitarea eliminării acestei organizații."
 
 msgid "Sponsorship starts on"
 msgstr "Perioada de sponsorizare începe de la"
@@ -1250,31 +1238,25 @@ msgid "Can only compare a maximum of 25 asns"
 msgstr "Poate compara un cel mult 25 de ASN-uri"
 
 msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
+msgstr "Facilitatea are prezențe active în Exchange-uri: {} ..."
 
 msgid "Facility has active network presence(s): {} ..."
-msgstr ""
+msgstr "Facilitatea are prezențe active în rețele: {} ..."
 
 msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
+msgstr "Exchange-ul are conexiuni active la Facilități: {} ..."
 
 msgid "Exchange has active peer(s)"
-msgstr ""
+msgstr "Exchange-ul are peer-uri active"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "IX-F error"
-msgstr "Importul IX-F"
+msgstr "eroare IX-F"
 
-#, fuzzy
-#| msgid "No JSON could be parsed"
 msgid "Reason IX-F data could not be parsed"
-msgstr "Niciun JSON nu a putut fi analizat"
+msgstr "Motiv datele IX-F nu au putut fi analizate"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "IX-F error notification date"
-msgstr "Îmbină notificarea"
+msgstr "Data notificării erorii IX-F"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr ""
