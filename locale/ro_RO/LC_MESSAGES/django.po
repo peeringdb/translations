@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-01-08 20:58+0000\n"
+"PO-Revision-Date: 2021-01-08 21:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -1259,13 +1259,13 @@ msgid "IX-F error notification date"
 msgstr "Data notificării erorii IX-F"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
+msgstr "Ultima dată am notificat Exchange-ul despre problema analizării IX-F"
 
 msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
+msgstr "IX-F a trimis adrese IP pentru un protocol neacceptat"
 
 msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
+msgstr "IX-ul a trimis adrese IP pentru un protocol neacceptat de către rețea"
 
 msgid "IXLan id needs to match parent ix id"
 msgstr "ID-ul IXLan trebuie să se potrivească cu ID-ul IX-ului părinte"
@@ -1286,46 +1286,40 @@ msgid "IXF Import Log Entries"
 msgstr "Înregistrările în jurnalul de import IXF"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
-msgstr ""
+msgstr "Instantaneul JSON al datelor de membru IX-F care au creat această intrare"
 
 msgid "Activity for this entry"
-msgstr ""
+msgstr "Activitate pentru această intrare"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
+msgstr "Respingerea de către rețea a acestei modificări propuse, care o va ascunde până la vizualizarea rețelei de către client"
 
 msgid "RS Peer"
 msgstr "RS Peer"
 
 msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
+msgstr "Încercarea de a aplica datele PeeringDB a ridicat o problemă"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "Last Fetched"
-msgstr "Ultima actualizare"
+msgstr "Ultima preluată"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr ""
+msgstr "Cerința unei alte intrări IXFMemberData și va fi aplicată alături de aceasta"
 
-#, fuzzy
-#| msgid "IX-F Member Export URL"
 msgid "IXF Member Data"
-msgstr "Adresa URL a exportului de membri IX-F"
+msgstr "Datele de membru IX-F"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
+msgstr "Nu există adrese IP adecvate la validarea față de protocoalele de rețea activate"
 
 msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
+msgstr "Există peer-uri active în acest Exchange care se încadrează în acest spațiu de adrese"
 
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
+msgstr "IXLanPrefix cu starea '{}' nu poate fi legat de un IXLan cu starea '{}'."
 
-#, fuzzy
-#| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr "Specifică dacă unui IXP i se permite să adauge un netixlan pentru această rețea prin intermediul datelor sale ixp_member"
+msgstr "Specifică dacă unui IXP i se permite să adauge o intrare netixlan pentru această rețea prin intermediul datelor sale ixp_member"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
@@ -1336,10 +1330,8 @@ msgstr "Adresa IPv4 este în afara prefixului"
 msgid "IPv6 address outside of prefix"
 msgstr "Adresa IPv6 este în afara prefixului"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Maximum speed: {}"
-msgstr "Valoarea maximă admisă {}"
+msgstr "Viteza maximă: {}"
 
 #, fuzzy
 #| msgid "Invalid speed value: {}"
