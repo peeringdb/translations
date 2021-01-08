@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-07-06 21:58+0000\n"
+"PO-Revision-Date: 2021-01-08 16:40+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -293,30 +293,20 @@ msgstr "500-1000 Gbps"
 msgid "1-5Tbps"
 msgstr "1+ Tbps"
 
-#, fuzzy
-#| msgid "5-10Gbps"
 msgid "5-10Tbps"
-msgstr "5-10 Gbps"
+msgstr "5-10 Tbps"
 
-#, fuzzy
-#| msgid "10-20Gbps"
 msgid "10-20Tbps"
-msgstr "10-20 Gbps"
+msgstr "10-20 Tbps"
 
-#, fuzzy
-#| msgid "20-50 Gbps"
 msgid "20-50Tbps"
-msgstr "20-50 Gbps"
+msgstr "20-50 Tbps"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Tbps"
-msgstr "50-100 Gbps"
+msgstr "50-100 Tbps"
 
-#, fuzzy
-#| msgid "100+ Gbps"
 msgid "100+Tbps"
-msgstr "100+ Gbps"
+msgstr "100+ Tbps"
 
 msgid "NSP"
 msgstr "NSP"
@@ -339,18 +329,14 @@ msgstr "Non-Profit"
 msgid "Route Server"
 msgstr "Route Server"
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Services"
-msgstr "Sfera rețelei"
+msgstr "Servicii de furnizare de rețele"
 
 msgid "Route Collector"
-msgstr ""
+msgstr "Route Collector"
 
-#, fuzzy
-#| msgid "Governance"
 msgid "Government"
-msgstr "Guvernare"
+msgstr "Guvernamental"
 
 msgid "Private"
 msgstr "Privat"
@@ -481,18 +467,14 @@ msgstr "Tip rețea"
 msgid "IPv4 Prefixes"
 msgstr "Prefixe IPv4"
 
-#, fuzzy
-#| msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr "Limita maximă recomandată de prefixe IPv4 pentru a fi configurată în sesiunile de peering pentru acest ASN"
+msgstr "Numărul maxim recomandat de rute/prefixe IPv4 pentru a fi configurat în sesiunile de peering pentru acest ASN"
 
 msgid "IPv6 Prefixes"
 msgstr "Prefixe IPv6"
 
-#, fuzzy
-#| msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr "Limită maximă recomandată de prefixe IPv6 pentru a fi configurată în sesiunile de peering pentru acest ASN"
+msgstr "Numărul maxim recomandat de rute/prefixe IPv6 pentru a fi configurat în sesiunile de peering pentru acest ASN"
 
 msgid "Unicast IPv4"
 msgstr "IPv4 Unicast"
@@ -551,15 +533,11 @@ msgstr "E-mail politici"
 msgid "Policy Phone"
 msgstr "Telefon politici"
 
-#, fuzzy
-#| msgid "Network not found"
 msgid "IX-F Network Count"
-msgstr "Rețeaua nu a fost găsită"
+msgstr "Numărul IX-F al rețelei"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "IX-F Last Import"
-msgstr "Importul IX-F"
+msgstr "Ultimul import IX-F"
 
 msgid "Internet Exchange"
 msgstr "Internet Exchange"
@@ -585,10 +563,8 @@ msgstr "Adresa MAC curățată din ARP"
 msgid "IX-F Member Export URL"
 msgstr "Adresa URL a exportului de membri IX-F"
 
-#, fuzzy
-#| msgid "IX-F Member Export URL"
 msgid "IX-F Member Export URL Visibility"
-msgstr "Adresa URL a exportului de membri IX-F"
+msgstr "Vizibilitatea adresei URL de export a membrului IX-F"
 
 msgid "Internet Exchange LAN"
 msgstr "LAN-ul Internet Exchange-ului"
@@ -687,7 +663,7 @@ msgid "Ixlans can no longer be directly deleted as they are now synced to the pa
 msgstr "Ixlans nu mai pot fi șterse direct, deoarece sunt sincronizate acum la Exchange-ul părinte"
 
 msgid "Protected object '{}': {}"
-msgstr ""
+msgstr "Obiect protejat '{}': {}"
 
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
@@ -813,15 +789,13 @@ msgid "{} (Preview)"
 msgstr "{} (Previzualizare)"
 
 msgid "Apply"
-msgstr ""
+msgstr "Aplicați"
 
-#, fuzzy
-#| msgid "Ratio Requirement"
 msgid "No requirements"
-msgstr "Cerințe legate de raport"
+msgstr "Nu există cerințe"
 
 msgid "Value"
-msgstr ""
+msgstr "Valoare"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Această comandă este deja în așteptare / rulare - vă rugăm să așteptați să se termine înainte de a o executa din nou"
@@ -857,12 +831,10 @@ msgid "Only {} type objects may be restored through this interface at this point
 msgstr "În acest moment doar obiectele de tip {} pot fi restabilite prin intermediul acestei interfețe"
 
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
+msgstr "Selectați un Internet Exchange pentru a efectua un import cu datele membrilor IX-F"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset all"
-msgstr "Resetare"
+msgstr "Resetare generală"
 
 #, fuzzy
 #| msgid "Reset Environment"
@@ -2816,10 +2788,8 @@ msgstr "zile în urmă"
 msgid "Not a valid phone number (E.164)"
 msgstr "Nu este un număr de telefon valid (E.164)"
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "Nu este necesar"
+msgstr "Este necesară completarea"
 
 msgid "Invalid prefix: {}"
 msgstr "Prefixul nu este valid: {}"
