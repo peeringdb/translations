@@ -695,7 +695,9 @@ msgstr "APROBAT"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Utilizatorul dorește să se afilieze la aceste organizații"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "Istoricul importurilor IXF"
 
 msgid "Initial creation of netixlan"
@@ -1009,6 +1011,12 @@ msgstr "Lungimea postmortem nu poate depăși {} înregistrări"
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr "Eroare de căutare RADP: {}"
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "Intrarea pentru (ASN și IPv4 și IPv6) nu există în datele IX-F ale Exchange-ului ca o conexiune singulară a membrului"
 
@@ -1021,7 +1029,9 @@ msgstr "Diferențele datelor între PeeringDB și datele IX-F ale Exchange-ului"
 msgid "We found that your IX-F output "
 msgstr "Am constatat că ieșirea dvs. IX-F "
 
-msgid "IXF import url not specified"
+#, fuzzy
+#| msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "URL-ul importului IXF nu este specificat"
 
 msgid "No JSON could be parsed"
@@ -1032,9 +1042,6 @@ msgstr "Datele IX-F încă nu sunt memorate în cache-ul local pentru această r
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr "Adresa {} alocată mai multor conexiuni distincte"
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Nu există înregistrări în niciunul din elementele vlan_lists, se anulează operațiunea."
 
 msgid "No prefixes defined on ixlan"
 msgstr "Nu există prefixe definite pe ixlan"
@@ -1114,20 +1121,29 @@ msgstr "Resetează mediul"
 msgid "IX-F Import"
 msgstr "Importul IX-F"
 
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "Latitudinea și longitudinea acestui obiect au fost sincronizate cu câmpurile de adrese ale acestuia"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
+msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr "Ultima încercare a geocode"
 
-msgid "Error message of previous geocode attempt"
-msgstr "Mesajul de eroare de la încercarea anterioară geocode"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "Adresa nu a fost găsită"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-msgid "API Timeout"
-msgstr "API a expirat"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Această organizație din baza noastră de date care a derivat din ASN-ul sau numele organizației furnizate. Dacă acest lucru este gol înseamnă că nu a fost găsită nicio organizație potrivită."
@@ -1179,6 +1195,14 @@ msgstr "Ticket DeskPRO"
 
 msgid "DeskPRO Tickets"
 msgstr "Tickete DeskPRO"
+
+#, fuzzy
+#| msgid "DeskPRO Ticket"
+msgid "DeskPRO Ticket CC Contact"
+msgstr "Ticket DeskPRO"
+
+msgid "Deskpro Ticket CC Contacts"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
@@ -1282,16 +1306,27 @@ msgstr "ID-ul IXLan trebuie să se potrivească cu ID-ul IX-ului părinte"
 msgid "Ixlan for exchange already exists"
 msgstr "Ixlan pentru acest Exchange există deja"
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "Jurnalul de import IXF"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "Jurnalele de importuri IXF"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "Înregistrare în jurnalul de import IXF"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "Înregistrările în jurnalul de import IXF"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1315,7 +1350,9 @@ msgstr "Ultima preluată"
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
 msgstr "Cerința unei alte intrări IXFMemberData și va fi aplicată alături de aceasta"
 
-msgid "IXF Member Data"
+#, fuzzy
+#| msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "Datele de membru IX-F"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1400,12 +1437,12 @@ msgstr "A fost inițiată resetarea parolei"
 
 #, fuzzy
 #| msgid "IXF Import Enabled"
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "Importul IXF activat"
 
 #, fuzzy
 #| msgid "IXF Import Enabled"
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "Importul IXF activat"
 
 msgid "name of the tool"
@@ -1495,6 +1532,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 msgid "Need to be unique"
@@ -2349,17 +2389,8 @@ msgstr "Unele dintre datele de pe această pagină sunt incomplete, vă rugăm s
 msgid "to improve data quality"
 msgstr "pentru a îmbunătăți calitatea datelor"
 
-msgid "Address failed validation."
-msgstr "Validarea adresei a eșuat."
-
-msgid "Geocoding error"
-msgstr "Eroare de geocodare"
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Nu au putut fi obținute date geocod pentru această entitate. Acest lucru se face automat după modificările câmpului de adresă."
-
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obținute în scurt timp"
 
 msgid "Prefixes"
 msgstr "Prefixe"
@@ -2841,9 +2872,6 @@ msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilier
 msgid "Either ASN or Organization required"
 msgstr "Este necesar ASN-ul sau organizația"
 
-msgid "RDAP Lookup Error: {}"
-msgstr "Eroare de căutare RADP: {}"
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "Vă rugăm să așteptați un pic înainte de a încerca să trimiteți din nou e-mailul de confirmare"
 
@@ -2880,11 +2908,11 @@ msgstr "Locație"
 msgid "Country Code"
 msgstr "Codul de țară"
 
-msgid "Markdown enabled"
-msgstr "Markdown activat"
-
 msgid "Geocode"
 msgstr "Geocod"
+
+msgid "Markdown enabled"
+msgstr "Markdown activat"
 
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
@@ -2900,6 +2928,21 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Point"
+msgid "Public Peering Info Updated"
+msgstr "Peering public în Internet Exchange"
+
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Peering Facility Info Updated"
+msgstr "Informații privind politica de peering"
+
+#, fuzzy
+#| msgid "Contact Information"
+msgid "Contact Info Updated"
+msgstr "Informații de contact"
 
 msgid "PeeringDB Configuration"
 msgstr "Configurație PeeringDB"
@@ -2923,6 +2966,30 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "Nu există înregistrări în niciunul din elementele vlan_lists, se anulează operațiunea."
+
+#~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
+#~ msgstr "Latitudinea și longitudinea acestui obiect au fost sincronizate cu câmpurile de adrese ale acestuia"
+
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "Mesajul de eroare de la încercarea anterioară geocode"
+
+#~ msgid "Address not found"
+#~ msgstr "Adresa nu a fost găsită"
+
+#~ msgid "API Timeout"
+#~ msgstr "API a expirat"
+
+#~ msgid "Address failed validation."
+#~ msgstr "Validarea adresei a eșuat."
+
+#~ msgid "Geocoding error"
+#~ msgstr "Eroare de geocodare"
+
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obținute în scurt timp"
 
 #~ msgid "Invalid member type: {}"
 #~ msgstr "Categoria de membru nu este validă: {}"

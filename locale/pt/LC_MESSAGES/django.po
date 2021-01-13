@@ -765,7 +765,9 @@ msgstr "APROVADO"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Usuário/Utilizador está querendo se afiliar a essas organizações"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "Histórico de Importação IXF"
 
 msgid "Initial creation of netixlan"
@@ -1107,6 +1109,14 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "Números de Sistema Autónomo neste intervalo não são permitidos neste ambiente"
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+#, fuzzy
+#| msgid "RDAP Lookup Error"
+msgid "RDAP Lookup Error: {}"
+msgstr "Erro de pesquisa RDAP"
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
 
@@ -1119,7 +1129,9 @@ msgstr ""
 msgid "We found that your IX-F output "
 msgstr ""
 
-msgid "IXF import url not specified"
+#, fuzzy
+#| msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "URL de importação de IXF não especificado"
 
 msgid "No JSON could be parsed"
@@ -1130,9 +1142,6 @@ msgstr ""
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr ""
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Nenhuma entrada em nenhuma das listas vlan_list, abortando."
 
 msgid "No prefixes defined on ixlan"
 msgstr "Nenhum prefixo definido em ixlan"
@@ -1216,22 +1225,29 @@ msgstr "Reiniciar Ambiente"
 msgid "IX-F Import"
 msgstr "Log de importação IXF"
 
-#, fuzzy
-#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "A latitude e a longitude deste objeto foram sincronizadas com seus campos de endereço"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
+msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr "Última vez de tentativa de geocódigo"
 
-msgid "Error message of previous geocode attempt"
-msgstr "Mensagem de erro de tentativa anterior de geocódigo"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "Endereço não encontrado"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-msgid "API Timeout"
-msgstr "Timeout de API"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Esta organização em nosso banco de dados foi derivada do ASN ou nome da organização fornecidos. Se estiver vazia, significa que nenhuma organização correspondente foi encontrada."
@@ -1284,6 +1300,12 @@ msgid "DeskPRO Ticket"
 msgstr ""
 
 msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "DeskPRO Ticket CC Contact"
+msgstr ""
+
+msgid "Deskpro Ticket CC Contacts"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
@@ -1396,16 +1418,27 @@ msgstr ""
 msgid "Ixlan for exchange already exists"
 msgstr ""
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "Log de importação IXF"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "Logs de importação IXF"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "IXF entrada no registro de importação"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "IXF Entradas no registro de importação"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1433,7 +1466,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Member Export URL"
-msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "URL de Exportação de Membro IXF"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1522,12 +1555,12 @@ msgstr "Redefinição de senha Iniciada"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "IXF Entradas no registro de importação "
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "IXF Entradas no registro de importação "
 
 msgid "name of the tool"
@@ -1617,6 +1650,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "solicitação  de afiliação de %(user_name)s foi negada"
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 msgid "Need to be unique"
@@ -2505,17 +2541,8 @@ msgstr "Alguns dos dados desta página estão incompletos, por favor, atualize o
 msgid "to improve data quality"
 msgstr "para melhorar a qualidade dos dados"
 
-msgid "Address failed validation."
-msgstr "Validação de endereço falhou."
-
-msgid "Geocoding error"
-msgstr "Erro de geocodificação"
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Os dados de geocódigo para esta entidade não puderam ser obtidos neste momento. Isso é feito automaticamente após alterações no campo de endereço."
-
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "Os dados de geocódigo atualizados para esta entidade serão obtidos em breve"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3037,11 +3064,6 @@ msgstr "Favor aguardar alguns instantes antes de solicitar afiliação novamente
 msgid "Either ASN or Organization required"
 msgstr "Um ASN ou Organização é obrigatório"
 
-#, fuzzy
-#| msgid "RDAP Lookup Error"
-msgid "RDAP Lookup Error: {}"
-msgstr "Erro de pesquisa RDAP"
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "Favor aguardar alguns instantes antes de tentar reenviar o e-mail de confirmação novamente"
 
@@ -3078,11 +3100,11 @@ msgstr "Localização"
 msgid "Country Code"
 msgstr "Código do país"
 
-msgid "Markdown enabled"
-msgstr "Markdown habilitado"
-
 msgid "Geocode"
 msgstr "Geocódigo"
+
+msgid "Markdown enabled"
+msgstr "Markdown habilitado"
 
 msgid "Protocols Supported"
 msgstr "Protocolos suportados"
@@ -3100,6 +3122,21 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Log de importação IXF"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Info Updated"
+msgstr "Pontos de Troca de Peering Público"
+
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Peering Facility Info Updated"
+msgstr "Informação da Política de Peering"
+
+#, fuzzy
+#| msgid "Contact Information"
+msgid "Contact Info Updated"
+msgstr "Informações de contato"
 
 msgid "PeeringDB Configuration"
 msgstr "Configuração do PeeringDB"
@@ -3125,6 +3162,32 @@ msgstr "Informação da Política de Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "Nenhuma entrada em nenhuma das listas vlan_list, abortando."
+
+#, fuzzy
+#~| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
+#~ msgstr "A latitude e a longitude deste objeto foram sincronizadas com seus campos de endereço"
+
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "Mensagem de erro de tentativa anterior de geocódigo"
+
+#~ msgid "Address not found"
+#~ msgstr "Endereço não encontrado"
+
+#~ msgid "API Timeout"
+#~ msgstr "Timeout de API"
+
+#~ msgid "Address failed validation."
+#~ msgstr "Validação de endereço falhou."
+
+#~ msgid "Geocoding error"
+#~ msgstr "Erro de geocodificação"
+
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "Os dados de geocódigo atualizados para esta entidade serão obtidos em breve"
 
 #~ msgid "Invalid member type: {}"
 #~ msgstr "Tipo de membro inválido: {}"

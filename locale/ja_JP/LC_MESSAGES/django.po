@@ -765,7 +765,9 @@ msgstr "承認(APPROVED)"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "そのユーザはその組織に所属予定になっています"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "IXP インポート履歴"
 
 msgid "Initial creation of netixlan"
@@ -1129,6 +1131,14 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "この環境では、この範囲内の AS 番号は許可されていません"
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+#, fuzzy
+#| msgid "RDAP Lookup Error"
+msgid "RDAP Lookup Error: {}"
+msgstr "RDAP 参照エラー"
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
 
@@ -1143,7 +1153,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
 
 msgid "No JSON could be parsed"
@@ -1154,9 +1164,6 @@ msgstr ""
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr ""
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "vlan_list の一覧にエントリーがありませんでしたので中断します"
 
 msgid "No prefixes defined on ixlan"
 msgstr ""
@@ -1246,22 +1253,29 @@ msgstr "環境をリセットします"
 msgid "IX-F Import"
 msgstr "IXF Import のログ(IXF Import Log)"
 
-#, fuzzy
-#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "このオブジェクトの緯度と経度は IP アドレスの情報と同期しています"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
+msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr "前回のジオコード試行"
 
-msgid "Error message of previous geocode attempt"
-msgstr "前回のジオコード試行のエラーメッセージ"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "アドレスが見つかりません"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-msgid "API Timeout"
-msgstr "API タイムアウト"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "データベース内にあるこの組織は、AS 番号もしくは組織名称から生成されました。空欄の場合は、一致する組織が無かったと言う意味になります"
@@ -1314,6 +1328,12 @@ msgid "DeskPRO Ticket"
 msgstr ""
 
 msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "DeskPRO Ticket CC Contact"
+msgstr ""
+
+msgid "Deskpro Ticket CC Contacts"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
@@ -1426,16 +1446,27 @@ msgstr ""
 msgid "Ixlan for exchange already exists"
 msgstr ""
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "IXF Import のログ(IXF Import Log)"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "IXF Import のログ(IXF Import Logs)"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "IXF Import のログのエントリー(IXF Import Log Entry)"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1463,7 +1494,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Member Export URL"
-msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "IXF メンバー出力 URL"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1552,12 +1583,12 @@ msgstr "パスワードの初期化"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
 
 msgid "name of the tool"
@@ -1647,6 +1678,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s's 所属リクエストが拒否されました"
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 msgid "Need to be unique"
@@ -2513,17 +2547,8 @@ msgstr "このページにあるいくつかのデータが不十分です。デ
 msgid "to improve data quality"
 msgstr "の印のある箇所の更新をお願いします"
 
-msgid "Address failed validation."
-msgstr "バリデーションに失敗したアドレス"
-
-msgid "Geocoding error"
-msgstr "ジオコーディングエラー"
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "このエンティティのジオコードデータの取得に失敗しました。これはアドレスフィールドの変更時に自動的に行われます"
-
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "まもなく、このエンティティについての更新されたジオコードデータの取得が行われます"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3039,11 +3064,6 @@ msgstr "組織所属リクエストをするまで少々お待ちください"
 msgid "Either ASN or Organization required"
 msgstr "AS 番号もしくは組織のどちらかが必要となります"
 
-#, fuzzy
-#| msgid "RDAP Lookup Error"
-msgid "RDAP Lookup Error: {}"
-msgstr "RDAP 参照エラー"
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "再度確認メールを送るまで少々お待ちください"
 
@@ -3080,11 +3100,11 @@ msgstr "住所"
 msgid "Country Code"
 msgstr "国コード"
 
-msgid "Markdown enabled"
-msgstr "マークダウン記法が利用可能です"
-
 msgid "Geocode"
 msgstr "ジオコード"
+
+msgid "Markdown enabled"
+msgstr "マークダウン記法が利用可能です"
 
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル(Protocols Supported)"
@@ -3102,6 +3122,21 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF Import のログ(IXF Import Log)"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Info Updated"
+msgstr "接続しているエクスチェンジポイント"
+
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Peering Facility Info Updated"
+msgstr "ピアリングポリシー情報"
+
+#, fuzzy
+#| msgid "Contact Information"
+msgid "Contact Info Updated"
+msgstr "連絡先情報"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB の設定"
@@ -3127,6 +3162,32 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "vlan_list の一覧にエントリーがありませんでしたので中断します"
+
+#, fuzzy
+#~| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
+#~ msgstr "このオブジェクトの緯度と経度は IP アドレスの情報と同期しています"
+
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "前回のジオコード試行のエラーメッセージ"
+
+#~ msgid "Address not found"
+#~ msgstr "アドレスが見つかりません"
+
+#~ msgid "API Timeout"
+#~ msgstr "API タイムアウト"
+
+#~ msgid "Address failed validation."
+#~ msgstr "バリデーションに失敗したアドレス"
+
+#~ msgid "Geocoding error"
+#~ msgstr "ジオコーディングエラー"
+
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "まもなく、このエンティティについての更新されたジオコードデータの取得が行われます"
 
 #, fuzzy
 #~| msgid "Invalid prefix: {}"

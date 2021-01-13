@@ -765,7 +765,9 @@ msgstr "被批准"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "使用者希望加入這些組織"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "IXF 導入歷史"
 
 msgid "Initial creation of netixlan"
@@ -1123,6 +1125,12 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "此環境不允許位於這個範圍的ASNs"
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr "RDAP 查找錯誤：{}"
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
 
@@ -1135,7 +1143,9 @@ msgstr ""
 msgid "We found that your IX-F output "
 msgstr ""
 
-msgid "IXF import url not specified"
+#, fuzzy
+#| msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "未指定IXF導入之URL"
 
 msgid "No JSON could be parsed"
@@ -1146,9 +1156,6 @@ msgstr ""
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr ""
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "在 vlan_list 列表中沒有條目，中止中。"
 
 msgid "No prefixes defined on ixlan"
 msgstr "在IX-lan上沒有定義prefixes"
@@ -1238,22 +1245,29 @@ msgstr ""
 msgid "IX-F Import"
 msgstr "IXF 導入日誌"
 
-#, fuzzy
-#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "此物件的經緯度是否已與其位址欄位同步"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
+msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr "上次地理編碼嘗試"
 
-msgid "Error message of previous geocode attempt"
-msgstr "先前地理編碼嘗試的錯誤消息"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "地址未找到"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-msgid "API Timeout"
-msgstr "API 超時"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "資料庫中的此組織是從提供的 ASN 或組織名稱派生而來的。 如為空，則表示未找到匹配的組織。"
@@ -1306,6 +1320,12 @@ msgid "DeskPRO Ticket"
 msgstr ""
 
 msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "DeskPRO Ticket CC Contact"
+msgstr ""
+
+msgid "Deskpro Ticket CC Contacts"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
@@ -1418,16 +1438,27 @@ msgstr ""
 msgid "Ixlan for exchange already exists"
 msgstr ""
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "IXF 導入日誌"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "IXF 導入日誌"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "IXF 導入日誌條目"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "IXF 導入日誌條目"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1455,7 +1486,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Member Export URL"
-msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "IXF 成員匯出 URL"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1544,12 +1575,12 @@ msgstr "密碼重置已啟動"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "IXF 導入日誌條目"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "IXF 導入日誌條目"
 
 msgid "name of the tool"
@@ -1637,6 +1668,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s 的關聯請求被拒絕"
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 msgid "Need to be unique"
@@ -2501,17 +2535,8 @@ msgstr "此頁面上的部分資料不完整。為了提高資料品質，請更
 msgid "to improve data quality"
 msgstr "的欄位"
 
-msgid "Address failed validation."
-msgstr "地址驗證失敗。"
-
-msgid "Geocoding error"
-msgstr "地理編碼錯誤"
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "此時無法獲得此實體的地理編碼資料。這是位址欄位修改後自動完成的。"
-
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "該實體的地理編碼資料將被更新"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3023,9 +3048,6 @@ msgstr "請稍後再請求關聯。"
 msgid "Either ASN or Organization required"
 msgstr "需要 ASN 或組織"
 
-msgid "RDAP Lookup Error: {}"
-msgstr "RDAP 查找錯誤：{}"
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "請稍後再重新發送確認 Email"
 
@@ -3062,11 +3084,11 @@ msgstr "位置"
 msgid "Country Code"
 msgstr "國家代碼"
 
-msgid "Markdown enabled"
-msgstr "Markdown 已啟用"
-
 msgid "Geocode"
 msgstr "地理編碼"
+
+msgid "Markdown enabled"
+msgstr "Markdown 已啟用"
 
 msgid "Protocols Supported"
 msgstr "支援的協定"
@@ -3084,6 +3106,21 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF 導入日誌"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Info Updated"
+msgstr "公共對等交換點"
+
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Peering Facility Info Updated"
+msgstr "對等政策資訊"
+
+#, fuzzy
+#| msgid "Contact Information"
+msgid "Contact Info Updated"
+msgstr "聯繫資訊"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB 配置"
@@ -3109,6 +3146,32 @@ msgstr "對等政策資訊"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "請稍後再嘗試登錄。"
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "在 vlan_list 列表中沒有條目，中止中。"
+
+#, fuzzy
+#~| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
+#~ msgstr "此物件的經緯度是否已與其位址欄位同步"
+
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "先前地理編碼嘗試的錯誤消息"
+
+#~ msgid "Address not found"
+#~ msgstr "地址未找到"
+
+#~ msgid "API Timeout"
+#~ msgstr "API 超時"
+
+#~ msgid "Address failed validation."
+#~ msgstr "地址驗證失敗。"
+
+#~ msgid "Geocoding error"
+#~ msgstr "地理編碼錯誤"
+
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "該實體的地理編碼資料將被更新"
 
 #, fuzzy
 #~| msgid "Invalid prefix: {}"

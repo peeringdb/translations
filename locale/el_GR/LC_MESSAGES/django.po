@@ -765,7 +765,9 @@ msgstr "ΕΓΚΕΚΡΙΜΕΝΟ"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Ο χρήστης ενδιαφέρεται να συσχετισθεί με αυτούς τους οργανισμούς"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "Ιστορία Εισαγωγών IXF"
 
 msgid "Initial creation of netixlan"
@@ -1115,6 +1117,12 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr ""
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
 
@@ -1129,7 +1137,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
 
 msgid "No JSON could be parsed"
@@ -1140,9 +1148,6 @@ msgstr ""
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr ""
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Δεν υπάρχουν καταχωρήσεις σε καμμία από τις λίστες vlan_list, γίνεται διακοπή."
 
 msgid "No prefixes defined on ixlan"
 msgstr ""
@@ -1236,22 +1241,29 @@ msgstr ""
 msgid "IX-F Import"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
 
-#, fuzzy
-#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "Έχει συγχρονιστεί το γεωγραφικό μήκος και πλάτος του αντικειμένου στα πεδία διεύθυνσης"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
+msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr "Τελευταία χρονική στιγμή προσπάθειας geocode"
 
-msgid "Error message of previous geocode attempt"
-msgstr "Μήνυμα λάθους τελευταίας προσπάθειας geocode"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "Δεν βρέθηκε η διεύθυνση"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-msgid "API Timeout"
-msgstr "API Timeout"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Αυτός είναι ο οργανισμός που πρόεκυψε από το δοσμένο ASN ή όνομα οργανισμού. Αν είναι κενός, δεν βρέθηκε αντίστοιχος οργανισμός"
@@ -1304,6 +1316,12 @@ msgid "DeskPRO Ticket"
 msgstr ""
 
 msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "DeskPRO Ticket CC Contact"
+msgstr ""
+
+msgid "Deskpro Ticket CC Contacts"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
@@ -1416,16 +1434,27 @@ msgstr ""
 msgid "Ixlan for exchange already exists"
 msgstr ""
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "Ημερολόγια Εισαγωγών IXF"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "Καταχώρηση Ημερολογίου Εισαγωγών IXF"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1453,7 +1482,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Member Export URL"
-msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "URL εξαγωγής μελών IXF"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1542,12 +1571,12 @@ msgstr "Έναρξη Επαναφοράς Κωδικού"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "Καταχωρήσεις Ημερολογίου Εισαγωγών IXF"
 
 msgid "name of the tool"
@@ -1635,6 +1664,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "H αίτηση συσχετισμού του/της %(user_name)s's απορρίφθηκε"
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 msgid "Need to be unique"
@@ -2525,17 +2557,8 @@ msgstr "Κάποια από τα δεδομένα σε αυτή τη σελίδ�
 msgid "to improve data quality"
 msgstr "για να βελτιωθεί η ποιότητα των δεδομένων"
 
-msgid "Address failed validation."
-msgstr "Αποτυχία επαλήθευσης της διεύθυνσης."
-
-msgid "Geocoding error"
-msgstr "Σφάλμα Geocoding"
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Τα δεδομένα Geocode για αυτή την οντότητα δεν μπορούσαν να ανακτηθούν αυτή τη στιγμή. Αυτό συμβαίνι αυτόματα όταν αλλάζει το πεδίο διεύθυνσης."
-
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "Ανανεωμένα στοιχεία geocode για αυτή την οντότητα θα ανακτηθούν συντόμως"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3057,9 +3080,6 @@ msgstr "Παρακαλούμε περιμένετε λίγο πριν ζητήσ
 msgid "Either ASN or Organization required"
 msgstr "Απαιτείται είτε ASN είτε Οργανισμός"
 
-msgid "RDAP Lookup Error: {}"
-msgstr ""
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "Παρακαλώ περιμένετε λίγο πριν δοκιμάσετε να επαναστείλετε ξανλα το email επιβεβαίωσης"
 
@@ -3096,11 +3116,11 @@ msgstr "Τοποθεσία"
 msgid "Country Code"
 msgstr "Κωδικός Χώρας"
 
-msgid "Markdown enabled"
-msgstr "Η Markdown ενεργοποιήθηκε"
-
 msgid "Geocode"
 msgstr "Γεωκωδικός (Geocode)"
+
+msgid "Markdown enabled"
+msgstr "Η Markdown ενεργοποιήθηκε"
 
 msgid "Protocols Supported"
 msgstr "Υποστηριζόμενα Πρωτόκολλα"
@@ -3118,6 +3138,21 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Info Updated"
+msgstr "Δημόσια Peering Exchange Points"
+
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Peering Facility Info Updated"
+msgstr "Πληροφορίες Πολιτικής Peering"
+
+#, fuzzy
+#| msgid "Contact Information"
+msgid "Contact Info Updated"
+msgstr "Πληροφορίες Επικοινωνίας"
 
 msgid "PeeringDB Configuration"
 msgstr "Ρύθμιση PeeringDB"
@@ -3143,6 +3178,32 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "Δεν υπάρχουν καταχωρήσεις σε καμμία από τις λίστες vlan_list, γίνεται διακοπή."
+
+#, fuzzy
+#~| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
+#~ msgstr "Έχει συγχρονιστεί το γεωγραφικό μήκος και πλάτος του αντικειμένου στα πεδία διεύθυνσης"
+
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "Μήνυμα λάθους τελευταίας προσπάθειας geocode"
+
+#~ msgid "Address not found"
+#~ msgstr "Δεν βρέθηκε η διεύθυνση"
+
+#~ msgid "API Timeout"
+#~ msgstr "API Timeout"
+
+#~ msgid "Address failed validation."
+#~ msgstr "Αποτυχία επαλήθευσης της διεύθυνσης."
+
+#~ msgid "Geocoding error"
+#~ msgstr "Σφάλμα Geocoding"
+
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "Ανανεωμένα στοιχεία geocode για αυτή την οντότητα θα ανακτηθούν συντόμως"
 
 #, fuzzy
 #~| msgid "Invalid prefix: {}"

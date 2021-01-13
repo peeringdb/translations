@@ -749,7 +749,9 @@ msgstr "Godkendt"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "IXF Importeringshistorik"
 
 msgid "Initial creation of netixlan"
@@ -1093,6 +1095,12 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr ""
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
 
@@ -1107,7 +1115,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "IXF Import Log Linjer"
 
 #, fuzzy
@@ -1119,9 +1127,6 @@ msgstr ""
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr ""
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Ingen entiteter i nogen af vlan_list listerne, afbryder."
 
 msgid "No prefixes defined on ixlan"
 msgstr ""
@@ -1207,23 +1212,30 @@ msgstr ""
 msgid "IX-F Import"
 msgstr "IXF import log"
 
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
 #, fuzzy
 msgid "Last time of attempted geocode"
 msgstr "Sidste forsøg på opdatering af geokoordinator"
 
-#, fuzzy
-msgid "Error message of previous geocode attempt"
-msgstr "Fejlbesked for sidste forsøg på opdatering af geokoordinator"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "Adresse ikke fundet"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-#, fuzzy
-msgid "API Timeout"
-msgstr "API Timeout"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Denne virksomhed i vores database var afledt af det oplyste ASN og virksomhedsnavn. Hvis dette felt er tomt, blev der ikke fundet nogen matchende virksomhed."
@@ -1276,6 +1288,12 @@ msgid "DeskPRO Ticket"
 msgstr ""
 
 msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "DeskPRO Ticket CC Contact"
+msgstr ""
+
+msgid "Deskpro Ticket CC Contacts"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
@@ -1389,16 +1407,27 @@ msgstr ""
 msgid "Ixlan for exchange already exists"
 msgstr ""
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "IXF import log"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "IXF import logs"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "IXF Import Log Linje"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "IXF Import Log Linjer"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1426,7 +1455,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log"
-msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "IXF import log"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1523,12 +1552,12 @@ msgstr "Kodeord skal være ens"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "IXF Import Log Linjer"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "IXF Import Log Linjer"
 
 msgid "name of the tool"
@@ -1628,6 +1657,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 #, fuzzy
@@ -2527,16 +2559,7 @@ msgstr ""
 msgid "to improve data quality"
 msgstr ""
 
-msgid "Address failed validation."
-msgstr ""
-
-msgid "Geocoding error"
-msgstr ""
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
-msgstr ""
-
-msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr ""
 
 #, fuzzy
@@ -3057,9 +3080,6 @@ msgstr ""
 msgid "Either ASN or Organization required"
 msgstr "Virksomhedssammenlægning"
 
-msgid "RDAP Lookup Error: {}"
-msgstr ""
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr ""
 
@@ -3100,10 +3120,10 @@ msgstr ""
 msgid "Country Code"
 msgstr ""
 
-msgid "Markdown enabled"
+msgid "Geocode"
 msgstr ""
 
-msgid "Geocode"
+msgid "Markdown enabled"
 msgstr ""
 
 msgid "Protocols Supported"
@@ -3125,6 +3145,17 @@ msgstr ""
 msgid "Enable IX-F Import"
 msgstr "IXF import log"
 
+msgid "Public Peering Info Updated"
+msgstr ""
+
+msgid "Peering Facility Info Updated"
+msgstr ""
+
+#, fuzzy
+#| msgid "Updated"
+msgid "Contact Info Updated"
+msgstr "Opdateret"
+
 msgid "PeeringDB Configuration"
 msgstr ""
 
@@ -3145,6 +3176,20 @@ msgstr ""
 
 msgid "Please wait a bit before trying to login again."
 msgstr ""
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "Ingen entiteter i nogen af vlan_list listerne, afbryder."
+
+#, fuzzy
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "Fejlbesked for sidste forsøg på opdatering af geokoordinator"
+
+#~ msgid "Address not found"
+#~ msgstr "Adresse ikke fundet"
+
+#, fuzzy
+#~ msgid "API Timeout"
+#~ msgstr "API Timeout"
 
 #, fuzzy
 #~| msgid "Exchange"

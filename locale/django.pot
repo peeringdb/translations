@@ -678,7 +678,7 @@ msgstr ""
 msgid "User is looking to be affiliated to these Organizations"
 msgstr ""
 
-msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr ""
 
 msgid "Initial creation of netixlan"
@@ -992,6 +992,12 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr ""
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
 
@@ -1004,7 +1010,7 @@ msgstr ""
 msgid "We found that your IX-F output "
 msgstr ""
 
-msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr ""
 
 msgid "No JSON could be parsed"
@@ -1014,9 +1020,6 @@ msgid "IX-F data not locally cached for this resource yet."
 msgstr ""
 
 msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
-
-msgid "No entries in any of the vlan_list lists, aborting."
 msgstr ""
 
 msgid "No prefixes defined on ixlan"
@@ -1097,19 +1100,28 @@ msgstr ""
 msgid "IX-F Import"
 msgstr ""
 
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr ""
 
-msgid "Error message of previous geocode attempt"
+msgid "Error in forward geocode: Google Maps API error"
 msgstr ""
 
-msgid "Address not found"
+msgid "Error in forward geocode: Google Maps API Timeout"
 msgstr ""
 
-msgid "API Timeout"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1161,6 +1173,12 @@ msgid "DeskPRO Ticket"
 msgstr ""
 
 msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "DeskPRO Ticket CC Contact"
+msgstr ""
+
+msgid "Deskpro Ticket CC Contacts"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
@@ -1265,16 +1283,19 @@ msgstr ""
 msgid "Ixlan for exchange already exists"
 msgstr ""
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
 msgstr ""
 
-msgid "IXF Import Logs"
+msgid "IX-F Import Log"
 msgstr ""
 
-msgid "IXF Import Log Entry"
+msgid "IX-F Import Logs"
 msgstr ""
 
-msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entry"
+msgstr ""
+
+msgid "IX-F Import Log Entries"
 msgstr ""
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1298,7 +1319,7 @@ msgstr ""
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
 msgstr ""
 
-msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr ""
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1379,10 +1400,10 @@ msgstr ""
 msgid "Password Reset Initiated"
 msgstr ""
 
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr ""
 
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr ""
 
 msgid "name of the tool"
@@ -1466,6 +1487,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 msgid "Need to be unique"
@@ -2287,16 +2311,7 @@ msgstr ""
 msgid "to improve data quality"
 msgstr ""
 
-msgid "Address failed validation."
-msgstr ""
-
-msgid "Geocoding error"
-msgstr ""
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
-msgstr ""
-
-msgid "Updated geocode data for this entity will be obtained shortly"
 msgstr ""
 
 msgid "Prefixes"
@@ -2753,9 +2768,6 @@ msgstr ""
 msgid "Either ASN or Organization required"
 msgstr ""
 
-msgid "RDAP Lookup Error: {}"
-msgstr ""
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr ""
 
@@ -2792,10 +2804,10 @@ msgstr ""
 msgid "Country Code"
 msgstr ""
 
-msgid "Markdown enabled"
+msgid "Geocode"
 msgstr ""
 
-msgid "Geocode"
+msgid "Markdown enabled"
 msgstr ""
 
 msgid "Protocols Supported"
@@ -2811,6 +2823,15 @@ msgid "MTU"
 msgstr ""
 
 msgid "Enable IX-F Import"
+msgstr ""
+
+msgid "Public Peering Info Updated"
+msgstr ""
+
+msgid "Peering Facility Info Updated"
+msgstr ""
+
+msgid "Contact Info Updated"
 msgstr ""
 
 msgid "PeeringDB Configuration"

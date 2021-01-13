@@ -765,7 +765,9 @@ msgstr "SCHVÁLENÝ"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Uživatel chce být přidružen k těmto organizacím"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "Historie Importu z IXF"
 
 #, fuzzy
@@ -1113,6 +1115,12 @@ msgstr ""
 msgid "ASNs in this range are not allowed in this environment"
 msgstr ""
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr ""
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
 
@@ -1127,7 +1135,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "Záznamy protokolů IXF Importu"
 
 msgid "No JSON could be parsed"
@@ -1138,9 +1146,6 @@ msgstr ""
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr ""
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "Žádné položky v seznamu vlan_list, ukončení."
 
 msgid "No prefixes defined on ixlan"
 msgstr ""
@@ -1230,22 +1235,29 @@ msgstr ""
 msgid "IX-F Import"
 msgstr "Protokol IXF Importu"
 
-#, fuzzy
-#| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "Má tento objekt synchronizovanou zeměpisnou šířku a délku s adresními poly"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
+msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr "Poslední pokus o geokód"
 
-msgid "Error message of previous geocode attempt"
-msgstr "Chybová zpráva předchozího pokusu o geokód"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "Adresa nenalezena"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-msgid "API Timeout"
-msgstr "API časový limit"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Tato organizace v naší databázi byla odvozena z poskytnutého čísla Autonomního Systému (ASN) nebo názvu organizace. Je-li toto prázdné, znamená to, že nebyla nalezena žádná odpovídající organizace."
@@ -1298,6 +1310,12 @@ msgid "DeskPRO Ticket"
 msgstr ""
 
 msgid "DeskPRO Tickets"
+msgstr ""
+
+msgid "DeskPRO Ticket CC Contact"
+msgstr ""
+
+msgid "Deskpro Ticket CC Contacts"
 msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
@@ -1410,16 +1428,27 @@ msgstr ""
 msgid "Ixlan for exchange already exists"
 msgstr ""
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "Protokol IXF Importu"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "Protokoly IXF Importu"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "Záznam protokolu IXF Importu"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "Záznamy protokolů IXF Importu"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1447,7 +1476,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "IXF Member Export URL"
-msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "IXF Member Export URL"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1536,12 +1565,12 @@ msgstr "Reset hesla zahájen"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "Záznamy protokolů IXF Importu"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
-msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "Záznamy protokolů IXF Importu"
 
 msgid "name of the tool"
@@ -1629,6 +1658,9 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s žádost o přidružení byla zamítnuta"
 
 msgid "Please contact {} to help with the deletion of this object"
+msgstr ""
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
 msgid "Need to be unique"
@@ -2525,19 +2557,9 @@ msgstr "Některá data na této stránce jsou neúplná, aktualizujte prosím po
 msgid "to improve data quality"
 msgstr "zlepšení kvality dat"
 
-msgid "Address failed validation."
-msgstr "Ověření adresy se nezdařilo."
-
-msgid "Geocoding error"
-msgstr "Chyba geocodingu"
-
 #, fuzzy
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "V tomto okamžiku nebylo možné získat geolokační data pro tuto entitu. To se provádí automaticky při změně adresy pole."
-
-#, fuzzy
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "Aktualizovaný geocode pro tuto entitu budou brzy získána"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3068,9 +3090,6 @@ msgstr "Počkejte prosím chvíli, než požádáte znovu žádost o přidružen
 msgid "Either ASN or Organization required"
 msgstr "Je vyžadováno číslo ASN nebo název Organizace"
 
-msgid "RDAP Lookup Error: {}"
-msgstr ""
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "Prosím počkejte chvíli, než znova požádáte o zaslání potvrzovacího emailu"
 
@@ -3107,11 +3126,11 @@ msgstr "Lokalita"
 msgid "Country Code"
 msgstr "Kód země"
 
-msgid "Markdown enabled"
-msgstr "Označování povoleno"
-
 msgid "Geocode"
 msgstr "Geocode"
+
+msgid "Markdown enabled"
+msgstr "Označování povoleno"
 
 msgid "Protocols Supported"
 msgstr "Podporované protokoly"
@@ -3129,6 +3148,20 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Protokol IXF Importu"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "Public Peering Info Updated"
+msgstr "Veřejné propojovací uzly"
+
+#, fuzzy
+msgid "Peering Facility Info Updated"
+msgstr "Peering Policy Information"
+
+#, fuzzy
+#| msgid "Contact Information"
+msgid "Contact Info Updated"
+msgstr "Kontaktní informace"
 
 msgid "PeeringDB Configuration"
 msgstr "Konfigurace PeeringDB"
@@ -3155,6 +3188,33 @@ msgstr "Peering Policy Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "Žádné položky v seznamu vlan_list, ukončení."
+
+#, fuzzy
+#~| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
+#~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
+#~ msgstr "Má tento objekt synchronizovanou zeměpisnou šířku a délku s adresními poly"
+
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "Chybová zpráva předchozího pokusu o geokód"
+
+#~ msgid "Address not found"
+#~ msgstr "Adresa nenalezena"
+
+#~ msgid "API Timeout"
+#~ msgstr "API časový limit"
+
+#~ msgid "Address failed validation."
+#~ msgstr "Ověření adresy se nezdařilo."
+
+#~ msgid "Geocoding error"
+#~ msgstr "Chyba geocodingu"
+
+#, fuzzy
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "Aktualizovaný geocode pro tuto entitu budou brzy získána"
 
 #, fuzzy
 #~| msgid "Invalid prefix: {}"

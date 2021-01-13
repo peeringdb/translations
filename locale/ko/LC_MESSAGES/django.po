@@ -679,7 +679,9 @@ msgstr "승인됨"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "사용자가 이 조직에 소속되기 위해 대기 중"
 
-msgid "IXF Import History"
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "IX-F Import History"
 msgstr "IXF 수입 히스토리"
 
 msgid "Initial creation of netixlan"
@@ -993,6 +995,12 @@ msgstr "사후 길이는 {}개 항목을 초과할 수 없음"
 msgid "ASNs in this range are not allowed in this environment"
 msgstr "이 환경에서는 이 범위의 ASN이 허용되지 않음"
 
+msgid "This ASN is not assigned by any RIR"
+msgstr ""
+
+msgid "RDAP Lookup Error: {}"
+msgstr "RDAP 룩업 오류: {}"
+
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "(asn, IPv4 및 IPv6)에 대한 항목이 단일 멤버 연결로 익스체인지의 IX-F 데이터에 존재하지 않음"
 
@@ -1005,7 +1013,9 @@ msgstr "PeeringDB와 익스체인지의 IX-F 데이터 간의 데이터 차이"
 msgid "We found that your IX-F output "
 msgstr ""
 
-msgid "IXF import url not specified"
+#, fuzzy
+#| msgid "IXF import url not specified"
+msgid "IX-F import url not specified"
 msgstr "IXF 가져오기 URL이 지정되지 않음"
 
 msgid "No JSON could be parsed"
@@ -1016,9 +1026,6 @@ msgstr "이 리소스에 대해 아직 부분적으로 캐시되지 않은 IX-F 
 
 msgid "Address {} assigned to more than one distinct connection"
 msgstr "둘 이상의 고유 연결에 할당된 주소 {}"
-
-msgid "No entries in any of the vlan_list lists, aborting."
-msgstr "vlan_list 목록에 항목이 없음, 중단함."
 
 msgid "No prefixes defined on ixlan"
 msgstr "ixlan에 정의된 프리픽스 없음"
@@ -1098,20 +1105,29 @@ msgstr "환경 재설정"
 msgid "IX-F Import"
 msgstr "IX-F 가져오기"
 
-msgid "Has this object's latitude and longitude been synchronized to its address fields"
-msgstr "이 개체의 위도와 경도가 주소 필드와 동기화되었음"
+msgid "Has this object's address been normalized with a call to the Google Maps API"
+msgstr ""
 
 msgid "Last time of attempted geocode"
 msgstr "최근 지오코드를 시도한 시간"
 
-msgid "Error message of previous geocode attempt"
-msgstr "이전 지오코드 시도 오류 메세지"
+msgid "Error in forward geocode: Google Maps API error"
+msgstr ""
 
-msgid "Address not found"
-msgstr "주소를 찾을 수 없음"
+msgid "Error in forward geocode: Google Maps API Timeout"
+msgstr ""
 
-msgid "API Timeout"
-msgstr "API 시간 초과"
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
+msgid "Latitude and longitude must be defined for reverse geocode lookup"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API error"
+msgstr ""
+
+msgid "Error in reverse geocode: Google Maps API Timeout"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "제공된 ASN 또는 조직 이름에서 파생된 데이터베이스 내 이 조직. 만약 이것이 비어있다면 그것은 일치하는 조직을 찾지 못했다는 것을 의미한다."
@@ -1163,6 +1179,14 @@ msgstr "데스크프로 티켓"
 
 msgid "DeskPRO Tickets"
 msgstr "데스크프로 티켓"
+
+#, fuzzy
+#| msgid "DeskPRO Ticket"
+msgid "DeskPRO Ticket CC Contact"
+msgstr "데스크프로 티켓"
+
+msgid "Deskpro Ticket CC Contacts"
+msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "이 조직의 로고 이미지 파일을 업로드하고 설정할 수 있음"
@@ -1266,16 +1290,27 @@ msgstr "IXLan ID는 상위 Ix ID와 일치해야 함"
 msgid "Ixlan for exchange already exists"
 msgstr "익스체인지에 대한 Ixlan이 이미 있음"
 
-msgid "IXF Import Log"
+msgid "Cannot enable IX-F import without specifying the IX-F member list url"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "IX-F Import Log"
 msgstr "IXF 가져오기 로그"
 
-msgid "IXF Import Logs"
+#, fuzzy
+#| msgid "IXF Import Logs"
+msgid "IX-F Import Logs"
 msgstr "IXF 가져오기 로그"
 
-msgid "IXF Import Log Entry"
+#, fuzzy
+#| msgid "IXF Import Log Entry"
+msgid "IX-F Import Log Entry"
 msgstr "IXF 가져오기 로그 항목"
 
-msgid "IXF Import Log Entries"
+#, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "IX-F Import Log Entries"
 msgstr "IXF 가져오기 로그 항목"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
@@ -1299,7 +1334,9 @@ msgstr "최신 가져오기"
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
 msgstr ""
 
-msgid "IXF Member Data"
+#, fuzzy
+#| msgid "IXF Member Data"
+msgid "IX-F Member Data"
 msgstr "IX-F 멤버 데이터"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
@@ -1380,10 +1417,14 @@ msgstr "사용자"
 msgid "Password Reset Initiated"
 msgstr "암호 재설정 시작됨"
 
-msgid "IXF Import Email"
+#, fuzzy
+#| msgid "IXF Import Email"
+msgid "IX-F Import Email"
 msgstr "IX-F 임포트 이메일"
 
-msgid "IXF Import Emails"
+#, fuzzy
+#| msgid "IXF Import Emails"
+msgid "IX-F Import Emails"
 msgstr "IXF 임포트 이메일"
 
 msgid "name of the tool"
@@ -1468,6 +1509,9 @@ msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
+
+msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
+msgstr ""
 
 msgid "Need to be unique"
 msgstr "고유해야 함"
@@ -2290,17 +2334,8 @@ msgstr "이 페이지의 일부 데이터가 완전하지 않습니다, 다음�
 msgid "to improve data quality"
 msgstr "데이터 퀄리티를 개선하기"
 
-msgid "Address failed validation."
-msgstr "주소 유효성 검사 실패."
-
-msgid "Geocoding error"
-msgstr "지오코딩 오류"
-
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "이 항목에 대한 지오코드 데이터는 이 시점에서 얻을 수 없었습니다. 이것은 주소 필드가 변경될 때 자동으로 수행됩니다."
-
-msgid "Updated geocode data for this entity will be obtained shortly"
-msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수집될 것입니다"
 
 msgid "Prefixes"
 msgstr "프리픽스"
@@ -2769,9 +2804,6 @@ msgstr "제휴를 다시 요청하기 전에 잠시 기다리십시오."
 msgid "Either ASN or Organization required"
 msgstr "ASN 또는 조직이 요구됨"
 
-msgid "RDAP Lookup Error: {}"
-msgstr "RDAP 룩업 오류: {}"
-
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "확인 이메일을 다시 전송하기 전에 잠시 기다리십시오"
 
@@ -2808,11 +2840,11 @@ msgstr "위치"
 msgid "Country Code"
 msgstr "국가 코드"
 
-msgid "Markdown enabled"
-msgstr "마크다운 사용가능"
-
 msgid "Geocode"
 msgstr "지오코드"
+
+msgid "Markdown enabled"
+msgstr "마크다운 사용가능"
 
 msgid "Protocols Supported"
 msgstr "지원되는 프로토콜"
@@ -2828,6 +2860,21 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "IX-F 가져오기 사용"
+
+#, fuzzy
+#| msgid "Public Peering Exchange Point"
+msgid "Public Peering Info Updated"
+msgstr "공용 피어링 익스체인지 포인트"
+
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Peering Facility Info Updated"
+msgstr "피어링 정책 정보"
+
+#, fuzzy
+#| msgid "Contact Information"
+msgid "Contact Info Updated"
+msgstr "연락처 정보"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB 구성"
@@ -2849,6 +2896,30 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "No entries in any of the vlan_list lists, aborting."
+#~ msgstr "vlan_list 목록에 항목이 없음, 중단함."
+
+#~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
+#~ msgstr "이 개체의 위도와 경도가 주소 필드와 동기화되었음"
+
+#~ msgid "Error message of previous geocode attempt"
+#~ msgstr "이전 지오코드 시도 오류 메세지"
+
+#~ msgid "Address not found"
+#~ msgstr "주소를 찾을 수 없음"
+
+#~ msgid "API Timeout"
+#~ msgstr "API 시간 초과"
+
+#~ msgid "Address failed validation."
+#~ msgstr "주소 유효성 검사 실패."
+
+#~ msgid "Geocoding error"
+#~ msgstr "지오코딩 오류"
+
+#~ msgid "Updated geocode data for this entity will be obtained shortly"
+#~ msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수집될 것입니다"
 
 #~ msgid "Invalid member type: {}"
 #~ msgstr "잘못된 멤버 형식: {}"
