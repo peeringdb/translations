@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-01-19 00:58+0000\n"
+"PO-Revision-Date: 2021-01-19 01:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -238,8 +238,6 @@ msgstr "Regional"
 msgid "Global"
 msgstr "Global"
 
-#, fuzzy
-#| msgid "0-20 Mbps"
 msgid "0-20Mbps"
 msgstr "0-20 Mbps"
 
@@ -258,33 +256,21 @@ msgstr "5-10 Gbps"
 msgid "10-20Gbps"
 msgstr "10-20 Gbps"
 
-#, fuzzy
-#| msgid "20-50 Gbps"
 msgid "20-50Gbps"
 msgstr "20-50 Gbps"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Gbps"
 msgstr "50-100 Gbps"
 
-#, fuzzy
-#| msgid "100-200 Gbps"
 msgid "100-200Gbps"
 msgstr "100-200 Gbps"
 
-#, fuzzy
-#| msgid "200-300 Gbps"
 msgid "200-300Gbps"
 msgstr "200-300 Gbps"
 
-#, fuzzy
-#| msgid "300-500 Gbps"
 msgid "300-500Gbps"
 msgstr "300-500 Gbps"
 
-#, fuzzy
-#| msgid "500-1000 Gbps"
 msgid "500-1000Gbps"
 msgstr "500-1000 Gbps"
 
@@ -1516,13 +1502,11 @@ msgstr "Organizația specificată nu este validă"
 msgid "Needs to be member or admin"
 msgstr "Trebuie să fie membru sau admin"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been approved"
+#, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been denied"
+#, python-format
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
@@ -1584,8 +1568,6 @@ msgstr "este adresa dvs. e-mail"
 msgid "Confirm"
 msgstr "Confirm"
 
-#, fuzzy
-#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
 msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "Procesul de confirmare pentru această adresă e-mail a fost încheiat, vă rugăm să îl reinițiați"
 
@@ -1631,25 +1613,19 @@ msgid "Search"
 msgstr "Căutare"
 
 msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
-msgstr ""
+msgstr "Organizațiile din această coloană vor fi îmbinate în organizația din coloana din dreapta. Faceți clic pe intrări pentru a le elimina din selecție."
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Merge Into Organization"
-msgstr "Organizație"
+msgstr "Îmbinat în organizație"
 
 msgid "Organizations in the left column will be merged into this organization"
-msgstr ""
+msgstr "Organizațiile din coloana din stânga vor fi îmbinate în această organizație"
 
-#, fuzzy
-#| msgid "Organizations"
 msgid "Merge Organizations"
-msgstr "Organizații"
+msgstr "Îmbinați organizațiile"
 
-#, fuzzy
-#| msgid "Result"
 msgid "Merge Results"
-msgstr "Rezultat"
+msgstr "Îmbinați rezultatele"
 
 msgid "Home"
 msgstr "Acasă"
@@ -1675,8 +1651,6 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "a fost îmbinat cu"
 
-#, fuzzy
-#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "Toate îmbinările sunt procesate manual de către personalul de asistență al PeeringDB. Dacă credeți că această acțiune a fost executată greșit, nu ezitați să contactați asistența PeeringDB la"
 
@@ -1718,13 +1692,10 @@ msgstr "Organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) a fost crea
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "Rețeaua %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) a fost creată automat odată cu cererea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Utilizatorul '%(u_name)s' a creat rețeaua %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sub organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
-#, fuzzy
-#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Dacă adresa e-mail a utilizatorului s-a potrivit cu înregistrarea RIR, această rețea a trecut peste lista de așteptare în vederea verificării."
 
@@ -1735,8 +1706,6 @@ msgstr "Utilizatorul %(u_name)s (%(u_email)s) dorește să fie afiliat la ASN %(
 msgid "They also provided this organization name in their request"
 msgstr "De asemenea, au furnizat numele acestei organizații în cererea lor"
 
-#, fuzzy
-#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "În baza noastră de date nu a existat nicio intrare care să corespundă ASN-ului, așa că este probabil să fie necesară crearea unei rețele și a unei organizații pentru aceasta."
 
@@ -1763,8 +1732,6 @@ msgstr "De asemenea, ei au furnizat acest ASN în solicitarea lor"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "ATENȚIE: Aceasta este o cerere de proprietate, aprobarea ei va acorda utilizatorului drepturi de administrare asupra organizației și a oricărei entități pe care o deține."
 
-#, fuzzy
-#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
 msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "Acestea sunt adresele website-urilor care au putut fi derivate din organizație și entitățile sale"
 
@@ -1915,10 +1882,10 @@ msgid "Search for networks that are present at one exchange and absent at anothe
 msgstr "Căutați rețele care sunt prezente la un Internet Exchange și absente la alt Internet Exchange"
 
 msgid "Present"
-msgstr ""
+msgstr "Prezent"
 
 msgid "Absent"
-msgstr ""
+msgstr "Absent"
 
 msgid "Facility Presence"
 msgstr "Prezență în facilități"
@@ -1946,10 +1913,10 @@ msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- toate datele vor fi reîmprospătate din mediul de producție la %(dt)sZ"
 
 msgid "Only use this if you own the facility"
-msgstr ""
+msgstr "Utilizați aceasta numai dacă dețineți facilitatea"
 
 msgid "Only use this if you own the exchange"
-msgstr ""
+msgstr "Utilizați aceasta doar dacă dețineți Internet Exchange-ul"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
@@ -1995,8 +1962,6 @@ msgstr "Pagina solicitată nu există."
 msgid "403 - Forbidden"
 msgstr "403 - Interzis"
 
-#, fuzzy
-#| msgid "You dont have permissions to view this page."
 msgid "You don't have permissions to view this page."
 msgstr "Nu aveți permisiuni pentru a vizualiza această pagină."
 
@@ -2048,10 +2013,8 @@ msgstr "Conexiuni la Internet Exchange-uri"
 msgid "Connections to Facilities"
 msgstr "Conexiuni la facilități"
 
-#, fuzzy
-#| msgid "Add Network"
 msgid "Automated Networks"
-msgstr "Adăugați rețea"
+msgstr "Rețele automatizate"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
@@ -2155,15 +2118,11 @@ msgstr "Procesul de resetare a parolei a expirat, vă rugăm"
 msgid "initiate again"
 msgstr "să inițiați din nou"
 
-#, fuzzy
-#| msgid "Account Created"
 msgid "Account Security"
-msgstr "Contul a fost creat"
+msgstr "Securitatea contului"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "Manage Two-Factor Authentication"
-msgstr "Gestionați aplicațiile OAuth"
+msgstr "Gestionați autentificarea cu doi factori"
 
 msgid "Affiliate with organization"
 msgstr "Afiliați-vă la organizație"
@@ -2390,13 +2349,11 @@ msgstr "Prefix IXLAN"
 msgid "Add Prefix"
 msgstr "Adăugați prefix"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Local Facilities"
-msgstr "Facilități"
+msgstr "Facilități locale"
 
 msgid "Filter"
-msgstr ""
+msgstr "Filtru"
 
 msgid "No filter matches."
 msgstr "Nu se potrivește niciun filtru."
@@ -2482,10 +2439,8 @@ msgstr "Internet Exchange"
 msgid "Close"
 msgstr "Închide"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import Postmortem"
-msgstr "Istoricul importurilor IXF"
+msgstr "Importul IX-F Postmortem"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr "Mai jos este un jurnal al modificărilor efectuate la rețea -&gt; conexiunilor la Internet Exchange-uri ca urmare a importurilor de date IX-F. Rețineți că acest lucru nu conține nicio ajustare efectuată de personal pentru a returna astfel de modificări, ci ar trebui privit ca un jurnal brut de acțiuni întreprinse de importul de date IX-F."
@@ -2500,104 +2455,92 @@ msgid "Refresh"
 msgstr "Reîmprospătează"
 
 msgid "Some exchanges suggest updates to your entries in their peering list."
-msgstr ""
+msgstr "Unele Internet Exchange-uri sugerează actualizări la intrările dvs. din lista lor de peering."
 
 msgid "Review suggestions"
-msgstr ""
+msgstr "Examinați sugestiile"
 
 msgid "You have dismissed some suggestions that are still available."
-msgstr ""
+msgstr "Ați respins câteva sugestii care sunt încă disponibile."
 
 msgid "Will restore any suggestions you have previously dismissed"
-msgstr ""
+msgstr "Va restabili toate sugestiile pe care le-ați respins anterior"
 
 msgid "Reset Suggestions"
-msgstr ""
+msgstr "Resetați sugestiile"
 
 msgid "Expand each exchange below to review, apply or dismiss those suggestions"
-msgstr ""
+msgstr "Extindeți fiecare Internet Exchange de mai jos pentru a examina, aplica sau respinge aceste sugestii"
 
 msgid "Their PeeringDB entry"
-msgstr ""
+msgstr "Intrarea lor PeeringDB"
 
 msgid "Automatically update and remove all suggested entries"
-msgstr ""
+msgstr "Actualizați și eliminați automat toate intrările sugerate"
 
 msgid "Auto-resolve"
-msgstr ""
+msgstr "Rezolvare automată"
 
 msgid "Automatically add all suggested entries"
-msgstr ""
+msgstr "Adăugați automat toate intrările sugerate"
 
 msgid "Auto-add"
-msgstr ""
+msgstr "Adăugare automată"
 
 msgid "Add"
 msgstr "Adăugați"
 
-#, fuzzy
-#| msgid "Operational"
 msgid "Options"
-msgstr "Operațional"
+msgstr "Opțiuni"
 
 msgid "Hide this suggestion until the exchange updates it."
-msgstr ""
+msgstr "Ascundeți această sugestie până când Internet Exchange-ul o actualizează."
 
 msgid "Dismiss"
-msgstr ""
+msgstr "Renunțați"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Add this entry to public peering exchange points"
-msgstr "Peering public în Internet Exchange-uri"
+msgstr "Adăugați această intrare la Internet Exchange-urile cu peering public"
 
 msgid "Remove"
 msgstr "Eliminați"
 
 msgid "Remove this entry from your public peering exchange points list"
-msgstr ""
+msgstr "Eliminați această intrare din lista dvs. de Internet Exchange-uri cu peering public"
 
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr ""
+msgstr "Eliminați intrarea %(ixf_id)s pentru %(ix_name)s din lista dvs. de Internet Exchange-uri cu peering public?"
 
 msgid "Update"
 msgstr "Actualizați"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv6 address"
-msgstr "adresă de e-mail"
+msgstr "Setați adresa IPv6"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Clear IPv6 address"
-msgstr "adresă de e-mail"
+msgstr "Ștergeți adresa IPv6"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv4 address"
-msgstr "adresă de e-mail"
+msgstr "Setați adresa IPv4"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Clear IPv4 address"
-msgstr "adresă de e-mail"
+msgstr "Ștergeți adresa IPv4"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
+msgstr "Actualizați această intrare în lista dvs. de Internet Exchange-uri cu peering public. De asemenea, va trebui să salvați înregistrarea rețelei pentru ca aceste modificări să persiste după acceptarea lor."
 
 msgid "Accept"
-msgstr ""
+msgstr "Acceptați"
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
-msgstr ""
+msgstr "Va restabili orice sugestii active din acest Internet Exchange care au fost respinse de rețea"
 
 msgid "Will add all suggested entries"
-msgstr ""
+msgstr "Se vor adăuga toate intrările sugerate"
 
 msgid "Auto Add"
-msgstr ""
+msgstr "Adăugare automată"
 
 msgid "Network - Exchange link"
 msgstr "legătura dintre rețea și Internet Exchange"
@@ -2608,10 +2551,8 @@ msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
 msgid "Add Exchange Point"
 msgstr "Adăugați Internet Exchange"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Private Peering Facilities"
-msgstr "Îmbină facilitățile"
+msgstr "Facilități cu peering privat"
 
 msgid "member"
 msgstr "membru"
@@ -2628,10 +2569,8 @@ msgstr "Adăugați Internet Exchange"
 msgid "Permissions"
 msgstr "Permisiuni"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Delete Organization"
-msgstr "Organizație"
+msgstr "Ștergeți organizația"
 
 msgid "Technical E-mail"
 msgstr "E-mail tehnic"
@@ -2643,7 +2582,7 @@ msgid "Policy URL"
 msgstr "URL-ul pentru politici"
 
 msgid "Only use this if you own the network"
-msgstr ""
+msgstr "Utilizați acest lucru numai dacă dețineți rețeaua"
 
 msgid "Add a new Network to your Organization."
 msgstr "Adăugați o nouă rețea la organizația dvs."
@@ -2678,10 +2617,8 @@ msgstr "Data"
 msgid "Currently no users requesting affiliation with"
 msgstr "În prezent niciun utilizator nu solicită afilierea la"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Users in Organization"
-msgstr "Organizație"
+msgstr "Utilizatori în organizație"
 
 msgid "Group"
 msgstr "Grup"
@@ -2694,19 +2631,17 @@ msgstr "În plus, entitățile care sunt în curs de revizuire nu pot fi autoriz
 
 #, python-format
 msgid "%(name)s cannot be deleted."
-msgstr ""
+msgstr "%(name)s nu poate fi șters."
 
 msgid "Remove this organization from PeeringDB."
-msgstr ""
+msgstr "Eliminați această organizație din PeeringDB."
 
-#, fuzzy
-#| msgid "Invalid organization"
 msgid "Delete organization?"
-msgstr "Organizația nu este validă"
+msgstr "Ștergeți organizația?"
 
 #, python-format
 msgid "Delete %(name)s"
-msgstr ""
+msgstr "Ștergeți %(name)s"
 
 msgid "Thank you for your suggestion."
 msgstr "Vă mulțumim pentru sugestie."
@@ -2730,48 +2665,55 @@ msgid "I forgot my username .."
 msgstr "Am uitat numele de utilizator..."
 
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 msgid "Enter your credentials."
-msgstr ""
+msgstr "Introduceți acreditările."
 
 msgid ""
 "We are calling your phone right now, please enter the\n"
 "        digits you hear."
 msgstr ""
+"Vă sunăm pe telefon chiar acum, vă rugăm să introduceți\n"
+"         cifre pe care le auziți."
 
 msgid ""
 "We sent you a text message, please enter the tokens we\n"
 "        sent."
 msgstr ""
+"V-am trimis un mesaj text, vă rugăm să introduceți token-urile\n"
+"         trimise."
 
 msgid "We sent you an email, please enter the one time password we sent."
-msgstr ""
+msgstr "V-am trimis un e-mail, vă rugăm să introduceți parola unică pe care am trimis-o."
 
 msgid ""
 "Please enter the tokens generated by your token\n"
 "        generator."
 msgstr ""
+"Vă rugăm să introduceți token-urile generate de generatorul dvs. de token-uri\n"
+"         ."
 
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
 msgstr ""
+"Utilizați acest formular pentru a introduce token-uri de rezervă pentru conectare.\n"
+"       Aceste token-uri au fost generate pentru a le tipări și a le păstra în siguranță. Vă rugăm\n"
+"       introduceți unul dintre aceste token-uri de rezervă pentru a vă conecta la contul dvs."
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
-msgstr ""
+msgstr "Sau, alternativ, puteți solicita o parolă unică prin intermediul uneia dintre opțiunile de recuperare:"
 
 msgid "As a last resort, you can use a backup token:"
-msgstr ""
+msgstr "În ultimă instanță, puteți utiliza un token de rezervă:"
 
 msgid "Use Backup Token"
-msgstr ""
+msgstr "Utilizați token-ul de rezervă"
 
-#, fuzzy
-#| msgid "Confirm password"
 msgid "Email one time password"
-msgstr "Confirmați parola"
+msgstr "Trimiteți prin e-mail o parolă de unică folosință"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Adresa dvs. de email nu se potrivește cu informațiile legate de domeniu pe care le deținem pentru această organizație."
@@ -2939,8 +2881,6 @@ msgstr "Configurație PeeringDB"
 msgid "Allow IXP Update"
 msgstr "Permite actualizări de la IXP"
 
-#, fuzzy
-#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Dacă este activat, un IXP poate gestiona intrarea acestei rețele în lista lui de peering"
 
