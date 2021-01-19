@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-01-08 21:58+0000\n"
+"PO-Revision-Date: 2021-01-19 00:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -288,10 +288,8 @@ msgstr "300-500 Gbps"
 msgid "500-1000Gbps"
 msgstr "500-1000 Gbps"
 
-#, fuzzy
-#| msgid "1 Tbps+"
 msgid "1-5Tbps"
-msgstr "1+ Tbps"
+msgstr "1-5 Tbps"
 
 msgid "5-10Tbps"
 msgstr "5-10 Tbps"
@@ -1382,10 +1380,8 @@ msgstr "Adresa IPv6 este în afara prefixului"
 msgid "Maximum speed: {}"
 msgstr "Viteza maximă: {}"
 
-#, fuzzy
-#| msgid "Invalid speed value: {}"
 msgid "Minimum speed: {}"
-msgstr "Valoarea vitezei nu este validă: {}"
+msgstr "Viteza minimă: {}"
 
 msgid "Ip address already exists elsewhere"
 msgstr "Adresa IP există deja în altă parte"
@@ -1472,27 +1468,23 @@ msgstr "Terminat"
 msgid "Running"
 msgstr "Executare"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Environment Setting"
-msgstr "Resetează mediul"
+msgstr "Setarea mediului"
 
 msgid "Environment Settings"
-msgstr ""
+msgstr "Setările mediului"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr ""
+msgstr "IX-F Importer: Zile până la crearea ticketului DeskPRO"
 
 msgid "Last Updated"
 msgstr "Ultima actualizare"
 
-#, fuzzy
-#| msgid "Confirmed"
 msgid "Configured on"
-msgstr "Confirmat"
+msgstr "Configurat pe"
 
 msgid "Last updated by this user"
-msgstr ""
+msgstr "Actualizat ultima dată de acest utilizator"
 
 msgid "Organization and all Entities it owns"
 msgstr "Organizația și toate entitățile pe care aceasta le deține"
@@ -1535,7 +1527,7 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
 msgid "Please contact {} to help with the deletion of this object"
-msgstr ""
+msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiect"
 
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
@@ -1553,29 +1545,25 @@ msgstr "Eroare de căutare RDAP"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Acest câmp este permis doar pentru aceste solicitări: {methods}"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
+msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea sa părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
+msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
-msgstr ""
+msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politici cu o adresă e-mail validă înainte de a adăuga un Internet Exchange."
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
 
-#, fuzzy
-#| msgid "Suggest another exchange"
 msgid "ASN cannot be changed."
-msgstr "Sugerați un alt Internet Exchange"
+msgstr "ASN nu poate fi modificat."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr ""
+msgstr "Proprietatea `in_dfz` a fost depreciată și setarea acesteia la „False” nu mai este acceptată"
 
 msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
@@ -1618,28 +1606,26 @@ msgid ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgstr ""
+"\n"
+"Pentru a utiliza <a href=\"%(doc_url)s\" target=\"_blank\"> căutare regex </a>, începeți termenul de căutare cu ^ și terminați cu $.\n"
 
 msgid "Save and Apply"
-msgstr ""
+msgstr "Salvați și aplicați"
 
 msgid "Save"
 msgstr "Salvați"
 
 msgid "Save and continue editing"
-msgstr ""
+msgstr "Salvați și continuați editarea"
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
-msgstr ""
+msgstr "Vă rugăm să continuați cu prudență, vă rugăm să obțineți instrucțiuni de la cineva înainte de a continua dacă nimeni nu v-a explicat acest instrument"
 
-#, fuzzy
-#| msgid "Undo merge"
 msgid "You may undo merges"
-msgstr "Anulați îmbinarea"
+msgstr "Puteți anula îmbinările"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Selected Organizations"
-msgstr "Organizație"
+msgstr "Organizații selectate"
 
 msgid "Search"
 msgstr "Căutare"
