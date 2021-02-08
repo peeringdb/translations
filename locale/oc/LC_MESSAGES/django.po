@@ -16,113 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Confidential"
-msgstr ""
-
-msgid "Public"
-msgstr ""
-
-msgid "Authorization code"
-msgstr ""
-
-msgid "Implicit"
-msgstr ""
-
-msgid "Resource owner password-based"
-msgstr ""
-
-msgid "Client credentials"
-msgstr ""
-
-msgid "Allowed URIs list, space separated"
-msgstr ""
-
-#, python-brace-format
-msgid "Unauthorized redirect scheme: {scheme}"
-msgstr ""
-
-#, python-brace-format
-msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr ""
-
-msgid "The access token is invalid."
-msgstr ""
-
-msgid "The access token has expired."
-msgstr ""
-
-msgid "The access token is valid but does not have enough scope."
-msgstr ""
-
-msgid "Are you sure to delete the application"
-msgstr ""
-
-msgid "Cancel"
-msgstr ""
-
-msgid "Delete"
-msgstr ""
-
-msgid "Client id"
-msgstr ""
-
-msgid "Client secret"
-msgstr ""
-
-msgid "Client type"
-msgstr ""
-
-msgid "Authorization Grant Type"
-msgstr ""
-
-msgid "Redirect Uris"
-msgstr ""
-
-msgid "Go Back"
-msgstr ""
-
-msgid "Edit"
-msgstr ""
-
-msgid "Edit application"
-msgstr ""
-
-msgid "Your applications"
-msgstr ""
-
-msgid "No applications defined"
-msgstr ""
-
-msgid "Click here"
-msgstr ""
-
-msgid "if you want to register a new one"
-msgstr ""
-
-msgid "Register a new application"
-msgstr ""
-
-msgid "Authorize"
-msgstr ""
-
-msgid "Application requires following permissions"
-msgstr ""
-
-msgid "Success"
-msgstr ""
-
-msgid "Please return to your application and enter this code:"
-msgstr ""
-
-msgid "Are you sure you want to delete this token?"
-msgstr ""
-
-msgid "Tokens"
-msgstr ""
-
-msgid "There are no authorized tokens yet."
-msgstr ""
-
 msgid "Ethernet"
 msgstr ""
 
@@ -325,6 +218,9 @@ msgid "Private"
 msgstr ""
 
 msgid "Users"
+msgstr ""
+
+msgid "Public"
 msgstr ""
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
@@ -2108,6 +2004,9 @@ msgstr ""
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr ""
 
+msgid "Cancel"
+msgstr ""
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr ""
@@ -2308,6 +2207,9 @@ msgstr ""
 msgid "Pending Review"
 msgstr ""
 
+msgid "Edit"
+msgstr ""
+
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr ""
 
@@ -2487,6 +2389,9 @@ msgstr ""
 
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
+msgstr ""
+
+msgid "Delete"
 msgstr ""
 
 msgid "Update"

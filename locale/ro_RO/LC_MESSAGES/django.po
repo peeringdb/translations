@@ -17,113 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0.4\n"
 
-msgid "Confidential"
-msgstr "Confidențial"
-
-msgid "Public"
-msgstr "Public"
-
-msgid "Authorization code"
-msgstr "Cod de autorizare"
-
-msgid "Implicit"
-msgstr "Implicit"
-
-msgid "Resource owner password-based"
-msgstr "Proprietar de resurse bazat pe parolă"
-
-msgid "Client credentials"
-msgstr "Acreditările clientului"
-
-msgid "Allowed URIs list, space separated"
-msgstr "Lista URI-urilor permise, spațiu separat"
-
-#, python-brace-format
-msgid "Unauthorized redirect scheme: {scheme}"
-msgstr "Schemă de redirecționare neautorizată: {scheme}"
-
-#, python-brace-format
-msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr "redirect_uris nu poate fi gol cu grant_type {grant_type}"
-
-msgid "The access token is invalid."
-msgstr "Tokenul de acces nu este valid."
-
-msgid "The access token has expired."
-msgstr "Tokenul de acces a expirat."
-
-msgid "The access token is valid but does not have enough scope."
-msgstr "Tokenul de acces este valid, dar nu are domeniu de aplicare suficient."
-
-msgid "Are you sure to delete the application"
-msgstr "Sigur ștergeți aplicația"
-
-msgid "Cancel"
-msgstr "Anulați"
-
-msgid "Delete"
-msgstr "Ștergeți"
-
-msgid "Client id"
-msgstr "ID client"
-
-msgid "Client secret"
-msgstr "Secret client"
-
-msgid "Client type"
-msgstr "Tip client"
-
-msgid "Authorization Grant Type"
-msgstr "Tipul grantului de autorizare"
-
-msgid "Redirect Uris"
-msgstr "URI-urile de redirectare"
-
-msgid "Go Back"
-msgstr "Mergeți Înapoi"
-
-msgid "Edit"
-msgstr "Editați"
-
-msgid "Edit application"
-msgstr "Editați solicitarea"
-
-msgid "Your applications"
-msgstr "Afilierea cu"
-
-msgid "No applications defined"
-msgstr "Nu sunt definite aplicații"
-
-msgid "Click here"
-msgstr "Apăsați aici"
-
-msgid "if you want to register a new one"
-msgstr "dacă doriți să înregistrați unul nou"
-
-msgid "Register a new application"
-msgstr "Înregistrați o nouă solicitare"
-
-msgid "Authorize"
-msgstr "Autorizați"
-
-msgid "Application requires following permissions"
-msgstr "Aplicația necesită următoarele permisiuni"
-
-msgid "Success"
-msgstr "Succes"
-
-msgid "Please return to your application and enter this code:"
-msgstr "Vă rugăm să reveniți la solicitare și să introduceți acest cod:"
-
-msgid "Are you sure you want to delete this token?"
-msgstr "Sunteți sigur că doriți ștergerea acestui token?"
-
-msgid "Tokens"
-msgstr "Token-uri"
-
-msgid "There are no authorized tokens yet."
-msgstr "Încă nu există token-uri autorizate."
-
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -327,6 +220,9 @@ msgstr "Privat"
 
 msgid "Users"
 msgstr "Utilizatori"
+
+msgid "Public"
+msgstr "Public"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr ""
@@ -2131,6 +2027,9 @@ msgstr "Afiliați-vă la organizație"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Afilierea dvs. la %(ar_name)s așteaptă aprobarea."
 
+msgid "Cancel"
+msgstr "Anulați"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr "Afilierea ta la %(ar_name)s așteaptă aprobarea."
@@ -2331,6 +2230,9 @@ msgstr "Gestionați aplicațiile OAuth"
 msgid "Pending Review"
 msgstr "Revizuire în așteptare"
 
+msgid "Edit"
+msgstr "Editați"
+
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Unele dintre datele de pe această pagină sunt incomplete, vă rugăm să actualizați câmpurile marcate cu"
 
@@ -2511,6 +2413,9 @@ msgstr "Eliminați această intrare din lista dvs. de Internet Exchange-uri cu p
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr "Eliminați intrarea %(ixf_id)s pentru %(ix_name)s din lista dvs. de Internet Exchange-uri cu peering public?"
+
+msgid "Delete"
+msgstr "Ștergeți"
 
 msgid "Update"
 msgstr "Actualizați"
@@ -2895,6 +2800,99 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "Confidential"
+#~ msgstr "Confidențial"
+
+#~ msgid "Authorization code"
+#~ msgstr "Cod de autorizare"
+
+#~ msgid "Implicit"
+#~ msgstr "Implicit"
+
+#~ msgid "Resource owner password-based"
+#~ msgstr "Proprietar de resurse bazat pe parolă"
+
+#~ msgid "Client credentials"
+#~ msgstr "Acreditările clientului"
+
+#~ msgid "Allowed URIs list, space separated"
+#~ msgstr "Lista URI-urilor permise, spațiu separat"
+
+#~ msgid "Unauthorized redirect scheme: {scheme}"
+#~ msgstr "Schemă de redirecționare neautorizată: {scheme}"
+
+#~ msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+#~ msgstr "redirect_uris nu poate fi gol cu grant_type {grant_type}"
+
+#~ msgid "The access token is invalid."
+#~ msgstr "Tokenul de acces nu este valid."
+
+#~ msgid "The access token has expired."
+#~ msgstr "Tokenul de acces a expirat."
+
+#~ msgid "The access token is valid but does not have enough scope."
+#~ msgstr "Tokenul de acces este valid, dar nu are domeniu de aplicare suficient."
+
+#~ msgid "Are you sure to delete the application"
+#~ msgstr "Sigur ștergeți aplicația"
+
+#~ msgid "Client id"
+#~ msgstr "ID client"
+
+#~ msgid "Client secret"
+#~ msgstr "Secret client"
+
+#~ msgid "Client type"
+#~ msgstr "Tip client"
+
+#~ msgid "Authorization Grant Type"
+#~ msgstr "Tipul grantului de autorizare"
+
+#~ msgid "Redirect Uris"
+#~ msgstr "URI-urile de redirectare"
+
+#~ msgid "Go Back"
+#~ msgstr "Mergeți Înapoi"
+
+#~ msgid "Edit application"
+#~ msgstr "Editați solicitarea"
+
+#~ msgid "Your applications"
+#~ msgstr "Afilierea cu"
+
+#~ msgid "No applications defined"
+#~ msgstr "Nu sunt definite aplicații"
+
+#~ msgid "Click here"
+#~ msgstr "Apăsați aici"
+
+#~ msgid "if you want to register a new one"
+#~ msgstr "dacă doriți să înregistrați unul nou"
+
+#~ msgid "Register a new application"
+#~ msgstr "Înregistrați o nouă solicitare"
+
+#~ msgid "Authorize"
+#~ msgstr "Autorizați"
+
+#~ msgid "Application requires following permissions"
+#~ msgstr "Aplicația necesită următoarele permisiuni"
+
+#~ msgid "Success"
+#~ msgstr "Succes"
+
+#~ msgid "Please return to your application and enter this code:"
+#~ msgstr "Vă rugăm să reveniți la solicitare și să introduceți acest cod:"
+
+#~ msgid "Are you sure you want to delete this token?"
+#~ msgstr "Sunteți sigur că doriți ștergerea acestui token?"
+
+#~ msgid "Tokens"
+#~ msgstr "Token-uri"
+
+#~ msgid "There are no authorized tokens yet."
+#~ msgstr "Încă nu există token-uri autorizate."
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Nu există înregistrări în niciunul din elementele vlan_lists, se anulează operațiunea."

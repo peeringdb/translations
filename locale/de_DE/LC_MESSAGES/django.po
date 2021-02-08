@@ -18,113 +18,6 @@ msgstr ""
 "X-Generator: Weblate 4.0.4\n"
 "X-Poedit-Bookmarks: 260,-1,-1,-1,-1,-1,-1,-1,-1,372\n"
 
-msgid "Confidential"
-msgstr "Vertraulich"
-
-msgid "Public"
-msgstr "Öffentlich"
-
-msgid "Authorization code"
-msgstr "Authorisierungscode"
-
-msgid "Implicit"
-msgstr "Implizit"
-
-msgid "Resource owner password-based"
-msgstr "passwort-basierter Ressourceneigentümer"
-
-msgid "Client credentials"
-msgstr "Client Zugangsdaten"
-
-msgid "Allowed URIs list, space separated"
-msgstr "Liste erlaubter URIs, Leerzeichen separiert"
-
-#, python-brace-format
-msgid "Unauthorized redirect scheme: {scheme}"
-msgstr "Unerlaubtes Umleitungsschema: {scheme}"
-
-#, python-brace-format
-msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr "redirect_uris muss einen Wert enthalten, wenn grant_type= {grant_type}"
-
-msgid "The access token is invalid."
-msgstr "Der Zugangstoken ist ungültig."
-
-msgid "The access token has expired."
-msgstr "Der Zugangstoken ist abgelaufen."
-
-msgid "The access token is valid but does not have enough scope."
-msgstr "Der Zuganstoken ist gültig jedoch reicht sein Umfang nicht."
-
-msgid "Are you sure to delete the application"
-msgstr "Bist du dir sicher die Anwendung zu löschen"
-
-msgid "Cancel"
-msgstr "Abbrechen"
-
-msgid "Delete"
-msgstr "Löschen"
-
-msgid "Client id"
-msgstr "Client ID"
-
-msgid "Client secret"
-msgstr "Client Geheimnis"
-
-msgid "Client type"
-msgstr "Client Typ"
-
-msgid "Authorization Grant Type"
-msgstr "Art der gewährten Autorisierung"
-
-msgid "Redirect Uris"
-msgstr "Umleitungs URIs"
-
-msgid "Go Back"
-msgstr "Gehe zurück"
-
-msgid "Edit"
-msgstr "Bearbeiten"
-
-msgid "Edit application"
-msgstr "Anwendungen anpassen"
-
-msgid "Your applications"
-msgstr "Ihre Anwendungen"
-
-msgid "No applications defined"
-msgstr "Keine Anwendungen definiert"
-
-msgid "Click here"
-msgstr "Klicke hier"
-
-msgid "if you want to register a new one"
-msgstr "wenn Sie eine neue registrieren wollen"
-
-msgid "Register a new application"
-msgstr "Registriere eine neue Anwendung"
-
-msgid "Authorize"
-msgstr "Authorisiere"
-
-msgid "Application requires following permissions"
-msgstr "Anwendung benötigt folgende Berechtigungen"
-
-msgid "Success"
-msgstr "Erfolgreich"
-
-msgid "Please return to your application and enter this code:"
-msgstr "Bitte gehe in deine Anwendung zurück und gebe folgenden Code ein:"
-
-msgid "Are you sure you want to delete this token?"
-msgstr "Sind sie sich sicher das sie diesen Token löschen wollen?"
-
-msgid "Tokens"
-msgstr "Tokens"
-
-msgid "There are no authorized tokens yet."
-msgstr "Da sind bisher keine Authorisierungstokens."
-
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -330,6 +223,9 @@ msgstr "Privat"
 
 msgid "Users"
 msgstr "Benutzer"
+
+msgid "Public"
+msgstr "Öffentlich"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr ""
@@ -2165,6 +2061,9 @@ msgstr "Zuordnung zu einer Organisation anfordern"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
 
+msgid "Cancel"
+msgstr "Abbrechen"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr "Ihre Zuordnung zu %(ar_name)s wird vom PeeringDB Team geprüft."
@@ -2366,6 +2265,9 @@ msgstr "OAuth-Anwendungen verwalten"
 msgid "Pending Review"
 msgstr "In Prüfung"
 
+msgid "Edit"
+msgstr "Bearbeiten"
+
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Einige der Daten auf dieser Seite sind unvollständig. Bitte aktualisieren Sie die Felder, die mit"
 
@@ -2550,6 +2452,9 @@ msgstr ""
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr ""
+
+msgid "Delete"
+msgstr "Löschen"
 
 msgid "Update"
 msgstr "Aktualisieren"
@@ -2931,6 +2836,99 @@ msgstr "Peeringrichtlinien-Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+
+#~ msgid "Confidential"
+#~ msgstr "Vertraulich"
+
+#~ msgid "Authorization code"
+#~ msgstr "Authorisierungscode"
+
+#~ msgid "Implicit"
+#~ msgstr "Implizit"
+
+#~ msgid "Resource owner password-based"
+#~ msgstr "passwort-basierter Ressourceneigentümer"
+
+#~ msgid "Client credentials"
+#~ msgstr "Client Zugangsdaten"
+
+#~ msgid "Allowed URIs list, space separated"
+#~ msgstr "Liste erlaubter URIs, Leerzeichen separiert"
+
+#~ msgid "Unauthorized redirect scheme: {scheme}"
+#~ msgstr "Unerlaubtes Umleitungsschema: {scheme}"
+
+#~ msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+#~ msgstr "redirect_uris muss einen Wert enthalten, wenn grant_type= {grant_type}"
+
+#~ msgid "The access token is invalid."
+#~ msgstr "Der Zugangstoken ist ungültig."
+
+#~ msgid "The access token has expired."
+#~ msgstr "Der Zugangstoken ist abgelaufen."
+
+#~ msgid "The access token is valid but does not have enough scope."
+#~ msgstr "Der Zuganstoken ist gültig jedoch reicht sein Umfang nicht."
+
+#~ msgid "Are you sure to delete the application"
+#~ msgstr "Bist du dir sicher die Anwendung zu löschen"
+
+#~ msgid "Client id"
+#~ msgstr "Client ID"
+
+#~ msgid "Client secret"
+#~ msgstr "Client Geheimnis"
+
+#~ msgid "Client type"
+#~ msgstr "Client Typ"
+
+#~ msgid "Authorization Grant Type"
+#~ msgstr "Art der gewährten Autorisierung"
+
+#~ msgid "Redirect Uris"
+#~ msgstr "Umleitungs URIs"
+
+#~ msgid "Go Back"
+#~ msgstr "Gehe zurück"
+
+#~ msgid "Edit application"
+#~ msgstr "Anwendungen anpassen"
+
+#~ msgid "Your applications"
+#~ msgstr "Ihre Anwendungen"
+
+#~ msgid "No applications defined"
+#~ msgstr "Keine Anwendungen definiert"
+
+#~ msgid "Click here"
+#~ msgstr "Klicke hier"
+
+#~ msgid "if you want to register a new one"
+#~ msgstr "wenn Sie eine neue registrieren wollen"
+
+#~ msgid "Register a new application"
+#~ msgstr "Registriere eine neue Anwendung"
+
+#~ msgid "Authorize"
+#~ msgstr "Authorisiere"
+
+#~ msgid "Application requires following permissions"
+#~ msgstr "Anwendung benötigt folgende Berechtigungen"
+
+#~ msgid "Success"
+#~ msgstr "Erfolgreich"
+
+#~ msgid "Please return to your application and enter this code:"
+#~ msgstr "Bitte gehe in deine Anwendung zurück und gebe folgenden Code ein:"
+
+#~ msgid "Are you sure you want to delete this token?"
+#~ msgstr "Sind sie sich sicher das sie diesen Token löschen wollen?"
+
+#~ msgid "Tokens"
+#~ msgstr "Tokens"
+
+#~ msgid "There are no authorized tokens yet."
+#~ msgstr "Da sind bisher keine Authorisierungstokens."
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Abgebrochen: Keine Einträge in einen der vlan_list Listen gefunden."

@@ -17,121 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.3\n"
 
-msgid "Confidential"
-msgstr ""
-
-msgid "Public"
-msgstr "パブリック"
-
-msgid "Authorization code"
-msgstr ""
-
-msgid "Implicit"
-msgstr ""
-
-msgid "Resource owner password-based"
-msgstr ""
-
-msgid "Client credentials"
-msgstr ""
-
-msgid "Allowed URIs list, space separated"
-msgstr ""
-
-#, python-brace-format
-msgid "Unauthorized redirect scheme: {scheme}"
-msgstr ""
-
-#, python-brace-format
-msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr ""
-
-msgid "The access token is invalid."
-msgstr ""
-
-#, fuzzy
-#| msgid "The password reset process has expired, please"
-msgid "The access token has expired."
-msgstr "パスワードリセット処理が失効しました"
-
-msgid "The access token is valid but does not have enough scope."
-msgstr ""
-
-msgid "Are you sure to delete the application"
-msgstr ""
-
-msgid "Cancel"
-msgstr "キャンセル"
-
-msgid "Delete"
-msgstr "削除"
-
-msgid "Client id"
-msgstr ""
-
-msgid "Client secret"
-msgstr ""
-
-msgid "Client type"
-msgstr ""
-
-msgid "Authorization Grant Type"
-msgstr ""
-
-msgid "Redirect Uris"
-msgstr ""
-
-msgid "Go Back"
-msgstr ""
-
-msgid "Edit"
-msgstr "編集"
-
-#, fuzzy
-#| msgid "Existing affiliations"
-msgid "Edit application"
-msgstr "既存の所属先"
-
-#, fuzzy
-#| msgid "Your affiliation with"
-msgid "Your applications"
-msgstr "あなたは"
-
-msgid "No applications defined"
-msgstr ""
-
-msgid "Click here"
-msgstr ""
-
-#, fuzzy
-#| msgid "you may register for one here"
-msgid "if you want to register a new one"
-msgstr "ここでアカウントを登録する事が出来ます"
-
-msgid "Register a new application"
-msgstr ""
-
-msgid "Authorize"
-msgstr ""
-
-msgid "Application requires following permissions"
-msgstr ""
-
-msgid "Success"
-msgstr ""
-
-msgid "Please return to your application and enter this code:"
-msgstr ""
-
-msgid "Are you sure you want to delete this token?"
-msgstr ""
-
-msgid "Tokens"
-msgstr ""
-
-msgid "There are no authorized tokens yet."
-msgstr ""
-
 msgid "Ethernet"
 msgstr "イーサネット"
 
@@ -363,6 +248,9 @@ msgstr "プライベート"
 
 msgid "Users"
 msgstr "ユーザ"
+
+msgid "Public"
+msgstr "パブリック"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr ""
@@ -2342,6 +2230,9 @@ msgstr "組織に所属しましょう"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "%(ar_name)s に対する所属が承認保留中です"
 
+msgid "Cancel"
+msgstr "キャンセル"
+
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2543,6 +2434,9 @@ msgstr "OAuth アプリケーションで管理する"
 
 msgid "Pending Review"
 msgstr "レビューをペンディング中"
+
+msgid "Edit"
+msgstr "編集"
 
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "このページにあるいくつかのデータが不十分です。データの品質改善の為に"
@@ -2750,6 +2644,9 @@ msgstr ""
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr ""
+
+msgid "Delete"
+msgstr "削除"
 
 msgid "Update"
 msgstr "更新"
@@ -3165,6 +3062,26 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#, fuzzy
+#~| msgid "The password reset process has expired, please"
+#~ msgid "The access token has expired."
+#~ msgstr "パスワードリセット処理が失効しました"
+
+#, fuzzy
+#~| msgid "Existing affiliations"
+#~ msgid "Edit application"
+#~ msgstr "既存の所属先"
+
+#, fuzzy
+#~| msgid "Your affiliation with"
+#~ msgid "Your applications"
+#~ msgstr "あなたは"
+
+#, fuzzy
+#~| msgid "you may register for one here"
+#~ msgid "if you want to register a new one"
+#~ msgstr "ここでアカウントを登録する事が出来ます"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "vlan_list の一覧にエントリーがありませんでしたので中断します"

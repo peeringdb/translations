@@ -17,113 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.0.4\n"
 
-msgid "Confidential"
-msgstr "비공개"
-
-msgid "Public"
-msgstr "공개"
-
-msgid "Authorization code"
-msgstr "인증 코드"
-
-msgid "Implicit"
-msgstr "암묵적"
-
-msgid "Resource owner password-based"
-msgstr "리소스 소유자 암호 기반"
-
-msgid "Client credentials"
-msgstr "클라이언트 자격 증명"
-
-msgid "Allowed URIs list, space separated"
-msgstr "허용된 URI 목록, 공백 구분"
-
-#, python-brace-format
-msgid "Unauthorized redirect scheme: {scheme}"
-msgstr "인증되지 않은 리다이렉트 체계: {scheme}"
-
-#, python-brace-format
-msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr "redirect_uris는 grant_type {grant_type}에서 비워 둘 수 없음"
-
-msgid "The access token is invalid."
-msgstr "액세스 토큰이 유효하지 않습니다."
-
-msgid "The access token has expired."
-msgstr "액세스 토큰이 만료되었습니다."
-
-msgid "The access token is valid but does not have enough scope."
-msgstr "액세스 토큰은 유효하지만 범위가 충분하지 않습니다."
-
-msgid "Are you sure to delete the application"
-msgstr "응용프로그램을 삭제하시겠습니까"
-
-msgid "Cancel"
-msgstr "취소"
-
-msgid "Delete"
-msgstr "삭제"
-
-msgid "Client id"
-msgstr "클라이언트 ID"
-
-msgid "Client secret"
-msgstr "클라이언트 비밀"
-
-msgid "Client type"
-msgstr "클라이언트 유형"
-
-msgid "Authorization Grant Type"
-msgstr "인증 허가 유형"
-
-msgid "Redirect Uris"
-msgstr "리디렉션 Uris"
-
-msgid "Go Back"
-msgstr "돌아가기"
-
-msgid "Edit"
-msgstr "수정"
-
-msgid "Edit application"
-msgstr "응용 프로그램 편집"
-
-msgid "Your applications"
-msgstr "응용 프로그램"
-
-msgid "No applications defined"
-msgstr "정의된 응용 프로그램이 없습니다"
-
-msgid "Click here"
-msgstr "여기를 클릭하세요"
-
-msgid "if you want to register a new one"
-msgstr "신규가입을 원하시면"
-
-msgid "Register a new application"
-msgstr "새 응용 프로그램 등록"
-
-msgid "Authorize"
-msgstr "인증하기"
-
-msgid "Application requires following permissions"
-msgstr "응용 프로그램에 다음 사용 권한이 필요합니다"
-
-msgid "Success"
-msgstr "성공"
-
-msgid "Please return to your application and enter this code:"
-msgstr "응용 프로그램으로 돌아가 다음 코드를 입력하십시오:"
-
-msgid "Are you sure you want to delete this token?"
-msgstr "이 토큰을 삭제하시겠습니까?"
-
-msgid "Tokens"
-msgstr "토큰"
-
-msgid "There are no authorized tokens yet."
-msgstr "아직 인증된 토큰이 없습니다."
-
 msgid "Ethernet"
 msgstr "이더넷"
 
@@ -327,6 +220,9 @@ msgstr "비공개"
 
 msgid "Users"
 msgstr "사용자"
+
+msgid "Public"
+msgstr "공개"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr ""
@@ -2131,6 +2027,9 @@ msgstr "조직에 가입하기"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "%(ar_name)s다음 조직과의 가입이 승인 보류 중."
 
+msgid "Cancel"
+msgstr "취소"
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr "%(ar_name)s와의 제휴는 PeeringDB 관리 직원이 검토하고 있습니다."
@@ -2331,6 +2230,9 @@ msgstr "OAuth 애플리케이션 관리"
 msgid "Pending Review"
 msgstr "보류 검토"
 
+msgid "Edit"
+msgstr "수정"
+
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "이 페이지의 일부 데이터가 완전하지 않습니다, 다음으로 표시된 필드를 업데이트하십시오"
 
@@ -2511,6 +2413,9 @@ msgstr "이 항목을 당신의 공용 피어링 익스체인지 포인트 리�
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr "공용 피어링 익스체인지 포인트 목록에서 %(ix_name)s 에 대한 %(ixf_id)s 항목을 제거하시겠습니까?"
+
+msgid "Delete"
+msgstr "삭제"
 
 msgid "Update"
 msgstr "업데이트"
@@ -2899,6 +2804,99 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "Confidential"
+#~ msgstr "비공개"
+
+#~ msgid "Authorization code"
+#~ msgstr "인증 코드"
+
+#~ msgid "Implicit"
+#~ msgstr "암묵적"
+
+#~ msgid "Resource owner password-based"
+#~ msgstr "리소스 소유자 암호 기반"
+
+#~ msgid "Client credentials"
+#~ msgstr "클라이언트 자격 증명"
+
+#~ msgid "Allowed URIs list, space separated"
+#~ msgstr "허용된 URI 목록, 공백 구분"
+
+#~ msgid "Unauthorized redirect scheme: {scheme}"
+#~ msgstr "인증되지 않은 리다이렉트 체계: {scheme}"
+
+#~ msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+#~ msgstr "redirect_uris는 grant_type {grant_type}에서 비워 둘 수 없음"
+
+#~ msgid "The access token is invalid."
+#~ msgstr "액세스 토큰이 유효하지 않습니다."
+
+#~ msgid "The access token has expired."
+#~ msgstr "액세스 토큰이 만료되었습니다."
+
+#~ msgid "The access token is valid but does not have enough scope."
+#~ msgstr "액세스 토큰은 유효하지만 범위가 충분하지 않습니다."
+
+#~ msgid "Are you sure to delete the application"
+#~ msgstr "응용프로그램을 삭제하시겠습니까"
+
+#~ msgid "Client id"
+#~ msgstr "클라이언트 ID"
+
+#~ msgid "Client secret"
+#~ msgstr "클라이언트 비밀"
+
+#~ msgid "Client type"
+#~ msgstr "클라이언트 유형"
+
+#~ msgid "Authorization Grant Type"
+#~ msgstr "인증 허가 유형"
+
+#~ msgid "Redirect Uris"
+#~ msgstr "리디렉션 Uris"
+
+#~ msgid "Go Back"
+#~ msgstr "돌아가기"
+
+#~ msgid "Edit application"
+#~ msgstr "응용 프로그램 편집"
+
+#~ msgid "Your applications"
+#~ msgstr "응용 프로그램"
+
+#~ msgid "No applications defined"
+#~ msgstr "정의된 응용 프로그램이 없습니다"
+
+#~ msgid "Click here"
+#~ msgstr "여기를 클릭하세요"
+
+#~ msgid "if you want to register a new one"
+#~ msgstr "신규가입을 원하시면"
+
+#~ msgid "Register a new application"
+#~ msgstr "새 응용 프로그램 등록"
+
+#~ msgid "Authorize"
+#~ msgstr "인증하기"
+
+#~ msgid "Application requires following permissions"
+#~ msgstr "응용 프로그램에 다음 사용 권한이 필요합니다"
+
+#~ msgid "Success"
+#~ msgstr "성공"
+
+#~ msgid "Please return to your application and enter this code:"
+#~ msgstr "응용 프로그램으로 돌아가 다음 코드를 입력하십시오:"
+
+#~ msgid "Are you sure you want to delete this token?"
+#~ msgstr "이 토큰을 삭제하시겠습니까?"
+
+#~ msgid "Tokens"
+#~ msgstr "토큰"
+
+#~ msgid "There are no authorized tokens yet."
+#~ msgstr "아직 인증된 토큰이 없습니다."
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "vlan_list 목록에 항목이 없음, 중단함."

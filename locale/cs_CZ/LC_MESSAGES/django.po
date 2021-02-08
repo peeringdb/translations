@@ -16,120 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.1.1\n"
 
-msgid "Confidential"
-msgstr ""
-
-msgid "Public"
-msgstr "Veřejný"
-
-msgid "Authorization code"
-msgstr ""
-
-msgid "Implicit"
-msgstr ""
-
-msgid "Resource owner password-based"
-msgstr ""
-
-msgid "Client credentials"
-msgstr ""
-
-msgid "Allowed URIs list, space separated"
-msgstr ""
-
-#, python-brace-format
-msgid "Unauthorized redirect scheme: {scheme}"
-msgstr ""
-
-#, python-brace-format
-msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr ""
-
-msgid "The access token is invalid."
-msgstr ""
-
-#, fuzzy
-#| msgid "The password reset process has expired, please"
-msgid "The access token has expired."
-msgstr "Restart hesla vypršel, prosím"
-
-msgid "The access token is valid but does not have enough scope."
-msgstr ""
-
-msgid "Are you sure to delete the application"
-msgstr ""
-
-msgid "Cancel"
-msgstr "Zrušit"
-
-msgid "Delete"
-msgstr "Smazat"
-
-msgid "Client id"
-msgstr ""
-
-msgid "Client secret"
-msgstr ""
-
-msgid "Client type"
-msgstr ""
-
-msgid "Authorization Grant Type"
-msgstr ""
-
-msgid "Redirect Uris"
-msgstr ""
-
-msgid "Go Back"
-msgstr ""
-
-msgid "Edit"
-msgstr "Upravit"
-
-#, fuzzy
-#| msgid "Existing affiliations"
-msgid "Edit application"
-msgstr "Stávající přičlenění"
-
-#, fuzzy
-msgid "Your applications"
-msgstr "Váš vztah s"
-
-msgid "No applications defined"
-msgstr ""
-
-msgid "Click here"
-msgstr ""
-
-#, fuzzy
-#| msgid "you may register for one here"
-msgid "if you want to register a new one"
-msgstr "můžete se zaregistrovat zde"
-
-msgid "Register a new application"
-msgstr ""
-
-msgid "Authorize"
-msgstr ""
-
-msgid "Application requires following permissions"
-msgstr ""
-
-msgid "Success"
-msgstr ""
-
-msgid "Please return to your application and enter this code:"
-msgstr ""
-
-msgid "Are you sure you want to delete this token?"
-msgstr ""
-
-msgid "Tokens"
-msgstr ""
-
-msgid "There are no authorized tokens yet."
-msgstr ""
-
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -361,6 +247,9 @@ msgstr "Privátní"
 
 msgid "Users"
 msgstr "Užívatelé"
+
+msgid "Public"
+msgstr "Veřejný"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr ""
@@ -2342,6 +2231,9 @@ msgstr "Přidružení k organizaci"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Vaše přidružení k %(ar_name)s čeká na schválení."
 
+msgid "Cancel"
+msgstr "Zrušit"
+
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2552,6 +2444,9 @@ msgstr "Správa aplikací OAuth"
 
 msgid "Pending Review"
 msgstr "Čeká na hodnocení"
+
+msgid "Edit"
+msgstr "Upravit"
 
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Některá data na této stránce jsou neúplná, aktualizujte prosím pole označená"
@@ -2766,6 +2661,9 @@ msgstr ""
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr ""
+
+msgid "Delete"
+msgstr "Smazat"
 
 msgid "Update"
 msgstr "Aktualizovat"
@@ -3191,6 +3089,25 @@ msgstr "Peering Policy Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
+
+#, fuzzy
+#~| msgid "The password reset process has expired, please"
+#~ msgid "The access token has expired."
+#~ msgstr "Restart hesla vypršel, prosím"
+
+#, fuzzy
+#~| msgid "Existing affiliations"
+#~ msgid "Edit application"
+#~ msgstr "Stávající přičlenění"
+
+#, fuzzy
+#~ msgid "Your applications"
+#~ msgstr "Váš vztah s"
+
+#, fuzzy
+#~| msgid "you may register for one here"
+#~ msgid "if you want to register a new one"
+#~ msgstr "můžete se zaregistrovat zde"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Žádné položky v seznamu vlan_list, ukončení."

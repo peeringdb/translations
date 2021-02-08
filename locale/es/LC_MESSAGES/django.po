@@ -17,119 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.0.4\n"
 
-msgid "Confidential"
-msgstr "Confidencial"
-
-msgid "Public"
-msgstr "Publico"
-
-msgid "Authorization code"
-msgstr "Código de Autorización"
-
-msgid "Implicit"
-msgstr "Implícito"
-
-msgid "Resource owner password-based"
-msgstr "Propietario del recuso basado en contraseña"
-
-msgid "Client credentials"
-msgstr "Credenciales de Cliente"
-
-msgid "Allowed URIs list, space separated"
-msgstr "Lista de URIs permitidas, separados por espacios"
-
-#, python-brace-format
-msgid "Unauthorized redirect scheme: {scheme}"
-msgstr "Esquema de redirección no autorizado: {scheme}"
-
-#, python-brace-format
-msgid "redirect_uris cannot be empty with grant_type {grant_type}"
-msgstr "URIs de redirección no pueden estar vacios si son de tipo {grant_type}"
-
-msgid "The access token is invalid."
-msgstr "Token de acceso inválido."
-
-msgid "The access token has expired."
-msgstr "El token de acceso ha expirado."
-
-msgid "The access token is valid but does not have enough scope."
-msgstr "El token de acceso es válido, pero no tiene permisos suficientes."
-
-msgid "Are you sure to delete the application"
-msgstr "Esta seguro que desea eliminar esta aplicación"
-
-msgid "Cancel"
-msgstr "Cancelar"
-
-msgid "Delete"
-msgstr "Borrar"
-
-msgid "Client id"
-msgstr "ID de Cliente"
-
-msgid "Client secret"
-msgstr "Secreto de Cliente"
-
-msgid "Client type"
-msgstr ""
-
-msgid "Authorization Grant Type"
-msgstr ""
-
-msgid "Redirect Uris"
-msgstr ""
-
-msgid "Go Back"
-msgstr ""
-
-msgid "Edit"
-msgstr "﻿Editar"
-
-#, fuzzy
-#| msgid "Existing affiliations"
-msgid "Edit application"
-msgstr "Afiliaciones actuales"
-
-#, fuzzy
-#| msgid "Your affiliation with"
-msgid "Your applications"
-msgstr "Su afiliación con"
-
-msgid "No applications defined"
-msgstr ""
-
-msgid "Click here"
-msgstr ""
-
-#, fuzzy
-#| msgid "you may register for one here"
-msgid "if you want to register a new one"
-msgstr "puede registrarse aquí"
-
-msgid "Register a new application"
-msgstr ""
-
-msgid "Authorize"
-msgstr ""
-
-msgid "Application requires following permissions"
-msgstr ""
-
-msgid "Success"
-msgstr ""
-
-msgid "Please return to your application and enter this code:"
-msgstr ""
-
-msgid "Are you sure you want to delete this token?"
-msgstr ""
-
-msgid "Tokens"
-msgstr ""
-
-msgid "There are no authorized tokens yet."
-msgstr ""
-
 msgid "Ethernet"
 msgstr "Ethernet"
 
@@ -337,6 +224,9 @@ msgstr "Privado solo"
 
 msgid "Users"
 msgstr "Usuarios"
+
+msgid "Public"
+msgstr "Publico"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr ""
@@ -2308,6 +2198,9 @@ msgstr "Afiliar con la organización"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Su afiliación con s %(ar_name)s está pendiente de aprobación."
 
+msgid "Cancel"
+msgstr "Cancelar"
+
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2513,6 +2406,9 @@ msgstr "Administrar aplicaciones OAuth"
 
 msgid "Pending Review"
 msgstr "Revisión Pendiente"
+
+msgid "Edit"
+msgstr "﻿Editar"
 
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Algunos de los datos en esta página están incompletos, por favor actualice los campos marcados con"
@@ -2722,6 +2618,9 @@ msgstr ""
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr ""
+
+msgid "Delete"
+msgstr "Borrar"
 
 msgid "Update"
 msgstr "Actualizar"
@@ -3139,6 +3038,63 @@ msgstr "Información sobre la política are Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Por favor, esperar unos minutos antes de intentar otra vez."
+
+#~ msgid "Confidential"
+#~ msgstr "Confidencial"
+
+#~ msgid "Authorization code"
+#~ msgstr "Código de Autorización"
+
+#~ msgid "Implicit"
+#~ msgstr "Implícito"
+
+#~ msgid "Resource owner password-based"
+#~ msgstr "Propietario del recuso basado en contraseña"
+
+#~ msgid "Client credentials"
+#~ msgstr "Credenciales de Cliente"
+
+#~ msgid "Allowed URIs list, space separated"
+#~ msgstr "Lista de URIs permitidas, separados por espacios"
+
+#~ msgid "Unauthorized redirect scheme: {scheme}"
+#~ msgstr "Esquema de redirección no autorizado: {scheme}"
+
+#~ msgid "redirect_uris cannot be empty with grant_type {grant_type}"
+#~ msgstr "URIs de redirección no pueden estar vacios si son de tipo {grant_type}"
+
+#~ msgid "The access token is invalid."
+#~ msgstr "Token de acceso inválido."
+
+#~ msgid "The access token has expired."
+#~ msgstr "El token de acceso ha expirado."
+
+#~ msgid "The access token is valid but does not have enough scope."
+#~ msgstr "El token de acceso es válido, pero no tiene permisos suficientes."
+
+#~ msgid "Are you sure to delete the application"
+#~ msgstr "Esta seguro que desea eliminar esta aplicación"
+
+#~ msgid "Client id"
+#~ msgstr "ID de Cliente"
+
+#~ msgid "Client secret"
+#~ msgstr "Secreto de Cliente"
+
+#, fuzzy
+#~| msgid "Existing affiliations"
+#~ msgid "Edit application"
+#~ msgstr "Afiliaciones actuales"
+
+#, fuzzy
+#~| msgid "Your affiliation with"
+#~ msgid "Your applications"
+#~ msgstr "Su afiliación con"
+
+#, fuzzy
+#~| msgid "you may register for one here"
+#~ msgid "if you want to register a new one"
+#~ msgstr "puede registrarse aquí"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "No hay entradas en ninguna de las listas vlan_list, abortando."
