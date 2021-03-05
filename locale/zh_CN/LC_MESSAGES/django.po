@@ -573,2465 +573,1884 @@ msgstr "公共对等交换点"
 msgid "Public Peering Exchange Points"
 msgstr "公共对等交换点"
 
-msgid "Czech"
-msgstr ""
-
-msgid "German"
-msgstr ""
-
-msgid "Greek"
-msgstr ""
-
-msgid "English"
-msgstr ""
-
-msgid "Spanish"
-msgstr ""
-
-msgid "French"
-msgstr ""
-
 #, fuzzy
-#| msgid "Australia"
-msgid "Italian"
-msgstr "澳大利亚"
-
-msgid "Japanese"
-msgstr ""
-
-msgid "Occitan"
-msgstr ""
-
-msgid "Portuguese"
-msgstr ""
-
-msgid "Romanian"
-msgstr ""
-
-msgid "Russian"
-msgstr ""
+#~| msgid "Australia"
+#~ msgid "Italian"
+#~ msgstr "澳大利亚"
 
-msgid "Chinese (Simplified)"
-msgstr ""
+#~ msgid "Status"
+#~ msgstr "状态"
 
-msgid "Chinese (Traditional)"
-msgstr ""
+#~ msgid "Target org cannot be in selected organizations list"
+#~ msgstr "目标组织不在选定的列表中"
 
-msgid "Status"
-msgstr "状态"
+#~ msgid "ROLLBACK"
+#~ msgstr "回滚"
 
-msgid "Target org cannot be in selected organizations list"
-msgstr "目标组织不在选定的列表中"
+#~ msgid "SOFT DELETE"
+#~ msgstr "软删除"
 
-msgid "ROLLBACK"
-msgstr "回滚"
+#~ msgid "Verification Queue is currently disabled"
+#~ msgstr "验证队列目前已被禁用"
 
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+#~ msgid "Verification Queue is currently disabled for this object type"
+#~ msgstr "当前此对象类型的验证队列已禁用"
 
-msgid "Protected object '{}': {}"
-msgstr ""
+#~ msgid "APPROVE"
+#~ msgstr "批准"
 
-msgid "SOFT DELETE"
-msgstr "软删除"
+#~ msgid "DENY"
+#~ msgstr "拒绝"
 
-msgid "Verification Queue is currently disabled"
-msgstr "验证队列目前已被禁用"
+#~ msgid "APPROVED"
+#~ msgstr "被批准"
 
-msgid "Verification Queue is currently disabled for this object type"
-msgstr "当前此对象类型的验证队列已禁用"
+#~ msgid "User is looking to be affiliated to these Organizations"
+#~ msgstr "用户希望加入这些组织"
 
-msgid "APPROVE"
-msgstr "批准"
-
-msgid "DENY"
-msgstr "拒绝"
-
-msgid "APPROVED"
-msgstr "被批准"
-
-msgid "User is looking to be affiliated to these Organizations"
-msgstr "用户希望加入这些组织"
-
 #, fuzzy
-#| msgid "IXF Import History"
-msgid "IX-F Import History"
-msgstr "IXF 导入历史"
+#~| msgid "IXF Import History"
+#~ msgid "IX-F Import History"
+#~ msgstr "IXF 导入历史"
 
-msgid "Initial creation of netixlan"
-msgstr "最初创建的 netixlan"
+#~ msgid "Initial creation of netixlan"
+#~ msgstr "最初创建的 netixlan"
 
-msgid "CAN BE ROLLED BACK"
-msgstr "能被回滚"
+#~ msgid "CAN BE ROLLED BACK"
+#~ msgstr "能被回滚"
 
-msgid "CANNOT BE ROLLED BACK"
-msgstr "不能被回滚"
+#~ msgid "CANNOT BE ROLLED BACK"
+#~ msgstr "不能被回滚"
 
-msgid "Has been changed since"
-msgstr "从上次以来已被修改"
+#~ msgid "Has been changed since"
+#~ msgstr "从上次以来已被修改"
 
-msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr "Netixlan 的 IP 地址冲突，在别处存在"
+#~ msgid "Netixlan with conflicting ipaddress now exists elsewhere"
+#~ msgstr "Netixlan 的 IP 地址冲突，在别处存在"
 
-msgid "HAS BEEN ROLLED BACK"
-msgstr "已经被回滚"
+#~ msgid "HAS BEEN ROLLED BACK"
+#~ msgstr "已经被回滚"
 
-msgid "Not Set"
-msgstr "未设置"
+#~ msgid "Not Set"
+#~ msgstr "未设置"
 
-msgid "Active"
-msgstr "活跃"
+#~ msgid "Active"
+#~ msgstr "活跃"
 
-msgid "Logo Missing"
-msgstr "缺少 Logo"
+#~ msgid "Logo Missing"
+#~ msgstr "缺少 Logo"
 
-msgid "Over"
-msgstr "结束"
+#~ msgid "Over"
+#~ msgstr "结束"
 
-msgid "Waiting"
-msgstr "等待"
+#~ msgid "Waiting"
+#~ msgstr "等待"
 
 #, fuzzy
-#| msgid "Malformed organization ids"
-msgid "No organization(s) set"
-msgstr "组织ID格式错误"
+#~| msgid "Malformed organization ids"
+#~ msgid "No organization(s) set"
+#~ msgstr "组织ID格式错误"
 
-msgid "Malformed organization ids"
-msgstr "组织ID格式错误"
+#~ msgid "Malformed organization ids"
+#~ msgstr "组织ID格式错误"
 
-msgid "Merge target organization does not exist"
-msgstr "合并的目标组织不存在"
+#~ msgid "Merge target organization does not exist"
+#~ msgstr "合并的目标组织不存在"
 
-msgid "Organization Merging Tool"
-msgstr "组织合并工具"
+#~ msgid "Organization Merging Tool"
+#~ msgstr "组织合并工具"
 
-msgid "Undo merge"
-msgstr "撤消合并"
+#~ msgid "Undo merge"
+#~ msgstr "撤消合并"
 
-msgid "APPROVE selected items"
-msgstr "批准选择的项目"
+#~ msgid "APPROVE selected items"
+#~ msgstr "批准选择的项目"
 
-msgid "DENY and delete selected items"
-msgstr "拒绝并删除选中的项目"
+#~ msgid "DENY and delete selected items"
+#~ msgstr "拒绝并删除选中的项目"
 
-msgid "View"
-msgstr "查看"
+#~ msgid "View"
+#~ msgstr "查看"
 
 #, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
-msgid "Cannot approve a canceled affiliation request"
-msgstr "您与 %(ar_name)s 的关联被拒绝"
+#~| msgid "Your affiliation with %(ar_name)s was denied"
+#~ msgid "Cannot approve a canceled affiliation request"
+#~ msgstr "您与 %(ar_name)s 的关联被拒绝"
 
-msgid "Affiliation request was approved and the user was notified."
-msgstr "关联请求已批准并通知了用户。"
+#~ msgid "Affiliation request was approved and the user was notified."
+#~ msgstr "关联请求已批准并通知了用户。"
 
-msgid "Approve and notify User"
-msgstr "批准并通知用户"
+#~ msgid "Approve and notify User"
+#~ msgstr "批准并通知用户"
 
-msgid "Approve"
-msgstr "批准"
+#~ msgid "Approve"
+#~ msgstr "批准"
 
 #, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
-msgid "Cannot deny a canceled affiliation request"
-msgstr "您与 %(ar_name)s 的关联被拒绝"
+#~| msgid "Your affiliation with %(ar_name)s was denied"
+#~ msgid "Cannot deny a canceled affiliation request"
+#~ msgstr "您与 %(ar_name)s 的关联被拒绝"
 
-msgid "Deny"
-msgstr "拒绝"
+#~ msgid "Deny"
+#~ msgstr "拒绝"
 
-msgid "Change Password"
-msgstr "修改密码"
+#~ msgid "Change Password"
+#~ msgstr "修改密码"
 
-msgid "Edit Permissions"
-msgstr "编辑权限"
+#~ msgid "Edit Permissions"
+#~ msgstr "编辑权限"
 
-msgid "VERIFIED"
-msgstr "已验证"
+#~ msgid "VERIFIED"
+#~ msgstr "已验证"
 
-msgid "UNVERIFIED"
-msgstr "未验证"
+#~ msgid "UNVERIFIED"
+#~ msgstr "未验证"
 
-msgid "User Permission"
-msgstr "用户权限"
+#~ msgid "User Permission"
+#~ msgstr "用户权限"
 
-msgid "User Permissions"
-msgstr "用户权限"
+#~ msgid "User Permissions"
+#~ msgstr "用户权限"
 
-msgid "Only POST requests allowed."
-msgstr "只有 POST 请求被允许。"
+#~ msgid "Only POST requests allowed."
+#~ msgstr "只有 POST 请求被允许。"
 
-msgid "{} (Preview)"
-msgstr "{} (预览)"
+#~ msgid "{} (Preview)"
+#~ msgstr "{} (预览)"
 
-msgid "Apply"
-msgstr ""
-
 #, fuzzy
-#| msgid "Ratio Requirement"
-msgid "No requirements"
-msgstr "比率要求"
-
-msgid "Value"
-msgstr ""
+#~| msgid "Ratio Requirement"
+#~ msgid "No requirements"
+#~ msgstr "比率要求"
 
-msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr "该命令正在执行中，请等待执行完毕后再试一次"
+#~ msgid "This command is already waiting / running - please wait for it to finish before executing it again"
+#~ msgstr "该命令正在执行中，请等待执行完毕后再试一次"
 
-msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr "该命令需要一段时间来执行，因此会被放入后台执行队列，所以现在无法查看输出。你可以在执行完毕后查看。"
+#~ msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
+#~ msgstr "该命令需要一段时间来执行，因此会被放入后台执行队列，所以现在无法查看输出。你可以在执行完毕后查看。"
 
-msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+#~ msgid "Merge this facility - it will be deleted"
+#~ msgstr "合并此设施 - 它将被删除"
 
-msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+#~ msgid "Target facility"
+#~ msgstr "目标设施"
 
-msgid "Merge this facility - it will be deleted"
-msgstr "合并此设施 - 它将被删除"
+#~ msgid "Undo this merge"
+#~ msgstr "撤销合并"
 
-msgid "Target facility"
-msgstr "目标设施"
+#~ msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
+#~ msgstr "不删除用户。请注意管理员账户永远不会被删除，并不受该设置影响。"
 
-msgid "Undo this merge"
-msgstr "撤销合并"
+#~ msgid "Load data from peeringdb API"
+#~ msgstr "从 PeeringDB API 加载数据"
 
-msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr "不删除用户。请注意管理员账户永远不会被删除，并不受该设置影响。"
-
-msgid "Load data from peeringdb API"
-msgstr "从 PeeringDB API 加载数据"
-
-msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
-
-msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
-
-msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
-
 #, fuzzy
-#| msgid "Reset"
-msgid "Reset all"
-msgstr "重置"
+#~| msgid "Reset"
+#~ msgid "Reset all"
+#~ msgstr "重置"
 
 #, fuzzy
-#| msgid "Reset Environment"
-msgid "Reset hints"
-msgstr "重置环境"
-
-msgid "Reset dismisses"
-msgstr ""
+#~| msgid "Reset Environment"
+#~ msgid "Reset hints"
+#~ msgstr "重置环境"
 
 #, fuzzy
-#| msgid "Change Email"
-msgid "Reset email"
-msgstr "修改 Email"
+#~| msgid "Change Email"
+#~ msgid "Reset email"
+#~ msgstr "修改 Email"
 
 #, fuzzy
-#| msgid "Reset Environment"
-msgid "Reset tickets"
-msgstr "重置环境"
+#~| msgid "Reset Environment"
+#~ msgid "Reset tickets"
+#~ msgstr "重置环境"
 
-#, python-brace-format
-msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr ""
-
-msgid "Expand nested sets according to depth."
-msgstr ""
-
-#, python-brace-format
-msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
-
-msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
-
-msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
-
-msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
-
-msgid "Filter results by matching a value against this field."
-msgstr ""
-
-msgid "Supported filter suffixes: {}"
-msgstr ""
-
-msgid "Number of networks present at this facility"
-msgstr ""
-
-msgid "Targets both AKA and name fields for filtering"
-msgstr ""
-
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find networks not present at an exchange (exchange id)"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find networks not present at an exchange (exchange id)"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find networks present at exchange (exchange id)"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find networks present at exchange (exchange id)"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find networks not present at a facility (facility id)"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find networks not present at a facility (facility id)"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find networks present at a facility (facility id)"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find networks present at a facility (facility id)"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find networks connected at ixlan (ixlan id)"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find networks connected at ixlan (ixlan id)"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find the network that contains this netixlan (netixlan id)"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
-
-msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr ""
-
-msgid "Find exchanges present at a facility (facility id)"
-msgstr ""
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find the network that contains this netixlan (netixlan id)"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
-msgid "Find the exchange that contains this ixlan (ixlan id)"
-msgstr ""
-
-msgid "Find the exchange that contains this ixfac (ixfac id)"
-msgstr ""
-
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Number of networks present at this exchange"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
-
-msgid "Find exchanges where this network has a presence at (net id)"
-msgstr ""
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Number of networks present at this exchange"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
-msgid "Find organization that contains the network (network asn)"
-msgstr ""
-
 #, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "Find prefixes by exchange (exchange id)"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "Find prefixes by exchange (exchange id)"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
-msgid "Find prefixes by ip address"
-msgstr ""
-
 #, fuzzy
-#| msgid "Exchange"
-msgid "Exchange name"
-msgstr "交换点"
+#~| msgid "Exchange"
+#~ msgid "Exchange name"
+#~ msgstr "交换点"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Facility name"
-msgstr "设施"
+#~| msgid "Facility"
+#~ msgid "Facility name"
+#~ msgstr "设施"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Facility country"
-msgstr "设施"
+#~| msgid "Facility"
+#~ msgid "Facility country"
+#~ msgstr "设施"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Facility city"
-msgstr "设施"
-
-#, python-brace-format
-msgid "Creates a new `{obj_type}` type object."
-msgstr ""
+#~| msgid "Facility"
+#~ msgid "Facility city"
+#~ msgstr "设施"
 
-#, python-brace-format
-msgid "Updates an existing `{obj_type}` type object."
-msgstr ""
+#~ msgid "Yes"
+#~ msgstr "是"
 
-#, python-brace-format
-msgid "Marks an `{obj_type}` type object as `deleted`."
-msgstr ""
+#~ msgid "Invalid export format"
+#~ msgstr "导出格式无效"
 
-msgid "Yes"
-msgstr "是"
+#~ msgid "Invalid tag"
+#~ msgstr "标签无效"
 
-msgid "Invalid export format"
-msgstr "导出格式无效"
+#~ msgid "Invalid permission level"
+#~ msgstr "权限级别无效"
 
-msgid "Invalid tag"
-msgstr "标签无效"
+#~ msgid "ASN needs to be a number"
+#~ msgstr "ASN 应该为数字"
 
-msgid "Invalid permission level"
-msgstr "权限级别无效"
+#~ msgid "Needs to be at least 10 characters long"
+#~ msgstr "至少 10 个字符长"
 
-msgid "ASN needs to be a number"
-msgstr "ASN 应该为数字"
+#~ msgid "Passwords need to match"
+#~ msgstr "密码没有匹配"
 
-msgid "Needs to be at least 10 characters long"
-msgstr "至少 10 个字符长"
+#~ msgid "Please fill out the anti-spam challenge (captcha) field"
+#~ msgstr "请输入验证码"
 
-msgid "Passwords need to match"
-msgstr "密码没有匹配"
+#~ msgid "reCAPTCHA invalid"
+#~ msgstr "reCAPTCHA 无效"
 
-msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr "请输入验证码"
+#~ msgid "captcha invalid"
+#~ msgstr "验证码错误"
 
-msgid "reCAPTCHA invalid"
-msgstr "reCAPTCHA 无效"
-
-msgid "captcha invalid"
-msgstr "验证码错误"
-
 #, fuzzy
-#| msgid "Please wait a bit before requesting another email change"
-msgid "Please wait a bit before requesting another ixf import preview."
-msgstr "请稍后再请求其他 Email 修改"
+#~| msgid "Please wait a bit before requesting another email change"
+#~ msgid "Please wait a bit before requesting another ixf import preview."
+#~ msgstr "请稍后再请求其他 Email 修改"
 
 #, fuzzy
-#| msgid "Address not found"
-msgid "Ixlan not found"
-msgstr "地址未找到"
+#~| msgid "Address not found"
+#~ msgid "Ixlan not found"
+#~ msgstr "地址未找到"
 
-msgid "Permission denied"
-msgstr "没有权限"
+#~ msgid "Permission denied"
+#~ msgstr "没有权限"
 
 #, fuzzy
-#| msgid "Please wait a bit before requesting another email change"
-msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr "请稍后再请求其他 Email 修改"
+#~| msgid "Please wait a bit before requesting another email change"
+#~ msgid "Please wait a bit before requesting another IX-F import postmortem."
+#~ msgstr "请稍后再请求其他 Email 修改"
 
 #, fuzzy
-#| msgid "Address not found"
-msgid "Network not found"
-msgstr "地址未找到"
-
-msgid "Postmortem length cannot exceed {} entries"
-msgstr ""
-
-msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
-
-msgid "This ASN is not assigned by any RIR"
-msgstr ""
-
-msgid "RDAP Lookup Error: {}"
-msgstr "RDAP 查找错误：{}"
+#~| msgid "Address not found"
+#~ msgid "Network not found"
+#~ msgstr "地址未找到"
 
-msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr ""
+#~ msgid "RDAP Lookup Error: {}"
+#~ msgstr "RDAP 查找错误：{}"
 
-msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr ""
-
-msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr ""
-
-msgid "We found that your IX-F output "
-msgstr ""
-
 #, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F import url not specified"
-msgstr "IXF 导入 URL 没有提供"
-
-msgid "No JSON could be parsed"
-msgstr "没有可以被解析的JSON"
-
-msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F import url not specified"
+#~ msgstr "IXF 导入 URL 没有提供"
 
-msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
+#~ msgid "No JSON could be parsed"
+#~ msgstr "没有可以被解析的JSON"
 
-msgid "No prefixes defined on ixlan"
-msgstr ""
+#~ msgid "Network status is '{}'"
+#~ msgstr "网络状态为“{}”"
 
-msgid "Network status is '{}'"
-msgstr "网络状态为“{}”"
+#~ msgid "Network does not exist in peeringdb"
+#~ msgstr "网络没有在 PeeringDB 中找到"
 
-msgid "Network does not exist in peeringdb"
-msgstr "网络没有在 PeeringDB 中找到"
+#~ msgid "Invalid connection state: {}"
+#~ msgstr "连接状态无效：{}"
 
-msgid "Invalid connection state: {}"
-msgstr "连接状态无效：{}"
+#~ msgid "Invalid speed value: {}"
+#~ msgstr "无效速率：{}"
 
-msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
-
-msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
-
-msgid "Invalid speed value: {}"
-msgstr "无效速率：{}"
-
 #, fuzzy
-#| msgid "Invalid speed value: {}"
-msgid "Invalid speed value: could not be parsed"
-msgstr "无效速率：{}"
-
-msgid "IP addresses moved to same entry"
-msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-msgid "IPv4 not set"
-msgstr ""
+#~| msgid "Invalid speed value: {}"
+#~ msgid "Invalid speed value: could not be parsed"
+#~ msgstr "无效速率：{}"
 
-msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr ""
+#~ msgid "{} Merge Notification: {} -> {}"
+#~ msgstr "{} 合并通知: {} -> {}"
 
-msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
-msgstr ""
+#~ msgid "Silver"
+#~ msgstr "银"
 
-msgid "{} Merge Notification: {} -> {}"
-msgstr "{} 合并通知: {} -> {}"
+#~ msgid "Gold"
+#~ msgstr "金"
 
-msgid "Silver"
-msgstr "银"
+#~ msgid "Platinum"
+#~ msgstr "铂"
 
-msgid "Gold"
-msgstr "金"
+#~ msgid "Diamond"
+#~ msgstr "钻石"
 
-msgid "Platinum"
-msgstr "铂"
+#~ msgid "Data Validation"
+#~ msgstr "数据验证"
 
-msgid "Diamond"
-msgstr "钻石"
+#~ msgid "RIR"
+#~ msgstr "RIR"
 
-msgid "Data Validation"
-msgstr "数据验证"
+#~ msgid "Renumber IP Space"
+#~ msgstr "重新划分 IP 空间"
 
-msgid "RIR"
-msgstr "RIR"
+#~ msgid "Merge Facilities"
+#~ msgstr "合并设施"
 
-msgid "Renumber IP Space"
-msgstr "重新划分 IP 空间"
+#~ msgid "Merge Facilities: UNDO"
+#~ msgstr "合并设施：撤销"
 
-msgid "Merge Facilities"
-msgstr "合并设施"
+#~ msgid "Restore Object(s)"
+#~ msgstr "恢复对象"
 
-msgid "Merge Facilities: UNDO"
-msgstr "合并设施：撤销"
+#~ msgid "Reset Environment"
+#~ msgstr "重置环境"
 
-msgid "Restore Object(s)"
-msgstr "恢复对象"
-
-msgid "Reset Environment"
-msgstr "重置环境"
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Import"
-msgstr "IXF 导入日志"
-
-msgid "Has this object's address been normalized with a call to the Google Maps API"
-msgstr ""
-
-msgid "Last time of attempted geocode"
-msgstr "上次地理编码尝试"
-
-msgid "Error in forward geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
+#~| msgid "IXF Import Log"
+#~ msgid "IX-F Import"
+#~ msgstr "IXF 导入日志"
 
-msgid "Error in forward geocode: No results found"
-msgstr ""
+#~ msgid "Last time of attempted geocode"
+#~ msgstr "上次地理编码尝试"
 
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
+#~ msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
+#~ msgstr "数据库中的此组织是从提供的 ASN 或组织名称派生而来的。 如为空，则表示未找到匹配的组织。"
 
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
+#~ msgid "The organization name entered by the user"
+#~ msgstr "用户输入的组织名称"
 
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
+#~ msgid "The ASN entered by the user"
+#~ msgstr "用户输入的ASN"
 
-msgid "Error in forward geocode: No address returned"
-msgstr ""
+#~ msgid "The user that made the request"
+#~ msgstr "发出请求的用户"
 
-msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
-msgstr "数据库中的此组织是从提供的 ASN 或组织名称派生而来的。 如为空，则表示未找到匹配的组织。"
+#~ msgid "Pending"
+#~ msgstr "等待"
 
-msgid "The organization name entered by the user"
-msgstr "用户输入的组织名称"
+#~ msgid "Approved"
+#~ msgstr "批准"
 
-msgid "The ASN entered by the user"
-msgstr "用户输入的ASN"
+#~ msgid "Denied"
+#~ msgstr "拒绝"
 
-msgid "The user that made the request"
-msgstr "发出请求的用户"
-
-msgid "Pending"
-msgstr "等待"
-
-msgid "Approved"
-msgstr "批准"
-
-msgid "Denied"
-msgstr "拒绝"
-
 #, fuzzy
-#| msgid "Cancel"
-msgid "Canceled"
-msgstr "取消"
-
-msgid "Status of this request"
-msgstr "请求状态"
-
-msgid "User to Organization Affiliation Request"
-msgstr "用户关联组织请求"
+#~| msgid "Cancel"
+#~ msgid "Canceled"
+#~ msgstr "取消"
 
-msgid "User to Organization Affiliation Requests"
-msgstr "用户关联组织请求"
+#~ msgid "Status of this request"
+#~ msgstr "请求状态"
 
-msgid "Your affiliation to Organization \"{}\" has been approved"
-msgstr "您与组织 \"{}\" 的关联已被批准"
+#~ msgid "User to Organization Affiliation Request"
+#~ msgstr "用户关联组织请求"
 
-msgid "The item that this queue is attached to was created by this user"
-msgstr "此队列附加到的项目由此用户创建"
+#~ msgid "User to Organization Affiliation Requests"
+#~ msgstr "用户关联组织请求"
 
-msgid "Ticket reference on the DeskPRO side"
-msgstr ""
+#~ msgid "Your affiliation to Organization \"{}\" has been approved"
+#~ msgstr "您与组织 \"{}\" 的关联已被批准"
 
-msgid "Ticket id on the DeskPRO side"
-msgstr ""
+#~ msgid "The item that this queue is attached to was created by this user"
+#~ msgstr "此队列附加到的项目由此用户创建"
 
-msgid "DeskPRO Ticket"
-msgstr ""
+#~ msgid "Allows you to upload and set a logo image file for this organization"
+#~ msgstr "允许您上传并设置此组织的 Logo 图像"
 
-msgid "DeskPRO Tickets"
-msgstr ""
-
-msgid "DeskPRO Ticket CC Contact"
-msgstr ""
-
-msgid "Deskpro Ticket CC Contacts"
-msgstr ""
-
-msgid "Allows you to upload and set a logo image file for this organization"
-msgstr "允许您上传并设置此组织的 Logo 图像"
-
 #, fuzzy
-#| msgid "Organization does not exist"
-msgid "Organization has active objects under it."
-msgstr "组织不存在"
-
-msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr ""
-
-msgid "Sponsorship starts on"
-msgstr "赞助开始于"
+#~| msgid "Organization does not exist"
+#~ msgid "Organization has active objects under it."
+#~ msgstr "组织不存在"
 
-msgid "Sponsorship ends on"
-msgstr "赞助结束于"
+#~ msgid "Sponsorship starts on"
+#~ msgstr "赞助开始于"
 
-msgid "Expiration notification sent on"
-msgstr "过期通知发送于"
+#~ msgid "Sponsorship ends on"
+#~ msgstr "赞助结束于"
 
-msgid "Sponsorship"
-msgstr "赞助"
+#~ msgid "Expiration notification sent on"
+#~ msgstr "过期通知发送于"
 
-msgid "Sponsorships"
-msgstr "赞助"
+#~ msgid "Sponsorship"
+#~ msgstr "赞助"
 
-msgid "Sponsorship Expired"
-msgstr "赞助过期"
+#~ msgid "Sponsorships"
+#~ msgstr "赞助"
 
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "当单击赞助时，用户会被带到此位置"
+#~ msgid "Sponsorship Expired"
+#~ msgstr "赞助过期"
 
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "允许您为此赞助上传并设置 Logo"
+#~ msgid "If specified clicking the sponsorship will take the user to this location"
+#~ msgstr "当单击赞助时，用户会被带到此位置"
 
-msgid "If specified clicking the partnership will take the user to this location"
-msgstr "当单击合作伙伴时，用户会被带到此位置"
+#~ msgid "Allows you to upload and set a logo image file for this sponsorship"
+#~ msgstr "允许您为此赞助上传并设置 Logo"
 
-msgid "Allows you to upload and set a logo image file for this partnership"
-msgstr "允许您为此合作伙伴上传并设置 Logo"
+#~ msgid "If specified clicking the partnership will take the user to this location"
+#~ msgstr "当单击合作伙伴时，用户会被带到此位置"
 
-msgid "Partnership"
-msgstr "合作伙伴"
+#~ msgid "Allows you to upload and set a logo image file for this partnership"
+#~ msgstr "允许您为此合作伙伴上传并设置 Logo"
 
-msgid "Partnerships"
-msgstr "合作伙伴"
+#~ msgid "Partnership"
+#~ msgstr "合作伙伴"
 
-msgid "Merged on"
-msgstr "合并"
+#~ msgid "Partnerships"
+#~ msgstr "合作伙伴"
 
-msgid "Organization Merge"
-msgstr "组织合并"
+#~ msgid "Merged on"
+#~ msgstr "合并"
 
-msgid "Organization Merges"
-msgstr "组织合并"
+#~ msgid "Organization Merge"
+#~ msgstr "组织合并"
 
-msgid "Organization Merge: Entity"
-msgstr "组织合并：实体"
+#~ msgid "Organization Merges"
+#~ msgstr "组织合并"
 
-msgid "Organization Merge: Entities"
-msgstr "组织合并：实体"
+#~ msgid "Organization Merge: Entity"
+#~ msgstr "组织合并：实体"
 
-msgid "Need to specify at least two asns"
-msgstr "需要至少两个 ASN"
+#~ msgid "Organization Merge: Entities"
+#~ msgstr "组织合并：实体"
 
-msgid "Can only compare a maximum of 25 asns"
-msgstr "最多只能比较25个 ASN"
+#~ msgid "Need to specify at least two asns"
+#~ msgstr "需要至少两个 ASN"
 
-msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
+#~ msgid "Can only compare a maximum of 25 asns"
+#~ msgstr "最多只能比较25个 ASN"
 
-msgid "Facility has active network presence(s): {} ..."
-msgstr ""
-
-msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
-
-msgid "Exchange has active peer(s)"
-msgstr ""
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F error"
-msgstr "IXF 导入日志"
+#~| msgid "IXF Import Log"
+#~ msgid "IX-F error"
+#~ msgstr "IXF 导入日志"
 
 #, fuzzy
-#| msgid "No JSON could be parsed"
-msgid "Reason IX-F data could not be parsed"
-msgstr "没有可以被解析的JSON"
+#~| msgid "No JSON could be parsed"
+#~ msgid "Reason IX-F data could not be parsed"
+#~ msgstr "没有可以被解析的JSON"
 
 #, fuzzy
-#| msgid "Merge Notification"
-msgid "IX-F error notification date"
-msgstr "合并通知"
-
-msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
-
-msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
-
-msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
+#~| msgid "Merge Notification"
+#~ msgid "IX-F error notification date"
+#~ msgstr "合并通知"
 
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
-
-msgid "Ixlan for exchange already exists"
-msgstr ""
-
-msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Import Log"
-msgstr "IXF 导入日志"
+#~| msgid "IXF Import Log"
+#~ msgid "IX-F Import Log"
+#~ msgstr "IXF 导入日志"
 
 #, fuzzy
-#| msgid "IXF Import Logs"
-msgid "IX-F Import Logs"
-msgstr "IXF 导入日志"
+#~| msgid "IXF Import Logs"
+#~ msgid "IX-F Import Logs"
+#~ msgstr "IXF 导入日志"
 
 #, fuzzy
-#| msgid "IXF Import Log Entry"
-msgid "IX-F Import Log Entry"
-msgstr "IXF 导入日志条目"
+#~| msgid "IXF Import Log Entry"
+#~ msgid "IX-F Import Log Entry"
+#~ msgstr "IXF 导入日志条目"
 
 #, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Log Entries"
-msgstr "IXF 导入日志条目"
-
-msgid "JSON snapshot of the ix-f member data that created this entry"
-msgstr ""
-
-msgid "Activity for this entry"
-msgstr ""
-
-msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Log Entries"
+#~ msgstr "IXF 导入日志条目"
 
-msgid "RS Peer"
-msgstr "RS 对等"
+#~ msgid "RS Peer"
+#~ msgstr "RS 对等"
 
-msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
-
 #, fuzzy
-#| msgid "Last Updated"
-msgid "Last Fetched"
-msgstr "上次更新"
+#~| msgid "Last Updated"
+#~ msgid "Last Fetched"
+#~ msgstr "上次更新"
 
-msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr ""
-
 #, fuzzy
-#| msgid "IXF Member Export URL"
-msgid "IX-F Member Data"
-msgstr "IXF 成员导出 URL"
-
-msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
+#~| msgid "IXF Member Export URL"
+#~ msgid "IX-F Member Data"
+#~ msgstr "IXF 成员导出 URL"
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
-
-msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
-
 #, fuzzy
-#| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
-msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr "声明是否允许 IXP 通过其 IXP 成员数据为此网络添加 netixlan 条目"
-
-msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr ""
+#~| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
+#~ msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+#~ msgstr "声明是否允许 IXP 通过其 IXP 成员数据为此网络添加 netixlan 条目"
 
-msgid "IPv4 address outside of prefix"
-msgstr "IPv4 地址在前缀范围之外"
+#~ msgid "IPv4 address outside of prefix"
+#~ msgstr "IPv4 地址在前缀范围之外"
 
-msgid "IPv6 address outside of prefix"
-msgstr "IPv6 地址在前缀范围之外"
+#~ msgid "IPv6 address outside of prefix"
+#~ msgstr "IPv6 地址在前缀范围之外"
 
 #, fuzzy
-#| msgid "Maximum value allowed {}"
-msgid "Maximum speed: {}"
-msgstr "允许的最大值为 {}"
+#~| msgid "Maximum value allowed {}"
+#~ msgid "Maximum speed: {}"
+#~ msgstr "允许的最大值为 {}"
 
 #, fuzzy
-#| msgid "Invalid speed value: {}"
-msgid "Minimum speed: {}"
-msgstr "无效速率：{}"
+#~| msgid "Invalid speed value: {}"
+#~ msgid "Minimum speed: {}"
+#~ msgstr "无效速率：{}"
 
-msgid "Ip address already exists elsewhere"
-msgstr "IP 地址已在别处存在"
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "IP 地址已在别处存在"
 
-msgid "username"
-msgstr "用户名"
+#~ msgid "username"
+#~ msgstr "用户名"
 
-msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr "必填。仅限字母，数字和 [@.+-/_=|]。"
+#~ msgid "Required. Letters, digits and [@.+-/_=|] only."
+#~ msgstr "必填。仅限字母，数字和 [@.+-/_=|]。"
 
-msgid "Enter a valid username."
-msgstr "输入有效的用户名。"
+#~ msgid "Enter a valid username."
+#~ msgstr "输入有效的用户名。"
 
-msgid "email address"
-msgstr "电子邮件"
+#~ msgid "email address"
+#~ msgstr "电子邮件"
 
-msgid "first name"
-msgstr "姓"
+#~ msgid "first name"
+#~ msgstr "姓"
 
-msgid "last name"
-msgstr "名"
+#~ msgid "last name"
+#~ msgstr "名"
 
-msgid "staff status"
-msgstr "员工状态"
+#~ msgid "staff status"
+#~ msgstr "员工状态"
 
-msgid "Designates whether the user can log into admin site."
-msgstr "指定用户是否可以登录管理站点。"
+#~ msgid "Designates whether the user can log into admin site."
+#~ msgstr "指定用户是否可以登录管理站点。"
 
-msgid "active"
-msgstr "活动"
+#~ msgid "active"
+#~ msgstr "活动"
 
-msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr "指定是否将此用户视为活动用户。取消选择此项而非删除帐户。"
+#~ msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
+#~ msgstr "指定是否将此用户视为活动用户。取消选择此项而非删除帐户。"
 
-msgid "date joined"
-msgstr "加入日期"
+#~ msgid "date joined"
+#~ msgstr "加入日期"
 
-msgid "status"
-msgstr "状态"
+#~ msgid "status"
+#~ msgstr "状态"
 
-msgid "language"
-msgstr "语言"
+#~ msgid "language"
+#~ msgstr "语言"
 
-msgid "user"
-msgstr "用户"
+#~ msgid "user"
+#~ msgstr "用户"
 
-msgid "users"
-msgstr "用户"
+#~ msgid "users"
+#~ msgstr "用户"
 
-msgid "Password Reset Initiated"
-msgstr "密码重置已启动"
+#~ msgid "Password Reset Initiated"
+#~ msgstr "密码重置已启动"
 
 #, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Email"
-msgstr "IXF 导入日志条目"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Email"
+#~ msgstr "IXF 导入日志条目"
 
 #, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Emails"
-msgstr "IXF 导入日志条目"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Emails"
+#~ msgstr "IXF 导入日志条目"
 
-msgid "name of the tool"
-msgstr "工具名称"
+#~ msgid "name of the tool"
+#~ msgstr "工具名称"
 
-msgid "json serialization of arguments and options passed"
-msgstr "传递的参数和选项的 JSON 序列化（serialization）"
+#~ msgid "json serialization of arguments and options passed"
+#~ msgstr "传递的参数和选项的 JSON 序列化（serialization）"
 
-msgid "result log"
-msgstr "结果日志"
+#~ msgid "result log"
+#~ msgstr "结果日志"
 
-msgid "Descriptive text of command that can be searched"
-msgstr "命令的描述可以被搜索"
+#~ msgid "Descriptive text of command that can be searched"
+#~ msgstr "命令的描述可以被搜索"
 
-msgid "the user that ran this command"
-msgstr "运行命令的用户"
+#~ msgid "the user that ran this command"
+#~ msgstr "运行命令的用户"
 
-msgid "command was run at this date and time"
-msgstr "运行命令的时间"
+#~ msgid "command was run at this date and time"
+#~ msgstr "运行命令的时间"
 
-msgid "Done"
-msgstr "已完成"
+#~ msgid "Done"
+#~ msgstr "已完成"
 
-msgid "Running"
-msgstr "正在运行"
+#~ msgid "Running"
+#~ msgstr "正在运行"
 
 #, fuzzy
-#| msgid "Reset Environment"
-msgid "Environment Setting"
-msgstr "重置环境"
+#~| msgid "Reset Environment"
+#~ msgid "Environment Setting"
+#~ msgstr "重置环境"
 
-msgid "Environment Settings"
-msgstr ""
+#~ msgid "Last Updated"
+#~ msgstr "上次更新"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr ""
-
-msgid "Last Updated"
-msgstr "上次更新"
-
 #, fuzzy
-#| msgid "Confirmed"
-msgid "Configured on"
-msgstr "已确认"
-
-msgid "Last updated by this user"
-msgstr ""
-
-msgid "Organization and all Entities it owns"
-msgstr "组织及其拥有的实体"
-
-msgid "Any Network"
-msgstr "任何网络"
+#~| msgid "Confirmed"
+#~ msgid "Configured on"
+#~ msgstr "已确认"
 
-msgid "Any Facility"
-msgstr "任何设施"
+#~ msgid "Organization and all Entities it owns"
+#~ msgstr "组织及其拥有的实体"
 
-msgid "Any Exchange"
-msgstr "任何交换点"
+#~ msgid "Any Network"
+#~ msgstr "任何网络"
 
-#, python-format
-msgid "Network - %(net_name)s"
-msgstr "网络 - %(net_name)s"
+#~ msgid "Any Facility"
+#~ msgstr "任何设施"
 
-#, python-format
-msgid "Exchange - %(ix_name)s"
-msgstr "交换点 - %(ix_name)s"
+#~ msgid "Any Exchange"
+#~ msgstr "任何交换点"
 
-#, python-format
-msgid "Facility - %(fac_name)s"
-msgstr "设施 - %(fac_name)s"
+#~ msgid "Network - %(net_name)s"
+#~ msgstr "网络 - %(net_name)s"
 
-msgid "Invalid organization specified"
-msgstr "指定的组织无效"
+#~ msgid "Exchange - %(ix_name)s"
+#~ msgstr "交换点 - %(ix_name)s"
 
-msgid "Needs to be member or admin"
-msgstr "需要为成员或管理员"
+#~ msgid "Facility - %(fac_name)s"
+#~ msgstr "设施 - %(fac_name)s"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been approved"
-msgid "%(user_name)s's affiliation request has been approved"
-msgstr "%(user_name)s 的关联请求已批准"
+#~ msgid "Invalid organization specified"
+#~ msgstr "指定的组织无效"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been denied"
-msgid "%(user_name)s's affiliation request has been denied"
-msgstr "%(user_name)s 的关联请求被拒绝"
+#~ msgid "Needs to be member or admin"
+#~ msgstr "需要为成员或管理员"
 
-msgid "Please contact {} to help with the deletion of this object"
-msgstr ""
-
-msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
-msgstr ""
-
-msgid "Need to be unique"
-msgstr "需要是唯一的"
-
-msgid "This field is required"
-msgstr "此栏必填"
+#, fuzzy
+#~| msgid "%(user_name)s's afilliation request has been approved"
+#~ msgid "%(user_name)s's affiliation request has been approved"
+#~ msgstr "%(user_name)s 的关联请求已批准"
 
-msgid "RDAP Lookup Error"
-msgstr "RDAP 查找错误"
+#, fuzzy
+#~| msgid "%(user_name)s's afilliation request has been denied"
+#~ msgid "%(user_name)s's affiliation request has been denied"
+#~ msgstr "%(user_name)s 的关联请求被拒绝"
 
-#, python-brace-format
-msgid "This field is only allowed for these requests: {methods}"
-msgstr "此字段仅允许这些请求：{methods}"
+#~ msgid "Need to be unique"
+#~ msgstr "需要是唯一的"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 未被批准"
+#~ msgid "This field is required"
+#~ msgstr "此栏必填"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
+#~ msgid "RDAP Lookup Error"
+#~ msgstr "RDAP 查找错误"
 
-msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
-msgstr ""
+#~ msgid "This field is only allowed for these requests: {methods}"
+#~ msgstr "此字段仅允许这些请求：{methods}"
 
-msgid "Network has been deleted. Please contact {}"
-msgstr ""
+#, fuzzy
+#~| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#~ msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#~ msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 未被批准"
 
 #, fuzzy
-#| msgid "Suggest another exchange"
-msgid "ASN cannot be changed."
-msgstr "建议另一个交换点"
+#~| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#~ msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#~ msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
 
-msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr ""
+#, fuzzy
+#~| msgid "Suggest another exchange"
+#~ msgid "ASN cannot be changed."
+#~ msgstr "建议另一个交换点"
 
-msgid "Specify at least one email address"
-msgstr "至少指定一个电子邮件地址"
+#~ msgid "Specify at least one email address"
+#~ msgstr "至少指定一个电子邮件地址"
 
-#, python-format
-msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr "用户 %(u_name)s 希望关联您的组织"
+#~ msgid "User %(u_name)s wishes to be affiliated to your Organization"
+#~ msgstr "用户 %(u_name)s 希望关联您的组织"
 
-msgid "Confirm your e-mail address"
-msgstr "确认您的 Email 地址"
+#~ msgid "Confirm your e-mail address"
+#~ msgstr "确认您的 Email 地址"
 
-msgid "Please confirm that"
-msgstr "请确认"
+#~ msgid "Please confirm that"
+#~ msgstr "请确认"
 
-msgid "is your email-address"
-msgstr "是你的电子邮件地址"
+#~ msgid "is your email-address"
+#~ msgstr "是你的电子邮件地址"
 
-msgid "Confirm"
-msgstr "确认"
+#~ msgid "Confirm"
+#~ msgstr "确认"
 
 #, fuzzy
-#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
-msgid "The email confirmation process for this email address has been terminated, please re-initiate"
-msgstr "此电子邮件地址的邮件确认流程已终止，请重新启动"
-
-msgid "here"
-msgstr "这里"
-
-msgid "Please use"
-msgstr "请使用"
+#~| msgid "The email confirmation process for this email address has been terminated, please re-initate"
+#~ msgid "The email confirmation process for this email address has been terminated, please re-initiate"
+#~ msgstr "此电子邮件地址的邮件确认流程已终止，请重新启动"
 
-msgid "this page"
-msgstr "此页"
+#~ msgid "here"
+#~ msgstr "这里"
 
-msgid "instead"
-msgstr "代替"
+#~ msgid "Please use"
+#~ msgstr "请使用"
 
-#, python-format
-msgid ""
-"\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
-msgstr ""
+#~ msgid "this page"
+#~ msgstr "此页"
 
-msgid "Save and Apply"
-msgstr ""
+#~ msgid "instead"
+#~ msgstr "代替"
 
-msgid "Save"
-msgstr "保存"
+#~ msgid "Save"
+#~ msgstr "保存"
 
-msgid "Save and continue editing"
-msgstr ""
-
-msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
-msgstr ""
-
 #, fuzzy
-#| msgid "Undo merge"
-msgid "You may undo merges"
-msgstr "撤消合并"
+#~| msgid "Undo merge"
+#~ msgid "You may undo merges"
+#~ msgstr "撤消合并"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Selected Organizations"
-msgstr "组织"
-
-msgid "Search"
-msgstr "搜索"
+#~| msgid "Organization"
+#~ msgid "Selected Organizations"
+#~ msgstr "组织"
 
-msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
-msgstr ""
+#~ msgid "Search"
+#~ msgstr "搜索"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Merge Into Organization"
-msgstr "组织"
+#~| msgid "Organization"
+#~ msgid "Merge Into Organization"
+#~ msgstr "组织"
 
-msgid "Organizations in the left column will be merged into this organization"
-msgstr ""
-
 #, fuzzy
-#| msgid "Organization"
-msgid "Merge Organizations"
-msgstr "组织"
+#~| msgid "Organization"
+#~ msgid "Merge Organizations"
+#~ msgstr "组织"
 
 #, fuzzy
-#| msgid "Result"
-msgid "Merge Results"
-msgstr "结果"
+#~| msgid "Result"
+#~ msgid "Merge Results"
+#~ msgstr "结果"
 
-msgid "Home"
-msgstr "首页"
+#~ msgid "Home"
+#~ msgstr "首页"
 
-msgid "Prepare"
-msgstr "准备"
+#~ msgid "Prepare"
+#~ msgstr "准备"
 
-msgid "Preview"
-msgstr "预览"
+#~ msgid "Preview"
+#~ msgstr "预览"
 
-msgid "Result"
-msgstr "结果"
+#~ msgid "Result"
+#~ msgstr "结果"
 
 #, fuzzy
-#| msgid "API Documentation"
-msgid "PeeringDB API Documentation"
-msgstr "API 文档"
+#~| msgid "API Documentation"
+#~ msgid "PeeringDB API Documentation"
+#~ msgstr "API 文档"
 
-msgid "Merge Notification"
-msgstr "合并通知"
+#~ msgid "Merge Notification"
+#~ msgstr "合并通知"
 
-msgid "ID"
-msgstr "ID"
+#~ msgid "ID"
+#~ msgstr "ID"
 
-msgid "has been merged into"
-msgstr "被合并进"
+#~ msgid "has been merged into"
+#~ msgstr "被合并进"
 
 #, fuzzy
-#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
-msgstr "所有的合并都由 PeeringDB 支持手动处理。如果您认为此操作错误，请联系 PeeringDB 支持"
-
-#, python-format
-msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
-msgstr "%(u_full_name)s 关联 %(o_name)s 的请求已被 %(admin_full_name)s 批准。"
-
-msgid "No further action is required on your part."
-msgstr "您无需采取进一步行动。"
+#~| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
+#~ msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
+#~ msgstr "所有的合并都由 PeeringDB 支持手动处理。如果您认为此操作错误，请联系 PeeringDB 支持"
 
-msgid "As the organization's administrator you may view your organization's user list here"
-msgstr "作为组织管理员，您可以在此处查看组织的用户列表"
+#~ msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
+#~ msgstr "%(u_full_name)s 关联 %(o_name)s 的请求已被 %(admin_full_name)s 批准。"
 
-#, python-format
-msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
-msgstr "%(u_full_name)s 关联 %(o_name)s 的请求已被 %(admin_full_name)s 拒绝。"
+#~ msgid "No further action is required on your part."
+#~ msgstr "您无需采取进一步行动。"
 
-#, python-format
-msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr "用户 %(u_name)s（%(u_email)s）希望关联组织 %(o_name)s。"
+#~ msgid "As the organization's administrator you may view your organization's user list here"
+#~ msgstr "作为组织管理员，您可以在此处查看组织的用户列表"
 
-msgid "As the organization's administrator you may approve or deny this request here"
-msgstr "作为组织的管理员，您可以在此批准或拒绝此请求"
+#~ msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
+#~ msgstr "%(u_full_name)s 关联 %(o_name)s 的请求已被 %(admin_full_name)s 拒绝。"
 
-msgid "Ownership of organization was automatically granted to user"
-msgstr "组织的所有权自动授予用户"
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
+#~ msgstr "用户 %(u_name)s（%(u_email)s）希望关联组织 %(o_name)s。"
 
-msgid "User"
-msgstr "用户"
+#~ msgid "As the organization's administrator you may approve or deny this request here"
+#~ msgstr "作为组织的管理员，您可以在此批准或拒绝此请求"
 
-msgid "AS"
-msgstr "AS"
+#~ msgid "Ownership of organization was automatically granted to user"
+#~ msgstr "组织的所有权自动授予用户"
 
-#, fuzzy, python-format
-#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "组织 %(o_name)s（%(o_id)s）在用户 %(u_name)s 请求关联AS%(asn)s时自动创建"
+#~ msgid "User"
+#~ msgstr "用户"
 
-#, fuzzy, python-format
-#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "网络 %(n_name)s（%(n_id)s）在用户 %(u_name)s 请求关联AS%(asn)s时自动创建"
+#~ msgid "AS"
+#~ msgstr "AS"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "用户 %(u_name)s 在组织 %(o_name)s（%(o_id)s） 下创建网络 %(n_name)s 及 AS%(n_asn)s（%(n_id)s）。"
-
 #, fuzzy
-#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
-msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "由于用户的 Email 地址与 RIR 数据匹配，该网络已跳过验证。"
-
-#, python-format
-msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
-msgstr "用户 %(u_name)s（%(u_email)s）希望关联 ASN%(inst)s"
-
-msgid "They also provided this organization name in their request"
-msgstr "他们还在他们的请求中提供了这个组织名称"
+#~| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgstr "组织 %(o_name)s（%(o_id)s）在用户 %(u_name)s 请求关联AS%(asn)s时自动创建"
 
 #, fuzzy
-#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
-msgstr "数据库中没有与 ASN 匹配的条目，可能需要创建网络和组织。"
+#~| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#~ msgstr "网络 %(n_name)s（%(n_id)s）在用户 %(u_name)s 请求关联AS%(asn)s时自动创建"
 
-#, python-format
-msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr "用户 %(u_name)s（%(u_email)s）想创建名为 %(o_name)s 的组织。"
-
-msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
-msgstr "数据库中没有与该组织名称匹配的条目且没有提供 ASN ，因此可能需要手动创建该组织。"
-
-msgid "You may create a new organization here"
-msgstr "您可以在此处创建新组织"
-
-msgid "You may create a new network here"
-msgstr "您可以在此处创建新网络"
-
-#, python-format
-msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
-msgstr "用户 %(user_name)s（%(u_email)s）希望关联组织 %(o_name)s"
-
-msgid "They also provided this ASN in their request"
-msgstr "他们还在请求中提供了这个ASN"
-
-msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
-msgstr "注意：这是一个所有权请求，批准它意味着授予用户权限去管理该组织及其拥有的实体。"
-
 #, fuzzy
-#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
-msgid "These are the website addresses were able to derive from the organization and it's entities"
-msgstr "这些是能够从组织及其实体派生而来的网址"
+#~| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#~ msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#~ msgstr "用户 %(u_name)s 在组织 %(o_name)s（%(o_id)s） 下创建网络 %(n_name)s 及 AS%(n_asn)s（%(n_id)s）。"
 
-msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
-msgstr "这些是能从属于该组织的 ASN 获取的 Email 地址"
+#, fuzzy
+#~| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+#~ msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+#~ msgstr "由于用户的 Email 地址与 RIR 数据匹配，该网络已跳过验证。"
 
-msgid "The user is affiliated with other organizations"
-msgstr "用户已于其他组织关联"
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
+#~ msgstr "用户 %(u_name)s（%(u_email)s）希望关联 ASN%(inst)s"
 
-msgid "ADMIN"
-msgstr "管理"
+#~ msgid "They also provided this organization name in their request"
+#~ msgstr "他们还在他们的请求中提供了这个组织名称"
 
-msgid "MEMBER"
-msgstr "成员"
+#, fuzzy
+#~| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
+#~ msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
+#~ msgstr "数据库中没有与 ASN 匹配的条目，可能需要创建网络和组织。"
 
-msgid "Review Affiliation/Ownership Request"
-msgstr "审查 关联/所有权 请求"
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
+#~ msgstr "用户 %(u_name)s（%(u_email)s）想创建名为 %(o_name)s 的组织。"
 
-msgid "Approve Ownership Request and Notify User"
-msgstr "批准所有权请求并通知用户"
+#~ msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
+#~ msgstr "数据库中没有与该组织名称匹配的条目且没有提供 ASN ，因此可能需要手动创建该组织。"
 
-#, python-format
-msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr "一个新 %(entity_type_name)s 被创建，需要您的批准。"
+#~ msgid "You may create a new organization here"
+#~ msgstr "您可以在此处创建新组织"
 
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr "此 %(entity_type_name)s 已作为建议提交，将在审核后分配给该组织"
+#~ msgid "You may create a new network here"
+#~ msgstr "您可以在此处创建新网络"
 
-msgid "We retrieved the RiR entry for the specified ASN"
-msgstr "我们检索了指定 ASN 的 RIR 条目"
+#~ msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
+#~ msgstr "用户 %(user_name)s（%(u_email)s）希望关联组织 %(o_name)s"
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
-msgstr "但与请求用户不匹配。以下是我们收集的 Email 地址"
+#~ msgid "They also provided this ASN in their request"
+#~ msgstr "他们还在请求中提供了这个ASN"
 
-msgid "Requested by user"
-msgstr "用户请求"
+#~ msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
+#~ msgstr "注意：这是一个所有权请求，批准它意味着授予用户权限去管理该组织及其拥有的实体。"
 
-msgid "You can go to"
-msgstr "你可以到"
+#, fuzzy
+#~| msgid "These are the website addresses were able to derive from the organzation and it's entities"
+#~ msgid "These are the website addresses were able to derive from the organization and it's entities"
+#~ msgstr "这些是能够从组织及其实体派生而来的网址"
 
-msgid "to view and approve or deny this entry"
-msgstr "查看并批准或拒绝此条目"
+#~ msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
+#~ msgstr "这些是能从属于该组织的 ASN 获取的 Email 地址"
 
-#, python-format
-msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
-msgstr "来自 %(io_name)s 的%(i_label)s级赞助将于 %(i_end_date)s 过期。"
+#~ msgid "The user is affiliated with other organizations"
+#~ msgstr "用户已于其他组织关联"
 
-#, python-format
-msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
-msgstr "您与组织 %(o_name)s 及其实体的关联已被批准。"
+#~ msgid "ADMIN"
+#~ msgstr "管理"
 
-msgid "This was the result of a manual review of your affiliation request to ASN"
-msgstr "这是您对 ASN 关联请求的人工审查结果"
+#~ msgid "MEMBER"
+#~ msgstr "成员"
 
-msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
-msgstr "这是对您的组织或实体关联请求发人工审核结果。"
+#~ msgid "Review Affiliation/Ownership Request"
+#~ msgstr "审查 关联/所有权 请求"
 
-msgid "You may view and edit your organization at"
-msgstr "您可以查看和编辑您的组织在"
+#~ msgid "Approve Ownership Request and Notify User"
+#~ msgstr "批准所有权请求并通知用户"
 
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "如果您有任何疑问，请随时联系 PeeringDB 支持"
+#~ msgid "A new '%(entity_type_name)s' has been created and requires your approval."
+#~ msgstr "一个新 %(entity_type_name)s 被创建，需要您的批准。"
 
-msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr "您在PeeringDB 2上启动了密码重置 - 请按下面的 URL 重置密码。"
+#~ msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#~ msgstr "此 %(entity_type_name)s 已作为建议提交，将在审核后分配给该组织"
 
-msgid "If you did not initiate the password reset request, please ignore this email."
-msgstr "如果您未启动密码重置请求，请忽略此邮件。"
+#~ msgid "We retrieved the RiR entry for the specified ASN"
+#~ msgstr "我们检索了指定 ASN 的 RIR 条目"
 
-msgid "You requested a username retrieval on PeeringDB for the email address"
-msgstr "您在 PeeringDB 上请求查找与此 Email 相关的用户名"
+#~ msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+#~ msgstr "但与请求用户不匹配。以下是我们收集的 Email 地址"
 
-msgid "Please follow the url below to view any usernames associated with your email."
-msgstr "请提供下面的 URL 查看与您的 Email 关联的用户名。"
+#~ msgid "Requested by user"
+#~ msgstr "用户请求"
 
-msgid "If you did not request username retrieval, you can ignore this email."
-msgstr "如果您未请求用户名查找，请忽略此邮件。"
+#~ msgid "You can go to"
+#~ msgstr "你可以到"
 
-msgid "Our Culture"
-msgstr "我们的文化"
+#~ msgid "to view and approve or deny this entry"
+#~ msgstr "查看并批准或拒绝此条目"
 
-msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr ""
+#~ msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
+#~ msgstr "来自 %(io_name)s 的%(i_label)s级赞助将于 %(i_end_date)s 过期。"
 
-msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr ""
+#~ msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
+#~ msgstr "您与组织 %(o_name)s 及其实体的关联已被批准。"
 
-msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr "我是网络管理员，PeeringDB 有什么用？"
+#~ msgid "This was the result of a manual review of your affiliation request to ASN"
+#~ msgstr "这是您对 ASN 关联请求的人工审查结果"
 
-msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
-msgstr ""
+#~ msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
+#~ msgstr "这是对您的组织或实体关联请求发人工审核结果。"
 
-msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
-msgstr ""
+#~ msgid "You may view and edit your organization at"
+#~ msgstr "您可以查看和编辑您的组织在"
 
-msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr "我是交换点、数据中心或其它互联节点的网管。PeeringDB 有什么用？"
+#~ msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+#~ msgstr "如果您有任何疑问，请随时联系 PeeringDB 支持"
 
-msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
-msgstr ""
+#~ msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
+#~ msgstr "您在PeeringDB 2上启动了密码重置 - 请按下面的 URL 重置密码。"
 
-msgid "Address"
-msgstr "地址"
+#~ msgid "If you did not initiate the password reset request, please ignore this email."
+#~ msgstr "如果您未启动密码重置请求，请忽略此邮件。"
 
-msgid "Postal"
-msgstr "邮政"
+#~ msgid "You requested a username retrieval on PeeringDB for the email address"
+#~ msgstr "您在 PeeringDB 上请求查找与此 Email 相关的用户名"
 
-msgid "click to select multiple"
-msgstr "单击以选中多个"
+#~ msgid "Please follow the url below to view any usernames associated with your email."
+#~ msgstr "请提供下面的 URL 查看与您的 Email 关联的用户名。"
 
-msgid "Management"
-msgstr "管理"
+#~ msgid "If you did not request username retrieval, you can ignore this email."
+#~ msgstr "如果您未请求用户名查找，请忽略此邮件。"
 
-msgid "CLLI"
-msgstr "CLLI"
+#~ msgid "Our Culture"
+#~ msgstr "我们的文化"
 
-msgid "Reset"
-msgstr "重置"
+#~ msgid "I’m a network operator. How can PeeringDB help me?"
+#~ msgstr "我是网络管理员，PeeringDB 有什么用？"
 
-msgid "Postal Code"
-msgstr "邮政编码"
+#~ msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
+#~ msgstr "我是交换点、数据中心或其它互联节点的网管。PeeringDB 有什么用？"
 
-msgid "No search results."
-msgstr "没有匹配结果。"
+#~ msgid "Address"
+#~ msgstr "地址"
 
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
+#~ msgid "Postal"
+#~ msgstr "邮政"
 
-msgid "IP Block"
-msgstr "IP 块"
+#~ msgid "click to select multiple"
+#~ msgstr "单击以选中多个"
 
-msgid "Traffic Ratio"
-msgstr "流量比率"
+#~ msgid "Management"
+#~ msgstr "管理"
 
-msgid "Primary ASN"
-msgstr "主要 ASN"
+#~ msgid "CLLI"
+#~ msgstr "CLLI"
 
-msgid "General Peering Policy"
-msgstr "一般对等政策"
+#~ msgid "Reset"
+#~ msgstr "重置"
 
-msgid "Exchange Presence"
-msgstr "交换存在"
+#~ msgid "Postal Code"
+#~ msgstr "邮政编码"
 
-msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+#~ msgid "No search results."
+#~ msgstr "没有匹配结果。"
 
-msgid "Present"
-msgstr ""
+#~ msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+#~ msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
 
-msgid "Absent"
-msgstr ""
+#~ msgid "IP Block"
+#~ msgstr "IP 块"
 
-msgid "Facility Presence"
-msgstr "设施存在"
+#~ msgid "Traffic Ratio"
+#~ msgstr "流量比率"
 
-msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr "搜索在一个设施存在但不存在于另一个设施的网络"
+#~ msgid "Primary ASN"
+#~ msgstr "主要 ASN"
 
-msgid "Also known as"
-msgstr "别名"
+#~ msgid "General Peering Policy"
+#~ msgstr "一般对等政策"
 
-msgid "ASN"
-msgstr "ASN"
+#~ msgid "Exchange Presence"
+#~ msgstr "交换存在"
 
-msgid "Network Scope"
-msgstr "网络范围"
+#~ msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
-msgid "Exchanges"
-msgstr "交换点"
+#~ msgid "Facility Presence"
+#~ msgstr "设施存在"
 
-msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr ""
+#~ msgid "Search for networks that are present at one Facility, but absent from another facility"
+#~ msgstr "搜索在一个设施存在但不存在于另一个设施的网络"
 
-#, python-format
-msgid "- all data will be refreshed from production at %(dt)sZ"
-msgstr ""
+#~ msgid "Also known as"
+#~ msgstr "别名"
 
-msgid "Only use this if you own the facility"
-msgstr ""
+#~ msgid "ASN"
+#~ msgstr "ASN"
 
-msgid "Only use this if you own the exchange"
-msgstr ""
+#~ msgid "Network Scope"
+#~ msgstr "网络范围"
 
-#, python-format
-msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
-msgstr "将新的 %(entity_name)s 添加到您的组织。请注意，新创建的 %(entity_name)s 将在 PeeringDB 员工批准后显示在搜索结果和 API 列表中"
+#~ msgid "Exchanges"
+#~ msgstr "交换点"
 
-msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr "为了在 PeeringDB 中列为设施，我们希望您向公众提供主机托管，数据中心和/或 meet-me-room 服务。"
+#~ msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+#~ msgstr "将新的 %(entity_name)s 添加到您的组织。请注意，新创建的 %(entity_name)s 将在 PeeringDB 员工批准后显示在搜索结果和 API 列表中"
 
-msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr "为了在 PeeringDB 中列为互联网交换点，我们希望您符合以下条件："
+#~ msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
+#~ msgstr "为了在 PeeringDB 中列为设施，我们希望您向公众提供主机托管，数据中心和/或 meet-me-room 服务。"
 
-msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr "互联网交换点（IXP）是实现两个以上独立自治系统（AS）互连、促进互联网流量交换的网络设施。"
+#~ msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
+#~ msgstr "为了在 PeeringDB 中列为互联网交换点，我们希望您符合以下条件："
 
-msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr "IXP 仅为自治系统（AS）提供互连。IXP 不要求 AS 成员间传递的互联网流量通过第三方 AS，也不会改变或干扰此类流量"
+#~ msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
+#~ msgstr "互联网交换点（IXP）是实现两个以上独立自治系统（AS）互连、促进互联网流量交换的网络设施。"
 
-msgid "Submit"
-msgstr "提交"
+#~ msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
+#~ msgstr "IXP 仅为自治系统（AS）提供互连。IXP 不要求 AS 成员间传递的互联网流量通过第三方 AS，也不会改变或干扰此类流量"
 
-#, python-format
-msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr "建议将 %(entity_name)s 添加到数据库。您的建议将被 PeeringDB 管理员审核。在最终确定它是否并进入数据库前，您无需采取进一步行动。"
+#~ msgid "Submit"
+#~ msgstr "提交"
 
-msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr "为了获得批准，我们希望您建议的设施向公众提供主机托管，数据中心和/或 meet-me-room 服务。"
+#~ msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
+#~ msgstr "建议将 %(entity_name)s 添加到数据库。您的建议将被 PeeringDB 管理员审核。在最终确定它是否并进入数据库前，您无需采取进一步行动。"
 
-msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
-msgstr ""
+#~ msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
+#~ msgstr "为了获得批准，我们希望您建议的设施向公众提供主机托管，数据中心和/或 meet-me-room 服务。"
 
-msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr "为了在PeeringDB中列为互联网交换点，我们希望您符合以下条件："
+#~ msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
+#~ msgstr "为了在PeeringDB中列为互联网交换点，我们希望您符合以下条件："
 
-msgid "Suggest"
-msgstr "建议"
+#~ msgid "Suggest"
+#~ msgstr "建议"
 
-msgid "404 - Not Found"
-msgstr "404 - 未找到"
+#~ msgid "404 - Not Found"
+#~ msgstr "404 - 未找到"
 
-msgid "The page you requested does not exist."
-msgstr "您请求的页面不存在。"
+#~ msgid "The page you requested does not exist."
+#~ msgstr "您请求的页面不存在。"
 
-msgid "403 - Forbidden"
-msgstr "403 - 被阻止"
+#~ msgid "403 - Forbidden"
+#~ msgstr "403 - 被阻止"
 
 #, fuzzy
-#| msgid "You dont have permissions to view this page."
-msgid "You don't have permissions to view this page."
-msgstr "您没有权限查看此页面。"
+#~| msgid "You dont have permissions to view this page."
+#~ msgid "You don't have permissions to view this page."
+#~ msgstr "您没有权限查看此页面。"
 
-msgid "Take me home"
-msgstr "返回首页"
+#~ msgid "Take me home"
+#~ msgstr "返回首页"
 
-msgid "All Rights Reserved. By using this service, you agree to adhere to our"
-msgstr "版权所有。 使用此服务，即表示您同意遵守我们的"
+#~ msgid "All Rights Reserved. By using this service, you agree to adhere to our"
+#~ msgstr "版权所有。 使用此服务，即表示您同意遵守我们的"
 
-msgid "AUP"
-msgstr "可接受使用政策"
+#~ msgid "AUP"
+#~ msgstr "可接受使用政策"
 
-msgid "Privacy Policy"
-msgstr "隐私政策"
+#~ msgid "Privacy Policy"
+#~ msgstr "隐私政策"
 
-msgid "About"
-msgstr "关于"
+#~ msgid "About"
+#~ msgstr "关于"
 
-msgid "Register"
-msgstr "注册"
+#~ msgid "Register"
+#~ msgstr "注册"
 
-msgid "Sponsors"
-msgstr "赞助商"
+#~ msgid "Sponsors"
+#~ msgstr "赞助商"
 
-msgid "Resources"
-msgstr "资源"
+#~ msgid "Resources"
+#~ msgstr "资源"
 
 #, fuzzy
-#| msgid "AUP"
-msgid "API"
-msgstr "可接受使用政策"
+#~| msgid "AUP"
+#~ msgid "API"
+#~ msgstr "可接受使用政策"
 
-msgid "Documentation"
-msgstr "文档"
+#~ msgid "Documentation"
+#~ msgstr "文档"
 
-msgid "FAQ"
-msgstr "常见问题"
+#~ msgid "FAQ"
+#~ msgstr "常见问题"
 
-msgid "Governance"
-msgstr ""
+#~ msgid "Contact Us"
+#~ msgstr "联系我们"
 
-msgid "Contact Us"
-msgstr "联系我们"
+#~ msgid "Global System Statistics"
+#~ msgstr "全球系统统计"
 
-msgid "Global System Statistics"
-msgstr "全球系统统计"
+#~ msgid "Connections to Exchanges"
+#~ msgstr "连接的交换点"
 
-msgid "Connections to Exchanges"
-msgstr "连接的交换点"
+#~ msgid "Connections to Facilities"
+#~ msgstr "连接的私有设施"
 
-msgid "Connections to Facilities"
-msgstr "连接的私有设施"
-
 #, fuzzy
-#| msgid "Add Network"
-msgid "Automated Networks"
-msgstr "添加网络"
-
-msgid "Search here for a network, IX, or facility."
-msgstr "在此搜索网络、IX或设施。"
+#~| msgid "Add Network"
+#~ msgid "Automated Networks"
+#~ msgstr "添加网络"
 
-msgid "Advanced Search"
-msgstr "高级搜索"
+#~ msgid "Search here for a network, IX, or facility."
+#~ msgstr "在此搜索网络、IX或设施。"
 
-msgid "pending"
-msgstr "等待"
+#~ msgid "Advanced Search"
+#~ msgstr "高级搜索"
 
-msgid "unverified"
-msgstr "未验证"
+#~ msgid "pending"
+#~ msgstr "等待"
 
-msgid "Suggest Facility"
-msgstr "提交一个设施"
+#~ msgid "unverified"
+#~ msgstr "未验证"
 
-msgid "Profile"
-msgstr "资料"
+#~ msgid "Suggest Facility"
+#~ msgstr "提交一个设施"
 
-msgid "Logout"
-msgstr "注销"
+#~ msgid "Profile"
+#~ msgstr "资料"
 
-msgid "or"
-msgstr "或"
+#~ msgid "Logout"
+#~ msgstr "注销"
 
-msgid "Login"
-msgstr "登陆"
+#~ msgid "or"
+#~ msgstr "或"
 
-msgid "The Interconnection Database"
-msgstr "互联数据库"
+#~ msgid "Login"
+#~ msgstr "登陆"
 
-msgid "Join. Search. Grow your network."
-msgstr "加入。搜索。发展你的网络。"
+#~ msgid "The Interconnection Database"
+#~ msgstr "互联数据库"
 
-msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
-msgstr ""
+#~ msgid "Join. Search. Grow your network."
+#~ msgstr "加入。搜索。发展你的网络。"
 
-msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
-msgstr ""
+#~ msgid "Learn more"
+#~ msgstr "更多信息"
 
-msgid "Learn more"
-msgstr "更多信息"
+#~ msgid "about"
+#~ msgstr "关于"
 
-msgid "about"
-msgstr "关于"
+#~ msgid "register"
+#~ msgstr "注册"
 
-msgid "register"
-msgstr "注册"
+#~ msgid "Most Recent Updates"
+#~ msgstr "最近更新"
 
-msgid "Most Recent Updates"
-msgstr "最近更新"
+#~ msgid "Maintenance Mode"
+#~ msgstr "维护模式"
 
-msgid "Maintenance Mode"
-msgstr "维护模式"
+#~ msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+#~ msgstr "网站正在维护中，请稍候再试"
 
-msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr "网站正在维护中，请稍候再试"
+#~ msgid "Login with oAuth"
+#~ msgstr "通过 oAuth 登陆"
 
-msgid "Login with oAuth"
-msgstr "通过 oAuth 登陆"
+#~ msgid "Login with your Google account"
+#~ msgstr "使用 Google 账号登录"
 
-msgid "Login with your Google account"
-msgstr "使用 Google 账号登录"
+#~ msgid "Login with your Facebook account"
+#~ msgstr "使用 Facebook 账号登录"
 
-msgid "Login with your Facebook account"
-msgstr "使用 Facebook 账号登录"
+#~ msgid "Partners"
+#~ msgstr "合作伙伴"
 
-msgid "Partners"
-msgstr "合作伙伴"
+#~ msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
+#~ msgstr "我们已将说明发送到您的 Email 地址（如果已在系统中）。 您有30分钟的时间来完成此流程。"
 
-msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
-msgstr "我们已将说明发送到您的 Email 地址（如果已在系统中）。 您有30分钟的时间来完成此流程。"
+#~ msgid "Reset Password"
+#~ msgstr "重置密码"
 
-msgid "Reset Password"
-msgstr "重置密码"
+#~ msgid "The password for your account"
+#~ msgstr "您账号的密码"
 
-msgid "The password for your account"
-msgstr "您账号的密码"
+#~ msgid "has been reset, proceed to the"
+#~ msgstr "已经被重置，正转向"
 
-msgid "has been reset, proceed to the"
-msgstr "已经被重置，正转向"
+#~ msgid "login page"
+#~ msgstr "登陆页"
 
-msgid "login page"
-msgstr "登陆页"
+#~ msgid "Password"
+#~ msgstr "密码"
 
-msgid "Password"
-msgstr "密码"
+#~ msgid "Verify Password"
+#~ msgstr "验证密码"
 
-msgid "Verify Password"
-msgstr "验证密码"
+#~ msgid "The security token you provided is invalid, please"
+#~ msgstr "您提供的安全令牌无效，请"
 
-msgid "The security token you provided is invalid, please"
-msgstr "您提供的安全令牌无效，请"
+#~ msgid "try again"
+#~ msgstr "重试"
 
-msgid "try again"
-msgstr "重试"
+#~ msgid "The password reset process has expired, please"
+#~ msgstr "密码重置过程已过期，请"
 
-msgid "The password reset process has expired, please"
-msgstr "密码重置过程已过期，请"
+#~ msgid "initiate again"
+#~ msgstr "再次发起"
 
-msgid "initiate again"
-msgstr "再次发起"
-
 #, fuzzy
-#| msgid "Account Created"
-msgid "Account Security"
-msgstr "账号已创建"
+#~| msgid "Account Created"
+#~ msgid "Account Security"
+#~ msgstr "账号已创建"
 
 #, fuzzy
-#| msgid "Manage OAuth Applications"
-msgid "Manage Two-Factor Authentication"
-msgstr "管理 OAuth 应用"
+#~| msgid "Manage OAuth Applications"
+#~ msgid "Manage Two-Factor Authentication"
+#~ msgstr "管理 OAuth 应用"
 
-msgid "Affiliate with organization"
-msgstr "关联组织"
+#~ msgid "Affiliate with organization"
+#~ msgstr "关联组织"
 
-#, python-format
-msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr "您与 %(ar_name)s 的关联待验证。"
+#~ msgid "Your affiliation with %(ar_name)s is pending approval."
+#~ msgstr "您与 %(ar_name)s 的关联待验证。"
 
-msgid "Cancel"
-msgstr "取消"
+#~ msgid "Cancel"
+#~ msgstr "取消"
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s is pending approval."
-msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr "您与 %(ar_name)s 的关联待验证。"
-
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s was denied"
-msgid "You have canceled your affiliation request with %(ar_name)s"
-msgstr "您与 %(ar_name)s 的关联被拒绝"
+#, fuzzy
+#~| msgid "Your affiliation with %(ar_name)s is pending approval."
+#~ msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
+#~ msgstr "您与 %(ar_name)s 的关联待验证。"
 
-#, python-format
-msgid "Your affiliation with %(ar_name)s was denied"
-msgstr "您与 %(ar_name)s 的关联被拒绝"
+#, fuzzy
+#~| msgid "Your affiliation with %(ar_name)s was denied"
+#~ msgid "You have canceled your affiliation request with %(ar_name)s"
+#~ msgstr "您与 %(ar_name)s 的关联被拒绝"
 
-#, python-format
-msgid "Your affiliation with %(ar_name)s was approved"
-msgstr "您与 %(ar_name)s 的关联已批准"
+#~ msgid "Your affiliation with %(ar_name)s was denied"
+#~ msgstr "您与 %(ar_name)s 的关联被拒绝"
 
-msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr "要关联现有组织，请在下面输入 ASN 或组织名称。"
+#~ msgid "Your affiliation with %(ar_name)s was approved"
+#~ msgstr "您与 %(ar_name)s 的关联已批准"
 
-msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr "要注册新的网络组织，请在下面输入 ASN 和组织名称。"
+#~ msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
+#~ msgstr "要关联现有组织，请在下面输入 ASN 或组织名称。"
 
-msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "要注册新设施或交换点，请在下面输入组织名称（ ASN 选填）。"
+#~ msgid "To register a new network organization, please enter the ASN and organization name below."
+#~ msgstr "要注册新的网络组织，请在下面输入 ASN 和组织名称。"
 
-msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
-msgstr ""
+#~ msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
+#~ msgstr "要注册新设施或交换点，请在下面输入组织名称（ ASN 选填）。"
 
-msgid "Affiliate"
-msgstr "关联"
+#~ msgid "Affiliate"
+#~ msgstr "关联"
 
-msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "如无法为您的 ASN 检索 RIR 条目，请联系"
+#~ msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
+#~ msgstr "如无法为您的 ASN 检索 RIR 条目，请联系"
 
-msgid "for assistance"
-msgstr "获取帮助"
+#~ msgid "for assistance"
+#~ msgstr "获取帮助"
 
-msgid "Existing affiliations"
-msgstr "现有的关联"
+#~ msgid "Existing affiliations"
+#~ msgstr "现有的关联"
 
-msgid "Your affiliation with"
-msgstr "您的关联"
+#~ msgid "Your affiliation with"
+#~ msgstr "您的关联"
 
-msgid "has been approved"
-msgstr "已经被批准"
+#~ msgid "has been approved"
+#~ msgstr "已经被批准"
 
-msgid "Change email address"
-msgstr "修改 Email 地址"
+#~ msgid "Change email address"
+#~ msgstr "修改 Email 地址"
 
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "为了快速验证，您需要使用工作用 Email 地址。如您计划在 PeeringDB 上注册 ASN ，建议您使用 ASN 公共联系方式中存在的 Emali 地址。"
+#~ msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
+#~ msgstr "为了快速验证，您需要使用工作用 Email 地址。如您计划在 PeeringDB 上注册 ASN ，建议您使用 ASN 公共联系方式中存在的 Emali 地址。"
 
-msgid "Change Email"
-msgstr "修改 Email"
+#~ msgid "Change Email"
+#~ msgstr "修改 Email"
 
-msgid "Change password"
-msgstr "修改密码"
+#~ msgid "Change password"
+#~ msgstr "修改密码"
 
-msgid "Password changed"
-msgstr "密码已修改"
+#~ msgid "Password changed"
+#~ msgstr "密码已修改"
 
-msgid "Current Password"
-msgstr "当前密码"
+#~ msgid "Current Password"
+#~ msgstr "当前密码"
 
-msgid "Password Verification"
-msgstr "密码验证"
+#~ msgid "Password Verification"
+#~ msgstr "密码验证"
 
-msgid "You have confirmed your email address!"
-msgstr "您已经确认了您的电子邮件地址！"
+#~ msgid "You have confirmed your email address!"
+#~ msgstr "您已经确认了您的电子邮件地址！"
 
-msgid "Attention!"
-msgstr "注意！"
+#~ msgid "Attention!"
+#~ msgstr "注意！"
 
-msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr "请为您的帐户指定一个 Email 地址，否则我们无法继续验证。"
+#~ msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
+#~ msgstr "请为您的帐户指定一个 Email 地址，否则我们无法继续验证。"
 
-msgid "Email Confirmation"
-msgstr "电子邮件确认"
+#~ msgid "Email Confirmation"
+#~ msgstr "电子邮件确认"
 
-msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr "在访问其他功能前，请确认您的 Email 地址。"
+#~ msgid "Before getting access to any other features, you need to confirm your email address."
+#~ msgstr "在访问其他功能前，请确认您的 Email 地址。"
 
-msgid "We have sent you a message containing the confirmation link."
-msgstr "我们已向您发送包含确认链接的消息。"
+#~ msgid "We have sent you a message containing the confirmation link."
+#~ msgstr "我们已向您发送包含确认链接的消息。"
 
-msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr "在我们或相关组织审核您的帐户前，您没有完全访问权限。感谢您的耐心等待。"
+#~ msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
+#~ msgstr "在我们或相关组织审核您的帐户前，您没有完全访问权限。感谢您的耐心等待。"
 
-msgid "Select language"
-msgstr "选择语言"
+#~ msgid "Select language"
+#~ msgstr "选择语言"
 
-msgid "Language preference saved"
-msgstr "语言偏好已保持"
+#~ msgid "Language preference saved"
+#~ msgstr "语言偏好已保持"
 
-msgid "Set language preference"
-msgstr "设置语言偏好"
+#~ msgid "Set language preference"
+#~ msgstr "设置语言偏好"
 
-msgid "Account Created"
-msgstr "账号已创建"
+#~ msgid "Account Created"
+#~ msgstr "账号已创建"
 
-msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
-msgstr "您的帐户已创建，但在我们审核之前没有完全访问权限。感谢您的耐心等待。"
+#~ msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
+#~ msgstr "您的帐户已创建，但在我们审核之前没有完全访问权限。感谢您的耐心等待。"
 
-msgid "Return Home"
-msgstr "返回首页"
+#~ msgid "Return Home"
+#~ msgstr "返回首页"
 
-msgid "Create account"
-msgstr "创建账号"
+#~ msgid "Create account"
+#~ msgstr "创建账号"
 
-msgid "Username"
-msgstr "用户名"
+#~ msgid "Username"
+#~ msgstr "用户名"
 
-msgid "Confirm password"
-msgstr "确认密码"
+#~ msgid "Confirm password"
+#~ msgstr "确认密码"
 
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr "为了快速验证，您需要使用工作用 Email 地址。如您计划在 PeeringDB 上注册 ASN ，建议您使用 ASN 公共联系方式中存在的 Emali 地址。"
+#~ msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
+#~ msgstr "为了快速验证，您需要使用工作用 Email 地址。如您计划在 PeeringDB 上注册 ASN ，建议您使用 ASN 公共联系方式中存在的 Emali 地址。"
 
-msgid "First name"
-msgstr "姓"
+#~ msgid "First name"
+#~ msgstr "姓"
 
-msgid "Last name"
-msgstr "名"
+#~ msgid "Last name"
+#~ msgstr "名"
 
-msgid "Loading anti-spam challenge"
-msgstr "正在加载验证码"
+#~ msgid "Loading anti-spam challenge"
+#~ msgstr "正在加载验证码"
 
-msgid "Create"
-msgstr "创建"
+#~ msgid "Create"
+#~ msgstr "创建"
 
-msgid "Thank you"
-msgstr "谢谢"
+#~ msgid "Thank you"
+#~ msgstr "谢谢"
 
-#, python-format
-msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr "我们已收到并将审核您对 %(o_name)s 的所有权请求。"
+#~ msgid "We have received your ownership request for %(o_name)s and will review it."
+#~ msgstr "我们已收到并将审核您对 %(o_name)s 的所有权请求。"
 
-msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr "我们已验证您与此实体的关系，并确认了您的所有权。 您可以查看或编辑"
+#~ msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
+#~ msgstr "我们已验证您与此实体的关系，并确认了您的所有权。 您可以查看或编辑"
 
-msgid "Request Ownership"
-msgstr "请求所有权"
+#~ msgid "Request Ownership"
+#~ msgstr "请求所有权"
 
-msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr "请求所有权前请确认，您有相关权限。您确认继续吗？"
+#~ msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
+#~ msgstr "请求所有权前请确认，您有相关权限。您确认继续吗？"
 
-msgid "Only verified users may request ownership to an organization"
-msgstr "只有经过验证的用户才能申请组织的所有权"
+#~ msgid "Only verified users may request ownership to an organization"
+#~ msgstr "只有经过验证的用户才能申请组织的所有权"
 
-msgid "Suggest Exchange"
-msgstr "提交一个交换点"
+#~ msgid "Suggest Exchange"
+#~ msgstr "提交一个交换点"
 
-msgid "Suggest Network"
-msgstr "提交一个网络"
+#~ msgid "Suggest Network"
+#~ msgstr "提交一个网络"
 
-msgid "Become a Sponsor"
-msgstr "成为赞助商"
+#~ msgid "Become a Sponsor"
+#~ msgstr "成为赞助商"
 
-msgid "This server is running in TUTORIAL MODE"
-msgstr "服务器正处于教学模式"
+#~ msgid "This server is running in TUTORIAL MODE"
+#~ msgstr "服务器正处于教学模式"
 
-msgid "These are the usernames associated with your email address"
-msgstr "这是与您的 Email 地址关联的用户名"
+#~ msgid "These are the usernames associated with your email address"
+#~ msgstr "这是与您的 Email 地址关联的用户名"
 
-msgid "The secret you provided does not match the secret required to complete this process"
-msgstr "您提供的与所需密码不符"
+#~ msgid "The secret you provided does not match the secret required to complete this process"
+#~ msgstr "您提供的与所需密码不符"
 
-msgid "Note"
-msgstr "注意"
+#~ msgid "Note"
+#~ msgstr "注意"
 
-msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr "您应该在同一浏览器中完成该过程。"
+#~ msgid "You should complete the process in the same browser that you originally initiated it in."
+#~ msgstr "您应该在同一浏览器中完成该过程。"
 
-msgid "Please re-initiate it"
-msgstr "请重新请求它"
+#~ msgid "Please re-initiate it"
+#~ msgstr "请重新请求它"
 
-msgid "This form allows you to retrieve the usernames associated with your email address."
-msgstr "此表单能查找与您的 Email 地址关联的用户名。"
+#~ msgid "This form allows you to retrieve the usernames associated with your email address."
+#~ msgstr "此表单能查找与您的 Email 地址关联的用户名。"
 
-msgid "We've sent instructions to your email address, provided it is in our system."
-msgstr "我们已将说明发送到您的 Email 地址（如果存在于系统中）。"
+#~ msgid "We've sent instructions to your email address, provided it is in our system."
+#~ msgstr "我们已将说明发送到您的 Email 地址（如果存在于系统中）。"
 
-msgid "Retrieve username(s)"
-msgstr "查找用户名"
+#~ msgid "Retrieve username(s)"
+#~ msgstr "查找用户名"
 
-msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
-msgstr "您的帐户尚未加入任何组织，对某些数据（例如非公开的网络联系信息）的访问权限受限。"
+#~ msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
+#~ msgstr "您的帐户尚未加入任何组织，对某些数据（例如非公开的网络联系信息）的访问权限受限。"
 
-msgid "Please take the time to confirm your email address and request affiliation"
-msgstr "请确认您的 Email 地址并请求关联"
+#~ msgid "Please take the time to confirm your email address and request affiliation"
+#~ msgstr "请确认您的 Email 地址并请求关联"
 
-msgid "You may request affiliation to an Organization or ASN"
-msgstr "您可以请求关联组织或 ASN"
+#~ msgid "You may request affiliation to an Organization or ASN"
+#~ msgstr "您可以请求关联组织或 ASN"
 
-msgid "Manage OAuth Applications"
-msgstr "管理 OAuth 应用"
+#~ msgid "Manage OAuth Applications"
+#~ msgstr "管理 OAuth 应用"
 
-msgid "Pending Review"
-msgstr "等待审核"
+#~ msgid "Pending Review"
+#~ msgstr "等待审核"
 
-msgid "Edit"
-msgstr "编辑"
+#~ msgid "Edit"
+#~ msgstr "编辑"
 
-msgid "Some of the data on this page is incomplete, please update the fields marked with"
-msgstr "此页面上的部分数据不完整。为了提高数据质量，请更新标有"
+#~ msgid "Some of the data on this page is incomplete, please update the fields marked with"
+#~ msgstr "此页面上的部分数据不完整。为了提高数据质量，请更新标有"
 
-msgid "to improve data quality"
-msgstr "的字段"
+#~ msgid "to improve data quality"
+#~ msgstr "的字段"
 
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
-msgstr "此时无法获得此实体的地理编码数据。这是地址字段修改后自动完成的。"
+#~ msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+#~ msgstr "此时无法获得此实体的地理编码数据。这是地址字段修改后自动完成的。"
 
 #, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "前缀"
+#~| msgid "Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "前缀"
 
-msgid "IXLAN Prefix"
-msgstr "IXLAN 前缀"
+#~ msgid "IXLAN Prefix"
+#~ msgstr "IXLAN 前缀"
 
-msgid "Add Prefix"
-msgstr "添加前缀"
+#~ msgid "Add Prefix"
+#~ msgstr "添加前缀"
 
 #, fuzzy
-#| msgid "Facilities"
-msgid "Local Facilities"
-msgstr "设施"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr ""
+#~| msgid "Facilities"
+#~ msgid "Local Facilities"
+#~ msgstr "设施"
 
-msgid "You may filter by"
-msgstr "您可以筛选"
+#~ msgid "You may filter by"
+#~ msgstr "您可以筛选"
 
-msgid "Exchange - Facility link"
-msgstr "交换点 - 设施连接"
+#~ msgid "Exchange - Facility link"
+#~ msgstr "交换点 - 设施连接"
 
-msgid "Add Facility"
-msgstr "添加设施"
+#~ msgid "Add Facility"
+#~ msgstr "添加设施"
 
 #, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Preview"
-msgstr "IXF 导入日志条目"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Preview"
+#~ msgstr "IXF 导入日志条目"
 
-msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
-msgstr ""
+#~ msgid "Changes"
+#~ msgstr "修改"
 
-msgid "Changes"
-msgstr "修改"
+#~ msgid "Errors"
+#~ msgstr "错误"
 
-msgid "Errors"
-msgstr "错误"
+#~ msgid "speed"
+#~ msgstr "速率"
 
-msgid "speed"
-msgstr "速率"
+#~ msgid "routeserver"
+#~ msgstr "路由服务器"
 
-msgid "routeserver"
-msgstr "路由服务器"
+#~ msgid "Peers at this Exchange Point"
+#~ msgstr "该交换点的对等参与者"
 
-msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
-msgstr ""
+#~ msgid "Peer Name"
+#~ msgstr "对等名称"
 
-msgid "Peers at this Exchange Point"
-msgstr "该交换点的对等参与者"
+#~ msgid "Speed"
+#~ msgstr "速率"
 
-msgid "Peer Name"
-msgstr "对等名称"
+#~ msgid "Exchange"
+#~ msgstr "交换点"
 
-msgid "Speed"
-msgstr "速率"
+#~ msgid "IP"
+#~ msgstr "IP"
 
-msgid "Exchange"
-msgstr "交换点"
-
-msgid "IP"
-msgstr "IP"
-
 #, fuzzy
-#| msgid "Regional"
-msgid "Not operational"
-msgstr "区域性"
-
-msgid "Contact Information"
-msgstr "联系信息"
+#~| msgid "Regional"
+#~ msgid "Not operational"
+#~ msgstr "区域性"
 
-msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
-msgstr "此网络的某些联系人仅对验证的用户可见，您当前未登录。"
+#~ msgid "Contact Information"
+#~ msgstr "联系信息"
 
-msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
-msgstr "此网络的某些联系人已隐藏，因为您的帐户未关联组织。"
+#~ msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+#~ msgstr "此网络的某些联系人仅对验证的用户可见，您当前未登录。"
 
-msgid "Visiblity"
-msgstr "可见性"
+#~ msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+#~ msgstr "此网络的某些联系人已隐藏，因为您的帐户未关联组织。"
 
-msgid "E-Mail"
-msgstr "Email"
+#~ msgid "Visiblity"
+#~ msgstr "可见性"
 
-msgid "Add Contact"
-msgstr "添加联系人"
+#~ msgid "E-Mail"
+#~ msgstr "Email"
 
-msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
-msgstr ""
+#~ msgid "Add Contact"
+#~ msgstr "添加联系人"
 
-msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
-msgstr ""
-
 #, fuzzy
-#| msgid "Location"
-msgid "action"
-msgstr "位置"
+#~| msgid "Location"
+#~ msgid "action"
+#~ msgstr "位置"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "exchange"
-msgstr "交换点"
+#~| msgid "Exchange"
+#~ msgid "exchange"
+#~ msgstr "交换点"
 
-msgid "Close"
-msgstr ""
-
 #, fuzzy
-#| msgid "IXF Import History"
-msgid "IX-F Import Postmortem"
-msgstr "IXF 导入历史"
-
-msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
-msgstr ""
+#~| msgid "IXF Import History"
+#~ msgid "IX-F Import Postmortem"
+#~ msgstr "IXF 导入历史"
 
-msgid "Showing most recent"
-msgstr ""
-
 #, fuzzy
-#| msgid "Exchanges"
-msgid "changes"
-msgstr "交换点"
-
-msgid "Refresh"
-msgstr ""
-
-msgid "Some exchanges suggest updates to your entries in their peering list."
-msgstr ""
-
-msgid "Review suggestions"
-msgstr ""
-
-msgid "You have dismissed some suggestions that are still available."
-msgstr ""
-
-msgid "Will restore any suggestions you have previously dismissed"
-msgstr ""
-
-msgid "Reset Suggestions"
-msgstr ""
-
-msgid "Expand each exchange below to review, apply or dismiss those suggestions"
-msgstr ""
-
-msgid "Their PeeringDB entry"
-msgstr ""
-
-msgid "Automatically update and remove all suggested entries"
-msgstr ""
-
-msgid "Auto-resolve"
-msgstr ""
+#~| msgid "Exchanges"
+#~ msgid "changes"
+#~ msgstr "交换点"
 
-msgid "Automatically add all suggested entries"
-msgstr ""
+#~ msgid "Add"
+#~ msgstr "添加"
 
-msgid "Auto-add"
-msgstr ""
-
-msgid "Add"
-msgstr "添加"
-
 #, fuzzy
-#| msgid "Regional"
-msgid "Options"
-msgstr "区域性"
-
-msgid "Hide this suggestion until the exchange updates it."
-msgstr ""
+#~| msgid "Regional"
+#~ msgid "Options"
+#~ msgstr "区域性"
 
-msgid "Dismiss"
-msgstr ""
-
 #, fuzzy
-#| msgid "Public Peering Exchange Points"
-msgid "Add this entry to public peering exchange points"
-msgstr "公共对等交换点"
-
-msgid "Remove"
-msgstr "删除"
-
-msgid "Remove this entry from your public peering exchange points list"
-msgstr ""
+#~| msgid "Public Peering Exchange Points"
+#~ msgid "Add this entry to public peering exchange points"
+#~ msgstr "公共对等交换点"
 
-#, python-format
-msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr ""
+#~ msgid "Remove"
+#~ msgstr "删除"
 
-msgid "Delete"
-msgstr "删除"
+#~ msgid "Delete"
+#~ msgstr "删除"
 
-msgid "Update"
-msgstr "更新"
+#~ msgid "Update"
+#~ msgstr "更新"
 
 #, fuzzy
-#| msgid "email address"
-msgid "Set IPv6 address"
-msgstr "电子邮件"
+#~| msgid "email address"
+#~ msgid "Set IPv6 address"
+#~ msgstr "电子邮件"
 
 #, fuzzy
-#| msgid "email address"
-msgid "Clear IPv6 address"
-msgstr "电子邮件"
+#~| msgid "email address"
+#~ msgid "Clear IPv6 address"
+#~ msgstr "电子邮件"
 
 #, fuzzy
-#| msgid "email address"
-msgid "Set IPv4 address"
-msgstr "电子邮件"
+#~| msgid "email address"
+#~ msgid "Set IPv4 address"
+#~ msgstr "电子邮件"
 
 #, fuzzy
-#| msgid "email address"
-msgid "Clear IPv4 address"
-msgstr "电子邮件"
-
-msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
-
-msgid "Accept"
-msgstr ""
-
-msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
-msgstr ""
-
-msgid "Will add all suggested entries"
-msgstr ""
-
-msgid "Auto Add"
-msgstr ""
-
-msgid "Network - Exchange link"
-msgstr "网络 - 交换点连接"
+#~| msgid "email address"
+#~ msgid "Clear IPv4 address"
+#~ msgstr "电子邮件"
 
-msgid "Entry needs to be moved to correct network"
-msgstr ""
+#~ msgid "Network - Exchange link"
+#~ msgstr "网络 - 交换点连接"
 
-msgid "Add Exchange Point"
-msgstr "添加交换点"
+#~ msgid "Add Exchange Point"
+#~ msgstr "添加交换点"
 
 #, fuzzy
-#| msgid "Merge Facilities"
-msgid "Private Peering Facilities"
-msgstr "合并设施"
+#~| msgid "Merge Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "合并设施"
 
-msgid "member"
-msgstr "成员"
+#~ msgid "member"
+#~ msgstr "成员"
 
-msgid "Manage"
-msgstr "管理"
+#~ msgid "Manage"
+#~ msgstr "管理"
 
-msgid "Add Network"
-msgstr "添加网络"
+#~ msgid "Add Network"
+#~ msgstr "添加网络"
 
-msgid "Add Exchange"
-msgstr "添加交换点"
+#~ msgid "Add Exchange"
+#~ msgstr "添加交换点"
 
-msgid "Permissions"
-msgstr "权限"
+#~ msgid "Permissions"
+#~ msgstr "权限"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Delete Organization"
-msgstr "组织"
+#~| msgid "Organization"
+#~ msgid "Delete Organization"
+#~ msgstr "组织"
 
-msgid "Technical E-mail"
-msgstr "技术 Email"
+#~ msgid "Technical E-mail"
+#~ msgstr "技术 Email"
 
 #, fuzzy
-#| msgid "Change Email"
-msgid "Sales E-mail"
-msgstr "修改 Email"
+#~| msgid "Change Email"
+#~ msgid "Sales E-mail"
+#~ msgstr "修改 Email"
 
-msgid "Policy URL"
-msgstr "政策 URL"
+#~ msgid "Policy URL"
+#~ msgstr "政策 URL"
 
-msgid "Only use this if you own the network"
-msgstr ""
+#~ msgid "Add a new Network to your Organization."
+#~ msgstr "向您的组织添加新网络。"
 
-msgid "Add a new Network to your Organization."
-msgstr "向您的组织添加新网络。"
+#~ msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
+#~ msgstr "我们将尝试通过 ASN 的 RIR 条目，检查您的 Email 地址并自动验证您与网络的关系。"
 
-msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
-msgstr "我们将尝试通过 ASN 的 RIR 条目，检查您的 Email 地址并自动验证您与网络的关系。"
+#~ msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
+#~ msgstr "如果验证失败，网络需要得到 PeeringDB 员工的批准才能出现在搜索结果或 API 列表中。"
 
-msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr "如果验证失败，网络需要得到 PeeringDB 员工的批准才能出现在搜索结果或 API 列表中。"
+#~ msgid "Submit Network"
+#~ msgstr "提交网络"
 
-msgid "Submit Network"
-msgstr "提交网络"
+#~ msgid "for assistance with the creation of your network in PeeringDB."
+#~ msgstr "帮助您在 PeeringDB 中创建网络。"
 
-msgid "for assistance with the creation of your network in PeeringDB."
-msgstr "帮助您在 PeeringDB 中创建网络。"
+#~ msgid "Policy E-mail"
+#~ msgstr "政策 Email"
 
-msgid "Policy E-mail"
-msgstr "政策 Email"
+#~ msgid "IPv4 or IPv6 prefix"
+#~ msgstr "IPv4 或 IPv6 前缀"
 
-msgid "IPv4 or IPv6 prefix"
-msgstr "IPv4 或 IPv6 前缀"
-
 #, fuzzy
-#| msgid "Currently no users requesting affiliation with"
-msgid "Users requesting affiliation"
-msgstr "当前没有用户请求关联"
+#~| msgid "Currently no users requesting affiliation with"
+#~ msgid "Users requesting affiliation"
+#~ msgstr "当前没有用户请求关联"
 
-msgid "Confirmed"
-msgstr "已确认"
+#~ msgid "Confirmed"
+#~ msgstr "已确认"
 
-msgid "Date"
-msgstr "日期"
+#~ msgid "Date"
+#~ msgstr "日期"
 
-msgid "Currently no users requesting affiliation with"
-msgstr "当前没有用户请求关联"
+#~ msgid "Currently no users requesting affiliation with"
+#~ msgstr "当前没有用户请求关联"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Users in Organization"
-msgstr "组织"
-
-msgid "Group"
-msgstr "组"
-
-msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr "您可以在此向组织的普通成员授予权限。此处未列出管理用户，因为他们默认可以访问所有内容。"
+#~| msgid "Organization"
+#~ msgid "Users in Organization"
+#~ msgstr "组织"
 
-msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr "此外，待审核的实体不能被授权给用户，也不会出现在实体列表中。"
+#~ msgid "Group"
+#~ msgstr "组"
 
-#, python-format
-msgid "%(name)s cannot be deleted."
-msgstr ""
+#~ msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+#~ msgstr "您可以在此向组织的普通成员授予权限。此处未列出管理用户，因为他们默认可以访问所有内容。"
 
-msgid "Remove this organization from PeeringDB."
-msgstr ""
+#~ msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
+#~ msgstr "此外，待审核的实体不能被授权给用户，也不会出现在实体列表中。"
 
 #, fuzzy
-#| msgid "Invalid organization"
-msgid "Delete organization?"
-msgstr "无效组织"
-
-#, python-format
-msgid "Delete %(name)s"
-msgstr ""
-
-msgid "Thank you for your suggestion."
-msgstr "感谢您的建议。"
-
-msgid "Suggest another facility"
-msgstr "建议另一个设施"
-
-msgid "Only verified users may suggest entities."
-msgstr "只有经过验证的用户才能建议设施。"
-
-msgid "Suggest another exchange"
-msgstr "建议另一个交换点"
-
-msgid "Suggest another network"
-msgstr "建议另一个网络"
-
-msgid "I forgot my password .."
-msgstr "忘记密码.."
-
-msgid "I forgot my username .."
-msgstr "忘记用户名.."
-
-msgid "Token"
-msgstr ""
+#~| msgid "Invalid organization"
+#~ msgid "Delete organization?"
+#~ msgstr "无效组织"
 
-msgid "Enter your credentials."
-msgstr ""
+#~ msgid "Thank you for your suggestion."
+#~ msgstr "感谢您的建议。"
 
-msgid ""
-"We are calling your phone right now, please enter the\n"
-"        digits you hear."
-msgstr ""
+#~ msgid "Suggest another facility"
+#~ msgstr "建议另一个设施"
 
-msgid ""
-"We sent you a text message, please enter the tokens we\n"
-"        sent."
-msgstr ""
+#~ msgid "Only verified users may suggest entities."
+#~ msgstr "只有经过验证的用户才能建议设施。"
 
-msgid "We sent you an email, please enter the one time password we sent."
-msgstr ""
+#~ msgid "Suggest another exchange"
+#~ msgstr "建议另一个交换点"
 
-msgid ""
-"Please enter the tokens generated by your token\n"
-"        generator."
-msgstr ""
+#~ msgid "Suggest another network"
+#~ msgstr "建议另一个网络"
 
-msgid ""
-"Use this form for entering backup tokens for logging in.\n"
-"      These tokens have been generated for you to print and keep safe. Please\n"
-"      enter one of these backup tokens to login to your account."
-msgstr ""
+#~ msgid "I forgot my password .."
+#~ msgstr "忘记密码.."
 
-msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
-msgstr ""
+#~ msgid "I forgot my username .."
+#~ msgstr "忘记用户名.."
 
-msgid "As a last resort, you can use a backup token:"
-msgstr ""
-
-msgid "Use Backup Token"
-msgstr ""
-
 #, fuzzy
-#| msgid "Confirm password"
-msgid "Email one time password"
-msgstr "确认密码"
-
-msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr "您的 Email 地址与我们存储的该组织域信息不符。"
+#~| msgid "Confirm password"
+#~ msgid "Email one time password"
+#~ msgstr "确认密码"
 
-msgid "seconds ago"
-msgstr "秒前"
+#~ msgid "Your email address does not match the domain information we have on file for this organization."
+#~ msgstr "您的 Email 地址与我们存储的该组织域信息不符。"
 
-msgid "minutes ago"
-msgstr "分钟前"
+#~ msgid "seconds ago"
+#~ msgstr "秒前"
 
-msgid "hours ago"
-msgstr "小时前"
+#~ msgid "minutes ago"
+#~ msgstr "分钟前"
 
-msgid "days ago"
-msgstr "天前"
+#~ msgid "hours ago"
+#~ msgstr "小时前"
 
-msgid "Not a valid phone number (E.164)"
-msgstr ""
+#~ msgid "days ago"
+#~ msgstr "天前"
 
 #, fuzzy
-#| msgid "Not Required"
-msgid "Input required"
-msgstr "不需要"
-
-msgid "Invalid prefix: {}"
-msgstr "前缀无效：{}"
-
-msgid "Address space invalid: {}"
-msgstr "地址空间无效：{}"
-
-msgid "Maximum allowed prefix length is {}"
-msgstr "允许的最大前缀长度为 {}"
+#~| msgid "Not Required"
+#~ msgid "Input required"
+#~ msgstr "不需要"
 
-msgid "Minimum allowed prefix length is {}"
-msgstr "允许的最小前缀长度为{}"
+#~ msgid "Invalid prefix: {}"
+#~ msgstr "前缀无效：{}"
 
-msgid "Maximum value allowed {}"
-msgstr "允许的最大值为 {}"
+#~ msgid "Address space invalid: {}"
+#~ msgstr "地址空间无效：{}"
 
-msgid "Negative value not allowed"
-msgstr "不允许负值"
+#~ msgid "Maximum allowed prefix length is {}"
+#~ msgstr "允许的最大前缀长度为 {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr "两个前缀有重叠：{}和{}"
+#~ msgid "Minimum allowed prefix length is {}"
+#~ msgstr "允许的最小前缀长度为{}"
 
-msgid "IRR AS-SET value must be string type"
-msgstr ""
+#~ msgid "Maximum value allowed {}"
+#~ msgstr "允许的最大值为 {}"
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
-msgstr ""
+#~ msgid "Negative value not allowed"
+#~ msgstr "不允许负值"
 
-msgid "Unknown IRR source: {}"
-msgstr ""
+#~ msgid "Prefix overlaps with {}'s prefix: {}"
+#~ msgstr "两个前缀有重叠：{}和{}"
 
-msgid "Maximum AS-SET hierarchy depth: {}"
-msgstr ""
+#~ msgid "Please wait a bit before requesting ownership again."
+#~ msgstr "请稍后再请求所有权。"
 
-msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
-msgstr ""
+#~ msgid "Invalid organization"
+#~ msgstr "无效组织"
 
-msgid "All parts of an hierarchical name have to be of the same type"
-msgstr ""
+#~ msgid "Organization '%(org_name)s' is already under ownership"
+#~ msgstr "已经拥有组织 %(org_name)s 的所有权"
 
-msgid "At least one component must be an actual set name"
-msgstr ""
+#~ msgid "Organization does not exist"
+#~ msgstr "组织不存在"
 
-msgid "Please wait a bit before requesting ownership again."
-msgstr "请稍后再请求所有权。"
+#~ msgid "You already have an ownership request pending for this organization"
+#~ msgstr "您已经请求了该组织的所有权"
 
-msgid "Invalid organization"
-msgstr "无效组织"
+#~ msgid "Please wait a bit before requesting affiliation again."
+#~ msgstr "请稍后再请求关联。"
 
-#, python-format
-msgid "Organization '%(org_name)s' is already under ownership"
-msgstr "已经拥有组织 %(org_name)s 的所有权"
+#~ msgid "Either ASN or Organization required"
+#~ msgstr "需要 ASN 或组织"
 
-msgid "Organization does not exist"
-msgstr "组织不存在"
+#~ msgid "Please wait a bit before trying to resend the confirmation email again"
+#~ msgstr "请稍后再重新发送确认 Email"
 
-msgid "You already have an ownership request pending for this organization"
-msgstr "您已经请求了该组织的所有权"
+#~ msgid "We have resent your confirmation email"
+#~ msgstr "我们重新发送了您的确认 Email"
 
-msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
-msgstr ""
+#~ msgid "Please wait a bit before requesting another email change"
+#~ msgstr "请稍后再请求其他 Email 修改"
 
-msgid "Please wait a bit before requesting affiliation again."
-msgstr "请稍后再请求关联。"
+#~ msgid "E-mail already exists in our system"
+#~ msgstr "Email 已经在系统中存在"
 
-msgid "Either ASN or Organization required"
-msgstr "需要 ASN 或组织"
+#~ msgid "Wrong password"
+#~ msgstr "密码错误"
 
-msgid "Please wait a bit before trying to resend the confirmation email again"
-msgstr "请稍后再重新发送确认 Email"
+#~ msgid "Please wait a bit before requesting your usernames again."
+#~ msgstr "请稍后再请求您的用户名。"
 
-msgid "We have resent your confirmation email"
-msgstr "我们重新发送了您的确认 Email"
+#~ msgid "Invalid Security Token"
+#~ msgstr "无效的安全令牌"
 
-msgid "Please wait a bit before requesting another email change"
-msgstr "请稍后再请求其他 Email 修改"
+#~ msgid "Password Reset Process has expired, please"
+#~ msgstr "密码重置已过期，请"
 
-msgid "E-mail already exists in our system"
-msgstr "Email 已经在系统中存在"
+#~ msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
+#~ msgstr "在注册前，请登出当前会话。请注意，无需多个帐户。"
 
-msgid "Wrong password"
-msgstr "密码错误"
+#~ msgid "This email address has already been used"
+#~ msgstr "这个 Email 已被使用"
 
-msgid "Please wait a bit before requesting your usernames again."
-msgstr "请稍后再请求您的用户名。"
+#~ msgid "Location"
+#~ msgstr "位置"
 
-msgid "Invalid Security Token"
-msgstr "无效的安全令牌"
+#~ msgid "Country Code"
+#~ msgstr "国家和地区代码"
 
-msgid "Password Reset Process has expired, please"
-msgstr "密码重置已过期，请"
+#~ msgid "Geocode"
+#~ msgstr "地理编码"
 
-msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr "在注册前，请登出当前会话。请注意，无需多个帐户。"
+#~ msgid "Markdown enabled"
+#~ msgstr "Markdown 已启用"
 
-msgid "This email address has already been used"
-msgstr "这个 Email 已被使用"
+#~ msgid "Protocols Supported"
+#~ msgstr "支持的协议"
 
-msgid "Location"
-msgstr "位置"
+#~ msgid "LAN"
+#~ msgstr "LAN"
 
-msgid "Country Code"
-msgstr "国家和地区代码"
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
-msgid "Geocode"
-msgstr "地理编码"
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
-msgid "Markdown enabled"
-msgstr "Markdown 已启用"
-
-msgid "Protocols Supported"
-msgstr "支持的协议"
-
-msgid "LAN"
-msgstr "LAN"
-
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
-msgid "MTU"
-msgstr "MTU"
-
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "IXF 导入日志"
+#~| msgid "IXF Import Log"
+#~ msgid "Enable IX-F Import"
+#~ msgstr "IXF 导入日志"
 
 #, fuzzy
-#| msgid "Public Peering Exchange Points"
-msgid "Public Peering Info Updated"
-msgstr "公共对等交换点"
+#~| msgid "Public Peering Exchange Points"
+#~ msgid "Public Peering Info Updated"
+#~ msgstr "公共对等交换点"
 
 #, fuzzy
-#| msgid "Peering Policy Information"
-msgid "Peering Facility Info Updated"
-msgstr "对等政策信息"
+#~| msgid "Peering Policy Information"
+#~ msgid "Peering Facility Info Updated"
+#~ msgstr "对等政策信息"
 
 #, fuzzy
-#| msgid "Contact Information"
-msgid "Contact Info Updated"
-msgstr "联系信息"
+#~| msgid "Contact Information"
+#~ msgid "Contact Info Updated"
+#~ msgstr "联系信息"
 
-msgid "PeeringDB Configuration"
-msgstr "PeeringDB 配置"
+#~ msgid "PeeringDB Configuration"
+#~ msgstr "PeeringDB 配置"
 
-msgid "Allow IXP Update"
-msgstr "允许 IXP 更新"
+#~ msgid "Allow IXP Update"
+#~ msgstr "允许 IXP 更新"
 
 #, fuzzy
-#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
-msgid "If enabled, an IXP may manage this network's entry in their peering list"
-msgstr "如果启用，IXP 可以在其对等列表中管理此网络的条目"
+#~| msgid "If enabled, an ixp may manage this network's entry in their peering list"
+#~ msgid "If enabled, an IXP may manage this network's entry in their peering list"
+#~ msgstr "如果启用，IXP 可以在其对等列表中管理此网络的条目"
 
 #, fuzzy
-#| msgid "Allow IXP Update"
-msgid "IXP Update Tools"
-msgstr "允许 IXP 更新"
-
-msgid "Postmortem"
-msgstr ""
+#~| msgid "Allow IXP Update"
+#~ msgid "IXP Update Tools"
+#~ msgstr "允许 IXP 更新"
 
-msgid "Peering Policy Information"
-msgstr "对等政策信息"
+#~ msgid "Peering Policy Information"
+#~ msgstr "对等政策信息"
 
-msgid "Please wait a bit before trying to login again."
-msgstr "请稍后再尝试登录。"
+#~ msgid "Please wait a bit before trying to login again."
+#~ msgstr "请稍后再尝试登录。"
 
 #, fuzzy
 #~| msgid "The password reset process has expired, please"
