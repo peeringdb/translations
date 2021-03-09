@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-11-18 08:58+0000\n"
-"Last-Translator: Tobias Mädel <peeringdb@as203478.net>\n"
+"PO-Revision-Date: 2021-03-09 19:58+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -207,16 +207,14 @@ msgstr "Nicht gewinnorientiert (Vereine)"
 msgid "Route Server"
 msgstr "Route Server"
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Services"
-msgstr "Netzwerkgeltungsbereich"
+msgstr "Netzwerkdienste"
 
 msgid "Route Collector"
-msgstr ""
+msgstr "Route Collector"
 
 msgid "Government"
-msgstr ""
+msgstr "Regierung"
 
 msgid "Private"
 msgstr "Privat"
@@ -228,7 +226,7 @@ msgid "Public"
 msgstr "Öffentlich"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr ""
+msgstr "Eine E.164-formatierte Telefonnummer beginnt mit einem \"+\", gefolgt von der Ländervorwahl und dann der nationalen Rufnummer (führende Nullen werden in den meisten Ländern ausgelassen). Leerzeichen oder Striche zwischen den Gruppen von Ziffern werden ausgelassen"
 
 msgid "Kosovo"
 msgstr "Kosovo"
@@ -252,10 +250,10 @@ msgid "Country"
 msgstr "Land"
 
 msgid "Suite"
-msgstr ""
+msgstr "Suite"
 
 msgid "Floor"
-msgstr ""
+msgstr "Stockwerk"
 
 msgid "Latitude"
 msgstr "Breitengrad"
@@ -287,10 +285,8 @@ msgstr "Unternehmen"
 msgid "CLLI Code"
 msgstr "CLLI-Code (USA)"
 
-#, fuzzy
-#| msgid "Geocode"
 msgid "Rencode"
-msgstr "Georeferenz"
+msgstr "Rencode"
 
 msgid "NPA-NXX"
 msgstr "NPA-NXX"
@@ -584,10 +580,8 @@ msgstr "BESTÄTIGT"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Der Benutzer möchte mit diesen Unternehmen verbunden werden"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import History"
-msgstr "IXF Import Verlauf"
+msgstr "IX-F Import Verlauf"
 
 msgid "Initial creation of netixlan"
 msgstr "Netixlan initial angelegt"
@@ -901,7 +895,7 @@ msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
 
 msgid "This ASN is not assigned by any RIR"
-msgstr ""
+msgstr "Dieses ASN wurde von keiner RIR zugewiesen"
 
 msgid "RDAP Lookup Error: {}"
 msgstr "RDAP Suchfehler: {}"
@@ -916,12 +910,10 @@ msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "Diskrepanz zwischen Daten von PeeringDB und Internet Exchange"
 
 msgid "We found that your IX-F output "
-msgstr ""
+msgstr "Wir haben herausgefunden, dass Ihr IX-F Output "
 
-#, fuzzy
-#| msgid "IXF import url not specified"
 msgid "IX-F import url not specified"
-msgstr "Keine IXF-Import-URL vorhanden"
+msgstr "Keine IX-F-Import-URL vorhanden"
 
 msgid "No JSON could be parsed"
 msgstr "JSON konnte nicht analyisert werden"
@@ -1011,19 +1003,19 @@ msgid "IX-F Import"
 msgstr "IX-F Import"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
-msgstr ""
+msgstr "Die Adresse dieses Objekts wurde mit Hilfe der Google Maps API normalisiert"
 
 msgid "Last time of attempted geocode"
 msgstr "Zeit, zu der die Georeferenz zuletzt ermittelt wurde"
 
 msgid "Error in forward geocode: Google Maps API error"
-msgstr ""
+msgstr "Fehler im Vorwärts-Geocode: Google Maps API Fehler"
 
 msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
+msgstr "Fehler im Vorwärts-Geocode: Zeitüberschreitung bei Google Maps API"
 
 msgid "Error in forward geocode: No results found"
-msgstr ""
+msgstr "Fehler im Vorwärts-Geocode: kein Ergebnis gefunden"
 
 msgid "Latitude and longitude must be defined for reverse geocode lookup"
 msgstr ""
