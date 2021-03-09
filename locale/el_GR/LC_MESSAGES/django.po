@@ -839,6 +839,11 @@ msgstr "Αλλαγή email"
 msgid "Reset tickets"
 msgstr "Επαναφορά"
 
+#, fuzzy
+#| msgid "Address not found"
+msgid "Key not found"
+msgstr "Δεν βρέθηκε η διεύθυνση"
+
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr ""
@@ -1203,6 +1208,14 @@ msgstr "Η συσχέτισή σας με τον Οργανισμό \"{}\" εγ�
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Το αντικείμενο στου οποίου η σειρά έχει επισυναφθεί δημιουργήθηκε από αυτόν τον χρήστη"
 
+#, fuzzy
+#| msgid "The item that this queue is attached to was created by this user"
+msgid "The item that this queue is attached to was created by this organization api key"
+msgstr "Το αντικείμενο στου οποίου η σειρά έχει επισυναφθεί δημιουργήθηκε από αυτόν τον χρήστη"
+
+msgid "email address"
+msgstr "διεύθυνση email"
+
 msgid "Ticket reference on the DeskPRO side"
 msgstr ""
 
@@ -1231,6 +1244,11 @@ msgstr "Ο Οργανισμός δεν υπάρχει"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Organization API key Permission"
+msgstr "Συγχωνεύσεις Οργανισμού"
 
 msgid "Sponsorship starts on"
 msgstr "Η αιγίδα ξεκινά την"
@@ -1427,9 +1445,6 @@ msgstr "Απαιτείται. Επιτρέπονται μόνο γράμματα
 msgid "Enter a valid username."
 msgstr "Εισάγετε ένα έγκυρο όνομα χρήστη."
 
-msgid "email address"
-msgstr "διεύθυνση email"
-
 msgid "first name"
 msgstr "όνομα"
 
@@ -1465,6 +1480,9 @@ msgstr "χρήστες"
 
 msgid "Password Reset Initiated"
 msgstr "Έναρξη Επαναφοράς Κωδικού"
+
+msgid "Determines if API Key inherits the User Permissions or is readonly."
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -1607,6 +1625,9 @@ msgstr ""
 #| msgid "Change email address"
 msgid "Specify at least one email address"
 msgstr "Αλλαγή διεύθυνσης email"
+
+msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1766,6 +1787,16 @@ msgstr "To δίκτυο %(n_name)s (%(n_id)s δημιουργήθηκε αυτό
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "Ο/η χρήστης '%(u_name)s' δημιούργησε το Δίκτυο %(n_name)s AS%(n_asn)s (%(n_id)s) υπό τον οργανισμό %(o_name)s (%(o_id)s)."
+
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+msgstr "Καθώς η διεύθυνση email του χρήστη ταυτοποιήθηκε με την καταχώρηση RIR το δίκτυο έχει παραπέμπψει την ουρά επαλήθευσης."
+
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Ο/η χρήστης '%(u_name)s' δημιούργησε το Δίκτυο %(n_name)s AS%(n_asn)s (%(n_id)s) υπό τον οργανισμό %(o_name)s (%(o_id)s)."
 
@@ -1837,23 +1868,42 @@ msgid "A new '%(entity_type_name)s' has been created and requires your approval.
 msgstr "Μια νέα οντότητα με όνομα '%(entity_type_name)s' έχει δημιουργηθεί και χρειάζεται την έγκρισή σας."
 
 #, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr ""
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "Ανακτήσαμε την καταχώρηση RIR για το συγκεκριμένο ASN"
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+#, fuzzy
+#| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
 msgstr "αλλά δεν βρήκαμε καταχώρηση με τον/την αιτούντα χρήστη. Σας παραθέτουμε τη λίστα διευθύνσεων email που αποκομίσαμε"
 
-msgid "Requested by user"
-msgstr "Αιτήθηκε από τον/ην χρήστη"
+#, fuzzy
+#| msgid "Organization"
+msgid "Requested by Organization API Key"
+msgstr "Οργανισμός"
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "API key prefix"
+msgstr "Prefix"
 
 msgid "You can go to"
 msgstr "Μπορείτε να πάτε στο"
 
 msgid "to view and approve or deny this entry"
 msgstr "για να δείτε και να εγκρίνετε ή να απορρίψετε την καταχώρηση αυτή"
+
+#, python-format
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgstr ""
+
+msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgstr "αλλά δεν βρήκαμε καταχώρηση με τον/την αιτούντα χρήστη. Σας παραθέτουμε τη λίστα διευθύνσεων email που αποκομίσαμε"
+
+msgid "Requested by user"
+msgstr "Αιτήθηκε από τον/ην χρήστη"
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
@@ -2189,6 +2239,36 @@ msgstr "Σύνδεση με τον λογαριασμό google σας"
 msgid "Login with your Facebook account"
 msgstr "Σύνδεση με τον λογαριασμό facebook σας"
 
+msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "Create"
+msgstr "Δημιουργία"
+
+msgid "Update"
+msgstr "Ενημέρωση"
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgid "Here you can create new API keys for your organization or revoke existing keys."
+msgstr ""
+
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Add Key"
+msgstr ""
+
 msgid "Partners"
 msgstr "Συνέταιροι"
 
@@ -2242,9 +2322,6 @@ msgstr "Συσχέτιση με οργανισμό"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Ο συσχετισμός σας με %(ar_name)s εκκρεμεί έγκρισης."
 
-msgid "Cancel"
-msgstr "Ακύρωση"
-
 #, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
@@ -2292,6 +2369,21 @@ msgstr "Η συσχέτισή σας"
 
 msgid "has been approved"
 msgstr "έχει εγκριθεί"
+
+msgid "API Keys"
+msgstr ""
+
+msgid "API Keys allow you to authenticate a client without providing your username and password."
+msgstr ""
+
+msgid "read-only"
+msgstr ""
+
+msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
+msgstr ""
+
+msgid "Read only"
+msgstr ""
 
 msgid "Change email address"
 msgstr "Αλλαγή διεύθυνσης email"
@@ -2374,9 +2466,6 @@ msgstr "Επίθετο"
 msgid "Loading anti-spam challenge"
 msgstr ""
 
-msgid "Create"
-msgstr "Δημιουργία"
-
 msgid "Thank you"
 msgstr "Ευχαριστούμε"
 
@@ -2451,14 +2540,17 @@ msgstr "Διαχείριση εφαρμογών OAuth"
 msgid "Pending Review"
 msgstr "Εκκρεμεί Ανασκόπησης"
 
-msgid "Edit"
-msgstr "Επεξεργασία"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Κάποια από τα δεδομένα σε αυτή τη σελίδα είναι ελλειπή, παρακαλούμε ενημερώστε τα πεδία μαρκαρισμένα ως"
 
 msgid "to improve data quality"
 msgstr "για να βελτιωθεί η ποιότητα των δεδομένων"
+
+msgid "Suggested Address:"
+msgstr ""
+
+msgid "Accept"
+msgstr ""
 
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Τα δεδομένα Geocode για αυτή την οντότητα δεν μπορούσαν να ανακτηθούν αυτή τη στιγμή. Αυτό συμβαίνι αυτόματα όταν αλλάζει το πεδίο διεύθυνσης."
@@ -2636,9 +2728,6 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
-msgid "Add"
-msgstr "Προσθήκη"
-
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2668,12 +2757,6 @@ msgstr "Δημόσια Peering Exchange Points"
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr "Δημόσια Peering Exchange Points"
 
-msgid "Delete"
-msgstr "Διαγραφή"
-
-msgid "Update"
-msgstr "Ενημέρωση"
-
 #, fuzzy
 #| msgid "email address"
 msgid "Set IPv6 address"
@@ -2695,9 +2778,6 @@ msgid "Clear IPv4 address"
 msgstr "διεύθυνση email"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
-
-msgid "Accept"
 msgstr ""
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
@@ -2737,6 +2817,11 @@ msgstr "Προσθήκη Exchange"
 
 msgid "Permissions"
 msgstr "Δικαιώματα"
+
+#, fuzzy
+#| msgid "User Permissions"
+msgid "API Key Permissions"
+msgstr "Δικαιώματα Χρήστη"
 
 #, fuzzy
 #| msgid "Organization"

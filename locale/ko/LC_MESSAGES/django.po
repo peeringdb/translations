@@ -739,6 +739,11 @@ msgstr "이메일 재설정"
 msgid "Reset tickets"
 msgstr "티켓 재설정"
 
+#, fuzzy
+#| msgid "Network not found"
+msgid "Key not found"
+msgstr "네트워크를 찾을 수 없음"
+
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr "ID별로 단일 '{obj_type}' 유형 개체 검색"
@@ -1067,6 +1072,14 @@ msgstr "조직 \"{}\"에 대한 가입이 승인됨"
 msgid "The item that this queue is attached to was created by this user"
 msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
 
+#, fuzzy
+#| msgid "The item that this queue is attached to was created by this user"
+msgid "The item that this queue is attached to was created by this organization api key"
+msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
+
+msgid "email address"
+msgstr "이메일 주소"
+
 msgid "Ticket reference on the DeskPRO side"
 msgstr "DeskPRO 측의 티켓 참조"
 
@@ -1097,6 +1110,11 @@ msgstr "조직 아래에 활성 객체가 있습니다."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "조직은 현재 적극적인 후원자입니다. 이 조직을 쉽게 제거할 수 있도록 PeeringDB 지원팀에 문의하십시오."
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Organization API key Permission"
+msgstr "조직 병합"
 
 msgid "Sponsorship starts on"
 msgstr "스폰서쉽 시작 날짜"
@@ -1279,9 +1297,6 @@ msgstr "필수. 문자, 숫자 및 [@.+-/_=|]만 가능."
 msgid "Enter a valid username."
 msgstr "유효한 사용자이름을 입력하시오."
 
-msgid "email address"
-msgstr "이메일 주소"
-
 msgid "first name"
 msgstr "이름"
 
@@ -1317,6 +1332,9 @@ msgstr "사용자"
 
 msgid "Password Reset Initiated"
 msgstr "암호 재설정 시작됨"
+
+msgid "Determines if API Key inherits the User Permissions or is readonly."
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Email"
@@ -1449,6 +1467,9 @@ msgstr ""
 
 msgid "Specify at least one email address"
 msgstr "하나 이상의 이메일 주소를 지정하시오"
+
+msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1590,6 +1611,16 @@ msgstr "조직 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) %(u_name)s가 AS%
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "네트워크 %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) 가 AS%(asn)s 에 대한 사용자 '%(u_name)s's 의 소속 요청 중 자동으로 생성됨"
 
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "사용자 '%(u_name)s'는 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) 조직 아래 %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>)네트워크를 생성했습니다."
+
+#, fuzzy
+#| msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었습니다."
+
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "사용자 '%(u_name)s'는 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) 조직 아래 %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>)네트워크를 생성했습니다."
@@ -1655,24 +1686,44 @@ msgstr "소유권 요청 승인 및 사용자에게 통지"
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "새 '%(entity_type_name)s'가 생성되었으며 사용자의 승인이 필요하다."
 
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#, fuzzy, python-format
+#| msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr "이 %(entity_type_name)s는 제안서로 제출되었으며 검토 후 적절한 조직을 할당해야 함"
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "지정된 ASN에 대한 RiR 항목을 검색함"
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+#, fuzzy
+#| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
 msgstr "요청된 사용자와 일치하는 항목을 찾을 수 없습니다. 여기 이메일 주소들이 있습니다"
 
-msgid "Requested by user"
-msgstr "사용자에 의해 요청됨"
+#, fuzzy
+#| msgid "Selected Organizations"
+msgid "Requested by Organization API Key"
+msgstr "선택된 조직"
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "API key prefix"
+msgstr "프리픽스"
 
 msgid "You can go to"
 msgstr "다음으로 이동할 수 있습니다"
 
 msgid "to view and approve or deny this entry"
 msgstr "이 항목을 검토하고 승인 또는 거절"
+
+#, python-format
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgstr "이 %(entity_type_name)s는 제안서로 제출되었으며 검토 후 적절한 조직을 할당해야 함"
+
+msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgstr "요청된 사용자와 일치하는 항목을 찾을 수 없습니다. 여기 이메일 주소들이 있습니다"
+
+msgid "Requested by user"
+msgstr "사용자에 의해 요청됨"
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
@@ -1980,6 +2031,36 @@ msgstr "구글 계정으로 로그인"
 msgid "Login with your Facebook account"
 msgstr "페이스북 계정으로 로그인"
 
+msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "Create"
+msgstr "생성"
+
+msgid "Update"
+msgstr "업데이트"
+
+msgid "Delete"
+msgstr "삭제"
+
+msgid "Add"
+msgstr "추가"
+
+msgid "Here you can create new API keys for your organization or revoke existing keys."
+msgstr ""
+
+msgid "Edit"
+msgstr "수정"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Add Key"
+msgstr ""
+
 msgid "Partners"
 msgstr "파트너"
 
@@ -2029,9 +2110,6 @@ msgstr "조직에 가입하기"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "%(ar_name)s다음 조직과의 가입이 승인 보류 중."
 
-msgid "Cancel"
-msgstr "취소"
-
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr "%(ar_name)s와의 제휴는 PeeringDB 관리 직원이 검토하고 있습니다."
@@ -2077,6 +2155,21 @@ msgstr "와의 가입이"
 
 msgid "has been approved"
 msgstr "승인되었습니다"
+
+msgid "API Keys"
+msgstr ""
+
+msgid "API Keys allow you to authenticate a client without providing your username and password."
+msgstr ""
+
+msgid "read-only"
+msgstr ""
+
+msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
+msgstr ""
+
+msgid "Read only"
+msgstr ""
 
 msgid "Change email address"
 msgstr "이메일 주소 변경"
@@ -2159,9 +2252,6 @@ msgstr "성"
 msgid "Loading anti-spam challenge"
 msgstr "스팸 방지 챌린지 로딩 중"
 
-msgid "Create"
-msgstr "생성"
-
 msgid "Thank you"
 msgstr "감사합니다"
 
@@ -2232,14 +2322,17 @@ msgstr "OAuth 애플리케이션 관리"
 msgid "Pending Review"
 msgstr "보류 검토"
 
-msgid "Edit"
-msgstr "수정"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "이 페이지의 일부 데이터가 완전하지 않습니다, 다음으로 표시된 필드를 업데이트하십시오"
 
 msgid "to improve data quality"
 msgstr "데이터 퀄리티를 개선하기"
+
+msgid "Suggested Address:"
+msgstr ""
+
+msgid "Accept"
+msgstr "수락"
 
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "이 항목에 대한 지오코드 데이터는 이 시점에서 얻을 수 없었습니다. 이것은 주소 필드가 변경될 때 자동으로 수행됩니다."
@@ -2391,9 +2484,6 @@ msgstr "모든 제안된 항목들 자동 추가"
 msgid "Auto-add"
 msgstr "자동 추가"
 
-msgid "Add"
-msgstr "추가"
-
 msgid "Options"
 msgstr "조건"
 
@@ -2416,12 +2506,6 @@ msgstr "이 항목을 당신의 공용 피어링 익스체인지 포인트 리�
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr "공용 피어링 익스체인지 포인트 목록에서 %(ix_name)s 에 대한 %(ixf_id)s 항목을 제거하시겠습니까?"
 
-msgid "Delete"
-msgstr "삭제"
-
-msgid "Update"
-msgstr "업데이트"
-
 msgid "Set IPv6 address"
 msgstr "IPv6 주소 설정"
 
@@ -2440,9 +2524,6 @@ msgstr "이메일 주소"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr "공용 피어링 교환 지점 목록에서 이 항목을 업데이트하십시오. 또한 이러한 변경사항을 수락한 후에도 계속 변경사항을 유지하려면 네트워크 기록을 저장해야 합니다."
-
-msgid "Accept"
-msgstr "수락"
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
 msgstr "네트워크에 의해 제거된 익스체인지로부터 활성 제안들을 복구할 것입니다"
@@ -2479,6 +2560,11 @@ msgstr "익스체인지 추가"
 
 msgid "Permissions"
 msgstr "권한"
+
+#, fuzzy
+#| msgid "User Permissions"
+msgid "API Key Permissions"
+msgstr "사용자 허용"
 
 msgid "Delete Organization"
 msgstr "조직 삭제"

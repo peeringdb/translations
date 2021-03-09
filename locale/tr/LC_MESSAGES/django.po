@@ -823,6 +823,11 @@ msgstr "Satış"
 msgid "Reset tickets"
 msgstr ""
 
+#, fuzzy
+#| msgid "Facility"
+msgid "Key not found"
+msgstr "Bina"
+
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr ""
@@ -1173,6 +1178,12 @@ msgstr ""
 msgid "The item that this queue is attached to was created by this user"
 msgstr ""
 
+msgid "The item that this queue is attached to was created by this organization api key"
+msgstr ""
+
+msgid "email address"
+msgstr ""
+
 msgid "Ticket reference on the DeskPRO side"
 msgstr ""
 
@@ -1199,6 +1210,11 @@ msgstr ""
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Organization API key Permission"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "Sponsorship starts on"
 msgstr ""
@@ -1391,9 +1407,6 @@ msgstr ""
 msgid "Enter a valid username."
 msgstr "Geçersiz kullanıcı adı/şifre."
 
-msgid "email address"
-msgstr ""
-
 #, fuzzy
 #| msgid "Facility"
 msgid "first name"
@@ -1442,6 +1455,9 @@ msgid "users"
 msgstr "Kullanıcılar"
 
 msgid "Password Reset Initiated"
+msgstr ""
+
+msgid "Determines if API Key inherits the User Permissions or is readonly."
 msgstr ""
 
 #, fuzzy
@@ -1582,6 +1598,9 @@ msgid "The `in_dfz` property has been deprecated and setting it to `False` is no
 msgstr ""
 
 msgid "Specify at least one email address"
+msgstr ""
+
+msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr ""
 
 #, fuzzy, python-format
@@ -1741,6 +1760,13 @@ msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically
 msgstr ""
 
 #, python-format
+msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr ""
+
+msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+msgstr ""
+
+#, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr ""
 
@@ -1811,22 +1837,37 @@ msgid "A new '%(entity_type_name)s' has been created and requires your approval.
 msgstr ""
 
 #, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr ""
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr ""
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
 msgstr ""
 
-msgid "Requested by user"
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Requested by Organization API Key"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "API key prefix"
 msgstr ""
 
 msgid "You can go to"
 msgstr ""
 
 msgid "to view and approve or deny this entry"
+msgstr ""
+
+#, python-format
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgstr ""
+
+msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgstr ""
+
+msgid "Requested by user"
 msgstr ""
 
 #, python-format
@@ -2165,6 +2206,38 @@ msgstr ""
 msgid "Login with your Facebook account"
 msgstr ""
 
+msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Here you can create new API keys for your organization or revoke existing keys."
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+#, fuzzy
+#| msgid "Balanced"
+msgid "Cancel"
+msgstr "Dengeli"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Add Key"
+msgstr ""
+
 msgid "Partners"
 msgstr ""
 
@@ -2218,11 +2291,6 @@ msgstr "Kullanıcı bu kuruluşa bağlanmak istiyor"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr ""
 
-#, fuzzy
-#| msgid "Balanced"
-msgid "Cancel"
-msgstr "Dengeli"
-
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr ""
@@ -2271,6 +2339,21 @@ msgid "Your affiliation with"
 msgstr "Halkla İlişkiler"
 
 msgid "has been approved"
+msgstr ""
+
+msgid "API Keys"
+msgstr ""
+
+msgid "API Keys allow you to authenticate a client without providing your username and password."
+msgstr ""
+
+msgid "read-only"
+msgstr ""
+
+msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
+msgstr ""
+
+msgid "Read only"
 msgstr ""
 
 #, fuzzy
@@ -2370,9 +2453,6 @@ msgstr "Bina"
 msgid "Loading anti-spam challenge"
 msgstr ""
 
-msgid "Create"
-msgstr ""
-
 msgid "Thank you"
 msgstr ""
 
@@ -2447,13 +2527,16 @@ msgstr "Halkla İlişkiler"
 msgid "Pending Review"
 msgstr ""
 
-msgid "Edit"
-msgstr ""
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr ""
 
 msgid "to improve data quality"
+msgstr ""
+
+msgid "Suggested Address:"
+msgstr ""
+
+msgid "Accept"
 msgstr ""
 
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
@@ -2638,9 +2721,6 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
-msgid "Add"
-msgstr ""
-
 #, fuzzy
 #| msgid "Regional"
 msgid "Options"
@@ -2665,12 +2745,6 @@ msgstr ""
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr ""
 
-msgid "Delete"
-msgstr ""
-
-msgid "Update"
-msgstr ""
-
 msgid "Set IPv6 address"
 msgstr ""
 
@@ -2684,9 +2758,6 @@ msgid "Clear IPv4 address"
 msgstr ""
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
-
-msgid "Accept"
 msgstr ""
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
@@ -2729,6 +2800,9 @@ msgid "Add Exchange"
 msgstr "Değişim noktası"
 
 msgid "Permissions"
+msgstr ""
+
+msgid "API Key Permissions"
 msgstr ""
 
 #, fuzzy

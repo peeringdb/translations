@@ -739,6 +739,11 @@ msgstr "Resetați adresa de e-mail"
 msgid "Reset tickets"
 msgstr "Resetați tichetele"
 
+#, fuzzy
+#| msgid "Network not found"
+msgid "Key not found"
+msgstr "Rețeaua nu a fost găsită"
+
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr "Obține un singur obiect de tip {obj_type} după ID-ul"
@@ -1067,6 +1072,14 @@ msgstr "Afilierea dvs. la organizația „{}” a fost aprobată"
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
 
+#, fuzzy
+#| msgid "The item that this queue is attached to was created by this user"
+msgid "The item that this queue is attached to was created by this organization api key"
+msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
+
+msgid "email address"
+msgstr "adresă de e-mail"
+
 msgid "Ticket reference on the DeskPRO side"
 msgstr "Referința tichetului din partea DeskPRO"
 
@@ -1097,6 +1110,11 @@ msgstr "Organizația are obiecte active sub aceasta."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "Organizația este în prezent un sponsor activ. Vă rugăm să contactați asistența PeeringDB pentru a ajuta la facilitarea eliminării acestei organizații."
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Organization API key Permission"
+msgstr "Îmbinările organizațiilor"
 
 msgid "Sponsorship starts on"
 msgstr "Perioada de sponsorizare începe de la"
@@ -1279,9 +1297,6 @@ msgstr "Necesar. Sunt permise doar litere, cifre si [@.+-/_=|]."
 msgid "Enter a valid username."
 msgstr "Introduceți un nume valid de utilizator."
 
-msgid "email address"
-msgstr "adresă de e-mail"
-
 msgid "first name"
 msgstr "prenume"
 
@@ -1317,6 +1332,9 @@ msgstr "utilizatori"
 
 msgid "Password Reset Initiated"
 msgstr "A fost inițiată resetarea parolei"
+
+msgid "Determines if API Key inherits the User Permissions or is readonly."
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Enabled"
@@ -1449,6 +1467,9 @@ msgstr "Proprietatea `in_dfz` a fost depreciată și setarea acesteia la „Fals
 
 msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
+
+msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1590,6 +1611,16 @@ msgstr "Organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) a fost crea
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "Rețeaua %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) a fost creată automat odată cu cererea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "Utilizatorul '%(u_name)s' a creat rețeaua %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sub organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+
+#, fuzzy
+#| msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+msgstr "Dacă adresa e-mail a utilizatorului s-a potrivit cu înregistrarea RIR, această rețea a trecut peste lista de așteptare în vederea verificării."
+
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Utilizatorul '%(u_name)s' a creat rețeaua %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sub organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
@@ -1655,24 +1686,44 @@ msgstr "Aprobă cererea de proprietate și notifică utilizatorul"
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "A fost creată o nouă entitate '%(entity_type_name)s' care necesită aprobare."
 
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#, fuzzy, python-format
+#| msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr "Această %(entity_type_name)s a fost trimisă ca sugestie și va trebui să fie atribuită organizației corespunzătoare după revizuire"
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "Am preluat înregistrarea RIR pentru ASN-ul specificat"
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+#, fuzzy
+#| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
 msgstr "dar nu a găsit nicio potrivire cu utilizatorul solicitant. Iată adresele e-mail pe care le-am adunat"
 
-msgid "Requested by user"
-msgstr "Solicitat de utilizator"
+#, fuzzy
+#| msgid "Selected Organizations"
+msgid "Requested by Organization API Key"
+msgstr "Organizații selectate"
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "API key prefix"
+msgstr "Prefix"
 
 msgid "You can go to"
 msgstr "Puteți merge la"
 
 msgid "to view and approve or deny this entry"
 msgstr "pentru a vedea și a aproba sau respinge această înregistrare"
+
+#, python-format
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgstr "Această %(entity_type_name)s a fost trimisă ca sugestie și va trebui să fie atribuită organizației corespunzătoare după revizuire"
+
+msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgstr "dar nu a găsit nicio potrivire cu utilizatorul solicitant. Iată adresele e-mail pe care le-am adunat"
+
+msgid "Requested by user"
+msgstr "Solicitat de utilizator"
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
@@ -1980,6 +2031,36 @@ msgstr "Autentificare cu contul Google"
 msgid "Login with your Facebook account"
 msgstr "Autentificare cu contul Facebook"
 
+msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "Create"
+msgstr "Creați"
+
+msgid "Update"
+msgstr "Actualizați"
+
+msgid "Delete"
+msgstr "Ștergeți"
+
+msgid "Add"
+msgstr "Adăugați"
+
+msgid "Here you can create new API keys for your organization or revoke existing keys."
+msgstr ""
+
+msgid "Edit"
+msgstr "Editați"
+
+msgid "Cancel"
+msgstr "Anulați"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Add Key"
+msgstr ""
+
 msgid "Partners"
 msgstr "Parteneri"
 
@@ -2029,9 +2110,6 @@ msgstr "Afiliați-vă la organizație"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Afilierea dvs. la %(ar_name)s așteaptă aprobarea."
 
-msgid "Cancel"
-msgstr "Anulați"
-
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr "Afilierea ta la %(ar_name)s așteaptă aprobarea."
@@ -2077,6 +2155,21 @@ msgstr "Afilierea dvs. cu"
 
 msgid "has been approved"
 msgstr "a fost aprobat(ă)"
+
+msgid "API Keys"
+msgstr ""
+
+msgid "API Keys allow you to authenticate a client without providing your username and password."
+msgstr ""
+
+msgid "read-only"
+msgstr ""
+
+msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
+msgstr ""
+
+msgid "Read only"
+msgstr ""
 
 msgid "Change email address"
 msgstr "Schimbați adresa e-mail"
@@ -2159,9 +2252,6 @@ msgstr "Nume"
 msgid "Loading anti-spam challenge"
 msgstr "Se încarcă verificarea anti-spam"
 
-msgid "Create"
-msgstr "Creați"
-
 msgid "Thank you"
 msgstr "Vă mulțumim"
 
@@ -2232,14 +2322,17 @@ msgstr "Gestionați aplicațiile OAuth"
 msgid "Pending Review"
 msgstr "Revizuire în așteptare"
 
-msgid "Edit"
-msgstr "Editați"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Unele dintre datele de pe această pagină sunt incomplete, vă rugăm să actualizați câmpurile marcate cu"
 
 msgid "to improve data quality"
 msgstr "pentru a îmbunătăți calitatea datelor"
+
+msgid "Suggested Address:"
+msgstr ""
+
+msgid "Accept"
+msgstr "Acceptați"
 
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Nu au putut fi obținute date geocod pentru această entitate. Acest lucru se face automat după modificările câmpului de adresă."
@@ -2391,9 +2484,6 @@ msgstr "Adăugați automat toate intrările sugerate"
 msgid "Auto-add"
 msgstr "Adăugare automată"
 
-msgid "Add"
-msgstr "Adăugați"
-
 msgid "Options"
 msgstr "Opțiuni"
 
@@ -2416,12 +2506,6 @@ msgstr "Eliminați această intrare din lista dvs. de Internet Exchange-uri cu p
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr "Eliminați intrarea %(ixf_id)s pentru %(ix_name)s din lista dvs. de Internet Exchange-uri cu peering public?"
 
-msgid "Delete"
-msgstr "Ștergeți"
-
-msgid "Update"
-msgstr "Actualizați"
-
 msgid "Set IPv6 address"
 msgstr "Setați adresa IPv6"
 
@@ -2436,9 +2520,6 @@ msgstr "Ștergeți adresa IPv4"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr "Actualizați această intrare în lista dvs. de Internet Exchange-uri cu peering public. De asemenea, va trebui să salvați înregistrarea rețelei pentru ca aceste modificări să persiste după acceptarea lor."
-
-msgid "Accept"
-msgstr "Acceptați"
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
 msgstr "Va restabili orice sugestii active din acest Internet Exchange care au fost respinse de rețea"
@@ -2475,6 +2556,11 @@ msgstr "Adăugați Internet Exchange"
 
 msgid "Permissions"
 msgstr "Permisiuni"
+
+#, fuzzy
+#| msgid "User Permissions"
+msgid "API Key Permissions"
+msgstr "Permisiunile utilizatorilor"
 
 msgid "Delete Organization"
 msgstr "Ștergeți organizația"

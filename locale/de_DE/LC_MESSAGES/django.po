@@ -742,6 +742,11 @@ msgstr "E-Mail zurücksetzen"
 msgid "Reset tickets"
 msgstr "Tickets zurücksetzen"
 
+#, fuzzy
+#| msgid "Network not found"
+msgid "Key not found"
+msgstr "Netz wurde nicht gefunden"
+
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr "Fragt ein einzelnes Objekt des Typs `{obj_type}` mithilfe seiner ID ab"
@@ -1068,6 +1073,14 @@ msgstr "Die Zugehörigkeit zum Unternehmen \"{}\" wurde freigegeben"
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
 
+#, fuzzy
+#| msgid "The item that this queue is attached to was created by this user"
+msgid "The item that this queue is attached to was created by this organization api key"
+msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
+
+msgid "email address"
+msgstr "E-Mail Adresse"
+
 msgid "Ticket reference on the DeskPRO side"
 msgstr "Ticket Referenz auf der DeskPRO Seite"
 
@@ -1098,6 +1111,11 @@ msgstr "Die Organisation hat keine aktiven Objekte unter sich."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "Die Organisation ist ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Organization API key Permission"
+msgstr "Zusammengeführte Organisationen"
 
 msgid "Sponsorship starts on"
 msgstr "Sponsoring/Patenschaft beginnt am"
@@ -1286,9 +1304,6 @@ msgstr "Erforderlich. Buchstaben, Zahlen und die Zeichen [@.+-/_=|]."
 msgid "Enter a valid username."
 msgstr "Bitte einen gültigen Benutzernamen eingeben."
 
-msgid "email address"
-msgstr "E-Mail Adresse"
-
 msgid "first name"
 msgstr "Vorname"
 
@@ -1324,6 +1339,9 @@ msgstr "Benutzer"
 
 msgid "Password Reset Initiated"
 msgstr "Passwort zurücksetzen wurde eingeleitet"
+
+msgid "Determines if API Key inherits the User Permissions or is readonly."
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Email"
@@ -1460,6 +1478,9 @@ msgstr "Eigenschaft `in_dfz` ist veraltet und kann nicht mehr auf `False` gesetz
 
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
+
+msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1607,6 +1628,16 @@ msgstr "Das Netzwerk %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) wurde autom
 
 #, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
+
+#, fuzzy
+#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
+msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
+msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten abgeglichen werden konnte, hat dieses Netzwerk die Überprüfungswarteschlange übersprungen."
+
+#, fuzzy, python-format
+#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
 
@@ -1677,24 +1708,44 @@ msgstr "Genehmigen Sie bitte die Anfrage nach Zuordnung / Gewährung von Besitzr
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "Ein/e neue/s '%(entity_type_name)s' wurde erstellt und erfordert Ihre Genehmigung."
 
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#, fuzzy, python-format
+#| msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr "Dieser %(entity_type_name)s wurde vorgeschlagen. Nach Prüfung werden wir ihn der richtigen Organisation zuweisen"
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "Wir haben den RiR-Eintrag für die angegebene ASN abgerufen"
 
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+#, fuzzy
+#| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
 msgstr "aber fand keine Übereinstimmung mit dem Benutzer, der die Anforderung stellte. Hier sind die E-Mail-Adressen, die wir fanden"
 
-msgid "Requested by user"
-msgstr "Beantragt von Benutzer"
+#, fuzzy
+#| msgid "Selected Organizations"
+msgid "Requested by Organization API Key"
+msgstr "Ausgewählte Organisationen"
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "API key prefix"
+msgstr "Präfix"
 
 msgid "You can go to"
 msgstr "Bitte gehen Sie zu"
 
 msgid "to view and approve or deny this entry"
 msgstr "Um den Benutzer freizuschalten oder abzulehnen"
+
+#, python-format
+msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+msgstr "Dieser %(entity_type_name)s wurde vorgeschlagen. Nach Prüfung werden wir ihn der richtigen Organisation zuweisen"
+
+msgid "but found no match with the requesting user. Here are the email addresses we gathered"
+msgstr "aber fand keine Übereinstimmung mit dem Benutzer, der die Anforderung stellte. Hier sind die E-Mail-Adressen, die wir fanden"
+
+msgid "Requested by user"
+msgstr "Beantragt von Benutzer"
 
 #, python-format
 msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
@@ -2006,6 +2057,36 @@ msgstr "Mit Google einloggen"
 msgid "Login with your Facebook account"
 msgstr "Mit Facebook anmelden"
 
+msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "Create"
+msgstr "Erstellen"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Here you can create new API keys for your organization or revoke existing keys."
+msgstr ""
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Add Key"
+msgstr ""
+
 msgid "Partners"
 msgstr "Partner"
 
@@ -2055,9 +2136,6 @@ msgstr "Zuordnung zu einer Organisation anfordern"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "Ihre Zuordnung zu %(ar_name)s wartet auf Genehmigung."
 
-msgid "Cancel"
-msgstr "Abbrechen"
-
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
 msgstr "Ihre Zuordnung zu %(ar_name)s wird vom PeeringDB Team geprüft."
@@ -2103,6 +2181,21 @@ msgstr "Ihre Zuordnung zu"
 
 msgid "has been approved"
 msgstr "wurde bestätigt"
+
+msgid "API Keys"
+msgstr ""
+
+msgid "API Keys allow you to authenticate a client without providing your username and password."
+msgstr ""
+
+msgid "read-only"
+msgstr ""
+
+msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
+msgstr ""
+
+msgid "Read only"
+msgstr ""
 
 msgid "Change email address"
 msgstr "E-Mail-Adresse ändern"
@@ -2185,9 +2278,6 @@ msgstr "Nachname"
 msgid "Loading anti-spam challenge"
 msgstr "Anti-Spam-Aufforderung wird geladen"
 
-msgid "Create"
-msgstr "Erstellen"
-
 msgid "Thank you"
 msgstr "Vielen Dank"
 
@@ -2259,14 +2349,17 @@ msgstr "OAuth-Anwendungen verwalten"
 msgid "Pending Review"
 msgstr "In Prüfung"
 
-msgid "Edit"
-msgstr "Bearbeiten"
-
 msgid "Some of the data on this page is incomplete, please update the fields marked with"
 msgstr "Einige der Daten auf dieser Seite sind unvollständig. Bitte aktualisieren Sie die Felder, die mit"
 
 msgid "to improve data quality"
 msgstr "markiert sind, um die Datenqualität zu erhöhen"
+
+msgid "Suggested Address:"
+msgstr ""
+
+msgid "Accept"
+msgstr "Akzeptieren"
 
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgerufen werden. Dies geschieht automatisch bei Änderungen im Adressfeld."
@@ -2420,9 +2513,6 @@ msgstr ""
 msgid "Auto-add"
 msgstr "Automatisches Hinzufügen"
 
-msgid "Add"
-msgstr "Hinzufügen"
-
 msgid "Options"
 msgstr "Optionen"
 
@@ -2450,12 +2540,6 @@ msgstr "Öffentliche Peering Austauschpunkte"
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
 msgstr "Öffentliche Peering Austauschpunkte"
 
-msgid "Delete"
-msgstr "Löschen"
-
-msgid "Update"
-msgstr "Aktualisieren"
-
 msgid "Set IPv6 address"
 msgstr "IPv6 Adresse setzen"
 
@@ -2474,9 +2558,6 @@ msgstr "IPv4 Adresse setzen"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
-
-msgid "Accept"
-msgstr "Akzeptieren"
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
 msgstr ""
@@ -2515,6 +2596,11 @@ msgstr "Exchange hinzufügen"
 
 msgid "Permissions"
 msgstr "Berechtigungen"
+
+#, fuzzy
+#| msgid "User Permissions"
+msgid "API Key Permissions"
+msgstr "Benutzerrechte"
 
 msgid "Delete Organization"
 msgstr "Organisation löschen"
