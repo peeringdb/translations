@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-03-09 19:58+0000\n"
+"PO-Revision-Date: 2021-03-09 20:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1023,16 +1023,16 @@ msgid "Error in forward geocode: No results found"
 msgstr "Fehler im Vorwärts-Geocode: kein Ergebnis gefunden"
 
 msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
+msgstr "Für die Rückwärts-Geocode-Suche müssen Länge und Breite definiert sein"
 
 msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
+msgstr "Fehler im Rückwärts-Geocode: Google Maps API Fehler"
 
 msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
+msgstr "Fehler im Rückwärts-Geocode: Zeitüberschreitung Google Maps API"
 
 msgid "Error in forward geocode: No address returned"
-msgstr ""
+msgstr "Fehler im Vorwärts-Geocode: es wurde keine Adresse zurückgegeben"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Dieser Unternehmenseintrag wurde vom angegeben ASN oder vom Namen übernommen. Wenn dieser Eintrag leer ist, konnte kein zugehöriges Unternehmen gefunden werden."
@@ -1093,24 +1093,20 @@ msgstr "DeskPRO Ticket"
 msgid "DeskPRO Tickets"
 msgstr "DeskPRO Tickets"
 
-#, fuzzy
-#| msgid "DeskPRO Ticket"
 msgid "DeskPRO Ticket CC Contact"
-msgstr "DeskPRO Ticket"
+msgstr "DeskPRO Ticket Cc Kontakt"
 
-#, fuzzy
-#| msgid "DeskPRO Ticket"
 msgid "Deskpro Ticket CC Contacts"
-msgstr "DeskPRO Ticket"
+msgstr "DeskPRO Ticket Cc Kontakte"
 
 msgid "Allows you to upload and set a logo image file for this organization"
-msgstr "Erlaubt es ein Unternehmens-Logo für dieses Unternehmen hochzuladen und es zu ändern"
+msgstr "Erlaubt es, ein Unternehmens-Logo für dieses Unternehmen hochzuladen und zu ändern"
 
 msgid "Organization has active objects under it."
-msgstr "Die Organisation hat keine aktiven Objekte unter sich."
+msgstr "Die Organisation hat aktive Objekte unter sich."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr "Die Organisation ist ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
+msgstr "Die Organisation ist derzeit ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
 
 #, fuzzy
 #| msgid "Organization Merges"
@@ -1118,34 +1114,34 @@ msgid "Organization API key Permission"
 msgstr "Zusammengeführte Organisationen"
 
 msgid "Sponsorship starts on"
-msgstr "Sponsoring/Patenschaft beginnt am"
+msgstr "Sponsoring beginnt am"
 
 msgid "Sponsorship ends on"
-msgstr "Sponsoring/Patenschaft endet am"
+msgstr "Sponsoring endet am"
 
 msgid "Expiration notification sent on"
-msgstr "Ablaufdatum wurde gesendet am"
+msgstr "Ablaufbenachrichtigung wurde gesendet am"
 
 msgid "Sponsorship"
-msgstr "Patenschaft"
+msgstr "Sponsoring"
 
 msgid "Sponsorships"
-msgstr "Patenschaften"
+msgstr "Sponsorings"
 
 msgid "Sponsorship Expired"
-msgstr "Abgelaufene Patenschaft"
+msgstr "Sponsoring ist abgelaufen"
 
 msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Paten (Sponsor) an diese Adresse weitergeleitet"
+msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Sponsor an diese Adresse weitergeleitet"
 
 msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Erlaubt es ein Logo für diese Paten (Sponsor) hochzuladen und es zu ändern"
+msgstr "Erlaubt es, ein Logo für diesen Sponsor hochzuladen und zu ändern"
 
 msgid "If specified clicking the partnership will take the user to this location"
 msgstr "Wenn angegeben, werden Benutzer bei einem Klick auf den Partner an diese Adresse weitergeleitet"
 
 msgid "Allows you to upload and set a logo image file for this partnership"
-msgstr "Erlaubt es ein Logo für diesen Partnerschaft hochzuladen un es zu ändern"
+msgstr "Erlaubt es, ein Logo für diese Partnerschaft hochzuladen und zu ändern"
 
 msgid "Partnership"
 msgstr "Partnerschaft"
@@ -1157,16 +1153,16 @@ msgid "Merged on"
 msgstr "Zusammengeführt am"
 
 msgid "Organization Merge"
-msgstr "Organisation zusammenführen"
+msgstr "Organisationzusammenführung"
 
 msgid "Organization Merges"
-msgstr "Zusammengeführte Organisationen"
+msgstr "Organisationenzusammenführungen"
 
 msgid "Organization Merge: Entity"
-msgstr "Organisation zusammenführen: Einheit"
+msgstr "Organisationzusammenführung: Einheit"
 
 msgid "Organization Merge: Entities"
-msgstr "Organisation zusammenführen: Einheiten"
+msgstr "Organisationzusammenführungen: Einheiten"
 
 msgid "Need to specify at least two asns"
 msgstr "Es müssen zumindest zwei ASNs angegeben werden"
@@ -1190,13 +1186,13 @@ msgid "IX-F error"
 msgstr "IX-F Fehler"
 
 msgid "Reason IX-F data could not be parsed"
-msgstr "IX-F data JSON konnte nicht analyisert werden, Grund"
+msgstr "Grund, dass IX-F JSON Daten nicht geparst werden konnten"
 
 msgid "IX-F error notification date"
-msgstr "IX-F Datumsfehler"
+msgstr "Benachrichtigungsdatum des IX-F Fehlers"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr "Letzte Mitteilung zum IX-F Formatproblem an den Internet Exchange"
+msgstr "Letzter Zeitpunkt, an dem der Internet Exchange über IX-F Formatprobleme benachrichtigt wurde"
 
 msgid "IX-F sent IPs for unsupported protocol"
 msgstr "IX-F: IPs für nicht unterstütztes Protokoll gefunden"
@@ -1211,7 +1207,7 @@ msgid "Ixlan for exchange already exists"
 msgstr "Ixlan für den Austauschpunkt existiert bereits"
 
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
+msgstr "Ein IX-F Import kann nicht ohne IX-F Teilnehmer URL aktiviert werden"
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -1223,15 +1219,11 @@ msgstr "IX-F Import Bericht"
 msgid "IX-F Import Logs"
 msgstr "IX-F Import Berichte"
 
-#, fuzzy
-#| msgid "IXF Import Log Entry"
 msgid "IX-F Import Log Entry"
-msgstr "IXF Import Log Eintrag"
+msgstr "IX-F Import Log Eintrag"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Log Entries"
-msgstr "IXF Import Log Einträge"
+msgstr "IX-F Import Log Einträge"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
 msgstr "JSON snapshot der Quelle für diesen Eintrag (IX-F Mitglied)"
