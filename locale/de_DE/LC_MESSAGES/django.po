@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-03-09 20:58+0000\n"
+"PO-Revision-Date: 2021-03-09 21:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1241,15 +1241,13 @@ msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "Datenimport in PeeringDB problematisch"
 
 msgid "Last Fetched"
-msgstr "Zuletzt aktualisiert"
+msgstr "Zuletzt runtergeladen"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr "Erfordert einen anderen IXFMemberData Eintrag und wird nebenher angelegt "
+msgstr "Erfordert einen anderen IXFMemberData Eintrag und wird nebenher angelegt"
 
-#, fuzzy
-#| msgid "IXF Member Data"
 msgid "IX-F Member Data"
-msgstr "IX-F Mitglieds Daten"
+msgstr "IX-F Mitgliedsdaten"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr "Keine verwendbaren IP-Adressen für aktivierte Netzwerkprotokolle gefunden"
@@ -1260,13 +1258,11 @@ msgstr "Aktive Peers in diesem Adressraum an diesem Internet Exchange"
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "IXLanPrefix mit Status '{}' kann nicht mit IXLan mit Status '{}' verknüpft werden."
 
-#, fuzzy
-#| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr "Gibt an, ob es einem IXP erlaubt ist einen netixlan Eintrag für dieses Netzwerk vorzunehmen anhand der ixp_member Daten"
+msgstr "Gibt an, ob es einem IXP erlaubt ist, einen netixlan Eintrag anhand der ixp_member Daten für dieses Netzwerk vorzunehmen"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr "Die Entität wurde für das ASN {} kreiert - bitte entferne es von dem Netzwerk und erstelle es nochmal im korrekten Netzwerk"
+msgstr "Die Entität wurde für das ASN {} erstellt - bitte entferne es von dem Netzwerk und erstelle es nochmal im richtigen Netzwerk"
 
 msgid "IPv4 address outside of prefix"
 msgstr "IPv4-Adresse liegt außerhalb des Präfix"
@@ -1274,15 +1270,11 @@ msgstr "IPv4-Adresse liegt außerhalb des Präfix"
 msgid "IPv6 address outside of prefix"
 msgstr "Die IPv6-Adresse liegt außerhalb des Präfix"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Maximum speed: {}"
-msgstr "gültiges Maximum {}"
+msgstr "Maximale Geschwindigkeit: {}"
 
-#, fuzzy
-#| msgid "Invalid speed value: {}"
 msgid "Minimum speed: {}"
-msgstr "Ungültiger Geschwindigkeitswert: {}"
+msgstr "Minimale Geschwindigkeit: {}"
 
 msgid "Ip address already exists elsewhere"
 msgstr "IP Adresse wird bereits an anderer Stelle benutzt"
@@ -1291,7 +1283,7 @@ msgid "username"
 msgstr "Benutzername"
 
 msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr "Erforderlich. Buchstaben, Zahlen und die Zeichen [@.+-/_=|]."
+msgstr "Erforderlich. Nur Buchstaben, Ziffern und die Zeichen [@.+-/_=|]."
 
 msgid "Enter a valid username."
 msgstr "Bitte einen gültigen Benutzernamen eingeben."
@@ -1312,7 +1304,7 @@ msgid "active"
 msgstr "Aktiv"
 
 msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr "Gibt an ob ein Benutzer als aktiv geführt werden soll. Statt Benutzer zu löschen bitte diesen Punkt deaktivieren."
+msgstr "Gibt an, ob ein Benutzer als aktiv geführt werden soll. Statt Benutzer zu löschen bitte diesen Punkt deaktivieren."
 
 msgid "date joined"
 msgstr "Beitrittsdatum"
@@ -1335,18 +1327,14 @@ msgstr "Passwort zurücksetzen wurde eingeleitet"
 msgid "Determines if API Key inherits the User Permissions or is readonly."
 msgstr ""
 
-#, fuzzy
-#| msgid "IXF Import Email"
 msgid "IX-F Import Email"
-msgstr "IXF-Import Mail"
+msgstr "IX-F-Import E-Mail"
 
-#, fuzzy
-#| msgid "IXF Import Emails"
 msgid "IX-F Import Emails"
-msgstr "IXF-Import Mails"
+msgstr "IX-F-Import EMails"
 
 msgid "name of the tool"
-msgstr "Name des Programms"
+msgstr "Name des Werkzeugs"
 
 msgid "json serialization of arguments and options passed"
 msgstr "JSON Anordung der Argumente und Optionen erfolgreich"
@@ -1367,13 +1355,13 @@ msgid "Done"
 msgstr "Erledigt"
 
 msgid "Running"
-msgstr "verarbeitet"
+msgstr "In Arbeit"
 
 msgid "Environment Setting"
 msgstr "Umgebungseinstellungen"
 
 msgid "Environment Settings"
-msgstr "Umgebungs-Einstellungen"
+msgstr "Umgebungseinstellungen"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
 msgstr "IX-F Importer: Tage bis DeskPRO Ticket erzeugt wird"
@@ -1417,8 +1405,7 @@ msgstr "Ungültiges Unternehmen angegeben"
 msgid "Needs to be member or admin"
 msgstr "Muss Mitglied oder Admin sein"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been approved"
+#, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 
@@ -1431,7 +1418,7 @@ msgid "Please contact {} to help with the deletion of this object"
 msgstr "Bitte kontaktieren Sie {} um Unterstützung bei der Löschung dieses Objekts zu bekommen"
 
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
-msgstr ""
+msgstr "Die angegebene Adresse wurde nicht gefunden. Bitte überprüfe die Adressdaten und kontaktiere {} für weitere Hilfe."
 
 msgid "Need to be unique"
 msgstr "Muss eindeutig sein"
@@ -1457,7 +1444,7 @@ msgid "Object of type '%(type)s' cannot be created because its parent entity '%(
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
-msgstr ""
+msgstr "Netzwerk muss eine Technische, NOC oder Peering Policy Kontaktperson mit gültiger E-Mail haben, bevor der Austauschpunkt hinzugefügt werden kann."
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
@@ -1466,7 +1453,7 @@ msgid "ASN cannot be changed."
 msgstr "ASN kann nicht geändert werden."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr "Eigenschaft `in_dfz` ist veraltet und kann nicht mehr auf `False` gesetzt werden"
+msgstr "Eigenschaft `in_dfz` ist veraltet und kann nicht mehr auf `Unwahr` gesetzt werden"
 
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
@@ -1476,10 +1463,10 @@ msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr "Benutzer%(u_name)s wünscht, zu Ihrer Organisation zuzugehören"
+msgstr "Benutzer %(u_name)s wünscht, zu Ihrer Organisation zuzugehören"
 
 msgid "Confirm your e-mail address"
-msgstr "Bestätigen Sie Ihre E-Mail Adresse"
+msgstr "Bestätigen Sie Ihre E-Mail-Adresse"
 
 msgid "Please confirm that"
 msgstr "Bitte bestätigen Sie, dass"
@@ -1513,7 +1500,7 @@ msgid ""
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgstr ""
 "\n"
-"Für RegEx-Suche à la  <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, muß die Suchanfrage mit ^ beginnen und mit $ enden.\n"
+"Für RegEx-Suche à la  <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> muss die Suchanfrage mit ^ beginnen und mit $ enden.\n"
 
 msgid "Save and Apply"
 msgstr "Speichern und Anwenden"
@@ -1522,7 +1509,7 @@ msgid "Save"
 msgstr "Speichern"
 
 msgid "Save and continue editing"
-msgstr "Speichern und Bearbeiten vorzusetzen"
+msgstr "Speichern und Bearbeiten fortsetzen"
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr "Vorsicht - bitte die Dokumentation lesen oder jemanden mit Erfahrung hinzuziehen"
@@ -1537,13 +1524,13 @@ msgid "Search"
 msgstr "Suche"
 
 msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
-msgstr "Org's in dieser Spalte werden mit Org's in der rechten Spalte zusammengeführt. Zum Deselektieren anklicken."
+msgstr "Organisationen in dieser Spalte werden mit der Organisation in der rechten Spalte zusammengeführt. Zum Abwählen anklicken."
 
 msgid "Merge Into Organization"
 msgstr "Zusammenführen in Organisation"
 
 msgid "Organizations in the left column will be merged into this organization"
-msgstr "Org's in der linken Spalte werden mit dieser Org zusammengeführt"
+msgstr "Organisationen in der linken Spalte werden mit dieser Organisation zusammengeführt"
 
 msgid "Merge Organizations"
 msgstr "Organisationen zusammenführen"
@@ -1588,7 +1575,7 @@ msgid "No further action is required on your part."
 msgstr "Von Ihrer Seite sind keine weiteren Maßnahmen erforderlich."
 
 msgid "As the organization's administrator you may view your organization's user list here"
-msgstr "Als Administrator der Organisation können Sie die Benutzerliste Ihrer Organisation hier anzeigen"
+msgstr "Als Administrator der Organisation können Sie sich die Benutzerliste Ihrer Organisation hier anzeigen lassen"
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
@@ -1628,10 +1615,9 @@ msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (<a
 msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten abgeglichen werden konnte, hat dieses Netzwerk die Überprüfungswarteschlange übersprungen."
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
+msgstr "Der Benutzer '%(u_name)s' hat das Netzwerk %(n_name)s als %(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -1691,10 +1677,10 @@ msgid "MEMBER"
 msgstr "MITGLIED"
 
 msgid "Review Affiliation/Ownership Request"
-msgstr "Überprüfen Sie bitte die Anfrage nach Zuordnung / Gewährung von Besitzrechten"
+msgstr "Überprüfen Sie bitte die Anfrage nach Zuordnung/Gewährung von Besitzrechten"
 
 msgid "Approve Ownership Request and Notify User"
-msgstr "Genehmigen Sie bitte die Anfrage nach Zuordnung / Gewährung von Besitzrechten und benachrichtigen den Benutzer"
+msgstr "Genehmigen Sie bitte die Anfrage nach Zuordnung/Gewährung von Besitzrechten und benachrichtigen den Benutzer"
 
 #, python-format
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
