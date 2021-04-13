@@ -3075,6 +3075,11 @@ msgstr "組織所属リクエストをするまで少々お待ちください"
 msgid "Either ASN or Organization required"
 msgstr "AS 番号もしくは組織のどちらかが必要となります"
 
+#, fuzzy
+#| msgid "You may request affiliation to an Organization or ASN"
+msgid "You already requested affiliation to this ASN/org"
+msgstr "組織もしくは AS 番号に対する所属リクエストをする事が出来ます"
+
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "再度確認メールを送るまで少々お待ちください"
 
