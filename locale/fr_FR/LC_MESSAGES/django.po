@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-06-08 08:02+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2021-05-01 11:58+0000\n"
+"Last-Translator: Guillaume Mazoyer <peeringdb@mazoyer.eu>\n"
 "Language-Team: French <https://translate.peeringdb.com/projects/peeringdb/server/fr/>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.0.4\n"
 
 msgid "Ethernet"
 msgstr "Ethernet"
@@ -48,13 +48,13 @@ msgid "Sales"
 msgstr "Ventes"
 
 msgid "Open"
-msgstr "Ouvert"
+msgstr "Ouverte"
 
 msgid "Selective"
-msgstr "Selectif"
+msgstr "Sélective"
 
 msgid "Restrictive"
-msgstr "Restrictif"
+msgstr "Restrictive"
 
 msgid "No"
 msgstr "Non"
@@ -96,7 +96,7 @@ msgid "Mostly Outbound"
 msgstr "Généralement sortant"
 
 msgid "Balanced"
-msgstr "Balancé"
+msgstr "Équilibré"
 
 msgid "Mostly Inbound"
 msgstr "Généralement entrant"
@@ -137,79 +137,55 @@ msgid "0-20Mbps"
 msgstr "0-20 Mbps"
 
 msgid "20-100Mbps"
-msgstr "20-100Mbps"
+msgstr "20-100 Mbps"
 
 msgid "100-1000Mbps"
-msgstr "100-1000Mbps"
+msgstr "100-1000 Mbps"
 
 msgid "1-5Gbps"
-msgstr "1-5Gbps"
+msgstr "1-5 Gbps"
 
 msgid "5-10Gbps"
-msgstr "5-10Gbps"
+msgstr "5-10 Gbps"
 
 msgid "10-20Gbps"
-msgstr "10-20Gbps"
+msgstr "10-20 Gbps"
 
-#, fuzzy
-#| msgid "20-50 Gbps"
 msgid "20-50Gbps"
 msgstr "20-50 Gbps"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Gbps"
 msgstr "50-100 Gbps"
 
-#, fuzzy
-#| msgid "100-200 Gbps"
 msgid "100-200Gbps"
 msgstr "100-200 Gbps"
 
-#, fuzzy
-#| msgid "200-300 Gbps"
 msgid "200-300Gbps"
 msgstr "200-300 Gbps"
 
-#, fuzzy
-#| msgid "300-500 Gbps"
 msgid "300-500Gbps"
 msgstr "300-500 Gbps"
 
-#, fuzzy
-#| msgid "500-1000 Gbps"
 msgid "500-1000Gbps"
 msgstr "500-1000 Gbps"
 
-#, fuzzy
-#| msgid "1 Tbps+"
 msgid "1-5Tbps"
-msgstr "1 Tbps+"
+msgstr "1-5 Tbps"
 
-#, fuzzy
-#| msgid "5-10Gbps"
 msgid "5-10Tbps"
-msgstr "5-10Gbps"
+msgstr "5-10 Tbps"
 
-#, fuzzy
-#| msgid "10-20Gbps"
 msgid "10-20Tbps"
-msgstr "10-20Gbps"
+msgstr "10-20 Tbps"
 
-#, fuzzy
-#| msgid "20-50 Gbps"
 msgid "20-50Tbps"
-msgstr "20-50 Gbps"
+msgstr "20-50 Tbps"
 
-#, fuzzy
-#| msgid "50-100 Gbps"
 msgid "50-100Tbps"
-msgstr "50-100 Gbps"
+msgstr "50-100 Tbps"
 
-#, fuzzy
-#| msgid "100+ Gbps"
 msgid "100+Tbps"
-msgstr "100+ Gbps"
+msgstr "100+ Tbps"
 
 msgid "NSP"
 msgstr "FSR"
@@ -218,13 +194,13 @@ msgid "Content"
 msgstr "Contenu"
 
 msgid "Cable/DSL/ISP"
-msgstr "Câble/DSL/ISP"
+msgstr "Câble / DSL / FAI"
 
 msgid "Enterprise"
 msgstr "Entreprise"
 
 msgid "Educational/Research"
-msgstr "Educationnel/Recherche"
+msgstr "Éducation / Recherche"
 
 msgid "Non-Profit"
 msgstr "À but non lucratif"
@@ -232,16 +208,14 @@ msgstr "À but non lucratif"
 msgid "Route Server"
 msgstr "Serveur de routes"
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Services"
-msgstr "Étendue du réseau"
+msgstr "Services réseau"
 
 msgid "Route Collector"
-msgstr ""
+msgstr "Collecteur de routes"
 
 msgid "Government"
-msgstr ""
+msgstr "Gouvernement"
 
 msgid "Private"
 msgstr "Privé"
@@ -253,7 +227,7 @@ msgid "Public"
 msgstr "Publique"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr ""
+msgstr "Un numéro de téléphone au format E.164 débute par un +, suivi du code pays, puis du numéro national (sans les 0 dans la plupart des pays), sans espace ou tiret entre les groupes de numéros"
 
 msgid "Kosovo"
 msgstr "Kosovo"
@@ -267,8 +241,9 @@ msgstr "Adresse 2"
 msgid "City"
 msgstr "Ville"
 
+#, fuzzy
 msgid "State"
-msgstr "Etat"
+msgstr "Région"
 
 msgid "Zip-Code"
 msgstr "Code postal"
@@ -280,13 +255,13 @@ msgid "Suite"
 msgstr ""
 
 msgid "Floor"
-msgstr ""
+msgstr "Étage"
 
 msgid "Latitude"
-msgstr ""
+msgstr "Latitude"
 
 msgid "Longitude"
-msgstr ""
+msgstr "Longitude"
 
 msgid "Name"
 msgstr "Nom"
@@ -306,10 +281,8 @@ msgstr "Remarques"
 msgid "Organization"
 msgstr "Organisation"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
-msgstr "Organisation"
+msgstr "Organisations"
 
 msgid "CLLI Code"
 msgstr "Code CLLI"
@@ -323,26 +296,22 @@ msgid "NPA-NXX"
 msgstr "NPA-NXX"
 
 msgid "Technical Email"
-msgstr "Adresse email technique"
+msgstr "Adresse e-mail technique"
 
 msgid "Technical Phone"
 msgstr "Téléphone technique"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales Email"
-msgstr "Changer l'adresse email"
+msgstr "Adresse e-mail commercial"
 
-#, fuzzy
-#| msgid "Sales"
 msgid "Sales Phone"
-msgstr "Ventes"
+msgstr "Téléphone commercial"
 
 msgid "Facility"
-msgstr "Installation"
+msgstr "Lieu d'installation"
 
 msgid "Facilities"
-msgstr "Installations"
+msgstr "Lieux d'installation"
 
 msgid "Role"
 msgstr "Rôle"
@@ -354,46 +323,40 @@ msgid "Phone"
 msgstr "Téléphone"
 
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contact"
-msgstr "Contactez nous"
+msgstr "Contact"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contacts"
-msgstr "Contactez nous"
+msgstr "Contacts"
 
 msgid "IRR as-set/route-set"
-msgstr ""
+msgstr "IRR as-set / route-set"
 
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
-msgstr ""
+msgstr "Référence d'un AS-SET ou ROUTE-SET dans un registre de routage Internet (IRR)"
 
 msgid "Looking Glass URL"
-msgstr "Looking Glass URL"
+msgstr "URL looking glass"
 
 msgid "Route Server URL"
-msgstr "Route Server URL"
+msgstr "URL serveur de routes"
 
-#, fuzzy
-#| msgid "Private Only"
 msgid "Private notes"
-msgstr "Privé seulement"
+msgstr "Notes privées"
 
 msgid "Traffic Levels"
 msgstr "Niveaux de trafic"
 
 msgid "Traffic Ratios"
-msgstr "Direction du trafic"
+msgstr "Proportion de trafic"
 
 msgid "Geographic Scope"
-msgstr "Zone d'intérêt"
+msgstr "Zone géographique"
 
 msgid "Network Type"
 msgstr "Type de réseau"
@@ -402,47 +365,43 @@ msgid "IPv4 Prefixes"
 msgstr "Préfixes IPv4"
 
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Nombre maximum de routes / préfixes IPv4 à configurer sur une session de peering pour cet ASN"
 
 msgid "IPv6 Prefixes"
 msgstr "Préfixes IPv6"
 
 msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Nombre maximum de routes / préfixes IPv6 à configurer sur une session de peering pour cet ASN"
 
 msgid "Unicast IPv4"
-msgstr "Unicast IPv4"
+msgstr "IPv4 unicast"
 
 msgid "Multicast"
 msgstr "Multicast"
 
-#, fuzzy
-#| msgid "Unicast IPv4"
 msgid "Unicast IPv6"
-msgstr "Unicast IPv4"
+msgstr "IPv6 unicast"
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "Never via route servers"
-msgstr "Serveur de routes"
+msgstr "Jamais sur les serveurs de routes"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
-msgstr ""
+msgstr "Indique si ce réseau annoncera ses routes sur les serveurs de routes"
 
 msgid "Peering Policy"
-msgstr "Règlement de peering"
+msgstr "Politique de peering"
 
 msgid "General Policy"
-msgstr "Politique générale"
+msgstr "Politique globale"
 
 msgid "Multiple Locations"
 msgstr "Emplacements multiples"
 
 msgid "Ratio Requirement"
-msgstr "Pré-requis de direction"
+msgstr "Ratio exigé"
 
 msgid "Contract Requirement"
-msgstr "Contrat requis"
+msgstr "Contrat exigé"
 
 msgid "Network"
 msgstr "Réseau"
@@ -451,122 +410,92 @@ msgid "Networks"
 msgstr "Réseaux"
 
 msgid "Continental Region"
-msgstr "Région continentale"
+msgstr "Continent"
 
 msgid "Media Type"
 msgstr "Type de média"
 
 msgid "Company Website"
-msgstr "Site Internet"
+msgstr "Site Internet de l'entreprise"
 
 msgid "Traffic Stats Website"
 msgstr "Site de statistiques du trafic"
 
 msgid "Policy Email"
-msgstr "Email administratif"
+msgstr "E-mail administratif"
 
 msgid "Policy Phone"
 msgstr "Téléphone administratif"
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "IX-F Network Count"
-msgstr "Adresse non-trouvée"
+msgstr "Total réseau IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Last Import"
-msgstr "Journal d'importation IXF"
+msgstr "Dernier import IX-F"
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange"
-msgstr "N'importe quel échange"
+msgstr "Point d'échange Internet"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Internet Exchanges"
-msgstr "Point d'échange"
+msgstr "Points d'échange Internet"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "Internet Exchange facility"
-msgstr "Point d'échange - Lien de l'installation"
+msgstr "Point d'échange Internet - Lieu d'installation"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Internet Exchange facilities"
-msgstr "Installations"
+msgstr "Lieux d'installation du point d'échange Internet"
 
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "Route Server ASN"
-msgstr "Serveur de routes"
+msgstr "ASN du serveur de routes"
 
 msgid "ARP sponging MAC"
-msgstr ""
+msgstr "MAC d'ARP sponging"
 
-#, fuzzy
-#| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
-msgstr "URL d'export des membres IXF"
+msgstr "URL d'export des membres IX-F"
 
-#, fuzzy
-#| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL Visibility"
-msgstr "URL d'export des membres IXF"
+msgstr "Visibilité de l'URL d'export des membres IX-F"
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange LAN"
-msgstr "N'importe quel échange"
+msgstr "LAN du point d'échange Internet"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Internet Exchange LANs"
-msgstr "Point d'échange"
+msgstr "LAN du point d'échange Internet"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Protocole"
 
 msgid "Prefix"
 msgstr "Préfixe"
 
 msgid "Internet Exchange LAN prefix"
-msgstr ""
+msgstr "Préfixe du LAN du point d'échange Internet"
 
 msgid "Internet Exchange LAN prefixes"
-msgstr ""
+msgstr "Préfixes du LAN du point d'échange Internet"
 
 msgid "Local ASN"
 msgstr "Numéro d'AS local"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Network Facility"
-msgstr "Installation"
+msgstr "Lieu d'installation réseau"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Network Facilities"
-msgstr "Installations"
+msgstr "Lieux d'installations réseau"
 
 msgid "RS peer"
 msgstr ""
 
 msgid "Speed (mbit/sec)"
-msgstr "Vitesse (mbit/s)"
+msgstr "Vitesse (Mbit/s)"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Operational"
-msgstr "Régional"
+msgstr "Opérationnel"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Public Peering Exchange Point"
 msgstr "Points d'échange publics"
 
@@ -574,48 +503,46 @@ msgid "Public Peering Exchange Points"
 msgstr "Points d'échange publics"
 
 msgid "Czech"
-msgstr ""
+msgstr "Tchèque"
 
 msgid "German"
-msgstr ""
+msgstr "Allemand"
 
 msgid "Greek"
-msgstr ""
+msgstr "Grec"
 
 msgid "English"
 msgstr "Anglais"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Espagnol"
 
 msgid "French"
-msgstr ""
+msgstr "Français"
 
-#, fuzzy
-#| msgid "Australia"
 msgid "Italian"
-msgstr "Australie"
+msgstr "Italien"
 
 msgid "Japanese"
-msgstr ""
+msgstr "Japonais"
 
 msgid "Occitan"
-msgstr ""
+msgstr "Occitan"
 
 msgid "Portuguese"
 msgstr "Portugais"
 
 msgid "Romanian"
-msgstr ""
+msgstr "Roumain"
 
 msgid "Russian"
-msgstr ""
+msgstr "Russe"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Chinois (simplifié)"
 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "Chinois (traditionnel)"
 
 msgid "Status"
 msgstr "Statut"
@@ -624,22 +551,23 @@ msgid "Target org cannot be in selected organizations list"
 msgstr "L'organisation de destination ne peut pas apparaître dans la liste des organisations sélectionnées"
 
 msgid "ROLLBACK"
-msgstr "RETOUR EN ARRIERE"
+msgstr "RETOUR ARRIÈRE"
 
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+msgstr "Les IXLAN ne peuvent plus être supprimer directement car ils dépendent du point d'échange"
 
 msgid "Protected object '{}': {}"
-msgstr ""
+msgstr "Objet protégé '{}' : {}"
 
+#, fuzzy
 msgid "SOFT DELETE"
-msgstr "SUPPRESSION DOUCE"
+msgstr "SUPPRESSION"
 
 msgid "Verification Queue is currently disabled"
-msgstr "La queue de validation est actuellement désactivée"
+msgstr "La file de validation est actuellement désactivée"
 
 msgid "Verification Queue is currently disabled for this object type"
-msgstr "La file d'attente de vérification est actuellement désactivée pour ce type d'objet. La queue de validation est actuellement désactivée pour ce type d'objet"
+msgstr "La file de vérification est actuellement désactivée pour ce type d'objet"
 
 msgid "APPROVE"
 msgstr "APPROUVER"
@@ -653,28 +581,26 @@ msgstr "APPROUVÉ"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "L'utilisateur cherche à s'affilier aux organisations suivantes"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import History"
-msgstr "Historique d'import IXF"
+msgstr "Historique d'import IX-F"
 
 msgid "Initial creation of netixlan"
 msgstr "Création initiale du netixlan"
 
 msgid "CAN BE ROLLED BACK"
-msgstr "RETOUR EN ARRIÈRE POSSIBLE"
+msgstr "RETOUR ARRIÈRE POSSIBLE"
 
 msgid "CANNOT BE ROLLED BACK"
-msgstr "RETOUR EN ARRIÈRE IMPOSSIBLE"
+msgstr "RETOUR ARRIÈRE IMPOSSIBLE"
 
 msgid "Has been changed since"
-msgstr "A été changé depuis"
+msgstr "Dernier changement"
 
 msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr "Un netixlan avec la même adresse IP existe maintenant ailleurs"
+msgstr "Un netixlan avec la même adresse IP existe déjà"
 
 msgid "HAS BEEN ROLLED BACK"
-msgstr "RETOUR EN ARRIÈRE EFFECTUÉ"
+msgstr "RETOUR ARRIÈRE EFFECTUÉ"
 
 msgid "Not Set"
 msgstr "Non défini"
@@ -691,16 +617,14 @@ msgstr "Terminé"
 msgid "Waiting"
 msgstr "En attente"
 
-#, fuzzy
-#| msgid "Malformed organization ids"
 msgid "No organization(s) set"
-msgstr "Identifications d'organisation invalides"
+msgstr "Aucune organisation définie"
 
 msgid "Malformed organization ids"
 msgstr "Identifications d'organisation invalides"
 
 msgid "Merge target organization does not exist"
-msgstr "L'organisation de destination de la fusion n'existe pas"
+msgstr "L'organisation de fusion n'existe pas"
 
 msgid "Organization Merging Tool"
 msgstr "Outil de fusion d'organisations"
@@ -709,18 +633,16 @@ msgid "Undo merge"
 msgstr "Annuler la fusion"
 
 msgid "APPROVE selected items"
-msgstr "APPROUVER les items selectionnés"
+msgstr "APPROUVER la sélection"
 
 msgid "DENY and delete selected items"
-msgstr "REFUSER et effacer les items selectionnés"
+msgstr "REFUSER et effacer la sélection"
 
 msgid "View"
 msgstr "Voir"
 
-#, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "Cannot approve a canceled affiliation request"
-msgstr "Votre affiliation avec %(ar_name)s a été rejetée"
+msgstr "Impossible d'approuver une requête d'affiliation annulée"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "La demande d'affiliation a été approuvée et l'utilisateur a été informé."
@@ -731,10 +653,8 @@ msgstr "Approuver et notifier l'utilisateur"
 msgid "Approve"
 msgstr "Approuver"
 
-#, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "Cannot deny a canceled affiliation request"
-msgstr "Votre affiliation avec %(ar_name)s a été rejetée"
+msgstr "Impossible de refuser une requête d'affiliation annulée"
 
 msgid "Deny"
 msgstr "Refuser"
@@ -755,7 +675,7 @@ msgid "User Permission"
 msgstr "Permission de l'utilisateur"
 
 msgid "User Permissions"
-msgstr "Permissions de l'utilisateu"
+msgstr "Permissions de l'utilisateur"
 
 msgid "Only POST requests allowed."
 msgstr "Seules les requêtes de type POST sont autorisées."
@@ -764,15 +684,13 @@ msgid "{} (Preview)"
 msgstr "{} (Prévisualisation)"
 
 msgid "Apply"
-msgstr ""
+msgstr "Appliquer"
 
-#, fuzzy
-#| msgid "Ratio Requirement"
 msgid "No requirements"
-msgstr "Pré-requis de direction"
+msgstr "Aucun pré-requis"
 
 msgid "Value"
-msgstr ""
+msgstr "Valeur"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
@@ -1191,10 +1109,8 @@ msgstr "Approuvé"
 msgid "Denied"
 msgstr "Refusé"
 
-#, fuzzy
-#| msgid "Cancel"
 msgid "Canceled"
-msgstr "Annuler"
+msgstr "Annulé"
 
 msgid "Status of this request"
 msgstr "Statut de la requête"
@@ -2562,7 +2478,7 @@ msgid "Prefixes"
 msgstr "Préfixe"
 
 msgid "IXLAN Prefix"
-msgstr "Préfixe IXLAN"
+msgstr "Préfixe du réseau d'échange"
 
 msgid "Add Prefix"
 msgstr "Ajouter un préfixe"
@@ -2582,7 +2498,7 @@ msgid "You may filter by"
 msgstr "Vous pouvez filtrer selon"
 
 msgid "Exchange - Facility link"
-msgstr "Point d'échange - Lien de l'installation"
+msgstr "Point d'échange - Lien du lieu d'installation"
 
 msgid "Add Facility"
 msgstr "Ajouter installation"
@@ -3001,10 +2917,8 @@ msgstr "jours dans le passé"
 msgid "Not a valid phone number (E.164)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "Non requis"
+msgstr "Champs requis"
 
 msgid "Invalid prefix: {}"
 msgstr "Préfixe invalide: {}"
