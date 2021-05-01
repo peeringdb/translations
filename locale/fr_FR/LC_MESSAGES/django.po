@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-05-01 11:58+0000\n"
+"PO-Revision-Date: 2021-05-01 12:58+0000\n"
 "Last-Translator: Guillaume Mazoyer <peeringdb@mazoyer.eu>\n"
 "Language-Team: French <https://translate.peeringdb.com/projects/peeringdb/server/fr/>\n"
 "Language: fr_FR\n"
@@ -693,69 +693,59 @@ msgid "Value"
 msgstr "Valeur"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "La commande est en cours d'exécution - attendez la fin avant de la relancer"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
 msgstr ""
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "Ancien préfixe - renuméroter tous les netixlans dans ce préfixe"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+msgstr "Nouveau préfixe - doit utiliser le même protocole et la même taille que l'ancien"
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "Fusionner ce lieu d'installation - il sera supprimé"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Target facility"
-msgstr "Installation"
+msgstr "Lieu d'installation destination"
 
-#, fuzzy
-#| msgid "Undo merge"
 msgid "Undo this merge"
 msgstr "Annuler la fusion"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
+msgstr "Ne pas supprimer les utilisateurs. Les comptes privilégiés seront toujours conservés."
 
 msgid "Load data from peeringdb API"
-msgstr "Charger les données depuis l'API peeringdb"
+msgstr "Charger les données depuis l'API PeeringDB"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "Restaurer cet object - recherche par [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "Seuls les objets de type {} peuvent être restaurés avec cette interface"
 
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
+msgstr "Sélectionner un point d'échange Internet pour importer les données IX-F des membres"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset all"
-msgstr "Vider"
+msgstr "Tout réinitialiser"
 
 #, fuzzy
 #| msgid "Reset"
 msgid "Reset hints"
-msgstr "Vider"
+msgstr "Réinitialiser les indices"
 
 #, fuzzy
 #| msgid "Reset"
 msgid "Reset dismisses"
-msgstr "Vider"
+msgstr "Réinitialiser les rejets"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Reset email"
-msgstr "Changer l'adresse email"
+msgstr "Réinitialiser l'e-mail"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset tickets"
-msgstr "Vider"
+msgstr "Réinitialiser les tickets"
 
 #, fuzzy
 #| msgid "Address not found"
