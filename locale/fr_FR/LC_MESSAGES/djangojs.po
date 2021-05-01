@@ -7,14 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-06-04 09:00+0200\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2021-05-01 11:58+0000\n"
+"Last-Translator: Guillaume Mazoyer <peeringdb@mazoyer.eu>\n"
+"Language-Team: French <https://translate.peeringdb.com/projects/peeringdb/javascript/fr/>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr "Certains champs contiennent des entrées invalides - veuillez les corriger et essayer à nouveau."
@@ -50,19 +51,19 @@ msgid "No"
 msgstr "Non"
 
 msgid "Nothing to do"
-msgstr ""
+msgstr "Rien à faire"
 
 msgid "This will create the following entries"
-msgstr ""
+msgstr "Cela va créer les entrées suivantes"
 
 msgid "Remove these entries"
-msgstr ""
+msgstr "Supprimer ces entrées"
 
 msgid "Update these entries"
-msgstr ""
+msgstr "Actualiser ces entrées"
 
 msgid "You do not have permissions to perform this action"
-msgstr ""
+msgstr "Vous n'avez pas la permission d'effectuer cette action"
 
 msgid "Remove"
 msgstr "Supprimer"
@@ -71,28 +72,29 @@ msgid "Canceled"
 msgstr "Annulé"
 
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
-msgstr ""
+msgstr "Votre clé API a été créée. Gardez-la en sécurité. Les clés ne peuvent être récupérées plus tard."
 
 msgid "I have written down my key"
-msgstr ""
+msgstr "J'ai noté ma clé"
 
 msgid "Revoke key"
-msgstr ""
+msgstr "Révoquer la clé"
 
 msgid "Add user"
 msgstr "Ajouter utilisateur"
 
 msgid "to Organization?"
-msgstr "à l'Organisation?"
+msgstr "à l'organisation ?"
 
 msgid "Deny"
-msgstr "Rejeter"
+msgstr "Refuser"
 
+#, fuzzy
 msgid "request to join the Organization?"
-msgstr "requête de rejoindre l'Organisation?"
+msgstr "demander à rejoindre l'organisation ?"
 
 msgid "Unknown request type:"
-msgstr "Type de requête inconnu:"
+msgstr "Type de requête inconnu :"
 
 msgid "not yet been approved"
 msgstr "pas encore été approuvé"
@@ -107,7 +109,7 @@ msgid "Participant"
 msgstr "Participant"
 
 msgid "Facility"
-msgstr "Installation"
+msgstr "Lieu d'installation"
 
 msgid "Network Contact"
 msgstr "Contact réseau"
@@ -116,16 +118,16 @@ msgid "Network - Exchange link"
 msgstr "Réseau - Lien du point d'échange"
 
 msgid "Network - Facility link"
-msgstr "Réseau - Lien de l'installation"
+msgstr "Réseau - Lien du lieu d'installation"
 
 msgid "IXLAN Prefix"
 msgstr "Préfixe du réseau d'échange"
 
 msgid "Exchange - Facility link"
-msgstr "Point d'échange - Lien de l'installation"
+msgstr "Point d'échange - Lien du lieu d'installation"
 
 msgid "Needs to be an integer or a speed ending in M, G, or T"
-msgstr ""
+msgstr "Doit être un entier ou une vitesse finissant par M, G ou T"
 
 #~ msgid "IXLAN"
 #~ msgstr "Réseau d'échange"
