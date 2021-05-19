@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-05-01 12:58+0000\n"
+"PO-Revision-Date: 2021-05-19 07:58+0000\n"
 "Last-Translator: Guillaume Mazoyer <peeringdb@mazoyer.eu>\n"
 "Language-Team: French <https://translate.peeringdb.com/projects/peeringdb/server/fr/>\n"
 "Language: fr_FR\n"
@@ -272,8 +272,9 @@ msgstr "Code postal"
 msgid "Country"
 msgstr "Pays"
 
+#, fuzzy
 msgid "Suite"
-msgstr ""
+msgstr "Ensemble"
 
 msgid "Floor"
 msgstr "Étage"
@@ -517,7 +518,7 @@ msgid "Network Facilities"
 msgstr "Lieux d'installations réseau"
 
 msgid "RS peer"
-msgstr ""
+msgstr "Connecté au serveur de routes"
 
 msgid "Speed (mbit/sec)"
 msgstr "Vitesse (Mbit/s)"
