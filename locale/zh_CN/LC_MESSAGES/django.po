@@ -1038,6 +1038,9 @@ msgstr "reCAPTCHA 无效"
 msgid "captcha invalid"
 msgstr "验证码错误"
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
@@ -1187,25 +1190,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "上次地理编码尝试"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "地理编码错误"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "地理编码错误"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1344,6 +1342,16 @@ msgstr "组织合并：实体"
 msgid "Organization Merge: Entities"
 msgstr "组织合并：实体"
 
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of exchanges at this facility"
+msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of networks at this facility"
+msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+
 msgid "Need to specify at least two asns"
 msgstr "需要至少两个 ASN"
 
@@ -1355,6 +1363,16 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of facilities at this exchange"
+msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of networks at this exchange"
+msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1456,6 +1474,12 @@ msgstr ""
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "声明是否允许 IXP 通过其 IXP 成员数据为此网络添加 netixlan 条目"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
@@ -2041,6 +2065,26 @@ msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询
 msgid "IP Block"
 msgstr "IP 块"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "网络范围"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr "流量比率"
 
@@ -2079,6 +2123,19 @@ msgstr "网络范围"
 
 msgid "Exchanges"
 msgstr "交换点"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "组织合并"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "未设置"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3121,9 +3178,6 @@ msgstr "地理编码"
 msgid "Markdown enabled"
 msgstr "Markdown 已启用"
 
-msgid "Protocols Supported"
-msgstr "支持的协议"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -3137,6 +3191,9 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF 导入日志"
+
+msgid "Protocols Supported"
+msgstr "支持的协议"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -3219,9 +3276,6 @@ msgstr "请稍后再尝试登录。"
 
 #~ msgid "Address failed validation."
 #~ msgstr "地址验证失败。"
-
-#~ msgid "Geocoding error"
-#~ msgstr "地理编码错误"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "该实体的地理编码数据将被更新"

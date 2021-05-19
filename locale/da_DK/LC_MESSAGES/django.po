@@ -996,6 +996,9 @@ msgstr ""
 msgid "captcha invalid"
 msgstr ""
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr ""
 
@@ -1150,25 +1153,16 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "Sidste forsøg på opdatering af geokoordinator"
 
-msgid "Error in forward geocode: Google Maps API error"
+msgid "Geo coding timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
+msgid "Geo coding failed: {}"
 msgstr ""
 
-msgid "Error in forward geocode: No results found"
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1307,6 +1301,14 @@ msgstr "Virksomhedssammenlægning: Entitet"
 msgid "Organization Merge: Entities"
 msgstr "Virksomhedssammenlægning: Entiteter"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of exchanges at this facility"
+msgstr "Exchange - Facility link"
+
+msgid "number of networks at this facility"
+msgstr ""
+
 msgid "Need to specify at least two asns"
 msgstr "Mindst 2 ASNs skal være angivet"
 
@@ -1318,6 +1320,14 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+msgid "number of facilities at this exchange"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "number of networks at this exchange"
+msgstr "Exchange"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1413,6 +1423,12 @@ msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'
 msgstr ""
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgstr ""
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
 msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -2029,6 +2045,26 @@ msgstr ""
 msgid "IP Block"
 msgstr ""
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Network Presence"
+msgstr "Facility"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr ""
 
@@ -2077,6 +2113,19 @@ msgstr "Facility"
 #| msgid "Exchange"
 msgid "Exchanges"
 msgstr "Exchange"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "Virksomhedssammenlægninger"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "Ikke valgt"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3204,9 +3253,6 @@ msgstr ""
 msgid "Markdown enabled"
 msgstr ""
 
-msgid "Protocols Supported"
-msgstr ""
-
 #, fuzzy
 #| msgid "IXLAN"
 msgid "LAN"
@@ -3222,6 +3268,9 @@ msgstr ""
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF import log"
+
+msgid "Protocols Supported"
+msgstr ""
 
 msgid "Public Peering Info Updated"
 msgstr ""

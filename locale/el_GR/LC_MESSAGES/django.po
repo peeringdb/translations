@@ -1012,6 +1012,9 @@ msgstr "Μη έγκυρο reCAPTCHA"
 msgid "captcha invalid"
 msgstr ""
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
@@ -1175,25 +1178,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "Τελευταία χρονική στιγμή προσπάθειας geocode"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "Σφάλμα Geocoding"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "Σφάλμα Geocoding"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1330,6 +1328,14 @@ msgstr "Συγχώνευση Οργανισμού: Οντότητα"
 msgid "Organization Merge: Entities"
 msgstr "Συγχώνευση Οργανισμού: Οντότητες"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of exchanges at this facility"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
+msgid "number of networks at this facility"
+msgstr ""
+
 msgid "Need to specify at least two asns"
 msgstr "Πρέπει να ορίσετε τουλάχιστον 2 ASNs"
 
@@ -1341,6 +1347,14 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+msgid "number of facilities at this exchange"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "number of networks at this exchange"
+msgstr "Δημόσια Peering Exchange Points"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1442,6 +1456,12 @@ msgstr ""
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Ορίζει αν ο IXP επιτρέπεται να προσθέσει μια καταχώρηση netixlan για αυτό το δίκτυο μέσω των ixp_member δεδομένων του"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
@@ -2024,6 +2044,26 @@ msgstr "...Βρέθηκαν περισσότερες από %(row_limit)s κατ
 msgid "IP Block"
 msgstr "Mπλοκ IP"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "Δικτυακό Εύρος"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr "Αναλογία Κίνησης"
 
@@ -2066,6 +2106,19 @@ msgstr "Δικτυακό Εύρος"
 
 msgid "Exchanges"
 msgstr "Exchanges"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "Συγχωνεύσεις Οργανισμού"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "Δεν έχει ορισθεί"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3152,9 +3205,6 @@ msgstr "Γεωκωδικός (Geocode)"
 msgid "Markdown enabled"
 msgstr "Η Markdown ενεργοποιήθηκε"
 
-msgid "Protocols Supported"
-msgstr "Υποστηριζόμενα Πρωτόκολλα"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -3168,6 +3218,9 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
+
+msgid "Protocols Supported"
+msgstr "Υποστηριζόμενα Πρωτόκολλα"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -3250,9 +3303,6 @@ msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσ
 
 #~ msgid "Address failed validation."
 #~ msgstr "Αποτυχία επαλήθευσης της διεύθυνσης."
-
-#~ msgid "Geocoding error"
-#~ msgstr "Σφάλμα Geocoding"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Ανανεωμένα στοιχεία geocode για αυτή την οντότητα θα ανακτηθούν συντόμως"

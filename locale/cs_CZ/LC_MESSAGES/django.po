@@ -1011,6 +1011,9 @@ msgstr "reCAPTCHA neplatná"
 msgid "captcha invalid"
 msgstr ""
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
@@ -1170,25 +1173,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "Poslední pokus o geokód"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "Chyba geocodingu"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "Chyba geocodingu"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1325,6 +1323,13 @@ msgstr "Sloučení organizace: Subjekt"
 msgid "Organization Merge: Entities"
 msgstr "Sloučení organizace: Subjekty"
 
+#, fuzzy
+msgid "number of exchanges at this facility"
+msgstr "Propojovací uzel - Zařízení odkaz"
+
+msgid "number of networks at this facility"
+msgstr ""
+
 msgid "Need to specify at least two asns"
 msgstr "Je třeba zadat alespoň dvě čísla autonomních systémů"
 
@@ -1336,6 +1341,14 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+msgid "number of facilities at this exchange"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "number of networks at this exchange"
+msgstr "Veřejné propojovací uzly"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1436,6 +1449,12 @@ msgstr ""
 #, fuzzy
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Zjišťuje, zda je ixp povoleno přidání položky netixlan pro tuto síť prostřednictvím jejich dat ixp_member"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
@@ -2019,6 +2038,26 @@ msgstr "...vašemu dotazu odpovídá více než %(row_limit)s záznamů, upřesn
 msgid "IP Block"
 msgstr "IP Block"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "Síťový rozsah"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr "Poměr síťového provozu"
 
@@ -2061,6 +2100,19 @@ msgstr "Síťový rozsah"
 
 msgid "Exchanges"
 msgstr "Propojovací uzly"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "Sloučení organizací"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "Nenastaveno"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3162,9 +3214,6 @@ msgstr "Geocode"
 msgid "Markdown enabled"
 msgstr "Označování povoleno"
 
-msgid "Protocols Supported"
-msgstr "Podporované protokoly"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -3178,6 +3227,9 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Protokol IXF Importu"
+
+msgid "Protocols Supported"
+msgstr "Podporované protokoly"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -3259,9 +3311,6 @@ msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 
 #~ msgid "Address failed validation."
 #~ msgstr "Ověření adresy se nezdařilo."
-
-#~ msgid "Geocoding error"
-#~ msgstr "Chyba geocodingu"
 
 #, fuzzy
 #~ msgid "Updated geocode data for this entity will be obtained shortly"

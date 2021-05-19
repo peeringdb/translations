@@ -1038,6 +1038,9 @@ msgstr "reCAPTCHA が無効です"
 msgid "captcha invalid"
 msgstr ""
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
@@ -1197,25 +1200,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "前回のジオコード試行"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "ジオコーディングエラー"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "ジオコーディングエラー"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1354,6 +1352,16 @@ msgstr "組織の統合: エンティティ"
 msgid "Organization Merge: Entities"
 msgstr "組織の統合: エンティティ"
 
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of exchanges at this facility"
+msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of networks at this facility"
+msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+
 msgid "Need to specify at least two asns"
 msgstr "2つ以上のAS番号の記載が必要です"
 
@@ -1365,6 +1373,16 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of facilities at this exchange"
+msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of networks at this exchange"
+msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1466,6 +1484,12 @@ msgstr ""
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "ixp_member のデータを介して、ixp がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
@@ -2051,6 +2075,26 @@ msgstr "%(row_limit)s 個以上のエントリーがあなたの検索に合致�
 msgid "IP Block"
 msgstr "IP ブロック"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "Network Scope"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr "トラフィックの方向"
 
@@ -2089,6 +2133,19 @@ msgstr "Network Scope"
 
 msgid "Exchanges"
 msgstr "エクスチェンジ"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "組織の統合(Organization Merges)"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "設定されていません"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3151,9 +3208,6 @@ msgstr "ジオコード"
 msgid "Markdown enabled"
 msgstr "マークダウン記法が利用可能です"
 
-msgid "Protocols Supported"
-msgstr "サポートされているプロトコル(Protocols Supported)"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -3167,6 +3221,9 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF Import のログ(IXF Import Log)"
+
+msgid "Protocols Supported"
+msgstr "サポートされているプロトコル(Protocols Supported)"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -3249,9 +3306,6 @@ msgstr "再度ログインを試す前に少々お待ちください"
 
 #~ msgid "Address failed validation."
 #~ msgstr "バリデーションに失敗したアドレス"
-
-#~ msgid "Geocoding error"
-#~ msgstr "ジオコーディングエラー"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "まもなく、このエンティティについての更新されたジオコードデータの取得が行われます"

@@ -904,6 +904,9 @@ msgstr "reCAPTCHA nu este valid"
 msgid "captcha invalid"
 msgstr "captcha nu este valid"
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "Așteptați puțin înainte de a solicita o nouă previzualizare a importului IXF."
 
@@ -1041,25 +1044,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "Ultima încercare a geocode"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "Eroare de geocodare"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "Eroare de geocodare"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1196,6 +1194,16 @@ msgstr "Îmbinarea organizației: entitatea"
 msgid "Organization Merge: Entities"
 msgstr "Îmbinarea organizației: entități"
 
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "number of exchanges at this facility"
+msgstr "Numărul de rețele prezente la această facilitate"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "number of networks at this facility"
+msgstr "Numărul de rețele prezente la această facilitate"
+
 msgid "Need to specify at least two asns"
 msgstr "Trebuie să specificați cel puțin două ASN-uri"
 
@@ -1207,6 +1215,16 @@ msgstr "Facilitatea are prezențe active în Exchange-uri: {} ..."
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr "Facilitatea are prezențe active în rețele: {} ..."
+
+#, fuzzy
+#| msgid "Number of networks present at this exchange"
+msgid "number of facilities at this exchange"
+msgstr "Numărul de rețele prezente la acest Internet Exchange"
+
+#, fuzzy
+#| msgid "Number of networks present at this exchange"
+msgid "number of networks at this exchange"
+msgstr "Numărul de rețele prezente la acest Internet Exchange"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr "Exchange-ul are conexiuni active la Facilități: {} ..."
@@ -1298,6 +1316,12 @@ msgstr "IXLanPrefix cu starea '{}' nu poate fi legat de un IXLan cu starea '{}'.
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifică dacă unui IXP i se permite să adauge o intrare netixlan pentru această rețea prin intermediul datelor sale ixp_member"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
@@ -1844,6 +1868,32 @@ msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea
 msgid "IP Block"
 msgstr "Bloc de adrese IP"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "Sfera rețelei"
+
+msgid "Search networks ..."
+msgstr ""
+
+#, fuzzy
+#| msgid "Present"
+msgid "All present"
+msgstr "Prezent"
+
+#, fuzzy
+#| msgid "Present"
+msgid "Any present"
+msgstr "Prezent"
+
+#, fuzzy
+#| msgid "Present"
+msgid "None present"
+msgstr "Prezent"
+
 msgid "Traffic Ratio"
 msgstr "Raport de trafic"
 
@@ -1882,6 +1932,19 @@ msgstr "Sfera rețelei"
 
 msgid "Exchanges"
 msgstr "Internet Exchange-uri"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "Îmbinările organizațiilor"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Present"
+msgid "Not present"
+msgstr "Prezent"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracteristici pot funcționa diferit de mediul de producție. Nu stocați aici datele pe care intenționați să le păstrați"
@@ -2872,9 +2935,6 @@ msgstr "Geocod"
 msgid "Markdown enabled"
 msgstr "Markdown activat"
 
-msgid "Protocols Supported"
-msgstr "Protocoale acceptate"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -2886,6 +2946,9 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
+
+msgid "Protocols Supported"
+msgstr "Protocoale acceptate"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Point"
@@ -3033,9 +3096,6 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 
 #~ msgid "Address failed validation."
 #~ msgstr "Validarea adresei a eșuat."
-
-#~ msgid "Geocoding error"
-#~ msgstr "Eroare de geocodare"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obținute în scurt timp"

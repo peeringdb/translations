@@ -1039,6 +1039,9 @@ msgstr "اختبار التمييز (reCAPTCHA) غير صحيح"
 msgid "captcha invalid"
 msgstr "كلمة التحقق غير صحيحة"
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "الرجاء الانتظار قليلا قبل إجراء طلب معاينة استيراد بيانات ixf آخر."
 
@@ -1179,25 +1182,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "آخر مرة لمحاولة الترميز الجغرافي"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "خطأ بالترميز الجغرافي"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "خطأ بالترميز الجغرافي"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1336,6 +1334,16 @@ msgstr "دمج المؤسسة : الكيان"
 msgid "Organization Merge: Entities"
 msgstr "دمج المؤسسة : الكيانات"
 
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of exchanges at this facility"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of networks at this facility"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
 msgid "Need to specify at least two asns"
 msgstr "تحتاج إلى تحديد أرقام الأنظمة المستقلة (اثنين على الأقل)"
 
@@ -1347,6 +1355,16 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of facilities at this exchange"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of networks at this exchange"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1445,6 +1463,12 @@ msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'
 msgstr ""
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
+msgstr ""
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
 msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
@@ -2033,6 +2057,26 @@ msgstr "... أكثر من %(row_limit)s  مدخل مطابق لطلبك ، أع�
 msgid "IP Block"
 msgstr "حزمة عناوين الإنترنت"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "نطاق شبكة الاتصال"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr "نسبة حركة مرور البيانات"
 
@@ -2071,6 +2115,19 @@ msgstr "نطاق شبكة الاتصال"
 
 msgid "Exchanges"
 msgstr "عمليات التبادل"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "دمج المؤسسة"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "غير مضبوط"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3114,9 +3171,6 @@ msgstr "الرمز الجغرافي"
 msgid "Markdown enabled"
 msgstr "تفعيل \"وضع علامة لأسفل\""
 
-msgid "Protocols Supported"
-msgstr "البروتوكولات المدعومة/ المتاحة"
-
 msgid "LAN"
 msgstr "الشبكة المحلية"
 
@@ -3130,6 +3184,9 @@ msgstr "وحدة الإرسال القصوى (MTU)"
 #| msgid "IX-F Import"
 msgid "Enable IX-F Import"
 msgstr "استيراد بيانات IX-F"
+
+msgid "Protocols Supported"
+msgstr "البروتوكولات المدعومة/ المتاحة"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -3202,9 +3259,6 @@ msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل 
 
 #~ msgid "Address failed validation."
 #~ msgstr "فشل التحقق من صحة العنوان."
-
-#~ msgid "Geocoding error"
-#~ msgstr "خطأ بالترميز الجغرافي"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "سيتم الحصول على بيانات الترميز الجغرافي المحدثة لهذا الكيان بعد دقائق"

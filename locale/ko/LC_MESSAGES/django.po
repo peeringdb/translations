@@ -904,6 +904,9 @@ msgstr "잘못된 재캡차"
 msgid "captcha invalid"
 msgstr "잘못된 캡차"
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "다른 ixf 가져오기 미리 보기를 요청하기 전에 잠시 기다리십시오."
 
@@ -1041,25 +1044,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "최근 지오코드를 시도한 시간"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "지오코딩 오류"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "지오코딩 오류"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1196,6 +1194,16 @@ msgstr "조직 병합: 독립체"
 msgid "Organization Merge: Entities"
 msgstr "조직 병합: 독립체"
 
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "number of exchanges at this facility"
+msgstr "이 시설에 존재하는 네트워크 수"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "number of networks at this facility"
+msgstr "이 시설에 존재하는 네트워크 수"
+
 msgid "Need to specify at least two asns"
 msgstr "최소 두 개 이상의 ASN를 지정해야 함"
 
@@ -1207,6 +1215,16 @@ msgstr "시설에 활성 익스체인지 존재: {}..."
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr "설비에 활성 네트워크 존재: {}..."
+
+#, fuzzy
+#| msgid "Number of networks present at this exchange"
+msgid "number of facilities at this exchange"
+msgstr "이 익스체인지에 존재하는 네트워크 수"
+
+#, fuzzy
+#| msgid "Number of networks present at this exchange"
+msgid "number of networks at this exchange"
+msgstr "이 익스체인지에 존재하는 네트워크 수"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr "익스체인지에 활성 시설 연결이 있음: {}..."
@@ -1298,6 +1316,12 @@ msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "IXP가 해당 ixp_구성원 데이터를 통해 이 네트워크에 대해 netixlan 항목을 추가할 수 있는지 여부를 지정합니다"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
@@ -1844,6 +1868,32 @@ msgstr "...%(row_limit)s 이상의 항목이 쿼리와 일치합니다. 요청�
 msgid "IP Block"
 msgstr "IP 블록"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "네트워크 범위"
+
+msgid "Search networks ..."
+msgstr ""
+
+#, fuzzy
+#| msgid "Present"
+msgid "All present"
+msgstr "존재함"
+
+#, fuzzy
+#| msgid "Present"
+msgid "Any present"
+msgstr "존재함"
+
+#, fuzzy
+#| msgid "Present"
+msgid "None present"
+msgstr "존재함"
+
 msgid "Traffic Ratio"
 msgstr "트래픽 비율"
 
@@ -1882,6 +1932,19 @@ msgstr "네트워크 범위"
 
 msgid "Exchanges"
 msgstr "익스체인지"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "조직 병합"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Present"
+msgid "Not present"
+msgstr "존재함"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성은 다르게 작용할 수 있습니다. 보관하려는 데이터를 여기에 저장하지 마십시오"
@@ -2876,9 +2939,6 @@ msgstr "지오코드"
 msgid "Markdown enabled"
 msgstr "마크다운 사용가능"
 
-msgid "Protocols Supported"
-msgstr "지원되는 프로토콜"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -2890,6 +2950,9 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "IX-F 가져오기 사용"
+
+msgid "Protocols Supported"
+msgstr "지원되는 프로토콜"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Point"
@@ -3037,9 +3100,6 @@ msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오
 
 #~ msgid "Address failed validation."
 #~ msgstr "주소 유효성 검사 실패."
-
-#~ msgid "Geocoding error"
-#~ msgstr "지오코딩 오류"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수집될 것입니다"

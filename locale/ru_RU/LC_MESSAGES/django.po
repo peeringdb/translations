@@ -1012,6 +1012,9 @@ msgstr "reCAPTCHA не пройдена"
 msgid "captcha invalid"
 msgstr ""
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
@@ -1175,25 +1178,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "Время последней попытки геокодирования"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "Ошибка геокодирования"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "Ошибка геокодирования"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1330,6 +1328,14 @@ msgstr "Слияние организаций: Сущность"
 msgid "Organization Merge: Entities"
 msgstr "Слияние организаций: Сущности"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of exchanges at this facility"
+msgstr "Связь IXP - Площадка"
+
+msgid "number of networks at this facility"
+msgstr ""
+
 msgid "Need to specify at least two asns"
 msgstr "Укажите минимум две ASN"
 
@@ -1341,6 +1347,14 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+msgid "number of facilities at this exchange"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "number of networks at this exchange"
+msgstr "IXP для публичного пиринга"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1442,6 +1456,12 @@ msgstr ""
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Определяет для IXP права добавления записи netixlan для данной сети через данные ixp_member"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
@@ -2027,6 +2047,26 @@ msgstr "… Найдено более %(row_limit)s записей, уточни
 msgid "IP Block"
 msgstr "IP блок"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "Охват сети"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr "Соотношение трафика"
 
@@ -2069,6 +2109,19 @@ msgstr "Охват сети"
 
 msgid "Exchanges"
 msgstr "IXP"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "Слияния организаций"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "Не установлен"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3161,9 +3214,6 @@ msgstr "Геокод"
 msgid "Markdown enabled"
 msgstr "Разметка Markdown включена"
 
-msgid "Protocols Supported"
-msgstr "Поддерживаеvst протоколы"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -3177,6 +3227,9 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Лог импорта IXF"
+
+msgid "Protocols Supported"
+msgstr "Поддерживаеvst протоколы"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -3274,9 +3327,6 @@ msgstr "Подождите несколько секунд перед повто
 
 #~ msgid "Address failed validation."
 #~ msgstr "Адрес не прошел проверку."
-
-#~ msgid "Geocoding error"
-#~ msgstr "Ошибка геокодирования"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Обновленные данные геокодирования для данной сущности скоро будут получены"

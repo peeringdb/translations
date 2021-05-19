@@ -1004,6 +1004,9 @@ msgstr "reCAPTCHA non valido"
 msgid "captcha invalid"
 msgstr ""
 
+msgid "Error in forward geocode: No results found"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
@@ -1167,25 +1170,20 @@ msgstr ""
 msgid "Last time of attempted geocode"
 msgstr "Ultima volta del tentativo di geocodifica"
 
-msgid "Error in forward geocode: Google Maps API error"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "Errore di geocodifica"
+
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "Errore di geocodifica"
+
+msgid "Geo location lookup timed out"
 msgstr ""
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr ""
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr ""
-
-msgid "Error in forward geocode: No address returned"
+msgid "Geo location lookup failed: {}"
 msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
@@ -1322,6 +1320,14 @@ msgstr "Unione di organizzazione: Entità"
 msgid "Organization Merge: Entities"
 msgstr "Unione di organizzazione: Entità"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of exchanges at this facility"
+msgstr "Collegamento Interscambio - Struttura"
+
+msgid "number of networks at this facility"
+msgstr ""
+
 msgid "Need to specify at least two asns"
 msgstr "Devono essere specificati almeno due ASN"
 
@@ -1333,6 +1339,14 @@ msgstr ""
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
+
+msgid "number of facilities at this exchange"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Peering Exchange Points"
+msgid "number of networks at this exchange"
+msgstr "Punti di Interscambio per Peering Pubblico"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr ""
@@ -1434,6 +1448,12 @@ msgstr ""
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifica se un IXP può aggiungere un'entrata netixlan per questa rete tramite i propri dati ixp_member"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
@@ -2016,6 +2036,26 @@ msgstr "...Più di %(row_limit)s entrate corrispondono alla tua query, restringi
 msgid "IP Block"
 msgstr "Blocco IP"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "Estensione della rete"
+
+msgid "Search networks ..."
+msgstr ""
+
+msgid "All present"
+msgstr ""
+
+msgid "Any present"
+msgstr ""
+
+msgid "None present"
+msgstr ""
+
 msgid "Traffic Ratio"
 msgstr "Rapporto di traffico"
 
@@ -2058,6 +2098,19 @@ msgstr "Estensione della rete"
 
 msgid "Exchanges"
 msgstr "Punti di Interscambio"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "Unioni di organizzazioni"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not present"
+msgstr "Non inserito"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3144,9 +3197,6 @@ msgstr "Codice geografico"
 msgid "Markdown enabled"
 msgstr "Markdown abilitato"
 
-msgid "Protocols Supported"
-msgstr "Protocolli supportati"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -3160,6 +3210,9 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Registro di importazione IXF"
+
+msgid "Protocols Supported"
+msgstr "Protocolli supportati"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -3242,9 +3295,6 @@ msgstr "Si prega di attendere un po' prima di riprovare a collegarsi di nuovo."
 
 #~ msgid "Address failed validation."
 #~ msgstr "Validazione dell'indirizzo fallita."
-
-#~ msgid "Geocoding error"
-#~ msgstr "Errore di geocodifica"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "I dati di geocodifica aggiornati per questa entità saranno ottenuti a breve"
