@@ -228,6 +228,27 @@ msgstr "Öffentlich"
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr "Eine E.164-formatierte Telefonnummer beginnt mit einem \"+\", gefolgt von der Ländervorwahl und dann der nationalen Rufnummer (führende Nullen werden in den meisten Ländern ausgelassen). Leerzeichen oder Striche zwischen den Gruppen von Ziffern werden ausgelassen"
 
+msgid "Best Effort (no SLA)"
+msgstr ""
+
+msgid "Normal Business Hours"
+msgstr ""
+
+msgid "24/7 Support"
+msgstr ""
+
+msgid "No Commercial Terms"
+msgstr ""
+
+msgid "Bundled With Other Services"
+msgstr ""
+
+msgid "Non-recurring Fees Only"
+msgstr ""
+
+msgid "Recurring Fees"
+msgstr ""
+
 msgid "Kosovo"
 msgstr "Kosovo"
 
@@ -432,6 +453,14 @@ msgstr "IX-F Netzwerk Anzahl"
 
 msgid "IX-F Last Import"
 msgstr "Letzter IX-F Import"
+
+#, fuzzy
+#| msgid "Traffic Levels"
+msgid "Service Level"
+msgstr "Verkehrsniveau"
+
+msgid "Terms"
+msgstr ""
 
 msgid "Internet Exchange"
 msgstr "Internet Exchange"
@@ -878,6 +907,9 @@ msgstr "reCAPTCHA ungültig"
 msgid "captcha invalid"
 msgstr "Captcha ungültig"
 
+msgid "Error in forward geocode: No results found"
+msgstr "Fehler im Vorwärts-Geocode: kein Ergebnis gefunden"
+
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
 
@@ -1013,26 +1045,21 @@ msgstr "Die Adresse dieses Objekts wurde mit Hilfe der Google Maps API normalisi
 msgid "Last time of attempted geocode"
 msgstr "Zeit, zu der die Georeferenz zuletzt ermittelt wurde"
 
-msgid "Error in forward geocode: Google Maps API error"
-msgstr "Fehler im Vorwärts-Geocode: Google Maps API Fehler"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding timed out"
+msgstr "Geocode-Fehler"
 
-msgid "Error in forward geocode: Google Maps API Timeout"
-msgstr "Fehler im Vorwärts-Geocode: Zeitüberschreitung bei Google Maps API"
+#, fuzzy
+#| msgid "Geocoding error"
+msgid "Geo coding failed: {}"
+msgstr "Geocode-Fehler"
 
-msgid "Error in forward geocode: No results found"
-msgstr "Fehler im Vorwärts-Geocode: kein Ergebnis gefunden"
+msgid "Geo location lookup timed out"
+msgstr ""
 
-msgid "Latitude and longitude must be defined for reverse geocode lookup"
-msgstr "Für die Rückwärts-Geocode-Suche müssen Länge und Breite definiert sein"
-
-msgid "Error in reverse geocode: Google Maps API error"
-msgstr "Fehler im Rückwärts-Geocode: Google Maps API Fehler"
-
-msgid "Error in reverse geocode: Google Maps API Timeout"
-msgstr "Fehler im Rückwärts-Geocode: Zeitüberschreitung Google Maps API"
-
-msgid "Error in forward geocode: No address returned"
-msgstr "Fehler im Vorwärts-Geocode: es wurde keine Adresse zurückgegeben"
+msgid "Geo location lookup failed: {}"
+msgstr ""
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Dieser Unternehmenseintrag wurde vom angegeben ASN oder vom Namen übernommen. Wenn dieser Eintrag leer ist, konnte kein zugehöriges Unternehmen gefunden werden."
@@ -1164,6 +1191,16 @@ msgstr "Organisationzusammenführung: Einheit"
 msgid "Organization Merge: Entities"
 msgstr "Organisationzusammenführungen: Einheiten"
 
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "number of exchanges at this facility"
+msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "number of networks at this facility"
+msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+
 msgid "Need to specify at least two asns"
 msgstr "Es müssen zumindest zwei ASNs angegeben werden"
 
@@ -1175,6 +1212,16 @@ msgstr "Rechenzentrum hat noch aktive Internet Exchanges: {} ..."
 
 msgid "Facility has active network presence(s): {} ..."
 msgstr "Rechenzentrum hat noch aktive Netze zugeordnet: {} ..."
+
+#, fuzzy
+#| msgid "Number of networks present at this exchange"
+msgid "number of facilities at this exchange"
+msgstr "Anzahl der Netzwerke die an diesem Exchange angeschlossen sind"
+
+#, fuzzy
+#| msgid "Number of networks present at this exchange"
+msgid "number of networks at this exchange"
+msgstr "Anzahl der Netzwerke die an diesem Exchange angeschlossen sind"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr "Internet Exchange ist mit aktiven Rechenzentren verbunden: {} ..."
@@ -1260,6 +1307,12 @@ msgstr "IXLanPrefix mit Status '{}' kann nicht mit IXLan mit Status '{}' verknü
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Gibt an, ob es einem IXP erlaubt ist, einen netixlan Eintrag anhand der ixp_member Daten für dieses Netzwerk vorzunehmen"
+
+msgid "number of exchanges at this network"
+msgstr ""
+
+msgid "number of facilities at this network"
+msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Die Entität wurde für das ASN {} erstellt - bitte entferne es von dem Netzwerk und erstelle es nochmal im richtigen Netzwerk"
@@ -1815,6 +1868,32 @@ msgstr "... Mehr als %(row_limit)s Einträge trafen auf Ihre Anfrage zu. Bitte v
 msgid "IP Block"
 msgstr "IP-Block"
 
+msgid "Capacity"
+msgstr ""
+
+#, fuzzy
+#| msgid "Network Scope"
+msgid "Network Presence"
+msgstr "Netzwerkgeltungsbereich"
+
+msgid "Search networks ..."
+msgstr ""
+
+#, fuzzy
+#| msgid "Present"
+msgid "All present"
+msgstr "Vorhanden"
+
+#, fuzzy
+#| msgid "Present"
+msgid "Any present"
+msgstr "Vorhanden"
+
+#, fuzzy
+#| msgid "Present"
+msgid "None present"
+msgstr "Vorhanden"
+
 msgid "Traffic Ratio"
 msgstr "Verkehrsverhältnis"
 
@@ -1853,6 +1932,19 @@ msgstr "Netzwerkgeltungsbereich"
 
 msgid "Exchanges"
 msgstr "Austauschpunkte"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "My organization presence"
+msgstr "Organisationenzusammenführungen"
+
+msgid "Does not matter"
+msgstr ""
+
+#, fuzzy
+#| msgid "Present"
+msgid "Not present"
+msgstr "Vorhanden"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Dies ist eine Beta/Test Instanz von PeeringDB. Manche Funktionen könnten anders als in der Produktion funktionieren. Bitte speichere keine Daten hier die du behalten willst"
@@ -2860,9 +2952,6 @@ msgstr "Georeferenz"
 msgid "Markdown enabled"
 msgstr "Markdown verfügbar"
 
-msgid "Protocols Supported"
-msgstr "Unterstützte Protokolle"
-
 msgid "LAN"
 msgstr "LAN"
 
@@ -2874,6 +2963,9 @@ msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Aktivieren Sie den IX-F Import"
+
+msgid "Protocols Supported"
+msgstr "Unterstützte Protokolle"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Point"
@@ -2910,6 +3002,24 @@ msgstr "Peeringrichtlinien-Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+
+#~ msgid "Error in forward geocode: Google Maps API error"
+#~ msgstr "Fehler im Vorwärts-Geocode: Google Maps API Fehler"
+
+#~ msgid "Error in forward geocode: Google Maps API Timeout"
+#~ msgstr "Fehler im Vorwärts-Geocode: Zeitüberschreitung bei Google Maps API"
+
+#~ msgid "Latitude and longitude must be defined for reverse geocode lookup"
+#~ msgstr "Für die Rückwärts-Geocode-Suche müssen Länge und Breite definiert sein"
+
+#~ msgid "Error in reverse geocode: Google Maps API error"
+#~ msgstr "Fehler im Rückwärts-Geocode: Google Maps API Fehler"
+
+#~ msgid "Error in reverse geocode: Google Maps API Timeout"
+#~ msgstr "Fehler im Rückwärts-Geocode: Zeitüberschreitung Google Maps API"
+
+#~ msgid "Error in forward geocode: No address returned"
+#~ msgstr "Fehler im Vorwärts-Geocode: es wurde keine Adresse zurückgegeben"
 
 #~ msgid "Confidential"
 #~ msgstr "Vertraulich"
@@ -3025,9 +3135,6 @@ msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 
 #~ msgid "Address failed validation."
 #~ msgstr "Adressüberprüfung fehlgeschlagen."
-
-#~ msgid "Geocoding error"
-#~ msgstr "Geocode-Fehler"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Aktuelle Geocodedaten für dieses Objekt werden in Kürze abgerufen"
