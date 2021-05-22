@@ -36,16 +36,16 @@ msgid "Policy"
 msgstr "ポリシー"
 
 msgid "Technical"
-msgstr "技術部"
+msgstr "技術担当"
 
 msgid "NOC"
 msgstr "NOC"
 
 msgid "Public Relations"
-msgstr "渉外部"
+msgstr "渉外担当"
 
 msgid "Sales"
-msgstr "営業部"
+msgstr "営業担当"
 
 msgid "Open"
 msgstr "Open"
@@ -131,7 +131,6 @@ msgstr "特定地域"
 msgid "Global"
 msgstr "世界全体"
 
-#, fuzzy
 #| msgid "0-20 Mbps"
 msgid "0-20Mbps"
 msgstr "0-20Mbps"
@@ -151,65 +150,53 @@ msgstr "5-10Gbps"
 msgid "10-20Gbps"
 msgstr "10-20Gbps"
 
-#, fuzzy
 #| msgid "20-50 Gbps"
 msgid "20-50Gbps"
-msgstr "20-50 Gbps"
+msgstr "20-50Gbps"
 
-#, fuzzy
 #| msgid "50-100 Gbps"
 msgid "50-100Gbps"
-msgstr "50-100 Gbps"
+msgstr "50-100Gbps"
 
-#, fuzzy
 #| msgid "100-200 Gbps"
 msgid "100-200Gbps"
-msgstr "100-200 Gbps"
+msgstr "100-200Gbps"
 
-#, fuzzy
 #| msgid "200-300 Gbps"
 msgid "200-300Gbps"
-msgstr "200-300 Gbps"
+msgstr "200-300Gbps"
 
-#, fuzzy
 #| msgid "300-500 Gbps"
 msgid "300-500Gbps"
-msgstr "300-500 Gbps"
+msgstr "300-500Gbps"
 
-#, fuzzy
 #| msgid "500-1000 Gbps"
 msgid "500-1000Gbps"
-msgstr "500-1000 Gbps"
+msgstr "500-1000Gbps"
 
-#, fuzzy
 #| msgid "1 Tbps+"
 msgid "1-5Tbps"
-msgstr "1 Tbps 以上"
+msgstr "1-5Tbps"
 
-#, fuzzy
 #| msgid "5-10Gbps"
 msgid "5-10Tbps"
-msgstr "5-10Gbps"
+msgstr "5-10Tbps"
 
-#, fuzzy
 #| msgid "10-20Gbps"
 msgid "10-20Tbps"
-msgstr "10-20Gbps"
+msgstr "10-20Tbps"
 
-#, fuzzy
 #| msgid "20-50 Gbps"
 msgid "20-50Tbps"
-msgstr "20-50 Gbps"
+msgstr "20-50Tbps"
 
-#, fuzzy
 #| msgid "50-100 Gbps"
 msgid "50-100Tbps"
-msgstr "50-100 Gbps"
+msgstr "50-100Tbps"
 
-#, fuzzy
 #| msgid "100+ Gbps"
 msgid "100+Tbps"
-msgstr "100 Gbps 以上"
+msgstr "100Tbps 以上"
 
 msgid "NSP"
 msgstr "NSP"
@@ -232,16 +219,15 @@ msgstr "非営利"
 msgid "Route Server"
 msgstr "ルートサーバ"
 
-#, fuzzy
 #| msgid "Network Scope"
 msgid "Network Services"
-msgstr "Network Scope"
+msgstr "Network Services"
 
 msgid "Route Collector"
-msgstr ""
+msgstr "ルートコレクタ"
 
 msgid "Government"
-msgstr ""
+msgstr "政治組織"
 
 msgid "Private"
 msgstr "プライベート"
@@ -253,7 +239,7 @@ msgid "Public"
 msgstr "パブリック"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr ""
+msgstr "先頭に + が付けられ、国番号、国内電話番号（たいてい先頭の 0 が削除されます）が続く E.164 形式の電話番号です。番号の間にスペースや - は必要ありません"
 
 msgid "Best Effort (no SLA)"
 msgstr ""
@@ -324,16 +310,16 @@ msgid "Country"
 msgstr "国名"
 
 msgid "Suite"
-msgstr ""
+msgstr "部屋番号"
 
 msgid "Floor"
-msgstr ""
+msgstr "階"
 
 msgid "Latitude"
-msgstr ""
+msgstr "緯度"
 
 msgid "Longitude"
-msgstr ""
+msgstr "経度"
 
 msgid "Name"
 msgstr "名前"
@@ -353,37 +339,31 @@ msgstr "メモ"
 msgid "Organization"
 msgstr "組織名"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
 msgstr "組織名"
 
 msgid "CLLI Code"
 msgstr "CLLI コード"
 
-#, fuzzy
-#| msgid "Geocode"
 msgid "Rencode"
-msgstr "ジオコード"
+msgstr "Rencode"
 
 msgid "NPA-NXX"
 msgstr "NPA-NXX"
 
 msgid "Technical Email"
-msgstr "技術者のメールアドレス"
+msgstr "技術担当のメールアドレス"
 
 msgid "Technical Phone"
-msgstr "技術者の電話番号"
+msgstr "技術担当の電話番号"
 
-#, fuzzy
 #| msgid "Change Email"
 msgid "Sales Email"
-msgstr "メールアドレスを変更する"
+msgstr "営業担当のメールアドレス"
 
-#, fuzzy
 #| msgid "Sales"
 msgid "Sales Phone"
-msgstr "営業部"
+msgstr "営業担当の電話番号"
 
 msgid "Property"
 msgstr ""
@@ -427,21 +407,17 @@ msgstr "Email"
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contact"
 msgstr "連絡先"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contacts"
 msgstr "連絡先"
 
 msgid "IRR as-set/route-set"
-msgstr ""
+msgstr "IRR as-set/route-set"
 
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
-msgstr ""
+msgstr "IRR（Internet Routing Registry）に登録されている AS-SET/ROUTE-SET オブジェクトの情報"
 
 msgid "Looking Glass URL"
 msgstr "Looking Glass の URL"
@@ -449,10 +425,9 @@ msgstr "Looking Glass の URL"
 msgid "Route Server URL"
 msgstr "ルートサーバの URL"
 
-#, fuzzy
 #| msgid "Private Only"
 msgid "Private notes"
-msgstr "Private Only"
+msgstr "Private notes"
 
 msgid "Traffic Levels"
 msgstr "トラフィック量"
@@ -461,7 +436,7 @@ msgid "Traffic Ratios"
 msgstr "トラフィックの方向"
 
 msgid "Geographic Scope"
-msgstr "地域名"
+msgstr "地域"
 
 msgid "Network Type"
 msgstr "ネットワークの種類"
@@ -470,13 +445,13 @@ msgid "IPv4 Prefixes"
 msgstr "IPv4 プレフィクス数"
 
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "この AS 番号とのピアで推奨される IPv4 経路数の上限値"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6 プレフィクス数"
 
 msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "この AS 番号とのピアで推奨される IPv6 経路数の上限値"
 
 msgid "Unicast IPv4"
 msgstr "ユニキャスト IPv4"
@@ -484,21 +459,19 @@ msgstr "ユニキャスト IPv4"
 msgid "Multicast"
 msgstr "マルチキャスト"
 
-#, fuzzy
 #| msgid "Unicast IPv4"
 msgid "Unicast IPv6"
-msgstr "ユニキャスト IPv4"
+msgstr "ユニキャスト IPv6"
 
-#, fuzzy
 #| msgid "Route Server"
 msgid "Never via route servers"
-msgstr "ルートサーバ"
+msgstr "ルートサーバ経由では経路広告無し"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
-msgstr ""
+msgstr "ルートサーバ経由での経路広告があるかどうかのマーク"
 
 msgid "Peering Policy"
-msgstr "ピアリングポリシー"
+msgstr "ピアリングポリシー(URL)"
 
 msgid "General Policy"
 msgstr "ピアリングポリシー(概要)"
@@ -528,117 +501,94 @@ msgid "Traffic Stats Website"
 msgstr "トラフィック量グラフ"
 
 msgid "Policy Email"
-msgstr "ポリシー担当者のメールアドレス"
+msgstr "ポリシー担当のメールアドレス"
 
 msgid "Policy Phone"
-msgstr "ポリシー担当者の電話番号"
+msgstr "ポリシー担当の電話番号"
 
-#, fuzzy
 #| msgid "Address not found"
 msgid "IX-F Network Count"
-msgstr "アドレスが見つかりません"
+msgstr "IX-F Network Count"
 
-#, fuzzy
 #| msgid "IXF Import Log"
 msgid "IX-F Last Import"
-msgstr "IXF Import のログ(IXF Import Log)"
+msgstr "IX-F Last Import"
 
-#, fuzzy
-#| msgid "Traffic Levels"
-msgid "Service Level"
-msgstr "トラフィック量"
-
-msgid "Terms"
-msgstr ""
-
-#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange"
-msgstr "あらゆるエクスチェンジ"
+msgstr "インターネット・エクスチェンジ"
 
-#, fuzzy
 #| msgid "Connections to Exchanges"
 msgid "Internet Exchanges"
-msgstr "エクスチェンジ接続数"
+msgstr "インターネット・エクスチェンジ"
 
-#, fuzzy
 #| msgid "Exchange - Facility link"
 msgid "Internet Exchange facility"
-msgstr "エクスチェンジ - データセンタ のリンク"
+msgstr "Internet Exchange facility"
 
-#, fuzzy
 #| msgid "Merge Facilities"
 msgid "Internet Exchange facilities"
-msgstr "データセンタをマージする"
+msgstr "Internet Exchange facilities"
 
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
-#, fuzzy
 #| msgid "Route Server"
 msgid "Route Server ASN"
-msgstr "ルートサーバ"
+msgstr "ルートサーバの AS 番号"
 
 msgid "ARP sponging MAC"
-msgstr ""
+msgstr "ARP スポンジの MAC アドレス"
 
-#, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
-msgstr "IXF メンバー出力 URL"
+msgstr "IX-F メンバー出力 URL"
 
-#, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL Visibility"
-msgstr "IXF メンバー出力 URL"
+msgstr "IX-F メンバー出力 URL Visibility"
 
-#, fuzzy
 #| msgid "Any Exchange"
 msgid "Internet Exchange LAN"
-msgstr "あらゆるエクスチェンジ"
+msgstr "Internet Exchange LAN"
 
-#, fuzzy
 #| msgid "Connections to Exchanges"
 msgid "Internet Exchange LANs"
-msgstr "エクスチェンジ接続数"
+msgstr "Internet Exchange LANs"
 
 msgid "Protocol"
-msgstr ""
+msgstr "プロトコル"
 
 msgid "Prefix"
 msgstr "プレフィクス"
 
 msgid "Internet Exchange LAN prefix"
-msgstr ""
+msgstr "IX LAN のプレフィクス"
 
 msgid "Internet Exchange LAN prefixes"
-msgstr ""
+msgstr "IX LAN のプレフィクス"
 
 msgid "Local ASN"
 msgstr "AS 番号"
 
-#, fuzzy
 #| msgid "Suggest Facility"
 msgid "Network Facility"
-msgstr "データセンタに情報追加の提案"
+msgstr "Network Facility"
 
-#, fuzzy
 #| msgid "Merge Facilities"
 msgid "Network Facilities"
-msgstr "データセンタをマージする"
+msgstr "Network Facilities"
 
 msgid "RS peer"
-msgstr ""
+msgstr "RS ピア"
 
 msgid "Speed (mbit/sec)"
 msgstr "帯域 (Mbit/sec)"
 
-#, fuzzy
 #| msgid "Regional"
 msgid "Operational"
-msgstr "特定地域"
+msgstr "Operational"
 
-#, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Public Peering Exchange Point"
 msgstr "接続しているエクスチェンジポイント"
@@ -647,48 +597,47 @@ msgid "Public Peering Exchange Points"
 msgstr "接続しているエクスチェンジポイント"
 
 msgid "Czech"
-msgstr ""
+msgstr "チェコ語"
 
 msgid "German"
-msgstr ""
+msgstr "ドイツ語"
 
 msgid "Greek"
-msgstr ""
+msgstr "ギリシャ語"
 
 msgid "English"
 msgstr "英語(English)"
 
 msgid "Spanish"
-msgstr ""
+msgstr "スペイン語"
 
 msgid "French"
-msgstr ""
+msgstr "フランス語"
 
-#, fuzzy
 #| msgid "Australia"
 msgid "Italian"
-msgstr "オーストラリア"
+msgstr "イタリア語"
 
 msgid "Japanese"
-msgstr ""
+msgstr "日本語"
 
 msgid "Occitan"
-msgstr ""
+msgstr "オック語"
 
 msgid "Portuguese"
-msgstr "ポルトガル語(Portuguese)"
+msgstr "ポルトガル語"
 
 msgid "Romanian"
-msgstr ""
+msgstr "ルーマニア語"
 
 msgid "Russian"
-msgstr ""
+msgstr "ロシア語"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "中国語（簡体字）"
 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "中国語（繁体字）"
 
 msgid "Status"
 msgstr "ステータス"
@@ -700,10 +649,10 @@ msgid "ROLLBACK"
 msgstr "ロールバック"
 
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+msgstr "Ixlans は、親のエクスチェンジと同期された為、削除できなくなりました"
 
 msgid "Protected object '{}': {}"
-msgstr ""
+msgstr "Protected object '{}': {}"
 
 msgid "SOFT DELETE"
 msgstr "SOFT DELETE"
@@ -734,10 +683,9 @@ msgstr "承認(APPROVED)"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "そのユーザはその組織に所属予定になっています"
 
-#, fuzzy
 #| msgid "IXF Import History"
 msgid "IX-F Import History"
-msgstr "IXP インポート履歴"
+msgstr "IX-F インポート履歴"
 
 msgid "Initial creation of netixlan"
 msgstr "netixlan の初期作成"
@@ -772,10 +720,9 @@ msgstr "Over"
 msgid "Waiting"
 msgstr "待ち"
 
-#, fuzzy
 #| msgid "Malformed organization ids"
 msgid "No organization(s) set"
-msgstr "不正な組織 ID"
+msgstr "No organization(s) set"
 
 msgid "Malformed organization ids"
 msgstr "不正な組織 ID"
@@ -798,10 +745,9 @@ msgstr "選択したアイテムは承認されず削除されました"
 msgid "View"
 msgstr "表示"
 
-#, fuzzy
 #| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "Cannot approve a canceled affiliation request"
-msgstr "%(ar_name)s に対する所属が拒否されました"
+msgstr "Cannot approve a canceled affiliation request"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "所属リクエストが承認されたので、そのユーザに通知しました。"
@@ -812,10 +758,9 @@ msgstr "承認とユーザ通知"
 msgid "Approve"
 msgstr "承認(Approve)"
 
-#, fuzzy
 #| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "Cannot deny a canceled affiliation request"
-msgstr "%(ar_name)s に対する所属が拒否されました"
+msgstr "Cannot deny a canceled affiliation request"
 
 msgid "Deny"
 msgstr "拒否(Deny)"
@@ -845,15 +790,14 @@ msgid "{} (Preview)"
 msgstr "{} (プレビュー)"
 
 msgid "Apply"
-msgstr ""
+msgstr "Apply"
 
-#, fuzzy
 #| msgid "Ratio Requirement"
 msgid "No requirements"
-msgstr "トラフィック割合の条件"
+msgstr "不要"
 
 msgid "Value"
-msgstr ""
+msgstr "値"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "このコマンドは待機中もしくは実行中です。実行が完了するまでお待ちください。"
@@ -862,10 +806,10 @@ msgid "This command takes a while to complete and will be queued and ran in the 
 msgstr "このコマンドはバックグラウンドで実行され、完了までしばらく時間がかかります。ログは現在のところ出力されませんが、コマンドが完了次第、確認する事が出来るでしょう。"
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "古いプレフィクス - このプレフィクスに該当する全ての netixlan をリナンバしてください"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+msgstr "新しいプレフィクス - 古いプレフィクスと同じプロトコルと同じプレフィクス長である必要があります"
 
 msgid "Merge this facility - it will be deleted"
 msgstr "そのデータセンタはマージされた後、削除されます。"
@@ -889,37 +833,31 @@ msgid "Only {} type objects may be restored through this interface at this point
 msgstr "いまは、このインタフェースを介して {} タイプのオブジェクトのみが復元されます"
 
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
+msgstr "IX-F メンバーデータ入力をする為に、インターネット・エクスチェンジを選択してください"
 
-#, fuzzy
 #| msgid "Reset"
 msgid "Reset all"
-msgstr "リセット"
+msgstr "全てリセットします"
 
-#, fuzzy
 #| msgid "Reset Environment"
 msgid "Reset hints"
-msgstr "環境をリセットします"
+msgstr "ヒントをリセットします"
 
-#, fuzzy
 #| msgid "Reset Environment"
 msgid "Reset dismisses"
-msgstr "環境をリセットします"
+msgstr "却下をリセットします"
 
-#, fuzzy
 #| msgid "Change Email"
 msgid "Reset email"
-msgstr "メールアドレスを変更する"
+msgstr "メールアドレスをリセットします"
 
-#, fuzzy
 #| msgid "Reset Environment"
 msgid "Reset tickets"
-msgstr "環境をリセットします"
+msgstr "チケットをリセットします"
 
-#, fuzzy
 #| msgid "Address not found"
 msgid "Key not found"
-msgstr "アドレスが見つかりません"
+msgstr "Key が見つかりません"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -947,108 +885,89 @@ msgstr ""
 msgid "Supported filter suffixes: {}"
 msgstr ""
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Number of networks present at this facility"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "このデータセンタに存在しているネットワークの数"
 
 msgid "Targets both AKA and name fields for filtering"
 msgstr ""
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks not present at an exchange (exchange id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "そのエクスチェンジ (exchange id) に接続していないネットワークを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks present at exchange (exchange id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "そのエクスチェンジ (exchange id) に接続しているネットワークを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks not present at a facility (facility id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "そのデータセンタ (facility id) に存在していないネットワークを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks present at a facility (facility id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "そのデータセンタ (facility id) に存在しているネットワークを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find networks connected at ixlan (ixlan id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "その ixlan (ixlan id) に接続しているネットワークを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find the network that contains this netixlan (netixlan id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "この netixlan (netixlan id) を含むネットワークを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "この netfac (netfac id) に属しているネットワークを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find exchanges present at a facility (facility id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "このデータセンタに存在しているエクスチェンジを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find the exchange that contains this ixlan (ixlan id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "この ixlan (ixlan id) を含むエクスチェンジを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find the exchange that contains this ixfac (ixfac id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "この ixfac (ixfac id) を含むエクスチェンジを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Number of networks present at this exchange"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "このエクスチェンジに接続しているネットワークの数"
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find exchanges where this network has a presence at (net id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "このネットワーク (net id) が接続しているエクスチェンジを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find organization that contains the network (network asn)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "このネットワーク (network asn) を含む組織を検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find prefixes by exchange (exchange id)"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "エクスチェンジ (exchange id) でプレフィクスを検索する"
 
-#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "Find prefixes by ip address"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "IP アドレスでプレフィクスを検索する"
 
-#, fuzzy
 #| msgid "Exchange"
 msgid "Exchange name"
-msgstr "エクスチェンジ"
+msgstr "エクスチェンジの名前"
 
-#, fuzzy
 #| msgid "Facility"
 msgid "Facility name"
-msgstr "データセンタ"
+msgstr "データセンタの名前"
 
-#, fuzzy
 #| msgid "Facility"
 msgid "Facility country"
-msgstr "データセンタ"
+msgstr "データセンタの国名"
 
-#, fuzzy
 #| msgid "Facility"
 msgid "Facility city"
-msgstr "データセンタ"
+msgstr "データセンタの都市名"
 
 #, python-brace-format
 msgid "Creates a new `{obj_type}` type object."
@@ -1084,64 +1003,43 @@ msgid "Passwords need to match"
 msgstr "文字列が一致するパスワードでお願いします"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
+msgstr "anti-spam challenge (captcha) field に入力してください"
 
 msgid "reCAPTCHA invalid"
 msgstr "reCAPTCHA が無効です"
 
 msgid "captcha invalid"
-msgstr ""
+msgstr "captcha が無効です"
 
-#, fuzzy, python-format
-#| msgid "Negative value not allowed"
-msgid "File type %(value)s not allowed"
-msgstr "負の数値は許可されません"
-
-#, python-format
-msgid "File size too big, max. %(value)s"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-#, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
-msgstr "メールアドレス変更のリクエストをする前に少々お待ちください"
+msgstr "IX-F import preview のリクエストをする前に少々お待ちください"
 
-#, fuzzy
 #| msgid "Address not found"
 msgid "Ixlan not found"
-msgstr "アドレスが見つかりません"
+msgstr "Ixlan が見つかりません"
 
-#, fuzzy
 #| msgid "Permissions"
 msgid "Permission denied"
-msgstr "パーミッション"
+msgstr "権限がありません"
 
-#, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr "メールアドレス変更のリクエストをする前に少々お待ちください"
+msgstr "IX-F import postmortem のリクエストをする前に少々お待ちください"
 
-#, fuzzy
 #| msgid "Address not found"
 msgid "Network not found"
-msgstr "アドレスが見つかりません"
+msgstr "ネットワークが見つかりません"
 
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
 msgid "This ASN is not assigned by any RIR"
-msgstr ""
+msgstr "この AS 番号はどの RIR からも割り当てされておりません"
 
-#, fuzzy
-#| msgid "ASNs in this range are not allowed in this environment"
-msgid "ASNs in this range are private or reserved"
-msgstr "この環境では、この範囲内の AS 番号は許可されていません"
-
-msgid "{}"
-msgstr ""
+#| msgid "RDAP Lookup Error"
+msgid "RDAP Lookup Error: {}"
+msgstr "RDAP 参照エラー: {}"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
@@ -1153,12 +1051,11 @@ msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
 msgid "We found that your IX-F output "
-msgstr ""
+msgstr "IX-F 出力が見つかりました"
 
-#, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IX-F import url not specified"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+msgstr "IX-F import URL が未指定"
 
 msgid "No JSON could be parsed"
 msgstr "パース可能な JSON ではありません"
@@ -1172,18 +1069,16 @@ msgstr ""
 msgid "No prefixes defined on ixlan"
 msgstr ""
 
-#, fuzzy
 #| msgid "Merge Facilities"
 msgid "Network status is '{}'"
-msgstr "データセンタをマージする"
+msgstr "ネットワークのステータスは '{}'"
 
 msgid "Network does not exist in peeringdb"
 msgstr ""
 
-#, fuzzy
 #| msgid "Invalid prefix: {}"
 msgid "Invalid connection state: {}"
-msgstr "無効なプレフィクス"
+msgstr "無効な接続状態"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
 msgstr ""
@@ -1191,24 +1086,22 @@ msgstr ""
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
 
-#, fuzzy
 #| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: {}"
-msgstr "無効なプレフィクス"
+msgstr "無効な帯域の値"
 
-#, fuzzy
 #| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: could not be parsed"
-msgstr "無効なプレフィクス"
+msgstr "無効な帯域の値: パースする事が出来ませんでした"
 
 msgid "IP addresses moved to same entry"
 msgstr ""
 
 msgid "IPv6 not set"
-msgstr ""
+msgstr "IPv6 not set"
 
 msgid "IPv4 not set"
-msgstr ""
+msgstr "IPv4 not set"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
 msgstr ""
@@ -1252,10 +1145,9 @@ msgstr "オブジェクトを復元します"
 msgid "Reset Environment"
 msgstr "環境をリセットします"
 
-#, fuzzy
 #| msgid "IXF Import Log"
 msgid "IX-F Import"
-msgstr "IXF Import のログ(IXF Import Log)"
+msgstr "IX-F Import"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
@@ -1310,10 +1202,9 @@ msgstr "承認された(Approved)"
 msgid "Denied"
 msgstr "拒否された(Denied)"
 
-#, fuzzy
 #| msgid "Cancel"
 msgid "Canceled"
-msgstr "キャンセル"
+msgstr "Canceled"
 
 msgid "Status of this request"
 msgstr "このリクエストの状態"
@@ -1328,55 +1219,51 @@ msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "組織所属 \"{}\" が承認されました"
 
 msgid "The item that this queue is attached to was created by this user"
-msgstr "このユーザによって、このキューに加わっているこのアイテムが生成されました"
+msgstr "このキューに加わっているこのアイテムはこのユーザによって生成されました"
 
-#, fuzzy
 #| msgid "The item that this queue is attached to was created by this user"
 msgid "The item that this queue is attached to was created by this organization api key"
-msgstr "このユーザによって、このキューに加わっているこのアイテムが生成されました"
+msgstr "このキューに加わっているこのアイテムはこの組織の API Key によって生成されました"
 
 msgid "email address"
 msgstr "メールアドレス"
 
 msgid "Ticket reference on the DeskPRO side"
-msgstr ""
+msgstr "DeskPRO 側のチケットリファレンス"
 
 msgid "Ticket id on the DeskPRO side"
-msgstr ""
+msgstr "DeskPRO 側のチケット ID"
 
 #, fuzzy
 #| msgid "Reset Environment"
 msgid "DeskPRO Ticket"
-msgstr "環境をリセットします"
+msgstr "DeskPRO Ticket"
 
-#, fuzzy
 #| msgid "Reset Environment"
 msgid "DeskPRO Tickets"
-msgstr "環境をリセットします"
+msgstr "DeskPRO Tickets"
 
 #, fuzzy
 #| msgid "Reset Environment"
 msgid "DeskPRO Ticket CC Contact"
-msgstr "環境をリセットします"
+msgstr "DeskPRO Ticket CC Contact"
 
 msgid "Deskpro Ticket CC Contacts"
-msgstr ""
+msgstr "Deskpro Ticket CC Contacts"
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "この組織のロゴファイルのアップロードが許可されました"
 
-#, fuzzy
 #| msgid "Organization does not exist"
 msgid "Organization has active objects under it."
-msgstr "その組織は存在していません"
+msgstr "この組織にはアクティブなオブジェクトがあります"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr ""
+msgstr "この組織はスポンサーです。削除を進めるには PeeringDB サポートまでご連絡ください"
 
-#, fuzzy
 #| msgid "Organization Merges"
 msgid "Organization API key Permission"
-msgstr "組織の統合(Organization Merges)"
+msgstr "組織の API Key 権限"
 
 msgid "Sponsorship starts on"
 msgstr "にスポンサーシップが開始になります"
@@ -1446,10 +1333,10 @@ msgid "Can only compare a maximum of 25 asns"
 msgstr "最大25個のAS番号の比較まで可能です"
 
 msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
+msgstr "このデータセンタはアクティブなエクスチェンジのデータを持っています: {} ..."
 
 msgid "Facility has active network presence(s): {} ..."
-msgstr ""
+msgstr "このデータセンタはアクティブなネットワークのデータを持っています: {} ..."
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -1494,25 +1381,22 @@ msgid "number of networks at this exchange"
 msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
 
 msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
+msgstr "このエクスチェンジはアクティブなデータセンタのデータを持っています: {} ..."
 
 msgid "Exchange has active peer(s)"
-msgstr ""
+msgstr "このエクスチェンジはアクティブなピア（ネットワーク）のデータを持っています"
 
-#, fuzzy
 #| msgid "IXF Import Log"
 msgid "IX-F error"
-msgstr "IXF Import のログ(IXF Import Log)"
+msgstr "IX-F エラー(IX-F error)"
 
-#, fuzzy
 #| msgid "No JSON could be parsed"
 msgid "Reason IX-F data could not be parsed"
-msgstr "パース可能な JSON ではありません"
+msgstr "IX-F データをパース出来なかった理由"
 
-#, fuzzy
 #| msgid "Merge Notification"
 msgid "IX-F error notification date"
-msgstr "統合の通知"
+msgstr "IX-F エラーを通知した日付"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr ""
@@ -1532,25 +1416,21 @@ msgstr ""
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
 msgstr ""
 
-#, fuzzy
 #| msgid "IXF Import Log"
 msgid "IX-F Import Log"
-msgstr "IXF Import のログ(IXF Import Log)"
+msgstr "IX-F Import のログ(IX-F Import Log)"
 
-#, fuzzy
 #| msgid "IXF Import Logs"
 msgid "IX-F Import Logs"
-msgstr "IXF Import のログ(IXF Import Logs)"
+msgstr "IX-F Import のログ(IX-F Import Logs)"
 
-#, fuzzy
 #| msgid "IXF Import Log Entry"
 msgid "IX-F Import Log Entry"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entry)"
+msgstr "IXF Import のログのエントリー(IX-F Import Log Entry)"
 
-#, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IX-F Import Log Entries"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+msgstr "IX-F Import のログのエントリー(IX-F Import Log Entries)"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
 msgstr ""
@@ -1567,18 +1447,16 @@ msgstr "RS ピア"
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
 
-#, fuzzy
 #| msgid "Last Updated"
 msgid "Last Fetched"
-msgstr "最新のアップデート"
+msgstr "前回のフェッチ"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
 msgstr ""
 
-#, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Data"
-msgstr "IXF メンバー出力 URL"
+msgstr "IX-F メンバーデータ"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
@@ -1589,10 +1467,9 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
-#, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr "ixp_member のデータを介して、ixp がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
+msgstr "ixp_member のデータを介して、IXP がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -1608,23 +1485,21 @@ msgid "Last technical contact point for network with active peers"
 msgstr ""
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr ""
+msgstr "このエンティティは、ASN {} 用に作成されています - このネットワークから削除し、正しいネットワークで再度作成してください"
 
 msgid "IPv4 address outside of prefix"
-msgstr ""
+msgstr "プレフィクス範囲から外れた IPv4 アドレス"
 
 msgid "IPv6 address outside of prefix"
-msgstr ""
+msgstr "プレフィクス範囲から外れた IPv6 アドレス"
 
-#, fuzzy
 #| msgid "Maximum value allowed {}"
 msgid "Maximum speed: {}"
-msgstr "許容範囲な最大値 {}"
+msgstr "最大帯域: {}"
 
-#, fuzzy
 #| msgid "Invalid prefix: {}"
 msgid "Minimum speed: {}"
-msgstr "無効なプレフィクス"
+msgstr "最小帯域: {}"
 
 msgid "Ip address already exists elsewhere"
 msgstr "他の場所で IP アドレスが使われています"
@@ -1677,15 +1552,13 @@ msgstr "パスワードの初期化"
 msgid "Determines if API Key inherits the User Permissions or is readonly."
 msgstr ""
 
-#, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IX-F Import Email"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+msgstr "IX-F Import Email"
 
-#, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IX-F Import Emails"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+msgstr "IX-F Import Emails"
 
 msgid "name of the tool"
 msgstr "ツール名"
@@ -1711,29 +1584,26 @@ msgstr "完了"
 msgid "Running"
 msgstr "実行中"
 
-#, fuzzy
 #| msgid "Reset Environment"
 msgid "Environment Setting"
-msgstr "環境をリセットします"
+msgstr "環境設定"
 
-#, fuzzy
 #| msgid "Reset Environment"
 msgid "Environment Settings"
-msgstr "環境をリセットします"
+msgstr "環境設定"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
 msgstr ""
 
 msgid "Last Updated"
-msgstr "最新のアップデート"
+msgstr "前回の更新日時"
 
-#, fuzzy
 #| msgid "Confirmed"
 msgid "Configured on"
 msgstr "確認済み(Confirmed)"
 
 msgid "Last updated by this user"
-msgstr ""
+msgstr "ユーザによる前回の更新"
 
 msgid "Organization and all Entities it owns"
 msgstr "所有している組織と全エンティティ"
@@ -1765,21 +1635,19 @@ msgstr "指定された組織は無効です"
 msgid "Needs to be member or admin"
 msgstr "メンバーもしくは管理者になる必要があります"
 
-#, fuzzy, python-format
 #| msgid "%(user_name)s's afilliation request has been approved"
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s's 所属リクエストが承認されました"
 
-#, fuzzy, python-format
 #| msgid "%(user_name)s's afilliation request has been denied"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s's 所属リクエストが拒否されました"
 
 msgid "Please contact {} to help with the deletion of this object"
-msgstr ""
+msgstr "このオブジェクトの削除については、 {} までご連絡ください"
 
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
-msgstr ""
+msgstr "入力した住所が見つかりませんでした。住所のデータを再確認し、必要に応じて {} にご連絡ください"
 
 #, fuzzy
 #| msgid "Invalid tag"
@@ -1799,29 +1667,26 @@ msgstr "RDAP 参照エラー"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "このフィールドは以下のリクエストにのみ使用可能です {methods}"
 
-#, fuzzy, python-format
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が承認されていない為です"
+msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が承認されていない為です"
 
-#, fuzzy, python-format
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "この形式 '%(type)s' のオブジェクトは生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
+msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
 
 msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
-msgstr ""
+msgstr "エクスチェンジポイントを追加するには、技術担当、NOC、ポリシー担当の有効なメールアドレスが入力されている必要があります"
 
 msgid "Network has been deleted. Please contact {}"
-msgstr ""
+msgstr "ネットワークが削除されました。 {} までご連絡ください"
 
-#, fuzzy
 #| msgid "Suggest Exchange"
 msgid "ASN cannot be changed."
-msgstr "エクスチェンジに情報追加の提案"
+msgstr "ASN は変更出来ません"
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr ""
@@ -1848,7 +1713,6 @@ msgstr "はあなたのメールアドレスです"
 msgid "Confirm"
 msgstr "確認"
 
-#, fuzzy
 #| msgid "The email confirmation process for this email address has been terminated, please re-initate"
 msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "このメールアドレスの確認プロセスが終了しました。再開してください"
@@ -1890,10 +1754,9 @@ msgstr ""
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
 msgstr ""
 
-#, fuzzy
 #| msgid "Undo merge"
 msgid "You may undo merges"
-msgstr "マージを元に戻す"
+msgstr "マージを元に戻す事が出来ます"
 
 #, fuzzy
 #| msgid "Organization"
@@ -1936,10 +1799,9 @@ msgstr "プレビュー"
 msgid "Result"
 msgstr "結果"
 
-#, fuzzy
 #| msgid "API Documentation"
 msgid "PeeringDB API Documentation"
-msgstr "API 関連のドキュメント"
+msgstr "PeeringDB API 関連のドキュメント"
 
 msgid "Merge Notification"
 msgstr "統合の通知"
@@ -1950,10 +1812,9 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "に統合されました"
 
-#, fuzzy
 #| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
-msgstr "全ての統合が PeeringDB サポートスタッフによって処理されました。もし間違って実行されたと思われた場合は、PeeringDB サポートスタッフに連絡してください"
+msgstr "全ての統合が PeeringDB サポートスタッフによって処理されました。もし間違って実行されたと思われた場合は、PeeringDB サポートスタッフまでご連絡ください"
 
 #, python-format
 msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
@@ -1985,32 +1846,26 @@ msgstr "ユーザ"
 msgid "AS"
 msgstr "AS"
 
-#, fuzzy, python-format
 #| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(o_name)s (%(o_id)s) の組織が自動生成されました。"
+msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) の組織が自動生成されました。"
 
-#, fuzzy, python-format
 #| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(n_name)s (%(n_id)s) のネットワークが自動生成されました。"
+msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) のネットワークが自動生成されました。"
 
-#, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "'%(u_name)s' のユーザが %(o_name)s (%(o_id)s) の組織下の %(n_name)s AS%(n_asn)s (%(n_id)s) のネットワークを生成しました。"
+msgstr "'%(email)s' のメールアドレスを持つ組織の API Key が %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) のネットワークを生成しました。"
 
-#, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "そのユーザのメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました"
+msgstr "その Key のメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました"
 
-#, fuzzy, python-format
 #| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "'%(u_name)s' のユーザが %(o_name)s (%(o_id)s) の組織下の %(n_name)s AS%(n_asn)s (%(n_id)s) のネットワークを生成しました。"
+msgstr "'%(u_name)s' のユーザが %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) のネットワークを生成しました。"
 
-#, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "そのユーザのメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました"
@@ -2022,7 +1877,6 @@ msgstr "AS 番号 %(inst)s への所属を希望しているユーザ %(u_name)s
 msgid "They also provided this organization name in their request"
 msgstr "リクエストによってこの組織を提供しました"
 
-#, fuzzy
 #| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "この AS 番号に一致するエントリーがデータベースにありませんでした。 ネットワークと組織を作成する必要があります"
@@ -2050,7 +1904,6 @@ msgstr "リクエストによってこの AS 番号が与えられました"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "注意: これは所有権のリクエストです。これを承認すると組織と組織が所有するエンティティに対してのユーザ管理権限を付与します"
 
-#, fuzzy
 #| msgid "These are the website addresses were able to derive from the organzation and it's entities"
 msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "これらは、組織情報とそのエンティティから抽出されえる Web サイトのアドレスです"
@@ -2077,7 +1930,6 @@ msgstr "所有者権限リクエストを承認し、ユーザに通知します
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "新しいエンティティ '%(entity_type_name)s' が作成された為、あなたの承認が必要となっています"
 
-#, fuzzy, python-format
 #| msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr "この %(entity_type_name)s は提案の1つとして提出されており、レビューの後、適切な組織に割り当てられる必要があります"
@@ -2085,26 +1937,23 @@ msgstr "この %(entity_type_name)s は提案の1つとして提出されてお�
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "その対象の AS 番号の RIR エントリーを検索しました"
 
-#, fuzzy
 #| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
-msgstr "しかし、リクエストしたユーザと一致するものは見つかりませんでした。データにあったメールアドレスはこちらになります"
+msgstr "しかし、リクエストした Organization API Key email と一致するものは見つかりませんでした。データにあったメールアドレスはこちらになります"
 
-#, fuzzy
 #| msgid "Organization"
 msgid "Requested by Organization API Key"
-msgstr "組織名"
+msgstr "Organization API Key によりリクエストされた"
 
-#, fuzzy
 #| msgid "Prefix"
 msgid "API key prefix"
-msgstr "プレフィクス"
+msgstr "API Key プレフィクス"
 
 msgid "You can go to"
 msgstr "そちらに行けます"
 
 msgid "to view and approve or deny this entry"
-msgstr "ご覧いただき、このエントリについて承認または拒否してください"
+msgstr "ご覧いただき、このエントリーについて承認または拒否してください"
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
@@ -2134,7 +1983,7 @@ msgid "You may view and edit your organization at"
 msgstr "あなたはあなたの組織の閲覧と編集をする事が出来ます"
 
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "もし質問がありましたら、PeeringDB サポートまで連絡ください"
+msgstr "もし質問がありましたら、PeeringDB サポートまでご連絡ください"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "PeeringDB のパスワードリセットを実行開始します。下記の URL からパスワードのリセットをしてください"
@@ -2261,15 +2110,15 @@ msgid "Exchange Presence"
 msgstr "接続エクスチェンジ"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
+msgstr "選択したエクスチェンジの利用・未利用の条件をもとにネットワークの検索が出来ます"
 
 #, fuzzy
 #| msgid "Not Set"
 msgid "Present"
-msgstr "設定されていません"
+msgstr "利用中"
 
 msgid "Absent"
-msgstr ""
+msgstr "未利用"
 
 msgid "Facility Presence"
 msgstr "利用データセンタ"
@@ -2284,7 +2133,7 @@ msgid "ASN"
 msgstr "AS 番号"
 
 msgid "Network Scope"
-msgstr "Network Scope"
+msgstr "地域"
 
 msgid "Exchanges"
 msgstr "エクスチェンジ"
@@ -2307,47 +2156,46 @@ msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
 msgid "Only use this if you own the facility"
-msgstr ""
+msgstr "データセンタを運用している方だけが追加してください"
 
 msgid "Only use this if you own the exchange"
-msgstr ""
+msgstr "エクスチェンジを運用している方だけが追加してください"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "新規の %(entity_name)s をあなたの組織に追加する事が出来ます。新規作成された %(entity_name)s は、検索結果や API リストに表示されるようになる前に PeeringDB スタッフに承認される必要があります"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+msgstr "データセンタとして PeeringDB に登録されるには、コロケーション、データセンタ、Meet-Me-Room を一般に提供している事が望まれます"
 
 msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr ""
+msgstr "インターネット・エクスチェンジとして PeeringDB に登録されるには、次の条件を満たしている事が望まれます"
 
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr ""
+msgstr "インターネット・エクスチェンジ・ポイント（IXP）とは、インターネットのトラフィック交換を容易に行えるようにする為、3つ以上の自律システム（AS）の相互接続を可能にするネットワーク拠点を指します"
 
 msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr ""
+msgstr "IXP は AS に対してのみ相互接続性を提供します。IXP を介して、2 AS 間で交換するトラフィックは、その2 AS 以外の第三者を通過する事はありません。また、IXP がトラフィックを変更したり妨害する事もありません。"
 
 msgid "Submit"
 msgstr "Submit"
 
 #, python-format
 msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr ""
+msgstr "%(entity_name)s 情報追加の提案が出来ます。あなたが提案した情報は PeeringDB 管理委員会によってレビューされ、データベースに登録されるか、拒否されるかの最終決定が行われます。提案する以外の作業は必要ありません"
 
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+msgstr "承認されるには、提案されたデータセンタがコロケーション、データセンタ、Meet-Me-Room を一般に提供している事が望まれます"
 
 msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
-msgstr ""
+msgstr "あなたがデータセンタを運用していない場合のみ、ここから「データセンタ情報追加の提案」を行ってください。もしデータセンタを運用されている場合は、あなたの組織の管理ページから「データセンタを追加」を行ってください"
 
 msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr ""
+msgstr "承認されるには、提案されたエクスチェンジが次の条件を満たしている事が望まれます"
 
-#, fuzzy
 #| msgid "Suggest Network"
 msgid "Suggest"
-msgstr "ネットワークに情報追加の提案"
+msgstr "提案"
 
 msgid "404 - Not Found"
 msgstr "404 - Not Found"
@@ -2358,7 +2206,6 @@ msgstr "あなたがリクエストしたページはありませんでした。
 msgid "403 - Forbidden"
 msgstr "403 - Forbidden"
 
-#, fuzzy
 #| msgid "You dont have permissions to view this page."
 msgid "You don't have permissions to view this page."
 msgstr "あなたは、このページを閲覧する権限を持っていません。"
@@ -2387,10 +2234,9 @@ msgstr "スポンサー"
 msgid "Resources"
 msgstr "情報リソース"
 
-#, fuzzy
 #| msgid "AUP"
 msgid "API"
-msgstr "利用規定"
+msgstr "API"
 
 msgid "Documentation"
 msgstr "ドキュメント"
@@ -2399,7 +2245,7 @@ msgid "FAQ"
 msgstr "FAQ"
 
 msgid "Governance"
-msgstr ""
+msgstr "運営"
 
 msgid "Contact Us"
 msgstr "連絡先"
@@ -2413,10 +2259,9 @@ msgstr "エクスチェンジ接続数"
 msgid "Connections to Facilities"
 msgstr "データセンタ利用数"
 
-#, fuzzy
 #| msgid "Add Network"
 msgid "Automated Networks"
-msgstr "ネットワークを追加"
+msgstr "Automated Networks"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "ここで、ネットワーク・IX・データセンタの検索が出来ます"
@@ -2431,7 +2276,7 @@ msgid "unverified"
 msgstr "未認証の"
 
 msgid "Suggest Facility"
-msgstr "データセンタに情報追加の提案"
+msgstr "データセンタ情報追加の提案"
 
 msgid "Profile"
 msgstr "プロフィール"
@@ -2458,18 +2303,17 @@ msgid "The database is a non-profit, community-driven initiative run and promote
 msgstr "このデータベースは非営利コミュニティ主導のボランティアによって運用されているインターネットの成長と改善の為のパブリックなツールです。このコミュニティに参加し、インターネットの継続的な発展にご支援をお願いします。"
 
 msgid "Learn more"
-msgstr "さらなる情報は"
+msgstr "Learn more"
 
 msgid "about"
-msgstr "こちら"
+msgstr "about"
 
-#, fuzzy
 #| msgid "Register"
 msgid "register"
-msgstr "登録"
+msgstr "register"
 
 msgid "Most Recent Updates"
-msgstr "最新のアップデート日時"
+msgstr "最近のアップデート"
 
 msgid "Maintenance Mode"
 msgstr "メンテナンス状態"
@@ -2487,7 +2331,7 @@ msgid "Login with your Facebook account"
 msgstr "Facebook アカウントを使ってログイン"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
-msgstr ""
+msgstr "ここで、API Key に権限を付与する事が出来ます。もし、最近追加した API Key が表示されていない場合は、このページのリロードをしてみてください"
 
 msgid "Create"
 msgstr "作成"
@@ -2502,7 +2346,7 @@ msgid "Add"
 msgstr "追加"
 
 msgid "Here you can create new API keys for your organization or revoke existing keys."
-msgstr ""
+msgstr "ここで、あなたの組織の新しい API Key の作成や既存の API Key の取り消しが出来ます"
 
 msgid "Edit"
 msgstr "編集"
@@ -2511,10 +2355,10 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 msgid "Revoke"
-msgstr ""
+msgstr "取り消し"
 
 msgid "Add Key"
-msgstr ""
+msgstr "Key を追加"
 
 msgid "Partners"
 msgstr "パートナー"
@@ -2552,15 +2396,13 @@ msgstr "パスワードリセット処理が失効しました"
 msgid "initiate again"
 msgstr "もう一度実行してください"
 
-#, fuzzy
 #| msgid "Account Created"
 msgid "Account Security"
-msgstr "アカウントが作成されました"
+msgstr "アカウントのセキュリティ設定"
 
-#, fuzzy
 #| msgid "Manage OAuth Applications"
 msgid "Manage Two-Factor Authentication"
-msgstr "OAuth アプリケーションで管理する"
+msgstr "二要素認証を設定する"
 
 msgid "Affiliate with organization"
 msgstr "組織に所属しましょう"
@@ -2569,15 +2411,13 @@ msgstr "組織に所属しましょう"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "%(ar_name)s に対する所属が承認保留中です"
 
-#, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s is pending approval."
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr "%(ar_name)s に対する所属が承認保留中です"
+msgstr "PeeringDB 管理スタッフによって %(ar_name)s に対する所属が承認保留中です"
 
-#, fuzzy, python-format
 #| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "You have canceled your affiliation request with %(ar_name)s"
-msgstr "%(ar_name)s に対する所属が拒否されました"
+msgstr "%(ar_name)s に対する所属リクエストが取り消されました"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
@@ -2597,13 +2437,13 @@ msgid "To register a new facility or exchange organization, please enter the org
 msgstr "データセンタもしくはエクスチェンジの組織を新規登録する為には、下記に組織名を入力してください（AS 番号の登録は任意です）"
 
 msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
-msgstr ""
+msgstr "あなたが所属している組織名を入力してください。つまり従業員であるか何らかの形で働いている組織を指します。まだ所属者がいない組織名だった場合には、support@peeringdb.com 宛てに所属リクエストが送信され、既に所属者がいる組織名だった場合は、その組織の管理者宛てに所属リクエストが送信されます。数日以内に応答が無かった場合は、support@peeringdb.com までご連絡ください。"
 
 msgid "Affiliate"
-msgstr "所属します"
+msgstr "所属する"
 
 msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr "AS 番号から RIR の登録を検索できない場合は、こちらにご連絡ください"
+msgstr "AS 番号から RIR の登録を検索出来ない場合は、こちらにご連絡ください"
 
 msgid "for assistance"
 msgstr "でお手伝いします"
@@ -2618,19 +2458,19 @@ msgid "has been approved"
 msgstr "の所属が承認済みとなっています"
 
 msgid "API Keys"
-msgstr ""
+msgstr "API Keys"
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
-msgstr ""
+msgstr "API Key を使用するとユーザ名とパスワードを入力する事なく認証を行う事が可能となります"
 
 msgid "read-only"
-msgstr ""
+msgstr "read-only"
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
-msgstr ""
+msgstr "superuser account の API Key を作成しています。この API Key は読み取り専用にする事は出来ず、フルアクセスの権限を持ちます。注意して進めてください。"
 
 msgid "Read only"
-msgstr ""
+msgstr "Read only"
 
 msgid "Change email address"
 msgstr "メールアドレスの変更"
@@ -2681,7 +2521,7 @@ msgid "Language preference saved"
 msgstr "好みの言語を保存しました"
 
 msgid "Set language preference"
-msgstr "好みの言語を選択してください"
+msgstr "言語を選択する"
 
 msgid "Account Created"
 msgstr "アカウントが作成されました"
@@ -2711,7 +2551,7 @@ msgid "Last name"
 msgstr "姓"
 
 msgid "Loading anti-spam challenge"
-msgstr ""
+msgstr "Loading anti-spam challenge"
 
 msgid "Thank you"
 msgstr "ありがとうございました"
@@ -2795,15 +2635,14 @@ msgid "to improve data quality"
 msgstr "の印のある箇所の更新をお願いします"
 
 msgid "Suggested Address:"
-msgstr ""
+msgstr "Suggested Address:"
 
 msgid "Accept"
-msgstr ""
+msgstr "Accept"
 
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "このエンティティのジオコードデータの取得に失敗しました。これはアドレスフィールドの変更時に自動的に行われます"
 
-#, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
 msgstr "プレフィクス"
@@ -2814,13 +2653,12 @@ msgstr "IXLAN Prefix"
 msgid "Add Prefix"
 msgstr "プレフィクスを追加"
 
-#, fuzzy
 #| msgid "Facilities"
 msgid "Local Facilities"
-msgstr "データセンタ"
+msgstr "Local Facilities"
 
 msgid "Filter"
-msgstr ""
+msgstr "フィルタ"
 
 msgid "No filter matches."
 msgstr "フィルタに一致するものはありませんでした"
@@ -2834,28 +2672,24 @@ msgstr "エクスチェンジ - データセンタ のリンク"
 msgid "Add Facility"
 msgstr "データセンタを追加"
 
-#, fuzzy
 #| msgid "IXF Import Log Entries"
 msgid "IX-F Import Preview"
-msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
+msgstr "IX-F Import のプレビュー"
 
 msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
 msgstr ""
 
-#, fuzzy
 #| msgid "Exchanges"
 msgid "Changes"
-msgstr "エクスチェンジ"
+msgstr "Changes"
 
 msgid "Errors"
-msgstr ""
+msgstr "エラー"
 
-#, fuzzy
 #| msgid "Speed"
 msgid "speed"
 msgstr "帯域"
 
-#, fuzzy
 #| msgid "Route Server"
 msgid "routeserver"
 msgstr "ルートサーバ"
@@ -2864,10 +2698,10 @@ msgid "Sometimes we encounter some errors when parsing ix-f data, these will usu
 msgstr ""
 
 msgid "Peers at this Exchange Point"
-msgstr "このエクスチェンジポイントでのピア"
+msgstr "このエクスチェンジに接続しているネットワーク"
 
 msgid "Peer Name"
-msgstr "ピア名"
+msgstr "ネットワーク名"
 
 msgid "Speed"
 msgstr "帯域"
@@ -2878,10 +2712,9 @@ msgstr "エクスチェンジ"
 msgid "IP"
 msgstr "IP"
 
-#, fuzzy
 #| msgid "Regional"
 msgid "Not operational"
-msgstr "特定地域"
+msgstr "非稼働"
 
 msgid "Contact Information"
 msgstr "連絡先情報"
@@ -2907,149 +2740,134 @@ msgstr ""
 msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
 msgstr ""
 
-#, fuzzy
 #| msgid "Location"
 msgid "action"
-msgstr "住所"
+msgstr "action"
 
-#, fuzzy
 #| msgid "Exchange"
 msgid "exchange"
 msgstr "エクスチェンジ"
 
 msgid "Close"
-msgstr ""
+msgstr "Close"
 
-#, fuzzy
 #| msgid "IXF Import History"
 msgid "IX-F Import Postmortem"
-msgstr "IXP インポート履歴"
+msgstr "IX-F Import Postmortem"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr ""
 
 msgid "Showing most recent"
-msgstr ""
+msgstr "Showing most recent"
 
-#, fuzzy
 #| msgid "Exchanges"
 msgid "changes"
-msgstr "エクスチェンジ"
+msgstr "changes"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Refresh"
 
 msgid "Some exchanges suggest updates to your entries in their peering list."
-msgstr ""
+msgstr "いくつかのエクスチェンジがピアリングリストにあるのあなたのエントリの更新を提案しています"
 
 #, fuzzy
 #| msgid "Reset Environment"
 msgid "Review suggestions"
-msgstr "環境をリセットします"
+msgstr "Review suggestions"
 
 msgid "You have dismissed some suggestions that are still available."
-msgstr ""
+msgstr "利用可能ないくつかの提案を却下しました"
 
 msgid "Will restore any suggestions you have previously dismissed"
-msgstr ""
+msgstr "前回却下した提案を復元します"
 
-#, fuzzy
 #| msgid "Reset Environment"
 msgid "Reset Suggestions"
-msgstr "環境をリセットします"
+msgstr "提案をリセットします"
 
 msgid "Expand each exchange below to review, apply or dismiss those suggestions"
-msgstr ""
+msgstr "提案をレビュー、適用、もしくは、却下をする為に、下記のエクスチェンジを展開します"
 
 msgid "Their PeeringDB entry"
-msgstr ""
+msgstr "Their PeeringDB entry"
 
 msgid "Automatically update and remove all suggested entries"
-msgstr ""
+msgstr "提案されたエントリーを自動的に更新し削除します"
 
 msgid "Auto-resolve"
-msgstr ""
+msgstr "Auto-resolve"
 
 msgid "Automatically add all suggested entries"
-msgstr ""
+msgstr "全ての提案されたエントリーを自動的に追加します"
 
 msgid "Auto-add"
-msgstr ""
+msgstr "Auto-add"
 
-#, fuzzy
 #| msgid "Regional"
 msgid "Options"
-msgstr "特定地域"
+msgstr "Options"
 
 msgid "Hide this suggestion until the exchange updates it."
-msgstr ""
+msgstr "そのエクスチェンジが更新を行うまで、この提案を非表示にします"
 
 msgid "Dismiss"
-msgstr ""
+msgstr "却下する"
 
-#, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Add this entry to public peering exchange points"
-msgstr "接続しているエクスチェンジポイント"
+msgstr "このエントリーを接続しているエクスチェンジポイントに追加する"
 
 msgid "Remove"
 msgstr "削除する"
 
-#, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Remove this entry from your public peering exchange points list"
-msgstr "接続しているエクスチェンジポイント"
+msgstr "このエントリーを接続しているエクスチェンジポイントから削除する"
 
-#, fuzzy, python-format
 #| msgid "Public Peering Exchange Points"
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr "接続しているエクスチェンジポイント"
+msgstr "このエントリー（ %(ixf_id)s for %(ix_name)s ）を「接続しているエクスチェンジポイント」のリストから削除しますか？"
 
-#, fuzzy
 #| msgid "email address"
 msgid "Set IPv6 address"
-msgstr "メールアドレス"
+msgstr "IPv6 アドレスを登録"
 
-#, fuzzy
 #| msgid "email address"
 msgid "Clear IPv6 address"
-msgstr "メールアドレス"
+msgstr "IPv6 アドレスを消去"
 
-#, fuzzy
 #| msgid "email address"
 msgid "Set IPv4 address"
-msgstr "メールアドレス"
+msgstr "IPv4 アドレスを登録"
 
-#, fuzzy
 #| msgid "email address"
 msgid "Clear IPv4 address"
-msgstr "メールアドレス"
+msgstr "IPv4 アドレスを消去"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
+msgstr "「接続しているエクスチェンジポイント」のリストにあるこのエントリーを更新します。この変更を維持するには、ネットワークを保存する必要があります"
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
-msgstr ""
+msgstr "そのネットワークによって却下されたこのエクスチェンジからの提案を復元します"
 
 msgid "Will add all suggested entries"
-msgstr ""
+msgstr "提案された全てのエントリーを追加します"
 
 msgid "Auto Add"
-msgstr ""
+msgstr "Auto Add"
 
 msgid "Network - Exchange link"
 msgstr "ネットワーク - エクスチェンジ のリンク"
 
 msgid "Entry needs to be moved to correct network"
-msgstr ""
+msgstr "このエントリーは正しいネットワークに移動させる必要があります"
 
 msgid "Add Exchange Point"
 msgstr "このエクスチェンジポイントを追加"
 
-#, fuzzy
-#| msgid "Merge Facilities"
 msgid "Private Peering Facilities"
-msgstr "データセンタをマージする"
+msgstr "プライベートピアが可能なデータセンタ"
 
 msgid "member"
 msgstr "メンバー"
@@ -3064,31 +2882,28 @@ msgid "Add Exchange"
 msgstr "エクスチェンジを追加"
 
 msgid "Permissions"
-msgstr "パーミッション"
+msgstr "権限"
 
-#, fuzzy
 #| msgid "User Permissions"
 msgid "API Key Permissions"
-msgstr "ユーザ権限"
+msgstr "API Key 権限"
 
-#, fuzzy
 #| msgid "Organization"
 msgid "Delete Organization"
-msgstr "組織名"
+msgstr "組織を削除"
 
 msgid "Technical E-mail"
-msgstr "技術者のメールアドレス"
+msgstr "技術担当のメールアドレス"
 
-#, fuzzy
 #| msgid "Change Email"
 msgid "Sales E-mail"
-msgstr "メールアドレスを変更する"
+msgstr "営業担当のメールアドレス"
 
 msgid "Policy URL"
-msgstr "ポリシー URL"
+msgstr "ピアリングポリシー(URL)"
 
 msgid "Only use this if you own the network"
-msgstr ""
+msgstr "ネットワークを運用している方だけが追加してください"
 
 msgid "Add a new Network to your Organization."
 msgstr "あなたの組織に新しいネットワークを追加する事が出来ます"
@@ -3100,21 +2915,20 @@ msgid "In case of verification failure the network will need to be approved by P
 msgstr "認証に失敗した場合、そのネットワークが検索結果や API リストに表示されるようになるには、PeeringDB のスタッフによる承認が必要となります"
 
 msgid "Submit Network"
-msgstr "ネットワークを登録"
+msgstr "ネットワークを追加"
 
 msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "PeeringDB であなたのネットワークを作成する手助けの為に"
 
 msgid "Policy E-mail"
-msgstr "ポリシー担当者のメールアドレス"
+msgstr "ポリシー担当のメールアドレス"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 もしくは IPv6 のプレフィクス"
 
-#, fuzzy
 #| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
-msgstr "所属リクエストをしているユーザは現在いません"
+msgstr "所属リクエストをしているユーザ"
 
 msgid "Confirmed"
 msgstr "確認済み(Confirmed)"
@@ -3125,10 +2939,9 @@ msgstr "日時"
 msgid "Currently no users requesting affiliation with"
 msgstr "所属リクエストをしているユーザは現在いません"
 
-#, fuzzy
 #| msgid "Organization"
 msgid "Users in Organization"
-msgstr "組織名"
+msgstr "組織に所属しているユーザ"
 
 msgid "Group"
 msgstr "グループ"
@@ -3137,44 +2950,40 @@ msgid "Here you can grant permissions to regular members of your organization. A
 msgstr "ここでは、あなたの組織の所属メンバーに権限を与える事が出来ます。管理者権限を持つユーザはデフォルトで全てのアクセス権を持っている為、ここに表示されていません"
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr "レビュー待ちとなっているメンバーは表示されていませんので、権限の許可も出来ません"
+msgstr "また、レビュー待ちとなっているメンバーは表示されていませんので、権限の許可も出来ません"
 
 #, python-format
 msgid "%(name)s cannot be deleted."
-msgstr ""
+msgstr "%(name)s は削除出来ません"
 
 msgid "Remove this organization from PeeringDB."
-msgstr ""
+msgstr "PeeringDB からこの組織を削除する"
 
-#, fuzzy
 #| msgid "Invalid organization"
 msgid "Delete organization?"
-msgstr "無効な組織"
+msgstr "組織を削除しますか？"
 
 #, python-format
 msgid "Delete %(name)s"
-msgstr ""
+msgstr "%(name)s を削除する"
 
 msgid "Thank you for your suggestion."
-msgstr ""
+msgstr "ご提案ありがとうございました"
 
-#, fuzzy
 #| msgid "Suggest Facility"
 msgid "Suggest another facility"
-msgstr "データセンタに情報追加の提案"
+msgstr "さらにデータセンタ情報追加の提案をする"
 
 msgid "Only verified users may suggest entities."
 msgstr "確認済みユーザだけが、情報追加の提案が出来ます"
 
-#, fuzzy
 #| msgid "Suggest Exchange"
 msgid "Suggest another exchange"
-msgstr "エクスチェンジに情報追加の提案"
+msgstr "さらにエクスチェンジ情報追加の提案をする"
 
-#, fuzzy
 #| msgid "Suggest Network"
 msgid "Suggest another network"
-msgstr "ネットワークに情報追加の提案"
+msgstr "さらにネットワーク情報追加の提案をする"
 
 msgid "I forgot my password .."
 msgstr "パスワードを紛失しました"
@@ -3183,48 +2992,47 @@ msgid "I forgot my username .."
 msgstr "ユーザ名を紛失しました"
 
 msgid "Token"
-msgstr ""
+msgstr "トークン"
 
 msgid "Enter your credentials."
-msgstr ""
+msgstr "認証情報を入力してください"
 
 msgid ""
 "We are calling your phone right now, please enter the\n"
 "        digits you hear."
-msgstr ""
+msgstr "あなたに電話をかけています。番号の入力をお願いします"
 
 msgid ""
 "We sent you a text message, please enter the tokens we\n"
 "        sent."
-msgstr ""
+msgstr "あなたにメッセージを送りました。あなたに送ったトークンの入力をお願いします"
 
 msgid "We sent you an email, please enter the one time password we sent."
-msgstr ""
+msgstr "メールを送りました。送ったワンタイムパスワードの入力をお願いします"
 
 msgid ""
 "Please enter the tokens generated by your token\n"
 "        generator."
-msgstr ""
+msgstr "トークンジェネレータから生成されたトークンの入力をお願いします"
 
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
-msgstr ""
+msgstr "これらのトークンは印刷して、安全な場所に保管してください。あなたのアカウントにログインするにはこれらのバックアップトークンのいずれかを入力してください"
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
-msgstr ""
+msgstr "もしくは、回復オプションの1つとして、ワンタイムパスワードのリクエストをする事が出来ます:"
 
 msgid "As a last resort, you can use a backup token:"
-msgstr ""
+msgstr "最終手段として、バックアップトークンを使う事が出来ます"
 
 msgid "Use Backup Token"
-msgstr ""
+msgstr "バックアップトークを使用する"
 
-#, fuzzy
 #| msgid "Confirm password"
 msgid "Email one time password"
-msgstr "パスワード確認"
+msgstr "Email one time password"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "あなたのメールアドレスは、この組織のファイルにあるドメインの情報と一致しません"
@@ -3245,28 +3053,25 @@ msgid "Private contacts are no longer supported."
 msgstr ""
 
 msgid "Not a valid phone number (E.164)"
-msgstr ""
+msgstr "無効な E.164 形式の電話番号"
 
-#, fuzzy
 #| msgid "Not Required"
 msgid "Input required"
-msgstr "必要無し"
+msgstr "入力必須"
 
 msgid "Invalid prefix: {}"
-msgstr "無効なプレフィクス"
+msgstr "無効なプレフィクス: {}"
 
 msgid "Address space invalid: {}"
 msgstr "アドレススペースが無効でした: {}"
 
-#, fuzzy
 #| msgid "Maximum value allowed {}"
 msgid "Maximum allowed prefix length is {}"
-msgstr "許容範囲な最大値 {}"
+msgstr "許容されるプレフィクス長の最大値 {}"
 
-#, fuzzy
 #| msgid "Maximum value allowed {}"
 msgid "Minimum allowed prefix length is {}"
-msgstr "許容範囲な最大値 {}"
+msgstr "許容されるプレフィクス長の最小値 {}"
 
 msgid "Negative value not allowed"
 msgstr "負の数値は許可されません"
@@ -3275,28 +3080,28 @@ msgid "Maximum value allowed {}"
 msgstr "許容範囲な最大値 {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr ""
+msgstr "プレフィクスが {} のプレフィクスと重複しています"
 
 msgid "IRR AS-SET value must be string type"
-msgstr ""
+msgstr "IRR AS-SET は文字列型である必要があります"
 
 msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
-msgstr ""
+msgstr "不正な形式: {} - AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET である必要があります"
 
 msgid "Unknown IRR source: {}"
-msgstr ""
+msgstr "不正な IRR ソース"
 
 msgid "Maximum AS-SET hierarchy depth: {}"
-msgstr ""
+msgstr "AS-SET 階層の最大: {}"
 
 msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
-msgstr ""
+msgstr "不正な形式: {} - RS-SET, AS-SET or AS123 である必要があります"
 
 msgid "All parts of an hierarchical name have to be of the same type"
-msgstr ""
+msgstr "階層名は全て同じタイプである必要があります"
 
 msgid "At least one component must be an actual set name"
-msgstr ""
+msgstr "少なくとも1つのコンポーネントは実際のセット名である必要があります"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "所有権の再リクエストをするまで少々お待ちください"
@@ -3315,7 +3120,7 @@ msgid "You already have an ownership request pending for this organization"
 msgstr "既にこの組織についてペンディング中の所有権リクエストがあります"
 
 msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
-msgstr ""
+msgstr "保留中の所属リクエストが多くあります。保留中となっているリクエストが解決するまでお待ちください"
 
 msgid "Please wait a bit before requesting affiliation again."
 msgstr "組織所属リクエストをするまで少々お待ちください"
@@ -3323,10 +3128,9 @@ msgstr "組織所属リクエストをするまで少々お待ちください"
 msgid "Either ASN or Organization required"
 msgstr "AS 番号もしくは組織のどちらかが必要となります"
 
-#, fuzzy
 #| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
-msgstr "組織もしくは AS 番号に対する所属リクエストをする事が出来ます"
+msgstr "既に組織もしくは AS 番号に対する所属リクエストをしています"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "再度確認メールを送るまで少々お待ちください"
@@ -3353,7 +3157,7 @@ msgid "Password Reset Process has expired, please"
 msgstr "パスワードリセットが失効しました"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr "登録をする前に現在のセッションをログアウトしてください。注意: 複数のアカウントは不要です"
+msgstr "新規登録の前にログアウトしてください。注意: 同一ユーザが複数アカウントを作成する事はお控えください"
 
 msgid "This email address has already been used"
 msgstr "このメールアドレスは既に使われています"
@@ -3381,33 +3185,21 @@ msgstr "LAN"
 msgid "MTU"
 msgstr "MTU"
 
-#, fuzzy
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
-msgstr "IXF Import のログ(IXF Import Log)"
+msgstr "IX-F Import を友好にする"
 
-#, fuzzy
-#| msgid "Request Ownership"
-msgid "Request import"
-msgstr "所有権のリクエスト"
-
-msgid "Protocols Supported"
-msgstr "サポートされているプロトコル(Protocols Supported)"
-
-#, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Public Peering Info Updated"
-msgstr "接続しているエクスチェンジポイント"
+msgstr "エクスチェンジ情報の更新日時"
 
-#, fuzzy
 #| msgid "Peering Policy Information"
 msgid "Peering Facility Info Updated"
-msgstr "ピアリングポリシー情報"
+msgstr "データセンタ情報の更新日時"
 
-#, fuzzy
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
-msgstr "連絡先情報"
+msgstr "連絡先情報の更新日時"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB の設定"
@@ -3415,20 +3207,17 @@ msgstr "PeeringDB の設定"
 msgid "Allow IXP Update"
 msgstr "IXP Update を許可する"
 
-#, fuzzy
 #| msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
-msgstr "有効にすると、IXP はピアリングリストにあるこのネットワークの項目を管理する事が出来ます"
+msgstr "有効にすると、IXP はピアリングリストにあるこのネットワークのエントリーを管理する事が出来ます"
 
-#, fuzzy
 #| msgid "Allow IXP Update"
 msgid "IXP Update Tools"
-msgstr "IXP Update を許可する"
+msgstr "IXP Update Tools"
 
-#, fuzzy
 #| msgid "IXF Import History"
 msgid "Postmortem"
-msgstr "IXP インポート履歴"
+msgstr "Postmortem"
 
 msgid "Peering Policy Information"
 msgstr "ピアリングポリシー情報"
@@ -3436,38 +3225,25 @@ msgstr "ピアリングポリシー情報"
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
 
-#, fuzzy
-#~| msgid "RDAP Lookup Error"
-#~ msgid "RDAP Lookup Error: {}"
-#~ msgstr "RDAP 参照エラー"
-
-#~ msgid "DOT1Q"
-#~ msgstr "DOT1Q"
-
-#, fuzzy
 #~| msgid "The password reset process has expired, please"
 #~ msgid "The access token has expired."
-#~ msgstr "パスワードリセット処理が失効しました"
+#~ msgstr "アクセストークンの有効期限が切れました"
 
-#, fuzzy
 #~| msgid "Existing affiliations"
 #~ msgid "Edit application"
-#~ msgstr "既存の所属先"
+#~ msgstr "Edit application"
 
-#, fuzzy
 #~| msgid "Your affiliation with"
 #~ msgid "Your applications"
-#~ msgstr "あなたは"
+#~ msgstr "Your applications"
 
-#, fuzzy
 #~| msgid "you may register for one here"
 #~ msgid "if you want to register a new one"
-#~ msgstr "ここでアカウントを登録する事が出来ます"
+#~ msgstr "新しいものを登録したい場合"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "vlan_list の一覧にエントリーがありませんでしたので中断します"
 
-#, fuzzy
 #~| msgid "Has this object's latitude and longitude been syncronized to it's address fields"
 #~ msgid "Has this object's latitude and longitude been synchronized to its address fields"
 #~ msgstr "このオブジェクトの緯度と経度は IP アドレスの情報と同期しています"
@@ -3487,15 +3263,13 @@ msgstr "再度ログインを試す前に少々お待ちください"
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "まもなく、このエンティティについての更新されたジオコードデータの取得が行われます"
 
-#, fuzzy
 #~| msgid "Invalid prefix: {}"
 #~ msgid "Invalid member type: {}"
-#~ msgstr "無効なプレフィクス"
+#~ msgstr "無効なメンバータイプ"
 
-#, fuzzy
 #~| msgid "Exchanges"
 #~ msgid "IX-F changed"
-#~ msgstr "エクスチェンジ"
+#~ msgstr "IX-F changed"
 
 #~ msgid "Duplicate IP"
 #~ msgstr "重複した IP アドレス(IP)"
@@ -3506,15 +3280,13 @@ msgstr "再度ログインを試す前に少々お待ちください"
 #~ msgid "Updated"
 #~ msgstr "更新された"
 
-#, fuzzy
 #~| msgid "Merge Facilities"
 #~ msgid "Network has disabled ixp updates"
-#~ msgstr "データセンタをマージする"
+#~ msgstr "Network has disabled ixp updates"
 
-#, fuzzy
 #~| msgid "email address"
 #~ msgid "New ip-address"
-#~ msgstr "メールアドレス"
+#~ msgstr "新しい IP アドレス"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "10 Tbps 以上"
