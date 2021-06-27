@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-01-19 01:58+0000\n"
+"PO-Revision-Date: 2021-06-27 09:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -225,7 +225,7 @@ msgid "Public"
 msgstr "Public"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr ""
+msgstr "Un număr de telefon în format E.164 începe cu un +, urmat de codul de țară, apoi numărul de telefon național (eliminând cifra 0 din față în majoritatea țărilor), fără spații sau liniuțe între grupurile de cifre"
 
 msgid "Best Effort (no SLA)"
 msgstr ""
@@ -270,10 +270,10 @@ msgid "Country"
 msgstr "Țară"
 
 msgid "Suite"
-msgstr ""
+msgstr "Apartament"
 
 msgid "Floor"
-msgstr ""
+msgstr "Etaj"
 
 msgid "Latitude"
 msgstr "Latitudine"
@@ -604,10 +604,8 @@ msgstr "APROBAT"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Utilizatorul dorește să se afilieze la aceste organizații"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import History"
-msgstr "Istoricul importurilor IXF"
+msgstr "Istoricul importurilor IX-F"
 
 msgid "Initial creation of netixlan"
 msgstr "Crearea inițială a netixlan"
@@ -768,10 +766,8 @@ msgstr "Resetați adresa de e-mail"
 msgid "Reset tickets"
 msgstr "Resetați tichetele"
 
-#, fuzzy
-#| msgid "Network not found"
 msgid "Key not found"
-msgstr "Rețeaua nu a fost găsită"
+msgstr "Cheia nu a fost găsită"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -905,7 +901,7 @@ msgid "captcha invalid"
 msgstr "captcha nu este valid"
 
 msgid "Error in forward geocode: No results found"
-msgstr ""
+msgstr "Eroare în geocodul direct: nu s-au găsit rezultate"
 
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "Așteptați puțin înainte de a solicita o nouă previzualizare a importului IXF."
@@ -929,7 +925,7 @@ msgid "ASNs in this range are not allowed in this environment"
 msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
 
 msgid "This ASN is not assigned by any RIR"
-msgstr ""
+msgstr "Acest ASN nu este atribuit de niciun RIR"
 
 msgid "RDAP Lookup Error: {}"
 msgstr "Eroare de căutare RADP: {}"
@@ -946,10 +942,8 @@ msgstr "Diferențele datelor între PeeringDB și datele IX-F ale Exchange-ului"
 msgid "We found that your IX-F output "
 msgstr "Am constatat că ieșirea dvs. IX-F "
 
-#, fuzzy
-#| msgid "IXF import url not specified"
 msgid "IX-F import url not specified"
-msgstr "URL-ul importului IXF nu este specificat"
+msgstr "URL-ul importului IX-F nu este specificat"
 
 msgid "No JSON could be parsed"
 msgstr "Niciun JSON nu a putut fi analizat"
@@ -1039,7 +1033,7 @@ msgid "IX-F Import"
 msgstr "Importul IX-F"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
-msgstr ""
+msgstr "A fost normalizată adresa acestui obiect cu un apel către API-ul Google Maps"
 
 msgid "Last time of attempted geocode"
 msgstr "Ultima încercare a geocode"
@@ -1099,10 +1093,8 @@ msgstr "Afilierea dvs. la organizația „{}” a fost aprobată"
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
 
-#, fuzzy
-#| msgid "The item that this queue is attached to was created by this user"
 msgid "The item that this queue is attached to was created by this organization api key"
-msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
+msgstr "Elementul la care este atașată această listă de așteptare a fost creat de cheia API a acestei organizații"
 
 msgid "email address"
 msgstr "adresă de e-mail"
@@ -1119,15 +1111,11 @@ msgstr "Ticket DeskPRO"
 msgid "DeskPRO Tickets"
 msgstr "Tickete DeskPRO"
 
-#, fuzzy
-#| msgid "DeskPRO Ticket"
 msgid "DeskPRO Ticket CC Contact"
-msgstr "Ticket DeskPRO"
+msgstr "Contact DeskPRO TIcket CC"
 
-#, fuzzy
-#| msgid "DeskPRO Ticket"
 msgid "Deskpro Ticket CC Contacts"
-msgstr "Ticket DeskPRO"
+msgstr "Contacte Deskpro Ticket CC"
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
@@ -1138,10 +1126,8 @@ msgstr "Organizația are obiecte active sub aceasta."
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "Organizația este în prezent un sponsor activ. Vă rugăm să contactați asistența PeeringDB pentru a ajuta la facilitarea eliminării acestei organizații."
 
-#, fuzzy
-#| msgid "Organization Merges"
 msgid "Organization API key Permission"
-msgstr "Îmbinările organizațiilor"
+msgstr "Permisiunea cheii API a organizației"
 
 msgid "Sponsorship starts on"
 msgstr "Perioada de sponsorizare începe de la"
@@ -1257,27 +1243,19 @@ msgid "Ixlan for exchange already exists"
 msgstr "Ixlan pentru acest Exchange există deja"
 
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
+msgstr "Nu se poate activa importarea IX-F fără a specifica adresa URL a listei de membri IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import Log"
-msgstr "Jurnalul de import IXF"
+msgstr "Jurnalul de import IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Logs"
 msgid "IX-F Import Logs"
-msgstr "Jurnalele de importuri IXF"
+msgstr "Jurnalele de importuri IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log Entry"
 msgid "IX-F Import Log Entry"
-msgstr "Înregistrare în jurnalul de import IXF"
+msgstr "Înregistrare în jurnalul de import IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Log Entries"
-msgstr "Înregistrările în jurnalul de import IXF"
+msgstr "Înregistrările în jurnalul de import IX-F"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
 msgstr "Instantaneul JSON al datelor de membru IX-F care au creat această intrare"
@@ -1300,8 +1278,6 @@ msgstr "Ultima preluată"
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
 msgstr "Cerința unei alte intrări IXFMemberData și va fi aplicată alături de aceasta"
 
-#, fuzzy
-#| msgid "IXF Member Data"
 msgid "IX-F Member Data"
 msgstr "Datele de membru IX-F"
 
@@ -1387,17 +1363,13 @@ msgid "Password Reset Initiated"
 msgstr "A fost inițiată resetarea parolei"
 
 msgid "Determines if API Key inherits the User Permissions or is readonly."
-msgstr ""
+msgstr "Determină dacă cheia API moștenește permisiunile utilizatorului sau doar citirea."
 
-#, fuzzy
-#| msgid "IXF Import Enabled"
 msgid "IX-F Import Email"
-msgstr "Importul IXF activat"
+msgstr "Adresa de e-mail a importului IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Enabled"
 msgid "IX-F Import Emails"
-msgstr "Importul IXF activat"
+msgstr "Adresele de e-mail ale importurilor IX-F"
 
 msgid "name of the tool"
 msgstr "numele instrumentului"
@@ -1483,7 +1455,7 @@ msgid "Please contact {} to help with the deletion of this object"
 msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiect"
 
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
-msgstr ""
+msgstr "Nu am putut găsi adresa pe care ați introdus-o. Vă rugăm să consultați datele despre adresă și să contactați {} pentru asistență suplimentară, dacă este necesar."
 
 msgid "Need to be unique"
 msgstr "Trebuie să fie unic"
@@ -1522,7 +1494,7 @@ msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
-msgstr ""
+msgstr "Utilizatorul nu poate crea un Internet Exchange cu organizația stabilită ca organizație SUGGEST_ENTITY"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1664,15 +1636,12 @@ msgstr "Organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) a fost crea
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "Rețeaua %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) a fost creată automat odată cu cererea de afiliere a utilizatorului '%(u_name)s' la AS%(asn)s"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Utilizatorul '%(u_name)s' a creat rețeaua %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sub organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "Cheia API a organizației (prefix:%(prefix)s) cu adresa de e-mail '%(email)s' a creat rețeaua %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sub organizația %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
-#, fuzzy
-#| msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "Dacă adresa e-mail a utilizatorului s-a potrivit cu înregistrarea RIR, această rețea a trecut peste lista de așteptare în vederea verificării."
+msgstr "Dacă adresa de e-mail a cheii s-a potrivit cu înregistrarea RIR, această rețea a trecut peste lista de așteptare în vederea verificării."
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
@@ -1739,28 +1708,21 @@ msgstr "Aprobă cererea de proprietate și notifică utilizatorul"
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "A fost creată o nouă entitate '%(entity_type_name)s' care necesită aprobare."
 
-#, fuzzy, python-format
-#| msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr "Această %(entity_type_name)s a fost trimisă ca sugestie și va trebui să fie atribuită organizației corespunzătoare după revizuire"
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "Am preluat înregistrarea RIR pentru ASN-ul specificat"
 
-#, fuzzy
-#| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
-msgstr "dar nu a găsit nicio potrivire cu utilizatorul solicitant. Iată adresele e-mail pe care le-am adunat"
+msgstr "dar nu a găsit nicio potrivire cu adresa de e-mail a cheii API a organizației solicitante. Iată adresele e-mail pe care le-am adunat"
 
-#, fuzzy
-#| msgid "Selected Organizations"
 msgid "Requested by Organization API Key"
-msgstr "Organizații selectate"
+msgstr "Solicitată de cheia API a organizației"
 
-#, fuzzy
-#| msgid "Prefix"
 msgid "API key prefix"
-msgstr "Prefix"
+msgstr "Prefixul cheii API"
 
 msgid "You can go to"
 msgstr "Puteți merge la"
@@ -2124,7 +2086,7 @@ msgid "Login with your Facebook account"
 msgstr "Autentificare cu contul Facebook"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
-msgstr ""
+msgstr "Aici puteți acorda permisiuni cheilor API ale organizației dvs. În cazul în care cheia API recent adăugată nu apare în această listă, reîncărcați pagina."
 
 msgid "Create"
 msgstr "Creați"
@@ -2139,7 +2101,7 @@ msgid "Add"
 msgstr "Adăugați"
 
 msgid "Here you can create new API keys for your organization or revoke existing keys."
-msgstr ""
+msgstr "Aici puteți crea noi chei API pentru organizația dvs. sau puteți revoca cheile existente."
 
 msgid "Edit"
 msgstr "Editați"
@@ -2148,10 +2110,10 @@ msgid "Cancel"
 msgstr "Anulați"
 
 msgid "Revoke"
-msgstr ""
+msgstr "Revocați"
 
 msgid "Add Key"
-msgstr ""
+msgstr "Adăugați cheie"
 
 msgid "Partners"
 msgstr "Parteneri"
@@ -2249,19 +2211,19 @@ msgid "has been approved"
 msgstr "a fost aprobat(ă)"
 
 msgid "API Keys"
-msgstr ""
+msgstr "Cheile API"
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
-msgstr ""
+msgstr "Cheile API vă permit să autentificați un client fără a furniza numele de utilizator și parola."
 
 msgid "read-only"
-msgstr ""
+msgstr "doar în modul citire"
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
-msgstr ""
+msgstr "Creați o cheie API pentru un cont de superutilizator. Astfel de chei API nu pot fi făcute doar în modul citire și vor avea întotdeauna acces complet. Procedați cu prudență."
 
 msgid "Read only"
-msgstr ""
+msgstr "Doar în modul citire"
 
 msgid "Change email address"
 msgstr "Schimbați adresa e-mail"
@@ -2421,7 +2383,7 @@ msgid "to improve data quality"
 msgstr "pentru a îmbunătăți calitatea datelor"
 
 msgid "Suggested Address:"
-msgstr ""
+msgstr "Adresa sugerată:"
 
 msgid "Accept"
 msgstr "Acceptați"
@@ -2649,10 +2611,8 @@ msgstr "Adăugați Internet Exchange"
 msgid "Permissions"
 msgstr "Permisiuni"
 
-#, fuzzy
-#| msgid "User Permissions"
 msgid "API Key Permissions"
-msgstr "Permisiunile utilizatorilor"
+msgstr "Permisiunile cheilor API"
 
 msgid "Delete Organization"
 msgstr "Ștergeți organizația"
@@ -2888,10 +2848,8 @@ msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilier
 msgid "Either ASN or Organization required"
 msgstr "Este necesar ASN-ul sau organizația"
 
-#, fuzzy
-#| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
-msgstr "Puteți solicita afilierea la o organizație sau ASN"
+msgstr "Ați solicitat deja afilierea la acest ASN/org"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "Vă rugăm să așteptați un pic înainte de a încerca să trimiteți din nou e-mailul de confirmare"
@@ -2950,20 +2908,14 @@ msgstr "Activați importul IX-F"
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Point"
 msgid "Public Peering Info Updated"
-msgstr "Peering public în Internet Exchange"
+msgstr "Informații publice de peering au fost actualizate"
 
-#, fuzzy
-#| msgid "Peering Policy Information"
 msgid "Peering Facility Info Updated"
-msgstr "Informații privind politica de peering"
+msgstr "Informațiile despre Facilitate au fost actualizate"
 
-#, fuzzy
-#| msgid "Contact Information"
 msgid "Contact Info Updated"
-msgstr "Informații de contact"
+msgstr "Informațiile de contact au fost actualizate"
 
 msgid "PeeringDB Configuration"
 msgstr "Configurație PeeringDB"
