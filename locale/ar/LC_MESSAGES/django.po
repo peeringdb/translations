@@ -665,6 +665,14 @@ msgstr ""
 msgid "SOFT DELETE"
 msgstr "مسح مبدئي"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "نتيجة"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "قائمة التحقق معطلة حالياً"
 
@@ -1198,6 +1206,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "تم العثور على هذه المنظمة/ المؤسسة في قاعدة البيانات والتي تم اشتقاقها من رقم النظام المستقل  أو اسم المؤسسة الموضح . إذا كان هذا فارغًا فهذا يعني أنه لم يتم العثور على منظمة مطابقة."
 
@@ -1471,6 +1485,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
 
@@ -1645,6 +1662,11 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "علامة غير صحيحة"
+
 msgid "Need to be unique"
 msgstr "يجب أن تكون فريد من نوعه"
 
@@ -1667,6 +1689,9 @@ msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤ
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr ""
@@ -1720,6 +1745,13 @@ msgstr "هذه الصفحة"
 
 msgid "instead"
 msgstr "بدلا من"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -2026,15 +2058,6 @@ msgstr "انا نقطه تبادل الإنترنت (IXP) ، مركز بيانا
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "يمكن نقاط تبادل الإنترنت مراكز البيانات إضافة معلوماتهم والحفاظ عليها تحديثها في قاعدة البيانات ، مما يزيد من وضوح وجاذبية العملاء الجدد والحاليين. إذا كنت في من المسجلين في قاعدة بيانات التناظر ، فإن ذلك يسهل على الشبكات العثور على معلومات مهمة حول خدماتك والشبكات الأخرى الموجودة في نقطة تبادل الإنترنت أو منشآت مراكز البيانات/ التشغيل."
 
-msgid "Address"
-msgstr "العنوان"
-
-msgid "Postal"
-msgstr "الرقم البريدي"
-
-msgid "click to select multiple"
-msgstr "انقر لتحديد عدة خيارات"
-
 msgid "Management"
 msgstr "إدارة"
 
@@ -2054,11 +2077,33 @@ msgstr "لا توجد نتائج بحث."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "... أكثر من %(row_limit)s  مدخل مطابق لطلبك ، أعد تنقيح الطلب ..."
 
+msgid "click to select multiple"
+msgstr "انقر لتحديد عدة خيارات"
+
 msgid "IP Block"
 msgstr "حزمة عناوين الإنترنت"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "العنوان"
+
+msgid "Postal"
+msgstr "الرقم البريدي"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "يتم إخفاء بعض جهات الاتصال لهذه الشبكة لأن حساب المستخدم الخاص بك لا ينتمي إلى أي مؤسسة."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -3069,11 +3114,11 @@ msgstr "الحد الأقصى المسموح به لطول البادئة الع
 msgid "Minimum allowed prefix length is {}"
 msgstr "الحد الأدني المسموح به لطول البادئة العنوان هو {}"
 
-msgid "Maximum value allowed {}"
-msgstr "القيمة القصوى المسموح بها {}"
-
 msgid "Negative value not allowed"
 msgstr "القيمة السالبة غير مسموح بها"
+
+msgid "Maximum value allowed {}"
+msgstr "القيمة القصوى المسموح بها {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "تتداخل بادئة العنوان  {} مع بادئة: {}"

@@ -664,6 +664,14 @@ msgstr ""
 msgid "SOFT DELETE"
 msgstr "ΗΠΙΑ ΔΙΑΓΡΑΦΗ"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "Αποτέλεσμα"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "Η Ουρά Επαλήθευσης είναι αυτή τη στιγμή απενεργοποιημένη"
 
@@ -1194,6 +1202,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Αυτός είναι ο οργανισμός που πρόεκυψε από το δοσμένο ASN ή όνομα οργανισμού. Αν είναι κενός, δεν βρέθηκε αντίστοιχος οργανισμός"
 
@@ -1463,6 +1477,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
 
@@ -1633,6 +1650,11 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "Μη έγκυρη ετικέττα"
+
 msgid "Need to be unique"
 msgstr "Πρέπει να είναι μοναδικά"
 
@@ -1655,6 +1677,9 @@ msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπο
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr ""
@@ -1710,6 +1735,13 @@ msgstr "αυτή τη σελίδα"
 
 msgid "instead"
 msgstr "αντί"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -2013,15 +2045,6 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "Address"
-msgstr "Διεύθυνση"
-
-msgid "Postal"
-msgstr "Ταχυδρομικός Κωδικός"
-
-msgid "click to select multiple"
-msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
-
 msgid "Management"
 msgstr "Διαχείριση"
 
@@ -2041,11 +2064,33 @@ msgstr "Δεν βρέθηκε τίποτα με τα κριτήρια αναζή
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Βρέθηκαν περισσότερες από %(row_limit)s καταχωρήσεις, παρακαλούμε συγκεκριμενοποιήστε το αίτημά σας..."
 
+msgid "click to select multiple"
+msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
+
 msgid "IP Block"
 msgstr "Mπλοκ IP"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "Διεύθυνση"
+
+msgid "Postal"
+msgstr "Ταχυδρομικός Κωδικός"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς είναι ορατές μόνο σε συνδεδεμένους χρήστες και εσείς δεν είστε συνδεδεμένος."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς τα στοιχεία του λογαριασμού σας δεν είναι συσχετισμένα με κάποιον οργανισμό."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -3103,11 +3148,11 @@ msgstr "Mέγιστη επιτρεπτή τιμή {}"
 msgid "Minimum allowed prefix length is {}"
 msgstr "Mέγιστη επιτρεπτή τιμή {}"
 
-msgid "Maximum value allowed {}"
-msgstr "Mέγιστη επιτρεπτή τιμή {}"
-
 msgid "Negative value not allowed"
 msgstr "Αρνητική αξία δεν επιτρέπεται"
+
+msgid "Maximum value allowed {}"
+msgstr "Mέγιστη επιτρεπτή τιμή {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""

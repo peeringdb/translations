@@ -586,6 +586,14 @@ msgstr "Obiect protejat '{}': {}"
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "Rezultat"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "În acest moment lista de așteptare în vederea verificării este dezactivată"
 
@@ -1054,6 +1062,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Această organizație din baza noastră de date care a derivat din ASN-ul sau numele organizației furnizate. Dacă acest lucru este gol înseamnă că nu a fost găsită nicio organizație potrivită."
 
@@ -1299,6 +1313,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
 
@@ -1457,6 +1474,11 @@ msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiec
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr "Nu am putut găsi adresa pe care ați introdus-o. Vă rugăm să consultați datele despre adresă și să contactați {} pentru asistență suplimentară, dacă este necesar."
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "Eticheta nu este validă"
+
 msgid "Need to be unique"
 msgstr "Trebuie să fie unic"
 
@@ -1477,6 +1499,9 @@ msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea sa pă
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politici cu o adresă e-mail validă înainte de a adăuga un Internet Exchange."
@@ -1526,6 +1551,13 @@ msgstr "această pagină"
 
 msgid "instead"
 msgstr "în locul"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -1799,15 +1831,6 @@ msgstr "Sunt un Internet Exchange (IXP), centru de date sau altă facilitate de 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și menține informațiile lor în baza de date, crescând vizibilitatea și devenind mai interesanți pentru clienții noi și existenți. Dacă vă aflați în baza de date, acest lucru face mult mai ușor pentru alte rețele să găsească informații cruciale despre serviciile dvs. și despre celelalte rețele prezente în platforma dvs. IXP sau facilitățile dvs."
 
-msgid "Address"
-msgstr "Adresă"
-
-msgid "Postal"
-msgstr "Poștal"
-
-msgid "click to select multiple"
-msgstr "faceți click pentru a selecta mai multe"
-
 msgid "Management"
 msgstr "Management"
 
@@ -1827,11 +1850,33 @@ msgstr "Nu există rezultate."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea dvs., refaceți solicitarea..."
 
+msgid "click to select multiple"
+msgstr "faceți click pentru a selecta mai multe"
+
 msgid "IP Block"
 msgstr "Bloc de adrese IP"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "Adresă"
+
+msgid "Postal"
+msgstr "Poștal"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "Unele dintre contactele acestei rețele sunt ascunse deoarece acestea sunt vizibile numai pentru utilizatorii autentificați și momentan dvs. nu sunteți autentificat."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "Unele dintre contactele acestei rețele sunt ascunse, deoarece contul dvs. de utilizator nu este afiliat la nicio organizație."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -2793,11 +2838,11 @@ msgstr "Lungimea maximă permisă a prefixului este {}"
 msgid "Minimum allowed prefix length is {}"
 msgstr "Lungimea minimă permisă a prefixului este: {}"
 
-msgid "Maximum value allowed {}"
-msgstr "Valoarea maximă admisă {}"
-
 msgid "Negative value not allowed"
 msgstr "Valoarea negativă nu este permisă"
+
+msgid "Maximum value allowed {}"
+msgstr "Valoarea maximă admisă {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "Prefixul se suprapune cu prefixul lui {}: {}"

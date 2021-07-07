@@ -586,6 +586,14 @@ msgstr "보호된 개체 '{}: {}"
 msgid "SOFT DELETE"
 msgstr "삭제 보류 표시"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "결과"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "검증 대기열이 현재 비활성화되어있습니다"
 
@@ -1060,6 +1068,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "제공된 ASN 또는 조직 이름에서 파생된 데이터베이스 내 이 조직. 만약 이것이 비어있다면 그것은 일치하는 조직을 찾지 못했다는 것을 의미한다."
 
@@ -1323,6 +1337,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
 
@@ -1485,6 +1502,11 @@ msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "잘못된 태그"
+
 msgid "Need to be unique"
 msgstr "고유해야 함"
 
@@ -1505,6 +1527,9 @@ msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 
 #, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "익스체인지 포인트를 추가하기 전에 네트워크에 기술, NOC 또는 정책 부문에 유효한 이메일을 포함한 연락처가 있어야 합니다."
@@ -1554,6 +1579,13 @@ msgstr "이 페이지"
 
 msgid "instead"
 msgstr "대신"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -1837,15 +1869,6 @@ msgstr "인터넷 익스체인지 포인트(IXP), 데이터 센터 또는 기타
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가하고 유지함으로써 가시성과 기존 고객에 대한 매력을 높일 수 있습니다. 만약 당신이 데이터베이스에 있다면, 이것은 네트워크가 당신의 서비스와 당신의 IXP나 시설에 존재하는 다른 네트워크에 대한 중요한 정보를 찾는 것을 훨씬 더 쉽게 만듭니다."
 
-msgid "Address"
-msgstr "주소"
-
-msgid "Postal"
-msgstr "우편"
-
-msgid "click to select multiple"
-msgstr "여러 개를 선택하려면 클릭하십시오"
-
 msgid "Management"
 msgstr "관리"
 
@@ -1865,11 +1888,33 @@ msgstr "검색 결과 없음."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...%(row_limit)s 이상의 항목이 쿼리와 일치합니다. 요청을 수정하십시오..."
 
+msgid "click to select multiple"
+msgstr "여러 개를 선택하려면 클릭하십시오"
+
 msgid "IP Block"
 msgstr "IP 블록"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "주소"
+
+msgid "Postal"
+msgstr "우편"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "이 네트워크의 일부 연락처는 인증된 사용자만 볼 수 있고 현재 로그인하지 않았기 때문에 볼 수 없습니다."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "이 네트워크의 일부 연락처는 당신의 계정이 어떤 조직에도 소속되어 있지 않기 때문에 숨겨져 있습니다."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -2837,11 +2882,11 @@ msgstr "허용되는 최대 프리픽스 길이는 {}임"
 msgid "Minimum allowed prefix length is {}"
 msgstr "허용되는 최소 프리픽스 길이는 {}임"
 
-msgid "Maximum value allowed {}"
-msgstr "허용되는 최대 값 {}"
-
 msgid "Negative value not allowed"
 msgstr "음수 값은 허용되지 않음"
+
+msgid "Maximum value allowed {}"
+msgstr "허용되는 최대 값 {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "프리픽스가 {}의 프리픽스와 겹침: {}"

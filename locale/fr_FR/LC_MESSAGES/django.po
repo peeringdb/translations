@@ -593,6 +593,14 @@ msgstr "Objet protégé '{}' : {}"
 msgid "SOFT DELETE"
 msgstr "SUPPRESSION"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "Résultat"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "La file de validation est actuellement désactivée"
 
@@ -1104,6 +1112,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "L'organisation dans notre base de données qui a été dérivée du numéro d'AS ou du nom de l'organisation tels que communiqués. Si ce champs est vide, aucune organisation correspondante n'a été trouvée."
 
@@ -1373,6 +1387,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
 
@@ -1543,6 +1560,11 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "Tag invalide"
+
 msgid "Need to be unique"
 msgstr "Doit être unique"
 
@@ -1565,6 +1587,9 @@ msgstr "L'objet de type '%(type)s' ne peut pas être créé car son entité pare
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "L'objet de type '%(type)s' ne peut pas être créé car son entité parente '%(parent_tag)s/%(parent_id)s' a été supprimée"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr ""
@@ -1620,6 +1645,13 @@ msgstr "cette page"
 
 msgid "instead"
 msgstr "au lieu"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -1923,15 +1955,6 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "Address"
-msgstr "Adresse"
-
-msgid "Postal"
-msgstr "Postal"
-
-msgid "click to select multiple"
-msgstr "cliquez pour effectuer une sélection multiple"
-
 msgid "Management"
 msgstr "Gestion"
 
@@ -1951,11 +1974,33 @@ msgstr "Aucun résultat correspondant à vos critères de recherche."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Plus de %(row_limit)s résultats trouvés, veuillez affiner votre recherche..."
 
+msgid "click to select multiple"
+msgstr "cliquez pour effectuer une sélection multiple"
+
 msgid "IP Block"
 msgstr "Bloc IP"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Postal"
+msgstr "Postal"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "Une partie des contacts de ce réseau ne sont visibles qu'aux utilisateurs enregistrés et vous n'être actuellement pas connecté."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "Une partie des contacts de ce réseau ne sont visibles qu'aux utilisateurs affiliés à une organisation."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -3009,11 +3054,11 @@ msgstr "Valeur maximale permise {}"
 msgid "Minimum allowed prefix length is {}"
 msgstr "Valeur maximale permise {}"
 
-msgid "Maximum value allowed {}"
-msgstr "Valeur maximale permise {}"
-
 msgid "Negative value not allowed"
 msgstr "Valeurs positives uniquement"
+
+msgid "Maximum value allowed {}"
+msgstr "Valeur maximale permise {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""

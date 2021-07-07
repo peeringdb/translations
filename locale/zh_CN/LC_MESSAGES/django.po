@@ -664,6 +664,14 @@ msgstr ""
 msgid "SOFT DELETE"
 msgstr "软删除"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "结果"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "验证队列目前已被禁用"
 
@@ -1206,6 +1214,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "数据库中的此组织是从提供的 ASN 或组织名称派生而来的。 如为空，则表示未找到匹配的组织。"
 
@@ -1481,6 +1495,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
 
@@ -1655,6 +1672,11 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "标签无效"
+
 msgid "Need to be unique"
 msgstr "需要是唯一的"
 
@@ -1677,6 +1699,9 @@ msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr ""
@@ -1730,6 +1755,13 @@ msgstr "此页"
 
 msgid "instead"
 msgstr "代替"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -2034,15 +2066,6 @@ msgstr "我是交换点、数据中心或其它互联节点的网管。PeeringDB
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "Address"
-msgstr "地址"
-
-msgid "Postal"
-msgstr "邮政"
-
-msgid "click to select multiple"
-msgstr "单击以选中多个"
-
 msgid "Management"
 msgstr "管理"
 
@@ -2062,11 +2085,33 @@ msgstr "没有匹配结果。"
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
 
+msgid "click to select multiple"
+msgstr "单击以选中多个"
+
 msgid "IP Block"
 msgstr "IP 块"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "地址"
+
+msgid "Postal"
+msgstr "邮政"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "此网络的某些联系人仅对验证的用户可见，您当前未登录。"
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "此网络的某些联系人已隐藏，因为您的帐户未关联组织。"
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -3076,11 +3121,11 @@ msgstr "允许的最大前缀长度为 {}"
 msgid "Minimum allowed prefix length is {}"
 msgstr "允许的最小前缀长度为{}"
 
-msgid "Maximum value allowed {}"
-msgstr "允许的最大值为 {}"
-
 msgid "Negative value not allowed"
 msgstr "不允许负值"
+
+msgid "Maximum value allowed {}"
+msgstr "允许的最大值为 {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "两个前缀有重叠：{}和{}"

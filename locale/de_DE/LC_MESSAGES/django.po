@@ -591,6 +591,14 @@ msgstr "Geschütztes Objekt '{}': {}"
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "Ergebnis"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "Die Überprüfungswarteschlange ist derzeit deaktiviert"
 
@@ -1061,6 +1069,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Dieser Unternehmenseintrag wurde vom angegeben ASN oder vom Namen übernommen. Wenn dieser Eintrag leer ist, konnte kein zugehöriges Unternehmen gefunden werden."
 
@@ -1314,6 +1328,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Die Entität wurde für das ASN {} erstellt - bitte entferne es von dem Netzwerk und erstelle es nochmal im richtigen Netzwerk"
 
@@ -1473,6 +1490,11 @@ msgstr "Bitte kontaktieren Sie {} um Unterstützung bei der Löschung dieses Obj
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr "Die angegebene Adresse wurde nicht gefunden. Bitte überprüfe die Adressdaten und kontaktiere {} für weitere Hilfe."
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "Ungültiges Stichwort (tag)"
+
 msgid "Need to be unique"
 msgstr "Muss eindeutig sein"
 
@@ -1495,6 +1517,9 @@ msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die überge
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Netzwerk muss eine Technische, NOC oder Peering Policy Kontaktperson mit gültiger E-Mail haben, bevor der Austauschpunkt hinzugefügt werden kann."
@@ -1546,6 +1571,13 @@ msgstr "diese Seite"
 
 msgid "instead"
 msgstr "stattdessen"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -1837,15 +1869,6 @@ msgstr "Ich gehöre zu einem Internet Exchange Point (IXP), Rechenzentrum oder a
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXPs und Rechenzentren können ihre Daten der Datenbank hinzufügen und pflegen, wodurch sich ihre Sichtbarkeit und Anziehungskraft für neue und bestehende Kunden erhöhen. Wenn Sie in der Datenbank sind ist es für andere Netzwerke viel einfacher, essentielle Informationen über Ihre Dienste und an Ihrem IXP oder Ihrer Einrichtung anwesende Netzwerke zu finden."
 
-msgid "Address"
-msgstr "Adresse"
-
-msgid "Postal"
-msgstr "Postleitzahl"
-
-msgid "click to select multiple"
-msgstr "STRG + klicken, um mehrere auswählen"
-
 msgid "Management"
 msgstr "Management"
 
@@ -1865,11 +1888,33 @@ msgstr "Keine Übereinstimmung mit Ihren Suchkriterien."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "... Mehr als %(row_limit)s Einträge trafen auf Ihre Anfrage zu. Bitte verfeinern Sie Ihre Anforderung..."
 
+msgid "click to select multiple"
+msgstr "STRG + klicken, um mehrere auswählen"
+
 msgid "IP Block"
 msgstr "IP-Block"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Postal"
+msgstr "Postleitzahl"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "Einige der Kontaktdaten werden nur angemeldeten Benutzern angezeigt. Bitte melden Sie sich an."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "Einige der Kontaktdaten dieses Netzwerks werden nicht angezeigt, da Ihr Zugang nicht mit dieser Organisation verknüpft ist."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -2850,11 +2895,11 @@ msgstr "Maximale, gültige Präfixlänge ist {}"
 msgid "Minimum allowed prefix length is {}"
 msgstr "Minimale, erlaubte Präfix-Länge ist {}"
 
-msgid "Maximum value allowed {}"
-msgstr "gültiges Maximum {}"
-
 msgid "Negative value not allowed"
 msgstr "Negativwerte nicht erlaubt"
+
+msgid "Maximum value allowed {}"
+msgstr "gültiges Maximum {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr "Das Präfix überlappt mit dem Präfix von {}: {}"

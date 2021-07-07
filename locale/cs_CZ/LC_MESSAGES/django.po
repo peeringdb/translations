@@ -665,6 +665,14 @@ msgstr ""
 msgid "SOFT DELETE"
 msgstr "SMAZÁNÍ"
 
+#, fuzzy
+#| msgid "Result"
+msgid "Resul length"
+msgstr "Výsledek"
+
+msgid "Show {} rows"
+msgstr ""
+
 msgid "Verification Queue is currently disabled"
 msgstr "Verifikační fronta je momentálně deaktivována"
 
@@ -1189,6 +1197,12 @@ msgstr ""
 msgid "Geo location lookup failed: {}"
 msgstr ""
 
+msgid "Geocoordinate Cache"
+msgstr ""
+
+msgid "Geocoordinate Cache Entries"
+msgstr ""
+
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Tato organizace v naší databázi byla odvozena z poskytnutého čísla Autonomního Systému (ASN) nebo názvu organizace. Je-li toto prázdné, znamená to, že nebyla nalezena žádná odpovídající organizace."
 
@@ -1456,6 +1470,9 @@ msgstr ""
 msgid "number of facilities at this network"
 msgstr ""
 
+msgid "Last technical contact point for network with active peers"
+msgstr ""
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr ""
 
@@ -1627,6 +1644,11 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid value"
+msgstr "Neplatný štítek"
+
 msgid "Need to be unique"
 msgstr "Musí být jedinečný"
 
@@ -1648,6 +1670,9 @@ msgstr "Objekt typu \"% (typ) s\" nelze vytvořit, protože jeho nadřazená ent
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Objekt typu '%(type)s' nelze vytvořit, protože jeho nadřazená entita '%(parent_tag)s/%(parent_id)s' byla označena za smazanou"
+
+msgid "Required for distance filtering"
+msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr ""
@@ -1703,6 +1728,13 @@ msgstr "tato stránka"
 
 msgid "instead"
 msgstr "místo toho"
+
+#, python-format
+msgid "Show %(num)s rows"
+msgstr ""
+
+msgid "(Warning: potentially long load)"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -2007,15 +2039,6 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "Address"
-msgstr "Adresa"
-
-msgid "Postal"
-msgstr "Poštovní"
-
-msgid "click to select multiple"
-msgstr "kliknutím vyberte více"
-
 msgid "Management"
 msgstr "Řízení"
 
@@ -2035,11 +2058,33 @@ msgstr "Žádný záznam neodpovídá vyhledávacímu dotazu."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...vašemu dotazu odpovídá více než %(row_limit)s záznamů, upřesnete váš požadavek ..."
 
+msgid "click to select multiple"
+msgstr "kliknutím vyberte více"
+
 msgid "IP Block"
 msgstr "IP Block"
 
 msgid "Capacity"
 msgstr ""
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "Postal"
+msgstr "Poštovní"
+
+msgid "Within Distance"
+msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "Některé kontakty této sítě jsou skryté, protože jsou viditelné pouze pro ověřené uživatele a v současné době nejste přihlášeni."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgstr "Některé kontakty této sítě jsou skryté, protože váš uživatelský účet není spojen s žádnou organizací."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -3112,11 +3157,11 @@ msgstr "Maximální přípustná hodnota {}"
 msgid "Minimum allowed prefix length is {}"
 msgstr "Maximální přípustná hodnota {}"
 
-msgid "Maximum value allowed {}"
-msgstr "Maximální přípustná hodnota {}"
-
 msgid "Negative value not allowed"
 msgstr "Záporná hodnota není povolena"
+
+msgid "Maximum value allowed {}"
+msgstr "Maximální přípustná hodnota {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
 msgstr ""
