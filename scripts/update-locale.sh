@@ -86,7 +86,20 @@ echo
 
 set -x
 $PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
-$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
+set +x
+
+# 20210716: Specific exception for peeringdb.js regarding "unterminated string" due to:
+#  https://code.djangoproject.com/ticket/29175
+#  https://github.com/django/django/commit/c3437f734d03d93f798151f712064394652cabed
+#  - Since string extraction is done by the ``xgettext`` command, only
+#    syntaxes supported by ``gettext`` are supported by Django. Python
+#    f-strings_ and `JavaScript template strings`_ are not yet supported by
+#    ``xgettext``.
+#
+#    .. _f-strings: https://docs.python.org/3/reference/lexical_analysis.html#f-strings
+#    .. _JavaScript template strings: https://savannah.gnu.org/bugs/?50920
+set -x
+$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs | grep -v "peeringdb.js.*warning: unterminated string" || exit 1
 set +x
 
 # Remove these since no longer needed and we don't want them accidentally added to the repo.
