@@ -588,2766 +588,1142 @@ msgstr ""
 msgid "Public Peering Exchange Points"
 msgstr ""
 
-msgid "Czech"
-msgstr ""
-
-msgid "German"
-msgstr ""
-
-msgid "Greek"
-msgstr ""
-
-msgid "English"
-msgstr ""
-
-msgid "Spanish"
-msgstr ""
-
-msgid "French"
-msgstr ""
-
-#, fuzzy
-#| msgid "Australia"
-msgid "Italian"
-msgstr "Australien"
-
-msgid "Japanese"
-msgstr ""
-
-msgid "Occitan"
-msgstr ""
-
-msgid "Portuguese"
-msgstr ""
-
-msgid "Romanian"
-msgstr ""
-
-msgid "Russian"
-msgstr ""
-
-msgid "Chinese (Simplified)"
-msgstr ""
-
-msgid "Chinese (Traditional)"
-msgstr ""
-
-msgid "Status"
-msgstr "Status"
-
-msgid "Target org cannot be in selected organizations list"
-msgstr "Organisation kan ikke vælges i listen"
-
-msgid "ROLLBACK"
-msgstr "Ruld tilbage"
-
-msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
-
-msgid "Protected object '{}': {}"
-msgstr ""
-
-msgid "SOFT DELETE"
-msgstr "Blød sletning"
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Resul length"
-msgstr "Exchange - Facility link"
-
-msgid "Show {} rows"
-msgstr ""
-
-msgid "Verification Queue is currently disabled"
-msgstr "Verifikationkø er på nuværende tidspunkt deaktiveret"
-
-msgid "Verification Queue is currently disabled for this object type"
-msgstr "Verifikationskø er på nuværende tidspunkt deaktiveret for denne objekttype"
-
-msgid "APPROVE"
-msgstr "Godkend"
-
-msgid "DENY"
-msgstr "Afvis"
-
-msgid "APPROVED"
-msgstr "Godkendt"
-
-msgid "User is looking to be affiliated to these Organizations"
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
-
-#, fuzzy
-#| msgid "IXF Import History"
-msgid "IX-F Import History"
-msgstr "IXF Importeringshistorik"
-
-msgid "Initial creation of netixlan"
-msgstr "Første oprettelse af netixlan"
-
-msgid "CAN BE ROLLED BACK"
-msgstr "Kan rulles tilbage"
-
-msgid "CANNOT BE ROLLED BACK"
-msgstr "Kan ikke rulles tilbage"
-
-msgid "Has been changed since"
-msgstr "Har været opdateret siden"
-
-msgid "Netixlan with conflicting ipaddress now exists elsewhere"
-msgstr "Netixlan med konfliktende IP adresse findes nu et andet sted"
-
-msgid "HAS BEEN ROLLED BACK"
-msgstr "Er blevet rullet tilbage"
-
-msgid "Not Set"
-msgstr "Ikke valgt"
-
-msgid "Active"
-msgstr "Aktiv"
-
-msgid "Logo Missing"
-msgstr "Logo mangler"
-
-msgid "Over"
-msgstr ""
-
-msgid "Waiting"
-msgstr "Afventer"
-
-#, fuzzy
-#| msgid "Malformed organization ids"
-msgid "No organization(s) set"
-msgstr "Ukorrekt formateret organisations id'er"
-
-msgid "Malformed organization ids"
-msgstr "Ukorrekt formateret organisations id'er"
-
-#, fuzzy
-#| msgid "Malformed organization ids"
-msgid "Merge target organization does not exist"
-msgstr "Ukorrekt formateret organisations id'er"
-
-msgid "Organization Merging Tool"
-msgstr "Virksomhed Sammenlægningsværktøj"
-
-msgid "Undo merge"
-msgstr "Fortryd sammenlægning"
-
-msgid "APPROVE selected items"
-msgstr "Godkend afkrydsede"
-
-msgid "DENY and delete selected items"
-msgstr "Afvis og slet afkrydsede"
-
-msgid "View"
-msgstr "Se"
-
-msgid "Cannot approve a canceled affiliation request"
-msgstr ""
-
-msgid "Affiliation request was approved and the user was notified."
-msgstr "Anmodning om medlemsskab blev godkendt og brugeren blev adviseret."
-
-msgid "Approve and notify User"
-msgstr "Godkend og send notifikation til bruger"
-
-msgid "Approve"
-msgstr "Godkend"
-
-msgid "Cannot deny a canceled affiliation request"
-msgstr ""
-
-msgid "Deny"
-msgstr "Afvis"
-
-msgid "Change Password"
-msgstr "Ændre kodeord"
-
-msgid "Edit Permissions"
-msgstr "Rediger rettigheder"
-
-msgid "VERIFIED"
-msgstr "Godkendt"
-
-msgid "UNVERIFIED"
-msgstr "Ikke godkendt"
-
-msgid "User Permission"
-msgstr "Brugerrettigheder"
-
-msgid "User Permissions"
-msgstr "Brugerrettigheder"
-
-msgid "Only POST requests allowed."
-msgstr "Kun POST forespørgsler tilladt."
-
-msgid "{} (Preview)"
-msgstr "{} (Forehåndsvis)"
-
-msgid "Apply"
-msgstr ""
-
-#, fuzzy
-#| msgid "Not Required"
-msgid "No requirements"
-msgstr "Ikke påkrævet"
-
-msgid "Value"
-msgstr ""
-
-msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
-
-msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
-
-msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
-
-msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
-
-msgid "Merge this facility - it will be deleted"
-msgstr "Sammenlæg denne facilitet - den vil blive slettet"
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Target facility"
-msgstr "Facility"
-
-#, fuzzy
-#| msgid "Undo merge"
-msgid "Undo this merge"
-msgstr "Fortryd sammenlægning"
-
-msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
-
-msgid "Load data from peeringdb API"
-msgstr ""
-
-msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
-
-msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
-
-msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
-
-#, fuzzy
-#| msgid "Change Password"
-msgid "Reset all"
-msgstr "Ændre kodeord"
-
-#, fuzzy
-#| msgid "Sales"
-msgid "Reset hints"
-msgstr "Salg"
-
-#, fuzzy
-#| msgid "Sales"
-msgid "Reset dismisses"
-msgstr "Salg"
-
-#, fuzzy
-#| msgid "Sales"
-msgid "Reset email"
-msgstr "Salg"
-
-msgid "Reset tickets"
-msgstr ""
-
-#, fuzzy
-#| msgid "Address not found"
-msgid "Key not found"
-msgstr "Adresse ikke fundet"
-
-#, python-brace-format
-msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr ""
-
-msgid "Expand nested sets according to depth."
-msgstr ""
-
-#, python-brace-format
-msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
-
-msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
-
-msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
-
-msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
-
-msgid "Filter results by matching a value against this field."
-msgstr ""
-
-msgid "Supported filter suffixes: {}"
-msgstr ""
-
-msgid "Number of networks present at this facility"
-msgstr ""
-
-msgid "Targets both AKA and name fields for filtering"
-msgstr ""
-
-msgid "Find networks not present at an exchange (exchange id)"
-msgstr ""
-
-msgid "Find networks present at exchange (exchange id)"
-msgstr ""
-
-msgid "Find networks not present at a facility (facility id)"
-msgstr ""
-
-msgid "Find networks present at a facility (facility id)"
-msgstr ""
-
-msgid "Find networks connected at ixlan (ixlan id)"
-msgstr ""
-
-msgid "Find the network that contains this netixlan (netixlan id)"
-msgstr ""
-
-msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr ""
-
-msgid "Find exchanges present at a facility (facility id)"
-msgstr ""
-
-msgid "Find the exchange that contains this ixlan (ixlan id)"
-msgstr ""
-
-msgid "Find the exchange that contains this ixfac (ixfac id)"
-msgstr ""
-
-msgid "Number of networks present at this exchange"
-msgstr ""
-
-msgid "Find exchanges where this network has a presence at (net id)"
-msgstr ""
-
-msgid "Find organization that contains the network (network asn)"
-msgstr ""
-
-msgid "Find prefixes by exchange (exchange id)"
-msgstr ""
-
-msgid "Find prefixes by ip address"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "Exchange name"
-msgstr "Exchange"
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Facility name"
-msgstr "Facility"
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Facility country"
-msgstr "Facility"
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Facility city"
-msgstr "Facility"
-
-#, python-brace-format
-msgid "Creates a new `{obj_type}` type object."
-msgstr ""
-
-#, python-brace-format
-msgid "Updates an existing `{obj_type}` type object."
-msgstr ""
-
-#, python-brace-format
-msgid "Marks an `{obj_type}` type object as `deleted`."
-msgstr ""
-
-msgid "Yes"
-msgstr "Ja"
-
-msgid "Invalid export format"
-msgstr "Ugyldigt eksport format"
-
-#, fuzzy
-#| msgid "Invalid export format"
-msgid "Invalid tag"
-msgstr "Ugyldigt eksport format"
-
-msgid "Invalid permission level"
-msgstr "Ugyldigt rettighedsniveau"
-
-msgid "ASN needs to be a number"
-msgstr "ASN skal være et heltal"
-
-msgid "Needs to be at least 10 characters long"
-msgstr "Skal være 10 tegn eller længere"
-
-msgid "Passwords need to match"
-msgstr "Kodeord skal være ens"
-
-msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
-
-msgid "reCAPTCHA invalid"
-msgstr ""
-
-msgid "captcha invalid"
-msgstr ""
-
-msgid "Error in forward geocode: No results found"
-msgstr ""
-
-msgid "Please wait a bit before requesting another ixf import preview."
-msgstr ""
-
-#, fuzzy
-#| msgid "Address not found"
-msgid "Ixlan not found"
-msgstr "Adresse ikke fundet"
-
-#, fuzzy
-#| msgid "User Permission"
-msgid "Permission denied"
-msgstr "Brugerrettigheder"
-
-msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr ""
-
-#, fuzzy
-#| msgid "Address not found"
-msgid "Network not found"
-msgstr "Adresse ikke fundet"
-
-msgid "Postmortem length cannot exceed {} entries"
-msgstr ""
-
-msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
-
-msgid "This ASN is not assigned by any RIR"
-msgstr ""
-
-msgid "RDAP Lookup Error: {}"
-msgstr ""
-
-msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr ""
-
-msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr ""
-
-msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr ""
-
-msgid "We found that your IX-F output "
-msgstr ""
-
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F import url not specified"
-msgstr "IXF Import Log Linjer"
-
-#, fuzzy
-msgid "No JSON could be parsed"
-msgstr "Intet JSON kunne behandles"
-
-msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
-
-msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
-
-msgid "No prefixes defined on ixlan"
-msgstr ""
-
-msgid "Network status is '{}'"
-msgstr ""
-
-msgid "Network does not exist in peeringdb"
-msgstr ""
-
-msgid "Invalid connection state: {}"
-msgstr ""
-
-msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
-
-msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
-
-#, fuzzy
-msgid "Invalid speed value: {}"
-msgstr "Intet JSON kunne behandles"
-
-#, fuzzy
-msgid "Invalid speed value: could not be parsed"
-msgstr "Intet JSON kunne behandles"
-
-msgid "IP addresses moved to same entry"
-msgstr ""
-
-msgid "IPv6 not set"
-msgstr ""
-
-msgid "IPv4 not set"
-msgstr ""
-
-msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr ""
-
-msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
-msgstr ""
-
-msgid "{} Merge Notification: {} -> {}"
-msgstr ""
-
-msgid "Silver"
-msgstr "Sølv"
-
-msgid "Gold"
-msgstr "Guld"
-
-msgid "Platinum"
-msgstr "Platin"
-
-msgid "Diamond"
-msgstr "Diamand"
-
-msgid "Data Validation"
-msgstr ""
-
-msgid "RIR"
-msgstr "RIR"
-
-#, fuzzy
-msgid "Renumber IP Space"
-msgstr "Gennummerer IP område"
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Merge Facilities"
-msgstr "Exchange - Facility link"
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Merge Facilities: UNDO"
-msgstr "Exchange - Facility link"
-
-msgid "Restore Object(s)"
-msgstr ""
-
-msgid "Reset Environment"
-msgstr ""
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Import"
-msgstr "IXF import log"
-
-msgid "Has this object's address been normalized with a call to the Google Maps API"
-msgstr ""
-
-#, fuzzy
-msgid "Last time of attempted geocode"
-msgstr "Sidste forsøg på opdatering af geokoordinator"
-
-msgid "Geo coding timed out"
-msgstr ""
-
-msgid "Geo coding failed: {}"
-msgstr ""
-
-msgid "Geo location lookup timed out"
-msgstr ""
-
-msgid "Geo location lookup failed: {}"
-msgstr ""
-
-msgid "Geocoordinate Cache"
-msgstr ""
-
-msgid "Geocoordinate Cache Entries"
-msgstr ""
-
-msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
-msgstr "Denne virksomhed i vores database var afledt af det oplyste ASN og virksomhedsnavn. Hvis dette felt er tomt, blev der ikke fundet nogen matchende virksomhed."
-
-msgid "The organization name entered by the user"
-msgstr "Virksomhedsnavnet indtastet af brugeren"
-
-msgid "The ASN entered by the user"
-msgstr "ASN indtastet af brugeren"
-
-msgid "The user that made the request"
-msgstr "Brugeren der udførte forespørgslen"
-
-msgid "Pending"
-msgstr "Afventer"
-
-msgid "Approved"
-msgstr "Godkendt"
-
-msgid "Denied"
-msgstr "Afvist"
-
-#, fuzzy
-#| msgid "Balanced"
-msgid "Canceled"
-msgstr "Balanceret"
-
-msgid "Status of this request"
-msgstr "Status for denne forespørgsel"
-
-msgid "User to Organization Affiliation Request"
-msgstr ""
-
-msgid "User to Organization Affiliation Requests"
-msgstr ""
-
-msgid "Your affiliation to Organization \"{}\" has been approved"
-msgstr ""
-
-msgid "The item that this queue is attached to was created by this user"
-msgstr ""
-
-msgid "The item that this queue is attached to was created by this organization api key"
-msgstr ""
-
-msgid "email address"
-msgstr ""
-
-msgid "Ticket reference on the DeskPRO side"
-msgstr ""
-
-msgid "Ticket id on the DeskPRO side"
-msgstr ""
-
-msgid "DeskPRO Ticket"
-msgstr ""
-
-msgid "DeskPRO Tickets"
-msgstr ""
-
-msgid "DeskPRO Ticket CC Contact"
-msgstr ""
-
-msgid "Deskpro Ticket CC Contacts"
-msgstr ""
-
-msgid "Allows you to upload and set a logo image file for this organization"
-msgstr "Tillader dig at uploade et logo, billede fil, for denne virksomhed"
-
-#, fuzzy
-#| msgid "Organization Merge: Entity"
-msgid "Organization has active objects under it."
-msgstr "Virksomhedssammenlægning: Entitet"
-
-msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr ""
-
-#, fuzzy
-#| msgid "Organization Merges"
-msgid "Organization API key Permission"
-msgstr "Virksomhedssammenlægninger"
-
-msgid "Sponsorship starts on"
-msgstr "Sponsorat starter"
-
-msgid "Sponsorship ends on"
-msgstr "Sponsorat slutter"
-
-msgid "Expiration notification sent on"
-msgstr "Udløbsnotifikation sendt"
-
-msgid "Sponsorship"
-msgstr "Sponsorat"
-
-msgid "Sponsorships"
-msgstr "Sponsorater"
-
-msgid "Sponsorship Expired"
-msgstr "Sponsorat udløb"
-
-msgid "If specified clicking the sponsorship will take the user to this location"
-msgstr "Hvis konfigureret, vil klik på sponsorat tage brugeren til denne URL"
-
-msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgstr "Tillader dig at uploade et logo, billede fil, for dette sponsorat"
-
-#, fuzzy
-#| msgid "If specified clicking the sponsorship will take the user to this location"
-msgid "If specified clicking the partnership will take the user to this location"
-msgstr "Hvis konfigureret, vil klik på sponsorat tage brugeren til denne URL"
-
-#, fuzzy
-#| msgid "Allows you to upload and set a logo image file for this sponsorship"
-msgid "Allows you to upload and set a logo image file for this partnership"
-msgstr "Tillader dig at uploade et logo, billede fil, for dette sponsorat"
-
-msgid "Partnership"
-msgstr "Partnerskab"
-
-msgid "Partnerships"
-msgstr "Partnerskaber"
-
-msgid "Merged on"
-msgstr "Sammenlagt den"
-
-msgid "Organization Merge"
-msgstr "Virksomhedssammenlægning"
-
-msgid "Organization Merges"
-msgstr "Virksomhedssammenlægninger"
-
-msgid "Organization Merge: Entity"
-msgstr "Virksomhedssammenlægning: Entitet"
-
-msgid "Organization Merge: Entities"
-msgstr "Virksomhedssammenlægning: Entiteter"
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "number of exchanges at this facility"
-msgstr "Exchange - Facility link"
-
-msgid "number of networks at this facility"
-msgstr ""
-
-msgid "Need to specify at least two asns"
-msgstr "Mindst 2 ASNs skal være angivet"
-
-msgid "Can only compare a maximum of 25 asns"
-msgstr "Kan højest sammenligne op til 25 ASN'er"
-
-msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
-
-msgid "Facility has active network presence(s): {} ..."
-msgstr ""
-
-msgid "number of facilities at this exchange"
-msgstr ""
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "number of networks at this exchange"
-msgstr "Exchange"
-
-msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
-
-msgid "Exchange has active peer(s)"
-msgstr ""
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F error"
-msgstr "IXF import log"
-
-#, fuzzy
-msgid "Reason IX-F data could not be parsed"
-msgstr "Intet JSON kunne behandles"
-
-msgid "IX-F error notification date"
-msgstr ""
-
-msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
-
-msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
-
-msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
-
-msgid "IXLan id needs to match parent ix id"
-msgstr ""
-
-msgid "Ixlan for exchange already exists"
-msgstr ""
-
-msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Import Log"
-msgstr "IXF import log"
-
-#, fuzzy
-#| msgid "IXF Import Logs"
-msgid "IX-F Import Logs"
-msgstr "IXF import logs"
-
-#, fuzzy
-#| msgid "IXF Import Log Entry"
-msgid "IX-F Import Log Entry"
-msgstr "IXF Import Log Linje"
-
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Log Entries"
-msgstr "IXF Import Log Linjer"
-
-msgid "JSON snapshot of the ix-f member data that created this entry"
-msgstr ""
-
-msgid "Activity for this entry"
-msgstr ""
-
-msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
-
-msgid "RS Peer"
-msgstr ""
-
-msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
-
-#, fuzzy
-#| msgid "Updated"
-msgid "Last Fetched"
-msgstr "Opdateret"
-
-msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr ""
-
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "IX-F Member Data"
-msgstr "IXF import log"
-
-msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
-
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
-
-msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
-
-msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr ""
-
-msgid "number of exchanges at this network"
-msgstr ""
-
-msgid "number of facilities at this network"
-msgstr ""
-
-msgid "Last technical contact point for network with active peers"
-msgstr ""
-
-msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr ""
-
-msgid "IPv4 address outside of prefix"
-msgstr ""
-
-msgid "IPv6 address outside of prefix"
-msgstr ""
-
-msgid "Maximum speed: {}"
-msgstr ""
-
-msgid "Minimum speed: {}"
-msgstr ""
-
-#, fuzzy
-#| msgid "Ipaddress already exists elsewhere"
-msgid "Ip address already exists elsewhere"
-msgstr "IP adresse findes allerede et andet sted"
-
-#, fuzzy
-#| msgid "Users"
-msgid "username"
-msgstr "Brugere"
-
-msgid "Required. Letters, digits and [@.+-/_=|] only."
-msgstr ""
-
-msgid "Enter a valid username."
-msgstr ""
-
-#, fuzzy
-#| msgid "Facility"
-msgid "first name"
-msgstr "Facility"
-
-#, fuzzy
-#| msgid "Facility"
-msgid "last name"
-msgstr "Facility"
-
-#, fuzzy
-#| msgid "Status"
-msgid "staff status"
-msgstr "Status"
-
-msgid "Designates whether the user can log into admin site."
-msgstr ""
-
-#, fuzzy
-#| msgid "Active"
-msgid "active"
-msgstr "Aktiv"
-
-msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
-msgstr ""
-
-msgid "date joined"
-msgstr ""
-
-#, fuzzy
-#| msgid "Status"
-msgid "status"
-msgstr "Status"
-
-msgid "language"
-msgstr ""
-
-#, fuzzy
-#| msgid "Users"
-msgid "user"
-msgstr "Brugere"
-
-#, fuzzy
-#| msgid "Users"
-msgid "users"
-msgstr "Brugere"
-
-#, fuzzy
-#| msgid "Passwords need to match"
-msgid "Password Reset Initiated"
-msgstr "Kodeord skal være ens"
-
-msgid "Determines if API Key inherits the User Permissions or is readonly."
-msgstr ""
-
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Email"
-msgstr "IXF Import Log Linjer"
-
-#, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Emails"
-msgstr "IXF Import Log Linjer"
-
-msgid "name of the tool"
-msgstr ""
-
-msgid "json serialization of arguments and options passed"
-msgstr ""
-
-msgid "result log"
-msgstr ""
-
-msgid "Descriptive text of command that can be searched"
-msgstr ""
-
-#, fuzzy
-#| msgid "The user that made the request"
-msgid "the user that ran this command"
-msgstr "Brugeren der udførte forespørgslen"
-
-msgid "command was run at this date and time"
-msgstr ""
-
-msgid "Done"
-msgstr ""
-
-msgid "Running"
-msgstr ""
-
-msgid "Environment Setting"
-msgstr ""
-
-msgid "Environment Settings"
-msgstr ""
-
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr ""
-
-#, fuzzy
-#| msgid "Updated"
-msgid "Last Updated"
-msgstr "Opdateret"
-
-msgid "Configured on"
-msgstr ""
-
-msgid "Last updated by this user"
-msgstr ""
-
-#, fuzzy
-#| msgid "Organization Merge: Entities"
-msgid "Organization and all Entities it owns"
-msgstr "Virksomhedssammenlægning: Entiteter"
-
-msgid "Any Network"
-msgstr ""
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Any Facility"
-msgstr "Facility"
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "Any Exchange"
-msgstr "Exchange"
-
-#, python-format
-msgid "Network - %(net_name)s"
-msgstr ""
-
-#, fuzzy, python-format
-#| msgid "Exchange"
-msgid "Exchange - %(ix_name)s"
-msgstr "Exchange"
-
-#, fuzzy, python-format
-#| msgid "Facility"
-msgid "Facility - %(fac_name)s"
-msgstr "Facility"
-
-#, fuzzy
-#| msgid "Malformed organization ids"
-msgid "Invalid organization specified"
-msgstr "Ukorrekt formateret organisations id'er"
-
-#, fuzzy
-#| msgid "ASN needs to be a number"
-msgid "Needs to be member or admin"
-msgstr "ASN skal være et heltal"
-
-#, python-format
-msgid "%(user_name)s's affiliation request has been approved"
-msgstr ""
-
-#, python-format
-msgid "%(user_name)s's affiliation request has been denied"
-msgstr ""
-
-msgid "Please contact {} to help with the deletion of this object"
-msgstr ""
-
-msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
-msgstr ""
-
-#, fuzzy
-#| msgid "Invalid export format"
-msgid "Invalid value"
-msgstr "Ugyldigt eksport format"
-
-#, fuzzy
-#| msgid "ASN needs to be a number"
-msgid "Need to be unique"
-msgstr "ASN skal være et heltal"
-
-msgid "This field is required"
-msgstr ""
-
-msgid "RDAP Lookup Error"
-msgstr ""
-
-#, python-brace-format
-msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr ""
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr ""
-
-msgid "Required for distance filtering"
-msgstr ""
-
-msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
-msgstr ""
-
-msgid "Network has been deleted. Please contact {}"
-msgstr ""
-
-msgid "ASN cannot be changed."
-msgstr ""
-
-msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr ""
-
-#, fuzzy
-#| msgid "Need to specify at least two asns"
-msgid "Specify at least one email address"
-msgstr "Mindst 2 ASNs skal være angivet"
-
-msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
-msgstr ""
-
-#, fuzzy, python-format
-#| msgid "User is looking to be affiliated to these Organizations"
-msgid "User %(u_name)s wishes to be affiliated to your Organization"
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
-
-msgid "Confirm your e-mail address"
-msgstr ""
-
-msgid "Please confirm that"
-msgstr ""
-
-#, fuzzy
-#| msgid "Need to specify at least two asns"
-msgid "is your email-address"
-msgstr "Mindst 2 ASNs skal være angivet"
-
-#, fuzzy
-#| msgid "Change Password"
-msgid "Confirm"
-msgstr "Ændre kodeord"
-
-msgid "The email confirmation process for this email address has been terminated, please re-initiate"
-msgstr ""
-
-msgid "here"
-msgstr ""
-
-msgid "Please use"
-msgstr ""
-
-msgid "this page"
-msgstr ""
-
-msgid "instead"
-msgstr ""
-
-#, python-format
-msgid "Show %(num)s rows"
-msgstr ""
-
-msgid "(Warning: potentially long load)"
-msgstr ""
-
-#, python-format
-msgid ""
-"\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
-msgstr ""
-
-msgid "Save and Apply"
-msgstr ""
-
-msgid "Save"
-msgstr ""
-
-msgid "Save and continue editing"
-msgstr ""
-
-msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
-msgstr ""
-
-#, fuzzy
-#| msgid "Undo merge"
-msgid "You may undo merges"
-msgstr "Fortryd sammenlægning"
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Selected Organizations"
-msgstr "Virksomhed"
-
-msgid "Search"
-msgstr ""
-
-msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
-msgstr ""
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Merge Into Organization"
-msgstr "Virksomhed"
-
-msgid "Organizations in the left column will be merged into this organization"
-msgstr ""
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Merge Organizations"
-msgstr "Virksomhed"
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Merge Results"
-msgstr "Exchange - Facility link"
-
-msgid "Home"
-msgstr ""
-
-msgid "Prepare"
-msgstr ""
-
-#, fuzzy
-#| msgid "{} (Preview)"
-msgid "Preview"
-msgstr "{} (Forehåndsvis)"
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Result"
-msgstr "Exchange - Facility link"
-
-msgid "PeeringDB API Documentation"
-msgstr ""
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Merge Notification"
-msgstr "Virksomhed"
-
-msgid "ID"
-msgstr ""
-
-#, fuzzy
-#| msgid "Has been changed since"
-msgid "has been merged into"
-msgstr "Har været opdateret siden"
-
-msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
-msgstr ""
-
-#, python-format
-msgid "%(u_full_name)s's affiliation request to %(o_name)s has been APPROVED by %(admin_full_name)s."
-msgstr ""
-
-msgid "No further action is required on your part."
-msgstr ""
-
-msgid "As the organization's administrator you may view your organization's user list here"
-msgstr ""
-
-#, python-format
-msgid "%(u_full_name)s's affiliation request to %(o_name)s has been DENIED by %(admin_full_name)s."
-msgstr ""
-
-#, fuzzy, python-format
-#| msgid "User is looking to be affiliated to these Organizations"
-msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
-
-msgid "As the organization's administrator you may approve or deny this request here"
-msgstr ""
-
-msgid "Ownership of organization was automatically granted to user"
-msgstr ""
-
 #, fuzzy
-#| msgid "Users"
-msgid "User"
-msgstr "Brugere"
+#~| msgid "Australia"
+#~ msgid "Italian"
+#~ msgstr "Australien"
 
-msgid "AS"
-msgstr ""
+#~ msgid "Status"
+#~ msgstr "Status"
 
-#, python-format
-msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+#~ msgid "Target org cannot be in selected organizations list"
+#~ msgstr "Organisation kan ikke vælges i listen"
 
-#, python-format
-msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr ""
+#~ msgid "ROLLBACK"
+#~ msgstr "Ruld tilbage"
 
-#, python-format
-msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr ""
+#~ msgid "SOFT DELETE"
+#~ msgstr "Blød sletning"
 
-msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr ""
-
-#, python-format
-msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr ""
-
-msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr ""
-
-#, fuzzy, python-format
-#| msgid "User is looking to be affiliated to these Organizations"
-msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
-
 #, fuzzy
-#| msgid "The organization name entered by the user"
-msgid "They also provided this organization name in their request"
-msgstr "Virksomhedsnavnet indtastet af brugeren"
+#~| msgid "Exchange - Facility link"
+#~ msgid "Resul length"
+#~ msgstr "Exchange - Facility link"
 
-msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
-msgstr ""
+#~ msgid "Verification Queue is currently disabled"
+#~ msgstr "Verifikationkø er på nuværende tidspunkt deaktiveret"
 
-#, fuzzy, python-format
-#| msgid "User is looking to be affiliated to these Organizations"
-msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
+#~ msgid "Verification Queue is currently disabled for this object type"
+#~ msgstr "Verifikationskø er på nuværende tidspunkt deaktiveret for denne objekttype"
 
-msgid "There was no entry in our database that matches that organization name and no ASN was provided, so it is likely that this organization will need to be created."
-msgstr ""
+#~ msgid "APPROVE"
+#~ msgstr "Godkend"
 
-msgid "You may create a new organization here"
-msgstr ""
+#~ msgid "DENY"
+#~ msgstr "Afvis"
 
-msgid "You may create a new network here"
-msgstr ""
+#~ msgid "APPROVED"
+#~ msgstr "Godkendt"
 
-#, fuzzy, python-format
-#| msgid "User is looking to be affiliated to these Organizations"
-msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
+#~ msgid "User is looking to be affiliated to these Organizations"
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
 #, fuzzy
-#| msgid "The organization name entered by the user"
-msgid "They also provided this ASN in their request"
-msgstr "Virksomhedsnavnet indtastet af brugeren"
+#~| msgid "IXF Import History"
+#~ msgid "IX-F Import History"
+#~ msgstr "IXF Importeringshistorik"
 
-msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
-msgstr ""
+#~ msgid "Initial creation of netixlan"
+#~ msgstr "Første oprettelse af netixlan"
 
-msgid "These are the website addresses were able to derive from the organization and it's entities"
-msgstr ""
+#~ msgid "CAN BE ROLLED BACK"
+#~ msgstr "Kan rulles tilbage"
 
-msgid "These are the email addresses we could fetch from the ASNs belonging to this organization"
-msgstr ""
+#~ msgid "CANNOT BE ROLLED BACK"
+#~ msgstr "Kan ikke rulles tilbage"
 
-#, fuzzy
-#| msgid "User is looking to be affiliated to these Organizations"
-msgid "The user is affiliated with other organizations"
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
-
-msgid "ADMIN"
-msgstr ""
+#~ msgid "Has been changed since"
+#~ msgstr "Har været opdateret siden"
 
-msgid "MEMBER"
-msgstr ""
+#~ msgid "Netixlan with conflicting ipaddress now exists elsewhere"
+#~ msgstr "Netixlan med konfliktende IP adresse findes nu et andet sted"
 
-msgid "Review Affiliation/Ownership Request"
-msgstr ""
-
-#, fuzzy
-#| msgid "Approve and notify User"
-msgid "Approve Ownership Request and Notify User"
-msgstr "Godkend og send notifikation til bruger"
+#~ msgid "HAS BEEN ROLLED BACK"
+#~ msgstr "Er blevet rullet tilbage"
 
-#, python-format
-msgid "A new '%(entity_type_name)s' has been created and requires your approval."
-msgstr ""
+#~ msgid "Not Set"
+#~ msgstr "Ikke valgt"
 
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
-msgstr ""
+#~ msgid "Active"
+#~ msgstr "Aktiv"
 
-msgid "We retrieved the RiR entry for the specified ASN"
-msgstr ""
+#~ msgid "Logo Missing"
+#~ msgstr "Logo mangler"
 
-msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
-msgstr ""
+#~ msgid "Waiting"
+#~ msgstr "Afventer"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Requested by Organization API Key"
-msgstr "Virksomhed"
-
-msgid "API key prefix"
-msgstr ""
-
-msgid "You can go to"
-msgstr ""
-
-msgid "to view and approve or deny this entry"
-msgstr ""
-
-#, python-format
-msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
-msgstr ""
-
-msgid "but found no match with the requesting user. Here are the email addresses we gathered"
-msgstr ""
-
-msgid "Requested by user"
-msgstr ""
-
-#, python-format
-msgid "%(i_label)s level sponsorship from '%(io_name)s' expired on %(i_end_date)s."
-msgstr ""
-
-#, python-format
-msgid "Your affiliation request to the Organization '%(o_name)s' and it's entities has been approved."
-msgstr ""
+#~| msgid "Malformed organization ids"
+#~ msgid "No organization(s) set"
+#~ msgstr "Ukorrekt formateret organisations id'er"
 
-msgid "This was the result of a manual review of your affiliation request to ASN"
-msgstr ""
+#~ msgid "Malformed organization ids"
+#~ msgstr "Ukorrekt formateret organisations id'er"
 
-msgid "This was the result of a manual review of your affiliation request to the organization or one of it's entities."
-msgstr ""
+#, fuzzy
+#~| msgid "Malformed organization ids"
+#~ msgid "Merge target organization does not exist"
+#~ msgstr "Ukorrekt formateret organisations id'er"
 
-msgid "You may view and edit your organization at"
-msgstr ""
+#~ msgid "Organization Merging Tool"
+#~ msgstr "Virksomhed Sammenlægningsværktøj"
 
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr ""
+#~ msgid "Undo merge"
+#~ msgstr "Fortryd sammenlægning"
 
-msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
-msgstr ""
+#~ msgid "APPROVE selected items"
+#~ msgstr "Godkend afkrydsede"
 
-msgid "If you did not initiate the password reset request, please ignore this email."
-msgstr ""
+#~ msgid "DENY and delete selected items"
+#~ msgstr "Afvis og slet afkrydsede"
 
-msgid "You requested a username retrieval on PeeringDB for the email address"
-msgstr ""
+#~ msgid "View"
+#~ msgstr "Se"
 
-msgid "Please follow the url below to view any usernames associated with your email."
-msgstr ""
+#~ msgid "Affiliation request was approved and the user was notified."
+#~ msgstr "Anmodning om medlemsskab blev godkendt og brugeren blev adviseret."
 
-msgid "If you did not request username retrieval, you can ignore this email."
-msgstr ""
+#~ msgid "Approve and notify User"
+#~ msgstr "Godkend og send notifikation til bruger"
 
-msgid "Our Culture"
-msgstr ""
+#~ msgid "Approve"
+#~ msgstr "Godkend"
 
-msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr ""
+#~ msgid "Deny"
+#~ msgstr "Afvis"
 
-msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr ""
+#~ msgid "Change Password"
+#~ msgstr "Ændre kodeord"
 
-msgid "I’m a network operator. How can PeeringDB help me?"
-msgstr ""
+#~ msgid "Edit Permissions"
+#~ msgstr "Rediger rettigheder"
 
-msgid "Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date."
-msgstr ""
+#~ msgid "VERIFIED"
+#~ msgstr "Godkendt"
 
-msgid "This data will help you to accelerate the process of finding and connecting with other networks, while supporting a faster and more decisive deployment of your own network expansion and development plans."
-msgstr ""
+#~ msgid "UNVERIFIED"
+#~ msgstr "Ikke godkendt"
 
-msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr ""
+#~ msgid "User Permission"
+#~ msgstr "Brugerrettigheder"
 
-msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
-msgstr ""
+#~ msgid "User Permissions"
+#~ msgstr "Brugerrettigheder"
 
-msgid "Management"
-msgstr ""
+#~ msgid "Only POST requests allowed."
+#~ msgstr "Kun POST forespørgsler tilladt."
 
-msgid "CLLI"
-msgstr ""
+#~ msgid "{} (Preview)"
+#~ msgstr "{} (Forehåndsvis)"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Reset"
-msgstr "Ændre kodeord"
-
-msgid "Postal Code"
-msgstr ""
-
-msgid "No search results."
-msgstr ""
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr ""
-
-msgid "click to select multiple"
-msgstr ""
-
-msgid "IP Block"
-msgstr ""
-
-msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr ""
+#~| msgid "Not Required"
+#~ msgid "No requirements"
+#~ msgstr "Ikke påkrævet"
 
-msgid "Postal"
-msgstr ""
+#~ msgid "Merge this facility - it will be deleted"
+#~ msgstr "Sammenlæg denne facilitet - den vil blive slettet"
 
-msgid "Within Distance"
-msgstr ""
-
-msgid "Additional filters are available to authenticated users and you are currently not logged in."
-msgstr ""
-
-msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
-msgstr ""
-
 #, fuzzy
-#| msgid "Facility"
-msgid "Network Presence"
-msgstr "Facility"
-
-msgid "Search networks ..."
-msgstr ""
-
-msgid "All present"
-msgstr ""
-
-msgid "Any present"
-msgstr ""
-
-msgid "None present"
-msgstr ""
-
-msgid "Traffic Ratio"
-msgstr ""
+#~| msgid "Facility"
+#~ msgid "Target facility"
+#~ msgstr "Facility"
 
-msgid "Primary ASN"
-msgstr ""
-
-msgid "General Peering Policy"
-msgstr ""
-
 #, fuzzy
-#| msgid "Exchange"
-msgid "Exchange Presence"
-msgstr "Exchange"
-
-msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr ""
-
-msgid "Present"
-msgstr ""
+#~| msgid "Undo merge"
+#~ msgid "Undo this merge"
+#~ msgstr "Fortryd sammenlægning"
 
-msgid "Absent"
-msgstr ""
-
 #, fuzzy
-#| msgid "Facility"
-msgid "Facility Presence"
-msgstr "Facility"
-
-msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr ""
+#~| msgid "Change Password"
+#~ msgid "Reset all"
+#~ msgstr "Ændre kodeord"
 
-msgid "Also known as"
-msgstr ""
-
 #, fuzzy
-#| msgid "IXLAN"
-msgid "ASN"
-msgstr "IXLAN"
+#~| msgid "Sales"
+#~ msgid "Reset hints"
+#~ msgstr "Salg"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Network Scope"
-msgstr "Facility"
+#~| msgid "Sales"
+#~ msgid "Reset dismisses"
+#~ msgstr "Salg"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "Exchanges"
-msgstr "Exchange"
+#~| msgid "Sales"
+#~ msgid "Reset email"
+#~ msgstr "Salg"
 
 #, fuzzy
-#| msgid "Organization Merges"
-msgid "My organization presence"
-msgstr "Virksomhedssammenlægninger"
-
-msgid "Does not matter"
-msgstr ""
+#~| msgid "Address not found"
+#~ msgid "Key not found"
+#~ msgstr "Adresse ikke fundet"
 
 #, fuzzy
-#| msgid "Not Set"
-msgid "Not present"
-msgstr "Ikke valgt"
+#~| msgid "Exchange"
+#~ msgid "Exchange name"
+#~ msgstr "Exchange"
 
-msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Facility name"
+#~ msgstr "Facility"
 
-#, python-format
-msgid "- all data will be refreshed from production at %(dt)sZ"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Facility country"
+#~ msgstr "Facility"
 
-msgid "Only use this if you own the facility"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Facility city"
+#~ msgstr "Facility"
 
-msgid "Only use this if you own the exchange"
-msgstr ""
+#~ msgid "Yes"
+#~ msgstr "Ja"
 
-#, python-format
-msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
-msgstr ""
+#~ msgid "Invalid export format"
+#~ msgstr "Ugyldigt eksport format"
 
-msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+#, fuzzy
+#~| msgid "Invalid export format"
+#~ msgid "Invalid tag"
+#~ msgstr "Ugyldigt eksport format"
 
-msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr ""
+#~ msgid "Invalid permission level"
+#~ msgstr "Ugyldigt rettighedsniveau"
 
-msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr ""
+#~ msgid "ASN needs to be a number"
+#~ msgstr "ASN skal være et heltal"
 
-msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
-msgstr ""
+#~ msgid "Needs to be at least 10 characters long"
+#~ msgstr "Skal være 10 tegn eller længere"
 
-msgid "Submit"
-msgstr ""
+#~ msgid "Passwords need to match"
+#~ msgstr "Kodeord skal være ens"
 
-#, python-format
-msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will be reviewed by the PeeringDB Administration Committee. It will then either be finalized and entered into the database, or declined. No further action is required on your part."
-msgstr ""
+#, fuzzy
+#~| msgid "Address not found"
+#~ msgid "Ixlan not found"
+#~ msgstr "Adresse ikke fundet"
 
-msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr ""
+#, fuzzy
+#~| msgid "User Permission"
+#~ msgid "Permission denied"
+#~ msgstr "Brugerrettigheder"
 
-msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
-msgstr ""
+#, fuzzy
+#~| msgid "Address not found"
+#~ msgid "Network not found"
+#~ msgstr "Adresse ikke fundet"
 
-msgid "In order to be approved we would expect that the suggested Exchange meets the following criteria:"
-msgstr ""
+#, fuzzy
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F import url not specified"
+#~ msgstr "IXF Import Log Linjer"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Suggest"
-msgstr "Facility"
+#~ msgid "No JSON could be parsed"
+#~ msgstr "Intet JSON kunne behandles"
 
-msgid "404 - Not Found"
-msgstr ""
+#, fuzzy
+#~ msgid "Invalid speed value: {}"
+#~ msgstr "Intet JSON kunne behandles"
 
 #, fuzzy
-#| msgid "Malformed organization ids"
-msgid "The page you requested does not exist."
-msgstr "Ukorrekt formateret organisations id'er"
+#~ msgid "Invalid speed value: could not be parsed"
+#~ msgstr "Intet JSON kunne behandles"
 
-msgid "403 - Forbidden"
-msgstr ""
+#~ msgid "Silver"
+#~ msgstr "Sølv"
 
-msgid "You don't have permissions to view this page."
-msgstr ""
+#~ msgid "Gold"
+#~ msgstr "Guld"
 
-msgid "Take me home"
-msgstr ""
+#~ msgid "Platinum"
+#~ msgstr "Platin"
 
-msgid "All Rights Reserved. By using this service, you agree to adhere to our"
-msgstr ""
+#~ msgid "Diamond"
+#~ msgstr "Diamand"
 
-msgid "AUP"
-msgstr ""
+#~ msgid "RIR"
+#~ msgstr "RIR"
 
 #, fuzzy
-#| msgid "Private Only"
-msgid "Privacy Policy"
-msgstr "Kun privat"
+#~ msgid "Renumber IP Space"
+#~ msgstr "Gennummerer IP område"
 
-msgid "About"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Merge Facilities"
+#~ msgstr "Exchange - Facility link"
 
-msgid "Register"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Merge Facilities: UNDO"
+#~ msgstr "Exchange - Facility link"
 
 #, fuzzy
-#| msgid "Sponsorship"
-msgid "Sponsors"
-msgstr "Sponsorat"
+#~| msgid "IXF Import Log"
+#~ msgid "IX-F Import"
+#~ msgstr "IXF import log"
 
-msgid "Resources"
-msgstr ""
+#, fuzzy
+#~ msgid "Last time of attempted geocode"
+#~ msgstr "Sidste forsøg på opdatering af geokoordinator"
 
-msgid "API"
-msgstr ""
+#~ msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
+#~ msgstr "Denne virksomhed i vores database var afledt af det oplyste ASN og virksomhedsnavn. Hvis dette felt er tomt, blev der ikke fundet nogen matchende virksomhed."
 
-msgid "Documentation"
-msgstr ""
+#~ msgid "The organization name entered by the user"
+#~ msgstr "Virksomhedsnavnet indtastet af brugeren"
 
-msgid "FAQ"
-msgstr ""
+#~ msgid "The ASN entered by the user"
+#~ msgstr "ASN indtastet af brugeren"
 
-msgid "Governance"
-msgstr ""
+#~ msgid "The user that made the request"
+#~ msgstr "Brugeren der udførte forespørgslen"
 
-#, fuzzy
-#| msgid "Content"
-msgid "Contact Us"
-msgstr "Indhold"
+#~ msgid "Pending"
+#~ msgstr "Afventer"
 
-msgid "Global System Statistics"
-msgstr ""
+#~ msgid "Approved"
+#~ msgstr "Godkendt"
 
-#, fuzzy
-#| msgid "Exchange"
-msgid "Connections to Exchanges"
-msgstr "Exchange"
+#~ msgid "Denied"
+#~ msgstr "Afvist"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "Connections to Facilities"
-msgstr "Exchange"
+#~| msgid "Balanced"
+#~ msgid "Canceled"
+#~ msgstr "Balanceret"
 
-msgid "Automated Networks"
-msgstr ""
+#~ msgid "Status of this request"
+#~ msgstr "Status for denne forespørgsel"
 
-msgid "Search here for a network, IX, or facility."
-msgstr ""
+#~ msgid "Allows you to upload and set a logo image file for this organization"
+#~ msgstr "Tillader dig at uploade et logo, billede fil, for denne virksomhed"
 
-msgid "Advanced Search"
-msgstr ""
-
 #, fuzzy
-#| msgid "Pending"
-msgid "pending"
-msgstr "Afventer"
-
-msgid "unverified"
-msgstr ""
+#~| msgid "Organization Merge: Entity"
+#~ msgid "Organization has active objects under it."
+#~ msgstr "Virksomhedssammenlægning: Entitet"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Suggest Facility"
-msgstr "Facility"
+#~| msgid "Organization Merges"
+#~ msgid "Organization API key Permission"
+#~ msgstr "Virksomhedssammenlægninger"
 
-msgid "Profile"
-msgstr ""
+#~ msgid "Sponsorship starts on"
+#~ msgstr "Sponsorat starter"
 
-msgid "Logout"
-msgstr ""
+#~ msgid "Sponsorship ends on"
+#~ msgstr "Sponsorat slutter"
 
-msgid "or"
-msgstr ""
+#~ msgid "Expiration notification sent on"
+#~ msgstr "Udløbsnotifikation sendt"
 
-msgid "Login"
-msgstr ""
+#~ msgid "Sponsorship"
+#~ msgstr "Sponsorat"
 
-msgid "The Interconnection Database"
-msgstr ""
+#~ msgid "Sponsorships"
+#~ msgstr "Sponsorater"
 
-msgid "Join. Search. Grow your network."
-msgstr ""
+#~ msgid "Sponsorship Expired"
+#~ msgstr "Sponsorat udløb"
 
-msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
-msgstr ""
+#~ msgid "If specified clicking the sponsorship will take the user to this location"
+#~ msgstr "Hvis konfigureret, vil klik på sponsorat tage brugeren til denne URL"
 
-msgid "The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet."
-msgstr ""
+#~ msgid "Allows you to upload and set a logo image file for this sponsorship"
+#~ msgstr "Tillader dig at uploade et logo, billede fil, for dette sponsorat"
 
-msgid "Learn more"
-msgstr ""
-
-msgid "about"
-msgstr ""
-
-msgid "register"
-msgstr ""
-
-msgid "Most Recent Updates"
-msgstr ""
-
 #, fuzzy
-#| msgid "Maintenance"
-msgid "Maintenance Mode"
-msgstr "Vedligehold"
+#~| msgid "If specified clicking the sponsorship will take the user to this location"
+#~ msgid "If specified clicking the partnership will take the user to this location"
+#~ msgstr "Hvis konfigureret, vil klik på sponsorat tage brugeren til denne URL"
 
-msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr ""
-
-msgid "Login with oAuth"
-msgstr ""
-
-msgid "Login with your Google account"
-msgstr ""
-
-msgid "Login with your Facebook account"
-msgstr ""
+#, fuzzy
+#~| msgid "Allows you to upload and set a logo image file for this sponsorship"
+#~ msgid "Allows you to upload and set a logo image file for this partnership"
+#~ msgstr "Tillader dig at uploade et logo, billede fil, for dette sponsorat"
 
-msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
-msgstr ""
+#~ msgid "Partnership"
+#~ msgstr "Partnerskab"
 
-msgid "Create"
-msgstr ""
+#~ msgid "Partnerships"
+#~ msgstr "Partnerskaber"
 
-#, fuzzy
-#| msgid "Updated"
-msgid "Update"
-msgstr "Opdateret"
+#~ msgid "Merged on"
+#~ msgstr "Sammenlagt den"
 
-msgid "Delete"
-msgstr ""
+#~ msgid "Organization Merge"
+#~ msgstr "Virksomhedssammenlægning"
 
-msgid "Add"
-msgstr ""
+#~ msgid "Organization Merges"
+#~ msgstr "Virksomhedssammenlægninger"
 
-msgid "Here you can create new API keys for your organization or revoke existing keys."
-msgstr ""
+#~ msgid "Organization Merge: Entity"
+#~ msgstr "Virksomhedssammenlægning: Entitet"
 
-msgid "Edit"
-msgstr ""
+#~ msgid "Organization Merge: Entities"
+#~ msgstr "Virksomhedssammenlægning: Entiteter"
 
 #, fuzzy
-#| msgid "Balanced"
-msgid "Cancel"
-msgstr "Balanceret"
+#~| msgid "Exchange - Facility link"
+#~ msgid "number of exchanges at this facility"
+#~ msgstr "Exchange - Facility link"
 
-msgid "Revoke"
-msgstr ""
+#~ msgid "Need to specify at least two asns"
+#~ msgstr "Mindst 2 ASNs skal være angivet"
 
-msgid "Add Key"
-msgstr ""
+#~ msgid "Can only compare a maximum of 25 asns"
+#~ msgstr "Kan højest sammenligne op til 25 ASN'er"
 
 #, fuzzy
-#| msgid "Partnership"
-msgid "Partners"
-msgstr "Partnerskab"
-
-msgid "We've sent instructions to your email address, provided it is in our system. You have 30 minutes to complete the process."
-msgstr ""
+#~| msgid "Exchange"
+#~ msgid "number of networks at this exchange"
+#~ msgstr "Exchange"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Reset Password"
-msgstr "Ændre kodeord"
+#~| msgid "IXF Import Log"
+#~ msgid "IX-F error"
+#~ msgstr "IXF import log"
 
-msgid "The password for your account"
-msgstr ""
-
 #, fuzzy
-#| msgid "Has been changed since"
-msgid "has been reset, proceed to the"
-msgstr "Har været opdateret siden"
-
-msgid "login page"
-msgstr ""
+#~ msgid "Reason IX-F data could not be parsed"
+#~ msgstr "Intet JSON kunne behandles"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Password"
-msgstr "Ændre kodeord"
+#~| msgid "IXF Import Log"
+#~ msgid "IX-F Import Log"
+#~ msgstr "IXF import log"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Verify Password"
-msgstr "Ændre kodeord"
-
-msgid "The security token you provided is invalid, please"
-msgstr ""
-
-msgid "try again"
-msgstr ""
-
-msgid "The password reset process has expired, please"
-msgstr ""
-
-msgid "initiate again"
-msgstr ""
+#~| msgid "IXF Import Logs"
+#~ msgid "IX-F Import Logs"
+#~ msgstr "IXF import logs"
 
-msgid "Account Security"
-msgstr ""
-
-msgid "Manage Two-Factor Authentication"
-msgstr ""
-
 #, fuzzy
-#| msgid "User is looking to be affiliated to these Organizations"
-msgid "Affiliate with organization"
-msgstr "Brugere søger at blive tilknyttet denne virksomhed"
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s is pending approval."
-msgstr ""
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr ""
-
-#, python-format
-msgid "You have canceled your affiliation request with %(ar_name)s"
-msgstr ""
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was denied"
-msgstr ""
-
-#, python-format
-msgid "Your affiliation with %(ar_name)s was approved"
-msgstr ""
-
-msgid "To affiliate with an existing organization, please enter the ASN or organization name below."
-msgstr ""
+#~| msgid "IXF Import Log Entry"
+#~ msgid "IX-F Import Log Entry"
+#~ msgstr "IXF Import Log Linje"
 
-msgid "To register a new network organization, please enter the ASN and organization name below."
-msgstr ""
-
-msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr ""
-
-msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
-msgstr ""
-
-msgid "Affiliate"
-msgstr ""
-
-msgid "In case the RiR entry cannot be retrieved for your ASN, please contact"
-msgstr ""
-
-msgid "for assistance"
-msgstr ""
-
-msgid "Existing affiliations"
-msgstr ""
-
 #, fuzzy
-#| msgid "Public Relations"
-msgid "Your affiliation with"
-msgstr "Offentlige relationer"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Log Entries"
+#~ msgstr "IXF Import Log Linjer"
 
 #, fuzzy
-#| msgid "Has been changed since"
-msgid "has been approved"
-msgstr "Har været opdateret siden"
-
-msgid "API Keys"
-msgstr ""
+#~| msgid "Updated"
+#~ msgid "Last Fetched"
+#~ msgstr "Opdateret"
 
-msgid "API Keys allow you to authenticate a client without providing your username and password."
-msgstr ""
-
-msgid "read-only"
-msgstr ""
-
-msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
-msgstr ""
-
-msgid "Read only"
-msgstr ""
-
 #, fuzzy
-#| msgid "Sales"
-msgid "Change email address"
-msgstr "Salg"
+#~| msgid "IXF Import Log"
+#~ msgid "IX-F Member Data"
+#~ msgstr "IXF import log"
 
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr ""
-
 #, fuzzy
-#| msgid "Sales"
-msgid "Change Email"
-msgstr "Salg"
+#~| msgid "Ipaddress already exists elsewhere"
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "IP adresse findes allerede et andet sted"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Change password"
-msgstr "Ændre kodeord"
+#~| msgid "Users"
+#~ msgid "username"
+#~ msgstr "Brugere"
 
 #, fuzzy
-#| msgid "Passwords need to match"
-msgid "Password changed"
-msgstr "Kodeord skal være ens"
+#~| msgid "Facility"
+#~ msgid "first name"
+#~ msgstr "Facility"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Current Password"
-msgstr "Ændre kodeord"
+#~| msgid "Facility"
+#~ msgid "last name"
+#~ msgstr "Facility"
 
 #, fuzzy
-#| msgid "Passwords need to match"
-msgid "Password Verification"
-msgstr "Kodeord skal være ens"
-
-msgid "You have confirmed your email address!"
-msgstr ""
-
-msgid "Attention!"
-msgstr ""
-
-msgid "Please specify an email address for your account, we won't be able to proceed with verification until you do."
-msgstr ""
+#~| msgid "Status"
+#~ msgid "staff status"
+#~ msgstr "Status"
 
-msgid "Email Confirmation"
-msgstr ""
-
-msgid "Before getting access to any other features, you need to confirm your email address."
-msgstr ""
-
-msgid "We have sent you a message containing the confirmation link."
-msgstr ""
-
-msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
-msgstr ""
-
-msgid "Select language"
-msgstr ""
-
-msgid "Language preference saved"
-msgstr ""
-
-msgid "Set language preference"
-msgstr ""
-
-msgid "Account Created"
-msgstr ""
-
-msgid "Your account was created, but won't have full access until we have reviewed it. Thank you for your patience."
-msgstr ""
-
-msgid "Return Home"
-msgstr ""
-
-msgid "Create account"
-msgstr ""
-
 #, fuzzy
-#| msgid "Users"
-msgid "Username"
-msgstr "Brugere"
+#~| msgid "Active"
+#~ msgid "active"
+#~ msgstr "Aktiv"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Confirm password"
-msgstr "Ændre kodeord"
-
-msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in your ASN's public contact details."
-msgstr ""
+#~| msgid "Status"
+#~ msgid "status"
+#~ msgstr "Status"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "First name"
-msgstr "Facility"
+#~| msgid "Users"
+#~ msgid "user"
+#~ msgstr "Brugere"
 
 #, fuzzy
-#| msgid "Facility"
-msgid "Last name"
-msgstr "Facility"
-
-msgid "Loading anti-spam challenge"
-msgstr ""
-
-msgid "Thank you"
-msgstr ""
-
-#, python-format
-msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr ""
-
-msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
-msgstr ""
+#~| msgid "Users"
+#~ msgid "users"
+#~ msgstr "Brugere"
 
-msgid "Request Ownership"
-msgstr ""
-
-msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr ""
-
-msgid "Only verified users may request ownership to an organization"
-msgstr ""
-
 #, fuzzy
-#| msgid "Exchange"
-msgid "Suggest Exchange"
-msgstr "Exchange"
-
-msgid "Suggest Network"
-msgstr ""
-
-msgid "Become a Sponsor"
-msgstr ""
-
-msgid "This server is running in TUTORIAL MODE"
-msgstr ""
-
-msgid "These are the usernames associated with your email address"
-msgstr ""
-
-msgid "The secret you provided does not match the secret required to complete this process"
-msgstr ""
-
-msgid "Note"
-msgstr ""
-
-msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr ""
-
-msgid "Please re-initiate it"
-msgstr ""
-
-msgid "This form allows you to retrieve the usernames associated with your email address."
-msgstr ""
-
-msgid "We've sent instructions to your email address, provided it is in our system."
-msgstr ""
-
-msgid "Retrieve username(s)"
-msgstr ""
-
-msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
-msgstr ""
-
-msgid "Please take the time to confirm your email address and request affiliation"
-msgstr ""
+#~| msgid "Passwords need to match"
+#~ msgid "Password Reset Initiated"
+#~ msgstr "Kodeord skal være ens"
 
-msgid "You may request affiliation to an Organization or ASN"
-msgstr ""
-
 #, fuzzy
-#| msgid "Public Relations"
-msgid "Manage OAuth Applications"
-msgstr "Offentlige relationer"
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Email"
+#~ msgstr "IXF Import Log Linjer"
 
 #, fuzzy
-#| msgid "Pending"
-msgid "Pending Review"
-msgstr "Afventer"
-
-msgid "Some of the data on this page is incomplete, please update the fields marked with"
-msgstr ""
-
-msgid "to improve data quality"
-msgstr ""
-
-msgid "Suggested Address:"
-msgstr ""
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Emails"
+#~ msgstr "IXF Import Log Linjer"
 
-msgid "Accept"
-msgstr ""
-
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
-msgstr ""
-
 #, fuzzy
-#| msgid "IXLAN Prefix"
-msgid "Prefixes"
-msgstr "IXLAN præfiks"
+#~| msgid "The user that made the request"
+#~ msgid "the user that ran this command"
+#~ msgstr "Brugeren der udførte forespørgslen"
 
-msgid "IXLAN Prefix"
-msgstr "IXLAN præfiks"
-
 #, fuzzy
-#| msgid "IXLAN Prefix"
-msgid "Add Prefix"
-msgstr "IXLAN præfiks"
+#~| msgid "Updated"
+#~ msgid "Last Updated"
+#~ msgstr "Opdateret"
 
 #, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Local Facilities"
-msgstr "Exchange - Facility link"
-
-msgid "Filter"
-msgstr ""
+#~| msgid "Organization Merge: Entities"
+#~ msgid "Organization and all Entities it owns"
+#~ msgstr "Virksomhedssammenlægning: Entiteter"
 
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr ""
-
-msgid "Exchange - Facility link"
-msgstr "Exchange - Facility link"
-
 #, fuzzy
-#| msgid "Facility"
-msgid "Add Facility"
-msgstr "Facility"
+#~| msgid "Facility"
+#~ msgid "Any Facility"
+#~ msgstr "Facility"
 
 #, fuzzy
-#| msgid "IXF Import Log Entries"
-msgid "IX-F Import Preview"
-msgstr "IXF Import Log Linjer"
-
-msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
-msgstr ""
+#~| msgid "Exchange"
+#~ msgid "Any Exchange"
+#~ msgstr "Exchange"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "Changes"
-msgstr "Exchange"
+#~| msgid "Exchange"
+#~ msgid "Exchange - %(ix_name)s"
+#~ msgstr "Exchange"
 
-msgid "Errors"
-msgstr ""
-
-msgid "speed"
-msgstr ""
-
 #, fuzzy
-#| msgid "Route Server"
-msgid "routeserver"
-msgstr "Ruteningsserver"
+#~| msgid "Facility"
+#~ msgid "Facility - %(fac_name)s"
+#~ msgstr "Facility"
 
-msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
-msgstr ""
-
 #, fuzzy
-#| msgid "Exchange"
-msgid "Peers at this Exchange Point"
-msgstr "Exchange"
-
-msgid "Peer Name"
-msgstr ""
+#~| msgid "Malformed organization ids"
+#~ msgid "Invalid organization specified"
+#~ msgstr "Ukorrekt formateret organisations id'er"
 
-msgid "Speed"
-msgstr ""
-
-msgid "Exchange"
-msgstr "Exchange"
-
 #, fuzzy
-#| msgid "IPv4"
-msgid "IP"
-msgstr "IPv4"
+#~| msgid "ASN needs to be a number"
+#~ msgid "Needs to be member or admin"
+#~ msgstr "ASN skal være et heltal"
 
 #, fuzzy
-#| msgid "Regional"
-msgid "Not operational"
-msgstr "Regional"
+#~| msgid "Invalid export format"
+#~ msgid "Invalid value"
+#~ msgstr "Ugyldigt eksport format"
 
 #, fuzzy
-#| msgid "Updated"
-msgid "Contact Information"
-msgstr "Opdateret"
-
-msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
-msgstr ""
-
-msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
-msgstr ""
+#~| msgid "ASN needs to be a number"
+#~ msgid "Need to be unique"
+#~ msgstr "ASN skal være et heltal"
 
-msgid "Visiblity"
-msgstr ""
-
-msgid "E-Mail"
-msgstr ""
-
 #, fuzzy
-#| msgid "Content"
-msgid "Add Contact"
-msgstr "Indhold"
-
-msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
-msgstr ""
-
-msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
-msgstr ""
+#~| msgid "Need to specify at least two asns"
+#~ msgid "Specify at least one email address"
+#~ msgstr "Mindst 2 ASNs skal være angivet"
 
 #, fuzzy
-#| msgid "Active"
-msgid "action"
-msgstr "Aktiv"
+#~| msgid "User is looking to be affiliated to these Organizations"
+#~ msgid "User %(u_name)s wishes to be affiliated to your Organization"
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "exchange"
-msgstr "Exchange"
+#~| msgid "Need to specify at least two asns"
+#~ msgid "is your email-address"
+#~ msgstr "Mindst 2 ASNs skal være angivet"
 
-msgid "Close"
-msgstr ""
-
 #, fuzzy
-#| msgid "IXF Import History"
-msgid "IX-F Import Postmortem"
-msgstr "IXF Importeringshistorik"
-
-msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
-msgstr ""
+#~| msgid "Change Password"
+#~ msgid "Confirm"
+#~ msgstr "Ændre kodeord"
 
-msgid "Showing most recent"
-msgstr ""
-
 #, fuzzy
-#| msgid "Exchange"
-msgid "changes"
-msgstr "Exchange"
-
-msgid "Refresh"
-msgstr ""
-
-msgid "Some exchanges suggest updates to your entries in their peering list."
-msgstr ""
-
-msgid "Review suggestions"
-msgstr ""
-
-msgid "You have dismissed some suggestions that are still available."
-msgstr ""
-
-msgid "Will restore any suggestions you have previously dismissed"
-msgstr ""
+#~| msgid "Undo merge"
+#~ msgid "You may undo merges"
+#~ msgstr "Fortryd sammenlægning"
 
-msgid "Reset Suggestions"
-msgstr ""
-
-msgid "Expand each exchange below to review, apply or dismiss those suggestions"
-msgstr ""
-
-msgid "Their PeeringDB entry"
-msgstr ""
-
-msgid "Automatically update and remove all suggested entries"
-msgstr ""
-
-msgid "Auto-resolve"
-msgstr ""
-
-msgid "Automatically add all suggested entries"
-msgstr ""
-
-msgid "Auto-add"
-msgstr ""
-
 #, fuzzy
-#| msgid "Regional"
-msgid "Options"
-msgstr "Regional"
-
-msgid "Hide this suggestion until the exchange updates it."
-msgstr ""
-
-msgid "Dismiss"
-msgstr ""
-
-msgid "Add this entry to public peering exchange points"
-msgstr ""
-
-msgid "Remove"
-msgstr "Fjern"
-
-msgid "Remove this entry from your public peering exchange points list"
-msgstr ""
-
-#, python-format
-msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr ""
-
-msgid "Set IPv6 address"
-msgstr ""
-
-msgid "Clear IPv6 address"
-msgstr ""
-
-msgid "Set IPv4 address"
-msgstr ""
+#~| msgid "Organization"
+#~ msgid "Selected Organizations"
+#~ msgstr "Virksomhed"
 
-msgid "Clear IPv4 address"
-msgstr ""
-
-msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
-
-msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
-msgstr ""
-
-msgid "Will add all suggested entries"
-msgstr ""
-
-msgid "Auto Add"
-msgstr ""
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Merge Into Organization"
+#~ msgstr "Virksomhed"
 
-msgid "Network - Exchange link"
-msgstr "Netværk - Exchange link"
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Merge Organizations"
+#~ msgstr "Virksomhed"
 
-msgid "Entry needs to be moved to correct network"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Merge Results"
+#~ msgstr "Exchange - Facility link"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "Add Exchange Point"
-msgstr "Exchange"
+#~| msgid "{} (Preview)"
+#~ msgid "Preview"
+#~ msgstr "{} (Forehåndsvis)"
 
 #, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Private Peering Facilities"
-msgstr "Exchange - Facility link"
+#~| msgid "Exchange - Facility link"
+#~ msgid "Result"
+#~ msgstr "Exchange - Facility link"
 
-msgid "member"
-msgstr ""
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Merge Notification"
+#~ msgstr "Virksomhed"
 
-msgid "Manage"
-msgstr ""
+#, fuzzy
+#~| msgid "Has been changed since"
+#~ msgid "has been merged into"
+#~ msgstr "Har været opdateret siden"
 
-msgid "Add Network"
-msgstr ""
+#, fuzzy
+#~| msgid "User is looking to be affiliated to these Organizations"
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to %(o_name)s."
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "Add Exchange"
-msgstr "Exchange"
+#~| msgid "Users"
+#~ msgid "User"
+#~ msgstr "Brugere"
 
 #, fuzzy
-#| msgid "Edit Permissions"
-msgid "Permissions"
-msgstr "Rediger rettigheder"
+#~| msgid "User is looking to be affiliated to these Organizations"
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to be affiliated to ASN %(inst)s"
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
 #, fuzzy
-#| msgid "User Permissions"
-msgid "API Key Permissions"
-msgstr "Brugerrettigheder"
+#~| msgid "The organization name entered by the user"
+#~ msgid "They also provided this organization name in their request"
+#~ msgstr "Virksomhedsnavnet indtastet af brugeren"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Delete Organization"
-msgstr "Virksomhed"
+#~| msgid "User is looking to be affiliated to these Organizations"
+#~ msgid "User %(u_name)s (%(u_email)s) wishes to create an organization called %(o_name)s."
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
 #, fuzzy
-#| msgid "Technical"
-msgid "Technical E-mail"
-msgstr "Teknisk"
+#~| msgid "User is looking to be affiliated to these Organizations"
+#~ msgid "user %(user_name)s (%(u_email)s) wishes to be affiliated to Organization '%(o_name)s'"
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
 #, fuzzy
-#| msgid "Sales"
-msgid "Sales E-mail"
-msgstr "Salg"
+#~| msgid "The organization name entered by the user"
+#~ msgid "They also provided this ASN in their request"
+#~ msgstr "Virksomhedsnavnet indtastet af brugeren"
 
 #, fuzzy
-#| msgid "Policy"
-msgid "Policy URL"
-msgstr "Politik"
+#~| msgid "User is looking to be affiliated to these Organizations"
+#~ msgid "The user is affiliated with other organizations"
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
-msgid "Only use this if you own the network"
-msgstr ""
+#, fuzzy
+#~| msgid "Approve and notify User"
+#~ msgid "Approve Ownership Request and Notify User"
+#~ msgstr "Godkend og send notifikation til bruger"
 
-msgid "Add a new Network to your Organization."
-msgstr ""
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Requested by Organization API Key"
+#~ msgstr "Virksomhed"
 
-msgid "We will attempt to automatically verify your relationship to the network by checking for your email address in the ASN's RiR entry."
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Reset"
+#~ msgstr "Ændre kodeord"
 
-msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Network Presence"
+#~ msgstr "Facility"
 
-msgid "Submit Network"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "Exchange Presence"
+#~ msgstr "Exchange"
 
-msgid "for assistance with the creation of your network in PeeringDB."
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Facility Presence"
+#~ msgstr "Facility"
 
 #, fuzzy
-#| msgid "Sales"
-msgid "Policy E-mail"
-msgstr "Salg"
+#~| msgid "IXLAN"
+#~ msgid "ASN"
+#~ msgstr "IXLAN"
 
-msgid "IPv4 or IPv6 prefix"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Network Scope"
+#~ msgstr "Facility"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Users requesting affiliation"
-msgstr "Virksomhed"
+#~| msgid "Exchange"
+#~ msgid "Exchanges"
+#~ msgstr "Exchange"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Confirmed"
-msgstr "Ændre kodeord"
+#~| msgid "Organization Merges"
+#~ msgid "My organization presence"
+#~ msgstr "Virksomhedssammenlægninger"
 
-msgid "Date"
-msgstr ""
+#, fuzzy
+#~| msgid "Not Set"
+#~ msgid "Not present"
+#~ msgstr "Ikke valgt"
 
-msgid "Currently no users requesting affiliation with"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Suggest"
+#~ msgstr "Facility"
 
 #, fuzzy
-#| msgid "Organization"
-msgid "Users in Organization"
-msgstr "Virksomhed"
+#~| msgid "Malformed organization ids"
+#~ msgid "The page you requested does not exist."
+#~ msgstr "Ukorrekt formateret organisations id'er"
 
-msgid "Group"
-msgstr ""
+#, fuzzy
+#~| msgid "Private Only"
+#~ msgid "Privacy Policy"
+#~ msgstr "Kun privat"
 
-msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr ""
+#, fuzzy
+#~| msgid "Sponsorship"
+#~ msgid "Sponsors"
+#~ msgstr "Sponsorat"
 
-msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr ""
+#, fuzzy
+#~| msgid "Content"
+#~ msgid "Contact Us"
+#~ msgstr "Indhold"
 
-#, python-format
-msgid "%(name)s cannot be deleted."
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "Connections to Exchanges"
+#~ msgstr "Exchange"
 
-msgid "Remove this organization from PeeringDB."
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "Connections to Facilities"
+#~ msgstr "Exchange"
 
 #, fuzzy
-#| msgid "Malformed organization ids"
-msgid "Delete organization?"
-msgstr "Ukorrekt formateret organisations id'er"
+#~| msgid "Pending"
+#~ msgid "pending"
+#~ msgstr "Afventer"
 
-#, python-format
-msgid "Delete %(name)s"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Suggest Facility"
+#~ msgstr "Facility"
 
-msgid "Thank you for your suggestion."
-msgstr ""
+#, fuzzy
+#~| msgid "Maintenance"
+#~ msgid "Maintenance Mode"
+#~ msgstr "Vedligehold"
 
 #, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Suggest another facility"
-msgstr "Exchange - Facility link"
+#~| msgid "Updated"
+#~ msgid "Update"
+#~ msgstr "Opdateret"
 
-msgid "Only verified users may suggest entities."
-msgstr ""
+#, fuzzy
+#~| msgid "Balanced"
+#~ msgid "Cancel"
+#~ msgstr "Balanceret"
 
 #, fuzzy
-#| msgid "Exchange"
-msgid "Suggest another exchange"
-msgstr "Exchange"
+#~| msgid "Partnership"
+#~ msgid "Partners"
+#~ msgstr "Partnerskab"
 
 #, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Suggest another network"
-msgstr "Exchange - Facility link"
+#~| msgid "Change Password"
+#~ msgid "Reset Password"
+#~ msgstr "Ændre kodeord"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "I forgot my password .."
-msgstr "Ændre kodeord"
+#~| msgid "Has been changed since"
+#~ msgid "has been reset, proceed to the"
+#~ msgstr "Har været opdateret siden"
 
-msgid "I forgot my username .."
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Password"
+#~ msgstr "Ændre kodeord"
 
-msgid "Token"
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Verify Password"
+#~ msgstr "Ændre kodeord"
 
-msgid "Enter your credentials."
-msgstr ""
+#, fuzzy
+#~| msgid "User is looking to be affiliated to these Organizations"
+#~ msgid "Affiliate with organization"
+#~ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 
-msgid ""
-"We are calling your phone right now, please enter the\n"
-"        digits you hear."
-msgstr ""
+#, fuzzy
+#~| msgid "Public Relations"
+#~ msgid "Your affiliation with"
+#~ msgstr "Offentlige relationer"
 
-msgid ""
-"We sent you a text message, please enter the tokens we\n"
-"        sent."
-msgstr ""
+#, fuzzy
+#~| msgid "Has been changed since"
+#~ msgid "has been approved"
+#~ msgstr "Har været opdateret siden"
 
-msgid "We sent you an email, please enter the one time password we sent."
-msgstr ""
+#, fuzzy
+#~| msgid "Sales"
+#~ msgid "Change email address"
+#~ msgstr "Salg"
 
-msgid ""
-"Please enter the tokens generated by your token\n"
-"        generator."
-msgstr ""
+#, fuzzy
+#~| msgid "Sales"
+#~ msgid "Change Email"
+#~ msgstr "Salg"
 
-msgid ""
-"Use this form for entering backup tokens for logging in.\n"
-"      These tokens have been generated for you to print and keep safe. Please\n"
-"      enter one of these backup tokens to login to your account."
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Change password"
+#~ msgstr "Ændre kodeord"
 
-msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
-msgstr ""
+#, fuzzy
+#~| msgid "Passwords need to match"
+#~ msgid "Password changed"
+#~ msgstr "Kodeord skal være ens"
 
-msgid "As a last resort, you can use a backup token:"
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Current Password"
+#~ msgstr "Ændre kodeord"
 
-msgid "Use Backup Token"
-msgstr ""
+#, fuzzy
+#~| msgid "Passwords need to match"
+#~ msgid "Password Verification"
+#~ msgstr "Kodeord skal være ens"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Email one time password"
-msgstr "Ændre kodeord"
+#~| msgid "Users"
+#~ msgid "Username"
+#~ msgstr "Brugere"
 
-msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Confirm password"
+#~ msgstr "Ændre kodeord"
 
-msgid "seconds ago"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "First name"
+#~ msgstr "Facility"
 
-msgid "minutes ago"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Last name"
+#~ msgstr "Facility"
 
-msgid "hours ago"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "Suggest Exchange"
+#~ msgstr "Exchange"
 
-msgid "days ago"
-msgstr ""
+#, fuzzy
+#~| msgid "Public Relations"
+#~ msgid "Manage OAuth Applications"
+#~ msgstr "Offentlige relationer"
 
-msgid "Not a valid phone number (E.164)"
-msgstr ""
+#, fuzzy
+#~| msgid "Pending"
+#~ msgid "Pending Review"
+#~ msgstr "Afventer"
 
 #, fuzzy
-#| msgid "Not Required"
-msgid "Input required"
-msgstr "Ikke påkrævet"
+#~| msgid "IXLAN Prefix"
+#~ msgid "Prefixes"
+#~ msgstr "IXLAN præfiks"
 
-msgid "Invalid prefix: {}"
-msgstr ""
+#~ msgid "IXLAN Prefix"
+#~ msgstr "IXLAN præfiks"
 
-msgid "Address space invalid: {}"
-msgstr ""
+#, fuzzy
+#~| msgid "IXLAN Prefix"
+#~ msgid "Add Prefix"
+#~ msgstr "IXLAN præfiks"
 
-msgid "Maximum allowed prefix length is {}"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Local Facilities"
+#~ msgstr "Exchange - Facility link"
 
-msgid "Minimum allowed prefix length is {}"
-msgstr ""
+#~ msgid "Exchange - Facility link"
+#~ msgstr "Exchange - Facility link"
 
-msgid "Negative value not allowed"
-msgstr ""
+#, fuzzy
+#~| msgid "Facility"
+#~ msgid "Add Facility"
+#~ msgstr "Facility"
 
-msgid "Maximum value allowed {}"
-msgstr ""
+#, fuzzy
+#~| msgid "IXF Import Log Entries"
+#~ msgid "IX-F Import Preview"
+#~ msgstr "IXF Import Log Linjer"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "Changes"
+#~ msgstr "Exchange"
 
-msgid "IRR AS-SET value must be string type"
-msgstr ""
+#, fuzzy
+#~| msgid "Route Server"
+#~ msgid "routeserver"
+#~ msgstr "Ruteningsserver"
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "Peers at this Exchange Point"
+#~ msgstr "Exchange"
 
-msgid "Unknown IRR source: {}"
-msgstr ""
+#~ msgid "Exchange"
+#~ msgstr "Exchange"
 
-msgid "Maximum AS-SET hierarchy depth: {}"
-msgstr ""
+#, fuzzy
+#~| msgid "IPv4"
+#~ msgid "IP"
+#~ msgstr "IPv4"
 
-msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
-msgstr ""
+#, fuzzy
+#~| msgid "Regional"
+#~ msgid "Not operational"
+#~ msgstr "Regional"
 
-msgid "All parts of an hierarchical name have to be of the same type"
-msgstr ""
+#, fuzzy
+#~| msgid "Updated"
+#~ msgid "Contact Information"
+#~ msgstr "Opdateret"
 
-msgid "At least one component must be an actual set name"
-msgstr ""
+#, fuzzy
+#~| msgid "Content"
+#~ msgid "Add Contact"
+#~ msgstr "Indhold"
 
-msgid "Please wait a bit before requesting ownership again."
-msgstr ""
+#, fuzzy
+#~| msgid "Active"
+#~ msgid "action"
+#~ msgstr "Aktiv"
 
 #, fuzzy
-#| msgid "Malformed organization ids"
-msgid "Invalid organization"
-msgstr "Ukorrekt formateret organisations id'er"
+#~| msgid "Exchange"
+#~ msgid "exchange"
+#~ msgstr "Exchange"
 
-#, python-format
-msgid "Organization '%(org_name)s' is already under ownership"
-msgstr ""
+#, fuzzy
+#~| msgid "IXF Import History"
+#~ msgid "IX-F Import Postmortem"
+#~ msgstr "IXF Importeringshistorik"
 
 #, fuzzy
-#| msgid "Organization Merge: Entity"
-msgid "Organization does not exist"
-msgstr "Virksomhedssammenlægning: Entitet"
+#~| msgid "Exchange"
+#~ msgid "changes"
+#~ msgstr "Exchange"
 
-msgid "You already have an ownership request pending for this organization"
-msgstr ""
+#, fuzzy
+#~| msgid "Regional"
+#~ msgid "Options"
+#~ msgstr "Regional"
 
-msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
-msgstr ""
+#~ msgid "Remove"
+#~ msgstr "Fjern"
 
-msgid "Please wait a bit before requesting affiliation again."
-msgstr ""
+#~ msgid "Network - Exchange link"
+#~ msgstr "Netværk - Exchange link"
 
 #, fuzzy
-#| msgid "Organization Merge"
-msgid "Either ASN or Organization required"
-msgstr "Virksomhedssammenlægning"
+#~| msgid "Exchange"
+#~ msgid "Add Exchange Point"
+#~ msgstr "Exchange"
 
-msgid "You already requested affiliation to this ASN/org"
-msgstr ""
-
-msgid "Please wait a bit before trying to resend the confirmation email again"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Exchange - Facility link"
 
-msgid "We have resent your confirmation email"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgid "Add Exchange"
+#~ msgstr "Exchange"
 
-msgid "Please wait a bit before requesting another email change"
-msgstr ""
+#, fuzzy
+#~| msgid "Edit Permissions"
+#~ msgid "Permissions"
+#~ msgstr "Rediger rettigheder"
 
-msgid "E-mail already exists in our system"
-msgstr ""
+#, fuzzy
+#~| msgid "User Permissions"
+#~ msgid "API Key Permissions"
+#~ msgstr "Brugerrettigheder"
 
 #, fuzzy
-#| msgid "Change Password"
-msgid "Wrong password"
-msgstr "Ændre kodeord"
+#~| msgid "Organization"
+#~ msgid "Delete Organization"
+#~ msgstr "Virksomhed"
 
-msgid "Please wait a bit before requesting your usernames again."
-msgstr ""
+#, fuzzy
+#~| msgid "Technical"
+#~ msgid "Technical E-mail"
+#~ msgstr "Teknisk"
 
 #, fuzzy
-#| msgid "Invalid export format"
-msgid "Invalid Security Token"
-msgstr "Ugyldigt eksport format"
+#~| msgid "Sales"
+#~ msgid "Sales E-mail"
+#~ msgstr "Salg"
 
-msgid "Password Reset Process has expired, please"
-msgstr ""
+#, fuzzy
+#~| msgid "Policy"
+#~ msgid "Policy URL"
+#~ msgstr "Politik"
 
-msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr ""
+#, fuzzy
+#~| msgid "Sales"
+#~ msgid "Policy E-mail"
+#~ msgstr "Salg"
 
-msgid "This email address has already been used"
-msgstr ""
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Users requesting affiliation"
+#~ msgstr "Virksomhed"
 
-msgid "Location"
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Confirmed"
+#~ msgstr "Ændre kodeord"
 
-msgid "Country Code"
-msgstr ""
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Users in Organization"
+#~ msgstr "Virksomhed"
 
-msgid "Geocode"
-msgstr ""
+#, fuzzy
+#~| msgid "Malformed organization ids"
+#~ msgid "Delete organization?"
+#~ msgstr "Ukorrekt formateret organisations id'er"
 
-msgid "Markdown enabled"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Suggest another facility"
+#~ msgstr "Exchange - Facility link"
 
 #, fuzzy
-#| msgid "IXLAN"
-msgid "LAN"
-msgstr "IXLAN"
+#~| msgid "Exchange"
+#~ msgid "Suggest another exchange"
+#~ msgstr "Exchange"
 
-msgid "DOT1Q"
-msgstr ""
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Suggest another network"
+#~ msgstr "Exchange - Facility link"
 
-msgid "MTU"
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "I forgot my password .."
+#~ msgstr "Ændre kodeord"
 
 #, fuzzy
-#| msgid "IXF Import Log"
-msgid "Enable IX-F Import"
-msgstr "IXF import log"
+#~| msgid "Change Password"
+#~ msgid "Email one time password"
+#~ msgstr "Ændre kodeord"
 
-msgid "Protocols Supported"
-msgstr ""
+#, fuzzy
+#~| msgid "Not Required"
+#~ msgid "Input required"
+#~ msgstr "Ikke påkrævet"
 
-msgid "Public Peering Info Updated"
-msgstr ""
+#, fuzzy
+#~| msgid "Malformed organization ids"
+#~ msgid "Invalid organization"
+#~ msgstr "Ukorrekt formateret organisations id'er"
 
 #, fuzzy
-#| msgid "Updated"
-msgid "Peering Facility Info Updated"
-msgstr "Opdateret"
+#~| msgid "Organization Merge: Entity"
+#~ msgid "Organization does not exist"
+#~ msgstr "Virksomhedssammenlægning: Entitet"
 
 #, fuzzy
-#| msgid "Updated"
-msgid "Contact Info Updated"
-msgstr "Opdateret"
+#~| msgid "Organization Merge"
+#~ msgid "Either ASN or Organization required"
+#~ msgstr "Virksomhedssammenlægning"
 
-msgid "PeeringDB Configuration"
-msgstr ""
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Wrong password"
+#~ msgstr "Ændre kodeord"
 
-msgid "Allow IXP Update"
-msgstr ""
+#, fuzzy
+#~| msgid "Invalid export format"
+#~ msgid "Invalid Security Token"
+#~ msgstr "Ugyldigt eksport format"
 
-msgid "If enabled, an IXP may manage this network's entry in their peering list"
-msgstr ""
+#, fuzzy
+#~| msgid "IXLAN"
+#~ msgid "LAN"
+#~ msgstr "IXLAN"
 
-msgid "IXP Update Tools"
-msgstr ""
+#, fuzzy
+#~| msgid "IXF Import Log"
+#~ msgid "Enable IX-F Import"
+#~ msgstr "IXF import log"
 
 #, fuzzy
-#| msgid "IXF Import History"
-msgid "Postmortem"
-msgstr "IXF Importeringshistorik"
+#~| msgid "Updated"
+#~ msgid "Peering Facility Info Updated"
+#~ msgstr "Opdateret"
 
-msgid "Peering Policy Information"
-msgstr ""
+#, fuzzy
+#~| msgid "Updated"
+#~ msgid "Contact Info Updated"
+#~ msgstr "Opdateret"
 
-msgid "Please wait a bit before trying to login again."
-msgstr ""
+#, fuzzy
+#~| msgid "IXF Import History"
+#~ msgid "Postmortem"
+#~ msgstr "IXF Importeringshistorik"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Ingen entiteter i nogen af vlan_list listerne, afbryder."
