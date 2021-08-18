@@ -1399,6 +1399,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import request"
+msgstr "IXF Import のログ(IXF Import Log)"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import status"
+msgstr "IXF Import のログ(IXF Import Log)"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Importing"
+msgstr "IXF Import のログ(IXF Import Log)"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "そのリクエストを行ったユーザ"
+
+#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "number of facilities at this exchange"
 msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
@@ -1790,7 +1822,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -3280,9 +3312,6 @@ msgstr "マークダウン記法が利用可能です"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
 msgid "MTU"
 msgstr "MTU"
 
@@ -3290,6 +3319,11 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF Import のログ(IXF Import Log)"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "所有権のリクエスト"
 
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル(Protocols Supported)"
@@ -3335,6 +3369,9 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
 #, fuzzy
 #~| msgid "The password reset process has expired, please"

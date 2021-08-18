@@ -1349,6 +1349,36 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import History"
+msgid "Manual IX-F import request"
+msgstr "IXF Liste Geçmişi"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "Manual IX-F import status"
+msgstr "IXF Liste Geçmişi"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "Importing"
+msgstr "IXF Liste Geçmişi"
+
+msgid "Finished"
+msgstr ""
+
+msgid "The user that triggered the manual ix-f import request"
+msgstr ""
+
+#, fuzzy
 #| msgid "Exchange"
 msgid "number of facilities at this exchange"
 msgstr "Değişim noktası"
@@ -1755,7 +1785,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -3315,9 +3345,6 @@ msgstr ""
 msgid "LAN"
 msgstr "IXLAN"
 
-msgid "DOT1Q"
-msgstr ""
-
 msgid "MTU"
 msgstr ""
 
@@ -3325,6 +3352,9 @@ msgstr ""
 #| msgid "IXF Import History"
 msgid "Enable IX-F Import"
 msgstr "IXF Liste Geçmişi"
+
+msgid "Request import"
+msgstr ""
 
 msgid "Protocols Supported"
 msgstr ""

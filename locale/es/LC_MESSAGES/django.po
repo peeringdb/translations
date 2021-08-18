@@ -1337,6 +1337,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import request"
+msgstr "Registro de Importación IXF"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import status"
+msgstr "Registro de Importación IXF"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "Importing"
+msgstr "Importar IX-F"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "El usuario que hizo la solicitud"
+
+#, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "number of facilities at this exchange"
 msgstr "Puntos de intercambio de Peering público"
@@ -1728,7 +1760,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -3246,9 +3278,6 @@ msgstr "Markdown habilitado"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
 msgid "MTU"
 msgstr "MTU"
 
@@ -3256,6 +3285,11 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Registro de Importación IXF"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "Solicitar Propiedad"
 
 msgid "Protocols Supported"
 msgstr "Protocolos compatibles"
@@ -3301,6 +3335,9 @@ msgstr "Información sobre la política are Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Por favor, esperar unos minutos antes de intentar otra vez."
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
 #~ msgid "Confidential"
 #~ msgstr "Confidencial"

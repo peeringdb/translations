@@ -1221,6 +1221,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr "Facilitatea are prezențe active în rețele: {} ..."
 
 #, fuzzy
+#| msgid "Enable IX-F Import"
+msgid "Manual IX-F import request"
+msgstr "Activați importul IX-F"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "Enable IX-F Import"
+msgid "Manual IX-F import status"
+msgstr "Activați importul IX-F"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "Importing"
+msgstr "Importul IX-F"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "Utilizatorul care a făcut solicitarea"
+
+#, fuzzy
 #| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this exchange"
 msgstr "Numărul de rețele prezente la acest Internet Exchange"
@@ -1567,10 +1599,13 @@ msgstr ""
 msgid "(Warning: potentially long load)"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 "\n"
 "Pentru a utiliza <a href=\"%(doc_url)s\" target=\"_blank\"> căutare regex </a>, începeți termenul de căutare cu ^ și terminați cu $.\n"
@@ -2949,14 +2984,16 @@ msgstr "Markdown activat"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
 msgid "MTU"
 msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "Solicitați proprietatea"
 
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
@@ -2990,6 +3027,9 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
 #~ msgid "Confidential"
 #~ msgstr "Confidențial"

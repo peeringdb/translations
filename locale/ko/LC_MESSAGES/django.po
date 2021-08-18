@@ -1235,6 +1235,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr "설비에 활성 네트워크 존재: {}..."
 
 #, fuzzy
+#| msgid "Enable IX-F Import"
+msgid "Manual IX-F import request"
+msgstr "IX-F 가져오기 사용"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "Enable IX-F Import"
+msgid "Manual IX-F import status"
+msgstr "IX-F 가져오기 사용"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "Importing"
+msgstr "IX-F 가져오기"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "요청한 사용자"
+
+#, fuzzy
 #| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this exchange"
 msgstr "이 익스체인지에 존재하는 네트워크 수"
@@ -1595,10 +1627,13 @@ msgstr ""
 msgid "(Warning: potentially long load)"
 msgstr ""
 
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 "\n"
 "<a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> 를 사용하려면 검색어를 ^ 로 시작하고 $로 끝냅니다.\n"
@@ -2995,14 +3030,16 @@ msgstr "마크다운 사용가능"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
 msgid "MTU"
 msgstr "MTU"
 
 msgid "Enable IX-F Import"
 msgstr "IX-F 가져오기 사용"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "소유권 요청"
 
 msgid "Protocols Supported"
 msgstr "지원되는 프로토콜"
@@ -3042,6 +3079,9 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
 #~ msgid "Confidential"
 #~ msgstr "비공개"

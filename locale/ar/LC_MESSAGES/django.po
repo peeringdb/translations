@@ -1381,6 +1381,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
 #, fuzzy
+#| msgid "IX-F Import"
+msgid "Manual IX-F import request"
+msgstr "استيراد بيانات IX-F"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "Manual IX-F import status"
+msgstr "استيراد بيانات IX-F"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IX-F Import"
+msgid "Importing"
+msgstr "استيراد بيانات IX-F"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "المستخدم الذي قدم الطلب"
+
+#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "number of facilities at this exchange"
 msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
@@ -1770,7 +1802,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -3243,9 +3275,6 @@ msgstr "تفعيل \"وضع علامة لأسفل\""
 msgid "LAN"
 msgstr "الشبكة المحلية"
 
-msgid "DOT1Q"
-msgstr "بروتوكول dot1q"
-
 msgid "MTU"
 msgstr "وحدة الإرسال القصوى (MTU)"
 
@@ -3253,6 +3282,11 @@ msgstr "وحدة الإرسال القصوى (MTU)"
 #| msgid "IX-F Import"
 msgid "Enable IX-F Import"
 msgstr "استيراد بيانات IX-F"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "طلب ملكية"
 
 msgid "Protocols Supported"
 msgstr "البروتوكولات المدعومة/ المتاحة"
@@ -3296,6 +3330,9 @@ msgstr "معلومات سياسات التناظر"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
+
+#~ msgid "DOT1Q"
+#~ msgstr "بروتوكول dot1q"
 
 #, fuzzy
 #~| msgid "The password reset process has expired, please"

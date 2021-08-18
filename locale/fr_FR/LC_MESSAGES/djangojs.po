@@ -50,6 +50,15 @@ msgstr "Oui"
 msgid "No"
 msgstr "Non"
 
+msgid "Please wait before requesting another import."
+msgstr ""
+
+msgid "Available in: "
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
 msgid "Nothing to do"
 msgstr "Rien à faire"
 
@@ -73,9 +82,6 @@ msgstr "Annulé"
 
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
 msgstr "Votre clé API a été créée. Gardez-la en sécurité. Les clés ne peuvent être récupérées plus tard."
-
-msgid "I have written down my key"
-msgstr "J'ai noté ma clé"
 
 msgid "Revoke key"
 msgstr "Révoquer la clé"
@@ -131,6 +137,9 @@ msgstr ""
 
 msgid "Needs to be an integer or a speed ending in M, G, or T"
 msgstr "Doit être un entier ou une vitesse finissant par M, G ou T"
+
+#~ msgid "I have written down my key"
+#~ msgstr "J'ai noté ma clé"
 
 #~ msgid "IXLAN"
 #~ msgstr "Réseau d'échange"

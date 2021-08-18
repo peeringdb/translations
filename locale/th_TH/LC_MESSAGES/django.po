@@ -1203,6 +1203,30 @@ msgstr ""
 msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
+msgid "Manual IX-F import request"
+msgstr ""
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+msgid "Manual IX-F import status"
+msgstr ""
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+msgid "Importing"
+msgstr ""
+
+msgid "Finished"
+msgstr ""
+
+msgid "The user that triggered the manual ix-f import request"
+msgstr ""
+
 msgid "number of facilities at this exchange"
 msgstr ""
 
@@ -1543,7 +1567,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -2895,13 +2919,13 @@ msgstr ""
 msgid "LAN"
 msgstr ""
 
-msgid "DOT1Q"
-msgstr ""
-
 msgid "MTU"
 msgstr ""
 
 msgid "Enable IX-F Import"
+msgstr ""
+
+msgid "Request import"
 msgstr ""
 
 msgid "Protocols Supported"

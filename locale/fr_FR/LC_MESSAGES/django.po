@@ -1285,6 +1285,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import request"
+msgstr "Journal d'importation IXF"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import status"
+msgstr "Journal d'importation IXF"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Importing"
+msgstr "Journal d'importation IXF"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "L'utilisateur qui a effectué la demande"
+
+#, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "number of facilities at this exchange"
 msgstr "Points d'échange publics"
@@ -1676,7 +1708,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -3191,9 +3223,6 @@ msgstr "Markdown activé"
 msgid "LAN"
 msgstr "Réseau local"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
 msgid "MTU"
 msgstr "MTU"
 
@@ -3201,6 +3230,11 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Journal d'importation IXF"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "Demande de propriété"
 
 msgid "Protocols Supported"
 msgstr "Protocoles supportés"
@@ -3246,6 +3280,9 @@ msgstr "Informations sur le règlement de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de bien vouloir patienter avant d'essayer de vous identifier à nouveau."
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
 #, fuzzy
 #~| msgid "The password reset process has expired, please"

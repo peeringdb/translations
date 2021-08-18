@@ -1389,6 +1389,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import request"
+msgstr "IXF 导入日志"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import status"
+msgstr "IXF 导入日志"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Importing"
+msgstr "IXF 导入日志"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "发出请求的用户"
+
+#, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "number of facilities at this exchange"
 msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
@@ -1780,7 +1812,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -3250,9 +3282,6 @@ msgstr "Markdown 已启用"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
 msgid "MTU"
 msgstr "MTU"
 
@@ -3260,6 +3289,11 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "IXF 导入日志"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "请求所有权"
 
 msgid "Protocols Supported"
 msgstr "支持的协议"
@@ -3305,6 +3339,9 @@ msgstr "对等政策信息"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
 #, fuzzy
 #~| msgid "The password reset process has expired, please"

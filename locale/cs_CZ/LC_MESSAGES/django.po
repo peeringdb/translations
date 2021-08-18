@@ -1367,6 +1367,38 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import request"
+msgstr "Protokol IXF Importu"
+
+msgid "Date of most recent manual import request"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Manual IX-F import status"
+msgstr "Protokol IXF Importu"
+
+msgid "The current status of the manual ix-f import request"
+msgstr ""
+
+msgid "Queued"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXF Import Log"
+msgid "Importing"
+msgstr "Protokol IXF Importu"
+
+msgid "Finished"
+msgstr ""
+
+#, fuzzy
+#| msgid "The user that made the request"
+msgid "The user that triggered the manual ix-f import request"
+msgstr "Uživatel, který vytvořil požadavek"
+
+#, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "number of facilities at this exchange"
 msgstr "Veřejné propojovací uzly"
@@ -1756,7 +1788,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
 msgid "Save and Apply"
@@ -3289,9 +3321,6 @@ msgstr "Označování povoleno"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "DOT1Q"
-msgstr "DOT1Q"
-
 msgid "MTU"
 msgstr "MTU"
 
@@ -3299,6 +3328,11 @@ msgstr "MTU"
 #| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
 msgstr "Protokol IXF Importu"
+
+#, fuzzy
+#| msgid "Request Ownership"
+msgid "Request import"
+msgstr "Žádost o vlastnictví"
 
 msgid "Protocols Supported"
 msgstr "Podporované protokoly"
@@ -3344,6 +3378,9 @@ msgstr "Peering Policy Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
+
+#~ msgid "DOT1Q"
+#~ msgstr "DOT1Q"
 
 #, fuzzy
 #~| msgid "The password reset process has expired, please"
