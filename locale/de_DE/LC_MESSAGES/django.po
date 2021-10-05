@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-05 15:58+0000\n"
+"PO-Revision-Date: 2021-10-05 20:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -232,22 +232,22 @@ msgid "Best Effort (no SLA)"
 msgstr "Best möglich (kein Qualitätsversprechen)"
 
 msgid "Normal Business Hours"
-msgstr ""
+msgstr "Reguläre Geschäftszeiten"
 
 msgid "24/7 Support"
-msgstr ""
+msgstr "24x7 Unterstützung"
 
 msgid "No Commercial Terms"
-msgstr ""
+msgstr "Keine kommerziellen Vereinbarungen"
 
 msgid "Bundled With Other Services"
-msgstr ""
+msgstr "Gebündelt mit anderen Diensten"
 
 msgid "Non-recurring Fees Only"
-msgstr ""
+msgstr "Nur Einmalkosten"
 
 msgid "Recurring Fees"
-msgstr ""
+msgstr "Wiederkehrende Kosten"
 
 msgid "Owner"
 msgstr ""
@@ -425,18 +425,14 @@ msgstr "Typ des Netzwerks"
 msgid "IPv4 Prefixes"
 msgstr "IPv4-Präfixe"
 
-#, fuzzy
-#| msgid "Recommended IPv4 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr "Maximale empfohlene zu konfigurierende IPv4 Prefix-Länge für peering sessions mit diesem AS"
+msgstr "Empfohlene, maximal zu konfigurierende Anzahl an IPv4 Prefixes für peering sessions mit diesem ASN"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6-Präfixe"
 
-#, fuzzy
-#| msgid "Recommended IPv6 maximum-prefix limit to be configured on peering sessions for this ASN"
 msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr "Maximale empfohlene zu konfigurierende IPv6 Prefix-Länge für peering sessions mit diesem AS"
+msgstr "Empfohlene, maximal zu konfigurierende Anzahl an IPv6 Prefixes für peering sessions mit diesem ASN"
 
 msgid "Unicast IPv4"
 msgstr "Unicast IPv4"
@@ -498,13 +494,11 @@ msgstr "IX-F Netzwerk Anzahl"
 msgid "IX-F Last Import"
 msgstr "Letzter IX-F Import"
 
-#, fuzzy
-#| msgid "Traffic Levels"
 msgid "Service Level"
-msgstr "Verkehrsniveau"
+msgstr "Dienstgüte"
 
 msgid "Terms"
-msgstr ""
+msgstr "Bedingungen"
 
 msgid "Internet Exchange"
 msgstr "Internet Exchange"
@@ -641,7 +635,7 @@ msgid "Resul length"
 msgstr "Ergebnis"
 
 msgid "Show {} rows"
-msgstr ""
+msgstr "Zeige {} Reihen"
 
 msgid "Verification Queue is currently disabled"
 msgstr "Die Überprüfungswarteschlange ist derzeit deaktiviert"
@@ -823,10 +817,8 @@ msgstr "E-Mail zurücksetzen"
 msgid "Reset tickets"
 msgstr "Tickets zurücksetzen"
 
-#, fuzzy
-#| msgid "Network not found"
 msgid "Key not found"
-msgstr "Netz wurde nicht gefunden"
+msgstr "Schlüssel wurde nicht gefunden"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1102,10 +1094,8 @@ msgstr "Zeit, zu der die Georeferenz zuletzt ermittelt wurde"
 msgid "Geo coding timed out"
 msgstr "Geocode-Fehler"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding failed: {}"
-msgstr "Geocode-Fehler"
+msgstr "Geocode-Fehler: {}"
 
 #, fuzzy
 #| msgid "Geocoding error"
