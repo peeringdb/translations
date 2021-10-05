@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-03-09 21:58+0000\n"
+"PO-Revision-Date: 2021-10-05 15:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -229,7 +229,7 @@ msgid "An E.164-formatted phone number starts with a +, followed by the country 
 msgstr "Eine E.164-formatierte Telefonnummer beginnt mit einem \"+\", gefolgt von der Ländervorwahl und dann der nationalen Rufnummer (führende Nullen werden in den meisten Ländern ausgelassen). Leerzeichen oder Striche zwischen den Gruppen von Ziffern werden ausgelassen"
 
 msgid "Best Effort (no SLA)"
-msgstr ""
+msgstr "Best möglich (kein Qualitätsversprechen)"
 
 msgid "Normal Business Hours"
 msgstr ""
@@ -1574,10 +1574,8 @@ msgstr "Bitte kontaktieren Sie {} um Unterstützung bei der Löschung dieses Obj
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr "Die angegebene Adresse wurde nicht gefunden. Bitte überprüfe die Adressdaten und kontaktiere {} für weitere Hilfe."
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value"
-msgstr "Ungültiges Stichwort (tag)"
+msgstr "Ungültiger Wert"
 
 msgid "Need to be unique"
 msgstr "Muss eindeutig sein"
@@ -2973,10 +2971,8 @@ msgstr ""
 msgid "Not a valid phone number (E.164)"
 msgstr "Keine gültige Telefonnummer (E.164)"
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "Nicht erforderlich"
+msgstr "Eingabe erforderlich"
 
 msgid "Invalid prefix: {}"
 msgstr "Ungültiges Prefix: {}"
