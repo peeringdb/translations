@@ -8,13 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-06-20 00:44+0300\n"
-"Last-Translator: Alexander Ilin\n"
-"Language-Team: MSK-IX\n"
-"Language: ru\n"
+"PO-Revision-Date: 2021-10-06 08:58+0000\n"
+"Last-Translator: Alexander Ilin <a.ilin@msk-ix.ru>\n"
+"Language-Team: Russian <https://translate.peeringdb.com/projects/peeringdb/javascript/ru/>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr "Некоторые поля содержат недопустимые значения - проверьте и повторите попытку."
@@ -35,7 +37,7 @@ msgid "Needs to match password"
 msgstr "Пароли должны совпадать"
 
 msgid "Needs to be a valid email address"
-msgstr "Должно быть действительным емайлом"
+msgstr "Должно быть действительным емейлом"
 
 msgid "Needs to be a valid url"
 msgstr "Должно быть действительным URL"
@@ -50,28 +52,28 @@ msgid "No"
 msgstr "Нет"
 
 msgid "Please wait before requesting another import."
-msgstr ""
+msgstr "Пожалуйста подождите перед запросом другого импорта."
 
 msgid "Available in: "
-msgstr ""
+msgstr "Доступно в: "
 
 msgid "seconds"
-msgstr ""
+msgstr "секунды"
 
 msgid "Nothing to do"
-msgstr ""
+msgstr "Нет доступных операций"
 
 msgid "This will create the following entries"
-msgstr ""
+msgstr "Это создаст следующие записи"
 
 msgid "Remove these entries"
-msgstr ""
+msgstr "Удалите эти записи"
 
 msgid "Update these entries"
-msgstr ""
+msgstr "Обновите эти записи"
 
 msgid "You do not have permissions to perform this action"
-msgstr ""
+msgstr "У Вас нет прав на выполнение этого действия"
 
 msgid "Remove"
 msgstr "Удалить"
@@ -80,10 +82,10 @@ msgid "Canceled"
 msgstr "Отмена"
 
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
-msgstr ""
+msgstr "Ваш ключ API успешно создан. Сохраните этот ключ в безопасном месте. Ключи не смогут быть восстановлены как только Вы закроете это сообщение."
 
 msgid "Revoke key"
-msgstr ""
+msgstr "Отозвать ключ"
 
 msgid "Add user"
 msgstr "Новый пользователь"
