@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-06 07:58+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-10-06 08:58+0000\n"
+"Last-Translator: Alexander Ilin <a.ilin@msk-ix.ru>\n"
 "Language-Team: Russian <https://translate.peeringdb.com/projects/peeringdb/server/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -1281,8 +1281,6 @@ msgstr "Одобрено"
 msgid "Denied"
 msgstr "Отказ"
 
-#, fuzzy
-#| msgid "Cancel"
 msgid "Canceled"
 msgstr "Отмена"
 
@@ -1749,10 +1747,8 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value"
-msgstr "Неверный ярлык"
+msgstr "﻿Недопустимое значение"
 
 msgid "Need to be unique"
 msgstr "Должно быть уникальным"
@@ -3247,10 +3243,8 @@ msgstr ""
 msgid "Not a valid phone number (E.164)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "Не требуется"
+msgstr "Требуется ввод"
 
 msgid "Invalid prefix: {}"
 msgstr "Недействительный префикс: {}"
