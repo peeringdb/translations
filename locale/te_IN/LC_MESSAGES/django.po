@@ -945,6 +945,10 @@ msgstr ""
 msgid "captcha invalid"
 msgstr ""
 
+#, python-format
+msgid "File size too big, max. %(value)s"
+msgstr ""
+
 msgid "Error in forward geocode: No results found"
 msgstr ""
 
@@ -966,13 +970,13 @@ msgstr ""
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
-msgid "ASNs in this range are not allowed in this environment"
-msgstr ""
-
 msgid "This ASN is not assigned by any RIR"
 msgstr ""
 
-msgid "RDAP Lookup Error: {}"
+msgid "ASNs in this range are private or reserved"
+msgstr ""
+
+msgid "{}"
 msgstr ""
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
@@ -2399,6 +2403,9 @@ msgstr ""
 msgid "Only verified users may request ownership to an organization"
 msgstr ""
 
+msgid "sponsor"
+msgstr ""
+
 msgid "Suggest Exchange"
 msgstr ""
 
@@ -2959,6 +2966,9 @@ msgid "Geocode"
 msgstr ""
 
 msgid "Markdown enabled"
+msgstr ""
+
+msgid "Logo"
 msgstr ""
 
 msgid "LAN"

@@ -1094,6 +1094,10 @@ msgstr "reCAPTCHA 無效"
 msgid "captcha invalid"
 msgstr "驗證無效"
 
+#, python-format
+msgid "File size too big, max. %(value)s"
+msgstr ""
+
 msgid "Error in forward geocode: No results found"
 msgstr ""
 
@@ -1119,14 +1123,16 @@ msgstr "地址未找到"
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
-msgid "ASNs in this range are not allowed in this environment"
-msgstr "此環境不允許位於這個範圍的ASNs"
-
 msgid "This ASN is not assigned by any RIR"
 msgstr ""
 
-msgid "RDAP Lookup Error: {}"
-msgstr "RDAP 查找錯誤：{}"
+#, fuzzy
+#| msgid "ASNs in this range are not allowed in this environment"
+msgid "ASNs in this range are private or reserved"
+msgstr "此環境不允許位於這個範圍的ASNs"
+
+msgid "{}"
+msgstr ""
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
@@ -2711,6 +2717,11 @@ msgstr "請求所有權前請確認，您有相關許可權。您確認繼續嗎
 msgid "Only verified users may request ownership to an organization"
 msgstr "只有經過驗證的使用者才能申請組織的所有權"
 
+#, fuzzy
+#| msgid "Sponsors"
+msgid "sponsor"
+msgstr "贊助商"
+
 msgid "Suggest Exchange"
 msgstr "建議的交換點"
 
@@ -3340,6 +3351,11 @@ msgstr "地理編碼"
 msgid "Markdown enabled"
 msgstr "Markdown 已啟用"
 
+#, fuzzy
+#| msgid "Logout"
+msgid "Logo"
+msgstr "註銷"
+
 msgid "LAN"
 msgstr "LAN"
 
@@ -3400,6 +3416,9 @@ msgstr "對等政策資訊"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "請稍後再嘗試登錄。"
+
+#~ msgid "RDAP Lookup Error: {}"
+#~ msgstr "RDAP 查找錯誤：{}"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"

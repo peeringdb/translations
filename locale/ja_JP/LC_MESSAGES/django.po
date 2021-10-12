@@ -1092,6 +1092,10 @@ msgstr "reCAPTCHA が無効です"
 msgid "captcha invalid"
 msgstr ""
 
+#, python-format
+msgid "File size too big, max. %(value)s"
+msgstr ""
+
 msgid "Error in forward geocode: No results found"
 msgstr ""
 
@@ -1123,16 +1127,16 @@ msgstr "アドレスが見つかりません"
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
-msgid "ASNs in this range are not allowed in this environment"
-msgstr "この環境では、この範囲内の AS 番号は許可されていません"
-
 msgid "This ASN is not assigned by any RIR"
 msgstr ""
 
 #, fuzzy
-#| msgid "RDAP Lookup Error"
-msgid "RDAP Lookup Error: {}"
-msgstr "RDAP 参照エラー"
+#| msgid "ASNs in this range are not allowed in this environment"
+msgid "ASNs in this range are private or reserved"
+msgstr "この環境では、この範囲内の AS 番号は許可されていません"
+
+msgid "{}"
+msgstr ""
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
@@ -2723,6 +2727,11 @@ msgstr "あなたが所有権をリクエストする権利を持っていれば
 msgid "Only verified users may request ownership to an organization"
 msgstr "確認済みユーザだけが、組織の所有権のリクエストが出来ます"
 
+#, fuzzy
+#| msgid "Sponsors"
+msgid "sponsor"
+msgstr "スポンサー"
+
 msgid "Suggest Exchange"
 msgstr "エクスチェンジに情報追加の提案"
 
@@ -3356,6 +3365,11 @@ msgstr "ジオコード"
 msgid "Markdown enabled"
 msgstr "マークダウン記法が利用可能です"
 
+#, fuzzy
+#| msgid "Logout"
+msgid "Logo"
+msgstr "ログアウト"
+
 msgid "LAN"
 msgstr "LAN"
 
@@ -3416,6 +3430,11 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#, fuzzy
+#~| msgid "RDAP Lookup Error"
+#~ msgid "RDAP Lookup Error: {}"
+#~ msgstr "RDAP 参照エラー"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"

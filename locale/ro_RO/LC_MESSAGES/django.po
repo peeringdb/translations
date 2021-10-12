@@ -952,6 +952,10 @@ msgstr "reCAPTCHA nu este valid"
 msgid "captcha invalid"
 msgstr "captcha nu este valid"
 
+#, python-format
+msgid "File size too big, max. %(value)s"
+msgstr ""
+
 msgid "Error in forward geocode: No results found"
 msgstr "Eroare în geocodul direct: nu s-au găsit rezultate"
 
@@ -973,14 +977,16 @@ msgstr "Rețeaua nu a fost găsită"
 msgid "Postmortem length cannot exceed {} entries"
 msgstr "Lungimea postmortem nu poate depăși {} înregistrări"
 
-msgid "ASNs in this range are not allowed in this environment"
-msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
-
 msgid "This ASN is not assigned by any RIR"
 msgstr "Acest ASN nu este atribuit de niciun RIR"
 
-msgid "RDAP Lookup Error: {}"
-msgstr "Eroare de căutare RADP: {}"
+#, fuzzy
+#| msgid "ASNs in this range are not allowed in this environment"
+msgid "ASNs in this range are private or reserved"
+msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
+
+msgid "{}"
+msgstr ""
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "Intrarea pentru (ASN și IPv4 și IPv6) nu există în datele IX-F ale Exchange-ului ca o conexiune singulară a membrului"
@@ -2457,6 +2463,11 @@ msgstr "Vă rugăm să solicitați proprietatea numai dacă sunteți sigur că a
 msgid "Only verified users may request ownership to an organization"
 msgstr "Doar utilizatorii verificați pot solicita proprietatea asupra unei organizații"
 
+#, fuzzy
+#| msgid "Sponsors"
+msgid "sponsor"
+msgstr "Sponsori"
+
 msgid "Suggest Exchange"
 msgstr "Sugerați un Internet Exchange"
 
@@ -3028,6 +3039,11 @@ msgstr "Geocod"
 msgid "Markdown enabled"
 msgstr "Markdown activat"
 
+#, fuzzy
+#| msgid "Logout"
+msgid "Logo"
+msgstr "Deconectare"
+
 msgid "LAN"
 msgstr "LAN"
 
@@ -3074,6 +3090,9 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "RDAP Lookup Error: {}"
+#~ msgstr "Eroare de căutare RADP: {}"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"
