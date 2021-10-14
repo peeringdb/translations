@@ -956,6 +956,11 @@ msgstr "잘못된 재캡차"
 msgid "captcha invalid"
 msgstr "잘못된 캡차"
 
+#, fuzzy, python-format
+#| msgid "Negative value not allowed"
+msgid "File type %(value)s not allowed"
+msgstr "음수 값은 허용되지 않음"
+
 #, python-format
 msgid "File size too big, max. %(value)s"
 msgstr ""

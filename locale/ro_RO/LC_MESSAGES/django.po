@@ -952,6 +952,11 @@ msgstr "reCAPTCHA nu este valid"
 msgid "captcha invalid"
 msgstr "captcha nu este valid"
 
+#, fuzzy, python-format
+#| msgid "Negative value not allowed"
+msgid "File type %(value)s not allowed"
+msgstr "Valoarea negativă nu este permisă"
+
 #, python-format
 msgid "File size too big, max. %(value)s"
 msgstr ""

@@ -1040,6 +1040,11 @@ msgstr "reCAPTCHA не пройдена"
 msgid "captcha invalid"
 msgstr ""
 
+#, fuzzy, python-format
+#| msgid "Negative value not allowed"
+msgid "File type %(value)s not allowed"
+msgstr "Отрицательные значения не допускаются"
+
 #, python-format
 msgid "File size too big, max. %(value)s"
 msgstr ""
