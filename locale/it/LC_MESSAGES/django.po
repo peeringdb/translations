@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-20 19:58+0000\n"
+"PO-Revision-Date: 2021-10-20 20:58+0000\n"
 "Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -242,7 +242,7 @@ msgid "Normal Business Hours"
 msgstr ""
 
 msgid "24/7 Support"
-msgstr ""
+msgstr "Assistenza 24 ore su 24"
 
 msgid "No Commercial Terms"
 msgstr ""
@@ -257,7 +257,7 @@ msgid "Recurring Fees"
 msgstr ""
 
 msgid "Owner"
-msgstr ""
+msgstr "Proprietario"
 
 msgid "Lessee"
 msgstr ""
@@ -310,10 +310,10 @@ msgid "Floor"
 msgstr ""
 
 msgid "Latitude"
-msgstr ""
+msgstr "Latitudine"
 
 msgid "Longitude"
-msgstr ""
+msgstr "Longitudine"
 
 msgid "Name"
 msgstr "Nome"
@@ -333,10 +333,8 @@ msgstr "Note"
 msgid "Organization"
 msgstr "Organizzazione"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
-msgstr "Organizzazione"
+msgstr "Organizzazioni"
 
 msgid "CLLI Code"
 msgstr "Codice CLLI"
@@ -366,7 +364,7 @@ msgid "Sales Phone"
 msgstr "Vendite"
 
 msgid "Property"
-msgstr ""
+msgstr "Proprietà"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
 msgstr ""
@@ -407,15 +405,11 @@ msgstr "Email"
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contact"
-msgstr "Contattaci"
+msgstr "Contatto"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contacts"
-msgstr "Contattaci"
+msgstr "Contatti"
 
 msgid "IRR as-set/route-set"
 msgstr ""
@@ -464,10 +458,8 @@ msgstr "Unicast IPv4"
 msgid "Multicast"
 msgstr "Multicast"
 
-#, fuzzy
-#| msgid "Unicast IPv4"
 msgid "Unicast IPv6"
-msgstr "Unicast IPv4"
+msgstr "Unicast IPv6"
 
 #, fuzzy
 #| msgid "Route Server"
@@ -552,7 +544,7 @@ msgid "Internet Exchange facilities"
 msgstr "Strutture"
 
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #, fuzzy
 #| msgid "Route Server"
@@ -583,7 +575,7 @@ msgid "Internet Exchange LANs"
 msgstr "Interscambio"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Protocollo"
 
 msgid "Prefix"
 msgstr "Prefisso"
@@ -627,30 +619,28 @@ msgid "Public Peering Exchange Points"
 msgstr "Punti di Interscambio per Peering Pubblico"
 
 msgid "Czech"
-msgstr ""
+msgstr "Ceco"
 
 msgid "German"
-msgstr ""
+msgstr "Tedesco"
 
 msgid "Greek"
-msgstr ""
+msgstr "Greco"
 
 msgid "English"
 msgstr "Inglese"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Spagnolo"
 
 msgid "French"
-msgstr ""
+msgstr "Francese"
 
-#, fuzzy
-#| msgid "Australia"
 msgid "Italian"
-msgstr "Australia"
+msgstr "Italiano"
 
 msgid "Japanese"
-msgstr ""
+msgstr "giapponese"
 
 msgid "Occitan"
 msgstr ""
@@ -659,16 +649,16 @@ msgid "Portuguese"
 msgstr "Portoghese"
 
 msgid "Romanian"
-msgstr ""
+msgstr "Rumeno"
 
 msgid "Russian"
-msgstr ""
+msgstr "Russo"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Cinese (Semplificato)"
 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "Cinese (Tradizionale)"
 
 msgid "Status"
 msgstr "Stato"
@@ -778,10 +768,8 @@ msgstr "RESPINGI e cancella oggetti selezionati"
 msgid "View"
 msgstr "Visualizza"
 
-#, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
 msgid "Cannot approve a canceled affiliation request"
-msgstr "La tua affiliazione con %(ar_name)s è stata respinta"
+msgstr "Non si può approvare una richiesta d'affiliazione cancellata"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "La richiesta di affiliazione è stata approvata ed è stata inviata una notifica all'utente."
@@ -825,12 +813,10 @@ msgid "{} (Preview)"
 msgstr "{} (Anteprima)"
 
 msgid "Apply"
-msgstr ""
+msgstr "Applica"
 
-#, fuzzy
-#| msgid "Ratio Requirement"
 msgid "No requirements"
-msgstr "Requisiti sul Rapporto"
+msgstr "Nessun requisito"
 
 msgid "Value"
 msgstr ""
@@ -864,7 +850,7 @@ msgid "Don't delete users. Note that superuser accounts are always kept - regard
 msgstr ""
 
 msgid "Load data from peeringdb API"
-msgstr ""
+msgstr "Carica dati da peeringdb API"
 
 msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
@@ -900,10 +886,8 @@ msgstr "Cambia Email"
 msgid "Reset tickets"
 msgstr "Reimposta"
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "Key not found"
-msgstr "Indirizzo non trovato"
+msgstr "Chiave non trovata"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1046,7 +1030,7 @@ msgid "reCAPTCHA invalid"
 msgstr "reCAPTCHA non valido"
 
 msgid "captcha invalid"
-msgstr ""
+msgstr "captcha invalido"
 
 #, fuzzy, python-format
 #| msgid "Negative value not allowed"
@@ -1065,15 +1049,11 @@ msgstr ""
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "Ixlan not found"
-msgstr "Indirizzo non trovato"
+msgstr "lxlan non trovato"
 
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "Permessi"
+msgstr "Accesso negato"
 
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
@@ -1132,7 +1112,7 @@ msgid "Network status is '{}'"
 msgstr "Strutture"
 
 msgid "Network does not exist in peeringdb"
-msgstr ""
+msgstr "Rete non esiste in peeringdb"
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"
@@ -1307,10 +1287,8 @@ msgstr ""
 msgid "DeskPRO Ticket"
 msgstr ""
 
-#, fuzzy
-#| msgid "Reset"
 msgid "DeskPRO Tickets"
-msgstr "Reimposta"
+msgstr ""
 
 msgid "DeskPRO Ticket CC Contact"
 msgstr ""
@@ -1432,7 +1410,7 @@ msgid "Importing"
 msgstr "Registro di importazione IXF"
 
 msgid "Finished"
-msgstr ""
+msgstr "Completato"
 
 #, fuzzy
 #| msgid "The user that made the request"
@@ -1460,15 +1438,13 @@ msgstr ""
 msgid "IX-F error"
 msgstr "Registro di importazione IXF"
 
-#, fuzzy
-#| msgid "No JSON could be parsed"
 msgid "Reason IX-F data could not be parsed"
-msgstr "Nessun JSON è stato potuto essere analizzato"
+msgstr ""
 
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "IX-F error notification date"
-msgstr "Notifica di unione"
+msgstr "Data notifica errore IX-F"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr ""
@@ -1567,10 +1543,10 @@ msgid "This entity was created for the ASN {} - please remove it from this netwo
 msgstr ""
 
 msgid "IPv4 address outside of prefix"
-msgstr ""
+msgstr "Indirizzo IPV4 fuori prefisso"
 
 msgid "IPv6 address outside of prefix"
-msgstr ""
+msgstr "Indirizzo IPv6 fuori prefisso"
 
 #, fuzzy
 #| msgid "Maximum value allowed {}"
