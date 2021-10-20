@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-20 20:58+0000\n"
+"PO-Revision-Date: 2021-10-20 21:58+0000\n"
 "Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -1553,10 +1553,8 @@ msgstr "Indirizzo IPv6 fuori prefisso"
 msgid "Maximum speed: {}"
 msgstr "Massimo valore permesso {}"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Minimum speed: {}"
-msgstr "Prefisso non valido: {}"
+msgstr "Velocità minima: {}"
 
 msgid "Ip address already exists elsewhere"
 msgstr "L'indirizzo IP esiste già altrove"
@@ -1638,7 +1636,7 @@ msgid "command was run at this date and time"
 msgstr "il comando è stato eseguito in questa data e ora"
 
 msgid "Done"
-msgstr ""
+msgstr "Finito"
 
 msgid "Running"
 msgstr ""
@@ -1660,7 +1658,7 @@ msgstr "Ultimo Aggiornamento"
 #, fuzzy
 #| msgid "Confirmed"
 msgid "Configured on"
-msgstr "Confermato"
+msgstr "Configurato su"
 
 msgid "Last updated by this user"
 msgstr ""
@@ -1711,10 +1709,8 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value"
-msgstr "Tag non valido"
+msgstr "Valore invalido"
 
 msgid "Need to be unique"
 msgstr "Deve essere unico"
@@ -1759,7 +1755,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Change email address"
 msgid "Specify at least one email address"
-msgstr "Cambia indirizzo email"
+msgstr "Specifica almeno un'indirizzo email"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr ""
