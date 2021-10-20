@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-12 02:58+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2021-10-20 19:58+0000\n"
+"Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -146,38 +146,28 @@ msgid "1-5Gbps"
 msgstr "1-5Gbps"
 
 msgid "5-10Gbps"
-msgstr ""
+msgstr "5-10 Gbps"
 
 msgid "10-20Gbps"
-msgstr ""
+msgstr "10-20 Gbps"
 
-#, fuzzy
-#| msgid "1-5Gbps"
 msgid "20-50Gbps"
-msgstr "1-5Gbps"
+msgstr "20-50 Gbps"
 
-#, fuzzy
-#| msgid "20-100Mbps"
 msgid "50-100Gbps"
-msgstr "20-100Mbps"
+msgstr "50-100 Gbps"
 
-#, fuzzy
-#| msgid "100-1000Mbps"
 msgid "100-200Gbps"
-msgstr "100-1000Mbps"
+msgstr "100-200Gbps"
 
 msgid "200-300Gbps"
-msgstr ""
+msgstr "200-300 Gbps"
 
-#, fuzzy
-#| msgid "1-5Gbps"
 msgid "300-500Gbps"
-msgstr "1-5Gbps"
+msgstr "300-500 Gbps"
 
-#, fuzzy
-#| msgid "100-1000Mbps"
 msgid "500-1000Gbps"
-msgstr "100-1000Mbps"
+msgstr "500-1000 Gbps"
 
 msgid "1-5Tbps"
 msgstr ""
@@ -185,13 +175,11 @@ msgstr ""
 msgid "5-10Tbps"
 msgstr ""
 
-#, fuzzy
-#| msgid "0-20 Mbps"
 msgid "10-20Tbps"
-msgstr "0-20 Mbps"
+msgstr "10-20 Tbps"
 
 msgid "20-50Tbps"
-msgstr ""
+msgstr "20-50 Tbps"
 
 #, fuzzy
 #| msgid "20-100Mbps"
@@ -199,7 +187,7 @@ msgid "50-100Tbps"
 msgstr "20-100Mbps"
 
 msgid "100+Tbps"
-msgstr ""
+msgstr "100+ Tbps"
 
 msgid "NSP"
 msgstr "NSP"
@@ -242,7 +230,7 @@ msgid "Users"
 msgstr "Utenti"
 
 msgid "Public"
-msgstr ""
+msgstr "Pubblico"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr ""
