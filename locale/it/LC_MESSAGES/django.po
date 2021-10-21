@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-21 23:58+0000\n"
+"PO-Revision-Date: 2021-10-22 00:58+0000\n"
 "Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -778,7 +778,7 @@ msgid "Change Password"
 msgstr "Cambia password"
 
 msgid "Edit Permissions"
-msgstr "Modifica Permessi"
+msgstr "Modifica autorizzazioni"
 
 msgid "VERIFIED"
 msgstr "VERIFICATO"
@@ -787,10 +787,10 @@ msgid "UNVERIFIED"
 msgstr "NON VERIFICATO"
 
 msgid "User Permission"
-msgstr "Permesso dell'utente"
+msgstr "Autorizzazioni utente"
 
 msgid "User Permissions"
-msgstr "Permessi dell'utente"
+msgstr "Autorizzazioni utente"
 
 msgid "Only POST requests allowed."
 msgstr "Sono consentite solo richieste POST."
@@ -805,7 +805,7 @@ msgid "No requirements"
 msgstr "Nessun requisito"
 
 msgid "Value"
-msgstr ""
+msgstr "Valore"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
@@ -847,25 +847,19 @@ msgstr ""
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
 msgstr ""
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset all"
-msgstr "Reimposta"
+msgstr "Reimposta tutto"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset hints"
-msgstr "Reimposta"
+msgstr "Reimposta suggerimenti"
 
 #, fuzzy
 #| msgid "Reset"
 msgid "Reset dismisses"
 msgstr "Reimposta"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Reset email"
-msgstr "Cambia Email"
+msgstr "Resetta  Email"
 
 #, fuzzy
 #| msgid "Reset"
@@ -898,13 +892,14 @@ msgstr ""
 msgid "Filter results by matching a value against this field."
 msgstr ""
 
+#, fuzzy
 msgid "Supported filter suffixes: {}"
-msgstr ""
+msgstr "Filtro prefisso supportati"
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
 msgid "Number of networks present at this facility"
-msgstr "Collegamento Interscambio - Struttura"
+msgstr "Numero di reti presenti in questa - Struttura"
 
 msgid "Targets both AKA and name fields for filtering"
 msgstr ""
@@ -912,8 +907,9 @@ msgstr ""
 msgid "Find networks not present at an exchange (exchange id)"
 msgstr ""
 
+#, fuzzy
 msgid "Find networks present at exchange (exchange id)"
-msgstr ""
+msgstr "Trova reti presenti al -exchange-"
 
 msgid "Find networks not present at a facility (facility id)"
 msgstr ""
@@ -947,14 +943,16 @@ msgstr "Punti di Interscambio per Peering Pubblico"
 msgid "Find exchanges where this network has a presence at (net id)"
 msgstr ""
 
+#, fuzzy
 msgid "Find organization that contains the network (network asn)"
-msgstr ""
+msgstr "Trova organizzazioni che contengono la rete (Codice Rete AS)"
 
 msgid "Find prefixes by exchange (exchange id)"
 msgstr ""
 
+#, fuzzy
 msgid "Find prefixes by ip address"
-msgstr ""
+msgstr "Trova prefissi per indirizzo IP"
 
 #, fuzzy
 #| msgid "Exchange"
@@ -998,7 +996,7 @@ msgid "Invalid tag"
 msgstr "Tag non valido"
 
 msgid "Invalid permission level"
-msgstr "Livello di permesso non valido"
+msgstr "Livello d'autorizzazione non valido"
 
 msgid "ASN needs to be a number"
 msgstr "L'ASN deve essere un numero"
@@ -1054,8 +1052,9 @@ msgstr "Indirizzo non trovato"
 msgid "Postmortem length cannot exceed {} entries"
 msgstr ""
 
+#, fuzzy
 msgid "This ASN is not assigned by any RIR"
-msgstr ""
+msgstr "L' ASN non e' stato assegnato da nessun RIR"
 
 msgid "ASNs in this range are private or reserved"
 msgstr ""
@@ -1092,10 +1091,8 @@ msgstr ""
 msgid "No prefixes defined on ixlan"
 msgstr ""
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Network status is '{}'"
-msgstr "Strutture"
+msgstr "Stato di rete e '{}'"
 
 msgid "Network does not exist in peeringdb"
 msgstr "Rete non esiste in peeringdb"
@@ -1103,7 +1100,7 @@ msgstr "Rete non esiste in peeringdb"
 #, fuzzy
 #| msgid "Invalid prefix: {}"
 msgid "Invalid connection state: {}"
-msgstr "Prefisso non valido: {}"
+msgstr "Stato di coillegamento invalido: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
 msgstr ""
@@ -1114,7 +1111,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: {}"
-msgstr "Prefisso non valido: {}"
+msgstr "Valore velocita  non valido: {}"
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"
@@ -1125,10 +1122,10 @@ msgid "IP addresses moved to same entry"
 msgstr ""
 
 msgid "IPv6 not set"
-msgstr ""
+msgstr "IPV6 non impostato"
 
 msgid "IPv4 not set"
-msgstr ""
+msgstr "IPv4 non impostato"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
 msgstr ""
@@ -1152,7 +1149,7 @@ msgid "Diamond"
 msgstr "Diamante"
 
 msgid "Data Validation"
-msgstr "Validazione dato"
+msgstr "Validazione dati"
 
 msgid "RIR"
 msgstr "RIR"
