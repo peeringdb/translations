@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-20 21:58+0000\n"
+"PO-Revision-Date: 2021-10-21 23:58+0000\n"
 "Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -131,10 +131,8 @@ msgstr "Regionale"
 msgid "Global"
 msgstr "Globale"
 
-#, fuzzy
-#| msgid "0-20 Mbps"
 msgid "0-20Mbps"
-msgstr "0-20 Mbps"
+msgstr "0-20Mbps"
 
 msgid "20-100Mbps"
 msgstr "20-100Mbps"
@@ -170,10 +168,10 @@ msgid "500-1000Gbps"
 msgstr "500-1000 Gbps"
 
 msgid "1-5Tbps"
-msgstr ""
+msgstr "1-5Tbps"
 
 msgid "5-10Tbps"
-msgstr ""
+msgstr "5-10 Tbps"
 
 msgid "10-20Tbps"
 msgstr "10-20 Tbps"
@@ -181,10 +179,8 @@ msgstr "10-20 Tbps"
 msgid "20-50Tbps"
 msgstr "20-50 Tbps"
 
-#, fuzzy
-#| msgid "20-100Mbps"
 msgid "50-100Tbps"
-msgstr "20-100Mbps"
+msgstr "50-100 Tbps"
 
 msgid "100+Tbps"
 msgstr "100+ Tbps"
@@ -219,12 +215,10 @@ msgid "Route Collector"
 msgstr ""
 
 msgid "Government"
-msgstr ""
+msgstr "Governo"
 
-#, fuzzy
-#| msgid "Private Only"
 msgid "Private"
-msgstr "Solo Privati"
+msgstr "Privato"
 
 msgid "Users"
 msgstr "Utenti"
@@ -239,7 +233,7 @@ msgid "Best Effort (no SLA)"
 msgstr ""
 
 msgid "Normal Business Hours"
-msgstr ""
+msgstr "Orario d'ufficio"
 
 msgid "24/7 Support"
 msgstr "Assistenza 24 ore su 24"
@@ -248,7 +242,7 @@ msgid "No Commercial Terms"
 msgstr ""
 
 msgid "Bundled With Other Services"
-msgstr ""
+msgstr "Aggregato con altri servizi"
 
 msgid "Non-recurring Fees Only"
 msgstr ""
@@ -266,16 +260,16 @@ msgid "48 VDC"
 msgstr ""
 
 msgid "120 VAC"
-msgstr ""
+msgstr "120 VCA"
 
 msgid "208 VAC"
-msgstr ""
+msgstr "208 VCA"
 
 msgid "240 VAC"
-msgstr ""
+msgstr "240 VCA"
 
 msgid "480 VAC"
-msgstr ""
+msgstr "480 VCA"
 
 msgid "Kosovo"
 msgstr "Kosovo"
@@ -304,10 +298,10 @@ msgid "Country"
 msgstr "Nazione"
 
 msgid "Suite"
-msgstr ""
+msgstr "Interno"
 
 msgid "Floor"
-msgstr ""
+msgstr "Piano"
 
 msgid "Latitude"
 msgstr "Latitudine"
@@ -353,10 +347,8 @@ msgstr "Email Tecnici"
 msgid "Technical Phone"
 msgstr "Telefono tecnici"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales Email"
-msgstr "Cambia Email"
+msgstr "Email vendite"
 
 #, fuzzy
 #| msgid "Sales"
@@ -376,7 +368,7 @@ msgid "Two separate and distinct paths to individual substations which should ma
 msgstr ""
 
 msgid "Available Voltage Services"
-msgstr ""
+msgstr "Voltaggi disponibili"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
 msgstr ""
@@ -515,13 +507,11 @@ msgstr "Indirizzo non trovato"
 msgid "IX-F Last Import"
 msgstr "Registro di importazione IXF"
 
-#, fuzzy
-#| msgid "Traffic Levels"
 msgid "Service Level"
-msgstr "Livelli di Traffico"
+msgstr "Livello del servizio"
 
 msgid "Terms"
-msgstr ""
+msgstr "Condizioni"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -605,10 +595,8 @@ msgstr ""
 msgid "Speed (mbit/sec)"
 msgstr "Velocità (mbit/sec)"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Operational"
-msgstr "Regionale"
+msgstr "Attivo"
 
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
@@ -673,7 +661,7 @@ msgid "Ixlans can no longer be directly deleted as they are now synced to the pa
 msgstr ""
 
 msgid "Protected object '{}': {}"
-msgstr ""
+msgstr "Oggetto protetto \"{}' : {}"
 
 msgid "SOFT DELETE"
 msgstr "ELIMINAZIONE TEMPORANEA"
@@ -687,10 +675,10 @@ msgid "Show {} rows"
 msgstr ""
 
 msgid "Verification Queue is currently disabled"
-msgstr "La Coda di Verifica è attualmente disabilitata"
+msgstr "La coda di verifica è attualmente disabilitata"
 
 msgid "Verification Queue is currently disabled for this object type"
-msgstr "La Coda di Verifica è attualmente disabilitata per questo tipo di oggetto"
+msgstr "La coda di verifica è attualmente disabilitata per questo tipo di oggetto"
 
 msgid "APPROVE"
 msgstr "APPROVA"
@@ -728,7 +716,7 @@ msgid "HAS BEEN ROLLED BACK"
 msgstr "È STATO RIPRISTINATO"
 
 msgid "Not Set"
-msgstr "Non inserito"
+msgstr "Non impostato"
 
 msgid "Active"
 msgstr "Attivo"
@@ -737,21 +725,19 @@ msgid "Logo Missing"
 msgstr "Logo Mancante"
 
 msgid "Over"
-msgstr "Su"
+msgstr "Sopra"
 
 msgid "Waiting"
 msgstr "In attesa"
 
-#, fuzzy
-#| msgid "Malformed organization ids"
 msgid "No organization(s) set"
-msgstr "ID dell'organizzazione malformati"
+msgstr "Nessuna organizzazione impostata"
 
 msgid "Malformed organization ids"
 msgstr "ID dell'organizzazione malformati"
 
 msgid "Merge target organization does not exist"
-msgstr "L'organizzazione che si vuole unire non esiste"
+msgstr "L'organizzazione di destinazione che si vuole unire non esiste"
 
 msgid "Organization Merging Tool"
 msgstr "Strumento di unione delle organizzazioni"
@@ -763,7 +749,7 @@ msgid "APPROVE selected items"
 msgstr "APPROVA oggetti selezionati"
 
 msgid "DENY and delete selected items"
-msgstr "RESPINGI e cancella oggetti selezionati"
+msgstr "RIFIUTA e cancella oggetti selezionati"
 
 msgid "View"
 msgstr "Visualizza"
@@ -775,7 +761,7 @@ msgid "Affiliation request was approved and the user was notified."
 msgstr "La richiesta di affiliazione è stata approvata ed è stata inviata una notifica all'utente."
 
 msgid "Approve and notify User"
-msgstr "Approva e notifica Utente"
+msgstr "Approva e notifica l'utente"
 
 msgid "Approve"
 msgstr "Approva"
@@ -1250,10 +1236,8 @@ msgstr "Approvato"
 msgid "Denied"
 msgstr "Respinto"
 
-#, fuzzy
-#| msgid "Cancel"
 msgid "Canceled"
-msgstr "Annulla"
+msgstr "Annullato"
 
 msgid "Status of this request"
 msgstr "Stato della richiesta"
@@ -3202,10 +3186,8 @@ msgstr ""
 msgid "Not a valid phone number (E.164)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "Non Richiesto"
+msgstr "Input richiesto"
 
 msgid "Invalid prefix: {}"
 msgstr "Prefisso non valido: {}"
