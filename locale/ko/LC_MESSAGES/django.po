@@ -1317,6 +1317,11 @@ msgid "Finished"
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import Email"
+msgid "Import failed"
+msgstr "IX-F 임포트 이메일"
+
+#, fuzzy
 #| msgid "The user that made the request"
 msgid "The user that triggered the manual ix-f import request"
 msgstr "요청한 사용자"
@@ -1743,6 +1748,18 @@ msgstr "결과"
 
 msgid "PeeringDB API Documentation"
 msgstr "PeeringDB API 문서"
+
+#, python-format
+msgid ""
+"\n"
+"You have been sent this message because you are an administrator for %(org_name)s.\n"
+"\n"
+"%(org_name)s does not currently have any active facilities, exchanges or networks in it.\n"
+"\n"
+"If it remains empty for %(duration)s days it will be removed.\n"
+"\n"
+"You can add objects to your organization here: %(org_url)s\n"
+msgstr ""
 
 msgid "Merge Notification"
 msgstr "병합 알림"

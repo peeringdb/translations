@@ -1430,6 +1430,11 @@ msgid "Finished"
 msgstr ""
 
 #, fuzzy
+#| msgid "IXF Import Log Entries"
+msgid "Import failed"
+msgstr "IXF Import Log Linjer"
+
+#, fuzzy
 #| msgid "The user that made the request"
 msgid "The user that triggered the manual ix-f import request"
 msgstr "Brugeren der udførte forespørgslen"
@@ -1926,6 +1931,18 @@ msgid "Result"
 msgstr "Exchange - Facility link"
 
 msgid "PeeringDB API Documentation"
+msgstr ""
+
+#, python-format
+msgid ""
+"\n"
+"You have been sent this message because you are an administrator for %(org_name)s.\n"
+"\n"
+"%(org_name)s does not currently have any active facilities, exchanges or networks in it.\n"
+"\n"
+"If it remains empty for %(duration)s days it will be removed.\n"
+"\n"
+"You can add objects to your organization here: %(org_url)s\n"
 msgstr ""
 
 #, fuzzy

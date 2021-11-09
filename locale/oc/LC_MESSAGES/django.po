@@ -1274,6 +1274,9 @@ msgstr ""
 msgid "Finished"
 msgstr ""
 
+msgid "Import failed"
+msgstr ""
+
 msgid "The user that triggered the manual ix-f import request"
 msgstr ""
 
@@ -1669,6 +1672,18 @@ msgid "Result"
 msgstr ""
 
 msgid "PeeringDB API Documentation"
+msgstr ""
+
+#, python-format
+msgid ""
+"\n"
+"You have been sent this message because you are an administrator for %(org_name)s.\n"
+"\n"
+"%(org_name)s does not currently have any active facilities, exchanges or networks in it.\n"
+"\n"
+"If it remains empty for %(duration)s days it will be removed.\n"
+"\n"
+"You can add objects to your organization here: %(org_url)s\n"
 msgstr ""
 
 msgid "Merge Notification"

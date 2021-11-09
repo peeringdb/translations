@@ -1425,6 +1425,11 @@ msgstr "IXF Liste Geçmişi"
 msgid "Finished"
 msgstr ""
 
+#, fuzzy
+#| msgid "IXF Import History"
+msgid "Import failed"
+msgstr "IXF Liste Geçmişi"
+
 msgid "The user that triggered the manual ix-f import request"
 msgstr ""
 
@@ -1900,6 +1905,18 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 #| msgid "Peering Policy Information"
 msgid "PeeringDB API Documentation"
 msgstr "Eşleşme Politikası Bilgileri"
+
+#, python-format
+msgid ""
+"\n"
+"You have been sent this message because you are an administrator for %(org_name)s.\n"
+"\n"
+"%(org_name)s does not currently have any active facilities, exchanges or networks in it.\n"
+"\n"
+"If it remains empty for %(duration)s days it will be removed.\n"
+"\n"
+"You can add objects to your organization here: %(org_url)s\n"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
