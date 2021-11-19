@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-05-13 05:02+0000\n"
+"PO-Revision-Date: 2021-11-19 03:58+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 msgid "Ethernet"
 msgstr "イーサネット"
@@ -1114,10 +1114,8 @@ msgstr "メールアドレス変更のリクエストをする前に少々お待
 msgid "Ixlan not found"
 msgstr "アドレスが見つかりません"
 
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "パーミッション"
+msgstr "権限がありません"
 
 #, fuzzy
 #| msgid "Please wait a bit before requesting another email change"
@@ -1786,10 +1784,8 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value"
-msgstr "無効なタグ"
+msgstr "不正な値"
 
 msgid "Need to be unique"
 msgstr "一意である必要があります"
@@ -3264,10 +3260,8 @@ msgstr ""
 msgid "Not a valid phone number (E.164)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "必要無し"
+msgstr "必須項目"
 
 msgid "Invalid prefix: {}"
 msgstr "無効なプレフィクス"
