@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-22 22:58+0000\n"
+"PO-Revision-Date: 2021-11-22 23:58+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
@@ -1377,7 +1377,7 @@ msgid "number of facilities at this network"
 msgstr "このネットワークが存在しているデータセンタの数"
 
 msgid "Last technical contact point for network with active peers"
-msgstr ""
+msgstr "アクティブなピアになっているネットワークの最後の技術担当コンタクト先"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "このエンティティは、ASN {} 用に作成されています - このネットワークから削除し、正しいネットワークで再度作成してください"
@@ -1443,7 +1443,7 @@ msgid "Password Reset Initiated"
 msgstr "パスワードの初期化"
 
 msgid "Determines if API Key inherits the User Permissions or is readonly."
-msgstr ""
+msgstr "API Key がユーザ権限を継承するか、読み取り専用にするかを決定します。"
 
 msgid "IX-F Import Email"
 msgstr "IX-F Import Email"
@@ -1482,7 +1482,7 @@ msgid "Environment Settings"
 msgstr "環境設定"
 
 msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr ""
+msgstr "IX-F Importer: DeskPRO ticket が作成されるまでの日数"
 
 msgid "Last Updated"
 msgstr "最新のアップデート"
@@ -1562,7 +1562,7 @@ msgid "Object of type '%(type)s' cannot be created because its parent entity '%(
 msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
 
 msgid "Required for distance filtering"
-msgstr ""
+msgstr "Required for distance filtering"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "エクスチェンジポイントを追加するには、技術担当、NOC、ポリシー担当の有効なメールアドレスが入力されている必要があります。"
@@ -1571,16 +1571,16 @@ msgid "Network has been deleted. Please contact {}"
 msgstr "ネットワークが削除されました。 {} までご連絡ください"
 
 msgid "ASN cannot be changed."
-msgstr "ASN は変更出来ません"
+msgstr "ASN は変更出来ません。"
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr ""
+msgstr "`in_dfz` プロパティは非推奨になり、 `False` への設定はサポートされなくなりました"
 
 msgid "Specify at least one email address"
 msgstr "最低限、メールアドレスを1つ指定してください"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
-msgstr ""
+msgstr "ユーザは、SUGGEST_ENTITY 組織として設定されているインターネットエクスチェンジを作成できません"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1615,28 +1615,30 @@ msgstr "代わりに"
 
 #, python-format
 msgid "Show %(num)s rows"
-msgstr ""
+msgstr "Show %(num)s rows"
 
 msgid "(Warning: potentially long load)"
-msgstr ""
+msgstr "(Warning: potentially long load)"
 
 #, python-format
 msgid ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
+"\n"
+"To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 
 msgid "Save and Apply"
-msgstr ""
+msgstr "Save and Apply"
 
 msgid "Save"
 msgstr "保存"
 
 msgid "Save and continue editing"
-msgstr ""
+msgstr "Save and continue editing"
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
-msgstr ""
+msgstr "注意して進めてください。このツールについて誰も説明していない場合は、先に進む前に誰かから指示を受けてください"
 
 msgid "You may undo merges"
 msgstr "マージを元に戻す事が出来ます"
@@ -1648,13 +1650,13 @@ msgid "Search"
 msgstr "検索"
 
 msgid "Organizations in this column will be merged into the organization in the right column. Click entries to remove from selection."
-msgstr ""
+msgstr "この列の組織は、右側の列の組織に統合されます。 エントリをクリックして、選択から削除します。"
 
 msgid "Merge Into Organization"
 msgstr "Merge Into Organization"
 
 msgid "Organizations in the left column will be merged into this organization"
-msgstr ""
+msgstr "左の列の組織はこの組織に統合されます"
 
 msgid "Merge Organizations"
 msgstr "Merge Organizations"
@@ -1739,7 +1741,7 @@ msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(o_name)s 
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(n_name)s (<a href=\\\"%(n_url)s\\\">%(n_id)s</a>) のネットワークが自動生成されました。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "'%(email)s' のメールアドレスを持つ組織の API Key が %(o_name)s (<a href=\\\"%(o_url)s\\\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\\\"%(n_url)s\\\">%(n_id)s</a>) のネットワークを生成しました。"
 
@@ -1909,7 +1911,7 @@ msgid "CLLI"
 msgstr "CLLI"
 
 msgid "Does not matter"
-msgstr ""
+msgstr "重要ではありません"
 
 msgid "Reset"
 msgstr "リセット"
@@ -1940,7 +1942,7 @@ msgid "Postal"
 msgstr "郵便"
 
 msgid "Within Distance"
-msgstr ""
+msgstr "Within Distance"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Additional filters are available to authenticated users and you are currently not logged in."
@@ -1952,7 +1954,7 @@ msgid "Network Presence"
 msgstr "Network Presence"
 
 msgid "Search networks ..."
-msgstr ""
+msgstr "Search networks ..."
 
 msgid "All present"
 msgstr "All present"
@@ -2009,11 +2011,11 @@ msgid "Not present"
 msgstr "Not present"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr ""
+msgstr "これは PeeringDB のベータ/テストインスタンスです。 一部の機能は、プロダクション環境と動作が異なる場合があります。ずっと維持しておく予定のデータをここに保存しないでください"
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
-msgstr ""
+msgstr "- all data will be refreshed from production at %(dt)sZ"
 
 msgid "Only use this if you own the facility"
 msgstr "データセンタを運用している方だけが追加してください"
@@ -2525,7 +2527,7 @@ msgid "IX-F Import Preview"
 msgstr "IX-F Import のプレビュー"
 
 msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
-msgstr ""
+msgstr "実際のインポートは1回/日、00:00Z に実行されます - これを使用して、変更のプレビューします"
 
 msgid "Changes"
 msgstr "Changes"
@@ -2540,7 +2542,7 @@ msgid "routeserver"
 msgstr "ルートサーバ"
 
 msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
-msgstr ""
+msgstr "ix-f data をパースするときにエラーが発生する事があります。これらは通常、インポートに影響します。これらのエラーを下記で確認できます"
 
 msgid "Peers at this Exchange Point"
 msgstr "このエクスチェンジに接続しているネットワーク"
@@ -2579,10 +2581,10 @@ msgid "Add Contact"
 msgstr "このコンタクト先を追加"
 
 msgid "Below is a preview of changes that will be done to your network during the next IX-F data import. The actual import will run once per day at 00:00Z"
-msgstr ""
+msgstr "下記は、次の IX-F data のインポート中にネットワークに加えられる変更のプレビューです。 実際のインポートは、1回日 00:00Z に実行されます"
 
 msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
-msgstr ""
+msgstr "ローカルにキャッシュされた IX-F data を使用して、このプレビューを生成します。エクスチェンジの IX-F data への変更が予想される場合は、ここに反映されるまでしばらくお待ちください。"
 
 msgid "action"
 msgstr "action"
@@ -2597,7 +2599,7 @@ msgid "IX-F Import Postmortem"
 msgstr "IX-F Import Postmortem"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
-msgstr ""
+msgstr "下記は、ネットワークに対して行われた変更のログです -&gt; IX-F data のインポートの結果として接続を交換します。 これには、そのような変更をロールバックするためにスタッフが行った調整は含まれていませんが、IX-F data のインポートによって実行されたアクションのログ（raw log）として表示する必要があることに注意してください。"
 
 msgid "Showing most recent"
 msgstr "Showing most recent"
