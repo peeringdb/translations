@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-22 08:58+0000\n"
-"Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
+"PO-Revision-Date: 2021-11-22 15:54+0000\n"
+"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
@@ -1739,7 +1739,7 @@ msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(o_name)s 
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(n_name)s (<a href=\\\"%(n_url)s\\\">%(n_id)s</a>) のネットワークが自動生成されました。"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "'%(email)s' のメールアドレスを持つ組織の API Key が %(o_name)s (<a href=\\\"%(o_url)s\\\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\\\"%(n_url)s\\\">%(n_id)s</a>) のネットワークを生成しました。"
 
