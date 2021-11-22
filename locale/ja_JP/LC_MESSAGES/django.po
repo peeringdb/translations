@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-22 07:58+0000\n"
+"PO-Revision-Date: 2021-11-22 08:58+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
@@ -131,8 +131,6 @@ msgstr "特定地域"
 msgid "Global"
 msgstr "世界全体"
 
-#, fuzzy
-#| msgid "0-20 Mbps"
 msgid "0-20Mbps"
 msgstr "0-20Mbps"
 
@@ -325,8 +323,6 @@ msgstr "メモ"
 msgid "Organization"
 msgstr "組織名"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
 msgstr "組織名"
 
@@ -367,7 +363,7 @@ msgid "Available Voltage Services"
 msgstr ""
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr ""
+msgstr "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
 
 msgid "Continental Region"
 msgstr "地域"
@@ -396,8 +392,6 @@ msgstr "URL"
 msgid "Contact"
 msgstr "連絡先"
 
-#, fuzzy
-#| msgid "Contact Us"
 msgid "Contacts"
 msgstr "連絡先"
 
@@ -826,32 +820,32 @@ msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr "Retrieves a single `{obj_type}` type object by id"
 
 msgid "Expand nested sets according to depth."
-msgstr ""
+msgstr "Expand nested sets according to depth."
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
+msgstr "Retrieves a list of `{obj_type}` type objects"
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
+msgstr "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
 
 msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
+msgstr "Skip n results in the result set (use for pagination in combination with `limit`)"
 
 msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
+msgstr "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
 
 msgid "Filter results by matching a value against this field."
-msgstr ""
+msgstr "Filter results by matching a value against this field."
 
 msgid "Supported filter suffixes: {}"
-msgstr ""
+msgstr "Supported filter suffixes: {}"
 
 msgid "Number of networks present at this facility"
 msgstr "このデータセンタに存在しているネットワークの数"
 
 msgid "Targets both AKA and name fields for filtering"
-msgstr ""
+msgstr "Targets both AKA and name fields for filtering"
 
 msgid "Find networks not present at an exchange (exchange id)"
 msgstr "そのエクスチェンジ (exchange id) に接続していないネットワークを検索する"
@@ -912,15 +906,15 @@ msgstr "データセンタの都市名"
 
 #, python-brace-format
 msgid "Creates a new `{obj_type}` type object."
-msgstr ""
+msgstr "Creates a new `{obj_type}` type object."
 
 #, python-brace-format
 msgid "Updates an existing `{obj_type}` type object."
-msgstr ""
+msgstr "Updates an existing `{obj_type}` type object."
 
 #, python-brace-format
 msgid "Marks an `{obj_type}` type object as `deleted`."
-msgstr ""
+msgstr "Marks an `{obj_type}` type object as `deleted`."
 
 msgid "Yes"
 msgstr "有り"
@@ -958,10 +952,10 @@ msgstr "File type %(value)s not allowed"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
-msgstr ""
+msgstr "File size too big, max. %(value)s"
 
 msgid "Error in forward geocode: No results found"
-msgstr ""
+msgstr "Error in forward geocode: No results found"
 
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "IX-F import preview のリクエストをする前に少々お待ちください。"
@@ -979,7 +973,7 @@ msgid "Network not found"
 msgstr "ネットワークが見つかりません"
 
 msgid "Postmortem length cannot exceed {} entries"
-msgstr ""
+msgstr "Postmortem length cannot exceed {} entries"
 
 msgid "This ASN is not assigned by any RIR"
 msgstr "この AS 番号は割り当てされていません"
@@ -988,16 +982,16 @@ msgid "ASNs in this range are private or reserved"
 msgstr "この範囲内の AS 番号はプライベート AS 番号、もしくは、予約済み AS 番号です"
 
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr ""
+msgstr "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr ""
+msgstr "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr ""
+msgstr "Data differences between PeeringDB and the exchange's IX-F data"
 
 msgid "We found that your IX-F output "
 msgstr "IX-F 出力が見つかりました "
@@ -1009,13 +1003,13 @@ msgid "No JSON could be parsed"
 msgstr "パース可能な JSON ではありません"
 
 msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
+msgstr "IX-F data not locally cached for this resource yet."
 
 msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
+msgstr "Address {} assigned to more than one distinct connection"
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
+msgstr "No prefixes defined on ixlan"
 
 msgid "Network status is '{}'"
 msgstr "Network status is '{}'"
@@ -1027,10 +1021,10 @@ msgid "Invalid connection state: {}"
 msgstr "Invalid connection state: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
+msgstr "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
+msgstr "Ip address error '{}' in vlan_list entry for vlan_id {}"
 
 msgid "Invalid speed value: {}"
 msgstr "Invalid speed value: {}"
@@ -1704,8 +1698,6 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "に統合されました"
 
-#, fuzzy
-#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "全ての統合が PeeringDB サポートスタッフによって処理されました。もし間違って実行されたと思われた場合は、PeeringDB サポートスタッフに連絡してください"
 
@@ -1939,7 +1931,7 @@ msgid "IP Block"
 msgstr "IP ブロック"
 
 msgid "Capacity"
-msgstr ""
+msgstr "キャパシティ"
 
 msgid "Address"
 msgstr "アドレス"
@@ -2756,15 +2748,13 @@ msgid "for assistance with the creation of your network in PeeringDB."
 msgstr "PeeringDB であなたのネットワークを作成する手助けの為に"
 
 msgid "Policy E-mail"
-msgstr "ポリシー担当者のメールアドレス"
+msgstr "ポリシー担当のメールアドレス"
 
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 もしくは IPv6 のプレフィクス"
 
-#, fuzzy
-#| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
-msgstr "所属リクエストをしているユーザは現在いません"
+msgstr "所属リクエストをしているユーザ"
 
 msgid "Confirmed"
 msgstr "確認済み(Confirmed)"
@@ -2775,109 +2765,97 @@ msgstr "日時"
 msgid "Currently no users requesting affiliation with"
 msgstr "所属リクエストをしているユーザは現在いません"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Users in Organization"
-msgstr "組織名"
+msgstr "組織に所属しているユーザ"
 
 msgid "Group"
 msgstr "グループ"
 
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
-msgstr "ここでは、あなたの組織の所属メンバーに権限を与える事が出来ます。管理者権限を持つユーザはデフォルトで全てのアクセス権を持っている為、ここに表示されていません"
+msgstr "ここでは、あなたの組織の所属メンバーに権限を与える事が出来ます。管理者権限を持つユーザはデフォルトで全てのアクセス権を持っている為、ここに表示されていません。"
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
-msgstr "レビュー待ちとなっているメンバーは表示されていませんので、権限の許可も出来ません"
+msgstr "また、レビュー待ちとなっているメンバーは表示されていませんので、権限の許可も出来ません。"
 
 #, python-format
 msgid "%(name)s cannot be deleted."
-msgstr ""
+msgstr "%(name)s は削除出来ません。"
 
 msgid "Remove this organization from PeeringDB."
-msgstr ""
+msgstr "PeeringDB からこの組織を削除する。"
 
-#, fuzzy
-#| msgid "Invalid organization"
 msgid "Delete organization?"
-msgstr "無効な組織"
+msgstr "組織を削除しますか？"
 
 #, python-format
 msgid "Delete %(name)s"
-msgstr ""
+msgstr "%(name)s を削除する"
 
 msgid "Thank you for your suggestion."
-msgstr ""
+msgstr "ご提案ありがとうございました。"
 
-#, fuzzy
-#| msgid "Suggest Facility"
 msgid "Suggest another facility"
-msgstr "データセンタに情報追加の提案"
+msgstr "さらにデータセンタ情報追加の提案をする"
 
 msgid "Only verified users may suggest entities."
-msgstr "確認済みユーザだけが、情報追加の提案が出来ます"
+msgstr "確認済みユーザだけが、情報追加の提案が出来ます。"
 
-#, fuzzy
-#| msgid "Suggest Exchange"
 msgid "Suggest another exchange"
-msgstr "エクスチェンジに情報追加の提案"
+msgstr "さらにエクスチェンジ情報追加の提案をする"
 
-#, fuzzy
-#| msgid "Suggest Network"
 msgid "Suggest another network"
-msgstr "ネットワークに情報追加の提案"
+msgstr "さらにネットワーク情報追加の提案をする"
 
 msgid "I forgot my password .."
-msgstr "パスワードを紛失しました"
+msgstr "パスワードを紛失しました..."
 
 msgid "I forgot my username .."
-msgstr "ユーザ名を紛失しました"
+msgstr "ユーザ名を紛失しました..."
 
 msgid "Token"
-msgstr ""
+msgstr "トークン"
 
 msgid "Enter your credentials."
-msgstr ""
+msgstr "認証情報を入力してください。"
 
 msgid ""
 "We are calling your phone right now, please enter the\n"
 "        digits you hear."
-msgstr ""
+msgstr "あなたに電話をかけています。番号の入力をお願いします。"
 
 msgid ""
 "We sent you a text message, please enter the tokens we\n"
 "        sent."
-msgstr ""
+msgstr "あなたにメッセージを送りました。あなたに送ったトークンの入力をお願いします。"
 
 msgid "We sent you an email, please enter the one time password we sent."
-msgstr ""
+msgstr "メールを送りました。送ったワンタイムパスワードの入力をお願いします。"
 
 msgid ""
 "Please enter the tokens generated by your token\n"
 "        generator."
-msgstr ""
+msgstr "トークンジェネレータから生成されたトークンの入力をお願いします。"
 
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
-msgstr ""
+msgstr "これらのトークンは印刷して、安全な場所に保管してください。あなたのアカウントにログインするにはこれらのバックアップトークンのいずれかを入力してください。"
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
-msgstr ""
+msgstr "もしくは、回復オプションの1つとして、ワンタイムパスワードのリクエストをする事が出来ます:"
 
 msgid "As a last resort, you can use a backup token:"
-msgstr ""
+msgstr "最終手段として、バックアップトークンを使う事が出来ます:"
 
 msgid "Use Backup Token"
-msgstr ""
+msgstr "バックアップトークを使用する"
 
-#, fuzzy
-#| msgid "Confirm password"
 msgid "Email one time password"
-msgstr "パスワード確認"
+msgstr "Email one time password"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
-msgstr "あなたのメールアドレスは、この組織のファイルにあるドメインの情報と一致しません"
+msgstr "あなたのメールアドレスは、この組織のファイルにあるドメインの情報と一致しません。"
 
 msgid "seconds ago"
 msgstr "秒前"
@@ -2892,29 +2870,25 @@ msgid "days ago"
 msgstr "日前"
 
 msgid "Private contacts are no longer supported."
-msgstr ""
+msgstr "Private contacts are no longer supported."
 
 msgid "Not a valid phone number (E.164)"
-msgstr ""
+msgstr "無効な E.164 形式の電話番号"
 
 msgid "Input required"
 msgstr "必須項目"
 
 msgid "Invalid prefix: {}"
-msgstr "無効なプレフィクス"
+msgstr "無効なプレフィクス: {}"
 
 msgid "Address space invalid: {}"
-msgstr "アドレススペースが無効でした: {}"
+msgstr "無効なアドレススペース: {}"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Maximum allowed prefix length is {}"
-msgstr "許容範囲な最大値 {}"
+msgstr "許容されるプレフィクス長の最大値 {}"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Minimum allowed prefix length is {}"
-msgstr "許容範囲な最大値 {}"
+msgstr "許容されるプレフィクス長の最小値 {}"
 
 msgid "Negative value not allowed"
 msgstr "負の数値は許可されません"
@@ -2923,28 +2897,28 @@ msgid "Maximum value allowed {}"
 msgstr "許容範囲な最大値 {}"
 
 msgid "Prefix overlaps with {}'s prefix: {}"
-msgstr ""
+msgstr "プレフィクスが {} のプレフィクスと重複しています"
 
 msgid "IRR AS-SET value must be string type"
-msgstr ""
+msgstr "IRR AS-SET は文字列型である必要があります"
 
 msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
-msgstr ""
+msgstr "不正な形式: {} - AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET である必要があります"
 
 msgid "Unknown IRR source: {}"
-msgstr ""
+msgstr "不正な IRR ソース: {}"
 
 msgid "Maximum AS-SET hierarchy depth: {}"
-msgstr ""
+msgstr "AS-SET 階層の最大: {}"
 
 msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
-msgstr ""
+msgstr "不正な形式: {} - RS-SET, AS-SET or AS123 である必要があります"
 
 msgid "All parts of an hierarchical name have to be of the same type"
-msgstr ""
+msgstr "階層名は全て同じタイプである必要があります"
 
 msgid "At least one component must be an actual set name"
-msgstr ""
+msgstr "少なくとも1つのコンポーネントは実際のセット名である必要があります"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "所有権の再リクエストをするまで少々お待ちください"
@@ -2963,18 +2937,16 @@ msgid "You already have an ownership request pending for this organization"
 msgstr "既にこの組織についてペンディング中の所有権リクエストがあります"
 
 msgid "You have too many affiliation requests pending, please wait for them to be resolved before opening more."
-msgstr ""
+msgstr "保留中の所属リクエストが多くあります。保留中となっているリクエストが解決するまでお待ちください。"
 
 msgid "Please wait a bit before requesting affiliation again."
-msgstr "組織所属リクエストをするまで少々お待ちください"
+msgstr "組織所属リクエストをするまで少々お待ちください。"
 
 msgid "Either ASN or Organization required"
 msgstr "AS 番号もしくは組織のどちらかが必要となります"
 
-#, fuzzy
-#| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
-msgstr "組織もしくは AS 番号に対する所属リクエストをする事が出来ます"
+msgstr "既に組織もしくは AS 番号に対する所属リクエストをしています"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "再度確認メールを送るまで少々お待ちください"
@@ -3018,15 +2990,11 @@ msgstr "ジオコード"
 msgid "Markdown enabled"
 msgstr "マークダウン記法が利用可能です"
 
-#, fuzzy
-#| msgid "Logout"
 msgid "Logo"
-msgstr "ログアウト"
+msgstr "ロゴ"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Max size: {}kb"
-msgstr "許容範囲な最大値 {}"
+msgstr "Max size: {}kb"
 
 msgid "LAN"
 msgstr "LAN"
@@ -3034,33 +3002,23 @@ msgstr "LAN"
 msgid "MTU"
 msgstr "MTU"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
-msgstr "IXF Import のログ(IXF Import Log)"
+msgstr "IX-F Import を有効にする"
 
-#, fuzzy
-#| msgid "Request Ownership"
 msgid "Request import"
-msgstr "所有権のリクエスト"
+msgstr "Request import"
 
 msgid "Protocols Supported"
-msgstr "サポートされているプロトコル(Protocols Supported)"
+msgstr "サポートされているプロトコル"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Public Peering Info Updated"
-msgstr "接続しているエクスチェンジポイント"
+msgstr "パブリックピア情報のアップデート日時"
 
-#, fuzzy
-#| msgid "Peering Policy Information"
 msgid "Peering Facility Info Updated"
-msgstr "ピアリングポリシー情報"
+msgstr "データセンタ情報のアップデート日時"
 
-#, fuzzy
-#| msgid "Contact Information"
 msgid "Contact Info Updated"
-msgstr "連絡先情報"
+msgstr "連絡先情報のアップデート日時"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB の設定"
@@ -3068,20 +3026,14 @@ msgstr "PeeringDB の設定"
 msgid "Allow IXP Update"
 msgstr "IXP Update を許可する"
 
-#, fuzzy
-#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
-msgstr "有効にすると、IXP はピアリングリストにあるこのネットワークの項目を管理する事が出来ます"
+msgstr "有効にすると、IXP はピアリングリストにあるこのネットワークのエントリーを管理する事が出来ます"
 
-#, fuzzy
-#| msgid "Allow IXP Update"
 msgid "IXP Update Tools"
-msgstr "IXP Update を許可する"
+msgstr "IXP Update Tools"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "Postmortem"
-msgstr "IXP インポート履歴"
+msgstr "Postmortem"
 
 msgid "Peering Policy Information"
 msgstr "ピアリングポリシー情報"
