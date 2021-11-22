@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-22 15:54+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2021-11-22 21:58+0000\n"
+"Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
@@ -351,16 +351,16 @@ msgid "Property"
 msgstr "Property"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr ""
+msgstr "プロパティの所有者は、プロパティの所有権を持つ個人または法人です。 借主とは、プロパティの所有者と賃貸借契約を結んでいる物件の利用者です。"
 
 msgid "Diverse Serving Substations"
-msgstr ""
+msgstr "Diverse Serving Substations"
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
-msgstr ""
+msgstr "個々の変電所につながる2つの独立した別個のパスは、1つ以上のユーティリティ発電機ステーションに戻る個別のパスを維持する必要があります。"
 
 msgid "Available Voltage Services"
-msgstr ""
+msgstr "利用可能電圧"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
 msgstr "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
@@ -1033,16 +1033,16 @@ msgid "Invalid speed value: could not be parsed"
 msgstr "無効な帯域の値: パースする事が出来ませんでした"
 
 msgid "IP addresses moved to same entry"
-msgstr ""
+msgstr "同じエントリに IP アドレスが移動しました"
 
 msgid "IPv6 not set"
-msgstr ""
+msgstr "IPv6 が設定されていません"
 
 msgid "IPv4 not set"
-msgstr ""
+msgstr "IPv4 が設定されていません"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr ""
+msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F Importer data が AS{} と1つ以上の IXP の間にミスマッチが発生しています"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
 msgstr ""
