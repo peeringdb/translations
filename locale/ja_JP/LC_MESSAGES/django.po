@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-22 21:58+0000\n"
+"PO-Revision-Date: 2021-11-22 22:58+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
@@ -1042,10 +1042,10 @@ msgid "IPv4 not set"
 msgstr "IPv4 が設定されていません"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F Importer data が AS{} と1つ以上の IXP の間にミスマッチが発生しています"
+msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F Importer data が AS{} と1つ以上の IXP の間でミスマッチが発生しています"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
-msgstr ""
+msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F Importer data が {} と1つ以上のネットワークの間でミスマッチが発生しています"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 統合の通知: {} -> {}"
@@ -1087,7 +1087,7 @@ msgid "IX-F Import"
 msgstr "IX-F Import"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
-msgstr ""
+msgstr "Has this object's address been normalized with a call to the Google Maps API"
 
 msgid "Last time of attempted geocode"
 msgstr "前回のジオコード試行"
@@ -1108,7 +1108,7 @@ msgid "Geocoordinate Cache"
 msgstr "Geocoordinate Cache"
 
 msgid "Geocoordinate Cache Entries"
-msgstr ""
+msgstr "Geocoordinate Cache Entries"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "データベース内にあるこの組織は、AS 番号もしくは組織名称から生成されました。空欄の場合は、一致する組織が無かったと言う意味になります"
@@ -1258,16 +1258,16 @@ msgid "Manual IX-F import request"
 msgstr "Manual IX-F import request"
 
 msgid "Date of most recent manual import request"
-msgstr ""
+msgstr "最も最近の手動インポートリクエストの日時"
 
 msgid "Manual IX-F import status"
 msgstr "Manual IX-F import status"
 
 msgid "The current status of the manual ix-f import request"
-msgstr ""
+msgstr "手動 ix-f import リクエストの現在のステータス"
 
 msgid "Queued"
-msgstr ""
+msgstr "Queued"
 
 msgid "Importing"
 msgstr "Importing"
@@ -1290,7 +1290,7 @@ msgid "number of networks at this exchange"
 msgstr "このエクスチェンジがあるネットワークの数"
 
 msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
+msgstr "Exchange has active facility connection(s): {} ..."
 
 msgid "Exchange has active peer(s)"
 msgstr "このエクスチェンジはアクティブなピア（ネットワーク）のデータを持っています"
@@ -1305,22 +1305,22 @@ msgid "IX-F error notification date"
 msgstr "IX-F エラーを通知した日付"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
+msgstr "Last time we notified the exchange about the IX-F parsing issue"
 
 msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
+msgstr "IX-F はサポートされていない IP を送信しました"
 
 msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
+msgstr "IX はそのネットワークでサポートされていない IP アドレスを送信しています"
 
 msgid "IXLan id needs to match parent ix id"
-msgstr ""
+msgstr "IXLan id は、親の ix id と一致する必要があります"
 
 msgid "Ixlan for exchange already exists"
-msgstr ""
+msgstr "エクスチェンジの Ixlan は既に存在しています"
 
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
+msgstr "IX-F メンバーリスト URL の指定をせずに IX-F import を有効にする事は出来ません"
 
 msgid "IX-F Import Log"
 msgstr "IX-F Import のログ(IX-F Import Log)"
@@ -1335,37 +1335,37 @@ msgid "IX-F Import Log Entries"
 msgstr "IX-F Import のログのエントリー(IX-F Import Log Entries)"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
-msgstr ""
+msgstr "このエントリを作成した ix-f member data の JSON スナップショット"
 
 msgid "Activity for this entry"
-msgstr ""
+msgstr "このエントリのアクティビティ"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
+msgstr "この提案された変更に伴うネットワークの却下。これによって、顧客が直面しているネットワークビューから隠されます"
 
 msgid "RS Peer"
 msgstr "RS ピア"
 
 msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
+msgstr "PeeringDB にデータを適用しようとする事で問題が発生しました"
 
 msgid "Last Fetched"
 msgstr "前回のフェッチ"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr ""
+msgstr "別の IXFMemberData エントリの要件です。それと一緒に適用されます"
 
 msgid "IX-F Member Data"
 msgstr "IX-F メンバーデータ"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
+msgstr "有効なネットワークプロトコルなのか検証しましたが、適切な IP アドレスではありません"
 
 msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
+msgstr "このアドレス空間に該当するエクスチェンジにはアクティブなピアがあります"
 
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
+msgstr "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "ixp_member のデータを介して、IXP がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
