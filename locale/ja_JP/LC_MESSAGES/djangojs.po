@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-21 05:58+0000\n"
+"PO-Revision-Date: 2021-11-22 05:58+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/javascript/ja/>\n"
 "Language: ja_JP\n"
@@ -66,28 +66,28 @@ msgid "No"
 msgstr "いいえ"
 
 msgid "Please wait before requesting another import."
-msgstr ""
+msgstr "別のインポートのリクエストをする前にお待ちください。"
 
 msgid "Available in: "
-msgstr ""
+msgstr "Available in: "
 
 msgid "seconds"
-msgstr ""
+msgstr "seconds"
 
 msgid "Nothing to do"
-msgstr ""
+msgstr "何もしない"
 
 msgid "This will create the following entries"
-msgstr ""
+msgstr "これらのエントリーが作成されます"
 
 msgid "Remove these entries"
-msgstr ""
+msgstr "これらのエントリーを削除します"
 
 msgid "Update these entries"
-msgstr ""
+msgstr "これらのエントリーを更新します"
 
 msgid "You do not have permissions to perform this action"
-msgstr ""
+msgstr "これを実行する権限をもっていません"
 
 msgid "sponsor"
 msgstr "スポンサー"
@@ -99,10 +99,10 @@ msgid "Canceled"
 msgstr "キャンセル"
 
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
-msgstr ""
+msgstr "あなたの API Key は無事作成されました。この Key を安全な場所に書き留めておいてください。"
 
 msgid "Revoke key"
-msgstr ""
+msgstr "Key を取り消す"
 
 msgid "Add user"
 msgstr "ユーザ追加"
@@ -150,16 +150,16 @@ msgid "Exchange - Facility link"
 msgstr "エクスチェンジ - データセンタ のリンク"
 
 msgid "Click to remove"
-msgstr ""
+msgstr "Click to remove"
 
 msgid "Needs to be an integer or a speed ending in M, G, or T"
-msgstr ""
+msgstr "最後に M, G, T の文字で終わる帯域の値、もしくは、ただの数字である必要があります"
 
 msgid "Upload"
-msgstr ""
+msgstr "Upload"
 
 msgid "File size too big"
-msgstr ""
+msgstr "ファイルのサイズが大きすぎます"
 
 #~ msgid "IXLAN"
 #~ msgstr "IXLAN"
