@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-22 23:58+0000\n"
+"PO-Revision-Date: 2021-11-23 01:58+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
@@ -985,13 +985,13 @@ msgid "{}"
 msgstr "{}"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
+msgstr "AS 番号、IPv4、IPv6 を持つこのエントリは、単一のメンバー接続としてエクスチェンジの IX-F data に存在していません"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
+msgstr "AS 番号、IPv4、IPv6 を持つこのエントリは、単一のネットワークとして、PeeringDB に存在していません -> ix connection"
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr "Data differences between PeeringDB and the exchange's IX-F data"
+msgstr "PeeringDB のデータとこのエクスチェンジの IX-F data の違い"
 
 msgid "We found that your IX-F output "
 msgstr "IX-F 出力が見つかりました "
@@ -1003,13 +1003,13 @@ msgid "No JSON could be parsed"
 msgstr "パース可能な JSON ではありません"
 
 msgid "IX-F data not locally cached for this resource yet."
-msgstr "IX-F data not locally cached for this resource yet."
+msgstr "このリソースの IX-F data はまだローカルにキャッシュされていません。"
 
 msgid "Address {} assigned to more than one distinct connection"
-msgstr "Address {} assigned to more than one distinct connection"
+msgstr "複数の異なる接続に割り当てられたアドレス {}"
 
 msgid "No prefixes defined on ixlan"
-msgstr "No prefixes defined on ixlan"
+msgstr "ixlan に定義されたプレフィックスがありません"
 
 msgid "Network status is '{}'"
 msgstr "Network status is '{}'"
@@ -1021,7 +1021,7 @@ msgid "Invalid connection state: {}"
 msgstr "Invalid connection state: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
+msgstr "vlan_id {} (AS{}) の vlan_list エントリに、IPv4 アドレスもしくは IPv6 アドレスが見つかりませんでした"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr "Ip address error '{}' in vlan_list entry for vlan_id {}"
@@ -1177,7 +1177,7 @@ msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "この組織のロゴファイルのアップロードが許可されました"
 
 msgid "Organization has active objects under it."
-msgstr "この組織にはアクティブなオブジェクトがあります"
+msgstr "この組織にはアクティブなオブジェクトがあります。"
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "この組織はスポンサーです。削除を進めるには PeeringDB サポートまでご連絡ください。"
@@ -1735,22 +1735,22 @@ msgstr "AS"
 
 #, python-format
 msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(o_name)s (<a href=\\\"%(o_url)s\\\">%(o_id)s</a>) の組織が自動生成されました。"
+msgstr "'%(u_name)s' の AS%(asn)s への所属リクエスト中に、 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) の組織が自動生成されました"
 
 #, python-format
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "%(u_name)s の AS%(asn)s への所属リクエスト中に、%(n_name)s (<a href=\\\"%(n_url)s\\\">%(n_id)s</a>) のネットワークが自動生成されました。"
+msgstr "'%(u_name)s' の AS%(asn)s への所属リクエスト中に、%(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) のネットワークが自動生成されました"
 
 #, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "'%(email)s' のメールアドレスを持つ組織の API Key が %(o_name)s (<a href=\\\"%(o_url)s\\\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\\\"%(n_url)s\\\">%(n_id)s</a>) のネットワークを生成しました。"
+msgstr "'%(email)s' のメールアドレスを持つ組織の API Key (prefix:%(prefix)s) が %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) のネットワークを生成しました。"
 
 msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "その Key のメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました"
+msgstr "その Key のメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました。"
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "'%(u_name)s' のユーザが %(o_name)s (<a href=\\\"%(o_url)s\\\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\\\"%(n_url)s\\\">%(n_id)s</a>) のネットワークを生成しました。"
+msgstr "'%(u_name)s' のユーザが %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) の組織下に %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) のネットワークを生成しました。"
 
 msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "そのユーザのメールアドレスが RIR のデータと一致しましたので、確認キューをスキップしました。"
@@ -1945,7 +1945,7 @@ msgid "Within Distance"
 msgstr "Within Distance"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
-msgstr "Additional filters are available to authenticated users and you are currently not logged in."
+msgstr "認証済みのユーザーは追加のフィルターを使用できますが、現在ログインしていません。"
 
 msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
 msgstr "Additional filters are available to verified users and you are currently not affiliated with any organizations."
@@ -2268,7 +2268,7 @@ msgstr "%(ar_name)s に対する所属が承認保留中です"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr "PeeringDB 管理スタッフによって %(ar_name)s に対する所属が承認保留中です"
+msgstr "PeeringDB 管理スタッフによって %(ar_name)s に対する所属が承認保留中です。"
 
 #, python-format
 msgid "You have canceled your affiliation request with %(ar_name)s"
@@ -2823,12 +2823,16 @@ msgstr "認証情報を入力してください。"
 msgid ""
 "We are calling your phone right now, please enter the\n"
 "        digits you hear."
-msgstr "あなたに電話をかけています。番号の入力をお願いします。"
+msgstr ""
+"あなたに電話をかけています。番号の入力をお願いします。\n"
+"        番号の入力をお願いします。"
 
 msgid ""
 "We sent you a text message, please enter the tokens we\n"
 "        sent."
-msgstr "あなたにメッセージを送りました。あなたに送ったトークンの入力をお願いします。"
+msgstr ""
+"あなたにメッセージを送りました。\n"
+"        あなたに送ったトークンの入力をお願いします。"
 
 msgid "We sent you an email, please enter the one time password we sent."
 msgstr "メールを送りました。送ったワンタイムパスワードの入力をお願いします。"
@@ -2836,13 +2840,18 @@ msgstr "メールを送りました。送ったワンタイムパスワードの
 msgid ""
 "Please enter the tokens generated by your token\n"
 "        generator."
-msgstr "トークンジェネレータから生成されたトークンの入力をお願いします。"
+msgstr ""
+"トークンジェネレータから生成されたトークン\n"
+"        の入力をお願いします。"
 
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
-msgstr "これらのトークンは印刷して、安全な場所に保管してください。あなたのアカウントにログインするにはこれらのバックアップトークンのいずれかを入力してください。"
+msgstr ""
+"これらのトークンは印刷して、安全な場所に保管してください。\n"
+"      あなたのアカウントにログインするには\n"
+"      これらのバックアップトークンのいずれかを入力してください。"
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
 msgstr "もしくは、回復オプションの1つとして、ワンタイムパスワードのリクエストをする事が出来ます:"
@@ -2872,7 +2881,7 @@ msgid "days ago"
 msgstr "日前"
 
 msgid "Private contacts are no longer supported."
-msgstr "Private contacts are no longer supported."
+msgstr "プライベート連絡先はサポートされなくなりました。"
 
 msgid "Not a valid phone number (E.164)"
 msgstr "無効な E.164 形式の電話番号"
