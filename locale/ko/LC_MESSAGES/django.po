@@ -627,6 +627,16 @@ msgstr "Ixlans는 이제 상위 익스체인지에 동기화되므로 더 이상
 msgid "Protected object '{}': {}"
 msgstr "보호된 개체 '{}: {}"
 
+#, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "선택한 항목 거부 및 삭제"
+
+#, fuzzy
+#| msgid "Please contact {} to help with the deletion of this object"
+msgid "Please confirm deletion of selected objects."
+msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
+
 msgid "SOFT DELETE"
 msgstr "삭제 보류 표시"
 
@@ -824,6 +834,11 @@ msgstr "티켓 재설정"
 #| msgid "Network not found"
 msgid "Key not found"
 msgstr "네트워크를 찾을 수 없음"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "This field is required."
+msgstr "필수 입력"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1637,6 +1652,9 @@ msgstr "익스체인지 포인트를 추가하기 전에 네트워크에 기술,
 msgid "Network has been deleted. Please contact {}"
 msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
 
+msgid "This field may not be blank."
+msgstr ""
+
 msgid "ASN cannot be changed."
 msgstr "ASN은 변경될 수 없습니다."
 
@@ -1698,6 +1716,12 @@ msgstr ""
 "\n"
 "<a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> 를 사용하려면 검색어를 ^ 로 시작하고 $로 끝냅니다.\n"
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr "저장 후 적용"
 
@@ -1745,6 +1769,12 @@ msgstr "미리보기"
 
 msgid "Result"
 msgstr "결과"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 msgid "PeeringDB API Documentation"
 msgstr "PeeringDB API 문서"
@@ -2474,6 +2504,32 @@ msgstr "언어 기본 설정이 저장됨"
 msgid "Set language preference"
 msgstr "언어 기본 설정"
 
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "유효하지 않은 보안 토큰"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "삭제"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr "계정이 생성됨"
 
@@ -2753,9 +2809,6 @@ msgstr "제거"
 msgid "Add this entry to public peering exchange points"
 msgstr "공용 피어링 익스체인지 포인트에 이 항목 추가"
 
-msgid "Remove"
-msgstr "삭제"
-
 msgid "Remove this entry from your public peering exchange points list"
 msgstr "이 항목을 당신의 공용 피어링 익스체인지 포인트 리스트에서 제거"
 
@@ -2912,6 +2965,9 @@ msgstr "다른 익스체인지 제안"
 msgid "Suggest another network"
 msgstr "다른 네트워크 제안"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "비밀번호 찾기 .."
 
@@ -2948,6 +3004,9 @@ msgstr ""
 "토큰\n"
 "제너레이터에서 생성된 토큰을 입력하십시오."
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -2966,8 +3025,21 @@ msgstr "최후의 수단으로, 당신은 백업 토크을 사용할 수 있습�
 msgid "Use Backup Token"
 msgstr "백업 토큰 사용하기"
 
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Add TOTP Authentication"
+msgstr "2단계 인증 관리"
+
 msgid "Email one time password"
 msgstr "이메일 일회용 비밀번호"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "귀하의 이메일 주소가 이 조직의 파일에 있는 도메인 정보와 일치하지 않습니다."
@@ -3073,6 +3145,9 @@ msgstr "당신의 확인 이메일을 다시 전송하였습니다"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "다른 이메일 변경을 요청하기 전에 잠시 기다리십시오"
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "이메일이 시스템에 이미 있음"

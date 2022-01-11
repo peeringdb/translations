@@ -705,6 +705,14 @@ msgstr ""
 msgid "Protected object '{}': {}"
 msgstr ""
 
+#, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "拒绝并删除选中的项目"
+
+msgid "Please confirm deletion of selected objects."
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "软删除"
 
@@ -920,6 +928,11 @@ msgstr "重置环境"
 #| msgid "Address not found"
 msgid "Key not found"
 msgstr "地址未找到"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "This field is required."
+msgstr "此栏必填"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1813,6 +1826,9 @@ msgstr ""
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
 
+msgid "This field may not be blank."
+msgstr ""
+
 #, fuzzy
 #| msgid "Suggest another exchange"
 msgid "ASN cannot be changed."
@@ -1873,6 +1889,12 @@ msgid ""
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr ""
 
@@ -1930,6 +1952,12 @@ msgstr "预览"
 
 msgid "Result"
 msgstr "结果"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 #, fuzzy
 #| msgid "API Documentation"
@@ -2686,6 +2714,32 @@ msgstr "语言偏好已保持"
 msgid "Set language preference"
 msgstr "设置语言偏好"
 
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "无效的安全令牌"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr "账号已创建"
 
@@ -2989,9 +3043,6 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "公共对等交换点"
 
-msgid "Remove"
-msgstr "删除"
-
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Remove this entry from your public peering exchange points list"
@@ -3167,6 +3218,9 @@ msgstr "建议另一个交换点"
 msgid "Suggest another network"
 msgstr "建议另一个网络"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "忘记密码.."
 
@@ -3197,6 +3251,9 @@ msgid ""
 "        generator."
 msgstr ""
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -3213,9 +3270,22 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "向您的组织添加新网络。"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Add TOTP Authentication"
+msgstr "管理 OAuth 应用"
+
+#, fuzzy
 #| msgid "Confirm password"
 msgid "Email one time password"
 msgstr "确认密码"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "您的 Email 地址与我们存储的该组织域信息不符。"
@@ -3323,6 +3393,9 @@ msgstr "我们重新发送了您的确认 Email"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "请稍后再请求其他 Email 修改"
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "Email 已经在系统中存在"

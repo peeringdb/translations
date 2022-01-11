@@ -623,6 +623,16 @@ msgstr "Ixlans は、親のエクスチェンジと同期された為、削除�
 msgid "Protected object '{}': {}"
 msgstr "Protected object '{}': {}"
 
+#, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "選択したアイテムは承認されず削除されました"
+
+#, fuzzy
+#| msgid "Please contact {} to help with the deletion of this object"
+msgid "Please confirm deletion of selected objects."
+msgstr "このオブジェクトの削除については、 {} までご連絡ください"
+
 msgid "SOFT DELETE"
 msgstr "SOFT DELETE"
 
@@ -814,6 +824,11 @@ msgstr "チケットをリセットします"
 
 msgid "Key not found"
 msgstr "Key が見つかりません"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "This field is required."
+msgstr "このフィールドは必須です"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1570,6 +1585,9 @@ msgstr "エクスチェンジポイントを追加するには、技術担当、
 msgid "Network has been deleted. Please contact {}"
 msgstr "ネットワークが削除されました。 {} までご連絡ください"
 
+msgid "This field may not be blank."
+msgstr ""
+
 msgid "ASN cannot be changed."
 msgstr "ASN は変更出来ません。"
 
@@ -1628,6 +1646,12 @@ msgstr ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr "Save and Apply"
 
@@ -1675,6 +1699,12 @@ msgstr "プレビュー"
 
 msgid "Result"
 msgstr "結果"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 msgid "PeeringDB API Documentation"
 msgstr "API 関連のドキュメント"
@@ -2378,6 +2408,32 @@ msgstr "好みの言語を保存しました"
 msgid "Set language preference"
 msgstr "言語を選択する"
 
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "無効なセキュリティトークン"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "削除する"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr "アカウントが作成されました"
 
@@ -2655,9 +2711,6 @@ msgstr "却下する"
 msgid "Add this entry to public peering exchange points"
 msgstr "このエントリーを接続しているエクスチェンジポイントに追加する"
 
-msgid "Remove"
-msgstr "削除する"
-
 msgid "Remove this entry from your public peering exchange points list"
 msgstr "このエントリーを接続しているエクスチェンジポイントから削除する"
 
@@ -2808,6 +2861,9 @@ msgstr "さらにエクスチェンジ情報追加の提案をする"
 msgid "Suggest another network"
 msgstr "さらにネットワーク情報追加の提案をする"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "パスワードを紛失しました..."
 
@@ -2844,6 +2900,9 @@ msgstr ""
 "トークンジェネレータから生成されたトークン\n"
 "        の入力をお願いします。"
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -2862,8 +2921,21 @@ msgstr "最終手段として、バックアップトークンを使う事が出
 msgid "Use Backup Token"
 msgstr "バックアップトークを使用する"
 
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "あなたの組織に新しいネットワークを追加する事が出来ます"
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Add TOTP Authentication"
+msgstr "二要素認証を設定する"
+
 msgid "Email one time password"
 msgstr "Email one time password"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "あなたのメールアドレスは、この組織のファイルにあるドメインの情報と一致しません。"
@@ -2967,6 +3039,9 @@ msgstr "確認メールをあなたに送りました"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "メールアドレス変更のリクエストをする前に少々お待ちください"
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "既にメールアドレスが存在しています"

@@ -663,6 +663,14 @@ msgstr ""
 msgid "Protected object '{}': {}"
 msgstr "Oggetto protetto \"{}' : {}"
 
+#, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "RIFIUTA e cancella oggetti selezionati"
+
+msgid "Please confirm deletion of selected objects."
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "ELIMINAZIONE TEMPORANEA"
 
@@ -868,6 +876,11 @@ msgstr "Reimposta"
 
 msgid "Key not found"
 msgstr "Chiave non trovata"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "This field is required."
+msgstr "Il campo è richiesto"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1730,6 +1743,9 @@ msgstr ""
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
 
+msgid "This field may not be blank."
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange"
 msgid "ASN cannot be changed."
@@ -1792,6 +1808,12 @@ msgid ""
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr ""
 
@@ -1849,6 +1871,12 @@ msgstr "Anteprima"
 
 msgid "Result"
 msgstr "Risultato"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 #, fuzzy
 #| msgid "API Documentation"
@@ -2626,6 +2654,32 @@ msgstr "Preferenza lingua salvata"
 msgid "Set language preference"
 msgstr "Imposta la preferenza della lingua"
 
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "Token di sicurezza non valido"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "Rimuovi"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Account Creato"
 
@@ -2941,9 +2995,6 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "Punti di Interscambio per Peering Pubblico"
 
-msgid "Remove"
-msgstr "Rimuovi"
-
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Remove this entry from your public peering exchange points list"
@@ -3129,6 +3180,9 @@ msgstr "Interscambio"
 msgid "Suggest another network"
 msgstr "Invia Rete"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "Ho dimenticato la mia password .."
 
@@ -3159,6 +3213,9 @@ msgid ""
 "        generator."
 msgstr ""
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -3175,9 +3232,22 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "Aggiungi una nuova Rete alla tua Organizzazione."
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Add TOTP Authentication"
+msgstr "Gestisci Applicazioni OAuth"
+
+#, fuzzy
 #| msgid "Confirm password"
 msgid "Email one time password"
 msgstr "Conferma password"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Il tuo indirizzo email non corrisponde alle informazioni del dominio che abbiamo su file per questa organizzazione."
@@ -3287,6 +3357,9 @@ msgstr "Abbiamo re-inviato la tua mail di conferma"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "L'indirizzo e-mail già esiste nel nostro sistema"

@@ -627,6 +627,16 @@ msgstr "Ixlans nu mai pot fi șterse direct, deoarece sunt sincronizate acum la 
 msgid "Protected object '{}': {}"
 msgstr "Obiect protejat '{}': {}"
 
+#, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "RESPINGEȚI și ștergeți elementele selectate"
+
+#, fuzzy
+#| msgid "Please contact {} to help with the deletion of this object"
+msgid "Please confirm deletion of selected objects."
+msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiect"
+
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
 
@@ -820,6 +830,11 @@ msgstr "Resetați tichetele"
 
 msgid "Key not found"
 msgstr "Cheia nu a fost găsită"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "This field is required."
+msgstr "Acest câmp este necesar"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1609,6 +1624,9 @@ msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politi
 msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
 
+msgid "This field may not be blank."
+msgstr ""
+
 msgid "ASN cannot be changed."
 msgstr "ASN nu poate fi modificat."
 
@@ -1670,6 +1688,12 @@ msgstr ""
 "\n"
 "Pentru a utiliza <a href=\"%(doc_url)s\" target=\"_blank\"> căutare regex </a>, începeți termenul de căutare cu ^ și terminați cu $.\n"
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr "Salvați și aplicați"
 
@@ -1717,6 +1741,12 @@ msgstr "Previzualizare"
 
 msgid "Result"
 msgstr "Rezultat"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 msgid "PeeringDB API Documentation"
 msgstr "Documentație API PeeringDB"
@@ -2436,6 +2466,32 @@ msgstr "Preferințele de limbă au fost salvate"
 msgid "Set language preference"
 msgstr "Setați preferințele de limbă"
 
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "Simbolul de securitate nu este valid"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "Eliminați"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Contul a fost creat"
 
@@ -2715,9 +2771,6 @@ msgstr "Renunțați"
 msgid "Add this entry to public peering exchange points"
 msgstr "Adăugați această intrare la Internet Exchange-urile cu peering public"
 
-msgid "Remove"
-msgstr "Eliminați"
-
 msgid "Remove this entry from your public peering exchange points list"
 msgstr "Eliminați această intrare din lista dvs. de Internet Exchange-uri cu peering public"
 
@@ -2868,6 +2921,9 @@ msgstr "Sugerați un alt Internet Exchange"
 msgid "Suggest another network"
 msgstr "Sugerați o altă rețea"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "Am uitat parola..."
 
@@ -2904,6 +2960,9 @@ msgstr ""
 "Vă rugăm să introduceți token-urile generate de generatorul dvs. de token-uri\n"
 "         ."
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -2922,8 +2981,21 @@ msgstr "În ultimă instanță, puteți utiliza un token de rezervă:"
 msgid "Use Backup Token"
 msgstr "Utilizați token-ul de rezervă"
 
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "Adăugați o nouă rețea la organizația dvs."
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Add TOTP Authentication"
+msgstr "Gestionați autentificarea cu doi factori"
+
 msgid "Email one time password"
 msgstr "Trimiteți prin e-mail o parolă de unică folosință"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Adresa dvs. de email nu se potrivește cu informațiile legate de domeniu pe care le deținem pentru această organizație."
@@ -3027,6 +3099,9 @@ msgstr "V-am trimis un e-mail de confirmare"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "Vă rugăm să așteptați puțin înainte de a solicita o altă modificare prin e-mail"
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "Adresa e-mail există deja în sistemul nostru"

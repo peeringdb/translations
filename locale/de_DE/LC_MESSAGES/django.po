@@ -626,6 +626,16 @@ msgstr "Ixlans können nicht mehr direkt gelöscht werden, da sie nun mit dem ü
 msgid "Protected object '{}': {}"
 msgstr "Geschütztes Objekt '{}': {}"
 
+#, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "Gewählte Einträge ABLEHNEN und löschen"
+
+#, fuzzy
+#| msgid "Please contact {} to help with the deletion of this object"
+msgid "Please confirm deletion of selected objects."
+msgstr "Bitte kontaktieren Sie {} um Unterstützung bei der Löschung dieses Objekts zu bekommen"
+
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
 
@@ -819,6 +829,11 @@ msgstr "Tickets zurücksetzen"
 
 msgid "Key not found"
 msgstr "Schlüssel wurde nicht gefunden"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "This field is required."
+msgstr "Dieses Feld ist erforderlich"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1615,6 +1630,9 @@ msgstr "Netzwerk muss eine Technische, NOC oder Peering Policy Kontaktperson mit
 msgid "Network has been deleted. Please contact {}"
 msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
 
+msgid "This field may not be blank."
+msgstr ""
+
 msgid "ASN cannot be changed."
 msgstr "ASN kann nicht geändert werden."
 
@@ -1678,6 +1696,12 @@ msgstr ""
 "\n"
 "Für RegEx-Suche à la  <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> muss die Suchanfrage mit ^ beginnen und mit $ enden.\n"
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr "Speichern und Anwenden"
 
@@ -1725,6 +1749,12 @@ msgstr "Vorschau"
 
 msgid "Result"
 msgstr "Ergebnis"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 msgid "PeeringDB API Documentation"
 msgstr "PeeringDB API-Dokumentation"
@@ -2468,6 +2498,32 @@ msgstr "Sprachauswahl gespeichert"
 msgid "Set language preference"
 msgstr "Sprachauswahl speichern"
 
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "Ungültiges Sicherheitstoken"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Erstellungsdatum des Kontos"
 
@@ -2752,9 +2808,6 @@ msgstr "Ablehnen"
 msgid "Add this entry to public peering exchange points"
 msgstr "Öffentliche Peering Austauschpunkte"
 
-msgid "Remove"
-msgstr "Entfernen"
-
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Remove this entry from your public peering exchange points list"
@@ -2918,6 +2971,9 @@ msgstr "Einen weiteren Austauschpunkt vorschlagen"
 msgid "Suggest another network"
 msgstr "Ein weiteres Netzwerk vorschlagen"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "Ich habe mein Passwort vergessen."
 
@@ -2950,6 +3006,9 @@ msgid ""
 "        generator."
 msgstr ""
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -2966,9 +3025,22 @@ msgid "Use Backup Token"
 msgstr "Backup Token verwenden"
 
 #, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "Fügen Sie Ihrer Organisation ein neues Netzwerk hinzu."
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Add TOTP Authentication"
+msgstr "Zwei-Faktor Authentifizierung verwalten"
+
+#, fuzzy
 #| msgid "Confirm password"
 msgid "Email one time password"
 msgstr "Passwort bestätigen"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Ihre E-Mail-Adresse entspricht nicht den Informationen, die uns zu dieser Organisation bekannt sind."
@@ -3074,6 +3146,9 @@ msgstr "Wir haben Ihnen erneut eine Bestätigungsmail zugesandt"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "Bitte warten Sie, bevor Sie eine weitere E-Mail-Änderung beantragen"
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "E-Mail-Adresse existiert bereits in unserem System"

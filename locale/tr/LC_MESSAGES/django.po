@@ -679,6 +679,12 @@ msgstr ""
 msgid "Protected object '{}': {}"
 msgstr ""
 
+msgid "Delete selected objects"
+msgstr ""
+
+msgid "Please confirm deletion of selected objects."
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Kaydı Sil"
 
@@ -908,6 +914,9 @@ msgstr "Satış"
 #| msgid "Facility"
 msgid "Key not found"
 msgstr "Bina"
+
+msgid "This field is required."
+msgstr ""
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1778,6 +1787,9 @@ msgstr ""
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
 
+msgid "This field may not be blank."
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange"
 msgid "ASN cannot be changed."
@@ -1843,6 +1855,12 @@ msgid ""
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr ""
 
@@ -1900,6 +1918,12 @@ msgstr ""
 #| msgid "Exchange - Facility link"
 msgid "Result"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 #, fuzzy
 #| msgid "Peering Policy Information"
@@ -2690,6 +2714,32 @@ msgid "Set language preference"
 msgstr ""
 
 #, fuzzy
+#| msgid "Please wait a bit before trying to login again."
+msgid "Security keys"
+msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
+#, fuzzy
 #| msgid "Account disabled."
 msgid "Account Created"
 msgstr "Hesap hizmet dışı bırakılmıştır."
@@ -3018,9 +3068,6 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr ""
 
-msgid "Remove"
-msgstr "Kaldır"
-
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -3203,6 +3250,9 @@ msgstr "Değişim noktası"
 msgid "Suggest another network"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr ""
 
@@ -3233,6 +3283,9 @@ msgid ""
 "        generator."
 msgstr ""
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -3249,9 +3302,22 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Public Relations"
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "Halkla İlişkiler"
+
+#, fuzzy
+#| msgid "Public Relations"
+msgid "Add TOTP Authentication"
+msgstr "Halkla İlişkiler"
+
+#, fuzzy
 #| msgid "Exchange"
 msgid "Email one time password"
 msgstr "Değişim noktası"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr ""
@@ -3371,6 +3437,9 @@ msgstr ""
 #| msgid "Please wait a bit before trying to login again."
 msgid "Please wait a bit before requesting another email change"
 msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr ""

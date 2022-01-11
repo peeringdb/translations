@@ -691,6 +691,14 @@ msgstr ""
 msgid "Protected object '{}': {}"
 msgstr ""
 
+#, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "Afvis og slet afkrydsede"
+
+msgid "Please confirm deletion of selected objects."
+msgstr ""
+
 msgid "SOFT DELETE"
 msgstr "Blød sletning"
 
@@ -908,6 +916,9 @@ msgstr "Salg"
 #| msgid "Address not found"
 msgid "Key not found"
 msgstr "Adresse ikke fundet"
+
+msgid "This field is required."
+msgstr ""
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1801,6 +1812,9 @@ msgstr ""
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
 
+msgid "This field may not be blank."
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange"
 msgid "ASN cannot be changed."
@@ -1868,6 +1882,12 @@ msgid ""
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr ""
 
@@ -1929,6 +1949,12 @@ msgstr "{} (Forehåndsvis)"
 #| msgid "Exchange - Facility link"
 msgid "Result"
 msgstr "Exchange - Facility link"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 msgid "PeeringDB API Documentation"
 msgstr ""
@@ -2740,6 +2766,32 @@ msgstr ""
 msgid "Set language preference"
 msgstr ""
 
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Security keys"
+msgstr "Ugyldigt eksport format"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr ""
 
@@ -3071,9 +3123,6 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr ""
 
-msgid "Remove"
-msgstr "Fjern"
-
 msgid "Remove this entry from your public peering exchange points list"
 msgstr ""
 
@@ -3260,6 +3309,9 @@ msgstr "Exchange"
 msgid "Suggest another network"
 msgstr "Exchange - Facility link"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 #, fuzzy
 #| msgid "Change Password"
 msgid "I forgot my password .."
@@ -3294,6 +3346,9 @@ msgid ""
 "        generator."
 msgstr ""
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -3310,9 +3365,22 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Public Relations"
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "Offentlige relationer"
+
+#, fuzzy
+#| msgid "Public Relations"
+msgid "Add TOTP Authentication"
+msgstr "Offentlige relationer"
+
+#, fuzzy
 #| msgid "Change Password"
 msgid "Email one time password"
 msgstr "Ændre kodeord"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr ""
@@ -3426,6 +3494,9 @@ msgid "We have resent your confirmation email"
 msgstr ""
 
 msgid "Please wait a bit before requesting another email change"
+msgstr ""
+
+msgid "Invalid password. Please try again."
 msgstr ""
 
 msgid "E-mail already exists in our system"

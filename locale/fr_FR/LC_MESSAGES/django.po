@@ -634,6 +634,14 @@ msgid "Protected object '{}': {}"
 msgstr "Objet protégé '{}' : {}"
 
 #, fuzzy
+#| msgid "DENY and delete selected items"
+msgid "Delete selected objects"
+msgstr "REFUSER et effacer la sélection"
+
+msgid "Please confirm deletion of selected objects."
+msgstr ""
+
+#, fuzzy
 msgid "SOFT DELETE"
 msgstr "SUPPRESSION"
 
@@ -833,6 +841,11 @@ msgstr "Réinitialiser les tickets"
 #| msgid "Address not found"
 msgid "Key not found"
 msgstr "Adresse non-trouvée"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "This field is required."
+msgstr "Ce champs est obligatoire"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1707,6 +1720,9 @@ msgstr ""
 msgid "Network has been deleted. Please contact {}"
 msgstr ""
 
+msgid "This field may not be blank."
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange"
 msgid "ASN cannot be changed."
@@ -1769,6 +1785,12 @@ msgid ""
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 
+msgid "WARNING! This object currently has DoTF protection:"
+msgstr ""
+
+msgid "As a superuser you may still proceed with the deletion."
+msgstr ""
+
 msgid "Save and Apply"
 msgstr ""
 
@@ -1826,6 +1848,12 @@ msgstr "Prévisualisation"
 
 msgid "Result"
 msgstr "Résultat"
+
+msgid "The following objects will be deleted:"
+msgstr ""
+
+msgid "This object currently has DoTF protection:"
+msgstr ""
 
 #, fuzzy
 #| msgid "API Documentation"
@@ -2603,6 +2631,32 @@ msgstr "Préférences linguistiques saugeardées"
 msgid "Set language preference"
 msgstr "Définir la préférence de langue"
 
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "Jeton de sécurité invalide"
+
+msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "passwordless-login"
+msgstr ""
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Register security key"
+msgstr ""
+
+msgid "Password-less login"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Compte créé"
 
@@ -2918,9 +2972,6 @@ msgstr ""
 msgid "Add this entry to public peering exchange points"
 msgstr "Points d'échange publics"
 
-msgid "Remove"
-msgstr "Supprimer"
-
 #, fuzzy
 #| msgid "Public Peering Exchange Points"
 msgid "Remove this entry from your public peering exchange points list"
@@ -3106,6 +3157,9 @@ msgstr "Point d'échange"
 msgid "Suggest another network"
 msgstr "Soumettre le réseau"
 
+msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "J'ai oublié mon mot de passe..."
 
@@ -3136,6 +3190,9 @@ msgid ""
 "        generator."
 msgstr ""
 
+msgid "Requesting U2F security key authentication"
+msgstr ""
+
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
@@ -3152,9 +3209,22 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a TOPT method to your two-factor authentication"
+msgstr "Ajouter un nouveau réseau à votre organisation."
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Add TOTP Authentication"
+msgstr "Gérer les applications OAuth"
+
+#, fuzzy
 #| msgid "Confirm password"
 msgid "Email one time password"
 msgstr "Confirmez mot de passe"
+
+msgid "U2F security key"
+msgstr ""
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Votre adresse email ne correspond pas au nom de domaine associé à cette organisation."
@@ -3264,6 +3334,9 @@ msgstr "Nous avons envoyé à nouveau l'email de confirmation"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "Veuillez patientez avant de demander un autre changement de courrielMerci de bien vouloir patienter avant d'effectuer une nouvelle demande de changement d'email"
+
+msgid "Invalid password. Please try again."
+msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "L'adresse email existe déjà dans notre système"
