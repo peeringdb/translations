@@ -863,6 +863,9 @@ msgstr "Requisito de Proporção"
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Este comando está já em espera / a correr - por favor espere o seu final antes de executar novamente"
 
@@ -923,6 +926,29 @@ msgstr "Alterar seu e-mail"
 #| msgid "Reset Environment"
 msgid "Reset tickets"
 msgstr "Reiniciar Ambiente"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "Tag inválida"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Address not found"
@@ -1221,6 +1247,9 @@ msgstr "Fusão de Infraestruturas: DESFAZER"
 
 msgid "Restore Object(s)"
 msgstr "Restaurar Objeto(s)"
+
+msgid "Validate Data"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "Reiniciar Ambiente"
@@ -1699,7 +1728,10 @@ msgstr "Reiniciar Ambiente"
 msgid "Environment Settings"
 msgstr "Reiniciar Ambiente"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1922,6 +1954,14 @@ msgstr "Pre-visualização"
 
 msgid "Result"
 msgstr "Resultado"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "status da equipe"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2431,6 +2471,11 @@ msgstr "Infraestrutura privada"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "Adicionar rede"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "Registar"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Pesquisar aqui para uma rede, IX, ou infraestrutura."

@@ -839,6 +839,9 @@ msgstr "Requisito de ratio"
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Este comando ya está en cola / ejecutándose, por favor espere a que termine antes de tratar de ejecutarlo otra vez"
 
@@ -903,6 +906,29 @@ msgstr "Cambiar su e-mail"
 #| msgid "Reset Environment"
 msgid "Reset tickets"
 msgstr "Restablecer Entorno"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "Etiqueta inválida"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Network not found"
@@ -1203,6 +1229,9 @@ msgstr "Fusionar instalaciones: DESHACER"
 
 msgid "Restore Object(s)"
 msgstr "Restaurar Objeto(s)"
+
+msgid "Validate Data"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "Restablecer Entorno"
@@ -1677,7 +1706,10 @@ msgstr "Restablecer Entorno"
 msgid "Environment Settings"
 msgstr "Restablecer Entorno"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1900,6 +1932,14 @@ msgstr "Vista Previa"
 
 msgid "Result"
 msgstr "Resultado"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "estatus del personal"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2410,6 +2450,11 @@ msgstr "Instalaciones privadas"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "Añadir una Red"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "Registrarse"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Busca aquí para una red, IX, o instalación."

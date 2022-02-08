@@ -766,6 +766,9 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -815,6 +818,27 @@ msgid "Reset email"
 msgstr ""
 
 msgid "Reset tickets"
+msgstr ""
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
 msgstr ""
 
 msgid "Key not found"
@@ -1086,6 +1110,9 @@ msgid "Merge Facilities: UNDO"
 msgstr ""
 
 msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Validate Data"
 msgstr ""
 
 msgid "Reset Environment"
@@ -1487,7 +1514,10 @@ msgstr ""
 msgid "Environment Settings"
 msgstr ""
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1687,6 +1717,12 @@ msgid "Preview"
 msgstr ""
 
 msgid "Result"
+msgstr ""
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+msgid "Command status"
 msgstr ""
 
 msgid "The following objects will be deleted:"
@@ -2138,6 +2174,9 @@ msgid "Connections to Facilities"
 msgstr ""
 
 msgid "Automated Networks"
+msgstr ""
+
+msgid "Registered Users"
 msgstr ""
 
 msgid "Search here for a network, IX, or facility."

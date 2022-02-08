@@ -776,6 +776,9 @@ msgstr "Keine Anforderungen"
 msgid "Value"
 msgstr "Wert"
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet wird, bevor sie es erneut ausführen"
 
@@ -826,6 +829,31 @@ msgstr "E-Mail zurücksetzen"
 
 msgid "Reset tickets"
 msgstr "Tickets zurücksetzen"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+#, fuzzy
+#| msgid "Client type"
+msgid "Object type"
+msgstr "Client Typ"
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "Ungültiges Stichwort (tag)"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 msgid "Key not found"
 msgstr "Schlüssel wurde nicht gefunden"
@@ -1102,6 +1130,9 @@ msgstr "Zusammenlegung von Gebäuden: RÜCKGÄNGIG MACHEN"
 
 msgid "Restore Object(s)"
 msgstr "Stelle Objekt(e) wieder her"
+
+msgid "Validate Data"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "Setze Umgebung zurück"
@@ -1538,8 +1569,11 @@ msgstr "Umgebungseinstellungen"
 msgid "Environment Settings"
 msgstr "Umgebungseinstellungen"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr "IX-F Importer: Tage bis DeskPRO Ticket erzeugt wird"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
+msgstr ""
 
 msgid "Last Updated"
 msgstr "Zuletzt aktualisiert"
@@ -1749,6 +1783,14 @@ msgstr "Vorschau"
 
 msgid "Result"
 msgstr "Ergebnis"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "Firmenzugehörigkeit"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2240,6 +2282,11 @@ msgstr "Verbindungen zu Liegenschaften"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "Automatisierte Netzwerke"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "Registrieren"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
@@ -3246,6 +3293,9 @@ msgstr "Peeringrichtlinien-Information"
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 
+#~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
+#~ msgstr "IX-F Importer: Tage bis DeskPRO Ticket erzeugt wird"
+
 #~ msgid "RDAP Lookup Error: {}"
 #~ msgstr "RDAP Suchfehler: {}"
 
@@ -3311,9 +3361,6 @@ msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 
 #~ msgid "Client secret"
 #~ msgstr "Client Geheimnis"
-
-#~ msgid "Client type"
-#~ msgstr "Client Typ"
 
 #~ msgid "Authorization Grant Type"
 #~ msgstr "Art der gewährten Autorisierung"

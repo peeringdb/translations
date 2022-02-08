@@ -835,6 +835,9 @@ msgstr "Требуется соотношение трафика"
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -899,6 +902,29 @@ msgstr "Изменить емайл"
 #| msgid "Reset"
 msgid "Reset tickets"
 msgstr "Сбросить"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "Неверный ярлык"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Address not found"
@@ -1210,6 +1236,9 @@ msgid "Merge Facilities: UNDO"
 msgstr "Приватных площадок"
 
 msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Validate Data"
 msgstr ""
 
 #, fuzzy
@@ -1685,7 +1714,10 @@ msgstr "Сбросить"
 msgid "Environment Settings"
 msgstr ""
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1909,6 +1941,13 @@ msgstr "Предпросмотр"
 
 msgid "Result"
 msgstr "Результат"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+msgid "Command status"
+msgstr "статус администратора"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2418,6 +2457,11 @@ msgstr "Приватных площадок"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "Новая сеть"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "Зарегистрироваться"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Поиск сети, IX, площадки."

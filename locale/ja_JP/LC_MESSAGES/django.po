@@ -771,6 +771,9 @@ msgstr "不要"
 msgid "Value"
 msgstr "値"
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "このコマンドは待機中もしくは実行中です。実行が完了するまでお待ちください。"
 
@@ -821,6 +824,29 @@ msgstr "メールアドレスをリセットします"
 
 msgid "Reset tickets"
 msgstr "チケットをリセットします"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "無効なタグ"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 msgid "Key not found"
 msgstr "Key が見つかりません"
@@ -1094,6 +1120,9 @@ msgstr "データセンタをマージする: 取り消す"
 
 msgid "Restore Object(s)"
 msgstr "オブジェクトを復元します"
+
+msgid "Validate Data"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "環境をリセットします"
@@ -1496,8 +1525,11 @@ msgstr "環境設定"
 msgid "Environment Settings"
 msgstr "環境設定"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr "IX-F Importer: DeskPRO ticket が作成されるまでの日数"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
+msgstr ""
 
 msgid "Last Updated"
 msgstr "最新のアップデート"
@@ -1699,6 +1731,14 @@ msgstr "プレビュー"
 
 msgid "Result"
 msgstr "結果"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "スタッフの状態"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2150,6 +2190,11 @@ msgstr "データセンタ利用数"
 
 msgid "Automated Networks"
 msgstr "Automated Networks"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "登録"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "ここで、ネットワーク・IX・データセンタの検索が出来ます"
@@ -3126,6 +3171,9 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
+#~ msgstr "IX-F Importer: DeskPRO ticket が作成されるまでの日数"
 
 #, fuzzy
 #~| msgid "RDAP Lookup Error"

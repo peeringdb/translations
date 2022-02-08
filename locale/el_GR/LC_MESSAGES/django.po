@@ -863,6 +863,9 @@ msgstr "Απαιτήσεις Αναλογίας"
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Aυτή η εντολή βρίσκεται σε αναμονή / εκτελείται - παρακαλούμε αναμείνατε έως ότου ολοκληρωθεί προτού την εκτελέσετε ξανά"
 
@@ -927,6 +930,29 @@ msgstr "Αλλαγή email"
 #| msgid "Reset"
 msgid "Reset tickets"
 msgstr "Επαναφορά"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "Μη έγκυρη ετικέττα"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Address not found"
@@ -1238,6 +1264,9 @@ msgid "Merge Facilities: UNDO"
 msgstr "Ιδιωτικές Εγκαταστάσεις"
 
 msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Validate Data"
 msgstr ""
 
 #, fuzzy
@@ -1713,7 +1742,10 @@ msgstr "Επαναφορά"
 msgid "Environment Settings"
 msgstr ""
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1938,6 +1970,14 @@ msgstr "Προεπισκόπηση"
 
 msgid "Result"
 msgstr "Αποτέλεσμα"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "εταιρικός ρόλος"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2447,6 +2487,11 @@ msgstr "Ιδιωτικές Εγκαταστάσεις"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "Προσθήκη Δικτύου"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "Εγγραφή"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Αναζητήστε εδώ για ένα δίκτυο, IXP, ή εγκατάσταση."

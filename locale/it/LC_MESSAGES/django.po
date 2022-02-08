@@ -815,6 +815,9 @@ msgstr "Nessun requisito"
 msgid "Value"
 msgstr "Valore"
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -873,6 +876,29 @@ msgstr "Resetta  Email"
 #| msgid "Reset"
 msgid "Reset tickets"
 msgstr "Reimposta"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "Tag non valido"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 msgid "Key not found"
 msgstr "Chiave non trovata"
@@ -1181,6 +1207,9 @@ msgid "Merge Facilities: UNDO"
 msgstr "Strutture Private"
 
 msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Validate Data"
 msgstr ""
 
 #, fuzzy
@@ -1648,7 +1677,10 @@ msgstr "Reimposta"
 msgid "Environment Settings"
 msgstr ""
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1871,6 +1903,14 @@ msgstr "Anteprima"
 
 msgid "Result"
 msgstr "Risultato"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "status dello staff"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2380,6 +2420,11 @@ msgstr "Strutture Private"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "Aggiungi Rete"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "Regìstrati"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Cerca qui per una rete, IXP, o struttura."

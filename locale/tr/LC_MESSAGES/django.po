@@ -847,6 +847,9 @@ msgstr "Gerekli değil"
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr ""
 
@@ -909,6 +912,27 @@ msgstr "Satış"
 #| msgid "Sales"
 msgid "Reset tickets"
 msgstr "Satış"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Facility"
@@ -1209,6 +1233,9 @@ msgid "Merge Facilities: UNDO"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "Restore Object(s)"
+msgstr ""
+
+msgid "Validate Data"
 msgstr ""
 
 #, fuzzy
@@ -1688,7 +1715,10 @@ msgstr ""
 msgid "Environment Settings"
 msgstr ""
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 #, fuzzy
@@ -1918,6 +1948,14 @@ msgstr ""
 #| msgid "Exchange - Facility link"
 msgid "Result"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "Status"
+msgid "Command status"
+msgstr "Durum"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2416,6 +2454,9 @@ msgid "Connections to Facilities"
 msgstr "Değişim noktası"
 
 msgid "Automated Networks"
+msgstr ""
+
+msgid "Registered Users"
 msgstr ""
 
 msgid "Search here for a network, IX, or facility."

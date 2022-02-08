@@ -863,6 +863,9 @@ msgstr "比率要求"
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "该命令正在执行中，请等待执行完毕后再试一次"
 
@@ -923,6 +926,29 @@ msgstr "修改 Email"
 #| msgid "Reset Environment"
 msgid "Reset tickets"
 msgstr "重置环境"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "标签无效"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Address not found"
@@ -1251,6 +1277,9 @@ msgstr "合并设施：撤销"
 
 msgid "Restore Object(s)"
 msgstr "恢复对象"
+
+msgid "Validate Data"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "重置环境"
@@ -1729,7 +1758,10 @@ msgstr "重置环境"
 msgid "Environment Settings"
 msgstr "重置环境"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1952,6 +1984,14 @@ msgstr "预览"
 
 msgid "Result"
 msgstr "结果"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "员工状态"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2450,6 +2490,11 @@ msgstr "连接的私有设施"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "添加网络"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "注册"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "在此搜索网络、IX或设施。"

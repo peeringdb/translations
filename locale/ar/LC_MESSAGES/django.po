@@ -864,6 +864,9 @@ msgstr "متطلبات العقد"
 msgid "Value"
 msgstr ""
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "هذا الأمر قيد الانتظار / التشغيل  - يرجى الانتظار حتى الانتهاء قبل تنفيذه مرة أخرى"
 
@@ -924,6 +927,29 @@ msgstr "تغيير البريد الالكتروني"
 #| msgid "Reset Environment"
 msgid "Reset tickets"
 msgstr "إعادة الضبط الافتراضي"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+msgid "Object type"
+msgstr ""
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "علامة غير صحيحة"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Network not found"
@@ -1247,6 +1273,9 @@ msgstr "التراجع عن دمج مراكز بيانات/ تشغيل"
 
 msgid "Restore Object(s)"
 msgstr "استعادة المتغير (المتغيرات)"
+
+msgid "Validate Data"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "إعادة الضبط الافتراضي"
@@ -1721,7 +1750,10 @@ msgstr "إعادة الضبط الافتراضي"
 msgid "Environment Settings"
 msgstr "إعادة الضبط الافتراضي"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
 msgstr ""
 
 msgid "Last Updated"
@@ -1944,6 +1976,14 @@ msgstr "معاينة"
 
 msgid "Result"
 msgstr "نتيجة"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "حالة الموظفين"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2444,6 +2484,11 @@ msgstr "الاتصالات إلى مراكز بيانات/ تشغيل"
 #| msgid "Add Network"
 msgid "Automated Networks"
 msgstr "إضافة شبكة"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "تسجيل دخول"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "ابحث هنا عن شبكة اتصال أو نقطة تبادل بيانات أو مركز البيانات/تشغيل."

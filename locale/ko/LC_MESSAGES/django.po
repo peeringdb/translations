@@ -779,6 +779,9 @@ msgstr "요구 사항 없음"
 msgid "Value"
 msgstr "가치"
 
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "이 명령은 이미 대기/실행 중이므로 완료될 때까지 기다린 후 다시 실행하십시오"
 
@@ -829,6 +832,31 @@ msgstr "이메일 재설정"
 
 msgid "Reset tickets"
 msgstr "티켓 재설정"
+
+msgid "Select a handleref tag to validate"
+msgstr ""
+
+#, fuzzy
+#| msgid "Client type"
+msgid "Object type"
+msgstr "클라이언트 유형"
+
+msgid "Enter a field name to validate"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid"
+msgstr "잘못된 태그"
+
+msgid "Exclude data based on validation result"
+msgstr ""
+
+msgid "Verbose output"
+msgstr ""
 
 #, fuzzy
 #| msgid "Network not found"
@@ -1109,6 +1137,9 @@ msgstr "시설 합병: 실행 취소"
 
 msgid "Restore Object(s)"
 msgstr "개체 복원"
+
+msgid "Validate Data"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "환경 재설정"
@@ -1561,8 +1592,11 @@ msgstr "환경 설정"
 msgid "Environment Settings"
 msgstr "환경 설정"
 
-msgid "IX-F Importer: Days until DeskPRO ticket is created"
-msgstr "IX-F 임포터: DeskPRO 티켓 생성까지 일 수"
+msgid "API: Anonymous user API throttle rate"
+msgstr ""
+
+msgid "API: Authenticated user API throttle rate"
+msgstr ""
 
 msgid "Last Updated"
 msgstr "최신 업데이트"
@@ -1769,6 +1803,14 @@ msgstr "미리보기"
 
 msgid "Result"
 msgstr "결과"
+
+msgid "You can monitor progress and review the results here"
+msgstr ""
+
+#, fuzzy
+#| msgid "staff status"
+msgid "Command status"
+msgstr "직위"
 
 msgid "The following objects will be deleted:"
 msgstr ""
@@ -2246,6 +2288,11 @@ msgstr "시설로 연결"
 
 msgid "Automated Networks"
 msgstr "자동화된 네트워크"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Registered Users"
+msgstr "가입"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "여기에서 네트워크, IX 또는 시설을 검색하십시오."
@@ -3245,6 +3292,9 @@ msgstr "피어링 정책 정보"
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
 
+#~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
+#~ msgstr "IX-F 임포터: DeskPRO 티켓 생성까지 일 수"
+
 #~ msgid "RDAP Lookup Error: {}"
 #~ msgstr "RDAP 룩업 오류: {}"
 
@@ -3292,9 +3342,6 @@ msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오
 
 #~ msgid "Client secret"
 #~ msgstr "클라이언트 비밀"
-
-#~ msgid "Client type"
-#~ msgstr "클라이언트 유형"
 
 #~ msgid "Authorization Grant Type"
 #~ msgstr "인증 허가 유형"
