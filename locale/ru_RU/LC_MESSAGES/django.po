@@ -2208,9 +2208,6 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "Management"
-msgstr "Менеджмент"
-
 msgid "CLLI"
 msgstr "CLLI"
 
@@ -2219,6 +2216,9 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Сбросить"
+
+msgid "Management"
+msgstr "Менеджмент"
 
 msgid "Postal Code"
 msgstr "Почтовый индекс"
@@ -2711,6 +2711,14 @@ msgstr "Действующий пароль"
 msgid "Password Verification"
 msgstr "Проверка пароля"
 
+#, fuzzy
+#| msgid "Create account"
+msgid "Close Account"
+msgstr "Создать аккаунт"
+
+msgid "You may close your account and delete the profile data associated with it. Note that this will not delete your organizations and its entities. If you are the only member of your organization and want it to be deleted as well please do so before closing your account."
+msgstr ""
+
 msgid "You have confirmed your email address!"
 msgstr "Ваш емайл подтвержден!"
 
@@ -3172,6 +3180,9 @@ msgstr "Технический контакт, емайл"
 msgid "Sales E-mail"
 msgstr "Изменить емайл"
 
+msgid "Health Check"
+msgstr ""
+
 msgid "Policy URL"
 msgstr "URL Пиринговой политики"
 
@@ -3278,6 +3289,26 @@ msgid "I forgot my username .."
 msgstr "Я забыл имя пользователя.."
 
 msgid "Token"
+msgstr ""
+
+msgid "Backup Tokens"
+msgstr ""
+
+msgid "Backup tokens can be used when your primary authentication method isn't available. The backup tokens below can be used for login verification. If you've used up all your backup tokens, you can generate a new set of backup tokens. Only the backup tokens shown below will be valid."
+msgstr ""
+
+msgid "Print these tokens and keep them somewhere safe."
+msgstr ""
+
+msgid "You don't have any backup codes yet."
+msgstr ""
+
+#, fuzzy
+#| msgid "Account Created"
+msgid "Back to Account Security"
+msgstr "Аккаунт создан"
+
+msgid "Generate Tokens"
 msgstr ""
 
 #, fuzzy
@@ -3470,6 +3501,11 @@ msgstr "Пожалуйста, выйдите из текущей сессии п
 
 msgid "This email address has already been used"
 msgstr "Этот емайл уже используется"
+
+#, fuzzy
+#| msgid "Current Password"
+msgid "Incorrect password"
+msgstr "Действующий пароль"
 
 #, fuzzy
 msgid "Location"

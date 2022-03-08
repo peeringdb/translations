@@ -2253,9 +2253,6 @@ msgstr "我是交换点、数据中心或其它互联节点的网管。PeeringDB
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "Management"
-msgstr "管理"
-
 msgid "CLLI"
 msgstr "CLLI"
 
@@ -2264,6 +2261,9 @@ msgstr ""
 
 msgid "Reset"
 msgstr "重置"
+
+msgid "Management"
+msgstr "管理"
 
 msgid "Postal Code"
 msgstr "邮政编码"
@@ -2732,6 +2732,14 @@ msgstr "当前密码"
 msgid "Password Verification"
 msgstr "密码验证"
 
+#, fuzzy
+#| msgid "Create account"
+msgid "Close Account"
+msgstr "创建账号"
+
+msgid "You may close your account and delete the profile data associated with it. Note that this will not delete your organizations and its entities. If you are the only member of your organization and want it to be deleted as well please do so before closing your account."
+msgstr ""
+
 msgid "You have confirmed your email address!"
 msgstr "您已经确认了您的电子邮件地址！"
 
@@ -3180,6 +3188,9 @@ msgstr "技术 Email"
 msgid "Sales E-mail"
 msgstr "修改 Email"
 
+msgid "Health Check"
+msgstr ""
+
 msgid "Policy URL"
 msgstr "政策 URL"
 
@@ -3276,6 +3287,26 @@ msgid "I forgot my username .."
 msgstr "忘记用户名.."
 
 msgid "Token"
+msgstr ""
+
+msgid "Backup Tokens"
+msgstr ""
+
+msgid "Backup tokens can be used when your primary authentication method isn't available. The backup tokens below can be used for login verification. If you've used up all your backup tokens, you can generate a new set of backup tokens. Only the backup tokens shown below will be valid."
+msgstr ""
+
+msgid "Print these tokens and keep them somewhere safe."
+msgstr ""
+
+msgid "You don't have any backup codes yet."
+msgstr ""
+
+#, fuzzy
+#| msgid "Account Created"
+msgid "Back to Account Security"
+msgstr "账号已创建"
+
+msgid "Generate Tokens"
 msgstr ""
 
 msgid "Enter your credentials."
@@ -3465,6 +3496,11 @@ msgstr "在注册前，请登出当前会话。请注意，无需多个帐户。
 
 msgid "This email address has already been used"
 msgstr "这个 Email 已被使用"
+
+#, fuzzy
+#| msgid "Current Password"
+msgid "Incorrect password"
+msgstr "当前密码"
 
 msgid "Location"
 msgstr "位置"

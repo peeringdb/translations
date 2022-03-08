@@ -2059,9 +2059,6 @@ msgstr "인터넷 익스체인지 포인트(IXP), 데이터 센터 또는 기타
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가하고 유지함으로써 가시성과 기존 고객에 대한 매력을 높일 수 있습니다. 만약 당신이 데이터베이스에 있다면, 이것은 네트워크가 당신의 서비스와 당신의 IXP나 시설에 존재하는 다른 네트워크에 대한 중요한 정보를 찾는 것을 훨씬 더 쉽게 만듭니다."
 
-msgid "Management"
-msgstr "관리"
-
 msgid "CLLI"
 msgstr "CLLI"
 
@@ -2070,6 +2067,9 @@ msgstr ""
 
 msgid "Reset"
 msgstr "재설정"
+
+msgid "Management"
+msgstr "관리"
 
 msgid "Postal Code"
 msgstr "우편 번호"
@@ -2524,6 +2524,14 @@ msgstr "현재 비밀번호"
 msgid "Password Verification"
 msgstr "비밀번호 확인"
 
+#, fuzzy
+#| msgid "Create account"
+msgid "Close Account"
+msgstr "계정 만들기"
+
+msgid "You may close your account and delete the profile data associated with it. Note that this will not delete your organizations and its entities. If you are the only member of your organization and want it to be deleted as well please do so before closing your account."
+msgstr ""
+
 msgid "You have confirmed your email address!"
 msgstr "이메일 주소를 확인하셨습니다!"
 
@@ -2935,6 +2943,9 @@ msgstr "기술부 이메일"
 msgid "Sales E-mail"
 msgstr "영업 이메일"
 
+msgid "Health Check"
+msgstr ""
+
 msgid "Policy URL"
 msgstr "정책 URL"
 
@@ -3026,6 +3037,28 @@ msgstr "아이디 찾기 .."
 
 msgid "Token"
 msgstr "토큰"
+
+#, fuzzy
+#| msgid "Use Backup Token"
+msgid "Backup Tokens"
+msgstr "백업 토큰 사용하기"
+
+msgid "Backup tokens can be used when your primary authentication method isn't available. The backup tokens below can be used for login verification. If you've used up all your backup tokens, you can generate a new set of backup tokens. Only the backup tokens shown below will be valid."
+msgstr ""
+
+msgid "Print these tokens and keep them somewhere safe."
+msgstr ""
+
+msgid "You don't have any backup codes yet."
+msgstr ""
+
+#, fuzzy
+#| msgid "Account Security"
+msgid "Back to Account Security"
+msgstr "계정 보안"
+
+msgid "Generate Tokens"
+msgstr ""
 
 msgid "Enter your credentials."
 msgstr "로그인 정보를 입력하십시오."
@@ -3219,6 +3252,11 @@ msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 복수
 
 msgid "This email address has already been used"
 msgstr "이 이메일 주소는 이미 사용되었습니다"
+
+#, fuzzy
+#| msgid "Current Password"
+msgid "Incorrect password"
+msgstr "현재 비밀번호"
 
 msgid "Location"
 msgstr "위치"
