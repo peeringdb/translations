@@ -722,6 +722,14 @@ msgstr "조직 병합 도구"
 msgid "Undo merge"
 msgstr "병합 취소"
 
+#, fuzzy
+#| msgid "Suggest another network"
+msgid "ASN is already in use by another network"
+msgstr "다른 네트워크 제안"
+
+msgid "Name is already in use by another network"
+msgstr ""
+
 msgid "APPROVE selected items"
 msgstr "선택한 항목 승인"
 
@@ -748,6 +756,9 @@ msgstr "취소된 소속 요청을 승인할 수 없음"
 
 msgid "Deny"
 msgstr "거절"
+
+msgid "Usernames cannot start with \"apikey\""
+msgstr ""
 
 msgid "Change Password"
 msgstr "비밀번호 변경"
@@ -781,9 +792,6 @@ msgstr "요구 사항 없음"
 
 msgid "Value"
 msgstr "가치"
-
-msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
-msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "이 명령은 이미 대기/실행 중이므로 완료될 때까지 기다린 후 다시 실행하십시오"
@@ -1595,10 +1603,70 @@ msgstr "환경 설정"
 msgid "Environment Settings"
 msgstr "환경 설정"
 
-msgid "API: Anonymous user API throttle rate"
+msgid "API: Anonymous API throttle rate"
 msgstr ""
 
-msgid "API: Authenticated user API throttle rate"
+msgid "API: Authenticated API throttle rate"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for users"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for users"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for organizations"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for organizations"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for anonymous requests (ips)"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for ip blocks"
+msgstr ""
+
+msgid "API: Response size throttle enabled for ip blocks"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for ip addresses"
+msgstr ""
+
+msgid "API: Response size throttle enabled for ip addresses"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for authenticated users"
+msgstr ""
+
+msgid "API: Response size throttle enabled for authenticated users"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for organization api-keys"
+msgstr ""
+
+msgid "API: Response size throttle enabled for organization api-keys"
+msgstr ""
+
+msgid "API: Anonymous API throttle rate message"
+msgstr ""
+
+msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
 msgid "Last Updated"
@@ -3190,6 +3258,12 @@ msgstr "계층명의 모든 부분은 동일한 유형이어야 함"
 msgid "At least one component must be an actual set name"
 msgstr "하나 이상의 구성 요소가 실제 세트 이름이어야 함"
 
+msgid "Needs to be 'True', 'False', 1 or 0"
+msgstr ""
+
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "소유권을 다시 요청하기 전에 잠시 기다리십시오."
 
@@ -3252,6 +3326,9 @@ msgstr "가입하기 전에 현재 세션에서 로그아웃하십시오. 복수
 
 msgid "This email address has already been used"
 msgstr "이 이메일 주소는 이미 사용되었습니다"
+
+msgid "Username cannot start with 'apikey'"
+msgstr ""
 
 #, fuzzy
 #| msgid "Current Password"

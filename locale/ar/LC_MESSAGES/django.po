@@ -801,6 +801,14 @@ msgstr "الوسائل/ أدوات دمج المؤسسة"
 msgid "Undo merge"
 msgstr "التراجع/ إلغاء الدمج"
 
+#, fuzzy
+#| msgid "Suggest another network"
+msgid "ASN is already in use by another network"
+msgstr "اقترح شبكة اخرى"
+
+msgid "Name is already in use by another network"
+msgstr ""
+
 msgid "APPROVE selected items"
 msgstr "الموافقة على العناصر المحددة"
 
@@ -831,6 +839,9 @@ msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
 
 msgid "Deny"
 msgstr "رفض"
+
+msgid "Usernames cannot start with \"apikey\""
+msgstr ""
 
 msgid "Change Password"
 msgstr "تغيير كلمة المرور"
@@ -865,9 +876,6 @@ msgid "No requirements"
 msgstr "متطلبات العقد"
 
 msgid "Value"
-msgstr ""
-
-msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
@@ -1753,10 +1761,70 @@ msgstr "إعادة الضبط الافتراضي"
 msgid "Environment Settings"
 msgstr "إعادة الضبط الافتراضي"
 
-msgid "API: Anonymous user API throttle rate"
+msgid "API: Anonymous API throttle rate"
 msgstr ""
 
-msgid "API: Authenticated user API throttle rate"
+msgid "API: Authenticated API throttle rate"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for users"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for users"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for organizations"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for organizations"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for anonymous requests (ips)"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for ip blocks"
+msgstr ""
+
+msgid "API: Response size throttle enabled for ip blocks"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for ip addresses"
+msgstr ""
+
+msgid "API: Response size throttle enabled for ip addresses"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for authenticated users"
+msgstr ""
+
+msgid "API: Response size throttle enabled for authenticated users"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for organization api-keys"
+msgstr ""
+
+msgid "API: Response size throttle enabled for organization api-keys"
+msgstr ""
+
+msgid "API: Anonymous API throttle rate message"
+msgstr ""
+
+msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
 msgid "Last Updated"
@@ -3429,6 +3497,12 @@ msgstr ""
 msgid "At least one component must be an actual set name"
 msgstr ""
 
+msgid "Needs to be 'True', 'False', 1 or 0"
+msgstr ""
+
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "الرجاء الانتظار قليلاً قبل اجراء طلب الملكية مرة أخرى."
 
@@ -3491,6 +3565,9 @@ msgstr "الرجاء تسجيل الخروج من جلسة العمل الحال
 
 msgid "This email address has already been used"
 msgstr "تم استخدام هذا البريد الإلكتروني من قبل"
+
+msgid "Username cannot start with 'apikey'"
+msgstr ""
 
 #, fuzzy
 #| msgid "Current Password"

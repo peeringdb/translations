@@ -803,6 +803,13 @@ msgstr "Nástroj pro sloučení organizací"
 msgid "Undo merge"
 msgstr "Zrušit sloučení"
 
+#, fuzzy
+msgid "ASN is already in use by another network"
+msgstr "Odeslat síť"
+
+msgid "Name is already in use by another network"
+msgstr ""
+
 msgid "APPROVE selected items"
 msgstr "POTVRDIT vybrané položky"
 
@@ -833,6 +840,9 @@ msgstr "Vaše přidružení k %(ar_name)s bylo zamítnuto"
 
 msgid "Deny"
 msgstr "Odmítout"
+
+msgid "Usernames cannot start with \"apikey\""
+msgstr ""
 
 msgid "Change Password"
 msgstr "Změnit heslo"
@@ -867,9 +877,6 @@ msgid "No requirements"
 msgstr "Požadavek na poměr provozu"
 
 msgid "Value"
-msgstr ""
-
-msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
@@ -1737,10 +1744,70 @@ msgstr "Resetovat"
 msgid "Environment Settings"
 msgstr ""
 
-msgid "API: Anonymous user API throttle rate"
+msgid "API: Anonymous API throttle rate"
 msgstr ""
 
-msgid "API: Authenticated user API throttle rate"
+msgid "API: Authenticated API throttle rate"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for users"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for users"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for organizations"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for organizations"
+msgstr ""
+
+msgid "API: Melissa request throttle rate for anonymous requests (ips)"
+msgstr ""
+
+msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for ip blocks"
+msgstr ""
+
+msgid "API: Response size throttle enabled for ip blocks"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for ip addresses"
+msgstr ""
+
+msgid "API: Response size throttle enabled for ip addresses"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for authenticated users"
+msgstr ""
+
+msgid "API: Response size throttle enabled for authenticated users"
+msgstr ""
+
+msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgstr ""
+
+msgid "API: Response size throttle rate for organization api-keys"
+msgstr ""
+
+msgid "API: Response size throttle enabled for organization api-keys"
+msgstr ""
+
+msgid "API: Anonymous API throttle rate message"
+msgstr ""
+
+msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
 msgid "Last Updated"
@@ -3472,6 +3539,12 @@ msgstr ""
 msgid "At least one component must be an actual set name"
 msgstr ""
 
+msgid "Needs to be 'True', 'False', 1 or 0"
+msgstr ""
+
+msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Počkejte prosím chvíli, než požádáte znovu žádost o vlastnictví."
 
@@ -3534,6 +3607,9 @@ msgstr "Před pokusem o registraci se odhlaste z aktuální relace. Upozorňujem
 
 msgid "This email address has already been used"
 msgstr "Tato emailová adresa je již použita"
+
+msgid "Username cannot start with 'apikey'"
+msgstr ""
 
 #, fuzzy
 #| msgid "Current Password"
