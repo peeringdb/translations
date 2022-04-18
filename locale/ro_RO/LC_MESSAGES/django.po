@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-18 20:18+0000\n"
+"PO-Revision-Date: 2022-04-18 20:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -228,54 +228,52 @@ msgid "An E.164-formatted phone number starts with a +, followed by the country 
 msgstr "Un număr de telefon în format E.164 începe cu un +, urmat de codul de țară, apoi numărul de telefon național (eliminând cifra 0 din față în majoritatea țărilor), fără spații sau liniuțe între grupurile de cifre"
 
 msgid "Best Effort (no SLA)"
-msgstr ""
+msgstr "Best Effort (fără SLA)"
 
 msgid "Normal Business Hours"
-msgstr ""
+msgstr "Program normal de lucru"
 
 msgid "24/7 Support"
-msgstr ""
+msgstr "Asistență 24/7"
 
 msgid "No Commercial Terms"
-msgstr ""
+msgstr "Fără condiții comerciale"
 
 msgid "Bundled With Other Services"
-msgstr ""
+msgstr "La pachet cu alte servicii"
 
 msgid "Non-recurring Fees Only"
-msgstr ""
+msgstr "Numai taxe nerecurente"
 
 msgid "Recurring Fees"
-msgstr ""
+msgstr "Taxe recurente"
 
 msgid "Owner"
-msgstr ""
+msgstr "Proprietar"
 
 msgid "Lessee"
-msgstr ""
+msgstr "Locatar"
 
 msgid "48 VDC"
-msgstr ""
+msgstr "48 V CC"
 
 msgid "120 VAC"
-msgstr ""
+msgstr "120 V CA"
 
 msgid "208 VAC"
-msgstr ""
+msgstr "208 V CA"
 
 msgid "240 VAC"
-msgstr ""
+msgstr "240 V CA"
 
 msgid "480 VAC"
-msgstr ""
+msgstr "480 V CA"
 
 msgid "Kosovo"
 msgstr "Kosovo"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value: {}"
-msgstr "Eticheta nu este validă"
+msgstr "Valoare invalidă: {}"
 
 msgid "Address 1"
 msgstr "Adresă 1"
@@ -350,22 +348,22 @@ msgid "Sales Phone"
 msgstr "Număr de telefon pentru vânzări"
 
 msgid "Property"
-msgstr ""
+msgstr "Proprietate"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr ""
+msgstr "Un deținător al unei proprietăți este persoana fizică sau entitatea care deține dreptul de proprietate asupra acesteia. Un locatar este un utilizator al unei proprietăți care are un contract de închiriere sau un acord cu deținătorul proprietății."
 
 msgid "Diverse Serving Substations"
-msgstr ""
+msgstr "Substații diverse de deservire"
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
-msgstr ""
+msgstr "Două căi separate și distincte către substații individuale, care ar trebui să mențină o cale separată înapoi la una sau mai multe stații de generare de utilități."
 
 msgid "Available Voltage Services"
-msgstr ""
+msgstr "Servicii de tensiune disponibile"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr ""
+msgstr "Tensiunea de curent alternativ disponibilă utilizatorilor instalației fie direct de la proprietar, fie livrată de regie separat."
 
 msgid "Continental Region"
 msgstr "Regiune continentală"
@@ -496,13 +494,11 @@ msgstr "Numărul IX-F al rețelei"
 msgid "IX-F Last Import"
 msgstr "Ultimul import IX-F"
 
-#, fuzzy
-#| msgid "Traffic Levels"
 msgid "Service Level"
-msgstr "Niveluri de trafic"
+msgstr "Nivelul serviciului"
 
 msgid "Terms"
-msgstr ""
+msgstr "Termeni"
 
 msgid "Internet Exchange"
 msgstr "Internet Exchange"
@@ -643,13 +639,11 @@ msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiec
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
 
-#, fuzzy
-#| msgid "Result"
 msgid "Resul length"
-msgstr "Rezultat"
+msgstr "Lungimea rezultatului"
 
 msgid "Show {} rows"
-msgstr ""
+msgstr "Afișați {} rânduri"
 
 msgid "Verification Queue is currently disabled"
 msgstr "În acest moment lista de așteptare în vederea verificării este dezactivată"
@@ -1006,14 +1000,13 @@ msgstr "reCAPTCHA nu este valid"
 msgid "captcha invalid"
 msgstr "captcha nu este valid"
 
-#, fuzzy, python-format
-#| msgid "Negative value not allowed"
+#, python-format
 msgid "File type %(value)s not allowed"
-msgstr "Valoarea negativă nu este permisă"
+msgstr "Tipul de fișier %(value)s nu este permis"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
-msgstr ""
+msgstr "Dimensiunea fișierului este prea mare, max. %(value)s"
 
 msgid "Error in forward geocode: No results found"
 msgstr "Eroare în geocodul direct: nu s-au găsit rezultate"
@@ -1039,13 +1032,11 @@ msgstr "Lungimea postmortem nu poate depăși {} înregistrări"
 msgid "This ASN is not assigned by any RIR"
 msgstr "Acest ASN nu este atribuit de niciun RIR"
 
-#, fuzzy
-#| msgid "ASNs in this range are not allowed in this environment"
 msgid "ASNs in this range are private or reserved"
-msgstr "ASN-urile din acest interval nu sunt permise în acest mediu"
+msgstr "ASN-urile din acest interval sunt private sau rezervate"
 
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "Intrarea pentru (ASN și IPv4 și IPv6) nu există în datele IX-F ale Exchange-ului ca o conexiune singulară a membrului"
@@ -1158,31 +1149,23 @@ msgstr "A fost normalizată adresa acestui obiect cu un apel către API-ul Googl
 msgid "Last time of attempted geocode"
 msgstr "Ultima încercare a geocode"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding timed out"
-msgstr "Eroare de geocodare"
+msgstr "Codificarea geografică a expirat"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding failed: {}"
-msgstr "Eroare de geocodare"
+msgstr "Codificarea geografică a eșuat: {}"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup timed out"
-msgstr "Eroare de geocodare"
+msgstr "Căutarea locației geografice a expirat"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
-msgstr "Eroare de geocodare"
+msgstr "Căutarea locației geografice a eșuat: {}"
 
 msgid "Geocoordinate Cache"
-msgstr ""
+msgstr "Cache-ul de coordonate geografice"
 
 msgid "Geocoordinate Cache Entries"
-msgstr ""
+msgstr "Intrările coordonatelor geografice în cache"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Această organizație din baza noastră de date care a derivat din ASN-ul sau numele organizației furnizate. Dacă acest lucru este gol înseamnă că nu a fost găsită nicio organizație potrivită."
@@ -1310,15 +1293,11 @@ msgstr "Îmbinarea organizației: entitatea"
 msgid "Organization Merge: Entities"
 msgstr "Îmbinarea organizației: entități"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of exchanges at this facility"
-msgstr "Numărul de rețele prezente la această facilitate"
+msgstr "Numărul de Internet Exchange-uri prezente la această Facilitate"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of networks at this facility"
-msgstr "Numărul de rețele prezente la această facilitate"
+msgstr "Numărul de rețele prezente la această Facilitate"
 
 msgid "Need to specify at least two asns"
 msgstr "Trebuie să specificați cel puțin două ASN-uri"
@@ -1332,52 +1311,38 @@ msgstr "Facilitatea are prezențe active în Exchange-uri: {} ..."
 msgid "Facility has active network presence(s): {} ..."
 msgstr "Facilitatea are prezențe active în rețele: {} ..."
 
-#, fuzzy
-#| msgid "Enable IX-F Import"
 msgid "Manual IX-F import request"
-msgstr "Activați importul IX-F"
+msgstr "Solicitare manuală de import IX-F"
 
 msgid "Date of most recent manual import request"
-msgstr ""
+msgstr "Data celei mai recente solicitări de import manual"
 
-#, fuzzy
-#| msgid "Enable IX-F Import"
 msgid "Manual IX-F import status"
-msgstr "Activați importul IX-F"
+msgstr "Starea importului manual IX-F"
 
 msgid "The current status of the manual ix-f import request"
-msgstr ""
+msgstr "Starea actuală a cererii de import manual IX-F"
 
 msgid "Queued"
-msgstr ""
+msgstr "În așteptare"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "Importing"
-msgstr "Importul IX-F"
+msgstr "Import"
 
 msgid "Finished"
-msgstr ""
+msgstr "Terminat"
 
-#, fuzzy
-#| msgid "IX-F Import Email"
 msgid "Import failed"
-msgstr "Adresa de e-mail a importului IX-F"
+msgstr "Importul nu a reușit"
 
-#, fuzzy
-#| msgid "The user that made the request"
 msgid "The user that triggered the manual ix-f import request"
-msgstr "Utilizatorul care a făcut solicitarea"
+msgstr "Utilizatorul care a declanșat cererea manuală de import IX-F"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this exchange"
-msgstr "Numărul de rețele prezente la acest Internet Exchange"
+msgstr "numărul de Facilități la acest Internet Exchange"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of networks at this exchange"
-msgstr "Numărul de rețele prezente la acest Internet Exchange"
+msgstr "numărul de rețele la acest Internet Exchange"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr "Exchange-ul are conexiuni active la Facilități: {} ..."
@@ -1460,18 +1425,14 @@ msgstr "IXLanPrefix cu starea '{}' nu poate fi legat de un IXLan cu starea '{}'.
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifică dacă unui IXP i se permite să adauge o intrare netixlan pentru această rețea prin intermediul datelor sale ixp_member"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of exchanges at this network"
-msgstr "Numărul de rețele prezente la această facilitate"
+msgstr "Numărul de Internet Exchange-uri la această rețea"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this network"
-msgstr "Numărul de rețele prezente la acest Internet Exchange"
+msgstr "numărul de Facilități la această rețea"
 
 msgid "Last technical contact point for network with active peers"
-msgstr ""
+msgstr "Ultimul punct de contact tehnic pentru rețeaua cu peer-i activi"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
@@ -1694,10 +1655,8 @@ msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiec
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr "Nu am putut găsi adresa pe care ați introdus-o. Vă rugăm să consultați datele despre adresă și să contactați {} pentru asistență suplimentară, dacă este necesar."
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value"
-msgstr "Eticheta nu este validă"
+msgstr "Valoarea nu este validă"
 
 msgid "Need to be unique"
 msgstr "Trebuie să fie unic"
@@ -1721,7 +1680,7 @@ msgid "Object of type '%(type)s' cannot be created because its parent entity '%(
 msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
 msgid "Required for distance filtering"
-msgstr ""
+msgstr "Necesar pentru filtrarea la distanță"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politici cu o adresă e-mail validă înainte de a adăuga un Internet Exchange."
@@ -1777,21 +1736,18 @@ msgstr "în locul"
 
 #, python-format
 msgid "Show %(num)s rows"
-msgstr ""
+msgstr "Afișează %(num)s rânduri"
 
 msgid "(Warning: potentially long load)"
-msgstr ""
+msgstr "(Avertisment: încărcare potențial lungă)"
 
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+#, python-format
 msgid ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 "\n"
-"Pentru a utiliza <a href=\"%(doc_url)s\" target=\"_blank\"> căutare regex </a>, începeți termenul de căutare cu ^ și terminați cu $.\n"
+"Pentru a utiliza <a href=\"%(doc_url)s\" target=\"_blank\">căutarea regex</a>, începeți termenul de căutare cu ^ și terminați cu $. <!-- lgtm[js/unsafe-external-link] -->\n"
 
 msgid "WARNING! This object currently has DoTF protection:"
 msgstr ""
@@ -1875,6 +1831,14 @@ msgid ""
 "\n"
 "You can add objects to your organization here: %(org_url)s\n"
 msgstr ""
+"\n"
+"Vi s-a trimis acest mesaj deoarece sunteți administrator pentru %(org_name)s.\n"
+"\n"
+"%(org_name)s nu are în prezent nicio facilitate, Internet Exchange-uri sau rețele active în aceasta.\n"
+"\n"
+"Dacă rămâne goală timp de %(duration)s zile, va fi eliminată.\n"
+"\n"
+"Puteți adăuga obiecte la organizația dvs. aici: %(org_url)s\n"
 
 msgid "Merge Notification"
 msgstr "Îmbină notificarea"
@@ -2093,7 +2057,7 @@ msgid "CLLI"
 msgstr "CLLI"
 
 msgid "Does not matter"
-msgstr ""
+msgstr "Nu contează"
 
 msgid "Reset"
 msgstr "Resetare"
@@ -2118,7 +2082,7 @@ msgid "IP Block"
 msgstr "Bloc de adrese IP"
 
 msgid "Capacity"
-msgstr ""
+msgstr "Capacitate"
 
 msgid "Address"
 msgstr "Adresă"
@@ -2127,40 +2091,28 @@ msgid "Postal"
 msgstr "Poștal"
 
 msgid "Within Distance"
-msgstr ""
+msgstr "La distanță de"
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
-msgstr "Unele dintre contactele acestei rețele sunt ascunse deoarece acestea sunt vizibile numai pentru utilizatorii autentificați și momentan dvs. nu sunteți autentificat."
+msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii autentificați iar în prezent nu sunteți autentificat."
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
-msgstr "Unele dintre contactele acestei rețele sunt ascunse, deoarece contul dvs. de utilizator nu este afiliat la nicio organizație."
+msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii verificați iar în prezent nu sunteți afiliat la nicio organizație."
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Presence"
-msgstr "Sfera rețelei"
+msgstr "Prezența rețelei"
 
 msgid "Search networks ..."
-msgstr ""
+msgstr "Caută rețele..."
 
-#, fuzzy
-#| msgid "Present"
 msgid "All present"
-msgstr "Prezent"
+msgstr "Toate prezente"
 
-#, fuzzy
-#| msgid "Present"
 msgid "Any present"
-msgstr "Prezent"
+msgstr "Oricare prezent"
 
-#, fuzzy
-#| msgid "Present"
 msgid "None present"
-msgstr "Prezent"
+msgstr "Niciunul prezent"
 
 msgid "Traffic Ratio"
 msgstr "Raport de trafic"
@@ -2201,15 +2153,11 @@ msgstr "Sfera rețelei"
 msgid "Exchanges"
 msgstr "Internet Exchange-uri"
 
-#, fuzzy
-#| msgid "Organization Merges"
 msgid "My organization presence"
-msgstr "Îmbinările organizațiilor"
+msgstr "Prezența organizației mele"
 
-#, fuzzy
-#| msgid "Present"
 msgid "Not present"
-msgstr "Prezent"
+msgstr "Nu este prezent"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracteristici pot funcționa diferit de mediul de producție. Nu stocați aici datele pe care intenționați să le păstrați"
@@ -2667,10 +2615,8 @@ msgstr "Vă rugăm să solicitați proprietatea numai dacă sunteți sigur că a
 msgid "Only verified users may request ownership to an organization"
 msgstr "Doar utilizatorii verificați pot solicita proprietatea asupra unei organizații"
 
-#, fuzzy
-#| msgid "Sponsors"
 msgid "sponsor"
-msgstr "Sponsori"
+msgstr "sponsor"
 
 msgid "Suggest Exchange"
 msgstr "Sugerați un Internet Exchange"
@@ -3164,7 +3110,7 @@ msgid "days ago"
 msgstr "zile în urmă"
 
 msgid "Private contacts are no longer supported."
-msgstr ""
+msgstr "Contactele private nu mai sunt acceptate."
 
 msgid "Not a valid phone number (E.164)"
 msgstr "Nu este un număr de telefon valid (E.164)"
@@ -3301,15 +3247,11 @@ msgstr "Geocod"
 msgid "Markdown enabled"
 msgstr "Markdown activat"
 
-#, fuzzy
-#| msgid "Logout"
 msgid "Logo"
-msgstr "Deconectare"
+msgstr "Siglă"
 
-#, fuzzy
-#| msgid "Maximum speed: {}"
 msgid "Max size: {}kb"
-msgstr "Viteza maximă: {}"
+msgstr "Dimensiune maximă: {}kb"
 
 msgid "LAN"
 msgstr "LAN"
@@ -3320,10 +3262,8 @@ msgstr "MTU"
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
 
-#, fuzzy
-#| msgid "Request Ownership"
 msgid "Request import"
-msgstr "Solicitați proprietatea"
+msgstr "Solicitați importul"
 
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
