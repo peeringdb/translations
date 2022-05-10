@@ -617,6 +617,9 @@ msgstr "ステータス"
 msgid "Target org cannot be in selected organizations list"
 msgstr "対象の組織は、選択された組織のリストにはありませんでした"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "ロールバック"
 
@@ -1611,6 +1614,66 @@ msgstr "Configured on"
 msgid "Last updated by this user"
 msgstr "ユーザによる前回の更新"
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "組織に所属しましょう"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Application"
+msgstr "OAuth アプリケーションで管理する"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Applications"
+msgstr "OAuth アプリケーションで管理する"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "更新された"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "削除"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgid "Last time user was notified about changes to this object"
+msgstr "Last time we notified the exchange about the IX-F parsing issue"
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "統合の通知"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "統合の通知"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "メールアドレスを変更する"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "メールアドレスを変更する"
+
 msgid "Organization and all Entities it owns"
 msgstr "所有している組織と全エンティティ"
 
@@ -2021,6 +2084,36 @@ msgstr "そのメールアドレスと紐づくユーザ名を閲覧するには
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "もしユーザ名の検索をリクエストしていない場合は、このメールは無視してください"
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "あなたは"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "New Application"
+msgstr "既存の所属先"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "No applications defined"
+msgstr "あなたは"
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "ここでアカウントを登録する事が出来ます"
+
 msgid "Our Culture"
 msgstr "PeeringDB のカルチャー"
 
@@ -2362,6 +2455,11 @@ msgstr "取り消し"
 
 msgid "Add Key"
 msgstr "Key を追加"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Application"
+msgstr "既存の所属先"
 
 msgid "Partners"
 msgstr "パートナー"
@@ -2896,6 +2994,9 @@ msgstr "パーミッション"
 msgid "API Key Permissions"
 msgstr "API Key 権限"
 
+msgid "OAuth"
+msgstr ""
+
 msgid "Delete Organization"
 msgstr "組織を削除"
 
@@ -3192,6 +3293,9 @@ msgstr "再度確認メールを送るまで少々お待ちください"
 msgid "We have resent your confirmation email"
 msgstr "確認メールをあなたに送りました"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "メールアドレス変更のリクエストをする前に少々お待ちください"
 
@@ -3257,6 +3361,16 @@ msgstr "IX-F Import を有効にする"
 msgid "Request import"
 msgstr "Request import"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "統合の通知"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "統合の通知"
+
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル"
 
@@ -3277,6 +3391,14 @@ msgstr "IXP Update を許可する"
 
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "有効にすると、IXP はピアリングリストにあるこのネットワークのエントリーを管理する事が出来ます"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "IXP Update を許可する"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
 
 msgid "IXP Update Tools"
 msgstr "IXP Update Tools"
@@ -3305,21 +3427,6 @@ msgstr "再度ログインを試す前に少々お待ちください"
 #~| msgid "The password reset process has expired, please"
 #~ msgid "The access token has expired."
 #~ msgstr "パスワードリセット処理が失効しました"
-
-#, fuzzy
-#~| msgid "Existing affiliations"
-#~ msgid "Edit application"
-#~ msgstr "既存の所属先"
-
-#, fuzzy
-#~| msgid "Your affiliation with"
-#~ msgid "Your applications"
-#~ msgstr "あなたは"
-
-#, fuzzy
-#~| msgid "you may register for one here"
-#~ msgid "if you want to register a new one"
-#~ msgstr "ここでアカウントを登録する事が出来ます"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "vlan_list の一覧にエントリーがありませんでしたので中断します"
@@ -3359,9 +3466,6 @@ msgstr "再度ログインを試す前に少々お待ちください"
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "重複した IP アドレス(IPs)"
-
-#~ msgid "Updated"
-#~ msgstr "更新された"
 
 #, fuzzy
 #~| msgid "Merge Facilities"

@@ -617,6 +617,9 @@ msgstr ""
 msgid "Target org cannot be in selected organizations list"
 msgstr ""
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr ""
 
@@ -1599,6 +1602,48 @@ msgstr ""
 msgid "Last updated by this user"
 msgstr ""
 
+msgid "application is owned by this organization"
+msgstr ""
+
+msgid "OAuth Application"
+msgstr ""
+
+msgid "OAuth Applications"
+msgstr ""
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+msgid "Last time user was notified about changes to this object"
+msgstr ""
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+msgid "Reason for notification"
+msgstr ""
+
+msgid "Source of automated update"
+msgstr ""
+
+msgid "Data Change Notification Queue"
+msgstr ""
+
+msgid "Data Change Email"
+msgstr ""
+
+msgid "Data Change Emails"
+msgstr ""
+
 msgid "Organization and all Entities it owns"
 msgstr ""
 
@@ -2005,6 +2050,30 @@ msgstr ""
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr ""
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Relations"
+msgid "Your applications"
+msgstr "Hubungan Masyarakat"
+
+msgid "Details"
+msgstr ""
+
+msgid "New Application"
+msgstr ""
+
+msgid "No applications defined"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+msgid "if you want to register a new one"
+msgstr ""
+
 msgid "Our Culture"
 msgstr ""
 
@@ -2343,6 +2412,9 @@ msgid "Revoke"
 msgstr ""
 
 msgid "Add Key"
+msgstr ""
+
+msgid "Application"
 msgstr ""
 
 msgid "Partners"
@@ -2874,6 +2946,9 @@ msgstr ""
 msgid "API Key Permissions"
 msgstr ""
 
+msgid "OAuth"
+msgstr ""
+
 msgid "Delete Organization"
 msgstr ""
 
@@ -3153,6 +3228,9 @@ msgstr ""
 msgid "We have resent your confirmation email"
 msgstr ""
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr ""
 
@@ -3216,6 +3294,12 @@ msgstr ""
 msgid "Request import"
 msgstr ""
 
+msgid "Disable notifications"
+msgstr ""
+
+msgid "Enable notifications"
+msgstr ""
+
 msgid "Protocols Supported"
 msgstr ""
 
@@ -3235,6 +3319,12 @@ msgid "Allow IXP Update"
 msgstr ""
 
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
+msgstr ""
+
+msgid "Notify On IXP Update"
+msgstr ""
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
 msgstr ""
 
 msgid "IXP Update Tools"

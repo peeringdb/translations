@@ -671,6 +671,9 @@ msgstr "Статус"
 msgid "Target org cannot be in selected organizations list"
 msgstr "Целевая организация не может быть в списке выбранных организаций"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "ОТКАТИТЬ ВЕРСИЮ"
 
@@ -1802,6 +1805,61 @@ msgstr "Подтверждено"
 msgid "Last updated by this user"
 msgstr ""
 
+#, fuzzy
+msgid "application is owned by this organization"
+msgstr "Заявка на связь с организацией"
+
+#, fuzzy
+msgid "OAuth Application"
+msgstr "Управление OAuth-авторизацией"
+
+#, fuzzy
+msgid "OAuth Applications"
+msgstr "Управление OAuth-авторизацией"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "Последнее обновление"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Удалить"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+msgid "Last time user was notified about changes to this object"
+msgstr ""
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "Уведомление о слиянии"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "Уведомление о слиянии"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "Изменить емайл"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "Изменить емайл"
+
 msgid "Organization and all Entities it owns"
 msgstr "Организация и все принадлежащие ей Сущности"
 
@@ -2252,6 +2310,36 @@ msgstr "Перейдите по ссылке для просмотра имен 
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "Если вы не инициировали восстановление имени пользователя, не обращайте внимания на этот емайл."
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "Ваша связь с"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "New Application"
+msgstr "Имеющиеся связи"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "No applications defined"
+msgstr "Ваша связь с"
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "создайте его здесь"
+
 msgid "Our Culture"
 msgstr ""
 
@@ -2639,6 +2727,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Application"
+msgstr "Имеющиеся связи"
 
 msgid "Partners"
 msgstr "Партнеры"
@@ -3235,6 +3328,9 @@ msgstr "Права доступа"
 msgid "API Key Permissions"
 msgstr "Права доступа для Пользователя"
 
+msgid "OAuth"
+msgstr ""
+
 #, fuzzy
 #| msgid "Organization"
 msgid "Delete Organization"
@@ -3549,6 +3645,9 @@ msgstr "Перед повторной отправкой подтверждаю�
 msgid "We have resent your confirmation email"
 msgstr "Емайл с подтверждением отправлен повторно"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "Перед повторной заявкой на изменение емайла подождите некоторое время"
 
@@ -3623,6 +3722,16 @@ msgstr "Лог импорта IXF"
 msgid "Request import"
 msgstr "Подать заявку на права управления"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "Уведомление о слиянии"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "Уведомление о слиянии"
+
 msgid "Protocols Supported"
 msgstr "Поддерживаемые протоколы"
 
@@ -3651,6 +3760,14 @@ msgstr "Разрешить обновление IXP"
 #| msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Если установлен, IXP имеет права управления записью о данной сети в своем списке участников"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "Разрешить обновление IXP"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
 
 #, fuzzy
 #| msgid "Allow IXP Update"
@@ -3691,21 +3808,6 @@ msgstr "Подождите несколько секунд перед повто
 #~ msgid "The access token has expired."
 #~ msgstr "Время для сброса пароля истекло, пожалуйста"
 
-#, fuzzy
-#~| msgid "Existing affiliations"
-#~ msgid "Edit application"
-#~ msgstr "Имеющиеся связи"
-
-#, fuzzy
-#~| msgid "Your affiliation with"
-#~ msgid "Your applications"
-#~ msgstr "Ваша связь с"
-
-#, fuzzy
-#~| msgid "you may register for one here"
-#~ msgid "if you want to register a new one"
-#~ msgstr "создайте его здесь"
-
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Нет записей ни в одном из списков vlan_list, операция прервана."
 
@@ -3744,9 +3846,6 @@ msgstr "Подождите несколько секунд перед повто
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "Конфликтующие IP-адреса"
-
-#~ msgid "Updated"
-#~ msgstr "Последнее обновление"
 
 #, fuzzy
 #~| msgid "Facilities"

@@ -699,6 +699,9 @@ msgstr "狀態"
 msgid "Target org cannot be in selected organizations list"
 msgstr "目標群組織不在選定的列表中"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "回滾"
 
@@ -1848,6 +1851,64 @@ msgstr "已確認"
 msgid "Last updated by this user"
 msgstr ""
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "關聯組織"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Application"
+msgstr "管理 OAuth 應用"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Applications"
+msgstr "管理 OAuth 應用"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "更新"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "刪除"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+msgid "Last time user was notified about changes to this object"
+msgstr ""
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "合併通知"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "合併通知"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "修改 Email"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "修改 Email"
+
 msgid "Organization and all Entities it owns"
 msgstr "組織及其擁有的實體"
 
@@ -2299,6 +2360,36 @@ msgstr "請提供下面的 URL 查看與您的 Email 關聯的用戶名。"
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "如果您未請求用戶名查找，請忽略此郵件。"
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "您的關聯"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "New Application"
+msgstr "現有的關聯"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "No applications defined"
+msgstr "您的關聯"
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "你可以在此註冊一個"
+
 msgid "Our Culture"
 msgstr "我們的文化"
 
@@ -2666,6 +2757,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Application"
+msgstr "現有的關聯"
 
 msgid "Partners"
 msgstr "合作夥伴"
@@ -3255,6 +3351,9 @@ msgstr "許可權"
 msgid "API Key Permissions"
 msgstr "用戶許可權"
 
+msgid "OAuth"
+msgstr ""
+
 #, fuzzy
 #| msgid "Organization"
 msgid "Delete Organization"
@@ -3560,6 +3659,9 @@ msgstr "請稍後再重新發送確認 Email"
 msgid "We have resent your confirmation email"
 msgstr "我們重新發送了您的確認 Email"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "請稍後再請求其他 Email 修改"
 
@@ -3633,6 +3735,16 @@ msgstr "IXF 導入日誌"
 msgid "Request import"
 msgstr "請求所有權"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "合併通知"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "合併通知"
+
 msgid "Protocols Supported"
 msgstr "支援的協定"
 
@@ -3664,6 +3776,14 @@ msgstr "如果啟用，IXP 可以在其對等清單中管理此網路的條目"
 
 #, fuzzy
 #| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "允許 IXP 更新"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
+
+#, fuzzy
+#| msgid "Allow IXP Update"
 msgid "IXP Update Tools"
 msgstr "允許 IXP 更新"
 
@@ -3688,21 +3808,6 @@ msgstr "請稍後再嘗試登錄。"
 #~| msgid "The password reset process has expired, please"
 #~ msgid "The access token has expired."
 #~ msgstr "密碼重置過程已過期，請"
-
-#, fuzzy
-#~| msgid "Existing affiliations"
-#~ msgid "Edit application"
-#~ msgstr "現有的關聯"
-
-#, fuzzy
-#~| msgid "Your affiliation with"
-#~ msgid "Your applications"
-#~ msgstr "您的關聯"
-
-#, fuzzy
-#~| msgid "you may register for one here"
-#~ msgid "if you want to register a new one"
-#~ msgstr "你可以在此註冊一個"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "在 vlan_list 列表中沒有條目，中止中。"
@@ -3742,9 +3847,6 @@ msgstr "請稍後再嘗試登錄。"
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "重複的 IP"
-
-#~ msgid "Updated"
-#~ msgstr "更新"
 
 #~ msgid "ASN no longer in data"
 #~ msgstr "此資料項目內不在包含此ASNs"

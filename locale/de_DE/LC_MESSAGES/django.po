@@ -620,6 +620,9 @@ msgstr "Status"
 msgid "Target org cannot be in selected organizations list"
 msgstr "Zielorganisation darf nicht in ausgewählter Organisationsliste sein"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "ZURÜCKSETZEN"
 
@@ -1655,6 +1658,66 @@ msgstr "Konfiguriert am"
 msgid "Last updated by this user"
 msgstr "Zuletzt aktualisiert durch diesen User"
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "Zuordnung zu einer Organisation anfordern"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Application"
+msgstr "OAuth-Anwendungen verwalten"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Applications"
+msgstr "OAuth-Anwendungen verwalten"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Löschen"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgid "Last time user was notified about changes to this object"
+msgstr "Letzter Zeitpunkt, an dem der Internet Exchange über IX-F Formatprobleme benachrichtigt wurde"
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "Benachrichtigung über Zusammenführung"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "Benachrichtigung über Zusammenführung"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "E-Mail-Adresse ändern"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "E-Mail-Adresse ändern"
+
 msgid "Organization and all Entities it owns"
 msgstr "Unternehmen und alle dazugehörigen Einträge"
 
@@ -2091,6 +2154,30 @@ msgstr "Bitte folgen Sie der untenstehenden URL, um alle mit Ihrer E-Mail verbun
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "Wenn Sie die Wiederauffindung des Benutzernamen nicht angefordert haben, können Sie diese E-Mail ignorieren."
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+msgid "Your applications"
+msgstr "Ihre Anwendungen"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Edit application"
+msgid "New Application"
+msgstr "Anwendungen anpassen"
+
+msgid "No applications defined"
+msgstr "Keine Anwendungen definiert"
+
+msgid "Click here"
+msgstr "Klicke hier"
+
+msgid "if you want to register a new one"
+msgstr "wenn Sie eine neue registrieren wollen"
+
 msgid "Our Culture"
 msgstr "Unsere Kultur"
 
@@ -2454,6 +2541,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Edit application"
+msgid "Application"
+msgstr "Anwendungen anpassen"
 
 msgid "Partners"
 msgstr "Partner"
@@ -3006,6 +3098,9 @@ msgstr "Berechtigungen"
 msgid "API Key Permissions"
 msgstr "Benutzerrechte"
 
+msgid "OAuth"
+msgstr ""
+
 msgid "Delete Organization"
 msgstr "Organisation löschen"
 
@@ -3301,6 +3396,9 @@ msgstr "Bitte warten Sie, bevor Sie erneut eine Bestätigungsmail anfordern"
 msgid "We have resent your confirmation email"
 msgstr "Wir haben Ihnen erneut eine Bestätigungsmail zugesandt"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "Bitte warten Sie, bevor Sie eine weitere E-Mail-Änderung beantragen"
 
@@ -3372,6 +3470,16 @@ msgstr "Aktivieren Sie den IX-F Import"
 msgid "Request import"
 msgstr "Eigentum/Besitzrecht anfordern"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "Benachrichtigung über Zusammenführung"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "Benachrichtigung über Zusammenführung"
+
 msgid "Protocols Supported"
 msgstr "Unterstützte Protokolle"
 
@@ -3398,6 +3506,14 @@ msgstr "IXP-Updates erlauben"
 
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Wenn aktiviert, darf ein IXP den Eintrag dieses Netzwerkes in seiner Peeringliste verwalten"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "IXP-Updates erlauben"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
 
 msgid "IXP Update Tools"
 msgstr "IXP-Update Werkzeug"
@@ -3489,21 +3605,6 @@ msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 #~ msgid "Go Back"
 #~ msgstr "Gehe zurück"
 
-#~ msgid "Edit application"
-#~ msgstr "Anwendungen anpassen"
-
-#~ msgid "Your applications"
-#~ msgstr "Ihre Anwendungen"
-
-#~ msgid "No applications defined"
-#~ msgstr "Keine Anwendungen definiert"
-
-#~ msgid "Click here"
-#~ msgstr "Klicke hier"
-
-#~ msgid "if you want to register a new one"
-#~ msgstr "wenn Sie eine neue registrieren wollen"
-
 #~ msgid "Register a new application"
 #~ msgstr "Registriere eine neue Anwendung"
 
@@ -3566,9 +3667,6 @@ msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "Mehrfach vergebene IPs"
-
-#~ msgid "Updated"
-#~ msgstr "Aktualisiert"
 
 #~ msgid "ASN no longer in data"
 #~ msgstr "ASN existiert nicht länger"

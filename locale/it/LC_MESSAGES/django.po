@@ -657,6 +657,9 @@ msgstr "Stato"
 msgid "Target org cannot be in selected organizations list"
 msgstr "L'organizzazione in analisi non può essere inserita nell'elenco delle organizzazioni selezionate"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "RIPRISTINA"
 
@@ -1765,6 +1768,64 @@ msgstr "Configurato su"
 msgid "Last updated by this user"
 msgstr ""
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "Affìliati con l'organizzazione"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Application"
+msgstr "Gestisci Applicazioni OAuth"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Applications"
+msgstr "Gestisci Applicazioni OAuth"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "Aggiornato"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Rimuovi"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+msgid "Last time user was notified about changes to this object"
+msgstr ""
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "Notifica di unione"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "Notifica di unione"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "Cambia Email"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "Cambia Email"
+
 msgid "Organization and all Entities it owns"
 msgstr "Organizzazione e tutte le Entità che possiede"
 
@@ -2215,6 +2276,36 @@ msgstr "Si prega di seguire l'url qui sotto per visualizzare i nomi utente assoc
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "Se non hai richiesto il recupero del nome utente, ignora questa email."
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "La tua affiliazione con"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "New Application"
+msgstr "Affiliazioni esistenti"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "No applications defined"
+msgstr "La tua affiliazione con"
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "puoi registrarti qui"
+
 msgid "Our Culture"
 msgstr ""
 
@@ -2602,6 +2693,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Application"
+msgstr "Affiliazioni esistenti"
 
 msgid "Partners"
 msgstr "Partner"
@@ -3195,6 +3291,9 @@ msgstr "Permessi"
 msgid "API Key Permissions"
 msgstr "Permessi dell'utente"
 
+msgid "OAuth"
+msgstr ""
+
 #, fuzzy
 #| msgid "Organization"
 msgid "Delete Organization"
@@ -3508,6 +3607,9 @@ msgstr "Si prega di attendere un po' prima di riprovare a inviare l'e-mail di co
 msgid "We have resent your confirmation email"
 msgstr "Abbiamo re-inviato la tua mail di conferma"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
 
@@ -3581,6 +3683,16 @@ msgstr "Registro di importazione IXF"
 msgid "Request import"
 msgstr "Richiedi possesso"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "Notifica di unione"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "Notifica di unione"
+
 msgid "Protocols Supported"
 msgstr "Protocolli supportati"
 
@@ -3612,6 +3724,14 @@ msgstr "Se abilitato, un IXP può gestire l'entrata di questa rete nella loro li
 
 #, fuzzy
 #| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "Permetti Aggiornamento IXP"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
+
+#, fuzzy
+#| msgid "Allow IXP Update"
 msgid "IXP Update Tools"
 msgstr "Permetti Aggiornamento IXP"
 
@@ -3633,21 +3753,6 @@ msgstr "Si prega di attendere un po' prima di riprovare a collegarsi di nuovo."
 #~| msgid "The password reset process has expired, please"
 #~ msgid "The access token has expired."
 #~ msgstr "Il processo di reimpostazione della password è scaduto, si prega di"
-
-#, fuzzy
-#~| msgid "Existing affiliations"
-#~ msgid "Edit application"
-#~ msgstr "Affiliazioni esistenti"
-
-#, fuzzy
-#~| msgid "Your affiliation with"
-#~ msgid "Your applications"
-#~ msgstr "La tua affiliazione con"
-
-#, fuzzy
-#~| msgid "you may register for one here"
-#~ msgid "if you want to register a new one"
-#~ msgstr "puoi registrarti qui"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Nessuna entrata nella lista vlan_list, operazione non riuscita."
@@ -3687,9 +3792,6 @@ msgstr "Si prega di attendere un po' prima di riprovare a collegarsi di nuovo."
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "IP duplicati"
-
-#~ msgid "Updated"
-#~ msgstr "Aggiornato"
 
 #, fuzzy
 #~| msgid "Facilities"

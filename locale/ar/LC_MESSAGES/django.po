@@ -700,6 +700,9 @@ msgstr "الحالة"
 msgid "Target org cannot be in selected organizations list"
 msgstr "لا يمكن أن تكون المؤسسة المعنية في قائمة المؤسسات المحددة"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "العوده للخلف"
 
@@ -1838,6 +1841,64 @@ msgstr "تم التأكيد"
 msgid "Last updated by this user"
 msgstr ""
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "انضم/ انتساب الى منظمة"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Application"
+msgstr "إدارة تطبيقات التحقق"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Applications"
+msgstr "إدارة تطبيقات التحقق"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "تم التحديث"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "حذف"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+msgid "Last time user was notified about changes to this object"
+msgstr ""
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "دمج الإشعار"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "دمج الإشعار"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "تغيير البريد الالكتروني"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "تغيير البريد الالكتروني"
+
 msgid "Organization and all Entities it owns"
 msgstr "المنظمة/ المؤسسة وجميع الكيانات التي تملكها"
 
@@ -2289,6 +2350,34 @@ msgstr "يرجى اتباع الرابط الالكتروني أدناه لعر�
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "إذا لم تطلب استرداد اسم المستخدم ، فيمكنك تجاهل هذا البريد الإلكتروني."
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "Your applications"
+msgstr "الانضمام / الإنتساب مع"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "New Application"
+msgstr "الانتماءات الحالية"
+
+#, fuzzy
+#| msgid "Your affiliation with"
+msgid "No applications defined"
+msgstr "الانضمام / الإنتساب مع"
+
+msgid "Click here"
+msgstr ""
+
+msgid "if you want to register a new one"
+msgstr ""
+
 msgid "Our Culture"
 msgstr "ثقافتنا"
 
@@ -2656,6 +2745,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Application"
+msgstr "الانتماءات الحالية"
 
 msgid "Partners"
 msgstr "الشركاء"
@@ -3238,6 +3332,9 @@ msgstr "صلاحيات"
 msgid "API Key Permissions"
 msgstr "صلاحيات المستخدم"
 
+msgid "OAuth"
+msgstr ""
+
 #, fuzzy
 #| msgid "Organization"
 msgid "Delete Organization"
@@ -3539,6 +3636,9 @@ msgstr "الرجاء الانتظار قليلاً قبل محاولة إعاد�
 msgid "We have resent your confirmation email"
 msgstr "تم إعادة إرسال رسالة التأكيد لبريدك الإكتروني"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "الرجاء الانتظار قليلاً قبل طلب تغيير البريد الإكتروني"
 
@@ -3612,6 +3712,16 @@ msgstr "استيراد بيانات IX-F"
 msgid "Request import"
 msgstr "طلب ملكية"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "دمج الإشعار"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "دمج الإشعار"
+
 msgid "Protocols Supported"
 msgstr "البروتوكولات المدعومة/ المتاحة"
 
@@ -3641,6 +3751,14 @@ msgstr "السماح بتحديث نقطة تبادل الإنترنت IXP"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "في حالة التفعيل ، قد تقوم نقطة تبادل الإنترنت بإدارة إدخال هذه الشبكة في قائمة النظائر/ الأقران الخاصة بهم"
 
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "السماح بتحديث نقطة تبادل الإنترنت IXP"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
+
 msgid "IXP Update Tools"
 msgstr "أدوات تحديث نقطة تبادل الإنترنت"
 
@@ -3665,16 +3783,6 @@ msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل 
 #~| msgid "The password reset process has expired, please"
 #~ msgid "The access token has expired."
 #~ msgstr "انتهت عملية إعادة تعيين كلمة المرور ، الرجاء"
-
-#, fuzzy
-#~| msgid "Existing affiliations"
-#~ msgid "Edit application"
-#~ msgstr "الانتماءات الحالية"
-
-#, fuzzy
-#~| msgid "Your affiliation with"
-#~ msgid "Your applications"
-#~ msgstr "الانضمام / الإنتساب مع"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "لا توجد أي مدخلات في أي من قوائم vlan_list ، إيقاف التنفيذ."
@@ -3709,9 +3817,6 @@ msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل 
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "عناوين بروتوكول الإنترنت مكرره"
-
-#~ msgid "Updated"
-#~ msgstr "تم التحديث"
 
 #~ msgid "ASN no longer in data"
 #~ msgstr "رقم النظام المستقل لم يعد ضمن البيانات"

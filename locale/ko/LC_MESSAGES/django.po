@@ -621,6 +621,9 @@ msgstr "상태"
 msgid "Target org cannot be in selected organizations list"
 msgstr "타겟 조직이 선택한 조직 목록에 있을 수 없음"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "롤백"
 
@@ -1678,6 +1681,66 @@ msgstr "구성 날짜"
 msgid "Last updated by this user"
 msgstr "이 사용자가 마지막으로 업데이트했습니다"
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "조직에 가입하기"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Application"
+msgstr "OAuth 애플리케이션 관리"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Applications"
+msgstr "OAuth 애플리케이션 관리"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "업데이트됨"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "삭제"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgid "Last time user was notified about changes to this object"
+msgstr "지난번 IX-F 파싱 문제에 대해 익스체인지에 공지했을 때"
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "병합 알림"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "병합 알림"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "이메일 변경"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "이메일 변경"
+
 msgid "Organization and all Entities it owns"
 msgstr "조직 및 그 조직이 소유하는 모든 항목들"
 
@@ -2103,6 +2166,30 @@ msgstr "아래 URL을 따라 당신의 이메일과 관련된 사용자 이름�
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "사용자이름 검색을 요청하지 않은 경우, 이 이메일을 무시하십시오."
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+msgid "Your applications"
+msgstr "응용 프로그램"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Edit application"
+msgid "New Application"
+msgstr "응용 프로그램 편집"
+
+msgid "No applications defined"
+msgstr "정의된 응용 프로그램이 없습니다"
+
+msgid "Click here"
+msgstr "여기를 클릭하세요"
+
+msgid "if you want to register a new one"
+msgstr "신규가입을 원하시면"
+
 msgid "Our Culture"
 msgstr "우리의 문화"
 
@@ -2460,6 +2547,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Edit application"
+msgid "Application"
+msgstr "응용 프로그램 편집"
 
 msgid "Partners"
 msgstr "파트너"
@@ -3002,6 +3094,9 @@ msgstr "권한"
 msgid "API Key Permissions"
 msgstr "사용자 허용"
 
+msgid "OAuth"
+msgstr ""
+
 msgid "Delete Organization"
 msgstr "조직 삭제"
 
@@ -3300,6 +3395,9 @@ msgstr "확인 이메일을 다시 전송하기 전에 잠시 기다리십시오
 msgid "We have resent your confirmation email"
 msgstr "당신의 확인 이메일을 다시 전송하였습니다"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "다른 이메일 변경을 요청하기 전에 잠시 기다리십시오"
 
@@ -3371,6 +3469,16 @@ msgstr "IX-F 가져오기 사용"
 msgid "Request import"
 msgstr "소유권 요청"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "병합 알림"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "병합 알림"
+
 msgid "Protocols Supported"
 msgstr "지원되는 프로토콜"
 
@@ -3397,6 +3505,14 @@ msgstr "IXP 업데이트 허용"
 
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "활성화된 경우 IXP는 피어 목록에서 이 네트워크의 항목을 관리할 수 있습니다"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "IXP 업데이트 허용"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
 
 msgid "IXP Update Tools"
 msgstr "IXP 업데이트 도구"
@@ -3470,21 +3586,6 @@ msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오
 #~ msgid "Go Back"
 #~ msgstr "돌아가기"
 
-#~ msgid "Edit application"
-#~ msgstr "응용 프로그램 편집"
-
-#~ msgid "Your applications"
-#~ msgstr "응용 프로그램"
-
-#~ msgid "No applications defined"
-#~ msgstr "정의된 응용 프로그램이 없습니다"
-
-#~ msgid "Click here"
-#~ msgstr "여기를 클릭하세요"
-
-#~ msgid "if you want to register a new one"
-#~ msgstr "신규가입을 원하시면"
-
 #~ msgid "Register a new application"
 #~ msgstr "새 응용 프로그램 등록"
 
@@ -3546,9 +3647,6 @@ msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "IP 중복"
-
-#~ msgid "Updated"
-#~ msgstr "업데이트됨"
 
 #~ msgid "ASN no longer in data"
 #~ msgstr "ASN이 더 이상 데이터에 없음"

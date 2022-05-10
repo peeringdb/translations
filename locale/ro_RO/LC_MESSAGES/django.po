@@ -617,6 +617,9 @@ msgstr "Stare"
 msgid "Target org cannot be in selected organizations list"
 msgstr "Elementul org vizat nu poate fi în lista organizațiilor selectate"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "RESTAUREAZĂ"
 
@@ -1611,6 +1614,66 @@ msgstr "Configurat pe"
 msgid "Last updated by this user"
 msgstr "Actualizat ultima dată de acest utilizator"
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "Afiliați-vă la organizație"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Application"
+msgstr "Gestionați aplicațiile OAuth"
+
+#, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "OAuth Applications"
+msgstr "Gestionați aplicațiile OAuth"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "Actualizat"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Ștergeți"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+#, fuzzy
+#| msgid "Last time we notified the exchange about the IX-F parsing issue"
+msgid "Last time user was notified about changes to this object"
+msgstr "Ultima dată am notificat Exchange-ul despre problema analizării IX-F"
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "Îmbină notificarea"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "Îmbină notificarea"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "Schimbare e-mail"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "Schimbare e-mail"
+
 msgid "Organization and all Entities it owns"
 msgstr "Organizația și toate entitățile pe care aceasta le deține"
 
@@ -2029,6 +2092,30 @@ msgstr "Vă rugăm să accesați URL-ul de mai jos pentru a vedea numele de util
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "Dacă nu ați solicitat furnizarea numelui de utilizator, puteți ignora acest e-mail."
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+msgid "Your applications"
+msgstr "Afilierea cu"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Edit application"
+msgid "New Application"
+msgstr "Editați solicitarea"
+
+msgid "No applications defined"
+msgstr "Nu sunt definite aplicații"
+
+msgid "Click here"
+msgstr "Apăsați aici"
+
+msgid "if you want to register a new one"
+msgstr "dacă doriți să înregistrați unul nou"
+
 msgid "Our Culture"
 msgstr "Cultura noastră"
 
@@ -2370,6 +2457,11 @@ msgstr "Revocați"
 
 msgid "Add Key"
 msgstr "Adăugați cheie"
+
+#, fuzzy
+#| msgid "Edit application"
+msgid "Application"
+msgstr "Editați solicitarea"
 
 msgid "Partners"
 msgstr "Parteneri"
@@ -2904,6 +2996,9 @@ msgstr "Permisiuni"
 msgid "API Key Permissions"
 msgstr "Permisiunile cheilor API"
 
+msgid "OAuth"
+msgstr ""
+
 msgid "Delete Organization"
 msgstr "Ștergeți organizația"
 
@@ -3200,6 +3295,9 @@ msgstr "Vă rugăm să așteptați un pic înainte de a încerca să trimiteți 
 msgid "We have resent your confirmation email"
 msgstr "V-am trimis un e-mail de confirmare"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "Vă rugăm să așteptați puțin înainte de a solicita o altă modificare prin e-mail"
 
@@ -3265,6 +3363,16 @@ msgstr "Activați importul IX-F"
 msgid "Request import"
 msgstr "Solicitați importul"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "Îmbină notificarea"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "Îmbină notificarea"
+
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
 
@@ -3285,6 +3393,14 @@ msgstr "Permite actualizări de la IXP"
 
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Dacă este activat, un IXP poate gestiona intrarea acestei rețele în lista lui de peering"
+
+#, fuzzy
+#| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "Permite actualizări de la IXP"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
 
 msgid "IXP Update Tools"
 msgstr "Instrumente de actualizare IXP"
@@ -3358,21 +3474,6 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 #~ msgid "Go Back"
 #~ msgstr "Mergeți Înapoi"
 
-#~ msgid "Edit application"
-#~ msgstr "Editați solicitarea"
-
-#~ msgid "Your applications"
-#~ msgstr "Afilierea cu"
-
-#~ msgid "No applications defined"
-#~ msgstr "Nu sunt definite aplicații"
-
-#~ msgid "Click here"
-#~ msgstr "Apăsați aici"
-
-#~ msgid "if you want to register a new one"
-#~ msgstr "dacă doriți să înregistrați unul nou"
-
 #~ msgid "Register a new application"
 #~ msgstr "Înregistrați o nouă solicitare"
 
@@ -3431,9 +3532,6 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "Copiați adresele IP"
-
-#~ msgid "Updated"
-#~ msgstr "Actualizat"
 
 #~ msgid "ASN no longer in data"
 #~ msgstr "ASN nu mai este în date"

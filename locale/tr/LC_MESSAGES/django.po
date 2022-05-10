@@ -673,6 +673,9 @@ msgstr "Durum"
 msgid "Target org cannot be in selected organizations list"
 msgstr "Hedef kuruluş seçilmiş olan bu listede olamaz"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "Aşağı Çekmek"
 
@@ -1803,6 +1806,64 @@ msgstr ""
 msgid "Last updated by this user"
 msgstr ""
 
+#, fuzzy
+#| msgid "User is looking to be affiliated to these Organizations"
+msgid "application is owned by this organization"
+msgstr "Kullanıcı bu kuruluşa bağlanmak istiyor"
+
+#, fuzzy
+#| msgid "Public Relations"
+msgid "OAuth Application"
+msgstr "Halkla İlişkiler"
+
+#, fuzzy
+#| msgid "Public Relations"
+msgid "OAuth Applications"
+msgstr "Halkla İlişkiler"
+
+msgid "Added"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Updated"
+msgstr "Bina"
+
+msgid "Deleted"
+msgstr ""
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+msgid "Last time user was notified about changes to this object"
+msgstr ""
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Reason for notification"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Data Change Notification Queue"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Data Change Email"
+msgstr "Satış"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Data Change Emails"
+msgstr "Satış"
+
 msgid "Organization and all Entities it owns"
 msgstr ""
 
@@ -2254,6 +2315,32 @@ msgstr ""
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr ""
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Relations"
+msgid "Your applications"
+msgstr "Halkla İlişkiler"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Public Relations"
+msgid "New Application"
+msgstr "Halkla İlişkiler"
+
+msgid "No applications defined"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+msgid "if you want to register a new one"
+msgstr ""
+
 msgid "Our Culture"
 msgstr ""
 
@@ -2633,6 +2720,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Peering Policy Information"
+msgid "Application"
+msgstr "Eşleşme Politikası Bilgileri"
 
 msgid "Partners"
 msgstr ""
@@ -3255,6 +3347,9 @@ msgstr ""
 msgid "API Key Permissions"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
+msgid "OAuth"
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange - Facility link"
 msgid "Delete Organization"
@@ -3580,6 +3675,9 @@ msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 msgid "We have resent your confirmation email"
 msgstr ""
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before trying to login again."
 msgid "Please wait a bit before requesting another email change"
@@ -3659,6 +3757,16 @@ msgstr "IXF Liste Geçmişi"
 msgid "Request import"
 msgstr ""
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Disable notifications"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Enable notifications"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
 msgid "Protocols Supported"
 msgstr ""
 
@@ -3686,6 +3794,12 @@ msgid "Allow IXP Update"
 msgstr ""
 
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
+msgstr ""
+
+msgid "Notify On IXP Update"
+msgstr ""
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
 msgstr ""
 
 msgid "IXP Update Tools"

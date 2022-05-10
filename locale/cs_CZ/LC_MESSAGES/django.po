@@ -699,6 +699,9 @@ msgstr "Status"
 msgid "Target org cannot be in selected organizations list"
 msgstr "Cílová organizace nemůže být ve vybraném seznamu organizací"
 
+msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
+msgstr ""
+
 msgid "ROLLBACK"
 msgstr "VRÁCENÍ ZPĚT"
 
@@ -1821,6 +1824,62 @@ msgstr "Potrzeno"
 msgid "Last updated by this user"
 msgstr ""
 
+#, fuzzy
+#| msgid "Affiliate with organization"
+msgid "application is owned by this organization"
+msgstr "Přidružení k organizaci"
+
+#, fuzzy
+msgid "OAuth Application"
+msgstr "Správa aplikací OAuth"
+
+#, fuzzy
+msgid "OAuth Applications"
+msgstr "Správa aplikací OAuth"
+
+msgid "Added"
+msgstr ""
+
+msgid "Updated"
+msgstr "Aktualizován"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Smazat"
+
+msgid "User started watching this object at this time"
+msgstr ""
+
+msgid "Last time user was notified about changes to this object"
+msgstr ""
+
+msgid "Data Change Watched Object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Reason for notification"
+msgstr "Sloučit oznámení"
+
+msgid "Source of automated update"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Data Change Notification Queue"
+msgstr "Sloučit oznámení"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Email"
+msgstr "Změna e-mailu"
+
+#, fuzzy
+#| msgid "Change Email"
+msgid "Data Change Emails"
+msgstr "Změna e-mailu"
+
 msgid "Organization and all Entities it owns"
 msgstr "Organizace a všechny subjekty, které vlastní"
 
@@ -2272,6 +2331,34 @@ msgstr "Chcete-li zobrazit uživatelská jména přidružená k vašemu e-mailu,
 msgid "If you did not request username retrieval, you can ignore this email."
 msgstr "Pokud jste nežádali o vyhledání uživatelského jména, můžete tento email ignorovat."
 
+#, python-format
+msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
+msgstr ""
+
+#, fuzzy
+msgid "Your applications"
+msgstr "Váš vztah s"
+
+msgid "Details"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "New Application"
+msgstr "Stávající přičlenění"
+
+#, fuzzy
+msgid "No applications defined"
+msgstr "Váš vztah s"
+
+msgid "Click here"
+msgstr ""
+
+#, fuzzy
+#| msgid "you may register for one here"
+msgid "if you want to register a new one"
+msgstr "můžete se zaregistrovat zde"
+
 msgid "Our Culture"
 msgstr ""
 
@@ -2658,6 +2745,11 @@ msgstr ""
 
 msgid "Add Key"
 msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Application"
+msgstr "Stávající přičlenění"
 
 msgid "Partners"
 msgstr "Partneři"
@@ -3261,6 +3353,9 @@ msgstr "Oprávnění"
 msgid "API Key Permissions"
 msgstr "Uživatelská práva"
 
+msgid "OAuth"
+msgstr ""
+
 #, fuzzy
 #| msgid "Organization"
 msgid "Delete Organization"
@@ -3581,6 +3676,9 @@ msgstr "Prosím počkejte chvíli, než znova požádáte o zaslání potvrzovac
 msgid "We have resent your confirmation email"
 msgstr "Zaslali jsme vám znova potvrzovací e-mail"
 
+msgid "Register on behalf of one of your organizations"
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "Prosím počkejte chvíli, než požádáte o další změnu e-mailu"
 
@@ -3654,6 +3752,16 @@ msgstr "Protokol IXF Importu"
 msgid "Request import"
 msgstr "Žádost o vlastnictví"
 
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Disable notifications"
+msgstr "Sloučit oznámení"
+
+#, fuzzy
+#| msgid "Merge Notification"
+msgid "Enable notifications"
+msgstr "Sloučit oznámení"
+
 msgid "Protocols Supported"
 msgstr "Podporované protokoly"
 
@@ -3684,6 +3792,14 @@ msgstr "Je-li zapnuta, může IXP spravovat tuto síťovou položku ve svém pee
 
 #, fuzzy
 #| msgid "Allow IXP Update"
+msgid "Notify On IXP Update"
+msgstr "Povolit aktualizace ze strany IXP"
+
+msgid "Notify me when an IXP modifies the peering exchange points for this network"
+msgstr ""
+
+#, fuzzy
+#| msgid "Allow IXP Update"
 msgid "IXP Update Tools"
 msgstr "Povolit aktualizace ze strany IXP"
 
@@ -3706,20 +3822,6 @@ msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 #~| msgid "The password reset process has expired, please"
 #~ msgid "The access token has expired."
 #~ msgstr "Restart hesla vypršel, prosím"
-
-#, fuzzy
-#~| msgid "Existing affiliations"
-#~ msgid "Edit application"
-#~ msgstr "Stávající přičlenění"
-
-#, fuzzy
-#~ msgid "Your applications"
-#~ msgstr "Váš vztah s"
-
-#, fuzzy
-#~| msgid "you may register for one here"
-#~ msgid "if you want to register a new one"
-#~ msgstr "můžete se zaregistrovat zde"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Žádné položky v seznamu vlan_list, ukončení."
@@ -3760,9 +3862,6 @@ msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 
 #~ msgid "Duplicate IPs"
 #~ msgstr "Duplicitní IP adresy"
-
-#~ msgid "Updated"
-#~ msgstr "Aktualizován"
 
 #, fuzzy
 #~| msgid "Merge Facilities"
