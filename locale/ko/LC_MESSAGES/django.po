@@ -2290,8 +2290,8 @@ msgstr "존재함"
 msgid "Traffic Ratio"
 msgstr "트래픽 비율"
 
-msgid "Primary ASN"
-msgstr "주요 ASN"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "일반적인 피어링 정책"
@@ -2316,9 +2316,6 @@ msgstr "한 시설에는 있지만 다른 시설에는 없는 네트워크 검�
 
 msgid "Also known as"
 msgstr "다음으로도 알려진"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "네트워크 범위"
@@ -2425,6 +2422,11 @@ msgstr "API"
 
 msgid "Documentation"
 msgstr "문서화"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "사용 바랍니다"
 
 msgid "FAQ"
 msgstr "FAQ (자주하는 질문)"
@@ -3525,6 +3527,9 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "Primary ASN"
+#~ msgstr "주요 ASN"
 
 #~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
 #~ msgstr "IX-F 임포터: DeskPRO 티켓 생성까지 일 수"

@@ -2488,8 +2488,8 @@ msgstr "未设置"
 msgid "Traffic Ratio"
 msgstr "流量比率"
 
-msgid "Primary ASN"
-msgstr "主要 ASN"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "一般对等政策"
@@ -2516,9 +2516,6 @@ msgstr "搜索在一个设施存在但不存在于另一个设施的网络"
 
 msgid "Also known as"
 msgstr "别名"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "网络范围"
@@ -2629,6 +2626,11 @@ msgstr "可接受使用政策"
 
 msgid "Documentation"
 msgstr "文档"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "请使用"
 
 msgid "FAQ"
 msgstr "常见问题"
@@ -3781,6 +3783,9 @@ msgstr "对等政策信息"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
+
+#~ msgid "Primary ASN"
+#~ msgstr "主要 ASN"
 
 #~ msgid "RDAP Lookup Error: {}"
 #~ msgstr "RDAP 查找错误：{}"

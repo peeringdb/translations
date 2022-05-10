@@ -2278,8 +2278,8 @@ msgstr "Vorhanden"
 msgid "Traffic Ratio"
 msgstr "Verkehrsverh채ltnis"
 
-msgid "Primary ASN"
-msgstr "Prim채res ASN"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "Allgemeine Peeringrichtlinie"
@@ -2304,9 +2304,6 @@ msgstr "Suche nach Netzen, die in einem Geb채ude aber nicht in einem anderen pr�
 
 msgid "Also known as"
 msgstr "Auch bekannt als"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "Netzwerkgeltungsbereich"
@@ -2415,6 +2412,11 @@ msgstr "API"
 
 msgid "Documentation"
 msgstr "Dokumentation"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "Bitte verwenden Sie"
 
 msgid "FAQ"
 msgstr "FAQ (H채ufig gestellte Fragen)"
@@ -3526,6 +3528,9 @@ msgstr "Peeringrichtlinien-Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+
+#~ msgid "Primary ASN"
+#~ msgstr "Prim채res ASN"
 
 #~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
 #~ msgstr "IX-F Importer: Tage bis DeskPRO Ticket erzeugt wird"

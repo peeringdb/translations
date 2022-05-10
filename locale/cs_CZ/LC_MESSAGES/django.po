@@ -2459,8 +2459,8 @@ msgstr "Nenastaveno"
 msgid "Traffic Ratio"
 msgstr "Poměr síťového provozu"
 
-msgid "Primary ASN"
-msgstr "Primární ASN"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "Všeobecná peeringová politika"
@@ -2491,9 +2491,6 @@ msgstr ""
 
 msgid "Also known as"
 msgstr "Známí také jako"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "Síťový rozsah"
@@ -2607,6 +2604,11 @@ msgstr "Podmínky využití"
 
 msgid "Documentation"
 msgstr "Dokumentace"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "Prosím, použijte"
 
 msgid "FAQ"
 msgstr ""
@@ -3814,6 +3816,9 @@ msgstr "Peering Policy Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
+
+#~ msgid "Primary ASN"
+#~ msgstr "Primární ASN"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"

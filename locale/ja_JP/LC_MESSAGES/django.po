@@ -2202,8 +2202,8 @@ msgstr "None present"
 msgid "Traffic Ratio"
 msgstr "トラフィックの方向"
 
-msgid "Primary ASN"
-msgstr "Primary AS 番号"
+msgid "ASN"
+msgstr "AS 番号"
 
 msgid "General Peering Policy"
 msgstr "ピアリングポリシー(概要)"
@@ -2228,9 +2228,6 @@ msgstr "選択したデータセンタの利用・未利用の条件をもとに
 
 msgid "Also known as"
 msgstr "別名"
-
-msgid "ASN"
-msgstr "AS 番号"
 
 msgid "Network Scope"
 msgstr "Network Scope"
@@ -2333,6 +2330,11 @@ msgstr "API"
 
 msgid "Documentation"
 msgstr "ドキュメント"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "使ってください"
 
 msgid "FAQ"
 msgstr "FAQ"
@@ -3411,6 +3413,9 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#~ msgid "Primary ASN"
+#~ msgstr "Primary AS 番号"
 
 #~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
 #~ msgstr "IX-F Importer: DeskPRO ticket が作成されるまでの日数"

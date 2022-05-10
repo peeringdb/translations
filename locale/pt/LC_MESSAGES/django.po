@@ -2457,8 +2457,8 @@ msgstr "Não configurado"
 msgid "Traffic Ratio"
 msgstr "Proporção de tráfego"
 
-msgid "Primary ASN"
-msgstr "ASN primário"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "Política Geral  de Peering"
@@ -2489,9 +2489,6 @@ msgstr ""
 
 msgid "Also known as"
 msgstr "Também conhecido como"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "Esopo da rede"
@@ -2606,6 +2603,11 @@ msgstr "AUP"
 
 msgid "Documentation"
 msgstr "Documentação"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "Favor usar"
 
 msgid "FAQ"
 msgstr ""
@@ -3798,6 +3800,9 @@ msgstr "Informação da Política de Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
+
+#~ msgid "Primary ASN"
+#~ msgstr "ASN primário"
 
 #, fuzzy
 #~| msgid "RDAP Lookup Error"

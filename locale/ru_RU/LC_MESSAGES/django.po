@@ -2440,8 +2440,8 @@ msgstr "Не установлен"
 msgid "Traffic Ratio"
 msgstr "Соотношение трафика"
 
-msgid "Primary ASN"
-msgstr "Первичная ASN"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "Информация о пиринговой политике"
@@ -2472,9 +2472,6 @@ msgstr ""
 
 msgid "Also known as"
 msgstr "Другое наименование"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "Охват сети"
@@ -2589,6 +2586,11 @@ msgstr "Политика допустимого использования"
 
 msgid "Documentation"
 msgstr "Документация"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "Используйте"
 
 msgid "FAQ"
 msgstr ""
@@ -3784,6 +3786,9 @@ msgstr "Информация о пиринговой политике"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Подождите несколько секунд перед повторной попыткой авторизации."
+
+#~ msgid "Primary ASN"
+#~ msgstr "Первичная ASN"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"

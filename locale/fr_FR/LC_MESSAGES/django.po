@@ -2383,8 +2383,8 @@ msgstr "Non défini"
 msgid "Traffic Ratio"
 msgstr "Direction du trafic"
 
-msgid "Primary ASN"
-msgstr "Numéro d'AS principal"
+msgid "ASN"
+msgstr "Numéro d'AS"
 
 msgid "General Peering Policy"
 msgstr "Politique de peering"
@@ -2415,9 +2415,6 @@ msgstr ""
 
 msgid "Also known as"
 msgstr "Alias"
-
-msgid "ASN"
-msgstr "Numéro d'AS"
 
 msgid "Network Scope"
 msgstr "Étendue du réseau"
@@ -2530,6 +2527,11 @@ msgstr ""
 
 msgid "Documentation"
 msgstr "Documentation"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "Veuillez utiliser"
 
 msgid "FAQ"
 msgstr ""
@@ -3722,6 +3724,9 @@ msgstr "Informations sur le règlement de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de bien vouloir patienter avant d'essayer de vous identifier à nouveau."
+
+#~ msgid "Primary ASN"
+#~ msgstr "Numéro d'AS principal"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"

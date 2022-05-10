@@ -2473,8 +2473,8 @@ msgstr "Δεν έχει ορισθεί"
 msgid "Traffic Ratio"
 msgstr "Αναλογία Κίνησης"
 
-msgid "Primary ASN"
-msgstr "Kύριο ASN"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "Γενική Πολιτική Peering"
@@ -2505,9 +2505,6 @@ msgstr ""
 
 msgid "Also known as"
 msgstr "γνωστός/η/ο και ως"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "Δικτυακό Εύρος"
@@ -2622,6 +2619,11 @@ msgstr "ΠΟΧ"
 
 msgid "Documentation"
 msgstr "Εγχειρίδιο"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "Παρακαλούμε χρησιμοποιήστε"
 
 msgid "FAQ"
 msgstr ""
@@ -3814,6 +3816,9 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
+
+#~ msgid "Primary ASN"
+#~ msgstr "Kύριο ASN"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"

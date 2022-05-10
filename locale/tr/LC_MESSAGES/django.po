@@ -2433,8 +2433,10 @@ msgstr ""
 msgid "Traffic Ratio"
 msgstr ""
 
-msgid "Primary ASN"
-msgstr ""
+#, fuzzy
+#| msgid "IXLAN"
+msgid "ASN"
+msgstr "IXLAN"
 
 #, fuzzy
 #| msgid "Peering Policy"
@@ -2465,11 +2467,6 @@ msgstr ""
 
 msgid "Also known as"
 msgstr ""
-
-#, fuzzy
-#| msgid "IXLAN"
-msgid "ASN"
-msgstr "IXLAN"
 
 #, fuzzy
 #| msgid "Facility"
@@ -2586,6 +2583,9 @@ msgstr ""
 #| msgid "Peering Policy Information"
 msgid "Documentation"
 msgstr "Eşleşme Politikası Bilgileri"
+
+msgid "Release Notes"
+msgstr ""
 
 msgid "FAQ"
 msgstr ""

@@ -2204,8 +2204,8 @@ msgstr "Niciunul prezent"
 msgid "Traffic Ratio"
 msgstr "Raport de trafic"
 
-msgid "Primary ASN"
-msgstr "ASN primar"
+msgid "ASN"
+msgstr "ASN"
 
 msgid "General Peering Policy"
 msgstr "Politica generală de peering"
@@ -2230,9 +2230,6 @@ msgstr "Căutați rețele care sunt prezente la o facilitate, însă absente de 
 
 msgid "Also known as"
 msgstr "cunoscut ca și"
-
-msgid "ASN"
-msgstr "ASN"
 
 msgid "Network Scope"
 msgstr "Sfera rețelei"
@@ -2335,6 +2332,11 @@ msgstr "API"
 
 msgid "Documentation"
 msgstr "Documentație"
+
+#, fuzzy
+#| msgid "Please use"
+msgid "Release Notes"
+msgstr "Vă rugăm să utilizați"
 
 msgid "FAQ"
 msgstr "Întrebări frecvente"
@@ -3413,6 +3415,9 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "Primary ASN"
+#~ msgstr "ASN primar"
 
 #~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
 #~ msgstr "IX-F Importer: Zile până la crearea ticketului DeskPRO"
