@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-11-24 10:58+0000\n"
+"PO-Revision-Date: 2022-05-30 23:58+0000\n"
 "Last-Translator: Masataka Mawatari <mawatari@jpix.ad.jp>\n"
 "Language-Team: Japanese <https://translate.peeringdb.com/projects/peeringdb/server/ja/>\n"
 "Language: ja_JP\n"
@@ -321,10 +321,10 @@ msgid "Notes"
 msgstr "メモ"
 
 msgid "Organization"
-msgstr "組織名"
+msgstr "組織"
 
 msgid "Organizations"
-msgstr "組織名"
+msgstr "組織"
 
 msgid "CLLI Code"
 msgstr "CLLI コード"
@@ -2349,18 +2349,16 @@ msgid "Global System Statistics"
 msgstr "システム全体の統計情報"
 
 msgid "Connections to Exchanges"
-msgstr "エクスチェンジ接続数"
+msgstr "エクスチェンジ接続"
 
 msgid "Connections to Facilities"
-msgstr "データセンタ利用数"
+msgstr "データセンタ利用"
 
 msgid "Automated Networks"
 msgstr "Automated Networks"
 
-#, fuzzy
-#| msgid "Register"
 msgid "Registered Users"
-msgstr "登録"
+msgstr "登録ユーザ"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "ここで、ネットワーク・IX・データセンタの検索が出来ます"
@@ -2786,7 +2784,7 @@ msgid "Add Prefix"
 msgstr "プレフィクスを追加"
 
 msgid "Local Facilities"
-msgstr "Local Facilities"
+msgstr "データセンタ"
 
 msgid "Filter"
 msgstr "フィルタ"
