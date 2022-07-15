@@ -1872,6 +1872,9 @@ msgstr "Organizzazione specificata non valida"
 msgid "Needs to be member or admin"
 msgstr "Deve essere membro o amministratore"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, fuzzy, python-format
 #| msgid "%(user_name)s's afilliation request has been approved"
 msgid "%(user_name)s's affiliation request has been approved"
@@ -3733,6 +3736,16 @@ msgstr "Informazioni sulla Policy di Peering"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "Contatti"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "stato"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "Ultimo Aggiornamento"
 
 msgid "PeeringDB Configuration"
 msgstr "Configurazione di PeeringDB"

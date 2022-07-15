@@ -1720,6 +1720,9 @@ msgstr "Organizația specificată nu este validă"
 msgid "Needs to be member or admin"
 msgstr "Trebuie să fie membru sau admin"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
@@ -3407,6 +3410,16 @@ msgstr "Informațiile despre Facilitate au fost actualizate"
 
 msgid "Contact Info Updated"
 msgstr "Informațiile de contact au fost actualizate"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "stare"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "Ultima actualizare"
 
 msgid "PeeringDB Configuration"
 msgstr "Configurație PeeringDB"

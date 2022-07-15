@@ -1720,6 +1720,9 @@ msgstr "指定された組織は無効です"
 msgid "Needs to be member or admin"
 msgstr "メンバーもしくは管理者になる必要があります"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s's 所属リクエストが承認されました"
@@ -3403,6 +3406,16 @@ msgstr "データセンタ情報のアップデート日時"
 
 msgid "Contact Info Updated"
 msgstr "連絡先情報のアップデート日時"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "ステータス"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "最新のアップデート"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB の設定"

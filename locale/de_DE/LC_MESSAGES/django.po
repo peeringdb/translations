@@ -1764,6 +1764,9 @@ msgstr "Ungültiges Unternehmen angegeben"
 msgid "Needs to be member or admin"
 msgstr "Muss Mitglied oder Admin sein"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
@@ -3520,6 +3523,16 @@ msgstr "Peeringrichtlinien-Information"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "Kontaktinformationen"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "Status"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "Zuletzt aktualisiert"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB-Konfiguration"

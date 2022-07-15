@@ -1939,6 +1939,9 @@ msgstr "Ukorrekt formateret organisations id'er"
 msgid "Needs to be member or admin"
 msgstr "ASN skal være et heltal"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr ""
@@ -3857,6 +3860,16 @@ msgstr "Opdateret"
 #, fuzzy
 #| msgid "Updated"
 msgid "Contact Info Updated"
+msgstr "Opdateret"
+
+#, fuzzy
+#| msgid "Status"
+msgid "RIR Status"
+msgstr "Status"
+
+#, fuzzy
+#| msgid "Updated"
+msgid "RIR Status Updated"
 msgstr "Opdateret"
 
 msgid "PeeringDB Configuration"

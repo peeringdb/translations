@@ -1787,6 +1787,9 @@ msgstr "잘못된 조직이 지정됨"
 msgid "Needs to be member or admin"
 msgstr "구성원 또는 관리자 필요"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s의 가입 요청이 승인되었음"
@@ -3519,6 +3522,16 @@ msgstr "피어링 정책 정보"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "연락처 정보"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "상태"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "최신 업데이트"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB 구성"

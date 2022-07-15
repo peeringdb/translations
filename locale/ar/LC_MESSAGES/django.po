@@ -1945,6 +1945,9 @@ msgstr "تم تحديد مؤسسة غير صحيحة"
 msgid "Needs to be member or admin"
 msgstr "يجب أن تكون عضوًا أو بصلاحيات مدير النظام"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, fuzzy, python-format
 #| msgid "%(user_name)s's afilliation request has been approved"
 msgid "%(user_name)s's affiliation request has been approved"
@@ -3762,6 +3765,16 @@ msgstr "معلومات سياسات التناظر"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "بيانات الاتصال"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "حالة"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "آخر تحديث"
 
 msgid "PeeringDB Configuration"
 msgstr "تهيئه قاعدة بيانات التناظر PeeringDB"

@@ -1955,6 +1955,9 @@ msgstr "指定的組織無效"
 msgid "Needs to be member or admin"
 msgstr "需要為成員或管理員"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, fuzzy, python-format
 #| msgid "%(user_name)s's afilliation request has been approved"
 msgid "%(user_name)s's affiliation request has been approved"
@@ -3785,6 +3788,16 @@ msgstr "對等政策資訊"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "聯繫資訊"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "狀態"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "上次更新"
 
 msgid "PeeringDB Configuration"
 msgstr "PeeringDB 配置"

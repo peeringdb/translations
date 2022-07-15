@@ -1937,6 +1937,9 @@ msgstr "Ορίστηκε μη έγκυρος οργανισμός"
 msgid "Needs to be member or admin"
 msgstr "Πρέπει να είναι μέλος ή διαχειριστής"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, fuzzy, python-format
 #| msgid "%(user_name)s's afilliation request has been approved"
 msgid "%(user_name)s's affiliation request has been approved"
@@ -3802,6 +3805,16 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "Πληροφορίες Επικοινωνίας"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "κατάσταση"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "Τελευταία Ενημέρωση"
 
 msgid "PeeringDB Configuration"
 msgstr "Ρύθμιση PeeringDB"

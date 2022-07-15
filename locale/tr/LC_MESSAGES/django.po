@@ -1918,6 +1918,9 @@ msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 msgid "Needs to be member or admin"
 msgstr ""
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr ""
@@ -3803,6 +3806,16 @@ msgstr "Eşleşme Politikası Bilgileri"
 #| msgid "Peering Policy Information"
 msgid "Contact Info Updated"
 msgstr "Eşleşme Politikası Bilgileri"
+
+#, fuzzy
+#| msgid "Status"
+msgid "RIR Status"
+msgstr "Durum"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "RIR Status Updated"
+msgstr "Bina"
 
 #, fuzzy
 #| msgid "Peering Policy Information"

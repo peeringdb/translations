@@ -1907,6 +1907,9 @@ msgstr "Указана неверная организация"
 msgid "Needs to be member or admin"
 msgstr "Должен принадлежать к группе администраторов"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, fuzzy, python-format
 #| msgid "%(user_name)s's afilliation request has been approved"
 msgid "%(user_name)s's affiliation request has been approved"
@@ -3772,6 +3775,16 @@ msgstr "Информация о пиринговой политике"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "Контактная информация"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "статус"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "Последнее обновление"
 
 msgid "PeeringDB Configuration"
 msgstr "Конфигурация PeeringDB"

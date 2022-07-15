@@ -1926,6 +1926,9 @@ msgstr "Byla zadána neplatná organizace"
 msgid "Needs to be member or admin"
 msgstr "Potřeba být členem nebo administrátorem"
 
+msgid "Cannot manage permissions for organization admins"
+msgstr ""
+
 #, fuzzy, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s žádost o přidružení byla schválena"
@@ -3801,6 +3804,16 @@ msgstr "Peering Policy Information"
 #| msgid "Contact Information"
 msgid "Contact Info Updated"
 msgstr "Kontaktní informace"
+
+#, fuzzy
+#| msgid "status"
+msgid "RIR Status"
+msgstr "statut"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "RIR Status Updated"
+msgstr "Poslední aktualizace"
 
 msgid "PeeringDB Configuration"
 msgstr "Konfigurace PeeringDB"
