@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-29 16:58+0000\n"
+"PO-Revision-Date: 2022-08-29 17:21+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1008,7 +1008,7 @@ msgstr "Dateityp %(value) nicht zulässig"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
-msgstr ""
+msgstr "Dateigröße zu groß, max. %(value)s"
 
 msgid "Error in forward geocode: No results found"
 msgstr "Fehler im Vorwärts-Geocode: kein Ergebnis gefunden"
@@ -1034,13 +1034,11 @@ msgstr "Die Länge des Postmortem darf {} Einträge nicht überschreiten"
 msgid "This ASN is not assigned by any RIR"
 msgstr "Dieses ASN wurde von keiner RIR zugewiesen"
 
-#, fuzzy
-#| msgid "ASNs in this range are not allowed in this environment"
 msgid "ASNs in this range are private or reserved"
-msgstr "ASNs aus diesem Bereich sind in diesem Kontext nicht zulässig"
+msgstr "ASNs in diesem Bereich sind privat oder reserviert"
 
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "Diese Kombination aus ASN, IPv4- und IPv6-Adresse existiert nicht für ein einzelnes Mitglied an diesem Internet Exchange"
@@ -1139,7 +1137,7 @@ msgid "Restore Object(s)"
 msgstr "Stelle Objekt(e) wieder her"
 
 msgid "Validate Data"
-msgstr ""
+msgstr "Daten validieren"
 
 msgid "Reset Environment"
 msgstr "Setze Umgebung zurück"
@@ -1153,26 +1151,20 @@ msgstr "Die Adresse dieses Objekts wurde mit Hilfe der Google Maps API normalisi
 msgid "Last time of attempted geocode"
 msgstr "Zeit, zu der die Georeferenz zuletzt ermittelt wurde"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding timed out"
-msgstr "Geocode-Fehler"
+msgstr "Zeitüberschreitung bei der Geokodierung"
 
 msgid "Geo coding failed: {}"
 msgstr "Geocode-Fehler: {}"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup timed out"
-msgstr "Geocode-Fehler"
+msgstr "Zeitüberschreitung bei der Standortsuche"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
-msgstr "Geocode-Fehler"
+msgstr "Standortsuche fehlgeschlagen: {}"
 
 msgid "Geocoordinate Cache"
-msgstr ""
+msgstr "Geokoordinaten-Cache"
 
 msgid "Geocoordinate Cache Entries"
 msgstr ""
