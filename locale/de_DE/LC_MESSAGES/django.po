@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-29 10:58+0000\n"
+"PO-Revision-Date: 2022-08-29 16:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -728,7 +728,7 @@ msgid "ASN is already in use by another network"
 msgstr "ASN wird bereits von einem anderen Netzwerk verwendet"
 
 msgid "Name is already in use by another network"
-msgstr ""
+msgstr "Der Name wird bereits von einem anderen Netzwerk verwendet"
 
 msgid "APPROVE selected items"
 msgstr "Gewählte Einträge FREIGEBEN"
@@ -758,7 +758,7 @@ msgid "Deny"
 msgstr "Ablehnen"
 
 msgid "Usernames cannot start with \"apikey\""
-msgstr ""
+msgstr "Benutzernamen dürfen nicht mit „apikey“ beginnen"
 
 msgid "Change Password"
 msgstr "Passwort ändern"
@@ -845,37 +845,31 @@ msgid "Reset tickets"
 msgstr "Tickets zurücksetzen"
 
 msgid "Select a handleref tag to validate"
-msgstr ""
+msgstr "Wählen Sie ein zu validierendes Handleref-Tag aus"
 
-#, fuzzy
-#| msgid "Client type"
 msgid "Object type"
-msgstr "Client Typ"
+msgstr "Objekt-Typ"
 
 msgid "Enter a field name to validate"
-msgstr ""
+msgstr "Geben Sie einen zu validierenden Feldnamen ein"
 
 msgid "Valid"
-msgstr ""
+msgstr "Gültig"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid"
-msgstr "Ungültiges Stichwort (tag)"
+msgstr "Ungültig"
 
 msgid "Exclude data based on validation result"
-msgstr ""
+msgstr "Daten basierend auf dem Validierungsergebnis ausschließen"
 
 msgid "Verbose output"
-msgstr ""
+msgstr "Ausführliche Ausgabe"
 
 msgid "Key not found"
 msgstr "Schlüssel wurde nicht gefunden"
 
-#, fuzzy
-#| msgid "This field is required"
 msgid "This field is required."
-msgstr "Dieses Feld ist erforderlich"
+msgstr "Dieses Feld ist erforderlich."
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1008,10 +1002,9 @@ msgstr "reCAPTCHA ungültig"
 msgid "captcha invalid"
 msgstr "Captcha ungültig"
 
-#, fuzzy, python-format
-#| msgid "Negative value not allowed"
+#, python-format
 msgid "File type %(value)s not allowed"
-msgstr "Negativwerte nicht erlaubt"
+msgstr "Dateityp %(value) nicht zulässig"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
