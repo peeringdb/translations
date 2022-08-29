@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-28 14:58+0000\n"
-"Last-Translator: Dennis Koerner <hostmaster@netzwerge.de>\n"
+"PO-Revision-Date: 2022-08-29 10:58+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -253,30 +253,28 @@ msgid "Owner"
 msgstr "Eigentümer"
 
 msgid "Lessee"
-msgstr ""
+msgstr "Mieter"
 
 msgid "48 VDC"
-msgstr ""
+msgstr "48V Gleichstrom"
 
 msgid "120 VAC"
-msgstr ""
+msgstr "120V Wechselstrom"
 
 msgid "208 VAC"
-msgstr ""
+msgstr "208V Wechselstrom"
 
 msgid "240 VAC"
-msgstr ""
+msgstr "240V Wechselstrom"
 
 msgid "480 VAC"
-msgstr ""
+msgstr "480V Wechselstrom"
 
 msgid "Kosovo"
 msgstr "Kosovo"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value: {}"
-msgstr "Ungültiges Stichwort (tag)"
+msgstr "Ungültiger Wert: {}"
 
 msgid "Address 1"
 msgstr "Adresse 1"
@@ -351,28 +349,28 @@ msgid "Sales Phone"
 msgstr "Vertriebs Telefon"
 
 msgid "Property"
-msgstr ""
+msgstr "Eigentum"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr ""
+msgstr "Ein Grundstückseigentümer ist die natürliche oder juristische Person, die das Eigentum an dem Grundstück besitzt. Ein Mieter ist ein Nutzer einer Immobilie, der einen Mietvertrag oder eine Vereinbarung mit dem Eigentümer der Immobilie hat."
 
 msgid "Diverse Serving Substations"
 msgstr ""
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
-msgstr ""
+msgstr "Zwei separate und unterschiedliche Wegeführungen zu einzelnen Unterstationen, die eine separate Wegeführung zurück zu einer oder mehreren Generatorstationen des Versorgungsunternehmens unterhalten sollten."
 
 msgid "Available Voltage Services"
-msgstr ""
+msgstr "Verfügbare Spannungen"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr ""
+msgstr "Die Wechselspannung steht den Nutzern der Anlage entweder direkt vom Vermieter zur Verfügung oder wird vom Energieversorger separat geliefert."
 
 msgid "Continental Region"
 msgstr "Kontinentale Region"
 
 msgid "Status Dashboard"
-msgstr ""
+msgstr "Status-Dashboard"
 
 msgid "Facility"
 msgstr "Liegenschaft"
@@ -642,23 +640,17 @@ msgstr "Ixlans können nicht mehr direkt gelöscht werden, da sie nun mit dem ü
 msgid "Protected object '{}': {}"
 msgstr "Geschütztes Objekt '{}': {}"
 
-#, fuzzy
-#| msgid "DENY and delete selected items"
 msgid "Delete selected objects"
-msgstr "Gewählte Einträge ABLEHNEN und löschen"
+msgstr "Gewählte Einträge löschen"
 
-#, fuzzy
-#| msgid "Please contact {} to help with the deletion of this object"
 msgid "Please confirm deletion of selected objects."
-msgstr "Bitte kontaktieren Sie {} um Unterstützung bei der Löschung dieses Objekts zu bekommen"
+msgstr "Bitte bestätigen Sie das Löschen der ausgewählten Objekte."
 
 msgid "SOFT DELETE"
 msgstr "Zum Löschen vormerken"
 
-#, fuzzy
-#| msgid "Result"
 msgid "Resul length"
-msgstr "Ergebnis"
+msgstr "Ergebnislänge"
 
 msgid "Show {} rows"
 msgstr "Zeige {} Reihen"
@@ -732,10 +724,8 @@ msgstr "Werkzeug zum Zusammenführen von Unternehmen"
 msgid "Undo merge"
 msgstr "Veränderung rückgängig machen"
 
-#, fuzzy
-#| msgid "Suggest another network"
 msgid "ASN is already in use by another network"
-msgstr "Ein weiteres Netzwerk vorschlagen"
+msgstr "ASN wird bereits von einem anderen Netzwerk verwendet"
 
 msgid "Name is already in use by another network"
 msgstr ""
@@ -1037,7 +1027,7 @@ msgid "Ixlan not found"
 msgstr "Ixlan wurde nicht gefunden"
 
 msgid "Permission denied"
-msgstr "Berechtigung verweigert"
+msgstr "Erlaubnis verweigert"
 
 msgid "Please wait a bit before requesting another IX-F import postmortem."
 msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
@@ -2812,10 +2802,8 @@ msgstr "Bitte fordern Sie Eigenturmsrechte an Objekten nur dann an, wenn Sie sic
 msgid "Only verified users may request ownership to an organization"
 msgstr "Nur freigebene und bestätigte Benutzer können Eigentum an Organisations-Objekten anfordern"
 
-#, fuzzy
-#| msgid "Sponsors"
 msgid "sponsor"
-msgstr "Sponsoren"
+msgstr "Sponsor"
 
 msgid "Suggest Exchange"
 msgstr "Austauschknoten vorschlagen"
