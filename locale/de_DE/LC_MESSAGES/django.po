@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-30 16:26+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2022-08-30 16:58+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -2451,10 +2451,10 @@ msgid "Maintenance Mode"
 msgstr "Wartungsmodus"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
-msgstr "Die Seite ist aktuell im Wartungsmodus, während welchem diese Aktion deaktiviert ist. Bitte in ein paar Minuten nochmal versuchen"
+msgstr "Die Website befindet sich derzeit im Wartungsmodus, in dem diese Aktion deaktiviert ist. Bitte versuchen Sie es in einigen Minuten erneut"
 
 msgid "Login with oAuth"
-msgstr "Einloggen mit oAuth"
+msgstr "Einloggen mit OAuth"
 
 msgid "Login with your Google account"
 msgstr "Mit Google einloggen"
@@ -2463,7 +2463,7 @@ msgid "Login with your Facebook account"
 msgstr "Mit Facebook anmelden"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
-msgstr ""
+msgstr "Hier können Sie Ihren Organisations-API-Schlüsseln Berechtigungen erteilen. Falls Ihr kürzlich hinzugefügter API-Schlüssel nicht in dieser Liste angezeigt wird, laden Sie die Seite bitte neu."
 
 msgid "Create"
 msgstr "Erstellen"
@@ -2478,7 +2478,7 @@ msgid "Add"
 msgstr "Hinzufügen"
 
 msgid "Here you can create new API keys for your organization or revoke existing keys."
-msgstr ""
+msgstr "Hier können Sie neue API-Schlüssel für Ihre Organisation erstellen oder bestehende Schlüssel widerrufen."
 
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -2487,10 +2487,10 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 msgid "Revoke"
-msgstr ""
+msgstr "Widerrufen"
 
 msgid "Add Key"
-msgstr ""
+msgstr "Schlüssel hinzufügen"
 
 #, fuzzy
 #| msgid "Edit application"
@@ -2531,13 +2531,13 @@ msgid "The password reset process has expired, please"
 msgstr "Dieser Link zum Zurücksetzen des Passworts ist abgelaufen, bitte"
 
 msgid "initiate again"
-msgstr "fordern Sie ein neues an"
+msgstr "erneut einleiten"
 
 msgid "Account Security"
-msgstr "Konto Sicherheit"
+msgstr "Kontosicherheit"
 
 msgid "Manage Two-Factor Authentication"
-msgstr "Zwei-Faktor Authentifizierung verwalten"
+msgstr "Zwei-Faktor-Authentifizierung verwalten"
 
 msgid "Affiliate with organization"
 msgstr "Zuordnung zu einer Organisation anfordern"
@@ -2572,7 +2572,7 @@ msgid "To register a new facility or exchange organization, please enter the org
 msgstr "Um einen neuen Standort oder Exchange zu registrieren, geben Sie bitte den Organisationsnamen unten ein (ASN ist optional)."
 
 msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
-msgstr "Die Zuordnung ist für Ihre Organisation. Das bedeutet, Sie sind Angestellter oder anderweitig involviert in der Organisation. Falls kein Kollege bisher der Organisation zugoerdnet ist, wird die Zuordnungsanfrage an support@peeringdb.com geschickt. Andererseits wird die Anfrage an die Admins der Organisation gehen. Bitte lasse dich bloß einmal pro Organisation zuordnen. Falls keine Antwort innerhalb einiger Tage kommt, wende dich bitte an support@peeringdb.com."
+msgstr "Die Zuordnung ist für Ihre Organisation. Das bedeutet, Sie sind Angestellter oder anderweitig involviert in der Organisation. Falls kein Kollege bisher der Organisation zugeordnet ist, wird die Zuordnungsanfrage an support@peeringdb.com geschickt. Andererseits wird die Anfrage an die Admins der Organisation gehen. Bitte lassen Sie sich nur einmal pro Organisation zuordnen. Falls keine Antwort innerhalb einiger Tage kommt, wenden Sie sich bitte an support@peeringdb.com."
 
 msgid "Affiliate"
 msgstr "Zuordnung anfordern"
@@ -2593,25 +2593,25 @@ msgid "has been approved"
 msgstr "wurde bestätigt"
 
 msgid "API Keys"
-msgstr ""
+msgstr "API-Schlüssel"
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
-msgstr ""
+msgstr "Mit API-Schlüsseln können Sie einen Client authentifizieren, ohne Ihren Benutzernamen und Ihr Passwort anzugeben."
 
 msgid "read-only"
-msgstr ""
+msgstr "schreibgeschützt"
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
-msgstr ""
+msgstr "Sie erstellen einen API-Schlüssel für ein Superuser-Konto. Solche API-Schlüssel können nicht schreibgeschützt gemacht werden und haben immer vollen Zugriff. Mit Vorsicht fortfahren."
 
 msgid "Read only"
-msgstr ""
+msgstr "Schreibgeschützt"
 
 msgid "Change email address"
 msgstr "E-Mail-Adresse ändern"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
-msgstr "Für eine schnelle Überprüfung ist es notwendig, dass sie eine Unternehmens-E-Mail-Adresse verwenden. Wenn Sie vorhaben, Ihre ASN bei PeeringDB zu registrieren, empfehlen wir, dass Sie eine E-Mail-Adresse verwenden, die bereits in den öffentlichen Kontaktdetails Ihrer ASN vorhanden ist."
+msgstr "Für eine schnelle Validierung ist es erforderlich, dass Sie eine geschäftliche E-Mail-Adresse verwenden. Wenn Sie planen, Ihren ASN bei PeeringDB zu registrieren, wird empfohlen, dass Sie eine E-Mail-Adresse verwenden, die in den öffentlichen Kontaktdaten des ASN vorhanden ist."
 
 msgid "Change Email"
 msgstr "E-Mail-Adresse ändern"
@@ -2628,13 +2628,11 @@ msgstr "Aktuelles Passwort"
 msgid "Password Verification"
 msgstr "Passwort erneut eingeben"
 
-#, fuzzy
-#| msgid "Create account"
 msgid "Close Account"
-msgstr "Zugang erstellen"
+msgstr "Konto schließen"
 
 msgid "You may close your account and delete the profile data associated with it. Note that this will not delete your organizations and its entities. If you are the only member of your organization and want it to be deleted as well please do so before closing your account."
-msgstr ""
+msgstr "Sie können Ihr Konto schließen und die damit verbundenen Profildaten löschen. Beachten Sie, dass dadurch Ihre Organisationen und ihre Entitäten nicht gelöscht werden. Wenn Sie das einzige Mitglied Ihrer Organisation sind und möchten, dass diese ebenfalls gelöscht wird, tun Sie dies bitte, bevor Sie Ihr Konto schließen."
 
 msgid "You have confirmed your email address!"
 msgstr "Sie haben Ihre E-Mail-Adresse bestätigt!"
@@ -2666,31 +2664,29 @@ msgstr "Sprachauswahl gespeichert"
 msgid "Set language preference"
 msgstr "Sprachauswahl speichern"
 
-#, fuzzy
-#| msgid "Invalid Security Token"
 msgid "Security keys"
-msgstr "Ungültiges Sicherheitstoken"
+msgstr "Sicherheitsschlüssel"
 
 msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgstr ""
+msgstr "Registrieren Sie Ihren Sicherheitsschlüssel und verwenden Sie ihn als 2FA-Methode oder für die passwortlose Anmeldung."
 
 msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr ""
+msgstr "Wenn Sie einen U2F-Sicherheitsschlüssel wie <b>yubikeys</b> verwenden, zeigt die anfängliche Eingabeaufforderung möglicherweise zuerst andere geräteinterne Schlüssel (wie Fingerabdruckscanner und Sicherheitspins)."
 
 msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
-msgstr ""
+msgstr "Wenn Ihr Yubikey angeschlossen ist, aber nicht in der Liste erscheint, <b>brechen Sie</b> die anfängliche Eingabeaufforderung ab und eine neue Eingabeaufforderung für Ihren Yubikey sollte danach erscheinen."
 
 msgid "passwordless-login"
-msgstr ""
+msgstr "Passwortlose Anmeldung"
 
 msgid "Remove"
 msgstr "Entfernen"
 
 msgid "Register security key"
-msgstr ""
+msgstr "Registrieren Sie den Sicherheitsschlüssel"
 
 msgid "Password-less login"
-msgstr ""
+msgstr "Login ohne Passwort"
 
 msgid "Account Created"
 msgstr "Erstellungsdatum des Kontos"
@@ -2720,7 +2716,7 @@ msgid "Last name"
 msgstr "Nachname"
 
 msgid "Loading anti-spam challenge"
-msgstr "Anti-Spam-Aufforderung wird geladen"
+msgstr "Anti-Spam-Challenge wird geladen"
 
 msgid "Thank you"
 msgstr "Vielen Dank"
