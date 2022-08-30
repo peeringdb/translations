@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-30 12:57+0000\n"
+"PO-Revision-Date: 2022-08-30 16:24+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -2334,8 +2334,6 @@ msgstr "Die Seite existiert nicht."
 msgid "403 - Forbidden"
 msgstr "403 Nicht erlaubt"
 
-#, fuzzy
-#| msgid "You dont have permissions to view this page."
 msgid "You don't have permissions to view this page."
 msgstr "Sie sind nicht berechtigt, diese Seite anzuzeigen."
 
@@ -2377,10 +2375,8 @@ msgstr "Bitte verwenden Sie"
 msgid "FAQ"
 msgstr "FAQ (Häufig gestellte Fragen)"
 
-#, fuzzy
-#| msgid "Government"
 msgid "Governance"
-msgstr "Regierung"
+msgstr "Governance"
 
 msgid "Contact Us"
 msgstr "Kontaktieren Sie uns"
@@ -2394,15 +2390,11 @@ msgstr "Verbindungen zu Austauschpunkten"
 msgid "Connections to Facilities"
 msgstr "Verbindungen zu Liegenschaften"
 
-#, fuzzy
-#| msgid "Add Network"
 msgid "Automated Networks"
-msgstr "Automatisierte Netzwerke"
+msgstr "Netzwerke mit automatischen Update"
 
-#, fuzzy
-#| msgid "Register"
 msgid "Registered Users"
-msgstr "Registrieren"
+msgstr "Registrierte Benutzer"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
