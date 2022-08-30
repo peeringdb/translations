@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-30 22:58+0000\n"
+"PO-Revision-Date: 2022-08-30 23:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -515,7 +515,7 @@ msgid "Internet Exchange"
 msgstr "Internet Exchange"
 
 msgid "Internet Exchanges"
-msgstr "Internet Exchanges"
+msgstr "Austauschpunkte"
 
 msgid "Internet Exchange facility"
 msgstr "Internet Exchange Standort"
@@ -542,7 +542,7 @@ msgid "Internet Exchange LAN"
 msgstr "Internet Exchange LAN"
 
 msgid "Internet Exchange LANs"
-msgstr "Internet Exchange LANs"
+msgstr "Austauschpunkt-LANs"
 
 msgid "Protocol"
 msgstr "Protokoll"
@@ -2192,8 +2192,6 @@ msgstr "Authentifizierten Benutzern stehen zusätzliche Filter zur Verfügung. B
 msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
 msgstr "Einige der Kontaktdaten dieses Netzwerks werden nicht angezeigt, da Ihr Zugang nicht mit dieser Organisation verknüpft ist."
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Presence"
 msgstr "Netzwerkgeltungsbereich"
 
@@ -2968,8 +2966,6 @@ msgstr "Stellt alle aktiven Vorschläge von diesem Austauschpunkt wieder her, di
 msgid "Will add all suggested entries"
 msgstr "Fügt alle vorgeschlagenen Einträge hinzu"
 
-#, fuzzy
-#| msgid "Auto-add"
 msgid "Auto Add"
 msgstr "Automatisches Hinzufügen"
 
@@ -3141,7 +3137,9 @@ msgstr ""
 msgid ""
 "We sent you a text message, please enter the tokens we\n"
 "        sent."
-msgstr "Wir haben Ihnen eine SMS geschickt. Bitte geben Sie das Einmal-Passwort ein."
+msgstr ""
+"Wir haben Ihnen eine SMS geschickt.\n"
+"……Bitte geben Sie das Einmal-Passwort ein."
 
 msgid "We sent you an email, please enter the one time password we sent."
 msgstr "Wir haben Ihnen eine Mail geschickt. Bitte geben Sie das Einmal-Passwort aus der Mail ein."
@@ -3163,31 +3161,25 @@ msgid ""
 msgstr ""
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
-msgstr ""
+msgstr "Alternativ können Sie über eine Ihrer Wiederherstellungsoptionen ein Einmalkennwort anfordern:"
 
 msgid "As a last resort, you can use a backup token:"
-msgstr ""
+msgstr "Als letzten Ausweg können Sie ein Backup-Token verwenden:"
 
 msgid "Use Backup Token"
 msgstr "Backup Token verwenden"
 
-#, fuzzy
-#| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
-msgstr "Fügen Sie Ihrer Organisation ein neues Netzwerk hinzu."
+msgstr "Fügen Sie Ihrer Zwei-Faktor-Authentifizierung eine TOPT-Methode hinzu"
 
-#, fuzzy
-#| msgid "Manage Two-Factor Authentication"
 msgid "Add TOTP Authentication"
-msgstr "Zwei-Faktor Authentifizierung verwalten"
+msgstr "TOTP-Authentifizierung hinzufügen"
 
-#, fuzzy
-#| msgid "Confirm password"
 msgid "Email one time password"
-msgstr "Passwort bestätigen"
+msgstr "Einmalpasswort per E-Mail zusenden"
 
 msgid "U2F security key"
-msgstr ""
+msgstr "U2F-Sicherheitsschlüssel"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Ihre E-Mail-Adresse entspricht nicht den Informationen, die uns zu dieser Organisation bekannt sind."
@@ -3205,7 +3197,7 @@ msgid "days ago"
 msgstr "Tage her"
 
 msgid "Private contacts are no longer supported."
-msgstr ""
+msgstr "Als \"Privat\" markierte Kontakte werden nicht mehr unterstützt."
 
 msgid "Not a valid phone number (E.164)"
 msgstr "Keine gültige Telefonnummer (E.164)"
@@ -3253,13 +3245,13 @@ msgid "All parts of an hierarchical name have to be of the same type"
 msgstr "Alle Teile eines hierarchischem Namen müssen vom selben Typ sein"
 
 msgid "At least one component must be an actual set name"
-msgstr ""
+msgstr "Mindestens eine Komponente muss ein tatsächlicher Set-Name sein"
 
 msgid "Needs to be 'True', 'False', 1 or 0"
-msgstr ""
+msgstr "Muss 'Wahr', 'Falsch', 1 oder 0 sein"
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
-msgstr ""
+msgstr "Ungültige Einstellung! Akzeptabler Wert ist eine Zahl gefolgt von einem der folgenden Werte: Minute, Stunde, Sekunden, Tag, Woche, Monat, Jahr. zB (10/Minute, 1/Stunde, 5/Tag, 1/Woche, 1/Monat, 1/Jahr)"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Bitte warten Sie, bevor Sie erneut Besitz beantragen."
@@ -3286,10 +3278,8 @@ msgstr "Bitte warten Sie, bevor Sie erneut Zuordnung anfordern."
 msgid "Either ASN or Organization required"
 msgstr "Entweder ASN oder Organisation erforderlich"
 
-#, fuzzy
-#| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
-msgstr "Sie können die Zugehörigkeit zu einer Organisation oder zu einem ASN beantragen"
+msgstr "Sie haben bereits die Zugehörigkeit zu dieser ASN/Organisation beantragt"
 
 msgid "Please wait a bit before trying to resend the confirmation email again"
 msgstr "Bitte warten Sie, bevor Sie erneut eine Bestätigungsmail anfordern"
@@ -3309,7 +3299,7 @@ msgid "Please wait a bit before requesting another email change"
 msgstr "Bitte warten Sie, bevor Sie eine weitere E-Mail-Änderung beantragen"
 
 msgid "Invalid password. Please try again."
-msgstr ""
+msgstr "Ungültiges Passwort. Bitte versuchen Sie es erneut."
 
 msgid "E-mail already exists in our system"
 msgstr "E-Mail-Adresse existiert bereits in unserem System"
@@ -3333,12 +3323,10 @@ msgid "This email address has already been used"
 msgstr "Diese E-Mail-Adresse wurde bereits genutzt"
 
 msgid "Username cannot start with 'apikey'"
-msgstr ""
+msgstr "Benutzernamen dürfen nicht mit „apikey“ beginnen"
 
-#, fuzzy
-#| msgid "Current Password"
 msgid "Incorrect password"
-msgstr "Aktuelles Passwort"
+msgstr "Falsches Passwort"
 
 msgid "Location"
 msgstr "Ort"
@@ -3352,15 +3340,11 @@ msgstr "Georeferenz"
 msgid "Markdown enabled"
 msgstr "Markdown verfügbar"
 
-#, fuzzy
-#| msgid "Logout"
 msgid "Logo"
-msgstr "Abmelden"
+msgstr "Logo"
 
-#, fuzzy
-#| msgid "Maximum speed: {}"
 msgid "Max size: {}kb"
-msgstr "Maximale Geschwindigkeit: {}"
+msgstr "Maximale Größe: {}kB"
 
 msgid "LAN"
 msgstr "LAN"
@@ -3371,10 +3355,8 @@ msgstr "MTU"
 msgid "Enable IX-F Import"
 msgstr "Aktivieren Sie den IX-F Import"
 
-#, fuzzy
-#| msgid "Request Ownership"
 msgid "Request import"
-msgstr "Eigentum/Besitzrecht anfordern"
+msgstr "Import anfordern"
 
 #, fuzzy
 #| msgid "Merge Notification"
@@ -3389,20 +3371,14 @@ msgstr "Benachrichtigung über Zusammenführung"
 msgid "Protocols Supported"
 msgstr "Unterstützte Protokolle"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Point"
 msgid "Public Peering Info Updated"
-msgstr "Öffentlicher Peering Austauschpunkt"
+msgstr "Informationen zum öffentlichen Peering aktualisiert"
 
-#, fuzzy
-#| msgid "Peering Policy Information"
 msgid "Peering Facility Info Updated"
-msgstr "Peeringrichtlinien-Information"
+msgstr "Informationen zur Peering-Liegenschaft aktualisiert"
 
-#, fuzzy
-#| msgid "Contact Information"
 msgid "Contact Info Updated"
-msgstr "Kontaktinformationen"
+msgstr "Kontaktdaten aktualisiert"
 
 #, fuzzy
 #| msgid "status"
