@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-30 16:24+0000\n"
-"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
+"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -1974,7 +1974,7 @@ msgstr "Das Netzwerk %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) wurde autom
 
 #, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Organisations-API-Schlüssel (Präfix: %(Präfix)s) mit E-Mail-Adresse '%(email)s' hat das Netzwerk %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id )s</a>) unter der Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
+msgstr "Organisations-API-Schlüssel (Präfix: %(prefix)s) mit E-Mail-Adresse '%(email)s' hat das Netzwerk %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id )s</a>) unter der Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
