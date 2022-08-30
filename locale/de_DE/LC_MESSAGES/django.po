@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-29 17:25+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2022-08-30 10:58+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -1167,7 +1167,7 @@ msgid "Geocoordinate Cache"
 msgstr "Geokoordinaten-Cache"
 
 msgid "Geocoordinate Cache Entries"
-msgstr ""
+msgstr "Geokoordinaten-Cache-Einträge"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Dieser Unternehmenseintrag wurde vom angegeben ASN oder vom Namen übernommen. Wenn dieser Eintrag leer ist, konnte kein zugehöriges Unternehmen gefunden werden."
@@ -1299,10 +1299,8 @@ msgstr "Organisationzusammenführung: Einheit"
 msgid "Organization Merge: Entities"
 msgstr "Organisationzusammenführungen: Einheiten"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of exchanges at this facility"
-msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+msgstr "Anzahl der Austauschpunkte in dieser Liegenschaft"
 
 #, fuzzy
 #| msgid "Number of networks present at this facility"
@@ -1321,42 +1319,32 @@ msgstr "Rechenzentrum hat noch aktive Internet Exchanges: {} ..."
 msgid "Facility has active network presence(s): {} ..."
 msgstr "Rechenzentrum hat noch aktive Netze zugeordnet: {} ..."
 
-#, fuzzy
-#| msgid "Enable IX-F Import"
 msgid "Manual IX-F import request"
-msgstr "Aktivieren Sie den IX-F Import"
+msgstr "Manuelle IX-F-Import-Anforderung"
 
 msgid "Date of most recent manual import request"
-msgstr ""
+msgstr "Datum der letzten manuellen Importanforderung"
 
-#, fuzzy
-#| msgid "Enable IX-F Import"
 msgid "Manual IX-F import status"
-msgstr "Aktivieren Sie den IX-F Import"
+msgstr "Status des manuellen IX-F-Import"
 
 msgid "The current status of the manual ix-f import request"
-msgstr ""
+msgstr "Der aktuelle Status der manuellen IX-F-Importanforderung"
 
 msgid "Queued"
-msgstr ""
+msgstr "In Warteschlange"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "Importing"
-msgstr "IX-F Import"
+msgstr "Wird importiert"
 
 msgid "Finished"
-msgstr ""
+msgstr "Fertig"
 
-#, fuzzy
-#| msgid "IX-F Import Email"
 msgid "Import failed"
-msgstr "IX-F-Import E-Mail"
+msgstr "Import fehlgeschlagen"
 
-#, fuzzy
-#| msgid "The user that made the request"
 msgid "The user that triggered the manual ix-f import request"
-msgstr "Beantragender Benutzer"
+msgstr "Der Benutzer, der die manuelle IX-F-Importanforderung ausgelöst hat"
 
 #, fuzzy
 #| msgid "Number of networks present at this exchange"
