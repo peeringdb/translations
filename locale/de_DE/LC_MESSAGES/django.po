@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-30 11:58+0000\n"
+"PO-Revision-Date: 2022-08-30 12:57+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -2274,23 +2274,21 @@ msgstr "Austauschpunkte"
 msgid "My organization presence"
 msgstr "Präsenz meiner Organisation"
 
-#, fuzzy
-#| msgid "Present"
 msgid "Not present"
-msgstr "Vorhanden"
+msgstr "Nicht vorhanden"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
-msgstr "Dies ist eine Beta/Test Instanz von PeeringDB. Manche Funktionen könnten anders als in der Produktion funktionieren. Bitte speichere keine Daten hier die du behalten willst"
+msgstr "Dies ist eine Beta/Test Instanz von PeeringDB. Manche Funktionen könnten anders als in der Produktion funktionieren. Bitte speichern Sie hier keine Daten, die Sie behalten wollen"
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
-msgstr "- alle Daten werden am %(dt)sZ von der Produktion geladen"
+msgstr "- alle Daten werden am %(dt)sZ neu von der Produktion geladen"
 
 msgid "Only use this if you own the facility"
-msgstr "Nur für Betreiber des Rechenzentrums"
+msgstr "Nur für Betreiber der Liegenschaft"
 
 msgid "Only use this if you own the exchange"
-msgstr "Nur für Betreiber des Internet Exchange"
+msgstr "Nur für Betreiber des Austauschpunktes"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
@@ -2300,7 +2298,7 @@ msgid "To be listed as a Facility in PeeringDB we would expect that you offer co
 msgstr "Um als Liegenschaft / Gebäude aufgeführt zu werden erwarten wir, dass Sie Kolokation, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich anbieten."
 
 msgid "To be listed as an Internet Exchange in PeeringDB we would expect that you meet the following criteria:"
-msgstr "Um als Internetaustauschpunkt in PeeringDB gelistet zu werden erwarten, dass Sie folgende Kriterien erfüllen:"
+msgstr "Um als Austauschpunkt in PeeringDB gelistet zu werden, erwarten wir, dass Sie folgende Kriterien erfüllen:"
 
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
 msgstr "Ein Internetaustauschpunkt (IXP) ist eine Netzwerkeinrichtung, die die Zusammenschaltung von mehr als zwei unabhängigen Autonomen Systemen vornehmlich mit dem Zweck des Austausches von Internetverkehr ermöglicht."
