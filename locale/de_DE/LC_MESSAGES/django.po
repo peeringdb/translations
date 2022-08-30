@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-30 16:58+0000\n"
+"PO-Revision-Date: 2022-08-30 17:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1208,10 +1208,8 @@ msgstr "Die Zugehörigkeit zum Unternehmen \"{}\" wurde freigegeben"
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
 
-#, fuzzy
-#| msgid "The item that this queue is attached to was created by this user"
 msgid "The item that this queue is attached to was created by this organization api key"
-msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
+msgstr "Das Element, an das diese Warteschlange angehängt ist, wurde von diesem Organisations-API-Schlüssel erstellt"
 
 msgid "email address"
 msgstr "E-Mail Adresse"
@@ -1243,10 +1241,8 @@ msgstr "Die Organisation hat aktive Objekte unter sich."
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "Die Organisation ist derzeit ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
 
-#, fuzzy
-#| msgid "Organization Merges"
 msgid "Organization API key Permission"
-msgstr "Zusammengeführte Organisationen"
+msgstr "Organisations-API-Schlüsselberechtigung"
 
 msgid "Sponsorship starts on"
 msgstr "Sponsoring beginnt am"
@@ -1302,10 +1298,8 @@ msgstr "Organisationzusammenführungen: Einheiten"
 msgid "number of exchanges at this facility"
 msgstr "Anzahl der Austauschpunkte in dieser Liegenschaft"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of networks at this facility"
-msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+msgstr "Anzahl der Netzwerke verfügbar in dieser Liegenschaft"
 
 msgid "Need to specify at least two asns"
 msgstr "Es müssen zumindest zwei ASNs angegeben werden"
@@ -1722,8 +1716,7 @@ msgstr ""
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been denied"
+#, python-format
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
@@ -1749,13 +1742,11 @@ msgstr "Fehler bei der RDAP Suche"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Dieses Feld ist nur bei diesen Anforderungen erlaubt: {methods}"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' noch nicht genehmigt wurde"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, python-format
 msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
@@ -1799,8 +1790,6 @@ msgstr "ist Ihre E-Mail-Adresse"
 msgid "Confirm"
 msgstr "Bestätigen"
 
-#, fuzzy
-#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
 msgid "The email confirmation process for this email address has been terminated, please re-initiate"
 msgstr "Der E-Mail-Bestätigungsvorgang für diese E-Mail-Adresse wurde beendet, bitte erneut initialisieren"
 
@@ -1929,8 +1918,6 @@ msgstr "ID"
 msgid "has been merged into"
 msgstr "wurde zusammengeführt mit"
 
-#, fuzzy
-#| msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please dont hesitate to contact peeringdb support at"
 msgid "All merges are processed manually by peeringdb support staff. If you think this action has been executed in error please don't hesitate to contact peeringdb support at"
 msgstr "Alle Zusammenführungen werden von PeeringDB-Supportpersonal manuell ausgeführt. Wenn Sie der Meinung sind, dass diese Aktion fehlerhaft ausgeführt wurde, wenden Sie sich bitte an den PeeringDB-Support unter"
 
@@ -1976,8 +1963,6 @@ msgstr "Das Netzwerk %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) wurde autom
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Organisations-API-Schlüssel (Präfix: %(prefix)s) mit E-Mail-Adresse '%(email)s' hat das Netzwerk %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter der Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
 
-#, fuzzy
-#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten abgeglichen werden konnte, hat dieses Netzwerk die Überprüfungswarteschlange übersprungen."
 
@@ -1985,8 +1970,6 @@ msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten ab
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "Der Benutzer '%(u_name)s' hat das Netzwerk %(n_name)s als %(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
 
-#, fuzzy
-#| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Da die E-Mail-Adresse des Benutzers erfolgreich mit RiR Eintragsdaten abgeglichen werden konnte, hat dieses Netzwerk die Überprüfungswarteschlange übersprungen."
 
@@ -1997,8 +1980,6 @@ msgstr "Benutzer %(u_name)s (%(u_email)s) möchte zu ASN %(inst)s dazu gehören"
 msgid "They also provided this organization name in their request"
 msgstr "Sie haben ferner diesen Organisationsnamen in ihrer Anforderung angegeben"
 
-#, fuzzy
-#| msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organzation for it will need to be created."
 msgid "There was no entry in our database that matches that ASN, so it is likely that a network and organization for it will need to be created."
 msgstr "Es gab keinen Eintrag in unserer Datenbank, der diesem ASN entspricht. Daher ist es wahrscheinlich, dass ein Netzwerk- und Organisationseintrag erstellt werden muss."
 
@@ -2050,8 +2031,7 @@ msgstr "Genehmigen Sie bitte die Anfrage nach Zuordnung/Gewährung von Besitzrec
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "Ein/e neue/s '%(entity_type_name)s' wurde erstellt und erfordert Ihre Genehmigung."
 
-#, fuzzy, python-format
-#| msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr "Dieser %(entity_type_name)s wurde vorgeschlagen. Nach Prüfung werden wir ihn der richtigen Organisation zuweisen"
 
@@ -2061,10 +2041,8 @@ msgstr "Wir haben den RiR-Eintrag für die angegebene ASN abgerufen"
 msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
 msgstr "aber fand keine Übereinstimmung mit dem Benutzer, der die Anforderung stellte. Hier sind die E-Mail-Adressen, die wir fanden"
 
-#, fuzzy
-#| msgid "Selected Organizations"
 msgid "Requested by Organization API Key"
-msgstr "Ausgewählte Organisationen"
+msgstr "Wird vom API-Schlüssel der Organisation angefordert"
 
 msgid "API key prefix"
 msgstr "API-Schlüssel-Präfix"
@@ -2208,10 +2186,8 @@ msgstr "Postleitzahl"
 msgid "Within Distance"
 msgstr "In Reichweite"
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
-msgstr "Einige der Kontaktdaten werden nur angemeldeten Benutzern angezeigt. Bitte melden Sie sich an."
+msgstr "Authentifizierten Benutzern stehen zusätzliche Filter zur Verfügung. Bitte melden Sie sich an ."
 
 msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
 msgstr "Einige der Kontaktdaten dieses Netzwerks werden nicht angezeigt, da Ihr Zugang nicht mit dieser Organisation verknüpft ist."
@@ -2224,10 +2200,8 @@ msgstr "Netzwerkgeltungsbereich"
 msgid "Search networks ..."
 msgstr "Suche Netzwerke..."
 
-#, fuzzy
-#| msgid "Present"
 msgid "All present"
-msgstr "Vorhanden"
+msgstr "Alle vorhanden"
 
 msgid "Any present"
 msgstr "Irgendwo vorhanden"
@@ -2723,7 +2697,7 @@ msgstr "Vielen Dank"
 
 #, python-format
 msgid "We have received your ownership request for %(o_name)s and will review it."
-msgstr "Ihre Anfrage %(o_name)s zu übernehmen wurde empfangen und liegt zur Überprüfung vor."
+msgstr "Wir haben Ihre Eigentumsanfrage für %(o_name)s erhalten und werden sie prüfen."
 
 msgid "We have verified your relationship with this entity and you have successfully claimed ownership. You may view / edit"
 msgstr "Ihre Anfrage diesen Eintrag zu übernehmen wurde nach einer Überprüfung freigegeben. Sie können diesen Eintrag jetzt einsehen und bearbeiten"
@@ -2732,37 +2706,37 @@ msgid "Request Ownership"
 msgstr "Eigentum/Besitzrecht anfordern"
 
 msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr "Bitte fordern Sie Eigenturmsrechte an Objekten nur dann an, wenn Sie sicher sind, dass diese zu Ihnen gehören. Möchten Sie fortfahren?"
+msgstr "Bitte fordern Sie Eigentumsrechte an Objekten nur dann an, wenn Sie sicher sind, dass diese Ihnen gehören. Möchten Sie fortfahren?"
 
 msgid "Only verified users may request ownership to an organization"
-msgstr "Nur freigebene und bestätigte Benutzer können Eigentum an Organisations-Objekten anfordern"
+msgstr "Nur verifizierte Benutzer können die Inhaberschaft einer Organisation beantragen"
 
 msgid "sponsor"
 msgstr "Sponsor"
 
 msgid "Suggest Exchange"
-msgstr "Austauschknoten vorschlagen"
+msgstr "Austauschpunkt vorschlagen"
 
 msgid "Suggest Network"
 msgstr "Netzwerk vorschlagen"
 
 msgid "Become a Sponsor"
-msgstr "Pate werden"
+msgstr "Sponsor werden"
 
 msgid "This server is running in TUTORIAL MODE"
 msgstr "Dieser Server befindet sich im TUTORIAL-MODUS"
 
 msgid "These are the usernames associated with your email address"
-msgstr "Folgene Benutzernamen sind mit Ihrer E-Mail-Adresse verknüpft"
+msgstr "Folgende Benutzernamen sind mit Ihrer E-Mail-Adresse verknüpft"
 
 msgid "The secret you provided does not match the secret required to complete this process"
-msgstr "Das übermittelte Kennwort stimmt nicht mit dem hinterlegten Kennwort überein, was benötigt wird um fortzufahren"
+msgstr "Das von Ihnen bereitgestellte Kennwort stimmt nicht mit dem Kennwort überein, das zum Abschließen dieses Vorgangs erforderlich ist"
 
 msgid "Note"
 msgstr "Notiz"
 
 msgid "You should complete the process in the same browser that you originally initiated it in."
-msgstr "Der Vorgang sollte im gleichen Browser fortgeführt werden, in dem Sie damit angefangen haben."
+msgstr "Der Vorgang sollte im selben Browser fortgeführt werden, in dem Sie angefangen haben."
 
 # # unklarer Zusammenhang
 msgid "Please re-initiate it"
@@ -2778,7 +2752,7 @@ msgid "Retrieve username(s)"
 msgstr "Benutzername(n) abrufen"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
-msgstr "Ihr Zugang wurde mit noch keiner Organisation verbunden und hat deshalb nur eingeschränkten Zugang zu manchen Daten (wie z.B. nicht öffentiche Kontaktinformationen)."
+msgstr "Ihr Zugang wurde mit noch keiner Organisation verbunden und hat deshalb nur eingeschränkten Zugang zu manchen Daten (wie z.B. nicht öffentliche Kontaktinformationen)."
 
 msgid "Please take the time to confirm your email address and request affiliation"
 msgstr "Bitte nehmen Sie sich die Zeit und bestätigen Sie Ihre E-Mail Adresse sowie zusammenhängende Zugehörigkeiten"
@@ -2799,7 +2773,7 @@ msgid "to improve data quality"
 msgstr "markiert sind, um die Datenqualität zu erhöhen"
 
 msgid "Suggested Address:"
-msgstr ""
+msgstr "Empfohlene Adresse:"
 
 msgid "Accept"
 msgstr "Akzeptieren"
@@ -2906,10 +2880,8 @@ msgstr "Austauschpunkt"
 msgid "Close"
 msgstr "Schließen"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import Postmortem"
-msgstr "IXF Import Verlauf"
+msgstr "IX-F-Import Postmortem"
 
 msgid "Below is a log of changes done to you network -&gt; exchange connections as a result of IX-F data imports. Note that this does not contain any adjustments done by staff to rollback such changes, but should be viewed as a raw log of actions taken by the IX-F data import."
 msgstr "Nachstehend finden Sie ein Protokoll der Änderungen, die an Ihren Austauschverbindungen infolge von IX-F-Datenimporten vorgenommen wurden. Beachten Sie, dass dies keine Anpassungen enthält, die von Mitarbeitern vorgenommen wurden, um solche Änderungen rückgängig zu machen. Sie sollten daher als unformatiertes Protokoll der vom IX-F-Datenimport ausgeführten Aktionen angesehen werden."
@@ -2930,28 +2902,28 @@ msgid "Review suggestions"
 msgstr "Änderungsvorschläge bestätigen"
 
 msgid "You have dismissed some suggestions that are still available."
-msgstr ""
+msgstr "Sie haben einige noch verfügbare Vorschläge verworfen."
 
 msgid "Will restore any suggestions you have previously dismissed"
-msgstr ""
+msgstr "Stellt alle Vorschläge wieder her, die Sie zuvor verworfen haben"
 
 msgid "Reset Suggestions"
 msgstr "Vorschläge zurücksetzen"
 
 msgid "Expand each exchange below to review, apply or dismiss those suggestions"
-msgstr ""
+msgstr "Machen Sie unten stehenden Austauschpunkt sichtbar, um diese Vorschläge zu prüfen, anzuwenden oder abzulehnen"
 
 msgid "Their PeeringDB entry"
 msgstr "Ihr PeeringDB Eintrag"
 
 msgid "Automatically update and remove all suggested entries"
-msgstr ""
+msgstr "Alle vorgeschlagenen Einträge automatisch aktualisieren und entfernen"
 
 msgid "Auto-resolve"
-msgstr ""
+msgstr "Automatische Auflösung"
 
 msgid "Automatically add all suggested entries"
-msgstr ""
+msgstr "Alle vorgeschlagenen Einträge automatisch hinzufügen"
 
 msgid "Auto-add"
 msgstr "Automatisches Hinzufügen"
@@ -2960,50 +2932,41 @@ msgid "Options"
 msgstr "Optionen"
 
 msgid "Hide this suggestion until the exchange updates it."
-msgstr ""
+msgstr "Blenden Sie diesen Vorschlag aus, bis der Austauschpunkt ihn aktualisiert."
 
 msgid "Dismiss"
 msgstr "Ablehnen"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Add this entry to public peering exchange points"
-msgstr "Öffentliche Peering Austauschpunkte"
+msgstr "Fügen Sie diesen Eintrag öffentlichen Peering-Austauschpunkten hinzu"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Remove this entry from your public peering exchange points list"
-msgstr "Öffentliche Peering Austauschpunkte"
+msgstr "Entfernen Sie diesen Eintrag aus Ihrer Liste der öffentlichen Peering-Austauschpunkte"
 
-#, fuzzy, python-format
-#| msgid "Public Peering Exchange Points"
+#, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr "Öffentliche Peering Austauschpunkte"
+msgstr "Den Eintrag %(ixf_id)s für %(ix_name)s aus Ihrer Liste der öffentlichen Peering-Austauschpunkte entfernen?"
 
 msgid "Set IPv6 address"
 msgstr "IPv6 Adresse setzen"
 
-#, fuzzy
-#| msgid "Set IPv6 address"
 msgid "Clear IPv6 address"
-msgstr "IPv6 Adresse setzen"
+msgstr "IPv6-Adresse löschen"
 
 msgid "Set IPv4 address"
 msgstr "IPv4 Adresse setzen"
 
-#, fuzzy
-#| msgid "Set IPv4 address"
 msgid "Clear IPv4 address"
-msgstr "IPv4 Adresse setzen"
+msgstr "IPv4-Adresse löschen"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
-msgstr ""
+msgstr "Aktualisieren Sie diesen Eintrag in Ihrer Liste der öffentlichen Peering-Austauschpunkte. Sie müssen auch den Netzwerkeintrag speichern, um diese Änderungen nach dem Akzeptieren beizubehalten."
 
 msgid "Will restore any active suggestions from this exchange that have been dismissed by the network"
-msgstr ""
+msgstr "Stellt alle aktiven Vorschläge von diesem Austauschpunkt wieder her, die vom Netzwerk abgelehnt wurden"
 
 msgid "Will add all suggested entries"
-msgstr ""
+msgstr "Fügt alle vorgeschlagenen Einträge hinzu"
 
 #, fuzzy
 #| msgid "Auto-add"
@@ -3037,10 +3000,8 @@ msgstr "Exchange hinzufügen"
 msgid "Permissions"
 msgstr "Berechtigungen"
 
-#, fuzzy
-#| msgid "User Permissions"
 msgid "API Key Permissions"
-msgstr "Benutzerrechte"
+msgstr "API-Schlüsselberechtigungen"
 
 msgid "OAuth"
 msgstr ""
