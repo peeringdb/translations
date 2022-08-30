@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-30 10:58+0000\n"
+"PO-Revision-Date: 2022-08-30 11:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1346,15 +1346,11 @@ msgstr "Import fehlgeschlagen"
 msgid "The user that triggered the manual ix-f import request"
 msgstr "Der Benutzer, der die manuelle IX-F-Importanforderung ausgelöst hat"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this exchange"
-msgstr "Anzahl der Netzwerke die an diesem Exchange angeschlossen sind"
+msgstr "Anzahl der Liegenschaften an diesem Austauschpunkt"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of networks at this exchange"
-msgstr "Anzahl der Netzwerke die an diesem Exchange angeschlossen sind"
+msgstr "Anzahl der Netzwerke an diesem Austauschpunkt"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr "Internet Exchange ist mit aktiven Rechenzentren verbunden: {} ..."
@@ -1389,15 +1385,11 @@ msgstr "Ixlan für den Austauschpunkt existiert bereits"
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
 msgstr "Ein IX-F Import kann nicht ohne IX-F Teilnehmer URL aktiviert werden"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import Log"
-msgstr "IX-F Import Bericht"
+msgstr "IX-F Importprotokoll"
 
-#, fuzzy
-#| msgid "IXF Import Logs"
 msgid "IX-F Import Logs"
-msgstr "IX-F Import Berichte"
+msgstr "IX-F Importprotokolle"
 
 msgid "IX-F Import Log Entry"
 msgstr "IX-F Import Log Eintrag"
@@ -1441,18 +1433,14 @@ msgstr "IXLanPrefix mit Status '{}' kann nicht mit IXLan mit Status '{}' verknü
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Gibt an, ob es einem IXP erlaubt ist, einen netixlan Eintrag anhand der ixp_member Daten für dieses Netzwerk vorzunehmen"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of exchanges at this network"
-msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+msgstr "Anzahl der Austauschpunkte an diesem Netzwerk"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this network"
-msgstr "Anzahl der Netzwerke die an diesem Exchange angeschlossen sind"
+msgstr "Anzahl der Liegenschaft an diesem Netzwerk"
 
 msgid "Last technical contact point for network with active peers"
-msgstr ""
+msgstr "Letzter technischer Kontakt für Netzwerk mit aktiven Peers"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Die Entität wurde für das ASN {} erstellt - bitte entferne es von dem Netzwerk und erstelle es nochmal im richtigen Netzwerk"
@@ -1518,7 +1506,7 @@ msgid "Password Reset Initiated"
 msgstr "Passwort zurücksetzen wurde eingeleitet"
 
 msgid "Determines if API Key inherits the User Permissions or is readonly."
-msgstr ""
+msgstr "Bestimmt, ob der API-Schlüssel die Benutzerberechtigungen erbt oder schreibgeschützt ist."
 
 msgid "IX-F Import Email"
 msgstr "IX-F-Import E-Mail"
@@ -1557,10 +1545,10 @@ msgid "Environment Settings"
 msgstr "Umgebungseinstellungen"
 
 msgid "API: Anonymous API throttle rate"
-msgstr ""
+msgstr "API: Drosselungsrate für anonyme API"
 
 msgid "API: Authenticated API throttle rate"
-msgstr ""
+msgstr "API: Authentifizierte API-Drosselrate"
 
 msgid "API: Melissa request throttle rate for admin users"
 msgstr ""
@@ -1569,64 +1557,64 @@ msgid "API: Melissa request throttle enabled for admin users"
 msgstr ""
 
 msgid "API: Melissa request throttle rate for users"
-msgstr ""
+msgstr "API: Drosselungsrate für Melissa-Anforderungen für Benutzer"
 
 msgid "API: Melissa request throttle enabled for users"
-msgstr ""
+msgstr "API: Drosselung der Melissa-Anfrage für Benutzer aktiviert"
 
 msgid "API: Melissa request throttle rate for organizations"
-msgstr ""
+msgstr "API: Drosselungsrate für Melissa-Anforderungen für Organisationen"
 
 msgid "API: Melissa request throttle enabled for organizations"
-msgstr ""
+msgstr "API: Melissa-Anforderungsdrosselung für Organisationen aktiviert"
 
 msgid "API: Melissa request throttle rate for anonymous requests (ips)"
-msgstr ""
+msgstr "API: Drosselungsrate für Melissa-Anfragen für anonyme Anfragen (ips)"
 
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
-msgstr ""
+msgstr "API: Melissa-Anfragedrosselung für anonyme Anfragen aktiviert (ips)"
 
 msgid "API: Response size throttle size threshold for ip blocks (bytes)"
-msgstr ""
+msgstr "API: Drosselungsschwellenwert für Antwortgröße für IP-Blöcke (Byte)"
 
 msgid "API: Response size throttle rate for ip blocks"
-msgstr ""
+msgstr "API: Drosselungsrate der Antwortgröße für IP-Blöcke"
 
 msgid "API: Response size throttle enabled for ip blocks"
-msgstr ""
+msgstr "API: Drosselung der Antwortgröße für IP-Blöcke aktiviert"
 
 msgid "API: Response size throttle size threshold for ip addresses (bytes)"
-msgstr ""
+msgstr "API: Drosselungsschwellenwert für Antwortgröße für IP-Adressen (Bytes)"
 
 msgid "API: Response size throttle rate for ip addresses"
-msgstr ""
+msgstr "API: Drosselungsrate der Antwortgröße für IP-Adressen"
 
 msgid "API: Response size throttle enabled for ip addresses"
-msgstr ""
+msgstr "API: Drosselung der Antwortgröße für IP-Adressen aktiviert"
 
 msgid "API: Response size throttle size threshold for authenticated users (bytes)"
-msgstr ""
+msgstr "API: Drosselungsschwellenwert für Antwortgröße für authentifizierte Benutzer (Bytes)"
 
 msgid "API: Response size throttle rate for authenticated users"
-msgstr ""
+msgstr "API: Drosselungsrate der Antwortgröße für authentifizierte Benutzer"
 
 msgid "API: Response size throttle enabled for authenticated users"
-msgstr ""
+msgstr "API: Drosselung der Antwortgröße für authentifizierte Benutzer aktiviert"
 
 msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
-msgstr ""
+msgstr "API: Schwellenwert für die Drosselungsgröße der Antwortgröße für Organisations-API-Schlüssel (Bytes)"
 
 msgid "API: Response size throttle rate for organization api-keys"
-msgstr ""
+msgstr "API: Drosselungsrate der Antwortgröße für Organisations-API-Schlüssel"
 
 msgid "API: Response size throttle enabled for organization api-keys"
-msgstr ""
+msgstr "API: Drosselung der Antwortgröße für Organisations-API-Schlüssel aktiviert"
 
 msgid "API: Anonymous API throttle rate message"
-msgstr ""
+msgstr "API: Meldung für Drosselungsrate bei Anonymen API"
 
 msgid "API: Authenticated API throttle rate message"
-msgstr ""
+msgstr "API: Meldung für Drosselungsrate bei authentifizierten API"
 
 msgid "Last Updated"
 msgstr "Zuletzt aktualisiert"
@@ -1704,10 +1692,10 @@ msgid "Any Network"
 msgstr "Alle Netzwerke"
 
 msgid "Any Facility"
-msgstr "Alle Gebäude"
+msgstr "Alle Liegenschaften"
 
 msgid "Any Exchange"
-msgstr "Alle Austauschknoten"
+msgstr "Alle Austauschpunkte"
 
 #, python-format
 msgid "Network - %(net_name)s"
@@ -1715,11 +1703,11 @@ msgstr "Netzwerk - %(net_name)s"
 
 #, python-format
 msgid "Exchange - %(ix_name)s"
-msgstr "Austauschknoten - %(ix_name)s"
+msgstr "Austauschpunkt - %(ix_name)s"
 
 #, python-format
 msgid "Facility - %(fac_name)s"
-msgstr "Gebäude - %(fac_name)s"
+msgstr "Liegenschaft - %(fac_name)s"
 
 msgid "Invalid organization specified"
 msgstr "Ungültiges Unternehmen angegeben"
@@ -1740,10 +1728,10 @@ msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
 msgid "Please contact {} to help with the deletion of this object"
-msgstr "Bitte kontaktieren Sie {} um Unterstützung bei der Löschung dieses Objekts zu bekommen"
+msgstr "Bitte kontaktieren Sie {}, um Unterstützung bei der Löschung dieses Objekts zu erhalten"
 
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
-msgstr "Die angegebene Adresse wurde nicht gefunden. Bitte überprüfe die Adressdaten und kontaktiere {} für weitere Hilfe."
+msgstr "Die angegebene Adresse wurde nicht gefunden. Bitte überprüfen Sie die Adressdaten und kontaktieren Sie {} für weitere Hilfe."
 
 msgid "Invalid value"
 msgstr "Ungültiger Wert"
@@ -1759,7 +1747,7 @@ msgstr "Fehler bei der RDAP Suche"
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr "Dieses Feld is nur bei diesen Anforderungen erlaubt: {methods}"
+msgstr "Dieses Feld ist nur bei diesen Anforderungen erlaubt: {methods}"
 
 #, fuzzy, python-format
 #| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
@@ -1772,7 +1760,7 @@ msgid "Object of type '%(type)s' cannot be created because its parent entity '%(
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
 msgid "Required for distance filtering"
-msgstr ""
+msgstr "Erforderlich für Entfernungsfilterung"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Netzwerk muss eine Technische, NOC oder Peering Policy Kontaktperson mit gültiger E-Mail haben, bevor der Austauschpunkt hinzugefügt werden kann."
@@ -1781,19 +1769,19 @@ msgid "Network has been deleted. Please contact {}"
 msgstr "Das Netzwerk wurde gelöscht. Bitte kontaktieren Sie {}"
 
 msgid "This field may not be blank."
-msgstr ""
+msgstr "Dieses Feld darf nicht leer sein."
 
 msgid "ASN cannot be changed."
 msgstr "ASN kann nicht geändert werden."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr "Eigenschaft `in_dfz` ist veraltet und kann nicht mehr auf `Unwahr` gesetzt werden"
+msgstr "Eigenschaft `in_dfz` ist veraltet und kann nicht mehr auf `Falsch` gesetzt werden"
 
 msgid "Specify at least one email address"
 msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
-msgstr ""
+msgstr "Der Benutzer kann keinen Austauschpunkt mit seiner Organisation erstellen, die als Organisation SUGGEST_ENTITY festgelegt hat"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1830,27 +1818,24 @@ msgstr "stattdessen"
 
 #, python-format
 msgid "Show %(num)s rows"
-msgstr ""
+msgstr "%(num)s Zeilen anzeigen"
 
 msgid "(Warning: potentially long load)"
-msgstr ""
+msgstr "(Warnung: möglicherweise langes Laden)"
 
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+#, python-format
 msgid ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 "\n"
-"Für RegEx-Suche à la  <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> muss die Suchanfrage mit ^ beginnen und mit $ enden.\n"
+"Um die <a href=\"%(doc_url)s\" target=\"_blank\">Regex-Suche</a> zu verwenden, beginnen Sie den Suchbegriff mit ^ und enden mit $. <!--lgtm[js/unsicherer-externer-link] -->\n"
 
 msgid "WARNING! This object currently has DoTF protection:"
-msgstr ""
+msgstr "WARNUNG! Dieses Objekt hat derzeit DoTF-Schutz:"
 
 msgid "As a superuser you may still proceed with the deletion."
-msgstr ""
+msgstr "Als Superuser können Sie trotzdem mit dem Löschen fortfahren."
 
 msgid "Save and Apply"
 msgstr "Speichern und Anwenden"
@@ -1901,23 +1886,21 @@ msgid "Result"
 msgstr "Ergebnis"
 
 msgid "You can monitor progress and review the results here"
-msgstr ""
+msgstr "Hier können Sie den Fortschritt überwachen und die Ergebnisse überprüfen"
 
-#, fuzzy
-#| msgid "staff status"
 msgid "Command status"
-msgstr "Firmenzugehörigkeit"
+msgstr "Befehlsstatus"
 
 msgid "The following objects will be deleted:"
-msgstr ""
+msgstr "Folgende Objekte werden gelöscht:"
 
 msgid "This object currently has DoTF protection:"
-msgstr ""
+msgstr "Dieses Objekt hat derzeit DoTF-Schutz:"
 
 msgid "PeeringDB API Documentation"
 msgstr "PeeringDB API-Dokumentation"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "\n"
 "You have been sent this message because you are an administrator for %(org_name)s.\n"
@@ -1928,6 +1911,14 @@ msgid ""
 "\n"
 "You can add objects to your organization here: %(org_url)s\n"
 msgstr ""
+"\n"
+"Sie haben diese Nachricht erhalten, weil Sie ein Administrator für %(org_name)s sind.\n"
+"\n"
+"%(org_name)s hat derzeit keine aktiven Einrichtungen, Austauschmöglichkeiten oder Netzwerke darin.\n"
+"\n"
+"Wenn es für %(duration)s Tage leer bleibt, wird es entfernt.\n"
+"\n"
+"Hier können Sie Objekte zu Ihrer Organisation hinzufügen: %(org_url)s\n"
 
 msgid "Merge Notification"
 msgstr "Benachrichtigung über Zusammenführung"
@@ -1981,10 +1972,9 @@ msgstr "Die Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) wurde a
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "Das Netzwerk %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) wurde automatisch während der Benutzeranfrage von '%(u_name)s, zu %(asn)s dazu zu gehören, erstellt"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organzation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Der Benutzer '%(u_name)s ' hat das Netzwerk %(n_name)s als %(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) unter Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
+msgstr "Organisations-API-Schlüssel (Präfix: %(Präfix)s) mit E-Mail-Adresse '%(email)s' hat das Netzwerk %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id )s</a>) unter der Organisation %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) erstellt."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -2035,8 +2025,6 @@ msgstr "Sie haben ferner dieses ASN in ihrer Anforderung angegeben"
 msgid "ATTENTION: This is an ownership request, approving it will grant the user administration rights over the organization and any entities it owns."
 msgstr "Achtung: Hierbei handelt es sich um eine Anfrage nach Übertragung von Besitzrechten. Durch die Genehmigung werden dem Benutzer Verwaltungsrechte für die Organisation und alle Entitäten, die sie besitzt, gewährt."
 
-#, fuzzy
-#| msgid "These are the website addresses were able to derive from the organzation and it's entities"
 msgid "These are the website addresses were able to derive from the organization and it's entities"
 msgstr "Diese Website-Adressen wurden von der Organisation und ihren Entitäten abgeleitet"
 
@@ -2070,8 +2058,6 @@ msgstr "Dieser %(entity_type_name)s wurde vorgeschlagen. Nach Prüfung werden wi
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "Wir haben den RiR-Eintrag für die angegebene ASN abgerufen"
 
-#, fuzzy
-#| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
 msgstr "aber fand keine Übereinstimmung mit dem Benutzer, der die Anforderung stellte. Hier sind die E-Mail-Adressen, die wir fanden"
 
@@ -2080,16 +2066,14 @@ msgstr "aber fand keine Übereinstimmung mit dem Benutzer, der die Anforderung s
 msgid "Requested by Organization API Key"
 msgstr "Ausgewählte Organisationen"
 
-#, fuzzy
-#| msgid "Prefix"
 msgid "API key prefix"
-msgstr "Präfix"
+msgstr "API-Schlüssel-Präfix"
 
 msgid "You can go to"
 msgstr "Bitte gehen Sie zu"
 
 msgid "to view and approve or deny this entry"
-msgstr "Um den Benutzer freizuschalten oder abzulehnen"
+msgstr "um diesen Eintrag anzuzeigen und zu genehmigen oder abzulehnen"
 
 #, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
@@ -2188,7 +2172,7 @@ msgid "CLLI"
 msgstr "CLLI"
 
 msgid "Does not matter"
-msgstr ""
+msgstr "Ist egal"
 
 msgid "Reset"
 msgstr "Zurücksetzen"
@@ -2213,7 +2197,7 @@ msgid "IP Block"
 msgstr "IP-Block"
 
 msgid "Capacity"
-msgstr ""
+msgstr "Kapazität"
 
 msgid "Address"
 msgstr "Adresse"
@@ -2222,15 +2206,13 @@ msgid "Postal"
 msgstr "Postleitzahl"
 
 msgid "Within Distance"
-msgstr ""
+msgstr "In Reichweite"
 
 #, fuzzy
 #| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Einige der Kontaktdaten werden nur angemeldeten Benutzern angezeigt. Bitte melden Sie sich an."
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
 msgstr "Einige der Kontaktdaten dieses Netzwerks werden nicht angezeigt, da Ihr Zugang nicht mit dieser Organisation verknüpft ist."
 
@@ -2240,22 +2222,18 @@ msgid "Network Presence"
 msgstr "Netzwerkgeltungsbereich"
 
 msgid "Search networks ..."
-msgstr ""
+msgstr "Suche Netzwerke..."
 
 #, fuzzy
 #| msgid "Present"
 msgid "All present"
 msgstr "Vorhanden"
 
-#, fuzzy
-#| msgid "Present"
 msgid "Any present"
-msgstr "Vorhanden"
+msgstr "Irgendwo vorhanden"
 
-#, fuzzy
-#| msgid "Present"
 msgid "None present"
-msgstr "Vorhanden"
+msgstr "Nicht vorhanden"
 
 msgid "Traffic Ratio"
 msgstr "Verkehrsverhältnis"
@@ -2267,10 +2245,10 @@ msgid "General Peering Policy"
 msgstr "Allgemeine Peeringrichtlinie"
 
 msgid "Exchange Presence"
-msgstr "Eindeutige öffentliche Austausch-Präsenz"
+msgstr "Präsenz am Austauschpunkt"
 
 msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgstr "Suche nach Netzen, die an einem Exchange aber nicht an einem anderen präsent sind"
+msgstr "Suche nach Netzen, die an einem Austauschpunkt, aber nicht an einem anderen präsent sind"
 
 msgid "Present"
 msgstr "Vorhanden"
@@ -2282,7 +2260,7 @@ msgid "Facility Presence"
 msgstr "Liegenschaftspräsenz"
 
 msgid "Search for networks that are present at one Facility, but absent from another facility"
-msgstr "Suche nach Netzen, die in einem Gebäude aber nicht in einem anderen präsent sind"
+msgstr "Suche nach Netzen, die in einer Liegenschaft, aber nicht in einer anderen präsent sind"
 
 msgid "Also known as"
 msgstr "Auch bekannt als"
@@ -2293,10 +2271,8 @@ msgstr "Netzwerkgeltungsbereich"
 msgid "Exchanges"
 msgstr "Austauschpunkte"
 
-#, fuzzy
-#| msgid "Organization Merges"
 msgid "My organization presence"
-msgstr "Organisationenzusammenführungen"
+msgstr "Präsenz meiner Organisation"
 
 #, fuzzy
 #| msgid "Present"
