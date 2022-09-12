@@ -1202,6 +1202,21 @@ msgstr ""
 msgid "Validate Data"
 msgstr ""
 
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "1 Year"
+msgstr ""
+
 #, fuzzy
 #| msgid "Reset"
 msgid "Reset Environment"
@@ -1316,6 +1331,15 @@ msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vous permet de transférer et définir un logo pour cette organisation"
+
+msgid "Require users in your organization to have email addresses within your specified domains."
+msgstr ""
+
+msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
+msgstr ""
+
+msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
 
 #, fuzzy
 #| msgid "Organization does not exist"
@@ -1621,6 +1645,15 @@ msgstr "statut"
 
 msgid "language"
 msgstr "langue"
+
+msgid "Account is orphaned and has been flagged for deletion at this date"
+msgstr ""
+
+msgid "User has been notified about pending account deletion at this date"
+msgstr ""
+
+msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
+msgstr ""
 
 msgid "user"
 msgstr "utilisateur"
@@ -2764,6 +2797,9 @@ msgstr "Votre affiliation avec %(ar_name)s a été rejetée"
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Votre affiliation avec %(ar_name)s a été rejetée"
 
+msgid "The organization requires you to have a confirmed email address at one of the following domains"
+msgstr ""
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
 msgstr "Votre affiliation avec %(ar_name)s a été approuvée"
@@ -2813,14 +2849,44 @@ msgstr ""
 msgid "Read only"
 msgstr ""
 
-msgid "Change email address"
-msgstr "Changer l'adresse email"
+#, fuzzy
+#| msgid "email address"
+msgid "Email addresses"
+msgstr "adresse courriel"
+
+#, fuzzy
+#| msgid "Primary ASN"
+msgid "Primary"
+msgstr "Numéro d'AS principal"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Confirmation required"
+msgstr "Contrat exigé"
+
+#, fuzzy
+#| msgid "We have resent your confirmation email"
+msgid "Resend confirmation email"
+msgstr "Nous avons envoyé à nouveau l'email de confirmation"
+
+msgid "Set as primary"
+msgstr ""
+
+msgid "Remove"
+msgstr "Supprimer"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Pour accélérer la vérification, nous vous recommandons d'utiliser une adresse email professionnelle. Si vous prévoyez d'enregistrer votre numéro d'AS sur PeeringDB, nous vous recommandons d'utiliser une adresse email qui est déjà présente dans les informations publiques de contact de votre numéro d'AS."
 
-msgid "Change Email"
+#, fuzzy
+#| msgid "Change email address"
+msgid "Set as primary email address"
 msgstr "Changer l'adresse email"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Add email address"
+msgstr "adresse courriel"
 
 msgid "Change password"
 msgstr "Changer le mot de passe"
@@ -2888,9 +2954,6 @@ msgstr ""
 
 msgid "passwordless-login"
 msgstr ""
-
-msgid "Remove"
-msgstr "Supprimer"
 
 msgid "Register security key"
 msgstr ""
@@ -2991,6 +3054,19 @@ msgstr "Nous vous avons transmis les instructions par email."
 
 msgid "Retrieve username(s)"
 msgstr "Récupérer le(s) nom(s) d'utilisateur"
+
+msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "We have resent your confirmation email"
+msgid "%(org_name)s requests confirmation of %(email)s"
+msgstr "Nous avons envoyé à nouveau l'email de confirmation"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "Confirmer votre adresse courriel"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Votre compte utilisateur n'est affilié à aucune organisation et ne dispose donc que d'un accès limité aux informations privées (telles que les informations de contact)."
@@ -3359,6 +3435,20 @@ msgstr "Organisation"
 msgid "Group"
 msgstr "Groupe"
 
+msgid "Email address requirements not met"
+msgstr ""
+
+msgid "Restrict user email addresses to these domains"
+msgstr ""
+
+msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Update Options"
+msgstr "Régional"
+
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "Ici vous pouvez gérer les permissions des utilisateurs affiliés à votre organisation. Les administrateurs ne sont pas affichés car ils ont, par défaut, tous les droits."
 
@@ -3476,6 +3566,41 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Enable Two-Factor Authentication"
+msgstr "Gérer les applications OAuth"
+
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgstr ""
+
+msgid "Please select which authentication method you would like to use."
+msgstr ""
+
+msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+msgstr ""
+
+msgid "Or manually enter the setup key to your Authenticator app."
+msgstr ""
+
+msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
+msgstr ""
+
+msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
+msgstr ""
+
+msgid "We are calling your phone right now, please enter the digits you hear."
+msgstr ""
+
+msgid "We sent you a text message, please enter the tokens we sent."
+msgstr ""
+
+msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
+msgstr ""
+
+msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
+msgstr ""
+
+#, fuzzy
 #| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
 msgstr "Ajouter un nouveau réseau à votre organisation."
@@ -3507,6 +3632,11 @@ msgstr "heures dans le passé"
 
 msgid "days ago"
 msgstr "jours dans le passé"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid format"
+msgstr "Format d'export invalide"
 
 msgid "Private contacts are no longer supported."
 msgstr ""
@@ -3621,6 +3751,19 @@ msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "L'adresse email existe déjà dans notre système"
+
+#, fuzzy
+#| msgid "You have confirmed your email address!"
+msgid "You may have a maximum of {} email addresses"
+msgstr "Vous avez confirmé votre adresse email!"
+
+msgid "Cannot remove primary email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Email address not found"
+msgstr "Adresse non-trouvée"
 
 msgid "Wrong password"
 msgstr "Mot de passe incorrect"
@@ -3759,8 +3902,11 @@ msgstr "Informations sur le règlement de peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de bien vouloir patienter avant d'essayer de vous identifier à nouveau."
 
-#~ msgid "Primary ASN"
-#~ msgstr "Numéro d'AS principal"
+#~ msgid "Change email address"
+#~ msgstr "Changer l'adresse email"
+
+#~ msgid "Change Email"
+#~ msgstr "Changer l'adresse email"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"
@@ -3780,9 +3926,6 @@ msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de b
 
 #~ msgid "Error message of previous geocode attempt"
 #~ msgstr "Message d'erreur de la tentative de geocode précédente"
-
-#~ msgid "Address not found"
-#~ msgstr "Adresse non-trouvée"
 
 #~ msgid "API Timeout"
 #~ msgstr "Délai dépassé sur l'API"

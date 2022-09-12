@@ -1305,6 +1305,21 @@ msgstr "恢复对象"
 msgid "Validate Data"
 msgstr ""
 
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "1 Year"
+msgstr ""
+
 msgid "Reset Environment"
 msgstr "重置环境"
 
@@ -1420,6 +1435,15 @@ msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "允许您上传并设置此组织的 Logo 图像"
+
+msgid "Require users in your organization to have email addresses within your specified domains."
+msgstr ""
+
+msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
+msgstr ""
+
+msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
 
 #, fuzzy
 #| msgid "Organization does not exist"
@@ -1725,6 +1749,15 @@ msgstr "状态"
 
 msgid "language"
 msgstr "语言"
+
+msgid "Account is orphaned and has been flagged for deletion at this date"
+msgstr ""
+
+msgid "User has been notified about pending account deletion at this date"
+msgstr ""
+
+msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
+msgstr ""
 
 msgid "user"
 msgstr "用户"
@@ -2847,6 +2880,9 @@ msgstr "您与 %(ar_name)s 的关联被拒绝"
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "您与 %(ar_name)s 的关联被拒绝"
 
+msgid "The organization requires you to have a confirmed email address at one of the following domains"
+msgstr ""
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
 msgstr "您与 %(ar_name)s 的关联已批准"
@@ -2896,14 +2932,44 @@ msgstr ""
 msgid "Read only"
 msgstr ""
 
-msgid "Change email address"
-msgstr "修改 Email 地址"
+#, fuzzy
+#| msgid "email address"
+msgid "Email addresses"
+msgstr "电子邮件"
+
+#, fuzzy
+#| msgid "Primary ASN"
+msgid "Primary"
+msgstr "主要 ASN"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Confirmation required"
+msgstr "合同要求"
+
+#, fuzzy
+#| msgid "We have resent your confirmation email"
+msgid "Resend confirmation email"
+msgstr "我们重新发送了您的确认 Email"
+
+msgid "Set as primary"
+msgstr ""
+
+msgid "Remove"
+msgstr "删除"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "为了快速验证，您需要使用工作用 Email 地址。如您计划在 PeeringDB 上注册 ASN ，建议您使用 ASN 公共联系方式中存在的 Emali 地址。"
 
-msgid "Change Email"
-msgstr "修改 Email"
+#, fuzzy
+#| msgid "Specify at least one email address"
+msgid "Set as primary email address"
+msgstr "至少指定一个电子邮件地址"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Add email address"
+msgstr "电子邮件"
 
 msgid "Change password"
 msgstr "修改密码"
@@ -2971,9 +3037,6 @@ msgstr ""
 
 msgid "passwordless-login"
 msgstr ""
-
-msgid "Remove"
-msgstr "删除"
 
 msgid "Register security key"
 msgstr ""
@@ -3070,6 +3133,19 @@ msgstr "我们已将说明发送到您的 Email 地址（如果存在于系统�
 
 msgid "Retrieve username(s)"
 msgstr "查找用户名"
+
+msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "We have resent your confirmation email"
+msgid "%(org_name)s requests confirmation of %(email)s"
+msgstr "我们重新发送了您的确认 Email"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "确认您的 Email 地址"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "您的帐户尚未加入任何组织，对某些数据（例如非公开的网络联系信息）的访问权限受限。"
@@ -3428,6 +3504,20 @@ msgstr "组织"
 msgid "Group"
 msgstr "组"
 
+msgid "Email address requirements not met"
+msgstr ""
+
+msgid "Restrict user email addresses to these domains"
+msgstr ""
+
+msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Update Options"
+msgstr "区域性"
+
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "您可以在此向组织的普通成员授予权限。此处未列出管理用户，因为他们默认可以访问所有内容。"
 
@@ -3537,6 +3627,41 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Enable Two-Factor Authentication"
+msgstr "管理 OAuth 应用"
+
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgstr ""
+
+msgid "Please select which authentication method you would like to use."
+msgstr ""
+
+msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+msgstr ""
+
+msgid "Or manually enter the setup key to your Authenticator app."
+msgstr ""
+
+msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
+msgstr ""
+
+msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
+msgstr ""
+
+msgid "We are calling your phone right now, please enter the digits you hear."
+msgstr ""
+
+msgid "We sent you a text message, please enter the tokens we sent."
+msgstr ""
+
+msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
+msgstr ""
+
+msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
+msgstr ""
+
+#, fuzzy
 #| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
 msgstr "向您的组织添加新网络。"
@@ -3568,6 +3693,11 @@ msgstr "小时前"
 
 msgid "days ago"
 msgstr "天前"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid format"
+msgstr "导出格式无效"
 
 msgid "Private contacts are no longer supported."
 msgstr ""
@@ -3680,6 +3810,19 @@ msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "Email 已经在系统中存在"
+
+#, fuzzy
+#| msgid "You have confirmed your email address!"
+msgid "You may have a maximum of {} email addresses"
+msgstr "您已经确认了您的电子邮件地址！"
+
+msgid "Cannot remove primary email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Email address not found"
+msgstr "地址未找到"
 
 msgid "Wrong password"
 msgstr "密码错误"
@@ -3818,8 +3961,11 @@ msgstr "对等政策信息"
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
 
-#~ msgid "Primary ASN"
-#~ msgstr "主要 ASN"
+#~ msgid "Change email address"
+#~ msgstr "修改 Email 地址"
+
+#~ msgid "Change Email"
+#~ msgstr "修改 Email"
 
 #~ msgid "RDAP Lookup Error: {}"
 #~ msgstr "RDAP 查找错误：{}"
@@ -3842,9 +3988,6 @@ msgstr "请稍后再尝试登录。"
 
 #~ msgid "Error message of previous geocode attempt"
 #~ msgstr "先前地理编码尝试的错误消息"
-
-#~ msgid "Address not found"
-#~ msgstr "地址未找到"
 
 #~ msgid "API Timeout"
 #~ msgstr "API 超时"

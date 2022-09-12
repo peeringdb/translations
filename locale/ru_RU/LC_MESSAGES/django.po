@@ -1265,6 +1265,21 @@ msgstr ""
 msgid "Validate Data"
 msgstr ""
 
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "1 Year"
+msgstr ""
+
 #, fuzzy
 #| msgid "Reset"
 msgid "Reset Environment"
@@ -1376,6 +1391,15 @@ msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Позволяет загрузить файл с логотипом организации"
+
+msgid "Require users in your organization to have email addresses within your specified domains."
+msgstr ""
+
+msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
+msgstr ""
+
+msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
 
 #, fuzzy
 #| msgid "Organization does not exist"
@@ -1683,6 +1707,15 @@ msgstr "статус"
 
 msgid "language"
 msgstr "язык"
+
+msgid "Account is orphaned and has been flagged for deletion at this date"
+msgstr ""
+
+msgid "User has been notified about pending account deletion at this date"
+msgstr ""
+
+msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
+msgstr ""
 
 msgid "user"
 msgstr "пользователь"
@@ -2821,6 +2854,9 @@ msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
 
+msgid "The organization requires you to have a confirmed email address at one of the following domains"
+msgstr ""
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
 msgstr "Ваша заявка на связь с %(ar_name)s одобрена"
@@ -2872,14 +2908,44 @@ msgstr ""
 msgid "Read only"
 msgstr ""
 
-msgid "Change email address"
-msgstr "Изменить емайл"
+#, fuzzy
+#| msgid "email address"
+msgid "Email addresses"
+msgstr "емайл"
+
+#, fuzzy
+#| msgid "Primary ASN"
+msgid "Primary"
+msgstr "Первичная ASN"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Confirmation required"
+msgstr "Контракт обязателен"
+
+#, fuzzy
+#| msgid "We have resent your confirmation email"
+msgid "Resend confirmation email"
+msgstr "Емайл с подтверждением отправлен повторно"
+
+msgid "Set as primary"
+msgstr ""
+
+msgid "Remove"
+msgstr "Удалить"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Для ускорения проверки указывайте рабочий емайл. Если вы планируете внести в PeeringDB сведения о вашей ASN, рекомендуется использовать емайл, указанный в публичной контактной информации для вашей ASN."
 
-msgid "Change Email"
+#, fuzzy
+#| msgid "Change email address"
+msgid "Set as primary email address"
 msgstr "Изменить емайл"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Add email address"
+msgstr "емайл"
 
 msgid "Change password"
 msgstr "Изменить пароль"
@@ -2947,9 +3013,6 @@ msgstr ""
 
 msgid "passwordless-login"
 msgstr ""
-
-msgid "Remove"
-msgstr "Удалить"
 
 msgid "Register security key"
 msgstr ""
@@ -3050,6 +3113,19 @@ msgstr "Инструкции высланы на ваш емайл, если о�
 
 msgid "Retrieve username(s)"
 msgstr "Восстановить имена пользователя(ей)"
+
+msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "We have resent your confirmation email"
+msgid "%(org_name)s requests confirmation of %(email)s"
+msgstr "Емайл с подтверждением отправлен повторно"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "Подтвердите ваш емайл"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Ваш аккаунт пользователя еще не связан ни с одной организацией, вам недоступна часть информации (например, непубличные сетевые контакты)."
@@ -3419,6 +3495,20 @@ msgstr "Организация"
 msgid "Group"
 msgstr "Группа"
 
+msgid "Email address requirements not met"
+msgstr ""
+
+msgid "Restrict user email addresses to these domains"
+msgstr ""
+
+msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Update Options"
+msgstr "Региональный"
+
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "Здесь вы можете назначить права пользователям вашей организации. Администраторы здесь не указаны, поскольку имеют полные права доступа по умолчанию."
 
@@ -3538,6 +3628,40 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+msgid "Enable Two-Factor Authentication"
+msgstr "Управление OAuth-авторизацией"
+
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgstr ""
+
+msgid "Please select which authentication method you would like to use."
+msgstr ""
+
+msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+msgstr ""
+
+msgid "Or manually enter the setup key to your Authenticator app."
+msgstr ""
+
+msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
+msgstr ""
+
+msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
+msgstr ""
+
+msgid "We are calling your phone right now, please enter the digits you hear."
+msgstr ""
+
+msgid "We sent you a text message, please enter the tokens we sent."
+msgstr ""
+
+msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
+msgstr ""
+
+msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
+msgstr ""
+
+#, fuzzy
 #| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
 msgstr "Новая сеть для Организации."
@@ -3568,6 +3692,11 @@ msgstr "часов назад"
 
 msgid "days ago"
 msgstr "дней назад"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid format"
+msgstr "Неверный формат экспорта"
 
 msgid "Private contacts are no longer supported."
 msgstr ""
@@ -3682,6 +3811,19 @@ msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "Емайл уже существует в нашей базе"
+
+#, fuzzy
+#| msgid "You have confirmed your email address!"
+msgid "You may have a maximum of {} email addresses"
+msgstr "Ваш емайл подтвержден!"
+
+msgid "Cannot remove primary email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Email address not found"
+msgstr "Адрес не найден"
 
 msgid "Wrong password"
 msgstr "Неверный пароль"
@@ -3821,8 +3963,11 @@ msgstr "Информация о пиринговой политике"
 msgid "Please wait a bit before trying to login again."
 msgstr "Подождите несколько секунд перед повторной попыткой авторизации."
 
-#~ msgid "Primary ASN"
-#~ msgstr "Первичная ASN"
+#~ msgid "Change email address"
+#~ msgstr "Изменить емайл"
+
+#~ msgid "Change Email"
+#~ msgstr "Изменить емайл"
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"
@@ -3857,9 +4002,6 @@ msgstr "Подождите несколько секунд перед повто
 
 #~ msgid "Error message of previous geocode attempt"
 #~ msgstr "Сообщение об ошибке предыдущей попытки геокодированния"
-
-#~ msgid "Address not found"
-#~ msgstr "Адрес не найден"
 
 #~ msgid "API Timeout"
 #~ msgstr "Таймаут API"

@@ -1255,6 +1255,21 @@ msgstr "Restaurar Objeto(s)"
 msgid "Validate Data"
 msgstr ""
 
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "1 Year"
+msgstr ""
+
 msgid "Reset Environment"
 msgstr "Restablecer Entorno"
 
@@ -1366,6 +1381,15 @@ msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Le permite cargar y seleccionar un archivo de logotipo para esta organización"
+
+msgid "Require users in your organization to have email addresses within your specified domains."
+msgstr ""
+
+msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
+msgstr ""
+
+msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
 
 #, fuzzy
 #| msgid "Organization does not exist"
@@ -1671,6 +1695,15 @@ msgstr "estado"
 
 msgid "language"
 msgstr "idioma"
+
+msgid "Account is orphaned and has been flagged for deletion at this date"
+msgstr ""
+
+msgid "User has been notified about pending account deletion at this date"
+msgstr ""
+
+msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
+msgstr ""
 
 msgid "user"
 msgstr "usuario"
@@ -2815,6 +2848,9 @@ msgstr "Su afiliación con s %(ar_name)s fue denegada"
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Su afiliación con s %(ar_name)s fue denegada"
 
+msgid "The organization requires you to have a confirmed email address at one of the following domains"
+msgstr ""
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
 msgstr "Su afiliación con s %(ar_name)s fue aprobada"
@@ -2864,14 +2900,44 @@ msgstr ""
 msgid "Read only"
 msgstr ""
 
-msgid "Change email address"
-msgstr "Cambiar sus correos electrónicos"
+#, fuzzy
+#| msgid "email address"
+msgid "Email addresses"
+msgstr "correo electrónico"
+
+#, fuzzy
+#| msgid "Primary ASN"
+msgid "Primary"
+msgstr "ASN Principal"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Confirmation required"
+msgstr "Requisito de contracto"
+
+#, fuzzy
+#| msgid "We have resent your confirmation email"
+msgid "Resend confirmation email"
+msgstr "Ya hemos enviado el email de confirmación de nuevo"
+
+msgid "Set as primary"
+msgstr ""
+
+msgid "Remove"
+msgstr "Quitar"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Para una validación rápida, es necesario que use una dirección de correo electrónico de trabajo. Si planea registrar su ASN con PeeringDB, se recomienda que use una dirección de correo electrónico que esté presente en los datos de contactos públicos de su ASN."
 
-msgid "Change Email"
-msgstr "Cambiar su e-mail"
+#, fuzzy
+#| msgid "Specify at least one email address"
+msgid "Set as primary email address"
+msgstr "Especifique al menos una dirección de correo electrónico"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Add email address"
+msgstr "correo electrónico"
 
 msgid "Change password"
 msgstr "Cambiar contraseña"
@@ -2939,9 +3005,6 @@ msgstr ""
 
 msgid "passwordless-login"
 msgstr ""
-
-msgid "Remove"
-msgstr "Quitar"
 
 msgid "Register security key"
 msgstr ""
@@ -3042,6 +3105,19 @@ msgstr "Hemos enviado instrucciones a su dirección de correo electrónico, dado
 
 msgid "Retrieve username(s)"
 msgstr "Recuperar nombre (s) de usuario"
+
+msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "We have resent your confirmation email"
+msgid "%(org_name)s requests confirmation of %(email)s"
+msgstr "Ya hemos enviado el email de confirmación de nuevo"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "Por favor, Confirme su correo electrónico"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Su cuenta de usuario no ha estado afiliada a una organización todavía y habrá acceso limitado a algunos de los datos (como información de contacto de la red no pública)."
@@ -3410,6 +3486,20 @@ msgstr "Organización"
 msgid "Group"
 msgstr "Grupo"
 
+msgid "Email address requirements not met"
+msgstr ""
+
+msgid "Restrict user email addresses to these domains"
+msgstr ""
+
+msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Update Options"
+msgstr "Regional"
+
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "Aquí se puede administrar los permisos para los miembros regulares de su organización. Usuarios Administrativos no están incluidos aquí porque tienen acceso a todo por defecto."
 
@@ -3529,6 +3619,41 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Enable Two-Factor Authentication"
+msgstr "Administrar aplicaciones OAuth"
+
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgstr ""
+
+msgid "Please select which authentication method you would like to use."
+msgstr ""
+
+msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+msgstr ""
+
+msgid "Or manually enter the setup key to your Authenticator app."
+msgstr ""
+
+msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
+msgstr ""
+
+msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
+msgstr ""
+
+msgid "We are calling your phone right now, please enter the digits you hear."
+msgstr ""
+
+msgid "We sent you a text message, please enter the tokens we sent."
+msgstr ""
+
+msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
+msgstr ""
+
+msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
+msgstr ""
+
+#, fuzzy
 #| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
 msgstr "Añadir una red nueva a su organización."
@@ -3560,6 +3685,11 @@ msgstr "hace horas"
 
 msgid "days ago"
 msgstr "hace días"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid format"
+msgstr "Formato de exportación no válido"
 
 msgid "Private contacts are no longer supported."
 msgstr ""
@@ -3674,6 +3804,19 @@ msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "Esta dirección ya existe/está en uso en nuestro sistema"
+
+#, fuzzy
+#| msgid "You have confirmed your email address!"
+msgid "You may have a maximum of {} email addresses"
+msgstr "Usted ha confirmado su dirección de correo electrónico!"
+
+msgid "Cannot remove primary email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Email address not found"
+msgstr "Dirección no encontrada"
 
 msgid "Wrong password"
 msgstr "Contraseña incorrecta"
@@ -3812,8 +3955,11 @@ msgstr "Información sobre la política are Peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Por favor, esperar unos minutos antes de intentar otra vez."
 
-#~ msgid "Primary ASN"
-#~ msgstr "ASN Principal"
+#~ msgid "Change email address"
+#~ msgstr "Cambiar sus correos electrónicos"
+
+#~ msgid "Change Email"
+#~ msgstr "Cambiar su e-mail"
 
 #, fuzzy
 #~| msgid "RDAP Lookup Error"
@@ -3872,9 +4018,6 @@ msgstr "Por favor, esperar unos minutos antes de intentar otra vez."
 
 #~ msgid "Error message of previous geocode attempt"
 #~ msgstr "El mensaje de error del intento anterior de geocodificación"
-
-#~ msgid "Address not found"
-#~ msgstr "Dirección no encontrada"
 
 #~ msgid "API Timeout"
 #~ msgstr "API tiempo de espera de inactividad"

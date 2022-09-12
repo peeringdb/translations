@@ -1301,6 +1301,21 @@ msgstr "استعادة المتغير (المتغيرات)"
 msgid "Validate Data"
 msgstr ""
 
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "1 Year"
+msgstr ""
+
 msgid "Reset Environment"
 msgstr "إعادة الضبط الافتراضي"
 
@@ -1414,6 +1429,15 @@ msgstr ""
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه المؤسسة"
+
+msgid "Require users in your organization to have email addresses within your specified domains."
+msgstr ""
+
+msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
+msgstr ""
+
+msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
 
 #, fuzzy
 #| msgid "Organization does not exist"
@@ -1717,6 +1741,15 @@ msgstr "حالة"
 
 msgid "language"
 msgstr "لغة"
+
+msgid "Account is orphaned and has been flagged for deletion at this date"
+msgstr ""
+
+msgid "User has been notified about pending account deletion at this date"
+msgstr ""
+
+msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
+msgstr ""
 
 msgid "user"
 msgstr "المستخدم"
@@ -2839,6 +2872,9 @@ msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
 
+msgid "The organization requires you to have a confirmed email address at one of the following domains"
+msgstr ""
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
 msgstr "طلب الانتساب الى  %(ar_name)s  تمت الموافقة عليه"
@@ -2888,16 +2924,46 @@ msgstr ""
 msgid "Read only"
 msgstr ""
 
-msgid "Change email address"
-msgstr "تغيير البريد الالكتروني"
+#, fuzzy
+#| msgid "email address"
+msgid "Email addresses"
+msgstr "عنوان بريد الكتروني"
+
+#, fuzzy
+#| msgid "Primary ASN"
+msgid "Primary"
+msgstr "رقم النظام المستقل الأساسي"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Confirmation required"
+msgstr "متطلبات العقد"
+
+#, fuzzy
+#| msgid "We have resent your confirmation email"
+msgid "Resend confirmation email"
+msgstr "تم إعادة إرسال رسالة التأكيد لبريدك الإكتروني"
+
+msgid "Set as primary"
+msgstr ""
+
+msgid "Remove"
+msgstr "حذف / إزالة"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr ""
 "تسريع عملية التحقق، يفضل أن تستخدم عنوان العمل الرسمي في حقل \"البريد الإلكتروني\". \n"
 "إذا كنت تخطط لتسجيل رقم النظام المستقل الخاص بك في قاعدة بيانات التناظر ، فمن المستحسن أن تستخدم عنوان العمل الرسمي في حقل \"البريد الإلكتروني\" الموجود في قسم بيانات الاتصال العامة"
 
-msgid "Change Email"
-msgstr "تغيير البريد الالكتروني"
+#, fuzzy
+#| msgid "Specify at least one email address"
+msgid "Set as primary email address"
+msgstr "حدد عنوان بريد إلكتروني واحد على الأقل"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Add email address"
+msgstr "عنوان بريد الكتروني"
 
 msgid "Change password"
 msgstr "تغيير كلمة المرور"
@@ -2965,9 +3031,6 @@ msgstr ""
 
 msgid "passwordless-login"
 msgstr ""
-
-msgid "Remove"
-msgstr "حذف / إزالة"
 
 msgid "Register security key"
 msgstr ""
@@ -3065,6 +3128,19 @@ msgstr "تم إرسال تعليمات إلى عنوان البريد الإلك
 
 msgid "Retrieve username(s)"
 msgstr "استرجاع اسم المستخدم (المستخدمين)"
+
+msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "We have resent your confirmation email"
+msgid "%(org_name)s requests confirmation of %(email)s"
+msgstr "تم إعادة إرسال رسالة التأكيد لبريدك الإكتروني"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "تأكيد عنوان البريد الإلكتروني"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "حساب المستخدم الخاص بك غير تابع/ منضم لأي مؤسسه حتى الآن ، سيكون لديه وصول محدود إلى بعض البيانات (مثل معلومات الاتصال بالشبكة غير العامة)."
@@ -3421,6 +3497,20 @@ msgstr "المنظمة / المؤسسة"
 msgid "Group"
 msgstr "مجموعه"
 
+msgid "Email address requirements not met"
+msgstr ""
+
+msgid "Restrict user email addresses to these domains"
+msgstr ""
+
+msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Update Options"
+msgstr "إقليمي"
+
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "هنا يمكنك منح الأذونات/ الصلاحيات للأعضاء او المستخدمين في مؤسستك. لا يتم سرد المستخدم/المستخدمين الرئيسي  Administrative users  هنا حيث لديهم حق الوصول إلى كل شيء بشكل افتراضي."
 
@@ -3530,6 +3620,41 @@ msgid "Use Backup Token"
 msgstr ""
 
 #, fuzzy
+#| msgid "Manage OAuth Applications"
+msgid "Enable Two-Factor Authentication"
+msgstr "إدارة تطبيقات التحقق"
+
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgstr ""
+
+msgid "Please select which authentication method you would like to use."
+msgstr ""
+
+msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+msgstr ""
+
+msgid "Or manually enter the setup key to your Authenticator app."
+msgstr ""
+
+msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
+msgstr ""
+
+msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
+msgstr ""
+
+msgid "We are calling your phone right now, please enter the digits you hear."
+msgstr ""
+
+msgid "We sent you a text message, please enter the tokens we sent."
+msgstr ""
+
+msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
+msgstr ""
+
+msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
+msgstr ""
+
+#, fuzzy
 #| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
 msgstr "إضافة شبكة جديدة إلى المؤسسة/المنظمة."
@@ -3561,6 +3686,11 @@ msgstr "منذ ساعه"
 
 msgid "days ago"
 msgstr "منذ يوم"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid format"
+msgstr "صيغة التنسيق لتصدير البيانات غير صحيحه"
 
 msgid "Private contacts are no longer supported."
 msgstr ""
@@ -3673,6 +3803,19 @@ msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "البريد الإلكتروني موجود بالفعل في النظام"
+
+#, fuzzy
+#| msgid "You have confirmed your email address!"
+msgid "You may have a maximum of {} email addresses"
+msgstr "تم تأكيد عنوان بريدك الإلكتروني!"
+
+msgid "Cannot remove primary email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Email address not found"
+msgstr "لم يتم العثور على العنوان"
 
 msgid "Wrong password"
 msgstr "كلمة المرور خاطئة"
@@ -3809,8 +3952,11 @@ msgstr "معلومات سياسات التناظر"
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
 
-#~ msgid "Primary ASN"
-#~ msgstr "رقم النظام المستقل الأساسي"
+#~ msgid "Change email address"
+#~ msgstr "تغيير البريد الالكتروني"
+
+#~ msgid "Change Email"
+#~ msgstr "تغيير البريد الالكتروني"
 
 #~ msgid "RDAP Lookup Error: {}"
 #~ msgstr "خطأ في البحث ببروتوكول الوصول إلى بيانات التسجيل"
@@ -3833,9 +3979,6 @@ msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل 
 
 #~ msgid "Error message of previous geocode attempt"
 #~ msgstr "رسالة خطأ لمحاولة الترميز الجغرافي السابقة"
-
-#~ msgid "Address not found"
-#~ msgstr "لم يتم العثور على العنوان"
 
 #~ msgid "Address failed validation."
 #~ msgstr "فشل التحقق من صحة العنوان."

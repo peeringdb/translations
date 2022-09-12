@@ -1152,6 +1152,21 @@ msgstr "Restaurează obiect(e)"
 msgid "Validate Data"
 msgstr ""
 
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "1 Year"
+msgstr ""
+
 msgid "Reset Environment"
 msgstr "Resetează mediul"
 
@@ -1247,6 +1262,15 @@ msgstr "Contacte Deskpro Ticket CC"
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
+
+msgid "Require users in your organization to have email addresses within your specified domains."
+msgstr ""
+
+msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
+msgstr ""
+
+msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
 
 msgid "Organization has active objects under it."
 msgstr "Organizația are obiecte active sub aceasta."
@@ -1502,6 +1526,15 @@ msgstr "stare"
 
 msgid "language"
 msgstr "limbă"
+
+msgid "Account is orphaned and has been flagged for deletion at this date"
+msgstr ""
+
+msgid "User has been notified about pending account deletion at this date"
+msgstr ""
+
+msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
+msgstr ""
 
 msgid "user"
 msgstr "utilizator"
@@ -2547,6 +2580,9 @@ msgstr "Ai anulat solicitarea de afiliere la %(ar_name)s"
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Afilierea dvs. la %(ar_name)s a fost respinsă"
 
+msgid "The organization requires you to have a confirmed email address at one of the following domains"
+msgstr ""
+
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
 msgstr "Afilierea dvs. la %(ar_name)s a fost aprobată"
@@ -2596,14 +2632,44 @@ msgstr "Creați o cheie API pentru un cont de superutilizator. Astfel de chei AP
 msgid "Read only"
 msgstr "Doar în modul citire"
 
-msgid "Change email address"
-msgstr "Schimbați adresa e-mail"
+#, fuzzy
+#| msgid "email address"
+msgid "Email addresses"
+msgstr "adresă de e-mail"
+
+#, fuzzy
+#| msgid "Primary ASN"
+msgid "Primary"
+msgstr "ASN primar"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Confirmation required"
+msgstr "Contract necesar"
+
+#, fuzzy
+#| msgid "We have resent your confirmation email"
+msgid "Resend confirmation email"
+msgstr "V-am trimis un e-mail de confirmare"
+
+msgid "Set as primary"
+msgstr ""
+
+msgid "Remove"
+msgstr "Eliminați"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Pentru o validare rapidă este necesar să utilizați o adresă e-mail de serviciu. Dacă intenționați să vă înregistrați ASN-ul în PeeringDB, vă recomandăm să utilizați o adresă e-mail care se regăsește în datele publice de contact ale ASN-ului."
 
-msgid "Change Email"
-msgstr "Schimbare e-mail"
+#, fuzzy
+#| msgid "Specify at least one email address"
+msgid "Set as primary email address"
+msgstr "Specificați cel puțin o adresă e-mail"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Add email address"
+msgstr "adresă de e-mail"
 
 msgid "Change password"
 msgstr "Schimbare parola"
@@ -2671,9 +2737,6 @@ msgstr ""
 
 msgid "passwordless-login"
 msgstr ""
-
-msgid "Remove"
-msgstr "Eliminați"
 
 msgid "Register security key"
 msgstr ""
@@ -2768,6 +2831,19 @@ msgstr "Am trimis instrucțiuni la adresa dvs. de e-mail, cu condiția să fie �
 
 msgid "Retrieve username(s)"
 msgstr "Obțineți numele de utilizator"
+
+msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "We have resent your confirmation email"
+msgid "%(org_name)s requests confirmation of %(email)s"
+msgstr "V-am trimis un e-mail de confirmare"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "Confirmați adresa e-mail"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Contul dvs. de utilizator nu a fost încă afiliat la nicio organizație și va avea acces limitat la unele dintre date (cum ar fi informațiile de contact care nu sunt publice)."
@@ -3079,6 +3155,20 @@ msgstr "Utilizatori în organizație"
 msgid "Group"
 msgstr "Grup"
 
+msgid "Email address requirements not met"
+msgstr ""
+
+msgid "Restrict user email addresses to these domains"
+msgstr ""
+
+msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+#, fuzzy
+#| msgid "Options"
+msgid "Update Options"
+msgstr "Opțiuni"
+
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "Aici puteți acorda permisiuni membrilor obișnuiți ai organizației dvs. Utilizatorii administrativi nu sunt enumerați aici, deoarece au acces la orice în mod implicit."
 
@@ -3197,6 +3287,53 @@ msgid "Use Backup Token"
 msgstr "Utilizați token-ul de rezervă"
 
 #, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Enable Two-Factor Authentication"
+msgstr "Gestionați autentificarea cu doi factori"
+
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgstr ""
+
+msgid "Please select which authentication method you would like to use."
+msgstr ""
+
+msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+msgstr ""
+
+msgid "Or manually enter the setup key to your Authenticator app."
+msgstr ""
+
+msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
+msgstr ""
+
+msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "We are calling your phone right now, please enter the\n"
+#| "        digits you hear."
+msgid "We are calling your phone right now, please enter the digits you hear."
+msgstr ""
+"Vă sunăm pe telefon chiar acum, vă rugăm să introduceți\n"
+"         cifre pe care le auziți."
+
+#, fuzzy
+#| msgid ""
+#| "We sent you a text message, please enter the tokens we\n"
+#| "        sent."
+msgid "We sent you a text message, please enter the tokens we sent."
+msgstr ""
+"V-am trimis un mesaj text, vă rugăm să introduceți token-urile\n"
+"         trimise."
+
+msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
+msgstr ""
+
+msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
+msgstr ""
+
+#, fuzzy
 #| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
 msgstr "Adăugați o nouă rețea la organizația dvs."
@@ -3226,6 +3363,11 @@ msgstr "ore în urmă"
 
 msgid "days ago"
 msgstr "zile în urmă"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid format"
+msgstr "Formatul exportului nu este valid"
 
 msgid "Private contacts are no longer supported."
 msgstr "Contactele private nu mai sunt acceptate."
@@ -3334,6 +3476,19 @@ msgstr ""
 
 msgid "E-mail already exists in our system"
 msgstr "Adresa e-mail există deja în sistemul nostru"
+
+#, fuzzy
+#| msgid "You have confirmed your email address!"
+msgid "You may have a maximum of {} email addresses"
+msgstr "Ați confirmat adresa dvs. e-mail!"
+
+msgid "Cannot remove primary email"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address not found"
+msgid "Email address not found"
+msgstr "Adresa nu a fost găsită"
 
 msgid "Wrong password"
 msgstr "Parola este greșită"
@@ -3452,8 +3607,11 @@ msgstr "Informații privind politica de peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
 
-#~ msgid "Primary ASN"
-#~ msgstr "ASN primar"
+#~ msgid "Change email address"
+#~ msgstr "Schimbați adresa e-mail"
+
+#~ msgid "Change Email"
+#~ msgstr "Schimbare e-mail"
 
 #~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
 #~ msgstr "IX-F Importer: Zile până la crearea ticketului DeskPRO"
@@ -3547,9 +3705,6 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 
 #~ msgid "Error message of previous geocode attempt"
 #~ msgstr "Mesajul de eroare de la încercarea anterioară geocode"
-
-#~ msgid "Address not found"
-#~ msgstr "Adresa nu a fost găsită"
 
 #~ msgid "API Timeout"
 #~ msgstr "API a expirat"
