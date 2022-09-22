@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-09-22 18:58+0000\n"
+"PO-Revision-Date: 2022-09-22 19:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -860,7 +860,7 @@ msgid "Exclude data based on validation result"
 msgstr "Excludeți datele pe baza rezultatului validării"
 
 msgid "Verbose output"
-msgstr ""
+msgstr "Ieșire verbală"
 
 msgid "Key not found"
 msgstr "Cheia nu a fost găsită"
@@ -3365,10 +3365,10 @@ msgid "At least one component must be an actual set name"
 msgstr "Cel puțin o componentă trebuie să fie un nume set real"
 
 msgid "Needs to be 'True', 'False', 1 or 0"
-msgstr ""
+msgstr "Trebuie să fie „adevărat”, „fals”, 1 sau 0"
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
-msgstr ""
+msgstr "Setare nevalidă! Valoarea acceptabilă este un număr urmat de una dintre următoarele: minut, oră, secunde, zi, săptămână, lună, an. de exemplu (10/minut, 1/oră, 5/zi, 1/săptămână, 1/lună, 1/an)"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
@@ -3404,19 +3404,17 @@ msgstr "Vă rugăm să așteptați un pic înainte de a încerca să trimiteți 
 msgid "We have resent your confirmation email"
 msgstr "V-am trimis un e-mail de confirmare"
 
-#, fuzzy
-#| msgid "Set language preference"
 msgid "Malformed Language Preference"
-msgstr "Setați preferințele de limbă"
+msgstr "Preferință de limbă incorectă"
 
 msgid "Register on behalf of one of your organizations"
-msgstr ""
+msgstr "Înregistrați-vă în numele uneia dintre organizațiile dvs."
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "Vă rugăm să așteptați puțin înainte de a solicita o altă modificare prin e-mail"
 
 msgid "Invalid password. Please try again."
-msgstr ""
+msgstr "Parolă invalidă. Vă rugăm să încercați din nou."
 
 msgid "E-mail already exists in our system"
 msgstr "Adresa e-mail există deja în sistemul nostru"
@@ -3453,12 +3451,10 @@ msgid "This email address has already been used"
 msgstr "Această adresă e-mail a fost deja utilizată"
 
 msgid "Username cannot start with 'apikey'"
-msgstr ""
+msgstr "Numele de utilizator nu poate începe cu „apikey”"
 
-#, fuzzy
-#| msgid "Current Password"
 msgid "Incorrect password"
-msgstr "Parola curentă"
+msgstr "Parolă incorectă"
 
 msgid "Location"
 msgstr "Locație"
@@ -3490,15 +3486,11 @@ msgstr "Activați importul IX-F"
 msgid "Request import"
 msgstr "Solicitați importul"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Disable notifications"
-msgstr "Îmbină notificarea"
+msgstr "Dezactivați notificările"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Enable notifications"
-msgstr "Îmbină notificarea"
+msgstr "Activați notificările"
 
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
@@ -3512,15 +3504,11 @@ msgstr "Informațiile despre Facilitate au fost actualizate"
 msgid "Contact Info Updated"
 msgstr "Informațiile de contact au fost actualizate"
 
-#, fuzzy
-#| msgid "status"
 msgid "RIR Status"
-msgstr "stare"
+msgstr "Stare RIR"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "RIR Status Updated"
-msgstr "Ultima actualizare"
+msgstr "Stare RIR actualizată"
 
 msgid "PeeringDB Configuration"
 msgstr "Configurație PeeringDB"
@@ -3531,13 +3519,11 @@ msgstr "Permite actualizări de la IXP"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Dacă este activat, un IXP poate gestiona intrarea acestei rețele în lista lui de peering"
 
-#, fuzzy
-#| msgid "Allow IXP Update"
 msgid "Notify On IXP Update"
-msgstr "Permite actualizări de la IXP"
+msgstr "Notificare la actualizarea IXP"
 
 msgid "Notify me when an IXP modifies the peering exchange points for this network"
-msgstr ""
+msgstr "Anunțați-mă când un IXP modifică Exchange-ul de peering pentru această rețea"
 
 msgid "IXP Update Tools"
 msgstr "Instrumente de actualizare IXP"
