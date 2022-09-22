@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-09-22 16:58+0000\n"
+"PO-Revision-Date: 2022-09-22 18:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -1575,70 +1575,70 @@ msgid "API: Authenticated API throttle rate"
 msgstr "API: Rată de accelerare API autentificată"
 
 msgid "API: Melissa request throttle rate for admin users"
-msgstr "API: Melissa solicită viteza de accelerare pentru utilizatorii admin"
+msgstr "API: Rata vitezei de accelerare solicitată Melissa pentru utilizatorii admin"
 
 msgid "API: Melissa request throttle enabled for admin users"
-msgstr "API: Melissa cere accelerarea activată pentru utilizatorii admin"
+msgstr "API: Viteza de accelerare solicitată Melissa pentru utilizatorii admin activați"
 
 msgid "API: Melissa request throttle rate for users"
-msgstr "API: Melissa solicită viteza de accelerare pentru utilizatori"
+msgstr "API: Rata vitezei de accelerare solicitată Melissa pentru utilizatori"
 
 msgid "API: Melissa request throttle enabled for users"
-msgstr "API: Melissa cere accelerarea activată pentru utilizatori"
+msgstr "API: accelerarea solicitării Melissa activată pentru utilizatori"
 
 msgid "API: Melissa request throttle rate for organizations"
-msgstr "API: Melissa solicită rata de accelerare pentru organizații"
+msgstr "API: Rată de accelerare solicitată Melissa pentru organizații"
 
 msgid "API: Melissa request throttle enabled for organizations"
-msgstr "API: Melissa cere accelerarea activată pentru organizații"
+msgstr "API: Accelerarea solicitării Melissa activată pentru organizații"
 
 msgid "API: Melissa request throttle rate for anonymous requests (ips)"
-msgstr "API: Melissa solicită rata de accelerare pentru solicitări anonime (ips)"
+msgstr "API: Rată de accelerare a solicitării Melissa pentru solicitări anonime (ips)"
 
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
-msgstr ""
+msgstr "API: Accelerarea solicitării Melissa activată pentru solicitări anonime (ips)"
 
 msgid "API: Response size throttle size threshold for ip blocks (bytes)"
-msgstr ""
+msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru blocurile IP (octeți)"
 
 msgid "API: Response size throttle rate for ip blocks"
-msgstr ""
+msgstr "API: Rata de accelerație pentru dimensiunea răspunsului pentru blocurile IP"
 
 msgid "API: Response size throttle enabled for ip blocks"
-msgstr ""
+msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru blocurile IP"
 
 msgid "API: Response size throttle size threshold for ip addresses (bytes)"
-msgstr ""
+msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru adresele IP (octeți)"
 
 msgid "API: Response size throttle rate for ip addresses"
-msgstr ""
+msgstr "API: Rata de accelerație pentru dimensiunea răspunsului pentru adresele IP"
 
 msgid "API: Response size throttle enabled for ip addresses"
-msgstr ""
+msgstr "API: Accelerarea pentru dimensiunea răspunsului este activată pentru adresele IP"
 
 msgid "API: Response size throttle size threshold for authenticated users (bytes)"
-msgstr ""
+msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru utilizatorii autentificați (octeți)"
 
 msgid "API: Response size throttle rate for authenticated users"
-msgstr ""
+msgstr "API: Rata de accelerare a dimensiunii răspunsului pentru utilizatorii autentificați"
 
 msgid "API: Response size throttle enabled for authenticated users"
-msgstr ""
+msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru utilizatorii autentificați"
 
 msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
-msgstr ""
+msgstr "API: pragul de dimensiune a accelerare pentru dimensiunea răspunsului pentru cheile API ale organizației (octeți)"
 
 msgid "API: Response size throttle rate for organization api-keys"
-msgstr ""
+msgstr "API: Rata de accelerare a dimensiunii răspunsului pentru cheile API ale organizației"
 
 msgid "API: Response size throttle enabled for organization api-keys"
-msgstr ""
+msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru cheile API ale organizației"
 
 msgid "API: Anonymous API throttle rate message"
-msgstr ""
+msgstr "API: mesaj anonim de rată a accelerației API"
 
 msgid "API: Authenticated API throttle rate message"
-msgstr ""
+msgstr "API: mesaj API autentificat privind viteza de accelerare"
 
 msgid "Last Updated"
 msgstr "Ultima actualizare"
@@ -1649,65 +1649,47 @@ msgstr "Configurat pe"
 msgid "Last updated by this user"
 msgstr "Actualizat ultima dată de acest utilizator"
 
-#, fuzzy
-#| msgid "Affiliate with organization"
 msgid "application is owned by this organization"
-msgstr "Afiliați-vă la organizație"
+msgstr "aplicația este deținută de această organizație"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Application"
-msgstr "Gestionați aplicațiile OAuth"
+msgstr "Aplicație OAuth"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Applications"
-msgstr "Gestionați aplicațiile OAuth"
+msgstr "Aplicații OAuth"
 
 msgid "Added"
-msgstr ""
+msgstr "Adăugat"
 
 msgid "Updated"
 msgstr "Actualizat"
 
-#, fuzzy
-#| msgid "Delete"
 msgid "Deleted"
-msgstr "Ștergeți"
+msgstr "Șters"
 
 msgid "User started watching this object at this time"
-msgstr ""
+msgstr "Utilizatorul a început să urmărească acest obiect în acest moment"
 
-#, fuzzy
-#| msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgid "Last time user was notified about changes to this object"
-msgstr "Ultima dată am notificat Exchange-ul despre problema analizării IX-F"
+msgstr "Ultima dată când utilizatorul a fost notificat despre modificările aduse acestui obiect"
 
 msgid "Data Change Watched Object"
-msgstr ""
+msgstr "Obiectul urmărit cu modificarea datelor"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Reason for notification"
-msgstr "Îmbină notificarea"
+msgstr "Motivul notificării"
 
 msgid "Source of automated update"
-msgstr ""
+msgstr "Sursa actualizării automate"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Data Change Notification Queue"
-msgstr "Îmbină notificarea"
+msgstr "Coada de notificare privind modificarea datelor"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Data Change Email"
-msgstr "Schimbare e-mail"
+msgstr "E-mail pentru modificarea datelor"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Data Change Emails"
-msgstr "Schimbare e-mail"
+msgstr "E-mailuri pentru modificarea datelor"
 
 msgid "Organization and all Entities it owns"
 msgstr "Organizația și toate entitățile pe care aceasta le deține"
@@ -1740,7 +1722,7 @@ msgid "Needs to be member or admin"
 msgstr "Trebuie să fie membru sau admin"
 
 msgid "Cannot manage permissions for organization admins"
-msgstr ""
+msgstr "Nu se pot gestiona permisiunile pentru administratorii organizației"
 
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
@@ -1790,7 +1772,7 @@ msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
 
 msgid "This field may not be blank."
-msgstr ""
+msgstr "Este posibil ca acest câmp să nu fie necompletat."
 
 msgid "ASN cannot be changed."
 msgstr "ASN nu poate fi modificat."
@@ -1851,10 +1833,10 @@ msgstr ""
 "Pentru a utiliza <a href=\"%(doc_url)s\" target=\"_blank\">căutarea regex</a>, începeți termenul de căutare cu ^ și terminați cu $. <!-- lgtm[js/unsafe-external-link] -->\n"
 
 msgid "WARNING! This object currently has DoTF protection:"
-msgstr ""
+msgstr "AVERTIZARE! Acest obiect are în prezent protecție DoTF:"
 
 msgid "As a superuser you may still proceed with the deletion."
-msgstr ""
+msgstr "În calitate de superutilizator, puteți continua cu ștergerea."
 
 msgid "Save and Apply"
 msgstr "Salvați și aplicați"
@@ -1905,18 +1887,16 @@ msgid "Result"
 msgstr "Rezultat"
 
 msgid "You can monitor progress and review the results here"
-msgstr ""
+msgstr "În calitate de superutilizator, puteți continua cu ștergerea. Puteți monitoriza progresul și examina rezultatele aici"
 
-#, fuzzy
-#| msgid "staff status"
 msgid "Command status"
-msgstr "statutul de personal"
+msgstr "Starea comenzii"
 
 msgid "The following objects will be deleted:"
-msgstr ""
+msgstr "Următoarele obiecte vor fi șterse:"
 
 msgid "This object currently has DoTF protection:"
-msgstr ""
+msgstr "Acest obiect are în prezent protecție DoTF:"
 
 msgid "PeeringDB API Documentation"
 msgstr "Documentație API PeeringDB"
@@ -2132,18 +2112,16 @@ msgstr "Dacă nu ați solicitat furnizarea numelui de utilizator, puteți ignora
 
 #, python-format
 msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
-msgstr ""
+msgstr "Această aplicație este gestionată de %(org_name)s. Toți administratorii organizației pot face modificări la aceasta."
 
 msgid "Your applications"
 msgstr "Afilierea cu"
 
 msgid "Details"
-msgstr ""
+msgstr "Detalii"
 
-#, fuzzy
-#| msgid "Edit application"
 msgid "New Application"
-msgstr "Editați solicitarea"
+msgstr "Aplicație nouă"
 
 msgid "No applications defined"
 msgstr "Nu sunt definite aplicații"
@@ -2371,10 +2349,8 @@ msgstr "API"
 msgid "Documentation"
 msgstr "Documentație"
 
-#, fuzzy
-#| msgid "Please use"
 msgid "Release Notes"
-msgstr "Vă rugăm să utilizați"
+msgstr "Note de lansare"
 
 msgid "FAQ"
 msgstr "Întrebări frecvente"
@@ -2397,10 +2373,8 @@ msgstr "Conexiuni la facilități"
 msgid "Automated Networks"
 msgstr "Rețele automatizate"
 
-#, fuzzy
-#| msgid "Register"
 msgid "Registered Users"
-msgstr "Înregistrează-te"
+msgstr "Utilizatori înregistrați"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
@@ -2498,10 +2472,8 @@ msgstr "Revocați"
 msgid "Add Key"
 msgstr "Adăugați cheie"
 
-#, fuzzy
-#| msgid "Edit application"
 msgid "Application"
-msgstr "Editați solicitarea"
+msgstr "Aplicație"
 
 msgid "Partners"
 msgstr "Parteneri"
@@ -2667,13 +2639,11 @@ msgstr "Parola curentă"
 msgid "Password Verification"
 msgstr "Verificarea parolei"
 
-#, fuzzy
-#| msgid "Create account"
 msgid "Close Account"
-msgstr "Creați un cont"
+msgstr "Închide contul"
 
 msgid "You may close your account and delete the profile data associated with it. Note that this will not delete your organizations and its entities. If you are the only member of your organization and want it to be deleted as well please do so before closing your account."
-msgstr ""
+msgstr "Vă puteți închide contul și puteți șterge datele de profil asociate acestuia. Rețineți că aceasta nu va șterge organizațiile dvs. și entitățile acesteia. Dacă sunteți singurul membru al organizației dvs. și doriți ca și acesta să fie șters, vă rugăm să faceți acest lucru înainte de a vă închide contul."
 
 msgid "You have confirmed your email address!"
 msgstr "Ați confirmat adresa dvs. e-mail!"
@@ -2705,28 +2675,26 @@ msgstr "Preferințele de limbă au fost salvate"
 msgid "Set language preference"
 msgstr "Setați preferințele de limbă"
 
-#, fuzzy
-#| msgid "Invalid Security Token"
 msgid "Security keys"
-msgstr "Simbolul de securitate nu este valid"
+msgstr "Chei de securitate"
 
 msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgstr ""
+msgstr "Înregistrați-vă cheia de securitate și utilizați-o ca metodă 2FA sau pentru autentificare fără parolă."
 
 msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr ""
+msgstr "Când utilizați o cheie de securitate U2F, cum ar fi <b>yubikeys</b>, solicitarea inițială poate afișa mai întâi alte chei interne ale dispozitivului (cum ar fi scanere de amprente și pini de securitate)."
 
 msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
-msgstr ""
+msgstr "Dacă yubikey-ul dvs. este conectat, dar nu apare în listă, <b>anulați</b> solicitarea inițială și ar trebui să apară o nouă solicitare pentru yubikey."
 
 msgid "passwordless-login"
-msgstr ""
+msgstr "autentificare fără parolă"
 
 msgid "Register security key"
-msgstr ""
+msgstr "Înregistrați cheia de securitate"
 
 msgid "Password-less login"
-msgstr ""
+msgstr "Conectare fără parolă"
 
 msgid "Account Created"
 msgstr "Contul a fost creat"
@@ -3080,7 +3048,7 @@ msgid "API Key Permissions"
 msgstr "Permisiunile cheilor API"
 
 msgid "OAuth"
-msgstr ""
+msgstr "OAuth"
 
 msgid "Delete Organization"
 msgstr "Ștergeți organizația"
@@ -3092,7 +3060,7 @@ msgid "Sales E-mail"
 msgstr "E-mail de vânzări"
 
 msgid "Health Check"
-msgstr ""
+msgstr "Control al sănătății"
 
 msgid "Policy URL"
 msgstr "URL-ul pentru politici"
@@ -3189,7 +3157,7 @@ msgid "Suggest another network"
 msgstr "Sugerați o altă rețea"
 
 msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
-msgstr ""
+msgstr "Pentru autentificarea <strong>fără parolă</strong>, lăsați câmpul pentru parolă gol și asigurați-vă că cheia de securitate U2F FIDO înregistrată este disponibilă/conectată."
 
 msgid "I forgot my password .."
 msgstr "Am uitat parola..."
@@ -3200,27 +3168,23 @@ msgstr "Am uitat numele de utilizator..."
 msgid "Token"
 msgstr "Token"
 
-#, fuzzy
-#| msgid "Use Backup Token"
 msgid "Backup Tokens"
-msgstr "Utilizați token-ul de rezervă"
+msgstr "Token-uri de rezervă"
 
 msgid "Backup tokens can be used when your primary authentication method isn't available. The backup tokens below can be used for login verification. If you've used up all your backup tokens, you can generate a new set of backup tokens. Only the backup tokens shown below will be valid."
-msgstr ""
+msgstr "Token-urile de rezervă pot fi folosite atunci când metoda de autentificare principală nu este disponibilă. Token-urile de rezervă de mai jos pot fi folosite pentru verificarea autentificărilor. Dacă ați epuizat toate jetoanele de rezervă, puteți genera un nou set de jetoane de rezervă. Doar token-urile de rezervă afișate mai jos vor fi valide."
 
 msgid "Print these tokens and keep them somewhere safe."
-msgstr ""
+msgstr "Tipăriți aceste token-uri și păstrați-le undeva în siguranță."
 
 msgid "You don't have any backup codes yet."
-msgstr ""
+msgstr "Nu aveți încă coduri de rezervă."
 
-#, fuzzy
-#| msgid "Account Security"
 msgid "Back to Account Security"
-msgstr "Securitatea contului"
+msgstr "Înapoi la Securitatea Contului"
 
 msgid "Generate Tokens"
-msgstr ""
+msgstr "Generați token-uri"
 
 msgid "Enter your credentials."
 msgstr "Introduceți acreditările."
@@ -3250,7 +3214,7 @@ msgstr ""
 "         ."
 
 msgid "Requesting U2F security key authentication"
-msgstr ""
+msgstr "Se solicită autentificarea cheii de securitate U2F"
 
 msgid ""
 "Use this form for entering backup tokens for logging in.\n"
@@ -3317,21 +3281,17 @@ msgstr ""
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr ""
 
-#, fuzzy
-#| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
-msgstr "Adăugați o nouă rețea la organizația dvs."
+msgstr "Adăugați o metodă TOPT la autentificarea cu doi factori"
 
-#, fuzzy
-#| msgid "Manage Two-Factor Authentication"
 msgid "Add TOTP Authentication"
-msgstr "Gestionați autentificarea cu doi factori"
+msgstr "Adăugați autentificare TOTP"
 
 msgid "Email one time password"
 msgstr "Trimiteți prin e-mail o parolă de unică folosință"
 
 msgid "U2F security key"
-msgstr ""
+msgstr "cheie de securitate U2F"
 
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Adresa dvs. de email nu se potrivește cu informațiile legate de domeniu pe care le deținem pentru această organizație."
