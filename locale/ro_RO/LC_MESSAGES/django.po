@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-09-22 15:58+0000\n"
+"PO-Revision-Date: 2022-09-22 16:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -851,15 +851,13 @@ msgid "Enter a field name to validate"
 msgstr "Introduceți un nume de câmp pentru validare"
 
 msgid "Valid"
-msgstr ""
+msgstr "Valid"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid"
-msgstr "Eticheta nu este validă"
+msgstr "Invalid"
 
 msgid "Exclude data based on validation result"
-msgstr ""
+msgstr "Excludeți datele pe baza rezultatului validării"
 
 msgid "Verbose output"
 msgstr ""
@@ -867,10 +865,8 @@ msgstr ""
 msgid "Key not found"
 msgstr "Cheia nu a fost găsită"
 
-#, fuzzy
-#| msgid "This field is required"
 msgid "This field is required."
-msgstr "Acest câmp este necesar"
+msgstr "Acest câmp este obligatoriu."
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1138,7 +1134,7 @@ msgid "Restore Object(s)"
 msgstr "Restaurează obiect(e)"
 
 msgid "Validate Data"
-msgstr ""
+msgstr "Validați datele"
 
 msgid "1 Week"
 msgstr ""
@@ -1573,31 +1569,31 @@ msgid "Environment Settings"
 msgstr "Setările mediului"
 
 msgid "API: Anonymous API throttle rate"
-msgstr ""
+msgstr "API: Rată de accelerare API anonimă"
 
 msgid "API: Authenticated API throttle rate"
-msgstr ""
+msgstr "API: Rată de accelerare API autentificată"
 
 msgid "API: Melissa request throttle rate for admin users"
-msgstr ""
+msgstr "API: Melissa solicită viteza de accelerare pentru utilizatorii admin"
 
 msgid "API: Melissa request throttle enabled for admin users"
-msgstr ""
+msgstr "API: Melissa cere accelerarea activată pentru utilizatorii admin"
 
 msgid "API: Melissa request throttle rate for users"
-msgstr ""
+msgstr "API: Melissa solicită viteza de accelerare pentru utilizatori"
 
 msgid "API: Melissa request throttle enabled for users"
-msgstr ""
+msgstr "API: Melissa cere accelerarea activată pentru utilizatori"
 
 msgid "API: Melissa request throttle rate for organizations"
-msgstr ""
+msgstr "API: Melissa solicită rata de accelerare pentru organizații"
 
 msgid "API: Melissa request throttle enabled for organizations"
-msgstr ""
+msgstr "API: Melissa cere accelerarea activată pentru organizații"
 
 msgid "API: Melissa request throttle rate for anonymous requests (ips)"
-msgstr ""
+msgstr "API: Melissa solicită rata de accelerare pentru solicitări anonime (ips)"
 
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
