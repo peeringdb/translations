@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-18 20:58+0000\n"
+"PO-Revision-Date: 2022-09-22 15:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -369,7 +369,7 @@ msgid "Continental Region"
 msgstr "Regiune continentală"
 
 msgid "Status Dashboard"
-msgstr ""
+msgstr "Tabloul de bord de stare"
 
 msgid "Facility"
 msgstr "Facilitate"
@@ -467,15 +467,11 @@ msgstr "Cerințe legate de raport"
 msgid "Contract Requirement"
 msgstr "Contract necesar"
 
-#, fuzzy
-#| msgid "status"
 msgid "RIR status"
-msgstr "stare"
+msgstr "Starea RIR"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "RIR status updated"
-msgstr "Ultima actualizare"
+msgstr "Starea RIR a fost actualizată"
 
 msgid "Network"
 msgstr "Rețea"
@@ -628,7 +624,7 @@ msgid "Target org cannot be in selected organizations list"
 msgstr "Elementul org vizat nu poate fi în lista organizațiilor selectate"
 
 msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
-msgstr ""
+msgstr "Există unele conflicte de sponsorizare care vor trebui rezolvate manual înainte ca această îmbinare să poată avea loc. {} a fost notificat despre acest conflict. Organizații aflate în conflict: {}"
 
 msgid "ROLLBACK"
 msgstr "RESTAUREAZĂ"
@@ -639,15 +635,11 @@ msgstr "Ixlans nu mai pot fi șterse direct, deoarece sunt sincronizate acum la 
 msgid "Protected object '{}': {}"
 msgstr "Obiect protejat '{}': {}"
 
-#, fuzzy
-#| msgid "DENY and delete selected items"
 msgid "Delete selected objects"
-msgstr "RESPINGEȚI și ștergeți elementele selectate"
+msgstr "Ștergeți obiectele selectate"
 
-#, fuzzy
-#| msgid "Please contact {} to help with the deletion of this object"
 msgid "Please confirm deletion of selected objects."
-msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiect"
+msgstr "Vă rugăm să confirmați ștergerea obiectelor selectate."
 
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
@@ -729,13 +721,11 @@ msgstr "Instrumentul de îmbinare a organizațiilor"
 msgid "Undo merge"
 msgstr "Anulați îmbinarea"
 
-#, fuzzy
-#| msgid "Suggest another network"
 msgid "ASN is already in use by another network"
-msgstr "Sugerați o altă rețea"
+msgstr "ASN este deja utilizat de o altă rețea"
 
 msgid "Name is already in use by another network"
-msgstr ""
+msgstr "Numele este deja folosit de o altă rețea"
 
 msgid "APPROVE selected items"
 msgstr "APROBAȚI elementele selectate"
@@ -765,7 +755,7 @@ msgid "Deny"
 msgstr "Respingeți"
 
 msgid "Usernames cannot start with \"apikey\""
-msgstr ""
+msgstr "Numele de utilizator nu pot începe cu „apikey”"
 
 msgid "Change Password"
 msgstr "Schimbați parola"
@@ -852,15 +842,13 @@ msgid "Reset tickets"
 msgstr "Resetați tichetele"
 
 msgid "Select a handleref tag to validate"
-msgstr ""
+msgstr "Selectați o etichetă handleref pentru validare"
 
-#, fuzzy
-#| msgid "Client type"
 msgid "Object type"
-msgstr "Tip client"
+msgstr "Tipul obiectului"
 
 msgid "Enter a field name to validate"
-msgstr ""
+msgstr "Introduceți un nume de câmp pentru validare"
 
 msgid "Valid"
 msgstr ""
