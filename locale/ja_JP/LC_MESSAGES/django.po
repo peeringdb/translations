@@ -1473,6 +1473,11 @@ msgstr "このネットワークが存在しているデータセンタの数"
 msgid "Last technical contact point for network with active peers"
 msgstr "アクティブなピアになっているネットワークの最後の技術担当コンタクト先"
 
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Phone or email required"
+msgstr "コンタクトに関する条件"
+
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "このエンティティは、ASN {} 用に作成されています - このネットワークから削除し、正しいネットワークで再度作成してください"
 
