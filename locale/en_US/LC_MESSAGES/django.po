@@ -1436,9 +1436,6 @@ msgstr ""
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
-
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
@@ -1472,7 +1469,7 @@ msgstr ""
 msgid "Minimum speed: {}"
 msgstr ""
 
-msgid "Ip address already exists elsewhere"
+msgid "IP already exists"
 msgstr ""
 
 msgid "username"
@@ -1598,40 +1595,40 @@ msgstr ""
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip blocks"
+msgid "API: Repeated request throttle rate for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip blocks"
+msgid "API: Repeated request throttle enabled for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip addresses"
+msgid "API: Repeated request throttle rate for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip addresses"
+msgid "API: Repeated request throttle enabled for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for authenticated users"
+msgid "API: Repeated request throttle rate for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle enabled for authenticated users"
+msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for organization api-keys"
+msgid "API: Repeated request throttle rate for organization api-keys"
 msgstr ""
 
-msgid "API: Response size throttle enabled for organization api-keys"
+msgid "API: Repeated request throttle enabled for organization api-keys"
 msgstr ""
 
 msgid "API: Anonymous API throttle rate message"
@@ -1739,9 +1736,6 @@ msgid "We could not find the address you entered. Please review your address dat
 msgstr ""
 
 msgid "Invalid value"
-msgstr ""
-
-msgid "Need to be unique"
 msgstr ""
 
 msgid "This field is required"
@@ -3341,6 +3335,9 @@ msgid "Please wait a bit before requesting affiliation again."
 msgstr ""
 
 msgid "Either ASN or Organization required"
+msgstr ""
+
+msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
 msgstr ""
 
 msgid "You already requested affiliation to this ASN/org"

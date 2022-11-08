@@ -1591,9 +1591,6 @@ msgstr "URL di esportazione membri IXF"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
-
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
@@ -1637,7 +1634,9 @@ msgstr "Massimo valore permesso {}"
 msgid "Minimum speed: {}"
 msgstr "Velocità minima: {}"
 
-msgid "Ip address already exists elsewhere"
+#, fuzzy
+#| msgid "Ipaddress already exists elsewhere"
+msgid "IP already exists"
 msgstr "L'indirizzo IP esiste già altrove"
 
 msgid "username"
@@ -1769,40 +1768,40 @@ msgstr ""
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip blocks"
+msgid "API: Repeated request throttle rate for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip blocks"
+msgid "API: Repeated request throttle enabled for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip addresses"
+msgid "API: Repeated request throttle rate for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip addresses"
+msgid "API: Repeated request throttle enabled for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for authenticated users"
+msgid "API: Repeated request throttle rate for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle enabled for authenticated users"
+msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for organization api-keys"
+msgid "API: Repeated request throttle rate for organization api-keys"
 msgstr ""
 
-msgid "API: Response size throttle enabled for organization api-keys"
+msgid "API: Repeated request throttle enabled for organization api-keys"
 msgstr ""
 
 msgid "API: Anonymous API throttle rate message"
@@ -1931,9 +1930,6 @@ msgstr ""
 
 msgid "Invalid value"
 msgstr "Valore invalido"
-
-msgid "Need to be unique"
-msgstr "Deve essere unico"
 
 msgid "This field is required"
 msgstr "Il campo è richiesto"
@@ -3752,6 +3748,9 @@ msgstr "Si prega di attendere un po' prima di richiedere di nuovo l'affiliazione
 msgid "Either ASN or Organization required"
 msgstr "Richiesti ASN o Organizzazione"
 
+msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
+
 #, fuzzy
 #| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
@@ -3930,6 +3929,12 @@ msgstr "Informazioni sulla Policy di Peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Si prega di attendere un po' prima di riprovare a collegarsi di nuovo."
 
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "L'indirizzo IP esiste già altrove"
+
+#~ msgid "Need to be unique"
+#~ msgstr "Deve essere unico"
+
 #~ msgid "Change email address"
 #~ msgstr "Cambia indirizzo email"
 
@@ -3989,9 +3994,6 @@ msgstr "Si prega di attendere un po' prima di riprovare a collegarsi di nuovo."
 #~| msgid "email address"
 #~ msgid "New ip-address"
 #~ msgstr "indirizzo email"
-
-#~ msgid "Ipaddress already exists elsewhere"
-#~ msgstr "L'indirizzo IP esiste già altrove"
 
 #~ msgid "Already logged in"
 #~ msgstr "Già collegato"

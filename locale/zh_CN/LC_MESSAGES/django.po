@@ -1668,9 +1668,6 @@ msgstr "IXF 成员导出 URL"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
-
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
@@ -1716,8 +1713,10 @@ msgstr "允许的最大值为 {}"
 msgid "Minimum speed: {}"
 msgstr "无效速率：{}"
 
-msgid "Ip address already exists elsewhere"
-msgstr "IP 地址已在别处存在"
+#, fuzzy
+#| msgid "Ipaddress already exists elsewhere"
+msgid "IP already exists"
+msgstr "IP 地址已存在于别处"
 
 msgid "username"
 msgstr "用户名"
@@ -1850,40 +1849,40 @@ msgstr ""
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip blocks"
+msgid "API: Repeated request throttle rate for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip blocks"
+msgid "API: Repeated request throttle enabled for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip addresses"
+msgid "API: Repeated request throttle rate for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip addresses"
+msgid "API: Repeated request throttle enabled for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for authenticated users"
+msgid "API: Repeated request throttle rate for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle enabled for authenticated users"
+msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for organization api-keys"
+msgid "API: Repeated request throttle rate for organization api-keys"
 msgstr ""
 
-msgid "API: Response size throttle enabled for organization api-keys"
+msgid "API: Repeated request throttle enabled for organization api-keys"
 msgstr ""
 
 msgid "API: Anonymous API throttle rate message"
@@ -2014,9 +2013,6 @@ msgstr ""
 #| msgid "Invalid tag"
 msgid "Invalid value"
 msgstr "标签无效"
-
-msgid "Need to be unique"
-msgstr "需要是唯一的"
 
 msgid "This field is required"
 msgstr "此栏必填"
@@ -3788,6 +3784,9 @@ msgstr "请稍后再请求关联。"
 msgid "Either ASN or Organization required"
 msgstr "需要 ASN 或组织"
 
+msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
+
 #, fuzzy
 #| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
@@ -3966,6 +3965,12 @@ msgstr "对等政策信息"
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
 
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "IP 地址已在别处存在"
+
+#~ msgid "Need to be unique"
+#~ msgstr "需要是唯一的"
+
 #~ msgid "Change email address"
 #~ msgstr "修改 Email 地址"
 
@@ -4031,9 +4036,6 @@ msgstr "请稍后再尝试登录。"
 
 #~ msgid "10 Tbps+"
 #~ msgstr "超过 10 Tbps"
-
-#~ msgid "Ipaddress already exists elsewhere"
-#~ msgstr "IP 地址已存在于别处"
 
 #~ msgid "Already logged in"
 #~ msgstr "已经登陆"

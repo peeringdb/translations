@@ -1512,9 +1512,6 @@ msgstr "IX-F 멤버 데이터"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr "사용 가능한 네트워크 프로토콜에 대해 유효성을 검사할 때 적합한 IP 주소가 없음"
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr "이 익스체인지에는 이 주소 공간에 속하는 활성 피어가 있음"
-
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음."
 
@@ -1554,8 +1551,10 @@ msgstr "최대 속도: {}"
 msgid "Minimum speed: {}"
 msgstr "최소 속도: {}"
 
-msgid "Ip address already exists elsewhere"
-msgstr "IP 주소가 이미 다른 곳에 존재함"
+#, fuzzy
+#| msgid "Ixlan for exchange already exists"
+msgid "IP already exists"
+msgstr "익스체인지에 대한 Ixlan이 이미 있음"
 
 msgid "username"
 msgstr "사용자이름"
@@ -1684,40 +1683,40 @@ msgstr ""
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip blocks"
+msgid "API: Repeated request throttle rate for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip blocks"
+msgid "API: Repeated request throttle enabled for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip addresses"
+msgid "API: Repeated request throttle rate for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip addresses"
+msgid "API: Repeated request throttle enabled for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for authenticated users"
+msgid "API: Repeated request throttle rate for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle enabled for authenticated users"
+msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for organization api-keys"
+msgid "API: Repeated request throttle rate for organization api-keys"
 msgstr ""
 
-msgid "API: Response size throttle enabled for organization api-keys"
+msgid "API: Repeated request throttle enabled for organization api-keys"
 msgstr ""
 
 msgid "API: Anonymous API throttle rate message"
@@ -1846,9 +1845,6 @@ msgstr ""
 #| msgid "Invalid tag"
 msgid "Invalid value"
 msgstr "잘못된 태그"
-
-msgid "Need to be unique"
-msgstr "고유해야 함"
 
 msgid "This field is required"
 msgstr "필수 입력"
@@ -3552,6 +3548,9 @@ msgstr "제휴를 다시 요청하기 전에 잠시 기다리십시오."
 msgid "Either ASN or Organization required"
 msgstr "ASN 또는 조직이 요구됨"
 
+msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
+
 #, fuzzy
 #| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
@@ -3721,6 +3720,15 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "There are active peers at this exchange that fall into this address space"
+#~ msgstr "이 익스체인지에는 이 주소 공간에 속하는 활성 피어가 있음"
+
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "IP 주소가 이미 다른 곳에 존재함"
+
+#~ msgid "Need to be unique"
+#~ msgstr "고유해야 함"
 
 #~ msgid "Change email address"
 #~ msgstr "이메일 주소 변경"

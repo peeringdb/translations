@@ -1638,9 +1638,6 @@ msgstr "URL de Exportação de Membro IXF"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
-
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
@@ -1686,8 +1683,10 @@ msgstr "Valor máximo permitido {}"
 msgid "Minimum speed: {}"
 msgstr "Valor de velocidade inválido: {}"
 
-msgid "Ip address already exists elsewhere"
-msgstr "Endereço IP já existe em outros lugares"
+#, fuzzy
+#| msgid "Ipaddress already exists elsewhere"
+msgid "IP already exists"
+msgstr "Endereço IP já existe em outro lugar"
 
 msgid "username"
 msgstr "nome de usuário"
@@ -1820,40 +1819,40 @@ msgstr ""
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip blocks"
+msgid "API: Repeated request throttle rate for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip blocks"
+msgid "API: Repeated request throttle enabled for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip addresses"
+msgid "API: Repeated request throttle rate for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip addresses"
+msgid "API: Repeated request throttle enabled for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for authenticated users"
+msgid "API: Repeated request throttle rate for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle enabled for authenticated users"
+msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for organization api-keys"
+msgid "API: Repeated request throttle rate for organization api-keys"
 msgstr ""
 
-msgid "API: Response size throttle enabled for organization api-keys"
+msgid "API: Repeated request throttle enabled for organization api-keys"
 msgstr ""
 
 msgid "API: Anonymous API throttle rate message"
@@ -1984,9 +1983,6 @@ msgstr ""
 #| msgid "Invalid tag"
 msgid "Invalid value"
 msgstr "Tag inválida"
-
-msgid "Need to be unique"
-msgstr "Precisa ser único"
 
 msgid "This field is required"
 msgstr "Este campo é obrigatório"
@@ -3805,6 +3801,9 @@ msgstr "Favor aguardar alguns instantes antes de solicitar afiliação novamente
 msgid "Either ASN or Organization required"
 msgstr "Um ASN ou Organização é obrigatório"
 
+msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
+
 #, fuzzy
 #| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
@@ -3983,6 +3982,12 @@ msgstr "Informação da Política de Peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
 
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "Endereço IP já existe em outros lugares"
+
+#~ msgid "Need to be unique"
+#~ msgstr "Precisa ser único"
+
 #~ msgid "Change email address"
 #~ msgstr "Alterar endereço de email"
 
@@ -4059,9 +4064,6 @@ msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
 
 #~ msgid "10 Tbps+"
 #~ msgstr "10 Tbps+"
-
-#~ msgid "Ipaddress already exists elsewhere"
-#~ msgstr "Endereço IP já existe em outro lugar"
 
 #, fuzzy
 #~ msgid "Already logged in"

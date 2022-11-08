@@ -1439,9 +1439,6 @@ msgstr "Datele de membru IX-F"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr "Nu există adrese IP adecvate la validarea față de protocoalele de rețea activate"
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr "Există peer-uri active în acest Exchange care se încadrează în acest spațiu de adrese"
-
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "IXLanPrefix cu starea '{}' nu poate fi legat de un IXLan cu starea '{}'."
 
@@ -1477,8 +1474,10 @@ msgstr "Viteza maximă: {}"
 msgid "Minimum speed: {}"
 msgstr "Viteza minimă: {}"
 
-msgid "Ip address already exists elsewhere"
-msgstr "Adresa IP există deja în altă parte"
+#, fuzzy
+#| msgid "Ixlan for exchange already exists"
+msgid "IP already exists"
+msgstr "Ixlan pentru acest Exchange există deja"
 
 msgid "username"
 msgstr "nume de utilizator"
@@ -1603,40 +1602,64 @@ msgstr "API: Rată de accelerare a solicitării Melissa pentru solicitări anoni
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr "API: Accelerarea solicitării Melissa activată pentru solicitări anonime (ips)"
 
-msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+#, fuzzy
+#| msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru blocurile IP (octeți)"
 
-msgid "API: Response size throttle rate for ip blocks"
+#, fuzzy
+#| msgid "API: Response size throttle rate for ip blocks"
+msgid "API: Repeated request throttle rate for ip blocks"
 msgstr "API: Rata de accelerație pentru dimensiunea răspunsului pentru blocurile IP"
 
-msgid "API: Response size throttle enabled for ip blocks"
+#, fuzzy
+#| msgid "API: Response size throttle enabled for ip blocks"
+msgid "API: Repeated request throttle enabled for ip blocks"
 msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru blocurile IP"
 
-msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+#, fuzzy
+#| msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
 msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru adresele IP (octeți)"
 
-msgid "API: Response size throttle rate for ip addresses"
+#, fuzzy
+#| msgid "API: Response size throttle rate for ip addresses"
+msgid "API: Repeated request throttle rate for ip addresses"
 msgstr "API: Rata de accelerație pentru dimensiunea răspunsului pentru adresele IP"
 
-msgid "API: Response size throttle enabled for ip addresses"
+#, fuzzy
+#| msgid "API: Response size throttle enabled for ip addresses"
+msgid "API: Repeated request throttle enabled for ip addresses"
 msgstr "API: Accelerarea pentru dimensiunea răspunsului este activată pentru adresele IP"
 
-msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+#, fuzzy
+#| msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
 msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru utilizatorii autentificați (octeți)"
 
-msgid "API: Response size throttle rate for authenticated users"
+#, fuzzy
+#| msgid "API: Response size throttle rate for authenticated users"
+msgid "API: Repeated request throttle rate for authenticated users"
 msgstr "API: Rata de accelerare a dimensiunii răspunsului pentru utilizatorii autentificați"
 
-msgid "API: Response size throttle enabled for authenticated users"
+#, fuzzy
+#| msgid "API: Response size throttle enabled for authenticated users"
+msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru utilizatorii autentificați"
 
-msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+#, fuzzy
+#| msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
 msgstr "API: pragul de dimensiune a accelerare pentru dimensiunea răspunsului pentru cheile API ale organizației (octeți)"
 
-msgid "API: Response size throttle rate for organization api-keys"
+#, fuzzy
+#| msgid "API: Response size throttle rate for organization api-keys"
+msgid "API: Repeated request throttle rate for organization api-keys"
 msgstr "API: Rata de accelerare a dimensiunii răspunsului pentru cheile API ale organizației"
 
-msgid "API: Response size throttle enabled for organization api-keys"
+#, fuzzy
+#| msgid "API: Response size throttle enabled for organization api-keys"
+msgid "API: Repeated request throttle enabled for organization api-keys"
 msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru cheile API ale organizației"
 
 msgid "API: Anonymous API throttle rate message"
@@ -1745,9 +1768,6 @@ msgstr "Nu am putut găsi adresa pe care ați introdus-o. Vă rugăm să consult
 
 msgid "Invalid value"
 msgstr "Valoarea nu este validă"
-
-msgid "Need to be unique"
-msgstr "Trebuie să fie unic"
 
 msgid "This field is required"
 msgstr "Acest câmp este necesar"
@@ -3400,6 +3420,9 @@ msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilier
 msgid "Either ASN or Organization required"
 msgstr "Este necesar ASN-ul sau organizația"
 
+msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
+
 msgid "You already requested affiliation to this ASN/org"
 msgstr "Ați solicitat deja afilierea la acest ASN/org"
 
@@ -3541,6 +3564,15 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "There are active peers at this exchange that fall into this address space"
+#~ msgstr "Există peer-uri active în acest Exchange care se încadrează în acest spațiu de adrese"
+
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "Adresa IP există deja în altă parte"
+
+#~ msgid "Need to be unique"
+#~ msgstr "Trebuie să fie unic"
 
 #~ msgid "Change email address"
 #~ msgstr "Schimbați adresa e-mail"

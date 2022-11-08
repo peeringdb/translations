@@ -1662,9 +1662,6 @@ msgstr "سجل استيراد بيانات IXF"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
 
-msgid "There are active peers at this exchange that fall into this address space"
-msgstr ""
-
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
@@ -1708,8 +1705,10 @@ msgstr "القيمة القصوى المسموح بها {}"
 msgid "Minimum speed: {}"
 msgstr "قيم سرعة الاتصال غير صحيحة : {}"
 
-msgid "Ip address already exists elsewhere"
-msgstr "عنوان الانترنت موجود بالفعل في مكان آخر"
+#, fuzzy
+#| msgid "Ipaddress already exists elsewhere"
+msgid "IP already exists"
+msgstr "هذا العنوان موجود بالفعل في مكان آخر"
 
 msgid "username"
 msgstr "اسم المستخدم"
@@ -1842,40 +1841,40 @@ msgstr ""
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip blocks (bytes)"
+msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip blocks"
+msgid "API: Repeated request throttle rate for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip blocks"
+msgid "API: Repeated request throttle enabled for ip blocks"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for ip addresses (bytes)"
+msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for ip addresses"
+msgid "API: Repeated request throttle rate for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle enabled for ip addresses"
+msgid "API: Repeated request throttle enabled for ip addresses"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for authenticated users (bytes)"
+msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for authenticated users"
+msgid "API: Repeated request throttle rate for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle enabled for authenticated users"
+msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr ""
 
-msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
+msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
 msgstr ""
 
-msgid "API: Response size throttle rate for organization api-keys"
+msgid "API: Repeated request throttle rate for organization api-keys"
 msgstr ""
 
-msgid "API: Response size throttle enabled for organization api-keys"
+msgid "API: Repeated request throttle enabled for organization api-keys"
 msgstr ""
 
 msgid "API: Anonymous API throttle rate message"
@@ -2006,9 +2005,6 @@ msgstr ""
 #| msgid "Invalid tag"
 msgid "Invalid value"
 msgstr "علامة غير صحيحة"
-
-msgid "Need to be unique"
-msgstr "يجب أن تكون فريد من نوعه"
 
 msgid "This field is required"
 msgstr "هذا الحقل/الخانة مطلوب"
@@ -3781,6 +3777,9 @@ msgstr "الرجاء الانتظار قليلاً قبل طلب الانتسا�
 msgid "Either ASN or Organization required"
 msgstr "إما رقم النظام المستقل (ASN) أو اسم المنظمة مطلوب"
 
+msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
+
 #, fuzzy
 #| msgid "You may request affiliation to an Organization or ASN"
 msgid "You already requested affiliation to this ASN/org"
@@ -3957,6 +3956,12 @@ msgstr "معلومات سياسات التناظر"
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
 
+#~ msgid "Ip address already exists elsewhere"
+#~ msgstr "عنوان الانترنت موجود بالفعل في مكان آخر"
+
+#~ msgid "Need to be unique"
+#~ msgstr "يجب أن تكون فريد من نوعه"
+
 #~ msgid "Change email address"
 #~ msgstr "تغيير البريد الالكتروني"
 
@@ -4028,9 +4033,6 @@ msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل 
 
 #~ msgid "10 Tbps+"
 #~ msgstr "اكثر من ١٠ تيرابت/الثانية"
-
-#~ msgid "Ipaddress already exists elsewhere"
-#~ msgstr "هذا العنوان موجود بالفعل في مكان آخر"
 
 #~ msgid "Already logged in"
 #~ msgstr "تم تسجيل الدخول بالفعل"
