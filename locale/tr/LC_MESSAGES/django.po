@@ -1100,6 +1100,9 @@ msgstr ""
 msgid "Passwords need to match"
 msgstr ""
 
+msgid "This username is already taken"
+msgstr ""
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1224,6 +1227,11 @@ msgstr ""
 #| msgid "Exchange - Facility link"
 msgid "{} Merge Notification: {} -> {}"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Selective"
+msgid "Inactive"
+msgstr "Seçici"
 
 msgid "Silver"
 msgstr ""
@@ -1964,6 +1972,9 @@ msgstr ""
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2550,9 +2561,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Add a new carrier to your Organization."
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr ""
@@ -2650,6 +2669,9 @@ msgid "Contact Us"
 msgstr "İçerik"
 
 msgid "Global System Statistics"
+msgstr ""
+
+msgid "Carriers"
 msgstr ""
 
 #, fuzzy
@@ -2961,6 +2983,21 @@ msgstr "Değişim noktası"
 msgid "Password Verification"
 msgstr ""
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "Değişim noktası"
+
+#, fuzzy
+#| msgid "Users"
+msgid "Username changed"
+msgstr "Kullanıcılar"
+
+#, fuzzy
+#| msgid "Users"
+msgid "New username"
+msgstr "Kullanıcılar"
+
 msgid "Close Account"
 msgstr ""
 
@@ -3170,6 +3207,23 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr ""
 
+msgid "Filter"
+msgstr ""
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
+msgstr ""
+
+msgid "Exchange - Facility link"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Add Facility"
+msgstr "Bina"
+
 #, fuzzy
 #| msgid "IXLAN Prefix"
 msgid "Prefixes"
@@ -3187,23 +3241,6 @@ msgstr "IXLAN Öneki"
 #| msgid "Exchange - Facility link"
 msgid "Local Facilities"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr ""
-
-msgid "Exchange - Facility link"
-msgstr "Değişim noktası - Bina/Tesis bağlantısı"
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Add Facility"
-msgstr "Bina"
 
 #, fuzzy
 #| msgid "IXF Import History"
@@ -3255,6 +3292,26 @@ msgstr "IPv4"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Bölgesel"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "Click to accept this request"
+msgstr ""
+
+msgid "Click to reject this request"
+msgstr ""
+
+msgid "Reject"
+msgstr ""
 
 #, fuzzy
 #| msgid "Peering Policy Information"
@@ -3425,6 +3482,9 @@ msgstr ""
 #| msgid "Exchange"
 msgid "Add Exchange"
 msgstr "Değişim noktası"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr ""
@@ -3901,12 +3961,18 @@ msgstr ""
 msgid "Max size: {}kb"
 msgstr ""
 
+msgid "Company Website Override"
+msgstr ""
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXLAN"
 msgid "LAN"
 msgstr "IXLAN"
 
-msgid "MTU"
+msgid "Payload MTU"
 msgstr ""
 
 #, fuzzy

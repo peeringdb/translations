@@ -1122,6 +1122,11 @@ msgstr "Πρέπει να είναι τουλάχιστον 10 χαρακτήρ�
 msgid "Passwords need to match"
 msgstr "Οι κωδικοί πρέπει να είναι ταυτόσημοι"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "Αυτή η διεύθυνση email έχει ήδη χρησιμοποιηθεί"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1255,6 +1260,11 @@ msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Ειδοποιήση Συγχώνευσης: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "ενεργός/η"
 
 msgid "Silver"
 msgstr "Ασημένιοι"
@@ -1987,6 +1997,9 @@ msgstr "Η αίτηση συσχετισμού του/της %(user_name)s εγ�
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "H αίτηση συσχετισμού του/της %(user_name)s's απορρίφθηκε"
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2588,9 +2601,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Προσθήκη νέας οντότητας %(entity_name)s στον Οργανισμό σας. Σημειώστε πως η νεοδημιουργηθήσα %(entity_name)s θα χρειαστεί έγκριση από το προσωπικό του PeeringDB πριν να μπορέσει να εμφανιστεί σε αποτελέσματα αναζήτησης ή σε API καταχωρήσεις"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "Προσθέστε ένα νέο Δίκτυο στον Οργανισμό σας"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr ""
@@ -2689,6 +2710,9 @@ msgstr "Επικοινωνήστε μαζί μας"
 
 msgid "Global System Statistics"
 msgstr "Οικουμενικά Στατιστικά Συστήματος"
+
+msgid "Carriers"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -2992,6 +3016,21 @@ msgid "Password Verification"
 msgstr "Επαλήθευση κωδικού"
 
 #, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "Exchange"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "Όνομα Χρήστη"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "Όνομα Χρήστη"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "Δημιουργία λογαριασμού"
@@ -3189,6 +3228,21 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Τα δεδομένα Geocode για αυτή την οντότητα δεν μπορούσαν να ανακτηθούν αυτή τη στιγμή. Αυτό συμβαίνι αυτόματα όταν αλλάζει το πεδίο διεύθυνσης."
 
+msgid "Filter"
+msgstr ""
+
+msgid "No filter matches."
+msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
+
+msgid "You may filter by"
+msgstr "Μπορείτε να φιλτράρετε με"
+
+msgid "Exchange - Facility link"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
+msgid "Add Facility"
+msgstr "Προσθήκη Εγκατάστασης"
+
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -3204,21 +3258,6 @@ msgstr "Προσθήκη Prefix"
 #| msgid "Facilities"
 msgid "Local Facilities"
 msgstr "Eγκαταστάσεις"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
-
-msgid "You may filter by"
-msgstr "Μπορείτε να φιλτράρετε με"
-
-msgid "Exchange - Facility link"
-msgstr "Ζεύξη Exchange - Εγκατάστασης"
-
-msgid "Add Facility"
-msgstr "Προσθήκη Εγκατάστασης"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -3270,6 +3309,30 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Τοπικό"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "Κατάσταση του αιτήματος"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "Πληροφορίες Επικοινωνίας"
@@ -3447,6 +3510,9 @@ msgstr "Προσθήκη Δικτύου"
 
 msgid "Add Exchange"
 msgstr "Προσθήκη Exchange"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "Δικαιώματα"
@@ -3909,11 +3975,19 @@ msgstr "Αποσύνδεση"
 msgid "Max size: {}kb"
 msgstr "Mέγιστη επιτρεπτή τιμή {}"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Εταιρική Ιστοσελίδα"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -3997,6 +4071,9 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "Ip address already exists elsewhere"
 #~ msgstr "Αυτή η διεύθυνση IP υπάρχει ήδη αλλού"

@@ -1106,6 +1106,9 @@ msgstr "Skal være 10 tegn eller længere"
 msgid "Passwords need to match"
 msgstr "Kodeord skal være ens"
 
+msgid "This username is already taken"
+msgstr ""
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1232,6 +1235,11 @@ msgstr ""
 #| msgid "Organization"
 msgid "{} Merge Notification: {} -> {}"
 msgstr "Virksomhed"
+
+#, fuzzy
+#| msgid "Active"
+msgid "Inactive"
+msgstr "Aktiv"
 
 msgid "Silver"
 msgstr "Sølv"
@@ -1985,6 +1993,9 @@ msgstr ""
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2593,9 +2604,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Add a new carrier to your Organization."
+msgstr "Virksomhed"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr ""
@@ -2693,6 +2712,9 @@ msgid "Contact Us"
 msgstr "Indhold"
 
 msgid "Global System Statistics"
+msgstr ""
+
+msgid "Carriers"
 msgstr ""
 
 #, fuzzy
@@ -3014,6 +3036,21 @@ msgstr "Ændre kodeord"
 msgid "Password Verification"
 msgstr "Kodeord skal være ens"
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "Exchange"
+
+#, fuzzy
+#| msgid "Users"
+msgid "Username changed"
+msgstr "Brugere"
+
+#, fuzzy
+#| msgid "Users"
+msgid "New username"
+msgstr "Brugere"
+
 msgid "Close Account"
 msgstr ""
 
@@ -3223,6 +3260,23 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr ""
 
+msgid "Filter"
+msgstr ""
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
+msgstr ""
+
+msgid "Exchange - Facility link"
+msgstr "Exchange - Facility link"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Add Facility"
+msgstr "Facility"
+
 #, fuzzy
 #| msgid "IXLAN Prefix"
 msgid "Prefixes"
@@ -3240,23 +3294,6 @@ msgstr "IXLAN præfiks"
 #| msgid "Exchange - Facility link"
 msgid "Local Facilities"
 msgstr "Exchange - Facility link"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr ""
-
-msgid "Exchange - Facility link"
-msgstr "Exchange - Facility link"
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Add Facility"
-msgstr "Facility"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -3308,6 +3345,30 @@ msgstr "IPv4"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Regional"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Exchange - Facility link"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "Status for denne forespørgsel"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to reject this request"
+msgstr "Status for denne forespørgsel"
+
+msgid "Reject"
+msgstr ""
 
 #, fuzzy
 #| msgid "Updated"
@@ -3478,6 +3539,9 @@ msgstr ""
 #| msgid "Exchange"
 msgid "Add Exchange"
 msgstr "Exchange"
+
+msgid "Add Carrier"
+msgstr ""
 
 #, fuzzy
 #| msgid "Edit Permissions"
@@ -3954,12 +4018,18 @@ msgstr ""
 msgid "Max size: {}kb"
 msgstr "Intet JSON kunne behandles"
 
+msgid "Company Website Override"
+msgstr ""
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXLAN"
 msgid "LAN"
 msgstr "IXLAN"
 
-msgid "MTU"
+msgid "Payload MTU"
 msgstr ""
 
 #, fuzzy

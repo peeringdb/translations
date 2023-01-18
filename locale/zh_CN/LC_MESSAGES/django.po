@@ -1146,6 +1146,11 @@ msgstr "至少 10 个字符长"
 msgid "Passwords need to match"
 msgstr "密码没有匹配"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "这个 Email 已被使用"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "请输入验证码"
 
@@ -1271,6 +1276,11 @@ msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 合并通知: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "活动"
 
 msgid "Silver"
 msgstr "银"
@@ -2003,6 +2013,9 @@ msgstr "%(user_name)s 的关联请求已批准"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s 的关联请求被拒绝"
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2599,9 +2612,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "将新的 %(entity_name)s 添加到您的组织。请注意，新创建的 %(entity_name)s 将在 PeeringDB 员工批准后显示在搜索结果和 API 列表中"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "向您的组织添加新网络。"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "为了在 PeeringDB 中列为设施，我们希望您向公众提供主机托管，数据中心和/或 meet-me-room 服务。"
@@ -2696,6 +2717,9 @@ msgstr "联系我们"
 
 msgid "Global System Statistics"
 msgstr "全球系统统计"
+
+msgid "Carriers"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "连接的交换点"
@@ -2985,6 +3009,21 @@ msgid "Password Verification"
 msgstr "密码验证"
 
 #, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "交换点"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "用户名"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "用户名"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "创建账号"
@@ -3178,6 +3217,21 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "此时无法获得此实体的地理编码数据。这是地址字段修改后自动完成的。"
 
+msgid "Filter"
+msgstr ""
+
+msgid "No filter matches."
+msgstr ""
+
+msgid "You may filter by"
+msgstr "您可以筛选"
+
+msgid "Exchange - Facility link"
+msgstr "交换点 - 设施连接"
+
+msgid "Add Facility"
+msgstr "添加设施"
+
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -3193,21 +3247,6 @@ msgstr "添加前缀"
 #| msgid "Facilities"
 msgid "Local Facilities"
 msgstr "设施"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr ""
-
-msgid "You may filter by"
-msgstr "您可以筛选"
-
-msgid "Exchange - Facility link"
-msgstr "交换点 - 设施连接"
-
-msgid "Add Facility"
-msgstr "添加设施"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -3251,6 +3290,30 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "区域性"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "请求状态"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "单击以选中多个"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "联系信息"
@@ -3428,6 +3491,9 @@ msgstr "添加网络"
 
 msgid "Add Exchange"
 msgstr "添加交换点"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "权限"
@@ -3876,11 +3942,19 @@ msgstr "注销"
 msgid "Max size: {}kb"
 msgstr "允许的最大值为 {}"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "公司网站"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -3964,6 +4038,9 @@ msgstr "对等政策信息"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "Ip address already exists elsewhere"
 #~ msgstr "IP 地址已在别处存在"

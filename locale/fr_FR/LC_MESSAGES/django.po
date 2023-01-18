@@ -1031,6 +1031,11 @@ msgstr "Minimum 10 caractères"
 msgid "Passwords need to match"
 msgstr "Les mots de passe doivent correspondre"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "Cette adresse email a déjà été utilisée"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1164,6 +1169,11 @@ msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Fusionner notification: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "actif"
 
 msgid "Silver"
 msgstr "Argent"
@@ -1897,6 +1907,9 @@ msgstr "l'affiliation de l'utilisateur %(user_name)s a été approuvée"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "l'affiliation de l'utilisateur %(user_name)s a été rejetée"
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2498,9 +2511,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Ajouter une nouvelle entité %(entity_name)s à votre orgnaisation. Veuillez noter que la nouvelle entité %(entity_name)s devra être approuvée par les collaborateurs de PeeringDB avant qu'elle ne puisse apparaître dans les résultats de recherche et des appels API"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "Ajouter un nouveau réseau à votre organisation."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr ""
@@ -2599,6 +2620,9 @@ msgstr "Contactez nous"
 
 msgid "Global System Statistics"
 msgstr "Statistiques globale"
+
+msgid "Carriers"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -2902,6 +2926,21 @@ msgid "Password Verification"
 msgstr "Vérification du mot de passe"
 
 #, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "Point d'échange"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "Nom d'utilisateur"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "nom d'utilisateur"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "Créer un compte"
@@ -3099,6 +3138,21 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Les données de géocodage pour cette entité n'ont pas pu être obtenues jusqu'ici. Ceci est réalisé automatiquement lors du changement du champs d'adresse."
 
+msgid "Filter"
+msgstr ""
+
+msgid "No filter matches."
+msgstr "Aucune correspondance à vos filtres."
+
+msgid "You may filter by"
+msgstr "Vous pouvez filtrer selon"
+
+msgid "Exchange - Facility link"
+msgstr "Point d'échange - Lien du lieu d'installation"
+
+msgid "Add Facility"
+msgstr "Ajouter installation"
+
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -3114,21 +3168,6 @@ msgstr "Ajouter un préfixe"
 #| msgid "Facilities"
 msgid "Local Facilities"
 msgstr "Installations"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr "Aucune correspondance à vos filtres."
-
-msgid "You may filter by"
-msgstr "Vous pouvez filtrer selon"
-
-msgid "Exchange - Facility link"
-msgstr "Point d'échange - Lien du lieu d'installation"
-
-msgid "Add Facility"
-msgstr "Ajouter installation"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -3180,6 +3219,30 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Régional"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Point d'échange Internet - Lieu d'installation"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "Statut de la requête"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "cliquez pour effectuer une sélection multiple"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "Informations de contact"
@@ -3357,6 +3420,9 @@ msgstr "Ajouter un réseau"
 
 msgid "Add Exchange"
 msgstr "Ajouter un point d'échange"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "Permissions"
@@ -3817,11 +3883,19 @@ msgstr "Déconnexion"
 msgid "Max size: {}kb"
 msgstr "Valeur maximale permise {}"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Site Internet de l'entreprise"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "Réseau local"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -3905,6 +3979,9 @@ msgstr "Informations sur le règlement de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de bien vouloir patienter avant d'essayer de vous identifier à nouveau."
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "Ip address already exists elsewhere"
 #~ msgstr "L'adresse IP existe déjà ailleurs"

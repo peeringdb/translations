@@ -1147,6 +1147,11 @@ msgstr "يجب ان يكون الطول علي الأقل 10 أحرف"
 msgid "Passwords need to match"
 msgstr "يجب ان تتطابق كلمات المرور"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "تم استخدام هذا البريد الإلكتروني من قبل"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "يرجى ملء حقل كلمة التحقق (captcha)"
 
@@ -1267,6 +1272,11 @@ msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} دمج الاشعار:   {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "نشط / مُفعّل"
 
 msgid "Silver"
 msgstr "فضي"
@@ -1995,6 +2005,9 @@ msgstr "%(user_name)s's تمت الموافقة على طلب الانتساب/ 
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s's تم رفض طلب الانتساب/ الانضمام"
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2591,9 +2604,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "اضف  %(entity_name)s الى المؤسسة. تجدر الإشارة إلى أن %(entity_name)s الذي تم إنشاؤه حديثًا يحتاج إلى موافقة موظفي قاعدة بيانات التناظر اولاً قبل ظهوره في نتائج البحث أو واجهة برمجة التطبيقات"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "إضافة شبكة جديدة إلى المؤسسة/المنظمة."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "ليتم إدراجها كمرفق \"مركز بيانات\" في قاعدة بيانات التناظر ، يجب ان تُقدم خدمات الاستضافة  و/أو خدمة الغرف للجمهور."
@@ -2688,6 +2709,9 @@ msgstr "اتصل بنا"
 
 msgid "Global System Statistics"
 msgstr "إحصائيات النظام العالمي"
+
+msgid "Carriers"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "الاتصالات إلى النظائر/التبادلات"
@@ -2979,6 +3003,21 @@ msgid "Password Verification"
 msgstr "التحقق من كلمة المرور"
 
 #, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "تبادل"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "المستخدم"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "اسم المستخدم"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "إنشاء حساب"
@@ -3173,6 +3212,21 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "تعذر الحصول على بيانات الترميز الجغرافي لهذا الكيان في هذه المرحلة. سيتم ذلك تلقائيًا عند تغيير حقل العنوان."
 
+msgid "Filter"
+msgstr ""
+
+msgid "No filter matches."
+msgstr "لا يوجد تطابق في خيارات البحث."
+
+msgid "You may filter by"
+msgstr "يمكنك إجراء البحث حسب"
+
+msgid "Exchange - Facility link"
+msgstr "نقطة التبادل - مركز البيانات"
+
+msgid "Add Facility"
+msgstr "إضافة خدمة تسهيلية"
+
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -3188,21 +3242,6 @@ msgstr "إضافة بادئة عنوان انترنت"
 #| msgid "Facilities"
 msgid "Local Facilities"
 msgstr "مراكز بيانات/ تشغيل"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr "لا يوجد تطابق في خيارات البحث."
-
-msgid "You may filter by"
-msgstr "يمكنك إجراء البحث حسب"
-
-msgid "Exchange - Facility link"
-msgstr "نقطة التبادل - مركز البيانات"
-
-msgid "Add Facility"
-msgstr "إضافة خدمة تسهيلية"
 
 #, fuzzy
 #| msgid "IX-F Import"
@@ -3246,6 +3285,30 @@ msgstr "عنوان بروتوكول الانترنت"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "إقليمي"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "حالة هذا الطلب"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "انقر لتحديد عدة خيارات"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "بيانات الاتصال"
@@ -3421,6 +3484,9 @@ msgstr "إضافة شبكة"
 #| msgid "Any Exchange"
 msgid "Add Exchange"
 msgstr "اي تبادل بيانات"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "صلاحيات"
@@ -3869,11 +3935,19 @@ msgstr "خروج"
 msgid "Max size: {}kb"
 msgstr "القيمة القصوى المسموح بها {}"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "الموقع الإكتروني للشركة/ المؤسسة"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "الشبكة المحلية"
 
-msgid "MTU"
-msgstr "وحدة الإرسال القصوى (MTU)"
+msgid "Payload MTU"
+msgstr ""
 
 #, fuzzy
 #| msgid "IX-F Import"
@@ -3955,6 +4029,9 @@ msgstr "معلومات سياسات التناظر"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
+
+#~ msgid "MTU"
+#~ msgstr "وحدة الإرسال القصوى (MTU)"
 
 #~ msgid "Ip address already exists elsewhere"
 #~ msgstr "عنوان الانترنت موجود بالفعل في مكان آخر"

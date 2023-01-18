@@ -1004,6 +1004,11 @@ msgstr "10文字以上の文字数でお願いします"
 msgid "Passwords need to match"
 msgstr "文字列が一致するパスワードでお願いします"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "このメールアドレスは既に使われています"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "anti-spam challenge (captcha) field に入力してください"
 
@@ -1116,6 +1121,11 @@ msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F 
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 統合の通知: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "アクティブ"
 
 msgid "Silver"
 msgstr "シルバー"
@@ -1770,6 +1780,11 @@ msgstr "%(user_name)s's 所属リクエストが承認されました"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s's 所属リクエストが拒否されました"
 
+#, fuzzy
+#| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr "この組織はスポンサーです。削除を進めるには PeeringDB サポートまでご連絡ください。"
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "このオブジェクトの削除については、 {} までご連絡ください"
 
@@ -2309,9 +2324,19 @@ msgstr "データセンタを運用している方だけが追加してくださ
 msgid "Only use this if you own the exchange"
 msgstr "エクスチェンジを運用している方だけが追加してください"
 
+#, fuzzy
+#| msgid "Only use this if you own the exchange"
+msgid "Only use this if you own the carrier"
+msgstr "エクスチェンジを運用している方だけが追加してください"
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "新規の %(entity_name)s をあなたの組織に追加する事が出来ます。新規作成された %(entity_name)s は、検索結果や API リストに表示されるようになる前に PeeringDB スタッフに承認される必要があります"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "あなたの組織に新しいネットワークを追加する事が出来ます"
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "データセンタとして PeeringDB に登録されるには、コロケーション、データセンタ、Meet-Me-Room を一般に提供している事が望まれます。"
@@ -2402,6 +2427,9 @@ msgstr "連絡先"
 
 msgid "Global System Statistics"
 msgstr "システム全体の統計情報"
+
+msgid "Carriers"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "エクスチェンジ接続"
@@ -2681,6 +2709,21 @@ msgid "Password Verification"
 msgstr "パスワード確認"
 
 #, fuzzy
+#| msgid "Exchange name"
+msgid "Change username"
+msgstr "エクスチェンジの名前"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "ユーザ名"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "ユーザ名"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "アカウント作成"
@@ -2872,18 +2915,6 @@ msgstr "Accept"
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "このエンティティのジオコードデータの取得に失敗しました。これはアドレスフィールドの変更時に自動的に行われます。"
 
-msgid "Prefixes"
-msgstr "プレフィクス"
-
-msgid "IXLAN Prefix"
-msgstr "IXLAN Prefix"
-
-msgid "Add Prefix"
-msgstr "プレフィクスを追加"
-
-msgid "Local Facilities"
-msgstr "データセンタ"
-
 msgid "Filter"
 msgstr "フィルタ"
 
@@ -2898,6 +2929,18 @@ msgstr "エクスチェンジ - データセンタ のリンク"
 
 msgid "Add Facility"
 msgstr "データセンタを追加"
+
+msgid "Prefixes"
+msgstr "プレフィクス"
+
+msgid "IXLAN Prefix"
+msgstr "IXLAN Prefix"
+
+msgid "Add Prefix"
+msgstr "プレフィクスを追加"
+
+msgid "Local Facilities"
+msgstr "データセンタ"
 
 msgid "IX-F Import Preview"
 msgstr "IX-F Import のプレビュー"
@@ -2937,6 +2980,30 @@ msgstr "IP"
 
 msgid "Not operational"
 msgstr "非稼働"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "このデータセンタに存在しているネットワークの数"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "このリクエストの状態"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "で複数選択可能です"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "連絡先情報"
@@ -3085,6 +3152,9 @@ msgstr "ネットワークを追加"
 
 msgid "Add Exchange"
 msgstr "エクスチェンジを追加"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "パーミッション"
@@ -3534,11 +3604,19 @@ msgstr "ロゴ"
 msgid "Max size: {}kb"
 msgstr "Max size: {}kb"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Web サイト"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 msgid "Enable IX-F Import"
 msgstr "IX-F Import を有効にする"
@@ -3606,6 +3684,9 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "There are active peers at this exchange that fall into this address space"
 #~ msgstr "このアドレス空間に該当するエクスチェンジにはアクティブなピアがあります"

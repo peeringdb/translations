@@ -1094,6 +1094,11 @@ msgstr "Минимальная длина 10 символов"
 msgid "Passwords need to match"
 msgstr "Пароли должны совпадать"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "Этот емайл уже используется"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1227,6 +1232,11 @@ msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Уведомление о слиянии: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "активен"
 
 msgid "Silver"
 msgstr "Серебряный"
@@ -1957,6 +1967,9 @@ msgstr "Заявка %(user_name)s на связь одобрена"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Заявка %(user_name)s на связь отклонена"
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2555,9 +2568,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Добавить %(entity_name)s к вашей Организации. Внимание, создаваемая сущность %(entity_name)s должна пройти одобрение администраторами PeeringDB, после чего она станет доступна в резульатах поиска и в листингах API"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "Новая сеть для Организации."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr ""
@@ -2656,6 +2677,9 @@ msgstr "Свяжитесь с нами"
 
 msgid "Global System Statistics"
 msgstr "Общая статистика системы"
+
+msgid "Carriers"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -2961,6 +2985,21 @@ msgid "Password Verification"
 msgstr "Проверка пароля"
 
 #, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "IXP"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "Имя пользователя"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "имя пользователя"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "Создать аккаунт"
@@ -3159,6 +3198,21 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Данные геокодирования для данной сущности сейчас недоступны. Обновление производится автоматически при изменении поля адреса."
 
+msgid "Filter"
+msgstr ""
+
+msgid "No filter matches."
+msgstr "Нет соответствий фильтру"
+
+msgid "You may filter by"
+msgstr "Фильтровать по"
+
+msgid "Exchange - Facility link"
+msgstr "Связь IXP - Площадка"
+
+msgid "Add Facility"
+msgstr "Новая Площадка"
+
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -3174,21 +3228,6 @@ msgstr "Новый префикс"
 #| msgid "Facilities"
 msgid "Local Facilities"
 msgstr "Площадки"
-
-msgid "Filter"
-msgstr ""
-
-msgid "No filter matches."
-msgstr "Нет соответствий фильтру"
-
-msgid "You may filter by"
-msgstr "Фильтровать по"
-
-msgid "Exchange - Facility link"
-msgstr "Связь IXP - Площадка"
-
-msgid "Add Facility"
-msgstr "Новая Площадка"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -3241,6 +3280,30 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Региональный"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Связь IXP - Площадка"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "Статус заявки"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "кликните, чтобы выбрать несколько"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "Контактная информация"
@@ -3417,6 +3480,9 @@ msgstr "Новая сеть"
 
 msgid "Add Exchange"
 msgstr "Новый IXP"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "Права доступа"
@@ -3878,11 +3944,19 @@ msgstr "Выйти"
 msgid "Max size: {}kb"
 msgstr "Максимальное допустимое значение: {}"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Веб-сайт компании"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -3966,6 +4040,9 @@ msgstr "Информация о пиринговой политике"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Подождите несколько секунд перед повторной попыткой авторизации."
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "Ip address already exists elsewhere"
 #~ msgstr "IP адрес уже существует"

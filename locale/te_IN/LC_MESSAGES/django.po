@@ -987,6 +987,9 @@ msgstr ""
 msgid "Passwords need to match"
 msgstr ""
 
+msgid "This username is already taken"
+msgstr ""
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1098,6 +1101,9 @@ msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} a
 msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
+msgstr ""
+
+msgid "Inactive"
 msgstr ""
 
 msgid "Silver"
@@ -1729,6 +1735,9 @@ msgstr ""
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2256,8 +2265,14 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr ""
+
+msgid "Add a new carrier to your Organization."
 msgstr ""
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
@@ -2346,6 +2361,9 @@ msgid "Contact Us"
 msgstr ""
 
 msgid "Global System Statistics"
+msgstr ""
+
+msgid "Carriers"
 msgstr ""
 
 msgid "Connections to Exchanges"
@@ -2611,6 +2629,15 @@ msgstr ""
 msgid "Password Verification"
 msgstr ""
 
+msgid "Change username"
+msgstr ""
+
+msgid "Username changed"
+msgstr ""
+
+msgid "New username"
+msgstr ""
+
 msgid "Close Account"
 msgstr ""
 
@@ -2796,18 +2823,6 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr ""
 
-msgid "Prefixes"
-msgstr ""
-
-msgid "IXLAN Prefix"
-msgstr ""
-
-msgid "Add Prefix"
-msgstr ""
-
-msgid "Local Facilities"
-msgstr ""
-
 msgid "Filter"
 msgstr ""
 
@@ -2821,6 +2836,18 @@ msgid "Exchange - Facility link"
 msgstr ""
 
 msgid "Add Facility"
+msgstr ""
+
+msgid "Prefixes"
+msgstr ""
+
+msgid "IXLAN Prefix"
+msgstr ""
+
+msgid "Add Prefix"
+msgstr ""
+
+msgid "Local Facilities"
 msgstr ""
 
 msgid "IX-F Import Preview"
@@ -2860,6 +2887,24 @@ msgid "IP"
 msgstr ""
 
 msgid "Not operational"
+msgstr ""
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+msgid "This carrier wants to list its presence at this facility."
+msgstr ""
+
+msgid "Click to accept this request"
+msgstr ""
+
+msgid "Click to reject this request"
+msgstr ""
+
+msgid "Reject"
 msgstr ""
 
 msgid "Contact Information"
@@ -3008,6 +3053,9 @@ msgid "Add Network"
 msgstr ""
 
 msgid "Add Exchange"
+msgstr ""
+
+msgid "Add Carrier"
 msgstr ""
 
 msgid "Permissions"
@@ -3415,10 +3463,16 @@ msgstr ""
 msgid "Max size: {}kb"
 msgstr ""
 
+msgid "Company Website Override"
+msgstr ""
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr ""
 
-msgid "MTU"
+msgid "Payload MTU"
 msgstr ""
 
 msgid "Enable IX-F Import"

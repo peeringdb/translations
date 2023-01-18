@@ -1014,6 +1014,11 @@ msgstr "최소 10자 이상"
 msgid "Passwords need to match"
 msgstr "비밀번호가 일치해야 함"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "이 이메일 주소는 이미 사용되었습니다"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "안티스팸 챌린지(캡차) 필드를 입력하십시오"
 
@@ -1131,6 +1136,11 @@ msgstr "PeeringDB: 조치가 필요할 수 있음: IX-F 임포터 데이터가 {
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 병합 공지: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "활성화"
 
 msgid "Silver"
 msgstr "실버"
@@ -1835,6 +1845,11 @@ msgstr "%(user_name)s의 가입 요청이 승인되었음"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
+#, fuzzy
+#| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr "조직은 현재 적극적인 후원자입니다. 이 조직을 쉽게 제거할 수 있도록 PeeringDB 지원팀에 문의하십시오."
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
 
@@ -2399,9 +2414,19 @@ msgstr "당신이 시설을 소유하는 경우에만 사용하십시오"
 msgid "Only use this if you own the exchange"
 msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
 
+#, fuzzy
+#| msgid "Only use this if you own the exchange"
+msgid "Only use this if you own the carrier"
+msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성된 %(entity_name)s가 검색 결과 또는 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 함을 주의하십시오"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "PeeringDB의 시설로 등록하기 위해 우리는 당신이 코로케이션, 데이터 센터 및/또는 meet-me-room 서비스를 제공할 것을 기대할 것입니다."
@@ -2492,6 +2517,9 @@ msgstr "연락처"
 
 msgid "Global System Statistics"
 msgstr "글로벌 시스템 통계"
+
+msgid "Carriers"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "익스체인지로 연결"
@@ -2773,6 +2801,21 @@ msgid "Password Verification"
 msgstr "비밀번호 확인"
 
 #, fuzzy
+#| msgid "Exchange name"
+msgid "Change username"
+msgstr "익스체인지 이름"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "아이디"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "사용자이름"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "계정 만들기"
@@ -2966,18 +3009,6 @@ msgstr "수락"
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "이 항목에 대한 지오코드 데이터는 이 시점에서 얻을 수 없었습니다. 이것은 주소 필드가 변경될 때 자동으로 수행됩니다."
 
-msgid "Prefixes"
-msgstr "프리픽스"
-
-msgid "IXLAN Prefix"
-msgstr "IXLAN 프리픽스"
-
-msgid "Add Prefix"
-msgstr "프리픽스 추가"
-
-msgid "Local Facilities"
-msgstr "현지 시설"
-
 msgid "Filter"
 msgstr "필터"
 
@@ -2992,6 +3023,18 @@ msgstr "익스체인지 - 시설 링크"
 
 msgid "Add Facility"
 msgstr "설비 추가"
+
+msgid "Prefixes"
+msgstr "프리픽스"
+
+msgid "IXLAN Prefix"
+msgstr "IXLAN 프리픽스"
+
+msgid "Add Prefix"
+msgstr "프리픽스 추가"
+
+msgid "Local Facilities"
+msgstr "현지 시설"
 
 msgid "IX-F Import Preview"
 msgstr "IX-F 가져오기 미리 보기"
@@ -3031,6 +3074,30 @@ msgstr "IP"
 
 msgid "Not operational"
 msgstr "작동하지 않음"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "이 시설에 존재하는 네트워크 수"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "요청 상태"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "여러 개를 선택하려면 클릭하십시오"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "연락처 정보"
@@ -3183,6 +3250,9 @@ msgstr "네트워크 추가"
 
 msgid "Add Exchange"
 msgstr "익스체인지 추가"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "권한"
@@ -3640,11 +3710,19 @@ msgstr "로그아웃"
 msgid "Max size: {}kb"
 msgstr "최대 속도: {}"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "회사 웹사이트"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 msgid "Enable IX-F Import"
 msgstr "IX-F 가져오기 사용"
@@ -3720,6 +3798,9 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "There are active peers at this exchange that fall into this address space"
 #~ msgstr "이 익스체인지에는 이 주소 공간에 속하는 활성 피어가 있음"

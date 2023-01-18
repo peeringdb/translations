@@ -995,6 +995,11 @@ msgstr "Muss mindestens 10 Zeichen lang sein"
 msgid "Passwords need to match"
 msgstr "Passwörter stimmen nicht überein"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "Diese E-Mail-Adresse wurde bereits genutzt"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "Bitte füllen Sie das Anti-Spam Aufforderungsfeld (Captcha) aus"
 
@@ -1107,6 +1112,11 @@ msgstr "PeeringDB: bitte korrigieren: IX-F Importer, Datendiskrepanz zwischen {}
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "Aktiv"
 
 msgid "Silver"
 msgstr "Silber"
@@ -1783,6 +1793,11 @@ msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
+#, fuzzy
+#| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr "Die Organisation ist derzeit ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "Bitte kontaktieren Sie {}, um Unterstützung bei der Löschung dieses Objekts zu erhalten"
 
@@ -2322,9 +2337,19 @@ msgstr "Nur für Betreiber der Liegenschaft"
 msgid "Only use this if you own the exchange"
 msgstr "Nur für Betreiber des Austauschpunktes"
 
+#, fuzzy
+#| msgid "Only use this if you own the exchange"
+msgid "Only use this if you own the carrier"
+msgstr "Nur für Betreiber des Austauschpunktes"
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Fügen Sie Ihrer Organisation eine neue Entität vom Typ %(entity_name)s hinzu. Beachten Sie, dass die neu erstellte Entität vom Typ %(entity_name)s von PeeringDB-Mitarbeitern genehmigt werden muss, bevor es in den Suchergebnissen oder den API-Auflistungen angezeigt wird"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "Fügen Sie Ihrer Organisation ein neues Netzwerk hinzu."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "Um als Liegenschaft / Gebäude aufgeführt zu werden erwarten wir, dass Sie Kolokation, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich anbieten."
@@ -2415,6 +2440,9 @@ msgstr "Kontaktieren Sie uns"
 
 msgid "Global System Statistics"
 msgstr "Globale Systemstatistik"
+
+msgid "Carriers"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "Verbindungen zu Austauschpunkten"
@@ -2693,6 +2721,21 @@ msgstr "Aktuelles Passwort"
 msgid "Password Verification"
 msgstr "Passwort erneut eingeben"
 
+#, fuzzy
+#| msgid "Exchange name"
+msgid "Change username"
+msgstr "Name des Austauschpunkt"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "Benutzername"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "Benutzername"
+
 msgid "Close Account"
 msgstr "Konto schließen"
 
@@ -2882,18 +2925,6 @@ msgstr "Akzeptieren"
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgerufen werden. Dies geschieht automatisch bei Änderungen im Adressfeld."
 
-msgid "Prefixes"
-msgstr "Präfixe"
-
-msgid "IXLAN Prefix"
-msgstr "IXLAN-Präfix"
-
-msgid "Add Prefix"
-msgstr "Prefix hinzufügen"
-
-msgid "Local Facilities"
-msgstr "Lokale Liegenschaften"
-
 msgid "Filter"
 msgstr "Filter"
 
@@ -2908,6 +2939,18 @@ msgstr "Netzwerk-Liegenschaft-Link"
 
 msgid "Add Facility"
 msgstr "Gebäude hinzufügen"
+
+msgid "Prefixes"
+msgstr "Präfixe"
+
+msgid "IXLAN Prefix"
+msgstr "IXLAN-Präfix"
+
+msgid "Add Prefix"
+msgstr "Prefix hinzufügen"
+
+msgid "Local Facilities"
+msgstr "Lokale Liegenschaften"
 
 msgid "IX-F Import Preview"
 msgstr "Vorschau auf den IXF-Import"
@@ -2947,6 +2990,30 @@ msgstr "IP"
 
 msgid "Not operational"
 msgstr "Nicht in Betrieb"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "Status der Anfrage"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "STRG + klicken, um mehrere auswählen"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "Kontaktinformationen"
@@ -3095,6 +3162,9 @@ msgstr "Netzwerk hinzufügen"
 
 msgid "Add Exchange"
 msgstr "Exchange hinzufügen"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "Berechtigungen"
@@ -3534,11 +3604,19 @@ msgstr "Logo"
 msgid "Max size: {}kb"
 msgstr "Maximale Größe: {}kB"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Unternehmenswebseite"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 msgid "Enable IX-F Import"
 msgstr "Aktivieren Sie den IX-F Import"
@@ -3606,6 +3684,9 @@ msgstr "Peeringrichtlinien-Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "There are active peers at this exchange that fall into this address space"
 #~ msgstr "Aktive Peers in diesem Adressraum an diesem Internet Exchange"

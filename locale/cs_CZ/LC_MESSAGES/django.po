@@ -1119,6 +1119,11 @@ msgstr "Musí být minimálně 10 znaků dlouhý"
 msgid "Passwords need to match"
 msgstr "Hesla musí odpovídat"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "Tato emailová adresa je již použita"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1252,6 +1257,11 @@ msgstr ""
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Notifikace sloučení: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "aktivní"
 
 msgid "Silver"
 msgstr "Stříbrný"
@@ -1975,6 +1985,9 @@ msgstr "%(user_name)s žádost o přidružení byla schválena"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s žádost o přidružení byla zamítnuta"
 
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr ""
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr ""
 
@@ -2574,9 +2587,17 @@ msgstr ""
 msgid "Only use this if you own the exchange"
 msgstr ""
 
+msgid "Only use this if you own the carrier"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Přidejte novou %(entity_name)s k vaší organizaci. Upozorňujeme, že nově vytvořené %(entity_name)s musí být schváleno pracovníky společnosti PeeringDB dříve, než se objeví ve výsledcích vyhledávání nebo v rozhraní API"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "Prodat novou Síť k vaší organizaci."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr ""
@@ -2674,6 +2695,9 @@ msgstr "Kontaktujte nás"
 
 msgid "Global System Statistics"
 msgstr "Celkové statistiky systému"
+
+msgid "Carriers"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -2979,6 +3003,21 @@ msgid "Password Verification"
 msgstr "Ověření hesla"
 
 #, fuzzy
+#| msgid "Exchange"
+msgid "Change username"
+msgstr "Propojovací uzel"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "Uživatelské jméno"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "uživatelské jméno"
+
+#, fuzzy
 #| msgid "Create account"
 msgid "Close Account"
 msgstr "Vytvořit účet"
@@ -3181,22 +3220,6 @@ msgstr ""
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "V tomto okamžiku nebylo možné získat geolokační data pro tuto entitu. To se provádí automaticky při změně adresy pole."
 
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Prefix"
-
-msgid "IXLAN Prefix"
-msgstr "IXLAN Prefix"
-
-msgid "Add Prefix"
-msgstr "Přidat Prefix"
-
-#, fuzzy
-#| msgid "Facilities"
-msgid "Local Facilities"
-msgstr "Zařízení"
-
 msgid "Filter"
 msgstr ""
 
@@ -3212,6 +3235,22 @@ msgstr "Propojovací uzel - Zařízení odkaz"
 
 msgid "Add Facility"
 msgstr "Přidat zařízení"
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
+
+msgid "IXLAN Prefix"
+msgstr "IXLAN Prefix"
+
+msgid "Add Prefix"
+msgstr "Přidat Prefix"
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Local Facilities"
+msgstr "Zařízení"
 
 #, fuzzy
 #| msgid "IXF Import Log Entries"
@@ -3264,6 +3303,29 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Regionální"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Propojovací uzel - Zařízení odkaz"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "Stav této žádosti"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "kliknutím vyberte více"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "Kontaktní informace"
@@ -3442,6 +3504,9 @@ msgstr "Přidat síť"
 
 msgid "Add Exchange"
 msgstr "Přidat propojovací uzel"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "Oprávnění"
@@ -3908,11 +3973,19 @@ msgstr "Odhlásit"
 msgid "Max size: {}kb"
 msgstr "Maximální přípustná hodnota {}"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Web společnosti"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -3996,6 +4069,9 @@ msgstr "Peering Policy Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "Ip address already exists elsewhere"
 #~ msgstr "IP adresa již použita jinde"

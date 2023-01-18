@@ -990,6 +990,11 @@ msgstr "Trebuie să aibă o lungime de cel puțin 10 caractere"
 msgid "Passwords need to match"
 msgstr "Parolele trebuie să se potrivească"
 
+#, fuzzy
+#| msgid "This email address has already been used"
+msgid "This username is already taken"
+msgstr "Această adresă e-mail a fost deja utilizată"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "Completați câmpul de verificare anti-spam (captcha)"
 
@@ -1102,6 +1107,11 @@ msgstr "PeeringDB: poate fi necesară o acțiune: nepotrivirea datelor din impor
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Îmbină notificarea: {} -> {}"
+
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "activ"
 
 msgid "Silver"
 msgstr "Silver"
@@ -1760,6 +1770,11 @@ msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
+#, fuzzy
+#| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
+msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgstr "Organizația este în prezent un sponsor activ. Vă rugăm să contactați asistența PeeringDB pentru a ajuta la facilitarea eliminării acestei organizații."
+
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiect"
 
@@ -2297,9 +2312,19 @@ msgstr "Utilizați aceasta numai dacă dețineți facilitatea"
 msgid "Only use this if you own the exchange"
 msgstr "Utilizați aceasta doar dacă dețineți Internet Exchange-ul"
 
+#, fuzzy
+#| msgid "Only use this if you own the exchange"
+msgid "Only use this if you own the carrier"
+msgstr "Utilizați aceasta doar dacă dețineți Internet Exchange-ul"
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Adăugați o nouă %(entity_name)s organizației dvs. Rețineți că %(entity_name)s nou create vor trebui să fie aprobate de personalului PeeringDB înainte să apară în rezultatele căutărilor sau listările API"
+
+#, fuzzy
+#| msgid "Add a new Network to your Organization."
+msgid "Add a new carrier to your Organization."
+msgstr "Adăugați o nouă rețea la organizația dvs."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "Pentru a fi listat cu o facilitate în PeeringDB ne așteptăm să oferiți publicului servicii de colocare, centru de date și/sau servicii meet-me-room."
@@ -2388,6 +2413,9 @@ msgstr "Contactați-ne"
 
 msgid "Global System Statistics"
 msgstr "Statisticile globale ale sistemului"
+
+msgid "Carriers"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "Conexiuni la Internet Exchange-uri"
@@ -2664,6 +2692,21 @@ msgstr "Parola curentă"
 msgid "Password Verification"
 msgstr "Verificarea parolei"
 
+#, fuzzy
+#| msgid "Exchange name"
+msgid "Change username"
+msgstr "nume Internet Exchange"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Username changed"
+msgstr "Nume de utilizator"
+
+#, fuzzy
+#| msgid "username"
+msgid "New username"
+msgstr "nume de utilizator"
+
 msgid "Close Account"
 msgstr "Închide contul"
 
@@ -2852,18 +2895,6 @@ msgstr "Acceptați"
 msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgstr "Nu au putut fi obținute date geocod pentru această entitate. Acest lucru se face automat după modificările câmpului de adresă."
 
-msgid "Prefixes"
-msgstr "Prefixe"
-
-msgid "IXLAN Prefix"
-msgstr "Prefix IXLAN"
-
-msgid "Add Prefix"
-msgstr "Adăugați prefix"
-
-msgid "Local Facilities"
-msgstr "Facilități locale"
-
 msgid "Filter"
 msgstr "Filtru"
 
@@ -2878,6 +2909,18 @@ msgstr "Legătura dintre Internet Exchange și facilitate"
 
 msgid "Add Facility"
 msgstr "Adăugați facilitate"
+
+msgid "Prefixes"
+msgstr "Prefixe"
+
+msgid "IXLAN Prefix"
+msgstr "Prefix IXLAN"
+
+msgid "Add Prefix"
+msgstr "Adăugați prefix"
+
+msgid "Local Facilities"
+msgstr "Facilități locale"
 
 msgid "IX-F Import Preview"
 msgstr "Previzualizare import IX-F"
@@ -2917,6 +2960,30 @@ msgstr "Adresă IP"
 
 msgid "Not operational"
 msgstr "Nu este operațional"
+
+msgid "Carrier"
+msgstr ""
+
+msgid "Remove this carrier from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Numărul de rețele prezente la această facilitate"
+
+#, fuzzy
+#| msgid "Status of this request"
+msgid "Click to accept this request"
+msgstr "Starea acestei cereri"
+
+#, fuzzy
+#| msgid "click to select multiple"
+msgid "Click to reject this request"
+msgstr "faceți click pentru a selecta mai multe"
+
+msgid "Reject"
+msgstr ""
 
 msgid "Contact Information"
 msgstr "Informații de contact"
@@ -3065,6 +3132,9 @@ msgstr "Adăugați rețea"
 
 msgid "Add Exchange"
 msgstr "Adăugați Internet Exchange"
+
+msgid "Add Carrier"
+msgstr ""
 
 msgid "Permissions"
 msgstr "Permisiuni"
@@ -3502,11 +3572,19 @@ msgstr "Siglă"
 msgid "Max size: {}kb"
 msgstr "Dimensiune maximă: {}kb"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Website-ul companiei"
+
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr ""
+
 msgid "LAN"
 msgstr "LAN"
 
-msgid "MTU"
-msgstr "MTU"
+msgid "Payload MTU"
+msgstr ""
 
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
@@ -3564,6 +3642,9 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
 
 #~ msgid "There are active peers at this exchange that fall into this address space"
 #~ msgstr "Există peer-uri active în acest Exchange care se încadrează în acest spațiu de adrese"
