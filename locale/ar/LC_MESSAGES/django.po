@@ -660,6 +660,22 @@ msgstr "نقاط تبادل التناظر العامة"
 msgid "Public Peering Exchange Points"
 msgstr "نقاط تبادل التناظر العامة"
 
+msgid "Carrier"
+msgstr ""
+
+msgid "Carriers"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Carrier presence at facility"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Carrier presences at facility"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
 msgid "Czech"
 msgstr ""
 
@@ -2710,9 +2726,6 @@ msgstr "اتصل بنا"
 msgid "Global System Statistics"
 msgstr "إحصائيات النظام العالمي"
 
-msgid "Carriers"
-msgstr ""
-
 msgid "Connections to Exchanges"
 msgstr "الاتصالات إلى النظائر/التبادلات"
 
@@ -3285,9 +3298,6 @@ msgstr "عنوان بروتوكول الانترنت"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "إقليمي"
-
-msgid "Carrier"
-msgstr ""
 
 msgid "Remove this carrier from your facility."
 msgstr ""

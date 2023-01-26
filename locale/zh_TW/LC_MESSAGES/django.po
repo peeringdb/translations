@@ -659,6 +659,22 @@ msgstr "公共對等交換點"
 msgid "Public Peering Exchange Points"
 msgstr "公共對等交換點"
 
+msgid "Carrier"
+msgstr ""
+
+msgid "Carriers"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Carrier presence at facility"
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Carrier presences at facility"
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
+
 msgid "Czech"
 msgstr ""
 
@@ -2720,9 +2736,6 @@ msgstr "聯繫我們"
 msgid "Global System Statistics"
 msgstr "全球系統統計"
 
-msgid "Carriers"
-msgstr ""
-
 msgid "Connections to Exchanges"
 msgstr "連接到交換點"
 
@@ -3302,9 +3315,6 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "區域性"
-
-msgid "Carrier"
-msgstr ""
 
 msgid "Remove this carrier from your facility."
 msgstr ""
