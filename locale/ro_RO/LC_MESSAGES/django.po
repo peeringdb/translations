@@ -1538,6 +1538,11 @@ msgstr "data înscrierii"
 msgid "status"
 msgstr "stare"
 
+#, fuzzy
+#| msgid "Users in Organization"
+msgid "The user's primary organization"
+msgstr "Utilizatori în organizație"
+
 msgid "language"
 msgstr "limbă"
 
@@ -1841,6 +1846,13 @@ msgstr "Specificați cel puțin o adresă e-mail"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr "Utilizatorul nu poate crea un Internet Exchange cu organizația stabilită ca organizație SUGGEST_ENTITY"
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
+msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -2212,11 +2224,27 @@ msgstr "Sunt un Internet Exchange (IXP), centru de date sau altă facilitate de 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și menține informațiile lor în baza de date, crescând vizibilitatea și devenind mai interesanți pentru clienții noi și existenți. Dacă vă aflați în baza de date, acest lucru face mult mai ușor pentru alte rețele să găsească informații cruciale despre serviciile dvs. și despre celelalte rețele prezente în platforma dvs. IXP sau facilitățile dvs."
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "Adresă"
 
-msgid "Does not matter"
-msgstr "Nu contează"
+msgid "Postal"
+msgstr "Poștal"
+
+msgid "click to select multiple"
+msgstr "faceți click pentru a selecta mai multe"
+
+msgid "Within Distance"
+msgstr "La distanță de"
+
+#, fuzzy
+#| msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii autentificați iar în prezent nu sunteți autentificat."
+
+#, fuzzy
+#| msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii verificați iar în prezent nu sunteți afiliat la nicio organizație."
 
 msgid "Reset"
 msgstr "Resetare"
@@ -2234,23 +2262,17 @@ msgstr "Nu există rezultate."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea dvs., refaceți solicitarea..."
 
-msgid "click to select multiple"
-msgstr "faceți click pentru a selecta mai multe"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr "Nu contează"
 
 msgid "IP Block"
 msgstr "Bloc de adrese IP"
 
 msgid "Capacity"
 msgstr "Capacitate"
-
-msgid "Address"
-msgstr "Adresă"
-
-msgid "Postal"
-msgstr "Poștal"
-
-msgid "Within Distance"
-msgstr "La distanță de"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii autentificați iar în prezent nu sunteți autentificat."
@@ -2315,6 +2337,9 @@ msgstr "Prezența organizației mele"
 msgid "Not present"
 msgstr "Nu este prezent"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracteristici pot funcționa diferit de mediul de producție. Nu stocați aici datele pe care intenționați să le păstrați"
 
@@ -2333,8 +2358,18 @@ msgstr "Utilizați aceasta doar dacă dețineți Internet Exchange-ul"
 msgid "Only use this if you own the carrier"
 msgstr "Utilizați aceasta doar dacă dețineți Internet Exchange-ul"
 
+#, fuzzy
+#| msgid "Only use this if you own the exchange"
+msgid "Only use this if you own the campus"
+msgstr "Utilizați aceasta doar dacă dețineți Internet Exchange-ul"
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "Adăugați o nouă %(entity_name)s organizației dvs. Rețineți că %(entity_name)s nou create vor trebui să fie aprobate de personalului PeeringDB înainte să apară în rezultatele căutărilor sau listările API"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "Adăugați o nouă %(entity_name)s organizației dvs. Rețineți că %(entity_name)s nou create vor trebui să fie aprobate de personalului PeeringDB înainte să apară în rezultatele căutărilor sau listările API"
 
 #, fuzzy
@@ -2429,6 +2464,9 @@ msgstr "Contactați-ne"
 
 msgid "Global System Statistics"
 msgstr "Statisticile globale ale sistemului"
+
+msgid "Campuses"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "Conexiuni la Internet Exchange-uri"
@@ -2835,6 +2873,16 @@ msgstr "Sugerați un Internet Exchange"
 msgid "Suggest Network"
 msgstr "Sugerați o rețea"
 
+#, fuzzy
+#| msgid "Delete organization?"
+msgid "Set primary organization"
+msgstr "Ștergeți organizația?"
+
+#, fuzzy
+#| msgid "My organization presence"
+msgid "Primary organization updated"
+msgstr "Prezența organizației mele"
+
 msgid "Become a Sponsor"
 msgstr "Deveniți sponsor"
 
@@ -2890,6 +2938,9 @@ msgstr "Puteți solicita afilierea la o organizație sau ASN"
 msgid "Manage OAuth Applications"
 msgstr "Gestionați aplicațiile OAuth"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "Revizuire în așteptare"
 
@@ -2917,11 +2968,19 @@ msgstr "Nu se potrivește niciun filtru."
 msgid "You may filter by"
 msgstr "Puteți filtra după"
 
-msgid "Exchange - Facility link"
-msgstr "Legătura dintre Internet Exchange și facilitate"
+#, fuzzy
+#| msgid "Facility name"
+msgid "Facility link"
+msgstr "nume Facilitate"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "Adăugați facilitate"
+
+msgid "Exchange - Facility link"
+msgstr "Legătura dintre Internet Exchange și facilitate"
 
 msgid "Prefixes"
 msgstr "Prefixe"
@@ -2973,9 +3032,6 @@ msgstr "Adresă IP"
 
 msgid "Not operational"
 msgstr "Nu este operațional"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Number of networks present at this facility"
@@ -3144,6 +3200,9 @@ msgid "Add Exchange"
 msgstr "Adăugați Internet Exchange"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3583,6 +3642,11 @@ msgid "Max size: {}kb"
 msgstr "Dimensiune maximă: {}kb"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "Facilitate - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "Website-ul companiei"
@@ -3652,6 +3716,11 @@ msgstr "Informații privind politica de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
+
+#, fuzzy
+#| msgid "Malformed Language Preference"
+msgid "Malformed Organization Preference"
+msgstr "Preferință de limbă incorectă"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

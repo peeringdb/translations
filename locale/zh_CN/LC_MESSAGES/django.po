@@ -1777,6 +1777,11 @@ msgstr "加入日期"
 msgid "status"
 msgstr "状态"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "The user's primary organization"
+msgstr "组织"
+
 msgid "language"
 msgstr "语言"
 
@@ -2087,6 +2092,13 @@ msgid "Specify at least one email address"
 msgstr "至少指定一个电子邮件地址"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -2494,11 +2506,27 @@ msgstr "我是交换点、数据中心或其它互联节点的网管。PeeringDB
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "地址"
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr "邮政"
+
+msgid "click to select multiple"
+msgstr "单击以选中多个"
+
+msgid "Within Distance"
 msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "此网络的某些联系人仅对验证的用户可见，您当前未登录。"
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "此网络的某些联系人已隐藏，因为您的帐户未关联组织。"
 
 msgid "Reset"
 msgstr "重置"
@@ -2516,22 +2544,16 @@ msgstr "没有匹配结果。"
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
 
-msgid "click to select multiple"
-msgstr "单击以选中多个"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr ""
 
 msgid "IP Block"
 msgstr "IP 块"
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr "地址"
-
-msgid "Postal"
-msgstr "邮政"
-
-msgid "Within Distance"
 msgstr ""
 
 #, fuzzy
@@ -2615,6 +2637,9 @@ msgstr "组织合并"
 msgid "Not present"
 msgstr "未设置"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
 
@@ -2631,8 +2656,16 @@ msgstr ""
 msgid "Only use this if you own the carrier"
 msgstr ""
 
+msgid "Only use this if you own the campus"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "将新的 %(entity_name)s 添加到您的组织。请注意，新创建的 %(entity_name)s 将在 PeeringDB 员工批准后显示在搜索结果和 API 列表中"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "将新的 %(entity_name)s 添加到您的组织。请注意，新创建的 %(entity_name)s 将在 PeeringDB 员工批准后显示在搜索结果和 API 列表中"
 
 #, fuzzy
@@ -2733,6 +2766,9 @@ msgstr "联系我们"
 
 msgid "Global System Statistics"
 msgstr "全球系统统计"
+
+msgid "Campuses"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "连接的交换点"
@@ -3157,6 +3193,16 @@ msgstr "提交一个交换点"
 msgid "Suggest Network"
 msgstr "提交一个网络"
 
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Set primary organization"
+msgstr "无效组织"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Primary organization updated"
+msgstr "组织合并"
+
 msgid "Become a Sponsor"
 msgstr "成为赞助商"
 
@@ -3212,6 +3258,9 @@ msgstr "您可以请求关联组织或 ASN"
 msgid "Manage OAuth Applications"
 msgstr "管理 OAuth 应用"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "等待审核"
 
@@ -3239,11 +3288,19 @@ msgstr ""
 msgid "You may filter by"
 msgstr "您可以筛选"
 
-msgid "Exchange - Facility link"
-msgstr "交换点 - 设施连接"
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility link"
+msgstr "设施"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "添加设施"
+
+msgid "Exchange - Facility link"
+msgstr "交换点 - 设施连接"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3303,9 +3360,6 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "区域性"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -3503,6 +3557,9 @@ msgid "Add Exchange"
 msgstr "添加交换点"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3953,6 +4010,11 @@ msgid "Max size: {}kb"
 msgstr "允许的最大值为 {}"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "设施 - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "公司网站"
@@ -4048,6 +4110,11 @@ msgstr "对等政策信息"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "设置语言偏好"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

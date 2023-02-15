@@ -1763,6 +1763,11 @@ msgstr "ημερομηνία ένταξης"
 msgid "status"
 msgstr "κατάσταση"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "The user's primary organization"
+msgstr "Οργανισμός"
+
 msgid "language"
 msgstr "γλώσσα"
 
@@ -2073,6 +2078,13 @@ msgid "Specify at least one email address"
 msgstr "Αλλαγή διεύθυνσης email"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -2479,11 +2491,27 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "Διεύθυνση"
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr "Ταχυδρομικός Κωδικός"
+
+msgid "click to select multiple"
+msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
+
+msgid "Within Distance"
 msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς είναι ορατές μόνο σε συνδεδεμένους χρήστες και εσείς δεν είστε συνδεδεμένος."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "Κάποιες επαφές από αυτό το δίκτυο είναι κρυμμένες καθώς τα στοιχεία του λογαριασμού σας δεν είναι συσχετισμένα με κάποιον οργανισμό."
 
 msgid "Reset"
 msgstr "Επαναφορά"
@@ -2501,22 +2529,16 @@ msgstr "Δεν βρέθηκε τίποτα με τα κριτήρια αναζή
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Βρέθηκαν περισσότερες από %(row_limit)s καταχωρήσεις, παρακαλούμε συγκεκριμενοποιήστε το αίτημά σας..."
 
-msgid "click to select multiple"
-msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr ""
 
 msgid "IP Block"
 msgstr "Mπλοκ IP"
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr "Διεύθυνση"
-
-msgid "Postal"
-msgstr "Ταχυδρομικός Κωδικός"
-
-msgid "Within Distance"
 msgstr ""
 
 #, fuzzy
@@ -2604,6 +2626,9 @@ msgstr "Συγχωνεύσεις Οργανισμού"
 msgid "Not present"
 msgstr "Δεν έχει ορισθεί"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
 
@@ -2620,8 +2645,16 @@ msgstr ""
 msgid "Only use this if you own the carrier"
 msgstr ""
 
+msgid "Only use this if you own the campus"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "Προσθήκη νέας οντότητας %(entity_name)s στον Οργανισμό σας. Σημειώστε πως η νεοδημιουργηθήσα %(entity_name)s θα χρειαστεί έγκριση από το προσωπικό του PeeringDB πριν να μπορέσει να εμφανιστεί σε αποτελέσματα αναζήτησης ή σε API καταχωρήσεις"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "Προσθήκη νέας οντότητας %(entity_name)s στον Οργανισμό σας. Σημειώστε πως η νεοδημιουργηθήσα %(entity_name)s θα χρειαστεί έγκριση από το προσωπικό του PeeringDB πριν να μπορέσει να εμφανιστεί σε αποτελέσματα αναζήτησης ή σε API καταχωρήσεις"
 
 #, fuzzy
@@ -2726,6 +2759,9 @@ msgstr "Επικοινωνήστε μαζί μας"
 
 msgid "Global System Statistics"
 msgstr "Οικουμενικά Στατιστικά Συστήματος"
+
+msgid "Campuses"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -3168,6 +3204,16 @@ msgstr "Exchange"
 msgid "Suggest Network"
 msgstr "Υποβολή Δικτύου"
 
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Set primary organization"
+msgstr "Μη έγκυρος οργανισμός"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Primary organization updated"
+msgstr "Συγχωνεύσεις Οργανισμού"
+
 msgid "Become a Sponsor"
 msgstr "Γίνε σπόνσορας"
 
@@ -3223,6 +3269,9 @@ msgstr "Μπορείτε να αιτηθείτε συσχετισμό με έν�
 msgid "Manage OAuth Applications"
 msgstr "Διαχείριση εφαρμογών OAuth"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "Εκκρεμεί Ανασκόπησης"
 
@@ -3250,11 +3299,19 @@ msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
 msgid "You may filter by"
 msgstr "Μπορείτε να φιλτράρετε με"
 
-msgid "Exchange - Facility link"
-msgstr "Ζεύξη Exchange - Εγκατάστασης"
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility link"
+msgstr "Εγκατάσταση"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "Προσθήκη Εγκατάστασης"
+
+msgid "Exchange - Facility link"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3322,9 +3379,6 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Τοπικό"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -3522,6 +3576,9 @@ msgid "Add Exchange"
 msgstr "Προσθήκη Exchange"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3986,6 +4043,11 @@ msgid "Max size: {}kb"
 msgstr "Mέγιστη επιτρεπτή τιμή {}"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "Facility - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "Εταιρική Ιστοσελίδα"
@@ -4081,6 +4143,11 @@ msgstr "Πληροφορίες Πολιτικής Peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσπαθήσετε να κάνετε login."
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "Ορίστε προτίμηση γλώσσας"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

@@ -1554,6 +1554,11 @@ msgstr "参加した日時"
 msgid "status"
 msgstr "ステータス"
 
+#, fuzzy
+#| msgid "Users in Organization"
+msgid "The user's primary organization"
+msgstr "組織に所属しているユーザ"
+
 msgid "language"
 msgstr "言語"
 
@@ -1851,6 +1856,13 @@ msgstr "最低限、メールアドレスを1つ指定してください"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr "ユーザは、SUGGEST_ENTITY 組織として設定されているインターネットエクスチェンジを作成できません"
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
+msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -2224,11 +2236,27 @@ msgstr "私は IX、データセンタ運用者ですが、PeeringDB はどの�
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IX とデータセンタは、データベースに情報を登録・追加し維持する事で、可視性を高め、新規および既存の顧客に対しての魅力を高める事が出来ます。既にデータベースに情報が登録されている場合、ネットワーク運用者が IX やデータセンタのサービスに関連する重要な情報、その IX に接続している、もしくは、データセンタに設備を持っている他のネットワークを見つけやすくなります。"
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "アドレス"
 
-msgid "Does not matter"
-msgstr "重要ではありません"
+msgid "Postal"
+msgstr "郵便"
+
+msgid "click to select multiple"
+msgstr "で複数選択可能です"
+
+msgid "Within Distance"
+msgstr "Within Distance"
+
+#, fuzzy
+#| msgid "Additional filters are available to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "認証済みのユーザーは追加のフィルターを使用できますが、現在ログインしていません。"
+
+#, fuzzy
+#| msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "Additional filters are available to verified users and you are currently not affiliated with any organizations."
 
 msgid "Reset"
 msgstr "リセット"
@@ -2246,23 +2274,17 @@ msgstr "検索条件に一致するものはありませんでした"
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "%(row_limit)s 個以上のエントリーがあなたの検索に合致しています。検索条件を見直してみてください"
 
-msgid "click to select multiple"
-msgstr "で複数選択可能です"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr "重要ではありません"
 
 msgid "IP Block"
 msgstr "IP ブロック"
 
 msgid "Capacity"
 msgstr "キャパシティ"
-
-msgid "Address"
-msgstr "アドレス"
-
-msgid "Postal"
-msgstr "郵便"
-
-msgid "Within Distance"
-msgstr "Within Distance"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "認証済みのユーザーは追加のフィルターを使用できますが、現在ログインしていません。"
@@ -2327,6 +2349,9 @@ msgstr "My organization presence"
 msgid "Not present"
 msgstr "Not present"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "これは PeeringDB のベータ/テストインスタンスです。 一部の機能は、プロダクション環境と動作が異なる場合があります。ずっと維持しておく予定のデータをここに保存しないでください"
 
@@ -2345,8 +2370,18 @@ msgstr "エクスチェンジを運用している方だけが追加してくだ
 msgid "Only use this if you own the carrier"
 msgstr "エクスチェンジを運用している方だけが追加してください"
 
+#, fuzzy
+#| msgid "Only use this if you own the exchange"
+msgid "Only use this if you own the campus"
+msgstr "エクスチェンジを運用している方だけが追加してください"
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "新規の %(entity_name)s をあなたの組織に追加する事が出来ます。新規作成された %(entity_name)s は、検索結果や API リストに表示されるようになる前に PeeringDB スタッフに承認される必要があります"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "新規の %(entity_name)s をあなたの組織に追加する事が出来ます。新規作成された %(entity_name)s は、検索結果や API リストに表示されるようになる前に PeeringDB スタッフに承認される必要があります"
 
 #, fuzzy
@@ -2443,6 +2478,9 @@ msgstr "連絡先"
 
 msgid "Global System Statistics"
 msgstr "システム全体の統計情報"
+
+msgid "Campuses"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "エクスチェンジ接続"
@@ -2855,6 +2893,16 @@ msgstr "エクスチェンジに情報追加の提案"
 msgid "Suggest Network"
 msgstr "ネットワークに情報追加の提案"
 
+#, fuzzy
+#| msgid "Delete organization?"
+msgid "Set primary organization"
+msgstr "組織を削除しますか？"
+
+#, fuzzy
+#| msgid "My organization presence"
+msgid "Primary organization updated"
+msgstr "My organization presence"
+
 msgid "Become a Sponsor"
 msgstr "スポンサーになるには"
 
@@ -2910,6 +2958,9 @@ msgstr "組織もしくは AS 番号に対する所属リクエストをする�
 msgid "Manage OAuth Applications"
 msgstr "OAuth アプリケーションで管理する"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "レビューをペンディング中"
 
@@ -2937,11 +2988,19 @@ msgstr "フィルタに一致するものはありませんでした"
 msgid "You may filter by"
 msgstr "フィルタされているかもしれません"
 
-msgid "Exchange - Facility link"
-msgstr "エクスチェンジ - データセンタ のリンク"
+#, fuzzy
+#| msgid "Facility name"
+msgid "Facility link"
+msgstr "データセンタの名前"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "データセンタを追加"
+
+msgid "Exchange - Facility link"
+msgstr "エクスチェンジ - データセンタ のリンク"
 
 msgid "Prefixes"
 msgstr "プレフィクス"
@@ -2993,9 +3052,6 @@ msgstr "IP"
 
 msgid "Not operational"
 msgstr "非稼働"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Number of networks present at this facility"
@@ -3164,6 +3220,9 @@ msgid "Add Exchange"
 msgstr "エクスチェンジを追加"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3615,6 +3674,11 @@ msgid "Max size: {}kb"
 msgstr "Max size: {}kb"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "データセンタ - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "Web サイト"
@@ -3694,6 +3758,11 @@ msgstr "ピアリングポリシー情報"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "再度ログインを試す前に少々お待ちください"
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "言語を選択する"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

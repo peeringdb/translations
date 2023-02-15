@@ -1769,6 +1769,11 @@ msgstr "تاريخ الإنضمام"
 msgid "status"
 msgstr "حالة"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "The user's primary organization"
+msgstr "المنظمة / المؤسسة"
+
 msgid "language"
 msgstr "لغة"
 
@@ -2079,6 +2084,13 @@ msgid "Specify at least one email address"
 msgstr "حدد عنوان بريد إلكتروني واحد على الأقل"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -2486,11 +2498,27 @@ msgstr "انا نقطه تبادل الإنترنت (IXP) ، مركز بيانا
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "يمكن نقاط تبادل الإنترنت مراكز البيانات إضافة معلوماتهم والحفاظ عليها تحديثها في قاعدة البيانات ، مما يزيد من وضوح وجاذبية العملاء الجدد والحاليين. إذا كنت في من المسجلين في قاعدة بيانات التناظر ، فإن ذلك يسهل على الشبكات العثور على معلومات مهمة حول خدماتك والشبكات الأخرى الموجودة في نقطة تبادل الإنترنت أو منشآت مراكز البيانات/ التشغيل."
 
-msgid "CLLI"
-msgstr "لغة الموقع المعرفة العامة"
+msgid "Address"
+msgstr "العنوان"
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr "الرقم البريدي"
+
+msgid "click to select multiple"
+msgstr "انقر لتحديد عدة خيارات"
+
+msgid "Within Distance"
 msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "بعض جهات الاتصال لهذه الشبكة مخفية لأنها مرئية فقط للمستخدمين المصادق عليهم وانت لم تقم بتسجيل الدخول حاليًا."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "يتم إخفاء بعض جهات الاتصال لهذه الشبكة لأن حساب المستخدم الخاص بك لا ينتمي إلى أي مؤسسة."
 
 msgid "Reset"
 msgstr "اعاده ضبط"
@@ -2508,22 +2536,16 @@ msgstr "لا توجد نتائج بحث."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "... أكثر من %(row_limit)s  مدخل مطابق لطلبك ، أعد تنقيح الطلب ..."
 
-msgid "click to select multiple"
-msgstr "انقر لتحديد عدة خيارات"
+msgid "CLLI"
+msgstr "لغة الموقع المعرفة العامة"
+
+msgid "Does not matter"
+msgstr ""
 
 msgid "IP Block"
 msgstr "حزمة عناوين الإنترنت"
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr "العنوان"
-
-msgid "Postal"
-msgstr "الرقم البريدي"
-
-msgid "Within Distance"
 msgstr ""
 
 #, fuzzy
@@ -2607,6 +2629,9 @@ msgstr "دمج المؤسسة"
 msgid "Not present"
 msgstr "غير مضبوط"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
 
@@ -2623,8 +2648,16 @@ msgstr ""
 msgid "Only use this if you own the carrier"
 msgstr ""
 
+msgid "Only use this if you own the campus"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "اضف  %(entity_name)s الى المؤسسة. تجدر الإشارة إلى أن %(entity_name)s الذي تم إنشاؤه حديثًا يحتاج إلى موافقة موظفي قاعدة بيانات التناظر اولاً قبل ظهوره في نتائج البحث أو واجهة برمجة التطبيقات"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "اضف  %(entity_name)s الى المؤسسة. تجدر الإشارة إلى أن %(entity_name)s الذي تم إنشاؤه حديثًا يحتاج إلى موافقة موظفي قاعدة بيانات التناظر اولاً قبل ظهوره في نتائج البحث أو واجهة برمجة التطبيقات"
 
 #, fuzzy
@@ -2725,6 +2758,9 @@ msgstr "اتصل بنا"
 
 msgid "Global System Statistics"
 msgstr "إحصائيات النظام العالمي"
+
+msgid "Campuses"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "الاتصالات إلى النظائر/التبادلات"
@@ -3152,6 +3188,16 @@ msgstr "اقترح تبادل اتصال"
 msgid "Suggest Network"
 msgstr "اقتراح شبكة اتصال"
 
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Set primary organization"
+msgstr "المنظمة غير صحيحة"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Primary organization updated"
+msgstr "دمج المؤسسة"
+
 msgid "Become a Sponsor"
 msgstr "انضم للداعمين والرعاة"
 
@@ -3207,6 +3253,9 @@ msgstr "يمكنك طلب الانتساب إلى مؤسسة / منظمة أو �
 msgid "Manage OAuth Applications"
 msgstr "إدارة تطبيقات التحقق"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "قيد انتظار المراجعة"
 
@@ -3234,11 +3283,19 @@ msgstr "لا يوجد تطابق في خيارات البحث."
 msgid "You may filter by"
 msgstr "يمكنك إجراء البحث حسب"
 
-msgid "Exchange - Facility link"
-msgstr "نقطة التبادل - مركز البيانات"
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility link"
+msgstr "مركز البيانات"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "إضافة خدمة تسهيلية"
+
+msgid "Exchange - Facility link"
+msgstr "نقطة التبادل - مركز البيانات"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3298,9 +3355,6 @@ msgstr "عنوان بروتوكول الانترنت"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "إقليمي"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -3496,6 +3550,9 @@ msgid "Add Exchange"
 msgstr "اي تبادل بيانات"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3946,6 +4003,11 @@ msgid "Max size: {}kb"
 msgstr "القيمة القصوى المسموح بها {}"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "مركز البيانات - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "الموقع الإكتروني للشركة/ المؤسسة"
@@ -4039,6 +4101,11 @@ msgstr "معلومات سياسات التناظر"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل الدخول مرة أخرى."
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "ضبط اللغة المفضلة"
 
 #~ msgid "MTU"
 #~ msgstr "وحدة الإرسال القصوى (MTU)"

@@ -1735,6 +1735,11 @@ msgstr "дата регистрации"
 msgid "status"
 msgstr "статус"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "The user's primary organization"
+msgstr "Организация"
+
 msgid "language"
 msgstr "язык"
 
@@ -2041,6 +2046,13 @@ msgid "Specify at least one email address"
 msgstr "Изменить емайл"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -2446,11 +2458,27 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "Адрес"
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr "Почтовый"
+
+msgid "click to select multiple"
+msgstr "кликните, чтобы выбрать несколько"
+
+msgid "Within Distance"
 msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "Некоторые контакты данной сети скрыты и доступны только авторизованным пользователям."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "Некоторые контакты данной сети скрыты, поскольку ваш аккаунт пользователя не присоединен к какой-либо организации."
 
 msgid "Reset"
 msgstr "Сбросить"
@@ -2468,22 +2496,16 @@ msgstr "По запросу ничего не найдено."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "… Найдено более %(row_limit)s записей, уточните запрос …"
 
-msgid "click to select multiple"
-msgstr "кликните, чтобы выбрать несколько"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr ""
 
 msgid "IP Block"
 msgstr "IP блок"
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr "Адрес"
-
-msgid "Postal"
-msgstr "Почтовый"
-
-msgid "Within Distance"
 msgstr ""
 
 #, fuzzy
@@ -2571,6 +2593,9 @@ msgstr "Слияния организаций"
 msgid "Not present"
 msgstr "Не установлен"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
 
@@ -2587,8 +2612,16 @@ msgstr ""
 msgid "Only use this if you own the carrier"
 msgstr ""
 
+msgid "Only use this if you own the campus"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "Добавить %(entity_name)s к вашей Организации. Внимание, создаваемая сущность %(entity_name)s должна пройти одобрение администраторами PeeringDB, после чего она станет доступна в резульатах поиска и в листингах API"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "Добавить %(entity_name)s к вашей Организации. Внимание, создаваемая сущность %(entity_name)s должна пройти одобрение администраторами PeeringDB, после чего она станет доступна в резульатах поиска и в листингах API"
 
 #, fuzzy
@@ -2693,6 +2726,9 @@ msgstr "Свяжитесь с нами"
 
 msgid "Global System Statistics"
 msgstr "Общая статистика системы"
+
+msgid "Campuses"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -3137,6 +3173,16 @@ msgstr "IXP"
 msgid "Suggest Network"
 msgstr "Отправить заявку на сеть"
 
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Set primary organization"
+msgstr "Недействительная организация"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Primary organization updated"
+msgstr "Слияния организаций"
+
 msgid "Become a Sponsor"
 msgstr "Стать спонсором"
 
@@ -3193,6 +3239,9 @@ msgstr "Вы можете подать заявку на установлени�
 msgid "Manage OAuth Applications"
 msgstr "Управление OAuth-авторизацией"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "На одобрении"
 
@@ -3220,11 +3269,19 @@ msgstr "Нет соответствий фильтру"
 msgid "You may filter by"
 msgstr "Фильтровать по"
 
-msgid "Exchange - Facility link"
-msgstr "Связь IXP - Площадка"
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility link"
+msgstr "Площадка"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "Новая Площадка"
+
+msgid "Exchange - Facility link"
+msgstr "Связь IXP - Площадка"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3293,9 +3350,6 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Региональный"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -3492,6 +3546,9 @@ msgid "Add Exchange"
 msgstr "Новый IXP"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3955,6 +4012,11 @@ msgid "Max size: {}kb"
 msgstr "Максимальное допустимое значение: {}"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "Площадка - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "Веб-сайт компании"
@@ -4050,6 +4112,11 @@ msgstr "Информация о пиринговой политике"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Подождите несколько секунд перед повторной попыткой авторизации."
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "Установить язык"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

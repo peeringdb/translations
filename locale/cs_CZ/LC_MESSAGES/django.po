@@ -1750,6 +1750,11 @@ msgstr "datum připojení"
 msgid "status"
 msgstr "statut"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "The user's primary organization"
+msgstr "Organizace"
+
 msgid "language"
 msgstr "jazyk"
 
@@ -2058,6 +2063,13 @@ msgid "Specify at least one email address"
 msgstr "Změnit e-mailovou adresu"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -2463,11 +2475,27 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "Adresa"
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr "Poštovní"
+
+msgid "click to select multiple"
+msgstr "kliknutím vyberte více"
+
+msgid "Within Distance"
 msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "Některé kontakty této sítě jsou skryté, protože jsou viditelné pouze pro ověřené uživatele a v současné době nejste přihlášeni."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "Některé kontakty této sítě jsou skryté, protože váš uživatelský účet není spojen s žádnou organizací."
 
 msgid "Reset"
 msgstr "Resetovat"
@@ -2485,22 +2513,16 @@ msgstr "Žádný záznam neodpovídá vyhledávacímu dotazu."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...vašemu dotazu odpovídá více než %(row_limit)s záznamů, upřesnete váš požadavek ..."
 
-msgid "click to select multiple"
-msgstr "kliknutím vyberte více"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr ""
 
 msgid "IP Block"
 msgstr "IP Block"
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr "Adresa"
-
-msgid "Postal"
-msgstr "Poštovní"
-
-msgid "Within Distance"
 msgstr ""
 
 #, fuzzy
@@ -2588,6 +2610,9 @@ msgstr "Sloučení organizací"
 msgid "Not present"
 msgstr "Nenastaveno"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
 
@@ -2604,8 +2629,16 @@ msgstr ""
 msgid "Only use this if you own the carrier"
 msgstr ""
 
+msgid "Only use this if you own the campus"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "Přidejte novou %(entity_name)s k vaší organizaci. Upozorňujeme, že nově vytvořené %(entity_name)s musí být schváleno pracovníky společnosti PeeringDB dříve, než se objeví ve výsledcích vyhledávání nebo v rozhraní API"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "Přidejte novou %(entity_name)s k vaší organizaci. Upozorňujeme, že nově vytvořené %(entity_name)s musí být schváleno pracovníky společnosti PeeringDB dříve, než se objeví ve výsledcích vyhledávání nebo v rozhraní API"
 
 #, fuzzy
@@ -2709,6 +2742,9 @@ msgstr "Kontaktujte nás"
 
 msgid "Global System Statistics"
 msgstr "Celkové statistiky systému"
+
+msgid "Campuses"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -3153,6 +3189,16 @@ msgstr "Propojovací uzel"
 msgid "Suggest Network"
 msgstr "Odeslat síť"
 
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Set primary organization"
+msgstr "Neplatná organizace"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Primary organization updated"
+msgstr "Sloučení organizací"
+
 msgid "Become a Sponsor"
 msgstr "Staňte se sponzorem"
 
@@ -3211,6 +3257,9 @@ msgstr "Můžete požádat o přidružení k organizaci nebo ASN"
 msgid "Manage OAuth Applications"
 msgstr "Správa aplikací OAuth"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "Čeká na hodnocení"
 
@@ -3241,11 +3290,19 @@ msgid "You may filter by"
 msgstr "Můžete filtrovat podle"
 
 #, fuzzy
-msgid "Exchange - Facility link"
-msgstr "Propojovací uzel - Zařízení odkaz"
+#| msgid "Facility"
+msgid "Facility link"
+msgstr "Zařízení"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "Přidat zařízení"
+
+#, fuzzy
+msgid "Exchange - Facility link"
+msgstr "Propojovací uzel - Zařízení odkaz"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3314,9 +3371,6 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Regionální"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 msgid "This carrier wants to list its presence at this facility."
@@ -3514,6 +3568,9 @@ msgid "Add Exchange"
 msgstr "Přidat propojovací uzel"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3982,6 +4039,11 @@ msgid "Max size: {}kb"
 msgstr "Maximální přípustná hodnota {}"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "Zařízení - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "Web společnosti"
@@ -4077,6 +4139,11 @@ msgstr "Peering Policy Information"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "Nastavte preferenci jazyka"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

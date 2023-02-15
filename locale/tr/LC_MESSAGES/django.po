@@ -1728,6 +1728,11 @@ msgstr ""
 msgid "status"
 msgstr "Durum"
 
+#, fuzzy
+#| msgid "Please wait a bit before trying to login again."
+msgid "The user's primary organization"
+msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
+
 msgid "language"
 msgstr ""
 
@@ -2044,6 +2049,13 @@ msgid "Specify at least one email address"
 msgstr "Satış"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, fuzzy, python-format
@@ -2443,10 +2455,22 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "CLLI"
+msgid "Address"
 msgstr ""
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr ""
+
+msgid "click to select multiple"
+msgstr ""
+
+msgid "Within Distance"
+msgstr ""
+
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr ""
+
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr ""
 
 #, fuzzy
@@ -2467,22 +2491,16 @@ msgstr ""
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr ""
 
-msgid "click to select multiple"
+msgid "CLLI"
+msgstr ""
+
+msgid "Does not matter"
 msgstr ""
 
 msgid "IP Block"
 msgstr ""
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr ""
-
-msgid "Postal"
-msgstr ""
-
-msgid "Within Distance"
 msgstr ""
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
@@ -2564,6 +2582,9 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 msgid "Not present"
 msgstr ""
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
 
@@ -2580,8 +2601,15 @@ msgstr ""
 msgid "Only use this if you own the carrier"
 msgstr ""
 
+msgid "Only use this if you own the campus"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr ""
+
+#, python-format
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr ""
 
 #, fuzzy
@@ -2685,6 +2713,9 @@ msgid "Contact Us"
 msgstr "İçerik"
 
 msgid "Global System Statistics"
+msgstr ""
+
+msgid "Campuses"
 msgstr ""
 
 #, fuzzy
@@ -3146,6 +3177,16 @@ msgstr "Değişim noktası"
 msgid "Suggest Network"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Set primary organization"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Primary organization updated"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
 msgid "Become a Sponsor"
 msgstr ""
 
@@ -3202,6 +3243,9 @@ msgstr ""
 msgid "Manage OAuth Applications"
 msgstr "Halkla İlişkiler"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr ""
 
@@ -3229,13 +3273,21 @@ msgstr ""
 msgid "You may filter by"
 msgstr ""
 
-msgid "Exchange - Facility link"
-msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility link"
+msgstr "Bina"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 #, fuzzy
 #| msgid "Facility"
 msgid "Add Facility"
 msgstr "Bina"
+
+msgid "Exchange - Facility link"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 #, fuzzy
 #| msgid "IXLAN Prefix"
@@ -3305,9 +3357,6 @@ msgstr "IPv4"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Bölgesel"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -3494,6 +3543,9 @@ msgid "Add Exchange"
 msgstr "Değişim noktası"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3971,6 +4023,11 @@ msgstr ""
 msgid "Max size: {}kb"
 msgstr ""
 
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility is part of a campus"
+msgstr "Bina"
+
 msgid "Company Website Override"
 msgstr ""
 
@@ -4059,6 +4116,11 @@ msgstr "Eşleşme Politikası Bilgileri"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Malformed Organization Preference"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 #, fuzzy
 #~| msgid "Ipaddress already exists elsewhere"

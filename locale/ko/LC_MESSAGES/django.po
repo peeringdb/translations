@@ -1615,6 +1615,11 @@ msgstr "가입 날짜"
 msgid "status"
 msgstr "상태"
 
+#, fuzzy
+#| msgid "Users in Organization"
+msgid "The user's primary organization"
+msgstr "조직의 사용자"
+
 msgid "language"
 msgstr "언어"
 
@@ -1917,6 +1922,13 @@ msgid "Specify at least one email address"
 msgstr "하나 이상의 이메일 주소를 지정하시오"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -2298,11 +2310,27 @@ msgstr "인터넷 익스체인지 포인트(IXP), 데이터 센터 또는 기타
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가하고 유지함으로써 가시성과 기존 고객에 대한 매력을 높일 수 있습니다. 만약 당신이 데이터베이스에 있다면, 이것은 네트워크가 당신의 서비스와 당신의 IXP나 시설에 존재하는 다른 네트워크에 대한 중요한 정보를 찾는 것을 훨씬 더 쉽게 만듭니다."
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "주소"
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr "우편"
+
+msgid "click to select multiple"
+msgstr "여러 개를 선택하려면 클릭하십시오"
+
+msgid "Within Distance"
 msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "이 네트워크의 일부 연락처는 인증된 사용자만 볼 수 있고 현재 로그인하지 않았기 때문에 볼 수 없습니다."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "이 네트워크의 일부 연락처는 당신의 계정이 어떤 조직에도 소속되어 있지 않기 때문에 숨겨져 있습니다."
 
 msgid "Reset"
 msgstr "재설정"
@@ -2320,22 +2348,16 @@ msgstr "검색 결과 없음."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...%(row_limit)s 이상의 항목이 쿼리와 일치합니다. 요청을 수정하십시오..."
 
-msgid "click to select multiple"
-msgstr "여러 개를 선택하려면 클릭하십시오"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr ""
 
 msgid "IP Block"
 msgstr "IP 블록"
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr "주소"
-
-msgid "Postal"
-msgstr "우편"
-
-msgid "Within Distance"
 msgstr ""
 
 #, fuzzy
@@ -2417,6 +2439,9 @@ msgstr "조직 병합"
 msgid "Not present"
 msgstr "존재함"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성은 다르게 작용할 수 있습니다. 보관하려는 데이터를 여기에 저장하지 마십시오"
 
@@ -2435,8 +2460,18 @@ msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십�
 msgid "Only use this if you own the carrier"
 msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
 
+#, fuzzy
+#| msgid "Only use this if you own the exchange"
+msgid "Only use this if you own the campus"
+msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성된 %(entity_name)s가 검색 결과 또는 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 함을 주의하십시오"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성된 %(entity_name)s가 검색 결과 또는 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 함을 주의하십시오"
 
 #, fuzzy
@@ -2533,6 +2568,9 @@ msgstr "연락처"
 
 msgid "Global System Statistics"
 msgstr "글로벌 시스템 통계"
+
+msgid "Campuses"
+msgstr ""
 
 msgid "Connections to Exchanges"
 msgstr "익스체인지로 연결"
@@ -2949,6 +2987,16 @@ msgstr "익스체인지 제안"
 msgid "Suggest Network"
 msgstr "네트워크 제안"
 
+#, fuzzy
+#| msgid "Delete organization?"
+msgid "Set primary organization"
+msgstr "조직을 삭제하시겠습니까?"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Primary organization updated"
+msgstr "조직 병합"
+
 msgid "Become a Sponsor"
 msgstr "스폰서 되기"
 
@@ -3004,6 +3052,9 @@ msgstr "조직 또는 ASN에 대한 가입을 요청할 수 있음"
 msgid "Manage OAuth Applications"
 msgstr "OAuth 애플리케이션 관리"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "보류 검토"
 
@@ -3031,11 +3082,19 @@ msgstr "일치하는 필터 없음."
 msgid "You may filter by"
 msgstr "다음으로 필터링할 수 있습니다"
 
-msgid "Exchange - Facility link"
-msgstr "익스체인지 - 시설 링크"
+#, fuzzy
+#| msgid "Facility name"
+msgid "Facility link"
+msgstr "시설 이름"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "설비 추가"
+
+msgid "Exchange - Facility link"
+msgstr "익스체인지 - 시설 링크"
 
 msgid "Prefixes"
 msgstr "프리픽스"
@@ -3087,9 +3146,6 @@ msgstr "IP"
 
 msgid "Not operational"
 msgstr "작동하지 않음"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Number of networks present at this facility"
@@ -3262,6 +3318,9 @@ msgid "Add Exchange"
 msgstr "익스체인지 추가"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3721,6 +3780,11 @@ msgid "Max size: {}kb"
 msgstr "최대 속도: {}"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "설비 - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "회사 웹사이트"
@@ -3808,6 +3872,11 @@ msgstr "피어링 정책 정보"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오."
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "언어 기본 설정"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

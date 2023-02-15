@@ -1673,6 +1673,11 @@ msgstr "date d'inscription"
 msgid "status"
 msgstr "statut"
 
+#, fuzzy
+#| msgid "Organization"
+msgid "The user's primary organization"
+msgstr "Organisation"
+
 msgid "language"
 msgstr "langue"
 
@@ -1983,6 +1988,13 @@ msgid "Specify at least one email address"
 msgstr "Changer l'adresse email"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
+msgstr ""
+
+msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
+msgstr ""
+
+#, python-brace-format
+msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -2389,11 +2401,27 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
-msgid "CLLI"
-msgstr "CLLI"
+msgid "Address"
+msgstr "Adresse"
 
-msgid "Does not matter"
+msgid "Postal"
+msgstr "Postal"
+
+msgid "click to select multiple"
+msgstr "cliquez pour effectuer une sélection multiple"
+
+msgid "Within Distance"
 msgstr ""
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
+msgid "Additional filters are available to authenticated users, and you are currently not logged in."
+msgstr "Une partie des contacts de ce réseau ne sont visibles qu'aux utilisateurs enregistrés et vous n'être actuellement pas connecté."
+
+#, fuzzy
+#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
+msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
+msgstr "Une partie des contacts de ce réseau ne sont visibles qu'aux utilisateurs affiliés à une organisation."
 
 msgid "Reset"
 msgstr "Vider"
@@ -2411,22 +2439,16 @@ msgstr "Aucun résultat correspondant à vos critères de recherche."
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Plus de %(row_limit)s résultats trouvés, veuillez affiner votre recherche..."
 
-msgid "click to select multiple"
-msgstr "cliquez pour effectuer une sélection multiple"
+msgid "CLLI"
+msgstr "CLLI"
+
+msgid "Does not matter"
+msgstr ""
 
 msgid "IP Block"
 msgstr "Bloc IP"
 
 msgid "Capacity"
-msgstr ""
-
-msgid "Address"
-msgstr "Adresse"
-
-msgid "Postal"
-msgstr "Postal"
-
-msgid "Within Distance"
 msgstr ""
 
 #, fuzzy
@@ -2514,6 +2536,9 @@ msgstr "Fusions d'organisations"
 msgid "Not present"
 msgstr "Non défini"
 
+msgid "Campus"
+msgstr ""
+
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
 
@@ -2530,8 +2555,16 @@ msgstr ""
 msgid "Only use this if you own the carrier"
 msgstr ""
 
+msgid "Only use this if you own the campus"
+msgstr ""
+
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgstr "Ajouter une nouvelle entité %(entity_name)s à votre orgnaisation. Veuillez noter que la nouvelle entité %(entity_name)s devra être approuvée par les collaborateurs de PeeringDB avant qu'elle ne puisse apparaître dans les résultats de recherche et des appels API"
+
+#, fuzzy, python-format
+#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "Ajouter une nouvelle entité %(entity_name)s à votre orgnaisation. Veuillez noter que la nouvelle entité %(entity_name)s devra être approuvée par les collaborateurs de PeeringDB avant qu'elle ne puisse apparaître dans les résultats de recherche et des appels API"
 
 #, fuzzy
@@ -2636,6 +2669,9 @@ msgstr "Contactez nous"
 
 msgid "Global System Statistics"
 msgstr "Statistiques globale"
+
+msgid "Campuses"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange"
@@ -3078,6 +3114,16 @@ msgstr "Point d'échange"
 msgid "Suggest Network"
 msgstr "Soumettre le réseau"
 
+#, fuzzy
+#| msgid "Invalid organization"
+msgid "Set primary organization"
+msgstr "Organisation invalide"
+
+#, fuzzy
+#| msgid "Organization Merges"
+msgid "Primary organization updated"
+msgstr "Fusions d'organisations"
+
 msgid "Become a Sponsor"
 msgstr "Devenir parrain"
 
@@ -3133,6 +3179,9 @@ msgstr "Vous pouvez demander votre affiliation à une organisation ou un numéro
 msgid "Manage OAuth Applications"
 msgstr "Gérer les applications OAuth"
 
+msgid "Add at least 2 facilities for your campus to be visible."
+msgstr ""
+
 msgid "Pending Review"
 msgstr "En attente de vérification"
 
@@ -3160,11 +3209,19 @@ msgstr "Aucune correspondance à vos filtres."
 msgid "You may filter by"
 msgstr "Vous pouvez filtrer selon"
 
-msgid "Exchange - Facility link"
-msgstr "Point d'échange - Lien du lieu d'installation"
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility link"
+msgstr "Installation"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "Add Facility"
 msgstr "Ajouter installation"
+
+msgid "Exchange - Facility link"
+msgstr "Point d'échange - Lien du lieu d'installation"
 
 #, fuzzy
 #| msgid "Prefix"
@@ -3232,9 +3289,6 @@ msgstr "IP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Régional"
-
-msgid "Remove this carrier from your facility."
-msgstr ""
 
 #, fuzzy
 #| msgid "Internet Exchange facility"
@@ -3432,6 +3486,9 @@ msgid "Add Exchange"
 msgstr "Ajouter un point d'échange"
 
 msgid "Add Carrier"
+msgstr ""
+
+msgid "Add Campus"
 msgstr ""
 
 msgid "Permissions"
@@ -3894,6 +3951,11 @@ msgid "Max size: {}kb"
 msgstr "Valeur maximale permise {}"
 
 #, fuzzy
+#| msgid "Facility - %(fac_name)s"
+msgid "Facility is part of a campus"
+msgstr "Installation - %(fac_name)s"
+
+#, fuzzy
 #| msgid "Company Website"
 msgid "Company Website Override"
 msgstr "Site Internet de l'entreprise"
@@ -3989,6 +4051,11 @@ msgstr "Informations sur le règlement de peering"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de bien vouloir patienter avant d'essayer de vous identifier à nouveau."
+
+#, fuzzy
+#| msgid "Set language preference"
+msgid "Malformed Organization Preference"
+msgstr "Définir la préférence de langue"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"
