@@ -1197,6 +1197,16 @@ msgstr "Setze Umgebung zurück"
 msgid "IX-F Import"
 msgstr "IX-F Import"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' noch nicht genehmigt wurde"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "Die Adresse dieses Objekts wurde mit Hilfe der Google Maps API normalisiert"
 
@@ -1846,14 +1856,6 @@ msgstr "Fehler bei der RDAP Suche"
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Dieses Feld ist nur bei diesen Anforderungen erlaubt: {methods}"
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' noch nicht genehmigt wurde"
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
 msgid "Required for distance filtering"
 msgstr "Erforderlich für Entfernungsfilterung"
@@ -3217,8 +3219,10 @@ msgstr "Eintrag muss zum korrekten Netzwerk verschoben werden"
 msgid "Add Exchange Point"
 msgstr "Exchange hinzufügen"
 
-msgid "Private Peering Facilities"
-msgstr "Private Peering Liegenschaften"
+#, fuzzy
+#| msgid "Connections to Facilities"
+msgid "Interconnection Facilities"
+msgstr "Verbindungen zu Liegenschaften"
 
 msgid "member"
 msgstr "Mitglied"
@@ -3766,6 +3770,9 @@ msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Sprachauswahl speichern"
+
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Private Peering Liegenschaften"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

@@ -1192,6 +1192,16 @@ msgstr "Resetează mediul"
 msgid "IX-F Import"
 msgstr "Importul IX-F"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea sa părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "A fost normalizată adresa acestui obiect cu un apel către API-ul Google Maps"
 
@@ -1823,14 +1833,6 @@ msgstr "Eroare de căutare RDAP"
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Acest câmp este permis doar pentru aceste solicitări: {methods}"
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea sa părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
 msgid "Required for distance filtering"
 msgstr "Necesar pentru filtrarea la distanță"
@@ -3187,8 +3189,10 @@ msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
 msgid "Add Exchange Point"
 msgstr "Adăugați Internet Exchange"
 
-msgid "Private Peering Facilities"
-msgstr "Facilități cu peering privat"
+#, fuzzy
+#| msgid "Connections to Facilities"
+msgid "Interconnection Facilities"
+msgstr "Conexiuni la facilități"
 
 msgid "member"
 msgstr "membru"
@@ -3724,6 +3728,9 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 #| msgid "Malformed Language Preference"
 msgid "Malformed Organization Preference"
 msgstr "Preferință de limbă incorectă"
+
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Facilități cu peering privat"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

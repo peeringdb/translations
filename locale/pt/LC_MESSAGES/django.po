@@ -1333,6 +1333,16 @@ msgstr "Reiniciar Ambiente"
 msgid "IX-F Import"
 msgstr "Log de importação IXF"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "Objeto do tipo ‘%(type)s’ não pode ser criado porque a entidade controladora ‘/ %(parent_id)s %(parent_tag)s’ ainda não foi aprovada"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "Objeto do tipo ‘%(type)s’ não pode ser criado porque a entidade controladora’%(parent_tag)s / %(parent_id)s’ foi marcada como excluída"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2036,16 +2046,6 @@ msgstr "Erro de pesquisa RDAP"
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Este campo é apenas permitido para estes pedidos: {methods}"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Objeto do tipo ‘%(type)s’ não pode ser criado porque a entidade controladora ‘/ %(parent_id)s %(parent_tag)s’ ainda não foi aprovada"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Objeto do tipo ‘%(type)s’ não pode ser criado porque a entidade controladora’%(parent_tag)s / %(parent_id)s’ foi marcada como excluída"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3546,9 +3546,9 @@ msgid "Add Exchange Point"
 msgstr "Adicionar Ponto de Troca"
 
 #, fuzzy
-#| msgid "Merge Facilities"
-msgid "Private Peering Facilities"
-msgstr "Fusão de Infraestruturas"
+#| msgid "Private Facilities"
+msgid "Interconnection Facilities"
+msgstr "Infraestrutura privada"
 
 msgid "member"
 msgstr "membro"
@@ -4135,6 +4135,11 @@ msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Definir preferência de idioma"
+
+#, fuzzy
+#~| msgid "Merge Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Fusão de Infraestruturas"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

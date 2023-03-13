@@ -1357,6 +1357,16 @@ msgstr "إعادة الضبط الافتراضي"
 msgid "IX-F Import"
 msgstr "استيراد بيانات IX-F"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  لم تتم الموافقة عليه بعد"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2058,16 +2068,6 @@ msgstr "خطأ في البحث بروتوكول الوصول إلى بيانات
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "هذا الحقل/الخانة مسموح به فقط لهذه الطلبات:  {methods}"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  لم تتم الموافقة عليه بعد"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3534,9 +3534,9 @@ msgid "Add Exchange Point"
 msgstr "إضافة نقطة تبادل"
 
 #, fuzzy
-#| msgid "Merge Facilities"
-msgid "Private Peering Facilities"
-msgstr "دمج مراكز بيانات/ تشغيل"
+#| msgid "Connections to Facilities"
+msgid "Interconnection Facilities"
+msgstr "الاتصالات إلى مراكز بيانات/ تشغيل"
 
 msgid "member"
 msgstr "عضو"
@@ -4109,6 +4109,11 @@ msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل 
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "ضبط اللغة المفضلة"
+
+#, fuzzy
+#~| msgid "Merge Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "دمج مراكز بيانات/ تشغيل"
 
 #~ msgid "MTU"
 #~ msgstr "وحدة الإرسال القصوى (MTU)"

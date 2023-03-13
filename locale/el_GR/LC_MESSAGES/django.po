@@ -1353,6 +1353,16 @@ msgstr "Επαναφορά"
 msgid "IX-F Import"
 msgstr "Ημερολόγιο Εισαγωγών IXF"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπορεί να δημιουργηθεί καθώς η γονική οντότητα δεν έχει εγκριθεί ακόμα i: '%(parent_tag)s/%(parent_id)s"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2050,16 +2060,6 @@ msgstr ""
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr ""
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπορεί να δημιουργηθεί καθώς η γονική οντότητα δεν έχει εγκριθεί ακόμα i: '%(parent_tag)s/%(parent_id)s"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3562,9 +3562,9 @@ msgid "Add Exchange Point"
 msgstr "Προσθήκη Exchange Point"
 
 #, fuzzy
-#| msgid "Facilities"
-msgid "Private Peering Facilities"
-msgstr "Eγκαταστάσεις"
+#| msgid "Private Facilities"
+msgid "Interconnection Facilities"
+msgstr "Ιδιωτικές Εγκαταστάσεις"
 
 msgid "member"
 msgstr "μέλος"
@@ -4151,6 +4151,11 @@ msgstr "Παρακαλώ περιμένετε λίγο πριν ξαναπροσ
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Ορίστε προτίμηση γλώσσας"
+
+#, fuzzy
+#~| msgid "Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Eγκαταστάσεις"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

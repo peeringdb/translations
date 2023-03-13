@@ -1325,6 +1325,16 @@ msgstr "Сбросить"
 msgid "IX-F Import"
 msgstr "Лог импорта IXF"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "Объект типа '%(type)s' не может быть создан, так как его родительская сущность '%(parent_tag)s/%(parent_id)s' еще на была одобрена"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "Объект типа '%(type)s' не может быть создан, так как его родительская сущность '%(parent_tag)s/%(parent_id)s' помечена как удаленная"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2018,16 +2028,6 @@ msgstr ""
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr ""
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Объект типа '%(type)s' не может быть создан, так как его родительская сущность '%(parent_tag)s/%(parent_id)s' еще на была одобрена"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Объект типа '%(type)s' не может быть создан, так как его родительская сущность '%(parent_tag)s/%(parent_id)s' помечена как удаленная"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3532,9 +3532,9 @@ msgid "Add Exchange Point"
 msgstr "Новый IXP"
 
 #, fuzzy
-#| msgid "Facilities"
-msgid "Private Peering Facilities"
-msgstr "Площадки"
+#| msgid "Private Facilities"
+msgid "Interconnection Facilities"
+msgstr "Приватных площадок"
 
 msgid "member"
 msgstr "участник"
@@ -4120,6 +4120,11 @@ msgstr "Подождите несколько секунд перед повто
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Установить язык"
+
+#, fuzzy
+#~| msgid "Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Площадки"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

@@ -1363,6 +1363,16 @@ msgstr "重置环境"
 msgid "IX-F Import"
 msgstr "IXF 导入日志"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 未被批准"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2066,16 +2076,6 @@ msgstr "RDAP 查找错误"
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "此字段仅允许这些请求：{methods}"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 未被批准"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "对象类型 %(type)s 无法创建，因为其父实体 %(parent_tag)s/%(parent_id)s 已标记为删除"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3543,9 +3543,9 @@ msgid "Add Exchange Point"
 msgstr "添加交换点"
 
 #, fuzzy
-#| msgid "Merge Facilities"
-msgid "Private Peering Facilities"
-msgstr "合并设施"
+#| msgid "Connections to Facilities"
+msgid "Interconnection Facilities"
+msgstr "连接的私有设施"
 
 msgid "member"
 msgstr "成员"
@@ -4118,6 +4118,11 @@ msgstr "请稍后再尝试登录。"
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "设置语言偏好"
+
+#, fuzzy
+#~| msgid "Merge Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "合并设施"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

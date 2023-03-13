@@ -1262,6 +1262,16 @@ msgstr "Vider"
 msgid "IX-F Import"
 msgstr "Journal d'importation IXF"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "L'objet de type '%(type)s' ne peut pas être créé car son entité parente '%(parent_tag)s/%(parent_id)s' n'a pas encore été approuvée"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "L'objet de type '%(type)s' ne peut pas être créé car son entité parente '%(parent_tag)s/%(parent_id)s' a été supprimée"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -1960,16 +1970,6 @@ msgstr ""
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr ""
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "L'objet de type '%(type)s' ne peut pas être créé car son entité parente '%(parent_tag)s/%(parent_id)s' n'a pas encore été approuvée"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "L'objet de type '%(type)s' ne peut pas être créé car son entité parente '%(parent_tag)s/%(parent_id)s' a été supprimée"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3472,9 +3472,9 @@ msgid "Add Exchange Point"
 msgstr "Ajouter un point d'échange"
 
 #, fuzzy
-#| msgid "Facilities"
-msgid "Private Peering Facilities"
-msgstr "Installations"
+#| msgid "Private Facilities"
+msgid "Interconnection Facilities"
+msgstr "Installations privées"
 
 msgid "member"
 msgstr "membre"
@@ -4059,6 +4059,11 @@ msgstr "Veuillez patienter un peu avant d'essayer de vous reconnecter.Merci de b
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Définir la préférence de langue"
+
+#, fuzzy
+#~| msgid "Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Installations"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

@@ -1344,6 +1344,15 @@ msgstr "Resetovat"
 msgid "IX-F Import"
 msgstr "Protokol IXF Importu"
 
+#, fuzzy, python-format
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "Objekt typu \"% (typ) s\" nelze vytvořit, protože jeho nadřazená entita '% (parent_tag) s /% (parent_id) s' nebyla dosud schválena"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "Objekt typu '%(type)s' nelze vytvořit, protože jeho nadřazená entita '%(parent_tag)s/%(parent_id)s' byla označena za smazanou"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2036,15 +2045,6 @@ msgstr ""
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr ""
-
-#, fuzzy, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Objekt typu \"% (typ) s\" nelze vytvořit, protože jeho nadřazená entita '% (parent_tag) s /% (parent_id) s' nebyla dosud schválena"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Objekt typu '%(type)s' nelze vytvořit, protože jeho nadřazená entita '%(parent_tag)s/%(parent_id)s' byla označena za smazanou"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3554,9 +3554,9 @@ msgid "Add Exchange Point"
 msgstr "Přidat propojovací uzel"
 
 #, fuzzy
-#| msgid "Merge Facilities"
-msgid "Private Peering Facilities"
-msgstr "Sloučit zařízení"
+#| msgid "Private Facilities"
+msgid "Interconnection Facilities"
+msgstr "Soukromá zařízení"
 
 msgid "member"
 msgstr "člen"
@@ -4147,6 +4147,11 @@ msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Nastavte preferenci jazyka"
+
+#, fuzzy
+#~| msgid "Merge Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Sloučit zařízení"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

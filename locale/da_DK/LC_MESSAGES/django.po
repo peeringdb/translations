@@ -1329,6 +1329,14 @@ msgstr "Salg"
 msgid "IX-F Import"
 msgstr "IXF import log"
 
+#, python-format
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr ""
+
+#, python-format
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr ""
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2045,14 +2053,6 @@ msgstr ""
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr ""
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr ""
 
 msgid "Required for distance filtering"
@@ -3584,9 +3584,9 @@ msgid "Add Exchange Point"
 msgstr "Exchange"
 
 #, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "Private Peering Facilities"
-msgstr "Exchange - Facility link"
+#| msgid "Exchange"
+msgid "Interconnection Facilities"
+msgstr "Exchange"
 
 msgid "member"
 msgstr ""
@@ -4183,6 +4183,11 @@ msgstr ""
 #| msgid "Malformed organization ids"
 msgid "Malformed Organization Preference"
 msgstr "Ukorrekt formateret organisations id'er"
+
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Exchange - Facility link"
 
 #, fuzzy
 #~| msgid "Ipaddress already exists elsewhere"

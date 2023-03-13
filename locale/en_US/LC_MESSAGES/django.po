@@ -1181,6 +1181,14 @@ msgstr ""
 msgid "IX-F Import"
 msgstr ""
 
+#, python-format
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr ""
+
+#, python-format
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr ""
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -1779,14 +1787,6 @@ msgstr ""
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr ""
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr ""
 
 msgid "Required for distance filtering"
@@ -3090,7 +3090,7 @@ msgstr ""
 msgid "Add Exchange Point"
 msgstr ""
 
-msgid "Private Peering Facilities"
+msgid "Interconnection Facilities"
 msgstr ""
 
 msgid "member"

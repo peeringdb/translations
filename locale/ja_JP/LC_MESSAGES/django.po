@@ -1206,6 +1206,16 @@ msgstr "環境をリセットします"
 msgid "IX-F Import"
 msgstr "IX-F Import"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が承認されていない為です"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "Has this object's address been normalized with a call to the Google Maps API"
 
@@ -1833,14 +1843,6 @@ msgstr "RDAP 参照エラー"
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "このフィールドは以下のリクエストにのみ使用可能です {methods}"
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が承認されていない為です"
-
-#, python-format
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
 
 msgid "Required for distance filtering"
 msgstr "Required for distance filtering"
@@ -3207,8 +3209,10 @@ msgstr "このエントリーは正しいネットワークに移動させる必
 msgid "Add Exchange Point"
 msgstr "このエクスチェンジポイントを追加"
 
-msgid "Private Peering Facilities"
-msgstr "プライベートピアが可能なデータセンタ"
+#, fuzzy
+#| msgid "Connections to Facilities"
+msgid "Interconnection Facilities"
+msgstr "データセンタ利用"
 
 msgid "member"
 msgstr "メンバー"
@@ -3766,6 +3770,9 @@ msgstr "再度ログインを試す前に少々お待ちください"
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "言語を選択する"
+
+#~ msgid "Private Peering Facilities"
+#~ msgstr "プライベートピアが可能なデータセンタ"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"

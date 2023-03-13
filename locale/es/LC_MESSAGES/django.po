@@ -1311,6 +1311,16 @@ msgstr "Restablecer Entorno"
 msgid "IX-F Import"
 msgstr "Importar IX-F"
 
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s todavía no ha sido aprobada"
+
+#, fuzzy, python-format
+#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s ha sido eliminada"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -2012,16 +2022,6 @@ msgstr "Error de búsqueda RDAP"
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Este campo solo está permitido para estas solicitudes: {methods}"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s todavía no ha sido aprobada"
-
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s ha sido eliminada"
 
 msgid "Required for distance filtering"
 msgstr ""
@@ -3523,9 +3523,9 @@ msgid "Add Exchange Point"
 msgstr "Añadir punto de intercambio"
 
 #, fuzzy
-#| msgid "Merge Facilities"
-msgid "Private Peering Facilities"
-msgstr "Fusionar instalaciones"
+#| msgid "Private Facilities"
+msgid "Interconnection Facilities"
+msgstr "Instalaciones privadas"
 
 msgid "member"
 msgstr "miembro"
@@ -4112,6 +4112,11 @@ msgstr "Por favor, esperar unos minutos antes de intentar otra vez."
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Establecer preferencia de idioma"
+
+#, fuzzy
+#~| msgid "Merge Facilities"
+#~ msgid "Private Peering Facilities"
+#~ msgstr "Fusionar instalaciones"
 
 #~ msgid "MTU"
 #~ msgstr "MTU"
