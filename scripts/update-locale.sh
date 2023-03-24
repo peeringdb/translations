@@ -99,7 +99,7 @@ set +x
 #    .. _f-strings: https://docs.python.org/3/reference/lexical_analysis.html#f-strings
 #    .. _JavaScript template strings: https://savannah.gnu.org/bugs/?50920
 set -x
-$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs | grep -v "peeringdb.js.*warning: unterminated string" || exit 1
+$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs | grep -v -E "peeringdb.js.*warning: unterminated string|bootstrap/js.*warning: unterminated string" || exit 1
 set +x
 
 # Remove these since no longer needed and we don't want them accidentally added to the repo.
