@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-09-22 19:58+0000\n"
+"PO-Revision-Date: 2023-03-28 13:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -576,29 +576,25 @@ msgid "Public Peering Exchange Points"
 msgstr "Peering public în Internet Exchange-uri"
 
 msgid "Carrier"
-msgstr ""
+msgstr "Transportator"
 
 msgid "Carriers"
-msgstr ""
+msgstr "Transportatori"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "Carrier presence at facility"
-msgstr "Numărul de rețele prezente la această facilitate"
+msgstr "Prezența transportatorului la această facilitate"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "Carrier presences at facility"
-msgstr "Numărul de rețele prezente la această facilitate"
+msgstr "Prezențele transportatorului la Facilități"
 
 msgid "Campus Name"
-msgstr ""
+msgstr "Denumire campus"
 
 msgid "Campus"
-msgstr ""
+msgstr "Campus"
 
 msgid "Campuses"
-msgstr ""
+msgstr "Campusuri"
 
 msgid "Czech"
 msgstr "cehă"
@@ -1015,10 +1011,8 @@ msgstr "Trebuie să aibă o lungime de cel puțin 10 caractere"
 msgid "Passwords need to match"
 msgstr "Parolele trebuie să se potrivească"
 
-#, fuzzy
-#| msgid "This email address has already been used"
 msgid "This username is already taken"
-msgstr "Această adresă e-mail a fost deja utilizată"
+msgstr "Acest nume de utilizator este deja luat"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "Completați câmpul de verificare anti-spam (captcha)"
@@ -1133,10 +1127,8 @@ msgstr "PeeringDB: poate fi necesară o acțiune: nepotrivirea datelor din impor
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Îmbină notificarea: {} -> {}"
 
-#, fuzzy
-#| msgid "active"
 msgid "Inactive"
-msgstr "activ"
+msgstr "Inactiv"
 
 msgid "Silver"
 msgstr "Silver"
@@ -1172,19 +1164,19 @@ msgid "Validate Data"
 msgstr "Validați datele"
 
 msgid "1 Week"
-msgstr ""
+msgstr "o săptămână"
 
 msgid "2 Weeks"
-msgstr ""
+msgstr "două săptămâni"
 
 msgid "1 Month"
-msgstr ""
+msgstr "o lună"
 
 msgid "6 Months"
-msgstr ""
+msgstr "șase luni"
 
 msgid "1 Year"
-msgstr ""
+msgstr "un an"
 
 msgid "Reset Environment"
 msgstr "Resetează mediul"
@@ -1192,15 +1184,13 @@ msgstr "Resetează mediul"
 msgid "IX-F Import"
 msgstr "Importul IX-F"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea sa părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
+msgstr "Obiectele de tipul '%(type)s' nu pot fi salvate deoarece entitatea sa părinte '%(parent_tag)s%(parent_id)s' încă nu a fost aprobată"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "Obiectele de tipul '%(type)s' nu pot fi create deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
+msgstr "Obiectele de tipul '%(type)s' nu pot fi salvate deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "A fost normalizată adresa acestui obiect cu un apel către API-ul Google Maps"
@@ -1293,13 +1283,13 @@ msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
 
 msgid "Require users in your organization to have email addresses within your specified domains."
-msgstr ""
+msgstr "Solicitați utilizatorilor din organizația dvs. să aibă adrese de e-mail în domeniile specificate."
 
 msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
-msgstr ""
+msgstr "Dacă restricția de e-mail a utilizatorului este activată: permiteți numai utilizatorilor cu e-mailuri în aceste domenii. Un domeniu pe linie, în formatul „@xyz.com”"
 
 msgid "Require users in this organization to periodically re-authenticate"
-msgstr ""
+msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
 
 msgid "Organization has active objects under it."
 msgstr "Organizația are obiecte active sub aceasta."
@@ -1479,10 +1469,10 @@ msgid "Requirement of another IXFMemberData entry and will be applied alongside 
 msgstr "Cerința unei alte intrări IXFMemberData și va fi aplicată alături de aceasta"
 
 msgid "Indicates how many extra notifications were sent to the network for this proposal. Extra notifications can be sent for stale netixlan entries over time."
-msgstr ""
+msgstr "Indică câte notificări suplimentare au fost trimise rețelei pentru această propunere. Notificări suplimentare pot fi trimise pentru intrările netixlan învechite de-a lungul timpului."
 
 msgid "Last time extra notifications were sent to the network for this proposal."
-msgstr ""
+msgstr "Ultima dată au fost trimise notificări suplimentare către rețea pentru această propunere."
 
 msgid "IX-F Member Data"
 msgstr "Datele de membru IX-F"
@@ -1505,10 +1495,8 @@ msgstr "numărul de Facilități la această rețea"
 msgid "Last technical contact point for network with active peers"
 msgstr "Ultimul punct de contact tehnic pentru rețeaua cu peer-i activi"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Phone or email required"
-msgstr "Contract necesar"
+msgstr "Este necesar telefonul sau e-mailul"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
@@ -1525,10 +1513,8 @@ msgstr "Viteza maximă: {}"
 msgid "Minimum speed: {}"
 msgstr "Viteza minimă: {}"
 
-#, fuzzy
-#| msgid "Ixlan for exchange already exists"
 msgid "IP already exists"
-msgstr "Ixlan pentru acest Exchange există deja"
+msgstr "Adresa IP există deja"
 
 msgid "username"
 msgstr "nume de utilizator"
@@ -1563,22 +1549,20 @@ msgstr "data înscrierii"
 msgid "status"
 msgstr "stare"
 
-#, fuzzy
-#| msgid "Users in Organization"
 msgid "The user's primary organization"
-msgstr "Utilizatori în organizație"
+msgstr "Organizația primară a utilizatorului"
 
 msgid "language"
 msgstr "limbă"
 
 msgid "Account is orphaned and has been flagged for deletion at this date"
-msgstr ""
+msgstr "Contul este orfan și a fost marcat pentru ștergere la această dată"
 
 msgid "User has been notified about pending account deletion at this date"
-msgstr ""
+msgstr "Utilizatorul a fost notificat despre ștergerea contului în așteptare la această dată"
 
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
-msgstr ""
+msgstr "Acest utilizator nu va fi niciodată marcat pentru ștergere prin procesul de curățare a utilizatorului orfan."
 
 msgid "user"
 msgstr "utilizator"
