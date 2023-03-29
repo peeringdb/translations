@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-03-29 07:58+0000\n"
+"PO-Revision-Date: 2023-03-29 08:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -2874,17 +2874,14 @@ msgid "Retrieve username(s)"
 msgstr "Obțineți numele de utilizator"
 
 msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
-msgstr ""
+msgstr "Unele dintre organizațiile dvs. vă solicită să vă confirmați adresa de e-mail. Accesul dumneavoastră la ele a fost restricționat până când veți face acest lucru."
 
-#, fuzzy, python-format
-#| msgid "We have resent your confirmation email"
+#, python-format
 msgid "%(org_name)s requests confirmation of %(email)s"
-msgstr "V-am trimis un e-mail de confirmare"
+msgstr "%(org_name)s solicită confirmarea %(email)s"
 
-#, fuzzy
-#| msgid "Confirm your e-mail address"
 msgid "Please confirm your email addresses "
-msgstr "Confirmați adresa e-mail"
+msgstr "Vă rugăm să vă confirmați adresele de e-mail "
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Contul dvs. de utilizator nu a fost încă afiliat la nicio organizație și va avea acces limitat la unele dintre date (cum ar fi informațiile de contact care nu sunt publice)."
@@ -2899,7 +2896,7 @@ msgid "Manage OAuth Applications"
 msgstr "Gestionați aplicațiile OAuth"
 
 msgid "Add at least 2 facilities for your campus to be visible."
-msgstr ""
+msgstr "Adăugați cel puțin două facilități pentru ca campusul dvs. să fie vizibil."
 
 msgid "Pending Review"
 msgstr "Revizuire în așteptare"
@@ -2928,10 +2925,8 @@ msgstr "Nu se potrivește niciun filtru."
 msgid "You may filter by"
 msgstr "Puteți filtra după"
 
-#, fuzzy
-#| msgid "Facility name"
 msgid "Facility link"
-msgstr "nume Facilitate"
+msgstr "legătura cu Facilitatea"
 
 msgid "Remove this carrier from your facility."
 msgstr ""
