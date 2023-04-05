@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-04-05 20:58+0000\n"
+"PO-Revision-Date: 2023-04-05 22:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -355,7 +355,7 @@ msgid "A property owner is the individual or entity that has title to the proper
 msgstr "Ein Grundstückseigentümer ist die natürliche oder juristische Person, die das Eigentum an dem Grundstück besitzt. Ein Mieter ist ein Nutzer einer Immobilie, der einen Mietvertrag oder eine Vereinbarung mit dem Eigentümer der Immobilie hat."
 
 msgid "Diverse Serving Substations"
-msgstr ""
+msgstr "Redundante Versorgungseinrichtungen"
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
 msgstr "Zwei separate und unterschiedliche Wegeführungen zu einzelnen Unterstationen, die eine separate Wegeführung zurück zu einer oder mehreren Generatorstationen des Versorgungsunternehmens unterhalten sollten."
@@ -1185,8 +1185,7 @@ msgstr "Setze Umgebung zurück"
 msgid "IX-F Import"
 msgstr "IX-F Import"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' noch nicht genehmigt wurde"
 
@@ -1456,7 +1455,7 @@ msgid "Activity for this entry"
 msgstr "Aktivitäten für diesen Eintrag"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
+msgstr "Die Ablehnung dieser vorgeschlagenen Änderung durch das Netzwerk, wodurch sie aus der Sicht des kundenorientierten Netzwerks ausgeblendet wird"
 
 msgid "RS Peer"
 msgstr "RS-Peer"
@@ -1671,20 +1670,14 @@ msgstr "API: Drosselungsrate für wiederholte Anfragen für authentifizierte Ben
 msgid "API: Repeated request throttle enabled for authenticated users"
 msgstr "API: Drosselung der wiederholten Anforderung für authentifizierte Benutzer aktiviert"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
 msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
-msgstr "API: Schwellenwert für die Drosselungsgröße der Antwortgröße für Organisations-API-Schlüssel (Bytes)"
+msgstr "API: Drosselungsgröße für wiederholte Anfragen für Organisations-API-Schlüssel (Byte)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for organization api-keys"
 msgid "API: Repeated request throttle rate for organization api-keys"
-msgstr "API: Drosselungsrate der Antwortgröße für Organisations-API-Schlüssel"
+msgstr "API: Drosselungsrate für wiederholte Anfragen für Organisations-API-Schlüssel"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for organization api-keys"
 msgid "API: Repeated request throttle enabled for organization api-keys"
-msgstr "API: Drosselung der Antwortgröße für Organisations-API-Schlüssel aktiviert"
+msgstr "API: Drosselung für wiederholte Anfragen für Organisations-API-Schlüssel aktiviert"
 
 msgid "API: Anonymous API throttle rate message"
 msgstr "API: Meldung für Drosselungsrate bei Anonymen API"
@@ -1701,65 +1694,47 @@ msgstr "Konfiguriert am"
 msgid "Last updated by this user"
 msgstr "Zuletzt aktualisiert durch diesen User"
 
-#, fuzzy
-#| msgid "Affiliate with organization"
 msgid "application is owned by this organization"
-msgstr "Zuordnung zu einer Organisation anfordern"
+msgstr "Die Anwendung gehört dieser Organisation"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Application"
-msgstr "OAuth-Anwendungen verwalten"
+msgstr "OAuth-Anwendung"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Applications"
-msgstr "OAuth-Anwendungen verwalten"
+msgstr "OAuth-Anwendungen"
 
 msgid "Added"
-msgstr ""
+msgstr "Hinzugefügt"
 
 msgid "Updated"
 msgstr "Aktualisiert"
 
-#, fuzzy
-#| msgid "Delete"
 msgid "Deleted"
-msgstr "Löschen"
+msgstr "Gelöscht"
 
 msgid "User started watching this object at this time"
-msgstr ""
+msgstr "Der Benutzer hat zu diesem Zeitpunkt begonnen, dieses Objekt zu beobachten"
 
-#, fuzzy
-#| msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgid "Last time user was notified about changes to this object"
-msgstr "Letzter Zeitpunkt, an dem der Internet Exchange über IX-F Formatprobleme benachrichtigt wurde"
+msgstr "Letzter Zeitpunkt, an dem der Benutzer über Änderungen an diesem Objekt benachrichtigt wurde"
 
 msgid "Data Change Watched Object"
-msgstr ""
+msgstr "Beobachtetes Objekt für Datenänderung"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Reason for notification"
-msgstr "Benachrichtigung über Zusammenführung"
+msgstr "Grund der Benachrichtigung"
 
 msgid "Source of automated update"
-msgstr ""
+msgstr "Quelle der automatischen Aktualisierung"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Data Change Notification Queue"
-msgstr "Benachrichtigung über Zusammenführung"
+msgstr "Warteschlange für Datenänderungsbenachrichtigungen"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Data Change Email"
-msgstr "E-Mail-Adresse ändern"
+msgstr "E-Mail zur Datenänderung"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Data Change Emails"
-msgstr "E-Mail-Adresse ändern"
+msgstr "Datenänderungs-E-Mails"
 
 msgid "Organization and all Entities it owns"
 msgstr "Unternehmen und alle dazugehörigen Einträge"
@@ -1792,7 +1767,7 @@ msgid "Needs to be member or admin"
 msgstr "Muss Mitglied oder Admin sein"
 
 msgid "Cannot manage permissions for organization admins"
-msgstr ""
+msgstr "Berechtigungen für Organisationsadministratoren können nicht verwaltet werden"
 
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
@@ -1802,10 +1777,8 @@ msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
-#, fuzzy
-#| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgid "This key is currently inactive - please contact PeeringDB support for assistance."
-msgstr "Die Organisation ist derzeit ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
+msgstr "Dieser Schlüssel ist derzeit inaktiv – bitte wenden Sie sich an den PeeringDB-Support, um Unterstützung zu erhalten."
 
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "Bitte kontaktieren Sie {}, um Unterstützung bei der Löschung dieses Objekts zu erhalten"
@@ -1851,11 +1824,11 @@ msgid "User cannot create an internet exchange withits org set as the SUGGEST_EN
 msgstr "Der Benutzer kann keinen Austauschpunkt mit seiner Organisation erstellen, die als Organisation SUGGEST_ENTITY festgelegt hat"
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
-msgstr ""
+msgstr "Die Einrichtung kann nicht Teil eines Campus werden, da ihr die Geolokalisierungskoordinaten fehlen"
 
 #, python-brace-format
 msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
-msgstr ""
+msgstr "Liegenschaft außerhalb der Campusgrenzen (max. {settings.CAMPUS_MAX_DISTANCE} km)"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1972,7 +1945,7 @@ msgstr "Dieses Objekt hat derzeit DoTF-Schutz:"
 msgid "PeeringDB API Documentation"
 msgstr "PeeringDB API-Dokumentation"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "You have been sent this message because you are an administrator for %(org_name)s.\n"
@@ -2183,18 +2156,16 @@ msgstr "Wenn Sie die Wiederauffindung des Benutzernamen nicht angefordert haben,
 
 #, python-format
 msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
-msgstr ""
+msgstr "Diese Anwendung wird von %(org_name)s verwaltet. Alle Administratoren der Organisation können daran Änderungen vornehmen."
 
 msgid "Your applications"
 msgstr "Ihre Anwendungen"
 
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
-#, fuzzy
-#| msgid "Edit application"
 msgid "New Application"
-msgstr "Anwendungen anpassen"
+msgstr "Neue Anwendung"
 
 msgid "No applications defined"
 msgstr "Keine Anwendungen definiert"
@@ -2246,10 +2217,8 @@ msgstr "In Reichweite"
 msgid "Additional filters are available to authenticated users, and you are currently not logged in."
 msgstr "Authentifizierten Benutzern stehen zusätzliche Filter zur Verfügung. Bitte melden Sie sich an ."
 
-#, fuzzy
-#| msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
-msgstr "Einige der Kontaktdaten dieses Netzwerks werden nicht angezeigt, da Ihr Zugang nicht mit dieser Organisation verknüpft ist."
+msgstr "Verifizierten Benutzern stehen zusätzliche Filter zur Verfügung. Sie sind derzeit mit keiner Organisation verbunden."
 
 msgid "Reset"
 msgstr "Zurücksetzen"
@@ -2355,29 +2324,22 @@ msgstr "Nur für Betreiber der Liegenschaft"
 msgid "Only use this if you own the exchange"
 msgstr "Nur für Betreiber des Austauschpunktes"
 
-#, fuzzy
-#| msgid "Only use this if you own the exchange"
 msgid "Only use this if you own the carrier"
-msgstr "Nur für Betreiber des Austauschpunktes"
+msgstr "Verwenden Sie dies nur, wenn Sie der Carrier sind"
 
-#, fuzzy
-#| msgid "Only use this if you own the exchange"
 msgid "Only use this if you own the campus"
-msgstr "Nur für Betreiber des Austauschpunktes"
+msgstr "Verwenden Sie dies nur, wenn Sie der Campusinhaber sind"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Fügen Sie Ihrer Organisation eine neue Entität vom Typ %(entity_name)s hinzu. Beachten Sie, dass die neu erstellte Entität vom Typ %(entity_name)s von PeeringDB-Mitarbeitern genehmigt werden muss, bevor es in den Suchergebnissen oder den API-Auflistungen angezeigt wird"
 
-#, fuzzy, python-format
-#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+#, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
-msgstr "Fügen Sie Ihrer Organisation eine neue Entität vom Typ %(entity_name)s hinzu. Beachten Sie, dass die neu erstellte Entität vom Typ %(entity_name)s von PeeringDB-Mitarbeitern genehmigt werden muss, bevor es in den Suchergebnissen oder den API-Auflistungen angezeigt wird"
+msgstr "Fügen Sie Ihrer Organisation einen neuen %(entity_name)s hinzu. Beachten Sie, dass Ihr Campus für andere Benutzer erst sichtbar ist, wenn er mindestens <strong>2</strong> Einrichtungen enthält."
 
-#, fuzzy
-#| msgid "Add a new Network to your Organization."
 msgid "Add a new carrier to your Organization."
-msgstr "Fügen Sie Ihrer Organisation ein neues Netzwerk hinzu."
+msgstr "Fügen Sie Ihrer Organisation einen neuen Carrier hinzu."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "Um als Liegenschaft / Gebäude aufgeführt zu werden erwarten wir, dass Sie Kolokation, Rechenzentrums- und/oder Zusammenschaltungsdienste öffentlich anbieten."
@@ -2452,10 +2414,8 @@ msgstr "API"
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#, fuzzy
-#| msgid "Please use"
 msgid "Release Notes"
-msgstr "Bitte verwenden Sie"
+msgstr "Versionshinweise"
 
 msgid "FAQ"
 msgstr "FAQ (Häufig gestellte Fragen)"
@@ -2577,10 +2537,8 @@ msgstr "Widerrufen"
 msgid "Add Key"
 msgstr "Schlüssel hinzufügen"
 
-#, fuzzy
-#| msgid "Edit application"
 msgid "Application"
-msgstr "Anwendungen anpassen"
+msgstr "Anwendung"
 
 msgid "Partners"
 msgstr "Partner"
@@ -2644,7 +2602,7 @@ msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "Ihre Zuordnung zu %(ar_name)s wurde abgelehnt"
 
 msgid "The organization requires you to have a confirmed email address at one of the following domains"
-msgstr ""
+msgstr "Die Organisation verlangt, dass Sie eine bestätigte E-Mail-Adresse in einer der folgenden Domains haben"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
@@ -2876,10 +2834,8 @@ msgstr "Austauschpunkt vorschlagen"
 msgid "Suggest Network"
 msgstr "Netzwerk vorschlagen"
 
-#, fuzzy
-#| msgid "Delete organization?"
 msgid "Set primary organization"
-msgstr "Organisation löschen?"
+msgstr "Legen Sie die primäre Organisation fest"
 
 #, fuzzy
 #| msgid "My organization presence"
@@ -2920,15 +2876,12 @@ msgstr "Benutzername(n) abrufen"
 msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid "We have resent your confirmation email"
+#, python-format
 msgid "%(org_name)s requests confirmation of %(email)s"
-msgstr "Wir haben Ihnen erneut eine Bestätigungsmail zugesandt"
+msgstr "%(org_name)s fordert eine Bestätigung von %(email)s an"
 
-#, fuzzy
-#| msgid "Confirm your e-mail address"
 msgid "Please confirm your email addresses "
-msgstr "Bestätigen Sie Ihre E-Mail-Adresse"
+msgstr "Bestätigen Sie Ihre E-Mail-Adresse "
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Ihr Zugang wurde mit noch keiner Organisation verbunden und hat deshalb nur eingeschränkten Zugang zu manchen Daten (wie z.B. nicht öffentliche Kontaktinformationen)."
@@ -3037,10 +2990,8 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Nicht in Betrieb"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "This carrier wants to list its presence at this facility."
-msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+msgstr "Dieser Carrier möchte seine Präsenz in dieser Liegenschafr auflisten."
 
 #, fuzzy
 #| msgid "Status of this request"
@@ -3427,23 +3378,11 @@ msgstr ""
 msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
 msgstr ""
 
-#, fuzzy
-#| msgid ""
-#| "We are calling your phone right now, please enter the\n"
-#| "        digits you hear."
 msgid "We are calling your phone right now, please enter the digits you hear."
-msgstr ""
-"Wir rufen Sie gleich auf Ihrem Telefon an, bitte geben Sie die\n"
-" …Ziffern ein, die Sie hören."
+msgstr "Wir rufen gerade Ihr Telefon an, bitte geben Sie die Ziffern ein, die Sie hören."
 
-#, fuzzy
-#| msgid ""
-#| "We sent you a text message, please enter the tokens we\n"
-#| "        sent."
 msgid "We sent you a text message, please enter the tokens we sent."
-msgstr ""
-"Wir haben Ihnen eine SMS geschickt.\n"
-"……Bitte geben Sie das Einmal-Passwort ein."
+msgstr "Wir haben Ihnen eine SMS gesendet, bitte geben Sie die von uns gesendeten Token ein."
 
 msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
 msgstr ""
@@ -3594,10 +3533,8 @@ msgstr "Ungültiges Passwort. Bitte versuchen Sie es erneut."
 msgid "E-mail already exists in our system"
 msgstr "E-Mail-Adresse existiert bereits in unserem System"
 
-#, fuzzy
-#| msgid "You have confirmed your email address!"
 msgid "You may have a maximum of {} email addresses"
-msgstr "Sie haben Ihre E-Mail-Adresse bestätigt!"
+msgstr "Sie dürfen maximal {} E-Mail-Adressen haben"
 
 msgid "Cannot remove primary email"
 msgstr ""
