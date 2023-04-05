@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-04-05 18:58+0000\n"
+"PO-Revision-Date: 2023-04-05 20:58+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -1647,45 +1647,29 @@ msgstr "API: Melissa-Anfragedrosselung für anonyme Anfragen aktiviert (ips)"
 msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
 msgstr "API: Drosselgrößenschwelle für wiederholte Anfragen für IP-Blöcke (Byte)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for ip blocks"
 msgid "API: Repeated request throttle rate for ip blocks"
-msgstr "API: Drosselungsrate der Antwortgröße für IP-Blöcke"
+msgstr "API: Drosselungsrate für wiederholte Anfragen für IP-Blöcke"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for ip blocks"
 msgid "API: Repeated request throttle enabled for ip blocks"
-msgstr "API: Drosselung der Antwortgröße für IP-Blöcke aktiviert"
+msgstr "API: Wiederholte Anforderungsdrosselung für IP-Blöcke aktiviert"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for ip addresses (bytes)"
 msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
-msgstr "API: Drosselungsschwellenwert für Antwortgröße für IP-Adressen (Bytes)"
+msgstr "API: Drosselungsgröße für wiederholte Anfragen für IP-Adressen (Byte)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for ip addresses"
 msgid "API: Repeated request throttle rate for ip addresses"
-msgstr "API: Drosselungsrate der Antwortgröße für IP-Adressen"
+msgstr "API: Drosselungsrate für wiederholte Anfragen für IP-Adressen"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for ip addresses"
 msgid "API: Repeated request throttle enabled for ip addresses"
-msgstr "API: Drosselung der Antwortgröße für IP-Adressen aktiviert"
+msgstr "API: Drosselung der wiederholten Anforderung für IP-Adressen aktiviert"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for authenticated users (bytes)"
 msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
-msgstr "API: Drosselungsschwellenwert für Antwortgröße für authentifizierte Benutzer (Bytes)"
+msgstr "API: Drosselungsgröße für wiederholte Anfragen für authentifizierte Benutzer (Byte)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for authenticated users"
 msgid "API: Repeated request throttle rate for authenticated users"
-msgstr "API: Drosselungsrate der Antwortgröße für authentifizierte Benutzer"
+msgstr "API: Drosselungsrate für wiederholte Anfragen für authentifizierte Benutzer"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for authenticated users"
 msgid "API: Repeated request throttle enabled for authenticated users"
-msgstr "API: Drosselung der Antwortgröße für authentifizierte Benutzer aktiviert"
+msgstr "API: Drosselung der wiederholten Anforderung für authentifizierte Benutzer aktiviert"
 
 #, fuzzy
 #| msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
