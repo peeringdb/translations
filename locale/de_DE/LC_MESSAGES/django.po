@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-31 02:25+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2023-04-05 18:58+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -468,15 +468,11 @@ msgstr "Trafficverhältnis-Anforderung"
 msgid "Contract Requirement"
 msgstr "Vertrag erforderlich"
 
-#, fuzzy
-#| msgid "status"
 msgid "RIR status"
-msgstr "Status"
+msgstr "RIR Status"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "RIR status updated"
-msgstr "Zuletzt aktualisiert"
+msgstr "RIR Status aktualisiert"
 
 msgid "Network"
 msgstr "Netzwerk"
@@ -581,29 +577,25 @@ msgid "Public Peering Exchange Points"
 msgstr "Öffentliche Peering Austauschpunkte"
 
 msgid "Carrier"
-msgstr ""
+msgstr "Carrier"
 
 msgid "Carriers"
-msgstr ""
+msgstr "Carrier"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "Carrier presence at facility"
-msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+msgstr "Anzahl der Carrier verfügbar in der Liegenschaft"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "Carrier presences at facility"
-msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+msgstr "Carrier verfügbar in der Liegenschaft"
 
 msgid "Campus Name"
-msgstr ""
+msgstr "Campusname"
 
 msgid "Campus"
-msgstr ""
+msgstr "Campus"
 
 msgid "Campuses"
-msgstr ""
+msgstr "Campus"
 
 msgid "Czech"
 msgstr "Tschechisch"
@@ -654,7 +646,7 @@ msgid "Target org cannot be in selected organizations list"
 msgstr "Zielorganisation darf nicht in ausgewählter Organisationsliste sein"
 
 msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
-msgstr ""
+msgstr "Es gibt einige Sponsorship-Konflikte, die manuell aufgelöst werden müssen, bevor diese Zusammenführung stattfinden kann. {} wurde über diesen Konflikt benachrichtigt. Widersprüchliche Organisationen: {}"
 
 msgid "ROLLBACK"
 msgstr "ZURÜCKSETZEN"
@@ -1020,10 +1012,8 @@ msgstr "Muss mindestens 10 Zeichen lang sein"
 msgid "Passwords need to match"
 msgstr "Passwörter stimmen nicht überein"
 
-#, fuzzy
-#| msgid "This email address has already been used"
 msgid "This username is already taken"
-msgstr "Diese E-Mail-Adresse wurde bereits genutzt"
+msgstr "Dieser Nutzername wird bereits genutzt"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "Bitte füllen Sie das Anti-Spam Aufforderungsfeld (Captcha) aus"
@@ -1138,10 +1128,8 @@ msgstr "PeeringDB: bitte korrigieren: IX-F Importer, Datendiskrepanz zwischen {}
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
 
-#, fuzzy
-#| msgid "active"
 msgid "Inactive"
-msgstr "Aktiv"
+msgstr "Inaktiv"
 
 msgid "Silver"
 msgstr "Silber"
@@ -1177,19 +1165,19 @@ msgid "Validate Data"
 msgstr "Daten validieren"
 
 msgid "1 Week"
-msgstr ""
+msgstr "1 Woche"
 
 msgid "2 Weeks"
-msgstr ""
+msgstr "2 Wochen"
 
 msgid "1 Month"
-msgstr ""
+msgstr "1 Monat"
 
 msgid "6 Months"
-msgstr ""
+msgstr "6 Monate"
 
 msgid "1 Year"
-msgstr ""
+msgstr "1 Jahr"
 
 msgid "Reset Environment"
 msgstr "Setze Umgebung zurück"
@@ -1202,8 +1190,7 @@ msgstr "IX-F Import"
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
 msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' noch nicht genehmigt wurde"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
@@ -1298,13 +1285,13 @@ msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Erlaubt es, ein Unternehmens-Logo für dieses Unternehmen hochzuladen und zu ändern"
 
 msgid "Require users in your organization to have email addresses within your specified domains."
-msgstr ""
+msgstr "Fordern Sie Benutzer in Ihrer Organisation auf, E-Mail-Adressen innerhalb Ihrer angegebenen Domains zu haben."
 
 msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
-msgstr ""
+msgstr "Wenn die Benutzer-E-Mail-Beschränkung aktiviert ist: Nur Benutzer mit E-Mails in diesen Domänen zulassen. Eine Domain pro Zeile im Format „@xyz.com“"
 
 msgid "Require users in this organization to periodically re-authenticate"
-msgstr ""
+msgstr "Fordern Sie Benutzer in dieser Organisation auf, sich regelmäßig neu zu authentifizieren"
 
 msgid "Organization has active objects under it."
 msgstr "Die Organisation hat aktive Objekte unter sich."
@@ -1484,10 +1471,10 @@ msgid "Requirement of another IXFMemberData entry and will be applied alongside 
 msgstr "Erfordert einen anderen IXFMemberData Eintrag und wird nebenher angelegt"
 
 msgid "Indicates how many extra notifications were sent to the network for this proposal. Extra notifications can be sent for stale netixlan entries over time."
-msgstr ""
+msgstr "Gibt an, wie viele zusätzliche Benachrichtigungen für diesen Vorschlag an das Netzwerk gesendet wurden. Im Laufe der Zeit können zusätzliche Benachrichtigungen für veraltete Netixlan-Einträge gesendet werden."
 
 msgid "Last time extra notifications were sent to the network for this proposal."
-msgstr ""
+msgstr "Beim letzten Mal wurden zusätzliche Benachrichtigungen für diesen Vorschlag an das Netzwerk gesendet."
 
 msgid "IX-F Member Data"
 msgstr "IX-F Mitgliedsdaten"
@@ -1510,10 +1497,8 @@ msgstr "Anzahl der Liegenschaft an diesem Netzwerk"
 msgid "Last technical contact point for network with active peers"
 msgstr "Letzter technischer Kontakt für Netzwerk mit aktiven Peers"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Phone or email required"
-msgstr "Vertrag erforderlich"
+msgstr "Telefon oder E-Mail erforderlich"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "Die Entität wurde für das ASN {} erstellt - bitte entferne es von dem Netzwerk und erstelle es nochmal im richtigen Netzwerk"
@@ -1530,10 +1515,8 @@ msgstr "Maximale Geschwindigkeit: {}"
 msgid "Minimum speed: {}"
 msgstr "Minimale Geschwindigkeit: {}"
 
-#, fuzzy
-#| msgid "Ixlan for exchange already exists"
 msgid "IP already exists"
-msgstr "Ixlan für den Austauschpunkt existiert bereits"
+msgstr "IP existiert bereits"
 
 msgid "username"
 msgstr "Benutzername"
@@ -1568,22 +1551,20 @@ msgstr "Beitrittsdatum"
 msgid "status"
 msgstr "Status"
 
-#, fuzzy
-#| msgid "Users in Organization"
 msgid "The user's primary organization"
-msgstr "User in der Organisation"
+msgstr "Die primäre Organisation des Benutzers"
 
 msgid "language"
 msgstr "Sprache"
 
 msgid "Account is orphaned and has been flagged for deletion at this date"
-msgstr ""
+msgstr "Das Konto ist verwaist und wurde zu diesem Datum zum Löschen vorgemerkt"
 
 msgid "User has been notified about pending account deletion at this date"
-msgstr ""
+msgstr "Der Benutzer wurde über die bevorstehende Kontolöschung zu diesem Datum benachrichtigt"
 
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
-msgstr ""
+msgstr "Dieser Benutzer wird niemals durch den Bereinigungsprozess für verwaiste Benutzer zum Löschen gekennzeichnet."
 
 msgid "user"
 msgstr "Benutzer"
@@ -1640,10 +1621,10 @@ msgid "API: Authenticated API throttle rate"
 msgstr "API: Authentifizierte API-Drosselrate"
 
 msgid "API: Melissa request throttle rate for admin users"
-msgstr ""
+msgstr "API: Melissa-Anforderungsdrosselungsrate für Administratorbenutzer"
 
 msgid "API: Melissa request throttle enabled for admin users"
-msgstr ""
+msgstr "API: Melissa-Anforderungsdrosselung für Administratorbenutzer aktiviert"
 
 msgid "API: Melissa request throttle rate for users"
 msgstr "API: Drosselungsrate für Melissa-Anforderungen für Benutzer"
@@ -1663,10 +1644,8 @@ msgstr "API: Drosselungsrate für Melissa-Anfragen für anonyme Anfragen (ips)"
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr "API: Melissa-Anfragedrosselung für anonyme Anfragen aktiviert (ips)"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for ip blocks (bytes)"
 msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
-msgstr "API: Drosselungsschwellenwert für Antwortgröße für IP-Blöcke (Byte)"
+msgstr "API: Drosselgrößenschwelle für wiederholte Anfragen für IP-Blöcke (Byte)"
 
 #, fuzzy
 #| msgid "API: Response size throttle rate for ip blocks"
