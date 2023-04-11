@@ -3884,6 +3884,9 @@ msgstr "ώρες πριν"
 msgid "days ago"
 msgstr "μέρες πριν"
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -3951,6 +3954,37 @@ msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, fuzzy, python-brace-format
+#| msgid "Invalid username/password."
+msgid "Invalid {service} username!"
+msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid service!"
+msgstr "Μη έγκυρη ετικέττα"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid identifier!"
+msgstr "Μη έγκυρη μορφή εξαγωγής"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν αιτηθείτε ξανά κυριότητας."
@@ -4258,9 +4292,6 @@ msgstr "Ορίστε προτίμηση γλώσσας"
 
 #~ msgid "Account disabled."
 #~ msgstr "Ο λογαριασμός έχει απενεργοποιηθεί"
-
-#~ msgid "Invalid username/password."
-#~ msgstr "Μη έγκυρο όνομα χρήστη/κωδικός."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"

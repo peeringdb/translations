@@ -3848,6 +3848,9 @@ msgstr "منذ ساعه"
 msgid "days ago"
 msgstr "منذ يوم"
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -3911,6 +3914,37 @@ msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, fuzzy, python-brace-format
+#| msgid "Invalid username/password."
+msgid "Invalid {service} username!"
+msgstr "اسم المستخدم / كلمة المرور غير صحيحة."
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid service!"
+msgstr "علامة غير صحيحة"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid identifier!"
+msgstr "صيغة التنسيق لتصدير البيانات غير صحيحه"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "الرجاء الانتظار قليلاً قبل اجراء طلب الملكية مرة أخرى."
@@ -4225,9 +4259,6 @@ msgstr "ضبط اللغة المفضلة"
 
 #~ msgid "Account disabled."
 #~ msgstr "تم إيقاف الحساب."
-
-#~ msgid "Invalid username/password."
-#~ msgstr "اسم المستخدم / كلمة المرور غير صحيحة."
 
 #~ msgid "dot1q"
 #~ msgstr "بروتوكول dot1q"

@@ -3847,6 +3847,9 @@ msgstr "hace horas"
 msgid "days ago"
 msgstr "hace días"
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -3912,6 +3915,37 @@ msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, fuzzy, python-brace-format
+#| msgid "Invalid username/password."
+msgid "Invalid {service} username!"
+msgstr "Nombre de usuario/contraseña no válida."
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid service!"
+msgstr "Etiqueta inválida"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid identifier!"
+msgstr "Formato de exportación no válido"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Por favor, espere unos minutos antes de solicitar propiedad otra vez."
@@ -4264,9 +4298,6 @@ msgstr "Establecer preferencia de idioma"
 
 #~ msgid "Account disabled."
 #~ msgstr "Cuenta desactivada."
-
-#~ msgid "Invalid username/password."
-#~ msgstr "Nombre de usuario/contraseña no válida."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"

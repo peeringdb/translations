@@ -3918,6 +3918,9 @@ msgstr ""
 msgid "days ago"
 msgstr ""
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -3982,6 +3985,36 @@ msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} username!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid service!"
+msgstr "Ugyldigt eksport format"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid identifier!"
+msgstr "Ugyldigt eksport format"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr ""

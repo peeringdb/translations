@@ -3855,6 +3855,9 @@ msgstr ""
 msgid "days ago"
 msgstr ""
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before trying to login again."
 msgid "Invalid format"
@@ -3918,6 +3921,37 @@ msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, fuzzy, python-brace-format
+#| msgid "Invalid username/password."
+msgid "Invalid {service} username!"
+msgstr "Geçersiz kullanıcı adı/şifre."
+
+#, fuzzy
+#| msgid "Please wait a bit before trying to login again."
+msgid "Invalid service!"
+msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
+
+#, fuzzy
+#| msgid "Please wait a bit before trying to login again."
+msgid "Invalid identifier!"
+msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 
 #, fuzzy
 #| msgid "Please wait a bit before trying to login again."
@@ -4179,6 +4213,3 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 #~ msgid "Account disabled."
 #~ msgstr "Hesap hizmet dışı bırakılmıştır."
-
-#~ msgid "Invalid username/password."
-#~ msgstr "Geçersiz kullanıcı adı/şifre."

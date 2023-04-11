@@ -3855,6 +3855,9 @@ msgstr "小时前"
 msgid "days ago"
 msgstr "天前"
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -3918,6 +3921,37 @@ msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, fuzzy, python-brace-format
+#| msgid "Invalid username/password."
+msgid "Invalid {service} username!"
+msgstr "无效的用户名/密码。"
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid service!"
+msgstr "标签无效"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid identifier!"
+msgstr "导出格式无效"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "请稍后再请求所有权。"
@@ -4228,9 +4262,6 @@ msgstr "设置语言偏好"
 
 #~ msgid "Account disabled."
 #~ msgstr "帐户已禁用。"
-
-#~ msgid "Invalid username/password."
-#~ msgstr "无效的用户名/密码。"
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"

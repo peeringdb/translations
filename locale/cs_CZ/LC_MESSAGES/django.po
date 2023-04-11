@@ -3880,6 +3880,9 @@ msgstr "hodin před"
 msgid "days ago"
 msgstr "dnů před"
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -3947,6 +3950,37 @@ msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, fuzzy, python-brace-format
+#| msgid "Invalid username/password."
+msgid "Invalid {service} username!"
+msgstr "Neplatné uživatelské jméno / heslo."
+
+#, fuzzy
+#| msgid "Invalid tag"
+msgid "Invalid service!"
+msgstr "Neplatný štítek"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid identifier!"
+msgstr "Chybný formát exportu"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Počkejte prosím chvíli, než požádáte znovu žádost o vlastnictví."
@@ -4255,9 +4289,6 @@ msgstr "Nastavte preferenci jazyka"
 
 #~ msgid "Account disabled."
 #~ msgstr "Účet zablokován."
-
-#~ msgid "Invalid username/password."
-#~ msgstr "Neplatné uživatelské jméno / heslo."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"

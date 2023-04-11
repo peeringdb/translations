@@ -3447,6 +3447,9 @@ msgstr "ore în urmă"
 msgid "days ago"
 msgstr "zile în urmă"
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -3508,6 +3511,37 @@ msgstr "Trebuie să fie „adevărat”, „fals”, 1 sau 0"
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 msgstr "Setare nevalidă! Valoarea acceptabilă este un număr urmat de una dintre următoarele: minut, oră, secunde, zi, săptămână, lună, an. de exemplu (10/minut, 1/oră, 5/zi, 1/săptămână, 1/lună, 1/an)"
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, fuzzy, python-brace-format
+#| msgid "Invalid username/password."
+msgid "Invalid {service} username!"
+msgstr "Numele de utilizator sau parola nu sunt valide."
+
+#, fuzzy
+#| msgid "Invalid value"
+msgid "Invalid service!"
+msgstr "Valoarea nu este validă"
+
+#, fuzzy
+#| msgid "Invalid export format"
+msgid "Invalid identifier!"
+msgstr "Formatul exportului nu este valid"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
@@ -3866,9 +3900,6 @@ msgstr "Preferință de limbă incorectă"
 
 #~ msgid "Account disabled."
 #~ msgstr "Cont dezactivat."
-
-#~ msgid "Invalid username/password."
-#~ msgstr "Numele de utilizator sau parola nu sunt valide."
 
 #~ msgid "dot1q"
 #~ msgstr "dot1q"

@@ -3377,6 +3377,9 @@ msgstr ""
 msgid "days ago"
 msgstr ""
 
+msgid "{soc.get(\"service\", dismiss)}"
+msgstr ""
+
 msgid "Invalid format"
 msgstr ""
 
@@ -3435,6 +3438,32 @@ msgid "Needs to be 'True', 'False', 1 or 0"
 msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
+msgid "Malformed social media data."
+msgstr ""
+
+msgid "Duplicate social media services set."
+msgstr ""
+
+msgid "Service should not be empty!"
+msgstr ""
+
+msgid "Identifier should not be empty!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} URL!"
+msgstr ""
+
+#, python-brace-format
+msgid "Invalid {service} username!"
+msgstr ""
+
+msgid "Invalid service!"
+msgstr ""
+
+msgid "Invalid identifier!"
 msgstr ""
 
 msgid "Please wait a bit before requesting ownership again."
