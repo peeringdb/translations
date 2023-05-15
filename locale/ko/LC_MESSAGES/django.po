@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-12-26 14:58+0000\n"
+"PO-Revision-Date: 2023-05-15 14:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -621,7 +621,7 @@ msgid "Campus Name"
 msgstr ""
 
 msgid "Campus"
-msgstr ""
+msgstr "캠퍼스"
 
 msgid "Campuses"
 msgstr ""
@@ -691,10 +691,8 @@ msgstr "보호된 개체 '{}: {}"
 msgid "Delete selected objects"
 msgstr "선택한 항목 거부 및 삭제"
 
-#, fuzzy
-#| msgid "Please contact {} to help with the deletion of this object"
 msgid "Please confirm deletion of selected objects."
-msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
+msgstr "선택한 개체의 삭제를 확인하십시오."
 
 msgid "SOFT DELETE"
 msgstr "삭제 보류 표시"
@@ -930,10 +928,8 @@ msgstr ""
 msgid "Key not found"
 msgstr "네트워크를 찾을 수 없음"
 
-#, fuzzy
-#| msgid "This field is required"
 msgid "This field is required."
-msgstr "필수 입력"
+msgstr "필수 입력."
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1920,10 +1916,8 @@ msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value"
-msgstr "잘못된 태그"
+msgstr "잘못된 값"
 
 msgid "This field is required"
 msgstr "필수 입력"
@@ -2004,16 +1998,13 @@ msgstr ""
 msgid "(Warning: potentially long load)"
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $.\n"
+#, python-format
 msgid ""
 "\n"
 "To use <a href=\"%(doc_url)s\" target=\"_blank\">regex search</a>, begin search term with ^ and end with $. <!-- lgtm[js/unsafe-external-link] -->\n"
 msgstr ""
 "\n"
-"<a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> 를 사용하려면 검색어를 ^ 로 시작하고 $로 끝냅니다.\n"
+"<a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> 를 사용하려면 검색어를 ^ 로 시작하고 $. <!-- lgtm[js/unsafe-external-link] -->로 끝냅니다.\n"
 
 msgid "WARNING! This object currently has DoTF protection:"
 msgstr ""
@@ -2501,10 +2492,9 @@ msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십�
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성된 %(entity_name)s가 검색 결과 또는 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 함을 주의하십시오"
 
-#, fuzzy, python-format
-#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+#, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
-msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성된 %(entity_name)s가 검색 결과 또는 API 목록에 나타나기 전에 PeeringDB 직원의 승인을 받아야 함을 주의하십시오"
+msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 캠퍼스에 최소한 <strong>2</strong>개의 시설이 설치될 때까지 다른 사용자는 캠퍼스를 볼 수 없습니다."
 
 #, fuzzy
 #| msgid "Add a new Network to your Organization."
@@ -3005,8 +2995,6 @@ msgstr "소유권을 확실히 가지고 있는 경우에만 소유권을 요청
 msgid "Only verified users may request ownership to an organization"
 msgstr "확인된 사용자만 조직에 소유권을 요청할 수 있음"
 
-#, fuzzy
-#| msgid "Sponsors"
 msgid "sponsor"
 msgstr "스폰서"
 
@@ -3016,10 +3004,8 @@ msgstr "익스체인지 제안"
 msgid "Suggest Network"
 msgstr "네트워크 제안"
 
-#, fuzzy
-#| msgid "Delete organization?"
 msgid "Set primary organization"
-msgstr "조직을 삭제하시겠습니까?"
+msgstr "기본 조직 설정"
 
 #, fuzzy
 #| msgid "Organization Merges"
@@ -3067,7 +3053,7 @@ msgstr "당신의 확인 이메일을 다시 전송하였습니다"
 #, fuzzy
 #| msgid "Confirm your e-mail address"
 msgid "Please confirm your email addresses "
-msgstr "이메일 주소를 확인하시오"
+msgstr "이메일 주소를 확인하시오 "
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "당신의 계정은 아직 조직에 가입되어 있지 않으며 일부 데이터(예: 비공개 네트워크 연락처 정보)에 대한 액세스가 제한됩니다."
@@ -3576,23 +3562,11 @@ msgstr ""
 msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
 msgstr ""
 
-#, fuzzy
-#| msgid ""
-#| "We are calling your phone right now, please enter the\n"
-#| "        digits you hear."
 msgid "We are calling your phone right now, please enter the digits you hear."
-msgstr ""
-"지금 당신의 폰으로 전화를 걸고 있습니다, 들리는 숫자를 \n"
-"입력하십시오."
+msgstr "지금 당신의 폰으로 전화를 걸고 있습니다, 들리는 숫자를 입력하십시오."
 
-#, fuzzy
-#| msgid ""
-#| "We sent you a text message, please enter the tokens we\n"
-#| "        sent."
 msgid "We sent you a text message, please enter the tokens we sent."
-msgstr ""
-"문자를 발송하였습니다, 발송된\n"
-"인증번호를 입력하십시오."
+msgstr "문자를 발송하였습니다, 발송된 인증번호를 입력하십시오."
 
 msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
 msgstr ""
