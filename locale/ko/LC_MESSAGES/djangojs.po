@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-08-23 10:27+0000\n"
+"PO-Revision-Date: 2023-05-15 14:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/javascript/ko/>\n"
 "Language: ko\n"
@@ -21,19 +21,19 @@ msgid "Some of the fields contain invalid values - please correct and try again.
 msgstr "일부 필드에 잘못된 값이 포함되어 있음 - 수정하고 다시 시도하십시오."
 
 msgid "Permission denied"
-msgstr ""
+msgstr "승인 거부됨"
 
 msgid "Bad request"
-msgstr ""
+msgstr "잘못된 요청"
 
 msgid "Not found"
-msgstr ""
+msgstr "오류"
 
 msgid "File too large"
-msgstr ""
+msgstr "파일 용량 초과"
 
 msgid "Internal error"
-msgstr ""
+msgstr "내부 오류"
 
 msgid "Something went wrong."
 msgstr "무언가가 잘못되었습니다."
@@ -66,13 +66,13 @@ msgid "No"
 msgstr "없음"
 
 msgid "Please wait before requesting another import."
-msgstr ""
+msgstr "새 삽입을 요청하기 전에 기다려 주십시오."
 
 msgid "Available in: "
-msgstr ""
+msgstr "이용 가능한 곳: "
 
 msgid "seconds"
-msgstr ""
+msgstr "초"
 
 msgid "Nothing to do"
 msgstr ""
@@ -87,10 +87,10 @@ msgid "Update these entries"
 msgstr "이 항목들 업데이트하기"
 
 msgid "You do not have permissions to perform this action"
-msgstr ""
+msgstr "이 작업을 수행할 권한이 없습니다"
 
 msgid "sponsor"
-msgstr ""
+msgstr "스폰서"
 
 msgid "Remove"
 msgstr "삭제"
@@ -99,10 +99,10 @@ msgid "Canceled"
 msgstr "취소됨"
 
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
-msgstr ""
+msgstr "API 키가 성공적으로 생성되었습니다. 이 키를 안전한 곳에 저장해 두세요. 이 메시지를 종료하거나 덮어쓴 후에는 키를 복구할 수 없습니다."
 
 msgid "Revoke key"
-msgstr ""
+msgstr "해지 키"
 
 msgid "Add user"
 msgstr "사용자 추가"
@@ -135,7 +135,7 @@ msgid "Facility"
 msgstr "시설"
 
 msgid "Campus"
-msgstr ""
+msgstr "캠퍼스"
 
 msgid "Network Contact"
 msgstr "네트워크 대표 연락처"
@@ -156,13 +156,13 @@ msgid "Carrier presence at Facility"
 msgstr ""
 
 msgid "Click to remove"
-msgstr ""
+msgstr "삭제하려면 클릭하세요"
 
 msgid "Needs to be an integer or a speed ending in M, G, or T"
-msgstr ""
+msgstr "M, G 또는 T로 끝나는 속도 또는 정수여야 합니다"
 
 msgid "Upload"
-msgstr ""
+msgstr "업로드"
 
 msgid "File size too big"
-msgstr ""
+msgstr "파일 용량 초과"
