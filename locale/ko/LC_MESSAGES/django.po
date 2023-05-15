@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-05-15 14:58+0000\n"
+"PO-Revision-Date: 2023-05-15 15:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1067,10 +1067,9 @@ msgstr "잘못된 재캡차"
 msgid "captcha invalid"
 msgstr "잘못된 캡차"
 
-#, fuzzy, python-format
-#| msgid "Negative value not allowed"
+#, python-format
 msgid "File type %(value)s not allowed"
-msgstr "음수 값은 허용되지 않음"
+msgstr "파일 형식 %(value)s 은(는) 허용되지 않습니다"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
@@ -2139,10 +2138,9 @@ msgstr "조직 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) %(u_name)s가 AS%
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
 msgstr "네트워크 %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) 가 AS%(asn)s 에 대한 사용자 '%(u_name)s's 의 소속 요청 중 자동으로 생성됨"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+#, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "사용자 '%(u_name)s'는 %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) 조직 아래 %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>)네트워크를 생성했습니다."
+msgstr "이메일'%(email)s' 이(가) 포함된 조직 API 키 (prefix:%(prefix)s가 네트워크 %(n_name)s 의 AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a> 아래에 생성되었습니다."
 
 #, fuzzy
 #| msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
@@ -3045,10 +3043,9 @@ msgstr "사용자 이름 검색"
 msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid "We have resent your confirmation email"
+#, python-format
 msgid "%(org_name)s requests confirmation of %(email)s"
-msgstr "당신의 확인 이메일을 다시 전송하였습니다"
+msgstr "%(org_name)s에서 %(email)s 확인 요청"
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
@@ -3162,10 +3159,8 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "작동하지 않음"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "This carrier wants to list its presence at this facility."
-msgstr "이 시설에 존재하는 네트워크 수"
+msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 #, fuzzy
 #| msgid "Status of this request"
@@ -3574,10 +3569,8 @@ msgstr ""
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr ""
 
-#, fuzzy
-#| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
-msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
+msgstr "2단계 인증에 TOPT 방법 추가"
 
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
@@ -3757,10 +3750,8 @@ msgstr ""
 msgid "E-mail already exists in our system"
 msgstr "이메일이 시스템에 이미 있음"
 
-#, fuzzy
-#| msgid "You have confirmed your email address!"
 msgid "You may have a maximum of {} email addresses"
-msgstr "이메일 주소를 확인하셨습니다!"
+msgstr "최대 {}개의 이메일 주소를 가질 수 있습니다"
 
 msgid "Cannot remove primary email"
 msgstr ""
