@@ -800,6 +800,12 @@ msgstr "SCHVÁLENÝ"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Uživatel chce být přidružen k těmto organizacím"
 
+msgid "User has these TOTP devices"
+msgstr ""
+
+msgid "User has these Webauthn Security Keys"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import History"
 msgid "IX-F Import History"
@@ -2016,6 +2022,13 @@ msgstr "Jakékoliv zařízení"
 msgid "Any Exchange"
 msgstr "Jakýkoliv propojovací uzel"
 
+msgid "Manage peering sessions - Any Network"
+msgstr ""
+
+#, python-format
+msgid "Manage peering sessions - %(net_name)s"
+msgstr ""
+
 #, python-format
 msgid "Network - %(net_name)s"
 msgstr "Síť - %(net_name)s"
@@ -2799,6 +2812,9 @@ msgstr "Vyhledat Síť, Propojovací uzel nebo Zařízení."
 msgid "Advanced Search"
 msgstr "Rozšířené hledání"
 
+msgid "v2 Search (Beta)"
+msgstr ""
+
 msgid "pending"
 msgstr "nevyřízený"
 
@@ -3201,6 +3217,30 @@ msgstr "Požádejte o vlastnictví pouze tehdy, pokud jste si jisti, že k tomu 
 
 msgid "Only verified users may request ownership to an organization"
 msgstr "Pouze ověřený uživatel může požádat o vlastnictví organizace"
+
+#, python-format
+msgid ""
+"\n"
+"    You are using our new beta search interface.\n"
+"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+"    "
+msgstr ""
+
+msgid "Showing results for"
+msgstr ""
+
+msgid "in"
+msgstr ""
+
+msgid "within"
+msgstr ""
+
+msgid "near"
+msgstr ""
+
+msgid "Could not resolve the location you provided: "
+msgstr ""
 
 #, fuzzy
 #| msgid "Sponsors"
@@ -3670,6 +3710,9 @@ msgstr "Potrzeno"
 msgid "Date"
 msgstr "Datum"
 
+msgid "Email address requirements not met"
+msgstr ""
+
 msgid "Currently no users requesting affiliation with"
 msgstr "V současné době nejsou žádní uživatelé žádající o přidružení k"
 
@@ -3680,9 +3723,6 @@ msgstr "Organizace"
 
 msgid "Group"
 msgstr "Skupina"
-
-msgid "Email address requirements not met"
-msgstr ""
 
 msgid "Restrict user email addresses to these domains"
 msgstr ""

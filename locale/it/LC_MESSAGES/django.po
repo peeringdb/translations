@@ -759,6 +759,12 @@ msgstr "APPROVATO"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "L'utente vorrebbe essere affiliato a queste Organizzazioni"
 
+msgid "User has these TOTP devices"
+msgstr ""
+
+msgid "User has these Webauthn Security Keys"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import History"
 msgid "IX-F Import History"
@@ -1965,6 +1971,13 @@ msgstr "Qualsiasi Struttura"
 msgid "Any Exchange"
 msgstr "Qualsiasi Interscambio"
 
+msgid "Manage peering sessions - Any Network"
+msgstr ""
+
+#, python-format
+msgid "Manage peering sessions - %(net_name)s"
+msgstr ""
+
 #, python-format
 msgid "Network - %(net_name)s"
 msgstr "Rete - %(net_name)s"
@@ -2749,6 +2762,9 @@ msgstr "Cerca qui per una rete, IXP, o struttura."
 msgid "Advanced Search"
 msgstr "Ricerca Avanzata"
 
+msgid "v2 Search (Beta)"
+msgstr ""
+
 msgid "pending"
 msgstr "pendente"
 
@@ -3148,6 +3164,30 @@ msgstr "Si prega di richiedere il possesso solo se si è certi di avere i diritt
 
 msgid "Only verified users may request ownership to an organization"
 msgstr "Solo gli utenti verificati possono richiedere il possesso di un'organizzazione"
+
+#, python-format
+msgid ""
+"\n"
+"    You are using our new beta search interface.\n"
+"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+"    "
+msgstr ""
+
+msgid "Showing results for"
+msgstr ""
+
+msgid "in"
+msgstr ""
+
+msgid "within"
+msgstr ""
+
+msgid "near"
+msgstr ""
+
+msgid "Could not resolve the location you provided: "
+msgstr ""
 
 #, fuzzy
 #| msgid "Sponsors"
@@ -3608,6 +3648,9 @@ msgstr "Confermato"
 msgid "Date"
 msgstr "Data"
 
+msgid "Email address requirements not met"
+msgstr ""
+
 msgid "Currently no users requesting affiliation with"
 msgstr "Attualmente nessun utente sta richiedendo affiliazione con"
 
@@ -3618,9 +3661,6 @@ msgstr "Organizzazione"
 
 msgid "Group"
 msgstr "Gruppo"
-
-msgid "Email address requirements not met"
-msgstr ""
 
 msgid "Restrict user email addresses to these domains"
 msgstr ""

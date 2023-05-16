@@ -730,6 +730,12 @@ msgstr "APPROUVÉ"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "L'utilisateur cherche à s'affilier aux organisations suivantes"
 
+msgid "User has these TOTP devices"
+msgstr ""
+
+msgid "User has these Webauthn Security Keys"
+msgstr ""
+
 msgid "IX-F Import History"
 msgstr "Historique d'import IX-F"
 
@@ -1940,6 +1946,13 @@ msgstr "N'importe quelle installation"
 msgid "Any Exchange"
 msgstr "N'importe quel échange"
 
+msgid "Manage peering sessions - Any Network"
+msgstr ""
+
+#, python-format
+msgid "Manage peering sessions - %(net_name)s"
+msgstr ""
+
 #, python-format
 msgid "Network - %(net_name)s"
 msgstr "Réseau - %(net_name)s"
@@ -2726,6 +2739,9 @@ msgstr "Recherche de réseau, point d'échange ou installation."
 msgid "Advanced Search"
 msgstr "Recherche avancée"
 
+msgid "v2 Search (Beta)"
+msgstr ""
+
 msgid "pending"
 msgstr "en attente"
 
@@ -3125,6 +3141,30 @@ msgstr "Merci de d’effectué une demande de propriété uniquement si vous ave
 
 msgid "Only verified users may request ownership to an organization"
 msgstr "Seuls les utilisateurs vérifiés peuvent effectuer une demande de propriété"
+
+#, python-format
+msgid ""
+"\n"
+"    You are using our new beta search interface.\n"
+"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+"    "
+msgstr ""
+
+msgid "Showing results for"
+msgstr ""
+
+msgid "in"
+msgstr ""
+
+msgid "within"
+msgstr ""
+
+msgid "near"
+msgstr ""
+
+msgid "Could not resolve the location you provided: "
+msgstr ""
 
 #, fuzzy
 #| msgid "Sponsors"
@@ -3585,6 +3625,9 @@ msgstr "Confirmé"
 msgid "Date"
 msgstr "Date"
 
+msgid "Email address requirements not met"
+msgstr ""
+
 msgid "Currently no users requesting affiliation with"
 msgstr "Actuellement aucun utilisateur ne demande l’affiliation avec"
 
@@ -3595,9 +3638,6 @@ msgstr "Organisation"
 
 msgid "Group"
 msgstr "Groupe"
-
-msgid "Email address requirements not met"
-msgstr ""
 
 msgid "Restrict user email addresses to these domains"
 msgstr ""

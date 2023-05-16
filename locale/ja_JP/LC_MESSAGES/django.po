@@ -721,6 +721,12 @@ msgstr "承認(APPROVED)"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "そのユーザはその組織に所属予定になっています"
 
+msgid "User has these TOTP devices"
+msgstr ""
+
+msgid "User has these Webauthn Security Keys"
+msgstr ""
+
 msgid "IX-F Import History"
 msgstr "IX-F インポート履歴"
 
@@ -1815,6 +1821,13 @@ msgstr "あらゆるデータセンタ"
 msgid "Any Exchange"
 msgstr "あらゆるエクスチェンジ"
 
+msgid "Manage peering sessions - Any Network"
+msgstr ""
+
+#, python-format
+msgid "Manage peering sessions - %(net_name)s"
+msgstr ""
+
 #, python-format
 msgid "Network - %(net_name)s"
 msgstr "ネットワーク - %(net_name)s"
@@ -2529,6 +2542,9 @@ msgstr "ここで、ネットワーク・IX・データセンタの検索が出�
 msgid "Advanced Search"
 msgstr "詳細な検索"
 
+msgid "v2 Search (Beta)"
+msgstr ""
+
 msgid "pending"
 msgstr "保留"
 
@@ -2912,6 +2928,32 @@ msgstr "あなたが所有権をリクエストする権利を持っていれば
 
 msgid "Only verified users may request ownership to an organization"
 msgstr "確認済みユーザだけが、組織の所有権のリクエストが出来ます"
+
+#, python-format
+msgid ""
+"\n"
+"    You are using our new beta search interface.\n"
+"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+#| msgid "Showing most recent"
+msgid "Showing results for"
+msgstr "Showing most recent"
+
+msgid "in"
+msgstr ""
+
+msgid "within"
+msgstr ""
+
+msgid "near"
+msgstr ""
+
+msgid "Could not resolve the location you provided: "
+msgstr ""
 
 msgid "sponsor"
 msgstr "スポンサー"
@@ -3313,6 +3355,9 @@ msgstr "確認済み(Confirmed)"
 msgid "Date"
 msgstr "日時"
 
+msgid "Email address requirements not met"
+msgstr ""
+
 msgid "Currently no users requesting affiliation with"
 msgstr "所属リクエストをしているユーザは現在いません"
 
@@ -3321,9 +3366,6 @@ msgstr "組織に所属しているユーザ"
 
 msgid "Group"
 msgstr "グループ"
-
-msgid "Email address requirements not met"
-msgstr ""
 
 msgid "Restrict user email addresses to these domains"
 msgstr ""

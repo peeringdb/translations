@@ -710,6 +710,12 @@ msgstr "BESTÄTIGT"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "Der Benutzer möchte mit diesen Unternehmen verbunden werden"
 
+msgid "User has these TOTP devices"
+msgstr ""
+
+msgid "User has these Webauthn Security Keys"
+msgstr ""
+
 msgid "IX-F Import History"
 msgstr "IX-F Import Verlauf"
 
@@ -1766,6 +1772,13 @@ msgstr "Alle Liegenschaften"
 msgid "Any Exchange"
 msgstr "Alle Austauschpunkte"
 
+msgid "Manage peering sessions - Any Network"
+msgstr ""
+
+#, python-format
+msgid "Manage peering sessions - %(net_name)s"
+msgstr ""
+
 #, python-format
 msgid "Network - %(net_name)s"
 msgstr "Netzwerk - %(net_name)s"
@@ -2465,6 +2478,9 @@ msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
 msgid "Advanced Search"
 msgstr "Erweiterte Suche"
 
+msgid "v2 Search (Beta)"
+msgstr ""
+
 msgid "pending"
 msgstr "Ausstehend"
 
@@ -2842,6 +2858,32 @@ msgstr "Bitte fordern Sie Eigentumsrechte an Objekten nur dann an, wenn Sie sich
 
 msgid "Only verified users may request ownership to an organization"
 msgstr "Nur verifizierte Benutzer können die Inhaberschaft einer Organisation beantragen"
+
+#, python-format
+msgid ""
+"\n"
+"    You are using our new beta search interface.\n"
+"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+#| msgid "Showing most recent"
+msgid "Showing results for"
+msgstr "Anzeige der Neuesten"
+
+msgid "in"
+msgstr ""
+
+msgid "within"
+msgstr ""
+
+msgid "near"
+msgstr ""
+
+msgid "Could not resolve the location you provided: "
+msgstr ""
 
 msgid "sponsor"
 msgstr "Sponsor"
@@ -3237,6 +3279,9 @@ msgstr "Bestätigt"
 msgid "Date"
 msgstr "Datum"
 
+msgid "Email address requirements not met"
+msgstr ""
+
 msgid "Currently no users requesting affiliation with"
 msgstr "Derzeit wartet kein Nutzer auf Zuordnung zu"
 
@@ -3245,9 +3290,6 @@ msgstr "User in der Organisation"
 
 msgid "Group"
 msgstr "Gruppe"
-
-msgid "Email address requirements not met"
-msgstr ""
 
 msgid "Restrict user email addresses to these domains"
 msgstr ""

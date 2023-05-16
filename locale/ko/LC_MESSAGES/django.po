@@ -723,6 +723,12 @@ msgstr "승인됨"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "사용자가 이 조직에 소속되기 위해 대기 중"
 
+msgid "User has these TOTP devices"
+msgstr ""
+
+msgid "User has these Webauthn Security Keys"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import History"
 msgid "IX-F Import History"
@@ -1875,6 +1881,13 @@ msgstr "모든 설비"
 msgid "Any Exchange"
 msgstr "모든 익스체인지"
 
+msgid "Manage peering sessions - Any Network"
+msgstr ""
+
+#, python-format
+msgid "Manage peering sessions - %(net_name)s"
+msgstr ""
+
 #, python-format
 msgid "Network - %(net_name)s"
 msgstr "네트워크 - %(net_name)s"
@@ -2609,6 +2622,9 @@ msgstr "여기에서 네트워크, IX 또는 시설을 검색하십시오."
 msgid "Advanced Search"
 msgstr "고급 검색"
 
+msgid "v2 Search (Beta)"
+msgstr ""
+
 msgid "pending"
 msgstr "보류"
 
@@ -2992,6 +3008,32 @@ msgstr "소유권을 확실히 가지고 있는 경우에만 소유권을 요청
 
 msgid "Only verified users may request ownership to an organization"
 msgstr "확인된 사용자만 조직에 소유권을 요청할 수 있음"
+
+#, python-format
+msgid ""
+"\n"
+"    You are using our new beta search interface.\n"
+"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+#| msgid "Showing most recent"
+msgid "Showing results for"
+msgstr "최신 정보 보기"
+
+msgid "in"
+msgstr ""
+
+msgid "within"
+msgstr ""
+
+msgid "near"
+msgstr ""
+
+msgid "Could not resolve the location you provided: "
+msgstr ""
 
 msgid "sponsor"
 msgstr "스폰서"
@@ -3394,6 +3436,9 @@ msgstr "확인됨"
 msgid "Date"
 msgstr "날짜"
 
+msgid "Email address requirements not met"
+msgstr ""
+
 msgid "Currently no users requesting affiliation with"
 msgstr "현재 소속을 요청하는 사용자가 없음"
 
@@ -3402,9 +3447,6 @@ msgstr "조직의 사용자"
 
 msgid "Group"
 msgstr "그룹"
-
-msgid "Email address requirements not met"
-msgstr ""
 
 msgid "Restrict user email addresses to these domains"
 msgstr ""

@@ -801,6 +801,12 @@ msgstr "被批准"
 msgid "User is looking to be affiliated to these Organizations"
 msgstr "用户希望加入这些组织"
 
+msgid "User has these TOTP devices"
+msgstr ""
+
+msgid "User has these Webauthn Security Keys"
+msgstr ""
+
 #, fuzzy
 #| msgid "IXF Import History"
 msgid "IX-F Import History"
@@ -2046,6 +2052,13 @@ msgstr "任何设施"
 msgid "Any Exchange"
 msgstr "任何交换点"
 
+msgid "Manage peering sessions - Any Network"
+msgstr ""
+
+#, python-format
+msgid "Manage peering sessions - %(net_name)s"
+msgstr ""
+
 #, python-format
 msgid "Network - %(net_name)s"
 msgstr "网络 - %(net_name)s"
@@ -2819,6 +2832,9 @@ msgstr "在此搜索网络、IX或设施。"
 msgid "Advanced Search"
 msgstr "高级搜索"
 
+msgid "v2 Search (Beta)"
+msgstr ""
+
 msgid "pending"
 msgstr "等待"
 
@@ -3208,6 +3224,30 @@ msgstr "请求所有权前请确认，您有相关权限。您确认继续吗？
 
 msgid "Only verified users may request ownership to an organization"
 msgstr "只有经过验证的用户才能申请组织的所有权"
+
+#, python-format
+msgid ""
+"\n"
+"    You are using our new beta search interface.\n"
+"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+"    "
+msgstr ""
+
+msgid "Showing results for"
+msgstr ""
+
+msgid "in"
+msgstr ""
+
+msgid "within"
+msgstr ""
+
+msgid "near"
+msgstr ""
+
+msgid "Could not resolve the location you provided: "
+msgstr ""
 
 #, fuzzy
 #| msgid "Sponsors"
@@ -3654,6 +3694,9 @@ msgstr "已确认"
 msgid "Date"
 msgstr "日期"
 
+msgid "Email address requirements not met"
+msgstr ""
+
 msgid "Currently no users requesting affiliation with"
 msgstr "当前没有用户请求关联"
 
@@ -3664,9 +3707,6 @@ msgstr "组织"
 
 msgid "Group"
 msgstr "组"
-
-msgid "Email address requirements not met"
-msgstr ""
 
 msgid "Restrict user email addresses to these domains"
 msgstr ""
