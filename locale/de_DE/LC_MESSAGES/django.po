@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-04-05 22:58+0000\n"
-"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
+"PO-Revision-Date: 2023-05-18 22:58+0000\n"
+"Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -274,19 +274,19 @@ msgid "Website"
 msgstr "Webseite"
 
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 msgid "Kosovo"
 msgstr "Kosovo"
@@ -334,7 +334,7 @@ msgid "Long Name"
 msgstr "Vollständiger Name"
 
 msgid "Social Media"
-msgstr ""
+msgstr "Soziale Medien"
 
 msgid "Notes"
 msgstr "Notizen"
@@ -2687,20 +2687,14 @@ msgstr "Sie erstellen einen API-Schlüssel für ein Superuser-Konto. Solche API-
 msgid "Read only"
 msgstr "Schreibgeschützt"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Email addresses"
-msgstr "E-Mail Adresse"
+msgstr "E-Mail Adressen"
 
-#, fuzzy
-#| msgid "Primary ASN"
 msgid "Primary"
-msgstr "Primäres ASN"
+msgstr "Primär"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Confirmation required"
-msgstr "Vertrag erforderlich"
+msgstr "Bestätigung erforderlich"
 
 #, fuzzy
 #| msgid "We have resent your confirmation email"
@@ -2708,7 +2702,7 @@ msgid "Resend confirmation email"
 msgstr "Wir haben Ihnen erneut eine Bestätigungsmail zugesandt"
 
 msgid "Set as primary"
-msgstr ""
+msgstr "Als primär setzen"
 
 msgid "Remove"
 msgstr "Entfernen"
@@ -2716,15 +2710,11 @@ msgstr "Entfernen"
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Für eine schnelle Validierung ist es erforderlich, dass Sie eine geschäftliche E-Mail-Adresse verwenden. Wenn Sie planen, Ihren ASN bei PeeringDB zu registrieren, wird empfohlen, dass Sie eine E-Mail-Adresse verwenden, die in den öffentlichen Kontaktdaten des ASN vorhanden ist."
 
-#, fuzzy
-#| msgid "Specify at least one email address"
 msgid "Set as primary email address"
-msgstr "Bitte mindestens eine E-Mail-Adresse angeben"
+msgstr "Als primäre E-Mail Adresse setzen"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Add email address"
-msgstr "E-Mail Adresse"
+msgstr "E-Mail Adresse hinzufügen"
 
 msgid "Change password"
 msgstr "Passwort ändern"
@@ -2738,20 +2728,14 @@ msgstr "Aktuelles Passwort"
 msgid "Password Verification"
 msgstr "Passwort erneut eingeben"
 
-#, fuzzy
-#| msgid "Exchange name"
 msgid "Change username"
-msgstr "Name des Austauschpunkt"
+msgstr "Benutzername ändern"
 
-#, fuzzy
-#| msgid "Username"
 msgid "Username changed"
-msgstr "Benutzername"
+msgstr "Benutzername geändert"
 
-#, fuzzy
-#| msgid "username"
 msgid "New username"
-msgstr "Benutzername"
+msgstr "Neuer Benutzername"
 
 msgid "Close Account"
 msgstr "Konto schließen"
@@ -2897,10 +2881,8 @@ msgstr "Netzwerk vorschlagen"
 msgid "Set primary organization"
 msgstr "Legen Sie die primäre Organisation fest"
 
-#, fuzzy
-#| msgid "My organization presence"
 msgid "Primary organization updated"
-msgstr "Präsenz meiner Organisation"
+msgstr "Primäre Organisation angepasst"
 
 msgid "Become a Sponsor"
 msgstr "Sponsor werden"
@@ -2956,7 +2938,7 @@ msgid "Manage OAuth Applications"
 msgstr "OAuth-Anwendungen verwalten"
 
 msgid "Add at least 2 facilities for your campus to be visible."
-msgstr ""
+msgstr "Füge mindestens 2 Gebäude hinzu damit dein Campus sichtbar wird."
 
 msgid "Pending Review"
 msgstr "In Prüfung"
@@ -2991,7 +2973,7 @@ msgid "Facility link"
 msgstr "Liegenschaft Name"
 
 msgid "Remove this carrier from your facility."
-msgstr ""
+msgstr "Entferne diesen Carrier von deinem Gebäude."
 
 msgid "Add Facility"
 msgstr "Gebäude hinzufügen"
@@ -3053,18 +3035,14 @@ msgstr "Nicht in Betrieb"
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Dieser Carrier möchte seine Präsenz in dieser Liegenschafr auflisten."
 
-#, fuzzy
-#| msgid "Status of this request"
 msgid "Click to accept this request"
-msgstr "Status der Anfrage"
+msgstr "Klicken zum akzeptieren der Anfrage"
 
-#, fuzzy
-#| msgid "click to select multiple"
 msgid "Click to reject this request"
-msgstr "STRG + klicken, um mehrere auswählen"
+msgstr "Klicken zum ablehnen der Anfrage"
 
 msgid "Reject"
-msgstr ""
+msgstr "Ablehnen"
 
 msgid "Contact Information"
 msgstr "Kontaktinformationen"
@@ -3217,10 +3195,10 @@ msgid "Add Exchange"
 msgstr "Exchange hinzufügen"
 
 msgid "Add Carrier"
-msgstr ""
+msgstr "Carrier hinzufügen"
 
 msgid "Add Campus"
-msgstr ""
+msgstr "Campus hinzufügen"
 
 msgid "Permissions"
 msgstr "Berechtigungen"
@@ -3229,7 +3207,7 @@ msgid "API Key Permissions"
 msgstr "API-Schlüsselberechtigungen"
 
 msgid "OAuth"
-msgstr ""
+msgstr "OAuth"
 
 msgid "Delete Organization"
 msgstr "Organisation löschen"
@@ -3280,7 +3258,7 @@ msgid "Date"
 msgstr "Datum"
 
 msgid "Email address requirements not met"
-msgstr ""
+msgstr "Email Address Anforderungen nicht erfüllt"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "Derzeit wartet kein Nutzer auf Zuordnung zu"
@@ -3415,16 +3393,14 @@ msgstr "Als letzten Ausweg können Sie ein Backup-Token verwenden:"
 msgid "Use Backup Token"
 msgstr "Backup Token verwenden"
 
-#, fuzzy
-#| msgid "Manage Two-Factor Authentication"
 msgid "Enable Two-Factor Authentication"
-msgstr "Zwei-Faktor-Authentifizierung verwalten"
+msgstr "Aktiviere Zwei-Faktor-Authentifizierung"
 
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
-msgstr ""
+msgstr "Du bist dabei deine Kontosicherheit auf das nächste Level zu heben. Folge der Anleitung um Zwei-Faktor Authentifizierung zu aktivieren."
 
 msgid "Please select which authentication method you would like to use."
-msgstr ""
+msgstr "Bitte wähle welche Authentifizierungsmethode du nutzen willst."
 
 msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
 msgstr ""
@@ -3549,29 +3525,24 @@ msgid "Duplicate social media services set."
 msgstr ""
 
 msgid "Service should not be empty!"
-msgstr ""
+msgstr "Service sollte nicht leer sein!"
 
 msgid "Identifier should not be empty!"
 msgstr ""
 
 #, python-brace-format
 msgid "Invalid {service} URL!"
-msgstr ""
+msgstr "Ungültige {service} URL!"
 
-#, fuzzy, python-brace-format
-#| msgid "Invalid username/password."
+#, python-brace-format
 msgid "Invalid {service} username!"
-msgstr "Ungültiger Benutzername/Passwort."
+msgstr "Ungültiger {service} Benutzername!"
 
-#, fuzzy
-#| msgid "Invalid value"
 msgid "Invalid service!"
-msgstr "Ungültiger Wert"
+msgstr "Ungültiger Service!"
 
-#, fuzzy
-#| msgid "Invalid export format"
 msgid "Invalid identifier!"
-msgstr "Ungültiges Export-Format"
+msgstr "Ungültiger Identifier!"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Bitte warten Sie, bevor Sie erneut Besitz beantragen."
@@ -3616,7 +3587,7 @@ msgid "Malformed Language Preference"
 msgstr "Sprachauswahl speichern"
 
 msgid "Register on behalf of one of your organizations"
-msgstr ""
+msgstr "Registriere dich im Namen einer deiner Organisationen"
 
 msgid "Please wait a bit before requesting another email change"
 msgstr "Bitte warten Sie, bevor Sie eine weitere E-Mail-Änderung beantragen"
@@ -3631,7 +3602,7 @@ msgid "You may have a maximum of {} email addresses"
 msgstr "Sie dürfen maximal {} E-Mail-Adressen haben"
 
 msgid "Cannot remove primary email"
-msgstr ""
+msgstr "Primäre Email kann nicht entfernt werden"
 
 #, fuzzy
 #| msgid "Address not found"
@@ -3697,7 +3668,7 @@ msgid "LAN"
 msgstr "LAN"
 
 msgid "Payload MTU"
-msgstr ""
+msgstr "Nutzlast MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Aktivieren Sie den IX-F Import"
@@ -3752,7 +3723,7 @@ msgid "Notify On IXP Update"
 msgstr "IXP-Updates erlauben"
 
 msgid "Notify me when an IXP modifies the peering exchange points for this network"
-msgstr ""
+msgstr "Benachrichtige mich, wenn ein IXP die Peering Austauschpunkte für dieses Netzwerk anpasst"
 
 msgid "IXP Update Tools"
 msgstr "IXP-Update Werkzeug"
