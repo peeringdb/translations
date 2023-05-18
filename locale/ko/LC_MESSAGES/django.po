@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-05-15 15:58+0000\n"
+"PO-Revision-Date: 2023-05-18 17:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -228,46 +228,46 @@ msgid "An E.164-formatted phone number starts with a +, followed by the country 
 msgstr ""
 
 msgid "Best Effort (no SLA)"
-msgstr ""
+msgstr "이게 최선임(SLA 없음)"
 
 msgid "Normal Business Hours"
-msgstr ""
+msgstr "정상 영업 시간"
 
 msgid "24/7 Support"
-msgstr ""
+msgstr "24시 지원"
 
 msgid "No Commercial Terms"
-msgstr ""
+msgstr "상업적 조건 없음"
 
 msgid "Bundled With Other Services"
-msgstr ""
+msgstr "다른 서비스와 함께 제공"
 
 msgid "Non-recurring Fees Only"
-msgstr ""
+msgstr "재발급되지 않는 수수료만 해당"
 
 msgid "Recurring Fees"
-msgstr ""
+msgstr "반복 사용료"
 
 msgid "Owner"
-msgstr ""
+msgstr "소유자"
 
 msgid "Lessee"
-msgstr ""
+msgstr "임차인"
 
 msgid "48 VDC"
-msgstr ""
+msgstr "48 VDC(직류 전압)"
 
 msgid "120 VAC"
-msgstr ""
+msgstr "120 VAC(교류 전압)"
 
 msgid "208 VAC"
-msgstr ""
+msgstr "208 VAC(교류 전압)"
 
 msgid "240 VAC"
-msgstr ""
+msgstr "240 VAC(교류 전압)"
 
 msgid "480 VAC"
-msgstr ""
+msgstr "480 VAC(교류 전압)"
 
 msgid "Website"
 msgstr "웹사이트"
@@ -317,7 +317,7 @@ msgid "Suite"
 msgstr ""
 
 msgid "Floor"
-msgstr ""
+msgstr "층"
 
 msgid "Latitude"
 msgstr "위도"
@@ -368,28 +368,28 @@ msgid "Sales Phone"
 msgstr "영업부 연락처"
 
 msgid "Property"
-msgstr ""
+msgstr "소유물"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr ""
+msgstr "자산 소유자는 자산에 대한 권한을 가진 개인 또는 독립체입니다. 임차인은 자산의 소유자와 임대 계약을 맺은 그 자산의 사용자입니다."
 
 msgid "Diverse Serving Substations"
-msgstr ""
+msgstr "다양한 전달 변전소"
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
-msgstr ""
+msgstr "하나 이상의 유틸리티 발전소로 돌아가는 별도의 경로를 유지해야 하는 개별 변전소에 대한 별도의 두 개의 개별 경로."
 
 msgid "Available Voltage Services"
-msgstr ""
+msgstr "사용 가능한 전압 서비스"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr ""
+msgstr "시설의 사용자가 사용할 수 있는 교류 전압은 건물주로부터 직접 공급받거나 별도로 제공됩니다."
 
 msgid "Continental Region"
 msgstr "대륙"
 
 msgid "Status Dashboard"
-msgstr ""
+msgstr "대시보드 상태"
 
 msgid "Facility"
 msgstr "시설"
@@ -530,7 +530,7 @@ msgid "Service Level"
 msgstr "트래픽 레벨"
 
 msgid "Terms"
-msgstr ""
+msgstr "용어"
 
 msgid "Internet Exchange"
 msgstr "인터넷 익스체인지"
@@ -602,10 +602,10 @@ msgid "Public Peering Exchange Points"
 msgstr "공용 피어링 익스체인지 포인트"
 
 msgid "Carrier"
-msgstr ""
+msgstr "통신사"
 
 msgid "Carriers"
-msgstr ""
+msgstr "통신사"
 
 #, fuzzy
 #| msgid "Number of networks present at this facility"
@@ -618,13 +618,13 @@ msgid "Carrier presences at facility"
 msgstr "이 시설에 존재하는 네트워크 수"
 
 msgid "Campus Name"
-msgstr ""
+msgstr "캠퍼스 이름"
 
 msgid "Campus"
 msgstr "캠퍼스"
 
 msgid "Campuses"
-msgstr ""
+msgstr "캠퍼스"
 
 msgid "Czech"
 msgstr "체코어"
@@ -675,7 +675,7 @@ msgid "Target org cannot be in selected organizations list"
 msgstr "타겟 조직이 선택한 조직 목록에 있을 수 없음"
 
 msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
-msgstr ""
+msgstr "이 병합을 수행하기 전에 수동으로 해결해야 하는 스폰서십 충돌이 있습니다. {} 이 충돌에 대한 알림을 받았습니다. 충돌하는 조직: {}"
 
 msgid "ROLLBACK"
 msgstr "롤백"
@@ -703,7 +703,7 @@ msgid "Result length"
 msgstr "결과"
 
 msgid "Show {} rows"
-msgstr ""
+msgstr "{} 행 표시"
 
 msgid "Verification Queue is currently disabled"
 msgstr "검증 대기열이 현재 비활성화되어있습니다"
@@ -788,7 +788,7 @@ msgid "ASN is already in use by another network"
 msgstr "다른 네트워크 제안"
 
 msgid "Name is already in use by another network"
-msgstr ""
+msgstr "이름이 이미 다른 네트워크에서 사용되고 있습니다"
 
 msgid "APPROVE selected items"
 msgstr "선택한 항목 승인"
@@ -818,7 +818,7 @@ msgid "Deny"
 msgstr "거절"
 
 msgid "Usernames cannot start with \"apikey\""
-msgstr ""
+msgstr "사용자 이름은 \"apikey\"로 시작할 수 없습니다"
 
 msgid "Change Password"
 msgstr "비밀번호 변경"
@@ -905,7 +905,7 @@ msgid "Reset tickets"
 msgstr "티켓 재설정"
 
 msgid "Select a handleref tag to validate"
-msgstr ""
+msgstr "유효성을 검사할 handleref 태그 선택"
 
 #, fuzzy
 #| msgid "Client type"
@@ -913,10 +913,10 @@ msgid "Object type"
 msgstr "클라이언트 유형"
 
 msgid "Enter a field name to validate"
-msgstr ""
+msgstr "유효성을 검사할 필드 이름 입력"
 
 msgid "Valid"
-msgstr ""
+msgstr "유효함"
 
 #, fuzzy
 #| msgid "Invalid tag"
@@ -924,10 +924,10 @@ msgid "Invalid"
 msgstr "잘못된 태그"
 
 msgid "Exclude data based on validation result"
-msgstr ""
+msgstr "유효성 검사 결과를 기준으로 제외한 데이터"
 
 msgid "Verbose output"
-msgstr ""
+msgstr "상세 출력"
 
 #, fuzzy
 #| msgid "Network not found"
@@ -1079,10 +1079,10 @@ msgstr "파일 형식 %(value)s 은(는) 허용되지 않습니다"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
-msgstr ""
+msgstr "파일 용량 초과, 최대.%(value)s"
 
 msgid "Error in forward geocode: No results found"
-msgstr ""
+msgstr "정방향 지역 코드 오류: 결과를 찾을 수 없습니다"
 
 msgid "Please wait a bit before requesting another ixf import preview."
 msgstr "다른 ixf 가져오기 미리 보기를 요청하기 전에 잠시 기다리십시오."
@@ -1103,7 +1103,7 @@ msgid "Postmortem length cannot exceed {} entries"
 msgstr "사후 길이는 {}개 항목을 초과할 수 없음"
 
 msgid "This ASN is not assigned by any RIR"
-msgstr ""
+msgstr "이 ASN은 RIR에 의해 할당되지 않았습니다"
 
 #, fuzzy
 #| msgid "ASNs in this range are not allowed in this environment"
@@ -1111,7 +1111,7 @@ msgid "ASNs in this range are private or reserved"
 msgstr "이 환경에서는 이 범위의 ASN이 허용되지 않음"
 
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "(asn, IPv4 및 IPv6)에 대한 항목이 단일 멤버 연결로 익스체인지의 IX-F 데이터에 존재하지 않음"
@@ -1123,7 +1123,7 @@ msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "PeeringDB와 익스체인지의 IX-F 데이터 간의 데이터 차이"
 
 msgid "We found that your IX-F output "
-msgstr ""
+msgstr "당신의 IX-F 출력을 발견했습니다 "
 
 #, fuzzy
 #| msgid "IXF import url not specified"
@@ -1217,22 +1217,22 @@ msgid "Restore Object(s)"
 msgstr "개체 복원"
 
 msgid "Validate Data"
-msgstr ""
+msgstr "데이터 검증"
 
 msgid "1 Week"
-msgstr ""
+msgstr "1주"
 
 msgid "2 Weeks"
-msgstr ""
+msgstr "2주"
 
 msgid "1 Month"
-msgstr ""
+msgstr "1개월"
 
 msgid "6 Months"
-msgstr ""
+msgstr "6개월"
 
 msgid "1 Year"
-msgstr ""
+msgstr "1년"
 
 msgid "Reset Environment"
 msgstr "환경 재설정"
@@ -1251,7 +1251,7 @@ msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(pa
 msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
-msgstr ""
+msgstr "Google 지도 API 호출을 통해 이 개체의 주소가 정규화되었습니까"
 
 msgid "Last time of attempted geocode"
 msgstr "최근 지오코드를 시도한 시간"
@@ -1277,10 +1277,10 @@ msgid "Geo location lookup failed: {}"
 msgstr "지오코딩 오류"
 
 msgid "Geocoordinate Cache"
-msgstr ""
+msgstr "지리적 좌표 캐시"
 
 msgid "Geocoordinate Cache Entries"
-msgstr ""
+msgstr "지리적 좌표 캐시 항목"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "제공된 ASN 또는 조직 이름에서 파생된 데이터베이스 내 이 조직. 만약 이것이 비어있다면 그것은 일치하는 조직을 찾지 못했다는 것을 의미한다."
@@ -1355,7 +1355,7 @@ msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "이 조직의 로고 이미지 파일을 업로드하고 설정할 수 있음"
 
 msgid "Require users in your organization to have email addresses within your specified domains."
-msgstr ""
+msgstr "당신의 조직의 사용자가 지정된 도메인 내에 이메일 주소를 가지고 있어야 합니다."
 
 msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
 msgstr ""
