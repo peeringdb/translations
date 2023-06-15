@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-06-14 23:19+0200\n"
+"POT-Creation-Date: 2023-06-15 11:26+0000\n"
+"PO-Revision-Date: 2023-06-15 13:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -17,153 +17,223 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.1\n"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:84
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr "Alguns dos campos contêm valores inválidos - favor corrigir e tentar novamente. e tente novamente."
 
+#: peeringdb_server/static/20c/twentyc.edit.js:87
 msgid "Permission denied"
 msgstr "Permissão negada"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:89
 msgid "Bad request"
 msgstr "Solicitação inválida"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:91
 msgid "Not found"
 msgstr "Não encontrado"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:93
 msgid "File too large"
 msgstr "Arquivo muito grande"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:95
 msgid "Internal error"
 msgstr "Erro interno"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:97
 msgid "Something went wrong."
 msgstr "Ocorreu um erro."
 
+#: peeringdb_server/static/20c/twentyc.edit.js:663
+#: peeringdb_server/static/peeringdb.js:928
+#: peeringdb_server/static/peeringdb.js:2268
 msgid "The server rejected your data"
 msgstr "O servidor rejeitou seus dados"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:829
 msgid "Invalid value"
 msgstr "Valor inválido"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:833
 msgid "Input required"
 msgstr "Entrada necessária"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:920
 msgid "Needs to match password"
 msgstr "A senha deve coincidir"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:937
 msgid "Needs to be a valid email address"
 msgstr "É necessário que seja um endereço de email válido"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:966
 msgid "Needs to be a valid url"
 msgstr "É necessário que seja uma url válida"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:986
 msgid "Needs to be a number"
 msgstr "É necessário que seja um número"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:996
+#: peeringdb_server/static/peeringdb.js:2834
 msgid "Yes"
 msgstr "Sim"
 
+#: peeringdb_server/static/20c/twentyc.edit.js:996
+#: peeringdb_server/static/peeringdb.js:2835
 msgid "No"
 msgstr "Não"
 
+#: peeringdb_server/static/peeringdb.js:497
+msgid "Queued"
+msgstr "Enfileirado"
+
+#: peeringdb_server/static/peeringdb.js:503
 msgid "Please wait before requesting another import."
 msgstr "Aguarde antes de solicitar outra importação."
 
+#: peeringdb_server/static/peeringdb.js:503
 msgid "Available in: "
 msgstr "Disponível em: "
 
+#: peeringdb_server/static/peeringdb.js:503
 msgid "seconds"
 msgstr "segundos"
 
+#: peeringdb_server/static/peeringdb.js:733
+#: peeringdb_server/static/peeringdb.js:761
 msgid "Nothing to do"
 msgstr "Nada para fazer"
 
+#: peeringdb_server/static/peeringdb.js:736
 msgid "This will create the following entries"
 msgstr "Isso criará as seguintes entradas"
 
+#: peeringdb_server/static/peeringdb.js:766
 msgid "Remove these entries"
 msgstr "Remover essas entradas"
 
+#: peeringdb_server/static/peeringdb.js:772
 msgid "Update these entries"
 msgstr "Atualizar essas entradas"
 
+#: peeringdb_server/static/peeringdb.js:941
+#: peeringdb_server/static/peeringdb.js:2301
 msgid "You do not have permissions to perform this action"
 msgstr "Você não tem permissão para executar esta ação"
 
+#: peeringdb_server/static/peeringdb.js:1389
+#: peeringdb_server/static/peeringdb.js:2129
 msgid "sponsor"
 msgstr "patrocinador"
 
+#: peeringdb_server/static/peeringdb.js:1686
+#: peeringdb_server/static/peeringdb.js:1722
+#: peeringdb_server/static/peeringdb.js:1792
+#: peeringdb_server/static/peeringdb.js:1864
+#: peeringdb_server/static/peeringdb.js:2397
+#: peeringdb_server/static/peeringdb.js:3497
 msgid "Remove"
 msgstr "Remover"
 
+#: peeringdb_server/static/peeringdb.js:1696
+#: peeringdb_server/static/peeringdb.js:1732
+#: peeringdb_server/static/peeringdb.js:1802
+#: peeringdb_server/static/peeringdb.js:1874
 msgid "Canceled"
 msgstr "Cancelado"
 
+#: peeringdb_server/static/peeringdb.js:1779
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
 msgstr "Sua chave de API foi criada com sucesso. Anote esta chave em algum lugar seguro. As chaves não podem ser recuperadas depois que esta mensagem for encerrada ou substituída."
 
+#: peeringdb_server/static/peeringdb.js:1837
+#: peeringdb_server/static/peeringdb.js:1923
 msgid "Revoke key"
 msgstr "Revogar chave"
 
+#: peeringdb_server/static/peeringdb.js:1955
 msgid "Add user"
 msgstr "Incluir usuário"
 
+#: peeringdb_server/static/peeringdb.js:1955
 msgid "to Organization?"
 msgstr "para a Organização?"
 
+#: peeringdb_server/static/peeringdb.js:1972
 msgid "Deny"
 msgstr "Negar"
 
+#: peeringdb_server/static/peeringdb.js:1972
 msgid "request to join the Organization?"
 msgstr "solicitar para se juntar à Organização?"
 
+#: peeringdb_server/static/peeringdb.js:2221
 msgid "Unknown request type:"
 msgstr "Tipo de pedido desconhecido:"
 
+#: peeringdb_server/static/peeringdb.js:2272
 msgid "not yet been approved"
 msgstr "ainda não foi aprovado"
 
+#: peeringdb_server/static/peeringdb.js:2273
 msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
 msgstr "Revisão pendente de entidade controladora - favor aguardar a aprovação antes de adicionar entidade"
 
+#: peeringdb_server/static/peeringdb.js:2449
 msgid "Exchange"
 msgstr "Ponto de Troca de Tráfego"
 
+#: peeringdb_server/static/peeringdb.js:2470
 msgid "Participant"
 msgstr "Participante"
 
+#: peeringdb_server/static/peeringdb.js:2493
 msgid "Facility"
 msgstr "Instalação/Infraestrutura"
 
+#: peeringdb_server/static/peeringdb.js:2509
 msgid "Campus"
 msgstr "Campus"
 
+#: peeringdb_server/static/peeringdb.js:2525
 msgid "Network Contact"
 msgstr "Contato de rede"
 
+#: peeringdb_server/static/peeringdb.js:2562
 msgid "Network - Exchange link"
 msgstr "Rede - Link do Ponto de Troca de Tráfego"
 
+#: peeringdb_server/static/peeringdb.js:2640
 msgid "Network - Facility link"
 msgstr "Rede - Link da Infraestrutura"
 
+#: peeringdb_server/static/peeringdb.js:2666
 msgid "IXLAN Prefix"
 msgstr "Prefixo IXLAN"
 
+#: peeringdb_server/static/peeringdb.js:2687
 msgid "Exchange - Facility link"
 msgstr "Ponto de Troca de Tráfego - Link da Infraestrutura"
 
+#: peeringdb_server/static/peeringdb.js:2722
 msgid "Carrier presence at Facility"
 msgstr "Presença da operadora na Infraestrutura"
 
+#: peeringdb_server/static/peeringdb.js:2937
 msgid "Click to remove"
 msgstr "Click para remover"
 
+#: peeringdb_server/static/peeringdb.js:3094
 msgid "Needs to be an integer or a speed ending in M, G, or T"
 msgstr "Precisa ser um número inteiro ou uma velocidade terminando em M, G ou T"
 
+#: peeringdb_server/static/peeringdb.js:3493
 msgid "Upload"
 msgstr "Carregar"
 
+#: peeringdb_server/static/peeringdb.js:3606
 msgid "File size too big"
 msgstr "Tamanho do arquivo muito grande"
 
