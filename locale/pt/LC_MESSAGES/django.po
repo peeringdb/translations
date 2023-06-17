@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-17 19:58+0000\n"
+"PO-Revision-Date: 2023-06-17 20:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
@@ -1386,180 +1386,142 @@ msgid "Can only compare a maximum of 25 asns"
 msgstr "Só é possível comparar um máximo de 25 ASNs"
 
 msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
+msgstr "PoP tem presença(s) de exchange ativo(s): {} ..."
 
 msgid "Facility has active network presence(s): {} ..."
-msgstr ""
+msgstr "PoP tem presença(s) de rede ativa(s): {} ..."
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "Manual IX-F import request"
-msgstr "Log de importação IXF"
+msgstr "Solicitação de importação IX-F manual"
 
 msgid "Date of most recent manual import request"
-msgstr ""
+msgstr "Data da solicitação de importação manual mais recente"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "Manual IX-F import status"
-msgstr "Log de importação IXF"
+msgstr "Status de importação IX-F manual"
 
 msgid "The current status of the manual ix-f import request"
-msgstr ""
+msgstr "O status atual da solicitação de importação manual do ix-f"
 
 msgid "Queued"
-msgstr ""
+msgstr "Enfileirado"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "Importing"
-msgstr "Log de importação IXF"
+msgstr "Importando"
 
 msgid "Finished"
-msgstr ""
+msgstr "Finalizado"
 
 msgid "Import failed"
 msgstr "Falha na importação"
 
-#, fuzzy
-#| msgid "The user that made the request"
 msgid "The user that triggered the manual ix-f import request"
-msgstr "O usuário que fez a solicitação"
+msgstr "O usuário que acionou a solicitação de importação manual do ix-f"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "number of facilities at this exchange"
-msgstr "Pontos de Troca de Peering Público"
+msgstr "número de PoPs neste exchange"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "number of networks at this exchange"
-msgstr "Pontos de Troca de Peering Público"
+msgstr "número de redes neste exchange"
 
 msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
+msgstr "Exchange tem conexão(ões) ativa(s) no PoP: {} ..."
 
 msgid "Exchange has active peer(s)"
-msgstr ""
+msgstr "O Exchange tem peer(s) ativos"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F error"
-msgstr "Log de importação IXF"
+msgstr "Erro IX-F"
 
-#, fuzzy
-#| msgid "No JSON could be parsed"
 msgid "Reason IX-F data could not be parsed"
-msgstr "Nenhum JSON pode ser analisado"
+msgstr "O motivo que os dados do IX-F não puderam ser analisados"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "IX-F error notification date"
-msgstr "Notificação de Mesclagem"
+msgstr "Data de notificação do erro IX-F"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
+msgstr "A última vez que notificamos o exchange sobre o problema de análise IX-F"
 
 msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
+msgstr "IX-F enviou IPs para protocolo não suportado"
 
 msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
+msgstr "IX tem enviado endereços IP para protocolo não suportado pela rede"
 
 msgid "IXLan id needs to match parent ix id"
-msgstr ""
+msgstr "IXLan id precisa corresponder ao ix id pai"
 
 msgid "Ixlan for exchange already exists"
-msgstr ""
+msgstr "Ixlan para exchange já existe"
 
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
+msgstr "Não é possível ativar a importação IX-F sem especificar o URL da lista de membros IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import Log"
-msgstr "Log de importação IXF"
+msgstr "Log de importação IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Logs"
 msgid "IX-F Import Logs"
-msgstr "Logs de importação IXF"
+msgstr "Logs de importação IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log Entry"
 msgid "IX-F Import Log Entry"
-msgstr "IXF entrada no registro de importação"
+msgstr "Entrada de registro de importação IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Log Entries"
-msgstr "IXF Entradas no registro de importação"
+msgstr "Entradas de registros de importação IX-F"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
-msgstr ""
+msgstr "Snapshot JSON dos dados de membro ix-f que criaram esta entrada"
 
 msgid "Activity for this entry"
-msgstr ""
+msgstr "Atividade para esta entrada"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
+msgstr "A rejeição da rede a essa alteração proposta, que a ocultará até que a visualização da rede voltada para o cliente"
 
 msgid "RS Peer"
 msgstr "Peer RS"
 
 msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
+msgstr "Tentar aplicar dados ao peeringdb criou um problema"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "Last Fetched"
-msgstr "Ultima atualização"
+msgstr "Última coleta"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr ""
+msgstr "Exigência de outra entrada IXFMemberData e será aplicada juntamente com ela"
 
 msgid "Indicates how many extra notifications were sent to the network for this proposal. Extra notifications can be sent for stale netixlan entries over time."
-msgstr ""
+msgstr "Indica quantas notificações extras foram enviadas à rede para esta proposta. Notificações extras podem ser enviadas para entradas netixlan obsoletas ao longo do tempo."
 
 msgid "Last time extra notifications were sent to the network for this proposal."
-msgstr ""
+msgstr "Última vez que notificações extras foram enviadas à rede para esta proposta."
 
-#, fuzzy
-#| msgid "IXF Member Export URL"
 msgid "IX-F Member Data"
-msgstr "URL de Exportação de Membro IXF"
+msgstr "Dados do Membro IX-F"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
+msgstr "Nenhum ipaddresses (endereços ip) adequados ao validar contra os protocolos de rede ativados"
 
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
+msgstr "IXLanPrefix com status '{}' não pode ser vinculado a um IXLan com status '{}'."
 
-#, fuzzy
-#| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
-msgstr "Especifique se um ixp pode adicionar à entrada netixlan para esta rede através dos seus dados ixp_member"
+msgstr "Especifica se um IXP tem permissão para adicionar uma entrada netixlan para esta rede por meio de seus dados ixp_member"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "number of exchanges at this network"
-msgstr "Ponto de Troca - Link da infraestrutura"
+msgstr "número de exchanges nesta rede"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "number of facilities at this network"
-msgstr "Pontos de Troca de Peering Público"
+msgstr "número de PoPs nesta rede"
 
 msgid "Last technical contact point for network with active peers"
-msgstr ""
+msgstr "Último ponto de contato técnico para rede com peers ativos"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Phone or email required"
-msgstr "Requisito de contrato"
+msgstr "Telefone ou e-mail obrigatório"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr ""
+msgstr "Esta entidade foi criada para o ASN {} - remova-a desta rede e recrie-a na rede correta"
 
 msgid "IPv4 address outside of prefix"
 msgstr "Endereço IPv4 fora do prefixo"
@@ -1567,20 +1529,14 @@ msgstr "Endereço IPv4 fora do prefixo"
 msgid "IPv6 address outside of prefix"
 msgstr "Endereço IPv6 fora do prefixo"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Maximum speed: {}"
-msgstr "Valor máximo permitido {}"
+msgstr "Velocidade máxima: {}"
 
-#, fuzzy
-#| msgid "Invalid speed value: {}"
 msgid "Minimum speed: {}"
-msgstr "Valor de velocidade inválido: {}"
+msgstr "Velocidade mínima: {}"
 
-#, fuzzy
-#| msgid "Ipaddress already exists elsewhere"
 msgid "IP already exists"
-msgstr "Endereço IP já existe em outro lugar"
+msgstr "IP já existe"
 
 msgid "username"
 msgstr "nome de usuário"
@@ -1615,22 +1571,20 @@ msgstr "data de adesão"
 msgid "status"
 msgstr "status"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "The user's primary organization"
-msgstr "Organização"
+msgstr "A organização principal do usuário"
 
 msgid "language"
 msgstr "idioma"
 
 msgid "Account is orphaned and has been flagged for deletion at this date"
-msgstr ""
+msgstr "A conta está órfã e foi sinalizada para exclusão nesta data"
 
 msgid "User has been notified about pending account deletion at this date"
-msgstr ""
+msgstr "O usuário foi notificado sobre a exclusão pendente da conta nesta data"
 
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
-msgstr ""
+msgstr "Este usuário nunca será sinalizado para exclusão por meio do processo de limpeza de usuário órfão."
 
 msgid "user"
 msgstr "usuário"
@@ -1642,7 +1596,7 @@ msgid "Password Reset Initiated"
 msgstr "Redefinição de senha Iniciada"
 
 msgid "Determines if API Key inherits the User Permissions or is readonly."
-msgstr ""
+msgstr "Determina se a chave de API herda as permissões do usuário ou é somente leitura."
 
 msgid "IX-F Import Email"
 msgstr "E-mail de Importação IX-F"
@@ -1660,7 +1614,7 @@ msgid "result log"
 msgstr "Log de resultados"
 
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "Texto descritivo do comando que pode ser pesquisado"
 
 msgid "the user that ran this command"
 msgstr "o usuário/utilizador que executou este comando"
@@ -1674,84 +1628,80 @@ msgstr "Terminado"
 msgid "Running"
 msgstr "A correr"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Environment Setting"
-msgstr "Reiniciar Ambiente"
+msgstr "Configuração do ambiente"
 
-#, fuzzy
-#| msgid "Reset Environment"
 msgid "Environment Settings"
-msgstr "Reiniciar Ambiente"
+msgstr "Configurações do ambiente"
 
 msgid "API: Anonymous API throttle rate"
-msgstr ""
+msgstr "API: taxa de supressão da API Anônima"
 
 msgid "API: Authenticated API throttle rate"
-msgstr ""
+msgstr "API: taxa de supressão da API Autenticada"
 
 msgid "API: Melissa request throttle rate for admin users"
-msgstr ""
+msgstr "API: Melissa solicita taxa de supressão para usuários administrativos"
 
 msgid "API: Melissa request throttle enabled for admin users"
-msgstr ""
+msgstr "API: Melissa solicita habilitar supressão para usuários administrativos"
 
 msgid "API: Melissa request throttle rate for users"
-msgstr ""
+msgstr "API: Melissa solicita taxa de supressão para usuários"
 
 msgid "API: Melissa request throttle enabled for users"
-msgstr ""
+msgstr "API: Melissa solicita habilitar supressão para usuários"
 
 msgid "API: Melissa request throttle rate for organizations"
-msgstr ""
+msgstr "API: Melissa solicita taxa de supressão para organizações"
 
 msgid "API: Melissa request throttle enabled for organizations"
-msgstr ""
+msgstr "API: Melissa solicita habilitar supressão para organizações"
 
 msgid "API: Melissa request throttle rate for anonymous requests (ips)"
-msgstr ""
+msgstr "API: Melissa solicita taxa de supressão para solicitações anônimas (ips)"
 
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
-msgstr ""
+msgstr "API: Melissa solicita habilitar supressão para solicitações anônimas (ips)"
 
 msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
-msgstr ""
+msgstr "API: Limite de tamanho de supressão de solicitação repetida para blocos IP (bytes)"
 
 msgid "API: Repeated request throttle rate for ip blocks"
-msgstr ""
+msgstr "API: Taxa de supressão de solicitação repetida para blocos IP"
 
 msgid "API: Repeated request throttle enabled for ip blocks"
-msgstr ""
+msgstr "API: Habilitar supressão de solicitação repetida para blocos IP"
 
 msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
-msgstr ""
+msgstr "API: Limite de tamanho de supressão de solicitação repetida para endereços IP (bytes)"
 
 msgid "API: Repeated request throttle rate for ip addresses"
-msgstr ""
+msgstr "API: Taxa de supressão de solicitação repetida para endereços IP"
 
 msgid "API: Repeated request throttle enabled for ip addresses"
-msgstr ""
+msgstr "API: Habilitar supressão de solicitação repetida para endereços IP"
 
 msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
-msgstr ""
+msgstr "API: Limite de tamanho de supressão de solicitação repetida para usuários autenticados (bytes)"
 
 msgid "API: Repeated request throttle rate for authenticated users"
-msgstr ""
+msgstr "API: Taxa de supressão de solicitação repetida para usuários autenticados"
 
 msgid "API: Repeated request throttle enabled for authenticated users"
-msgstr ""
+msgstr "API: Habilitar supressão de solicitação repetida para usuários autenticados"
 
 msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
-msgstr ""
+msgstr "API: Limite de tamanho de supressão de solicitação repetida para chaves de API da organização (bytes)"
 
 msgid "API: Repeated request throttle rate for organization api-keys"
-msgstr ""
+msgstr "API: Taxa de supressão de solicitação repetida para chaves de API da organização"
 
 msgid "API: Repeated request throttle enabled for organization api-keys"
-msgstr ""
+msgstr "API: Habilitar supressão de solicitação repetida para chaves de API da organização"
 
 msgid "API: Anonymous API throttle rate message"
-msgstr ""
+msgstr "API: mensagem anônima da taxa de aceleração da API"
 
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
