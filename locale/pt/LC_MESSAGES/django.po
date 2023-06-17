@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-17 10:58+0000\n"
+"PO-Revision-Date: 2023-06-17 11:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
@@ -206,10 +206,8 @@ msgstr "Sem fins lucrativos"
 msgid "Route Server"
 msgstr "Servidor de rotas"
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Services"
-msgstr "Esopo da rede"
+msgstr "Serviços de rede"
 
 msgid "Route Collector"
 msgstr ""
@@ -2265,7 +2263,7 @@ msgstr "A rede %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) foi criada automa
 
 #, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Chave de API da organização (prefixo:%(prefix)s) com e-mail '%(email)s' Rede criada %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id )s</a>) sob a organização %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "Chave de API da organização (prefixo:%(prefix)s) com e-mail '%(email)s' Rede criada %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sob a organização %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -2274,7 +2272,7 @@ msgstr "Como o endereço de e-mail do usuário coincidiu com sucesso com o dados
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "O usuário '%(u_name)s' criou a rede %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) na organização %(o_name) s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "O usuário '%(u_name)s' criou a rede %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) na organização %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
