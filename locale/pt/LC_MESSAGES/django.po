@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-06-05 21:00+0000\n"
-"Last-Translator: Chris Caputo <ccaputo@alt.net>\n"
+"PO-Revision-Date: 2023-06-17 09:58+0000\n"
+"Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 msgid "Ethernet"
 msgstr "Ethernet"
@@ -697,7 +697,7 @@ msgid "Campus Name"
 msgstr ""
 
 msgid "Campus"
-msgstr ""
+msgstr "Campus"
 
 msgid "Campuses"
 msgstr ""
@@ -1420,10 +1420,8 @@ msgstr "Aprovado"
 msgid "Denied"
 msgstr "Negado"
 
-#, fuzzy
-#| msgid "Cancel"
 msgid "Canceled"
-msgstr "Cancelar"
+msgstr "Cancelado"
 
 msgid "Status of this request"
 msgstr "Status do solicitação"
@@ -2069,10 +2067,8 @@ msgstr ""
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value"
-msgstr "Tag inválida"
+msgstr "Valor inválido"
 
 msgid "This field is required"
 msgstr "Este campo é obrigatório"
@@ -3240,10 +3236,8 @@ msgstr ""
 msgid "Could not resolve the location you provided: "
 msgstr ""
 
-#, fuzzy
-#| msgid "Sponsors"
 msgid "sponsor"
-msgstr "Patrocinadores"
+msgstr "patrocinador"
 
 #, fuzzy
 #| msgid "Exchange"
@@ -3922,10 +3916,8 @@ msgstr ""
 msgid "Not a valid phone number (E.164)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Required"
 msgid "Input required"
-msgstr "Opcional"
+msgstr "Entrada necessária"
 
 msgid "Invalid prefix: {}"
 msgstr "Prefixo inválido: {}"
