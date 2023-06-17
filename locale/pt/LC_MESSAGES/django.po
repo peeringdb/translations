@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-17 22:58+0000\n"
+"PO-Revision-Date: 2023-06-17 23:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
@@ -2530,8 +2530,6 @@ msgstr "O site está atualmente em modo de manutenção, durante o qual esta aç
 msgid "Login with oAuth"
 msgstr "Login com oAuth"
 
-#, fuzzy
-#| msgid "Login with your google account"
 msgid "Login with your Google account"
 msgstr "Login com sua conta do Google"
 
@@ -3649,55 +3647,37 @@ msgid "LAN"
 msgstr "LAN"
 
 msgid "Payload MTU"
-msgstr ""
+msgstr "Payload MTU"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "Enable IX-F Import"
-msgstr "Log de importação IXF"
+msgstr "Ativar importação IX-F"
 
-#, fuzzy
-#| msgid "Request Ownership"
 msgid "Request import"
-msgstr "Solicitar propriedade"
+msgstr "Solicitar importação"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Disable notifications"
-msgstr "Notificação de Mesclagem"
+msgstr "Desativar notificações"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Enable notifications"
-msgstr "Notificação de Mesclagem"
+msgstr "Habilitar notificações"
 
 msgid "Protocols Supported"
 msgstr "Protocolos suportados"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Public Peering Info Updated"
-msgstr "Pontos de Troca de Peering Público"
+msgstr "Informações de peering público atualizadas"
 
-#, fuzzy
-#| msgid "Peering Policy Information"
 msgid "Peering Facility Info Updated"
-msgstr "Informação da Política de Peering"
+msgstr "Informações sobre PoP de peering atualizadas"
 
-#, fuzzy
-#| msgid "Contact Information"
 msgid "Contact Info Updated"
-msgstr "Informações de contato"
+msgstr "Informações de contato atualizada"
 
-#, fuzzy
-#| msgid "status"
 msgid "RIR Status"
-msgstr "status"
+msgstr "Status do RIR"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "RIR Status Updated"
-msgstr "Ultima atualização"
+msgstr "Status do RIR atualizado"
 
 msgid "PeeringDB Configuration"
 msgstr "Configuração do PeeringDB"
@@ -3705,28 +3685,20 @@ msgstr "Configuração do PeeringDB"
 msgid "Allow IXP Update"
 msgstr "Permitir Atualização de IXP"
 
-#, fuzzy
-#| msgid "If enabled, an ixp may manage this network's entry in their peering list"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
-msgstr "Se habilitado, um IXP pode gerenciar esta entrada de rede em sua lista de peering"
+msgstr "Se ativado, um IXP pode gerenciar a entrada desta rede em sua lista de peering"
 
-#, fuzzy
-#| msgid "Allow IXP Update"
 msgid "Notify On IXP Update"
-msgstr "Permitir Atualização de IXP"
+msgstr "Notificar sobre atualização de IXP"
 
 msgid "Notify me when an IXP modifies the peering exchange points for this network"
-msgstr ""
+msgstr "Notifique-me quando um IXP modificar os pontos de troca de peering para esta rede"
 
-#, fuzzy
-#| msgid "Allow IXP Update"
 msgid "IXP Update Tools"
-msgstr "Permitir Atualização de IXP"
+msgstr "Ferramentas de Atualização IXP"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "Postmortem"
-msgstr "Histórico de Importação IXF"
+msgstr "Pós-morte"
 
 msgid "Peering Policy Information"
 msgstr "Informação da Política de Peering"
@@ -3734,10 +3706,8 @@ msgstr "Informação da Política de Peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
 
-#, fuzzy
-#| msgid "Set language preference"
 msgid "Malformed Organization Preference"
-msgstr "Definir preferência de idioma"
+msgstr "Preferência de organização malformada"
 
 #, fuzzy
 #~| msgid "Merge Facilities"
