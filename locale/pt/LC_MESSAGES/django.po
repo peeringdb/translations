@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-17 11:58+0000\n"
+"PO-Revision-Date: 2023-06-17 18:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
@@ -210,10 +210,10 @@ msgid "Network Services"
 msgstr "Serviços de rede"
 
 msgid "Route Collector"
-msgstr ""
+msgstr "Coletor de rotas"
 
 msgid "Government"
-msgstr ""
+msgstr "Governança"
 
 msgid "Private"
 msgstr "Privado"
@@ -225,75 +225,73 @@ msgid "Public"
 msgstr "Público"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr ""
+msgstr "Um número de telefone no formato E.164 começa com um +, seguido pelo código do país e, em seguida, pelo número de telefone nacional (retirando o 0 inicial na maioria dos países), sem espaços ou hífens entre os grupos de dígitos"
 
 msgid "Best Effort (no SLA)"
-msgstr ""
+msgstr "Melhor Esforço (sem SLA)"
 
 msgid "Normal Business Hours"
-msgstr ""
+msgstr "Horário comercial normal"
 
 msgid "24/7 Support"
-msgstr ""
+msgstr "Suporte 24/7"
 
 msgid "No Commercial Terms"
-msgstr ""
+msgstr "Sem termos comerciais"
 
 msgid "Bundled With Other Services"
-msgstr ""
+msgstr "Junto com outros serviços"
 
 msgid "Non-recurring Fees Only"
-msgstr ""
+msgstr "Apenas taxas não recorrentes"
 
 msgid "Recurring Fees"
-msgstr ""
+msgstr "Taxas recorrentes"
 
 msgid "Owner"
-msgstr ""
+msgstr "Proprietário"
 
 msgid "Lessee"
-msgstr ""
+msgstr "Locatário"
 
 msgid "48 VDC"
-msgstr ""
+msgstr "48 VDC"
 
 msgid "120 VAC"
-msgstr ""
+msgstr "Locatário"
 
 msgid "208 VAC"
-msgstr ""
+msgstr "208 VAC"
 
 msgid "240 VAC"
-msgstr ""
+msgstr "240 VAC"
 
 msgid "480 VAC"
-msgstr ""
+msgstr "480 VAC"
 
 msgid "Website"
 msgstr "URL do site"
 
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 msgid "Kosovo"
 msgstr "Kosovo"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value: {}"
-msgstr "Tag inválida"
+msgstr "Valor inválido: {}"
 
 msgid "Address 1"
 msgstr "Endereço 1"
@@ -314,16 +312,16 @@ msgid "Country"
 msgstr "País"
 
 msgid "Suite"
-msgstr ""
+msgstr "Apartamento"
 
 msgid "Floor"
-msgstr ""
+msgstr "Andar"
 
 msgid "Latitude"
-msgstr ""
+msgstr "Latitude"
 
 msgid "Longitude"
-msgstr ""
+msgstr "Longitude"
 
 msgid "Name"
 msgstr "Nome"
@@ -335,7 +333,7 @@ msgid "Long Name"
 msgstr "Nome Completo"
 
 msgid "Social Media"
-msgstr ""
+msgstr "Mídia social"
 
 msgid "Notes"
 msgstr "Notas"
@@ -343,18 +341,14 @@ msgstr "Notas"
 msgid "Organization"
 msgstr "Organização"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
-msgstr "Organização"
+msgstr "Organizações"
 
 msgid "CLLI Code"
 msgstr "Código CLLI"
 
-#, fuzzy
-#| msgid "Geocode"
 msgid "Rencode"
-msgstr "Geocódigo"
+msgstr "Recodificar"
 
 msgid "NPA-NXX"
 msgstr "NPA-NXX"
@@ -365,39 +359,35 @@ msgstr "Email técnico"
 msgid "Technical Phone"
 msgstr "Telefone Técnico"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales Email"
-msgstr "Alterar seu e-mail"
+msgstr "E-mail de vendas"
 
-#, fuzzy
-#| msgid "Sales"
 msgid "Sales Phone"
-msgstr "Vendas"
+msgstr "Telefone de vendas"
 
 msgid "Property"
-msgstr ""
+msgstr "Propriedade"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr ""
+msgstr "Um proprietário de propriedade é o indivíduo ou entidade que tem o título da propriedade. Um locatário é um usuário de uma propriedade que tem um contrato de arrendamento, um acordo, com o proprietário da propriedade."
 
 msgid "Diverse Serving Substations"
-msgstr ""
+msgstr "Diversas subestações de serviço"
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
-msgstr ""
+msgstr "Dois caminhos separados e distintos para subestações individuais que devem manter um caminho separado de volta para uma ou mais estações geradoras de serviços públicos."
 
 msgid "Available Voltage Services"
-msgstr ""
+msgstr "Serviços de tensão disponíveis"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr ""
+msgstr "A tensão de corrente alternada disponível para os usuários da instalação diretamente do proprietário ou fornecida separadamente pela concessionária."
 
 msgid "Continental Region"
 msgstr "Região continental"
 
 msgid "Status Dashboard"
-msgstr ""
+msgstr "Painel de status"
 
 msgid "Facility"
 msgstr "Infraestrutura"
