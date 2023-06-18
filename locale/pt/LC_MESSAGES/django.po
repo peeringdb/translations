@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-17 23:58+0000\n"
+"PO-Revision-Date: 2023-06-18 05:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
@@ -390,10 +390,10 @@ msgid "Status Dashboard"
 msgstr "Painel de status"
 
 msgid "Facility"
-msgstr "Infraestrutura"
+msgstr "PoP"
 
 msgid "Facilities"
-msgstr "Infraestrutura"
+msgstr "PoPs"
 
 msgid "Role"
 msgstr "Função"
@@ -507,10 +507,10 @@ msgid "Traffic Stats Website"
 msgstr "Website de Estatísticas de Tráfego"
 
 msgid "Policy Email"
-msgstr "Email da política"
+msgstr "Email Política"
 
 msgid "Policy Phone"
-msgstr "Telefone da Política"
+msgstr "Telefone Política"
 
 msgid "IX-F Network Count"
 msgstr "Contagem de rede IX-F"
@@ -588,10 +588,10 @@ msgid "Operational"
 msgstr "Operacional"
 
 msgid "Public Peering Exchange Point"
-msgstr "Pontos de Troca de Peering Público"
+msgstr "Ponto de Exchange de Peering Público"
 
 msgid "Public Peering Exchange Points"
-msgstr "Pontos de Troca de Peering Público"
+msgstr "Ponto de Exchange de Peering Público"
 
 msgid "Carrier"
 msgstr "Operadora"
@@ -849,7 +849,7 @@ msgid "Merge this facility - it will be deleted"
 msgstr "Fundir este edifício - será apagado"
 
 msgid "Target facility"
-msgstr "Infraestrutura-Alvo"
+msgstr "PoP Alvo"
 
 msgid "Undo this merge"
 msgstr "Desfazer esta fusão"
@@ -1174,10 +1174,10 @@ msgid "Renumber IP Space"
 msgstr "Renumerar Espaço IP"
 
 msgid "Merge Facilities"
-msgstr "Fusão de Infraestruturas"
+msgstr "Fusão de PoPs"
 
 msgid "Merge Facilities: UNDO"
-msgstr "Fusão de Infraestruturas: DESFAZER"
+msgstr "Fusão de PoPs: DESFAZER"
 
 msgid "Restore Object(s)"
 msgstr "Restaurar Objeto(s)"
@@ -1767,7 +1767,7 @@ msgid "Any Facility"
 msgstr "Qualquer Instalação"
 
 msgid "Any Exchange"
-msgstr "Qualquer ponto de troca"
+msgstr "Qualquer Exchange"
 
 msgid "Manage peering sessions - Any Network"
 msgstr "Gerenciar sessões de emparelhamento - Qualquer rede"
@@ -1782,11 +1782,11 @@ msgstr "Rede - %(net_name)s"
 
 #, python-format
 msgid "Exchange - %(ix_name)s"
-msgstr "Ponto de troca - %(ix_name)s"
+msgstr "Exchange - %(ix_name)s"
 
 #, python-format
 msgid "Facility - %(fac_name)s"
-msgstr "Infraestrutura - %(fac_name)s"
+msgstr "PoP - %(fac_name)s"
 
 msgid "Invalid organization specified"
 msgstr "Organização especificada é inválida"
@@ -2329,7 +2329,7 @@ msgid "Network Scope"
 msgstr "Esopo da rede"
 
 msgid "Exchanges"
-msgstr "Pontos de Troca"
+msgstr "Exchanges"
 
 msgid "My organization presence"
 msgstr "Presença de minha organização"
@@ -2468,7 +2468,7 @@ msgid "Registered Users"
 msgstr "Usuários registrados"
 
 msgid "Search here for a network, IX, or facility."
-msgstr "Pesquisar aqui para uma rede, IX, ou infraestrutura."
+msgstr "Pesquisar aqui para uma rede, IX, ou PoP."
 
 msgid "Advanced Search"
 msgstr "Pesquisa Avançada"
@@ -2644,7 +2644,7 @@ msgid "To register a new network organization, please enter the ASN and organiza
 msgstr "Para registrar uma nova organização de rede, favor inserir abaixo o ASN e o nome da organização."
 
 msgid "To register a new facility or exchange organization, please enter the organization name below (ASN is optional)."
-msgstr "Para registrar uma nova infraestrutura ou organização de ponto de troca, favor inserir abaixo o nome da organização (o ASN é opcional)."
+msgstr "Para registrar um novo PoP ou organização de exchange, favor inserir abaixo o nome da organização (o ASN é opcional)."
 
 msgid "Affiliation is your own organisation. That means you are an employee or otherwise working for the organisation. The affiliation request is sent to support@peeringdb.com if no one is affiliated to the organisation yet. Otherwise, the admins are contacted. Only affiliate once per organisation. If you don't get an answer within a couple of days, please contact support@peeringdb.com."
 msgstr "A afiliação é a sua própria organização. Isso significa que você é um funcionário ou trabalha para a organização. A solicitação de afiliação é enviada para support@peeringdb.com se ninguém ainda estiver afiliado à organização. Caso contrário, os administradores são contatados. Só se afilie uma vez por organização. Se você não obtiver uma resposta em alguns dias, entre em contato com support@peeringdb.com."
@@ -2969,10 +2969,10 @@ msgid "Remove this carrier from your facility."
 msgstr "Remova esta operadora de seu PoP."
 
 msgid "Add Facility"
-msgstr "Adicionar Instalação/Infraestrutura"
+msgstr "Adicionar PoP"
 
 msgid "Exchange - Facility link"
-msgstr "Ponto de Troca - Link da infraestrutura"
+msgstr "Exchange - Link do PoP"
 
 msgid "Prefixes"
 msgstr "Prefixos"
@@ -3017,7 +3017,7 @@ msgid "Speed"
 msgstr "Velocidade"
 
 msgid "Exchange"
-msgstr "Troca"
+msgstr "Exchange"
 
 msgid "IP"
 msgstr "IP"
@@ -3135,7 +3135,7 @@ msgstr "Remova esta entrada da sua lista de exchanges de peering públicos"
 
 #, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr "Remover a entrada %(ixf_id)s para %(ix_name)s da sua lista de pontos de troca de peering público?"
+msgstr "Remover a entrada %(ixf_id)s para %(ix_name)s da sua lista de pontos de exchange de peering público?"
 
 msgid "Set IPv6 address"
 msgstr "Definir endereço IPv6"
@@ -3162,13 +3162,13 @@ msgid "Auto Add"
 msgstr "Adicionar automaticamente"
 
 msgid "Network - Exchange link"
-msgstr "Rede - Link da Troca "
+msgstr "Rede - Link do Exchange"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "A entrada precisa ser movida para a rede correta"
 
 msgid "Add Exchange Point"
-msgstr "Adicionar Ponto de Troca"
+msgstr "Adicionar Exchange"
 
 msgid "Interconnection Facilities"
 msgstr "PoPs de Interconexão"
@@ -3183,7 +3183,7 @@ msgid "Add Network"
 msgstr "Adicionar rede"
 
 msgid "Add Exchange"
-msgstr "Adicionar Ponto de Troca"
+msgstr "Adicionar Exchange"
 
 msgid "Add Carrier"
 msgstr "Adicionar Operadora"
@@ -3692,7 +3692,7 @@ msgid "Notify On IXP Update"
 msgstr "Notificar sobre atualização de IXP"
 
 msgid "Notify me when an IXP modifies the peering exchange points for this network"
-msgstr "Notifique-me quando um IXP modificar os pontos de troca de peering para esta rede"
+msgstr "Notifique-me quando um IXP modificar os pontos de exchange de peering para esta rede"
 
 msgid "IXP Update Tools"
 msgstr "Ferramentas de Atualização IXP"
