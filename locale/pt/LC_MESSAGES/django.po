@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-18 05:58+0000\n"
+"PO-Revision-Date: 2023-06-18 18:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
@@ -381,7 +381,7 @@ msgid "Available Voltage Services"
 msgstr "Serviços de tensão disponíveis"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr "A tensão de corrente alternada disponível para os usuários da instalação diretamente do proprietário ou fornecida separadamente pela concessionária."
+msgstr "A tensão de corrente alternada disponível para os usuários do PoP diretamente do proprietário ou fornecida separadamente pela concessionária."
 
 msgid "Continental Region"
 msgstr "Região continental"
@@ -944,10 +944,10 @@ msgid "Targets both AKA and name fields for filtering"
 msgstr "Segmenta os campos AKA e de nome para filtragem"
 
 msgid "Find networks not present at an exchange (exchange id)"
-msgstr "Encontrar redes não presentes em uma troca (exchange id)"
+msgstr "Encontrar redes não presentes em um exchange (exchange id)"
 
 msgid "Find networks present at exchange (exchange id)"
-msgstr "Encontrar redes presentes na troca (exchange id)"
+msgstr "Encontrar redes presentes no exchange (exchange id)"
 
 msgid "Find networks not present at a facility (facility id)"
 msgstr "Encontrar redes não presentes em um PoP (facility id)"
@@ -1764,7 +1764,7 @@ msgid "Any Network"
 msgstr "Qualquer rede"
 
 msgid "Any Facility"
-msgstr "Qualquer Instalação"
+msgstr "Qualquer PoP"
 
 msgid "Any Exchange"
 msgstr "Qualquer Exchange"
@@ -1987,7 +1987,7 @@ msgstr ""
 "\n"
 "Você recebeu esta mensagem porque é um administrador de %(org_name)s..\n"
 "\n"
-"%(org_name)s não possui nenhuma instalação, troca ou rede ativa.\n"
+"%(org_name)s não possui nenhum PoP, exchange ou rede ativa.\n"
 "\n"
 "Se permanecer vazio por %(duration)s dias, será removido.\n"
 "\n"
@@ -2223,7 +2223,7 @@ msgid "This data will help you to accelerate the process of finding and connecti
 msgstr "Esses dados ajudarão você a acelerar o processo de localização e conexão com outras redes, ao mesmo tempo em que oferecem suporte a uma implantação mais rápida e decisiva de seus próprios planos de expansão e desenvolvimento de rede."
 
 msgid "I’m an Internet Exchange Point (IXP), data center or other interconnection facility. How can PeeringDB help me?"
-msgstr "Sou um Internet Exchange (IXP), centro de dados ou outra instalação de interconexão. Como o PeeringDB pode me ajudar?"
+msgstr "Sou um Internet Exchange (IXP), centro de dados(DC) ou outro PoP de interconexão. Como o PeeringDB pode me ajudar?"
 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXPs e os PoPs do data center podem adicionar e manter suas informações no banco de dados, aumentando a visibilidade e seu apelo para clientes novos e existentes. Se você estiver no banco de dados, isso facilita muito para as redes encontrarem informações cruciais sobre seus serviços e as outras redes presentes em seu IXP ou PoPs."
@@ -2362,7 +2362,7 @@ msgstr "Adicionar um novo %(entity_name)s para a sua organização. Note que o %
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
-msgstr "Adicione um novo %(entity_name)s à sua organização. Observe que seu campus não ficará visível para outros usuários até que tenha pelo menos <strong>2</strong> instalações nele."
+msgstr "Adicione um novo %(entity_name)s à sua organização. Observe que seu campus não ficará visível para outros usuários até que tenha pelo menos <strong>2</strong> PoPs nele."
 
 msgid "Add a new carrier to your Organization."
 msgstr "Adicione uma nova operadora à sua organização."
@@ -2387,7 +2387,7 @@ msgid "Suggest %(entity_name)s to be added to the database. Your suggestion will
 msgstr "Sugira que %(entity_name)s sejam adicionados ao banco de dados. Sua sugestão será analisada pelo Comitê de administração do PeeringDB. Ele será finalizado e inserido no banco de dados ou recusado. Nenhuma outra ação é necessária de sua parte."
 
 msgid "In order to be approved we would expect that the suggested Facility offers colocation, data center and/or meet-me-room services to the public."
-msgstr "Para ser aprovado, esperamos que a Instalação sugerida ofereça colocation, data center e/ou serviços de reunião ao público."
+msgstr "Para ser aprovado, esperamos que o PoP sugerido ofereça colocation, data center e/ou serviços de reunião ao público."
 
 msgid "Only use this if you don't own the Facility. If you own it, please use \"Add Facility\" under your organization record."
 msgstr "Só use isso se você não for o proprietário do PoP. Se você for o proprietário, use “Adicionar PoP” no registro da sua organização."
@@ -3122,7 +3122,7 @@ msgid "Options"
 msgstr "Opções"
 
 msgid "Hide this suggestion until the exchange updates it."
-msgstr "Oculte esta sugestão até que a troca a atualize."
+msgstr "Oculte esta sugestão até que o exchange a atualize."
 
 msgid "Dismiss"
 msgstr "Liberar"
