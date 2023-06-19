@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-17 11:58+0000\n"
+"PO-Revision-Date: 2023-06-19 06:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -206,10 +206,8 @@ msgstr "No-Profit"
 msgid "Route Server"
 msgstr "Route Server"
 
-#, fuzzy
-#| msgid "Network Scope"
 msgid "Network Services"
-msgstr "Estensione della rete"
+msgstr "Servizi di rete"
 
 msgid "Route Collector"
 msgstr ""
@@ -227,10 +225,10 @@ msgid "Public"
 msgstr "Pubblico"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr ""
+msgstr "Un numero di telefono in formato E.164 inizia con un +, seguito dal prefisso del paese, quindi dal numero di telefono nazionale (eliminando lo 0 iniziale nella maggior parte dei paesi), senza spazi o trattini tra i gruppi di cifre"
 
 msgid "Best Effort (no SLA)"
-msgstr ""
+msgstr "Best Effort (senza SLA)"
 
 msgid "Normal Business Hours"
 msgstr "Orario d'ufficio"
@@ -239,25 +237,25 @@ msgid "24/7 Support"
 msgstr "Assistenza 24 ore su 24"
 
 msgid "No Commercial Terms"
-msgstr ""
+msgstr "Nessun termine commerciale"
 
 msgid "Bundled With Other Services"
 msgstr "Aggregato con altri servizi"
 
 msgid "Non-recurring Fees Only"
-msgstr ""
+msgstr "Solo tasse non ricorrenti"
 
 msgid "Recurring Fees"
-msgstr ""
+msgstr "Tasse Ricorrente"
 
 msgid "Owner"
 msgstr "Proprietario"
 
 msgid "Lessee"
-msgstr ""
+msgstr "Locatario"
 
 msgid "48 VDC"
-msgstr ""
+msgstr "48 VDC"
 
 msgid "120 VAC"
 msgstr "120 VCA"
@@ -275,27 +273,25 @@ msgid "Website"
 msgstr "Sito web"
 
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 msgid "Kosovo"
 msgstr "Kosovo"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value: {}"
-msgstr "Tag non valido"
+msgstr "Valore non valido: {}"
 
 msgid "Address 1"
 msgstr "Indirizzo 1"
@@ -337,7 +333,7 @@ msgid "Long Name"
 msgstr "Nome esteso"
 
 msgid "Social Media"
-msgstr ""
+msgstr "Social media"
 
 msgid "Notes"
 msgstr "Note"
@@ -351,10 +347,8 @@ msgstr "Organizzazioni"
 msgid "CLLI Code"
 msgstr "Codice CLLI"
 
-#, fuzzy
-#| msgid "Geocode"
 msgid "Rencode"
-msgstr "Codice geografico"
+msgstr "Ricodifica"
 
 msgid "NPA-NXX"
 msgstr "NPA-NXX"
@@ -368,10 +362,8 @@ msgstr "Telefono tecnici"
 msgid "Sales Email"
 msgstr "Email vendite"
 
-#, fuzzy
-#| msgid "Sales"
 msgid "Sales Phone"
-msgstr "Vendite"
+msgstr "Telefono vendite"
 
 msgid "Property"
 msgstr "Proprietà"
@@ -380,7 +372,7 @@ msgid "A property owner is the individual or entity that has title to the proper
 msgstr ""
 
 msgid "Diverse Serving Substations"
-msgstr ""
+msgstr "Diverse sottostazioni di servizio"
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
 msgstr ""
@@ -2251,30 +2243,26 @@ msgstr "Utente"
 msgid "AS"
 msgstr "AS"
 
-#, fuzzy, python-format
-#| msgid "Organization %(o_name)s (%(o_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, python-format
 msgid "Organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "L'organizzazione %(o_name)s (%(o_id)s) è stata creata automaticamente durante la richiesta di affiliazione dell'utente '%(u_name)s' a AS%(asn)s"
+msgstr "L'organizzazione %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>) è stata creata automaticamente durante la richiesta di affiliazione dell'utente '%(u_name)s ad AS%(asn)s"
 
-#, fuzzy, python-format
-#| msgid "Network %(n_name)s (%(n_id)s) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
+#, python-format
 msgid "Network %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) was automatically created during user '%(u_name)s's affiliation request to AS%(asn)s"
-msgstr "La rete %(n_name)s (%(n_id)s) è stata creata automaticamente durante la richiesta di affiliazione dell'utente '%(u_name)s' a AS%(asn)s"
+msgstr "La rete %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) è stata creata automaticamente durante la richiesta di affiliazione dell'utente '%(u_name)s ad AS%(asn)s"
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "L'utente '%(u_name)s' ha creato la Rete %(n_name)s in AS%(n_asn)s (%(n_id)s) sotto l'organizzazione %(o_name)s (%(o_id)s)."
+msgstr "Chiave API dell'organizzazione (prefisso:%(prefix)s) con email '%(email)s' creata Rete %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id )s</a>) sotto l'organizzazione %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgstr "Questa rete ha saltato la coda di verifica dato che l'indirizzo email dell'utente è stato trovato nei dati contenuti nell'entrata RiR."
 
-#, fuzzy, python-format
-#| msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (%(n_id)s) under organzation %(o_name)s (%(o_id)s)."
+#, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "L'utente '%(u_name)s' ha creato la Rete %(n_name)s in AS%(n_asn)s (%(n_id)s) sotto l'organizzazione %(o_name)s (%(o_id)s)."
+msgstr "L'utente '%(u_name)s' ha creato la rete %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) nell'organizzazione %(o_name) s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -2628,10 +2616,9 @@ msgstr ""
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
 msgstr "Aggiunto un nuovo %(entity_name)s alla tua Organizzazione. Nota che l'appena creato %(entity_name)s dovrà essere approvato dallo staff di PeeringDB prima che venga visualizzato nei risultati di ricerca o nella lista delle API"
 
-#, fuzzy, python-format
-#| msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
+#, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
-msgstr "Aggiunto un nuovo %(entity_name)s alla tua Organizzazione. Nota che l'appena creato %(entity_name)s dovrà essere approvato dallo staff di PeeringDB prima che venga visualizzato nei risultati di ricerca o nella lista delle API"
+msgstr "Aggiungi un nuovo %(entity_name)s alla tua organizzazione. Tieni presente che il tuo campus non sarà visibile agli altri utenti fino a quando non avrà almeno <strong>2</strong> strutture al suo interno."
 
 #, fuzzy
 #| msgid "Add a new Network to your Organization."
@@ -3189,10 +3176,8 @@ msgstr ""
 msgid "Could not resolve the location you provided: "
 msgstr ""
 
-#, fuzzy
-#| msgid "Sponsors"
 msgid "sponsor"
-msgstr "Sponsor"
+msgstr "sponsor"
 
 #, fuzzy
 #| msgid "Exchange"
