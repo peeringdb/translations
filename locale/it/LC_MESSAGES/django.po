@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-19 06:58+0000\n"
+"PO-Revision-Date: 2023-06-19 07:58+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -1125,10 +1125,9 @@ msgstr "reCAPTCHA non valido"
 msgid "captcha invalid"
 msgstr "captcha invalido"
 
-#, fuzzy, python-format
-#| msgid "Negative value not allowed"
+#, python-format
 msgid "File type %(value)s not allowed"
-msgstr "Valori negativi non permessi"
+msgstr "Tipo di file %(value)s non consentito"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
@@ -2253,7 +2252,7 @@ msgstr "La rete %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) è stata creata 
 
 #, python-format
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "Chiave API dell'organizzazione (prefisso:%(prefix)s) con email '%(email)s' creata Rete %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id )s</a>) sotto l'organizzazione %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "Chiave API dell'organizzazione (prefisso:%(prefix)s) con email '%(email)s' creata Rete %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) sotto l'organizzazione %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -2262,7 +2261,7 @@ msgstr "Questa rete ha saltato la coda di verifica dato che l'indirizzo email de
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
-msgstr "L'utente '%(u_name)s' ha creato la rete %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) nell'organizzazione %(o_name) s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
+msgstr "L'utente '%(u_name)s' ha creato la rete %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) nell'organizzazione %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 
 #, fuzzy
 #| msgid "As the user's email address was succesfully matched against RiR entry data this network has skipped the verification queue."
@@ -3232,10 +3231,9 @@ msgstr "Recupera nome(i) utente"
 msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid "We have resent your confirmation email"
+#, python-format
 msgid "%(org_name)s requests confirmation of %(email)s"
-msgstr "Abbiamo re-inviato la tua mail di conferma"
+msgstr "%(org_name)s richiede conferma di %(email)s"
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
@@ -3927,10 +3925,9 @@ msgstr ""
 msgid "Invalid {service} URL!"
 msgstr ""
 
-#, fuzzy, python-brace-format
-#| msgid "Invalid username/password."
+#, python-brace-format
 msgid "Invalid {service} username!"
-msgstr "Nome utente o password non valido."
+msgstr "Nome utente {service} non valido!"
 
 #, fuzzy
 #| msgid "Invalid value"
