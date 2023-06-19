@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-19 07:58+0000\n"
+"PO-Revision-Date: 2023-06-19 20:48+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -375,13 +375,13 @@ msgid "Diverse Serving Substations"
 msgstr "Diverse sottostazioni di servizio"
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
-msgstr ""
+msgstr "Due percorsi separati e distinti verso le singole sottostazioni che dovrebbero mantenere un percorso separato verso una o più stazioni del generatore di servizio."
 
 msgid "Available Voltage Services"
 msgstr "Voltaggi disponibili"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr ""
+msgstr "La tensione di corrente alternata disponibile per gli utenti dello PoP direttamente dal proprietario o fornita dall'utilità separatamente."
 
 msgid "Continental Region"
 msgstr "Regione continentale"
@@ -417,10 +417,10 @@ msgid "Contacts"
 msgstr "Contatti"
 
 msgid "IRR as-set/route-set"
-msgstr ""
+msgstr "IRR as-set/route-set"
 
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
-msgstr ""
+msgstr "Riferimento a un AS-SET o ROUTE-SET in Internet Routing Registry (IRR)"
 
 msgid "Looking Glass URL"
 msgstr "URL del Looking Glass"
@@ -428,10 +428,8 @@ msgstr "URL del Looking Glass"
 msgid "Route Server URL"
 msgstr "URL del Route Server"
 
-#, fuzzy
-#| msgid "Private Only"
 msgid "Private notes"
-msgstr "Solo Privati"
+msgstr "Appunti private"
 
 msgid "Traffic Levels"
 msgstr "Livelli di Traffico"
@@ -449,13 +447,13 @@ msgid "IPv4 Prefixes"
 msgstr "Prefissi IPv4"
 
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Numero massimo consigliato di route/prefissi IPv4 da configurare nelle sessioni di peering per questo ASN"
 
 msgid "IPv6 Prefixes"
 msgstr "Prefissi IPv6"
 
 msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Numero massimo consigliato di route/prefissi IPv6 da configurare nelle sessioni di peering per questo ASN"
 
 msgid "Unicast IPv4"
 msgstr "Unicast IPv4"
@@ -466,10 +464,8 @@ msgstr "Multicast"
 msgid "Unicast IPv6"
 msgstr "Unicast IPv6"
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "Never via route servers"
-msgstr "Route Server"
+msgstr "Mai via route server"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
 msgstr ""
@@ -935,7 +931,7 @@ msgid "Reset dismisses"
 msgstr "Reimposta"
 
 msgid "Reset email"
-msgstr "Resetta  Email"
+msgstr "Reimposta email"
 
 #, fuzzy
 #| msgid "Reset"
@@ -968,10 +964,8 @@ msgstr ""
 msgid "Key not found"
 msgstr "Chiave non trovata"
 
-#, fuzzy
-#| msgid "This field is required"
 msgid "This field is required."
-msgstr "Il campo è richiesto"
+msgstr "Il campo è richiesto."
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
@@ -1216,10 +1210,8 @@ msgstr ""
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: {}"
-msgstr "Valore velocita  non valido: {}"
+msgstr "Valore di velocità non valido: {}"
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"
@@ -1430,10 +1422,8 @@ msgstr ""
 msgid "Require users in this organization to periodically re-authenticate"
 msgstr ""
 
-#, fuzzy
-#| msgid "Organization does not exist"
 msgid "Organization has active objects under it."
-msgstr "L'Organizzazione non esiste"
+msgstr "L'organizzazione ha oggetti attivi sotto di essa."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
@@ -2034,10 +2024,8 @@ msgstr ""
 msgid "This field may not be blank."
 msgstr ""
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "ASN cannot be changed."
-msgstr "Interscambio"
+msgstr "Lo ASN non può essere modificato."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr ""
@@ -3235,10 +3223,8 @@ msgstr ""
 msgid "%(org_name)s requests confirmation of %(email)s"
 msgstr "%(org_name)s richiede conferma di %(email)s"
 
-#, fuzzy
-#| msgid "Confirm your e-mail address"
 msgid "Please confirm your email addresses "
-msgstr "Conferma il tuo indirizzo e-mail"
+msgstr "Conferma i tuoi indirizzi e-mail "
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Il tuo account utente non è ancora stato affiliato a nessuna Organizzazione e avrà accesso limitato a parte dei dati (ad esempio informazioni di contatto non pubbliche della rete)."
@@ -3363,10 +3349,8 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Regionale"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "This carrier wants to list its presence at this facility."
-msgstr "Numero di reti presenti in questa - Struttura"
+msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
 
 #, fuzzy
 #| msgid "Status of this request"
@@ -3669,10 +3653,8 @@ msgstr ""
 msgid "Remove this organization from PeeringDB."
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid organization"
 msgid "Delete organization?"
-msgstr "Organizzazione non valida"
+msgstr "Eliminare l'organizzazione?"
 
 #, python-format
 msgid "Delete %(name)s"
@@ -3807,10 +3789,8 @@ msgstr ""
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr ""
 
-#, fuzzy
-#| msgid "Add a new Network to your Organization."
 msgid "Add a TOPT method to your two-factor authentication"
-msgstr "Aggiungi una nuova Rete alla tua Organizzazione."
+msgstr "Aggiungi un metodo TOPT alla tua autenticazione a due fattori"
 
 #, fuzzy
 #| msgid "Manage OAuth Applications"
@@ -3929,15 +3909,11 @@ msgstr ""
 msgid "Invalid {service} username!"
 msgstr "Nome utente {service} non valido!"
 
-#, fuzzy
-#| msgid "Invalid value"
 msgid "Invalid service!"
-msgstr "Valore invalido"
+msgstr "Servizio non valido!"
 
-#, fuzzy
-#| msgid "Invalid export format"
 msgid "Invalid identifier!"
-msgstr "Formato di esportazione non valido"
+msgstr "Identificatore non valido!"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Si prega di attendere un po' prima di richiedere nuovamente il possesso."
@@ -3995,10 +3971,8 @@ msgstr ""
 msgid "E-mail already exists in our system"
 msgstr "L'indirizzo e-mail già esiste nel nostro sistema"
 
-#, fuzzy
-#| msgid "You have confirmed your email address!"
 msgid "You may have a maximum of {} email addresses"
-msgstr "Hai confermato il tuo indirizzo email!"
+msgstr "Puoi avere un massimo di {} indirizzi email"
 
 msgid "Cannot remove primary email"
 msgstr ""
