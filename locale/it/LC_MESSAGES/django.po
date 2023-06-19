@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2023-06-19 20:58+0000\n"
-"Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
+"Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -485,15 +485,11 @@ msgstr "Requisiti sul Rapporto"
 msgid "Contract Requirement"
 msgstr "Requisiti del contratto"
 
-#, fuzzy
-#| msgid "status"
 msgid "RIR status"
-msgstr "stato"
+msgstr "Stato RIR"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "RIR status updated"
-msgstr "Ultimo Aggiornamento"
+msgstr "Stato RIR aggiornato"
 
 msgid "Network"
 msgstr "Rete"
@@ -521,10 +517,8 @@ msgstr "Telefono policy"
 msgid "IX-F Network Count"
 msgstr "Indirizzo non trovato"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Last Import"
-msgstr "Registro di importazione IXF"
+msgstr "IX-F Ultima importazione"
 
 msgid "Service Level"
 msgstr "Livello del servizio"
@@ -532,20 +526,14 @@ msgstr "Livello del servizio"
 msgid "Terms"
 msgstr "Condizioni"
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange"
-msgstr "Qualsiasi Interscambio"
+msgstr "Internet Exchange"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Internet Exchanges"
-msgstr "Interscambio"
+msgstr "Internet Exchanges"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "Internet Exchange facility"
-msgstr "Collegamento Interscambio - Struttura"
+msgstr "Internet Exchange PoP"
 
 #, fuzzy
 #| msgid "Facilities"
@@ -561,27 +549,21 @@ msgid "Route Server ASN"
 msgstr "Route Server"
 
 msgid "ARP sponging MAC"
-msgstr ""
+msgstr "ARP sponging MAC"
 
-#, fuzzy
-#| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL"
-msgstr "URL di esportazione membri IXF"
+msgstr "URL di esportazione membro IX-F"
 
 #, fuzzy
 #| msgid "IXF Member Export URL"
 msgid "IX-F Member Export URL Visibility"
 msgstr "URL di esportazione membri IXF"
 
-#, fuzzy
-#| msgid "Any Exchange"
 msgid "Internet Exchange LAN"
-msgstr "Qualsiasi Interscambio"
+msgstr "Internet Exchange LAN"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Internet Exchange LANs"
-msgstr "Interscambio"
+msgstr "Internet Exchange LANs"
 
 msgid "Protocol"
 msgstr "Protocollo"
@@ -590,18 +572,16 @@ msgid "Prefix"
 msgstr "Prefisso"
 
 msgid "Internet Exchange LAN prefix"
-msgstr ""
+msgstr "Prefisso LAN di Internet Exchange"
 
 msgid "Internet Exchange LAN prefixes"
-msgstr ""
+msgstr "Prefissi LAN di Internet Exchange"
 
 msgid "Local ASN"
 msgstr "ASN Locale"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Network Facility"
-msgstr "Struttura"
+msgstr "PoP di rete"
 
 #, fuzzy
 #| msgid "Facilities"
