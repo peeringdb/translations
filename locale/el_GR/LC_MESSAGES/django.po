@@ -884,6 +884,11 @@ msgstr "Θέαση"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Ο συσχετισμός σας με %(ar_name)s απορρίφθηκε"
 
+#, fuzzy
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "Ο συσχετισμός σας με %(ar_name)s απορρίφθηκε"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Το αίτημα συσχέτισης εγκρίθηκε και ο χρήστης ειδοποιήθηκε."
 
@@ -1498,6 +1503,9 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid "Require users in your organization to activate 2FA."
 msgstr ""
 
 #, fuzzy
@@ -2309,6 +2317,40 @@ msgstr "O/η χρήστης %(u_name)s (%(u_email)s) επιθυμεί να συ�
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "Ως διαχειριστής του οργανισμού, μπορείτε να εγκρίνετε ή να απορρίψετε το αίτημα εδώ"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "Υπάρχοντες συσχετισμοί"
+
+#, fuzzy
+#| msgid "Affiliate"
+msgid "Leave them Affiliated"
+msgstr "Συσχετισμένος/η"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "Συμβατικές Απαιτήσεις"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "Μπορείτε να δείτε και να επεξεργαστείτε τον οργανισμό σας στο"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Αν έχετε ερωτήσεις, παρακαλούμε μην διστάσετε να επικοινωνήσετε με την υποστήριξη του peeringdb στο"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "Η ιδιοκτησία του οργανισμού δόθηκε αυτομάτως στον/ην χρήστη"
 
@@ -2464,9 +2506,6 @@ msgstr "Αυτό ήταν αποτέλεσμα χειροκίνητης ανασ
 
 msgid "You may view and edit your organization at"
 msgstr "Μπορείτε να δείτε και να επεξεργαστείτε τον οργανισμό σας στο"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Αν έχετε ερωτήσεις, παρακαλούμε μην διστάσετε να επικοινωνήσετε με την υποστήριξη του peeringdb στο"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Ξεκινήσατε μια διαδικασία ανάκτησης κωδικού στο PeeringDB 2 - Παρακαλώ ακολουθήστε τον παρακάτω σύνδεσμο για να ανακτήσετε τον κωδικό σας."
@@ -2823,6 +2862,11 @@ msgstr "Προσθήκη Δικτύου"
 msgid "Registered Users"
 msgstr "Εγγραφή"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "Επιβεβαίωση Email"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Αναζητήστε εδώ για ένα δίκτυο, IXP, ή εγκατάσταση."
 
@@ -2888,6 +2932,14 @@ msgstr "Maintenance"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "Ο κωδικός για τον λογαριασμό σας"
 
 msgid "Login with oAuth"
 msgstr "Σύνδεση με oAuth"
@@ -3729,6 +3781,12 @@ msgstr "Οργανισμός"
 msgid "Group"
 msgstr "Ομάδα"
 
+msgid "No 2FA"
+msgstr ""
+
+msgid "Require users in your organization to enable 2FA."
+msgstr ""
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4251,6 +4309,21 @@ msgid "Malformed Organization Preference"
 msgstr "Ορίστε προτίμηση γλώσσας"
 
 #, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member"
+msgstr "Μη έγκυρο prefix: {}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
+#, fuzzy
 #~| msgid "Facilities"
 #~ msgid "Private Peering Facilities"
 #~ msgstr "Eγκαταστάσεις"
@@ -4297,11 +4370,6 @@ msgstr "Ορίστε προτίμηση γλώσσας"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Ανανεωμένα στοιχεία geocode για αυτή την οντότητα θα ανακτηθούν συντόμως"
-
-#, fuzzy
-#~| msgid "Invalid prefix: {}"
-#~ msgid "Invalid member type: {}"
-#~ msgstr "Μη έγκυρο prefix: {}"
 
 #, fuzzy
 #~| msgid "Exchanges"

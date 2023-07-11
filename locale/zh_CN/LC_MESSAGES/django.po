@@ -884,6 +884,11 @@ msgstr "查看"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "您与 %(ar_name)s 的关联被拒绝"
 
+#, fuzzy
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "您与 %(ar_name)s 的关联被拒绝"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "关联请求已批准并通知了用户。"
 
@@ -1512,6 +1517,9 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid "Require users in your organization to activate 2FA."
 msgstr ""
 
 #, fuzzy
@@ -2323,6 +2331,40 @@ msgstr "用户 %(u_name)s（%(u_email)s）希望关联组织 %(o_name)s。"
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "作为组织的管理员，您可以在此批准或拒绝此请求"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "现有的关联"
+
+#, fuzzy
+#| msgid "Affiliate"
+msgid "Leave them Affiliated"
+msgstr "关联"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "合同要求"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "您可以查看和编辑您的组织在"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "如果您有任何疑问，请随时联系 PeeringDB 支持"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "组织的所有权自动授予用户"
 
@@ -2479,9 +2521,6 @@ msgstr "这是对您的组织或实体关联请求发人工审核结果。"
 
 msgid "You may view and edit your organization at"
 msgstr "您可以查看和编辑您的组织在"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "如果您有任何疑问，请随时联系 PeeringDB 支持"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "您在PeeringDB 2上启动了密码重置 - 请按下面的 URL 重置密码。"
@@ -2826,6 +2865,11 @@ msgstr "添加网络"
 msgid "Registered Users"
 msgstr "注册"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "电子邮件确认"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "在此搜索网络、IX或设施。"
 
@@ -2885,6 +2929,14 @@ msgstr "维护模式"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "网站正在维护中，请稍候再试"
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "您账号的密码"
 
 msgid "Login with oAuth"
 msgstr "通过 oAuth 登陆"
@@ -3708,6 +3760,12 @@ msgstr "组织"
 msgid "Group"
 msgstr "组"
 
+msgid "No 2FA"
+msgstr ""
+
+msgid "Require users in your organization to enable 2FA."
+msgstr ""
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4218,6 +4276,21 @@ msgid "Malformed Organization Preference"
 msgstr "设置语言偏好"
 
 #, fuzzy
+#| msgid "Invalid member type: {}"
+msgid "Invalid member"
+msgstr "会员类型无效：{}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
+#, fuzzy
 #~| msgid "Merge Facilities"
 #~ msgid "Private Peering Facilities"
 #~ msgstr "合并设施"
@@ -4267,9 +4340,6 @@ msgstr "设置语言偏好"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "该实体的地理编码数据将被更新"
-
-#~ msgid "Invalid member type: {}"
-#~ msgstr "会员类型无效：{}"
 
 #, fuzzy
 #~| msgid "No changes"

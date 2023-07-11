@@ -784,6 +784,11 @@ msgstr "Vedeți"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Nu poate aproba o cerere de afiliere anulată"
 
+#, fuzzy
+#| msgid "Cannot approve a canceled affiliation request"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "Nu poate aproba o cerere de afiliere anulată"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Cererea de afiliere a fost aprobată și utilizatorul a fost notificat."
 
@@ -1313,6 +1318,11 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr "Dacă restricția de e-mail a utilizatorului este activată: permiteți numai utilizatorilor cu e-mailuri în aceste domenii. Un domeniu pe linie, în formatul „@xyz.com”"
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
+
+#, fuzzy
+#| msgid "Require users in this organization to periodically re-authenticate"
+msgid "Require users in your organization to activate 2FA."
 msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
 
 msgid "Organization has active objects under it."
@@ -2052,6 +2062,40 @@ msgstr "Utilizatorul %(u_name)s (%(u_email)s) dorește să se afilieze la %(o_na
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "În calitate de administrator al organizației puteți aproba sau respinge această cerere aici"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "Afilieri existente"
+
+#, fuzzy
+#| msgid "Affiliate"
+msgid "Leave them Affiliated"
+msgstr "Afiliați-vă"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "Contract necesar"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "Puteți vedea și edita organizația dvs. la"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Dacă aveți întrebări, nu ezitați să contactați asistența PeeringDB la"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "Deținerea organizației a fost acordată automat utilizatorului"
 
@@ -2189,9 +2233,6 @@ msgstr "Acesta a fost rezultatul unei revizuiri manuale a cererii dvs. de afilie
 
 msgid "You may view and edit your organization at"
 msgstr "Puteți vedea și edita organizația dvs. la"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Dacă aveți întrebări, nu ezitați să contactați asistența PeeringDB la"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Ați inițiat o resetare de parolă la PeeringDB 2 - Vă rugăm să accesați URL-ul de mai jos pentru a vă reseta parola."
@@ -2493,6 +2534,11 @@ msgstr "Rețele automatizate"
 msgid "Registered Users"
 msgstr "Utilizatori înregistrați"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "Confirmare e-mail"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
 
@@ -2552,6 +2598,16 @@ msgstr "Modul de întreținere"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "Site-ul este în prezent în modul de întreținere, timp în care această acțiune este dezactivată, încercați din nou în câteva minute"
+
+#, fuzzy
+#| msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr "Unele dintre organizațiile dvs. vă solicită să vă confirmați adresa de e-mail. Accesul dumneavoastră la ele a fost restricționat până când veți face acest lucru."
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "Parola pentru contul dvs."
 
 msgid "Login with oAuth"
 msgstr "Autentificare cu oAuth"
@@ -3291,6 +3347,14 @@ msgstr "Utilizatori în organizație"
 msgid "Group"
 msgstr "Grup"
 
+msgid "No 2FA"
+msgstr ""
+
+#, fuzzy
+#| msgid "Require users in this organization to periodically re-authenticate"
+msgid "Require users in your organization to enable 2FA."
+msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -3773,6 +3837,21 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 msgid "Malformed Organization Preference"
 msgstr "Preferință de limbă incorectă"
 
+#, fuzzy
+#| msgid "Invalid member type: {}"
+msgid "Invalid member"
+msgstr "Categoria de membru nu este validă: {}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
 #~ msgid "Private Peering Facilities"
 #~ msgstr "Facilități cu peering privat"
 
@@ -3895,9 +3974,6 @@ msgstr "Preferință de limbă incorectă"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Datele actualizate ale geocodului pentru această entitate vor fi obținute în scurt timp"
-
-#~ msgid "Invalid member type: {}"
-#~ msgstr "Categoria de membru nu este validă: {}"
 
 #, fuzzy
 #~| msgid "No changes"

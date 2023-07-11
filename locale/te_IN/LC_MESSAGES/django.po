@@ -781,6 +781,9 @@ msgstr ""
 msgid "Cannot approve a canceled affiliation request"
 msgstr ""
 
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr ""
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr ""
 
@@ -1310,6 +1313,9 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid "Require users in your organization to activate 2FA."
 msgstr ""
 
 msgid "Organization has active objects under it."
@@ -2015,6 +2021,32 @@ msgstr ""
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr ""
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+msgid "Drop Affiliations"
+msgstr ""
+
+msgid "Leave them Affiliated"
+msgstr ""
+
+msgid "Cancel 2FA Requirement"
+msgstr ""
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+msgid "You may view and edit your organization users at"
+msgstr ""
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr ""
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr ""
 
@@ -2151,9 +2183,6 @@ msgid "This was the result of a manual review of your affiliation request to the
 msgstr ""
 
 msgid "You may view and edit your organization at"
-msgstr ""
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgstr ""
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
@@ -2456,6 +2485,9 @@ msgstr ""
 msgid "Registered Users"
 msgstr ""
 
+msgid "Confirmation"
+msgstr ""
+
 msgid "Search here for a network, IX, or facility."
 msgstr ""
 
@@ -2514,6 +2546,12 @@ msgid "Maintenance Mode"
 msgstr ""
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
+msgstr ""
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+msgid "Activate 2FA for your account"
 msgstr ""
 
 msgid "Login with oAuth"
@@ -3244,6 +3282,12 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
+msgid "No 2FA"
+msgstr ""
+
+msgid "Require users in your organization to enable 2FA."
+msgstr ""
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -3682,4 +3726,17 @@ msgid "Please wait a bit before trying to login again."
 msgstr ""
 
 msgid "Malformed Organization Preference"
+msgstr ""
+
+msgid "Invalid member"
+msgstr ""
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
 msgstr ""

@@ -884,6 +884,11 @@ msgstr "Náhled"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Vaše přidružení k %(ar_name)s bylo zamítnuto"
 
+#, fuzzy
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "Vaše přidružení k %(ar_name)s bylo zamítnuto"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Žádost o přidružení byla schválena a uživatel byl upozorněn."
 
@@ -1488,6 +1493,9 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid "Require users in your organization to activate 2FA."
 msgstr ""
 
 #, fuzzy
@@ -2294,6 +2302,39 @@ msgstr "Uživatel %(u_name)s (%(u_email)s) by se chtěl přidružit k %(o_name)s
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "Jako správce organizace můžete tuto žádost schválit nebo zamítnout zde"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "Stávající přičlenění"
+
+#, fuzzy
+msgid "Leave them Affiliated"
+msgstr "Přidružení"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "Požadavek na smlouvu"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "Údaje o organizaci můžete zobrazit a upravit na adrese"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Pokud máte dotazy, neváhejte kontaktovat podporu peeringdb na adrese"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "Vlastnictví organizace bylo automaticky přiděleno uživateli"
 
@@ -2450,9 +2491,6 @@ msgstr "Byl to výsledek manuálního přezkoumání žádosti o přidružení k
 
 msgid "You may view and edit your organization at"
 msgstr "Údaje o organizaci můžete zobrazit a upravit na adrese"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Pokud máte dotazy, neváhejte kontaktovat podporu peeringdb na adrese"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Požádal jste o restart hesla do PeeringDB 2.0 - Nastavení nového hesla, prosím, proveďte na uvedené adrese."
@@ -2806,6 +2844,11 @@ msgstr "Přidat síť"
 msgid "Registered Users"
 msgstr "Registrovat"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "Potvrzení e-mailu"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Vyhledat Síť, Propojovací uzel nebo Zařízení."
 
@@ -2871,6 +2914,14 @@ msgstr "Údržba"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "Heslo pro váš účet"
 
 msgid "Login with oAuth"
 msgstr "Přihlásit se pomocí oAuth"
@@ -3724,6 +3775,12 @@ msgstr "Organizace"
 msgid "Group"
 msgstr "Skupina"
 
+msgid "No 2FA"
+msgstr ""
+
+msgid "Require users in your organization to enable 2FA."
+msgstr ""
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4247,6 +4304,21 @@ msgid "Malformed Organization Preference"
 msgstr "Nastavte preferenci jazyka"
 
 #, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member"
+msgstr "Neplatný prefix: {}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
+#, fuzzy
 #~| msgid "Merge Facilities"
 #~ msgid "Private Peering Facilities"
 #~ msgstr "Sloučit zařízení"
@@ -4294,11 +4366,6 @@ msgstr "Nastavte preferenci jazyka"
 #, fuzzy
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Aktualizovaný geocode pro tuto entitu budou brzy získána"
-
-#, fuzzy
-#~| msgid "Invalid prefix: {}"
-#~ msgid "Invalid member type: {}"
-#~ msgstr "Neplatný prefix: {}"
 
 #, fuzzy
 #~| msgid "Exchanges"

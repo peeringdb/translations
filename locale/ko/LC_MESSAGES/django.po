@@ -802,6 +802,11 @@ msgstr "보기"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "취소된 소속 요청을 승인할 수 없음"
 
+#, fuzzy
+#| msgid "Cannot approve a canceled affiliation request"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "취소된 소속 요청을 승인할 수 없음"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "가입 요청이 승인되어 사용자에게 공지함."
 
@@ -1362,6 +1367,11 @@ msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
 msgstr ""
+
+#, fuzzy
+#| msgid "Require users in your organization to have email addresses within your specified domains."
+msgid "Require users in your organization to activate 2FA."
+msgstr "당신의 조직의 사용자가 지정된 도메인 내에 이메일 주소를 가지고 있어야 합니다."
 
 msgid "Organization has active objects under it."
 msgstr "조직 아래에 활성 객체가 있습니다."
@@ -2134,6 +2144,40 @@ msgstr "사용자 %(u_name)s (%(u_email)s) 은 %(o_name)s 에 속하기를 원�
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "조직의 관리자로서 당신은 여기에서 이 요청을 승인하거나 거부할 수 있음"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "기존 소속"
+
+#, fuzzy
+#| msgid "Affiliate"
+msgid "Leave them Affiliated"
+msgstr "가입하기"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "계약 요구 사항"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "다음 위치에서 당신의 조직을 보고 편집할 수 있습니다"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "질문이 있으면 주저하지 말고 다음 사이트에서 peeringdb 지원팀에 문의하십시오"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "사용자에게 조직의 소유권이 자동으로 부여됨"
 
@@ -2280,9 +2324,6 @@ msgstr "이는 조직 또는 조직 중 하나에 대한 소속 요청에 대한
 
 msgid "You may view and edit your organization at"
 msgstr "다음 위치에서 당신의 조직을 보고 편집할 수 있습니다"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "질문이 있으면 주저하지 말고 다음 사이트에서 peeringdb 지원팀에 문의하십시오"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "PeeringDB 2에서 암호 재설정을 시작하셨습니다. 암호를 재설정하려면 아래 URL을 클릭하십시오."
@@ -2616,6 +2657,11 @@ msgstr "자동화된 네트워크"
 msgid "Registered Users"
 msgstr "가입"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "이메일 확인"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "여기에서 네트워크, IX 또는 시설을 검색하십시오."
 
@@ -2675,6 +2721,14 @@ msgstr "유지 보수 모드"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "사이트가 현재 유지 보수 모드에 있으며, 이 작업을 사용할 수 없습니다, 잠시 후 다시 시도하십시오"
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "이것은 당신의 계정의 비밀번호 입니다"
 
 msgid "Login with oAuth"
 msgstr "oAuth으로 로그인"
@@ -3448,6 +3502,14 @@ msgstr "조직의 사용자"
 msgid "Group"
 msgstr "그룹"
 
+msgid "No 2FA"
+msgstr ""
+
+#, fuzzy
+#| msgid "Require users in your organization to have email addresses within your specified domains."
+msgid "Require users in your organization to enable 2FA."
+msgstr "당신의 조직의 사용자가 지정된 도메인 내에 이메일 주소를 가지고 있어야 합니다."
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -3950,6 +4012,21 @@ msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오
 msgid "Malformed Organization Preference"
 msgstr "언어 기본 설정"
 
+#, fuzzy
+#| msgid "Invalid member type: {}"
+msgid "Invalid member"
+msgstr "잘못된 멤버 형식: {}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
 #~ msgid "Private Peering Facilities"
 #~ msgstr "사설 피어링 시설"
 
@@ -4072,9 +4149,6 @@ msgstr "언어 기본 설정"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "이 항목에 대한 업데이트된 지오코드 데이터가 곧 수집될 것입니다"
-
-#~ msgid "Invalid member type: {}"
-#~ msgstr "잘못된 멤버 형식: {}"
 
 #~ msgid "In DFZ"
 #~ msgstr "DFZ에서"

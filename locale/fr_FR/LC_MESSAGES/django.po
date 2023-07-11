@@ -807,6 +807,11 @@ msgstr "Voir"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Impossible d'approuver une requête d'affiliation annulée"
 
+#, fuzzy
+#| msgid "Cannot approve a canceled affiliation request"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "Impossible d'approuver une requête d'affiliation annulée"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "La demande d'affiliation a été approuvée et l'utilisateur a été informé."
 
@@ -1408,6 +1413,9 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid "Require users in your organization to activate 2FA."
 msgstr ""
 
 #, fuzzy
@@ -2219,6 +2227,40 @@ msgstr "L'utilisateur %(u_name)s (%(u_email)s) souhaite être affilié à l'orga
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "En tant qu'administrateur de l'organisation, vous pouvez approuver ou rejeter cette demande ici"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "Affiliations existantes"
+
+#, fuzzy
+#| msgid "Affiliate"
+msgid "Leave them Affiliated"
+msgstr "S'affilier"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "Contrat exigé"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "Vous pouvez visualiser et éditer votre organisation à l'adresse"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Si vous avez des question, n'hésitez pas à contacter le support de peeringdb à l'adresse"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "La propriété de l'organisation a automatiquement été attribuée à l'utilisateur"
 
@@ -2374,9 +2416,6 @@ msgstr "Ceci est le résultat d'une validation manuelle de votre demande d’aff
 
 msgid "You may view and edit your organization at"
 msgstr "Vous pouvez visualiser et éditer votre organisation à l'adresse"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Si vous avez des question, n'hésitez pas à contacter le support de peeringdb à l'adresse"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Vous avez initié une demande de réinitialisation de votre mot de passe sur PeeringDB 2 - Veuillez vous rendre sur l'URL suivante pour réinitialiser votre mot de passe."
@@ -2733,6 +2772,11 @@ msgstr "Ajouter un réseau"
 msgid "Registered Users"
 msgstr "Inscription"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "Confirmation de courriel"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Recherche de réseau, point d'échange ou installation."
 
@@ -2798,6 +2842,14 @@ msgstr "Maintenance"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "Le mot de passe pour votre compte"
 
 msgid "Login with oAuth"
 msgstr "Connexion avec oAuth"
@@ -3639,6 +3691,12 @@ msgstr "Organisation"
 msgid "Group"
 msgstr "Groupe"
 
+msgid "No 2FA"
+msgstr ""
+
+msgid "Require users in your organization to enable 2FA."
+msgstr ""
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4159,6 +4217,21 @@ msgid "Malformed Organization Preference"
 msgstr "Définir la préférence de langue"
 
 #, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member"
+msgstr "Préfixe invalide: {}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
+#, fuzzy
 #~| msgid "Facilities"
 #~ msgid "Private Peering Facilities"
 #~ msgstr "Installations"
@@ -4205,11 +4278,6 @@ msgstr "Définir la préférence de langue"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Des données de géocodage actualisées pour cette entité vont être obtenues rapidement"
-
-#, fuzzy
-#~| msgid "Invalid prefix: {}"
-#~ msgid "Invalid member type: {}"
-#~ msgstr "Préfixe invalide: {}"
 
 #, fuzzy
 #~| msgid "Exchanges"

@@ -856,6 +856,11 @@ msgstr "Просмотр"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
 
+#, fuzzy
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Заявка на установление связи одобрена, пользователь уведомлен."
 
@@ -1468,6 +1473,9 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid "Require users in your organization to activate 2FA."
 msgstr ""
 
 #, fuzzy
@@ -2276,6 +2284,40 @@ msgstr "Пользователь %(u_name)s (%(u_email)s) подал заявк�
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "В качестве администратора организации вы можете одобрить или отклонить данную заявку здесь"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "Имеющиеся связи"
+
+#, fuzzy
+#| msgid "Affiliate"
+msgid "Leave them Affiliated"
+msgstr "Связать"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "Контракт обязателен"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "Вы можете просматривать и изменять инофрмацию о вашей организации здесь"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Если у вас есть вопросы, свяжитесь с техподдержкой PeeringDB по адресу"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "Права управления организацией назначены пользователю автоматически"
 
@@ -2431,9 +2473,6 @@ msgstr "Это результат ручной обработки вашей з�
 
 msgid "You may view and edit your organization at"
 msgstr "Вы можете просматривать и изменять инофрмацию о вашей организации здесь"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Если у вас есть вопросы, свяжитесь с техподдержкой PeeringDB по адресу"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Вы инициировали сброс пароля PeeringDB 2 - пожалуйста перейдите по ссылке для сброса пароля."
@@ -2790,6 +2829,11 @@ msgstr "Новая сеть"
 msgid "Registered Users"
 msgstr "Зарегистрироваться"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "Подтверждение емайла"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "Поиск сети, IX, площадки."
 
@@ -2855,6 +2899,14 @@ msgstr "Уведомления о перерывах"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "Пароль для вашего аккаунта"
 
 msgid "Login with oAuth"
 msgstr "Войти с oAuth"
@@ -3699,6 +3751,12 @@ msgstr "Организация"
 msgid "Group"
 msgstr "Группа"
 
+msgid "No 2FA"
+msgstr ""
+
+msgid "Require users in your organization to enable 2FA."
+msgstr ""
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4220,6 +4278,21 @@ msgid "Malformed Organization Preference"
 msgstr "Установить язык"
 
 #, fuzzy
+#| msgid "Invalid prefix: {}"
+msgid "Invalid member"
+msgstr "Недействительный префикс: {}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
+#, fuzzy
 #~| msgid "Facilities"
 #~ msgid "Private Peering Facilities"
 #~ msgstr "Площадки"
@@ -4281,11 +4354,6 @@ msgstr "Установить язык"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "Обновленные данные геокодирования для данной сущности скоро будут получены"
-
-#, fuzzy
-#~| msgid "Invalid prefix: {}"
-#~ msgid "Invalid member type: {}"
-#~ msgstr "Недействительный префикс: {}"
 
 #, fuzzy
 #~| msgid "Exchanges"

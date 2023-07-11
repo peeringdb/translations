@@ -885,6 +885,11 @@ msgstr "عرض"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
 
+#, fuzzy
+#| msgid "Your affiliation with %(ar_name)s was denied"
+msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+msgstr "طلب الانتساب الى  %(ar_name)s  تم رفضه"
+
 msgid "Affiliation request was approved and the user was notified."
 msgstr "تمت الموافقة على طلب الانتساب وتم إخطار المستخدم."
 
@@ -1506,6 +1511,9 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid "Require users in your organization to activate 2FA."
 msgstr ""
 
 #, fuzzy
@@ -2315,6 +2323,40 @@ msgstr "المستخدم  %(u_name)s (%(u_email)s) يطلب الانضمام /ا
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "بصفتك مسؤول المؤسسة ، يمكنك الموافقة على هذا الطلب أو رفضه هنا"
 
+msgid ""
+"\n"
+"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Drop Affiliations"
+msgstr "الانتماءات الحالية"
+
+#, fuzzy
+#| msgid "Affiliate"
+msgid "Leave them Affiliated"
+msgstr "انضم/ انتساب"
+
+#, fuzzy
+#| msgid "Contract Requirement"
+msgid "Cancel 2FA Requirement"
+msgstr "متطلبات العقد"
+
+#, python-format
+msgid ""
+"\n"
+"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+msgstr ""
+
+#, fuzzy
+#| msgid "You may view and edit your organization at"
+msgid "You may view and edit your organization users at"
+msgstr "يمكنك عرض وتعديل بيانات مؤسستك على"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "إذا كانت لديك أسئلة ، فالرجاء عدم التردد في الاتصال بفريق الدعم لقاعدة بيانات التناظر على"
+
 msgid "Ownership of organization was automatically granted to user"
 msgstr "تم منح ملكية المنظمة تلقائيًا للمستخدم"
 
@@ -2471,9 +2513,6 @@ msgstr "هذه نتيجة المراجعة الأولية لطلب الانضم�
 
 msgid "You may view and edit your organization at"
 msgstr "يمكنك عرض وتعديل بيانات مؤسستك على"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "إذا كانت لديك أسئلة ، فالرجاء عدم التردد في الاتصال بفريق الدعم لقاعدة بيانات التناظر على"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "لقد بدأت إعادة تعيين كلمة المرور على قاعدة بيانات التناظر - يرجى اتباع عنوان الرابط الالكتروني أدناه لإعادة تعيين كلمة المرور."
@@ -2818,6 +2857,11 @@ msgstr "إضافة شبكة"
 msgid "Registered Users"
 msgstr "تسجيل دخول"
 
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirmation"
+msgstr "تأكيد البريد الإلكتروني"
+
 msgid "Search here for a network, IX, or facility."
 msgstr "ابحث هنا عن شبكة اتصال أو نقطة تبادل بيانات أو مركز البيانات/تشغيل."
 
@@ -2877,6 +2921,14 @@ msgstr "وضع الصيانة"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "الموقع حاليا في وضع الصيانة  حيث لا يمكنك متابعة هذا الإجراء ، يرجى المحاولة مرة أخرى بعد بضع دقائق"
+
+msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password for your account"
+msgid "Activate 2FA for your account"
+msgstr "كلمة المرور لحسابك"
 
 msgid "Login with oAuth"
 msgstr "تسجيل الدخول مع التحقق"
@@ -3703,6 +3755,12 @@ msgstr "المنظمة / المؤسسة"
 msgid "Group"
 msgstr "مجموعه"
 
+msgid "No 2FA"
+msgstr ""
+
+msgid "Require users in your organization to enable 2FA."
+msgstr ""
+
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4211,6 +4269,21 @@ msgid "Malformed Organization Preference"
 msgstr "ضبط اللغة المفضلة"
 
 #, fuzzy
+#| msgid "Invalid member type: {}"
+msgid "Invalid member"
+msgstr "نوع العضو غير صحيح: {}"
+
+msgid "Action not provided"
+msgstr ""
+
+#, python-brace-format
+msgid "Only admin of the {org} can perform the action"
+msgstr ""
+
+msgid "Login as the organization admin to perform the action"
+msgstr ""
+
+#, fuzzy
 #~| msgid "Merge Facilities"
 #~ msgid "Private Peering Facilities"
 #~ msgstr "دمج مراكز بيانات/ تشغيل"
@@ -4257,9 +4330,6 @@ msgstr "ضبط اللغة المفضلة"
 
 #~ msgid "Updated geocode data for this entity will be obtained shortly"
 #~ msgstr "سيتم الحصول على بيانات الترميز الجغرافي المحدثة لهذا الكيان بعد دقائق"
-
-#~ msgid "Invalid member type: {}"
-#~ msgstr "نوع العضو غير صحيح: {}"
 
 #, fuzzy
 #~| msgid "No changes"
