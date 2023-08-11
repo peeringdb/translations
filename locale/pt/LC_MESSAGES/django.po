@@ -227,6 +227,18 @@ msgstr "Público"
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr "Um número de telefone no formato E.164 começa com um +, seguido pelo código do país e, em seguida, pelo número de telefone nacional (retirando o 0 inicial na maioria dos países), sem espaços ou hífens entre os grupos de dígitos"
 
+msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
+msgstr "Se este campo estiver definido, ele será exibido neste registro. Caso contrário, exibiremos o site do registro da organização ao qual está vinculado"
+
+msgid "Provider of L1 or L2 connectivity into a facility"
+msgstr ""
+
+msgid "A set of facilities under one management, with inter-building cross-connects"
+msgstr ""
+
+msgid "Peering with the routeserver is shown with an icon"
+msgstr ""
+
 msgid "Best Effort (no SLA)"
 msgstr "Melhor Esforço (sem SLA)"
 
@@ -3703,9 +3715,6 @@ msgstr "PoP faz parte de um campus"
 
 msgid "Company Website Override"
 msgstr "Substituição do site da empresa"
-
-msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
-msgstr "Se este campo estiver definido, ele será exibido neste registro. Caso contrário, exibiremos o site do registro da organização ao qual está vinculado"
 
 msgid "LAN"
 msgstr "LAN"
