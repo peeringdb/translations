@@ -4052,6 +4052,11 @@ msgstr ""
 msgid "Incorrect password"
 msgstr "Password attuale"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Sito web dell'azienda"
+
 msgid "Location"
 msgstr "Luogo"
 
@@ -4078,11 +4083,6 @@ msgstr "Massimo valore permesso {}"
 #| msgid "Facility - %(fac_name)s"
 msgid "Facility is part of a campus"
 msgstr "Struttura - %(fac_name)s"
-
-#, fuzzy
-#| msgid "Company Website"
-msgid "Company Website Override"
-msgstr "Sito web dell'azienda"
 
 msgid "LAN"
 msgstr "LAN"

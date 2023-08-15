@@ -3903,6 +3903,11 @@ msgstr ""
 msgid "Incorrect password"
 msgstr "현재 비밀번호"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "회사 웹사이트"
+
 msgid "Location"
 msgstr "위치"
 
@@ -3929,11 +3934,6 @@ msgstr "최대 속도: {}"
 #| msgid "Facility - %(fac_name)s"
 msgid "Facility is part of a campus"
 msgstr "설비 - %(fac_name)s"
-
-#, fuzzy
-#| msgid "Company Website"
-msgid "Company Website Override"
-msgstr "회사 웹사이트"
 
 msgid "LAN"
 msgstr "LAN"

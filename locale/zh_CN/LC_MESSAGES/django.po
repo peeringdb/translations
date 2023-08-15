@@ -4158,6 +4158,11 @@ msgstr ""
 msgid "Incorrect password"
 msgstr "当前密码"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "公司网站"
+
 msgid "Location"
 msgstr "位置"
 
@@ -4184,11 +4189,6 @@ msgstr "允许的最大值为 {}"
 #| msgid "Facility - %(fac_name)s"
 msgid "Facility is part of a campus"
 msgstr "设施 - %(fac_name)s"
-
-#, fuzzy
-#| msgid "Company Website"
-msgid "Company Website Override"
-msgstr "公司网站"
 
 msgid "LAN"
 msgstr "LAN"

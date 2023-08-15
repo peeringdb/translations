@@ -3750,6 +3750,11 @@ msgstr "Numele de utilizator nu poate începe cu „apikey”"
 msgid "Incorrect password"
 msgstr "Parolă incorectă"
 
+#, fuzzy
+#| msgid "Company Website"
+msgid "Company Website Override"
+msgstr "Website-ul companiei"
+
 msgid "Location"
 msgstr "Locație"
 
@@ -3772,11 +3777,6 @@ msgstr "Dimensiune maximă: {}kb"
 #| msgid "Facility - %(fac_name)s"
 msgid "Facility is part of a campus"
 msgstr "Facilitate - %(fac_name)s"
-
-#, fuzzy
-#| msgid "Company Website"
-msgid "Company Website Override"
-msgstr "Website-ul companiei"
 
 msgid "LAN"
 msgstr "LAN"
