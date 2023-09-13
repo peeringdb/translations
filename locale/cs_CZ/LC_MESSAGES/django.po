@@ -2079,7 +2079,7 @@ msgstr "%(user_name)s žádost o přidružení byla schválena"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s žádost o přidružení byla zamítnuta"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2713,6 +2713,16 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, fuzzy, python-format
+msgid "Delete your affiliation to %(org)s"
+msgstr "Váš vztah s"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Delete"
+msgstr "Smazat"
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2957,9 +2967,6 @@ msgstr "Vytvořit"
 msgid "Update"
 msgstr "Aktualizovat"
 
-msgid "Delete"
-msgstr "Smazat"
-
 msgid "Add"
 msgstr "Přidat"
 
@@ -2968,9 +2975,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr "Upravit"
-
-msgid "Cancel"
-msgstr "Zrušit"
 
 msgid "Revoke"
 msgstr ""
@@ -3318,6 +3322,11 @@ msgstr "Propojovací uzel"
 #, fuzzy
 msgid "Suggest Network"
 msgstr "Odeslat síť"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "Stávající přičlenění"
 
 #, fuzzy
 #| msgid "Invalid organization"
@@ -4234,6 +4243,9 @@ msgstr "Protokol IXF Importu"
 msgid "Request import"
 msgstr "Žádost o vlastnictví"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "Disable notifications"
@@ -4311,6 +4323,10 @@ msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Nastavte preferenci jazyka"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"

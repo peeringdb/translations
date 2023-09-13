@@ -2064,7 +2064,7 @@ msgstr "Заявка %(user_name)s на связь одобрена"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Заявка %(user_name)s на связь отклонена"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2697,6 +2697,17 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "Ваша связь с"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Delete"
+msgstr "Удалить"
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2942,9 +2953,6 @@ msgstr "Создать"
 msgid "Update"
 msgstr "Изменить"
 
-msgid "Delete"
-msgstr "Удалить"
-
 msgid "Add"
 msgstr "Новый"
 
@@ -2953,9 +2961,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr "Редактировать"
-
-msgid "Cancel"
-msgstr "Отмена"
 
 msgid "Revoke"
 msgstr ""
@@ -3303,6 +3308,11 @@ msgstr "IXP"
 #| msgid "Submit Network"
 msgid "Suggest Network"
 msgstr "Отправить заявку на сеть"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "Имеющиеся связи"
 
 #, fuzzy
 #| msgid "Invalid organization"
@@ -4208,6 +4218,9 @@ msgstr "Лог импорта IXF"
 msgid "Request import"
 msgstr "Подать заявку на права управления"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "Disable notifications"
@@ -4285,6 +4298,10 @@ msgstr "Подождите несколько секунд перед повто
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Установить язык"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"

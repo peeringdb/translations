@@ -1941,7 +1941,7 @@ msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
 #, fuzzy
 #| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr "조직은 현재 적극적인 후원자입니다. 이 조직을 쉽게 제거할 수 있도록 PeeringDB 지원팀에 문의하십시오."
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2536,6 +2536,17 @@ msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성�
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- 모든 데이터는 %(dt)sZ에서 생산으로부터 새로 고쳐질 것입니다"
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "와의 가입이"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Delete"
+msgstr "삭제"
+
 msgid "Only use this if you own the facility"
 msgstr "당신이 시설을 소유하는 경우에만 사용하십시오"
 
@@ -2760,9 +2771,6 @@ msgstr "생성"
 msgid "Update"
 msgstr "업데이트"
 
-msgid "Delete"
-msgstr "삭제"
-
 msgid "Add"
 msgstr "추가"
 
@@ -2771,9 +2779,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr "수정"
-
-msgid "Cancel"
-msgstr "취소"
 
 msgid "Revoke"
 msgstr ""
@@ -3109,6 +3114,11 @@ msgstr "익스체인지 제안"
 
 msgid "Suggest Network"
 msgstr "네트워크 제안"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "기존 소속"
 
 msgid "Set primary organization"
 msgstr "기본 조직 설정"
@@ -3949,6 +3959,9 @@ msgstr "IX-F 가져오기 사용"
 msgid "Request import"
 msgstr "소유권 요청"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "Disable notifications"
@@ -4020,6 +4033,10 @@ msgstr "로그인을 다시 시도하기 전에 잠깐만 기다려 주십시오
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "언어 기본 설정"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid member type: {}"

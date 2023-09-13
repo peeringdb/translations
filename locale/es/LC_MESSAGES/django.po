@@ -2056,7 +2056,7 @@ msgstr "solicitud de %(user_name)s’s para afiliación ha sido aprobado"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "solicitud de %(user_name)s’s para afiliación ha sido denegado"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2691,6 +2691,17 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "Su afiliación con"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Delete"
+msgstr "Borrar"
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2936,9 +2947,6 @@ msgstr "Crear"
 msgid "Update"
 msgstr "Actualizar"
 
-msgid "Delete"
-msgstr "Borrar"
-
 msgid "Add"
 msgstr "Añadir"
 
@@ -2947,9 +2955,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr "﻿Editar"
-
-msgid "Cancel"
-msgstr "Cancelar"
 
 msgid "Revoke"
 msgstr ""
@@ -3295,6 +3300,11 @@ msgstr "Punto de Intercambio"
 #| msgid "Submit Network"
 msgid "Suggest Network"
 msgstr "Enviar red"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "Afiliaciones actuales"
 
 #, fuzzy
 #| msgid "Invalid organization"
@@ -4200,6 +4210,9 @@ msgstr "Registro de Importación IXF"
 msgid "Request import"
 msgstr "Solicitar Propiedad"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "Disable notifications"
@@ -4277,6 +4290,10 @@ msgstr "Por favor, esperar unos minutos antes de intentar otra vez."
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "Establecer preferencia de idioma"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid member type: {}"

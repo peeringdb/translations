@@ -1828,7 +1828,9 @@ msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+#, fuzzy
+#| msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr "Dieser Schlüssel ist derzeit inaktiv – bitte wenden Sie sich an den PeeringDB-Support, um Unterstützung zu erhalten."
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2398,6 +2400,17 @@ msgstr "Dies ist eine Beta/Test Instanz von PeeringDB. Manche Funktionen könnte
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- alle Daten werden am %(dt)sZ neu von der Produktion geladen"
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "Ihre Zuordnung zu"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Delete"
+msgstr "Löschen"
+
 msgid "Only use this if you own the facility"
 msgstr "Nur für Betreiber der Liegenschaft"
 
@@ -2614,9 +2627,6 @@ msgstr "Erstellen"
 msgid "Update"
 msgstr "Aktualisieren"
 
-msgid "Delete"
-msgstr "Löschen"
-
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -2625,9 +2635,6 @@ msgstr "Hier können Sie neue API-Schlüssel für Ihre Organisation erstellen od
 
 msgid "Edit"
 msgstr "Bearbeiten"
-
-msgid "Cancel"
-msgstr "Abbrechen"
 
 msgid "Revoke"
 msgstr "Widerrufen"
@@ -2939,6 +2946,11 @@ msgstr "Austauschpunkt vorschlagen"
 
 msgid "Suggest Network"
 msgstr "Netzwerk vorschlagen"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "Bestehende Zuordnungen"
 
 msgid "Set primary organization"
 msgstr "Legen Sie die primäre Organisation fest"
@@ -3727,6 +3739,9 @@ msgstr "Aktivieren Sie den IX-F Import"
 msgid "Request import"
 msgstr "Import anfordern"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 msgid "Disable notifications"
 msgstr "Benachrichtigungen ausschalten"
 
@@ -3780,6 +3795,10 @@ msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 
 msgid "Malformed Organization Preference"
 msgstr "Ungültige Organisationspräferenz"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid member type: {}"

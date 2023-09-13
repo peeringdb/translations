@@ -2065,7 +2065,7 @@ msgstr ""
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2678,6 +2678,19 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, fuzzy, python-format
+#| msgid "Public Relations"
+msgid "Delete your affiliation to %(org)s"
+msgstr "Halkla İlişkiler"
+
+#, fuzzy
+#| msgid "Balanced"
+msgid "Cancel"
+msgstr "Dengeli"
+
+msgid "Delete"
+msgstr ""
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2912,9 +2925,6 @@ msgstr ""
 msgid "Update"
 msgstr "Bina"
 
-msgid "Delete"
-msgstr ""
-
 msgid "Add"
 msgstr ""
 
@@ -2923,11 +2933,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr ""
-
-#, fuzzy
-#| msgid "Balanced"
-msgid "Cancel"
-msgstr "Dengeli"
 
 msgid "Revoke"
 msgstr ""
@@ -3297,6 +3302,11 @@ msgstr "Değişim noktası"
 #| msgid "Exchange - Facility link"
 msgid "Suggest Network"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Please wait a bit before trying to login again."
+msgid "Delete Affiliation"
+msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -4208,6 +4218,9 @@ msgstr "IXF Liste Geçmişi"
 msgid "Request import"
 msgstr ""
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange - Facility link"
 msgid "Disable notifications"
@@ -4279,6 +4292,10 @@ msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 #| msgid "Exchange - Facility link"
 msgid "Malformed Organization Preference"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Please wait a bit before trying to login again."

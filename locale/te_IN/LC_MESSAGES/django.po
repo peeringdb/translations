@@ -1822,7 +1822,7 @@ msgstr ""
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2374,6 +2374,16 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, python-format
+msgid "Delete your affiliation to %(org)s"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2584,9 +2594,6 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-msgid "Delete"
-msgstr ""
-
 msgid "Add"
 msgstr ""
 
@@ -2594,9 +2601,6 @@ msgid "Here you can create new API keys for your organization or revoke existing
 msgstr ""
 
 msgid "Edit"
-msgstr ""
-
-msgid "Cancel"
 msgstr ""
 
 msgid "Revoke"
@@ -2906,6 +2910,9 @@ msgid "Suggest Exchange"
 msgstr ""
 
 msgid "Suggest Network"
+msgstr ""
+
+msgid "Delete Affiliation"
 msgstr ""
 
 msgid "Set primary organization"
@@ -3683,6 +3690,9 @@ msgstr ""
 msgid "Request import"
 msgstr ""
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 msgid "Disable notifications"
 msgstr ""
 
@@ -3735,6 +3745,10 @@ msgid "Please wait a bit before trying to login again."
 msgstr ""
 
 msgid "Malformed Organization Preference"
+msgstr ""
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
 msgstr ""
 
 msgid "Invalid member"

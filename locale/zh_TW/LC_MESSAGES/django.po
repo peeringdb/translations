@@ -2112,7 +2112,7 @@ msgstr "%(user_name)s 的關聯請求已批准"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s 的關聯請求被拒絕"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2743,6 +2743,17 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "您的關聯"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Delete"
+msgstr "刪除"
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2972,9 +2983,6 @@ msgstr "創建"
 msgid "Update"
 msgstr "更新"
 
-msgid "Delete"
-msgstr "刪除"
-
 msgid "Add"
 msgstr "添加"
 
@@ -2983,9 +2991,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr "編輯"
-
-msgid "Cancel"
-msgstr "取消"
 
 msgid "Revoke"
 msgstr ""
@@ -3327,6 +3332,11 @@ msgstr "建議的交換點"
 
 msgid "Suggest Network"
 msgstr "建議的網路"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "現有的關聯"
 
 #, fuzzy
 #| msgid "Invalid organization"
@@ -4222,6 +4232,9 @@ msgstr "IXF 導入日誌"
 msgid "Request import"
 msgstr "請求所有權"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "Disable notifications"
@@ -4299,6 +4312,10 @@ msgstr "請稍後再嘗試登錄。"
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "設置語言偏好"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"

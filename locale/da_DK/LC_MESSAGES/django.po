@@ -2084,7 +2084,7 @@ msgstr ""
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr ""
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2719,6 +2719,19 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, fuzzy, python-format
+#| msgid "Public Relations"
+msgid "Delete your affiliation to %(org)s"
+msgstr "Offentlige relationer"
+
+#, fuzzy
+#| msgid "Balanced"
+msgid "Cancel"
+msgstr "Balanceret"
+
+msgid "Delete"
+msgstr ""
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2955,9 +2968,6 @@ msgstr ""
 msgid "Update"
 msgstr "Opdateret"
 
-msgid "Delete"
-msgstr ""
-
 msgid "Add"
 msgstr ""
 
@@ -2966,11 +2976,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr ""
-
-#, fuzzy
-#| msgid "Balanced"
-msgid "Cancel"
-msgstr "Balanceret"
 
 msgid "Revoke"
 msgstr ""
@@ -3346,6 +3351,11 @@ msgstr "Exchange"
 #| msgid "Exchange - Facility link"
 msgid "Suggest Network"
 msgstr "Exchange - Facility link"
+
+#, fuzzy
+#| msgid "Organization"
+msgid "Delete Affiliation"
+msgstr "Virksomhed"
 
 #, fuzzy
 #| msgid "Malformed organization ids"
@@ -4262,6 +4272,9 @@ msgstr "IXF import log"
 msgid "Request import"
 msgstr ""
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Organization"
 msgid "Disable notifications"
@@ -4335,6 +4348,10 @@ msgstr ""
 #| msgid "Malformed organization ids"
 msgid "Malformed Organization Preference"
 msgstr "Ukorrekt formateret organisations id'er"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid export format"

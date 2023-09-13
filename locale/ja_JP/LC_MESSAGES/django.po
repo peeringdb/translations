@@ -1879,7 +1879,7 @@ msgstr "%(user_name)s's 所属リクエストが拒否されました"
 
 #, fuzzy
 #| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr "この組織はスポンサーです。削除を進めるには PeeringDB サポートまでご連絡ください。"
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2455,6 +2455,17 @@ msgstr "これは PeeringDB のベータ/テストインスタンスです。 �
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- all data will be refreshed from production at %(dt)sZ"
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "あなたは"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Delete"
+msgstr "削除"
+
 msgid "Only use this if you own the facility"
 msgstr "データセンタを運用している方だけが追加してください"
 
@@ -2678,9 +2689,6 @@ msgstr "作成"
 msgid "Update"
 msgstr "更新"
 
-msgid "Delete"
-msgstr "削除"
-
 msgid "Add"
 msgstr "追加"
 
@@ -2689,9 +2697,6 @@ msgstr "ここで、あなたの組織の新しい API Key の作成や既存の
 
 msgid "Edit"
 msgstr "編集"
-
-msgid "Cancel"
-msgstr "キャンセル"
 
 msgid "Revoke"
 msgstr "取り消し"
@@ -3027,6 +3032,11 @@ msgstr "エクスチェンジに情報追加の提案"
 
 msgid "Suggest Network"
 msgstr "ネットワークに情報追加の提案"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "既存の所属先"
 
 #, fuzzy
 #| msgid "Delete organization?"
@@ -3872,6 +3882,9 @@ msgstr "IX-F Import を有効にする"
 msgid "Request import"
 msgstr "Request import"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "Disable notifications"
@@ -3937,6 +3950,10 @@ msgstr "再度ログインを試す前に少々お待ちください"
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "言語を選択する"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid prefix: {}"

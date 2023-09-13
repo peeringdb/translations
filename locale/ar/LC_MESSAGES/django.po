@@ -2102,7 +2102,7 @@ msgstr "%(user_name)s's تمت الموافقة على طلب الانتساب/ 
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s's تم رفض طلب الانتساب/ الانضمام"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr ""
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2733,6 +2733,17 @@ msgstr ""
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr ""
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "الانضمام / الإنتساب مع"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Delete"
+msgstr "حذف"
+
 msgid "Only use this if you own the facility"
 msgstr ""
 
@@ -2960,9 +2971,6 @@ msgstr "انشاء"
 msgid "Update"
 msgstr "تحديث"
 
-msgid "Delete"
-msgstr "حذف"
-
 msgid "Add"
 msgstr "إضافة"
 
@@ -2971,9 +2979,6 @@ msgstr ""
 
 msgid "Edit"
 msgstr "تعديل"
-
-msgid "Cancel"
-msgstr "إلغاء"
 
 msgid "Revoke"
 msgstr ""
@@ -3320,6 +3325,11 @@ msgstr "اقترح تبادل اتصال"
 
 msgid "Suggest Network"
 msgstr "اقتراح شبكة اتصال"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "الانتماءات الحالية"
 
 #, fuzzy
 #| msgid "Invalid organization"
@@ -4201,6 +4211,9 @@ msgstr "استيراد بيانات IX-F"
 msgid "Request import"
 msgstr "طلب ملكية"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 #, fuzzy
 #| msgid "Merge Notification"
 msgid "Disable notifications"
@@ -4276,6 +4289,10 @@ msgstr "الرجاء الانتظار قليلا قبل محاولة تسجيل 
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
 msgstr "ضبط اللغة المفضلة"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid member type: {}"

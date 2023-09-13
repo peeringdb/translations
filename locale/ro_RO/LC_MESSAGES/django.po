@@ -1853,7 +1853,9 @@ msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+#, fuzzy
+#| msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr "Această cheie este în prezent inactivă - vă rugăm să contactați serviciul de asistență PeeringDB."
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2423,6 +2425,17 @@ msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracterist
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- toate datele vor fi reîmprospătate din mediul de producție la %(dt)sZ"
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "Afilierea dvs. cu"
+
+msgid "Cancel"
+msgstr "Anulați"
+
+msgid "Delete"
+msgstr "Ștergeți"
+
 msgid "Only use this if you own the facility"
 msgstr "Utilizați aceasta numai dacă dețineți facilitatea"
 
@@ -2639,9 +2652,6 @@ msgstr "Creați"
 msgid "Update"
 msgstr "Actualizați"
 
-msgid "Delete"
-msgstr "Ștergeți"
-
 msgid "Add"
 msgstr "Adăugați"
 
@@ -2650,9 +2660,6 @@ msgstr "Aici puteți crea noi chei API pentru organizația dvs. sau puteți revo
 
 msgid "Edit"
 msgstr "Editați"
-
-msgid "Cancel"
-msgstr "Anulați"
 
 msgid "Revoke"
 msgstr "Revocați"
@@ -2964,6 +2971,11 @@ msgstr "Sugerați un Internet Exchange"
 
 msgid "Suggest Network"
 msgstr "Sugerați o rețea"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "Afilieri existente"
 
 msgid "Set primary organization"
 msgstr "Setați organizația principală"
@@ -3790,6 +3802,9 @@ msgstr "Activați importul IX-F"
 msgid "Request import"
 msgstr "Solicitați importul"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 msgid "Disable notifications"
 msgstr "Dezactivați notificările"
 
@@ -3845,6 +3860,10 @@ msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autenti
 #| msgid "Malformed Language Preference"
 msgid "Malformed Organization Preference"
 msgstr "Preferință de limbă incorectă"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid member type: {}"

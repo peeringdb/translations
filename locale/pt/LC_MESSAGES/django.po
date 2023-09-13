@@ -1827,7 +1827,9 @@ msgstr "solicitação de afiliação de %(user_name)s foi aprovada"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "solicitação de afiliação de %(user_name)s foi negada"
 
-msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+#, fuzzy
+#| msgid "This key is currently inactive - please contact PeeringDB support for assistance."
+msgid "Inactive API key - please contact PeeringDB support for assistance."
 msgstr "Esta chave está inativa no momento - entre em contato com o suporte do PeeringDB para obter assistência."
 
 msgid "Please contact {} to help with the deletion of this object"
@@ -2397,6 +2399,17 @@ msgstr "Esta é uma instância beta/de teste do PeeringDB. Alguns recursos podem
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- todos os dados serão atualizados da produção em %(dt)sZ"
 
+#, fuzzy, python-format
+#| msgid "Your affiliation with"
+msgid "Delete your affiliation to %(org)s"
+msgstr "Sua afiliação a"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Delete"
+msgstr "Excluir"
+
 msgid "Only use this if you own the facility"
 msgstr "Só use isso se você for o proprietário do PoP"
 
@@ -2613,9 +2626,6 @@ msgstr "Criar"
 msgid "Update"
 msgstr "Atualizar"
 
-msgid "Delete"
-msgstr "Excluir"
-
 msgid "Add"
 msgstr "Adicionar"
 
@@ -2624,9 +2634,6 @@ msgstr "Aqui você pode criar novas chaves de API para sua organização ou revo
 
 msgid "Edit"
 msgstr "Editar"
-
-msgid "Cancel"
-msgstr "Cancelar"
 
 msgid "Revoke"
 msgstr "Revogar"
@@ -2941,6 +2948,11 @@ msgstr "Sugerir Exchange"
 
 msgid "Suggest Network"
 msgstr "Sugerir Rede"
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Delete Affiliation"
+msgstr "Afiliações existentes"
 
 msgid "Set primary organization"
 msgstr "Definir organização principal"
@@ -3728,6 +3740,9 @@ msgstr "Ativar importação IX-F"
 msgid "Request import"
 msgstr "Solicitar importação"
 
+msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
+msgstr ""
+
 msgid "Disable notifications"
 msgstr "Desativar notificações"
 
@@ -3781,6 +3796,10 @@ msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
 
 msgid "Malformed Organization Preference"
 msgstr "Preferência de organização malformada"
+
+#, python-brace-format
+msgid "{user} is not member of {org}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid member type: {}"
