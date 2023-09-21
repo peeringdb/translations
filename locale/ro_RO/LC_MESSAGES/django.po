@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-03-29 08:58+0000\n"
+"PO-Revision-Date: 2023-09-21 21:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -228,7 +228,7 @@ msgid "An E.164-formatted phone number starts with a +, followed by the country 
 msgstr "Un număr de telefon în format E.164 începe cu un +, urmat de codul de țară, apoi numărul de telefon național (eliminând cifra 0 din față în majoritatea țărilor), fără spații sau liniuțe între grupurile de cifre"
 
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
-msgstr ""
+msgstr "Dacă acest câmp este setat, va fi afișat în această înregistrare. Dacă nu, vom afișa site-ul web din înregistrarea organizației la care este legată"
 
 msgid "Provider of L1 or L2 connectivity into a facility"
 msgstr ""
@@ -285,19 +285,19 @@ msgid "Website"
 msgstr "Site web"
 
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 msgid "Kosovo"
 msgstr "Kosovo"
@@ -315,7 +315,7 @@ msgid "City"
 msgstr "Oraș"
 
 msgid "State"
-msgstr "Stat"
+msgstr "Județ"
 
 msgid "Zip-Code"
 msgstr "Cod poștal"
@@ -345,7 +345,7 @@ msgid "Long Name"
 msgstr "Nume lung"
 
 msgid "Social Media"
-msgstr ""
+msgstr "Social Media"
 
 msgid "Notes"
 msgstr "Notițe"
@@ -695,8 +695,6 @@ msgstr "Vă rugăm să confirmați ștergerea obiectelor selectate."
 msgid "SOFT DELETE"
 msgstr "ȘTERGERE SOFT"
 
-#, fuzzy
-#| msgid "Resul length"
 msgid "Result length"
 msgstr "Lungimea rezultatului"
 
@@ -722,10 +720,10 @@ msgid "User is looking to be affiliated to these Organizations"
 msgstr "Utilizatorul dorește să se afilieze la aceste organizații"
 
 msgid "User has these TOTP devices"
-msgstr ""
+msgstr "Utilizatorul are aceste dispozitive TOTP"
 
 msgid "User has these Webauthn Security Keys"
-msgstr ""
+msgstr "Utilizatorul are aceste chei de securitate Webauthn"
 
 msgid "IX-F Import History"
 msgstr "Istoricul importurilor IX-F"
@@ -1688,65 +1686,41 @@ msgstr "API: Rată de accelerare a solicitării Melissa pentru solicitări anoni
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr "API: Accelerarea solicitării Melissa activată pentru solicitări anonime (ips)"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for ip blocks (bytes)"
 msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
-msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru blocurile IP (octeți)"
+msgstr "API: pragul de dimensiune a accelerației cererii repetate pentru blocurile IP (octeți)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for ip blocks"
 msgid "API: Repeated request throttle rate for ip blocks"
-msgstr "API: Rata de accelerație pentru dimensiunea răspunsului pentru blocurile IP"
+msgstr "API: Pragul de accelerare a cererii repetate pentru blocurile IP (octeți)API: Rata de accelerare a cererilor repetate pentru blocurile IP"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for ip blocks"
 msgid "API: Repeated request throttle enabled for ip blocks"
-msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru blocurile IP"
+msgstr "API: Accelerarea solicitărilor repetate este activată pentru blocurile IP"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for ip addresses (bytes)"
 msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
-msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru adresele IP (octeți)"
+msgstr "API: pragul de dimensiune a accelerației cererii repetate pentru adrese IP (octeți)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for ip addresses"
 msgid "API: Repeated request throttle rate for ip addresses"
-msgstr "API: Rata de accelerație pentru dimensiunea răspunsului pentru adresele IP"
+msgstr "API: Rata de accelerare a cererilor repetate pentru adrese IP"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for ip addresses"
 msgid "API: Repeated request throttle enabled for ip addresses"
-msgstr "API: Accelerarea pentru dimensiunea răspunsului este activată pentru adresele IP"
+msgstr "API: Accelerarea solicitărilor repetate este activată pentru adresele IP"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for authenticated users (bytes)"
 msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
-msgstr "API: pragul de mărime a accelerației pentru dimensiunea răspunsului pentru utilizatorii autentificați (octeți)"
+msgstr "API: pragul de dimensiune a accelerației cererii repetate pentru utilizatorii autentificați (octeți)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for authenticated users"
 msgid "API: Repeated request throttle rate for authenticated users"
-msgstr "API: Rata de accelerare a dimensiunii răspunsului pentru utilizatorii autentificați"
+msgstr "API: Rata de accelerare a cererilor repetate pentru utilizatorii autentificați"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for authenticated users"
 msgid "API: Repeated request throttle enabled for authenticated users"
-msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru utilizatorii autentificați"
+msgstr "API: accelerarea solicitărilor repetate este activată pentru utilizatorii autentificați"
 
-#, fuzzy
-#| msgid "API: Response size throttle size threshold for organization api-keys (bytes)"
 msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
-msgstr "API: pragul de dimensiune a accelerare pentru dimensiunea răspunsului pentru cheile API ale organizației (octeți)"
+msgstr "API: pragul de dimensiune a accelerației cererii repetate pentru cheile API ale organizației (octeți)"
 
-#, fuzzy
-#| msgid "API: Response size throttle rate for organization api-keys"
 msgid "API: Repeated request throttle rate for organization api-keys"
-msgstr "API: Rata de accelerare a dimensiunii răspunsului pentru cheile API ale organizației"
+msgstr "API: Rata de accelerare a cererilor repetate pentru cheile API ale organizației"
 
-#, fuzzy
-#| msgid "API: Response size throttle enabled for organization api-keys"
 msgid "API: Repeated request throttle enabled for organization api-keys"
-msgstr "API: accelerația pentru dimensiunea răspunsului este activată pentru cheile API ale organizației"
+msgstr "API: accelerarea solicitărilor repetate a fost activată pentru cheile API ale organizației"
 
 msgid "API: Anonymous API throttle rate message"
 msgstr "API: mesaj anonim de rată a accelerației API"
@@ -1818,11 +1792,11 @@ msgid "Any Exchange"
 msgstr "Orice Exchange"
 
 msgid "Manage peering sessions - Any Network"
-msgstr ""
+msgstr "Gestionați sesiunile de peering - Orice rețea"
 
 #, python-format
 msgid "Manage peering sessions - %(net_name)s"
-msgstr ""
+msgstr "Gestionați sesiunile de peering - %(net_name)s"
 
 #, python-format
 msgid "Network - %(net_name)s"
@@ -2571,7 +2545,7 @@ msgid "Advanced Search"
 msgstr "Căutare avansată"
 
 msgid "v2 Search (Beta)"
-msgstr ""
+msgstr "Căutare v2 (Beta)"
 
 msgid "pending"
 msgstr "în așteptare"
@@ -2945,23 +2919,26 @@ msgid ""
 "    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
 "    "
 msgstr ""
+"\n"
+"    Utilizați noua noastră interfață de căutare beta.\n"
+"     <a href=\"%(q)s\">Faceți clic aici</a> pentru a reveni la vechea interfață.\n"
+"     <a href=\"%(feedback)s\">Faceți clic aici</a> pentru a oferi feedback.\n"
+"    "
 
-#, fuzzy
-#| msgid "Showing most recent"
 msgid "Showing results for"
-msgstr "Arată cel mai recent"
+msgstr "Se afișează rezultatele pentru"
 
 msgid "in"
-msgstr ""
+msgstr "în"
 
 msgid "within"
-msgstr ""
+msgstr "în"
 
 msgid "near"
-msgstr ""
+msgstr "lângă"
 
 msgid "Could not resolve the location you provided: "
-msgstr ""
+msgstr "Nu s-a putut rezolva locația furnizată de dvs.: "
 
 msgid "sponsor"
 msgstr "sponsor"
@@ -3069,7 +3046,7 @@ msgid "Facility link"
 msgstr "legătura cu Facilitatea"
 
 msgid "Remove this carrier from your facility."
-msgstr ""
+msgstr "Scoateți acest Transportator din Facilitatea dvs."
 
 msgid "Add Facility"
 msgstr "Adăugați facilitate"
@@ -3128,23 +3105,17 @@ msgstr "Adresă IP"
 msgid "Not operational"
 msgstr "Nu este operațional"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "This carrier wants to list its presence at this facility."
-msgstr "Numărul de rețele prezente la această facilitate"
+msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
-#, fuzzy
-#| msgid "Status of this request"
 msgid "Click to accept this request"
-msgstr "Starea acestei cereri"
+msgstr "Faceți clic pentru a accepta această solicitare"
 
-#, fuzzy
-#| msgid "click to select multiple"
 msgid "Click to reject this request"
-msgstr "faceți click pentru a selecta mai multe"
+msgstr "Faceți clic pentru a respinge această solicitare"
 
 msgid "Reject"
-msgstr ""
+msgstr "Respinge"
 
 msgid "Contact Information"
 msgstr "Informații de contact"
@@ -3279,10 +3250,8 @@ msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
 msgid "Add Exchange Point"
 msgstr "Adăugați Internet Exchange"
 
-#, fuzzy
-#| msgid "Connections to Facilities"
 msgid "Interconnection Facilities"
-msgstr "Conexiuni la facilități"
+msgstr "Facilități de interconectare"
 
 msgid "member"
 msgstr "membru"
@@ -3297,10 +3266,10 @@ msgid "Add Exchange"
 msgstr "Adăugați Internet Exchange"
 
 msgid "Add Carrier"
-msgstr ""
+msgstr "Adăugați Transportator"
 
 msgid "Add Campus"
-msgstr ""
+msgstr "Adăugați Campus"
 
 msgid "Permissions"
 msgstr "Permisiuni"
@@ -3360,7 +3329,7 @@ msgid "Date"
 msgstr "Data"
 
 msgid "Email address requirements not met"
-msgstr ""
+msgstr "Cerințele privind adresa de e-mail nu sunt îndeplinite"
 
 msgid "Currently no users requesting affiliation with"
 msgstr "În prezent niciun utilizator nu solicită afilierea la"
@@ -3380,15 +3349,13 @@ msgid "Require users in your organization to enable 2FA."
 msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
 
 msgid "Restrict user email addresses to these domains"
-msgstr ""
+msgstr "Restricționați adresele de e-mail ale utilizatorilor la aceste domenii"
 
 msgid "Require users to periodically re-confirm their email address: "
-msgstr ""
+msgstr "Solicitați utilizatorilor să-și reconfirme periodic adresa de e-mail: "
 
-#, fuzzy
-#| msgid "Options"
 msgid "Update Options"
-msgstr "Opțiuni"
+msgstr "Opțiuni de actualizare"
 
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "Aici puteți acorda permisiuni membrilor obișnuiți ai organizației dvs. Utilizatorii administrativi nu sunt enumerați aici, deoarece au acces la orice în mod implicit."
@@ -3503,52 +3470,38 @@ msgstr "În ultimă instanță, puteți utiliza un token de rezervă:"
 msgid "Use Backup Token"
 msgstr "Utilizați token-ul de rezervă"
 
-#, fuzzy
-#| msgid "Manage Two-Factor Authentication"
 msgid "Enable Two-Factor Authentication"
-msgstr "Gestionați autentificarea cu doi factori"
+msgstr "Activați autentificarea cu doi factori"
 
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
-msgstr ""
+msgstr "Sunteți pe cale să duceți securitatea contului la următorul nivel. Urmați pașii din acest expert pentru a activa autentificarea cu doi factori."
 
 msgid "Please select which authentication method you would like to use."
-msgstr ""
+msgstr "Vă rugăm să selectați ce metodă de autentificare doriți să utilizați."
 
 msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
-msgstr ""
+msgstr "Pentru a începe să utilizați un generator de token-uri, vă rugăm să utilizați smartphone-ul pentru a scana codul QR de mai jos. De exemplu, utilizați Google Authenticator. Apoi, introduceți simbolul generat de aplicație."
 
 msgid "Or manually enter the setup key to your Authenticator app."
-msgstr ""
+msgstr "Sau introduceți manual cheia de configurare în aplicația dvs. Authenticator."
 
 msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
-msgstr ""
+msgstr "Vă rugăm să introduceți numărul de telefon pe care doriți să primiți mesajele text. Acest număr va fi validat în pasul următor."
 
 msgid "Please enter the phone number you wish to be called on. This number will be validated in the next step."
-msgstr ""
+msgstr "Vă rugăm să introduceți numărul de telefon la care doriți să fiți apelat. Acest număr va fi validat în pasul următor."
 
-#, fuzzy
-#| msgid ""
-#| "We are calling your phone right now, please enter the\n"
-#| "        digits you hear."
 msgid "We are calling your phone right now, please enter the digits you hear."
-msgstr ""
-"Vă sunăm pe telefon chiar acum, vă rugăm să introduceți\n"
-"         cifre pe care le auziți."
+msgstr "Vă sunăm la telefon chiar acum, vă rugăm să introduceți cifrele pe care le auziți."
 
-#, fuzzy
-#| msgid ""
-#| "We sent you a text message, please enter the tokens we\n"
-#| "        sent."
 msgid "We sent you a text message, please enter the tokens we sent."
-msgstr ""
-"V-am trimis un mesaj text, vă rugăm să introduceți token-urile\n"
-"         trimise."
+msgstr "V-am trimis un mesaj text, vă rugăm să introduceți token-urile pe care le-am trimis."
 
 msgid "We've encountered an issue with the selected authentication method. Please go back and verify that you entered your information correctly, try again, or use a different authentication method instead. If the issue persists, contact the site administrator."
-msgstr ""
+msgstr "Am întâmpinat o problemă cu metoda de autentificare selectată. Vă rugăm să reveniți și să verificați dacă ați introdus corect informațiile, să încercați din nou sau să utilizați o altă metodă de autentificare. Dacă problema persistă, contactați administratorul site-ului."
 
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
-msgstr ""
+msgstr "Pentru a identifica și verifica YubiKey, vă rugăm să introduceți un simbol în câmpul de mai jos. YubiKey va fi conectat la contul dvs."
 
 msgid "Add a TOPT method to your two-factor authentication"
 msgstr "Adăugați o metodă TOPT la autentificarea cu doi factori"
@@ -3578,12 +3531,10 @@ msgid "days ago"
 msgstr "zile în urmă"
 
 msgid "{soc.get(\"service\", dismiss)}"
-msgstr ""
+msgstr "{soc.get(„serviciu”, respinge)}"
 
-#, fuzzy
-#| msgid "Invalid export format"
 msgid "Invalid format"
-msgstr "Formatul exportului nu este valid"
+msgstr "Format invalid"
 
 msgid "Private contacts are no longer supported."
 msgstr "Contactele private nu mai sunt acceptate."
@@ -3643,35 +3594,30 @@ msgid "Invalid setting! Acceptable value is a number followed by one of the foll
 msgstr "Setare nevalidă! Valoarea acceptabilă este un număr urmat de una dintre următoarele: minut, oră, secunde, zi, săptămână, lună, an. de exemplu (10/minut, 1/oră, 5/zi, 1/săptămână, 1/lună, 1/an)"
 
 msgid "Malformed social media data."
-msgstr ""
+msgstr "Date incorecte din rețelele sociale."
 
 msgid "Duplicate social media services set."
-msgstr ""
+msgstr "Set duplicat de servicii de social media."
 
 msgid "Service should not be empty!"
-msgstr ""
+msgstr "Serviciul nu ar trebui să fie gol!"
 
 msgid "Identifier should not be empty!"
-msgstr ""
+msgstr "Identificatorul nu trebuie să fie gol!"
 
 #, python-brace-format
 msgid "Invalid {service} URL!"
-msgstr ""
+msgstr "Adresa URL {service} este invalidă!"
 
-#, fuzzy, python-brace-format
-#| msgid "Invalid username/password."
+#, python-brace-format
 msgid "Invalid {service} username!"
-msgstr "Numele de utilizator sau parola nu sunt valide."
+msgstr "Nume de utilizator {service} invalid!"
 
-#, fuzzy
-#| msgid "Invalid value"
 msgid "Invalid service!"
-msgstr "Valoarea nu este validă"
+msgstr "Serviciu invalid!"
 
-#, fuzzy
-#| msgid "Invalid export format"
 msgid "Invalid identifier!"
-msgstr "Formatul exportului nu este valid"
+msgstr "Identificator invalid!"
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
@@ -3699,7 +3645,7 @@ msgid "Either ASN or Organization required"
 msgstr "Este necesar ASN-ul sau organizația"
 
 msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
-msgstr ""
+msgstr "Imposibil de afiliat deoarece această organizație a fost ștearsă. Vă rugăm să contactați asistența PeeringDB dacă doriți să rezolvați acest lucru."
 
 msgid "You already requested affiliation to this ASN/org"
 msgstr "Ați solicitat deja afilierea la acest ASN/org"
@@ -3725,18 +3671,14 @@ msgstr "Parolă invalidă. Vă rugăm să încercați din nou."
 msgid "E-mail already exists in our system"
 msgstr "Adresa e-mail există deja în sistemul nostru"
 
-#, fuzzy
-#| msgid "You have confirmed your email address!"
 msgid "You may have a maximum of {} email addresses"
-msgstr "Ați confirmat adresa dvs. e-mail!"
+msgstr "Este posibil să aveți maximum {} adrese de e-mail"
 
 msgid "Cannot remove primary email"
-msgstr ""
+msgstr "Nu se poate elimina e-mailul principal"
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "Email address not found"
-msgstr "Adresa nu a fost găsită"
+msgstr "Adresa de e-mail nu a fost găsită"
 
 msgid "Wrong password"
 msgstr "Parola este greșită"
@@ -3762,10 +3704,8 @@ msgstr "Numele de utilizator nu poate începe cu „apikey”"
 msgid "Incorrect password"
 msgstr "Parolă incorectă"
 
-#, fuzzy
-#| msgid "Company Website"
 msgid "Company Website Override"
-msgstr "Website-ul companiei"
+msgstr "Anulare site-ul companiei"
 
 msgid "Location"
 msgstr "Locație"
@@ -3785,16 +3725,14 @@ msgstr "Siglă"
 msgid "Max size: {}kb"
 msgstr "Dimensiune maximă: {}kb"
 
-#, fuzzy
-#| msgid "Facility - %(fac_name)s"
 msgid "Facility is part of a campus"
-msgstr "Facilitate - %(fac_name)s"
+msgstr "Facilitatea face parte dintr-un Campus"
 
 msgid "LAN"
 msgstr "LAN"
 
 msgid "Payload MTU"
-msgstr ""
+msgstr "Sarcina utilă MTU"
 
 msgid "Enable IX-F Import"
 msgstr "Activați importul IX-F"
@@ -3856,10 +3794,8 @@ msgstr "Informații privind politica de peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Vă rugăm să așteptați puțin înainte de a încerca să vă autentificați din nou."
 
-#, fuzzy
-#| msgid "Malformed Language Preference"
 msgid "Malformed Organization Preference"
-msgstr "Preferință de limbă incorectă"
+msgstr "Preferință organizație incorectă"
 
 #, python-brace-format
 msgid "{user} is not member of {org}"
