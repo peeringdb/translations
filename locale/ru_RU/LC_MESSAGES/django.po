@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-10-06 09:58+0000\n"
-"Last-Translator: Alexander Ilin <a.ilin@msk-ix.ru>\n"
+"PO-Revision-Date: 2023-09-29 18:58+0000\n"
+"Last-Translator: Sergey Myasoedov <kaa@net-art.cz>\n"
 "Language-Team: Russian <https://translate.peeringdb.com/projects/peeringdb/server/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -225,7 +225,7 @@ msgid "Public"
 msgstr "Публичный"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr ""
+msgstr "Номер телефона в E.164 начинается со знака +, после которого следует код страны и внутренний номер (исключая нули в начале номеров во многих странах) без пробелов или тире между группами цифр."
 
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
 msgstr ""
@@ -243,10 +243,10 @@ msgid "Best Effort (no SLA)"
 msgstr ""
 
 msgid "Normal Business Hours"
-msgstr ""
+msgstr "Часы работы"
 
 msgid "24/7 Support"
-msgstr ""
+msgstr "Поддержка 24/7"
 
 msgid "No Commercial Terms"
 msgstr ""
@@ -255,49 +255,49 @@ msgid "Bundled With Other Services"
 msgstr ""
 
 msgid "Non-recurring Fees Only"
-msgstr ""
+msgstr "Одноразовые платежи"
 
 msgid "Recurring Fees"
-msgstr ""
+msgstr "Периодические платежи"
 
 msgid "Owner"
-msgstr ""
+msgstr "Владелец"
 
 msgid "Lessee"
-msgstr ""
+msgstr "Арендатор"
 
 msgid "48 VDC"
-msgstr ""
+msgstr "48В постоянного тока"
 
 msgid "120 VAC"
-msgstr ""
+msgstr "120 В переменного тока"
 
 msgid "208 VAC"
-msgstr ""
+msgstr "208 В переменного тока"
 
 msgid "240 VAC"
-msgstr ""
+msgstr "240 В переменного тока"
 
 msgid "480 VAC"
-msgstr ""
+msgstr "480 В переменного тока"
 
 msgid "Website"
 msgstr "Веб-сайт"
 
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 msgid "Kosovo"
 msgstr "Косово"
@@ -326,16 +326,16 @@ msgid "Country"
 msgstr "Страна"
 
 msgid "Suite"
-msgstr ""
+msgstr "Кв"
 
 msgid "Floor"
-msgstr ""
+msgstr "Этаж"
 
 msgid "Latitude"
-msgstr ""
+msgstr "Широта"
 
 msgid "Longitude"
-msgstr ""
+msgstr "Долгота"
 
 msgid "Name"
 msgstr "Имя"
@@ -347,7 +347,7 @@ msgid "Long Name"
 msgstr "Полное наименование"
 
 msgid "Social Media"
-msgstr ""
+msgstr "Соцсети"
 
 msgid "Notes"
 msgstr "Дополнительная информация"
@@ -355,10 +355,8 @@ msgstr "Дополнительная информация"
 msgid "Organization"
 msgstr "Организация"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
-msgstr "Организация"
+msgstr "Организации"
 
 msgid "CLLI Code"
 msgstr "Код CLLI"
@@ -388,7 +386,7 @@ msgid "Sales Phone"
 msgstr "Продажи"
 
 msgid "Property"
-msgstr ""
+msgstr "Собственность"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
 msgstr ""
