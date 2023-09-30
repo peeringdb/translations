@@ -3421,7 +3421,9 @@ msgstr ""
 msgid "Accept"
 msgstr ""
 
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+#, fuzzy
+#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "此時無法獲得此實體的地理編碼資料。這是位址欄位修改後自動完成的。"
 
 msgid "Filter"

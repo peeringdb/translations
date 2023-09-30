@@ -3121,7 +3121,9 @@ msgstr "Suggested Address:"
 msgid "Accept"
 msgstr "Accept"
 
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+#, fuzzy
+#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "このエンティティのジオコードデータの取得に失敗しました。これはアドレスフィールドの変更時に自動的に行われます。"
 
 msgid "Filter"

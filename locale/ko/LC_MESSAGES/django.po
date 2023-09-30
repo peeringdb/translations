@@ -3200,7 +3200,9 @@ msgstr ""
 msgid "Accept"
 msgstr "수락"
 
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+#, fuzzy
+#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "이 항목에 대한 지오코드 데이터는 이 시점에서 얻을 수 없었습니다. 이것은 주소 필드가 변경될 때 자동으로 수행됩니다."
 
 msgid "Filter"

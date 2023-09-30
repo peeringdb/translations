@@ -3389,7 +3389,9 @@ msgstr ""
 msgid "Accept"
 msgstr ""
 
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+#, fuzzy
+#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "No se pudieron obtener los datos de Geocodigo para esta entidad a este tiempo. Esto se hace automáticamente al hacer cambios al los campos de direcciones."
 
 msgid "Filter"

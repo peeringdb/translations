@@ -3030,7 +3030,9 @@ msgstr "Endereço sugerido:"
 msgid "Accept"
 msgstr "Aceito"
 
-msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+#, fuzzy
+#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
+msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Os dados de geocódigo para esta entidade não puderam ser obtidos neste momento. Isso é feito automaticamente após alterações no campo de endereço."
 
 msgid "Filter"
