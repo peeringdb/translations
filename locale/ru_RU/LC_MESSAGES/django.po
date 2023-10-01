@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-09-29 18:58+0000\n"
+"PO-Revision-Date: 2023-10-01 23:58+0000\n"
 "Last-Translator: Sergey Myasoedov <kaa@net-art.cz>\n"
 "Language-Team: Russian <https://translate.peeringdb.com/projects/peeringdb/server/ru/>\n"
 "Language: ru_RU\n"
@@ -213,7 +213,7 @@ msgid "Route Collector"
 msgstr "Коллектор Маршрутов"
 
 msgid "Government"
-msgstr ""
+msgstr "Правительство"
 
 msgid "Private"
 msgstr "Приватный"
@@ -302,10 +302,8 @@ msgstr "TikTok"
 msgid "Kosovo"
 msgstr "Косово"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value: {}"
-msgstr "Неверный ярлык"
+msgstr "Неверное значение: {}"
 
 msgid "Address 1"
 msgstr "Адрес, строка 1"
@@ -389,19 +387,19 @@ msgid "Property"
 msgstr "Собственность"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr ""
+msgstr "Собственик - это лицо или компания, имеющая право собственности. Арендатор - это пользователь, который заключил договор аренды с собственником."
 
 msgid "Diverse Serving Substations"
 msgstr ""
 
 msgid "Two separate and distinct paths to individual substations which should maintain a separated path back to one or more utility generator stations."
-msgstr ""
+msgstr "Два различных ввода к отдельным подстанциям, которые имеют отдельные подключения к одной или более электростанциям."
 
 msgid "Available Voltage Services"
-msgstr ""
+msgstr "Доступные напряжения"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
-msgstr ""
+msgstr "Напряжение переменного тока, доступное клиентам прямо от собственника или напрямую от сетей."
 
 msgid "Continental Region"
 msgstr "Континентальный регион"
@@ -441,10 +439,10 @@ msgid "Contacts"
 msgstr "Свяжитесь с нами"
 
 msgid "IRR as-set/route-set"
-msgstr ""
+msgstr "IRR as-set/route-set"
 
 msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
-msgstr ""
+msgstr "Название as-set или route-set в реестре IRR"
 
 msgid "Looking Glass URL"
 msgstr "Looking Glass URL"
@@ -473,13 +471,13 @@ msgid "IPv4 Prefixes"
 msgstr "IPv4-префиксы"
 
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Рекомендованное максимальное количество префиксов IPv4 на пиринговой сессии для данной AS"
 
 msgid "IPv6 Prefixes"
 msgstr "IPv6-префиксы"
 
 msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr ""
+msgstr "Рекомендованное максимальное количество префиксов IPv6 на пиринговой сессии для данной AS"
 
 msgid "Unicast IPv4"
 msgstr "Unicast IPv4"
@@ -498,7 +496,7 @@ msgid "Never via route servers"
 msgstr "Route Server"
 
 msgid "Indicates if this network will announce its routes via route servers or not"
-msgstr ""
+msgstr "Показывает, будет ли эта сеть анонсировать свои префиксы через роут-сервер или нет"
 
 msgid "Peering Policy"
 msgstr "Пиринговая политика"
@@ -562,7 +560,7 @@ msgid "Service Level"
 msgstr "Уровень трафика"
 
 msgid "Terms"
-msgstr ""
+msgstr "Условия"
 
 #, fuzzy
 #| msgid "Any Exchange"
@@ -585,7 +583,7 @@ msgid "Internet Exchange facilities"
 msgstr "Площадки"
 
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #, fuzzy
 #| msgid "Route Server"
@@ -616,16 +614,16 @@ msgid "Internet Exchange LANs"
 msgstr "IXP"
 
 msgid "Protocol"
-msgstr ""
+msgstr "Протокол"
 
 msgid "Prefix"
 msgstr "Префикс"
 
 msgid "Internet Exchange LAN prefix"
-msgstr ""
+msgstr "Локальный префикс IXP"
 
 msgid "Internet Exchange LAN prefixes"
-msgstr ""
+msgstr "Локальные префиксы IXP"
 
 msgid "Local ASN"
 msgstr "Локальная ASN"
@@ -641,7 +639,7 @@ msgid "Network Facilities"
 msgstr "Площадки"
 
 msgid "RS peer"
-msgstr ""
+msgstr "Пир с Route Server"
 
 msgid "Speed (mbit/sec)"
 msgstr "Скорость (Мбит/с)"
@@ -660,10 +658,10 @@ msgid "Public Peering Exchange Points"
 msgstr "IXP для публичного пиринга"
 
 msgid "Carrier"
-msgstr ""
+msgstr "Оператор"
 
 msgid "Carriers"
-msgstr ""
+msgstr "Операторы"
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -676,31 +674,31 @@ msgid "Carrier presences at facility"
 msgstr "Связь IXP - Площадка"
 
 msgid "Campus Name"
-msgstr ""
+msgstr "Название объектов"
 
 msgid "Campus"
-msgstr ""
+msgstr "Объекты"
 
 msgid "Campuses"
-msgstr ""
+msgstr "Объекты"
 
 msgid "Czech"
-msgstr ""
+msgstr "Чешский"
 
 msgid "German"
-msgstr ""
+msgstr "Немецкий"
 
 msgid "Greek"
-msgstr ""
+msgstr "Греческий"
 
 msgid "English"
 msgstr "Английский"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Испанский"
 
 msgid "French"
-msgstr ""
+msgstr "Французский"
 
 #, fuzzy
 #| msgid "Australia"
@@ -708,7 +706,7 @@ msgid "Italian"
 msgstr "Австралия"
 
 msgid "Japanese"
-msgstr ""
+msgstr "Японский"
 
 msgid "Occitan"
 msgstr ""
@@ -717,16 +715,16 @@ msgid "Portuguese"
 msgstr "Португальский"
 
 msgid "Romanian"
-msgstr ""
+msgstr "Румынский"
 
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Китайский (упрощ.)"
 
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "Китайский (традиц.)"
 
 msgid "Status"
 msgstr "Статус"
@@ -735,16 +733,16 @@ msgid "Target org cannot be in selected organizations list"
 msgstr "Целевая организация не может быть в списке выбранных организаций"
 
 msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
-msgstr ""
+msgstr "Существует конфликт спонсоров, и он должен быть разрешен вручную, прежде чем это объединение произойдет. {} уведомлен о конфликте. Конфликтующие организации: {}"
 
 msgid "ROLLBACK"
 msgstr "ОТКАТИТЬ ВЕРСИЮ"
 
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+msgstr "Ixlans больше не могут быть удалены напрямую, поскольку они синхронизированы с вышестоящим IXP"
 
 msgid "Protected object '{}': {}"
-msgstr ""
+msgstr "Защищенный объект '{}': {}"
 
 #, fuzzy
 #| msgid "DENY and delete selected items"
@@ -752,7 +750,7 @@ msgid "Delete selected objects"
 msgstr "ОТКЛОНИТЬ и удалить выделенные элементы"
 
 msgid "Please confirm deletion of selected objects."
-msgstr ""
+msgstr "Подтвердите удаление выбранных объектов"
 
 msgid "SOFT DELETE"
 msgstr "УДАЛИТЬ УСЛОВНО"
@@ -763,7 +761,7 @@ msgid "Result length"
 msgstr "Результат"
 
 msgid "Show {} rows"
-msgstr ""
+msgstr "Показывать {} строк"
 
 msgid "Verification Queue is currently disabled"
 msgstr "Очередь на верификацию сейчас деактивирована"
@@ -784,10 +782,10 @@ msgid "User is looking to be affiliated to these Organizations"
 msgstr "Пользователь намеревается установить связь с данными Организациями"
 
 msgid "User has these TOTP devices"
-msgstr ""
+msgstr "У пользователя есть эти TOTP устройства"
 
 msgid "User has these Webauthn Security Keys"
-msgstr ""
+msgstr "У пользователя есть эти ключи Webauthn Security"
 
 #, fuzzy
 #| msgid "IXF Import History"
@@ -850,7 +848,7 @@ msgid "ASN is already in use by another network"
 msgstr "Отправить заявку на сеть"
 
 msgid "Name is already in use by another network"
-msgstr ""
+msgstr "Имя уже используется в другой сети"
 
 msgid "APPROVE selected items"
 msgstr "ОДОБРИТЬ выделенные элементы"
@@ -889,7 +887,7 @@ msgid "Deny"
 msgstr "Отклонить"
 
 msgid "Usernames cannot start with \"apikey\""
-msgstr ""
+msgstr "Логин не может начинаться с \"apikey\""
 
 msgid "Change Password"
 msgstr "Изменить пароль"
@@ -916,7 +914,7 @@ msgid "{} (Preview)"
 msgstr "{} (Предпросмотр)"
 
 msgid "Apply"
-msgstr ""
+msgstr "Применить"
 
 #, fuzzy
 #| msgid "Ratio Requirement"
@@ -924,22 +922,22 @@ msgid "No requirements"
 msgstr "Требуется соотношение трафика"
 
 msgid "Value"
-msgstr ""
+msgstr "Значение"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "Это команда уже исполняется - подождите окончания, прежде чем запускать ее повторно"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
+msgstr "Эта команда может исполняться долго и будет отложена на задний план. Вывод команды не будет показан сейчас, но его можно посмотреть, когда команда исполнится."
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "Старый префикс - перенумеруйте все netixlans, к которым этот префикс относится"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+msgstr "Новый префикс - нужен тот же самый протокол и длина, как и в старом префиксе"
 
 msgid "Merge this facility - it will be deleted"
-msgstr ""
+msgstr "Объединить это оборудование - будет удалено"
 
 #, fuzzy
 #| msgid "Facility"
@@ -952,10 +950,10 @@ msgid "Undo this merge"
 msgstr "Отменить слияние"
 
 msgid "Don't delete users. Note that superuser accounts are always kept - regardless of this setting."
-msgstr ""
+msgstr "Не удаляйте пользователей. Суперпользователи будут всегда сохранены, вне зависимости от этой настройки."
 
 msgid "Load data from peeringdb API"
-msgstr ""
+msgstr "Загрузить данные из API peeringdb"
 
 msgid "Restore this object - search by [reftag] [id]"
 msgstr ""
@@ -963,8 +961,9 @@ msgstr ""
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr ""
 
+#, fuzzy
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
+msgstr "Поиск IXP для импорта данных члена ix-f"
 
 #, fuzzy
 #| msgid "Reset"
@@ -991,17 +990,18 @@ msgstr "Изменить емайл"
 msgid "Reset tickets"
 msgstr "Сбросить"
 
+#, fuzzy
 msgid "Select a handleref tag to validate"
-msgstr ""
+msgstr "Выбрать тэг для проверки"
 
 msgid "Object type"
-msgstr ""
+msgstr "Тип объекта"
 
 msgid "Enter a field name to validate"
-msgstr ""
+msgstr "Введите название поля для проверки"
 
 msgid "Valid"
-msgstr ""
+msgstr "Действующий"
 
 #, fuzzy
 #| msgid "Invalid tag"
@@ -1009,10 +1009,10 @@ msgid "Invalid"
 msgstr "Неверный ярлык"
 
 msgid "Exclude data based on validation result"
-msgstr ""
+msgstr "Исключить данные на основе результата валидации"
 
 msgid "Verbose output"
-msgstr ""
+msgstr "Подробный вывод"
 
 #, fuzzy
 #| msgid "Address not found"
@@ -1026,104 +1026,94 @@ msgstr "Обязательное поле"
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr ""
+msgstr "Получает один объект типа `{obj_type}` по ID"
 
 msgid "Expand nested sets according to depth."
-msgstr ""
+msgstr "Развернуть свернутые наборы согласно глубине."
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
+msgstr "Получает список объектов типа `{obj_type}`"
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
+msgstr "Ограничить количество строк, возвращаемых в результате (используйте для постраничного просмотра в комбинации со `skip`)"
 
 msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
+msgstr "Пропустить N строк, возвращаемых в результате (используйте для постраничного просмотра в комбинации с `limit`)"
 
 msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
+msgstr "Unix-время (секунды). Возвращает только объекты, обновленные с этого времени"
 
 msgid "Filter results by matching a value against this field."
-msgstr ""
+msgstr "Фильтрует результаты по совпадению значения в этом поле"
 
 msgid "Supported filter suffixes: {}"
-msgstr ""
+msgstr "Поддерживаемые суффиксы фильтра: {}"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "Number of networks present at this facility"
-msgstr "Связь IXP - Площадка"
+msgstr "Число сетей на данной площадке"
 
 msgid "Targets both AKA and name fields for filtering"
 msgstr ""
 
 msgid "Find networks not present at an exchange (exchange id)"
-msgstr ""
+msgstr "Найти сети, отсутствующие на IXP"
 
 msgid "Find networks present at exchange (exchange id)"
-msgstr ""
+msgstr "Найти сети, присутствующие на IXP"
 
 msgid "Find networks not present at a facility (facility id)"
-msgstr ""
+msgstr "Найти сети, отсутствующие на площадке"
 
 msgid "Find networks present at a facility (facility id)"
-msgstr ""
+msgstr "Найти сети, присутствующие на площадке"
 
 msgid "Find networks connected at ixlan (ixlan id)"
-msgstr ""
+msgstr "Найти сети, подключенные к ixlan"
 
 msgid "Find the network that contains this netixlan (netixlan id)"
-msgstr ""
+msgstr "Найти сети, содержащие этот netixlan"
 
 msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr ""
+msgstr "Найти сети, у которых netfac принадлежит к"
 
 msgid "Find exchanges present at a facility (facility id)"
-msgstr ""
+msgstr "Найти IXP, присутствующие на площадке"
 
 msgid "Find the exchange that contains this ixlan (ixlan id)"
-msgstr ""
+msgstr "Найти IXP, у которых есть это ixlan"
 
 msgid "Find the exchange that contains this ixfac (ixfac id)"
-msgstr ""
+msgstr "Найти IXP, у которых есть этот ixfac"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Number of networks present at this exchange"
-msgstr "IXP для публичного пиринга"
+msgstr "Число сетей, представленных на этом IXP"
 
 msgid "Find exchanges where this network has a presence at (net id)"
-msgstr ""
+msgstr "Найти IXP, у которых присутствует эта сеть (net id)"
 
 msgid "Find organization that contains the network (network asn)"
-msgstr ""
+msgstr "Найти компанию, у которой есть сеть (ASN)"
 
 msgid "Find prefixes by exchange (exchange id)"
-msgstr ""
+msgstr "Найти префикс по IXP (exchange id)"
 
 msgid "Find prefixes by ip address"
-msgstr ""
+msgstr "Найти префиксы по IP-адресу"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Exchange name"
-msgstr "IXP"
+msgstr "Название IXP"
 
 #, fuzzy
 #| msgid "Facility"
 msgid "Facility name"
 msgstr "Площадка"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility country"
-msgstr "Площадка"
+msgstr "Страна площадки"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility city"
-msgstr "Площадка"
+msgstr "Город площадки"
 
 #, python-brace-format
 msgid "Creates a new `{obj_type}` type object."
