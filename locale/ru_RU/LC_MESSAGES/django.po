@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2023-10-01 23:58+0000\n"
-"Last-Translator: Sergey Myasoedov <kaa@net-art.cz>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://translate.peeringdb.com/projects/peeringdb/server/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -956,10 +956,10 @@ msgid "Load data from peeringdb API"
 msgstr "Загрузить данные из API peeringdb"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "Восстановить этот объект - выполнить поиск по [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "На данном этапе в этом диалоге можно восстановить только объекты типа {}"
 
 #, fuzzy
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
