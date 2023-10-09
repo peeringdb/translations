@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-09-21 21:58+0000\n"
+"PO-Revision-Date: 2023-10-09 00:58+0000\n"
 "Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -231,13 +231,13 @@ msgid "If this field is set, it will be displayed on this record. If not, we wil
 msgstr "Dacă acest câmp este setat, va fi afișat în această înregistrare. Dacă nu, vom afișa site-ul web din înregistrarea organizației la care este legată"
 
 msgid "Provider of L1 or L2 connectivity into a facility"
-msgstr ""
+msgstr "Furnizor de conectivitate L1 sau L2 într-o Facilitate"
 
 msgid "A set of facilities under one management, with inter-building cross-connects"
-msgstr ""
+msgstr "Un set de Facilități sub un singur management, cu interconexiuni între clădiri"
 
 msgid "Peering with the routeserver is shown with an icon"
-msgstr ""
+msgstr "Peering-ul cu routeserver-ul este afișat cu o pictogramă"
 
 msgid "Best Effort (no SLA)"
 msgstr "Best Effort (fără SLA)"
@@ -794,10 +794,8 @@ msgstr "Vedeți"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Nu poate aproba o cerere de afiliere anulată"
 
-#, fuzzy
-#| msgid "Cannot approve a canceled affiliation request"
 msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr "Nu poate aproba o cerere de afiliere anulată"
+msgstr "Nu se poate aproba în timp ce utilizatorul are 2FA dezactivat - organizația necesită 2FA"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Cererea de afiliere a fost aprobată și utilizatorul a fost notificat."
@@ -1330,10 +1328,8 @@ msgstr "Dacă restricția de e-mail a utilizatorului este activată: permiteți 
 msgid "Require users in this organization to periodically re-authenticate"
 msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
 
-#, fuzzy
-#| msgid "Require users in this organization to periodically re-authenticate"
 msgid "Require users in your organization to activate 2FA."
-msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
+msgstr "Solicitați utilizatorilor din organizația dvs. să activeze 2FA."
 
 msgid "Organization has active objects under it."
 msgstr "Organizația are obiecte active sub aceasta."
@@ -1827,10 +1823,8 @@ msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost aprobată"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "Cererea de afiliere a utilizatorilor %(user_name)s a fost respinsă"
 
-#, fuzzy
-#| msgid "This key is currently inactive - please contact PeeringDB support for assistance."
 msgid "Inactive API key - please contact PeeringDB support for assistance."
-msgstr "Această cheie este în prezent inactivă - vă rugăm să contactați serviciul de asistență PeeringDB."
+msgstr "Cheie API inactivă - vă rugăm să contactați serviciul de asistență PeeringDB."
 
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "Vă rugăm să contactați {} pentru a ajuta la ștergerea acestui obiect"
@@ -2054,32 +2048,28 @@ msgid ""
 "\n"
 "Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
 msgstr ""
+"\n"
+"Doriți să renunțați la afilierea lor sau să o lăsați pe loc? Dacă renunțați la afilieri, aceștia nu se vor putea reafilia până când nu au activat 2FA.\n"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Drop Affiliations"
-msgstr "Afilieri existente"
+msgstr "Renunțați la afilieri"
 
-#, fuzzy
-#| msgid "Affiliate"
 msgid "Leave them Affiliated"
-msgstr "Afiliați-vă"
+msgstr "Lăsați-i afiliați"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Cancel 2FA Requirement"
-msgstr "Contract necesar"
+msgstr "Anulați cerința 2FA"
 
 #, python-format
 msgid ""
 "\n"
 "The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
 msgstr ""
+"\n"
+"Următorii utilizatori afiliați organizației %(org_name)s nu au 2FA activat:\n"
 
-#, fuzzy
-#| msgid "You may view and edit your organization at"
 msgid "You may view and edit your organization users at"
-msgstr "Puteți vedea și edita organizația dvs. la"
+msgstr "Puteți vedea și edita utilizatorii organizației dvs. la"
 
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgstr "Dacă aveți întrebări, nu ezitați să contactați asistența PeeringDB la"
@@ -2399,10 +2389,9 @@ msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracterist
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- toate datele vor fi reîmprospătate din mediul de producție la %(dt)sZ"
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with"
+#, python-format
 msgid "Delete your affiliation to %(org)s"
-msgstr "Afilierea dvs. cu"
+msgstr "Ștergeți-vă afilierea la %(org)s"
 
 msgid "Cancel"
 msgstr "Anulați"
@@ -2533,10 +2522,8 @@ msgstr "Rețele automatizate"
 msgid "Registered Users"
 msgstr "Utilizatori înregistrați"
 
-#, fuzzy
-#| msgid "Email Confirmation"
 msgid "Confirmation"
-msgstr "Confirmare e-mail"
+msgstr "Confirmare"
 
 msgid "Search here for a network, IX, or facility."
 msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
@@ -2598,15 +2585,11 @@ msgstr "Modul de întreținere"
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "Site-ul este în prezent în modul de întreținere, timp în care această acțiune este dezactivată, încercați din nou în câteva minute"
 
-#, fuzzy
-#| msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
 msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
-msgstr "Unele dintre organizațiile dvs. vă solicită să vă confirmați adresa de e-mail. Accesul dumneavoastră la ele a fost restricționat până când veți face acest lucru."
+msgstr "Unele dintre organizațiile dvs. solicită să activați 2FA. Accesul dumneavoastră la ele a fost restricționat până când veți face acest lucru."
 
-#, fuzzy
-#| msgid "The password for your account"
 msgid "Activate 2FA for your account"
-msgstr "Parola pentru contul dvs."
+msgstr "Activați 2FA pentru contul dvs."
 
 msgid "Login with oAuth"
 msgstr "Autentificare cu oAuth"
@@ -2949,10 +2932,8 @@ msgstr "Sugerați un Internet Exchange"
 msgid "Suggest Network"
 msgstr "Sugerați o rețea"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Delete Affiliation"
-msgstr "Afilieri existente"
+msgstr "Ștergeți afilierea"
 
 msgid "Set primary organization"
 msgstr "Setați organizația principală"
@@ -3030,10 +3011,8 @@ msgstr "Adresa sugerată:"
 msgid "Accept"
 msgstr "Acceptați"
 
-#, fuzzy
-#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
-msgstr "Nu au putut fi obținute date geocod pentru această entitate. Acest lucru se face automat după modificările câmpului de adresă."
+msgstr "Datele de geocodare pentru această entitate nu au putut fi obținute în acest moment. Acest lucru se face automat la modificările câmpului de adresă."
 
 msgid "Filter"
 msgstr "Filtru"
@@ -3343,12 +3322,10 @@ msgid "Group"
 msgstr "Grup"
 
 msgid "No 2FA"
-msgstr ""
+msgstr "Fără 2FA"
 
-#, fuzzy
-#| msgid "Require users in this organization to periodically re-authenticate"
 msgid "Require users in your organization to enable 2FA."
-msgstr "Solicitați utilizatorilor din această organizație să se re-autentifice periodic"
+msgstr "Solicitați utilizatorilor din organizația dvs. să activeze 2FA."
 
 msgid "Restrict user email addresses to these domains"
 msgstr "Restricționați adresele de e-mail ale utilizatorilor la aceste domenii"
@@ -3743,7 +3720,7 @@ msgid "Request import"
 msgstr "Solicitați importul"
 
 msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
-msgstr ""
+msgstr "Completați câmpul „IX-F Member Export URL” pentru a efectua „IX-F Import”"
 
 msgid "Disable notifications"
 msgstr "Dezactivați notificările"
@@ -3801,22 +3778,20 @@ msgstr "Preferință organizație incorectă"
 
 #, python-brace-format
 msgid "{user} is not member of {org}"
-msgstr ""
+msgstr "{user} nu este membru al {org}"
 
-#, fuzzy
-#| msgid "Invalid member type: {}"
 msgid "Invalid member"
-msgstr "Categoria de membru nu este validă: {}"
+msgstr "Membrul nu este valid"
 
 msgid "Action not provided"
-msgstr ""
+msgstr "Acțiunea nu este furnizată"
 
 #, python-brace-format
 msgid "Only admin of the {org} can perform the action"
-msgstr ""
+msgstr "Numai administratorul {org} poate efectua acțiunea"
 
 msgid "Login as the organization admin to perform the action"
-msgstr ""
+msgstr "Conectați-vă ca administrator al organizației pentru a efectua acțiunea"
 
 #~ msgid "Private Peering Facilities"
 #~ msgstr "Facilități cu peering privat"
