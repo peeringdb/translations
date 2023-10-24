@@ -1248,7 +1248,8 @@ msgstr ""
 msgid "ASNs in this range are private or reserved"
 msgstr ""
 
-msgid "{}"
+#, python-brace-format
+msgid "Unable to retrieve RDAP data. If the issue persists, please contact {support_email}."
 msgstr ""
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
@@ -1376,6 +1377,9 @@ msgid "2 Weeks"
 msgstr ""
 
 msgid "1 Month"
+msgstr ""
+
+msgid "3 Month"
 msgstr ""
 
 msgid "6 Months"
@@ -1515,6 +1519,12 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
+msgstr ""
+
+msgid ""
+"Range of options is available:\n"
+"1 Week, 2 Weeks, 1 Month, \n"
+"3 Month, 6 Month, 1 Year"
 msgstr ""
 
 msgid "Require users in your organization to activate 2FA."
@@ -2859,6 +2869,9 @@ msgstr ""
 msgid "Governance"
 msgstr ""
 
+msgid "Google Earth KMZ"
+msgstr ""
+
 msgid "Contact Us"
 msgstr "Επικοινωνήστε μαζί μας"
 
@@ -2896,8 +2909,15 @@ msgstr "Αναζητήστε εδώ για ένα δίκτυο, IXP, ή εγκα
 msgid "Advanced Search"
 msgstr "Αναλυτική Αναζήτηση"
 
-msgid "v2 Search (Beta)"
-msgstr ""
+#, fuzzy
+#| msgid "Advanced Search"
+msgid "Legacy Search"
+msgstr "Αναλυτική Αναζήτηση"
+
+#, fuzzy
+#| msgid "Search"
+msgid "v2 Search"
+msgstr "Αναζήτηση"
 
 msgid "pending"
 msgstr "εκκρεμεί"
@@ -3791,9 +3811,6 @@ msgstr "Επιβεβαιώθηκε"
 msgid "Date"
 msgstr "Ημερομηνία"
 
-msgid "Email address requirements not met"
-msgstr ""
-
 msgid "Currently no users requesting affiliation with"
 msgstr "Αυτή τη στιγμή δεν υπάρχουν χρήστες που ζητούν συσχέτιση με"
 
@@ -4107,6 +4124,37 @@ msgstr "Μη έγκυρη ετικέττα"
 #| msgid "Invalid export format"
 msgid "Invalid identifier!"
 msgstr "Μη έγκυρη μορφή εξαγωγής"
+
+msgid "Data is empty"
+msgstr ""
+
+#, python-brace-format
+msgid "Unknown object type: {ref_tag}"
+msgstr ""
+
+#, python-brace-format
+msgid "object {ref_tag}.{obj_id} not found"
+msgstr ""
+
+#, fuzzy
+#| msgid "Please wait a bit before requesting your usernames again."
+msgid "Please wait a bit before proposing verified updates again."
+msgstr "Παρακαλούμε περιμένετε λίγο πριν ζητήσετε ξανά τα ονόματα χρήστη σας."
+
+msgid "No payload provided"
+msgstr ""
+
+msgid "Invalid JSON in payload"
+msgstr ""
+
+#, python-brace-format
+msgid "Proposed update contains invalid data: {data}"
+msgstr ""
+
+#, fuzzy
+#| msgid "Please wait a bit before requesting affiliation again."
+msgid "Please wait a bit before requesting accept verified updates again."
+msgstr "Παρακαλούμε περιμένετε λίγο πριν ζητήσετε ξανά συσχετισμό."
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Παρακαλώ περιμένετε λίγο πριν αιτηθείτε ξανά κυριότητας."
