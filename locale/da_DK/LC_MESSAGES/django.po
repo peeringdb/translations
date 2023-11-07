@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-23 10:58+0000\n"
-"Last-Translator: Chriztoffer Hansen <chha@ewii.com>\n"
+"PO-Revision-Date: 2023-11-07 13:58+0000\n"
+"Last-Translator: Victor Pahuus Petersen <administrator@victorpahuus.dk>\n"
 "Language-Team: Danish <https://translate.peeringdb.com/projects/peeringdb/server/da/>\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
@@ -241,7 +241,7 @@ msgid "Route Collector"
 msgstr ""
 
 msgid "Government"
-msgstr ""
+msgstr "Regering"
 
 msgid "Private"
 msgstr "Privat"
@@ -259,37 +259,37 @@ msgid "If this field is set, it will be displayed on this record. If not, we wil
 msgstr ""
 
 msgid "Provider of L1 or L2 connectivity into a facility"
-msgstr ""
+msgstr "Udbyder af L1- eller L2-forbindelse til en facilitet"
 
 msgid "A set of facilities under one management, with inter-building cross-connects"
 msgstr ""
 
 msgid "Peering with the routeserver is shown with an icon"
-msgstr ""
+msgstr "Peering med routeserveren vises med et ikon"
 
 msgid "Best Effort (no SLA)"
-msgstr ""
+msgstr "Bedste indsats (ingen SLA)"
 
 msgid "Normal Business Hours"
-msgstr ""
+msgstr "Normal åbningstid"
 
 msgid "24/7 Support"
-msgstr ""
+msgstr "24/7 Support"
 
 msgid "No Commercial Terms"
-msgstr ""
+msgstr "Ingen kommercielle betingelser"
 
 msgid "Bundled With Other Services"
 msgstr ""
 
 msgid "Non-recurring Fees Only"
-msgstr ""
+msgstr "Kun engangsgebyrer"
 
 msgid "Recurring Fees"
-msgstr ""
+msgstr "Gentagne gebyrer"
 
 msgid "Owner"
-msgstr ""
+msgstr "Ejer"
 
 msgid "Lessee"
 msgstr ""
@@ -313,13 +313,14 @@ msgid "Website"
 msgstr ""
 
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
+#, fuzzy
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 msgid "LinkedIn"
 msgstr ""
@@ -336,22 +337,22 @@ msgid "Invalid value: {}"
 msgstr "Ugyldigt eksport format"
 
 msgid "Address 1"
-msgstr ""
+msgstr "Adresse 1"
 
 msgid "Address 2"
-msgstr ""
+msgstr "Adresse 2"
 
 msgid "City"
-msgstr ""
+msgstr "By"
 
 msgid "State"
 msgstr ""
 
 msgid "Zip-Code"
-msgstr ""
+msgstr "Postnummer"
 
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 msgid "Suite"
 msgstr ""
@@ -366,7 +367,7 @@ msgid "Longitude"
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 msgid "Also Known As"
 msgstr ""
@@ -383,10 +384,8 @@ msgstr ""
 msgid "Organization"
 msgstr "Virksomhed"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Organizations"
-msgstr "Virksomhed"
+msgstr "Virksomheder"
 
 msgid "CLLI Code"
 msgstr ""
@@ -403,18 +402,14 @@ msgstr ""
 msgid "Technical Phone"
 msgstr ""
 
-#, fuzzy
-#| msgid "Sales"
 msgid "Sales Email"
-msgstr "Salg"
+msgstr "Salgs E-mail"
 
-#, fuzzy
-#| msgid "Sales"
 msgid "Sales Phone"
-msgstr "Salg"
+msgstr "Salgs Telefon"
 
 msgid "Property"
-msgstr ""
+msgstr "Ejendom"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
 msgstr ""
@@ -444,29 +439,25 @@ msgid "Facilities"
 msgstr ""
 
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 msgid "Visibility"
-msgstr ""
+msgstr "Synlighed"
 
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
-#| msgid "Content"
 msgid "Contact"
-msgstr "Indhold"
+msgstr "Kontakt"
 
-#, fuzzy
-#| msgid "Content"
 msgid "Contacts"
-msgstr "Indhold"
+msgstr "Kontakter"
 
 msgid "IRR as-set/route-set"
 msgstr ""
@@ -495,7 +486,7 @@ msgid "Geographic Scope"
 msgstr ""
 
 msgid "Network Type"
-msgstr ""
+msgstr "Netværks type"
 
 msgid "IPv4 Prefixes"
 msgstr ""
