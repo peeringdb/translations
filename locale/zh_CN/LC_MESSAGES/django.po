@@ -795,6 +795,27 @@ msgstr "结果"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "创建"
+
+msgid "Updated"
+msgstr "更新"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "登陆"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "上次更新"
+
 msgid "Verification Queue is currently disabled"
 msgstr "验证队列目前已被禁用"
 
@@ -2029,9 +2050,6 @@ msgstr "管理 OAuth 应用"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "更新"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3462,6 +3480,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "添加设施"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "路由服务器"
+
+msgid "Exchange"
+msgstr "交换点"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "交换点 - 设施连接"
 
@@ -3512,9 +3550,6 @@ msgstr "对等名称"
 
 msgid "Speed"
 msgstr "速率"
-
-msgid "Exchange"
-msgstr "交换点"
 
 msgid "IP"
 msgstr "IP"

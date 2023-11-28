@@ -772,6 +772,25 @@ msgstr "Exchange - Facility link"
 msgid "Show {} rows"
 msgstr ""
 
+msgid "Created"
+msgstr ""
+
+msgid "Updated"
+msgstr "Opdateret"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Last login"
+msgstr "Facility"
+
+#, fuzzy
+#| msgid "Updated"
+msgid "Last notified"
+msgstr "Opdateret"
+
 msgid "Verification Queue is currently disabled"
 msgstr "Verifikationkø er på nuværende tidspunkt deaktiveret"
 
@@ -1986,9 +2005,6 @@ msgstr "Offentlige relationer"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "Opdateret"
 
 msgid "Deleted"
 msgstr ""
@@ -3475,6 +3491,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Facility"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Ruteningsserver"
+
+msgid "Exchange"
+msgstr "Exchange"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Exchange - Facility link"
 
@@ -3533,9 +3569,6 @@ msgstr ""
 
 msgid "Speed"
 msgstr ""
-
-msgid "Exchange"
-msgstr "Exchange"
 
 #, fuzzy
 #| msgid "IPv4"

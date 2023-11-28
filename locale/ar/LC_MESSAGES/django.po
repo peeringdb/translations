@@ -796,6 +796,27 @@ msgstr "نتيجة"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "انشاء"
+
+msgid "Updated"
+msgstr "تم التحديث"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "تسجيل دخول"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "آخر تحديث"
+
 msgid "Verification Queue is currently disabled"
 msgstr "قائمة التحقق معطلة حالياً"
 
@@ -2021,9 +2042,6 @@ msgstr "إدارة تطبيقات التحقق"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "تم التحديث"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3459,6 +3477,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "إضافة خدمة تسهيلية"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "خادم التوجيه"
+
+msgid "Exchange"
+msgstr "تبادل"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "نقطة التبادل - مركز البيانات"
 
@@ -3509,9 +3547,6 @@ msgstr "اسم النظير Peer"
 
 msgid "Speed"
 msgstr "السرعه"
-
-msgid "Exchange"
-msgstr "تبادل"
 
 msgid "IP"
 msgstr "عنوان بروتوكول الانترنت"

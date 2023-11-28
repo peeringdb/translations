@@ -701,6 +701,27 @@ msgstr "Lungimea rezultatului"
 msgid "Show {} rows"
 msgstr "Afișați {} rânduri"
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Creați"
+
+msgid "Updated"
+msgstr "Actualizat"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Conectare"
+
+#, fuzzy
+#| msgid "Last Fetched"
+msgid "Last notified"
+msgstr "Ultima preluată"
+
 msgid "Verification Queue is currently disabled"
 msgstr "În acest moment lista de așteptare în vederea verificării este dezactivată"
 
@@ -1756,9 +1777,6 @@ msgstr "Aplicații OAuth"
 
 msgid "Added"
 msgstr "Adăugat"
-
-msgid "Updated"
-msgstr "Actualizat"
 
 msgid "Deleted"
 msgstr "Șters"
@@ -3054,6 +3072,26 @@ msgstr "Scoateți acest Transportator din Facilitatea dvs."
 msgid "Add Facility"
 msgstr "Adăugați facilitate"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "routeserver"
+
+msgid "Exchange"
+msgstr "Internet Exchange"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Legătura dintre Internet Exchange și facilitate"
 
@@ -3098,9 +3136,6 @@ msgstr "Nume peer"
 
 msgid "Speed"
 msgstr "Viteză"
-
-msgid "Exchange"
-msgstr "Internet Exchange"
 
 msgid "IP"
 msgstr "Adresă IP"

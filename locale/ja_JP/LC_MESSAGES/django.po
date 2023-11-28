@@ -715,6 +715,27 @@ msgstr "Resul length"
 msgid "Show {} rows"
 msgstr "Show {} rows"
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "作成"
+
+msgid "Updated"
+msgstr "更新された"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "ログイン"
+
+#, fuzzy
+#| msgid "Last Fetched"
+msgid "Last notified"
+msgstr "前回のフェッチ"
+
 msgid "Verification Queue is currently disabled"
 msgstr "現在、確認キューは無効になっています"
 
@@ -1796,9 +1817,6 @@ msgstr "OAuth アプリケーションで管理する"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "更新された"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3166,6 +3184,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "データセンタを追加"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "ルートサーバ"
+
+msgid "Exchange"
+msgstr "エクスチェンジ"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "エクスチェンジ - データセンタ のリンク"
 
@@ -3210,9 +3248,6 @@ msgstr "ネットワーク名"
 
 msgid "Speed"
 msgstr "帯域"
-
-msgid "Exchange"
-msgstr "エクスチェンジ"
 
 msgid "IP"
 msgstr "IP"

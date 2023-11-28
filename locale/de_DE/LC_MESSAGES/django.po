@@ -702,6 +702,27 @@ msgstr "Ergebnislänge"
 msgid "Show {} rows"
 msgstr "Zeige {} Reihen"
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Erstellen"
+
+msgid "Updated"
+msgstr "Aktualisiert"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Anmelden"
+
+#, fuzzy
+#| msgid "Last Fetched"
+msgid "Last notified"
+msgstr "Zuletzt runtergeladen"
+
 msgid "Verification Queue is currently disabled"
 msgstr "Die Überprüfungswarteschlange ist derzeit deaktiviert"
 
@@ -1761,9 +1782,6 @@ msgstr "OAuth-Anwendungen"
 
 msgid "Added"
 msgstr "Hinzugefügt"
-
-msgid "Updated"
-msgstr "Aktualisiert"
 
 msgid "Deleted"
 msgstr "Gelöscht"
@@ -3074,6 +3092,26 @@ msgstr "Entferne diesen Carrier von deinem Gebäude."
 msgid "Add Facility"
 msgstr "Gebäude hinzufügen"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "Routeserver"
+
+msgid "Exchange"
+msgstr "Austauschpunkt"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Netzwerk-Liegenschaft-Link"
 
@@ -3118,9 +3156,6 @@ msgstr "Peername"
 
 msgid "Speed"
 msgstr "Geschwindigkeit"
-
-msgid "Exchange"
-msgstr "Austauschpunkt"
 
 msgid "IP"
 msgstr "IP"

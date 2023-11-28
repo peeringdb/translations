@@ -767,6 +767,29 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Account disabled."
+msgid "Created"
+msgstr "Hesap hizmet dışı bırakılmıştır."
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Updated"
+msgstr "Bina"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Last login"
+msgstr "Bina"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Last notified"
+msgstr "Bina"
+
 msgid "Verification Queue is currently disabled"
 msgstr "Doğrulama Sırası şuanda devre dışı"
 
@@ -1978,11 +2001,6 @@ msgstr "Halkla İlişkiler"
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Facility"
-msgid "Updated"
-msgstr "Bina"
 
 msgid "Deleted"
 msgstr ""
@@ -3433,6 +3451,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Bina"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Rota Sunucusu"
+
+msgid "Exchange"
+msgstr "Değişim noktası"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
@@ -3491,9 +3529,6 @@ msgstr ""
 
 msgid "Speed"
 msgstr ""
-
-msgid "Exchange"
-msgstr "Değişim noktası"
 
 #, fuzzy
 #| msgid "IPv4"

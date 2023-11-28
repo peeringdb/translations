@@ -795,6 +795,27 @@ msgstr "Αποτέλεσμα"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Δημιουργία"
+
+msgid "Updated"
+msgstr "Ενημερώθηκε"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Είσοδος"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "Τελευταία Ενημέρωση"
+
 msgid "Verification Queue is currently disabled"
 msgstr "Η Ουρά Επαλήθευσης είναι αυτή τη στιγμή απενεργοποιημένη"
 
@@ -2013,9 +2034,6 @@ msgstr "Διαχείριση εφαρμογών OAuth"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "Ενημερώθηκε"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3473,6 +3491,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Προσθήκη Εγκατάστασης"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Route Server"
+
+msgid "Exchange"
+msgstr "Exchange"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
@@ -3531,9 +3569,6 @@ msgstr "Όνομα Peer"
 
 msgid "Speed"
 msgstr "Ταχύτητα"
-
-msgid "Exchange"
-msgstr "Exchange"
 
 msgid "IP"
 msgstr "IP"

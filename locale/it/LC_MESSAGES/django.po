@@ -715,6 +715,27 @@ msgstr "Risultato"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Crea"
+
+msgid "Updated"
+msgstr "Aggiornato"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Collègati"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "Ultimo Aggiornamento"
+
 msgid "Verification Queue is currently disabled"
 msgstr "La coda di verifica è attualmente disabilitata"
 
@@ -1903,9 +1924,6 @@ msgstr "Gestisci Applicazioni OAuth"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "Aggiornato"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3349,6 +3367,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Aggiungi Struttura"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Route Server"
+
+msgid "Exchange"
+msgstr "Interscambio"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Collegamento Interscambio - Struttura"
 
@@ -3407,9 +3445,6 @@ msgstr "Nome del Peer"
 
 msgid "Speed"
 msgstr "Velocità"
-
-msgid "Exchange"
-msgstr "Interscambio"
 
 msgid "IP"
 msgstr "IP"

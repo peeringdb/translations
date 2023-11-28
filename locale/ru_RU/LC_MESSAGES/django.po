@@ -763,6 +763,27 @@ msgstr "Результат"
 msgid "Show {} rows"
 msgstr "Показывать {} строк"
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Создать"
+
+msgid "Updated"
+msgstr "Последнее обновление"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Логин"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "Последнее обновление"
+
 msgid "Verification Queue is currently disabled"
 msgstr "Очередь на верификацию сейчас деактивирована"
 
@@ -1970,9 +1991,6 @@ msgstr "Управление OAuth-авторизацией"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "Последнее обновление"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3431,6 +3449,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Новая Площадка"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Route Server"
+
+msgid "Exchange"
+msgstr "IXP"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Связь IXP - Площадка"
 
@@ -3490,9 +3528,6 @@ msgstr "Имя пира"
 
 msgid "Speed"
 msgstr "Скорость"
-
-msgid "Exchange"
-msgstr "IXP"
 
 msgid "IP"
 msgstr "IP"

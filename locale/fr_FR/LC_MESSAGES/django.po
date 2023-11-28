@@ -724,6 +724,27 @@ msgstr "Résultat"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Créer"
+
+msgid "Updated"
+msgstr "Mis-à-jour"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Identification"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "Dernières mises à jour"
+
 msgid "Verification Queue is currently disabled"
 msgstr "La file de validation est actuellement désactivée"
 
@@ -1923,9 +1944,6 @@ msgstr "Gérer les applications OAuth"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "Mis-à-jour"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3383,6 +3401,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Ajouter installation"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Serveur de routes"
+
+msgid "Exchange"
+msgstr "Point d'échange"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Point d'échange - Lien du lieu d'installation"
 
@@ -3441,9 +3479,6 @@ msgstr "Nom du pair"
 
 msgid "Speed"
 msgstr "Vitesse"
-
-msgid "Exchange"
-msgstr "Point d'échange"
 
 msgid "IP"
 msgstr "IP"

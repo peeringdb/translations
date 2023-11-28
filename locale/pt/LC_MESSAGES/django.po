@@ -701,6 +701,27 @@ msgstr "Comprimento do resultado"
 msgid "Show {} rows"
 msgstr "Mostrar {} linhas"
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Criar"
+
+msgid "Updated"
+msgstr "Atualizado/a"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Login"
+
+#, fuzzy
+#| msgid "Last Fetched"
+msgid "Last notified"
+msgstr "Última coleta"
+
 msgid "Verification Queue is currently disabled"
 msgstr "A fila de verificação  está desativada"
 
@@ -1760,9 +1781,6 @@ msgstr "Aplicativos OAuth"
 
 msgid "Added"
 msgstr "Adicionado"
-
-msgid "Updated"
-msgstr "Atualizado/a"
 
 msgid "Deleted"
 msgstr "Excluído"
@@ -3075,6 +3093,26 @@ msgstr "Remova esta operadora de seu PoP."
 msgid "Add Facility"
 msgstr "Adicionar PoP"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "servidor de rotas"
+
+msgid "Exchange"
+msgstr "Exchange"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "Exchange - Link do PoP"
 
@@ -3119,9 +3157,6 @@ msgstr "Nome do Peer"
 
 msgid "Speed"
 msgstr "Velocidade"
-
-msgid "Exchange"
-msgstr "Exchange"
 
 msgid "IP"
 msgstr "IP"

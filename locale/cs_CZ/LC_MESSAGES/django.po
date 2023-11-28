@@ -794,6 +794,27 @@ msgstr "Výsledek"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Vytvořit"
+
+msgid "Updated"
+msgstr "Aktualizován"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "Přihlásit"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "Poslední aktualizace"
+
 msgid "Verification Queue is currently disabled"
 msgstr "Verifikační fronta je momentálně deaktivována"
 
@@ -1999,9 +2020,6 @@ msgstr "Správa aplikací OAuth"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "Aktualizován"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3459,6 +3477,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Přidat zařízení"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Route Server"
+
+msgid "Exchange"
+msgstr "Propojovací uzel"
+
+msgid "IX Connections"
+msgstr ""
+
 #, fuzzy
 msgid "Exchange - Facility link"
 msgstr "Propojovací uzel - Zařízení odkaz"
@@ -3519,9 +3557,6 @@ msgstr "Název Peeru"
 
 msgid "Speed"
 msgstr "Rychlost"
-
-msgid "Exchange"
-msgstr "Propojovací uzel"
 
 msgid "IP"
 msgstr "IP"

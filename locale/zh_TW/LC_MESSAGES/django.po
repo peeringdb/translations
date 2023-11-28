@@ -795,6 +795,27 @@ msgstr "結果"
 msgid "Show {} rows"
 msgstr ""
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "創建"
+
+msgid "Updated"
+msgstr "更新"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "登陸"
+
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last notified"
+msgstr "上次更新"
+
 msgid "Verification Queue is currently disabled"
 msgstr "驗證佇列目前已被禁用"
 
@@ -2031,9 +2052,6 @@ msgstr "管理 OAuth 應用"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "更新"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3466,6 +3484,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "添加設施"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "路由伺服器"
+
+msgid "Exchange"
+msgstr "交換點"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "交換點 - 設施連接"
 
@@ -3524,9 +3562,6 @@ msgstr "對等名稱"
 
 msgid "Speed"
 msgstr "速率"
-
-msgid "Exchange"
-msgstr "交換點"
 
 msgid "IP"
 msgstr "IP"

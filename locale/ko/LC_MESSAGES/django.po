@@ -717,6 +717,27 @@ msgstr "결과"
 msgid "Show {} rows"
 msgstr "{} 행 표시"
 
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "생성"
+
+msgid "Updated"
+msgstr "업데이트됨"
+
+msgid "Sent"
+msgstr ""
+
+#, fuzzy
+#| msgid "Login"
+msgid "Last login"
+msgstr "로그인"
+
+#, fuzzy
+#| msgid "Last Fetched"
+msgid "Last notified"
+msgstr "최신 가져오기"
+
 msgid "Verification Queue is currently disabled"
 msgstr "검증 대기열이 현재 비활성화되어있습니다"
 
@@ -1860,9 +1881,6 @@ msgstr "OAuth 애플리케이션 관리"
 
 msgid "Added"
 msgstr ""
-
-msgid "Updated"
-msgstr "업데이트됨"
 
 #, fuzzy
 #| msgid "Delete"
@@ -3247,6 +3265,26 @@ msgstr ""
 msgid "Add Facility"
 msgstr "설비 추가"
 
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "라우트서버"
+
+msgid "Exchange"
+msgstr "익스체인지"
+
+msgid "IX Connections"
+msgstr ""
+
 msgid "Exchange - Facility link"
 msgstr "익스체인지 - 시설 링크"
 
@@ -3291,9 +3329,6 @@ msgstr "Peer 이름"
 
 msgid "Speed"
 msgstr "속도"
-
-msgid "Exchange"
-msgstr "익스체인지"
 
 msgid "IP"
 msgstr "IP"
