@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-12 23:58+0000\n"
+"PO-Revision-Date: 2023-12-13 00:58+0000\n"
 "Last-Translator: Livio Morina <noc@airbeam.it>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -210,7 +210,7 @@ msgid "Network Services"
 msgstr "Servizi di rete"
 
 msgid "Route Collector"
-msgstr ""
+msgstr "Route Collector"
 
 msgid "Government"
 msgstr "Governo"
@@ -228,7 +228,7 @@ msgid "An E.164-formatted phone number starts with a +, followed by the country 
 msgstr "Un numero di telefono in formato E.164 inizia con un +, seguito dal prefisso del paese, quindi dal numero di telefono nazionale (eliminando lo 0 iniziale nella maggior parte dei paesi), senza spazi o trattini tra i gruppi di cifre"
 
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
-msgstr ""
+msgstr "Se questo campo è valorizzato, verrà mostrato in questo record. In caso contrario, mostreremo il sito dell'organizzazione a cui il record è legato"
 
 msgid "Provider of L1 or L2 connectivity into a facility"
 msgstr "Fornitore di connettività L1 o L2 all'interno di una struttura"
@@ -237,7 +237,7 @@ msgid "A set of facilities under one management, with inter-building cross-conne
 msgstr "Un insieme di strutture sotto un'unica gestione, con possibilità di cross-connects tra diversi edifici"
 
 msgid "Peering with the routeserver is shown with an icon"
-msgstr ""
+msgstr "Il peering col routeserver è mostrato con un'icona"
 
 msgid "Best Effort (no SLA)"
 msgstr "Best Effort (senza SLA)"
@@ -255,7 +255,7 @@ msgid "Bundled With Other Services"
 msgstr "Aggregato con altri servizi"
 
 msgid "Non-recurring Fees Only"
-msgstr "Solo tasse non ricorrenti"
+msgstr "Solo costi una tantum"
 
 msgid "Recurring Fees"
 msgstr "Canoni ricorsivi"
@@ -960,7 +960,7 @@ msgstr "Questo campo è richiesto."
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr ""
+msgstr "Recupera un singolo `{obj_type}` indica l'oggetto tramite il suo id."
 
 msgid "Expand nested sets according to depth."
 msgstr ""
@@ -1009,10 +1009,10 @@ msgid "Find the network that contains this netixlan (netixlan id)"
 msgstr "Trova la rete che contiene questo netixlan (netixlan id)"
 
 msgid "Find the network that this netfac belongs to (netfac id)"
-msgstr ""
+msgstr "Trova la rete a cui appartiene questo netfac (netfac id)"
 
 msgid "Find exchanges present at a facility (facility id)"
-msgstr ""
+msgstr "Trova gli exchanges presenti in una struttura (facility id)"
 
 msgid "Find the exchange that contains this ixlan (ixlan id)"
 msgstr ""
