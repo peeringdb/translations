@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-05-18 17:58+0000\n"
+"PO-Revision-Date: 2023-12-17 14:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -228,16 +228,16 @@ msgid "An E.164-formatted phone number starts with a +, followed by the country 
 msgstr ""
 
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
-msgstr ""
+msgstr "이 필드가 설정되어 있으면 여기에 저장됩니다. 설정되어 있지 않으면 연결된 조직 기록에서 웹 사이트 주소를 가져옵니다"
 
 msgid "Provider of L1 or L2 connectivity into a facility"
-msgstr ""
+msgstr "시설에 대한 L1 또는 L2 연결 제공자"
 
 msgid "A set of facilities under one management, with inter-building cross-connects"
-msgstr ""
+msgstr "하나의 관리 하에 있는 건물간 교차 연결이 있는 일련의 시설"
 
 msgid "Peering with the routeserver is shown with an icon"
-msgstr ""
+msgstr "경로 서버와의 피어링이 아이콘으로 표시됩니다"
 
 msgid "Best Effort (no SLA)"
 msgstr "이게 최선임(SLA 없음)"
@@ -285,27 +285,25 @@ msgid "Website"
 msgstr "웹사이트"
 
 msgid "Facebook"
-msgstr ""
+msgstr "페이스북"
 
 msgid "Twitter"
-msgstr ""
+msgstr "트위터"
 
 msgid "Instagram"
-msgstr ""
+msgstr "인스타그램"
 
 msgid "LinkedIn"
-msgstr ""
+msgstr "링크드인"
 
 msgid "TikTok"
-msgstr ""
+msgstr "틱톡"
 
 msgid "Kosovo"
 msgstr "코소보"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid value: {}"
-msgstr "잘못된 태그"
+msgstr "유효하지 않은 값: {}"
 
 msgid "Address 1"
 msgstr "주소 1"
@@ -347,7 +345,7 @@ msgid "Long Name"
 msgstr "이름"
 
 msgid "Social Media"
-msgstr ""
+msgstr "소셜 미디어"
 
 msgid "Notes"
 msgstr "기타"
@@ -499,15 +497,11 @@ msgstr "비율 요구 사항"
 msgid "Contract Requirement"
 msgstr "계약 요구 사항"
 
-#, fuzzy
-#| msgid "status"
 msgid "RIR status"
-msgstr "상태"
+msgstr "RIR 상태"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "RIR status updated"
-msgstr "최신 업데이트"
+msgstr "RIR 상태 업데이트 날짜"
 
 msgid "Network"
 msgstr "네트워크"
@@ -536,10 +530,8 @@ msgstr "IX-F 네트워크 수"
 msgid "IX-F Last Import"
 msgstr "IX-F 마지막 가져오기"
 
-#, fuzzy
-#| msgid "Traffic Levels"
 msgid "Service Level"
-msgstr "트래픽 레벨"
+msgstr "서비스 레벨"
 
 msgid "Terms"
 msgstr "용어"
@@ -619,15 +611,11 @@ msgstr "통신사"
 msgid "Carriers"
 msgstr "통신사"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "Carrier presence at facility"
-msgstr "이 시설에 존재하는 네트워크 수"
+msgstr "이 시설에 존재하는 전달자 수"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "Carrier presences at facility"
-msgstr "이 시설에 존재하는 네트워크 수"
+msgstr "이 시설에 존재하는 전달자"
 
 msgid "Campus Name"
 msgstr "캠퍼스 이름"
@@ -698,10 +686,8 @@ msgstr "Ixlans는 이제 상위 익스체인지에 동기화되므로 더 이상
 msgid "Protected object '{}': {}"
 msgstr "보호된 개체 '{}: {}"
 
-#, fuzzy
-#| msgid "DENY and delete selected items"
 msgid "Delete selected objects"
-msgstr "선택한 항목 거부 및 삭제"
+msgstr "선택한 항목 삭제"
 
 msgid "Please confirm deletion of selected objects."
 msgstr "선택한 개체의 삭제를 확인하십시오."
@@ -709,34 +695,26 @@ msgstr "선택한 개체의 삭제를 확인하십시오."
 msgid "SOFT DELETE"
 msgstr "삭제 보류 표시"
 
-#, fuzzy
-#| msgid "Result"
 msgid "Result length"
-msgstr "결과"
+msgstr "결과 기간"
 
 msgid "Show {} rows"
 msgstr "{} 행 표시"
 
-#, fuzzy
-#| msgid "Create"
 msgid "Created"
-msgstr "생성"
+msgstr "생성됨"
 
 msgid "Updated"
 msgstr "업데이트됨"
 
 msgid "Sent"
-msgstr ""
+msgstr "전송 완료"
 
-#, fuzzy
-#| msgid "Login"
 msgid "Last login"
-msgstr "로그인"
+msgstr "마지막 로그인"
 
-#, fuzzy
-#| msgid "Last Fetched"
 msgid "Last notified"
-msgstr "최신 가져오기"
+msgstr "최종 통보"
 
 msgid "Verification Queue is currently disabled"
 msgstr "검증 대기열이 현재 비활성화되어있습니다"
@@ -757,15 +735,13 @@ msgid "User is looking to be affiliated to these Organizations"
 msgstr "사용자가 이 조직에 소속되기 위해 대기 중"
 
 msgid "User has these TOTP devices"
-msgstr ""
+msgstr "사용자에게 이러한 TOTP 장치가 있습니다"
 
 msgid "User has these Webauthn Security Keys"
-msgstr ""
+msgstr "사용자에게 다음과 같은 웹 인증 보안 키가 있습니다"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import History"
-msgstr "IXF 수입 히스토리"
+msgstr "IX-F 수입 히스토리"
 
 msgid "Initial creation of netixlan"
 msgstr "Netixlan의 초기 생성"
@@ -815,10 +791,8 @@ msgstr "조직 병합 도구"
 msgid "Undo merge"
 msgstr "병합 취소"
 
-#, fuzzy
-#| msgid "Suggest another network"
 msgid "ASN is already in use by another network"
-msgstr "다른 네트워크 제안"
+msgstr "ASN이 다른 네트워크에서 이미 사용 중입니다"
 
 msgid "Name is already in use by another network"
 msgstr "이름이 이미 다른 네트워크에서 사용되고 있습니다"
@@ -2566,10 +2540,9 @@ msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성�
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- 모든 데이터는 %(dt)sZ에서 생산으로부터 새로 고쳐질 것입니다"
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with"
+#, python-format
 msgid "Delete your affiliation to %(org)s"
-msgstr "와의 가입이"
+msgstr "%(org)s(으)로부터 승인 권한 삭제하기"
 
 msgid "Cancel"
 msgstr "취소"
@@ -3861,20 +3834,15 @@ msgstr ""
 msgid "Invalid {service} URL!"
 msgstr ""
 
-#, fuzzy, python-brace-format
-#| msgid "Invalid username/password."
+#, python-brace-format
 msgid "Invalid {service} username!"
-msgstr "유효하지 않은 아이디/비밀번호."
+msgstr "유효하지 않은 {service} 아이디!"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid service!"
-msgstr "잘못된 태그"
+msgstr "유효하지 않은 서비스!"
 
-#, fuzzy
-#| msgid "Invalid export format"
 msgid "Invalid identifier!"
-msgstr "잘못된 내보내기 포맷"
+msgstr "유효하지 않은 식별 기능!"
 
 msgid "Data is empty"
 msgstr ""
