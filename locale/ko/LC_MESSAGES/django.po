@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-17 14:58+0000\n"
+"PO-Revision-Date: 2023-12-17 15:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -809,10 +809,8 @@ msgstr "보기"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "취소된 소속 요청을 승인할 수 없음"
 
-#, fuzzy
-#| msgid "Cannot approve a canceled affiliation request"
 msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr "취소된 소속 요청을 승인할 수 없음"
+msgstr "사용자가 2단계 인증을 사용하지 않도록 설정한 상태에서는 승인할 수 없음 - 조직에 2단계 인증이 필요함"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "가입 요청이 승인되어 사용자에게 공지함."
@@ -919,10 +917,8 @@ msgstr "티켓 재설정"
 msgid "Select a handleref tag to validate"
 msgstr "유효성을 검사할 handleref 태그 선택"
 
-#, fuzzy
-#| msgid "Client type"
 msgid "Object type"
-msgstr "클라이언트 유형"
+msgstr "항목 유형"
 
 msgid "Enter a field name to validate"
 msgstr "유효성을 검사할 필드 이름 입력"
@@ -930,10 +926,8 @@ msgstr "유효성을 검사할 필드 이름 입력"
 msgid "Valid"
 msgstr "유효함"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid"
-msgstr "잘못된 태그"
+msgstr "유효하지 않음"
 
 msgid "Exclude data based on validation result"
 msgstr "유효성 검사 결과를 기준으로 제외한 데이터"
@@ -941,10 +935,8 @@ msgstr "유효성 검사 결과를 기준으로 제외한 데이터"
 msgid "Verbose output"
 msgstr "상세 출력"
 
-#, fuzzy
-#| msgid "Network not found"
 msgid "Key not found"
-msgstr "네트워크를 찾을 수 없음"
+msgstr "키를 찾을 수 없음"
 
 msgid "This field is required."
 msgstr "필수 입력."
@@ -1071,10 +1063,8 @@ msgstr "최소 10자 이상"
 msgid "Passwords need to match"
 msgstr "비밀번호가 일치해야 함"
 
-#, fuzzy
-#| msgid "This email address has already been used"
 msgid "This username is already taken"
-msgstr "이 이메일 주소는 이미 사용되었습니다"
+msgstr "이 아이디는 이미 사용중입니다"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "안티스팸 챌린지(캡차) 필드를 입력하십시오"
@@ -1117,14 +1107,12 @@ msgstr "사후 길이는 {}개 항목을 초과할 수 없음"
 msgid "This ASN is not assigned by any RIR"
 msgstr "이 ASN은 RIR에 의해 할당되지 않았습니다"
 
-#, fuzzy
-#| msgid "ASNs in this range are not allowed in this environment"
 msgid "ASNs in this range are private or reserved"
-msgstr "이 환경에서는 이 범위의 ASN이 허용되지 않음"
+msgstr "이 범위의 ASN은 개인용이거나 예약되어 있습니다"
 
 #, python-brace-format
 msgid "Unable to retrieve RDAP data. If the issue persists, please contact {support_email}."
-msgstr ""
+msgstr "RDAP 데이터를 찾을 수 없습니다. 문제가 지속되면 {support_email}에 문의하십시오."
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "(asn, IPv4 및 IPv6)에 대한 항목이 단일 멤버 연결로 익스체인지의 IX-F 데이터에 존재하지 않음"
@@ -1138,10 +1126,8 @@ msgstr "PeeringDB와 익스체인지의 IX-F 데이터 간의 데이터 차이"
 msgid "We found that your IX-F output "
 msgstr "당신의 IX-F 출력을 발견했습니다 "
 
-#, fuzzy
-#| msgid "IXF import url not specified"
 msgid "IX-F import url not specified"
-msgstr "IXF 가져오기 URL이 지정되지 않음"
+msgstr "IX-F 가져오기 URL이 지정되지 않음"
 
 msgid "No JSON could be parsed"
 msgstr "분석할 수 있는 JSON 없음"
@@ -1194,10 +1180,8 @@ msgstr "PeeringDB: 조치가 필요할 수 있음: IX-F 임포터 데이터가 {
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 병합 공지: {} -> {}"
 
-#, fuzzy
-#| msgid "active"
 msgid "Inactive"
-msgstr "활성화"
+msgstr "비활성화"
 
 msgid "Silver"
 msgstr "실버"
@@ -1241,10 +1225,8 @@ msgstr "2주"
 msgid "1 Month"
 msgstr "1개월"
 
-#, fuzzy
-#| msgid "1 Month"
 msgid "3 Month"
-msgstr "1개월"
+msgstr "3개월"
 
 msgid "6 Months"
 msgstr "6개월"
@@ -1258,15 +1240,13 @@ msgstr "환경 재설정"
 msgid "IX-F Import"
 msgstr "IX-F 가져오기"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 않았으므로 '%(type)s' 유형의 개체를 만들 수 없음"
+msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s' 가 아직 승인되지 않았으므로 '%(type)s' 유형의 개체를 저장할 수 없음"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 만들 수 없음"
+msgstr "상위 엔티티 '%(parent_tag)s/%(parent_id)s'가 삭제된 것으로 표시되었기 때문에 '%(type)s' 유형의 개체를 저장할 수 없음"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "Google 지도 API 호출을 통해 이 개체의 주소가 정규화되었습니까"
@@ -1274,25 +1254,17 @@ msgstr "Google 지도 API 호출을 통해 이 개체의 주소가 정규화되�
 msgid "Last time of attempted geocode"
 msgstr "최근 지오코드를 시도한 시간"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding timed out"
-msgstr "지오코딩 오류"
+msgstr "지오코딩 시간 초과"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding failed: {}"
-msgstr "지오코딩 오류"
+msgstr "지오코딩 실패: {}"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup timed out"
-msgstr "지오코딩 오류"
+msgstr "지리적 위치 조회 시간 초과"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
-msgstr "지오코딩 오류"
+msgstr "지리적 위치 조회 실패: {}"
 
 msgid "Geocoordinate Cache"
 msgstr "지리적 좌표 캐시"
@@ -1339,10 +1311,8 @@ msgstr "조직 \"{}\"에 대한 가입이 승인됨"
 msgid "The item that this queue is attached to was created by this user"
 msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
 
-#, fuzzy
-#| msgid "The item that this queue is attached to was created by this user"
 msgid "The item that this queue is attached to was created by this organization api key"
-msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
+msgstr "이 큐가 연결된 항목이 이 조직 API 키에 의해 생성되었습니다"
 
 msgid "email address"
 msgstr "이메일 주소"
@@ -1359,15 +1329,11 @@ msgstr "데스크프로 티켓"
 msgid "DeskPRO Tickets"
 msgstr "데스크프로 티켓"
 
-#, fuzzy
-#| msgid "DeskPRO Ticket"
 msgid "DeskPRO Ticket CC Contact"
-msgstr "데스크프로 티켓"
+msgstr "데스크프로 티켓 참조 연락처"
 
-#, fuzzy
-#| msgid "DeskPRO Ticket"
 msgid "Deskpro Ticket CC Contacts"
-msgstr "데스크프로 티켓"
+msgstr "데스크프로 티켓 참조 연락처"
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "이 조직의 로고 이미지 파일을 업로드하고 설정할 수 있음"
@@ -1376,21 +1342,22 @@ msgid "Require users in your organization to have email addresses within your sp
 msgstr "당신의 조직의 사용자가 지정된 도메인 내에 이메일 주소를 가지고 있어야 합니다."
 
 msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
-msgstr ""
+msgstr "사용자 이메일 제한이 가능한 경우: 해당 도메인에 이메일이 있는 사용자만 허용합니다. 한 줄에 하나의 도메인을 '@xyz.com' 형식으로 지정합니다"
 
 msgid "Require users in this organization to periodically re-authenticate"
-msgstr ""
+msgstr "이 조직의 사용자에게 주기적으로 재인증을 요청합니다"
 
 msgid ""
 "Range of options is available:\n"
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
 msgstr ""
+"가능한 옵션 범위:\n"
+"1주, 2주, 1개월,\n"
+"3개월, 6개월, 1년"
 
-#, fuzzy
-#| msgid "Require users in your organization to have email addresses within your specified domains."
 msgid "Require users in your organization to activate 2FA."
-msgstr "당신의 조직의 사용자가 지정된 도메인 내에 이메일 주소를 가지고 있어야 합니다."
+msgstr "조직 내 사용자에게 2단계 인증을 활성화하도록 요청하기."
 
 msgid "Organization has active objects under it."
 msgstr "조직 아래에 활성 객체가 있습니다."
@@ -1398,10 +1365,8 @@ msgstr "조직 아래에 활성 객체가 있습니다."
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "조직은 현재 적극적인 후원자입니다. 이 조직을 쉽게 제거할 수 있도록 PeeringDB 지원팀에 문의하십시오."
 
-#, fuzzy
-#| msgid "Organization Merges"
 msgid "Organization API key Permission"
-msgstr "조직 병합"
+msgstr "조직 API 키 권한"
 
 msgid "Sponsorship starts on"
 msgstr "스폰서쉽 시작 날짜"
@@ -1454,15 +1419,11 @@ msgstr "조직 병합: 독립체"
 msgid "Organization Merge: Entities"
 msgstr "조직 병합: 독립체"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of exchanges at this facility"
-msgstr "이 시설에 존재하는 네트워크 수"
+msgstr "이 시설의 교환 수"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of networks at this facility"
-msgstr "이 시설에 존재하는 네트워크 수"
+msgstr "이 시설의 네트워크 수"
 
 msgid "Need to specify at least two asns"
 msgstr "최소 두 개 이상의 ASN를 지정해야 함"
@@ -1476,32 +1437,26 @@ msgstr "시설에 활성 익스체인지 존재: {}..."
 msgid "Facility has active network presence(s): {} ..."
 msgstr "설비에 활성 네트워크 존재: {}..."
 
-#, fuzzy
-#| msgid "Enable IX-F Import"
 msgid "Manual IX-F import request"
-msgstr "IX-F 가져오기 사용"
+msgstr "수동 IX-F 가져오기 요청"
 
 msgid "Date of most recent manual import request"
-msgstr ""
+msgstr "가장 최근에 수동으로 가져오기 요청한 날짜"
 
-#, fuzzy
-#| msgid "Enable IX-F Import"
 msgid "Manual IX-F import status"
-msgstr "IX-F 가져오기 사용"
+msgstr "수동 IX-F 가져오기 상태"
 
 msgid "The current status of the manual ix-f import request"
-msgstr ""
+msgstr "수동 ix-f 가져오기 요청의 현재 상태"
 
 msgid "Queued"
-msgstr ""
+msgstr "대기중"
 
-#, fuzzy
-#| msgid "IX-F Import"
 msgid "Importing"
-msgstr "IX-F 가져오기"
+msgstr "가져오기"
 
 msgid "Finished"
-msgstr ""
+msgstr "완료"
 
 #, fuzzy
 #| msgid "IXF Import Email"
