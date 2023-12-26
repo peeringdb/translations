@@ -47,7 +47,7 @@ fi
 
 # Determine peeringdb.git version currently deployed:
 PDB_DJANGO_ADMIN="/home/pdb/bin/pdb-container"
-PDB_TAG=`docker image inspect pdb:server-latest | grep peeringdb:server | tr -d '\"' | cut -f 2 -d '-'`
+PDB_TAG=`docker image inspect peeringdb_server:latest | grep -o "peeringdb_server:[0-9][^,]*" | cut -d ':' -f2 | sed 's/["|,]//g'`
 
 # 20190602: Caputo hasn't figured out how to determine version of
 # django-peeringdb.git installed, so using latest.  Is this determinable?
