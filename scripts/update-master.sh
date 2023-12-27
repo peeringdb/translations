@@ -65,33 +65,32 @@ PDB_TAG=$(docker image inspect peeringdb_server:latest | grep -o "peeringdb_serv
 # django-peeringdb.git installed, so using latest.  Is this determinable?
 # If yes, then duplicate section above for a django_tag and apply below.
 
-(
-    # if dir does not exist, clone it
-    if [ ! -d "peeringdb" ]; then
-        git clone https://github.com/peeringdb/peeringdb.git
-    else
-        reset_repository "peeringdb"
-    fi
-    git -C peeringdb checkout $PDB_TAG
+# if dir does not exist, clone it
+if [ ! -d "peeringdb" ]; then
+    git clone https://github.com/peeringdb/peeringdb.git
+else
+    reset_repository "peeringdb"
+fi
+git -C peeringdb checkout $PDB_TAG
 
-    if [ ! -d "django-peeringdb" ]; then
-        git clone https://github.com/peeringdb/django-peeringdb.git
-    else
-        reset_repository "django-peeringdb"
-    fi
+if [ ! -d "django-peeringdb" ]; then
+    git clone https://github.com/peeringdb/django-peeringdb.git
+else
+    reset_repository "django-peeringdb"
+fi
 
-    if [ ! -d "django-oauth-toolkit" ]; then
-        git clone https://github.com/jazzband/django-oauth-toolkit.git
-    else
-        reset_repository "django-oauth-toolkit"
-    fi
+if [ ! -d "django-oauth-toolkit" ]; then
+    git clone https://github.com/jazzband/django-oauth-toolkit.git
+else
+    reset_repository "django-oauth-toolkit"
+fi
 
 echo
 echo If \"duplicate message definition\" errors in the below, edit indicated file by removing duplicate that _does_not_ already have a translation, even if commented out. Then re-run $0 manually.
 echo
 
 set -x
-$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS || exit 1
-$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
-$PDB_DJANGO_ADMIN compilemessages || exit 1
+$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS
+$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS --domain djangojs
+$PDB_DJANGO_ADMIN compilemessages
 set +x
