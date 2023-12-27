@@ -30,6 +30,7 @@ MAKEMSG_OPTIONS="--all --symlinks --no-wrap --no-location --keep-pot"
 function reset_repository() {
     dir="$1"
     branch=$(git -C "$dir" remote show origin | sed -n '/HEAD branch/s/.*: //p')
+    git -C "$dir" checkout "$branch"
     git -C "$dir" fetch origin --prune
     git -C "$dir" reset --hard origin/"$branch"
     git -C "$dir" clean -fdx
@@ -37,10 +38,8 @@ function reset_repository() {
 
 function clean_up() {
     error_code=$? # this needs to be here to catch the intended exit code
+    set +e
     set +x
-    rm -r -f peeringdb
-    rm -r -f django-peeringdb
-    rm -r -f django-oauth-toolkit
     echo
     echo exiting with $error_code
     exit $error_code
