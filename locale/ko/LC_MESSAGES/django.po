@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-30 15:16+0000\n"
+"PO-Revision-Date: 2023-12-30 15:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -324,7 +324,7 @@ msgid "Country"
 msgstr "국가"
 
 msgid "Suite"
-msgstr ""
+msgstr "호수"
 
 msgid "Floor"
 msgstr "층"
@@ -1458,25 +1458,17 @@ msgstr "가져오기"
 msgid "Finished"
 msgstr "완료"
 
-#, fuzzy
-#| msgid "IXF Import Email"
 msgid "Import failed"
-msgstr "IX-F 임포트 이메일"
+msgstr "가져오기 실패"
 
-#, fuzzy
-#| msgid "The user that made the request"
 msgid "The user that triggered the manual ix-f import request"
-msgstr "요청한 사용자"
+msgstr "수동 ix-f 가져오기 요청을 유발한 유저"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this exchange"
-msgstr "이 익스체인지에 존재하는 네트워크 수"
+msgstr "이 IX에 존재하는 설비 수"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of networks at this exchange"
-msgstr "이 익스체인지에 존재하는 네트워크 수"
+msgstr "이 IX에 존재하는 네트워크 수"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr "익스체인지에 활성 시설 연결이 있음: {}..."
@@ -1509,27 +1501,19 @@ msgid "Ixlan for exchange already exists"
 msgstr "익스체인지에 대한 Ixlan이 이미 있음"
 
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
+msgstr "IX-F 멤버 목록 URL을 지정하지 않으면 IX-F 가져오기를 사용하도록 설정할 수 없습니다"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import Log"
-msgstr "IXF 가져오기 로그"
+msgstr "IX-F 가져오기 로그"
 
-#, fuzzy
-#| msgid "IXF Import Logs"
 msgid "IX-F Import Logs"
-msgstr "IXF 가져오기 로그"
+msgstr "IX-F 가져오기 로그"
 
-#, fuzzy
-#| msgid "IXF Import Log Entry"
 msgid "IX-F Import Log Entry"
-msgstr "IXF 가져오기 로그 항목"
+msgstr "IX-F 가져오기 로그 항목"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Log Entries"
-msgstr "IXF 가져오기 로그 항목"
+msgstr "IX-F 가져오기 로그 항목"
 
 msgid "JSON snapshot of the ix-f member data that created this entry"
 msgstr "이 항목을 생성한 ix-f 멤버 데이터의 JSON 스냅샷"
@@ -1550,18 +1534,16 @@ msgid "Last Fetched"
 msgstr "최신 가져오기"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr ""
+msgstr "다른 IXFM 구성원 데이터 항목의 요구사항이며, 이와 함께 적용될 것입니다"
 
 msgid "Indicates how many extra notifications were sent to the network for this proposal. Extra notifications can be sent for stale netixlan entries over time."
 msgstr ""
 
 msgid "Last time extra notifications were sent to the network for this proposal."
-msgstr ""
+msgstr "이 제안에 대해 네트워크에 추가 알림이 전송된 시간입니다."
 
-#, fuzzy
-#| msgid "IXF Member Data"
 msgid "IX-F Member Data"
-msgstr "IX-F 멤버 데이터"
+msgstr "IX-F 구성원 데이터"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr "사용 가능한 네트워크 프로토콜에 대해 유효성을 검사할 때 적합한 IP 주소가 없음"
@@ -1572,23 +1554,17 @@ msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "IXP가 해당 ixp_구성원 데이터를 통해 이 네트워크에 대해 netixlan 항목을 추가할 수 있는지 여부를 지정합니다"
 
-#, fuzzy
-#| msgid "Number of networks present at this facility"
 msgid "number of exchanges at this network"
-msgstr "이 시설에 존재하는 네트워크 수"
+msgstr "이 네트워크의 IX 수"
 
-#, fuzzy
-#| msgid "Number of networks present at this exchange"
 msgid "number of facilities at this network"
-msgstr "이 익스체인지에 존재하는 네트워크 수"
+msgstr "이 네트워크의 시설 수"
 
 msgid "Last technical contact point for network with active peers"
-msgstr ""
+msgstr "활성화된 피어가 있는 네트워크의 최근 기술 연락처"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Phone or email required"
-msgstr "계약 요구 사항"
+msgstr "전화 또는 이메일 필수"
 
 msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
@@ -1605,10 +1581,8 @@ msgstr "최대 속도: {}"
 msgid "Minimum speed: {}"
 msgstr "최소 속도: {}"
 
-#, fuzzy
-#| msgid "Ixlan for exchange already exists"
 msgid "IP already exists"
-msgstr "익스체인지에 대한 Ixlan이 이미 있음"
+msgstr "이미 존재하는 IP"
 
 msgid "username"
 msgstr "사용자이름"
@@ -1643,10 +1617,8 @@ msgstr "가입 날짜"
 msgid "status"
 msgstr "상태"
 
-#, fuzzy
-#| msgid "Users in Organization"
 msgid "The user's primary organization"
-msgstr "조직의 사용자"
+msgstr "유저의 기본 조직"
 
 msgid "language"
 msgstr "언어"
@@ -1655,7 +1627,7 @@ msgid "Account is orphaned and has been flagged for deletion at this date"
 msgstr ""
 
 msgid "User has been notified about pending account deletion at this date"
-msgstr ""
+msgstr "이 날짜에 보류 중인 계정 삭제에 대해 사용자에게 통지되었습니다"
 
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
 msgstr ""
