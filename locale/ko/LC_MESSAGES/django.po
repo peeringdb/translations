@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-30 15:58+0000\n"
+"PO-Revision-Date: 2023-12-30 16:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1644,15 +1644,11 @@ msgstr "암호 재설정 시작됨"
 msgid "Determines if API Key inherits the User Permissions or is readonly."
 msgstr ""
 
-#, fuzzy
-#| msgid "IXF Import Email"
 msgid "IX-F Import Email"
-msgstr "IX-F 임포트 이메일"
+msgstr "IX-F 가져오기 이메일"
 
-#, fuzzy
-#| msgid "IXF Import Emails"
 msgid "IX-F Import Emails"
-msgstr "IXF 임포트 이메일"
+msgstr "IX-F 가져오기 이메일"
 
 msgid "name of the tool"
 msgstr "도구 이름"
@@ -1685,7 +1681,7 @@ msgid "Environment Settings"
 msgstr "환경 설정"
 
 msgid "API: Anonymous API throttle rate"
-msgstr ""
+msgstr "API: 익명 API 조절률"
 
 msgid "API: Authenticated API throttle rate"
 msgstr ""
@@ -2724,7 +2720,7 @@ msgid "Revoke"
 msgstr ""
 
 msgid "Add Key"
-msgstr ""
+msgstr "키 입력"
 
 #, fuzzy
 #| msgid "Edit application"
