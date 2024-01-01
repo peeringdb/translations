@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-01-01 17:58+0000\n"
+"PO-Revision-Date: 2024-01-01 18:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -2442,15 +2442,11 @@ msgstr "당신이 시설을 소유하는 경우에만 사용하십시오"
 msgid "Only use this if you own the exchange"
 msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
 
-#, fuzzy
-#| msgid "Only use this if you own the exchange"
 msgid "Only use this if you own the carrier"
-msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
+msgstr "캐리어를 소유한 경우에만 사용하십시오"
 
-#, fuzzy
-#| msgid "Only use this if you own the exchange"
 msgid "Only use this if you own the campus"
-msgstr "당신이 이 익스체인지를 소유하는 경우에만 사용하십시오"
+msgstr "당신이 이 캠퍼스를 소유하는 경우에만 사용하십시오"
 
 #, python-format
 msgid "Add a new %(entity_name)s to your Organization. Note that the newly created %(entity_name)s will need to be approved by PeeringDB staff before it will appear in the search results or the API listings"
@@ -2460,10 +2456,8 @@ msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 새로 생성
 msgid "Add a new %(entity_name)s to your Organization. Note that your campus will not be visible to other users until it has at least <strong>2</strong> facilities in it."
 msgstr "조직에 새로운 %(entity_name)s를 추가하십시오. 캠퍼스에 최소한 <strong>2</strong>개의 시설이 설치될 때까지 다른 사용자는 캠퍼스를 볼 수 없습니다."
 
-#, fuzzy
-#| msgid "Add a new Network to your Organization."
 msgid "Add a new carrier to your Organization."
-msgstr "당신의 조직에 새로운 네트워크를 추가하세요."
+msgstr "당신의 조직에 새로운 캐리어를 추가하세요."
 
 msgid "To be listed as a Facility in PeeringDB we would expect that you offer colocation, data center and/or meet-me-room services to the public."
 msgstr "PeeringDB의 시설로 등록하기 위해 우리는 당신이 코로케이션, 데이터 센터 및/또는 meet-me-room 서비스를 제공할 것을 기대할 것입니다."
