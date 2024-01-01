@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-30 16:58+0000\n"
+"PO-Revision-Date: 2024-01-01 17:58+0000\n"
 "Last-Translator: Gordon Shumway <account@hofstadter.in-berlin.de>\n"
 "Language-Team: Korean <https://translate.peeringdb.com/projects/peeringdb/server/ko/>\n"
 "Language: ko\n"
@@ -1537,7 +1537,7 @@ msgid "Requirement of another IXFMemberData entry and will be applied alongside 
 msgstr "다른 IXFM 구성원 데이터 항목의 요구사항이며, 이와 함께 적용될 것입니다"
 
 msgid "Indicates how many extra notifications were sent to the network for this proposal. Extra notifications can be sent for stale netixlan entries over time."
-msgstr ""
+msgstr "이 제안에 대해 네트워크에 보낸 추가 알림 수를 나타냅니다. 오래된 netixlan 항목에 대해 시간이 지남에 따라 추가 알림을 보낼 수 있습니다."
 
 msgid "Last time extra notifications were sent to the network for this proposal."
 msgstr "이 제안에 대해 네트워크에 추가 알림이 전송된 시간입니다."
@@ -1684,28 +1684,28 @@ msgid "API: Anonymous API throttle rate"
 msgstr "API: 익명 API 조절률"
 
 msgid "API: Authenticated API throttle rate"
-msgstr ""
+msgstr "API: 인증된 API 조절 속도"
 
 msgid "API: Melissa request throttle rate for admin users"
-msgstr ""
+msgstr "API: 관리자에 대한 Melissa 요청 조절률"
 
 msgid "API: Melissa request throttle enabled for admin users"
-msgstr ""
+msgstr "API: Melissa 요청 조절이 관리자를 위해 활성화되었습니다"
 
 msgid "API: Melissa request throttle rate for users"
-msgstr ""
+msgstr "API: Melissa 요청 유저 조절률"
 
 msgid "API: Melissa request throttle enabled for users"
-msgstr ""
+msgstr "API: Melissa 요청 조절이 유저에게 활성화되었습니다"
 
 msgid "API: Melissa request throttle rate for organizations"
-msgstr ""
+msgstr "API: 조직의 Melissa 요청 조절률"
 
 msgid "API: Melissa request throttle enabled for organizations"
-msgstr ""
+msgstr "API: Melissa 요청 조절을 조직에 활성화되었습니다"
 
 msgid "API: Melissa request throttle rate for anonymous requests (ips)"
-msgstr ""
+msgstr "API: 익명 요청(ips)을 위한 Melissa 조절률"
 
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
 msgstr ""
@@ -1761,62 +1761,44 @@ msgstr "구성 날짜"
 msgid "Last updated by this user"
 msgstr "이 사용자가 마지막으로 업데이트했습니다"
 
-#, fuzzy
-#| msgid "Affiliate with organization"
 msgid "application is owned by this organization"
-msgstr "조직에 가입하기"
+msgstr "응용프로그램은 이 조직에서 소유하고 있습니다"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Application"
-msgstr "OAuth 애플리케이션 관리"
+msgstr "OAuth 응용프로그램"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Applications"
-msgstr "OAuth 애플리케이션 관리"
+msgstr "OAuth 응용프로그램"
 
 msgid "Added"
-msgstr ""
+msgstr "추가됨"
 
-#, fuzzy
-#| msgid "Delete"
 msgid "Deleted"
-msgstr "삭제"
+msgstr "삭제됨"
 
 msgid "User started watching this object at this time"
 msgstr ""
 
-#, fuzzy
-#| msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgid "Last time user was notified about changes to this object"
-msgstr "지난번 IX-F 파싱 문제에 대해 익스체인지에 공지했을 때"
+msgstr "이 개체에 대한 변경 사항에 대해 유저에게 마지막으로 통지한 시간"
 
 msgid "Data Change Watched Object"
-msgstr ""
+msgstr "데이터 변경 감시 개체"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Reason for notification"
-msgstr "병합 알림"
+msgstr "통보사유"
 
 msgid "Source of automated update"
-msgstr ""
+msgstr "자동 업데이트 소스"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Data Change Notification Queue"
-msgstr "병합 알림"
+msgstr "데이터 변경 알림 큐"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Data Change Email"
-msgstr "이메일 변경"
+msgstr "데이터 변경 이메일"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Data Change Emails"
-msgstr "이메일 변경"
+msgstr "데이터 변경 이메일"
 
 msgid "Organization and all Entities it owns"
 msgstr "조직 및 그 조직이 소유하는 모든 항목들"
@@ -1831,11 +1813,11 @@ msgid "Any Exchange"
 msgstr "모든 익스체인지"
 
 msgid "Manage peering sessions - Any Network"
-msgstr ""
+msgstr "피어링 세션 관리 - 모든 네트워크"
 
 #, python-format
 msgid "Manage peering sessions - %(net_name)s"
-msgstr ""
+msgstr "피어링 세션 관리 - %(net_name)s"
 
 #, python-format
 msgid "Network - %(net_name)s"
@@ -1856,7 +1838,7 @@ msgid "Needs to be member or admin"
 msgstr "구성원 또는 관리자 필요"
 
 msgid "Cannot manage permissions for organization admins"
-msgstr ""
+msgstr "조직 관리자에 대한 권한을 관리할 수 없음"
 
 #, python-format
 msgid "%(user_name)s's affiliation request has been approved"
@@ -1866,16 +1848,14 @@ msgstr "%(user_name)s의 가입 요청이 승인되었음"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s의 가입 요청이 거절되었음"
 
-#, fuzzy
-#| msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgid "Inactive API key - please contact PeeringDB support for assistance."
-msgstr "조직은 현재 적극적인 후원자입니다. 이 조직을 쉽게 제거할 수 있도록 PeeringDB 지원팀에 문의하십시오."
+msgstr "API 키 비활성화 - 도움이 필요하시면 PeeringDB 지원팀에 문의하십시오."
 
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "이 개체 삭제에 도움이 필요하면 {}에 문의하십시오"
 
 msgid "We could not find the address you entered. Please review your address data and contact {} for further assistance if needed."
-msgstr ""
+msgstr "입력한 주소를 찾을 수 없습니다. 주소 데이터를 검토하고 도움이 필요한 경우 {}(으)로 문의하십시오."
 
 msgid "Invalid value"
 msgstr "잘못된 값"
@@ -1891,7 +1871,7 @@ msgid "This field is only allowed for these requests: {methods}"
 msgstr "이 필드는 다음 요청에 대해서만 허용됨: {methods}"
 
 msgid "Required for distance filtering"
-msgstr ""
+msgstr "거리 필터링에 필요합니다"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "익스체인지 포인트를 추가하기 전에 네트워크에 기술, NOC 또는 정책 부문에 유효한 이메일을 포함한 연락처가 있어야 합니다."
@@ -1900,26 +1880,26 @@ msgid "Network has been deleted. Please contact {}"
 msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
 
 msgid "This field may not be blank."
-msgstr ""
+msgstr "필수 입력 창."
 
 msgid "ASN cannot be changed."
 msgstr "ASN은 변경될 수 없습니다."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
-msgstr ""
+msgstr "'in_dfz' 속성이 사용되지 않았으므로 'False'로 설정하는 것은 더 이상 지원되지 않습니다"
 
 msgid "Specify at least one email address"
 msgstr "하나 이상의 이메일 주소를 지정하시오"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
-msgstr ""
+msgstr "사용자가 해당 기관이 SUGENT_ENTITY 조직으로 설정된 IX을 만들 수 없습니다"
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
-msgstr ""
+msgstr "지리적 위치 좌표가 없기 때문에 시설을 캠퍼스의 일부로 만들 수 없습니다"
 
 #, python-brace-format
 msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
-msgstr ""
+msgstr "시설이 캠퍼스 경계를 벗어남(최대 {settings.CAMPUS_MAX_DISTANCE}km)"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -1954,10 +1934,10 @@ msgstr "대신"
 
 #, python-format
 msgid "Show %(num)s rows"
-msgstr ""
+msgstr "%(num)s행 보여주기"
 
 msgid "(Warning: potentially long load)"
-msgstr ""
+msgstr "(경고: 로딩이 오래 걸릴 수 있습니다)"
 
 #, python-format
 msgid ""
@@ -1968,10 +1948,10 @@ msgstr ""
 "<a href=\"%(doc_url)s\" target=\"_blank\">regex search</a> 를 사용하려면 검색어를 ^ 로 시작하고 $. <!-- lgtm[js/unsafe-external-link] -->로 끝냅니다.\n"
 
 msgid "WARNING! This object currently has DoTF protection:"
-msgstr ""
+msgstr "경고! 이 개체에는 현재 DoTF 보호가 설정되어 있습니다:"
 
 msgid "As a superuser you may still proceed with the deletion."
-msgstr ""
+msgstr "슈퍼유저로서도 삭제를 계속 진행할 수 있습니다."
 
 msgid "Save and Apply"
 msgstr "저장 후 적용"
@@ -2022,18 +2002,16 @@ msgid "Result"
 msgstr "결과"
 
 msgid "You can monitor progress and review the results here"
-msgstr ""
+msgstr "진행 상황을 모니터링하고 여기서 결과를 검토할 수 있습니다"
 
-#, fuzzy
-#| msgid "staff status"
 msgid "Command status"
-msgstr "직위"
+msgstr "명령 상태"
 
 msgid "The following objects will be deleted:"
-msgstr ""
+msgstr "다음 개체가 삭제됩니다:"
 
 msgid "This object currently has DoTF protection:"
-msgstr ""
+msgstr "이 개체는 현재 DoTF 보호가 설정되어 있습니다:"
 
 msgid "PeeringDB API Documentation"
 msgstr "PeeringDB API 문서"
@@ -2049,6 +2027,14 @@ msgid ""
 "\n"
 "You can add objects to your organization here: %(org_url)s\n"
 msgstr ""
+"\n"
+"%(org_name)s에 대한 관리자이기 때문에 이 메시지를 보냈습니다.\n"
+"\n"
+"%(org_name)s에는 현재 활성화된 시설, 익스체인지 또는 네트워크가 없습니다.\n"
+"\n"
+"%(duration)s일 동안 비어 있으면 삭제됩니다.\n"
+"\n"
+"여기서 조직에 개체를 추가할 수 있습니다.%(org_url)s\n"
 
 msgid "Merge Notification"
 msgstr "병합 알림"
@@ -2087,32 +2073,28 @@ msgid ""
 "\n"
 "Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
 msgstr ""
+"\n"
+"제휴를 해지하시겠습니까, 아니면 그대로 두시겠습니까? 제휴를 해지하면 2FA가 켜질 때까지 재가입이 불가능합니다.\n"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Drop Affiliations"
-msgstr "기존 소속"
+msgstr "제휴 해지"
 
-#, fuzzy
-#| msgid "Affiliate"
 msgid "Leave them Affiliated"
-msgstr "가입하기"
+msgstr "소속된 상태로 두기"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Cancel 2FA Requirement"
-msgstr "계약 요구 사항"
+msgstr "2FA 요청 취소"
 
 #, python-format
 msgid ""
 "\n"
 "The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
 msgstr ""
+"\n"
+"%(org_name)s조직에 소속된 다음 사용자에게 2FA가 설정되어 있지 않습니다:\n"
 
-#, fuzzy
-#| msgid "You may view and edit your organization at"
 msgid "You may view and edit your organization users at"
-msgstr "다음 위치에서 당신의 조직을 보고 편집할 수 있습니다"
+msgstr "다음 위치에서 조직 사용자를 보고 편집할 수 있습니다"
 
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgstr "질문이 있으면 주저하지 말고 다음 사이트에서 peeringdb 지원팀에 문의하십시오"
@@ -2138,10 +2120,8 @@ msgstr "네트워크 %(n_name)s (<a href=\"%(n_url)s\">%(n_id)s</a>) 가 AS%(asn
 msgid "Organization API Key (prefix:%(prefix)s) with email '%(email)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
 msgstr "이메일'%(email)s' 이(가) 포함된 조직 API 키 (prefix:%(prefix)s가 네트워크 %(n_name)s 의 AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a> 아래에 생성되었습니다."
 
-#, fuzzy
-#| msgid "As the user's email address was successfully matched against RiR entry data this network has skipped the verification queue."
 msgid "As the key's email address was successfully matched against RiR entry data this network has skipped the verification queue."
-msgstr "사용자의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었습니다."
+msgstr "키의 이메일 주소가 RiR 데이터와 성공적으로 일치함에 따라 이 네트워크는 검증 대기열을 건너뛰었습니다."
 
 #, python-format
 msgid "User '%(u_name)s' created Network %(n_name)s AS%(n_asn)s (<a href=\"%(n_url)s\">%(n_id)s</a>) under organization %(o_name)s (<a href=\"%(o_url)s\">%(o_id)s</a>)."
@@ -2208,28 +2188,21 @@ msgstr "소유권 요청 승인 및 사용자에게 통지"
 msgid "A new '%(entity_type_name)s' has been created and requires your approval."
 msgstr "새 '%(entity_type_name)s'가 생성되었으며 사용자의 승인이 필요하다."
 
-#, fuzzy, python-format
-#| msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the aproporiate organization after review"
+#, python-format
 msgid "This %(entity_type_name)s has been submitted as a suggestion and will need to be assigned the appropriate organization after review"
 msgstr "이 %(entity_type_name)s는 제안서로 제출되었으며 검토 후 적절한 조직을 할당해야 함"
 
 msgid "We retrieved the RiR entry for the specified ASN"
 msgstr "지정된 ASN에 대한 RiR 항목을 검색함"
 
-#, fuzzy
-#| msgid "but found no match with the requesting user. Here are the email addresses we gathered"
 msgid "but found no match with the requesting Organization API Key email. Here are the email addresses we gathered"
-msgstr "요청된 사용자와 일치하는 항목을 찾을 수 없습니다. 여기 이메일 주소들이 있습니다"
+msgstr "요청된 조직 API 키 이메일과 일치하는 항목을 찾을 수 없습니다. 여기 이메일 주소들이 있습니다"
 
-#, fuzzy
-#| msgid "Selected Organizations"
 msgid "Requested by Organization API Key"
-msgstr "선택된 조직"
+msgstr "조직 API 키에 의해 요청됨"
 
-#, fuzzy
-#| msgid "Prefix"
 msgid "API key prefix"
-msgstr "프리픽스"
+msgstr "API 키 프리픽스"
 
 msgid "You can go to"
 msgstr "다음으로 이동할 수 있습니다"
@@ -2281,18 +2254,16 @@ msgstr "사용자이름 검색을 요청하지 않은 경우, 이 이메일을 �
 
 #, python-format
 msgid "This application is under %(org_name)s's management. All administrators of the organization may make changes to it."
-msgstr ""
+msgstr "이 응용프로그램은 %(org_name)s의 관리 하에 있습니다. 조직의 모든 관리자는 이 응용프로그램을 변경할 수 있습니다."
 
 msgid "Your applications"
 msgstr "응용 프로그램"
 
 msgid "Details"
-msgstr ""
+msgstr "세부 사항"
 
-#, fuzzy
-#| msgid "Edit application"
 msgid "New Application"
-msgstr "응용 프로그램 편집"
+msgstr "새로운 응용 프로그램"
 
 msgid "No applications defined"
 msgstr "정의된 응용 프로그램이 없습니다"
@@ -2337,17 +2308,13 @@ msgid "click to select multiple"
 msgstr "여러 개를 선택하려면 클릭하십시오"
 
 msgid "Within Distance"
-msgstr ""
+msgstr "거리 내"
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgid "Additional filters are available to authenticated users, and you are currently not logged in."
-msgstr "이 네트워크의 일부 연락처는 인증된 사용자만 볼 수 있고 현재 로그인하지 않았기 때문에 볼 수 없습니다."
+msgstr "인증된 사용자는 추가 필터를 사용할 수 있으며 현재 로그인 상태가 아닙니다."
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
-msgstr "이 네트워크의 일부 연락처는 당신의 계정이 어떤 조직에도 소속되어 있지 않기 때문에 숨겨져 있습니다."
+msgstr "확인된 사용자는 추가 필터를 사용할 수 있으며, 현재 어떤 조직에도 가입되어 있지 않습니다."
 
 msgid "Reset"
 msgstr "재설정"
@@ -2369,23 +2336,19 @@ msgid "CLLI"
 msgstr "CLLI"
 
 msgid "Does not matter"
-msgstr ""
+msgstr "상관 없음"
 
 msgid "IP Block"
 msgstr "IP 블록"
 
 msgid "Capacity"
-msgstr ""
+msgstr "용량"
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
-msgstr "이 네트워크의 일부 연락처는 인증된 사용자만 볼 수 있고 현재 로그인하지 않았기 때문에 볼 수 없습니다."
+msgstr "인증된 사용자는 추가 필터를 사용할 수 있으며 현재 로그아웃 상태입니다."
 
-#, fuzzy
-#| msgid "Some of this network's contacts are hidden because your user account is not affiliated with any organization."
 msgid "Additional filters are available to verified users and you are currently not affiliated with any organizations."
-msgstr "이 네트워크의 일부 연락처는 당신의 계정이 어떤 조직에도 소속되어 있지 않기 때문에 숨겨져 있습니다."
+msgstr "확인된 사용자는 추가 필터를 사용할 수 있으며 현재 어떤 조직에도 소속되어 있지 않습니다."
 
 #, fuzzy
 #| msgid "Network Scope"
@@ -2393,7 +2356,7 @@ msgid "Network Presence"
 msgstr "네트워크 범위"
 
 msgid "Search networks ..."
-msgstr ""
+msgstr "네트워크 검색..."
 
 #, fuzzy
 #| msgid "Present"
