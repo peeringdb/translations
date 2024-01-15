@@ -1967,6 +1967,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "Последнее обновление"
 
@@ -2107,6 +2110,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2712,6 +2719,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, fuzzy, python-format
@@ -3407,6 +3418,9 @@ msgstr "Вы можете подать заявку на установлени�
 msgid "Manage OAuth Applications"
 msgstr "Управление OAuth-авторизацией"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3430,6 +3444,14 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Данные геокодирования для данной сущности сейчас недоступны. Обновление производится автоматически при изменении поля адреса."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Дата"
+
 msgid "Filter"
 msgstr ""
 
@@ -3438,6 +3460,28 @@ msgstr "Нет соответствий фильтру"
 
 msgid "You may filter by"
 msgstr "Фильтровать по"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Префикс"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Route Server"
+
+msgid "Exchange"
+msgstr "IXP"
 
 #, fuzzy
 #| msgid "Facility"
@@ -3450,33 +3494,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Новая Площадка"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Route Server"
-msgid "Routeservers"
-msgstr "Route Server"
-
-msgid "Exchange"
-msgstr "IXP"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "Связь IXP - Площадка"
-
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Префикс"
 
 msgid "IXLAN Prefix"
 msgstr "Префикс IXLAN"
@@ -3538,9 +3563,12 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Региональный"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange - Facility link"
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "Связь IXP - Площадка"
 
 #, fuzzy
@@ -3555,6 +3583,11 @@ msgstr "кликните, чтобы выбрать несколько"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Связь IXP - Площадка"
 
 msgid "Contact Information"
 msgstr "Контактная информация"

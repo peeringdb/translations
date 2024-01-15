@@ -1974,6 +1974,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 #, fuzzy
 #| msgid "Updated"
 msgid "Last Updated"
@@ -2128,6 +2131,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2733,6 +2740,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, fuzzy, python-format
@@ -3445,6 +3456,9 @@ msgstr ""
 msgid "Manage OAuth Applications"
 msgstr "Offentlige relationer"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3468,6 +3482,12 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr ""
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+msgid "at"
+msgstr ""
+
 msgid "Filter"
 msgstr ""
 
@@ -3476,6 +3496,28 @@ msgstr ""
 
 msgid "You may filter by"
 msgstr ""
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "IXLAN Prefix"
+msgid "Prefixes"
+msgstr "IXLAN præfiks"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Ruteningsserver"
+
+msgid "Exchange"
+msgstr "Exchange"
 
 #, fuzzy
 #| msgid "Facility"
@@ -3490,33 +3532,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Facility"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Route Server"
-msgid "Routeservers"
-msgstr "Ruteningsserver"
-
-msgid "Exchange"
-msgstr "Exchange"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "Exchange - Facility link"
-
-#, fuzzy
-#| msgid "IXLAN Prefix"
-msgid "Prefixes"
-msgstr "IXLAN præfiks"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN præfiks"
@@ -3579,9 +3602,12 @@ msgstr "IPv4"
 msgid "Not operational"
 msgstr "Regional"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange - Facility link"
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "Exchange - Facility link"
 
 #, fuzzy
@@ -3596,6 +3622,11 @@ msgstr "Status for denne forespørgsel"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Exchange - Facility link"
 
 #, fuzzy
 #| msgid "Updated"

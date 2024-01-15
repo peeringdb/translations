@@ -1746,6 +1746,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr ""
 
@@ -1868,6 +1871,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2392,6 +2399,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, python-format
@@ -2999,6 +3010,9 @@ msgstr ""
 msgid "Manage OAuth Applications"
 msgstr ""
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3020,6 +3034,12 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr ""
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+msgid "at"
+msgstr ""
+
 msgid "Filter"
 msgstr ""
 
@@ -3027,6 +3047,24 @@ msgid "No filter matches."
 msgstr ""
 
 msgid "You may filter by"
+msgstr ""
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes"
+msgstr ""
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+msgid "Routeservers"
+msgstr ""
+
+msgid "Exchange"
 msgstr ""
 
 msgid "Facility link"
@@ -3038,28 +3076,13 @@ msgstr ""
 msgid "Add Facility"
 msgstr ""
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-msgid "Routeservers"
-msgstr ""
-
-msgid "Exchange"
-msgstr ""
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
-msgstr ""
-
-msgid "Prefixes"
 msgstr ""
 
 msgid "IXLAN Prefix"
@@ -3107,7 +3130,10 @@ msgstr ""
 msgid "Not operational"
 msgstr ""
 
-msgid "This carrier wants to list its presence at this facility."
+msgid "Remove this campus from your facility."
+msgstr ""
+
+msgid "This campus wants to list its presence at this facility."
 msgstr ""
 
 msgid "Click to accept this request"
@@ -3117,6 +3143,9 @@ msgid "Click to reject this request"
 msgstr ""
 
 msgid "Reject"
+msgstr ""
+
+msgid "This carrier wants to list its presence at this facility."
 msgstr ""
 
 msgid "Contact Information"

@@ -2021,6 +2021,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "上次更新"
 
@@ -2165,6 +2168,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2766,6 +2773,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, fuzzy, python-format
@@ -3436,6 +3447,9 @@ msgstr "您可以请求关联组织或 ASN"
 msgid "Manage OAuth Applications"
 msgstr "管理 OAuth 应用"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3459,6 +3473,14 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "此时无法获得此实体的地理编码数据。这是地址字段修改后自动完成的。"
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "日期"
+
 msgid "Filter"
 msgstr ""
 
@@ -3467,6 +3489,28 @@ msgstr ""
 
 msgid "You may filter by"
 msgstr "您可以筛选"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "前缀"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "路由服务器"
+
+msgid "Exchange"
+msgstr "交换点"
 
 #, fuzzy
 #| msgid "Facility"
@@ -3479,33 +3523,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "添加设施"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "routeserver"
-msgid "Routeservers"
-msgstr "路由服务器"
-
-msgid "Exchange"
-msgstr "交换点"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "交换点 - 设施连接"
-
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "前缀"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 前缀"
@@ -3558,9 +3583,12 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "区域性"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 #, fuzzy
@@ -3575,6 +3603,11 @@ msgstr "单击以选中多个"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
 
 msgid "Contact Information"
 msgstr "联系信息"

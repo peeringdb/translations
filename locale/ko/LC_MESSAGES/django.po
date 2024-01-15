@@ -1753,6 +1753,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "최신 업데이트"
 
@@ -1876,6 +1879,10 @@ msgstr "거리 필터링에 필요합니다"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "익스체인지 포인트를 추가하기 전에 네트워크에 기술, NOC 또는 정책 부문에 유효한 이메일을 포함한 연락처가 있어야 합니다."
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "네트워크가 삭제되었습니다. {}에 문의하십시오"
@@ -2426,6 +2433,10 @@ msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성�
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- 모든 데이터는 %(dt)sZ에서 생산으로부터 새로 고쳐질 것입니다"
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
+msgstr ""
 
 #, python-format
 msgid "Delete your affiliation to %(org)s"
@@ -3076,6 +3087,9 @@ msgstr "조직 또는 ASN에 대한 가입을 요청할 수 있음"
 msgid "Manage OAuth Applications"
 msgstr "OAuth 애플리케이션 관리"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3099,6 +3113,14 @@ msgstr "수락"
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "이 항목에 대한 지오코드 데이터는 이 시점에서 얻을 수 없었습니다. 이것은 주소 필드가 변경될 때 자동으로 수행됩니다."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "날짜"
+
 msgid "Filter"
 msgstr "필터"
 
@@ -3107,6 +3129,26 @@ msgstr "일치하는 필터 없음."
 
 msgid "You may filter by"
 msgstr "다음으로 필터링할 수 있습니다"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes"
+msgstr "프리픽스"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "라우트서버"
+
+msgid "Exchange"
+msgstr "익스체인지"
 
 #, fuzzy
 #| msgid "Facility name"
@@ -3119,31 +3161,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "설비 추가"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "routeserver"
-msgid "Routeservers"
-msgstr "라우트서버"
-
-msgid "Exchange"
-msgstr "익스체인지"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "익스체인지 - 시설 링크"
-
-msgid "Prefixes"
-msgstr "프리픽스"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN 프리픽스"
@@ -3190,7 +3215,12 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "작동하지 않음"
 
-msgid "This carrier wants to list its presence at this facility."
+msgid "Remove this campus from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 #, fuzzy
@@ -3205,6 +3235,9 @@ msgstr "여러 개를 선택하려면 클릭하십시오"
 
 msgid "Reject"
 msgstr ""
+
+msgid "This carrier wants to list its presence at this facility."
+msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 msgid "Contact Information"
 msgstr "연락처 정보"

@@ -1915,6 +1915,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "Dernières mises à jour"
 
@@ -2059,6 +2062,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2665,6 +2672,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, fuzzy, python-format
@@ -3357,6 +3368,9 @@ msgstr "Vous pouvez demander votre affiliation à une organisation ou un numéro
 msgid "Manage OAuth Applications"
 msgstr "Gérer les applications OAuth"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3380,6 +3394,14 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Les données de géocodage pour cette entité n'ont pas pu être obtenues jusqu'ici. Ceci est réalisé automatiquement lors du changement du champs d'adresse."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Date"
+
 msgid "Filter"
 msgstr ""
 
@@ -3388,6 +3410,28 @@ msgstr "Aucune correspondance à vos filtres."
 
 msgid "You may filter by"
 msgstr "Vous pouvez filtrer selon"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Préfixe"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Serveur de routes"
+
+msgid "Exchange"
+msgstr "Point d'échange"
 
 #, fuzzy
 #| msgid "Facility"
@@ -3400,33 +3444,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Ajouter installation"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Route Server"
-msgid "Routeservers"
-msgstr "Serveur de routes"
-
-msgid "Exchange"
-msgstr "Point d'échange"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "Point d'échange - Lien du lieu d'installation"
-
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Préfixe"
 
 msgid "IXLAN Prefix"
 msgstr "Préfixe du réseau d'échange"
@@ -3487,9 +3512,12 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Régional"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
 #| msgid "Internet Exchange facility"
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "Point d'échange Internet - Lieu d'installation"
 
 #, fuzzy
@@ -3504,6 +3532,11 @@ msgstr "cliquez pour effectuer une sélection multiple"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Point d'échange Internet - Lieu d'installation"
 
 msgid "Contact Information"
 msgstr "Informations de contact"

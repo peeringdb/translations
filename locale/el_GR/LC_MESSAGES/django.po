@@ -2005,6 +2005,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "Τελευταία Ενημέρωση"
 
@@ -2149,6 +2152,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2755,6 +2762,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, fuzzy, python-format
@@ -3447,6 +3458,9 @@ msgstr "Μπορείτε να αιτηθείτε συσχετισμό με έν�
 msgid "Manage OAuth Applications"
 msgstr "Διαχείριση εφαρμογών OAuth"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3470,6 +3484,14 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Τα δεδομένα Geocode για αυτή την οντότητα δεν μπορούσαν να ανακτηθούν αυτή τη στιγμή. Αυτό συμβαίνι αυτόματα όταν αλλάζει το πεδίο διεύθυνσης."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Ημερομηνία"
+
 msgid "Filter"
 msgstr ""
 
@@ -3478,6 +3500,28 @@ msgstr "Δεν βρέθηκε κάτι βάσει του φίλτρου σας"
 
 msgid "You may filter by"
 msgstr "Μπορείτε να φιλτράρετε με"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Route Server"
+
+msgid "Exchange"
+msgstr "Exchange"
 
 #, fuzzy
 #| msgid "Facility"
@@ -3490,33 +3534,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Προσθήκη Εγκατάστασης"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "Route Server"
-msgid "Routeservers"
-msgstr "Route Server"
-
-msgid "Exchange"
-msgstr "Exchange"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
-
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Prefix"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -3577,9 +3602,12 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Τοπικό"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange - Facility link"
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
 #, fuzzy
@@ -3594,6 +3622,11 @@ msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
 msgid "Contact Information"
 msgstr "Πληροφορίες Επικοινωνίας"

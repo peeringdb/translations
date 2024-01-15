@@ -1758,6 +1758,9 @@ msgstr "API: mesaj anonim de rată a accelerației API"
 msgid "API: Authenticated API throttle rate message"
 msgstr "API: mesaj API autentificat privind viteza de accelerare"
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "Ultima actualizare"
 
@@ -1881,6 +1884,10 @@ msgstr "Necesar pentru filtrarea la distanță"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politici cu o adresă e-mail validă înainte de a adăuga un Internet Exchange."
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
@@ -2419,6 +2426,10 @@ msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracterist
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- toate datele vor fi reîmprospătate din mediul de producție la %(dt)sZ"
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
+msgstr ""
 
 #, python-format
 msgid "Delete your affiliation to %(org)s"
@@ -3034,6 +3045,9 @@ msgstr "Puteți solicita afilierea la o organizație sau ASN"
 msgid "Manage OAuth Applications"
 msgstr "Gestionați aplicațiile OAuth"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr "Adăugați cel puțin două facilități pentru ca campusul dvs. să fie vizibil."
 
@@ -3055,6 +3069,14 @@ msgstr "Acceptați"
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Datele de geocodare pentru această entitate nu au putut fi obținute în acest moment. Acest lucru se face automat la modificările câmpului de adresă."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Data"
+
 msgid "Filter"
 msgstr "Filtru"
 
@@ -3064,22 +3086,16 @@ msgstr "Nu se potrivește niciun filtru."
 msgid "You may filter by"
 msgstr "Puteți filtra după"
 
-msgid "Facility link"
-msgstr "legătura cu Facilitatea"
-
-msgid "Remove this carrier from your facility."
-msgstr "Scoateți acest Transportator din Facilitatea dvs."
-
-msgid "Add Facility"
-msgstr "Adăugați facilitate"
-
 msgid "ALL"
 msgstr ""
 
 msgid "ASNs"
 msgstr ""
 
-msgid "Prefixes (IPv4/IPv6)"
+msgid "Prefixes"
+msgstr "Prefixe"
+
+msgid "(IPv4/IPv6)"
 msgstr ""
 
 #, fuzzy
@@ -3090,14 +3106,23 @@ msgstr "routeserver"
 msgid "Exchange"
 msgstr "Internet Exchange"
 
+msgid "Facility link"
+msgstr "legătura cu Facilitatea"
+
+msgid "Remove this carrier from your facility."
+msgstr "Scoateți acest Transportator din Facilitatea dvs."
+
+msgid "Add Facility"
+msgstr "Adăugați facilitate"
+
 msgid "IX Connections"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
 msgid "Exchange - Facility link"
 msgstr "Legătura dintre Internet Exchange și facilitate"
-
-msgid "Prefixes"
-msgstr "Prefixe"
 
 msgid "IXLAN Prefix"
 msgstr "Prefix IXLAN"
@@ -3144,7 +3169,14 @@ msgstr "Adresă IP"
 msgid "Not operational"
 msgstr "Nu este operațional"
 
-msgid "This carrier wants to list its presence at this facility."
+#, fuzzy
+#| msgid "Remove this carrier from your facility."
+msgid "Remove this campus from your facility."
+msgstr "Scoateți acest Transportator din Facilitatea dvs."
+
+#, fuzzy
+#| msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
 msgid "Click to accept this request"
@@ -3155,6 +3187,9 @@ msgstr "Faceți clic pentru a respinge această solicitare"
 
 msgid "Reject"
 msgstr "Respinge"
+
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
 msgid "Contact Information"
 msgstr "Informații de contact"

@@ -2013,6 +2013,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "آخر تحديث"
 
@@ -2157,6 +2160,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2758,6 +2765,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, fuzzy, python-format
@@ -3433,6 +3444,9 @@ msgstr "يمكنك طلب الانتساب إلى مؤسسة / منظمة أو �
 msgid "Manage OAuth Applications"
 msgstr "إدارة تطبيقات التحقق"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3456,6 +3470,14 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "تعذر الحصول على بيانات الترميز الجغرافي لهذا الكيان في هذه المرحلة. سيتم ذلك تلقائيًا عند تغيير حقل العنوان."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "التاريخ"
+
 msgid "Filter"
 msgstr ""
 
@@ -3464,6 +3486,28 @@ msgstr "لا يوجد تطابق في خيارات البحث."
 
 msgid "You may filter by"
 msgstr "يمكنك إجراء البحث حسب"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "بادئة عنوان الانترنت"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "خادم التوجيه"
+
+msgid "Exchange"
+msgstr "تبادل"
 
 #, fuzzy
 #| msgid "Facility"
@@ -3476,33 +3520,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "إضافة خدمة تسهيلية"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "routeserver"
-msgid "Routeservers"
-msgstr "خادم التوجيه"
-
-msgid "Exchange"
-msgstr "تبادل"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "نقطة التبادل - مركز البيانات"
-
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "بادئة عنوان الانترنت"
 
 msgid "IXLAN Prefix"
 msgstr "بادئة عنوان شبكة التناظر"
@@ -3555,9 +3580,12 @@ msgstr "عنوان بروتوكول الانترنت"
 msgid "Not operational"
 msgstr "إقليمي"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 #, fuzzy
@@ -3572,6 +3600,11 @@ msgstr "انقر لتحديد عدة خيارات"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 msgid "Contact Information"
 msgstr "بيانات الاتصال"

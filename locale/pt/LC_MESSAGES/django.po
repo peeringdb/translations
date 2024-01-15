@@ -1762,6 +1762,9 @@ msgstr "API: mensagem anônima da taxa de aceleração da API"
 msgid "API: Authenticated API throttle rate message"
 msgstr "API: Taxa de supressão de mensagem para API autenticada"
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "Ultima atualização"
 
@@ -1887,6 +1890,10 @@ msgstr "Necessário para filtragem de distância"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "A rede deve ter um ponto de contato técnico, NOC ou de Política com e-mail válido antes de adicionar o exchange."
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "A rede foi excluída. Por favor entre em contato {}"
@@ -2429,6 +2436,10 @@ msgstr "Esta é uma instância beta/de teste do PeeringDB. Alguns recursos podem
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- todos os dados serão atualizados da produção em %(dt)sZ"
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
+msgstr ""
 
 #, fuzzy, python-format
 #| msgid "Your affiliation with"
@@ -3053,6 +3064,9 @@ msgstr "Você pode solicitar afiliação a uma organização ou ASN"
 msgid "Manage OAuth Applications"
 msgstr "Gerenciar Aplicações OAuth"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr "Adicione pelo menos 2 PoPs para que seu campus fique visível."
 
@@ -3076,6 +3090,14 @@ msgstr "Aceito"
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Os dados de geocódigo para esta entidade não puderam ser obtidos neste momento. Isso é feito automaticamente após alterações no campo de endereço."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Data"
+
 msgid "Filter"
 msgstr "Filtro"
 
@@ -3085,22 +3107,16 @@ msgstr "Nada correspondeu ao seu filtro."
 msgid "You may filter by"
 msgstr "Você pode filtrar por"
 
-msgid "Facility link"
-msgstr "Link do PoP"
-
-msgid "Remove this carrier from your facility."
-msgstr "Remova esta operadora de seu PoP."
-
-msgid "Add Facility"
-msgstr "Adicionar PoP"
-
 msgid "ALL"
 msgstr ""
 
 msgid "ASNs"
 msgstr ""
 
-msgid "Prefixes (IPv4/IPv6)"
+msgid "Prefixes"
+msgstr "Prefixos"
+
+msgid "(IPv4/IPv6)"
 msgstr ""
 
 #, fuzzy
@@ -3111,14 +3127,23 @@ msgstr "servidor de rotas"
 msgid "Exchange"
 msgstr "Exchange"
 
+msgid "Facility link"
+msgstr "Link do PoP"
+
+msgid "Remove this carrier from your facility."
+msgstr "Remova esta operadora de seu PoP."
+
+msgid "Add Facility"
+msgstr "Adicionar PoP"
+
 msgid "IX Connections"
+msgstr ""
+
+msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
 msgid "Exchange - Facility link"
 msgstr "Exchange - Link do PoP"
-
-msgid "Prefixes"
-msgstr "Prefixos"
 
 msgid "IXLAN Prefix"
 msgstr "Prefixo IXLAN"
@@ -3165,7 +3190,14 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Não operacional"
 
-msgid "This carrier wants to list its presence at this facility."
+#, fuzzy
+#| msgid "Remove this carrier from your facility."
+msgid "Remove this campus from your facility."
+msgstr "Remova esta operadora de seu PoP."
+
+#, fuzzy
+#| msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "Esta operadora deseja listar sua presença neste PoP."
 
 msgid "Click to accept this request"
@@ -3176,6 +3208,9 @@ msgstr "Clique para rejeitar esta solicitação"
 
 msgid "Reject"
 msgstr "Rejeitar"
+
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Esta operadora deseja listar sua presença neste PoP."
 
 msgid "Contact Information"
 msgstr "Informações de contato"

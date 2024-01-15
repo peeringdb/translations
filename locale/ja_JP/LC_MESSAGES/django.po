@@ -1792,6 +1792,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "最新のアップデート"
 
@@ -1935,6 +1938,10 @@ msgstr "Required for distance filtering"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "エクスチェンジポイントを追加するには、技術担当、NOC、ポリシー担当の有効なメールアドレスが入力されている必要があります。"
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "ネットワークが削除されました。 {} までご連絡ください"
@@ -2483,6 +2490,10 @@ msgstr "これは PeeringDB のベータ/テストインスタンスです。 �
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
 msgstr "- all data will be refreshed from production at %(dt)sZ"
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
+msgstr ""
 
 #, fuzzy, python-format
 #| msgid "Your affiliation with"
@@ -3142,6 +3153,9 @@ msgstr "組織もしくは AS 番号に対する所属リクエストをする�
 msgid "Manage OAuth Applications"
 msgstr "OAuth アプリケーションで管理する"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3165,6 +3179,14 @@ msgstr "Accept"
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "このエンティティのジオコードデータの取得に失敗しました。これはアドレスフィールドの変更時に自動的に行われます。"
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "日時"
+
 msgid "Filter"
 msgstr "フィルタ"
 
@@ -3173,6 +3195,26 @@ msgstr "フィルタに一致するものはありませんでした"
 
 msgid "You may filter by"
 msgstr "フィルタされているかもしれません"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+msgid "Prefixes"
+msgstr "プレフィクス"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "routeserver"
+msgid "Routeservers"
+msgstr "ルートサーバ"
+
+msgid "Exchange"
+msgstr "エクスチェンジ"
 
 #, fuzzy
 #| msgid "Facility name"
@@ -3185,31 +3227,14 @@ msgstr ""
 msgid "Add Facility"
 msgstr "データセンタを追加"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "routeserver"
-msgid "Routeservers"
-msgstr "ルートサーバ"
-
-msgid "Exchange"
-msgstr "エクスチェンジ"
-
-msgid "IX Connections"
-msgstr ""
-
 msgid "Exchange - Facility link"
 msgstr "エクスチェンジ - データセンタ のリンク"
-
-msgid "Prefixes"
-msgstr "プレフィクス"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -3256,9 +3281,12 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "非稼働"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
 #| msgid "Number of networks present at this facility"
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "このデータセンタに存在しているネットワークの数"
 
 #, fuzzy
@@ -3273,6 +3301,11 @@ msgstr "で複数選択可能です"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "This carrier wants to list its presence at this facility."
+msgstr "このデータセンタに存在しているネットワークの数"
 
 msgid "Contact Information"
 msgstr "連絡先情報"

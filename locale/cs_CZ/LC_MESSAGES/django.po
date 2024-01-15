@@ -1993,6 +1993,9 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "Show last database sync"
+msgstr ""
+
 msgid "Last Updated"
 msgstr "Poslední aktualizace"
 
@@ -2134,6 +2137,10 @@ msgid "Required for distance filtering"
 msgstr ""
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgstr ""
+
+#, python-format
+msgid "Invalid value for info_type: %(value)s"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2738,6 +2745,10 @@ msgstr ""
 
 #, python-format
 msgid "- all data will be refreshed from production at %(dt)sZ"
+msgstr ""
+
+#, python-format
+msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
 #, fuzzy, python-format
@@ -3433,6 +3444,9 @@ msgstr "Můžete požádat o přidružení k organizaci nebo ASN"
 msgid "Manage OAuth Applications"
 msgstr "Správa aplikací OAuth"
 
+msgid "report"
+msgstr ""
+
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3456,6 +3470,14 @@ msgstr ""
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "V tomto okamžiku nebylo možné získat geolokační data pro tuto entitu. To se provádí automaticky při změně adresy pole."
 
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Datum"
+
 msgid "Filter"
 msgstr ""
 
@@ -3464,6 +3486,28 @@ msgstr "Nic neodpovídá vašemu filtru"
 
 msgid "You may filter by"
 msgstr "Můžete filtrovat podle"
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix"
+msgid "Prefixes"
+msgstr "Prefix"
+
+msgid "(IPv4/IPv6)"
+msgstr ""
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Routeservers"
+msgstr "Route Server"
+
+msgid "Exchange"
+msgstr "Propojovací uzel"
 
 #, fuzzy
 #| msgid "Facility"
@@ -3476,34 +3520,15 @@ msgstr ""
 msgid "Add Facility"
 msgstr "Přidat zařízení"
 
-msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
+msgid "IX Connections"
 msgstr ""
 
 msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
 #, fuzzy
-#| msgid "Route Server"
-msgid "Routeservers"
-msgstr "Route Server"
-
-msgid "Exchange"
-msgstr "Propojovací uzel"
-
-msgid "IX Connections"
-msgstr ""
-
-#, fuzzy
 msgid "Exchange - Facility link"
 msgstr "Propojovací uzel - Zařízení odkaz"
-
-#, fuzzy
-#| msgid "Prefix"
-msgid "Prefixes"
-msgstr "Prefix"
 
 msgid "IXLAN Prefix"
 msgstr "IXLAN Prefix"
@@ -3565,8 +3590,11 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Regionální"
 
+msgid "Remove this campus from your facility."
+msgstr ""
+
 #, fuzzy
-msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
 msgstr "Propojovací uzel - Zařízení odkaz"
 
 #, fuzzy
@@ -3581,6 +3609,10 @@ msgstr "kliknutím vyberte více"
 
 msgid "Reject"
 msgstr ""
+
+#, fuzzy
+msgid "This carrier wants to list its presence at this facility."
+msgstr "Propojovací uzel - Zařízení odkaz"
 
 msgid "Contact Information"
 msgstr "Kontaktní informace"
