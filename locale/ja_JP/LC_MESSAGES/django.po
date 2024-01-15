@@ -269,13 +269,9 @@ msgstr "Lessee"
 msgid "48 VDC"
 msgstr "48 VDC"
 
-msgid "120 VAC"
-msgstr "120 VAC"
-
-msgid "208 VAC"
-msgstr "208 VAC"
-
-msgid "240 VAC"
+#, fuzzy
+#| msgid "240 VAC"
+msgid "400 VAC"
 msgstr "240 VAC"
 
 msgid "480 VAC"
@@ -452,7 +448,9 @@ msgstr "トラフィックの方向"
 msgid "Geographic Scope"
 msgstr "地域"
 
-msgid "Network Type"
+#, fuzzy
+#| msgid "Network Type"
+msgid "Network Types"
 msgstr "ネットワークの種類"
 
 msgid "IPv4 Prefixes"
@@ -633,6 +631,9 @@ msgstr ""
 
 msgid "Campuses"
 msgstr ""
+
+msgid "Network Type"
+msgstr "ネットワークの種類"
 
 msgid "Czech"
 msgstr "チェコ語"
@@ -4054,6 +4055,12 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#~ msgid "120 VAC"
+#~ msgstr "120 VAC"
+
+#~ msgid "208 VAC"
+#~ msgstr "208 VAC"
 
 #~ msgid "{}"
 #~ msgstr "{}"

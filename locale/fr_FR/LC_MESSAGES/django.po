@@ -271,13 +271,7 @@ msgstr ""
 msgid "48 VDC"
 msgstr ""
 
-msgid "120 VAC"
-msgstr ""
-
-msgid "208 VAC"
-msgstr ""
-
-msgid "240 VAC"
+msgid "400 VAC"
 msgstr ""
 
 msgid "480 VAC"
@@ -460,7 +454,9 @@ msgstr "Proportion de trafic"
 msgid "Geographic Scope"
 msgstr "Zone géographique"
 
-msgid "Network Type"
+#, fuzzy
+#| msgid "Network Type"
+msgid "Network Types"
 msgstr "Type de réseau"
 
 msgid "IPv4 Prefixes"
@@ -643,6 +639,9 @@ msgstr ""
 
 msgid "Campuses"
 msgstr ""
+
+msgid "Network Type"
+msgstr "Type de réseau"
 
 msgid "Czech"
 msgstr "Tchèque"

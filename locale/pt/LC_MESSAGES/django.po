@@ -269,13 +269,9 @@ msgstr "Locatário"
 msgid "48 VDC"
 msgstr "48 VDC"
 
-msgid "120 VAC"
-msgstr "Locatário"
-
-msgid "208 VAC"
-msgstr "208 VAC"
-
-msgid "240 VAC"
+#, fuzzy
+#| msgid "240 VAC"
+msgid "400 VAC"
 msgstr "240 VAC"
 
 msgid "480 VAC"
@@ -452,7 +448,9 @@ msgstr "Proporções de tráfego"
 msgid "Geographic Scope"
 msgstr "Alcance geográfico"
 
-msgid "Network Type"
+#, fuzzy
+#| msgid "Network Type"
+msgid "Network Types"
 msgstr "Tipo de rede"
 
 msgid "IPv4 Prefixes"
@@ -625,6 +623,9 @@ msgstr "Campus"
 
 msgid "Campuses"
 msgstr "Campi"
+
+msgid "Network Type"
+msgstr "Tipo de rede"
 
 msgid "Czech"
 msgstr "Tcheco"
@@ -3902,6 +3903,12 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#~ msgid "120 VAC"
+#~ msgstr "Locatário"
+
+#~ msgid "208 VAC"
+#~ msgstr "208 VAC"
 
 #~ msgid "{}"
 #~ msgstr "{}"

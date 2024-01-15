@@ -269,13 +269,9 @@ msgstr "Арендатор"
 msgid "48 VDC"
 msgstr "48В постоянного тока"
 
-msgid "120 VAC"
-msgstr "120 В переменного тока"
-
-msgid "208 VAC"
-msgstr "208 В переменного тока"
-
-msgid "240 VAC"
+#, fuzzy
+#| msgid "240 VAC"
+msgid "400 VAC"
 msgstr "240 В переменного тока"
 
 msgid "480 VAC"
@@ -464,7 +460,9 @@ msgstr "Соотношения трафика"
 msgid "Geographic Scope"
 msgstr "Географический охват"
 
-msgid "Network Type"
+#, fuzzy
+#| msgid "Network Type"
+msgid "Network Types"
 msgstr "Тип сети"
 
 msgid "IPv4 Prefixes"
@@ -681,6 +679,9 @@ msgstr "Объекты"
 
 msgid "Campuses"
 msgstr "Объекты"
+
+msgid "Network Type"
+msgstr "Тип сети"
 
 msgid "Czech"
 msgstr "Чешский"
@@ -4390,6 +4391,12 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#~ msgid "120 VAC"
+#~ msgstr "120 В переменного тока"
+
+#~ msgid "208 VAC"
+#~ msgstr "208 В переменного тока"
 
 #, fuzzy
 #~| msgid "Facilities"

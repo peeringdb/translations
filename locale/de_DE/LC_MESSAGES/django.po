@@ -270,13 +270,9 @@ msgstr "Mieter"
 msgid "48 VDC"
 msgstr "48V Gleichstrom"
 
-msgid "120 VAC"
-msgstr "120V Wechselstrom"
-
-msgid "208 VAC"
-msgstr "208V Wechselstrom"
-
-msgid "240 VAC"
+#, fuzzy
+#| msgid "240 VAC"
+msgid "400 VAC"
 msgstr "240V Wechselstrom"
 
 msgid "480 VAC"
@@ -453,7 +449,9 @@ msgstr "Trafficverhältnis"
 msgid "Geographic Scope"
 msgstr "Geografischer Geltungsbereich"
 
-msgid "Network Type"
+#, fuzzy
+#| msgid "Network Type"
+msgid "Network Types"
 msgstr "Typ des Netzwerks"
 
 msgid "IPv4 Prefixes"
@@ -626,6 +624,9 @@ msgstr "Campus"
 
 msgid "Campuses"
 msgstr "Campus"
+
+msgid "Network Type"
+msgstr "Typ des Netzwerks"
 
 msgid "Czech"
 msgstr "Tschechisch"
@@ -3901,6 +3902,12 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#~ msgid "120 VAC"
+#~ msgstr "120V Wechselstrom"
+
+#~ msgid "208 VAC"
+#~ msgstr "208V Wechselstrom"
 
 #~ msgid "{}"
 #~ msgstr "{}"

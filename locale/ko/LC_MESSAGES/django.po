@@ -269,13 +269,9 @@ msgstr "임차인"
 msgid "48 VDC"
 msgstr "48 VDC(직류 전압)"
 
-msgid "120 VAC"
-msgstr "120 VAC(교류 전압)"
-
-msgid "208 VAC"
-msgstr "208 VAC(교류 전압)"
-
-msgid "240 VAC"
+#, fuzzy
+#| msgid "240 VAC"
+msgid "400 VAC"
 msgstr "240 VAC(교류 전압)"
 
 msgid "480 VAC"
@@ -452,7 +448,9 @@ msgstr "트래픽 비율"
 msgid "Geographic Scope"
 msgstr "지리적 범위"
 
-msgid "Network Type"
+#, fuzzy
+#| msgid "Network Type"
+msgid "Network Types"
 msgstr "네트워크 유형"
 
 msgid "IPv4 Prefixes"
@@ -625,6 +623,9 @@ msgstr "캠퍼스"
 
 msgid "Campuses"
 msgstr "캠퍼스"
+
+msgid "Network Type"
+msgstr "네트워크 유형"
 
 msgid "Czech"
 msgstr "체코어"
@@ -3987,6 +3988,12 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#~ msgid "120 VAC"
+#~ msgstr "120 VAC(교류 전압)"
+
+#~ msgid "208 VAC"
+#~ msgstr "208 VAC(교류 전압)"
 
 #~ msgid "{}"
 #~ msgstr "{}"
