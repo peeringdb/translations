@@ -2949,6 +2949,11 @@ msgstr "Αναλυτική Αναζήτηση"
 msgid "v2 Search"
 msgstr "Αναζήτηση"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "Αναζητήστε εδώ για ένα δίκτυο, IXP, ή εγκατάσταση."
+
 msgid "pending"
 msgstr "εκκρεμεί"
 
@@ -3460,9 +3465,6 @@ msgstr "Μπορείτε να αιτηθείτε συσχετισμό με έν�
 msgid "Manage OAuth Applications"
 msgstr "Διαχείριση εφαρμογών OAuth"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3485,14 +3487,6 @@ msgstr ""
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Τα δεδομένα Geocode για αυτή την οντότητα δεν μπορούσαν να ανακτηθούν αυτή τη στιγμή. Αυτό συμβαίνι αυτόματα όταν αλλάζει το πεδίο διεύθυνσης."
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "Ημερομηνία"
 
 msgid "Filter"
 msgstr ""
@@ -3604,12 +3598,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Τοπικό"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
 #, fuzzy
 #| msgid "Exchange - Facility link"
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
 #, fuzzy
@@ -3624,11 +3615,6 @@ msgstr "κλικάρετε για να επιλέξετε πολλαπλά"
 
 msgid "Reject"
 msgstr ""
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "This carrier wants to list its presence at this facility."
-msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
 msgid "Contact Information"
 msgstr "Πληροφορίες Επικοινωνίας"
@@ -4467,6 +4453,16 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "Ημερομηνία"
+
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
 #, fuzzy
 #~| msgid "Facilities"

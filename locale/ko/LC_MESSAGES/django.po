@@ -2601,6 +2601,11 @@ msgstr "고급 검색"
 msgid "v2 Search"
 msgstr "검색"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "여기에서 네트워크, IX 또는 시설을 검색하십시오."
+
 msgid "pending"
 msgstr "보류"
 
@@ -3089,9 +3094,6 @@ msgstr "조직 또는 ASN에 대한 가입을 요청할 수 있음"
 msgid "Manage OAuth Applications"
 msgstr "OAuth 애플리케이션 관리"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3114,14 +3116,6 @@ msgstr "수락"
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "이 항목에 대한 지오코드 데이터는 이 시점에서 얻을 수 없었습니다. 이것은 주소 필드가 변경될 때 자동으로 수행됩니다."
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "날짜"
 
 msgid "Filter"
 msgstr "필터"
@@ -3217,12 +3211,7 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "작동하지 않음"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
-#, fuzzy
-#| msgid "This carrier wants to list its presence at this facility."
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 #, fuzzy
@@ -3237,9 +3226,6 @@ msgstr "여러 개를 선택하려면 클릭하십시오"
 
 msgid "Reject"
 msgstr ""
-
-msgid "This carrier wants to list its presence at this facility."
-msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 msgid "Contact Information"
 msgstr "연락처 정보"
@@ -4023,6 +4009,16 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "날짜"
+
+#, fuzzy
+#~| msgid "This carrier wants to list its presence at this facility."
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 #~ msgid "120 VAC"
 #~ msgstr "120 VAC(교류 전압)"

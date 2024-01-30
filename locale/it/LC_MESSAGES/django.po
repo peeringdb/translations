@@ -2807,6 +2807,11 @@ msgstr "Ricerca Avanzata"
 msgid "v2 Search"
 msgstr "Cerca"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "Cerca qui per una rete, IXP, o struttura."
+
 msgid "pending"
 msgstr "pendente"
 
@@ -3313,9 +3318,6 @@ msgstr "Puoi richiedere affiliazione a un'Organizzazione o a un ASN"
 msgid "Manage OAuth Applications"
 msgstr "Gestisci Applicazioni OAuth"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3338,14 +3340,6 @@ msgstr ""
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Non è stato possibile ottenere i dati geografici per questa entità. Questo viene fatto automaticamente al cambio del campo indirizzo."
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "Data"
 
 msgid "Filter"
 msgstr ""
@@ -3457,12 +3451,7 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Regionale"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
-#, fuzzy
-#| msgid "This carrier wants to list its presence at this facility."
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
 
 #, fuzzy
@@ -3477,9 +3466,6 @@ msgstr "clicca per selezionarne più di una"
 
 msgid "Reject"
 msgstr ""
-
-msgid "This carrier wants to list its presence at this facility."
-msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
 
 msgid "Contact Information"
 msgstr "Contatti"
@@ -4305,6 +4291,16 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "Data"
+
+#, fuzzy
+#~| msgid "This carrier wants to list its presence at this facility."
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
 
 #~ msgid "120 VAC"
 #~ msgstr "120 VCA"

@@ -2588,6 +2588,11 @@ msgstr "Căutare avansată"
 msgid "v2 Search"
 msgstr "Căutare"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
+
 msgid "pending"
 msgstr "în așteptare"
 
@@ -3047,9 +3052,6 @@ msgstr "Puteți solicita afilierea la o organizație sau ASN"
 msgid "Manage OAuth Applications"
 msgstr "Gestionați aplicațiile OAuth"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr "Adăugați cel puțin două facilități pentru ca campusul dvs. să fie vizibil."
 
@@ -3070,14 +3072,6 @@ msgstr "Acceptați"
 
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Datele de geocodare pentru această entitate nu au putut fi obținute în acest moment. Acest lucru se face automat la modificările câmpului de adresă."
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "Data"
 
 msgid "Filter"
 msgstr "Filtru"
@@ -3171,14 +3165,7 @@ msgstr "Adresă IP"
 msgid "Not operational"
 msgstr "Nu este operațional"
 
-#, fuzzy
-#| msgid "Remove this carrier from your facility."
-msgid "Remove this campus from your facility."
-msgstr "Scoateți acest Transportator din Facilitatea dvs."
-
-#, fuzzy
-#| msgid "This carrier wants to list its presence at this facility."
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
 msgid "Click to accept this request"
@@ -3189,9 +3176,6 @@ msgstr "Faceți clic pentru a respinge această solicitare"
 
 msgid "Reject"
 msgstr "Respinge"
-
-msgid "This carrier wants to list its presence at this facility."
-msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
 msgid "Contact Information"
 msgstr "Informații de contact"
@@ -3917,6 +3901,21 @@ msgstr "Numai administratorul {org} poate efectua acțiunea"
 
 msgid "Login as the organization admin to perform the action"
 msgstr "Conectați-vă ca administrator al organizației pentru a efectua acțiunea"
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "Data"
+
+#, fuzzy
+#~| msgid "Remove this carrier from your facility."
+#~ msgid "Remove this campus from your facility."
+#~ msgstr "Scoateți acest Transportator din Facilitatea dvs."
+
+#, fuzzy
+#~| msgid "This carrier wants to list its presence at this facility."
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
 #~ msgid "120 VAC"
 #~ msgstr "120 V CA"

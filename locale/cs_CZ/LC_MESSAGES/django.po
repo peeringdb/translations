@@ -2930,6 +2930,11 @@ msgstr "Rozšířené hledání"
 msgid "v2 Search"
 msgstr "Hledat"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "Vyhledat Síť, Propojovací uzel nebo Zařízení."
+
 msgid "pending"
 msgstr "nevyřízený"
 
@@ -3446,9 +3451,6 @@ msgstr "Můžete požádat o přidružení k organizaci nebo ASN"
 msgid "Manage OAuth Applications"
 msgstr "Správa aplikací OAuth"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3471,14 +3473,6 @@ msgstr ""
 #, fuzzy
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "V tomto okamžiku nebylo možné získat geolokační data pro tuto entitu. To se provádí automaticky při změně adresy pole."
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "Datum"
 
 msgid "Filter"
 msgstr ""
@@ -3592,11 +3586,8 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Regionální"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
 #, fuzzy
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "Propojovací uzel - Zařízení odkaz"
 
 #, fuzzy
@@ -3611,10 +3602,6 @@ msgstr "kliknutím vyberte více"
 
 msgid "Reject"
 msgstr ""
-
-#, fuzzy
-msgid "This carrier wants to list its presence at this facility."
-msgstr "Propojovací uzel - Zařízení odkaz"
 
 msgid "Contact Information"
 msgstr "Kontaktní informace"
@@ -4458,6 +4445,15 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "Propojovací uzel - Zařízení odkaz"
 
 #, fuzzy
 #~| msgid "Merge Facilities"

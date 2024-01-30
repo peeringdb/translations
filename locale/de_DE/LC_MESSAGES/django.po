@@ -2602,6 +2602,11 @@ msgstr "Erweiterte Suche"
 msgid "v2 Search"
 msgstr "Suche"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
+
 msgid "pending"
 msgstr "Ausstehend"
 
@@ -3065,9 +3070,6 @@ msgstr "Sie können die Zugehörigkeit zu einer Organisation oder zu einem ASN b
 msgid "Manage OAuth Applications"
 msgstr "OAuth-Anwendungen verwalten"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr "Füge mindestens 2 Gebäude hinzu damit dein Campus sichtbar wird."
 
@@ -3090,14 +3092,6 @@ msgstr "Akzeptieren"
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgerufen werden. Dies geschieht automatisch bei Änderungen im Adressfeld."
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "Datum"
 
 msgid "Filter"
 msgstr "Filter"
@@ -3191,14 +3185,7 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "Nicht in Betrieb"
 
-#, fuzzy
-#| msgid "Remove this carrier from your facility."
-msgid "Remove this campus from your facility."
-msgstr "Entferne diesen Carrier von deinem Gebäude."
-
-#, fuzzy
-#| msgid "This carrier wants to list its presence at this facility."
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "Dieser Carrier möchte seine Präsenz in dieser Liegenschafr auflisten."
 
 msgid "Click to accept this request"
@@ -3209,9 +3196,6 @@ msgstr "Klicken zum ablehnen der Anfrage"
 
 msgid "Reject"
 msgstr "Ablehnen"
-
-msgid "This carrier wants to list its presence at this facility."
-msgstr "Dieser Carrier möchte seine Präsenz in dieser Liegenschafr auflisten."
 
 msgid "Contact Information"
 msgstr "Kontaktinformationen"
@@ -3939,6 +3923,21 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~| msgid "Remove this carrier from your facility."
+#~ msgid "Remove this campus from your facility."
+#~ msgstr "Entferne diesen Carrier von deinem Gebäude."
+
+#, fuzzy
+#~| msgid "This carrier wants to list its presence at this facility."
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "Dieser Carrier möchte seine Präsenz in dieser Liegenschafr auflisten."
 
 #~ msgid "120 VAC"
 #~ msgstr "120V Wechselstrom"

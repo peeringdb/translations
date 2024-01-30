@@ -2944,6 +2944,11 @@ msgstr "البحث المتقدم"
 msgid "v2 Search"
 msgstr "ابحث"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "ابحث هنا عن شبكة اتصال أو نقطة تبادل بيانات أو مركز البيانات/تشغيل."
+
 msgid "pending"
 msgstr "قيد الإنتظار"
 
@@ -3446,9 +3451,6 @@ msgstr "يمكنك طلب الانتساب إلى مؤسسة / منظمة أو �
 msgid "Manage OAuth Applications"
 msgstr "إدارة تطبيقات التحقق"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3471,14 +3473,6 @@ msgstr ""
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "تعذر الحصول على بيانات الترميز الجغرافي لهذا الكيان في هذه المرحلة. سيتم ذلك تلقائيًا عند تغيير حقل العنوان."
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "التاريخ"
 
 msgid "Filter"
 msgstr ""
@@ -3582,12 +3576,9 @@ msgstr "عنوان بروتوكول الانترنت"
 msgid "Not operational"
 msgstr "إقليمي"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 #, fuzzy
@@ -3602,11 +3593,6 @@ msgstr "انقر لتحديد عدة خيارات"
 
 msgid "Reject"
 msgstr ""
-
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "This carrier wants to list its presence at this facility."
-msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 msgid "Contact Information"
 msgstr "بيانات الاتصال"
@@ -4427,6 +4413,16 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "التاريخ"
+
+#, fuzzy
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 #, fuzzy
 #~| msgid "Merge Facilities"

@@ -2954,6 +2954,11 @@ msgstr "高級搜索"
 msgid "v2 Search"
 msgstr "搜索"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "在此搜索網路、IX或設施。"
+
 msgid "pending"
 msgstr "等待"
 
@@ -3453,9 +3458,6 @@ msgstr "您可以請求關聯組織或 ASN"
 msgid "Manage OAuth Applications"
 msgstr "管理 OAuth 應用"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3478,14 +3480,6 @@ msgstr ""
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "此時無法獲得此實體的地理編碼資料。這是位址欄位修改後自動完成的。"
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "日期"
 
 msgid "Filter"
 msgstr ""
@@ -3597,12 +3591,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "區域性"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
 #, fuzzy
@@ -3617,11 +3608,6 @@ msgstr "按一下以選中多個"
 
 msgid "Reject"
 msgstr ""
-
-#, fuzzy
-#| msgid "Search for networks that are present at one exchange and absent at another exchange"
-msgid "This carrier wants to list its presence at this facility."
-msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
 msgid "Contact Information"
 msgstr "聯繫資訊"
@@ -4450,6 +4436,16 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "日期"
+
+#, fuzzy
+#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
 #, fuzzy
 #~| msgid "Merge Facilities"

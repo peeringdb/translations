@@ -2888,6 +2888,9 @@ msgstr ""
 msgid "v2 Search"
 msgstr ""
 
+msgid "Search here for a network, IX, or facility."
+msgstr ""
+
 msgid "pending"
 msgstr ""
 
@@ -3418,9 +3421,6 @@ msgstr ""
 msgid "Manage OAuth Applications"
 msgstr "Halkla İlişkiler"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3440,12 +3440,6 @@ msgid "Accept"
 msgstr ""
 
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
-msgstr ""
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-msgid "at"
 msgstr ""
 
 msgid "Filter"
@@ -3562,12 +3556,9 @@ msgstr "IPv4"
 msgid "Not operational"
 msgstr "Bölgesel"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
 #, fuzzy
 #| msgid "Exchange - Facility link"
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "Click to accept this request"
@@ -3578,11 +3569,6 @@ msgstr ""
 
 msgid "Reject"
 msgstr ""
-
-#, fuzzy
-#| msgid "Exchange - Facility link"
-msgid "This carrier wants to list its presence at this facility."
-msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 #, fuzzy
 #| msgid "Peering Policy Information"
@@ -4420,6 +4406,11 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Exchange - Facility link"
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 #, fuzzy
 #~| msgid "Exchange - Facility link"

@@ -2664,6 +2664,11 @@ msgstr "詳細な検索"
 msgid "v2 Search"
 msgstr "検索"
 
+#, fuzzy
+#| msgid "Search here for a network, IX, or facility."
+msgid "Search here for a network, IX, or facility."
+msgstr "ここで、ネットワーク・IX・データセンタの検索が出来ます"
+
 msgid "pending"
 msgstr "保留"
 
@@ -3155,9 +3160,6 @@ msgstr "組織もしくは AS 番号に対する所属リクエストをする�
 msgid "Manage OAuth Applications"
 msgstr "OAuth アプリケーションで管理する"
 
-msgid "report"
-msgstr ""
-
 msgid "Add at least 2 facilities for your campus to be visible."
 msgstr ""
 
@@ -3180,14 +3182,6 @@ msgstr "Accept"
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "このエンティティのジオコードデータの取得に失敗しました。これはアドレスフィールドの変更時に自動的に行われます。"
-
-msgid "I am seeing bad data with"
-msgstr ""
-
-#, fuzzy
-#| msgid "Date"
-msgid "at"
-msgstr "日時"
 
 msgid "Filter"
 msgstr "フィルタ"
@@ -3283,12 +3277,9 @@ msgstr "IP"
 msgid "Not operational"
 msgstr "非稼働"
 
-msgid "Remove this campus from your facility."
-msgstr ""
-
 #, fuzzy
 #| msgid "Number of networks present at this facility"
-msgid "This campus wants to list its presence at this facility."
+msgid "This carrier wants to list its presence at this facility."
 msgstr "このデータセンタに存在しているネットワークの数"
 
 #, fuzzy
@@ -3303,11 +3294,6 @@ msgstr "で複数選択可能です"
 
 msgid "Reject"
 msgstr ""
-
-#, fuzzy
-#| msgid "Number of networks present at this facility"
-msgid "This carrier wants to list its presence at this facility."
-msgstr "このデータセンタに存在しているネットワークの数"
 
 msgid "Contact Information"
 msgstr "連絡先情報"
@@ -4090,6 +4076,16 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "at"
+#~ msgstr "日時"
+
+#, fuzzy
+#~| msgid "Number of networks present at this facility"
+#~ msgid "This campus wants to list its presence at this facility."
+#~ msgstr "このデータセンタに存在しているネットワークの数"
 
 #~ msgid "120 VAC"
 #~ msgstr "120 VAC"
