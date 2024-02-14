@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-10-09 00:58+0000\n"
-"Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
+"PO-Revision-Date: 2024-02-15 00:54+0000\n"
+"Last-Translator: Eric Andrei Băleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 5.3.1\n"
 
 msgid "Ethernet"
 msgstr "Ethernet"
@@ -702,26 +702,20 @@ msgstr "Lungimea rezultatului"
 msgid "Show {} rows"
 msgstr "Afișați {} rânduri"
 
-#, fuzzy
-#| msgid "Create"
 msgid "Created"
-msgstr "Creați"
+msgstr "Creat"
 
 msgid "Updated"
 msgstr "Actualizat"
 
 msgid "Sent"
-msgstr ""
+msgstr "Trimis"
 
-#, fuzzy
-#| msgid "Login"
 msgid "Last login"
-msgstr "Conectare"
+msgstr "Ultima conectare"
 
-#, fuzzy
-#| msgid "Last Fetched"
 msgid "Last notified"
-msgstr "Ultima preluată"
+msgstr "Ultimul notificat"
 
 msgid "Verification Queue is currently disabled"
 msgstr "În acest moment lista de așteptare în vederea verificării este dezactivată"
@@ -1119,7 +1113,7 @@ msgstr "ASN-urile din acest interval sunt private sau rezervate"
 
 #, python-brace-format
 msgid "Unable to retrieve RDAP data. If the issue persists, please contact {support_email}."
-msgstr ""
+msgstr "Nu se pot prelua datele RDAP. Dacă problema persistă, contactați {support_email}."
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "Intrarea pentru (ASN și IPv4 și IPv6) nu există în datele IX-F ale Exchange-ului ca o conexiune singulară a membrului"
@@ -1232,10 +1226,8 @@ msgstr "două săptămâni"
 msgid "1 Month"
 msgstr "o lună"
 
-#, fuzzy
-#| msgid "1 Month"
 msgid "3 Month"
-msgstr "o lună"
+msgstr "3 luni"
 
 msgid "6 Months"
 msgstr "șase luni"
@@ -1361,6 +1353,9 @@ msgid ""
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
 msgstr ""
+"Gama de opțiuni este disponibilă:\n"
+"1 săptămână, 2 săptămâni, 1 lună,\n"
+"3 luni, 6 luni, 1 an"
 
 msgid "Require users in your organization to activate 2FA."
 msgstr "Solicitați utilizatorilor din organizația dvs. să activeze 2FA."
@@ -2547,7 +2542,7 @@ msgid "Governance"
 msgstr "Guvernare"
 
 msgid "Google Earth KMZ"
-msgstr ""
+msgstr "Google Earth KMZ"
 
 msgid "Contact Us"
 msgstr "Contactați-ne"
@@ -2578,15 +2573,11 @@ msgstr "Căutați aici pentru o rețea, un Internet Exchange sau o facilitate."
 msgid "Advanced Search"
 msgstr "Căutare avansată"
 
-#, fuzzy
-#| msgid "Advanced Search"
 msgid "Legacy Search"
-msgstr "Căutare avansată"
+msgstr "Căutare moștenită"
 
-#, fuzzy
-#| msgid "Search"
 msgid "v2 Search"
-msgstr "Căutare"
+msgstr "Căutare v2"
 
 #, fuzzy
 #| msgid "Search here for a network, IX, or facility."
@@ -3083,10 +3074,10 @@ msgid "You may filter by"
 msgstr "Puteți filtra după"
 
 msgid "ALL"
-msgstr ""
+msgstr "TOATE"
 
 msgid "ASNs"
-msgstr ""
+msgstr "ASN-uri"
 
 msgid "Prefixes"
 msgstr "Prefixe"
@@ -3094,10 +3085,8 @@ msgstr "Prefixe"
 msgid "(IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "routeserver"
 msgid "Routeservers"
-msgstr "routeserver"
+msgstr "Routeservere"
 
 msgid "Exchange"
 msgstr "Internet Exchange"
@@ -3112,10 +3101,10 @@ msgid "Add Facility"
 msgstr "Adăugați facilitate"
 
 msgid "IX Connections"
-msgstr ""
+msgstr "Conexiuni IX"
 
 msgid "Prefixes (IPv4/IPv6)"
-msgstr ""
+msgstr "Prefixe (IPv4/IPv6)"
 
 msgid "Exchange - Facility link"
 msgstr "Legătura dintre Internet Exchange și facilitate"
@@ -3675,37 +3664,31 @@ msgid "Invalid identifier!"
 msgstr "Identificator invalid!"
 
 msgid "Data is empty"
-msgstr ""
+msgstr "Datele sunt goale"
 
 #, python-brace-format
 msgid "Unknown object type: {ref_tag}"
-msgstr ""
+msgstr "Tip de obiect necunoscut: {ref_tag}"
 
 #, python-brace-format
 msgid "object {ref_tag}.{obj_id} not found"
-msgstr ""
+msgstr "obiectul {ref_tag}.{obj_id} nu a fost găsit"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting your usernames again."
 msgid "Please wait a bit before proposing verified updates again."
-msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou numele de utilizator."
+msgstr "Vă rugăm să așteptați puțin înainte de a propune din nou actualizări verificate."
 
-#, fuzzy
-#| msgid "Action not provided"
 msgid "No payload provided"
-msgstr "Acțiunea nu este furnizată"
+msgstr "Nicio sarcină utilă furnizată"
 
 msgid "Invalid JSON in payload"
-msgstr ""
+msgstr "JSON invalid în sarcina utilă"
 
 #, python-brace-format
 msgid "Proposed update contains invalid data: {data}"
-msgstr ""
+msgstr "Actualizarea propusă conține date invalide: {data}"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting affiliation again."
 msgid "Please wait a bit before requesting accept verified updates again."
-msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilierea."
+msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou acceptarea actualizărilor verificate."
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
