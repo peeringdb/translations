@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2024-02-22 16:54+0000\n"
-"Last-Translator: Livio Morina <noc@airbeam.it>\n"
+"Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1112,10 +1112,8 @@ msgstr "Accesso negato"
 msgid "Please wait a bit before requesting another IX-F import postmortem."
 msgstr "Si prega di attendere un po' prima di richiedere un'altra importazione postmortem."
 
-#, fuzzy
-#| msgid "Address not found"
 msgid "Network not found"
-msgstr "Indirizzo non trovato"
+msgstr "Rete non trovata"
 
 msgid "Postmortem length cannot exceed {} entries"
 msgstr "La lunghezza postmortem non può eccedere {} inserimenti"
@@ -1155,7 +1153,7 @@ msgid "Address {} assigned to more than one distinct connection"
 msgstr "Indirizzo {} assegnato a più di una connessione"
 
 msgid "No prefixes defined on ixlan"
-msgstr ""
+msgstr "Nessun prefisso ixlan definito"
 
 msgid "Network status is '{}'"
 msgstr "Lo stato di rete è '{}'"
@@ -1270,7 +1268,7 @@ msgid "Has this object's address been normalized with a call to the Google Maps 
 msgstr "Questo oggetto è stato normalizzato con una call alle API di Google Maps"
 
 msgid "Last time of attempted geocode"
-msgstr "Ultima volta del tentativo di geocodifica"
+msgstr "Ultimo tentativo di geocodifica"
 
 msgid "Geo coding timed out"
 msgstr "Timeout di geocodifica"
