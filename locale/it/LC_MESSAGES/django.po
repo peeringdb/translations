@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-13 00:58+0000\n"
+"PO-Revision-Date: 2024-02-22 16:54+0000\n"
 "Last-Translator: Livio Morina <noc@airbeam.it>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 5.3.1\n"
 
 msgid "Ethernet"
 msgstr "Ethernet"
@@ -24,10 +24,10 @@ msgid "ATM"
 msgstr "ATM"
 
 msgid "Multiple"
-msgstr "Molteplici"
+msgstr "Multiplo"
 
 msgid "Abuse"
-msgstr "Abusi"
+msgstr "Abuse"
 
 msgid "Maintenance"
 msgstr "Manutenzione"
@@ -87,7 +87,7 @@ msgid "IPv6"
 msgstr "IPv6"
 
 msgid "Not Disclosed"
-msgstr "Non rivelato"
+msgstr "Non Divulgato"
 
 msgid "Heavy Outbound"
 msgstr "Pesantemente in uscita"
@@ -171,19 +171,19 @@ msgid "1-5Tbps"
 msgstr "1-5Tbps"
 
 msgid "5-10Tbps"
-msgstr "5-10 Tbps"
+msgstr "5-10Tbps"
 
 msgid "10-20Tbps"
-msgstr "10-20 Tbps"
+msgstr "10-20Tbps"
 
 msgid "20-50Tbps"
-msgstr "20-50 Tbps"
+msgstr "20-50Tbps"
 
 msgid "50-100Tbps"
-msgstr "50-100 Tbps"
+msgstr "50-100Tbps"
 
 msgid "100+Tbps"
-msgstr "100+ Tbps"
+msgstr "100+Tbps"
 
 msgid "NSP"
 msgstr "NSP"
@@ -225,7 +225,7 @@ msgid "Public"
 msgstr "Pubblico"
 
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
-msgstr "Un numero di telefono in formato E.164 inizia con un +, seguito dal prefisso del paese, quindi dal numero di telefono nazionale (eliminando lo 0 iniziale nella maggior parte dei paesi), senza spazi o trattini tra i gruppi di cifre"
+msgstr "Un numero di telefonico in formato E.164 inizia con un +, seguito dal prefisso internazionale e dal numero nazionale (rimuovendo lo zero antecedente per la maggior parte dei paesi), senza spazi o trattini tra i gruppi di cifre"
 
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
 msgstr "Se questo campo è valorizzato, verrà mostrato in questo record. In caso contrario, mostreremo il sito dell'organizzazione a cui il record è legato"
@@ -362,7 +362,7 @@ msgid "NPA-NXX"
 msgstr "NPA-NXX"
 
 msgid "Technical Email"
-msgstr "Email Tecnica"
+msgstr "Email tecnica"
 
 msgid "Technical Phone"
 msgstr "Telefono tecnico"
@@ -377,7 +377,7 @@ msgid "Property"
 msgstr "Proprietà"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr ""
+msgstr "Il proprietario è l'individuo o l'entità che ha il titolo sulla proprietà. Un locatario è un utente di un immobile che ha un contratto di locazione, un accordo, con il proprietario."
 
 msgid "Diverse Serving Substations"
 msgstr "Diverse sottostazioni di servizio"
@@ -386,7 +386,7 @@ msgid "Two separate and distinct paths to individual substations which should ma
 msgstr "Due percorsi separati e distinti verso le singole sottostazioni che dovrebbero mantenere un percorso separato verso una o più stazioni del generatore di servizio."
 
 msgid "Available Voltage Services"
-msgstr "Tenaioni disponibili"
+msgstr "Tensioni disponibili"
 
 msgid "The alternating current voltage available to users of the facility either directly from the landlord or delivered by the utility separately."
 msgstr "La tensione di corrente alternata disponibile per gli utenti della struttura direttamente dal proprietario o fornita separatamente dal distributore energetico."
@@ -395,7 +395,7 @@ msgid "Continental Region"
 msgstr "Regione continentale"
 
 msgid "Status Dashboard"
-msgstr ""
+msgstr "Status Dashboard"
 
 msgid "Facility"
 msgstr "Struttura"
@@ -585,16 +585,14 @@ msgstr "ASN Locale"
 msgid "Network Facility"
 msgstr "Struttura di rete"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Network Facilities"
-msgstr "Strutture"
+msgstr "Strutture di rete"
 
 msgid "RS peer"
 msgstr "RS peer"
 
 msgid "Speed (mbit/sec)"
-msgstr "Velocità (mbit/sec)"
+msgstr "Velocità (Mbit/sec)"
 
 msgid "Operational"
 msgstr "Attivo"
@@ -605,7 +603,6 @@ msgstr "Punto di Interscambio per Peering Pubblico"
 msgid "Public Peering Exchange Points"
 msgstr "Punti di Interscambio per Peering Pubblico"
 
-#, fuzzy
 msgid "Carrier"
 msgstr "Carrier"
 
@@ -652,7 +649,7 @@ msgid "Italian"
 msgstr "Italiano"
 
 msgid "Japanese"
-msgstr "giapponese"
+msgstr "Giapponese"
 
 msgid "Occitan"
 msgstr "Occitano"
@@ -685,7 +682,7 @@ msgid "ROLLBACK"
 msgstr "RIPRISTINA"
 
 msgid "Ixlans can no longer be directly deleted as they are now synced to the parent exchange"
-msgstr ""
+msgstr "Ixlans non possono più essere rimosse, dato che sono ora sincronizzate con l'exchange di riferimento"
 
 msgid "Protected object '{}': {}"
 msgstr "Oggetto protetto \"{}' : {}"
@@ -694,7 +691,7 @@ msgid "Delete selected objects"
 msgstr "RIFIUTA e cancella gli oggetti selezionati"
 
 msgid "Please confirm deletion of selected objects."
-msgstr "Per favore, conferma la cancellazione degli oggetti selezionati"
+msgstr "Per favore, conferma la cancellazione degli oggetti selezionati."
 
 msgid "SOFT DELETE"
 msgstr "ELIMINAZIONE TEMPORANEA"
@@ -752,10 +749,8 @@ msgstr "L'utente ha questi dispositivi TOTP"
 msgid "User has these Webauthn Security Keys"
 msgstr "L'utente ha queste chiavi di sicurezza Webauthn"
 
-#, fuzzy
-#| msgid "IXF Import History"
 msgid "IX-F Import History"
-msgstr "Storico delle importazioni IXF"
+msgstr "Storico delle importazioni IX-F"
 
 msgid "Initial creation of netixlan"
 msgstr "Prima creazione della netixlan"
@@ -878,16 +873,16 @@ msgid "Value"
 msgstr "Valore"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
-msgstr ""
+msgstr "Questo comando è già in attesa o in esecuzione - Per favore, attenti il suo completamento prima di eseguirlo nuovamente"
 
 msgid "This command takes a while to complete and will be queued and ran in the background. No output log can be provided at this point in time. You may review once the command has finished."
-msgstr ""
+msgstr "Questo comando richiede del tempo per essere completato e sarà accodato ed eseguito in background. Nessun log può essere fornito in questo momento. Potrai ricontrollare una volta terminata l'esecuzione del comando."
 
 msgid "Old prefix - renumber all netixlans that fall into this prefix"
-msgstr ""
+msgstr "Vecchio prefisso - Rinumerare tutti i netixlan che rientrano in questo prefisso"
 
 msgid "New prefix - needs to be the same protocol and length as old prefix"
-msgstr ""
+msgstr "Nuovo Prefisso - E' necessario sia lo stesso protocollo e lunghezza del vecchio prefisso"
 
 msgid "Merge this facility - it will be deleted"
 msgstr "Unisci questa struttura - essa sarà cancellata"
@@ -905,13 +900,13 @@ msgid "Load data from peeringdb API"
 msgstr "Carica dati da peeringdb API"
 
 msgid "Restore this object - search by [reftag] [id]"
-msgstr ""
+msgstr "Ripristina questo oggetto - Ricercato da [reftag] [id]"
 
 msgid "Only {} type objects may be restored through this interface at this point"
-msgstr ""
+msgstr "In questa fase solo gli oggetti di tipo {} possono essere ripristinati attraverso questa interfaccia"
 
 msgid "Select an Internet Exchange to perform an ix-f memberdata import"
-msgstr ""
+msgstr "Seleziona un Internet Exchange per eseguire un import ix-f memberdata"
 
 msgid "Reset all"
 msgstr "Reimposta tutto"
@@ -961,7 +956,7 @@ msgstr "Questo campo è richiesto."
 
 #, python-brace-format
 msgid "Retrieves a single `{obj_type}` type object by id"
-msgstr "Recupera un singolo `{obj_type}` indica l'oggetto tramite il suo id."
+msgstr "Recupera un singolo `{obj_type}` indica l'oggetto tramite il suo id"
 
 msgid "Expand nested sets according to depth."
 msgstr ""
@@ -971,7 +966,7 @@ msgid "Retrieves a list of `{obj_type}` type objects"
 msgstr ""
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
-msgstr ""
+msgstr "Limita il numero di righe restituite nel risultato (usato per la paginazione con`skip`)"
 
 msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
 msgstr ""
@@ -1016,61 +1011,50 @@ msgid "Find exchanges present at a facility (facility id)"
 msgstr "Trova gli exchanges presenti in una struttura (facility id)"
 
 msgid "Find the exchange that contains this ixlan (ixlan id)"
-msgstr ""
+msgstr "Trova l'exchange che contiene questi ixlan (ixlan id)"
 
 msgid "Find the exchange that contains this ixfac (ixfac id)"
-msgstr ""
+msgstr "Trova l'exchange che contiene questo ixfac (ixfac id)"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Number of networks present at this exchange"
-msgstr "Punti di Interscambio per Peering Pubblico"
+msgstr "Numero di reti presenti in questo exchange"
 
 msgid "Find exchanges where this network has a presence at (net id)"
-msgstr ""
+msgstr "Trova gli exchange dove questa rete è presente (net id)"
 
-#, fuzzy
 msgid "Find organization that contains the network (network asn)"
-msgstr "Trova organizzazioni che contengono la rete (Codice Rete AS)"
+msgstr "Trova organizzazioni che contengono la rete (Numero di AS)"
 
 msgid "Find prefixes by exchange (exchange id)"
-msgstr ""
+msgstr "Trova prefissi per exchange (exchange id)"
 
 #, fuzzy
 msgid "Find prefixes by ip address"
 msgstr "Trova prefissi per indirizzo IP"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Exchange name"
-msgstr "Interscambio"
+msgstr "Nome dell'Exchange"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility name"
-msgstr "Struttura"
+msgstr "Nome della struttura"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility country"
-msgstr "Struttura"
+msgstr "Nazione della struttura"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility city"
-msgstr "Struttura"
+msgstr "Città della struttura"
 
 #, python-brace-format
 msgid "Creates a new `{obj_type}` type object."
-msgstr ""
+msgstr "Crea un nuovo oggetto di tipo `{obj_type}`."
 
 #, python-brace-format
 msgid "Updates an existing `{obj_type}` type object."
-msgstr ""
+msgstr "Aggiorna un oggetto di tipo `{obj_type}` esistente."
 
 #, python-brace-format
 msgid "Marks an `{obj_type}` type object as `deleted`."
-msgstr ""
+msgstr "Segnala un oggetto di tipo `{obj_type}`come `cancellato`."
 
 msgid "Yes"
 msgstr "Sì"
@@ -1093,13 +1077,11 @@ msgstr "Deve essere almeno 10 caratteri"
 msgid "Passwords need to match"
 msgstr "Le password devono coincidere"
 
-#, fuzzy
-#| msgid "This email address has already been used"
 msgid "This username is already taken"
-msgstr "Questo indirizzo email è già stato usato"
+msgstr "Questo nome utente è già in uso"
 
 msgid "Please fill out the anti-spam challenge (captcha) field"
-msgstr ""
+msgstr "Per favore, inserisci il codice anti-spam (captcha) nell'apposito campo"
 
 msgid "reCAPTCHA invalid"
 msgstr "reCAPTCHA non valido"
@@ -1113,15 +1095,13 @@ msgstr "Tipo di file %(value)s non consentito"
 
 #, python-format
 msgid "File size too big, max. %(value)s"
-msgstr ""
+msgstr "La dimensione del file è troppo grande. La dimensione massima concessa è di %(value)s"
 
 msgid "Error in forward geocode: No results found"
-msgstr ""
+msgstr "Errore nell'inoltro del geocode: Nessun risultato trovato"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another ixf import preview."
-msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
+msgstr "Si prega di attendere un po' prima di richiedere un'altra anteprima di importazione ixf."
 
 msgid "Ixlan not found"
 msgstr "lxlan non trovato"
@@ -1129,10 +1109,8 @@ msgstr "lxlan non trovato"
 msgid "Permission denied"
 msgstr "Accesso negato"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting another email change"
 msgid "Please wait a bit before requesting another IX-F import postmortem."
-msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
+msgstr "Si prega di attendere un po' prima di richiedere un'altra importazione postmortem."
 
 #, fuzzy
 #| msgid "Address not found"
@@ -1140,18 +1118,17 @@ msgid "Network not found"
 msgstr "Indirizzo non trovato"
 
 msgid "Postmortem length cannot exceed {} entries"
-msgstr ""
+msgstr "La lunghezza postmortem non può eccedere {} inserimenti"
 
-#, fuzzy
 msgid "This ASN is not assigned by any RIR"
-msgstr "L' ASN non e' stato assegnato da nessun RIR"
+msgstr "L' ASN non risulta assegnato da alcun RIR"
 
 msgid "ASNs in this range are private or reserved"
-msgstr ""
+msgstr "Gli ASN di questo range sono privati o riservati"
 
 #, python-brace-format
 msgid "Unable to retrieve RDAP data. If the issue persists, please contact {support_email}."
-msgstr ""
+msgstr "Non posso recuperare i dati RDAO. Se il problema persiste, siete pregati di contattare {support_email}."
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr ""
@@ -1160,52 +1137,46 @@ msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a si
 msgstr ""
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
-msgstr ""
+msgstr "Differenze tra i dati contenuti su PeeringDB e l'IX-F dell'Exchange"
 
 msgid "We found that your IX-F output "
-msgstr ""
+msgstr "Abbiamo rilevato che il tuo IX-F output "
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F import url not specified"
-msgstr "Voci del registro di importazione IXF"
+msgstr "Indirizzo di import dell'IX-F non specificato"
 
 msgid "No JSON could be parsed"
-msgstr "Nessun JSON è stato potuto essere analizzato"
+msgstr "Non si è potuto procedere all'analisi di alcun JSON"
 
 msgid "IX-F data not locally cached for this resource yet."
-msgstr ""
+msgstr "Le informazioni di IX-F non sono memorizzate nella cache per questa risorsa."
 
 msgid "Address {} assigned to more than one distinct connection"
-msgstr ""
+msgstr "Indirizzo {} assegnato a più di una connessione"
 
 msgid "No prefixes defined on ixlan"
 msgstr ""
 
 msgid "Network status is '{}'"
-msgstr "Stato di rete e '{}'"
+msgstr "Lo stato di rete è '{}'"
 
 msgid "Network does not exist in peeringdb"
-msgstr "Rete non esiste in peeringdb"
+msgstr "La rete non esiste in PeeringDB"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid connection state: {}"
-msgstr "Stato di coillegamento invalido: {}"
+msgstr "Stato di collegamento non valido: {}"
 
 msgid "Could not find ipv4 or 6 address in vlan_list entry for vlan_id {} (AS{})"
-msgstr ""
+msgstr "Non ho trovato un indirizzo ipv4 o ipv6 tra le voci di vlan_list {} (AS{})"
 
 msgid "Ip address error '{}' in vlan_list entry for vlan_id {}"
-msgstr ""
+msgstr "Errore di'indirizzo IP '{}' tra le voci di vlan_id {}"
 
 msgid "Invalid speed value: {}"
 msgstr "Valore di velocità non valido: {}"
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
 msgid "Invalid speed value: could not be parsed"
-msgstr "Prefisso non valido: {}"
+msgstr "Valore di velocità non valido: non è possibile analizzarlo"
 
 msgid "IP addresses moved to same entry"
 msgstr ""
@@ -1217,18 +1188,16 @@ msgid "IPv4 not set"
 msgstr "IPv4 non impostato"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between AS{} and one or more IXPs"
-msgstr ""
+msgstr "PeeringDB: Un'azione può essere necessaria: I dati di importazione dell'IX-F mostrano discrepanze tra AS{} ed uno o più IXP"
 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
-msgstr ""
+msgstr "PeeringDB: Un'azione può essere necessaria: I dati di importazione dell'IX-F mostrano discrepanze tra {} ed una o più reti"
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Notifica di Unione: {} -> {}"
 
-#, fuzzy
-#| msgid "active"
 msgid "Inactive"
-msgstr "attivo"
+msgstr "Inattivo"
 
 msgid "Silver"
 msgstr "Argento"
@@ -1251,91 +1220,75 @@ msgstr "RIR"
 msgid "Renumber IP Space"
 msgstr "Rinumerare lo spazio IP"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Merge Facilities"
-msgstr "Strutture"
+msgstr "Unisci le strutture"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Merge Facilities: UNDO"
-msgstr "Strutture Private"
+msgstr "Unisci le strutture: UNDO"
 
 msgid "Restore Object(s)"
-msgstr ""
+msgstr "Ripristina oggetto/i"
 
 msgid "Validate Data"
-msgstr ""
+msgstr "Validazione dei dati"
 
 msgid "1 Week"
-msgstr ""
+msgstr "1 settimana"
 
 msgid "2 Weeks"
-msgstr ""
+msgstr "2 settimane"
 
 msgid "1 Month"
-msgstr ""
+msgstr "1 mese"
 
 msgid "3 Month"
-msgstr ""
+msgstr "3 mesi"
 
 msgid "6 Months"
-msgstr ""
+msgstr "6 mesi"
 
 msgid "1 Year"
-msgstr ""
+msgstr "1 anno"
 
 #, fuzzy
 #| msgid "Reset"
 msgid "Reset Environment"
 msgstr "Reimposta"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import"
-msgstr "Registro di importazione IXF"
+msgstr "Importazione IX-F"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has not yet been approved"
-msgstr "L'oggetto di tipo '%(type)s' non può essere creato perché la sua entità padre '%(parent_tag)s/%(parent_id)s' non è stata ancora approvata"
+msgstr "L'oggetto di tipo '%(type)s' non può essere salvato perché la sua entità padre '%(parent_tag)s/%(parent_id)s' non è stata ancora approvata"
 
-#, fuzzy, python-format
-#| msgid "Object of type '%(type)s' cannot be created because it's parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
+#, python-format
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
-msgstr "L'oggetto di tipo '%(type)s' non può essere creato perché la sua entità padre '%(parent_tag)s/%(parent_id)s' è stata segnata come rimossa"
+msgstr "L'oggetto di tipo '%(type)s' non può essere salvato perché la sua entità padre '%(parent_tag)s/%(parent_id)s' è stata segnata come rimossa"
 
 msgid "Has this object's address been normalized with a call to the Google Maps API"
-msgstr ""
+msgstr "Questo oggetto è stato normalizzato con una call alle API di Google Maps"
 
 msgid "Last time of attempted geocode"
 msgstr "Ultima volta del tentativo di geocodifica"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding timed out"
-msgstr "Errore di geocodifica"
+msgstr "Timeout di geocodifica"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo coding failed: {}"
-msgstr "Errore di geocodifica"
+msgstr "Geocodifica fallita"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup timed out"
-msgstr "Errore di geocodifica"
+msgstr "Timeout di geo-ricerca"
 
-#, fuzzy
-#| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
-msgstr "Errore di geocodifica"
+msgstr "Geo-ricerca fallita {}"
 
 msgid "Geocoordinate Cache"
-msgstr ""
+msgstr "Geocoordinate Cache"
 
 msgid "Geocoordinate Cache Entries"
-msgstr ""
+msgstr "Voci della cache delle coordinate geografiche"
 
 msgid "This organization in our database that was derived from the provided ASN or organization name. If this is empty it means no matching organization was found."
 msgstr "Questa organizzazione nel nostro database è stata derivata dall'ASN fornito o dal nome dell'organizzazione. Se è vuota, significa che nessuna organizzazione corrispondente a tali criteri è stata trovata."
@@ -1376,10 +1329,8 @@ msgstr "La tua affiliazione all'Organizzazione \"{}\" è stata approvata"
 msgid "The item that this queue is attached to was created by this user"
 msgstr "L'oggetto a cui questa coda è legata è stato creato da questo utente"
 
-#, fuzzy
-#| msgid "The item that this queue is attached to was created by this user"
 msgid "The item that this queue is attached to was created by this organization api key"
-msgstr "L'oggetto a cui questa coda è legata è stato creato da questo utente"
+msgstr "L'oggetto a cui questa coda è legata è stato creato dalla api key di questa organizzazione."
 
 msgid "email address"
 msgstr "indirizzo email"
@@ -1502,10 +1453,10 @@ msgid "Can only compare a maximum of 25 asns"
 msgstr "Possono essere confrontati al massimo 25 ASN"
 
 msgid "Facility has active exchange presence(s): {} ..."
-msgstr ""
+msgstr "La struttura ha una o più presenze di Exchange: {} ..."
 
 msgid "Facility has active network presence(s): {} ..."
-msgstr ""
+msgstr "La struttura ha una o più presenze di rete attive: {} ..."
 
 #, fuzzy
 #| msgid "IXF Import Log"
@@ -1555,7 +1506,7 @@ msgid "number of networks at this exchange"
 msgstr "Punti di Interscambio per Peering Pubblico"
 
 msgid "Exchange has active facility connection(s): {} ..."
-msgstr ""
+msgstr "L'exchange ha una o più connessioni attive con una struttura: {} ..."
 
 msgid "Exchange has active peer(s)"
 msgstr ""
@@ -3419,10 +3370,8 @@ msgstr "Punti di Interscambio"
 msgid "Errors"
 msgstr ""
 
-#, fuzzy
-#| msgid "Speed"
 msgid "speed"
-msgstr "Velocità"
+msgstr "velocità"
 
 #, fuzzy
 #| msgid "Route Server"
