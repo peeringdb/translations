@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-07-03 20:58+0000\n"
+"PO-Revision-Date: 2024-04-17 20:54+0000\n"
 "Last-Translator: Tiago Felipe Goncalves <tiago.goncalves@booking.com>\n"
 "Language-Team: Portuguese <https://translate.peeringdb.com/projects/peeringdb/server/pt/>\n"
 "Language: pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 5.3.1\n"
 
 msgid "Ethernet"
 msgstr "Ethernet"
@@ -457,7 +457,7 @@ msgid "IPv4 Prefixes"
 msgstr "Prefixos IPv4"
 
 msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
-msgstr "Referência a um AS-SET ou ROUTE-SET no Internet Routing Registry (IRR)"
+msgstr "Número máximo recomendado de rotas/prefixos IPv4 a serem configurados em sessões de peering para este ASN"
 
 msgid "IPv6 Prefixes"
 msgstr "Prefixos IPv6"
@@ -724,7 +724,7 @@ msgid "Last notified"
 msgstr "Última coleta"
 
 msgid "Verification Queue is currently disabled"
-msgstr "A fila de verificação  está desativada"
+msgstr "A fila de verificação está desativada"
 
 msgid "Verification Queue is currently disabled for this object type"
 msgstr "A fila de Verificação está atualmente desativada para este tipo de objeto"
@@ -1364,10 +1364,8 @@ msgid ""
 "3 Month, 6 Month, 1 Year"
 msgstr ""
 
-#, fuzzy
-#| msgid "Require users in this organization to periodically re-authenticate"
 msgid "Require users in your organization to activate 2FA."
-msgstr "Exigir que os usuários nesta organização se reautentiquem periodicamente"
+msgstr "Exigir que os usuários em sua organização ativem 2FA."
 
 msgid "Organization has active objects under it."
 msgstr "A organização tem objetos ativos sob ela."
@@ -2395,7 +2393,7 @@ msgid "ASN"
 msgstr "ASN"
 
 msgid "General Peering Policy"
-msgstr "Política Geral  de Peering"
+msgstr "Política Geral de Peering"
 
 msgid "Exchange Presence"
 msgstr "Presença do Exchange"
@@ -2441,10 +2439,9 @@ msgstr "- todos os dados serão atualizados da produção em %(dt)sZ"
 msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with"
+#, python-format
 msgid "Delete your affiliation to %(org)s"
-msgstr "Sua afiliação a"
+msgstr "Delete sua afiliação a %(org)s"
 
 msgid "Cancel"
 msgstr "Cancelar"
@@ -2965,10 +2962,10 @@ msgid "Request Ownership"
 msgstr "Solicitar propriedade"
 
 msgid "Please only request ownership if you are certain that you have the rights to do so. Are you sure you wish to continue?"
-msgstr "Por favor, apenas solicite a  propriedade se você tiver certeza de que você tem os direitos para fazê-la. Tem certeza que deseja continuar?"
+msgstr "Por favor, apenas solicite a propriedade se você tiver certeza de que você tem os direitos para fazê-la. Tem certeza que deseja continuar?"
 
 msgid "Only verified users may request ownership to an organization"
-msgstr "Somente usuários verificados podem solicitar  propriedade para uma organização"
+msgstr "Somente usuários verificados podem solicitar propriedade para uma organização"
 
 #, python-format
 msgid ""
@@ -3386,7 +3383,7 @@ msgid "We will attempt to automatically verify your relationship to the network 
 msgstr "Tentaremos verificar automaticamente o seu relacionamento com a rede, verificando o seu endereço de e-mail na entrada RiR do ASN."
 
 msgid "In case of verification failure the network will need to be approved by PeeringDB staff before it will appear in the search results or the API listings."
-msgstr "Em caso de falha de verificação, a rede  terá de ser aprovada pela equipe PeeringDB antes de aparecer nos resultados de pesquisa ou nas listagens de API."
+msgstr "Em caso de falha de verificação, a rede terá de ser aprovada pela equipe PeeringDB antes de aparecer nos resultados de pesquisa ou nas listagens de API."
 
 msgid "Submit Network"
 msgstr "Submeter rede"
@@ -3421,10 +3418,8 @@ msgstr "Grupo"
 msgid "No 2FA"
 msgstr ""
 
-#, fuzzy
-#| msgid "Require users in this organization to periodically re-authenticate"
 msgid "Require users in your organization to enable 2FA."
-msgstr "Exigir que os usuários nesta organização se reautentiquem periodicamente"
+msgstr "Exigir que os usuários em sua organização habilitem 2FA."
 
 msgid "Restrict user email addresses to these domains"
 msgstr "Restrinja os endereços de e-mail dos usuários a esses domínios"
@@ -3802,7 +3797,7 @@ msgid "Password Reset Process has expired, please"
 msgstr "O Processo de redefinição de sua senha expirou, por favor"
 
 msgid "Please log out of your current session before trying to register. Notice, multiple accounts are no longer needed."
-msgstr "Favor fazer log out da sua sessão atual antes de tentar se registrar. Note que  múltiplas contas não são mais necessárias."
+msgstr "Favor fazer log out da sua sessão atual antes de tentar se registrar. Note que múltiplas contas não são mais necessárias."
 
 msgid "This email address has already been used"
 msgstr "Este e-mail já está sendo utilizado"
