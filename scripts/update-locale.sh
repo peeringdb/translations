@@ -15,9 +15,10 @@
 TMP_DIR=`mktemp -d /tmp/pdblocale.XXXXXXXX`
 #MAKEMSG_OPTIONS="--all --symlinks --no-wrap --keep-pot"
 MAKEMSG_OPTIONS="--all --symlinks --no-wrap --no-location --keep-pot"
-WLC="/srv/translate.peeringdb.com/venv/bin/wlc"
+WLC="wlc"
 WLC_LOCKED="false"
-WORK_DIR="/srv/translate.peeringdb.com/data/vcs/peeringdb/server"
+# WORK_DIR="/srv/translate.peeringdb.com/data/vcs/peeringdb/server"
+WORK_DIR="/app/data/vcs/peeringdb/server"
 
 function clean_up() {
     error_code=$?  # this needs to be here to catch the intended exit code
@@ -36,13 +37,26 @@ function clean_up() {
 
 trap clean_up EXIT
 
-PDB_TREE="/srv/translate.peeringdb.com"
-if [ ! -d $PDB_TREE ]; then
+# check for being in weblate container
+if [ -z "$WEBLATE_VERSION" ]; then
     echo This script is only meant to be run on trans0.peeringdb.com.
     echo Instead run \"update-master.sh\" on production and beta masters.
     exit 1
 fi
-PDB_BIN="$PDB_TREE/venv/bin"
+
+# check for wlc in path
+if ! command -v $WLC &> /dev/null
+then
+    echo "wlc could not be found"
+    exit 1
+fi
+
+# check for django-admin in path
+if ! command -v django-admin &> /dev/null
+then
+    echo "django-admin could not be found"
+    exit 1
+fi
 
 cd $WORK_DIR || exit 1
 
@@ -85,7 +99,7 @@ echo If \"duplicate message definition\" errors in the below, edit indicated fil
 echo
 
 set -x
-$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS || exit 1
+django-admin makemessages $MAKEMSG_OPTIONS || exit 1
 set +x
 
 # 20210716: Specific exception for peeringdb.js regarding "unterminated string" due to:
@@ -99,7 +113,7 @@ set +x
 #    .. _f-strings: https://docs.python.org/3/reference/lexical_analysis.html#f-strings
 #    .. _JavaScript template strings: https://savannah.gnu.org/bugs/?50920
 set -x
-$PDB_BIN/django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs | grep -v -E "peeringdb.js.*warning: unterminated string|bootstrap/js.*warning: unterminated string" || exit 1
+django-admin makemessages $MAKEMSG_OPTIONS --domain djangojs | grep -v -E "peeringdb.js.*warning: unterminated string|bootstrap/js.*warning: unterminated string" || exit 1
 set +x
 
 # Remove these since no longer needed and we don't want them accidentally added to the repo.
@@ -113,7 +127,7 @@ find $WORK_DIR -name *.po* -print0 | xargs -0 sed -i /^\"POT-Creation-Date:/d ||
 echo
 echo Fix any compilemessages messages errors indicated below on the https://translate.peeringdb.com/ site and then re-run $0 manually.
 echo
-$PDB_BIN/django-admin compilemessages || exit 1
+django-admin compilemessages || exit 1
 
 git add locale || exit 1
 # Deduce whether to perfom a commit:
