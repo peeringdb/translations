@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-17 20:58+0000\n"
+"PO-Revision-Date: 2024-11-30 20:54+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 5.3.1\n"
 "X-Poedit-Bookmarks: 260,-1,-1,-1,-1,-1,-1,-1,-1,372\n"
 
 msgid "Ethernet"
@@ -88,7 +88,7 @@ msgid "IPv6"
 msgstr "IPv6"
 
 msgid "Not Disclosed"
-msgstr "Vertraulich"
+msgstr "Nicht angegeben"
 
 msgid "Heavy Outbound"
 msgstr "Stark ausgehend"
@@ -232,13 +232,13 @@ msgid "If this field is set, it will be displayed on this record. If not, we wil
 msgstr "Wenn dieses Feld festgelegt ist, wird es in diesem Datensatz angezeigt. Wenn nicht, zeigen wir die Website des Organisationsdatensatzes an, mit dem sie verknüpft ist"
 
 msgid "Provider of L1 or L2 connectivity into a facility"
-msgstr ""
+msgstr "Anbieter von L1- oder L2-Konnektivität zu einer Liegenschaft"
 
 msgid "A set of facilities under one management, with inter-building cross-connects"
-msgstr ""
+msgstr "Eine Reihe von Einrichtungen unter einer Leitung, mit Verbindungen zwischen den einzelnen Gebäuden"
 
 msgid "Peering with the routeserver is shown with an icon"
-msgstr ""
+msgstr "Das Peering mit dem Routenserver wird mit einem Symbol angezeigt"
 
 msgid "Best Effort (no SLA)"
 msgstr "Best möglich (kein Qualitätsversprechen)"
@@ -369,16 +369,16 @@ msgid "Technical Phone"
 msgstr "Telefon (technisch)"
 
 msgid "Sales Email"
-msgstr "Vertriebs Email"
+msgstr "Vertriebs E-Mail"
 
 msgid "Sales Phone"
-msgstr "Vertriebs Telefon"
+msgstr "Vertriebstelefon"
 
 msgid "Property"
 msgstr "Eigentum"
 
 msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr "Ein Grundstückseigentümer ist die natürliche oder juristische Person, die das Eigentum an dem Grundstück besitzt. Ein Mieter ist ein Nutzer einer Immobilie, der einen Mietvertrag oder eine Vereinbarung mit dem Eigentümer der Immobilie hat."
+msgstr "Der Eigentümer einer Immobilie ist die natürliche oder juristische Person, die das Eigentum an der Immobilie besitzt. Ein Mieter ist ein Nutzer einer Immobilie, der einen Mietvertrag, eine Vereinbarung, mit dem Eigentümer der Immobilie hat."
 
 msgid "Diverse Serving Substations"
 msgstr "Redundante Versorgungseinrichtungen"
@@ -703,26 +703,20 @@ msgstr "Ergebnislänge"
 msgid "Show {} rows"
 msgstr "Zeige {} Reihen"
 
-#, fuzzy
-#| msgid "Create"
 msgid "Created"
-msgstr "Erstellen"
+msgstr "Erstellt"
 
 msgid "Updated"
 msgstr "Aktualisiert"
 
 msgid "Sent"
-msgstr ""
+msgstr "Gesendet"
 
-#, fuzzy
-#| msgid "Login"
 msgid "Last login"
-msgstr "Anmelden"
+msgstr "Letzte Anmeldung"
 
-#, fuzzy
-#| msgid "Last Fetched"
 msgid "Last notified"
-msgstr "Zuletzt runtergeladen"
+msgstr "Letzte Meldung"
 
 msgid "Verification Queue is currently disabled"
 msgstr "Die Überprüfungswarteschlange ist derzeit deaktiviert"
@@ -743,10 +737,10 @@ msgid "User is looking to be affiliated to these Organizations"
 msgstr "Der Benutzer möchte mit diesen Unternehmen verbunden werden"
 
 msgid "User has these TOTP devices"
-msgstr ""
+msgstr "Der Benutzer besitzt diese TOTP-Geräte"
 
 msgid "User has these Webauthn Security Keys"
-msgstr ""
+msgstr "Der Benutzer hat diese Webauthn Security Keys"
 
 msgid "IX-F Import History"
 msgstr "IX-F Import Verlauf"
@@ -817,10 +811,8 @@ msgstr "Anzeigen"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Kann keine abgebrochene Zuordnungsanforderung genehmigen"
 
-#, fuzzy
-#| msgid "Cannot approve a canceled affiliation request"
 msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr "Kann keine abgebrochene Zuordnungsanforderung genehmigen"
+msgstr "Kann nicht genehmigt werden, wenn der Benutzer 2FA deaktiviert hat - die Organisation verlangt 2FA"
 
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Mitgliedschaft wurde bestätigt und der Nutzer darüber informiert."
@@ -1103,7 +1095,7 @@ msgid "Ixlan not found"
 msgstr "Ixlan wurde nicht gefunden"
 
 msgid "Permission denied"
-msgstr "Erlaubnis verweigert"
+msgstr "Zugang verweigert"
 
 msgid "Please wait a bit before requesting another IX-F import postmortem."
 msgstr "Bitte warten Sie, bevor Sie eine weitere Vorschau des IX-F-Imports anfordern."
@@ -1122,7 +1114,7 @@ msgstr "ASNs in diesem Bereich sind privat oder reserviert"
 
 #, python-brace-format
 msgid "Unable to retrieve RDAP data. If the issue persists, please contact {support_email}."
-msgstr ""
+msgstr "RDAP-Daten können nicht abgerufen werden. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an {support_email}."
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
 msgstr "Diese Kombination aus ASN, IPv4- und IPv6-Adresse existiert nicht für ein einzelnes Mitglied an diesem Internet Exchange"
@@ -1235,10 +1227,8 @@ msgstr "2 Wochen"
 msgid "1 Month"
 msgstr "1 Monat"
 
-#, fuzzy
-#| msgid "1 Month"
 msgid "3 Month"
-msgstr "1 Monat"
+msgstr "3 Monate"
 
 msgid "6 Months"
 msgstr "6 Monate"
@@ -1365,10 +1355,8 @@ msgid ""
 "3 Month, 6 Month, 1 Year"
 msgstr ""
 
-#, fuzzy
-#| msgid "Require users in this organization to periodically re-authenticate"
 msgid "Require users in your organization to activate 2FA."
-msgstr "Fordern Sie Benutzer in dieser Organisation auf, sich regelmäßig neu zu authentifizieren"
+msgstr "Fordern Sie die Benutzer in Ihrer Organisation auf, 2FA zu aktivieren."
 
 msgid "Organization has active objects under it."
 msgstr "Die Organisation hat aktive Objekte unter sich."
@@ -1827,11 +1815,11 @@ msgid "Any Exchange"
 msgstr "Alle Austauschpunkte"
 
 msgid "Manage peering sessions - Any Network"
-msgstr ""
+msgstr "Verwalten von Peering-Sitzungen - Jedes Netz"
 
 #, python-format
 msgid "Manage peering sessions - %(net_name)s"
-msgstr ""
+msgstr "Peering-Sitzungen verwalten - %(net_name)s"
 
 #, python-format
 msgid "Network - %(net_name)s"
@@ -1862,10 +1850,8 @@ msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde genehmigt"
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "%(user_name)s Antrag auf Zugehörigkeit wurde abgelehnt"
 
-#, fuzzy
-#| msgid "This key is currently inactive - please contact PeeringDB support for assistance."
 msgid "Inactive API key - please contact PeeringDB support for assistance."
-msgstr "Dieser Schlüssel ist derzeit inaktiv – bitte wenden Sie sich an den PeeringDB-Support, um Unterstützung zu erhalten."
+msgstr "Inaktiver API-Schlüssel - bitte kontaktieren Sie den PeeringDB-Support für Hilfe."
 
 msgid "Please contact {} to help with the deletion of this object"
 msgstr "Bitte kontaktieren Sie {}, um Unterstützung bei der Löschung dieses Objekts zu erhalten"
@@ -2093,32 +2079,28 @@ msgid ""
 "\n"
 "Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
 msgstr ""
+"\n"
+"Möchten Sie die Zugehörigkeit aufheben oder beibehalten? Wenn Sie die Zugehörigkeit aufheben, können sie sich erst wieder anschließen, wenn sie 2FA aktiviert haben.\n"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Drop Affiliations"
-msgstr "Bestehende Zuordnungen"
+msgstr "Zugehörigkeiten aufgeben"
 
-#, fuzzy
-#| msgid "Affiliate"
 msgid "Leave them Affiliated"
-msgstr "Zuordnung anfordern"
+msgstr "Lassen Sie sie zugeordnet"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Cancel 2FA Requirement"
-msgstr "Vertrag erforderlich"
+msgstr "2FA-Erfordernis aufheben"
 
 #, python-format
 msgid ""
 "\n"
 "The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
 msgstr ""
+"\n"
+"Die folgenden Benutzer, die mit der Organisation von %(org_name)s verbunden sind, haben 2FA nicht aktiviert:\n"
 
-#, fuzzy
-#| msgid "You may view and edit your organization at"
 msgid "You may view and edit your organization users at"
-msgstr "Sie können Daten Ihrer Organisation anschauen und editieren unter"
+msgstr "Sie können die Benutzer Ihrer Organisation anzeigen und bearbeiten unter"
 
 msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgstr "Wenn Sie Fragen haben, wenden Sie sich bitte an den PeeringDB-Support unter"
@@ -2302,7 +2284,7 @@ msgid "Our Culture"
 msgstr "Unsere Kultur"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr "PeeringDB ist, wie der Name bereits vermuten lässt, eine Datenbank, die aufgesetzt wurde, um die Arbeit von Netzwerk- und Peering-Managern zu erleichtern. In den letzten Jahren hat sich die Vision der PeeringDB weiter entwickelt, vor allem, um sich der Geschwindigkeit und den schnell ändernden Gepflogenheiten des wachsenden Internets anzupassen. Die Datenbank umfasst nun nicht mehr nur Informationen, die für das reine Peering nötig sind. Mittlerweile beherbergt es alle Arten von relevanten Daten für Netzwerk-, Cloud- oder Servicebetreiber sowie Großunternehmen mit Netzbetrieb, als auch Informationen über Vernetzungseinrichtungen, die das Fundament des Internets formen."
+msgstr "PeeringDB wurde, wie der Name schon sagt, eingerichtet, um das Peering zwischen Netzen und Peering-Koordinatoren zu erleichtern. In den letzten Jahren hat sich die Vision von PeeringDB weiterentwickelt, um mit der Geschwindigkeit und Vielfalt, mit der das Internet wächst, Schritt zu halten. Die Datenbank ist nicht mehr nur für Peering und Peering-bezogene Informationen gedacht. Sie umfasst nun alle Arten von Zusammenschaltungsdaten für Netzwerke, Clouds, Dienste und Unternehmen sowie Zusammenschaltungseinrichtungen, die sich am Rande des Internets entwickeln."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
 msgstr "Wir glauben an und verlassen uns auf die Community, um die PeeringDB-Datenbank hochzuziehen und zu verbessern. Die Freiwilligen, die die Datenbank betreiben, begeistern sich für Sicherheit, Datenschutz, Integrität und Gültigkeit der Daten in der Datenbank. Obwohl PeeringDB ein frei verfügbares und öffentliches Werkzeug ist, halten sich die Benutzer genau an die Nutzungsbedingungen, wodurch verhindert wird, dass die Datenbank für kommerzielle Zwecke genutzt wird, und unerbetenen Nachrichten Einhalt geboten wird. Dies wird größtenteils durch die Community kontrolliert und hat sich seit Start der PeeringDB als sehr effektiv erwiesen."
@@ -2442,10 +2424,9 @@ msgstr "- alle Daten werden am %(dt)sZ neu von der Produktion geladen"
 msgid "Database last synchronized at %(ls_dt)s"
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with"
+#, python-format
 msgid "Delete your affiliation to %(org)s"
-msgstr "Ihre Zuordnung zu"
+msgstr "Löschen Sie Ihre Zugehörigkeit zu %(org)s"
 
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -2559,7 +2540,7 @@ msgid "Governance"
 msgstr "Governance"
 
 msgid "Google Earth KMZ"
-msgstr ""
+msgstr "Google Earth KMZ"
 
 msgid "Contact Us"
 msgstr "Kontaktieren Sie uns"
@@ -2579,10 +2560,8 @@ msgstr "Netzwerke mit automatischen Update"
 msgid "Registered Users"
 msgstr "Registrierte Benutzer"
 
-#, fuzzy
-#| msgid "Email Confirmation"
 msgid "Confirmation"
-msgstr "E-Mail bestätigen"
+msgstr "Bestätigung"
 
 #, fuzzy
 #| msgid "Search here for a network, IX, or facility."
@@ -2592,15 +2571,11 @@ msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
 msgid "Advanced Search"
 msgstr "Erweiterte Suche"
 
-#, fuzzy
-#| msgid "Advanced Search"
 msgid "Legacy Search"
-msgstr "Erweiterte Suche"
+msgstr "Ältere Suche"
 
-#, fuzzy
-#| msgid "Search"
 msgid "v2 Search"
-msgstr "Suche"
+msgstr "v2 Suche"
 
 #, fuzzy
 #| msgid "Search here for a network, IX, or facility."
@@ -2658,15 +2633,11 @@ msgstr "Wartungsmodus"
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "Die Website befindet sich derzeit im Wartungsmodus, in dem diese Aktion deaktiviert ist. Bitte versuchen Sie es in einigen Minuten erneut"
 
-#, fuzzy
-#| msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
 msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
-msgstr "Einige Ihrer Organisationen verlangen eine Bestätigung Ihrer E-Mail-Adresse. Bis Sie dies tun, ist Ihr Zugriff darauf eingeschränkt."
+msgstr "Einige Ihrer Organisationen verlangen, dass Sie 2FA aktivieren. Ihr Zugang zu diesen Organisationen wurde eingeschränkt, bis Sie dies tun."
 
-#, fuzzy
-#| msgid "The password for your account"
 msgid "Activate 2FA for your account"
-msgstr "Das Passwort für Ihr Konto"
+msgstr "Aktivieren Sie 2FA für Ihr Konto"
 
 msgid "Login with oAuth"
 msgstr "Einloggen mit OAuth"
@@ -2980,22 +2951,20 @@ msgid ""
 "    "
 msgstr ""
 
-#, fuzzy
-#| msgid "Showing most recent"
 msgid "Showing results for"
-msgstr "Anzeige der Neuesten"
+msgstr "Zeigt Ergebnisse für"
 
 msgid "in"
-msgstr ""
+msgstr "in"
 
 msgid "within"
-msgstr ""
+msgstr "innerhalb"
 
 msgid "near"
-msgstr ""
+msgstr "nahe"
 
 msgid "Could not resolve the location you provided: "
-msgstr ""
+msgstr "Der von Ihnen angegebene Standort konnte nicht ermittelt werden: "
 
 msgid "sponsor"
 msgstr "Sponsor"
@@ -3006,10 +2975,8 @@ msgstr "Austauschpunkt vorschlagen"
 msgid "Suggest Network"
 msgstr "Netzwerk vorschlagen"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Delete Affiliation"
-msgstr "Bestehende Zuordnungen"
+msgstr "Zugehörigkeit löschen"
 
 msgid "Set primary organization"
 msgstr "Legen Sie die primäre Organisation fest"
@@ -3088,8 +3055,6 @@ msgstr "Empfohlene Adresse:"
 msgid "Accept"
 msgstr "Akzeptieren"
 
-#, fuzzy
-#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Geocodedaten für dieses Objekt konnten zu diesem Zeitpunkt nicht abgerufen werden. Dies geschieht automatisch bei Änderungen im Adressfeld."
 
@@ -3103,10 +3068,10 @@ msgid "You may filter by"
 msgstr "Sie können filtern nach"
 
 msgid "ALL"
-msgstr ""
+msgstr "ALLE"
 
 msgid "ASNs"
-msgstr ""
+msgstr "ASNs"
 
 msgid "Prefixes"
 msgstr "Präfixe"
@@ -3114,10 +3079,8 @@ msgstr "Präfixe"
 msgid "(IPv4/IPv6)"
 msgstr ""
 
-#, fuzzy
-#| msgid "routeserver"
 msgid "Routeservers"
-msgstr "Routeserver"
+msgstr "Routeservers"
 
 msgid "Exchange"
 msgstr "Austauschpunkt"
@@ -3132,10 +3095,10 @@ msgid "Add Facility"
 msgstr "Gebäude hinzufügen"
 
 msgid "IX Connections"
-msgstr ""
+msgstr "IX-Verbindungen"
 
 msgid "Prefixes (IPv4/IPv6)"
-msgstr ""
+msgstr "Präfixe (IPv4/IPv6)"
 
 msgid "Exchange - Facility link"
 msgstr "Netzwerk-Liegenschaft-Link"
@@ -3418,12 +3381,10 @@ msgid "Group"
 msgstr "Gruppe"
 
 msgid "No 2FA"
-msgstr ""
+msgstr "Kein 2FA"
 
-#, fuzzy
-#| msgid "Require users in this organization to periodically re-authenticate"
 msgid "Require users in your organization to enable 2FA."
-msgstr "Fordern Sie Benutzer in dieser Organisation auf, sich regelmäßig neu zu authentifizieren"
+msgstr "Verpflichten Sie die Benutzer in Ihrer Organisation, 2FA zu aktivieren."
 
 msgid "Restrict user email addresses to these domains"
 msgstr "Beschränken Sie die E-Mail-Adressen der Benutzer auf diese Domainnamen"
@@ -3697,35 +3658,31 @@ msgid "Invalid identifier!"
 msgstr "Ungültiger Identifier!"
 
 msgid "Data is empty"
-msgstr ""
+msgstr "Die Daten sind leer"
 
 #, python-brace-format
 msgid "Unknown object type: {ref_tag}"
-msgstr ""
+msgstr "Unbekannter Objekttyp: {ref_tag}"
 
 #, python-brace-format
 msgid "object {ref_tag}.{obj_id} not found"
-msgstr ""
+msgstr "Objekt {ref_tag}.{obj_id} nicht gefunden"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting your usernames again."
 msgid "Please wait a bit before proposing verified updates again."
-msgstr "Bitte warten Sie ein bisschen, bevor Sie Ihren Benutzernamen erneut anfordern."
+msgstr "Bitte warten Sie ein wenig, bevor Sie erneut verifizierte Updates vorschlagen."
 
 msgid "No payload provided"
-msgstr ""
+msgstr "Keine Nutzlast vorhanden"
 
 msgid "Invalid JSON in payload"
-msgstr ""
+msgstr "Ungültiges JSON in Nutzdaten"
 
 #, python-brace-format
 msgid "Proposed update contains invalid data: {data}"
-msgstr ""
+msgstr "Vorgeschlagene Aktualisierung enthält ungültige Daten: {data}"
 
-#, fuzzy
-#| msgid "Please wait a bit before requesting affiliation again."
 msgid "Please wait a bit before requesting accept verified updates again."
-msgstr "Bitte warten Sie, bevor Sie erneut Zuordnung anfordern."
+msgstr "Bitte warten Sie ein wenig, bevor Sie erneut die Annahme von verifizierten Updates beantragen."
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Bitte warten Sie, bevor Sie erneut Besitz beantragen."
@@ -3849,7 +3806,7 @@ msgid "Request import"
 msgstr "Import anfordern"
 
 msgid "Fill the 'IX-F Member Export URL' field to perform 'IX-F Import'"
-msgstr ""
+msgstr "Füllen Sie das Feld 'IX-F Member Export URL' aus, um den 'IX-F Import' durchzuführen"
 
 msgid "Disable notifications"
 msgstr "Benachrichtigungen ausschalten"
@@ -3907,22 +3864,20 @@ msgstr "Ungültige Organisationspräferenz"
 
 #, python-brace-format
 msgid "{user} is not member of {org}"
-msgstr ""
+msgstr "{user} ist kein Mitglied von {org}"
 
-#, fuzzy
-#| msgid "Invalid member type: {}"
 msgid "Invalid member"
-msgstr "Ungültiger Mitglieder-Typ: {}"
+msgstr "Ungültiges Mitglied"
 
 msgid "Action not provided"
-msgstr ""
+msgstr "Keine Aktion vorgesehen"
 
 #, python-brace-format
 msgid "Only admin of the {org} can perform the action"
-msgstr ""
+msgstr "Nur der Administrator der {org} kann die Aktion durchführen"
 
 msgid "Login as the organization admin to perform the action"
-msgstr ""
+msgstr "Melden Sie sich als Administrator der Organisation an, um die Aktion durchzuführen"
 
 #, fuzzy
 #~| msgid "Date"
