@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2024-11-30 20:54+0000\n"
-"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
+"Last-Translator: Henry Schaefer <Henry.Schaefer@intl.verizon.com>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -948,7 +948,7 @@ msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr "Fragt ein einzelnes Objekt des Typs `{obj_type}` mithilfe seiner ID ab"
 
 msgid "Expand nested sets according to depth."
-msgstr "Verschachtelte Datensätze entsprechend der depth auflösen."
+msgstr "Erweitere Sets entsprechend der Verschachtelungstiefe."
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
@@ -1359,7 +1359,7 @@ msgid "Require users in your organization to activate 2FA."
 msgstr "Fordern Sie die Benutzer in Ihrer Organisation auf, 2FA zu aktivieren."
 
 msgid "Organization has active objects under it."
-msgstr "Die Organisation hat aktive Objekte unter sich."
+msgstr "Organisation ist verlinkt."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr "Die Organisation ist derzeit ein aktiver Sponsor. Bitte kontaktiere den PeeringDB Support zur Unterstützung beim Löschen der Organisation."
