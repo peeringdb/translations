@@ -100,6 +100,7 @@ function commit_changes() {
     [[ -z $(git status --untracked-files=no --porcelain) ]] || git commit -m "$msg"
 
     echo $msg
+    git push
 }
 
 # Parse optional arguments
