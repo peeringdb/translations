@@ -227,6 +227,9 @@ msgstr "Public"
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr "Un număr de telefon în format E.164 începe cu un +, urmat de codul de țară, apoi numărul de telefon național (eliminând cifra 0 din față în majoritatea țărilor), fără spații sau liniuțe între grupurile de cifre"
 
+msgid "Total, self-classified traffic in/out to this network."
+msgstr ""
+
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
 msgstr "Dacă acest câmp este setat, va fi afișat în această înregistrare. Dacă nu, vom afișa site-ul web din înregistrarea organizației la care este legată"
 
@@ -236,7 +239,9 @@ msgstr "Furnizor de conectivitate L1 sau L2 într-o Facilitate"
 msgid "A set of facilities under one management, with inter-building cross-connects"
 msgstr "Un set de Facilități sub un singur management, cu interconexiuni între clădiri"
 
-msgid "Peering with the routeserver is shown with an icon"
+#, fuzzy
+#| msgid "Peering with the routeserver is shown with an icon"
+msgid "Peering with the routeserver and BFD support is shown with an icon"
 msgstr "Peering-ul cu routeserver-ul este afișat cu o pictogramă"
 
 msgid "Best Effort (no SLA)"
@@ -263,8 +268,8 @@ msgstr "Taxe recurente"
 msgid "Owner"
 msgstr "Proprietar"
 
-msgid "Lessee"
-msgstr "Locatar"
+msgid "Leased or Rented"
+msgstr ""
 
 msgid "48 VDC"
 msgstr "48 V CC"
@@ -283,8 +288,8 @@ msgstr "Site web"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Twitter"
-msgstr "Twitter"
+msgid "X"
+msgstr ""
 
 msgid "Instagram"
 msgstr "Instagram"
@@ -376,8 +381,8 @@ msgstr "Număr de telefon pentru vânzări"
 msgid "Property"
 msgstr "Proprietate"
 
-msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr "Un deținător al unei proprietăți este persoana fizică sau entitatea care deține dreptul de proprietate asupra acesteia. Un locatar este un utilizator al unei proprietăți care are un contract de închiriere sau un acord cu deținătorul proprietății."
+msgid "Leasing or renting is an agreement with a property owner for use of the property."
+msgstr ""
 
 msgid "Diverse Serving Substations"
 msgstr "Substații diverse de deservire"
@@ -591,6 +596,11 @@ msgstr "Facilități de rețea"
 msgid "RS peer"
 msgstr "peer cu serverul de rute"
 
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD support"
+msgstr "Asistență 24/7"
+
 msgid "Speed (mbit/sec)"
 msgstr "Viteză (Mbit/sec)"
 
@@ -798,6 +808,11 @@ msgstr "ASN este deja utilizat de o altă rețea"
 msgid "Name is already in use by another network"
 msgstr "Numele este deja folosit de o altă rețea"
 
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not set"
+msgstr "Nu este setat"
+
 msgid "APPROVE selected items"
 msgstr "APROBAȚI elementele selectate"
 
@@ -864,6 +879,11 @@ msgstr "Nu există cerințe"
 msgid "Value"
 msgstr "Valoare"
 
+#, fuzzy
+#| msgid "Requested by user"
+msgid "Request handled by"
+msgstr "Solicitat de utilizator"
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Această comandă este deja în așteptare / rulare - vă rugăm să așteptați să se termine înainte de a o executa din nou"
 
@@ -897,7 +917,9 @@ msgstr "Restaurați acest obiect - căutați după [reftag] [id]"
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "În acest moment doar obiectele de tip {} pot fi restabilite prin intermediul acestei interfețe"
 
-msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+#, fuzzy
+#| msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgid "Select an Internet Exchange to perform an IX-F memberdata import"
 msgstr "Selectați un Internet Exchange pentru a efectua un import cu datele membrilor IX-F"
 
 msgid "Reset all"
@@ -1061,6 +1083,11 @@ msgstr "ASN trebuie să fie un număr"
 msgid "Needs to be at least 10 characters long"
 msgstr "Trebuie să aibă o lungime de cel puțin 10 caractere"
 
+#, fuzzy
+#| msgid "Password-less login"
+msgid "Password is too long"
+msgstr "Conectare fără parolă"
+
 msgid "Passwords need to match"
 msgstr "Parolele trebuie să se potrivească"
 
@@ -1180,6 +1207,14 @@ msgstr "PeeringDB: poate fi necesară o acțiune: nepotrivirea datelor din impor
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Îmbină notificarea: {} -> {}"
+
+#, python-format
+msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
+msgstr ""
+
+#, python-format
+msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
+msgstr ""
 
 msgid "Inactive"
 msgstr "Inactiv"
@@ -1308,6 +1343,11 @@ msgstr "Solicitările de afiliere ale utilizatorilor la organizații"
 
 msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "Afilierea dvs. la organizația „{}” a fost aprobată"
+
+#, fuzzy
+#| msgid "User to Organization Affiliation Requests"
+msgid "User to Organization Affiliation Request History"
+msgstr "Solicitările de afiliere ale utilizatorilor la organizații"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Elementul la care este atașată această listă de așteptare a fost creat de acest utilizator"
@@ -1447,7 +1487,9 @@ msgstr "Data celei mai recente solicitări de import manual"
 msgid "Manual IX-F import status"
 msgstr "Starea importului manual IX-F"
 
-msgid "The current status of the manual ix-f import request"
+#, fuzzy
+#| msgid "The current status of the manual ix-f import request"
+msgid "The current status of the manual IX-F import request"
 msgstr "Starea actuală a cererii de import manual IX-F"
 
 msgid "Queued"
@@ -1462,7 +1504,9 @@ msgstr "Terminat"
 msgid "Import failed"
 msgstr "Importul nu a reușit"
 
-msgid "The user that triggered the manual ix-f import request"
+#, fuzzy
+#| msgid "The user that triggered the manual ix-f import request"
+msgid "The user that triggered the manual IX-F import request"
 msgstr "Utilizatorul care a declanșat cererea manuală de import IX-F"
 
 msgid "number of facilities at this exchange"
@@ -1516,7 +1560,9 @@ msgstr "Înregistrare în jurnalul de import IX-F"
 msgid "IX-F Import Log Entries"
 msgstr "Înregistrările în jurnalul de import IX-F"
 
-msgid "JSON snapshot of the ix-f member data that created this entry"
+#, fuzzy
+#| msgid "JSON snapshot of the ix-f member data that created this entry"
+msgid "JSON snapshot of the IX-F member data that created this entry"
 msgstr "Instantaneul JSON al datelor de membru IX-F care au creat această intrare"
 
 msgid "Activity for this entry"
@@ -1566,9 +1612,6 @@ msgstr "Ultimul punct de contact tehnic pentru rețeaua cu peer-i activi"
 
 msgid "Phone or email required"
 msgstr "Este necesar telefonul sau e-mailul"
-
-msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
 
 msgid "IPv4 address outside of prefix"
 msgstr "Adresa IPv4 este în afara prefixului"
@@ -1753,7 +1796,13 @@ msgstr "API: mesaj anonim de rată a accelerației API"
 msgid "API: Authenticated API throttle rate message"
 msgstr "API: mesaj API autentificat privind viteza de accelerare"
 
+msgid "API: Request Write API Limiting"
+msgstr ""
+
 msgid "Show last database sync"
+msgstr ""
+
+msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Last Updated"
@@ -1773,6 +1822,15 @@ msgstr "Aplicație OAuth"
 
 msgid "OAuth Applications"
 msgstr "Aplicații OAuth"
+
+msgid "Authentication method reference"
+msgstr ""
+
+msgid "OAuth Grant Info"
+msgstr ""
+
+msgid "OAuth Access Token Info"
+msgstr ""
 
 msgid "Added"
 msgstr "Adăugat"
@@ -1816,6 +1874,11 @@ msgstr "Orice facilitate"
 msgid "Any Exchange"
 msgstr "Orice Exchange"
 
+#, fuzzy
+#| msgid "Add Carrier"
+msgid "Any Carrier"
+msgstr "Adăugați Transportator"
+
 msgid "Manage peering sessions - Any Network"
 msgstr "Gestionați sesiunile de peering - Orice rețea"
 
@@ -1834,6 +1897,11 @@ msgstr "Exchange - %(ix_name)s"
 #, python-format
 msgid "Facility - %(fac_name)s"
 msgstr "Facilitate - %(fac_name)s"
+
+#, fuzzy, python-format
+#| msgid "Network - %(net_name)s"
+msgid "Carrier - %(carrier_name)s"
+msgstr "Rețea - %(net_name)s"
 
 msgid "Invalid organization specified"
 msgstr "Organizația specificată nu este validă"
@@ -1877,6 +1945,16 @@ msgstr "Acest câmp este permis doar pentru aceste solicitări: {methods}"
 msgid "Required for distance filtering"
 msgstr "Necesar pentru filtrarea la distanță"
 
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid latitude is required"
+msgstr "Acest câmp este necesar"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid longitude is required"
+msgstr "Acest câmp este necesar"
+
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politici cu o adresă e-mail validă înainte de a adăuga un Internet Exchange."
 
@@ -1892,6 +1970,11 @@ msgstr "Este posibil ca acest câmp să nu fie necompletat."
 
 msgid "ASN cannot be changed."
 msgstr "ASN nu poate fi modificat."
+
+#, fuzzy
+#| msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgid "Cannot be enabled - must have a Technical, NOC, or Policy point of contact with valid email."
+msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politici cu o adresă e-mail validă înainte de a adăuga un Internet Exchange."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr "Proprietatea `in_dfz` a fost depreciată și setarea acesteia la „False” nu mai este acceptată"
@@ -2713,11 +2796,25 @@ msgstr "Procesul de resetare a parolei a expirat, vă rugăm"
 msgid "initiate again"
 msgstr "să inițiați din nou"
 
-msgid "Account Security"
-msgstr "Securitatea contului"
+msgid "Security keys"
+msgstr "Chei de securitate"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "Gestionați autentificarea cu doi factori"
+#, fuzzy
+#| msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgid "Register your security key and use it as a 2FA method."
+msgstr "Înregistrați-vă cheia de securitate și utilizați-o ca metodă 2FA sau pentru autentificare fără parolă."
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr "Când utilizați o cheie de securitate U2F, cum ar fi <b>yubikeys</b>, solicitarea inițială poate afișa mai întâi alte chei interne ale dispozitivului (cum ar fi scanere de amprente și pini de securitate)."
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr "Dacă yubikey-ul dvs. este conectat, dar nu apare în listă, <b>anulați</b> solicitarea inițială și ar trebui să apară o nouă solicitare pentru yubikey."
+
+msgid "Remove"
+msgstr "Eliminați"
+
+msgid "Register security key"
+msgstr "Înregistrați cheia de securitate"
 
 msgid "Affiliate with organization"
 msgstr "Afiliați-vă la organizație"
@@ -2790,6 +2887,17 @@ msgstr "Creați o cheie API pentru un cont de superutilizator. Astfel de chei AP
 msgid "Read only"
 msgstr "Doar în modul citire"
 
+msgid "Account Security"
+msgstr "Securitatea contului"
+
+msgid "Manage Two-Factor Authentication"
+msgstr "Gestionați autentificarea cu doi factori"
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Manage Passkey Authentication"
+msgstr "Gestionați autentificarea cu doi factori"
+
 msgid "Email addresses"
 msgstr "adresele de e-mail"
 
@@ -2804,9 +2912,6 @@ msgstr "Retrimite e-mail de confirmare"
 
 msgid "Set as primary"
 msgstr "Setează ca principal"
-
-msgid "Remove"
-msgstr "Eliminați"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Pentru o validare rapidă este necesar să utilizați o adresă e-mail de serviciu. Dacă intenționați să vă înregistrați ASN-ul în PeeringDB, vă recomandăm să utilizați o adresă e-mail care se regăsește în datele publice de contact ale ASN-ului."
@@ -2865,6 +2970,24 @@ msgstr "V-am trimis un mesaj cu linkul de confirmare."
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "Nu veți avea acces deplin până când noi sau organizația la care sunteți afiliat nu vor examina contul dvs. Vă mulțumim pentru răbdarea dvs."
 
+msgid "Passkeys"
+msgstr ""
+
+#, fuzzy
+#| msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgid "Register your security key and use it as a Passkey authentication."
+msgstr "Înregistrați-vă cheia de securitate și utilizați-o ca metodă 2FA sau pentru autentificare fără parolă."
+
+#, fuzzy
+#| msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr "Când utilizați o cheie de securitate U2F, cum ar fi <b>yubikeys</b>, solicitarea inițială poate afișa mai întâi alte chei interne ale dispozitivului (cum ar fi scanere de amprente și pini de securitate)."
+
+#, fuzzy
+#| msgid "Register security key"
+msgid "Register passkey"
+msgstr "Înregistrați cheia de securitate"
+
 msgid "Select language"
 msgstr "Alegeți limba"
 
@@ -2873,27 +2996,6 @@ msgstr "Preferințele de limbă au fost salvate"
 
 msgid "Set language preference"
 msgstr "Setați preferințele de limbă"
-
-msgid "Security keys"
-msgstr "Chei de securitate"
-
-msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgstr "Înregistrați-vă cheia de securitate și utilizați-o ca metodă 2FA sau pentru autentificare fără parolă."
-
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr "Când utilizați o cheie de securitate U2F, cum ar fi <b>yubikeys</b>, solicitarea inițială poate afișa mai întâi alte chei interne ale dispozitivului (cum ar fi scanere de amprente și pini de securitate)."
-
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
-msgstr "Dacă yubikey-ul dvs. este conectat, dar nu apare în listă, <b>anulați</b> solicitarea inițială și ar trebui să apară o nouă solicitare pentru yubikey."
-
-msgid "passwordless-login"
-msgstr "autentificare fără parolă"
-
-msgid "Register security key"
-msgstr "Înregistrați cheia de securitate"
-
-msgid "Password-less login"
-msgstr "Conectare fără parolă"
 
 msgid "Account Created"
 msgstr "Contul a fost creat"
@@ -2994,7 +3096,9 @@ msgstr "Organizația principală a fost actualizată"
 msgid "Become a Sponsor"
 msgstr "Deveniți sponsor"
 
-msgid "This server is running in TUTORIAL MODE"
+#, fuzzy
+#| msgid "This server is running in TUTORIAL MODE"
+msgid "<b>This server is running in TUTORIAL MODE</b>"
 msgstr "Acest server rulează în MODUL TUTORIAL"
 
 msgid "These are the usernames associated with your email address"
@@ -3057,6 +3161,9 @@ msgstr "pentru a îmbunătăți calitatea datelor"
 
 msgid "Suggested Address:"
 msgstr "Adresa sugerată:"
+
+msgid "Dismiss"
+msgstr "Renunțați"
 
 msgid "Accept"
 msgstr "Acceptați"
@@ -3136,7 +3243,9 @@ msgstr "viteză"
 msgid "routeserver"
 msgstr "routeserver"
 
-msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+#, fuzzy
+#| msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgid "Sometimes we encounter some errors when parsing IX-F data, these will usually affect the import, you can view any of those errors below"
 msgstr "Uneori întâlnim unele erori la analizarea datelor IX-F, acestea vor afecta de obicei importul, puteți vedea oricare dintre aceste erori mai jos"
 
 msgid "Peers at this Exchange Point"
@@ -3148,8 +3257,16 @@ msgstr "Nume peer"
 msgid "Speed"
 msgstr "Viteză"
 
+#, fuzzy
+#| msgid "Location"
+msgid "Port Location"
+msgstr "Locație"
+
 msgid "IP"
 msgstr "Adresă IP"
+
+msgid "Network - Exchange link"
+msgstr "legătura dintre rețea și Internet Exchange"
 
 msgid "Not operational"
 msgstr "Nu este operațional"
@@ -3253,9 +3370,6 @@ msgstr "Opțiuni"
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "Ascundeți această sugestie până când Internet Exchange-ul o actualizează."
 
-msgid "Dismiss"
-msgstr "Renunțați"
-
 msgid "Add this entry to public peering exchange points"
 msgstr "Adăugați această intrare la Internet Exchange-urile cu peering public"
 
@@ -3290,8 +3404,10 @@ msgstr "Se vor adăuga toate intrările sugerate"
 msgid "Auto Add"
 msgstr "Adăugare automată"
 
-msgid "Network - Exchange link"
-msgstr "legătura dintre rețea și Internet Exchange"
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD Support"
+msgstr "Asistență 24/7"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
@@ -3436,7 +3552,9 @@ msgstr "Sugerați un alt Internet Exchange"
 msgid "Suggest another network"
 msgstr "Sugerați o altă rețea"
 
-msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+#, fuzzy
+#| msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr "Pentru autentificarea <strong>fără parolă</strong>, lăsați câmpul pentru parolă gol și asigurați-vă că cheia de securitate U2F FIDO înregistrată este disponibilă/conectată."
 
 msgid "I forgot my password .."
@@ -3517,6 +3635,9 @@ msgstr "Utilizați token-ul de rezervă"
 msgid "Enable Two-Factor Authentication"
 msgstr "Activați autentificarea cu doi factori"
 
+msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
 msgstr "Sunteți pe cale să duceți securitatea contului la următorul nivel. Urmați pașii din acest expert pentru a activa autentificarea cu doi factori."
 
@@ -3573,9 +3694,6 @@ msgstr "ore în urmă"
 
 msgid "days ago"
 msgstr "zile în urmă"
-
-msgid "{soc.get(\"service\", dismiss)}"
-msgstr "{soc.get(„serviciu”, respinge)}"
 
 msgid "Invalid format"
 msgstr "Format invalid"
@@ -3674,6 +3792,11 @@ msgstr "Tip de obiect necunoscut: {ref_tag}"
 msgid "object {ref_tag}.{obj_id} not found"
 msgstr "obiectul {ref_tag}.{obj_id} nu a fost găsit"
 
+#, fuzzy
+#| msgid "Geo coding failed: {}"
+msgid "Geo coding failed: City not found"
+msgstr "Codificarea geografică a eșuat: {}"
+
 msgid "Please wait a bit before proposing verified updates again."
 msgstr "Vă rugăm să așteptați puțin înainte de a propune din nou actualizări verificate."
 
@@ -3714,6 +3837,11 @@ msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou afilier
 
 msgid "Either ASN or Organization required"
 msgstr "Este necesar ASN-ul sau organizația"
+
+#, fuzzy
+#| msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgid "Unable to affiliate as this network has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr "Imposibil de afiliat deoarece această organizație a fost ștearsă. Vă rugăm să contactați asistența PeeringDB dacă doriți să rezolvați acest lucru."
 
 msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
 msgstr "Imposibil de afiliat deoarece această organizație a fost ștearsă. Vă rugăm să contactați asistența PeeringDB dacă doriți să rezolvați acest lucru."
@@ -3771,6 +3899,16 @@ msgstr "Această adresă e-mail a fost deja utilizată"
 
 msgid "Username cannot start with 'apikey'"
 msgstr "Numele de utilizator nu poate începe cu „apikey”"
+
+#, fuzzy
+#| msgid "Needs to be at least 10 characters long"
+msgid "Password must be at least 10 characters long."
+msgstr "Trebuie să aibă o lungime de cel puțin 10 caractere"
+
+#, fuzzy
+#| msgid "Password-less login"
+msgid "Password is too long."
+msgstr "Conectare fără parolă"
 
 msgid "Incorrect password"
 msgstr "Parolă incorectă"
@@ -3884,6 +4022,27 @@ msgstr "Numai administratorul {org} poate efectua acțiunea"
 
 msgid "Login as the organization admin to perform the action"
 msgstr "Conectați-vă ca administrator al organizației pentru a efectua acțiunea"
+
+msgid "Your email must be confirmed before enabling two-factor authentication."
+msgstr ""
+
+#~ msgid "Lessee"
+#~ msgstr "Locatar"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
+#~ msgstr "Un deținător al unei proprietăți este persoana fizică sau entitatea care deține dreptul de proprietate asupra acesteia. Un locatar este un utilizator al unei proprietăți care are un contract de închiriere sau un acord cu deținătorul proprietății."
+
+#~ msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+#~ msgstr "Această entitate a fost creată pentru ASN {} - vă rugăm să o eliminați din această rețea și să o recreați în rețeaua corectă"
+
+#~ msgid "passwordless-login"
+#~ msgstr "autentificare fără parolă"
+
+#~ msgid "{soc.get(\"service\", dismiss)}"
+#~ msgstr "{soc.get(„serviciu”, respinge)}"
 
 #, fuzzy
 #~| msgid "Date"

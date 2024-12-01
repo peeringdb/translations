@@ -228,6 +228,9 @@ msgstr "Öffentlich"
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr "Eine E.164-formatierte Telefonnummer beginnt mit einem \"+\", gefolgt von der Ländervorwahl und dann der nationalen Rufnummer (führende Nullen werden in den meisten Ländern ausgelassen). Leerzeichen oder Striche zwischen den Gruppen von Ziffern werden ausgelassen"
 
+msgid "Total, self-classified traffic in/out to this network."
+msgstr ""
+
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
 msgstr "Wenn dieses Feld festgelegt ist, wird es in diesem Datensatz angezeigt. Wenn nicht, zeigen wir die Website des Organisationsdatensatzes an, mit dem sie verknüpft ist"
 
@@ -237,7 +240,9 @@ msgstr "Anbieter von L1- oder L2-Konnektivität zu einer Liegenschaft"
 msgid "A set of facilities under one management, with inter-building cross-connects"
 msgstr "Eine Reihe von Einrichtungen unter einer Leitung, mit Verbindungen zwischen den einzelnen Gebäuden"
 
-msgid "Peering with the routeserver is shown with an icon"
+#, fuzzy
+#| msgid "Peering with the routeserver is shown with an icon"
+msgid "Peering with the routeserver and BFD support is shown with an icon"
 msgstr "Das Peering mit dem Routenserver wird mit einem Symbol angezeigt"
 
 msgid "Best Effort (no SLA)"
@@ -264,8 +269,8 @@ msgstr "Wiederkehrende Kosten"
 msgid "Owner"
 msgstr "Eigentümer"
 
-msgid "Lessee"
-msgstr "Mieter"
+msgid "Leased or Rented"
+msgstr ""
 
 msgid "48 VDC"
 msgstr "48V Gleichstrom"
@@ -284,8 +289,8 @@ msgstr "Webseite"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Twitter"
-msgstr "Twitter"
+msgid "X"
+msgstr ""
 
 msgid "Instagram"
 msgstr "Instagram"
@@ -377,8 +382,8 @@ msgstr "Vertriebstelefon"
 msgid "Property"
 msgstr "Eigentum"
 
-msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr "Der Eigentümer einer Immobilie ist die natürliche oder juristische Person, die das Eigentum an der Immobilie besitzt. Ein Mieter ist ein Nutzer einer Immobilie, der einen Mietvertrag, eine Vereinbarung, mit dem Eigentümer der Immobilie hat."
+msgid "Leasing or renting is an agreement with a property owner for use of the property."
+msgstr ""
 
 msgid "Diverse Serving Substations"
 msgstr "Redundante Versorgungseinrichtungen"
@@ -592,6 +597,11 @@ msgstr "Rechenzentren zusammenführen"
 msgid "RS peer"
 msgstr "RS peer"
 
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD support"
+msgstr "24x7 Unterstützung"
+
 msgid "Speed (mbit/sec)"
 msgstr "Datenrate (mbit/s)"
 
@@ -799,6 +809,11 @@ msgstr "ASN wird bereits von einem anderen Netzwerk verwendet"
 msgid "Name is already in use by another network"
 msgstr "Der Name wird bereits von einem anderen Netzwerk verwendet"
 
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not set"
+msgstr "Nicht zugewiesen"
+
 msgid "APPROVE selected items"
 msgstr "Gewählte Einträge FREIGEBEN"
 
@@ -865,6 +880,11 @@ msgstr "Keine Anforderungen"
 msgid "Value"
 msgstr "Wert"
 
+#, fuzzy
+#| msgid "Requested by user"
+msgid "Request handled by"
+msgstr "Beantragt von Benutzer"
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Dieses Kommando wird bereits ausgeführt - bitten warten Sie, bis es beendet wird, bevor sie es erneut ausführen"
 
@@ -898,7 +918,9 @@ msgstr "Stelle dieses Objekt wieder her - Suche über [reftag] [id]"
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "Über diese Schnittstelle können momentab nur Objekte des Typs {} wiederhergestellt werden"
 
-msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+#, fuzzy
+#| msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgid "Select an Internet Exchange to perform an IX-F memberdata import"
 msgstr "Internet Exchange auswählen, um Mitgliederdaten zu importieren"
 
 msgid "Reset all"
@@ -1062,6 +1084,11 @@ msgstr "ASN muss eine Zahl sein"
 msgid "Needs to be at least 10 characters long"
 msgstr "Muss mindestens 10 Zeichen lang sein"
 
+#, fuzzy
+#| msgid "Password-less login"
+msgid "Password is too long"
+msgstr "Login ohne Passwort"
+
 msgid "Passwords need to match"
 msgstr "Passwörter stimmen nicht überein"
 
@@ -1181,6 +1208,14 @@ msgstr "PeeringDB: bitte korrigieren: IX-F Importer, Datendiskrepanz zwischen {}
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Benachrichtigung über Zusammenlegung: {} -> {}"
+
+#, python-format
+msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
+msgstr ""
+
+#, python-format
+msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
+msgstr ""
 
 msgid "Inactive"
 msgstr "Inaktiv"
@@ -1309,6 +1344,11 @@ msgstr "Anfragen zu Benutzern, die zum Unternehmen hinzugefügt werden sollen"
 
 msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "Die Zugehörigkeit zum Unternehmen \"{}\" wurde freigegeben"
+
+#, fuzzy
+#| msgid "User to Organization Affiliation Requests"
+msgid "User to Organization Affiliation Request History"
+msgstr "Anfragen zu Benutzern, die zum Unternehmen hinzugefügt werden sollen"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "Der Eintrag dieser Liste wurde durch den Benutzer hinzugefügt"
@@ -1445,7 +1485,9 @@ msgstr "Datum der letzten manuellen Importanforderung"
 msgid "Manual IX-F import status"
 msgstr "Status des manuellen IX-F-Import"
 
-msgid "The current status of the manual ix-f import request"
+#, fuzzy
+#| msgid "The current status of the manual ix-f import request"
+msgid "The current status of the manual IX-F import request"
 msgstr "Der aktuelle Status der manuellen IX-F-Importanforderung"
 
 msgid "Queued"
@@ -1460,7 +1502,9 @@ msgstr "Fertig"
 msgid "Import failed"
 msgstr "Import fehlgeschlagen"
 
-msgid "The user that triggered the manual ix-f import request"
+#, fuzzy
+#| msgid "The user that triggered the manual ix-f import request"
+msgid "The user that triggered the manual IX-F import request"
 msgstr "Der Benutzer, der die manuelle IX-F-Importanforderung ausgelöst hat"
 
 msgid "number of facilities at this exchange"
@@ -1514,7 +1558,9 @@ msgstr "IX-F Import Log Eintrag"
 msgid "IX-F Import Log Entries"
 msgstr "IX-F Import Log Einträge"
 
-msgid "JSON snapshot of the ix-f member data that created this entry"
+#, fuzzy
+#| msgid "JSON snapshot of the ix-f member data that created this entry"
+msgid "JSON snapshot of the IX-F member data that created this entry"
 msgstr "JSON snapshot der Quelle für diesen Eintrag (IX-F Mitglied)"
 
 msgid "Activity for this entry"
@@ -1564,9 +1610,6 @@ msgstr "Letzter technischer Kontakt für Netzwerk mit aktiven Peers"
 
 msgid "Phone or email required"
 msgstr "Telefon oder E-Mail erforderlich"
-
-msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr "Die Entität wurde für das ASN {} erstellt - bitte entferne es von dem Netzwerk und erstelle es nochmal im richtigen Netzwerk"
 
 msgid "IPv4 address outside of prefix"
 msgstr "IPv4-Adresse liegt außerhalb des Präfix"
@@ -1751,7 +1794,13 @@ msgstr "API: Meldung für Drosselungsrate bei Anonymen API"
 msgid "API: Authenticated API throttle rate message"
 msgstr "API: Meldung für Drosselungsrate bei authentifizierten API"
 
+msgid "API: Request Write API Limiting"
+msgstr ""
+
 msgid "Show last database sync"
+msgstr ""
+
+msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Last Updated"
@@ -1771,6 +1820,15 @@ msgstr "OAuth-Anwendung"
 
 msgid "OAuth Applications"
 msgstr "OAuth-Anwendungen"
+
+msgid "Authentication method reference"
+msgstr ""
+
+msgid "OAuth Grant Info"
+msgstr ""
+
+msgid "OAuth Access Token Info"
+msgstr ""
 
 msgid "Added"
 msgstr "Hinzugefügt"
@@ -1814,6 +1872,11 @@ msgstr "Alle Liegenschaften"
 msgid "Any Exchange"
 msgstr "Alle Austauschpunkte"
 
+#, fuzzy
+#| msgid "Add Carrier"
+msgid "Any Carrier"
+msgstr "Carrier hinzufügen"
+
 msgid "Manage peering sessions - Any Network"
 msgstr "Verwalten von Peering-Sitzungen - Jedes Netz"
 
@@ -1832,6 +1895,11 @@ msgstr "Austauschpunkt - %(ix_name)s"
 #, python-format
 msgid "Facility - %(fac_name)s"
 msgstr "Liegenschaft - %(fac_name)s"
+
+#, fuzzy, python-format
+#| msgid "Network - %(net_name)s"
+msgid "Carrier - %(carrier_name)s"
+msgstr "Netzwerk - %(net_name)s"
 
 msgid "Invalid organization specified"
 msgstr "Ungültiges Unternehmen angegeben"
@@ -1875,6 +1943,16 @@ msgstr "Dieses Feld ist nur bei diesen Anforderungen erlaubt: {methods}"
 msgid "Required for distance filtering"
 msgstr "Erforderlich für Entfernungsfilterung"
 
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid latitude is required"
+msgstr "Dieses Feld ist erforderlich"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid longitude is required"
+msgstr "Dieses Feld ist erforderlich"
+
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Netzwerk muss eine Technische, NOC oder Peering Policy Kontaktperson mit gültiger E-Mail haben, bevor der Austauschpunkt hinzugefügt werden kann."
 
@@ -1890,6 +1968,11 @@ msgstr "Dieses Feld darf nicht leer sein."
 
 msgid "ASN cannot be changed."
 msgstr "ASN kann nicht geändert werden."
+
+#, fuzzy
+#| msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgid "Cannot be enabled - must have a Technical, NOC, or Policy point of contact with valid email."
+msgstr "Netzwerk muss eine Technische, NOC oder Peering Policy Kontaktperson mit gültiger E-Mail haben, bevor der Austauschpunkt hinzugefügt werden kann."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr "Eigenschaft `in_dfz` ist veraltet und kann nicht mehr auf `Falsch` gesetzt werden"
@@ -2711,11 +2794,25 @@ msgstr "Dieser Link zum Zurücksetzen des Passworts ist abgelaufen, bitte"
 msgid "initiate again"
 msgstr "erneut einleiten"
 
-msgid "Account Security"
-msgstr "Kontosicherheit"
+msgid "Security keys"
+msgstr "Sicherheitsschlüssel"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "Zwei-Faktor-Authentifizierung verwalten"
+#, fuzzy
+#| msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgid "Register your security key and use it as a 2FA method."
+msgstr "Registrieren Sie Ihren Sicherheitsschlüssel und verwenden Sie ihn als 2FA-Methode oder für die passwortlose Anmeldung."
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr "Wenn Sie einen U2F-Sicherheitsschlüssel wie <b>yubikeys</b> verwenden, zeigt die anfängliche Eingabeaufforderung möglicherweise zuerst andere geräteinterne Schlüssel (wie Fingerabdruckscanner und Sicherheitspins)."
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr "Wenn Ihr Yubikey angeschlossen ist, aber nicht in der Liste erscheint, <b>brechen Sie</b> die anfängliche Eingabeaufforderung ab und eine neue Eingabeaufforderung für Ihren Yubikey sollte danach erscheinen."
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Register security key"
+msgstr "Registrieren Sie den Sicherheitsschlüssel"
 
 msgid "Affiliate with organization"
 msgstr "Zuordnung zu einer Organisation anfordern"
@@ -2788,6 +2885,17 @@ msgstr "Sie erstellen einen API-Schlüssel für ein Superuser-Konto. Solche API-
 msgid "Read only"
 msgstr "Schreibgeschützt"
 
+msgid "Account Security"
+msgstr "Kontosicherheit"
+
+msgid "Manage Two-Factor Authentication"
+msgstr "Zwei-Faktor-Authentifizierung verwalten"
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Manage Passkey Authentication"
+msgstr "Zwei-Faktor-Authentifizierung verwalten"
+
 msgid "Email addresses"
 msgstr "E-Mail Adressen"
 
@@ -2802,9 +2910,6 @@ msgstr "Wir haben Ihnen erneut eine Bestätigungsmail zugesandt"
 
 msgid "Set as primary"
 msgstr "Als primär setzen"
-
-msgid "Remove"
-msgstr "Entfernen"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Für eine schnelle Validierung ist es erforderlich, dass Sie eine geschäftliche E-Mail-Adresse verwenden. Wenn Sie planen, Ihren ASN bei PeeringDB zu registrieren, wird empfohlen, dass Sie eine E-Mail-Adresse verwenden, die in den öffentlichen Kontaktdaten des ASN vorhanden ist."
@@ -2863,6 +2968,24 @@ msgstr "Wir haben Ihnen eine Nachricht mit dem Bestätigungslink zugesandt."
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "Bevor wir oder die Organisation, der Sie angehören, Ihr Konto geprüft haben, werden Sie noch keinen Vollzugriff haben. Vielen Dank für Ihre Geduld."
 
+msgid "Passkeys"
+msgstr ""
+
+#, fuzzy
+#| msgid "Register your security key and use it as a 2FA method or for password-less login."
+msgid "Register your security key and use it as a Passkey authentication."
+msgstr "Registrieren Sie Ihren Sicherheitsschlüssel und verwenden Sie ihn als 2FA-Methode oder für die passwortlose Anmeldung."
+
+#, fuzzy
+#| msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr "Wenn Sie einen U2F-Sicherheitsschlüssel wie <b>yubikeys</b> verwenden, zeigt die anfängliche Eingabeaufforderung möglicherweise zuerst andere geräteinterne Schlüssel (wie Fingerabdruckscanner und Sicherheitspins)."
+
+#, fuzzy
+#| msgid "Register security key"
+msgid "Register passkey"
+msgstr "Registrieren Sie den Sicherheitsschlüssel"
+
 msgid "Select language"
 msgstr "Sprache auswählen"
 
@@ -2871,27 +2994,6 @@ msgstr "Sprachauswahl gespeichert"
 
 msgid "Set language preference"
 msgstr "Sprachauswahl speichern"
-
-msgid "Security keys"
-msgstr "Sicherheitsschlüssel"
-
-msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgstr "Registrieren Sie Ihren Sicherheitsschlüssel und verwenden Sie ihn als 2FA-Methode oder für die passwortlose Anmeldung."
-
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr "Wenn Sie einen U2F-Sicherheitsschlüssel wie <b>yubikeys</b> verwenden, zeigt die anfängliche Eingabeaufforderung möglicherweise zuerst andere geräteinterne Schlüssel (wie Fingerabdruckscanner und Sicherheitspins)."
-
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
-msgstr "Wenn Ihr Yubikey angeschlossen ist, aber nicht in der Liste erscheint, <b>brechen Sie</b> die anfängliche Eingabeaufforderung ab und eine neue Eingabeaufforderung für Ihren Yubikey sollte danach erscheinen."
-
-msgid "passwordless-login"
-msgstr "Passwortlose Anmeldung"
-
-msgid "Register security key"
-msgstr "Registrieren Sie den Sicherheitsschlüssel"
-
-msgid "Password-less login"
-msgstr "Login ohne Passwort"
 
 msgid "Account Created"
 msgstr "Erstellungsdatum des Kontos"
@@ -2987,7 +3089,9 @@ msgstr "Primäre Organisation angepasst"
 msgid "Become a Sponsor"
 msgstr "Sponsor werden"
 
-msgid "This server is running in TUTORIAL MODE"
+#, fuzzy
+#| msgid "This server is running in TUTORIAL MODE"
+msgid "<b>This server is running in TUTORIAL MODE</b>"
 msgstr "Dieser Server befindet sich im TUTORIAL-MODUS"
 
 msgid "These are the usernames associated with your email address"
@@ -3051,6 +3155,9 @@ msgstr "markiert sind, um die Datenqualität zu erhöhen"
 
 msgid "Suggested Address:"
 msgstr "Empfohlene Adresse:"
+
+msgid "Dismiss"
+msgstr "Ablehnen"
 
 msgid "Accept"
 msgstr "Akzeptieren"
@@ -3130,7 +3237,9 @@ msgstr "Geschwindigkeit"
 msgid "routeserver"
 msgstr "Routeserver"
 
-msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+#, fuzzy
+#| msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgid "Sometimes we encounter some errors when parsing IX-F data, these will usually affect the import, you can view any of those errors below"
 msgstr "Manchmal laufen wir auf Fehler, wenn IX-F-Daten geparst werden. Diese betreffen gewöhnlicherweise den Import. Weiter unten sehen Sie diese Fehler"
 
 msgid "Peers at this Exchange Point"
@@ -3142,8 +3251,16 @@ msgstr "Peername"
 msgid "Speed"
 msgstr "Geschwindigkeit"
 
+#, fuzzy
+#| msgid "Location"
+msgid "Port Location"
+msgstr "Ort"
+
 msgid "IP"
 msgstr "IP"
+
+msgid "Network - Exchange link"
+msgstr "Netzwerk-Austauschpunkt-Link"
 
 msgid "Not operational"
 msgstr "Nicht in Betrieb"
@@ -3247,9 +3364,6 @@ msgstr "Optionen"
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "Blenden Sie diesen Vorschlag aus, bis der Austauschpunkt ihn aktualisiert."
 
-msgid "Dismiss"
-msgstr "Ablehnen"
-
 msgid "Add this entry to public peering exchange points"
 msgstr "Eintrag zu öffentlichen Peering Austauschpunkten hinzufügen"
 
@@ -3284,8 +3398,10 @@ msgstr "Fügt alle vorgeschlagenen Einträge hinzu"
 msgid "Auto Add"
 msgstr "Automatisches Hinzufügen"
 
-msgid "Network - Exchange link"
-msgstr "Netzwerk-Austauschpunkt-Link"
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD Support"
+msgstr "24x7 Unterstützung"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "Eintrag muss zum korrekten Netzwerk verschoben werden"
@@ -3430,7 +3546,9 @@ msgstr "Einen weiteren Austauschpunkt vorschlagen"
 msgid "Suggest another network"
 msgstr "Ein weiteres Netzwerk vorschlagen"
 
-msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+#, fuzzy
+#| msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr "Lassen Sie für die <strong>passwortlose</strong> Authentifizierung das Passwortfeld leer und vergewissern Sie sich, dass Ihr registrierter U2F-FIDO-Sicherheitsschlüssel verfügbar/verbunden ist."
 
 msgid "I forgot my password .."
@@ -3511,6 +3629,9 @@ msgstr "Backup Token verwenden"
 msgid "Enable Two-Factor Authentication"
 msgstr "Aktiviere Zwei-Faktor-Authentifizierung"
 
+msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
 msgstr "Du bist dabei deine Kontosicherheit auf das nächste Level zu heben. Folge der Anleitung um Zwei-Faktor Authentifizierung zu aktivieren."
 
@@ -3567,9 +3688,6 @@ msgstr "Stunden her"
 
 msgid "days ago"
 msgstr "Tage her"
-
-msgid "{soc.get(\"service\", dismiss)}"
-msgstr "{soc.get(\"service\", dismiss)}"
 
 msgid "Invalid format"
 msgstr "Ungültiges Format"
@@ -3668,6 +3786,11 @@ msgstr "Unbekannter Objekttyp: {ref_tag}"
 msgid "object {ref_tag}.{obj_id} not found"
 msgstr "Objekt {ref_tag}.{obj_id} nicht gefunden"
 
+#, fuzzy
+#| msgid "Geo coding failed: {}"
+msgid "Geo coding failed: City not found"
+msgstr "Geocode-Fehler: {}"
+
 msgid "Please wait a bit before proposing verified updates again."
 msgstr "Bitte warten Sie ein wenig, bevor Sie erneut verifizierte Updates vorschlagen."
 
@@ -3708,6 +3831,11 @@ msgstr "Bitte warten Sie, bevor Sie erneut Zuordnung anfordern."
 
 msgid "Either ASN or Organization required"
 msgstr "Entweder ASN oder Organisation erforderlich"
+
+#, fuzzy
+#| msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgid "Unable to affiliate as this network has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr "Der Beitritt ist nicht möglich, da diese Organisation gelöscht wurde. Bitte wenden Sie sich an den PeeringDB-Support, wenn Sie dieses Problem beheben möchten."
 
 msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
 msgstr "Der Beitritt ist nicht möglich, da diese Organisation gelöscht wurde. Bitte wenden Sie sich an den PeeringDB-Support, wenn Sie dieses Problem beheben möchten."
@@ -3765,6 +3893,16 @@ msgstr "Diese E-Mail-Adresse wurde bereits genutzt"
 
 msgid "Username cannot start with 'apikey'"
 msgstr "Benutzernamen dürfen nicht mit „apikey“ beginnen"
+
+#, fuzzy
+#| msgid "Needs to be at least 10 characters long"
+msgid "Password must be at least 10 characters long."
+msgstr "Muss mindestens 10 Zeichen lang sein"
+
+#, fuzzy
+#| msgid "Password-less login"
+msgid "Password is too long."
+msgstr "Login ohne Passwort"
 
 msgid "Incorrect password"
 msgstr "Falsches Passwort"
@@ -3878,6 +4016,27 @@ msgstr "Nur der Administrator der {org} kann die Aktion durchführen"
 
 msgid "Login as the organization admin to perform the action"
 msgstr "Melden Sie sich als Administrator der Organisation an, um die Aktion durchzuführen"
+
+msgid "Your email must be confirmed before enabling two-factor authentication."
+msgstr ""
+
+#~ msgid "Lessee"
+#~ msgstr "Mieter"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
+#~ msgstr "Der Eigentümer einer Immobilie ist die natürliche oder juristische Person, die das Eigentum an der Immobilie besitzt. Ein Mieter ist ein Nutzer einer Immobilie, der einen Mietvertrag, eine Vereinbarung, mit dem Eigentümer der Immobilie hat."
+
+#~ msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+#~ msgstr "Die Entität wurde für das ASN {} erstellt - bitte entferne es von dem Netzwerk und erstelle es nochmal im richtigen Netzwerk"
+
+#~ msgid "passwordless-login"
+#~ msgstr "Passwortlose Anmeldung"
+
+#~ msgid "{soc.get(\"service\", dismiss)}"
+#~ msgstr "{soc.get(\"service\", dismiss)}"
 
 #, fuzzy
 #~| msgid "Date"

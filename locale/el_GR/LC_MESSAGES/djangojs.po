@@ -19,7 +19,7 @@ msgstr ""
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr "Κάποια από τα πεδία εμπεριέχουν μη έγκυρες τιμές - παρακαλώ διορθώστε και ξαναπροσπαθήστε"
 
-msgid "Permission denied"
+msgid "Not Allowed"
 msgstr ""
 
 msgid "Bad request"
@@ -52,6 +52,16 @@ msgstr "Πρέπει να τaιριάζει με τον κωδικό"
 msgid "Needs to be a valid email address"
 msgstr "Πρέπει να είναι έγκυρη διεύθυνση email"
 
+#, fuzzy
+#| msgid "Needs to be a valid url"
+msgid "Needs to be a valid latitude"
+msgstr "Πρέπει να είναι έγκυρο url"
+
+#, fuzzy
+#| msgid "Needs to be a valid url"
+msgid "Needs to be a valid longitude"
+msgstr "Πρέπει να είναι έγκυρο url"
+
 msgid "Needs to be a valid url"
 msgstr "Πρέπει να είναι έγκυρο url"
 
@@ -63,6 +73,9 @@ msgstr "Ναι"
 
 msgid "No"
 msgstr "Όχι"
+
+msgid "Queued"
+msgstr ""
 
 msgid "Please wait before requesting another import."
 msgstr ""
@@ -164,6 +177,12 @@ msgid "Upload"
 msgstr ""
 
 msgid "File size too big"
+msgstr ""
+
+msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
+msgstr ""
+
+msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""
 msgstr ""
 
 #~ msgid "IXLAN"

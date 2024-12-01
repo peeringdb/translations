@@ -20,8 +20,10 @@ msgstr ""
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr "Alguns dos campos contêm valores inválidos - favor corrigir e tentar novamente."
 
-msgid "Permission denied"
-msgstr "Permissão negada"
+#, fuzzy
+#| msgid "Not found"
+msgid "Not Allowed"
+msgstr "Não encontrado"
 
 msgid "Bad request"
 msgstr "Bad request"
@@ -53,6 +55,16 @@ msgstr "A senha deve coincidir"
 msgid "Needs to be a valid email address"
 msgstr "É necessário que seja um endereço de email válido"
 
+#, fuzzy
+#| msgid "Needs to be a valid url"
+msgid "Needs to be a valid latitude"
+msgstr "É necessário que seja uma url válida"
+
+#, fuzzy
+#| msgid "Needs to be a valid url"
+msgid "Needs to be a valid longitude"
+msgstr "É necessário que seja uma url válida"
+
 msgid "Needs to be a valid url"
 msgstr "É necessário que seja uma url válida"
 
@@ -64,6 +76,9 @@ msgstr "Sim"
 
 msgid "No"
 msgstr "Não"
+
+msgid "Queued"
+msgstr ""
 
 msgid "Please wait before requesting another import."
 msgstr "Aguarde antes de solicitar outra importação."
@@ -166,6 +181,15 @@ msgstr "Carregar"
 
 msgid "File size too big"
 msgstr "Tamanho do arquivo muito grande"
+
+msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
+msgstr ""
+
+msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""
+msgstr ""
+
+#~ msgid "Permission denied"
+#~ msgstr "Permissão negada"
 
 #~ msgid "IXLAN"
 #~ msgstr "IXLAN"

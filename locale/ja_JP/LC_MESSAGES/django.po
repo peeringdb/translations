@@ -227,6 +227,9 @@ msgstr "パブリック"
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr "先頭に + が付けられ、国番号、国内電話番号（たいてい先頭の 0 が削除されます）が続く E.164 形式の電話番号です。番号の間にスペースや - は必要ありません"
 
+msgid "Total, self-classified traffic in/out to this network."
+msgstr ""
+
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
 msgstr ""
 
@@ -236,7 +239,7 @@ msgstr ""
 msgid "A set of facilities under one management, with inter-building cross-connects"
 msgstr ""
 
-msgid "Peering with the routeserver is shown with an icon"
+msgid "Peering with the routeserver and BFD support is shown with an icon"
 msgstr ""
 
 msgid "Best Effort (no SLA)"
@@ -263,8 +266,8 @@ msgstr "Recurring Fees"
 msgid "Owner"
 msgstr "所有者"
 
-msgid "Lessee"
-msgstr "Lessee"
+msgid "Leased or Rented"
+msgstr ""
 
 msgid "48 VDC"
 msgstr "48 VDC"
@@ -283,7 +286,7 @@ msgstr "Web サイト"
 msgid "Facebook"
 msgstr ""
 
-msgid "Twitter"
+msgid "X"
 msgstr ""
 
 msgid "Instagram"
@@ -376,8 +379,8 @@ msgstr "営業担当の電話番号"
 msgid "Property"
 msgstr "Property"
 
-msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr "プロパティの所有者は、プロパティの所有権を持つ個人または法人です。 借主とは、プロパティの所有者と賃貸借契約を結んでいる物件の利用者です。"
+msgid "Leasing or renting is an agreement with a property owner for use of the property."
+msgstr ""
 
 msgid "Diverse Serving Substations"
 msgstr "Diverse Serving Substations"
@@ -594,6 +597,11 @@ msgstr "Network Facilities"
 
 msgid "RS peer"
 msgstr "RS ピア"
+
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD support"
+msgstr "24/7 サポート"
 
 msgid "Speed (mbit/sec)"
 msgstr "帯域 (Mbit/sec)"
@@ -820,6 +828,11 @@ msgstr "さらにネットワーク情報追加の提案をする"
 msgid "Name is already in use by another network"
 msgstr ""
 
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not set"
+msgstr "設定されていません"
+
 msgid "APPROVE selected items"
 msgstr "選択したアイテムが承認されました"
 
@@ -888,6 +901,11 @@ msgstr "不要"
 msgid "Value"
 msgstr "値"
 
+#, fuzzy
+#| msgid "Requested by user"
+msgid "Request handled by"
+msgstr "ユーザによってリクエストされました"
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "このコマンドは待機中もしくは実行中です。実行が完了するまでお待ちください。"
 
@@ -921,7 +939,9 @@ msgstr "このオブジェクトを復元します - [reftag] [id] で検索"
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "いまは、このインタフェースを介して {} タイプのオブジェクトのみが復元されます"
 
-msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+#, fuzzy
+#| msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgid "Select an Internet Exchange to perform an IX-F memberdata import"
 msgstr "IX-F メンバーデータ入力をする為に、インターネット・エクスチェンジを選択してください"
 
 msgid "Reset all"
@@ -1089,6 +1109,11 @@ msgstr "AS番号は数字でお願いします"
 msgid "Needs to be at least 10 characters long"
 msgstr "10文字以上の文字数でお願いします"
 
+#, fuzzy
+#| msgid "Password Verification"
+msgid "Password is too long"
+msgstr "パスワード確認"
+
 msgid "Passwords need to match"
 msgstr "文字列が一致するパスワードでお願いします"
 
@@ -1210,6 +1235,14 @@ msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F 
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 統合の通知: {} -> {}"
+
+#, python-format
+msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
+msgstr ""
+
+#, python-format
+msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
+msgstr ""
 
 #, fuzzy
 #| msgid "active"
@@ -1342,6 +1375,11 @@ msgstr "組織所属のリクエスト(Requests)を行ったユーザ"
 
 msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "組織所属 \"{}\" が承認されました"
+
+#, fuzzy
+#| msgid "User to Organization Affiliation Requests"
+msgid "User to Organization Affiliation Request History"
+msgstr "組織所属のリクエスト(Requests)を行ったユーザ"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "このユーザによって、このキューに加わっているこのアイテムが生成されました"
@@ -1478,7 +1516,9 @@ msgstr "最も最近の手動インポートリクエストの日時"
 msgid "Manual IX-F import status"
 msgstr "Manual IX-F import status"
 
-msgid "The current status of the manual ix-f import request"
+#, fuzzy
+#| msgid "The current status of the manual ix-f import request"
+msgid "The current status of the manual IX-F import request"
 msgstr "手動 ix-f import リクエストの現在のステータス"
 
 msgid "Queued"
@@ -1495,7 +1535,9 @@ msgstr "Finished"
 msgid "Import failed"
 msgstr "IXF Import のログのエントリー(IXF Import Log Entries)"
 
-msgid "The user that triggered the manual ix-f import request"
+#, fuzzy
+#| msgid "The user that triggered the manual ix-f import request"
+msgid "The user that triggered the manual IX-F import request"
 msgstr "The user that triggered the manual ix-f import request"
 
 msgid "number of facilities at this exchange"
@@ -1549,7 +1591,9 @@ msgstr "IX-F Import のログのエントリー(IX-F Import Log Entry)"
 msgid "IX-F Import Log Entries"
 msgstr "IX-F Import のログのエントリー(IX-F Import Log Entries)"
 
-msgid "JSON snapshot of the ix-f member data that created this entry"
+#, fuzzy
+#| msgid "JSON snapshot of the ix-f member data that created this entry"
+msgid "JSON snapshot of the IX-F member data that created this entry"
 msgstr "このエントリを作成した ix-f member data の JSON スナップショット"
 
 msgid "Activity for this entry"
@@ -1601,9 +1645,6 @@ msgstr "アクティブなピアになっているネットワークの最後の
 #| msgid "Contract Requirement"
 msgid "Phone or email required"
 msgstr "コンタクトに関する条件"
-
-msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr "このエンティティは、ASN {} 用に作成されています - このネットワークから削除し、正しいネットワークで再度作成してください"
 
 msgid "IPv4 address outside of prefix"
 msgstr "プレフィクス範囲から外れた IPv4 アドレス"
@@ -1792,7 +1833,13 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "API: Request Write API Limiting"
+msgstr ""
+
 msgid "Show last database sync"
+msgstr ""
+
+msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Last Updated"
@@ -1818,6 +1865,15 @@ msgstr "OAuth アプリケーションで管理する"
 #| msgid "Manage OAuth Applications"
 msgid "OAuth Applications"
 msgstr "OAuth アプリケーションで管理する"
+
+msgid "Authentication method reference"
+msgstr ""
+
+msgid "OAuth Grant Info"
+msgstr ""
+
+msgid "OAuth Access Token Info"
+msgstr ""
 
 msgid "Added"
 msgstr ""
@@ -1873,6 +1929,9 @@ msgstr "あらゆるデータセンタ"
 msgid "Any Exchange"
 msgstr "あらゆるエクスチェンジ"
 
+msgid "Any Carrier"
+msgstr ""
+
 msgid "Manage peering sessions - Any Network"
 msgstr ""
 
@@ -1891,6 +1950,11 @@ msgstr "エクスチェンジ - %(ix_name)s"
 #, python-format
 msgid "Facility - %(fac_name)s"
 msgstr "データセンタ - %(fac_name)s"
+
+#, fuzzy, python-format
+#| msgid "Network - %(net_name)s"
+msgid "Carrier - %(carrier_name)s"
+msgstr "ネットワーク - %(net_name)s"
 
 msgid "Invalid organization specified"
 msgstr "指定された組織は無効です"
@@ -1936,6 +2000,16 @@ msgstr "このフィールドは以下のリクエストにのみ使用可能で
 msgid "Required for distance filtering"
 msgstr "Required for distance filtering"
 
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid latitude is required"
+msgstr "このフィールドは必須です"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid longitude is required"
+msgstr "このフィールドは必須です"
+
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "エクスチェンジポイントを追加するには、技術担当、NOC、ポリシー担当の有効なメールアドレスが入力されている必要があります。"
 
@@ -1951,6 +2025,11 @@ msgstr ""
 
 msgid "ASN cannot be changed."
 msgstr "ASN は変更出来ません。"
+
+#, fuzzy
+#| msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgid "Cannot be enabled - must have a Technical, NOC, or Policy point of contact with valid email."
+msgstr "エクスチェンジポイントを追加するには、技術担当、NOC、ポリシー担当の有効なメールアドレスが入力されている必要があります。"
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr "`in_dfz` プロパティは非推奨になり、 `False` への設定はサポートされなくなりました"
@@ -2802,11 +2881,25 @@ msgstr "パスワードリセット処理が失効しました"
 msgid "initiate again"
 msgstr "もう一度実行してください"
 
-msgid "Account Security"
-msgstr "アカウントのセキュリティ設定"
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "無効なセキュリティトークン"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "二要素認証を設定する"
+msgid "Register your security key and use it as a 2FA method."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "Remove"
+msgstr "削除する"
+
+msgid "Register security key"
+msgstr ""
 
 msgid "Affiliate with organization"
 msgstr "組織に所属しましょう"
@@ -2879,6 +2972,17 @@ msgstr "superuser account の API Key を作成しています。この API Key 
 msgid "Read only"
 msgstr "Read only"
 
+msgid "Account Security"
+msgstr "アカウントのセキュリティ設定"
+
+msgid "Manage Two-Factor Authentication"
+msgstr "二要素認証を設定する"
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Manage Passkey Authentication"
+msgstr "二要素認証を設定する"
+
 #, fuzzy
 #| msgid "email address"
 msgid "Email addresses"
@@ -2901,9 +3005,6 @@ msgstr "確認メールをあなたに送りました"
 
 msgid "Set as primary"
 msgstr ""
-
-msgid "Remove"
-msgstr "削除する"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "バリデーションを早くする為に、メールアドレスが必要になります。もし、あなたが PeeringDB に AS 番号を登録する予定であれば、その AS 番号のコンタクト先として使用しているメールアドレスを使用する事をお勧めします"
@@ -2974,6 +3075,20 @@ msgstr "あなたに確認 URL が書かれたメッセージを送付しまし�
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "あなたのアカウントのレビューが完了するまでフルアクセスの権限を持つ事が出来ません。しばらくお待ちください。"
 
+msgid "Passkeys"
+msgstr ""
+
+msgid "Register your security key and use it as a Passkey authentication."
+msgstr ""
+
+msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+#, fuzzy
+#| msgid "Registered Users"
+msgid "Register passkey"
+msgstr "登録ユーザ"
+
 msgid "Select language"
 msgstr "言語の選択"
 
@@ -2982,29 +3097,6 @@ msgstr "好みの言語を保存しました"
 
 msgid "Set language preference"
 msgstr "言語を選択する"
-
-#, fuzzy
-#| msgid "Invalid Security Token"
-msgid "Security keys"
-msgstr "無効なセキュリティトークン"
-
-msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgstr ""
-
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr ""
-
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
-msgstr ""
-
-msgid "passwordless-login"
-msgstr ""
-
-msgid "Register security key"
-msgstr ""
-
-msgid "Password-less login"
-msgstr ""
 
 msgid "Account Created"
 msgstr "アカウントが作成されました"
@@ -3108,7 +3200,9 @@ msgstr "My organization presence"
 msgid "Become a Sponsor"
 msgstr "スポンサーになるには"
 
-msgid "This server is running in TUTORIAL MODE"
+#, fuzzy
+#| msgid "This server is running in TUTORIAL MODE"
+msgid "<b>This server is running in TUTORIAL MODE</b>"
 msgstr "現在このサーバはチュートリアルモードで動いています"
 
 msgid "These are the usernames associated with your email address"
@@ -3174,6 +3268,9 @@ msgstr "の印のある箇所の更新をお願いします"
 
 msgid "Suggested Address:"
 msgstr "Suggested Address:"
+
+msgid "Dismiss"
+msgstr "却下する"
 
 msgid "Accept"
 msgstr "Accept"
@@ -3259,7 +3356,9 @@ msgstr "帯域"
 msgid "routeserver"
 msgstr "ルートサーバ"
 
-msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+#, fuzzy
+#| msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgid "Sometimes we encounter some errors when parsing IX-F data, these will usually affect the import, you can view any of those errors below"
 msgstr "ix-f data をパースするときにエラーが発生する事があります。これらは通常、インポートに影響します。これらのエラーを下記で確認できます"
 
 msgid "Peers at this Exchange Point"
@@ -3271,8 +3370,16 @@ msgstr "ネットワーク名"
 msgid "Speed"
 msgstr "帯域"
 
+#, fuzzy
+#| msgid "Location"
+msgid "Port Location"
+msgstr "住所"
+
 msgid "IP"
 msgstr "IP"
+
+msgid "Network - Exchange link"
+msgstr "ネットワーク - エクスチェンジ のリンク"
 
 msgid "Not operational"
 msgstr "非稼働"
@@ -3382,9 +3489,6 @@ msgstr "Options"
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "そのエクスチェンジが更新を行うまで、この提案を非表示にします。"
 
-msgid "Dismiss"
-msgstr "却下する"
-
 msgid "Add this entry to public peering exchange points"
 msgstr "このエントリーを接続しているエクスチェンジポイントに追加する"
 
@@ -3419,8 +3523,10 @@ msgstr "提案された全てのエントリーを追加します"
 msgid "Auto Add"
 msgstr "Auto Add"
 
-msgid "Network - Exchange link"
-msgstr "ネットワーク - エクスチェンジ のリンク"
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD Support"
+msgstr "24/7 サポート"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "このエントリーは正しいネットワークに移動させる必要があります"
@@ -3569,7 +3675,7 @@ msgstr "さらにエクスチェンジ情報追加の提案をする"
 msgid "Suggest another network"
 msgstr "さらにネットワーク情報追加の提案をする"
 
-msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
 msgid "I forgot my password .."
@@ -3656,6 +3762,9 @@ msgstr "バックアップトークを使用する"
 msgid "Enable Two-Factor Authentication"
 msgstr "二要素認証を設定する"
 
+msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
 msgstr ""
 
@@ -3728,9 +3837,6 @@ msgstr "時間前"
 
 msgid "days ago"
 msgstr "日前"
-
-msgid "{soc.get(\"service\", dismiss)}"
-msgstr ""
 
 #, fuzzy
 #| msgid "Invalid export format"
@@ -3837,6 +3943,11 @@ msgid "object {ref_tag}.{obj_id} not found"
 msgstr ""
 
 #, fuzzy
+#| msgid "Geo coding failed: {}"
+msgid "Geo coding failed: City not found"
+msgstr "Geo coding failed: {}"
+
+#, fuzzy
 #| msgid "Please wait a bit before requesting your usernames again."
 msgid "Please wait a bit before proposing verified updates again."
 msgstr "ユーザ名変更のリクエストをするまで少々お待ちください"
@@ -3880,6 +3991,9 @@ msgstr "組織所属リクエストをするまで少々お待ちください。
 
 msgid "Either ASN or Organization required"
 msgstr "AS 番号もしくは組織のどちらかが必要となります"
+
+msgid "Unable to affiliate as this network has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
 
 msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
 msgstr ""
@@ -3943,6 +4057,16 @@ msgstr "このメールアドレスは既に使われています"
 
 msgid "Username cannot start with 'apikey'"
 msgstr ""
+
+#, fuzzy
+#| msgid "Needs to be at least 10 characters long"
+msgid "Password must be at least 10 characters long."
+msgstr "10文字以上の文字数でお願いします"
+
+#, fuzzy
+#| msgid "Password Verification"
+msgid "Password is too long."
+msgstr "パスワード確認"
 
 #, fuzzy
 #| msgid "Current Password"
@@ -4076,6 +4200,18 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+msgid "Your email must be confirmed before enabling two-factor authentication."
+msgstr ""
+
+#~ msgid "Lessee"
+#~ msgstr "Lessee"
+
+#~ msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
+#~ msgstr "プロパティの所有者は、プロパティの所有権を持つ個人または法人です。 借主とは、プロパティの所有者と賃貸借契約を結んでいる物件の利用者です。"
+
+#~ msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+#~ msgstr "このエンティティは、ASN {} 用に作成されています - このネットワークから削除し、正しいネットワークで再度作成してください"
 
 #, fuzzy
 #~| msgid "Date"

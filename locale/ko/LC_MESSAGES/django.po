@@ -227,6 +227,9 @@ msgstr "공개"
 msgid "An E.164-formatted phone number starts with a +, followed by the country code, then the national phone number (dropping the leading 0 in most countries), without spaces or dashes between the groups of digits"
 msgstr "E.164 형식의 전화 번호는 +로 시작하여 국가 코드, 국가 전화 번호(대부분 국가에서 앞에 0이 표시됨)로 시작하며, 숫자 사이에 공백이나 특수 부호 없이 입력 바랍니다"
 
+msgid "Total, self-classified traffic in/out to this network."
+msgstr ""
+
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
 msgstr "이 필드가 설정되어 있으면 여기에 저장됩니다. 설정되어 있지 않으면 연결된 조직 기록에서 웹 사이트 주소를 가져옵니다"
 
@@ -236,7 +239,9 @@ msgstr "시설에 대한 L1 또는 L2 연결 제공자"
 msgid "A set of facilities under one management, with inter-building cross-connects"
 msgstr "하나의 관리 하에 있는 건물간 교차 연결이 있는 일련의 시설"
 
-msgid "Peering with the routeserver is shown with an icon"
+#, fuzzy
+#| msgid "Peering with the routeserver is shown with an icon"
+msgid "Peering with the routeserver and BFD support is shown with an icon"
 msgstr "경로 서버와의 피어링이 아이콘으로 표시됩니다"
 
 msgid "Best Effort (no SLA)"
@@ -263,8 +268,8 @@ msgstr "반복 사용료"
 msgid "Owner"
 msgstr "소유자"
 
-msgid "Lessee"
-msgstr "임차인"
+msgid "Leased or Rented"
+msgstr ""
 
 msgid "48 VDC"
 msgstr "48 VDC(직류 전압)"
@@ -283,8 +288,8 @@ msgstr "웹사이트"
 msgid "Facebook"
 msgstr "페이스북"
 
-msgid "Twitter"
-msgstr "트위터"
+msgid "X"
+msgstr ""
 
 msgid "Instagram"
 msgstr "인스타그램"
@@ -376,8 +381,8 @@ msgstr "영업부 연락처"
 msgid "Property"
 msgstr "소유물"
 
-msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
-msgstr "자산 소유자는 자산에 대한 권한을 가진 개인 또는 독립체입니다. 임차인은 자산의 소유자와 임대 계약을 맺은 그 자산의 사용자입니다."
+msgid "Leasing or renting is an agreement with a property owner for use of the property."
+msgstr ""
 
 msgid "Diverse Serving Substations"
 msgstr "다양한 전달 변전소"
@@ -591,6 +596,11 @@ msgstr "네트워크 시설"
 msgid "RS peer"
 msgstr "RS 피어"
 
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD support"
+msgstr "24시 지원"
+
 msgid "Speed (mbit/sec)"
 msgstr "속도 (mbit/초)"
 
@@ -798,6 +808,11 @@ msgstr "ASN이 다른 네트워크에서 이미 사용 중입니다"
 msgid "Name is already in use by another network"
 msgstr "이름이 이미 다른 네트워크에서 사용되고 있습니다"
 
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not set"
+msgstr "셋팅되지 않음"
+
 msgid "APPROVE selected items"
 msgstr "선택한 항목 승인"
 
@@ -864,6 +879,11 @@ msgstr "요구 사항 없음"
 msgid "Value"
 msgstr "가치"
 
+#, fuzzy
+#| msgid "Requested by user"
+msgid "Request handled by"
+msgstr "사용자에 의해 요청됨"
+
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "이 명령은 이미 대기/실행 중이므로 완료될 때까지 기다린 후 다시 실행하십시오"
 
@@ -897,7 +917,9 @@ msgstr "이 개체 복원 -  [reftag] [id]로 검색"
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "{} 유형 개체만 이 지점에서 이 인터페이스를 통해 복원 가능함"
 
-msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+#, fuzzy
+#| msgid "Select an Internet Exchange to perform an ix-f memberdata import"
+msgid "Select an Internet Exchange to perform an IX-F memberdata import"
 msgstr "ix-f 멤버 데이터 가져오기를 수행할 인터넷 익스체인지 선택하기"
 
 msgid "Reset all"
@@ -1061,6 +1083,11 @@ msgstr "ASN은 숫자가 되어야 함"
 msgid "Needs to be at least 10 characters long"
 msgstr "최소 10자 이상"
 
+#, fuzzy
+#| msgid "Password Verification"
+msgid "Password is too long"
+msgstr "비밀번호 확인"
+
 msgid "Passwords need to match"
 msgstr "비밀번호가 일치해야 함"
 
@@ -1180,6 +1207,14 @@ msgstr "PeeringDB: 조치가 필요할 수 있음: IX-F 임포터 데이터가 {
 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 병합 공지: {} -> {}"
+
+#, python-format
+msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
+msgstr ""
+
+#, python-format
+msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
+msgstr ""
 
 msgid "Inactive"
 msgstr "비활성화"
@@ -1308,6 +1343,11 @@ msgstr "조직 소속 요청한 사용자"
 
 msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "조직 \"{}\"에 대한 가입이 승인됨"
+
+#, fuzzy
+#| msgid "User to Organization Affiliation Requests"
+msgid "User to Organization Affiliation Request History"
+msgstr "조직 소속 요청한 사용자"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "이 대기열이 연결된 항목이 이 사용자에 의해 생성됨"
@@ -1447,7 +1487,9 @@ msgstr "가장 최근에 수동으로 가져오기 요청한 날짜"
 msgid "Manual IX-F import status"
 msgstr "수동 IX-F 가져오기 상태"
 
-msgid "The current status of the manual ix-f import request"
+#, fuzzy
+#| msgid "The current status of the manual ix-f import request"
+msgid "The current status of the manual IX-F import request"
 msgstr "수동 ix-f 가져오기 요청의 현재 상태"
 
 msgid "Queued"
@@ -1462,7 +1504,9 @@ msgstr "완료"
 msgid "Import failed"
 msgstr "가져오기 실패"
 
-msgid "The user that triggered the manual ix-f import request"
+#, fuzzy
+#| msgid "The user that triggered the manual ix-f import request"
+msgid "The user that triggered the manual IX-F import request"
 msgstr "수동 ix-f 가져오기 요청을 유발한 유저"
 
 msgid "number of facilities at this exchange"
@@ -1516,7 +1560,9 @@ msgstr "IX-F 가져오기 로그 항목"
 msgid "IX-F Import Log Entries"
 msgstr "IX-F 가져오기 로그 항목"
 
-msgid "JSON snapshot of the ix-f member data that created this entry"
+#, fuzzy
+#| msgid "JSON snapshot of the ix-f member data that created this entry"
+msgid "JSON snapshot of the IX-F member data that created this entry"
 msgstr "이 항목을 생성한 ix-f 멤버 데이터의 JSON 스냅샷"
 
 msgid "Activity for this entry"
@@ -1566,9 +1612,6 @@ msgstr "활성화된 피어가 있는 네트워크의 최근 기술 연락처"
 
 msgid "Phone or email required"
 msgstr "전화 또는 이메일 필수"
-
-msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
-msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
 
 msgid "IPv4 address outside of prefix"
 msgstr "IPv4 주소가 프리픽스를 벗어남"
@@ -1753,7 +1796,13 @@ msgstr ""
 msgid "API: Authenticated API throttle rate message"
 msgstr ""
 
+msgid "API: Request Write API Limiting"
+msgstr ""
+
 msgid "Show last database sync"
+msgstr ""
+
+msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Last Updated"
@@ -1773,6 +1822,15 @@ msgstr "OAuth 응용프로그램"
 
 msgid "OAuth Applications"
 msgstr "OAuth 응용프로그램"
+
+msgid "Authentication method reference"
+msgstr ""
+
+msgid "OAuth Grant Info"
+msgstr ""
+
+msgid "OAuth Access Token Info"
+msgstr ""
 
 msgid "Added"
 msgstr "추가됨"
@@ -1816,6 +1874,11 @@ msgstr "모든 설비"
 msgid "Any Exchange"
 msgstr "모든 익스체인지"
 
+#, fuzzy
+#| msgid "Carrier"
+msgid "Any Carrier"
+msgstr "통신사"
+
 msgid "Manage peering sessions - Any Network"
 msgstr "피어링 세션 관리 - 모든 네트워크"
 
@@ -1834,6 +1897,11 @@ msgstr "익스체인지 - %(ix_name)s"
 #, python-format
 msgid "Facility - %(fac_name)s"
 msgstr "설비 - %(fac_name)s"
+
+#, fuzzy, python-format
+#| msgid "Network - %(net_name)s"
+msgid "Carrier - %(carrier_name)s"
+msgstr "네트워크 - %(net_name)s"
 
 msgid "Invalid organization specified"
 msgstr "잘못된 조직이 지정됨"
@@ -1877,6 +1945,16 @@ msgstr "이 필드는 다음 요청에 대해서만 허용됨: {methods}"
 msgid "Required for distance filtering"
 msgstr "거리 필터링에 필요합니다"
 
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid latitude is required"
+msgstr "필수 입력"
+
+#, fuzzy
+#| msgid "This field is required"
+msgid "Valid longitude is required"
+msgstr "필수 입력"
+
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "익스체인지 포인트를 추가하기 전에 네트워크에 기술, NOC 또는 정책 부문에 유효한 이메일을 포함한 연락처가 있어야 합니다."
 
@@ -1892,6 +1970,11 @@ msgstr "필수 입력 창."
 
 msgid "ASN cannot be changed."
 msgstr "ASN은 변경될 수 없습니다."
+
+#, fuzzy
+#| msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
+msgid "Cannot be enabled - must have a Technical, NOC, or Policy point of contact with valid email."
+msgstr "익스체인지 포인트를 추가하기 전에 네트워크에 기술, NOC 또는 정책 부문에 유효한 이메일을 포함한 연락처가 있어야 합니다."
 
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr "'in_dfz' 속성이 사용되지 않았으므로 'False'로 설정하는 것은 더 이상 지원되지 않습니다"
@@ -2739,11 +2822,25 @@ msgstr "암호 재설정 프로세스가 만료되었습니다,"
 msgid "initiate again"
 msgstr "다시 시작하십시오"
 
-msgid "Account Security"
-msgstr "계정 보안"
+#, fuzzy
+#| msgid "Invalid Security Token"
+msgid "Security keys"
+msgstr "유효하지 않은 보안 토큰"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "2단계 인증 관리"
+msgid "Register your security key and use it as a 2FA method."
+msgstr ""
+
+msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr ""
+
+msgid "Remove"
+msgstr "삭제"
+
+msgid "Register security key"
+msgstr ""
 
 msgid "Affiliate with organization"
 msgstr "조직에 가입하기"
@@ -2816,6 +2913,17 @@ msgstr ""
 msgid "Read only"
 msgstr ""
 
+msgid "Account Security"
+msgstr "계정 보안"
+
+msgid "Manage Two-Factor Authentication"
+msgstr "2단계 인증 관리"
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Manage Passkey Authentication"
+msgstr "2단계 인증 관리"
+
 #, fuzzy
 #| msgid "email address"
 msgid "Email addresses"
@@ -2838,9 +2946,6 @@ msgstr "당신의 확인 이메일을 다시 전송하였습니다"
 
 msgid "Set as primary"
 msgstr ""
-
-msgid "Remove"
-msgstr "삭제"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "신속한 검증을 위해서는 업무용 이메일 주소를 사용해야 합니다. PeeringDB에 ASN을 등록할 계획이라면 ASN의 공개 연락처 세부 정보에 있는 이메일 주소를 사용하는 것이 좋습니다."
@@ -2911,6 +3016,20 @@ msgstr "확인 링크를 메세지로 보냈습니다."
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "당신이 가입된 기관이 당신의 계정을 검토하기 전에는 완전한 액세스 권한이 없습니다. 양해해 주셔서 감사합니다."
 
+msgid "Passkeys"
+msgstr ""
+
+msgid "Register your security key and use it as a Passkey authentication."
+msgstr ""
+
+msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+#, fuzzy
+#| msgid "Register"
+msgid "Register passkey"
+msgstr "가입"
+
 msgid "Select language"
 msgstr "언어 선택"
 
@@ -2919,29 +3038,6 @@ msgstr "언어 기본 설정이 저장됨"
 
 msgid "Set language preference"
 msgstr "언어 기본 설정"
-
-#, fuzzy
-#| msgid "Invalid Security Token"
-msgid "Security keys"
-msgstr "유효하지 않은 보안 토큰"
-
-msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgstr ""
-
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr ""
-
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
-msgstr ""
-
-msgid "passwordless-login"
-msgstr ""
-
-msgid "Register security key"
-msgstr ""
-
-msgid "Password-less login"
-msgstr ""
 
 msgid "Account Created"
 msgstr "계정이 생성됨"
@@ -3043,7 +3139,9 @@ msgstr "조직 병합"
 msgid "Become a Sponsor"
 msgstr "스폰서 되기"
 
-msgid "This server is running in TUTORIAL MODE"
+#, fuzzy
+#| msgid "This server is running in TUTORIAL MODE"
+msgid "<b>This server is running in TUTORIAL MODE</b>"
 msgstr "이 서버는 튜토리얼 모드에서 실행 중 입니다"
 
 msgid "These are the usernames associated with your email address"
@@ -3108,6 +3206,9 @@ msgstr "데이터 퀄리티를 개선하기"
 
 msgid "Suggested Address:"
 msgstr ""
+
+msgid "Dismiss"
+msgstr "제거"
 
 msgid "Accept"
 msgstr "수락"
@@ -3193,7 +3294,9 @@ msgstr "속도"
 msgid "routeserver"
 msgstr "라우트서버"
 
-msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+#, fuzzy
+#| msgid "Sometimes we encounter some errors when parsing ix-f data, these will usually affect the import, you can view any of those errors below"
+msgid "Sometimes we encounter some errors when parsing IX-F data, these will usually affect the import, you can view any of those errors below"
 msgstr "때때로 ix-f 데이터를 분석할 때 일부 오류가 발생하는데, 이러한 오류는 일반적으로 가져오기에 영향을 미치며, 아래에서 이러한 오류를 볼 수 있다"
 
 msgid "Peers at this Exchange Point"
@@ -3205,8 +3308,16 @@ msgstr "Peer 이름"
 msgid "Speed"
 msgstr "속도"
 
+#, fuzzy
+#| msgid "Location"
+msgid "Port Location"
+msgstr "위치"
+
 msgid "IP"
 msgstr "IP"
+
+msgid "Network - Exchange link"
+msgstr "네트워크 - 익스체인지 링크"
 
 msgid "Not operational"
 msgstr "작동하지 않음"
@@ -3314,9 +3425,6 @@ msgstr "조건"
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "익스체인지가 업데이트할 때 까지 이 제안을 숨기기."
 
-msgid "Dismiss"
-msgstr "제거"
-
 msgid "Add this entry to public peering exchange points"
 msgstr "공용 피어링 익스체인지 포인트에 이 항목 추가"
 
@@ -3355,8 +3463,10 @@ msgstr "모든 제안된 항목들을 추가할 것입니다"
 msgid "Auto Add"
 msgstr "자동 추가"
 
-msgid "Network - Exchange link"
-msgstr "네트워크 - 익스체인지 링크"
+#, fuzzy
+#| msgid "24/7 Support"
+msgid "BFD Support"
+msgstr "24시 지원"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "올바른 네트워크로 항목을 이동해야 함"
@@ -3509,7 +3619,7 @@ msgstr "다른 익스체인지 제안"
 msgid "Suggest another network"
 msgstr "다른 네트워크 제안"
 
-msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
 msgid "I forgot my password .."
@@ -3596,6 +3706,9 @@ msgstr "백업 토큰 사용하기"
 msgid "Enable Two-Factor Authentication"
 msgstr "2단계 인증 관리"
 
+msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
 msgstr ""
 
@@ -3654,9 +3767,6 @@ msgstr "시간 전"
 
 msgid "days ago"
 msgstr "일 전"
-
-msgid "{soc.get(\"service\", dismiss)}"
-msgstr ""
 
 #, fuzzy
 #| msgid "Invalid export format"
@@ -3758,6 +3868,11 @@ msgid "object {ref_tag}.{obj_id} not found"
 msgstr ""
 
 #, fuzzy
+#| msgid "Geo coding failed: {}"
+msgid "Geo coding failed: City not found"
+msgstr "지오코딩 실패: {}"
+
+#, fuzzy
 #| msgid "Please wait a bit before requesting your usernames again."
 msgid "Please wait a bit before proposing verified updates again."
 msgstr "ID를 다시 요청하기 전에 잠시 기다리십시오."
@@ -3801,6 +3916,9 @@ msgstr "제휴를 다시 요청하기 전에 잠시 기다리십시오."
 
 msgid "Either ASN or Organization required"
 msgstr "ASN 또는 조직이 요구됨"
+
+msgid "Unable to affiliate as this network has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
+msgstr ""
 
 msgid "Unable to affiliate as this organization has been deleted. Please reach out to PeeringDB support if you wish to resolve this."
 msgstr ""
@@ -3864,6 +3982,16 @@ msgstr "이 이메일 주소는 이미 사용되었습니다"
 
 msgid "Username cannot start with 'apikey'"
 msgstr ""
+
+#, fuzzy
+#| msgid "Needs to be at least 10 characters long"
+msgid "Password must be at least 10 characters long."
+msgstr "최소 10자 이상"
+
+#, fuzzy
+#| msgid "Password Verification"
+msgid "Password is too long."
+msgstr "비밀번호 확인"
 
 #, fuzzy
 #| msgid "Current Password"
@@ -4009,6 +4137,21 @@ msgstr ""
 
 msgid "Login as the organization admin to perform the action"
 msgstr ""
+
+msgid "Your email must be confirmed before enabling two-factor authentication."
+msgstr ""
+
+#~ msgid "Lessee"
+#~ msgstr "임차인"
+
+#~ msgid "Twitter"
+#~ msgstr "트위터"
+
+#~ msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
+#~ msgstr "자산 소유자는 자산에 대한 권한을 가진 개인 또는 독립체입니다. 임차인은 자산의 소유자와 임대 계약을 맺은 그 자산의 사용자입니다."
+
+#~ msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
+#~ msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
 
 #, fuzzy
 #~| msgid "Date"
