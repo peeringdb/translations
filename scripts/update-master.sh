@@ -26,18 +26,29 @@
 
 MAKEMSG_OPTIONS="--all --symlinks --no-wrap --no-location --keep-pot"
 
+# reset git repo to be origin default branch
+function reset_repository() {
+    dir="$1"
+    branch=$(git -C "$dir" remote show origin | sed -n '/HEAD branch/s/.*: //p')
+    git -C "$dir" checkout "$branch"
+    git -C "$dir" fetch origin --prune
+    git -C "$dir" reset --hard origin/"$branch"
+    git -C "$dir" clean -fdx
+}
+
 function clean_up() {
-    error_code=$?  # this needs to be here to catch the intended exit code
+    error_code=$? # this needs to be here to catch the intended exit code
+    set +e
     set +x
-    rm -r -f peeringdb
-    rm -r -f django-peeringdb
-    rm -r -f django-oauth-toolkit
     echo
     echo exiting with $error_code
     exit $error_code
 }
 
 trap clean_up EXIT
+
+# exit on error
+set -e
 
 if [ -d "/srv/translate.peeringdb.com" ]; then
     echo This script is only meant to be run on production and beta masters.
@@ -47,25 +58,38 @@ fi
 
 # Determine peeringdb.git version currently deployed:
 PDB_DJANGO_ADMIN="/home/pdb/bin/pdb-container"
-PDB_TAG=`docker image inspect pdb:server-latest | grep peeringdb:server | tr -d '\"' | cut -f 2 -d '-'`
+PDB_TAG=$(docker image inspect peeringdb_server:latest | grep -o "peeringdb_server:[0-9][^,]*" | cut -d ':' -f2 | sed 's/["|,]//g')
 
 # 20190602: Caputo hasn't figured out how to determine version of
 # django-peeringdb.git installed, so using latest.  Is this determinable?
 # If yes, then duplicate section above for a django_tag and apply below.
 
-(
-git clone https://github.com/peeringdb/peeringdb.git && cd peeringdb && git checkout $PDB_TAG || exit 1
-git clone https://github.com/peeringdb/django-peeringdb.git || exit 1
-git clone https://github.com/jazzband/django-oauth-toolkit.git || exit 1
-)
+# if dir does not exist, clone it
+if [ ! -d "peeringdb" ]; then
+    git clone https://github.com/peeringdb/peeringdb.git
+else
+    reset_repository "peeringdb"
+fi
+git -C peeringdb checkout $PDB_TAG
+
+if [ ! -d "django-peeringdb" ]; then
+    git clone https://github.com/peeringdb/django-peeringdb.git
+else
+    reset_repository "django-peeringdb"
+fi
+
+if [ ! -d "django-oauth-toolkit" ]; then
+    git clone https://github.com/jazzband/django-oauth-toolkit.git
+else
+    reset_repository "django-oauth-toolkit"
+fi
 
 echo
-echo If \"duplicate message definition\" errors in the below, edit indicated file by removing duplicate that _does_not_ already have a translation, even if commented out.  Then re-run $0 manually.
+echo If \"duplicate message definition\" errors in the below, edit indicated file by removing duplicate that _does_not_ already have a translation, even if commented out. Then re-run $0 manually.
 echo
 
 set -x
-$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS || exit 1
-$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS --domain djangojs || exit 1
-$PDB_DJANGO_ADMIN compilemessages || exit 1
+$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS
+$PDB_DJANGO_ADMIN makemessages $MAKEMSG_OPTIONS --domain djangojs
+$PDB_DJANGO_ADMIN compilemessages
 set +x
-
