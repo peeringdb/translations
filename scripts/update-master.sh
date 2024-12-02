@@ -117,6 +117,11 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
+# load local env if it exists
+if [ -f ~/.local/bin/env ]; then
+    source ~/.local/bin/env
+fi
+
 # committing without lock can cause conflicts
 if [ "$COMMIT" == true ] && [ "$USE_WLC" != true ]; then
     echo "--commit requires --wlc to be enabled"
@@ -131,8 +136,6 @@ fi
 
 # check for wlc requirements
 if [ "$USE_WLC" == true ]; then
-    WLC="wlc"
-    WLC_LOCKED="false"
     if ! command -v $WLC &>/dev/null; then
         echo "wlc could not be found"
         exit 1
@@ -145,7 +148,7 @@ fi
 
 trap clean_up EXIT
 
-echo "Running update-locale.sh with WLC=$WLC, COMMIT=$COMMIT"
+echo "Running update-master.sh with WLC=$WLC, COMMIT=$COMMIT"
 
 # exit on error
 set -e
