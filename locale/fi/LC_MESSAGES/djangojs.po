@@ -7,175 +7,177 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-03 11:54+0000\n"
+"Last-Translator: Jere Kiitola <jere.kiitola@arhippa11.fi>\n"
+"Language-Team: Finnish <https://translate.peeringdb.com/projects/peeringdb/javascript/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3.1\n"
 
 msgid "Some of the fields contain invalid values - please correct and try again."
-msgstr ""
+msgstr "Jotkut kentät sisältävät virheellisiä arvoja - korjaa virheet ja yritä uudelleen."
 
 msgid "Not Allowed"
-msgstr ""
+msgstr "Ei sallittu"
 
 msgid "Bad request"
-msgstr ""
+msgstr "Huono pyyntö"
 
 msgid "Not found"
-msgstr ""
+msgstr "Ei löytynyt"
 
 msgid "File too large"
-msgstr ""
+msgstr "Tiedosto on liian suuri"
 
 msgid "Internal error"
-msgstr ""
+msgstr "Sisäinen virhe"
 
 msgid "Something went wrong."
-msgstr ""
+msgstr "Jotain meni väärin."
 
 msgid "The server rejected your data"
-msgstr ""
+msgstr "Palvelin hylki tietosi"
 
 msgid "Invalid value"
-msgstr ""
+msgstr "Väärä arvo"
 
 msgid "Input required"
-msgstr ""
+msgstr "Pakollinen kenttä"
 
 msgid "Needs to match password"
-msgstr ""
+msgstr "Salasanan pitää olla sama"
 
 msgid "Needs to be a valid email address"
-msgstr ""
+msgstr "Pitää olla toimiva sähköpostiosoite"
 
 msgid "Needs to be a valid latitude"
-msgstr ""
+msgstr "Pitää olla oikea leveysaste"
 
 msgid "Needs to be a valid longitude"
-msgstr ""
+msgstr "Pitää olla oikea pituusaste"
 
 msgid "Needs to be a valid url"
-msgstr ""
+msgstr "Pitää olla oikea URL"
 
 msgid "Needs to be a number"
-msgstr ""
+msgstr "Pitää olla numero"
 
 msgid "Yes"
-msgstr ""
+msgstr "Kyllä"
 
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 msgid "Queued"
-msgstr ""
+msgstr "Jonossa"
 
 msgid "Please wait before requesting another import."
-msgstr ""
+msgstr "Odota kunnes pyydät uuden tuonnin."
 
 msgid "Available in: "
-msgstr ""
+msgstr "Saatavilla: "
 
 msgid "seconds"
-msgstr ""
+msgstr "sekunttia"
 
 msgid "Nothing to do"
-msgstr ""
+msgstr "Ei mitään tehtävää"
 
 msgid "This will create the following entries"
-msgstr ""
+msgstr "Tämä tulee luomaan nämä merkinnät"
 
 msgid "Remove these entries"
-msgstr ""
+msgstr "Poista nämä merkinnät"
 
 msgid "Update these entries"
-msgstr ""
+msgstr "Päivitä nämä merkinnät"
 
 msgid "You do not have permissions to perform this action"
-msgstr ""
+msgstr "Sinulla ei ole oikeuksia tehdä tätä toimintoa"
 
 msgid "sponsor"
-msgstr ""
+msgstr "sponsori"
 
 msgid "Remove"
-msgstr ""
+msgstr "Poista"
 
 msgid "Canceled"
-msgstr ""
+msgstr "Peruutettu"
 
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
-msgstr ""
+msgstr "API avaimesi on luotu. Kirjoita tämä avain talteen turvalliseen paikkaan. Avainta ei voi palauttaa kun  tämä viesti on poistettu tai ylikirjoitettu."
 
 msgid "Revoke key"
-msgstr ""
+msgstr "Poista avain"
 
 msgid "Add user"
-msgstr ""
+msgstr "Lisää käyttäjä"
 
 msgid "to Organization?"
-msgstr ""
+msgstr "orgaanisaatioon?"
 
 msgid "Deny"
-msgstr ""
+msgstr "Hylkää"
 
 msgid "request to join the Organization?"
-msgstr ""
+msgstr "pyytö liittyä Organisaatioon?"
 
 msgid "Unknown request type:"
-msgstr ""
+msgstr "Tuntematon pyyntötyyppi:"
 
 msgid "not yet been approved"
-msgstr ""
+msgstr "ei vielä hyväksytty"
 
 msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
-msgstr ""
+msgstr "Yläorganisaatio odottaa arviointia - odota sen hyväksymistä ennen kuin lisäät merkintöjä siihen"
 
 msgid "Exchange"
-msgstr ""
+msgstr "Yhteyspiste"
 
 msgid "Participant"
-msgstr ""
+msgstr "Osallistuja"
 
 msgid "Facility"
-msgstr ""
+msgstr "Facility"
 
 msgid "Campus"
-msgstr ""
+msgstr "Kampus"
 
 msgid "Network Contact"
-msgstr ""
+msgstr "Verkko-kontakti"
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "Verkko - Yhteyspiste linkki"
 
 msgid "Network - Facility link"
-msgstr ""
+msgstr "Verkko - Facility linkki"
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "IX LAN Osoiteetuliite"
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "Yhteyspiste - Facility linkki"
 
 msgid "Carrier presence at Facility"
-msgstr ""
+msgstr "Operaattorin läsnäolo Facilityssä"
 
 msgid "Click to remove"
-msgstr ""
+msgstr "Poista napauttamalla"
 
 msgid "Needs to be an integer or a speed ending in M, G, or T"
-msgstr ""
+msgstr "Pitää olla numero, tai nopeus loppuen M, G, tai T"
 
 msgid "Upload"
-msgstr ""
+msgstr "Lataa palvelimeen"
 
 msgid "File size too big"
-msgstr ""
+msgstr "Tiedostokoko on liian suuri"
 
 msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
-msgstr ""
+msgstr "Nimeä AS-SETttisi hierarkisella nimella, esim RIPE::AS-RIPENCC"
 
 msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""
-msgstr ""
+msgstr "Tämän niminen AS-SET on jo olemassa, vältä epäselvyydet selventämällä käyttämäsi IRR:n nimi esim. \"IRR::AS-MYNAME\""
