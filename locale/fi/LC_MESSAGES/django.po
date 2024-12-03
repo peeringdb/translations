@@ -7,139 +7,141 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-03 12:54+0000\n"
+"Last-Translator: Jere Kiitola <jere.kiitola@arhippa11.fi>\n"
+"Language-Team: Finnish <https://translate.peeringdb.com/projects/peeringdb/server/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3.1\n"
 
 msgid "Ethernet"
-msgstr ""
+msgstr "Ethernet"
 
 msgid "ATM"
-msgstr ""
+msgstr "ATM"
 
 msgid "Multiple"
-msgstr ""
+msgstr "Monia"
 
 msgid "Abuse"
-msgstr ""
+msgstr "Abuse"
 
 msgid "Maintenance"
-msgstr ""
+msgstr "Huolto"
 
 msgid "Policy"
-msgstr ""
+msgstr "Politiikka"
 
 msgid "Technical"
-msgstr ""
+msgstr "Tekninen"
 
 msgid "NOC"
-msgstr ""
+msgstr "NOC"
 
 msgid "Public Relations"
-msgstr ""
+msgstr "Julkiset suhteet"
 
 msgid "Sales"
-msgstr ""
+msgstr "Myynti"
 
 msgid "Open"
-msgstr ""
+msgstr "Avoin"
 
 msgid "Selective"
-msgstr ""
+msgstr "Valitseva"
 
 msgid "Restrictive"
-msgstr ""
+msgstr "Rajoittava"
 
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 msgid "Not Required"
-msgstr ""
+msgstr "Ei vaadittu"
 
 msgid "Preferred"
-msgstr ""
+msgstr "Suositeltu"
 
 msgid "Required - US"
-msgstr ""
+msgstr "Pakollinen - US"
 
 msgid "Required - EU"
-msgstr ""
+msgstr "Pakollinen - EU"
 
 msgid "Required - International"
-msgstr ""
+msgstr "Pakollinen - Kansainvälinen"
 
 msgid "Private Only"
-msgstr ""
+msgstr "Yksityinen"
 
 msgid "Required"
-msgstr ""
+msgstr "Vaadittu"
 
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 msgid "Not Disclosed"
-msgstr ""
+msgstr "Ei kerrottu"
 
 msgid "Heavy Outbound"
-msgstr ""
+msgstr "Raskaasti ulospäin"
 
 msgid "Mostly Outbound"
-msgstr ""
+msgstr "Suurilta osin ulospäin"
 
 msgid "Balanced"
-msgstr ""
+msgstr "Tasapainoinen"
 
 msgid "Mostly Inbound"
-msgstr ""
+msgstr "Suurilta osin sisääntulevaa"
 
 msgid "Heavy Inbound"
-msgstr ""
+msgstr "Raskaasti sisääntulevaa"
 
 msgid "North America"
-msgstr ""
+msgstr "Pohjoisamerikka"
 
 msgid "Asia Pacific"
-msgstr ""
+msgstr "Aasia Pasific"
 
 msgid "Europe"
-msgstr ""
+msgstr "Eurooppa"
 
 msgid "South America"
-msgstr ""
+msgstr "Eteläamerikka"
 
 msgid "Africa"
-msgstr ""
+msgstr "Afrikka"
 
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Lähi-itä"
 
 msgid "Regional"
-msgstr ""
+msgstr "Alueellinen"
 
 msgid "Global"
-msgstr ""
+msgstr "Kansainvälinen"
 
 msgid "0-20Mbps"
-msgstr ""
+msgstr "0-20Mbps"
 
 msgid "20-100Mbps"
-msgstr ""
+msgstr "20-100Mbps"
 
 msgid "100-1000Mbps"
-msgstr ""
+msgstr "100-1000Mbps"
 
 msgid "1-5Gbps"
-msgstr ""
+msgstr "1-5Gbps"
 
 msgid "5-10Gbps"
 msgstr ""
@@ -397,7 +399,7 @@ msgid "Status Dashboard"
 msgstr ""
 
 msgid "Facility"
-msgstr ""
+msgstr "Facility"
 
 msgid "Facilities"
 msgstr ""
@@ -619,7 +621,7 @@ msgid "Campus Name"
 msgstr ""
 
 msgid "Campus"
-msgstr ""
+msgstr "Kampus"
 
 msgid "Campuses"
 msgstr ""
@@ -829,7 +831,7 @@ msgid "Cannot deny a canceled affiliation request"
 msgstr ""
 
 msgid "Deny"
-msgstr ""
+msgstr "Hylkää"
 
 msgid "Usernames cannot start with \"apikey\""
 msgstr ""
@@ -1050,7 +1052,7 @@ msgid "Marks an `{obj_type}` type object as `deleted`."
 msgstr ""
 
 msgid "Yes"
-msgstr ""
+msgstr "Kyllä"
 
 msgid "Invalid export format"
 msgstr ""
@@ -1312,7 +1314,7 @@ msgid "Denied"
 msgstr ""
 
 msgid "Canceled"
-msgstr ""
+msgstr "Peruutettu"
 
 msgid "Status of this request"
 msgstr ""
@@ -1468,7 +1470,7 @@ msgid "The current status of the manual IX-F import request"
 msgstr ""
 
 msgid "Queued"
-msgstr ""
+msgstr "Jonossa"
 
 msgid "Importing"
 msgstr ""
@@ -1898,7 +1900,7 @@ msgid "We could not find the address you entered. Please review your address dat
 msgstr ""
 
 msgid "Invalid value"
-msgstr ""
+msgstr "Väärä arvo"
 
 msgid "This field is required"
 msgstr ""
@@ -2753,7 +2755,7 @@ msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel
 msgstr ""
 
 msgid "Remove"
-msgstr ""
+msgstr "Poista"
 
 msgid "Register security key"
 msgstr ""
@@ -3005,7 +3007,7 @@ msgid "Could not resolve the location you provided: "
 msgstr ""
 
 msgid "sponsor"
-msgstr ""
+msgstr "sponsori"
 
 msgid "Suggest Exchange"
 msgstr ""
@@ -3123,7 +3125,7 @@ msgid "Routeservers"
 msgstr ""
 
 msgid "Exchange"
-msgstr ""
+msgstr "Yhteyspiste"
 
 msgid "Facility link"
 msgstr ""
@@ -3141,10 +3143,10 @@ msgid "Prefixes (IPv4/IPv6)"
 msgstr ""
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "Yhteyspiste - Facility linkki"
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "IX LAN Osoiteetuliite"
 
 msgid "Add Prefix"
 msgstr ""
@@ -3189,7 +3191,7 @@ msgid "IP"
 msgstr ""
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "Verkko - Yhteyspiste linkki"
 
 msgid "Not operational"
 msgstr ""
@@ -3615,7 +3617,7 @@ msgid "Not a valid phone number (E.164)"
 msgstr ""
 
 msgid "Input required"
-msgstr ""
+msgstr "Pakollinen kenttä"
 
 msgid "Invalid prefix: {}"
 msgstr ""
