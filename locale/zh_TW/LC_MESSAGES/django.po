@@ -1260,6 +1260,16 @@ msgstr "密碼沒有匹配"
 msgid "This username is already taken"
 msgstr "這個 Email 已被使用"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "姓"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "名"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "請填入anti-spam挑戰欄位"
 
@@ -1500,6 +1510,12 @@ msgstr "地理編碼錯誤"
 #| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
 msgstr "地理編碼錯誤"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr ""
@@ -3307,6 +3323,34 @@ msgstr "至少指定一個電子郵寄地址"
 msgid "Add email address"
 msgstr "電子郵件"
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change name"
+msgstr "交換點"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "用戶名"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "姓"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "名"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change Name"
+msgstr "交換點"
+
 msgid "Change password"
 msgstr "修改密碼"
 
@@ -3386,6 +3430,9 @@ msgstr "語言偏好已保持"
 msgid "Set language preference"
 msgstr "設置語言偏好"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "帳號已創建"
 
@@ -3458,6 +3505,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "結果"
 
 #, fuzzy
 #| msgid "Sponsors"

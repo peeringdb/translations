@@ -1229,6 +1229,16 @@ msgstr "Hesla musí odpovídat"
 msgid "This username is already taken"
 msgstr "Tato emailová adresa je již použita"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "Jméno"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "Příjmení"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1472,6 +1482,12 @@ msgstr "Chyba geocodingu"
 #| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
 msgstr "Chyba geocodingu"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr ""
@@ -3292,6 +3308,34 @@ msgstr "Změnit e-mailovou adresu"
 msgid "Add email address"
 msgstr "e-mailová adresa"
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change name"
+msgstr "Propojovací uzel"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "Uživatelské jméno"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "Jméno"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "Příjmení"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change Name"
+msgstr "Propojovací uzel"
+
 msgid "Change password"
 msgstr "Změnit heslo"
 
@@ -3372,6 +3416,9 @@ msgstr "Jazyková preference byla uložena"
 msgid "Set language preference"
 msgstr "Nastavte preferenci jazyka"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Účet vytvořen"
 
@@ -3444,6 +3491,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "Výsledek"
 
 #, fuzzy
 #| msgid "Sponsors"

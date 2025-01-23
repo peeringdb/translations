@@ -1234,6 +1234,16 @@ msgstr "Οι κωδικοί πρέπει να είναι ταυτόσημοι"
 msgid "This username is already taken"
 msgstr "Αυτή η διεύθυνση email έχει ήδη χρησιμοποιηθεί"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "Όνομα"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "Επίθετο"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1482,6 +1492,12 @@ msgstr "Σφάλμα Geocoding"
 #| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
 msgstr "Σφάλμα Geocoding"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr ""
@@ -3310,6 +3326,34 @@ msgstr "Αλλαγή διεύθυνσης email"
 msgid "Add email address"
 msgstr "διεύθυνση email"
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change name"
+msgstr "Exchange"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "Όνομα Χρήστη"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "Όνομα"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "Επίθετο"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change Name"
+msgstr "Exchange"
+
 msgid "Change password"
 msgstr "Αλλαγή κωδικού"
 
@@ -3389,6 +3433,9 @@ msgstr "H προτίμηση Γλώσσας αποθηκεύτηκε"
 msgid "Set language preference"
 msgstr "Ορίστε προτίμηση γλώσσας"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Ο Λογαριασμός Δημιουργήθηκε"
 
@@ -3461,6 +3508,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "Αποτέλεσμα"
 
 #, fuzzy
 #| msgid "Sponsors"

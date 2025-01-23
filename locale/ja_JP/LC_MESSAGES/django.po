@@ -1122,6 +1122,16 @@ msgstr "文字列が一致するパスワードでお願いします"
 msgid "This username is already taken"
 msgstr "このメールアドレスは既に使われています"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "名"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "姓"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "anti-spam challenge (captcha) field に入力してください"
 
@@ -1333,6 +1343,12 @@ msgstr "Geo location lookup timed out"
 
 msgid "Geo location lookup failed: {}"
 msgstr "Geo location lookup failed: {}"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr "Geocoordinate Cache"
@@ -3019,6 +3035,34 @@ msgstr "最低限、メールアドレスを1つ指定してください"
 msgid "Add email address"
 msgstr "メールアドレス"
 
+#, fuzzy
+#| msgid "Exchange name"
+msgid "Change name"
+msgstr "エクスチェンジの名前"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "ユーザ名"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "名"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "姓"
+
+#, fuzzy
+#| msgid "Exchange name"
+msgid "Change Name"
+msgstr "エクスチェンジの名前"
+
 msgid "Change password"
 msgstr "パスワードの変更"
 
@@ -3098,6 +3142,9 @@ msgstr "好みの言語を保存しました"
 msgid "Set language preference"
 msgstr "言語を選択する"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "アカウントが作成されました"
 
@@ -3172,6 +3219,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "結果"
 
 msgid "sponsor"
 msgstr "スポンサー"

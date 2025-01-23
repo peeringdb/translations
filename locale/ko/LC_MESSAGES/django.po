@@ -1094,6 +1094,16 @@ msgstr "비밀번호가 일치해야 함"
 msgid "This username is already taken"
 msgstr "이 아이디는 이미 사용중입니다"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "이름"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "성"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "안티스팸 챌린지(캡차) 필드를 입력하십시오"
 
@@ -1301,6 +1311,12 @@ msgstr "지리적 위치 조회 시간 초과"
 
 msgid "Geo location lookup failed: {}"
 msgstr "지리적 위치 조회 실패: {}"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr "지리적 좌표 캐시"
@@ -2960,6 +2976,34 @@ msgstr "하나 이상의 이메일 주소를 지정하시오"
 msgid "Add email address"
 msgstr "이메일 주소"
 
+#, fuzzy
+#| msgid "Exchange name"
+msgid "Change name"
+msgstr "익스체인지 이름"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "아이디"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "이름"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "성"
+
+#, fuzzy
+#| msgid "Exchange name"
+msgid "Change Name"
+msgstr "익스체인지 이름"
+
 msgid "Change password"
 msgstr "비밀번호 변경"
 
@@ -3039,6 +3083,9 @@ msgstr "언어 기본 설정이 저장됨"
 msgid "Set language preference"
 msgstr "언어 기본 설정"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "계정이 생성됨"
 
@@ -3113,6 +3160,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "결과"
 
 msgid "sponsor"
 msgstr "스폰서"

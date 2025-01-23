@@ -1145,6 +1145,16 @@ msgstr "Les mots de passe doivent correspondre"
 msgid "This username is already taken"
 msgstr "Cette adresse email a déjà été utilisée"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "Prénom"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "Nom de famille"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1394,6 +1404,12 @@ msgstr "Erreur de géocodage"
 #| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
 msgstr "Erreur de géocodage"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr ""
@@ -3222,6 +3238,34 @@ msgstr "Changer l'adresse email"
 msgid "Add email address"
 msgstr "adresse courriel"
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change name"
+msgstr "Point d'échange"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "Nom d'utilisateur"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "Prénom"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "Nom de famille"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change Name"
+msgstr "Point d'échange"
+
 msgid "Change password"
 msgstr "Changer le mot de passe"
 
@@ -3301,6 +3345,9 @@ msgstr "Préférences linguistiques saugeardées"
 msgid "Set language preference"
 msgstr "Définir la préférence de langue"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Compte créé"
 
@@ -3373,6 +3420,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "Résultat"
 
 #, fuzzy
 #| msgid "Sponsors"

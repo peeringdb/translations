@@ -1206,6 +1206,16 @@ msgstr ""
 msgid "This username is already taken"
 msgstr ""
 
+#, fuzzy
+#| msgid "Facility"
+msgid "First Name"
+msgstr "Bina"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Last Name"
+msgstr "Bina"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1434,6 +1444,12 @@ msgid "Geo location lookup timed out"
 msgstr ""
 
 msgid "Geo location lookup failed: {}"
+msgstr ""
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
 msgstr ""
 
 msgid "Geocoordinate Cache"
@@ -3245,6 +3261,34 @@ msgstr "Satış"
 
 #, fuzzy
 #| msgid "Exchange"
+msgid "Change name"
+msgstr "Değişim noktası"
+
+#, fuzzy
+#| msgid "Users"
+msgid "Name changed"
+msgstr "Kullanıcılar"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility"
+msgid "New First Name"
+msgstr "Bina"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "New Last Name"
+msgstr "Bina"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change Name"
+msgstr "Değişim noktası"
+
+#, fuzzy
+#| msgid "Exchange"
 msgid "Change password"
 msgstr "Değişim noktası"
 
@@ -3324,6 +3368,9 @@ msgid "Language preference saved"
 msgstr ""
 
 msgid "Set language preference"
+msgstr ""
+
+msgid "Theme Mode"
 msgstr ""
 
 #, fuzzy
@@ -3408,6 +3455,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "results"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "sponsor"
 msgstr ""

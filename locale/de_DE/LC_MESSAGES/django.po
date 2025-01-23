@@ -1095,6 +1095,16 @@ msgstr "Passwörter stimmen nicht überein"
 msgid "This username is already taken"
 msgstr "Dieser Nutzername wird bereits genutzt"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "Vorname"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "Nachname"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "Bitte füllen Sie das Anti-Spam Aufforderungsfeld (Captcha) aus"
 
@@ -1302,6 +1312,12 @@ msgstr "Zeitüberschreitung bei der Standortsuche"
 
 msgid "Geo location lookup failed: {}"
 msgstr "Standortsuche fehlgeschlagen: {}"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr "Geokoordinaten-Cache"
@@ -2920,6 +2936,34 @@ msgstr "Als primäre E-Mail Adresse setzen"
 msgid "Add email address"
 msgstr "E-Mail Adresse hinzufügen"
 
+#, fuzzy
+#| msgid "Change username"
+msgid "Change name"
+msgstr "Benutzername ändern"
+
+#, fuzzy
+#| msgid "Username changed"
+msgid "Name changed"
+msgstr "Benutzername geändert"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "Vorname"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "Nachname"
+
+#, fuzzy
+#| msgid "Change username"
+msgid "Change Name"
+msgstr "Benutzername ändern"
+
 msgid "Change password"
 msgstr "Passwort ändern"
 
@@ -2995,6 +3039,9 @@ msgstr "Sprachauswahl gespeichert"
 msgid "Set language preference"
 msgstr "Sprachauswahl speichern"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Erstellungsdatum des Kontos"
 
@@ -3067,6 +3114,20 @@ msgstr "nahe"
 
 msgid "Could not resolve the location you provided: "
 msgstr "Der von Ihnen angegebene Standort konnte nicht ermittelt werden: "
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "Ergebnis"
 
 msgid "sponsor"
 msgstr "Sponsor"

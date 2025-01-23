@@ -1198,6 +1198,16 @@ msgstr "Пароли должны совпадать"
 msgid "This username is already taken"
 msgstr "Этот емайл уже используется"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "Имя"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "Фамилия"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr ""
 
@@ -1446,6 +1456,12 @@ msgstr "Ошибка геокодирования"
 #| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
 msgstr "Ошибка геокодирования"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr ""
@@ -3272,6 +3288,34 @@ msgstr "Изменить емайл"
 msgid "Add email address"
 msgstr "емайл"
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change name"
+msgstr "IXP"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "Имя пользователя"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "Имя"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "Фамилия"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change Name"
+msgstr "IXP"
+
 msgid "Change password"
 msgstr "Изменить пароль"
 
@@ -3351,6 +3395,9 @@ msgstr "Выбор языка сохранен"
 msgid "Set language preference"
 msgstr "Установить язык"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Аккаунт создан"
 
@@ -3423,6 +3470,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "Результат"
 
 #, fuzzy
 #| msgid "Sponsors"

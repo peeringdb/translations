@@ -1102,6 +1102,16 @@ msgstr "As senhas precisam coincidir"
 msgid "This username is already taken"
 msgstr "Este nome de usuário já está em uso"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "Primeiro nome"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "Último nome"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "Por favor preencha o campo do desafio (captcha) anti-spam"
 
@@ -1311,6 +1321,12 @@ msgstr "A pesquisa de localização geográfica expirou"
 
 msgid "Geo location lookup failed: {}"
 msgstr "Falha na pesquisa de localização geográfica: {}"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr "Cache de geocoordenadas"
@@ -2945,6 +2961,34 @@ msgstr "Definir como endereço de e-mail principal"
 msgid "Add email address"
 msgstr "Adicionar endereço de e-mail"
 
+#, fuzzy
+#| msgid "Change username"
+msgid "Change name"
+msgstr "Mudar nome de usuário"
+
+#, fuzzy
+#| msgid "Username changed"
+msgid "Name changed"
+msgstr "Nome de usuário alterado"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "Primeiro nome"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "Último nome"
+
+#, fuzzy
+#| msgid "Change username"
+msgid "Change Name"
+msgstr "Mudar nome de usuário"
+
 msgid "Change password"
 msgstr "Alterar senha"
 
@@ -3019,6 +3063,9 @@ msgstr "Preferência de idioma salvo"
 
 msgid "Set language preference"
 msgstr "Definir preferência de idioma"
+
+msgid "Theme Mode"
+msgstr ""
 
 msgid "Account Created"
 msgstr "Conta criada"
@@ -3097,6 +3144,20 @@ msgstr "próximo"
 
 msgid "Could not resolve the location you provided: "
 msgstr "Não foi possível resolver o local que você forneceu: "
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "Resultado"
 
 msgid "sponsor"
 msgstr "patrocinador"

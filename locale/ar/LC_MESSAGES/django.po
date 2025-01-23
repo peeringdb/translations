@@ -1259,6 +1259,16 @@ msgstr "يجب ان تتطابق كلمات المرور"
 msgid "This username is already taken"
 msgstr "تم استخدام هذا البريد الإلكتروني من قبل"
 
+#, fuzzy
+#| msgid "First name"
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "Last Name"
+msgstr "اسم العائلة (الكنية)"
+
 msgid "Please fill out the anti-spam challenge (captcha) field"
 msgstr "يرجى ملء حقل كلمة التحقق (captcha)"
 
@@ -1486,6 +1496,12 @@ msgstr "خطأ بالترميز الجغرافي"
 #| msgid "Geocoding error"
 msgid "Geo location lookup failed: {}"
 msgstr "خطأ بالترميز الجغرافي"
+
+msgid "Field is being deprecated."
+msgstr ""
+
+msgid "Please move this data to the suite field and remove it from here."
+msgstr ""
 
 msgid "Geocoordinate Cache"
 msgstr ""
@@ -3297,6 +3313,34 @@ msgstr "حدد عنوان بريد إلكتروني واحد على الأقل"
 msgid "Add email address"
 msgstr "عنوان بريد الكتروني"
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change name"
+msgstr "تبادل"
+
+#, fuzzy
+#| msgid "Username"
+msgid "Name changed"
+msgstr "المستخدم"
+
+msgid "Name associated with this account"
+msgstr ""
+
+#, fuzzy
+#| msgid "First name"
+msgid "New First Name"
+msgstr "الاسم الأول"
+
+#, fuzzy
+#| msgid "Last name"
+msgid "New Last Name"
+msgstr "اسم العائلة (الكنية)"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Change Name"
+msgstr "تبادل"
+
 msgid "Change password"
 msgstr "تغيير كلمة المرور"
 
@@ -3376,6 +3420,9 @@ msgstr "تم حفظ اللغة المفضلة"
 msgid "Set language preference"
 msgstr "ضبط اللغة المفضلة"
 
+msgid "Theme Mode"
+msgstr ""
+
 msgid "Account Created"
 msgstr "تم إنشاء الحساب"
 
@@ -3450,6 +3497,20 @@ msgstr ""
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
+
+msgid "Are you searching for"
+msgstr ""
+
+msgid "Switch to List View"
+msgstr ""
+
+msgid "Switch to Category View"
+msgstr ""
+
+#, fuzzy
+#| msgid "Result"
+msgid "results"
+msgstr "نتيجة"
 
 #, fuzzy
 #| msgid "Sponsors"
