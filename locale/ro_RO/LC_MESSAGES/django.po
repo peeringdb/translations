@@ -1692,6 +1692,14 @@ msgstr "Utilizatorul a fost notificat despre ștergerea contului în așteptare 
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
 msgstr "Acest utilizator nu va fi niciodată marcat pentru ștergere prin procesul de curățare a utilizatorului orfan."
 
+#, fuzzy
+#| msgid "Options"
+msgid "option flags"
+msgstr "Opțiuni"
+
+msgid "Bitmask to store user preference toggles"
+msgstr ""
+
 msgid "user"
 msgstr "utilizator"
 
@@ -1815,6 +1823,11 @@ msgstr "API: mesaj API autentificat privind viteza de accelerare"
 msgid "API: Request Write API Limiting"
 msgstr ""
 
+#, fuzzy
+#| msgid "Requested by Organization API Key"
+msgid "API: Request Organization Users API Limiting"
+msgstr "Solicitată de cheia API a organizației"
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -1880,6 +1893,9 @@ msgstr "E-mailuri pentru modificarea datelor"
 
 msgid "Organization and all Entities it owns"
 msgstr "Organizația și toate entitățile pe care aceasta le deține"
+
+msgid "User Management Privileges"
+msgstr ""
 
 msgid "Any Network"
 msgstr "Orice rețea"
@@ -2445,6 +2461,11 @@ msgstr "CLLI"
 msgid "Does not matter"
 msgstr "Nu contează"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "Hide exchanges without facility presence"
+msgstr "Numărul de Internet Exchange-uri prezente la această Facilitate"
+
 msgid "IP Block"
 msgstr "Bloc de adrese IP"
 
@@ -2812,25 +2833,42 @@ msgstr "Procesul de resetare a parolei a expirat, vă rugăm"
 msgid "initiate again"
 msgstr "să inițiați din nou"
 
-msgid "Security keys"
+#, fuzzy
+#| msgid "Security keys"
+msgid "Security Tokens and Passkeys"
 msgstr "Chei de securitate"
 
+msgid "You can configure a U2F hardware security token and/or a Passkey. They can be configured in two ways:"
+msgstr ""
+
+msgid "Disallow login: Requires username/password login, followed by key verification"
+msgstr ""
+
+msgid "Allow login: Allows direct login without username/password"
+msgstr ""
+
+msgid "Device-internal keys, like fingerprint scanners, might be shown before your preferred U2F hardware security token."
+msgstr ""
+
 #, fuzzy
-#| msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgid "Register your security key and use it as a 2FA method."
-msgstr "Înregistrați-vă cheia de securitate și utilizați-o ca metodă 2FA sau pentru autentificare fără parolă."
-
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr "Când utilizați o cheie de securitate U2F, cum ar fi <b>yubikeys</b>, solicitarea inițială poate afișa mai întâi alte chei interne ale dispozitivului (cum ar fi scanere de amprente și pini de securitate)."
-
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+#| msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgid "If your token is plugged in but not listed, <b>cancel</b> the initial prompt. A new prompt for your token should appear afterwards."
 msgstr "Dacă yubikey-ul dvs. este conectat, dar nu apare în listă, <b>anulați</b> solicitarea inițială și ar trebui să apară o nouă solicitare pentru yubikey."
+
+msgid "Disallow login"
+msgstr ""
+
+msgid "Allow login"
+msgstr ""
 
 msgid "Remove"
 msgstr "Eliminați"
 
 msgid "Register security key"
 msgstr "Înregistrați cheia de securitate"
+
+msgid "Allow to use for login"
+msgstr ""
 
 msgid "Affiliate with organization"
 msgstr "Afiliați-vă la organizație"
@@ -2906,12 +2944,9 @@ msgstr "Doar în modul citire"
 msgid "Account Security"
 msgstr "Securitatea contului"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "Gestionați autentificarea cu doi factori"
-
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
-msgid "Manage Passkey Authentication"
+msgid "Manage Multi-factor Authentication"
 msgstr "Gestionați autentificarea cu doi factori"
 
 msgid "Email addresses"
@@ -3014,6 +3049,19 @@ msgstr "V-am trimis un mesaj cu linkul de confirmare."
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "Nu veți avea acces deplin până când noi sau organizația la care sunteți afiliat nu vor examina contul dvs. Vă mulțumim pentru răbdarea dvs."
 
+msgid "Options"
+msgstr "Opțiuni"
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "Hide Internet Exchanges without a linked facility"
+msgstr "Facilitate care găzduiește un Internet Exchange"
+
+#, fuzzy
+#| msgid "Update Options"
+msgid "Save Options"
+msgstr "Opțiuni de actualizare"
+
 msgid "Passkeys"
 msgstr ""
 
@@ -3026,6 +3074,9 @@ msgstr "Înregistrați-vă cheia de securitate și utilizați-o ca metodă 2FA s
 #| msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
 msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
 msgstr "Când utilizați o cheie de securitate U2F, cum ar fi <b>yubikeys</b>, solicitarea inițială poate afișa mai întâi alte chei interne ale dispozitivului (cum ar fi scanere de amprente și pini de securitate)."
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr "Dacă yubikey-ul dvs. este conectat, dar nu apare în listă, <b>anulați</b> solicitarea inițială și ar trebui să apară o nouă solicitare pentru yubikey."
 
 #, fuzzy
 #| msgid "Register security key"
@@ -3229,6 +3280,9 @@ msgstr "Renunțați"
 msgid "Accept"
 msgstr "Acceptați"
 
+msgid "Report Issue"
+msgstr ""
+
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
 msgstr "Datele de geocodare pentru această entitate nu au putut fi obținute în acest moment. Acest lucru se face automat la modificările câmpului de adresă."
 
@@ -3425,9 +3479,6 @@ msgstr "Adăugați automat toate intrările sugerate"
 msgid "Auto-add"
 msgstr "Adăugare automată"
 
-msgid "Options"
-msgstr "Opțiuni"
-
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "Ascundeți această sugestie până când Internet Exchange-ul o actualizează."
 
@@ -3618,6 +3669,14 @@ msgstr "Sugerați o altă rețea"
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr "Pentru autentificarea <strong>fără parolă</strong>, lăsați câmpul pentru parolă gol și asigurați-vă că cheia de securitate U2F FIDO înregistrată este disponibilă/conectată."
 
+#, fuzzy
+#| msgid "Go Back"
+msgid "Back"
+msgstr "Mergeți Înapoi"
+
+msgid "Next"
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "Am uitat parola..."
 
@@ -3693,23 +3752,24 @@ msgstr "În ultimă instanță, puteți utiliza un token de rezervă:"
 msgid "Use Backup Token"
 msgstr "Utilizați token-ul de rezervă"
 
-msgid "Enable Two-Factor Authentication"
-msgstr "Activați autentificarea cu doi factori"
+#, fuzzy
+#| msgid "Add TOTP Authentication"
+msgid "Enable TOTP Authentication"
+msgstr "Adăugați autentificare TOTP"
 
-msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
-msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+#, fuzzy
+#| msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr "Sunteți pe cale să duceți securitatea contului la următorul nivel. Urmați pașii din acest expert pentru a activa autentificarea cu doi factori."
 
 msgid "Please select which authentication method you would like to use."
 msgstr "Vă rugăm să selectați ce metodă de autentificare doriți să utilizați."
 
-msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
-msgstr "Pentru a începe să utilizați un generator de token-uri, vă rugăm să utilizați smartphone-ul pentru a scana codul QR de mai jos. De exemplu, utilizați Google Authenticator. Apoi, introduceți simbolul generat de aplicație."
-
-msgid "Or manually enter the setup key to your Authenticator app."
-msgstr "Sau introduceți manual cheia de configurare în aplicația dvs. Authenticator."
+msgid "Either scan the QR code below with your authenticator app or enter the text key. Confirm your app is properly configured by entering the token generated in the box at the bottom."
+msgstr ""
 
 msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
 msgstr "Vă rugăm să introduceți numărul de telefon pe care doriți să primiți mesajele text. Acest număr va fi validat în pasul următor."
@@ -3729,11 +3789,73 @@ msgstr "Am întâmpinat o problemă cu metoda de autentificare selectată. Vă r
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr "Pentru a identifica și verifica YubiKey, vă rugăm să introduceți un simbol în câmpul de mai jos. YubiKey va fi conectat la contul dvs."
 
-msgid "Add a TOPT method to your two-factor authentication"
-msgstr "Adăugați o metodă TOPT la autentificarea cu doi factori"
+msgid "Congratulations, you've successfully enabled TOTP authentication."
+msgstr ""
+
+msgid "However, it might happen that you don't have access to your primary token device. To enable account recovery, add a phone number."
+msgstr ""
+
+msgid "Add Phone Number"
+msgstr ""
+
+#, fuzzy
+#| msgid "Add TOTP Authentication"
+msgid "Disable TOTP Authentication"
+msgstr "Adăugați autentificare TOTP"
+
+msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Time Based One Time Passwords (TOTP)"
+msgstr ""
+
+msgid "You can choose to save a TOTP secret to a device, often on a phone. Your device generates one-time codes. You enter these codes after entering your account password when logging in. <br><br> You can choose to have us mail you a code each time you login."
+msgstr ""
 
 msgid "Add TOTP Authentication"
 msgstr "Adăugați autentificare TOTP"
+
+#, python-format
+msgid "Primary method: %(primary)s"
+msgstr ""
+
+#, fuzzy
+#| msgid "Backup Tokens"
+msgid "Backup Phone Numbers"
+msgstr "Token-uri de rezervă"
+
+msgid "If your primary method is not available, we are able to send backup tokens to the phone numbers listed below."
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+#, fuzzy
+#| msgid "register"
+msgid "Unregister"
+msgstr "înregistrați-vă"
+
+msgid "If you don't have any device with you, you can access your account using backup tokens."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "You don't have any backup codes yet."
+msgid "You have only one backup token remaining."
+msgid_plural "You have %(counter)s backup tokens remaining."
+msgstr[0] "Nu aveți încă coduri de rezervă."
+msgstr[1] "Nu aveți încă coduri de rezervă."
+msgstr[2] "Nu aveți încă coduri de rezervă."
+
+#, fuzzy
+#| msgid "Show {} rows"
+msgid "Show Codes"
+msgstr "Afișați {} rânduri"
+
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgstr ""
 
 msgid "Email one time password"
 msgstr "Trimiteți prin e-mail o parolă de unică folosință"
@@ -4019,6 +4141,20 @@ msgstr "Dezactivați notificările"
 msgid "Enable notifications"
 msgstr "Activați notificările"
 
+#, fuzzy
+#| msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "Numărul maxim recomandat de rute/prefixe IPv4 pentru a fi configurat în sesiunile de peering pentru acest ASN"
+
+#, fuzzy
+#| msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "Numărul maxim recomandat de rute/prefixe IPv6 pentru a fi configurat în sesiunile de peering pentru acest ASN"
+
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
 
@@ -4086,6 +4222,31 @@ msgstr "Conectați-vă ca administrator al organizației pentru a efectua acțiu
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Register your security key and use it as a 2FA method or for password-less login."
+#~ msgid "Register your security key and use it as a 2FA method."
+#~ msgstr "Înregistrați-vă cheia de securitate și utilizați-o ca metodă 2FA sau pentru autentificare fără parolă."
+
+#~ msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+#~ msgstr "Când utilizați o cheie de securitate U2F, cum ar fi <b>yubikeys</b>, solicitarea inițială poate afișa mai întâi alte chei interne ale dispozitivului (cum ar fi scanere de amprente și pini de securitate)."
+
+#, fuzzy
+#~| msgid "Manage Two-Factor Authentication"
+#~ msgid "Manage Passkey Authentication"
+#~ msgstr "Gestionați autentificarea cu doi factori"
+
+#~ msgid "Enable Two-Factor Authentication"
+#~ msgstr "Activați autentificarea cu doi factori"
+
+#~ msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+#~ msgstr "Pentru a începe să utilizați un generator de token-uri, vă rugăm să utilizați smartphone-ul pentru a scana codul QR de mai jos. De exemplu, utilizați Google Authenticator. Apoi, introduceți simbolul generat de aplicație."
+
+#~ msgid "Or manually enter the setup key to your Authenticator app."
+#~ msgstr "Sau introduceți manual cheia de configurare în aplicația dvs. Authenticator."
+
+#~ msgid "Add a TOPT method to your two-factor authentication"
+#~ msgstr "Adăugați o metodă TOPT la autentificarea cu doi factori"
 
 #~ msgid "Lessee"
 #~ msgstr "Locatar"
@@ -4212,9 +4373,6 @@ msgstr ""
 
 #~ msgid "Redirect Uris"
 #~ msgstr "URI-urile de redirectare"
-
-#~ msgid "Go Back"
-#~ msgstr "Mergeți Înapoi"
 
 #~ msgid "Register a new application"
 #~ msgstr "Înregistrați o nouă solicitare"

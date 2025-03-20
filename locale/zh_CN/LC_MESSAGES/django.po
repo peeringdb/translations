@@ -1942,6 +1942,14 @@ msgstr ""
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
 msgstr ""
 
+#, fuzzy
+#| msgid "Regional"
+msgid "option flags"
+msgstr "区域性"
+
+msgid "Bitmask to store user preference toggles"
+msgstr ""
+
 msgid "user"
 msgstr "用户"
 
@@ -2073,6 +2081,11 @@ msgstr ""
 msgid "API: Request Write API Limiting"
 msgstr ""
 
+#, fuzzy
+#| msgid "Organization"
+msgid "API: Request Organization Users API Limiting"
+msgstr "组织"
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -2156,6 +2169,9 @@ msgstr "修改 Email"
 
 msgid "Organization and all Entities it owns"
 msgstr "组织及其拥有的实体"
+
+msgid "User Management Privileges"
+msgstr ""
 
 msgid "Any Network"
 msgstr "任何网络"
@@ -2766,6 +2782,11 @@ msgstr "CLLI"
 msgid "Does not matter"
 msgstr ""
 
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "Hide exchanges without facility presence"
+msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络"
+
 msgid "IP Block"
 msgstr "IP 块"
 
@@ -3177,22 +3198,37 @@ msgstr "再次发起"
 
 #, fuzzy
 #| msgid "Invalid Security Token"
-msgid "Security keys"
+msgid "Security Tokens and Passkeys"
 msgstr "无效的安全令牌"
 
-msgid "Register your security key and use it as a 2FA method."
+msgid "You can configure a U2F hardware security token and/or a Passkey. They can be configured in two ways:"
 msgstr ""
 
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgid "Disallow login: Requires username/password login, followed by key verification"
 msgstr ""
 
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgid "Allow login: Allows direct login without username/password"
+msgstr ""
+
+msgid "Device-internal keys, like fingerprint scanners, might be shown before your preferred U2F hardware security token."
+msgstr ""
+
+msgid "If your token is plugged in but not listed, <b>cancel</b> the initial prompt. A new prompt for your token should appear afterwards."
+msgstr ""
+
+msgid "Disallow login"
+msgstr ""
+
+msgid "Allow login"
 msgstr ""
 
 msgid "Remove"
 msgstr "删除"
 
 msgid "Register security key"
+msgstr ""
+
+msgid "Allow to use for login"
 msgstr ""
 
 msgid "Affiliate with organization"
@@ -3275,12 +3311,7 @@ msgstr "账号已创建"
 
 #, fuzzy
 #| msgid "Manage OAuth Applications"
-msgid "Manage Two-Factor Authentication"
-msgstr "管理 OAuth 应用"
-
-#, fuzzy
-#| msgid "Manage OAuth Applications"
-msgid "Manage Passkey Authentication"
+msgid "Manage Multi-factor Authentication"
 msgstr "管理 OAuth 应用"
 
 #, fuzzy
@@ -3403,6 +3434,21 @@ msgstr "我们已向您发送包含确认链接的消息。"
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "在我们或相关组织审核您的帐户前，您没有完全访问权限。感谢您的耐心等待。"
 
+#, fuzzy
+#| msgid "Regional"
+msgid "Options"
+msgstr "区域性"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Hide Internet Exchanges without a linked facility"
+msgstr "交换点 - 设施连接"
+
+#, fuzzy
+#| msgid "Regional"
+msgid "Save Options"
+msgstr "区域性"
+
 msgid "Passkeys"
 msgstr ""
 
@@ -3410,6 +3456,9 @@ msgid "Register your security key and use it as a Passkey authentication."
 msgstr ""
 
 msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
 msgstr ""
 
 #, fuzzy
@@ -3618,6 +3667,9 @@ msgid "Dismiss"
 msgstr ""
 
 msgid "Accept"
+msgstr ""
+
+msgid "Report Issue"
 msgstr ""
 
 #, fuzzy
@@ -3846,11 +3898,6 @@ msgstr ""
 msgid "Auto-add"
 msgstr ""
 
-#, fuzzy
-#| msgid "Regional"
-msgid "Options"
-msgstr "区域性"
-
 msgid "Hide this suggestion until the exchange updates it."
 msgstr ""
 
@@ -4066,6 +4113,12 @@ msgstr "建议另一个网络"
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
+msgid "Back"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "忘记密码.."
 
@@ -4136,22 +4189,19 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Manage OAuth Applications"
-msgid "Enable Two-Factor Authentication"
+msgid "Enable TOTP Authentication"
 msgstr "管理 OAuth 应用"
 
-msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
-msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
 msgid "Please select which authentication method you would like to use."
 msgstr ""
 
-msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
-msgstr ""
-
-msgid "Or manually enter the setup key to your Authenticator app."
+msgid "Either scan the QR code below with your authenticator app or enter the text key. Confirm your app is properly configured by entering the token generated in the box at the bottom."
 msgstr ""
 
 msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
@@ -4172,15 +4222,68 @@ msgstr ""
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr ""
 
+msgid "Congratulations, you've successfully enabled TOTP authentication."
+msgstr ""
+
+msgid "However, it might happen that you don't have access to your primary token device. To enable account recovery, add a phone number."
+msgstr ""
+
+msgid "Add Phone Number"
+msgstr ""
+
 #, fuzzy
-#| msgid "Add a new Network to your Organization."
-msgid "Add a TOPT method to your two-factor authentication"
-msgstr "向您的组织添加新网络。"
+#| msgid "Manage OAuth Applications"
+msgid "Disable TOTP Authentication"
+msgstr "管理 OAuth 应用"
+
+msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Time Based One Time Passwords (TOTP)"
+msgstr ""
+
+msgid "You can choose to save a TOTP secret to a device, often on a phone. Your device generates one-time codes. You enter these codes after entering your account password when logging in. <br><br> You can choose to have us mail you a code each time you login."
+msgstr ""
 
 #, fuzzy
 #| msgid "Manage OAuth Applications"
 msgid "Add TOTP Authentication"
 msgstr "管理 OAuth 应用"
+
+#, python-format
+msgid "Primary method: %(primary)s"
+msgstr ""
+
+msgid "Backup Phone Numbers"
+msgstr ""
+
+msgid "If your primary method is not available, we are able to send backup tokens to the phone numbers listed below."
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+#, fuzzy
+#| msgid "register"
+msgid "Unregister"
+msgstr "注册"
+
+msgid "If you don't have any device with you, you can access your account using backup tokens."
+msgstr ""
+
+#, python-format
+msgid "You have only one backup token remaining."
+msgid_plural "You have %(counter)s backup tokens remaining."
+msgstr[0] ""
+
+msgid "Show Codes"
+msgstr ""
+
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgstr ""
 
 #, fuzzy
 #| msgid "Confirm password"
@@ -4505,6 +4608,16 @@ msgstr "合并通知"
 msgid "Enable notifications"
 msgstr "合并通知"
 
+msgid ""
+"Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr ""
+
+msgid ""
+"Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr ""
+
 msgid "Protocols Supported"
 msgstr "支持的协议"
 
@@ -4594,6 +4707,21 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Manage OAuth Applications"
+#~ msgid "Manage Passkey Authentication"
+#~ msgstr "管理 OAuth 应用"
+
+#, fuzzy
+#~| msgid "Manage OAuth Applications"
+#~ msgid "Enable Two-Factor Authentication"
+#~ msgstr "管理 OAuth 应用"
+
+#, fuzzy
+#~| msgid "Add a new Network to your Organization."
+#~ msgid "Add a TOPT method to your two-factor authentication"
+#~ msgstr "向您的组织添加新网络。"
 
 #, fuzzy
 #~| msgid "Date"

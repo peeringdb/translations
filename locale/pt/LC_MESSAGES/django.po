@@ -1699,6 +1699,14 @@ msgstr "O usuário foi notificado sobre a exclusão pendente da conta nesta data
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
 msgstr "Este usuário nunca será sinalizado para exclusão por meio do processo de limpeza de usuário órfão."
 
+#, fuzzy
+#| msgid "Options"
+msgid "option flags"
+msgstr "Opções"
+
+msgid "Bitmask to store user preference toggles"
+msgstr ""
+
 msgid "user"
 msgstr "usuário"
 
@@ -1822,6 +1830,11 @@ msgstr "API: Taxa de supressão de mensagem para API autenticada"
 msgid "API: Request Write API Limiting"
 msgstr ""
 
+#, fuzzy
+#| msgid "Requested by Organization API Key"
+msgid "API: Request Organization Users API Limiting"
+msgstr "Solicitado pela chave de API da organização"
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -1887,6 +1900,9 @@ msgstr "E-mails de alteração de dados"
 
 msgid "Organization and all Entities it owns"
 msgstr "Organização e todas as suas Entidades"
+
+msgid "User Management Privileges"
+msgstr ""
 
 msgid "Any Network"
 msgstr "Qualquer rede"
@@ -2458,6 +2474,11 @@ msgstr "CLLI"
 msgid "Does not matter"
 msgstr "Não importa"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "Hide exchanges without facility presence"
+msgstr "número de exchanges neste PoP"
+
 msgid "IP Block"
 msgstr "Bloco de IP"
 
@@ -2835,25 +2856,42 @@ msgstr "O processo de redefinição de senha expirou, por favor"
 msgid "initiate again"
 msgstr "iniciar novamente"
 
-msgid "Security keys"
+#, fuzzy
+#| msgid "Security keys"
+msgid "Security Tokens and Passkeys"
 msgstr "Chaves de segurança"
 
+msgid "You can configure a U2F hardware security token and/or a Passkey. They can be configured in two ways:"
+msgstr ""
+
+msgid "Disallow login: Requires username/password login, followed by key verification"
+msgstr ""
+
+msgid "Allow login: Allows direct login without username/password"
+msgstr ""
+
+msgid "Device-internal keys, like fingerprint scanners, might be shown before your preferred U2F hardware security token."
+msgstr ""
+
 #, fuzzy
-#| msgid "Register your security key and use it as a 2FA method or for password-less login."
-msgid "Register your security key and use it as a 2FA method."
-msgstr "Registre sua chave de segurança e use-a como um método 2FA ou para login sem senha."
-
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
-msgstr "Ao usar uma chave de segurança U2F, como <b>yubikeys</b>, o prompt inicial pode mostrar outras chaves internas do dispositivo primeiro (como leitores de impressão digital e pinos de segurança)."
-
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+#| msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgid "If your token is plugged in but not listed, <b>cancel</b> the initial prompt. A new prompt for your token should appear afterwards."
 msgstr "Se o seu yubikey estiver conectado, mas não aparecer na lista, <b>cancele</b> o prompt inicial e um novo prompt para o seu yubikey deve aparecer depois."
+
+msgid "Disallow login"
+msgstr ""
+
+msgid "Allow login"
+msgstr ""
 
 msgid "Remove"
 msgstr "Remover"
 
 msgid "Register security key"
 msgstr "Registrar chave de segurança"
+
+msgid "Allow to use for login"
+msgstr ""
 
 msgid "Affiliate with organization"
 msgstr "Afilie-se à organização"
@@ -2929,12 +2967,9 @@ msgstr "Somente leitura"
 msgid "Account Security"
 msgstr "Segurança da conta"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "Gerenciar autenticação de dois fatores"
-
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
-msgid "Manage Passkey Authentication"
+msgid "Manage Multi-factor Authentication"
 msgstr "Gerenciar autenticação de dois fatores"
 
 msgid "Email addresses"
@@ -3037,6 +3072,19 @@ msgstr "Nós enviamos a você uma mensagem com o link de confirmação."
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "Você não terá acesso total até que nós ou a organização à qual você é afiliado revisem sua conta.. Obrigado pela sua paciência."
 
+msgid "Options"
+msgstr "Opções"
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "Hide Internet Exchanges without a linked facility"
+msgstr "PoP do Internet Exchange"
+
+#, fuzzy
+#| msgid "Update Options"
+msgid "Save Options"
+msgstr "Opções de atualização"
+
 msgid "Passkeys"
 msgstr ""
 
@@ -3049,6 +3097,9 @@ msgstr "Registre sua chave de segurança e use-a como um método 2FA ou para log
 #| msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
 msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
 msgstr "Ao usar uma chave de segurança U2F, como <b>yubikeys</b>, o prompt inicial pode mostrar outras chaves internas do dispositivo primeiro (como leitores de impressão digital e pinos de segurança)."
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgstr "Se o seu yubikey estiver conectado, mas não aparecer na lista, <b>cancele</b> o prompt inicial e um novo prompt para o seu yubikey deve aparecer depois."
 
 #, fuzzy
 #| msgid "Register security key"
@@ -3254,6 +3305,9 @@ msgstr "Liberar"
 msgid "Accept"
 msgstr "Aceito"
 
+msgid "Report Issue"
+msgstr ""
+
 #, fuzzy
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
@@ -3454,9 +3508,6 @@ msgstr "Adicionar automaticamente todas as entradas sugeridas"
 msgid "Auto-add"
 msgstr "Adicionar automaticamente"
 
-msgid "Options"
-msgstr "Opções"
-
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "Oculte esta sugestão até que o exchange a atualize."
 
@@ -3647,6 +3698,12 @@ msgstr "Sugerir outra rede"
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr "Para autenticação <strong>sem senha</strong>, deixe o campo de senha vazio e certifique-se de que sua chave de segurança U2F FIDO registrada esteja disponível/conectada."
 
+msgid "Back"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "Esqueci a minha senha .."
 
@@ -3722,23 +3779,24 @@ msgstr "Como último recurso, você pode usar um token de backup:"
 msgid "Use Backup Token"
 msgstr "Usar token de backup"
 
-msgid "Enable Two-Factor Authentication"
-msgstr "Ativar autenticação de dois fatores"
+#, fuzzy
+#| msgid "Add TOTP Authentication"
+msgid "Enable TOTP Authentication"
+msgstr "Adicionar autenticação TOTP"
 
-msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
-msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+#, fuzzy
+#| msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr "Você está prestes a levar a segurança da sua conta para o próximo nível. Siga as etapas deste assistente para habilitar a autenticação de dois fatores."
 
 msgid "Please select which authentication method you would like to use."
 msgstr "Por favor, selecione qual método de autenticação você gostaria de usar."
 
-msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
-msgstr "Para começar a usar um gerador de token, use seu smartphone para escanear o código QR abaixo. Por exemplo, use o Google Authenticator. Em seguida, insira o token gerado pelo aplicativo."
-
-msgid "Or manually enter the setup key to your Authenticator app."
-msgstr "Ou insira manualmente a chave de configuração no seu aplicativo Authenticator."
+msgid "Either scan the QR code below with your authenticator app or enter the text key. Confirm your app is properly configured by entering the token generated in the box at the bottom."
+msgstr ""
 
 msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
 msgstr "Por favor, digite o número de telefone no qual você deseja receber as mensagens de texto. Este número será validado na próxima etapa."
@@ -3758,11 +3816,72 @@ msgstr "Encontramos um problema com o método de autenticação selecionado. Vol
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr "Para identificar e verificar sua YubiKey, insira um token no campo abaixo. Sua YubiKey será vinculada à sua conta."
 
-msgid "Add a TOPT method to your two-factor authentication"
-msgstr "Adicione um método TOPT à sua autenticação de dois fatores"
+msgid "Congratulations, you've successfully enabled TOTP authentication."
+msgstr ""
+
+msgid "However, it might happen that you don't have access to your primary token device. To enable account recovery, add a phone number."
+msgstr ""
+
+msgid "Add Phone Number"
+msgstr ""
+
+#, fuzzy
+#| msgid "Add TOTP Authentication"
+msgid "Disable TOTP Authentication"
+msgstr "Adicionar autenticação TOTP"
+
+msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Time Based One Time Passwords (TOTP)"
+msgstr ""
+
+msgid "You can choose to save a TOTP secret to a device, often on a phone. Your device generates one-time codes. You enter these codes after entering your account password when logging in. <br><br> You can choose to have us mail you a code each time you login."
+msgstr ""
 
 msgid "Add TOTP Authentication"
 msgstr "Adicionar autenticação TOTP"
+
+#, python-format
+msgid "Primary method: %(primary)s"
+msgstr ""
+
+#, fuzzy
+#| msgid "Backup Tokens"
+msgid "Backup Phone Numbers"
+msgstr "Backup Tokens"
+
+msgid "If your primary method is not available, we are able to send backup tokens to the phone numbers listed below."
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+#, fuzzy
+#| msgid "register"
+msgid "Unregister"
+msgstr "registrar"
+
+msgid "If you don't have any device with you, you can access your account using backup tokens."
+msgstr ""
+
+#, fuzzy, python-format
+#| msgid "You don't have any backup codes yet."
+msgid "You have only one backup token remaining."
+msgid_plural "You have %(counter)s backup tokens remaining."
+msgstr[0] "Você ainda não tem códigos backup."
+msgstr[1] "Você ainda não tem códigos backup."
+
+#, fuzzy
+#| msgid "Show {} rows"
+msgid "Show Codes"
+msgstr "Mostrar {} linhas"
+
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgstr ""
 
 msgid "Email one time password"
 msgstr "Senha de uso único por e-mail"
@@ -4052,6 +4171,20 @@ msgstr "Desativar notificações"
 msgid "Enable notifications"
 msgstr "Habilitar notificações"
 
+#, fuzzy
+#| msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "Número máximo recomendado de rotas/prefixos IPv4 a serem configurados em sessões de peering para este ASN"
+
+#, fuzzy
+#| msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "Número máximo recomendado de rotas/prefixos IPv6 a serem configurados em sessões de peering para este ASN"
+
 msgid "Protocols Supported"
 msgstr "Protocolos suportados"
 
@@ -4121,6 +4254,31 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Register your security key and use it as a 2FA method or for password-less login."
+#~ msgid "Register your security key and use it as a 2FA method."
+#~ msgstr "Registre sua chave de segurança e use-a como um método 2FA ou para login sem senha."
+
+#~ msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+#~ msgstr "Ao usar uma chave de segurança U2F, como <b>yubikeys</b>, o prompt inicial pode mostrar outras chaves internas do dispositivo primeiro (como leitores de impressão digital e pinos de segurança)."
+
+#, fuzzy
+#~| msgid "Manage Two-Factor Authentication"
+#~ msgid "Manage Passkey Authentication"
+#~ msgstr "Gerenciar autenticação de dois fatores"
+
+#~ msgid "Enable Two-Factor Authentication"
+#~ msgstr "Ativar autenticação de dois fatores"
+
+#~ msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
+#~ msgstr "Para começar a usar um gerador de token, use seu smartphone para escanear o código QR abaixo. Por exemplo, use o Google Authenticator. Em seguida, insira o token gerado pelo aplicativo."
+
+#~ msgid "Or manually enter the setup key to your Authenticator app."
+#~ msgstr "Ou insira manualmente a chave de configuração no seu aplicativo Authenticator."
+
+#~ msgid "Add a TOPT method to your two-factor authentication"
+#~ msgstr "Adicione um método TOPT à sua autenticação de dois fatores"
 
 #~ msgid "Lessee"
 #~ msgstr "Locatário"

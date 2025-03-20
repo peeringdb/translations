@@ -1692,6 +1692,14 @@ msgstr "이 날짜에 보류 중인 계정 삭제에 대해 사용자에게 통�
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
 msgstr ""
 
+#, fuzzy
+#| msgid "Options"
+msgid "option flags"
+msgstr "조건"
+
+msgid "Bitmask to store user preference toggles"
+msgstr ""
+
 msgid "user"
 msgstr "사용자"
 
@@ -1815,6 +1823,11 @@ msgstr ""
 msgid "API: Request Write API Limiting"
 msgstr ""
 
+#, fuzzy
+#| msgid "Requested by Organization API Key"
+msgid "API: Request Organization Users API Limiting"
+msgstr "조직 API 키에 의해 요청됨"
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -1880,6 +1893,9 @@ msgstr "데이터 변경 이메일"
 
 msgid "Organization and all Entities it owns"
 msgstr "조직 및 그 조직이 소유하는 모든 항목들"
+
+msgid "User Management Privileges"
+msgstr ""
 
 msgid "Any Network"
 msgstr "모든 네트워크"
@@ -2445,6 +2461,11 @@ msgstr "CLLI"
 msgid "Does not matter"
 msgstr "상관 없음"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "Hide exchanges without facility presence"
+msgstr "이 시설의 교환 수"
+
 msgid "IP Block"
 msgstr "IP 블록"
 
@@ -2840,22 +2861,37 @@ msgstr "다시 시작하십시오"
 
 #, fuzzy
 #| msgid "Invalid Security Token"
-msgid "Security keys"
+msgid "Security Tokens and Passkeys"
 msgstr "유효하지 않은 보안 토큰"
 
-msgid "Register your security key and use it as a 2FA method."
+msgid "You can configure a U2F hardware security token and/or a Passkey. They can be configured in two ways:"
 msgstr ""
 
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgid "Disallow login: Requires username/password login, followed by key verification"
 msgstr ""
 
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgid "Allow login: Allows direct login without username/password"
+msgstr ""
+
+msgid "Device-internal keys, like fingerprint scanners, might be shown before your preferred U2F hardware security token."
+msgstr ""
+
+msgid "If your token is plugged in but not listed, <b>cancel</b> the initial prompt. A new prompt for your token should appear afterwards."
+msgstr ""
+
+msgid "Disallow login"
+msgstr ""
+
+msgid "Allow login"
 msgstr ""
 
 msgid "Remove"
 msgstr "삭제"
 
 msgid "Register security key"
+msgstr ""
+
+msgid "Allow to use for login"
 msgstr ""
 
 msgid "Affiliate with organization"
@@ -2932,12 +2968,9 @@ msgstr ""
 msgid "Account Security"
 msgstr "계정 보안"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "2단계 인증 관리"
-
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
-msgid "Manage Passkey Authentication"
+msgid "Manage Multi-factor Authentication"
 msgstr "2단계 인증 관리"
 
 #, fuzzy
@@ -3060,6 +3093,19 @@ msgstr "확인 링크를 메세지로 보냈습니다."
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "당신이 가입된 기관이 당신의 계정을 검토하기 전에는 완전한 액세스 권한이 없습니다. 양해해 주셔서 감사합니다."
 
+msgid "Options"
+msgstr "조건"
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "Hide Internet Exchanges without a linked facility"
+msgstr "인터넷 익스체인지 시설"
+
+#, fuzzy
+#| msgid "Options"
+msgid "Save Options"
+msgstr "조건"
+
 msgid "Passkeys"
 msgstr ""
 
@@ -3067,6 +3113,9 @@ msgid "Register your security key and use it as a Passkey authentication."
 msgstr ""
 
 msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
 msgstr ""
 
 #, fuzzy
@@ -3274,6 +3323,9 @@ msgstr "제거"
 msgid "Accept"
 msgstr "수락"
 
+msgid "Report Issue"
+msgstr ""
+
 #, fuzzy
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
@@ -3480,9 +3532,6 @@ msgstr "모든 제안된 항목들 자동 추가"
 msgid "Auto-add"
 msgstr "자동 추가"
 
-msgid "Options"
-msgstr "조건"
-
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "익스체인지가 업데이트할 때 까지 이 제안을 숨기기."
 
@@ -3683,6 +3732,14 @@ msgstr "다른 네트워크 제안"
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
+#, fuzzy
+#| msgid "Go Back"
+msgid "Back"
+msgstr "돌아가기"
+
+msgid "Next"
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "비밀번호 찾기 .."
 
@@ -3764,22 +3821,19 @@ msgstr "백업 토큰 사용하기"
 
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
-msgid "Enable Two-Factor Authentication"
+msgid "Enable TOTP Authentication"
 msgstr "2단계 인증 관리"
 
-msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
-msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
 msgid "Please select which authentication method you would like to use."
 msgstr ""
 
-msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
-msgstr ""
-
-msgid "Or manually enter the setup key to your Authenticator app."
+msgid "Either scan the QR code below with your authenticator app or enter the text key. Confirm your app is properly configured by entering the token generated in the box at the bottom."
 msgstr ""
 
 msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
@@ -3800,13 +3854,72 @@ msgstr ""
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr ""
 
-msgid "Add a TOPT method to your two-factor authentication"
-msgstr "2단계 인증에 TOPT 방법 추가"
+msgid "Congratulations, you've successfully enabled TOTP authentication."
+msgstr ""
+
+msgid "However, it might happen that you don't have access to your primary token device. To enable account recovery, add a phone number."
+msgstr ""
+
+msgid "Add Phone Number"
+msgstr ""
+
+#, fuzzy
+#| msgid "Manage Two-Factor Authentication"
+msgid "Disable TOTP Authentication"
+msgstr "2단계 인증 관리"
+
+msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Time Based One Time Passwords (TOTP)"
+msgstr ""
+
+msgid "You can choose to save a TOTP secret to a device, often on a phone. Your device generates one-time codes. You enter these codes after entering your account password when logging in. <br><br> You can choose to have us mail you a code each time you login."
+msgstr ""
 
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
 msgid "Add TOTP Authentication"
 msgstr "2단계 인증 관리"
+
+#, python-format
+msgid "Primary method: %(primary)s"
+msgstr ""
+
+#, fuzzy
+#| msgid "Use Backup Token"
+msgid "Backup Phone Numbers"
+msgstr "백업 토큰 사용하기"
+
+msgid "If your primary method is not available, we are able to send backup tokens to the phone numbers listed below."
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+#, fuzzy
+#| msgid "register"
+msgid "Unregister"
+msgstr "가입"
+
+msgid "If you don't have any device with you, you can access your account using backup tokens."
+msgstr ""
+
+#, python-format
+msgid "You have only one backup token remaining."
+msgid_plural "You have %(counter)s backup tokens remaining."
+msgstr[0] ""
+
+#, fuzzy
+#| msgid "Show {} rows"
+msgid "Show Codes"
+msgstr "{} 행 표시"
+
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgstr ""
 
 msgid "Email one time password"
 msgstr "이메일 일회용 비밀번호"
@@ -4118,6 +4231,20 @@ msgstr "병합 알림"
 msgid "Enable notifications"
 msgstr "병합 알림"
 
+#, fuzzy
+#| msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "이 ASN에 대해 피어 세션에서 구성할 IPv4 경로/ 프리픽스의 최대 권장 수"
+
+#, fuzzy
+#| msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "이 ASN에 대해 피어 세션에서 구성할 IPv6 경로/ 프리픽스의 최대 권장 수"
+
 msgid "Protocols Supported"
 msgstr "지원되는 프로토콜"
 
@@ -4201,6 +4328,19 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Manage Two-Factor Authentication"
+#~ msgid "Manage Passkey Authentication"
+#~ msgstr "2단계 인증 관리"
+
+#, fuzzy
+#~| msgid "Manage Two-Factor Authentication"
+#~ msgid "Enable Two-Factor Authentication"
+#~ msgstr "2단계 인증 관리"
+
+#~ msgid "Add a TOPT method to your two-factor authentication"
+#~ msgstr "2단계 인증에 TOPT 방법 추가"
 
 #~ msgid "Lessee"
 #~ msgstr "임차인"
@@ -4310,9 +4450,6 @@ msgstr ""
 
 #~ msgid "Redirect Uris"
 #~ msgstr "리디렉션 Uris"
-
-#~ msgid "Go Back"
-#~ msgstr "돌아가기"
 
 #~ msgid "Register a new application"
 #~ msgstr "새 응용 프로그램 등록"

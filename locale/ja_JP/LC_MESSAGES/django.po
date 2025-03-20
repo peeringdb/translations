@@ -1729,6 +1729,14 @@ msgstr ""
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
 msgstr ""
 
+#, fuzzy
+#| msgid "Options"
+msgid "option flags"
+msgstr "Options"
+
+msgid "Bitmask to store user preference toggles"
+msgstr ""
+
 msgid "user"
 msgstr "ユーザ(user)"
 
@@ -1852,6 +1860,11 @@ msgstr ""
 msgid "API: Request Write API Limiting"
 msgstr ""
 
+#, fuzzy
+#| msgid "Requested by Organization API Key"
+msgid "API: Request Organization Users API Limiting"
+msgstr "Organization API Key によりリクエストされた"
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -1935,6 +1948,9 @@ msgstr "メールアドレスを変更する"
 
 msgid "Organization and all Entities it owns"
 msgstr "所有している組織と全エンティティ"
+
+msgid "User Management Privileges"
+msgstr ""
 
 msgid "Any Network"
 msgstr "あらゆるネットワーク"
@@ -2510,6 +2526,11 @@ msgstr "CLLI"
 msgid "Does not matter"
 msgstr "重要ではありません"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "Hide exchanges without facility presence"
+msgstr "このデータセンタ内のエクスチェンジの数"
+
 msgid "IP Block"
 msgstr "IP ブロック"
 
@@ -2899,22 +2920,37 @@ msgstr "もう一度実行してください"
 
 #, fuzzy
 #| msgid "Invalid Security Token"
-msgid "Security keys"
+msgid "Security Tokens and Passkeys"
 msgstr "無効なセキュリティトークン"
 
-msgid "Register your security key and use it as a 2FA method."
+msgid "You can configure a U2F hardware security token and/or a Passkey. They can be configured in two ways:"
 msgstr ""
 
-msgid "When using a U2F security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgid "Disallow login: Requires username/password login, followed by key verification"
 msgstr ""
 
-msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
+msgid "Allow login: Allows direct login without username/password"
+msgstr ""
+
+msgid "Device-internal keys, like fingerprint scanners, might be shown before your preferred U2F hardware security token."
+msgstr ""
+
+msgid "If your token is plugged in but not listed, <b>cancel</b> the initial prompt. A new prompt for your token should appear afterwards."
+msgstr ""
+
+msgid "Disallow login"
+msgstr ""
+
+msgid "Allow login"
 msgstr ""
 
 msgid "Remove"
 msgstr "削除する"
 
 msgid "Register security key"
+msgstr ""
+
+msgid "Allow to use for login"
 msgstr ""
 
 msgid "Affiliate with organization"
@@ -2991,12 +3027,9 @@ msgstr "Read only"
 msgid "Account Security"
 msgstr "アカウントのセキュリティ設定"
 
-msgid "Manage Two-Factor Authentication"
-msgstr "二要素認証を設定する"
-
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
-msgid "Manage Passkey Authentication"
+msgid "Manage Multi-factor Authentication"
 msgstr "二要素認証を設定する"
 
 #, fuzzy
@@ -3119,6 +3152,19 @@ msgstr "あなたに確認 URL が書かれたメッセージを送付しまし�
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "あなたのアカウントのレビューが完了するまでフルアクセスの権限を持つ事が出来ません。しばらくお待ちください。"
 
+msgid "Options"
+msgstr "Options"
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "Hide Internet Exchanges without a linked facility"
+msgstr "Internet Exchange facility"
+
+#, fuzzy
+#| msgid "Options"
+msgid "Save Options"
+msgstr "Options"
+
 msgid "Passkeys"
 msgstr ""
 
@@ -3126,6 +3172,9 @@ msgid "Register your security key and use it as a Passkey authentication."
 msgstr ""
 
 msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
+msgstr ""
+
+msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
 msgstr ""
 
 #, fuzzy
@@ -3336,6 +3385,9 @@ msgstr "却下する"
 msgid "Accept"
 msgstr "Accept"
 
+msgid "Report Issue"
+msgstr ""
+
 #, fuzzy
 #| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
@@ -3544,9 +3596,6 @@ msgstr "全ての提案されたエントリーを自動的に追加します"
 msgid "Auto-add"
 msgstr "Auto-add"
 
-msgid "Options"
-msgstr "Options"
-
 msgid "Hide this suggestion until the exchange updates it."
 msgstr "そのエクスチェンジが更新を行うまで、この提案を非表示にします。"
 
@@ -3739,6 +3788,12 @@ msgstr "さらにネットワーク情報追加の提案をする"
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
+msgid "Back"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
 msgid "I forgot my password .."
 msgstr "パスワードを紛失しました..."
 
@@ -3820,22 +3875,19 @@ msgstr "バックアップトークを使用する"
 
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
-msgid "Enable Two-Factor Authentication"
+msgid "Enable TOTP Authentication"
 msgstr "二要素認証を設定する"
 
-msgid "Your email must be confirmed before enabling Two-Factor Authentication."
+msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
-msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
+msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
 msgid "Please select which authentication method you would like to use."
 msgstr ""
 
-msgid "To start using a token generator, please use your smartphone to scan the QR code below. For example, use Google Authenticator. Then, enter the token generated by the app."
-msgstr ""
-
-msgid "Or manually enter the setup key to your Authenticator app."
+msgid "Either scan the QR code below with your authenticator app or enter the text key. Confirm your app is properly configured by entering the token generated in the box at the bottom."
 msgstr ""
 
 msgid "Please enter the phone number you wish to receive the text messages on. This number will be validated in the next step."
@@ -3868,15 +3920,72 @@ msgstr ""
 msgid "To identify and verify your YubiKey, please insert a token in the field below. Your YubiKey will be linked to your account."
 msgstr ""
 
+msgid "Congratulations, you've successfully enabled TOTP authentication."
+msgstr ""
+
+msgid "However, it might happen that you don't have access to your primary token device. To enable account recovery, add a phone number."
+msgstr ""
+
+msgid "Add Phone Number"
+msgstr ""
+
 #, fuzzy
-#| msgid "Add a new Network to your Organization."
-msgid "Add a TOPT method to your two-factor authentication"
-msgstr "あなたの組織に新しいネットワークを追加する事が出来ます"
+#| msgid "Manage Two-Factor Authentication"
+msgid "Disable TOTP Authentication"
+msgstr "二要素認証を設定する"
+
+msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Time Based One Time Passwords (TOTP)"
+msgstr ""
+
+msgid "You can choose to save a TOTP secret to a device, often on a phone. Your device generates one-time codes. You enter these codes after entering your account password when logging in. <br><br> You can choose to have us mail you a code each time you login."
+msgstr ""
 
 #, fuzzy
 #| msgid "Manage Two-Factor Authentication"
 msgid "Add TOTP Authentication"
 msgstr "二要素認証を設定する"
+
+#, python-format
+msgid "Primary method: %(primary)s"
+msgstr ""
+
+#, fuzzy
+#| msgid "Use Backup Token"
+msgid "Backup Phone Numbers"
+msgstr "バックアップトークを使用する"
+
+msgid "If your primary method is not available, we are able to send backup tokens to the phone numbers listed below."
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+#, fuzzy
+#| msgid "register"
+msgid "Unregister"
+msgstr "register"
+
+msgid "If you don't have any device with you, you can access your account using backup tokens."
+msgstr ""
+
+#, python-format
+msgid "You have only one backup token remaining."
+msgid_plural "You have %(counter)s backup tokens remaining."
+msgstr[0] ""
+
+#, fuzzy
+#| msgid "Show {} rows"
+msgid "Show Codes"
+msgstr "Show {} rows"
+
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgstr ""
 
 msgid "Email one time password"
 msgstr "Email one time password"
@@ -4187,6 +4296,20 @@ msgstr "統合の通知"
 msgid "Enable notifications"
 msgstr "統合の通知"
 
+#, fuzzy
+#| msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "この AS 番号とのピアで推奨される IPv4 経路数の上限値"
+
+#, fuzzy
+#| msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
+msgid ""
+"Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN.\n"
+"Leave blank for not disclosed."
+msgstr "この AS 番号とのピアで推奨される IPv6 経路数の上限値"
+
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル"
 
@@ -4264,6 +4387,21 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Manage Two-Factor Authentication"
+#~ msgid "Manage Passkey Authentication"
+#~ msgstr "二要素認証を設定する"
+
+#, fuzzy
+#~| msgid "Manage Two-Factor Authentication"
+#~ msgid "Enable Two-Factor Authentication"
+#~ msgstr "二要素認証を設定する"
+
+#, fuzzy
+#~| msgid "Add a new Network to your Organization."
+#~ msgid "Add a TOPT method to your two-factor authentication"
+#~ msgstr "あなたの組織に新しいネットワークを追加する事が出来ます"
 
 #~ msgid "Lessee"
 #~ msgstr "Lessee"
