@@ -2534,8 +2534,8 @@ msgstr "このデータセンタ内のエクスチェンジの数"
 msgid "IP Block"
 msgstr "IP ブロック"
 
-msgid "Capacity"
-msgstr "キャパシティ"
+msgid "Speed"
+msgstr "帯域"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "認証済みのユーザーは追加のフィルターを使用できますが、現在ログインしていません。"
@@ -3480,9 +3480,6 @@ msgstr "このエクスチェンジに接続しているネットワーク"
 msgid "Peer Name"
 msgstr "ネットワーク名"
 
-msgid "Speed"
-msgstr "帯域"
-
 #, fuzzy
 #| msgid "Location"
 msgid "Port Location"
@@ -3984,7 +3981,7 @@ msgstr[0] ""
 msgid "Show Codes"
 msgstr "Show {} rows"
 
-msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead."
 msgstr ""
 
 msgid "Email one time password"
@@ -4387,6 +4384,9 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Capacity"
+#~ msgstr "キャパシティ"
 
 #, fuzzy
 #~| msgid "Manage Two-Factor Authentication"

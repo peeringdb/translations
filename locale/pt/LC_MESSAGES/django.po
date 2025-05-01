@@ -2482,8 +2482,8 @@ msgstr "número de exchanges neste PoP"
 msgid "IP Block"
 msgstr "Bloco de IP"
 
-msgid "Capacity"
-msgstr "Capacidade"
+msgid "Speed"
+msgstr "Velocidade"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Filtros adicionais estão disponíveis para usuários autenticados e você não está conectado no momento."
@@ -3398,9 +3398,6 @@ msgstr "Peers neste Exchange"
 msgid "Peer Name"
 msgstr "Nome do Peer"
 
-msgid "Speed"
-msgstr "Velocidade"
-
 #, fuzzy
 #| msgid "Location"
 msgid "Port Location"
@@ -3880,7 +3877,7 @@ msgstr[1] "Você ainda não tem códigos backup."
 msgid "Show Codes"
 msgstr "Mostrar {} linhas"
 
-msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead."
 msgstr ""
 
 msgid "Email one time password"
@@ -4254,6 +4251,9 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Capacity"
+#~ msgstr "Capacidade"
 
 #, fuzzy
 #~| msgid "Register your security key and use it as a 2FA method or for password-less login."

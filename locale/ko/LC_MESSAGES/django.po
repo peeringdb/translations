@@ -2469,8 +2469,8 @@ msgstr "이 시설의 교환 수"
 msgid "IP Block"
 msgstr "IP 블록"
 
-msgid "Capacity"
-msgstr "용량"
+msgid "Speed"
+msgstr "속도"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "인증된 사용자는 추가 필터를 사용할 수 있으며 현재 로그아웃 상태입니다."
@@ -3418,9 +3418,6 @@ msgstr "이 익스체인지포인트에서의 Peers"
 msgid "Peer Name"
 msgstr "Peer 이름"
 
-msgid "Speed"
-msgstr "속도"
-
 #, fuzzy
 #| msgid "Location"
 msgid "Port Location"
@@ -3918,7 +3915,7 @@ msgstr[0] ""
 msgid "Show Codes"
 msgstr "{} 행 표시"
 
-msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead."
 msgstr ""
 
 msgid "Email one time password"
@@ -4328,6 +4325,9 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Capacity"
+#~ msgstr "용량"
 
 #, fuzzy
 #~| msgid "Manage Two-Factor Authentication"

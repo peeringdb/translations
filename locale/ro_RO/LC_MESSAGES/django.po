@@ -2469,8 +2469,8 @@ msgstr "Numărul de Internet Exchange-uri prezente la această Facilitate"
 msgid "IP Block"
 msgstr "Bloc de adrese IP"
 
-msgid "Capacity"
-msgstr "Capacitate"
+msgid "Speed"
+msgstr "Viteză"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii autentificați iar în prezent nu sunteți autentificat."
@@ -3369,9 +3369,6 @@ msgstr "Peers în acest Internet Exchange"
 msgid "Peer Name"
 msgstr "Nume peer"
 
-msgid "Speed"
-msgstr "Viteză"
-
 #, fuzzy
 #| msgid "Location"
 msgid "Port Location"
@@ -3854,7 +3851,7 @@ msgstr[2] "Nu aveți încă coduri de rezervă."
 msgid "Show Codes"
 msgstr "Afișați {} rânduri"
 
-msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead."
 msgstr ""
 
 msgid "Email one time password"
@@ -4222,6 +4219,9 @@ msgstr "Conectați-vă ca administrator al organizației pentru a efectua acțiu
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Capacity"
+#~ msgstr "Capacitate"
 
 #, fuzzy
 #~| msgid "Register your security key and use it as a 2FA method or for password-less login."

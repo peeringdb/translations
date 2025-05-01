@@ -2467,8 +2467,8 @@ msgstr "Anzahl der Austauschpunkte in dieser Liegenschaft"
 msgid "IP Block"
 msgstr "IP-Block"
 
-msgid "Capacity"
-msgstr "Kapazität"
+msgid "Speed"
+msgstr "Geschwindigkeit"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Authentifizierten Benutzern stehen zusätzliche Filter zur Verfügung. Bitte melden Sie sich an ."
@@ -3363,9 +3363,6 @@ msgstr "Peers an diesem Exchange"
 msgid "Peer Name"
 msgstr "Peername"
 
-msgid "Speed"
-msgstr "Geschwindigkeit"
-
 #, fuzzy
 #| msgid "Location"
 msgid "Port Location"
@@ -3847,7 +3844,7 @@ msgstr[1] "Sie haben noch keine Backup-Token."
 msgid "Show Codes"
 msgstr "Zeige {} Reihen"
 
-msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead"
+msgid "You can disable TOTP authentication. If you do this, we recommend you use Security Tokens or Passkeys instead."
 msgstr ""
 
 msgid "Email one time password"
@@ -4215,6 +4212,9 @@ msgstr "Melden Sie sich als Administrator der Organisation an, um die Aktion dur
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Capacity"
+#~ msgstr "Kapazität"
 
 #, fuzzy
 #~| msgid "Register your security key and use it as a 2FA method or for password-less login."
