@@ -1611,6 +1611,9 @@ msgstr "사용 가능한 네트워크 프로토콜에 대해 유효성을 검사
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음."
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "IXP가 해당 ixp_구성원 데이터를 통해 이 네트워크에 대해 netixlan 항목을 추가할 수 있는지 여부를 지정합니다"
 
@@ -3132,6 +3135,9 @@ msgstr "언어 기본 설정"
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr "계정이 생성됨"
 
@@ -3321,6 +3327,12 @@ msgid "Accept"
 msgstr "수락"
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 #, fuzzy
@@ -3722,6 +3734,32 @@ msgstr "다른 익스체인지 제안"
 
 msgid "Suggest another network"
 msgstr "다른 네트워크 제안"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "날짜"
+
+msgid "Remove this campus from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
+msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
@@ -4353,16 +4391,6 @@ msgstr ""
 
 #~ msgid "This entity was created for the ASN {} - please remove it from this network and recreate it under the correct network"
 #~ msgstr "이 항목이 ASN {}에 대해 생성됨 - 이 네트워크에서 해당 항목을 제거하고 올바른 네트워크 아래에서 다시 생성하십시오"
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgid "at"
-#~ msgstr "날짜"
-
-#, fuzzy
-#~| msgid "This carrier wants to list its presence at this facility."
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "이 통신사를 이 시설에 표시하려고 합니다."
 
 #~ msgid "120 VAC"
 #~ msgstr "120 VAC(교류 전압)"

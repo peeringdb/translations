@@ -1783,6 +1783,9 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr ""
 
@@ -3460,6 +3463,9 @@ msgstr ""
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr ""
 
@@ -3665,6 +3671,12 @@ msgid "Accept"
 msgstr ""
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
@@ -4123,6 +4135,30 @@ msgstr "Exchange"
 #, fuzzy
 #| msgid "Exchange - Facility link"
 msgid "Suggest another network"
+msgstr "Exchange - Facility link"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+msgid "at"
+msgstr ""
+
+msgid "Remove this campus from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This campus wants to list its presence at this facility."
 msgstr "Exchange - Facility link"
 
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
@@ -4741,11 +4777,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Twitter"
 #~ msgstr "Twitter"
-
-#, fuzzy
-#~| msgid "Exchange - Facility link"
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "Exchange - Facility link"
 
 #, fuzzy
 #~| msgid "Exchange - Facility link"

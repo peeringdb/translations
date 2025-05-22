@@ -1611,6 +1611,9 @@ msgstr "Nu există adrese IP adecvate la validarea față de protocoalele de re�
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "IXLanPrefix cu starea '{}' nu poate fi legat de un IXLan cu starea '{}'."
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifică dacă unui IXP i se permite să adauge o intrare netixlan pentru această rețea prin intermediul datelor sale ixp_member"
 
@@ -3092,6 +3095,9 @@ msgstr "Setați preferințele de limbă"
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Contul a fost creat"
 
@@ -3278,6 +3284,12 @@ msgid "Accept"
 msgstr "Acceptați"
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
@@ -3657,6 +3669,34 @@ msgstr "Sugerați un alt Internet Exchange"
 
 msgid "Suggest another network"
 msgstr "Sugerați o altă rețea"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Data"
+
+#, fuzzy
+#| msgid "Remove this carrier from your facility."
+msgid "Remove this campus from your facility."
+msgstr "Scoateți acest Transportator din Facilitatea dvs."
+
+#, fuzzy
+#| msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
+msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
 #, fuzzy
 #| msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
@@ -4265,21 +4305,6 @@ msgstr ""
 
 #~ msgid "{soc.get(\"service\", dismiss)}"
 #~ msgstr "{soc.get(„serviciu”, respinge)}"
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgid "at"
-#~ msgstr "Data"
-
-#, fuzzy
-#~| msgid "Remove this carrier from your facility."
-#~ msgid "Remove this campus from your facility."
-#~ msgstr "Scoateți acest Transportator din Facilitatea dvs."
-
-#, fuzzy
-#~| msgid "This carrier wants to list its presence at this facility."
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
 
 #~ msgid "120 VAC"
 #~ msgstr "120 V CA"

@@ -1791,6 +1791,9 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -3443,6 +3446,9 @@ msgstr "Establecer preferencia de idioma"
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Cuenta Creada"
 
@@ -3637,6 +3643,12 @@ msgid "Accept"
 msgstr ""
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 #, fuzzy
@@ -4091,6 +4103,32 @@ msgstr "Punto de Intercambio"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Enviar red"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Fecha"
+
+msgid "Remove this campus from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This campus wants to list its presence at this facility."
+msgstr "Punto de Intercambio - Enlace a una Instalación"
 
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
@@ -4712,16 +4750,6 @@ msgstr ""
 #~| msgid "Add a new Network to your Organization."
 #~ msgid "Add a TOPT method to your two-factor authentication"
 #~ msgstr "Añadir una red nueva a su organización."
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgid "at"
-#~ msgstr "Fecha"
-
-#, fuzzy
-#~| msgid "Exchange - Facility link"
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "Punto de Intercambio - Enlace a una Instalación"
 
 #, fuzzy
 #~| msgid "Merge Facilities"

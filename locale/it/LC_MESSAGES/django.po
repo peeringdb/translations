@@ -1655,6 +1655,9 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -3297,6 +3300,9 @@ msgstr "Imposta la preferenza della lingua"
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Account Creato"
 
@@ -3486,6 +3492,12 @@ msgid "Accept"
 msgstr ""
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 #, fuzzy
@@ -3936,6 +3948,32 @@ msgstr "Interscambio"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Invia Rete"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Data"
+
+msgid "Remove this campus from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
+msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
 
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
@@ -4561,16 +4599,6 @@ msgstr ""
 
 #~ msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
 #~ msgstr "Il proprietario è l'individuo o l'entità che ha il titolo sulla proprietà. Un locatario è un utente di un immobile che ha un contratto di locazione, un accordo, con il proprietario."
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgid "at"
-#~ msgstr "Data"
-
-#, fuzzy
-#~| msgid "This carrier wants to list its presence at this facility."
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
 
 #~ msgid "120 VAC"
 #~ msgstr "120 VCA"

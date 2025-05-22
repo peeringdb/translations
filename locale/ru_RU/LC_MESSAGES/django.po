@@ -1793,6 +1793,9 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -3445,6 +3448,9 @@ msgstr "Установить язык"
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Аккаунт создан"
 
@@ -3640,6 +3646,12 @@ msgid "Accept"
 msgstr ""
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 #, fuzzy
@@ -4095,6 +4107,32 @@ msgstr "IXP"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Отправить заявку на сеть"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Дата"
+
+msgid "Remove this campus from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "This campus wants to list its presence at this facility."
+msgstr "Связь IXP - Площадка"
 
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
@@ -4728,16 +4766,6 @@ msgstr ""
 
 #~ msgid "A property owner is the individual or entity that has title to the property. A lessee is a user of a property who has a lease, an agreement, with the owner of the property."
 #~ msgstr "Собственик - это лицо или компания, имеющая право собственности. Арендатор - это пользователь, который заключил договор аренды с собственником."
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgid "at"
-#~ msgstr "Дата"
-
-#, fuzzy
-#~| msgid "Exchange - Facility link"
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "Связь IXP - Площадка"
 
 #~ msgid "120 VAC"
 #~ msgstr "120 В переменного тока"

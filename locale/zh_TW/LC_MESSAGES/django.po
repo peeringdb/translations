@@ -1849,6 +1849,9 @@ msgstr ""
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr ""
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 #, fuzzy
 #| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -3479,6 +3482,9 @@ msgstr "設置語言偏好"
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr "帳號已創建"
 
@@ -3669,6 +3675,12 @@ msgid "Accept"
 msgstr ""
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 #, fuzzy
@@ -4113,6 +4125,32 @@ msgstr "建議另一個交換點"
 
 msgid "Suggest another network"
 msgstr "建議另一個網路"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "日期"
+
+msgid "Remove this campus from your facility."
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "This campus wants to list its presence at this facility."
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
@@ -4733,16 +4771,6 @@ msgstr ""
 #~| msgid "Add a new Network to your Organization."
 #~ msgid "Add a TOPT method to your two-factor authentication"
 #~ msgstr "向您的組織添加新網路。"
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgid "at"
-#~ msgstr "日期"
-
-#, fuzzy
-#~| msgid "Search for networks that are present at one exchange and absent at another exchange"
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
 #, fuzzy
 #~| msgid "Merge Facilities"

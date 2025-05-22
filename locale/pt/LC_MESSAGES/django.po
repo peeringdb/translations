@@ -1618,6 +1618,9 @@ msgstr "Nenhum ipaddresses (endereços ip) adequados ao validar contra os protoc
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "IXLanPrefix com status '{}' não pode ser vinculado a um IXLan com status '{}'."
 
+msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Especifica se um IXP tem permissão para adicionar uma entrada netixlan para esta rede por meio de seus dados ixp_member"
 
@@ -3115,6 +3118,9 @@ msgstr "Definir preferência de idioma"
 msgid "Theme Mode"
 msgstr ""
 
+msgid "Select UI Version"
+msgstr ""
+
 msgid "Account Created"
 msgstr "Conta criada"
 
@@ -3303,6 +3309,12 @@ msgid "Accept"
 msgstr "Aceito"
 
 msgid "Report Issue"
+msgstr ""
+
+msgid "Your address was automatically normalized to the following:"
+msgstr ""
+
+msgid "OK"
 msgstr ""
 
 #, fuzzy
@@ -3686,6 +3698,34 @@ msgstr "Sugerir outro exchange"
 
 msgid "Suggest another network"
 msgstr "Sugerir outra rede"
+
+#, python-format
+msgid ""
+"\n"
+"        <strong>You're using the new UI!</strong> You can switch back or provide feedback <a href=\"%(feedback)s\" class=\"alert-link\">here</a>.\n"
+"      "
+msgstr ""
+
+msgid "report"
+msgstr ""
+
+msgid "I am seeing bad data with"
+msgstr ""
+
+#, fuzzy
+#| msgid "Date"
+msgid "at"
+msgstr "Data"
+
+#, fuzzy
+#| msgid "Remove this carrier from your facility."
+msgid "Remove this campus from your facility."
+msgstr "Remova esta operadora de seu PoP."
+
+#, fuzzy
+#| msgid "This carrier wants to list its presence at this facility."
+msgid "This campus wants to list its presence at this facility."
+msgstr "Esta operadora deseja listar sua presença neste PoP."
 
 #, fuzzy
 #| msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
@@ -4297,21 +4337,6 @@ msgstr ""
 
 #~ msgid "{soc.get(\"service\", dismiss)}"
 #~ msgstr "{soc.get(\"service\", dismiss)}"
-
-#, fuzzy
-#~| msgid "Date"
-#~ msgid "at"
-#~ msgstr "Data"
-
-#, fuzzy
-#~| msgid "Remove this carrier from your facility."
-#~ msgid "Remove this campus from your facility."
-#~ msgstr "Remova esta operadora de seu PoP."
-
-#, fuzzy
-#~| msgid "This carrier wants to list its presence at this facility."
-#~ msgid "This campus wants to list its presence at this facility."
-#~ msgstr "Esta operadora deseja listar sua presença neste PoP."
 
 #~ msgid "120 VAC"
 #~ msgstr "Locatário"
