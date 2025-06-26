@@ -2151,6 +2151,16 @@ msgstr "Αλλαγή email"
 msgid "Data Change Emails"
 msgstr "Αλλαγή email"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "Αναζήτηση"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "Αναζήτηση"
+
 msgid "Organization and all Entities it owns"
 msgstr "Ο Οργανισμός και όλες οι Οντότητες που του ανήκουν"
 
@@ -3645,7 +3655,7 @@ msgstr "Έχουμε επαναστείλει το email επιβεβαίωση�
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Επιβεβαιώστε την διεύθυνση email σας"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3656,6 +3666,12 @@ msgstr "Παρακαλούμε επιβεβαιώστε την διεύθυνσ�
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Μπορείτε να αιτηθείτε συσχετισμό με έναν Οργανισμό ή ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 msgid "Manage OAuth Applications"
 msgstr "Διαχείριση εφαρμογών OAuth"
@@ -3791,6 +3807,11 @@ msgstr ""
 msgid "Peers at this Exchange Point"
 msgstr "Δημόσια Peering Exchange Points"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "Προσθήκη Δικτύου"
+
 msgid "Peer Name"
 msgstr "Όνομα Peer"
 
@@ -3809,6 +3830,14 @@ msgstr "Ζεύξη Δικτύου - Exchange"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Τοπικό"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "Προσθήκη Exchange"
+
+msgid "Add your carrier"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -4142,6 +4171,11 @@ msgstr "Exchange"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Υποβολή Δικτύου"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "Επιβεβαιώστε την διεύθυνση email σας"
 
 #, python-format
 msgid ""

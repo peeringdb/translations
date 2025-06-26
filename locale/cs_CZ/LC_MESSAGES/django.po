@@ -2137,6 +2137,16 @@ msgstr "Změna e-mailu"
 msgid "Data Change Emails"
 msgstr "Změna e-mailu"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "Hledat"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "Hledat"
+
 msgid "Organization and all Entities it owns"
 msgstr "Organizace a všechny subjekty, které vlastní"
 
@@ -3627,7 +3637,7 @@ msgstr "Zaslali jsme vám znova potvrzovací e-mail"
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Potvrďte svou e-mailovou adresu"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3639,6 +3649,12 @@ msgstr "Věnujte prosím čas na potvrzení vaší e-mailové adresy a žádosti
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Můžete požádat o přidružení k organizaci nebo ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 #, fuzzy
 msgid "Manage OAuth Applications"
@@ -3777,6 +3793,11 @@ msgid "Peers at this Exchange Point"
 msgstr "Veřejné propojovací uzly"
 
 #, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "Přidat síť"
+
+#, fuzzy
 msgid "Peer Name"
 msgstr "Název Peeru"
 
@@ -3795,6 +3816,14 @@ msgstr "Network - Exchange odkaz"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Regionální"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "Přidat propojovací uzel"
+
+msgid "Add your carrier"
+msgstr ""
 
 #, fuzzy
 msgid "This carrier wants to list its presence at this facility."
@@ -4130,6 +4159,11 @@ msgstr "Propojovací uzel"
 #, fuzzy
 msgid "Suggest another network"
 msgstr "Odeslat síť"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "Potvrďte svou e-mailovou adresu"
 
 #, python-format
 msgid ""

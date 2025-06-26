@@ -2112,6 +2112,16 @@ msgstr "Изменить емайл"
 msgid "Data Change Emails"
 msgstr "Изменить емайл"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "Поиск"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "Поиск"
+
 msgid "Organization and all Entities it owns"
 msgstr "Организация и все принадлежащие ей Сущности"
 
@@ -3608,7 +3618,7 @@ msgstr "Емайл с подтверждением отправлен повто
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Подтвердите ваш емайл"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3619,6 +3629,12 @@ msgstr "Пожалуйста подтвердите ваш емайл и под�
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Вы можете подать заявку на установление связи с Организацией или с ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 #, fuzzy
 msgid "Manage OAuth Applications"
@@ -3756,6 +3772,11 @@ msgid "Peers at this Exchange Point"
 msgstr "IXP для публичного пиринга"
 
 #, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "Новая сеть"
+
+#, fuzzy
 msgid "Peer Name"
 msgstr "Имя пира"
 
@@ -3773,6 +3794,16 @@ msgstr "Связь Сеть - IXP"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Региональный"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "Новый IXP"
+
+#, fuzzy
+#| msgid "Carrier"
+msgid "Add your carrier"
+msgstr "Оператор"
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -4107,6 +4138,11 @@ msgstr "IXP"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Отправить заявку на сеть"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "Подтвердите ваш емайл"
 
 #, python-format
 msgid ""

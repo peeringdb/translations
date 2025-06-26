@@ -1946,6 +1946,16 @@ msgstr "メールアドレスを変更する"
 msgid "Data Change Emails"
 msgstr "メールアドレスを変更する"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "検索"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "検索"
+
 msgid "Organization and all Entities it owns"
 msgstr "所有している組織と全エンティティ"
 
@@ -3352,7 +3362,7 @@ msgstr "確認メールをあなたに送りました"
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "メールアドレスを確認してください"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3363,6 +3373,12 @@ msgstr "あなたのメールアドレスの確認と組織所属リクエスト
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "組織もしくは AS 番号に対する所属リクエストをする事が出来ます"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 msgid "Manage OAuth Applications"
 msgstr "OAuth アプリケーションで管理する"
@@ -3486,6 +3502,11 @@ msgstr "ix-f data をパースするときにエラーが発生する事があ�
 msgid "Peers at this Exchange Point"
 msgstr "このエクスチェンジに接続しているネットワーク"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "ネットワークを追加"
+
 msgid "Peer Name"
 msgstr "ネットワーク名"
 
@@ -3502,6 +3523,14 @@ msgstr "ネットワーク - エクスチェンジ のリンク"
 
 msgid "Not operational"
 msgstr "非稼働"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "エクスチェンジを追加"
+
+msgid "Add your carrier"
+msgstr ""
 
 #, fuzzy
 #| msgid "Number of networks present at this facility"
@@ -3790,6 +3819,11 @@ msgstr "さらにエクスチェンジ情報追加の提案をする"
 
 msgid "Suggest another network"
 msgstr "さらにネットワーク情報追加の提案をする"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "メールアドレスを確認してください"
 
 #, python-format
 msgid ""

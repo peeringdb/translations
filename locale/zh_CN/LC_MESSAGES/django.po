@@ -2167,6 +2167,16 @@ msgstr "修改 Email"
 msgid "Data Change Emails"
 msgstr "修改 Email"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "搜索"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "搜索"
+
 msgid "Organization and all Entities it owns"
 msgstr "组织及其拥有的实体"
 
@@ -3636,7 +3646,7 @@ msgstr "我们重新发送了您的确认 Email"
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "确认您的 Email 地址"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3647,6 +3657,12 @@ msgstr "请确认您的 Email 地址并请求关联"
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "您可以请求关联组织或 ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 msgid "Manage OAuth Applications"
 msgstr "管理 OAuth 应用"
@@ -3774,6 +3790,11 @@ msgstr ""
 msgid "Peers at this Exchange Point"
 msgstr "该交换点的对等参与者"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "添加网络"
+
 msgid "Peer Name"
 msgstr "对等名称"
 
@@ -3792,6 +3813,14 @@ msgstr "网络 - 交换点连接"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "区域性"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "添加交换点"
+
+msgid "Add your carrier"
+msgstr ""
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -4115,6 +4144,11 @@ msgstr "建议另一个交换点"
 
 msgid "Suggest another network"
 msgstr "建议另一个网络"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "确认您的 Email 地址"
 
 #, python-format
 msgid ""

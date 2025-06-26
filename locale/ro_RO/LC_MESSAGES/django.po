@@ -1891,6 +1891,16 @@ msgstr "E-mail pentru modificarea datelor"
 msgid "Data Change Emails"
 msgstr "E-mailuri pentru modificarea datelor"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "Căutare"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "Căutare"
+
 msgid "Organization and all Entities it owns"
 msgstr "Organizația și toate entitățile pe care aceasta le deține"
 
@@ -3247,7 +3257,9 @@ msgstr "Unele dintre organizațiile dvs. vă solicită să vă confirmați adres
 msgid "%(org_name)s requests confirmation of %(email)s"
 msgstr "%(org_name)s solicită confirmarea %(email)s"
 
-msgid "Please confirm your email addresses "
+#, fuzzy
+#| msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Vă rugăm să vă confirmați adresele de e-mail "
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3258,6 +3270,12 @@ msgstr "Vă rugăm să acordați timp pentru a confirma adresa dvs. e-mail și a
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Puteți solicita afilierea la o organizație sau ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 msgid "Manage OAuth Applications"
 msgstr "Gestionați aplicațiile OAuth"
@@ -3375,6 +3393,11 @@ msgstr "Uneori întâlnim unele erori la analizarea datelor IX-F, acestea vor af
 msgid "Peers at this Exchange Point"
 msgstr "Peers în acest Internet Exchange"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "Adăugați rețea"
+
 msgid "Peer Name"
 msgstr "Nume peer"
 
@@ -3391,6 +3414,16 @@ msgstr "legătura dintre rețea și Internet Exchange"
 
 msgid "Not operational"
 msgstr "Nu este operațional"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "Adăugați Internet Exchange"
+
+#, fuzzy
+#| msgid "Add Carrier"
+msgid "Add your carrier"
+msgstr "Adăugați Transportator"
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
@@ -3669,6 +3702,9 @@ msgstr "Sugerați un alt Internet Exchange"
 
 msgid "Suggest another network"
 msgstr "Sugerați o altă rețea"
+
+msgid "Please confirm your email addresses "
+msgstr "Vă rugăm să vă confirmați adresele de e-mail "
 
 #, python-format
 msgid ""

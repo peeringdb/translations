@@ -2112,6 +2112,12 @@ msgstr "Satış"
 msgid "Data Change Emails"
 msgstr "Satış"
 
+msgid "Search Log"
+msgstr ""
+
+msgid "Search Logs"
+msgstr ""
+
 msgid "Organization and all Entities it owns"
 msgstr ""
 
@@ -3589,7 +3595,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Sales"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Satış"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3599,6 +3605,12 @@ msgid "Please take the time to confirm your email address and request affiliatio
 msgstr ""
 
 msgid "You may request affiliation to an Organization or ASN"
+msgstr ""
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
 msgstr ""
 
 #, fuzzy
@@ -3737,6 +3749,9 @@ msgstr ""
 msgid "Peers at this Exchange Point"
 msgstr "Değişim noktası"
 
+msgid "Add your network"
+msgstr ""
+
 msgid "Peer Name"
 msgstr ""
 
@@ -3757,6 +3772,14 @@ msgstr "Ağ - Değişim noktası bağlantısı"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Bölgesel"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Add your exchange"
+msgstr "Değişim noktası"
+
+msgid "Add your carrier"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -4083,6 +4106,11 @@ msgstr "Değişim noktası"
 #| msgid "Exchange - Facility link"
 msgid "Suggest another network"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Please confirm your email addresses "
+msgstr "Satış"
 
 #, python-format
 msgid ""

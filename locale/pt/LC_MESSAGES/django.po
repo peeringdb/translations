@@ -1898,6 +1898,16 @@ msgstr "E-mail de alteração de dados"
 msgid "Data Change Emails"
 msgstr "E-mails de alteração de dados"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "Pesquisar"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "Pesquisar"
+
 msgid "Organization and all Entities it owns"
 msgstr "Organização e todas as suas Entidades"
 
@@ -3272,7 +3282,9 @@ msgstr "Algumas de suas organizações solicitam que você confirme seu endereç
 msgid "%(org_name)s requests confirmation of %(email)s"
 msgstr "%(org_name)s solicita confirmação de %(email)s"
 
-msgid "Please confirm your email addresses "
+#, fuzzy
+#| msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Por favor, confirme seus endereços de e-mail "
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3283,6 +3295,12 @@ msgstr "Por favor, reserve um tempo para confirmar o seu endereço de e-mail e s
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Você pode solicitar afiliação a uma organização ou ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 msgid "Manage OAuth Applications"
 msgstr "Gerenciar Aplicações OAuth"
@@ -3404,6 +3422,11 @@ msgstr "Às vezes encontramos alguns erros ao analisar dados ix-f, eles geralmen
 msgid "Peers at this Exchange Point"
 msgstr "Peers neste Exchange"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "Adicionar rede"
+
 msgid "Peer Name"
 msgstr "Nome do Peer"
 
@@ -3420,6 +3443,16 @@ msgstr "Rede - Link do Exchange"
 
 msgid "Not operational"
 msgstr "Não operacional"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "Adicionar Exchange"
+
+#, fuzzy
+#| msgid "Add Carrier"
+msgid "Add your carrier"
+msgstr "Adicionar Operadora"
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Esta operadora deseja listar sua presença neste PoP."
@@ -3698,6 +3731,9 @@ msgstr "Sugerir outro exchange"
 
 msgid "Suggest another network"
 msgstr "Sugerir outra rede"
+
+msgid "Please confirm your email addresses "
+msgstr "Por favor, confirme seus endereços de e-mail "
 
 #, python-format
 msgid ""

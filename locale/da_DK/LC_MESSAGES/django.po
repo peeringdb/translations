@@ -2119,6 +2119,12 @@ msgstr "Salg"
 msgid "Data Change Emails"
 msgstr "Salg"
 
+msgid "Search Log"
+msgstr ""
+
+msgid "Search Logs"
+msgstr ""
+
 #, fuzzy
 #| msgid "Organization Merge: Entities"
 msgid "Organization and all Entities it owns"
@@ -3630,7 +3636,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Need to specify at least two asns"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Mindst 2 ASNs skal være angivet"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3640,6 +3646,12 @@ msgid "Please take the time to confirm your email address and request affiliatio
 msgstr ""
 
 msgid "You may request affiliation to an Organization or ASN"
+msgstr ""
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
 msgstr ""
 
 #, fuzzy
@@ -3780,6 +3792,9 @@ msgstr ""
 msgid "Peers at this Exchange Point"
 msgstr "Exchange"
 
+msgid "Add your network"
+msgstr ""
+
 msgid "Peer Name"
 msgstr ""
 
@@ -3800,6 +3815,14 @@ msgstr "Netværk - Exchange link"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Regional"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Add your exchange"
+msgstr "Exchange"
+
+msgid "Add your carrier"
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -4136,6 +4159,11 @@ msgstr "Exchange"
 #| msgid "Exchange - Facility link"
 msgid "Suggest another network"
 msgstr "Exchange - Facility link"
+
+#, fuzzy
+#| msgid "Need to specify at least two asns"
+msgid "Please confirm your email addresses "
+msgstr "Mindst 2 ASNs skal være angivet"
 
 #, python-format
 msgid ""

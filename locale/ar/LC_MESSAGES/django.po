@@ -2159,6 +2159,16 @@ msgstr "تغيير البريد الالكتروني"
 msgid "Data Change Emails"
 msgstr "تغيير البريد الالكتروني"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "ابحث"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "ابحث"
+
 msgid "Organization and all Entities it owns"
 msgstr "المنظمة/ المؤسسة وجميع الكيانات التي تملكها"
 
@@ -3633,7 +3643,7 @@ msgstr "تم إعادة إرسال رسالة التأكيد لبريدك الإ
 
 #, fuzzy
 #| msgid "Confirm your e-mail address"
-msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "تأكيد عنوان البريد الإلكتروني"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3644,6 +3654,12 @@ msgstr "يرجى تأكيد عنوان البريد الإلكتروني الخ�
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "يمكنك طلب الانتساب إلى مؤسسة / منظمة أو رقم النظام المستقل ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 msgid "Manage OAuth Applications"
 msgstr "إدارة تطبيقات التحقق"
@@ -3773,6 +3789,11 @@ msgstr "في بعض الأحيان نواجه بعض الأخطاء عند تح�
 msgid "Peers at this Exchange Point"
 msgstr "النظائر/ الأقران في نقطة التبادل الانترنت هذه"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "إضافة شبكة"
+
 msgid "Peer Name"
 msgstr "اسم النظير Peer"
 
@@ -3791,6 +3812,14 @@ msgstr "شبكة الاتصال - رابط التبادل"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "إقليمي"
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Add your exchange"
+msgstr "اي تبادل بيانات"
+
+msgid "Add your carrier"
+msgstr ""
 
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
@@ -4112,6 +4141,11 @@ msgstr "اقترح نقطة تبادل الإنترنت اخرى"
 
 msgid "Suggest another network"
 msgstr "اقترح شبكة اخرى"
+
+#, fuzzy
+#| msgid "Confirm your e-mail address"
+msgid "Please confirm your email addresses "
+msgstr "تأكيد عنوان البريد الإلكتروني"
 
 #, python-format
 msgid ""

@@ -1973,6 +1973,16 @@ msgstr "Cambia Email"
 msgid "Data Change Emails"
 msgstr "Cambia Email"
 
+#, fuzzy
+#| msgid "Search"
+msgid "Search Log"
+msgstr "Cerca"
+
+#, fuzzy
+#| msgid "Search"
+msgid "Search Logs"
+msgstr "Cerca"
+
 msgid "Organization and all Entities it owns"
 msgstr "Organizzazione e tutte le Entità che possiede"
 
@@ -3455,7 +3465,9 @@ msgstr ""
 msgid "%(org_name)s requests confirmation of %(email)s"
 msgstr "%(org_name)s richiede conferma di %(email)s"
 
-msgid "Please confirm your email addresses "
+#, fuzzy
+#| msgid "Please confirm your email addresses "
+msgid "Please confirm your email addresses"
 msgstr "Conferma i tuoi indirizzi e-mail "
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
@@ -3466,6 +3478,12 @@ msgstr "Si prega di confermare il tuo indirizzo email e richiedere affiliazione"
 
 msgid "You may request affiliation to an Organization or ASN"
 msgstr "Puoi richiedere affiliazione a un'Organizzazione o a un ASN"
+
+msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
+msgstr ""
+
+msgid "Enable MFA"
+msgstr ""
 
 msgid "Manage OAuth Applications"
 msgstr "Gestisci Applicazioni OAuth"
@@ -3599,6 +3617,11 @@ msgstr ""
 msgid "Peers at this Exchange Point"
 msgstr "Punti di Interscambio per Peering Pubblico"
 
+#, fuzzy
+#| msgid "Add Network"
+msgid "Add your network"
+msgstr "Aggiungi Rete"
+
 msgid "Peer Name"
 msgstr "Nome del Peer"
 
@@ -3617,6 +3640,16 @@ msgstr "Collegamento Rete - Interscambio"
 #| msgid "Regional"
 msgid "Not operational"
 msgstr "Regionale"
+
+#, fuzzy
+#| msgid "Add Exchange"
+msgid "Add your exchange"
+msgstr "Aggiungi Interscambio"
+
+#, fuzzy
+#| msgid "Carrier"
+msgid "Add your carrier"
+msgstr "Carrier"
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
@@ -3948,6 +3981,9 @@ msgstr "Interscambio"
 #| msgid "Submit Network"
 msgid "Suggest another network"
 msgstr "Invia Rete"
+
+msgid "Please confirm your email addresses "
+msgstr "Conferma i tuoi indirizzi e-mail "
 
 #, python-format
 msgid ""
