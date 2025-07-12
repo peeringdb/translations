@@ -7,23 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-03-28 13:58+0000\n"
-"Last-Translator: Eric Baleanu <eric@gemenii.ro>\n"
+"PO-Revision-Date: 2025-07-12 10:55+0000\n"
+"Last-Translator: Eric Andrei Băleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/javascript/ro/>\n"
 "Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 5.3.1\n"
 
 msgid "Some of the fields contain invalid values - please correct and try again."
-msgstr "Unele dintre câmpuri conțin valori care nu sunt valide - corectați și încercați din nou."
+msgstr "Unele câmpuri conțin valori invalide – te rugăm să le corectezi și să încerci din nou."
 
-#, fuzzy
-#| msgid "Not found"
 msgid "Not Allowed"
-msgstr "Nu a fost găsit"
+msgstr "Nu este permis"
 
 msgid "Bad request"
 msgstr "Solicitare eronată"
@@ -55,15 +53,11 @@ msgstr "Trebuie să se potrivească cu parola"
 msgid "Needs to be a valid email address"
 msgstr "Trebuie să fie o adresă de e-mail validă"
 
-#, fuzzy
-#| msgid "Needs to be a valid url"
 msgid "Needs to be a valid latitude"
-msgstr "Trebuie să fie un URL valid"
+msgstr "Trebuie să fie o latitudine validă"
 
-#, fuzzy
-#| msgid "Needs to be a valid url"
 msgid "Needs to be a valid longitude"
-msgstr "Trebuie să fie un URL valid"
+msgstr "Trebuie să fie o longitudine validă"
 
 msgid "Needs to be a valid url"
 msgstr "Trebuie să fie un URL valid"
@@ -78,7 +72,7 @@ msgid "No"
 msgstr "Nu"
 
 msgid "Queued"
-msgstr ""
+msgstr "În coadă"
 
 msgid "Please wait before requesting another import."
 msgstr "Vă rugăm să așteptați înainte de a solicita un alt import."
@@ -183,10 +177,10 @@ msgid "File size too big"
 msgstr "Dimensiunea fișierului este prea mare"
 
 msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
-msgstr ""
+msgstr "Denumește clar AS-SET-ul folosind un nume ierarhic, ex: RIPE::AS-RIPENCC"
 
 msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""
-msgstr ""
+msgstr "Un AS-SET cu acest nume există deja, evită ambiguitatea specificând numele IRR-ului folosit, ex: \"IRR::AS-MYNAME\""
 
 #~ msgid "Permission denied"
 #~ msgstr "Acces refuzat"
