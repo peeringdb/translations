@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-22 16:54+0000\n"
-"Last-Translator: Dario Quinsac <dario@quinsac800.net>\n"
+"PO-Revision-Date: 2025-07-16 23:55+0000\n"
+"Last-Translator: Livio Morina <noc@airbeam.it>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -289,7 +289,7 @@ msgid "Facebook"
 msgstr "Facebook"
 
 msgid "X"
-msgstr ""
+msgstr "X"
 
 msgid "Instagram"
 msgstr "Instagram"
@@ -453,10 +453,8 @@ msgstr "Rapporti di traffico"
 msgid "Geographic Scope"
 msgstr "Ambito geografico"
 
-#, fuzzy
-#| msgid "Network Type"
 msgid "Network Types"
-msgstr "Tipo di Rete"
+msgstr "Tipi di Rete"
 
 msgid "IPv4 Prefixes"
 msgstr "Prefissi IPv4"
@@ -593,10 +591,8 @@ msgstr "Strutture di rete"
 msgid "RS peer"
 msgstr "RS peer"
 
-#, fuzzy
-#| msgid "24/7 Support"
 msgid "BFD support"
-msgstr "Assistenza 24 ore su 24"
+msgstr "Supporto BFD"
 
 msgid "Speed (mbit/sec)"
 msgstr "Velocità (Mbit/sec)"
@@ -703,34 +699,26 @@ msgstr "Per favore, conferma la cancellazione degli oggetti selezionati."
 msgid "SOFT DELETE"
 msgstr "ELIMINAZIONE TEMPORANEA"
 
-#, fuzzy
-#| msgid "Result"
 msgid "Result length"
-msgstr "Risultato"
+msgstr "Lunghezza del Risultato"
 
 msgid "Show {} rows"
 msgstr "Mostra {} righe"
 
-#, fuzzy
-#| msgid "Create"
 msgid "Created"
-msgstr "Crea"
+msgstr "Creato"
 
 msgid "Updated"
 msgstr "Aggiornato"
 
 msgid "Sent"
-msgstr ""
+msgstr "Inviato"
 
-#, fuzzy
-#| msgid "Login"
 msgid "Last login"
-msgstr "Collègati"
+msgstr "Ultimo collegamento"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "Last notified"
-msgstr "Ultimo Aggiornamento"
+msgstr "Ultima notifica"
 
 msgid "Verification Queue is currently disabled"
 msgstr "La coda di verifica è attualmente disabilitata"
@@ -813,8 +801,6 @@ msgstr "L'ASN è già in uso da un'altra rete"
 msgid "Name is already in use by another network"
 msgstr "Il nome è già in uso da un'altra rete"
 
-#, fuzzy
-#| msgid "Not Set"
 msgid "Not set"
 msgstr "Non impostato"
 
@@ -884,10 +870,8 @@ msgstr "Nessun requisito"
 msgid "Value"
 msgstr "Valore"
 
-#, fuzzy
-#| msgid "Requested by user"
 msgid "Request handled by"
-msgstr "Richiesto dall'utente"
+msgstr "Richiesta geatita da -"
 
 msgid "This command is already waiting / running - please wait for it to finish before executing it again"
 msgstr "Questo comando è già in attesa o in esecuzione - Per favore, attenti il suo completamento prima di eseguirlo nuovamente"
@@ -922,10 +906,8 @@ msgstr "Ripristina questo oggetto - Ricercato da [reftag] [id]"
 msgid "Only {} type objects may be restored through this interface at this point"
 msgstr "In questa fase solo gli oggetti di tipo {} possono essere ripristinati attraverso questa interfaccia"
 
-#, fuzzy
-#| msgid "Select an Internet Exchange to perform an ix-f memberdata import"
 msgid "Select an Internet Exchange to perform an IX-F memberdata import"
-msgstr "Seleziona un Internet Exchange per eseguire un import ix-f memberdata"
+msgstr "Seleziona un Internet Exchange per eseguire un importazione dei memberdata"
 
 msgid "Reset all"
 msgstr "Reimposta tutto"
@@ -956,10 +938,8 @@ msgstr "Inserisci il nome di un campo per validarlo"
 msgid "Valid"
 msgstr "Valido"
 
-#, fuzzy
-#| msgid "Invalid tag"
 msgid "Invalid"
-msgstr "Tag non valido"
+msgstr "Invalido"
 
 msgid "Exclude data based on validation result"
 msgstr "Escludi i dati basandoti sui risultati di validazione"
@@ -1047,9 +1027,8 @@ msgstr "Trova organizzazioni che contengono la rete (Numero di AS)"
 msgid "Find prefixes by exchange (exchange id)"
 msgstr "Trova prefissi per exchange (exchange id)"
 
-#, fuzzy
 msgid "Find prefixes by ip address"
-msgstr "Trova prefissi per indirizzo IP"
+msgstr "Trova i prefissi per indirizzo IP"
 
 msgid "Exchange name"
 msgstr "Nome dell'Exchange"
@@ -1093,10 +1072,8 @@ msgstr "L'ASN deve essere un numero"
 msgid "Needs to be at least 10 characters long"
 msgstr "Deve essere almeno 10 caratteri"
 
-#, fuzzy
-#| msgid "Password Verification"
 msgid "Password is too long"
-msgstr "Verifica Password"
+msgstr "La Password è troppo lunga"
 
 msgid "Passwords need to match"
 msgstr "Le password devono coincidere"
@@ -1104,13 +1081,9 @@ msgstr "Le password devono coincidere"
 msgid "This username is already taken"
 msgstr "Questo nome utente è già in uso"
 
-#, fuzzy
-#| msgid "First name"
 msgid "First Name"
 msgstr "Nome"
 
-#, fuzzy
-#| msgid "Last name"
 msgid "Last Name"
 msgstr "Cognome"
 
@@ -1372,10 +1345,8 @@ msgstr "Richieste di Affiliazione Utente a Organizzazione"
 msgid "Your affiliation to Organization \"{}\" has been approved"
 msgstr "La tua affiliazione all'Organizzazione \"{}\" è stata approvata"
 
-#, fuzzy
-#| msgid "User to Organization Affiliation Requests"
 msgid "User to Organization Affiliation Request History"
-msgstr "Richieste di Affiliazione Utente a Organizzazione"
+msgstr "Log delle Richieste di Affiliazione Utente ad una Organizzazione"
 
 msgid "The item that this queue is attached to was created by this user"
 msgstr "L'oggetto a cui questa coda è legata è stato creato da questo utente"
@@ -1414,7 +1385,7 @@ msgid "If user email restriction is enabled: only allow users with emails in the
 msgstr ""
 
 msgid "Require users in this organization to periodically re-authenticate"
-msgstr ""
+msgstr "Richiedi agli utenti di queara organizzazione di riatenticarsi periodicamente"
 
 msgid ""
 "Range of options is available:\n"
@@ -1431,10 +1402,8 @@ msgstr "L'organizzazione ha oggetti attivi sotto di essa."
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
 msgstr ""
 
-#, fuzzy
-#| msgid "Organization Merges"
 msgid "Organization API key Permission"
-msgstr "Unioni di organizzazioni"
+msgstr ""
 
 msgid "Sponsorship starts on"
 msgstr "La sponsorizzazione inizia il"
@@ -1487,15 +1456,11 @@ msgstr "Unione di organizzazione: Entità"
 msgid "Organization Merge: Entities"
 msgstr "Unione di organizzazione: Entità"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "number of exchanges at this facility"
-msgstr "Collegamento Interscambio - Struttura"
+msgstr "Numero di exchanges in questa Facility"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "number of networks at this facility"
-msgstr "Collegamento Interscambio - Struttura"
+msgstr "Numero di reti in questa facility"
 
 msgid "Need to specify at least two asns"
 msgstr "Devono essere specificati almeno due ASN"
@@ -1509,76 +1474,56 @@ msgstr "La struttura ha una o più presenze di Exchange: {} ..."
 msgid "Facility has active network presence(s): {} ..."
 msgstr "La struttura ha una o più presenze di rete attive: {} ..."
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "Manual IX-F import request"
-msgstr "Registro di importazione IXF"
+msgstr ""
 
 msgid "Date of most recent manual import request"
+msgstr "Data della richiesta di import manuale piu recente"
+
+msgid "Manual IX-F import status"
 msgstr ""
 
-#, fuzzy
-#| msgid "IXF Import Log"
-msgid "Manual IX-F import status"
-msgstr "Registro di importazione IXF"
-
-#, fuzzy
-#| msgid "The user that made the request"
 msgid "The current status of the manual IX-F import request"
-msgstr "L'utente che ha fatto la richiesta"
+msgstr ""
 
 msgid "Queued"
-msgstr ""
+msgstr "Accodato"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "Importing"
-msgstr "Registro di importazione IXF"
+msgstr "Importazione  -"
 
 msgid "Finished"
 msgstr "Completato"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "Import failed"
-msgstr "Voci del registro di importazione IXF"
+msgstr "Importazione fallita"
 
-#, fuzzy
-#| msgid "The user that made the request"
 msgid "The user that triggered the manual IX-F import request"
-msgstr "L'utente che ha fatto la richiesta"
+msgstr "L'utente che ha fatto la richiesta manuale"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "number of facilities at this exchange"
-msgstr "Punti di Interscambio per Peering Pubblico"
+msgstr "Numero di facilties per questo exchange"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "number of networks at this exchange"
-msgstr "Punti di Interscambio per Peering Pubblico"
+msgstr "Numero di reti in questo exchange"
 
 msgid "Exchange has active facility connection(s): {} ..."
 msgstr "L'exchange ha una o più connessioni attive con una struttura: {} ..."
 
 msgid "Exchange has active peer(s)"
-msgstr ""
+msgstr "L'exchange ha peer(s) attivii"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F error"
-msgstr "Registro di importazione IXF"
+msgstr "Errore di IXF"
 
 msgid "Reason IX-F data could not be parsed"
-msgstr ""
+msgstr "Ragione per cui i dati IX-F non sono stati elaborati"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "IX-F error notification date"
-msgstr "Data notifica errore IX-F"
+msgstr "Data di notifica dell'errore IX-F"
 
 msgid "Last time we notified the exchange about the IX-F parsing issue"
-msgstr ""
+msgstr "Ultima volta che abbiamo notificato all'exchange il problema di elaborazione IX-F"
 
 msgid "IX-F sent IPs for unsupported protocol"
 msgstr ""
@@ -1590,28 +1535,20 @@ msgid "IXLan id needs to match parent ix id"
 msgstr ""
 
 msgid "Ixlan for exchange already exists"
-msgstr ""
+msgstr "L'IXLAN per l'exchange esiste già"
 
 msgid "Cannot enable IX-F import without specifying the IX-F member list url"
-msgstr ""
+msgstr "Non è poasibile abilitare l'import IX-F senza specificare l'url della liata di membri IX-F"
 
-#, fuzzy
-#| msgid "IXF Import Log"
 msgid "IX-F Import Log"
 msgstr "Registro di importazione IXF"
 
-#, fuzzy
-#| msgid "IXF Import Logs"
 msgid "IX-F Import Logs"
 msgstr "Registri di importazione IXF"
 
-#, fuzzy
-#| msgid "IXF Import Log Entry"
 msgid "IX-F Import Log Entry"
 msgstr "Voce del registro di importazione IXF"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Log Entries"
 msgstr "Voci del registro di importazione IXF"
 
@@ -1628,7 +1565,7 @@ msgid "RS Peer"
 msgstr "Peer del RS"
 
 msgid "Trying to apply data to peeringdb raised an issue"
-msgstr ""
+msgstr "Il tentativo di applicare i dati a PeeringDB ha restituito un errore"
 
 #, fuzzy
 #| msgid "Last Updated"
@@ -1644,10 +1581,8 @@ msgstr ""
 msgid "Last time extra notifications were sent to the network for this proposal."
 msgstr ""
 
-#, fuzzy
-#| msgid "IXF Member Export URL"
 msgid "IX-F Member Data"
-msgstr "URL di esportazione membri IXF"
+msgstr "Dari dei membri in IX-F"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr ""
@@ -1658,8 +1593,6 @@ msgstr ""
 msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
 msgstr ""
 
-#, fuzzy
-#| msgid "Sepcifies whether an ixp is allowed to add a netixlan entry for this network via their ixp_member data"
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifica se un IXP può aggiungere un'entrata netixlan per questa rete tramite i propri dati ixp_member"
 
@@ -1676,10 +1609,8 @@ msgstr "Punti di Interscambio per Peering Pubblico"
 msgid "Last technical contact point for network with active peers"
 msgstr ""
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Phone or email required"
-msgstr "Requisiti del contratto"
+msgstr "Telefono o email richieste"
 
 msgid "IPv4 address outside of prefix"
 msgstr "Indirizzo IPV4 fuori prefisso"
@@ -1687,18 +1618,14 @@ msgstr "Indirizzo IPV4 fuori prefisso"
 msgid "IPv6 address outside of prefix"
 msgstr "Indirizzo IPv6 fuori prefisso"
 
-#, fuzzy
-#| msgid "Maximum value allowed {}"
 msgid "Maximum speed: {}"
-msgstr "Massimo valore permesso {}"
+msgstr "Velocità massima permessa {}"
 
 msgid "Minimum speed: {}"
 msgstr "Velocità minima: {}"
 
-#, fuzzy
-#| msgid "Ipaddress already exists elsewhere"
 msgid "IP already exists"
-msgstr "L'indirizzo IP esiste già altrove"
+msgstr "L'indirizzo IP esiste già"
 
 msgid "username"
 msgstr "nome utente"
@@ -1733,10 +1660,8 @@ msgstr "data di adesione"
 msgid "status"
 msgstr "stato"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "The user's primary organization"
-msgstr "Organizzazione"
+msgstr "Organizzazione primaria dell'utente"
 
 msgid "language"
 msgstr "lingua"
@@ -1753,7 +1678,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Regional"
 msgid "option flags"
-msgstr "Regionale"
+msgstr "Flag opzione"
 
 msgid "Bitmask to store user preference toggles"
 msgstr ""
@@ -1770,15 +1695,11 @@ msgstr "Reset della password avviato"
 msgid "Determines if API Key inherits the User Permissions or is readonly."
 msgstr ""
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Email"
-msgstr "Voci del registro di importazione IXF"
+msgstr "Email importazione IXF"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Emails"
-msgstr "Voci del registro di importazione IXF"
+msgstr "Emails di importazione IX-F"
 
 msgid "name of the tool"
 msgstr "nome dello strumento"
@@ -1802,15 +1723,13 @@ msgid "Done"
 msgstr "Finito"
 
 msgid "Running"
-msgstr ""
+msgstr "In esecuzione"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Environment Setting"
-msgstr "Reimposta"
+msgstr "Impostazioni d'ambiente"
 
 msgid "Environment Settings"
-msgstr ""
+msgstr "Impostazioni d'ambiente"
 
 msgid "API: Anonymous API throttle rate"
 msgstr ""
@@ -1887,13 +1806,11 @@ msgstr ""
 msgid "API: Request Write API Limiting"
 msgstr ""
 
-#, fuzzy
-#| msgid "Organization"
 msgid "API: Request Organization Users API Limiting"
-msgstr "Organizzazione"
+msgstr ""
 
 msgid "Show last database sync"
-msgstr ""
+msgstr "Mostra l'ultima sincronizzazione del database"
 
 msgid "Tutorial mode banner message"
 msgstr ""
@@ -1901,28 +1818,20 @@ msgstr ""
 msgid "Last Updated"
 msgstr "Ultimo Aggiornamento"
 
-#, fuzzy
-#| msgid "Confirmed"
 msgid "Configured on"
 msgstr "Configurato su"
 
 msgid "Last updated by this user"
-msgstr ""
+msgstr "Ultimo aggiornamento effettuato dalla questo utente"
 
-#, fuzzy
-#| msgid "Affiliate with organization"
 msgid "application is owned by this organization"
-msgstr "Affìliati con l'organizzazione"
+msgstr "L'applicazione appartiene a questa organizzazione"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Application"
-msgstr "Gestisci Applicazioni OAuth"
+msgstr "Applicazione OAuth"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "OAuth Applications"
-msgstr "Gestisci Applicazioni OAuth"
+msgstr "Applicazioni OAuth"
 
 msgid "Authentication method reference"
 msgstr ""
@@ -1934,34 +1843,28 @@ msgid "OAuth Access Token Info"
 msgstr ""
 
 msgid "Added"
-msgstr ""
+msgstr "Aggiunto"
 
-#, fuzzy
-#| msgid "Delete"
 msgid "Deleted"
-msgstr "Rimuovi"
+msgstr "Rimosso"
 
 msgid "User started watching this object at this time"
-msgstr ""
+msgstr "L'utente ha iniziato a visionare questo oggetto in questo momento"
 
 msgid "Last time user was notified about changes to this object"
-msgstr ""
+msgstr "Ultima notifica all'utente in merito al cambiamento di questo oggetto"
 
 msgid "Data Change Watched Object"
 msgstr ""
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Reason for notification"
-msgstr "Notifica di unione"
+msgstr "Ragione della notifica"
 
 msgid "Source of automated update"
-msgstr ""
+msgstr "Sorgente di aggiornamento automatico"
 
-#, fuzzy
-#| msgid "Merge Notification"
 msgid "Data Change Notification Queue"
-msgstr "Notifica di unione"
+msgstr "Coda di notifica cambiamento dati"
 
 #, fuzzy
 #| msgid "Change Email"
@@ -1973,15 +1876,11 @@ msgstr "Cambia Email"
 msgid "Data Change Emails"
 msgstr "Cambia Email"
 
-#, fuzzy
-#| msgid "Search"
 msgid "Search Log"
-msgstr "Cerca"
+msgstr "Reegistro di ricerca"
 
-#, fuzzy
-#| msgid "Search"
 msgid "Search Logs"
-msgstr "Cerca"
+msgstr "Registri di ricerca"
 
 msgid "Organization and all Entities it owns"
 msgstr "Organizzazione e tutte le Entità che possiede"
@@ -1998,13 +1897,11 @@ msgstr "Qualsiasi Struttura"
 msgid "Any Exchange"
 msgstr "Qualsiasi Interscambio"
 
-#, fuzzy
-#| msgid "Carrier"
 msgid "Any Carrier"
-msgstr "Carrier"
+msgstr "Qualsiasi Carrier"
 
 msgid "Manage peering sessions - Any Network"
-msgstr ""
+msgstr "Gestisci le sessioni di Peering - Qualsiasi rete"
 
 #, python-format
 msgid "Manage peering sessions - %(net_name)s"
@@ -2022,10 +1919,9 @@ msgstr "Interscambio - %(ix_name)s"
 msgid "Facility - %(fac_name)s"
 msgstr "Struttura - %(fac_name)s"
 
-#, fuzzy, python-format
-#| msgid "Network - %(net_name)s"
+#, python-format
 msgid "Carrier - %(carrier_name)s"
-msgstr "Rete - %(net_name)s"
+msgstr "Carrier - %(carrier_name)s"
 
 msgid "Invalid organization specified"
 msgstr "Organizzazione specificata non valida"
@@ -2036,13 +1932,11 @@ msgstr "Deve essere membro o amministratore"
 msgid "Cannot manage permissions for organization admins"
 msgstr ""
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been approved"
+#, python-format
 msgid "%(user_name)s's affiliation request has been approved"
 msgstr "La richiesta di affiliazione di %(user_name)s è stata approvata"
 
-#, fuzzy, python-format
-#| msgid "%(user_name)s's afilliation request has been denied"
+#, python-format
 msgid "%(user_name)s's affiliation request has been denied"
 msgstr "La richiesta di affiliazione di %(user_name)s è stata respinta"
 
@@ -2066,33 +1960,29 @@ msgstr ""
 
 #, python-brace-format
 msgid "This field is only allowed for these requests: {methods}"
-msgstr ""
+msgstr "Questo campo è permesso solo per queste richieste: {methods}"
 
 msgid "Required for distance filtering"
 msgstr ""
 
-#, fuzzy
-#| msgid "This field is required"
 msgid "Valid latitude is required"
-msgstr "Il campo è richiesto"
+msgstr "Una Latitudine valida è richiesta"
 
-#, fuzzy
-#| msgid "This field is required"
 msgid "Valid longitude is required"
-msgstr "Il campo è richiesto"
+msgstr "Una longotudine valida è richiesta"
 
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr ""
 
 #, python-format
 msgid "Invalid value for info_type: %(value)s"
-msgstr ""
+msgstr "Valore non valido per info_type: %(value)s"
 
 msgid "Network has been deleted. Please contact {}"
-msgstr ""
+msgstr "La rete è stata cancellata. Si prega di contattare {}"
 
 msgid "This field may not be blank."
-msgstr ""
+msgstr "Questo campo non può essere vuoto."
 
 msgid "ASN cannot be changed."
 msgstr "Lo ASN non può essere modificato."
@@ -2103,16 +1993,14 @@ msgstr ""
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr ""
 
-#, fuzzy
-#| msgid "Change email address"
 msgid "Specify at least one email address"
-msgstr "Specifica almeno un'indirizzo email"
+msgstr "Specifica almeno un indirizzo email"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
-msgstr ""
+msgstr "La facility non può entrare a far parte di un campus perché mancano le coordinate per geolocalizzarla"
 
 #, python-brace-format
 msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
@@ -2134,10 +2022,8 @@ msgstr "sia il tuo indirizzo email"
 msgid "Confirm"
 msgstr "Conferma"
 
-#, fuzzy
-#| msgid "The email confirmation process for this email address has been terminated, please re-initate"
 msgid "The email confirmation process for this email address has been terminated, please re-initiate"
-msgstr "Il processo di conferma email per questo indirizzo email è stato completato, si prega di riavviare"
+msgstr "Il processo di conferma email per questo indirizzo email è stato interrotto, si prega di ripeterlo"
 
 msgid "here"
 msgstr "qui"
@@ -2153,7 +2039,7 @@ msgstr "invece"
 
 #, python-format
 msgid "Show %(num)s rows"
-msgstr ""
+msgstr "Mostra %(num)s righe"
 
 msgid "(Warning: potentially long load)"
 msgstr ""
@@ -2165,32 +2051,30 @@ msgid ""
 msgstr ""
 
 msgid "WARNING! This object currently has DoTF protection:"
-msgstr ""
+msgstr "ATTENZIONE! Questo oggetto e attualmente protetto da DoTF:"
 
 msgid "As a superuser you may still proceed with the deletion."
 msgstr ""
 
 msgid "Save and Apply"
-msgstr ""
+msgstr "Salva ed appllica"
 
 msgid "Save"
 msgstr "Salva"
 
 msgid "Save and continue editing"
-msgstr ""
+msgstr "Salva e continua la modifica"
 
 msgid "Please proceed with caution, if you no one has explained this tool to you please obtain instructions from someone before proceeding"
-msgstr ""
+msgstr "Per favore, procedi con cautela. Se nessuno ti ha spiegato come utilizzare questo strumento, ti invitiamo a ottenere istruzioni da una persona competente prima di proseguire"
 
 #, fuzzy
 #| msgid "Undo merge"
 msgid "You may undo merges"
 msgstr "Annulla unione"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Selected Organizations"
-msgstr "Organizzazione"
+msgstr "Organizzazioni selezionate"
 
 msgid "Search"
 msgstr "Cerca"
@@ -2837,53 +2721,35 @@ msgstr "Contattaci"
 msgid "Global System Statistics"
 msgstr "Statistiche globali del sistema"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Connections to Exchanges"
-msgstr "Interscambio"
+msgstr "Connessioni agli Exchanges"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Connections to Facilities"
-msgstr "Strutture Private"
+msgstr "Connessione alle Facilities"
 
-#, fuzzy
-#| msgid "Add Network"
 msgid "Automated Networks"
-msgstr "Aggiungi Rete"
+msgstr ""
 
-#, fuzzy
-#| msgid "Register"
 msgid "Registered Users"
-msgstr "Regìstrati"
+msgstr "Utenti registrati"
 
-#, fuzzy
-#| msgid "Email Confirmation"
 msgid "Confirmation"
-msgstr "Conferma via email"
+msgstr "Conferma"
 
-#, fuzzy
-#| msgid "Search here for a network, IX, or facility."
 msgid " Search here for a network, IX, or facility."
-msgstr "Cerca qui per una rete, IXP, o struttura."
+msgstr " Cerca qui una rete, IXP o Facility"
 
 msgid "Advanced Search"
 msgstr "Ricerca Avanzata"
 
-#, fuzzy
-#| msgid "Advanced Search"
 msgid "Legacy Search"
-msgstr "Ricerca Avanzata"
+msgstr "Ricerca Obsoleta"
 
-#, fuzzy
-#| msgid "Search"
 msgid "v2 Search"
-msgstr "Cerca"
+msgstr "Ricerca v2"
 
-#, fuzzy
-#| msgid "Search here for a network, IX, or facility."
 msgid "Search here for a network, IX, or facility."
-msgstr "Cerca qui per una rete, IXP, o struttura."
+msgstr "Cerca qui una rete, IXP o Facility"
 
 msgid "pending"
 msgstr "pendente"
@@ -2891,10 +2757,8 @@ msgstr "pendente"
 msgid "unverified"
 msgstr "non verificato"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Suggest Facility"
-msgstr "Struttura"
+msgstr "Suggerisci Facility"
 
 msgid "Profile"
 msgstr "Profilo"
@@ -2909,10 +2773,10 @@ msgid "Login"
 msgstr "Collègati"
 
 msgid "The Interconnection Database"
-msgstr ""
+msgstr "Il Database di Interconnessione"
 
 msgid "Join. Search. Grow your network."
-msgstr ""
+msgstr "Entra. Cerca. Accresci la tua rete."
 
 msgid "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
 msgstr ""
@@ -2921,23 +2785,19 @@ msgid "The database is a non-profit, community-driven initiative run and promote
 msgstr ""
 
 msgid "Learn more"
-msgstr ""
+msgstr "Approfondisci"
 
 msgid "about"
-msgstr ""
+msgstr "Chi siamo"
 
-#, fuzzy
-#| msgid "Register"
 msgid "register"
-msgstr "Regìstrati"
+msgstr "Registrati"
 
 msgid "Most Recent Updates"
 msgstr "AGGIORNAMENTI RECENTI"
 
-#, fuzzy
-#| msgid "Maintenance"
 msgid "Maintenance Mode"
-msgstr "Manutenzione"
+msgstr "Modalità Manutenzione"
 
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
@@ -2945,23 +2805,17 @@ msgstr ""
 msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
 msgstr ""
 
-#, fuzzy
-#| msgid "The password for your account"
 msgid "Activate 2FA for your account"
-msgstr "La password per il tuo account"
+msgstr "Attivala la 2FA per il tuo account"
 
 msgid "Login with oAuth"
 msgstr "Collègati con oAuth"
 
-#, fuzzy
-#| msgid "Login with your google account"
 msgid "Login with your Google account"
-msgstr "Collègati con il tuo account google"
+msgstr "Collegati usando il tuo account Google"
 
-#, fuzzy
-#| msgid "Login with your facebook account"
 msgid "Login with your Facebook account"
-msgstr "Collègati con il tuo account facebook"
+msgstr "Collegati usando il tuo account Facebook"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
 msgstr ""
@@ -2982,15 +2836,13 @@ msgid "Edit"
 msgstr "Modifica"
 
 msgid "Revoke"
-msgstr ""
+msgstr "Revoca"
 
 msgid "Add Key"
-msgstr ""
+msgstr "Aggiungi chiave"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Application"
-msgstr "Affiliazioni esistenti"
+msgstr "Applicazioni"
 
 msgid "Partners"
 msgstr "Partner"
@@ -3028,10 +2880,8 @@ msgstr "Il processo di reimpostazione della password è scaduto, si prega di"
 msgid "initiate again"
 msgstr "avviarlo di nuovo"
 
-#, fuzzy
-#| msgid "Invalid Security Token"
 msgid "Security Tokens and Passkeys"
-msgstr "Token di sicurezza non valido"
+msgstr "Token di sicurezza e Passkeys"
 
 msgid "You can configure a U2F hardware security token and/or a Passkey. They can be configured in two ways:"
 msgstr ""
@@ -3040,7 +2890,7 @@ msgid "Disallow login: Requires username/password login, followed by key verific
 msgstr ""
 
 msgid "Allow login: Allows direct login without username/password"
-msgstr ""
+msgstr "Permetti il login: permetti il login diretto senza nome utente/password"
 
 msgid "Device-internal keys, like fingerprint scanners, might be shown before your preferred U2F hardware security token."
 msgstr ""
@@ -3049,19 +2899,19 @@ msgid "If your token is plugged in but not listed, <b>cancel</b> the initial pro
 msgstr ""
 
 msgid "Disallow login"
-msgstr ""
+msgstr "Non permettere il login"
 
 msgid "Allow login"
-msgstr ""
+msgstr "Permetti il login"
 
 msgid "Remove"
 msgstr "Rimuovi"
 
 msgid "Register security key"
-msgstr ""
+msgstr "Registra chiave di sicurezza"
 
 msgid "Allow to use for login"
-msgstr ""
+msgstr "Permetti l'utilizzo per il login"
 
 msgid "Affiliate with organization"
 msgstr "Affìliati con l'organizzazione"
@@ -3070,22 +2920,20 @@ msgstr "Affìliati con l'organizzazione"
 msgid "Your affiliation with %(ar_name)s is pending approval."
 msgstr "La tua affiliazione con %(ar_name)s è in attesa di approvazione."
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s is pending approval."
+#, python-format
 msgid "Your affiliation with %(ar_name)s is being reviewed by the PeeringDB administrative staff."
-msgstr "La tua affiliazione con %(ar_name)s è in attesa di approvazione."
+msgstr "La tua affiliazione con %(ar_name)s è in fase di revisione dallo staff amministrativo di PeeringDB."
 
-#, fuzzy, python-format
-#| msgid "Your affiliation with %(ar_name)s was denied"
+#, python-format
 msgid "You have canceled your affiliation request with %(ar_name)s"
-msgstr "La tua affiliazione con %(ar_name)s è stata respinta"
+msgstr "Hai cancellato la tua richiesta di affiliazione con %(ar_name)s"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was denied"
 msgstr "La tua affiliazione con %(ar_name)s è stata respinta"
 
 msgid "The organization requires you to have a confirmed email address at one of the following domains"
-msgstr ""
+msgstr "L'organizzazione richiede tu abbia un'email confermata con uno dei seguenti domini"
 
 #, python-format
 msgid "Your affiliation with %(ar_name)s was approved"
@@ -3122,93 +2970,67 @@ msgid "has been approved"
 msgstr "è stata approvata"
 
 msgid "API Keys"
-msgstr ""
+msgstr "Chiave API"
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
-msgstr ""
+msgstr "Le chiavi API ti permettono di autenticare un cliente senza fornire i tuoi nome utente e password."
 
 msgid "read-only"
-msgstr ""
+msgstr "Sola lettura"
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
-msgstr ""
+msgstr "Stai creando una chiave API per un superuser account. Questa chiave API non può essere resa di sola lettura ed avrà sempre pieno accesso. Procedi con cautela."
 
 msgid "Read only"
-msgstr ""
+msgstr "Sola lettura"
 
-#, fuzzy
-#| msgid "Account Created"
 msgid "Account Security"
-msgstr "Account Creato"
+msgstr "Sicurezza Account"
 
-#, fuzzy
-#| msgid "Manage OAuth Applications"
 msgid "Manage Multi-factor Authentication"
-msgstr "Gestisci Applicazioni OAuth"
+msgstr "Gestisci l'autenticazione multifattore"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Email addresses"
-msgstr "indirizzo email"
+msgstr "Indirizzi Email"
 
-#, fuzzy
-#| msgid "Primary ASN"
 msgid "Primary"
-msgstr "ASN primario"
+msgstr "Primario"
 
-#, fuzzy
-#| msgid "Contract Requirement"
 msgid "Confirmation required"
-msgstr "Requisiti del contratto"
+msgstr "Conferma richiesta"
 
-#, fuzzy
-#| msgid "We have resent your confirmation email"
 msgid "Resend confirmation email"
-msgstr "Abbiamo re-inviato la tua mail di conferma"
+msgstr "Reinvia l'email di conferma"
 
 msgid "Set as primary"
-msgstr ""
+msgstr "Imposta come primaria"
 
 msgid "For speedy validation, it is required that you use a work e-mail address. If you plan to register your ASN with PeeringDB, it is recommended that you use an email-address that exists in the ASN's public contact details."
 msgstr "Per una validazione più veloce si richiede di utilizzare un indirizzo e-mail di lavoro. Se pensi di registrare il tuo ASN su PeeringDB, si raccomanda di utilizzare un indirizzo e-mail che appaia fra i contatti pubblici del tuo ASN."
 
-#, fuzzy
-#| msgid "Change email address"
 msgid "Set as primary email address"
-msgstr "Specifica almeno un'indirizzo email"
+msgstr "Imposta come indirizzo Email primario"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Add email address"
-msgstr "indirizzo email"
+msgstr "Aggiungi indirizzo email"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Change name"
-msgstr "Interscambio"
+msgstr "Cambia nome"
 
-#, fuzzy
-#| msgid "Username"
 msgid "Name changed"
-msgstr "Nome utente"
+msgstr "Nome cambiato"
 
 msgid "Name associated with this account"
-msgstr ""
+msgstr "Nome associato con questo account"
 
-#, fuzzy
-#| msgid "First name"
 msgid "New First Name"
-msgstr "Nome"
+msgstr "Nuovo Nome"
 
-#, fuzzy
-#| msgid "Last name"
 msgid "New Last Name"
-msgstr "Cognome"
+msgstr "Nuovo cognome"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Change Name"
-msgstr "Interscambio"
+msgstr "Cambia Nome"
 
 msgid "Change password"
 msgstr "Cambia password"
@@ -3222,25 +3044,17 @@ msgstr "Password attuale"
 msgid "Password Verification"
 msgstr "Verifica Password"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Change username"
-msgstr "Interscambio"
+msgstr "Cambia nome utente"
 
-#, fuzzy
-#| msgid "Username"
 msgid "Username changed"
-msgstr "Nome utente"
+msgstr "Nome utente cambiato"
 
-#, fuzzy
-#| msgid "username"
 msgid "New username"
-msgstr "nome utente"
+msgstr "Nuovo nome utente"
 
-#, fuzzy
-#| msgid "Create account"
 msgid "Close Account"
-msgstr "Crea account"
+msgstr "Chiudi account"
 
 msgid "You may close your account and delete the profile data associated with it. Note that this will not delete your organizations and its entities. If you are the only member of your organization and want it to be deleted as well please do so before closing your account."
 msgstr ""
@@ -3266,26 +3080,20 @@ msgstr "Ti abbiamo inviato un messaggio contenente il link di conferma."
 msgid "You won't have full access until we or the organization you are affiliated with have reviewed your account. Thank you for your patience."
 msgstr "Non avrai pieno accesso finché noi o l'organizzazione a cui sei affiliato non avremo revisionato il tuo account. Grazie per la vostra pazienza."
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Options"
-msgstr "Regionale"
+msgstr "Opzioni"
 
-#, fuzzy
-#| msgid "Internet Exchange facility"
 msgid "Hide Internet Exchanges without a linked facility"
-msgstr "Struttura del punto di interscambio"
+msgstr "Nascondi Internet Exchanges senza almeno una Facility collegata"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Save Options"
-msgstr "Regionale"
+msgstr "Salva opzioni"
 
 msgid "Passkeys"
-msgstr ""
+msgstr "Passkeys"
 
 msgid "Register your security key and use it as a Passkey authentication."
-msgstr ""
+msgstr "Registra la tua chiave di sicurezza ed usala come una Passkey di autenticazione."
 
 msgid "When using a Passkey security key such as <b>yubikeys</b> the initial prompt may show other device-internal keys first (such as fingerprint scanners and security pins)."
 msgstr ""
@@ -3293,10 +3101,8 @@ msgstr ""
 msgid "If your yubikey is plugged in but does not show up in the list, <b>cancel</b> the initial prompt and a new prompt for your yubikey should appear afterwards."
 msgstr ""
 
-#, fuzzy
-#| msgid "Register"
 msgid "Register passkey"
-msgstr "Regìstrati"
+msgstr "Regìstra la passkey"
 
 msgid "Select language"
 msgstr "Seleziona lingua"
@@ -3311,7 +3117,7 @@ msgid "Theme Mode"
 msgstr ""
 
 msgid "Select UI Version"
-msgstr ""
+msgstr "Seleziona la versione dell'interfaccia utente"
 
 msgid "Account Created"
 msgstr "Account Creato"
@@ -3341,7 +3147,7 @@ msgid "Last name"
 msgstr "Cognome"
 
 msgid "Loading anti-spam challenge"
-msgstr ""
+msgstr "Caricamento protezione anti-spam"
 
 msgid "Thank you"
 msgstr "Grazie"
@@ -3372,16 +3178,16 @@ msgid ""
 msgstr ""
 
 msgid "Showing results for"
-msgstr ""
+msgstr "Mostra i risultati per"
 
 msgid "in"
-msgstr ""
+msgstr "in"
 
 msgid "within"
-msgstr ""
+msgstr "entro"
 
 msgid "near"
-msgstr ""
+msgstr "vicino"
 
 msgid "Could not resolve the location you provided: "
 msgstr ""
@@ -3390,49 +3196,37 @@ msgid "Are you searching for"
 msgstr ""
 
 msgid "Switch to List View"
-msgstr ""
+msgstr "Passa alla visuale Lista"
 
 msgid "Switch to Category View"
-msgstr ""
+msgstr "Passa alla visuale Categoria"
 
-#, fuzzy
-#| msgid "Result"
 msgid "results"
-msgstr "Risultato"
+msgstr "risultati"
 
 msgid "sponsor"
 msgstr "sponsor"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Suggest Exchange"
-msgstr "Interscambio"
+msgstr "Suggeriaci Internet Exchange"
 
-#, fuzzy
-#| msgid "Submit Network"
 msgid "Suggest Network"
-msgstr "Invia Rete"
+msgstr "Suggerisci Rete"
 
-#, fuzzy
-#| msgid "Existing affiliations"
 msgid "Delete Affiliation"
-msgstr "Affiliazioni esistenti"
+msgstr "Cancella affiliazione"
 
-#, fuzzy
-#| msgid "Invalid organization"
 msgid "Set primary organization"
-msgstr "Organizzazione non valida"
+msgstr "Imposta organizzazione primaria"
 
-#, fuzzy
-#| msgid "Organization Merges"
 msgid "Primary organization updated"
-msgstr "Unioni di organizzazioni"
+msgstr "Organizzazione primaria aggiornata"
 
 msgid "Become a Sponsor"
 msgstr "Diventa uno Sponsor"
 
 msgid "<b>This server is running in TUTORIAL MODE</b>"
-msgstr ""
+msgstr "<b>Queato server è in esecuzione in MODALITÀ TUTORIAL</b>"
 
 msgid "These are the usernames associated with your email address"
 msgstr "Ci sono nomi utente associati con il tuo indirizzo email"
@@ -3459,16 +3253,14 @@ msgid "Retrieve username(s)"
 msgstr "Recupera nome(i) utente"
 
 msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
-msgstr ""
+msgstr "Una delle tue organizzazioni richiede che tu confermi il tuo indirizzo email. L'accesso ad esse è stato limitato finché non effettuerai la conferma."
 
 #, python-format
 msgid "%(org_name)s requests confirmation of %(email)s"
 msgstr "%(org_name)s richiede conferma di %(email)s"
 
-#, fuzzy
-#| msgid "Please confirm your email addresses "
 msgid "Please confirm your email addresses"
-msgstr "Conferma i tuoi indirizzi e-mail "
+msgstr "Conferma i tuoi indirizzi e-mail"
 
 msgid "Your user account has not been affiliated with any Organization yet, and will have limited access to some of the data (such as non-public network contact information)."
 msgstr "Il tuo account utente non è ancora stato affiliato a nessuna Organizzazione e avrà accesso limitato a parte dei dati (ad esempio informazioni di contatto non pubbliche della rete)."
@@ -3480,16 +3272,16 @@ msgid "You may request affiliation to an Organization or ASN"
 msgstr "Puoi richiedere affiliazione a un'Organizzazione o a un ASN"
 
 msgid "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
-msgstr ""
+msgstr "Multi-Factor Authentication (MFA) will soon be required on PeeringDB. Please enable it now to ensure uninterrupted access."
 
 msgid "Enable MFA"
-msgstr ""
+msgstr "Abilita MFA"
 
 msgid "Manage OAuth Applications"
 msgstr "Gestisci Applicazioni OAuth"
 
 msgid "Add at least 2 facilities for your campus to be visible."
-msgstr ""
+msgstr "Aggiungi almeno 2 Facilities al tuo Campus per renderlo visibile."
 
 msgid "Pending Review"
 msgstr "In revisione"
@@ -3501,30 +3293,28 @@ msgid "to improve data quality"
 msgstr "per migliorare la qualità del dato"
 
 msgid "Suggested Address:"
-msgstr ""
+msgstr "Indirizzo suggerito:"
 
 msgid "Dismiss"
-msgstr ""
+msgstr "Chiudi"
 
 msgid "Accept"
-msgstr ""
+msgstr "Accetta"
 
 msgid "Report Issue"
-msgstr ""
+msgstr "Riporta problema"
 
 msgid "Your address was automatically normalized to the following:"
-msgstr ""
+msgstr "Il tuo indirizzo è stato normalizzato automaticamente nel seguente modo:"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-#, fuzzy
-#| msgid "Geocode data for this entity could not obtained at this point. This is done automatically upon address field changes."
 msgid "Geocode data for this entity could not be obtained at this point. This is done automatically upon address field changes."
-msgstr "Non è stato possibile ottenere i dati geografici per questa entità. Questo viene fatto automaticamente al cambio del campo indirizzo."
+msgstr "Non è stato possibile ottenere i dati geografici per questa entità in questo momento. L’operazione verrà eseguita automaticamente in seguito alla modifica del campo indirizzo."
 
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 msgid "No filter matches."
 msgstr "Nulla corrisponde al tuo filtro."
@@ -3533,43 +3323,38 @@ msgid "You may filter by"
 msgstr "Puoi filtrare per"
 
 msgid "ALL"
-msgstr ""
-
-msgid "ASNs"
-msgstr ""
+msgstr "TUTTI"
 
 #, fuzzy
-#| msgid "Prefix"
+msgid "ASNs"
+msgstr "ASNs"
+
 msgid "Prefixes"
-msgstr "Prefisso"
+msgstr "Prefissi"
 
 msgid "(IPv4/IPv6)"
-msgstr ""
+msgstr "(IPv4/IPv6)"
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "Routeservers"
-msgstr "Route Server"
+msgstr "Route Servers"
 
 msgid "Exchange"
 msgstr "Interscambio"
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Facility link"
-msgstr "Struttura"
+msgstr "Link alla Facility"
 
 msgid "Remove this carrier from your facility."
-msgstr ""
+msgstr "Rimuovi questo Carrier dalla facility."
 
 msgid "Add Facility"
 msgstr "Aggiungi Struttura"
 
 msgid "IX Connections"
-msgstr ""
+msgstr "Connessioni all'IX"
 
 msgid "Prefixes (IPv4/IPv6)"
-msgstr ""
+msgstr "Prefissi (IPv4/IPv6)"
 
 msgid "Exchange - Facility link"
 msgstr "Collegamento Interscambio - Struttura"
@@ -3580,53 +3365,39 @@ msgstr "Prefisso della IXLAN"
 msgid "Add Prefix"
 msgstr "Aggiungi Prefisso"
 
-#, fuzzy
-#| msgid "Facilities"
 msgid "Local Facilities"
-msgstr "Strutture"
+msgstr "Facilities locali"
 
-#, fuzzy
-#| msgid "IXF Import Log Entries"
 msgid "IX-F Import Preview"
-msgstr "Voci del registro di importazione IXF"
+msgstr "Anteprima importazione IXF"
 
 msgid "The actual import will run once per day at 00:00Z - use this to preview the changes that will be done"
-msgstr ""
+msgstr "L'attuale import verrà eseguito una volta al giorno alle 00:00Z - Usa questo per avere un'anteprima dei cambiamenti che verranno fatti"
 
-#, fuzzy
-#| msgid "Exchanges"
 msgid "Changes"
-msgstr "Punti di Interscambio"
+msgstr "Cambiamenti"
 
 msgid "Errors"
-msgstr ""
+msgstr "Errori"
 
 msgid "speed"
 msgstr "velocità"
 
-#, fuzzy
-#| msgid "Route Server"
 msgid "routeserver"
-msgstr "Route Server"
+msgstr "Route Servers"
 
 msgid "Sometimes we encounter some errors when parsing IX-F data, these will usually affect the import, you can view any of those errors below"
 msgstr ""
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Peers at this Exchange Point"
-msgstr "Punti di Interscambio per Peering Pubblico"
+msgstr "Peers in questo Exchange Point"
 
-#, fuzzy
-#| msgid "Add Network"
 msgid "Add your network"
-msgstr "Aggiungi Rete"
+msgstr "Aggiungi la tua Rete"
 
 msgid "Peer Name"
 msgstr "Nome del Peer"
 
-#, fuzzy
-#| msgid "Location"
 msgid "Port Location"
 msgstr "Luogo"
 
@@ -3636,36 +3407,26 @@ msgstr "IP"
 msgid "Network - Exchange link"
 msgstr "Collegamento Rete - Interscambio"
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Not operational"
-msgstr "Regionale"
+msgstr "Non in funzione"
 
-#, fuzzy
-#| msgid "Add Exchange"
 msgid "Add your exchange"
-msgstr "Aggiungi Interscambio"
+msgstr "Aggiungi il tuo Exchange"
 
-#, fuzzy
-#| msgid "Carrier"
 msgid "Add your carrier"
-msgstr "Carrier"
+msgstr "Aggiungi il tuo carrier"
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
 
-#, fuzzy
-#| msgid "Status of this request"
 msgid "Click to accept this request"
-msgstr "Stato della richiesta"
+msgstr "Clicca per accettare questa richiesta"
 
-#, fuzzy
-#| msgid "click to select multiple"
 msgid "Click to reject this request"
-msgstr "clicca per selezionarne più di una"
+msgstr "clicca per rifiutare questa richiesta"
 
 msgid "Reject"
-msgstr ""
+msgstr "Rifiuta"
 
 msgid "Contact Information"
 msgstr "Contatti"
@@ -3691,18 +3452,14 @@ msgstr ""
 msgid "We use locally cached IX-F data to generate this preview - if you are expecting changes to an exchange's IX-F data please give it some time to be reflected here."
 msgstr ""
 
-#, fuzzy
-#| msgid "Location"
 msgid "action"
-msgstr "Luogo"
+msgstr "Azione"
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "exchange"
-msgstr "Interscambio"
+msgstr "exchange"
 
 msgid "Close"
-msgstr ""
+msgstr "Chiudi"
 
 #, fuzzy
 #| msgid "IXF Import History"
@@ -3713,23 +3470,19 @@ msgid "Below is a log of changes done to you network -&gt; exchange connections 
 msgstr ""
 
 msgid "Showing most recent"
-msgstr ""
+msgstr "Mostra il più recente"
 
-#, fuzzy
-#| msgid "Exchanges"
 msgid "changes"
-msgstr "Punti di Interscambio"
+msgstr "cambiamenti"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Ricarica"
 
 msgid "Some exchanges suggest updates to your entries in their peering list."
 msgstr ""
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Review suggestions"
-msgstr "Reimposta"
+msgstr "Verifica i suggerimenti"
 
 msgid "You have dismissed some suggestions that are still available."
 msgstr ""
@@ -3737,10 +3490,8 @@ msgstr ""
 msgid "Will restore any suggestions you have previously dismissed"
 msgstr ""
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset Suggestions"
-msgstr "Reimposta"
+msgstr "Reimposta i suggerimenti"
 
 msgid "Expand each exchange below to review, apply or dismiss those suggestions"
 msgstr ""
@@ -3761,42 +3512,29 @@ msgid "Auto-add"
 msgstr ""
 
 msgid "Hide this suggestion until the exchange updates it."
+msgstr "Nascondi questo suggerimento fintanto che l'Exchange non l'avrà aggiornato."
+
+msgid "Add this entry to public peering exchange points"
 msgstr ""
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
-msgid "Add this entry to public peering exchange points"
-msgstr "Punti di Interscambio per Peering Pubblico"
-
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "Remove this entry from your public peering exchange points list"
-msgstr "Punti di Interscambio per Peering Pubblico"
+msgstr ""
 
-#, fuzzy, python-format
-#| msgid "Public Peering Exchange Points"
+#, python-format
 msgid "Remove the entry %(ixf_id)s for %(ix_name)s from your public peering exchange points list?"
-msgstr "Punti di Interscambio per Peering Pubblico"
+msgstr ""
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv6 address"
-msgstr "indirizzo email"
+msgstr "Imposta indirizzo IPv6"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Clear IPv6 address"
-msgstr "indirizzo email"
+msgstr "Pulisci indirizzo IPv6"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Set IPv4 address"
-msgstr "indirizzo email"
+msgstr "Imposta indirizzo IPv4"
 
-#, fuzzy
-#| msgid "email address"
 msgid "Clear IPv4 address"
-msgstr "indirizzo email"
+msgstr "Pulisci indirizzo IPv4"
 
 msgid "Update this entry in your public peering exchange points list. You will also need to save the network record to persist these changes after accepting them."
 msgstr ""
@@ -3810,10 +3548,8 @@ msgstr ""
 msgid "Auto Add"
 msgstr ""
 
-#, fuzzy
-#| msgid "24/7 Support"
 msgid "BFD Support"
-msgstr "Assistenza 24 ore su 24"
+msgstr "Supporto BFD"
 
 msgid "Entry needs to be moved to correct network"
 msgstr ""
@@ -3821,10 +3557,8 @@ msgstr ""
 msgid "Add Exchange Point"
 msgstr "Aggiungi Punto di Interscambio"
 
-#, fuzzy
-#| msgid "Private Facilities"
 msgid "Interconnection Facilities"
-msgstr "Strutture Private"
+msgstr "Facilities di interconnessione"
 
 msgid "member"
 msgstr "membro"
@@ -3839,43 +3573,38 @@ msgid "Add Exchange"
 msgstr "Aggiungi Interscambio"
 
 msgid "Add Carrier"
-msgstr ""
+msgstr "Aggiungi Carrier"
 
 msgid "Add Campus"
-msgstr ""
+msgstr "Aggiungi Campus"
 
 msgid "Permissions"
 msgstr "Permessi"
 
-#, fuzzy
-#| msgid "User Permissions"
 msgid "API Key Permissions"
-msgstr "Permessi dell'utente"
+msgstr "Permessi della chiave API"
 
 msgid "OAuth"
-msgstr ""
+msgstr "OAuth"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Delete Organization"
-msgstr "Organizzazione"
+msgstr "Cancella organizzazione"
 
 msgid "Technical E-mail"
 msgstr "E-mail tecnici"
 
-#, fuzzy
-#| msgid "Change Email"
 msgid "Sales E-mail"
-msgstr "Cambia Email"
+msgstr "Email Commerciale"
 
+#, fuzzy
 msgid "Health Check"
-msgstr ""
+msgstr "Controllo di integrita"
 
 msgid "Policy URL"
 msgstr "URL della policy"
 
 msgid "Only use this if you own the network"
-msgstr ""
+msgstr "Usalo solamente se sei il proprietario di una rete"
 
 msgid "Add a new Network to your Organization."
 msgstr "Aggiungi una nuova Rete alla tua Organizzazione."
@@ -3895,15 +3624,11 @@ msgstr "per ottenere assistenza nella creazione della tua rete in PeeringDB."
 msgid "Policy E-mail"
 msgstr "E-mail policy"
 
-#, fuzzy
-#| msgid "IPv4 Prefixes"
 msgid "IPv4 or IPv6 prefix"
-msgstr "Prefissi IPv4"
+msgstr "Prefissi IPv4 o IPv6"
 
-#, fuzzy
-#| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
-msgstr "Attualmente nessun utente sta richiedendo affiliazione con"
+msgstr "Utenti che richiedono l'affiliazione"
 
 msgid "Confirmed"
 msgstr "Confermato"
@@ -3914,30 +3639,26 @@ msgstr "Data"
 msgid "Currently no users requesting affiliation with"
 msgstr "Attualmente nessun utente sta richiedendo affiliazione con"
 
-#, fuzzy
-#| msgid "Organization"
 msgid "Users in Organization"
-msgstr "Organizzazione"
+msgstr "Utenti nell'Organizzazione"
 
 msgid "Group"
 msgstr "Gruppo"
 
 msgid "No 2FA"
-msgstr ""
+msgstr "Nessuna 2FA"
 
 msgid "Require users in your organization to enable 2FA."
-msgstr ""
+msgstr "Richiedi che gli utenti nella tua organizzazione abilitino 2FA"
 
 msgid "Restrict user email addresses to these domains"
-msgstr ""
+msgstr "Limita le email degli utenti a questi domini"
 
 msgid "Require users to periodically re-confirm their email address: "
 msgstr ""
 
-#, fuzzy
-#| msgid "Regional"
 msgid "Update Options"
-msgstr "Regionale"
+msgstr "Aggiorna le opzioni"
 
 msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
 msgstr "Qui puoi dare permessi ai membri base della tua organizzazione. I membri amministrativi non sono inseriti qui dato che hanno accesso a tutto di default."
@@ -3947,40 +3668,32 @@ msgstr "Inoltre, tutte le entità in attesa di revisione non possono essere auto
 
 #, python-format
 msgid "%(name)s cannot be deleted."
-msgstr ""
+msgstr "%(name)s non può essere cancellato."
 
 msgid "Remove this organization from PeeringDB."
-msgstr ""
+msgstr "Rimuovi questa organizzazione da PeeringDB."
 
 msgid "Delete organization?"
 msgstr "Eliminare l'organizzazione?"
 
 #, python-format
 msgid "Delete %(name)s"
-msgstr ""
+msgstr "Cancella %(name)s"
 
 msgid "Thank you for your suggestion."
-msgstr ""
+msgstr "Grazie per il tuo suggerimento."
 
-#, fuzzy
-#| msgid "Facility"
 msgid "Suggest another facility"
-msgstr "Struttura"
+msgstr "Suggerisci un'altra Facility"
 
-#, fuzzy
-#| msgid "Only verified users may request ownership to an organization"
 msgid "Only verified users may suggest entities."
-msgstr "Solo gli utenti verificati possono richiedere il possesso di un'organizzazione"
+msgstr "Solo gli utenti verificati possono suggerire delle entità."
 
-#, fuzzy
-#| msgid "Exchange"
 msgid "Suggest another exchange"
-msgstr "Interscambio"
+msgstr "Suggerisci un altro Exchange"
 
-#, fuzzy
-#| msgid "Submit Network"
 msgid "Suggest another network"
-msgstr "Invia Rete"
+msgstr "Suggerisci un'altra Rete"
 
 msgid "Please confirm your email addresses "
 msgstr "Conferma i tuoi indirizzi e-mail "
@@ -3993,32 +3706,28 @@ msgid ""
 msgstr ""
 
 msgid "report"
-msgstr ""
+msgstr "Segnala"
 
 msgid "I am seeing bad data with"
 msgstr ""
 
-#, fuzzy
-#| msgid "Date"
 msgid "at"
-msgstr "Data"
+msgstr "a"
 
 msgid "Remove this campus from your facility."
-msgstr ""
+msgstr "Rimuovi questo Campus dalla tua Facility."
 
-#, fuzzy
-#| msgid "This carrier wants to list its presence at this facility."
 msgid "This campus wants to list its presence at this facility."
-msgstr "Questo vettore vuole elencare la sua presenza in questo PoP."
+msgstr "Questo Campus vuole essere mostrato in questa Facility."
 
 msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
 msgid "Back"
-msgstr ""
+msgstr "Indietro"
 
 msgid "Next"
-msgstr ""
+msgstr "Seguente"
 
 msgid "I forgot my password .."
 msgstr "Ho dimenticato la mia password .."
@@ -4027,10 +3736,10 @@ msgid "I forgot my username .."
 msgstr "Ho dimenticato il mio nome utente .."
 
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 msgid "Backup Tokens"
-msgstr ""
+msgstr "Backup Tokens"
 
 msgid "Backup tokens can be used when your primary authentication method isn't available. The backup tokens below can be used for login verification. If you've used up all your backup tokens, you can generate a new set of backup tokens. Only the backup tokens shown below will be valid."
 msgstr ""
