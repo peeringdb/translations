@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-07-16 20:55+0000\n"
+"PO-Revision-Date: 2025-07-16 23:55+0000\n"
 "Last-Translator: Livio Morina <noc@airbeam.it>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/javascript/it/>\n"
 "Language: it\n"
@@ -20,10 +20,8 @@ msgstr ""
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr "Alcuni dei campi contengono valori non validi - si prega di correggerli e riprovare."
 
-#, fuzzy
-#| msgid "Not found"
 msgid "Not Allowed"
-msgstr "Non trovato"
+msgstr "Non permesso"
 
 msgid "Bad request"
 msgstr "Bad request"
@@ -55,15 +53,11 @@ msgstr "Deve corrispondere alla password"
 msgid "Needs to be a valid email address"
 msgstr "Deve essere un indirizzo email valido"
 
-#, fuzzy
-#| msgid "Needs to be a valid url"
 msgid "Needs to be a valid latitude"
-msgstr "Deve essere un url valido"
+msgstr "Deve essere una latitudine valida"
 
-#, fuzzy
-#| msgid "Needs to be a valid url"
 msgid "Needs to be a valid longitude"
-msgstr "Deve essere un url valido"
+msgstr "Deve essere una longitudine valida"
 
 msgid "Needs to be a valid url"
 msgstr "Deve essere un url valido"
