@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-07-18 21:31+0000\n"
-"Last-Translator: Henry Schaefer <Henry.Schaefer@intl.verizon.com>\n"
+"PO-Revision-Date: 2025-07-18 22:40+0000\n"
+"Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/server/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -2409,10 +2409,10 @@ msgid "Our Culture"
 msgstr "Unsere Kultur"
 
 msgid "PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet."
-msgstr "PeeringDB wurde, wie der Name schon sagt, eingerichtet, um das Peering zwischen Netzen und Peering-Koordinatoren zu erleichtern. In den letzten Jahren hat sich die Vision von PeeringDB weiterentwickelt, um mit der Geschwindigkeit und Vielfalt, mit der das Internet wächst, Schritt zu halten. Die Datenbank ist nicht mehr nur für Peering und Peering-bezogene Informationen gedacht. Sie umfasst nun alle Arten von Zusammenschaltungsdaten für Netzwerke, Clouds, Dienste und Unternehmen sowie Zusammenschaltungseinrichtungen, die sich am Rande des Internets entwickeln."
+msgstr "PeeringDB ist, wie der Name bereits vermuten lässt, eine Datenbank, die aufgesetzt wurde, um die Arbeit von Netzwerk- und Peering-Managern zu erleichtern. In den letzten Jahren hat sich die Vision der PeeringDB weiter entwickelt, vor allem, um sich der Geschwindigkeit und den schnell ändernden Gepflogenheiten des wachsenden Internets anzupassen. Die Datenbank umfasst nun nicht mehr nur Informationen, die für das reine Peering nötig sind. Mittlerweile beherbergt es alle relevanten Daten für Netzwerk-, Cloud- oder Servicebetreiber sowie Großunternehmen mit Netzbetrieb, als auch Informationen über Vernetzungseinrichtungen, die das Fundament des Internets formen."
 
 msgid "We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched."
-msgstr "Wir glauben an und verlassen uns auf die Community, um die PeeringDB-Datenbank hochzuziehen und zu verbessern. Die Freiwilligen, die die Datenbank betreiben, begeistern sich für Sicherheit, Datenschutz, Integrität und Gültigkeit der Daten in der Datenbank. Obwohl PeeringDB ein frei verfügbares und öffentliches Werkzeug ist, halten sich die Benutzer genau an die Nutzungsbedingungen, wodurch verhindert wird, dass die Datenbank für kommerzielle Zwecke genutzt wird, und unerbetenen Nachrichten Einhalt geboten wird. Dies wird größtenteils durch die Community kontrolliert und hat sich seit Start der PeeringDB als sehr effektiv erwiesen."
+msgstr "Wir vertrauen auf die Community und vertrauen darauf, dass sie die PeeringDB-Datenbank erweitert und verbessert. Die Freiwilligen, die die Datenbank betreiben, legen großen Wert auf Sicherheit, Datenschutz, Integrität und Validierung der Daten. Obwohl PeeringDB ein frei verfügbares und öffentliches Tool ist, halten sich Nutzer strikt an die Nutzungsrichtlinien. Diese verhindern die kommerzielle Nutzung der Datenbank und verhindern unerwünschte Kommunikation. Diese Richtlinien werden weitgehend von der Community überwacht und haben sich seit dem Start von PeeringDB als sehr effektiv erwiesen."
 
 msgid "I’m a network operator. How can PeeringDB help me?"
 msgstr "Ich bin ein Netzwerkbetreiber. Wie kann die PeeringDB mich unterstützen?"
@@ -2594,7 +2594,7 @@ msgid "To be listed as an Internet Exchange in PeeringDB we would expect that yo
 msgstr "Um als Austauschpunkt in PeeringDB gelistet zu werden, erwarten wir, dass Sie folgende Kriterien erfüllen:"
 
 msgid "An Internet Exchange Point (IXP) is a network facility that enables the interconnection of more than two independent Autonomous Systems, primarily for the purpose of facilitating the exchange of Internet traffic."
-msgstr "Ein Internetaustauschpunkt (IXP) ist eine Netzwerkeinrichtung, die die Zusammenschaltung von mehr als zwei unabhängigen Autonomen Systemen vornehmlich mit dem Zweck des Austausches von Internetverkehr ermöglicht."
+msgstr "Ein Internetaustauschpunkt (IXP) ist eine Netzwerkeinrichtung, die eine Zusammenschaltung von mehr als zwei unabhängigen Autonomen Systemen vornehmlich mit dem Zweck des Austausches von Internetverkehr ermöglicht."
 
 msgid "An IXP provides interconnection only for Autonomous Systems. An IXP does not require the Internet traffic passing between any pair of participating Autonomous Systems to pass through any third Autonomous System, nor does it alter or otherwise interfere with such traffic"
 msgstr "Ein IXP stellt nur Zusammenschaltungen für Autonome System zur Verfügung. An einem IXP wird Internetverkehr zwischen je zwei teilnehmenden Autonomen System direkt ausgetauscht, ohne dass er über ein drittes Autonomes System gehen muss. Ferner verändert der IXP diesen nicht oder greift sonstwie in ihn ein"
@@ -3214,10 +3214,8 @@ msgstr "Primäre Organisation angepasst"
 msgid "Become a Sponsor"
 msgstr "Sponsor werden"
 
-#, fuzzy
-#| msgid "This server is running in TUTORIAL MODE"
 msgid "<b>This server is running in TUTORIAL MODE</b>"
-msgstr "Dieser Server befindet sich im TUTORIAL-MODUS"
+msgstr "<b>Dieser Server befindet sich im TUTORIAL-MODUS</b>"
 
 msgid "These are the usernames associated with your email address"
 msgstr "Folgende Benutzernamen sind mit Ihrer E-Mail-Adresse verknüpft"
@@ -4204,19 +4202,19 @@ msgstr "Benachrichtigungen ausschalten"
 msgid "Enable notifications"
 msgstr "Benachrichtigungen aktivieren"
 
-#, fuzzy
-#| msgid "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN"
 msgid ""
 "Recommended maximum number of IPv4 routes/prefixes to be configured on peering sessions for this ASN.\n"
 "Leave blank for not disclosed."
-msgstr "Empfohlene, maximal zu konfigurierende Anzahl an IPv4 Prefixes für peering sessions mit diesem ASN"
+msgstr ""
+"Empfohlene, maximal zu konfigurierende Anzahl an IPv4 Prefixes für peering sessions mit diesem ASN\n"
+"Für „nicht bekannt gegeben“ leer lassen."
 
-#, fuzzy
-#| msgid "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN"
 msgid ""
 "Recommended maximum number of IPv6 routes/prefixes to be configured on peering sessions for this ASN.\n"
 "Leave blank for not disclosed."
-msgstr "Empfohlene, maximal zu konfigurierende Anzahl an IPv6 Prefixes für peering sessions mit diesem ASN"
+msgstr ""
+"Empfohlene, maximal zu konfigurierende Anzahl an IPv6 Prefixes für peering sessions mit diesem ASN.\n"
+"Für „nicht bekannt gegeben“ leer lassen."
 
 msgid "Protocols Supported"
 msgstr "Unterstützte Protokolle"
