@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PeeingDB Server\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-11-30 19:54+0000\n"
+"PO-Revision-Date: 2025-07-18 22:40+0000\n"
 "Last-Translator: Arnold Nipper <arnold.nipper@de-cix.net>\n"
 "Language-Team: German <https://translate.peeringdb.com/projects/peeringdb/javascript/de/>\n"
 "Language: de_DE\n"
@@ -21,10 +21,8 @@ msgstr ""
 msgid "Some of the fields contain invalid values - please correct and try again."
 msgstr "Einige Felder enthalten ungültige Werte - bitte korrigieren und erneut versuchen."
 
-#, fuzzy
-#| msgid "Not found"
 msgid "Not Allowed"
-msgstr "Nicht gefunden"
+msgstr "Nicht erlaubt"
 
 msgid "Bad request"
 msgstr "Ungültige Anforderung"
@@ -56,15 +54,11 @@ msgstr "Kennwort muss übereinstimmen"
 msgid "Needs to be a valid email address"
 msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein"
 
-#, fuzzy
-#| msgid "Needs to be a valid url"
 msgid "Needs to be a valid latitude"
-msgstr "Bitte geben Sie eine gültige URL ein"
+msgstr "Muss ein gültiger Breitengrad sein"
 
-#, fuzzy
-#| msgid "Needs to be a valid url"
 msgid "Needs to be a valid longitude"
-msgstr "Bitte geben Sie eine gültige URL ein"
+msgstr "Muss ein gültiger Längengrad sein"
 
 msgid "Needs to be a valid url"
 msgstr "Bitte geben Sie eine gültige URL ein"
@@ -79,7 +73,7 @@ msgid "No"
 msgstr "Nein"
 
 msgid "Queued"
-msgstr ""
+msgstr "in der Warteschlange"
 
 msgid "Please wait before requesting another import."
 msgstr "Bitte warten Sie, bevor Sie einen weiteren Import beauftragen."
@@ -184,10 +178,10 @@ msgid "File size too big"
 msgstr "Dateigröße zu groß"
 
 msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
-msgstr ""
+msgstr "Benennen Sie Ihr AS-SET eindeutig mit einem hierarchischen Namen, z.B. RIPE::AS-RIPENCC"
 
 msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""
-msgstr ""
+msgstr "Ein AS-SET mit diesem Namen existiert bereits. Vermeiden Sie Mehrdeutigkeiten, indem Sie den Namen des von Ihnen verwendeten IRR angeben, z. B. „IRR::AS-MYNAME“"
 
 #~ msgid "Permission denied"
 #~ msgstr "Zugang verweigert"
