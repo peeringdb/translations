@@ -7,175 +7,177 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-21 15:55+0000\n"
+"Last-Translator: Saulius Jeraminas <saulius.j@ipxo.com>\n"
+"Language-Team: Lithuanian <https://translate.peeringdb.com/projects/peeringdb/javascript/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
+"X-Generator: Weblate 5.3.1\n"
 
 msgid "Some of the fields contain invalid values - please correct and try again."
-msgstr ""
+msgstr "Kai kuriuose laukeliuose yra neteisingos reikšmės – ištaisyti ir bandyti dar kartą."
 
 msgid "Not Allowed"
-msgstr ""
+msgstr "Neleidžiama"
 
 msgid "Bad request"
-msgstr ""
+msgstr "Netinkamas užklausimas"
 
 msgid "Not found"
-msgstr ""
+msgstr "Nerasta"
 
 msgid "File too large"
-msgstr ""
+msgstr "Failas per didelis"
 
 msgid "Internal error"
-msgstr ""
+msgstr "Vidinė klaida"
 
 msgid "Something went wrong."
-msgstr ""
+msgstr "Kilo problema."
 
 msgid "The server rejected your data"
-msgstr ""
+msgstr "Serveris atmetė jūsų duomenis"
 
 msgid "Invalid value"
-msgstr ""
+msgstr "Neteisinga reikšmė"
 
 msgid "Input required"
-msgstr ""
+msgstr "Reikia įvesti"
 
 msgid "Needs to match password"
-msgstr ""
+msgstr "Turi sutapti su slaptažodžiu"
 
 msgid "Needs to be a valid email address"
-msgstr ""
+msgstr "Turi būti galiojantis el. pašto adresas"
 
 msgid "Needs to be a valid latitude"
-msgstr ""
+msgstr "Turi būti galiojanti platuma"
 
 msgid "Needs to be a valid longitude"
-msgstr ""
+msgstr "Turi būti galiojanti ilguma"
 
 msgid "Needs to be a valid url"
-msgstr ""
+msgstr "Turi būti galiojantis URL"
 
 msgid "Needs to be a number"
-msgstr ""
+msgstr "Turi būti skaičius"
 
 msgid "Yes"
-msgstr ""
+msgstr "Taip"
 
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 msgid "Queued"
-msgstr ""
+msgstr "Eilėje"
 
 msgid "Please wait before requesting another import."
-msgstr ""
+msgstr "Prieš prašydami kito importo, palaukite."
 
 msgid "Available in: "
-msgstr ""
+msgstr "Galima rasti: "
 
 msgid "seconds"
-msgstr ""
+msgstr "sekundės"
 
 msgid "Nothing to do"
-msgstr ""
+msgstr "Nėra ką daryti"
 
 msgid "This will create the following entries"
-msgstr ""
+msgstr "Tai sukurs šiuos įrašus"
 
 msgid "Remove these entries"
-msgstr ""
+msgstr "Pašalinti šiuos įrašus"
 
 msgid "Update these entries"
-msgstr ""
+msgstr "Atnaujinti šiuos įrašus"
 
 msgid "You do not have permissions to perform this action"
-msgstr ""
+msgstr "Jūs neturite leidimo atlikti šį veiksmą"
 
 msgid "sponsor"
-msgstr ""
+msgstr "rėmėjas"
 
 msgid "Remove"
-msgstr ""
+msgstr "Pašalinti"
 
 msgid "Canceled"
-msgstr ""
+msgstr "Atšauktas"
 
 msgid "Your API key was successfully created. Write this key down some place safe. Keys cannot be recovered once  this message is exited or overwritten."
-msgstr ""
+msgstr "Jūsų API raktas buvo sėkmingai sukurtas. Užsirašykite šį raktą saugioje vietoje. Raktai negali būti atkurti, kai šis pranešimas bus uždarytas arba perrašytas."
 
 msgid "Revoke key"
-msgstr ""
+msgstr "Panaikinti raktą"
 
 msgid "Add user"
-msgstr ""
+msgstr "Pridėti naudotoją"
 
 msgid "to Organization?"
-msgstr ""
+msgstr "į organizaciją?"
 
 msgid "Deny"
-msgstr ""
+msgstr "Atsisakyti"
 
 msgid "request to join the Organization?"
-msgstr ""
+msgstr "prašymo prisijungti prie organizacijos?"
 
 msgid "Unknown request type:"
-msgstr ""
+msgstr "Nežinomas užklausos tipas:"
 
 msgid "not yet been approved"
-msgstr ""
+msgstr "dar nepatvirtinta"
 
 msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
-msgstr ""
+msgstr "Pagrindinis subjektas laukia peržiūros – prieš pridėdami subjektus, palaukite, kol jis bus patvirtintas"
 
 msgid "Exchange"
-msgstr ""
+msgstr "Keitimasis"
 
 msgid "Participant"
-msgstr ""
+msgstr "Dalyvis"
 
 msgid "Facility"
-msgstr ""
+msgstr "Įrenginys"
 
 msgid "Campus"
-msgstr ""
+msgstr "Kompleksas"
 
 msgid "Network Contact"
-msgstr ""
+msgstr "Tinklo Kontaktai"
 
 msgid "Network - Exchange link"
-msgstr ""
+msgstr "Tinklo – keitimosi nuoroda"
 
 msgid "Network - Facility link"
-msgstr ""
+msgstr "Tinklas – įrenginio nuoroda"
 
 msgid "IXLAN Prefix"
-msgstr ""
+msgstr "IXLAN priešdėlis"
 
 msgid "Exchange - Facility link"
-msgstr ""
+msgstr "Keitimasis – įrenginio nuoroda"
 
 msgid "Carrier presence at Facility"
-msgstr ""
+msgstr "Operatoriaus buvimas įrenginyje"
 
 msgid "Click to remove"
-msgstr ""
+msgstr "Spustelėkite, norėdami pašalinti"
 
 msgid "Needs to be an integer or a speed ending in M, G, or T"
-msgstr ""
+msgstr "Turi būti sveikasis skaičius arba greitis, baigiantis M, G arba T"
 
 msgid "Upload"
-msgstr ""
+msgstr "Įkelti"
 
 msgid "File size too big"
-msgstr ""
+msgstr "Failo dydis per didelis"
 
 msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
-msgstr ""
+msgstr "AS-SET pavadinkite aiškiai, naudodami hierarchinį pavadinimą, pvz., RIPE::AS-RIPENCC"
 
 msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""
-msgstr ""
+msgstr "AS-SET su šiuo pavadinimu jau egzistuoja, išvengsite dviprasmybių nurodydami naudojamo IRR pavadinimą, pvz., „IRR::AS-MYNAME“ (lt)"
