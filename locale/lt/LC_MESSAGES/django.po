@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-07-21 13:59+0000\n"
+"PO-Revision-Date: 2025-07-21 15:55+0000\n"
 "Last-Translator: Saulius Jeraminas <saulius.j@ipxo.com>\n"
 "Language-Team: Lithuanian <https://translate.peeringdb.com/projects/peeringdb/server/lt/>\n"
 "Language: lt\n"
@@ -399,7 +399,7 @@ msgid "Status Dashboard"
 msgstr "Būsenos skydas"
 
 msgid "Facility"
-msgstr "Objektas"
+msgstr "Įrenginys"
 
 msgid "Facilities"
 msgstr "Objektai"
@@ -828,7 +828,7 @@ msgid "Cannot deny a canceled affiliation request"
 msgstr "Negalima atmesti atšaukto prisijungimo prašymo"
 
 msgid "Deny"
-msgstr "Atmesti"
+msgstr "Atsisakyti"
 
 msgid "Usernames cannot start with \"apikey\""
 msgstr "Vartotojo vardai negali prasidėti žodžiu „apikey“"
@@ -1323,7 +1323,7 @@ msgid "Denied"
 msgstr "Atmesta"
 
 msgid "Canceled"
-msgstr "Atšaukta"
+msgstr "Atšauktas"
 
 msgid "Status of this request"
 msgstr "Šios užklausos būsena"
@@ -1482,7 +1482,7 @@ msgid "The current status of the manual IX-F import request"
 msgstr "Dabartinė rankinio IX-F importo prašymo būsena"
 
 msgid "Queued"
-msgstr "Laukiama eilėje"
+msgstr "Eilėje"
 
 msgid "Importing"
 msgstr "Importuojama"
@@ -1933,7 +1933,7 @@ msgid "We could not find the address you entered. Please review your address dat
 msgstr "Nepavyko rasti jūsų įvesto adreso. Peržiūrėkite savo adreso duomenis ir, jei reikia, susisiekite su {} dėl tolesnės pagalbos."
 
 msgid "Invalid value"
-msgstr "Netinkama reikšmė"
+msgstr "Neteisinga reikšmė"
 
 msgid "This field is required"
 msgstr "Šis laukas yra privalomas"
@@ -3255,7 +3255,7 @@ msgid "Routeservers"
 msgstr "Maršrutizatorių serveriai"
 
 msgid "Exchange"
-msgstr "Interneto mainų punktas"
+msgstr "Keitimasis"
 
 msgid "Facility link"
 msgstr "Centro nuoroda"
@@ -3273,10 +3273,10 @@ msgid "Prefixes (IPv4/IPv6)"
 msgstr "Prefiksai (IPv4/IPv6)"
 
 msgid "Exchange - Facility link"
-msgstr "Sujungimo taško ir objekto ryšys"
+msgstr "Keitimasis – įrenginio nuoroda"
 
 msgid "IXLAN Prefix"
-msgstr "IXLAN prefiksas"
+msgstr "IXLAN priešdėlis"
 
 msgid "Add Prefix"
 msgstr "Pridėti prefiksą"
@@ -3321,7 +3321,7 @@ msgid "IP"
 msgstr "IP"
 
 msgid "Network - Exchange link"
-msgstr "Tinklo ir sujungimo taško jungtis"
+msgstr "Tinklo – keitimosi nuoroda"
 
 msgid "Not operational"
 msgstr "Neveikia"
