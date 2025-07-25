@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-07-16 23:55+0000\n"
+"PO-Revision-Date: 2025-07-25 10:55+0000\n"
 "Last-Translator: Livio Morina <noc@airbeam.it>\n"
 "Language-Team: Italian <https://translate.peeringdb.com/projects/peeringdb/server/it/>\n"
 "Language: it\n"
@@ -228,7 +228,7 @@ msgid "An E.164-formatted phone number starts with a +, followed by the country 
 msgstr "Un numero di telefonico in formato E.164 inizia con un +, seguito dal prefisso internazionale e dal numero nazionale (rimuovendo lo zero antecedente per la maggior parte dei paesi), senza spazi o trattini tra i gruppi di cifre"
 
 msgid "Total, self-classified traffic in/out to this network."
-msgstr ""
+msgstr "Totale, traffico autodefinito in entrata ed uscita da questa rete."
 
 msgid "If this field is set, it will be displayed on this record. If not, we will display the website from the organization record this is tied to"
 msgstr "Se questo campo è valorizzato, verrà mostrato in questo record. In caso contrario, mostreremo il sito dell'organizzazione a cui il record è legato"
@@ -239,10 +239,8 @@ msgstr "Fornitore di connettività L1 o L2 all'interno di una struttura"
 msgid "A set of facilities under one management, with inter-building cross-connects"
 msgstr "Un insieme di strutture sotto un'unica gestione, con possibilità di cross-connects tra diversi edifici"
 
-#, fuzzy
-#| msgid "Peering with the routeserver is shown with an icon"
 msgid "Peering with the routeserver and BFD support is shown with an icon"
-msgstr "Il peering col routeserver è mostrato con un'icona"
+msgstr "Il peering col routeserver ed il supporto BFD vengono mostrati con un'icona"
 
 msgid "Best Effort (no SLA)"
 msgstr "Best Effort (senza SLA)"
@@ -269,15 +267,13 @@ msgid "Owner"
 msgstr "Proprietario"
 
 msgid "Leased or Rented"
-msgstr ""
+msgstr "Noleggiato"
 
 msgid "48 VDC"
 msgstr "48 VDC"
 
-#, fuzzy
-#| msgid "240 VAC"
 msgid "400 VAC"
-msgstr "240 VCA"
+msgstr "400 VCA"
 
 msgid "480 VAC"
 msgstr "480 VCA"
@@ -382,7 +378,7 @@ msgid "Property"
 msgstr "Proprietà"
 
 msgid "Leasing or renting is an agreement with a property owner for use of the property."
-msgstr ""
+msgstr "Il noleggio è un accordo con il proprietario di un bene per l’utilizzo dello stesso."
 
 msgid "Diverse Serving Substations"
 msgstr "Diverse sottostazioni di servizio"
@@ -679,7 +675,7 @@ msgid "Target org cannot be in selected organizations list"
 msgstr "L'organizzazione in analisi non può essere inserita nell'elenco delle organizzazioni selezionate"
 
 msgid "There exist some sponsor ship conflicts that will need to be manually resolved before this merge can happen. {} has been notified of this conflict. Conflicting organizations: {}"
-msgstr ""
+msgstr "Esistono alcuni conflitti di sponsorizzazione che dovranno essere risolti manualmente prima che questa fusione possa avvenire. {} è stato notificato di questo conflitto. Organizzazioni in conflitto: {}"
 
 msgid "ROLLBACK"
 msgstr "RIPRISTINA"
@@ -915,10 +911,8 @@ msgstr "Reimposta tutto"
 msgid "Reset hints"
 msgstr "Reimposta suggerimenti"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset dismisses"
-msgstr "Reimposta"
+msgstr "Reimposta gli avvisi ignorati"
 
 msgid "Reset email"
 msgstr "Reimposta email"
@@ -927,7 +921,7 @@ msgid "Reset tickets"
 msgstr "Reimposta tickets"
 
 msgid "Select a handleref tag to validate"
-msgstr ""
+msgstr "Seleziona un tag handleref da convalidare"
 
 msgid "Object type"
 msgstr "Tipo d'oggetto"
@@ -958,23 +952,23 @@ msgid "Retrieves a single `{obj_type}` type object by id"
 msgstr "Recupera un singolo `{obj_type}` indica l'oggetto tramite il suo id"
 
 msgid "Expand nested sets according to depth."
-msgstr ""
+msgstr "Espandi gli insiemi nidificati in base alla profondità."
 
 #, python-brace-format
 msgid "Retrieves a list of `{obj_type}` type objects"
-msgstr ""
+msgstr "Recupera una lista di oggetti di tipo `{obj_type}`"
 
 msgid "Limit the number of rows returned in the result set (use for pagination in combination with `skip`)"
 msgstr "Limita il numero di righe restituite nel risultato (usato per la paginazione con`skip`)"
 
 msgid "Skip n results in the result set (use for pagination in combination with `limit`)"
-msgstr ""
+msgstr "Salta n risultati nell'insieme dei risultati (da usare per l'impaginazione insieme a `limit`)"
 
 msgid "Unix epoch time stamp (seconds). Only return objects that have been updated since then"
-msgstr ""
+msgstr "Timestamp Unix epoch (in secondi). Restituisce solo gli oggetti aggiornati dopo tale momento"
 
 msgid "Filter results by matching a value against this field."
-msgstr ""
+msgstr "Filtra i risultati confrontando un valore con questo campo."
 
 msgid "Supported filter suffixes: {}"
 msgstr "Filtri-suffissi supportati"
@@ -983,7 +977,7 @@ msgid "Number of networks present at this facility"
 msgstr "Numero di reti presenti in questa struttura"
 
 msgid "Targets both AKA and name fields for filtering"
-msgstr ""
+msgstr "Filtra sia per AKA che per nome"
 
 msgid "Find networks not present at an exchange (exchange id)"
 msgstr "Trova reti non presenti nell'exchange (exchange id)"
@@ -1136,10 +1130,10 @@ msgid "Unable to retrieve RDAP data. If the issue persists, please contact {supp
 msgstr "Non posso recuperare i dati RDAO. Se il problema persiste, siete pregati di contattare {support_email}."
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in the exchange's IX-F data as a singular member connection"
-msgstr ""
+msgstr "La voce per (ASN, IPv4 e IPv6) non esiste nei dati IX-F dell'exchange come connessione singola di membro"
 
 msgid "The entry for (asn and IPv4 and IPv6) does not exist in PeeringDB as a singular network -> ix connection"
-msgstr ""
+msgstr "La voce per (ASN, IPv4 e IPv6) non esiste in PeeringDB come connessione singola network → IX"
 
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "Differenze tra i dati contenuti su PeeringDB e l'IX-F dell'Exchange"
@@ -1184,7 +1178,7 @@ msgid "Invalid speed value: could not be parsed"
 msgstr "Valore di velocità non valido: non è possibile analizzarlo"
 
 msgid "IP addresses moved to same entry"
-msgstr ""
+msgstr "Indirizzi IP spostati nella stessa voce"
 
 msgid "IPv6 not set"
 msgstr "IPV6 non impostato"
@@ -1203,11 +1197,11 @@ msgstr "{} Notifica di Unione: {} -> {}"
 
 #, python-format
 msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
-msgstr ""
+msgstr "PeeringDB: richieste in sospeso obsolete di %(user_name)s eliminate"
 
 #, python-format
 msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
-msgstr ""
+msgstr "PeeringDB: richieste in sospeso obsolete di %(org_name)s eliminate"
 
 msgid "Inactive"
 msgstr "Inattivo"
@@ -1263,10 +1257,8 @@ msgstr "6 mesi"
 msgid "1 Year"
 msgstr "1 anno"
 
-#, fuzzy
-#| msgid "Reset"
 msgid "Reset Environment"
-msgstr "Reimposta"
+msgstr "Reimposta ambiente"
 
 msgid "IX-F Import"
 msgstr "Importazione IX-F"
@@ -1298,10 +1290,10 @@ msgid "Geo location lookup failed: {}"
 msgstr "Geo-ricerca fallita {}"
 
 msgid "Field is being deprecated."
-msgstr ""
+msgstr "Campo in fase di dismissione."
 
 msgid "Please move this data to the suite field and remove it from here."
-msgstr ""
+msgstr "Sposta questi dati nel campo suite e rimuovili da qui."
 
 msgid "Geocoordinate Cache"
 msgstr "Geocoordinate Cache"
@@ -1358,31 +1350,31 @@ msgid "email address"
 msgstr "indirizzo email"
 
 msgid "Ticket reference on the DeskPRO side"
-msgstr ""
+msgstr "Riferimento al ticket sul lato DeskPRO"
 
 msgid "Ticket id on the DeskPRO side"
-msgstr ""
+msgstr "ID del ticket sul lato DeskPRO"
 
 msgid "DeskPRO Ticket"
-msgstr ""
+msgstr "Ticket DeskPRO"
 
 msgid "DeskPRO Tickets"
-msgstr ""
+msgstr "Tickets DeskPRO"
 
 msgid "DeskPRO Ticket CC Contact"
-msgstr ""
+msgstr "Contatto in CC del ticket DeskPRO"
 
 msgid "Deskpro Ticket CC Contacts"
-msgstr ""
+msgstr "Contatti in CC del ticket Deskpro"
 
 msgid "Allows you to upload and set a logo image file for this organization"
 msgstr "Permette di caricare e inserire un'immagine del logo di questa organizzazione"
 
 msgid "Require users in your organization to have email addresses within your specified domains."
-msgstr ""
+msgstr "Richiedi che gli utenti della tua organizzazione abbiano indirizzi email appartenenti ai domini specificati."
 
 msgid "If user email restriction is enabled: only allow users with emails in these domains. One domain per line, in the format of '@xyz.com'"
-msgstr ""
+msgstr "Se la restrizione sugli indirizzi email è abilitata: consenti solo utenti con email appartenenti a questi domini. Un dominio per riga, nel formato '@xyz.com'"
 
 msgid "Require users in this organization to periodically re-authenticate"
 msgstr "Richiedi agli utenti di queara organizzazione di riatenticarsi periodicamente"
@@ -1392,18 +1384,21 @@ msgid ""
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
 msgstr ""
+"Intervallo di opzioni disponibile:\n"
+"1 settimana, 2 settimane, 1 mese,\n"
+"3 mesi, 6 mesi, 1 anno"
 
 msgid "Require users in your organization to activate 2FA."
-msgstr ""
+msgstr "Richiedi agli utenti della tua organizzazione di attivare l'autenticazione a due fattori (2FA)."
 
 msgid "Organization has active objects under it."
 msgstr "L'organizzazione ha oggetti attivi sotto di essa."
 
 msgid "Organization is currently an active sponsor. Please contact PeeringDB support to help facilitate the removal of this organization."
-msgstr ""
+msgstr "L'organizzazione è attualmente uno sponsor attivo. Contatta il supporto di PeeringDB per facilitare la rimozione di questa organizzazione."
 
 msgid "Organization API key Permission"
-msgstr ""
+msgstr "Autorizzazione chiave API dell'organizzazione"
 
 msgid "Sponsorship starts on"
 msgstr "La sponsorizzazione inizia il"
@@ -1475,16 +1470,16 @@ msgid "Facility has active network presence(s): {} ..."
 msgstr "La struttura ha una o più presenze di rete attive: {} ..."
 
 msgid "Manual IX-F import request"
-msgstr ""
+msgstr "Richiesta di importazione IX-F manuale"
 
 msgid "Date of most recent manual import request"
 msgstr "Data della richiesta di import manuale piu recente"
 
 msgid "Manual IX-F import status"
-msgstr ""
+msgstr "Stato dell'importazione IX-F manuale"
 
 msgid "The current status of the manual IX-F import request"
-msgstr ""
+msgstr "Stato attuale della richiesta di importazione IX-F manuale"
 
 msgid "Queued"
 msgstr "Accodato"
@@ -1526,13 +1521,13 @@ msgid "Last time we notified the exchange about the IX-F parsing issue"
 msgstr "Ultima volta che abbiamo notificato all'exchange il problema di elaborazione IX-F"
 
 msgid "IX-F sent IPs for unsupported protocol"
-msgstr ""
+msgstr "IX-F ha inviato IP per un protocollo non supportato"
 
 msgid "IX has been sending IP addresses for protocol not supported by network"
-msgstr ""
+msgstr "L'IX ha inviato indirizzi IP per un protocollo non supportato dalla rete"
 
 msgid "IXLan id needs to match parent ix id"
-msgstr ""
+msgstr "L'ID di IXLan deve corrispondere all'ID dell'IX padre"
 
 msgid "Ixlan for exchange already exists"
 msgstr "L'IXLAN per l'exchange esiste già"
@@ -1553,61 +1548,55 @@ msgid "IX-F Import Log Entries"
 msgstr "Voci del registro di importazione IXF"
 
 msgid "JSON snapshot of the IX-F member data that created this entry"
-msgstr ""
+msgstr "Snapshot JSON dei dati membro IX-F che hanno generato questa voce"
 
 msgid "Activity for this entry"
-msgstr ""
+msgstr "Attività relativa a questa voce"
 
 msgid "Network's dismissal of this proposed change, which will hide it until from the customer facing network view"
-msgstr ""
+msgstr "Rifiuto da parte della rete di questa modifica proposta, che la nasconderà dalla vista della rete lato cliente"
 
 msgid "RS Peer"
-msgstr "Peer del RS"
+msgstr "Peer con RS"
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "Il tentativo di applicare i dati a PeeringDB ha restituito un errore"
 
-#, fuzzy
-#| msgid "Last Updated"
 msgid "Last Fetched"
-msgstr "Ultimo Aggiornamento"
+msgstr "Ultimo recupero"
 
 msgid "Requirement of another IXFMemberData entry and will be applied alongside it"
-msgstr ""
+msgstr "Richiede un'altra voce IXFMemberData e sarà applicata insieme ad essa"
 
 msgid "Indicates how many extra notifications were sent to the network for this proposal. Extra notifications can be sent for stale netixlan entries over time."
-msgstr ""
+msgstr "Indica quante notifiche aggiuntive sono state inviate alla rete per questa proposta. Le notifiche aggiuntive possono essere inviate nel tempo per voci netixlan obsolete."
 
 msgid "Last time extra notifications were sent to the network for this proposal."
-msgstr ""
+msgstr "Ultima volta in cui sono state inviate notifiche aggiuntive alla rete per questa proposta."
 
 msgid "IX-F Member Data"
 msgstr "Dari dei membri in IX-F"
 
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
-msgstr ""
+msgstr "Nessun indirizzo IP valido durante la verifica rispetto ai protocolli di rete abilitati"
 
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
-msgstr ""
+msgstr "IXLanPrefix con stato '{}' non può essere collegato a un IXLan con stato '{}'."
 
 msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
-msgstr ""
+msgstr "Impossibile eliminare il prefisso {}: l'indirizzo IP {} della rete ASN {} sta ancora utilizzando questo prefisso"
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifica se un IXP può aggiungere un'entrata netixlan per questa rete tramite i propri dati ixp_member"
 
-#, fuzzy
-#| msgid "Exchange - Facility link"
 msgid "number of exchanges at this network"
-msgstr "Collegamento Interscambio - Struttura"
+msgstr "numero di exchange presso questa rete"
 
-#, fuzzy
-#| msgid "Public Peering Exchange Points"
 msgid "number of facilities at this network"
-msgstr "Punti di Interscambio per Peering Pubblico"
+msgstr "numero di facility presso questa rete"
 
 msgid "Last technical contact point for network with active peers"
-msgstr ""
+msgstr "Ultimo referente tecnico per la rete con peer attivi"
 
 msgid "Phone or email required"
 msgstr "Telefono o email richieste"
@@ -1667,21 +1656,19 @@ msgid "language"
 msgstr "lingua"
 
 msgid "Account is orphaned and has been flagged for deletion at this date"
-msgstr ""
+msgstr "L'account è orfano ed è stato contrassegnato per l'eliminazione a questa data"
 
 msgid "User has been notified about pending account deletion at this date"
-msgstr ""
+msgstr "L'utente è stato notificato della prevista eliminazione dell'account a questa data"
 
 msgid "This user will never be flagged for deletion through the orphaned user cleanup process."
-msgstr ""
+msgstr "Questo utente non sarà mai contrassegnato per l'eliminazione tramite il processo di pulizia degli utenti orfani."
 
-#, fuzzy
-#| msgid "Regional"
 msgid "option flags"
-msgstr "Flag opzione"
+msgstr "flag opzione"
 
 msgid "Bitmask to store user preference toggles"
-msgstr ""
+msgstr "Bitmask per memorizzare le preferenze utente attivate/disattivate"
 
 msgid "user"
 msgstr "utente"
@@ -1693,7 +1680,7 @@ msgid "Password Reset Initiated"
 msgstr "Reset della password avviato"
 
 msgid "Determines if API Key inherits the User Permissions or is readonly."
-msgstr ""
+msgstr "Determina se la chiave API eredita i permessi dell'utente o è di sola lettura."
 
 msgid "IX-F Import Email"
 msgstr "Email importazione IXF"
@@ -1711,7 +1698,7 @@ msgid "result log"
 msgstr "log del risultato"
 
 msgid "Descriptive text of command that can be searched"
-msgstr ""
+msgstr "Testo descrittivo del comando ricercabile"
 
 msgid "the user that ran this command"
 msgstr "l'utente che ha lanciato questo comando"
@@ -1732,88 +1719,88 @@ msgid "Environment Settings"
 msgstr "Impostazioni d'ambiente"
 
 msgid "API: Anonymous API throttle rate"
-msgstr ""
+msgstr "API: limite di velocità per le richieste anonime"
 
 msgid "API: Authenticated API throttle rate"
-msgstr ""
+msgstr "API: limite di velocità per le richieste autenticate"
 
 msgid "API: Melissa request throttle rate for admin users"
-msgstr ""
+msgstr "API: limite di velocità delle richieste Melissa per gli utenti admin"
 
 msgid "API: Melissa request throttle enabled for admin users"
-msgstr ""
+msgstr "API: limitazione delle richieste Melissa abilitata per gli utenti admin"
 
 msgid "API: Melissa request throttle rate for users"
-msgstr ""
+msgstr "API: limite di velocità delle richieste Melissa per gli utenti"
 
 msgid "API: Melissa request throttle enabled for users"
-msgstr ""
+msgstr "API: limitazione delle richieste Melissa abilitata per gli utenti"
 
 msgid "API: Melissa request throttle rate for organizations"
-msgstr ""
+msgstr "API: limite di velocità delle richieste Melissa per le organizzazioni"
 
 msgid "API: Melissa request throttle enabled for organizations"
-msgstr ""
+msgstr "API: limitazione delle richieste Melissa abilitata per le organizzazioni"
 
 msgid "API: Melissa request throttle rate for anonymous requests (ips)"
-msgstr ""
+msgstr "API: limite di velocità delle richieste Melissa per richieste anonime (IP)"
 
 msgid "API: Melissa request throttle enabled for anonymous requests (ips)"
-msgstr ""
+msgstr "API: limitazione delle richieste Melissa abilitata per le richieste anonime (ips)"
 
 msgid "API: Repeated request throttle size threshold for ip blocks (bytes)"
-msgstr ""
+msgstr "API: soglia di dimensione per la limitazione delle richieste ripetute da blocchi IP (in byte)"
 
 msgid "API: Repeated request throttle rate for ip blocks"
-msgstr ""
+msgstr "API: limite di velocità per richieste ripetute da blocchi IP"
 
 msgid "API: Repeated request throttle enabled for ip blocks"
-msgstr ""
+msgstr "API: limitazione delle richieste ripetute abilitata per i blocchi IP"
 
 msgid "API: Repeated request throttle size threshold for ip addresses (bytes)"
-msgstr ""
+msgstr "API: soglia di dimensione per la limitazione delle richieste ripetute da indirizzi IP (in byte)"
 
 msgid "API: Repeated request throttle rate for ip addresses"
-msgstr ""
+msgstr "API: limite di velocità per richieste ripetute da indirizzi IP"
 
 msgid "API: Repeated request throttle enabled for ip addresses"
-msgstr ""
+msgstr "API: limitazione delle richieste ripetute abilitata per gli indirizzi IP"
 
 msgid "API: Repeated request throttle size threshold for authenticated users (bytes)"
-msgstr ""
+msgstr "API: soglia di dimensione per la limitazione delle richieste ripetute da utenti autenticati (in byte)"
 
 msgid "API: Repeated request throttle rate for authenticated users"
-msgstr ""
+msgstr "API: limite di velocità per richieste ripetute da utenti autenticati"
 
 msgid "API: Repeated request throttle enabled for authenticated users"
-msgstr ""
+msgstr "API: limitazione delle richieste ripetute abilitata per gli utenti autenticati"
 
 msgid "API: Repeated request throttle size threshold for organization api-keys (bytes)"
-msgstr ""
+msgstr "API: soglia di dimensione per la limitazione delle richieste ripetute da chiavi API di organizzazione (in byte)"
 
 msgid "API: Repeated request throttle rate for organization api-keys"
-msgstr ""
+msgstr "API: limite di velocità per richieste ripetute da chiavi API di organizzazione"
 
 msgid "API: Repeated request throttle enabled for organization api-keys"
-msgstr ""
+msgstr "API: limitazione delle richieste ripetute abilitata per chiavi API di organizzazione"
 
 msgid "API: Anonymous API throttle rate message"
-msgstr ""
+msgstr "API: messaggio limite di velocità per richieste anonime"
 
 msgid "API: Authenticated API throttle rate message"
-msgstr ""
+msgstr "API: messaggio limite di velocità per richieste autenticate"
 
 msgid "API: Request Write API Limiting"
-msgstr ""
+msgstr "API: limitazione delle richieste in scrittura"
 
 msgid "API: Request Organization Users API Limiting"
-msgstr ""
+msgstr "API: limitazione delle richieste per gli utenti dell'organizzazione"
 
 msgid "Show last database sync"
 msgstr "Mostra l'ultima sincronizzazione del database"
 
 msgid "Tutorial mode banner message"
-msgstr ""
+msgstr "Messaggio banner modalità tutorial"
 
 msgid "Last Updated"
 msgstr "Ultimo Aggiornamento"
@@ -1834,10 +1821,10 @@ msgid "OAuth Applications"
 msgstr "Applicazioni OAuth"
 
 msgid "Authentication method reference"
-msgstr ""
+msgstr "Riferimento al metodo di autenticazione"
 
 msgid "OAuth Grant Info"
-msgstr ""
+msgstr "Informazioni sul Grant OAuth"
 
 msgid "OAuth Access Token Info"
 msgstr ""
@@ -2685,7 +2672,7 @@ msgid "About"
 msgstr ""
 
 msgid "Register"
-msgstr "Regìstrati"
+msgstr "Registrati"
 
 msgid "Sponsors"
 msgstr "Sponsor"
@@ -2731,7 +2718,7 @@ msgid "Automated Networks"
 msgstr ""
 
 msgid "Registered Users"
-msgstr "Utenti registrati"
+msgstr "Utenti Registrati"
 
 msgid "Confirmation"
 msgstr "Conferma"
@@ -2791,7 +2778,7 @@ msgid "about"
 msgstr "Chi siamo"
 
 msgid "register"
-msgstr "Registrati"
+msgstr "registrati"
 
 msgid "Most Recent Updates"
 msgstr "AGGIORNAMENTI RECENTI"
@@ -3973,7 +3960,7 @@ msgid "Maximum AS-SET hierarchy depth: {}"
 msgstr ""
 
 msgid "Invalid formatting: {} - should be RS-SET, AS-SET or AS123"
-msgstr ""
+msgstr "Formattazione non valida: {} - dovrebbe essere RS-SET, AS-SET o AS123"
 
 msgid "All parts of an hierarchical name have to be of the same type"
 msgstr ""
