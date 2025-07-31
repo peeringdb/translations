@@ -2444,6 +2444,28 @@ msgstr "Sou um Internet Exchange (IXP), centro de dados(DC) ou outro PoP de inte
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXPs e os PoPs do data center podem adicionar e manter suas informações no banco de dados, aumentando a visibilidade e seu apelo para clientes novos e existentes. Se você estiver no banco de dados, isso facilita muito para as redes encontrarem informações cruciais sobre seus serviços e as outras redes presentes em seu IXP ou PoPs."
 
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search networks ..."
+msgid "Search ASN numbers ..."
+msgstr "Pesquisar redes..."
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+msgid "Reset"
+msgstr "Redefinir"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr "… mais de %(row_limit)s entradas corresponderam a sua pesquisa, refine sua solicitação …"
+
 msgid "Address"
 msgstr "Endereço"
 
@@ -2462,9 +2484,6 @@ msgstr "Filtros adicionais estão disponíveis para usuários autenticados e voc
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr "Filtros adicionais estão disponíveis para usuários verificados e você não é afiliado a nenhuma organização."
 
-msgid "Reset"
-msgstr "Redefinir"
-
 msgid "Management"
 msgstr "Gestão"
 
@@ -2473,10 +2492,6 @@ msgstr "Código postal"
 
 msgid "No search results."
 msgstr "Nada correspondeu ao seus critérios de pesquisa."
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "… mais de %(row_limit)s entradas corresponderam a sua pesquisa, refine sua solicitação …"
 
 msgid "CLLI"
 msgstr "CLLI"
@@ -2494,6 +2509,12 @@ msgstr "Bloco de IP"
 
 msgid "Speed"
 msgstr "Velocidade"
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
+msgstr ""
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Filtros adicionais estão disponíveis para usuários autenticados e você não está conectado no momento."
@@ -2557,6 +2578,9 @@ msgstr "Presença de minha organização"
 
 msgid "Not present"
 msgstr "Não presente"
+
+msgid "ASN Connectivity"
+msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Esta é uma instância beta/de teste do PeeringDB. Alguns recursos podem funcionar de maneira diferente da produção. Não armazene aqui dados que você pretende manter"
@@ -3352,9 +3376,6 @@ msgstr "Você pode filtrar por"
 msgid "ALL"
 msgstr ""
 
-msgid "ASNs"
-msgstr ""
-
 msgid "Prefixes"
 msgstr "Prefixos"
 
@@ -4004,7 +4025,12 @@ msgstr "Valor negativo não permitido"
 msgid "Maximum value allowed {}"
 msgstr "Valor máximo permitido {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr "O prefixo se sobrepõe ao prefixo de {}: {}"
 
 msgid "IRR AS-SET value must be string type"
@@ -4050,9 +4076,14 @@ msgstr "O identificador não deve estar vazio!"
 msgid "Invalid {service} URL!"
 msgstr "URL de {service} inválido!"
 
-#, python-brace-format
-msgid "Invalid {service} username!"
+#, fuzzy, python-brace-format
+#| msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "Nome de usuário {service} inválido!"
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 msgid "Invalid service!"
 msgstr "Serviço inválido!"

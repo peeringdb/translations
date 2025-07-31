@@ -2431,6 +2431,28 @@ msgstr "인터넷 익스체인지 포인트(IXP), 데이터 센터 또는 기타
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가하고 유지함으로써 가시성과 기존 고객에 대한 매력을 높일 수 있습니다. 만약 당신이 데이터베이스에 있다면, 이것은 네트워크가 당신의 서비스와 당신의 IXP나 시설에 존재하는 다른 네트워크에 대한 중요한 정보를 찾는 것을 훨씬 더 쉽게 만듭니다."
 
+msgid "ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search networks ..."
+msgid "Search ASN numbers ..."
+msgstr "네트워크 검색..."
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+msgid "Reset"
+msgstr "재설정"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr "...%(row_limit)s 이상의 항목이 쿼리와 일치합니다. 요청을 수정하십시오..."
+
 msgid "Address"
 msgstr "주소"
 
@@ -2449,9 +2471,6 @@ msgstr "인증된 사용자는 추가 필터를 사용할 수 있으며 현재 �
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr "확인된 사용자는 추가 필터를 사용할 수 있으며, 현재 어떤 조직에도 가입되어 있지 않습니다."
 
-msgid "Reset"
-msgstr "재설정"
-
 msgid "Management"
 msgstr "관리"
 
@@ -2460,10 +2479,6 @@ msgstr "우편 번호"
 
 msgid "No search results."
 msgstr "검색 결과 없음."
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "...%(row_limit)s 이상의 항목이 쿼리와 일치합니다. 요청을 수정하십시오..."
 
 msgid "CLLI"
 msgstr "CLLI"
@@ -2481,6 +2496,12 @@ msgstr "IP 블록"
 
 msgid "Speed"
 msgstr "속도"
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
+msgstr ""
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "인증된 사용자는 추가 필터를 사용할 수 있으며 현재 로그아웃 상태입니다."
@@ -2556,6 +2577,9 @@ msgstr "조직 병합"
 #| msgid "Present"
 msgid "Not present"
 msgstr "존재함"
+
+msgid "ASN Connectivity"
+msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "이것은 PeeringDB의 베타/테스트 버전 입니다. 일부 특성은 다르게 작용할 수 있습니다. 보관하려는 데이터를 여기에 저장하지 마십시오"
@@ -3368,9 +3392,6 @@ msgstr "다음으로 필터링할 수 있습니다"
 msgid "ALL"
 msgstr ""
 
-msgid "ASNs"
-msgstr ""
-
 msgid "Prefixes"
 msgstr "프리픽스"
 
@@ -4042,7 +4063,12 @@ msgstr "음수 값은 허용되지 않음"
 msgid "Maximum value allowed {}"
 msgstr "허용되는 최대 값 {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr "프리픽스가 {}의 프리픽스와 겹침: {}"
 
 msgid "IRR AS-SET value must be string type"
@@ -4088,9 +4114,14 @@ msgstr ""
 msgid "Invalid {service} URL!"
 msgstr ""
 
-#, python-brace-format
-msgid "Invalid {service} username!"
+#, fuzzy, python-brace-format
+#| msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "유효하지 않은 {service} 아이디!"
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 msgid "Invalid service!"
 msgstr "유효하지 않은 서비스!"

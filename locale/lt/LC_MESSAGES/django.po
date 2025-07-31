@@ -2386,6 +2386,28 @@ msgstr "Esu interneto mainų taškas (IXP), duomenų centras ar kita sujungimo �
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP ir duomenų centrai gali papildyti ir palaikyti savo informaciją duomenų bazėje, taip padidindami savo matomumą ir patrauklumą naujiems ir esamiems klientams. Jei esate duomenų bazėje, tinklams daug lengviau rasti svarbią informaciją apie jūsų paslaugas ir kitus tinklus, esančius jūsų IXP ar įrenginiuose."
 
+msgid "ASNs"
+msgstr "ASNs"
+
+#, fuzzy
+#| msgid "Search networks ..."
+msgid "Search ASN numbers ..."
+msgstr "Paieška tinkluose ..."
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+msgid "Reset"
+msgstr "Atstatyti"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr "...Jūsų užklausą atitiko daugiau nei %(row_limit)s įrašų, patikslinkite užklausą..."
+
 msgid "Address"
 msgstr "Adresas"
 
@@ -2404,9 +2426,6 @@ msgstr "Papildomi filtrai prieinami autentifikuotiems naudotojams, o jūs šiuo 
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr "Papildomi filtrai prieinami patikrintiems naudotojams, o jūs šiuo metu nesate prisijungę prie jokių organizacijų."
 
-msgid "Reset"
-msgstr "Atstatyti"
-
 msgid "Management"
 msgstr "Valdymas"
 
@@ -2415,10 +2434,6 @@ msgstr "Pašto kodas"
 
 msgid "No search results."
 msgstr "Nėra paieškos rezultatų."
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "...Jūsų užklausą atitiko daugiau nei %(row_limit)s įrašų, patikslinkite užklausą..."
 
 msgid "CLLI"
 msgstr "CLLI"
@@ -2434,6 +2449,12 @@ msgstr "IP blokas"
 
 msgid "Speed"
 msgstr "Greitis"
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
+msgstr ""
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Papildomi filtrai prieinami autentifikuotiems naudotojams, o jūs šiuo metu nesate prisijungę."
@@ -2497,6 +2518,11 @@ msgstr "Mano organizacijos buvimas"
 
 msgid "Not present"
 msgstr "Nėra"
+
+#, fuzzy
+#| msgid "IX Connections"
+msgid "ASN Connectivity"
+msgstr "IX ryšiai"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Tai yra \"PeeringDB\" beta / bandymas. Kai kurios funkcijos gali veikti kitaip nei pagrindinėje versijoje. Nelaikykite čia duomenų, kuriuos ketinate saugoti"
@@ -3242,9 +3268,6 @@ msgstr "Galite filtruoti pagal"
 msgid "ALL"
 msgstr "VISI"
 
-msgid "ASNs"
-msgstr "ASNs"
-
 msgid "Prefixes"
 msgstr "Prefiksai"
 
@@ -3863,7 +3886,12 @@ msgstr "Neleidžiama neigiama reikšmė"
 msgid "Maximum value allowed {}"
 msgstr "Didžiausia leidžiama reikšmė {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr "prefiksas sutampa su {} prefiksu: {}"
 
 msgid "IRR AS-SET value must be string type"
@@ -3909,9 +3937,14 @@ msgstr "Identifikatorius neturėtų būti tuščias!"
 msgid "Invalid {service} URL!"
 msgstr "Netinkama {service} URL ADRESAS!"
 
-#, python-brace-format
-msgid "Invalid {service} username!"
+#, fuzzy, python-brace-format
+#| msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "Netinkamas {service} vartotojo vardas!"
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 msgid "Invalid service!"
 msgstr "Netinkama paslauga!"

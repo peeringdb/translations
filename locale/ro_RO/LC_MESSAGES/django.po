@@ -2386,6 +2386,28 @@ msgstr "Sunt un Internet Exchange (IXP), centru de date sau altă facilitate de 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și menține informațiile lor în baza de date, crescând vizibilitatea și devenind mai interesanți pentru clienții noi și existenți. Dacă vă aflați în baza de date, acest lucru face mult mai ușor pentru alte rețele să găsească informații cruciale despre serviciile dvs. și despre celelalte rețele prezente în platforma dvs. IXP sau facilitățile dvs."
 
+msgid "ASNs"
+msgstr "ASN-uri"
+
+#, fuzzy
+#| msgid "Search networks ..."
+msgid "Search ASN numbers ..."
+msgstr "Caută rețele..."
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+msgid "Reset"
+msgstr "Resetare"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea dvs., refaceți solicitarea..."
+
 msgid "Address"
 msgstr "Adresă"
 
@@ -2404,9 +2426,6 @@ msgstr "Sunt disponibile filtrele suplimentare pentru utilizatorii autentificaț
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr "Sunt disponibile filtrele suplimentare pentru utilizatorii verificați iar în prezent nu sunteți afiliat la nicio organizație."
 
-msgid "Reset"
-msgstr "Resetare"
-
 msgid "Management"
 msgstr "Management"
 
@@ -2415,10 +2434,6 @@ msgstr "Cod poștal"
 
 msgid "No search results."
 msgstr "Nu există rezultate."
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea dvs., refaceți solicitarea..."
 
 msgid "CLLI"
 msgstr "CLLI"
@@ -2434,6 +2449,12 @@ msgstr "Bloc de adrese IP"
 
 msgid "Speed"
 msgstr "Viteză"
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
+msgstr ""
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii autentificați iar în prezent nu sunteți autentificat."
@@ -2497,6 +2518,11 @@ msgstr "Prezența organizației mele"
 
 msgid "Not present"
 msgstr "Nu este prezent"
+
+#, fuzzy
+#| msgid "IX Connections"
+msgid "ASN Connectivity"
+msgstr "Conexiuni IX"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracteristici pot funcționa diferit de mediul de producție. Nu stocați aici datele pe care intenționați să le păstrați"
@@ -3242,9 +3268,6 @@ msgstr "Puteți filtra după"
 msgid "ALL"
 msgstr "TOATE"
 
-msgid "ASNs"
-msgstr "ASN-uri"
-
 msgid "Prefixes"
 msgstr "Prefixe"
 
@@ -3865,7 +3888,12 @@ msgstr "Valoarea negativă nu este permisă"
 msgid "Maximum value allowed {}"
 msgstr "Valoarea maximă admisă {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr "Prefixul se suprapune cu prefixul lui {}: {}"
 
 msgid "IRR AS-SET value must be string type"
@@ -3911,9 +3939,14 @@ msgstr "Identificatorul nu trebuie să fie gol!"
 msgid "Invalid {service} URL!"
 msgstr "Adresa URL {service} este invalidă!"
 
-#, python-brace-format
-msgid "Invalid {service} username!"
+#, fuzzy, python-brace-format
+#| msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "Nume de utilizator {service} invalid!"
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 msgid "Invalid service!"
 msgstr "Serviciu invalid!"

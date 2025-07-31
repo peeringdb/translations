@@ -2677,6 +2677,28 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "ASNs"
+msgstr ""
+
+msgid "Search ASN numbers ..."
+msgstr ""
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+#, fuzzy
+#| msgid "Sales"
+msgid "Reset"
+msgstr "Satış"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr ""
+
 msgid "Address"
 msgstr ""
 
@@ -2695,11 +2717,6 @@ msgstr ""
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr ""
 
-#, fuzzy
-#| msgid "Sales"
-msgid "Reset"
-msgstr "Satış"
-
 msgid "Management"
 msgstr ""
 
@@ -2707,10 +2724,6 @@ msgid "Postal Code"
 msgstr ""
 
 msgid "No search results."
-msgstr ""
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr ""
 
 msgid "CLLI"
@@ -2728,6 +2741,12 @@ msgid "IP Block"
 msgstr ""
 
 msgid "Speed"
+msgstr ""
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
 msgstr ""
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
@@ -2807,6 +2826,9 @@ msgid "My organization presence"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "Not present"
+msgstr ""
+
+msgid "ASN Connectivity"
 msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
@@ -3663,9 +3685,6 @@ msgstr ""
 msgid "ALL"
 msgstr ""
 
-msgid "ASNs"
-msgstr ""
-
 #, fuzzy
 #| msgid "IXLAN Prefix"
 msgid "Prefixes"
@@ -4367,7 +4386,10 @@ msgstr ""
 msgid "Maximum value allowed {}"
 msgstr ""
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr ""
 
 msgid "IRR AS-SET value must be string type"
@@ -4415,8 +4437,12 @@ msgstr ""
 
 #, fuzzy, python-brace-format
 #| msgid "Invalid username/password."
-msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "Geçersiz kullanıcı adı/şifre."
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Please wait a bit before trying to login again."

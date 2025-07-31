@@ -2748,6 +2748,26 @@ msgstr "我是交换点、数据中心或其它互联节点的网管。PeeringDB
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "ASNs"
+msgstr ""
+
+msgid "Search ASN numbers ..."
+msgstr ""
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
+
 msgid "Address"
 msgstr "地址"
 
@@ -2770,9 +2790,6 @@ msgstr "此网络的某些联系人仅对验证的用户可见，您当前未登
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr "此网络的某些联系人已隐藏，因为您的帐户未关联组织。"
 
-msgid "Reset"
-msgstr "重置"
-
 msgid "Management"
 msgstr "管理"
 
@@ -2781,10 +2798,6 @@ msgstr "邮政编码"
 
 msgid "No search results."
 msgstr "没有匹配结果。"
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
 
 msgid "CLLI"
 msgstr "CLLI"
@@ -2802,6 +2815,12 @@ msgstr "IP 块"
 
 msgid "Speed"
 msgstr "速率"
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
+msgstr ""
 
 #, fuzzy
 #| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
@@ -2883,6 +2902,9 @@ msgstr "组织合并"
 #| msgid "Not Set"
 msgid "Not present"
 msgstr "未设置"
+
+msgid "ASN Connectivity"
+msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3714,9 +3736,6 @@ msgstr "您可以筛选"
 msgid "ALL"
 msgstr ""
 
-msgid "ASNs"
-msgstr ""
-
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -4408,7 +4427,12 @@ msgstr "不允许负值"
 msgid "Maximum value allowed {}"
 msgstr "允许的最大值为 {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+#, fuzzy
+#| msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr "两个前缀有重叠：{}和{}"
 
 msgid "IRR AS-SET value must be string type"
@@ -4456,8 +4480,12 @@ msgstr ""
 
 #, fuzzy, python-brace-format
 #| msgid "Invalid username/password."
-msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "无效的用户名/密码。"
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid tag"

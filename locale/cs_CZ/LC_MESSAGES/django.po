@@ -2716,6 +2716,26 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "ASNs"
+msgstr ""
+
+msgid "Search ASN numbers ..."
+msgstr ""
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+msgid "Reset"
+msgstr "Resetovat"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr "...vašemu dotazu odpovídá více než %(row_limit)s záznamů, upřesnete váš požadavek ..."
+
 msgid "Address"
 msgstr "Adresa"
 
@@ -2738,9 +2758,6 @@ msgstr "Některé kontakty této sítě jsou skryté, protože jsou viditelné p
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr "Některé kontakty této sítě jsou skryté, protože váš uživatelský účet není spojen s žádnou organizací."
 
-msgid "Reset"
-msgstr "Resetovat"
-
 msgid "Management"
 msgstr "Řízení"
 
@@ -2749,10 +2766,6 @@ msgstr "PSČ"
 
 msgid "No search results."
 msgstr "Žádný záznam neodpovídá vyhledávacímu dotazu."
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "...vašemu dotazu odpovídá více než %(row_limit)s záznamů, upřesnete váš požadavek ..."
 
 msgid "CLLI"
 msgstr "CLLI"
@@ -2769,6 +2782,12 @@ msgstr "IP Block"
 
 msgid "Speed"
 msgstr "Rychlost"
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
+msgstr ""
 
 #, fuzzy
 #| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
@@ -2854,6 +2873,9 @@ msgstr "Sloučení organizací"
 #| msgid "Not Set"
 msgid "Not present"
 msgstr "Nenastaveno"
+
+msgid "ASN Connectivity"
+msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3707,9 +3729,6 @@ msgstr "Můžete filtrovat podle"
 msgid "ALL"
 msgstr ""
 
-msgid "ASNs"
-msgstr ""
-
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -4428,7 +4447,10 @@ msgstr "Záporná hodnota není povolena"
 msgid "Maximum value allowed {}"
 msgstr "Maximální přípustná hodnota {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr ""
 
 msgid "IRR AS-SET value must be string type"
@@ -4476,8 +4498,12 @@ msgstr ""
 
 #, fuzzy, python-brace-format
 #| msgid "Invalid username/password."
-msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "Neplatné uživatelské jméno / heslo."
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid tag"

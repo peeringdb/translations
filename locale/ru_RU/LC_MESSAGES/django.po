@@ -2694,6 +2694,26 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "ASNs"
+msgstr ""
+
+msgid "Search ASN numbers ..."
+msgstr ""
+
+#, python-format
+msgid "Maximum %(limit)s ASNs."
+msgstr ""
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid "No connectivity data found."
+msgstr ""
+
+#, python-format
+msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr "… Найдено более %(row_limit)s записей, уточните запрос …"
+
 msgid "Address"
 msgstr "Адрес"
 
@@ -2716,9 +2736,6 @@ msgstr "Некоторые контакты данной сети скрыты �
 msgid "Additional filters are available to verified users, and you are currently not affiliated with any organizations."
 msgstr "Некоторые контакты данной сети скрыты, поскольку ваш аккаунт пользователя не присоединен к какой-либо организации."
 
-msgid "Reset"
-msgstr "Сбросить"
-
 msgid "Management"
 msgstr "Менеджмент"
 
@@ -2727,10 +2744,6 @@ msgstr "Почтовый индекс"
 
 msgid "No search results."
 msgstr "По запросу ничего не найдено."
-
-#, python-format
-msgid "...More than %(row_limit)s entries matched your query, refine your request..."
-msgstr "… Найдено более %(row_limit)s записей, уточните запрос …"
 
 msgid "CLLI"
 msgstr "CLLI"
@@ -2748,6 +2761,12 @@ msgstr "IP блок"
 
 msgid "Speed"
 msgstr "Скорость"
+
+msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
+msgstr ""
+
+msgid "Specify a value in country to increase accuracy"
+msgstr ""
 
 #, fuzzy
 #| msgid "Some of this network's contacts are hidden because they are only visible to authenticated users and you are currently not logged in."
@@ -2833,6 +2852,9 @@ msgstr "Слияния организаций"
 #| msgid "Not Set"
 msgid "Not present"
 msgstr "Не установлен"
+
+msgid "ASN Connectivity"
+msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr ""
@@ -3687,9 +3709,6 @@ msgstr "Фильтровать по"
 msgid "ALL"
 msgstr ""
 
-msgid "ASNs"
-msgstr ""
-
 #, fuzzy
 #| msgid "Prefix"
 msgid "Prefixes"
@@ -4407,7 +4426,10 @@ msgstr "Отрицательные значения не допускаются"
 msgid "Maximum value allowed {}"
 msgstr "Максимальное допустимое значение: {}"
 
-msgid "Prefix overlaps with {}'s prefix: {}"
+msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
+msgstr ""
+
+msgid "Prefix overlaps with prefix {} on IXP '{}'"
 msgstr ""
 
 msgid "IRR AS-SET value must be string type"
@@ -4455,8 +4477,12 @@ msgstr ""
 
 #, fuzzy, python-brace-format
 #| msgid "Invalid username/password."
-msgid "Invalid {service} username!"
+msgid "Invalid {service} phone number!"
 msgstr "Неверное имя пользователя/пароль."
+
+#, python-brace-format
+msgid "{error_message}"
+msgstr ""
 
 #, fuzzy
 #| msgid "Invalid value"
