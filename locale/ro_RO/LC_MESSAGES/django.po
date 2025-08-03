@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-07-12 10:55+0000\n"
+"PO-Revision-Date: 2025-08-03 11:34+0000\n"
 "Last-Translator: Eric Andrei Băleanu <eric@gemenii.ro>\n"
 "Language-Team: Romanian <https://translate.peeringdb.com/projects/peeringdb/server/ro/>\n"
 "Language: ro_RO\n"
@@ -2389,20 +2389,18 @@ msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și men
 msgid "ASNs"
 msgstr "ASN-uri"
 
-#, fuzzy
-#| msgid "Search networks ..."
 msgid "Search ASN numbers ..."
-msgstr "Caută rețele..."
+msgstr "Caută numere ASN ..."
 
 #, python-format
 msgid "Maximum %(limit)s ASNs."
-msgstr ""
+msgstr "Maximum %(limit)s ASN-uri."
 
 msgid "Reset"
 msgstr "Resetare"
 
 msgid "No connectivity data found."
-msgstr ""
+msgstr "Nu s-au găsit date de conectivitate."
 
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
@@ -2451,10 +2449,10 @@ msgid "Speed"
 msgstr "Viteză"
 
 msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
-msgstr ""
+msgstr "Vor fi afișate doar potriviri exacte în câmpurile de locație. Pentru a activa căutarea geospațială, te rugăm să specifici valori concrete în câmpul oraș."
 
 msgid "Specify a value in country to increase accuracy"
-msgstr ""
+msgstr "Specifică o valoare în câmpul țară pentru a crește acuratețea"
 
 msgid "Additional filters are available to authenticated users and you are currently not logged in."
 msgstr "Filtrele suplimentare sunt disponibile pentru utilizatorii autentificați iar în prezent nu sunteți autentificat."
@@ -2519,10 +2517,8 @@ msgstr "Prezența organizației mele"
 msgid "Not present"
 msgstr "Nu este prezent"
 
-#, fuzzy
-#| msgid "IX Connections"
 msgid "ASN Connectivity"
-msgstr "Conexiuni IX"
+msgstr "Conectivitate ASN"
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Aceasta este o instanță de testare beta a PeeringDB. Unele caracteristici pot funcționa diferit de mediul de producție. Nu stocați aici datele pe care intenționați să le păstrați"
@@ -3889,12 +3885,10 @@ msgid "Maximum value allowed {}"
 msgstr "Valoarea maximă admisă {}"
 
 msgid "Cannot change prefix because at least one peer still uses an IP address in the original block."
-msgstr ""
+msgstr "Nu se poate schimba prefixul deoarece cel puțin un peer folosește încă o adresă IP din blocul original."
 
-#, fuzzy
-#| msgid "Prefix overlaps with {}'s prefix: {}"
 msgid "Prefix overlaps with prefix {} on IXP '{}'"
-msgstr "Prefixul se suprapune cu prefixul lui {}: {}"
+msgstr "Prefixul se suprapune cu prefixul {} pe IXP-ul '{}'"
 
 msgid "IRR AS-SET value must be string type"
 msgstr "Valoarea IRR AS-SET trebuie să fie de tip string"
@@ -3939,14 +3933,13 @@ msgstr "Identificatorul nu trebuie să fie gol!"
 msgid "Invalid {service} URL!"
 msgstr "Adresa URL {service} este invalidă!"
 
-#, fuzzy, python-brace-format
-#| msgid "Invalid {service} username!"
+#, python-brace-format
 msgid "Invalid {service} phone number!"
-msgstr "Nume de utilizator {service} invalid!"
+msgstr "Număr de telefon {service} invalid!"
 
 #, python-brace-format
 msgid "{error_message}"
-msgstr ""
+msgstr "{error_message}"
 
 msgid "Invalid service!"
 msgstr "Serviciu invalid!"
