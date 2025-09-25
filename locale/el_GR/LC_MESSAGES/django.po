@@ -1509,6 +1509,11 @@ msgstr "Το αντικείμενο της μορφής '%(type)s' δεν μπο
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Τα '%(parent_tag)s/%(parent_id)s' έχουν σημειωθεί ως διεγραμμένα '%(type)s'"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Σας δίνει τη δυνατότητα να ανεβάσετε και να ορίσετε ένα αρχείο εικόνας λογότυπου για αυτόν τον οργανισμό"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -3527,6 +3532,9 @@ msgstr "Τοπικό"
 #| msgid "Exchange - Facility link"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Regional"

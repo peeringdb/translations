@@ -1513,6 +1513,11 @@ msgstr "الكيان من هذا النوع  '%(type)s' لا يمكن انشاؤ
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "الكيان من هذا النوع  '%(type)s'  لا يمكن انشاؤه لأن الكيان الأصل  '%(parent_tag)s/%(parent_id)s'  تم تحديده بأنه محذوف"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "يسمح لك بتحميل وتعيين صورة شعار لهذه المؤسسة"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -3514,6 +3519,9 @@ msgstr "إقليمي"
 #| msgid "Exchange - Facility link"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "نقطة التبادل - مركز البيانات"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Regional"

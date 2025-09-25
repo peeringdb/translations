@@ -1316,6 +1316,11 @@ msgstr "Obiectele de tipul '%(type)s' nu pot fi salvate deoarece entitatea sa p�
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Obiectele de tipul '%(type)s' nu pot fi salvate deoarece entitatea lor părinte '%(parent_tag)s/%(parent_id)s' a fost marcată ca fiind ștearsă"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Vă permite să încărcați și să setați un fișier cu sigla acestei organizații"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "A fost normalizată adresa acestui obiect cu un apel către API-ul Google Maps"
 
@@ -3064,6 +3069,9 @@ msgstr "Opțiuni"
 
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Ascunde Internet Exchange-urile fără o facilitate asociată"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 msgid "Save Options"
 msgstr "Salvează opțiunile"

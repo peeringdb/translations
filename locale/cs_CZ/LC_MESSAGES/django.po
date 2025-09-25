@@ -1499,6 +1499,11 @@ msgstr "Objekt typu \"% (typ) s\" nelze vytvořit, protože jeho nadřazená ent
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Objekt typu '%(type)s' nelze vytvořit, protože jeho nadřazená entita '%(parent_tag)s/%(parent_id)s' byla označena za smazanou"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Umožňuje nahrát soubor a nastavit logo pro tuto organizaci"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -3509,6 +3514,9 @@ msgstr "Regionální"
 #, fuzzy
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Propojovací uzel - Zařízení odkaz"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Regional"

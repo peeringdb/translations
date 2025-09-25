@@ -1316,6 +1316,11 @@ msgstr "Tipo \"%(type)s\" objekto negalima išsaugoti, nes jo subjektas \"%(pare
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Tipo \"%(type)s\" objektas negali būti išsaugotas, nes jo subjektas \"%(parent_tag)s/%(parent_id)s\" pažymėtas kaip ištrintas"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Leidžia įkelti ir nustatyti šios organizacijos logotipo vaizdo failą"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "Ar šio objekto adresas buvo normalizuotas skambinant į \"Google Maps API"
 
@@ -3068,6 +3073,9 @@ msgstr "Parinktys"
 
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Paslėpti interneto mainus be susieto centro"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 msgid "Save Options"
 msgstr "Išsaugoti parinktis"

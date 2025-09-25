@@ -1337,6 +1337,11 @@ msgstr "Das Objekt vom Typ '%(type)s' kann nicht erstellt werden, da die überge
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Das Objekt vom Typ '%(type)s ' kann nicht erstellt werden, da die übergeordnete Entität '%(parent_tag)s/%(parent_id)s ' als gelöscht markiert wurde"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Erlaubt es, ein Unternehmens-Logo für dieses Unternehmen hochzuladen und zu ändern"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "Die Adresse dieses Objekts wurde mit Hilfe der Google Maps API normalisiert"
 
@@ -3135,6 +3140,9 @@ msgstr "Optionen"
 #| msgid "Internet Exchange facility"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Internet Exchange Standort"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Update Options"

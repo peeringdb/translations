@@ -1467,6 +1467,11 @@ msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "Tipo de objeto %(type)s’ no pudo ser creado porque su entidad matriz %(parent_tag)s/%(parent_id)s ha sido eliminada"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Le permite cargar y seleccionar un archivo de logotipo para esta organización"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -3488,6 +3493,9 @@ msgstr "Regional"
 #| msgid "Exchange - Facility link"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Punto de Intercambio - Enlace a una Instalación"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Regional"

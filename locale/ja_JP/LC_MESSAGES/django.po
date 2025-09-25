@@ -1368,6 +1368,11 @@ msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "この形式 '%(type)s' のオブジェクトを生成する事が出来ませんでした。親エンティティ '%(parent_tag)s/%(parent_id)s' が削除されている為です"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "この組織のロゴファイルのアップロードが許可されました"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "Has this object's address been normalized with a call to the Google Maps API"
 
@@ -3238,6 +3243,9 @@ msgstr "Options"
 #| msgid "Internet Exchange facility"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Internet Exchange facility"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Options"

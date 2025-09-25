@@ -1346,6 +1346,11 @@ msgstr "Objeto do tipo '%(type)s' não pode ser salvo porque sua entidade pai '%
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "O objeto do tipo '%(type)s' não pode ser salvo porque sua entidade pai '%(parent_tag)s/%(parent_id)s' foi marcada como excluída"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Permite fazer o upload e configurar um arquivo de imagem de logomarca para esta organização"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr "O endereço deste objeto foi normalizado com uma chamada para a API do Google Maps"
 
@@ -3158,6 +3163,9 @@ msgstr "Opções"
 #| msgid "Internet Exchange facility"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "PoP do Internet Exchange"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Update Options"

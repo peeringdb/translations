@@ -1469,6 +1469,11 @@ msgstr ""
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr ""
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "Tillader dig at uploade et logo, billede fil, for denne virksomhed"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -3503,6 +3508,9 @@ msgstr "Regional"
 #| msgid "Exchange - Facility link"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "Exchange - Facility link"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Regional"

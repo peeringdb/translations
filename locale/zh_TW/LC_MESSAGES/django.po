@@ -1527,6 +1527,11 @@ msgstr "物件類型 %(type)s 無法創建，因為其父實體 %(parent_tag)s/%
 msgid "Object of type '%(type)s' cannot be saved because its parent entity '%(parent_tag)s/%(parent_id)s' has been marked as deleted"
 msgstr "物件類型 %(type)s 無法創建，因為其父實體 %(parent_tag)s/%(parent_id)s 已標記為刪除"
 
+#, fuzzy
+#| msgid "Allows you to upload and set a logo image file for this organization"
+msgid "Allows you to upload and set a logo image file for this object."
+msgstr "允許您上傳並設置此組織的 Logo 圖像"
+
 msgid "Has this object's address been normalized with a call to the Google Maps API"
 msgstr ""
 
@@ -3524,6 +3529,9 @@ msgstr "區域性"
 #| msgid "Exchange - Facility link"
 msgid "Hide Internet Exchanges without a linked facility"
 msgstr "交換點 - 設施連接"
+
+msgid "Always show map on Advanced Search (Facilities)"
+msgstr ""
 
 #, fuzzy
 #| msgid "Regional"
