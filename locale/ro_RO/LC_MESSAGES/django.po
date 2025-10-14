@@ -47,6 +47,31 @@ msgstr "Relații Publice"
 msgid "Sales"
 msgstr "Vânzări"
 
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send abuse reports."
+msgstr "Tokenul de acces a expirat."
+
+msgid "The address to send notice of maintenance events."
+msgstr ""
+
+msgid "The address for the Network Operations Center."
+msgstr ""
+
+msgid "The address to send peering requests."
+msgstr ""
+
+msgid "The address to contact the Public Relations team."
+msgstr ""
+
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send sales questions."
+msgstr "Tokenul de acces a expirat."
+
+msgid "The address to send other technical questions and requests."
+msgstr ""
+
 msgid "Open"
 msgstr "Deschis"
 
@@ -4371,9 +4396,6 @@ msgstr "Adresa ta de email trebuie confirmată înainte de a activa autentificar
 
 #~ msgid "The access token is invalid."
 #~ msgstr "Tokenul de acces nu este valid."
-
-#~ msgid "The access token has expired."
-#~ msgstr "Tokenul de acces a expirat."
 
 #~ msgid "The access token is valid but does not have enough scope."
 #~ msgstr "Tokenul de acces este valid, dar nu are domeniu de aplicare suficient."

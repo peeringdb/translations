@@ -47,6 +47,31 @@ msgstr "Relations publiques"
 msgid "Sales"
 msgstr "Ventes"
 
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The address to send abuse reports."
+msgstr "Le processus de réinitialisation du mot de passe a expiré, veuillez"
+
+msgid "The address to send notice of maintenance events."
+msgstr ""
+
+msgid "The address for the Network Operations Center."
+msgstr ""
+
+msgid "The address to send peering requests."
+msgstr ""
+
+msgid "The address to contact the Public Relations team."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The address to send sales questions."
+msgstr "Le processus de réinitialisation du mot de passe a expiré, veuillez"
+
+msgid "The address to send other technical questions and requests."
+msgstr ""
+
 msgid "Open"
 msgstr "Ouverte"
 
@@ -4839,11 +4864,6 @@ msgstr ""
 
 #~ msgid "DOT1Q"
 #~ msgstr "DOT1Q"
-
-#, fuzzy
-#~| msgid "The password reset process has expired, please"
-#~ msgid "The access token has expired."
-#~ msgstr "Le processus de réinitialisation du mot de passe a expiré, veuillez"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "Aucune entrée dans les listes vlan_list. Annulation."

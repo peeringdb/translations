@@ -48,6 +48,31 @@ msgstr "Presseanfragen"
 msgid "Sales"
 msgstr "Vertrieb"
 
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send abuse reports."
+msgstr "Der Zugangstoken ist abgelaufen."
+
+msgid "The address to send notice of maintenance events."
+msgstr ""
+
+msgid "The address for the Network Operations Center."
+msgstr ""
+
+msgid "The address to send peering requests."
+msgstr ""
+
+msgid "The address to contact the Public Relations team."
+msgstr ""
+
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send sales questions."
+msgstr "Der Zugangstoken ist abgelaufen."
+
+msgid "The address to send other technical questions and requests."
+msgstr ""
+
 msgid "Open"
 msgstr "Offen"
 
@@ -4505,9 +4530,6 @@ msgstr ""
 
 #~ msgid "The access token is invalid."
 #~ msgstr "Der Zugangstoken ist ungültig."
-
-#~ msgid "The access token has expired."
-#~ msgstr "Der Zugangstoken ist abgelaufen."
 
 #~ msgid "The access token is valid but does not have enough scope."
 #~ msgstr "Der Zuganstoken ist gültig jedoch reicht sein Umfang nicht."

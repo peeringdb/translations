@@ -47,6 +47,31 @@ msgstr "언론 홍보"
 msgid "Sales"
 msgstr "영업"
 
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send abuse reports."
+msgstr "액세스 토큰이 만료되었습니다."
+
+msgid "The address to send notice of maintenance events."
+msgstr ""
+
+msgid "The address for the Network Operations Center."
+msgstr ""
+
+msgid "The address to send peering requests."
+msgstr ""
+
+msgid "The address to contact the Public Relations team."
+msgstr ""
+
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send sales questions."
+msgstr "액세스 토큰이 만료되었습니다."
+
+msgid "The address to send other technical questions and requests."
+msgstr ""
+
 msgid "Open"
 msgstr "오픈"
 
@@ -4577,9 +4602,6 @@ msgstr ""
 
 #~ msgid "The access token is invalid."
 #~ msgstr "액세스 토큰이 유효하지 않습니다."
-
-#~ msgid "The access token has expired."
-#~ msgstr "액세스 토큰이 만료되었습니다."
 
 #~ msgid "The access token is valid but does not have enough scope."
 #~ msgstr "액세스 토큰은 유효하지만 범위가 충분하지 않습니다."

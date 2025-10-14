@@ -47,6 +47,31 @@ msgstr "العلاقات العامة"
 msgid "Sales"
 msgstr "المبيعات"
 
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The address to send abuse reports."
+msgstr "انتهت عملية إعادة تعيين كلمة المرور ، الرجاء"
+
+msgid "The address to send notice of maintenance events."
+msgstr ""
+
+msgid "The address for the Network Operations Center."
+msgstr ""
+
+msgid "The address to send peering requests."
+msgstr ""
+
+msgid "The address to contact the Public Relations team."
+msgstr ""
+
+#, fuzzy
+#| msgid "The password reset process has expired, please"
+msgid "The address to send sales questions."
+msgstr "انتهت عملية إعادة تعيين كلمة المرور ، الرجاء"
+
+msgid "The address to send other technical questions and requests."
+msgstr ""
+
 msgid "Open"
 msgstr "مفتوح"
 
@@ -4898,11 +4923,6 @@ msgstr ""
 
 #~ msgid "DOT1Q"
 #~ msgstr "بروتوكول dot1q"
-
-#, fuzzy
-#~| msgid "The password reset process has expired, please"
-#~ msgid "The access token has expired."
-#~ msgstr "انتهت عملية إعادة تعيين كلمة المرور ، الرجاء"
 
 #~ msgid "No entries in any of the vlan_list lists, aborting."
 #~ msgstr "لا توجد أي مدخلات في أي من قوائم vlan_list ، إيقاف التنفيذ."

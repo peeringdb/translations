@@ -47,6 +47,31 @@ msgstr "Relaciones Públicas"
 msgid "Sales"
 msgstr "Ventas"
 
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send abuse reports."
+msgstr "El token de acceso ha expirado."
+
+msgid "The address to send notice of maintenance events."
+msgstr ""
+
+msgid "The address for the Network Operations Center."
+msgstr ""
+
+msgid "The address to send peering requests."
+msgstr ""
+
+msgid "The address to contact the Public Relations team."
+msgstr ""
+
+#, fuzzy
+#| msgid "The access token has expired."
+msgid "The address to send sales questions."
+msgstr "El token de acceso ha expirado."
+
+msgid "The address to send other technical questions and requests."
+msgstr ""
+
 msgid "Open"
 msgstr "Abierto"
 
@@ -4915,9 +4940,6 @@ msgstr ""
 
 #~ msgid "The access token is invalid."
 #~ msgstr "Token de acceso inválido."
-
-#~ msgid "The access token has expired."
-#~ msgstr "El token de acceso ha expirado."
 
 #~ msgid "The access token is valid but does not have enough scope."
 #~ msgstr "El token de acceso es válido, pero no tiene permisos suficientes."
