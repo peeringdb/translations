@@ -1276,6 +1276,15 @@ msgstr "PeeringDB: Cererile în așteptare expirate ale organizației %(org_name
 msgid "Inactive"
 msgstr "Inactiv"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "În așteptare"
+
+msgid "Deleted"
+msgstr "Șters"
+
 msgid "Silver"
 msgstr "Silver"
 
@@ -1387,9 +1396,6 @@ msgstr "ASN-ul introdus de utilizator"
 
 msgid "The user that made the request"
 msgstr "Utilizatorul care a făcut solicitarea"
-
-msgid "Pending"
-msgstr "În așteptare"
 
 msgid "Approved"
 msgstr "Aprobat"
@@ -1906,9 +1912,6 @@ msgstr "Informații despre tokenul de acces OAuth"
 
 msgid "Added"
 msgstr "Adăugat"
-
-msgid "Deleted"
-msgstr "Șters"
 
 msgid "User started watching this object at this time"
 msgstr "Utilizatorul a început să urmărească acest obiect în acest moment"
@@ -2461,6 +2464,25 @@ msgstr "Sunt un Internet Exchange (IXP), centru de date sau altă facilitate de 
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP-urile și facilitățile pentru centrele de date pot adăuga și menține informațiile lor în baza de date, crescând vizibilitatea și devenind mai interesanți pentru clienții noi și existenți. Dacă vă aflați în baza de date, acest lucru face mult mai ușor pentru alte rețele să găsească informații cruciale despre serviciile dvs. și despre celelalte rețele prezente în platforma dvs. IXP sau facilitățile dvs."
 
+msgid "Exchanges"
+msgstr "Internet Exchange-uri"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Orice Exchange"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "Facilitățile care găzduiesc Internet Exchange-uri"
+
 msgid "ASNs"
 msgstr "ASN-uri"
 
@@ -2473,6 +2495,32 @@ msgstr "Maximum %(limit)s ASN-uri."
 
 msgid "Reset"
 msgstr "Resetare"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "Numărul de rețele prezente la această facilitate"
+
+msgid "Present"
+msgstr "Prezent"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Numărul de rețele prezente la această facilitate"
+
+#, fuzzy
+#| msgid "Not present"
+msgid "Not Present"
+msgstr "Nu este prezent"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Numărul de rețele prezente la această facilitate"
 
 msgid "No connectivity data found."
 msgstr "Nu s-au găsit date de conectivitate."
@@ -2565,9 +2613,6 @@ msgstr "Prezență IXP"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "Căutați rețele care sunt prezente la un Internet Exchange și absente la alt Internet Exchange"
 
-msgid "Present"
-msgstr "Prezent"
-
 msgid "Absent"
 msgstr "Absent"
 
@@ -2582,9 +2627,6 @@ msgstr "cunoscut ca și"
 
 msgid "Network Scope"
 msgstr "Sfera rețelei"
-
-msgid "Exchanges"
-msgstr "Internet Exchange-uri"
 
 msgid "My organization presence"
 msgstr "Prezența organizației mele"

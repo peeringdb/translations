@@ -1272,6 +1272,15 @@ msgstr "PeeringDB: %(org_name)s neaktualūs laukiantys prašymai ištrinti"
 msgid "Inactive"
 msgstr "Neaktyvus"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "Laukiama"
+
+msgid "Deleted"
+msgstr "Pašalinta"
+
 msgid "Silver"
 msgstr "Sidabrinis"
 
@@ -1383,9 +1392,6 @@ msgstr "Naudotojo įvestas ASN"
 
 msgid "The user that made the request"
 msgstr "Užklausą pateikęs naudotojas"
-
-msgid "Pending"
-msgstr "Laukiama"
 
 msgid "Approved"
 msgstr "Patvirtinta"
@@ -1902,9 +1908,6 @@ msgstr "OAuth prieigos informacija"
 
 msgid "Added"
 msgstr "Pridėta"
-
-msgid "Deleted"
-msgstr "Pašalinta"
 
 msgid "User started watching this object at this time"
 msgstr "Vartotojas pradėjo stebėti šį objektą šiuo metu"
@@ -2457,6 +2460,25 @@ msgstr "Esu interneto mainų taškas (IXP), duomenų centras ar kita sujungimo �
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP ir duomenų centrai gali papildyti ir palaikyti savo informaciją duomenų bazėje, taip padidindami savo matomumą ir patrauklumą naujiems ir esamiems klientams. Jei esate duomenų bazėje, tinklams daug lengviau rasti svarbią informaciją apie jūsų paslaugas ir kitus tinklus, esančius jūsų IXP ar įrenginiuose."
 
+msgid "Exchanges"
+msgstr "Mainai"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Bet kokie mainai"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "Interneto sujungimo mazgų objektas"
+
 msgid "ASNs"
 msgstr "ASNs"
 
@@ -2471,6 +2493,32 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Atstatyti"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "Šiame objekte esančių tinklų skaičius"
+
+msgid "Present"
+msgstr "Esantys"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Šiame objekte esančių tinklų skaičius"
+
+#, fuzzy
+#| msgid "Not present"
+msgid "Not Present"
+msgstr "Nėra"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Šiame objekte esančių tinklų skaičius"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2563,9 +2611,6 @@ msgstr "Esantys mainai"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "Ieškoti tinklų, kurie yra vienuose mainuose ir kurių nėra kitoje biržoje"
 
-msgid "Present"
-msgstr "Esantys"
-
 msgid "Absent"
 msgstr "Nesantys"
 
@@ -2580,9 +2625,6 @@ msgstr "Taip pat žinomas kaip"
 
 msgid "Network Scope"
 msgstr "Tinklo aprėptis"
-
-msgid "Exchanges"
-msgstr "Mainai"
 
 msgid "My organization presence"
 msgstr "Mano organizacijos buvimas"

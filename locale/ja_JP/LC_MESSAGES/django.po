@@ -1326,6 +1326,17 @@ msgstr ""
 msgid "Inactive"
 msgstr "アクティブ"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "保留"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "削除"
+
 msgid "Silver"
 msgstr "シルバー"
 
@@ -1439,9 +1450,6 @@ msgstr "ユーザによって、AS 番号が入力されました"
 
 msgid "The user that made the request"
 msgstr "そのリクエストを行ったユーザ"
-
-msgid "Pending"
-msgstr "保留"
 
 msgid "Approved"
 msgstr "承認された(Approved)"
@@ -1981,11 +1989,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "削除"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2567,6 +2570,25 @@ msgstr "私は IX、データセンタ運用者ですが、PeeringDB はどの�
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IX とデータセンタは、データベースに情報を登録・追加し維持する事で、可視性を高め、新規および既存の顧客に対しての魅力を高める事が出来ます。既にデータベースに情報が登録されている場合、ネットワーク運用者が IX やデータセンタのサービスに関連する重要な情報、その IX に接続している、もしくは、データセンタに設備を持っている他のネットワークを見つけやすくなります。"
 
+msgid "Exchanges"
+msgstr "エクスチェンジ"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "あらゆるエクスチェンジ"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "Internet Exchange facilities"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2581,6 +2603,32 @@ msgstr ""
 
 msgid "Reset"
 msgstr "リセット"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "このデータセンタに存在しているネットワークの数"
+
+msgid "Present"
+msgstr "利用中"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "このデータセンタに存在しているネットワークの数"
+
+#, fuzzy
+#| msgid "Not present"
+msgid "Not Present"
+msgstr "Not present"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "このデータセンタに存在しているネットワークの数"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2679,9 +2727,6 @@ msgstr "接続エクスチェンジ"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "選択したエクスチェンジへの接続・未接続の条件をもとにネットワークの検索が出来ます"
 
-msgid "Present"
-msgstr "利用中"
-
 msgid "Absent"
 msgstr "未利用"
 
@@ -2696,9 +2741,6 @@ msgstr "別名"
 
 msgid "Network Scope"
 msgstr "Network Scope"
-
-msgid "Exchanges"
-msgstr "エクスチェンジ"
 
 msgid "My organization presence"
 msgstr "My organization presence"

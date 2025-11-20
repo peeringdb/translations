@@ -1276,6 +1276,15 @@ msgstr "PeeringDB: richieste in sospeso obsolete di %(org_name)s eliminate"
 msgid "Inactive"
 msgstr "Inattivo"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "In sospeso"
+
+msgid "Deleted"
+msgstr "Rimosso"
+
 msgid "Silver"
 msgstr "Argento"
 
@@ -1387,9 +1396,6 @@ msgstr "L'ASN inserito dall'utente"
 
 msgid "The user that made the request"
 msgstr "L'utente che ha fatto la richiesta"
-
-msgid "Pending"
-msgstr "In sospeso"
 
 msgid "Approved"
 msgstr "Approvato"
@@ -1906,9 +1912,6 @@ msgstr ""
 
 msgid "Added"
 msgstr "Aggiunto"
-
-msgid "Deleted"
-msgstr "Rimosso"
 
 msgid "User started watching this object at this time"
 msgstr "L'utente ha iniziato a visionare questo oggetto in questo momento"
@@ -2495,6 +2498,25 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr "Punti di Interscambio"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Qualsiasi Interscambio"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "Strutture del punto di interscambio"
+
 #, fuzzy
 msgid "ASNs"
 msgstr "ASNs"
@@ -2508,6 +2530,34 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Reimposta"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "Numero di reti presenti in questa struttura"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "Non inserito"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Numero di reti presenti in questa struttura"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "Non inserito"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Numero di reti presenti in questa struttura"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2620,11 +2670,6 @@ msgstr "Presenze Uniche in Punti di Interscambio Pubblici"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "Non inserito"
-
 msgid "Absent"
 msgstr ""
 
@@ -2641,9 +2686,6 @@ msgstr "Anche conosciuto come"
 
 msgid "Network Scope"
 msgstr "Estensione della rete"
-
-msgid "Exchanges"
-msgstr "Punti di Interscambio"
 
 #, fuzzy
 #| msgid "Organization Merges"

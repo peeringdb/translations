@@ -1370,6 +1370,19 @@ msgstr ""
 msgid "Inactive"
 msgstr "actif"
 
+msgid "Ok"
+msgstr ""
+
+#, fuzzy
+#| msgid "pending"
+msgid "Pending"
+msgstr "en attente"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Supprimer"
+
 msgid "Silver"
 msgstr "Argent"
 
@@ -1500,11 +1513,6 @@ msgstr "Le numéro d'AS entré par l'utilisateur"
 
 msgid "The user that made the request"
 msgstr "L'utilisateur qui a effectué la demande"
-
-#, fuzzy
-#| msgid "pending"
-msgid "Pending"
-msgstr "en attente"
 
 msgid "Approved"
 msgstr "Approuvé"
@@ -2100,11 +2108,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "Supprimer"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2720,6 +2723,25 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr "Échanges"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "N'importe quel échange"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "Lieux d'installation du point d'échange Internet"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2732,6 +2754,34 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Vider"
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "Point d'échange Internet - Lieu d'installation"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "Non défini"
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Point d'échange Internet - Lieu d'installation"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "Non défini"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Point d'échange Internet - Lieu d'installation"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2844,11 +2894,6 @@ msgstr "Participants à des points d'échange publics"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "Non défini"
-
 msgid "Absent"
 msgstr ""
 
@@ -2865,9 +2910,6 @@ msgstr "Alias"
 
 msgid "Network Scope"
 msgstr "Étendue du réseau"
-
-msgid "Exchanges"
-msgstr "Échanges"
 
 #, fuzzy
 #| msgid "Organization Merges"

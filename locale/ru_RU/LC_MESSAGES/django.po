@@ -1423,6 +1423,17 @@ msgstr ""
 msgid "Inactive"
 msgstr "активен"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "В обработке"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Удалить"
+
 msgid "Silver"
 msgstr "Серебряный"
 
@@ -1552,9 +1563,6 @@ msgstr "Номер ASN, введенный пользователем"
 
 msgid "The user that made the request"
 msgstr "Пользователь, создавший заявку"
-
-msgid "Pending"
-msgstr "В обработке"
 
 msgid "Approved"
 msgstr "Одобрено"
@@ -2149,11 +2157,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "Удалить"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2769,6 +2772,25 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr "IXP"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Любой IXP"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Hide unmatched facilities"
+msgstr "Площадки"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2781,6 +2803,34 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Сбросить"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "Число сетей на данной площадке"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "Не установлен"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Число сетей на данной площадке"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "Не установлен"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Число сетей на данной площадке"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2893,11 +2943,6 @@ msgstr "Уникальных присутствий на публичных IXP"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "Не установлен"
-
 msgid "Absent"
 msgstr ""
 
@@ -2914,9 +2959,6 @@ msgstr "Другое наименование"
 
 msgid "Network Scope"
 msgstr "Охват сети"
-
-msgid "Exchanges"
-msgstr "IXP"
 
 #, fuzzy
 #| msgid "Organization Merges"

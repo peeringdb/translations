@@ -1454,6 +1454,17 @@ msgstr ""
 msgid "Inactive"
 msgstr "aktivní"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "Čekající"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Smazat"
+
 msgid "Silver"
 msgstr "Stříbrný"
 
@@ -1578,9 +1589,6 @@ msgstr "Číslo Autonomního Systému (ASN) zadané uživatelem"
 
 msgid "The user that made the request"
 msgstr "Uživatel, který vytvořil požadavek"
-
-msgid "Pending"
-msgstr "Čekající"
 
 msgid "Approved"
 msgstr "Schválen"
@@ -2174,11 +2182,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "Smazat"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2791,6 +2794,25 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr "Propojovací uzly"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Jakýkoliv propojovací uzel"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Hide unmatched facilities"
+msgstr "Sloučit zařízení"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2803,6 +2825,31 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Resetovat"
+
+#, fuzzy
+msgid "ASN is present at this facility/exchange"
+msgstr "Propojovací uzel - Zařízení odkaz"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "Nenastaveno"
+
+#, fuzzy
+msgid "ASN is not present at this facility/exchange"
+msgstr "Propojovací uzel - Zařízení odkaz"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "Nenastaveno"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Propojovací uzel - Zařízení odkaz"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2914,11 +2961,6 @@ msgstr "Jedinečná přítomnost propojovacích uzlů"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "Nenastaveno"
-
 msgid "Absent"
 msgstr ""
 
@@ -2935,9 +2977,6 @@ msgstr "Známí také jako"
 
 msgid "Network Scope"
 msgstr "Síťový rozsah"
-
-msgid "Exchanges"
-msgstr "Propojovací uzly"
 
 #, fuzzy
 #| msgid "Organization Merges"

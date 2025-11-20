@@ -1416,6 +1416,15 @@ msgstr ""
 msgid "Inactive"
 msgstr "Aktiv"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "Afventer"
+
+msgid "Deleted"
+msgstr ""
+
 msgid "Silver"
 msgstr "Sølv"
 
@@ -1537,9 +1546,6 @@ msgstr "ASN indtastet af brugeren"
 
 msgid "The user that made the request"
 msgstr "Brugeren der udførte forespørgslen"
-
-msgid "Pending"
-msgstr "Afventer"
 
 msgid "Approved"
 msgstr "Godkendt"
@@ -2153,9 +2159,6 @@ msgid "OAuth Access Token Info"
 msgstr ""
 
 msgid "Added"
-msgstr ""
-
-msgid "Deleted"
 msgstr ""
 
 msgid "User started watching this object at this time"
@@ -2773,6 +2776,27 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchanges"
+msgstr "Exchange"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Any Matches"
+msgstr "Exchange"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Hide unmatched facilities"
+msgstr "Exchange - Facility link"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2787,6 +2811,34 @@ msgstr ""
 #| msgid "Change Password"
 msgid "Reset"
 msgstr "Ændre kodeord"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is present at this facility/exchange"
+msgstr "Exchange - Facility link"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "Ikke valgt"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Exchange - Facility link"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "Ikke valgt"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Exchange - Facility link"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2893,11 +2945,6 @@ msgstr "Exchange"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "Ikke valgt"
-
 msgid "Absent"
 msgstr ""
 
@@ -2916,11 +2963,6 @@ msgstr ""
 #| msgid "Facility"
 msgid "Network Scope"
 msgstr "Facility"
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "Exchanges"
-msgstr "Exchange"
 
 #, fuzzy
 #| msgid "Organization Merges"

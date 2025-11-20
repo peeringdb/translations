@@ -131,6 +131,28 @@ msgstr "拒否(Deny)"
 msgid "request to join the Organization?"
 msgstr "その組織への参加リクエストですか？"
 
+msgid "Facility"
+msgstr "データセンタ"
+
+#, fuzzy
+#| msgid "Facility"
+msgid "facility"
+msgstr "データセンタ"
+
+msgid "Exchange"
+msgstr "エクスチェンジ"
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "exchange"
+msgstr "エクスチェンジ"
+
+msgid "Hide unmatched facilities"
+msgstr ""
+
+msgid "Hide unmatched exchanges"
+msgstr ""
+
 msgid "Unknown request type:"
 msgstr "不明なリクエスト"
 
@@ -140,14 +162,8 @@ msgstr "まだ許可されていません"
 msgid "Parent entity pending review - please wait for it to be approved before adding entities to it"
 msgstr "親エンティティのレビューが保留中です - エンティティ追加が許可されるまでお待ちください"
 
-msgid "Exchange"
-msgstr "エクスチェンジ"
-
 msgid "Participant"
 msgstr "接続事業者"
-
-msgid "Facility"
-msgstr "データセンタ"
 
 msgid "Campus"
 msgstr ""

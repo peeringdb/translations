@@ -1296,6 +1296,15 @@ msgstr ""
 msgid "Inactive"
 msgstr "비활성화"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "보류"
+
+msgid "Deleted"
+msgstr "삭제됨"
+
 msgid "Silver"
 msgstr "실버"
 
@@ -1407,9 +1416,6 @@ msgstr "사용자가 입력한 ASN"
 
 msgid "The user that made the request"
 msgstr "요청한 사용자"
-
-msgid "Pending"
-msgstr "보류"
 
 msgid "Approved"
 msgstr "승인됨"
@@ -1938,9 +1944,6 @@ msgstr ""
 
 msgid "Added"
 msgstr "추가됨"
-
-msgid "Deleted"
-msgstr "삭제됨"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2506,6 +2509,25 @@ msgstr "인터넷 익스체인지 포인트(IXP), 데이터 센터 또는 기타
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXP와 데이터 센터 설비는 데이터베이스에 정보를 추가하고 유지함으로써 가시성과 기존 고객에 대한 매력을 높일 수 있습니다. 만약 당신이 데이터베이스에 있다면, 이것은 네트워크가 당신의 서비스와 당신의 IXP나 시설에 존재하는 다른 네트워크에 대한 중요한 정보를 찾는 것을 훨씬 더 쉽게 만듭니다."
 
+msgid "Exchanges"
+msgstr "익스체인지"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "모든 익스체인지"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "인터넷 익스체인지 시설"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2520,6 +2542,32 @@ msgstr ""
 
 msgid "Reset"
 msgstr "재설정"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "이 시설에 존재하는 네트워크 수"
+
+msgid "Present"
+msgstr "존재함"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "이 시설에 존재하는 네트워크 수"
+
+#, fuzzy
+#| msgid "Present"
+msgid "Not Present"
+msgstr "존재함"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "이 시설에 존재하는 네트워크 수"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2622,9 +2670,6 @@ msgstr "익스체인지 프레즌스"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "한 익스체인지에는 있고 다른 익스체인지에는 없는 네트워크 검색"
 
-msgid "Present"
-msgstr "존재함"
-
 msgid "Absent"
 msgstr "부재함"
 
@@ -2639,9 +2684,6 @@ msgstr "다음으로도 알려진"
 
 msgid "Network Scope"
 msgstr "네트워크 범위"
-
-msgid "Exchanges"
-msgstr "익스체인지"
 
 #, fuzzy
 #| msgid "Organization Merges"

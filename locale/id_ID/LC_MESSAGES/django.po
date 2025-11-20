@@ -1274,6 +1274,15 @@ msgstr ""
 msgid "Inactive"
 msgstr ""
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
 msgid "Silver"
 msgstr ""
 
@@ -1382,9 +1391,6 @@ msgid "The ASN entered by the user"
 msgstr ""
 
 msgid "The user that made the request"
-msgstr ""
-
-msgid "Pending"
 msgstr ""
 
 msgid "Approved"
@@ -1900,9 +1906,6 @@ msgid "OAuth Access Token Info"
 msgstr ""
 
 msgid "Added"
-msgstr ""
-
-msgid "Deleted"
 msgstr ""
 
 msgid "User started watching this object at this time"
@@ -2444,6 +2447,21 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr ""
+
+msgid "Show All"
+msgstr ""
+
+msgid "Any Matches"
+msgstr ""
+
+msgid "All Matches"
+msgstr ""
+
+msgid "Hide unmatched facilities"
+msgstr ""
+
 msgid "ASNs"
 msgstr ""
 
@@ -2455,6 +2473,26 @@ msgid "Maximum %(limit)s ASNs."
 msgstr ""
 
 msgid "Reset"
+msgstr ""
+
+msgid "ASN is present at this facility/exchange"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "ASN is not present at this facility/exchange"
+msgstr ""
+
+#, fuzzy
+#| msgid "Not Disclosed"
+msgid "Not Present"
+msgstr "Tidak Diungkapkan"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+msgid "All searched ASNs are present at this facility/exchange"
 msgstr ""
 
 msgid "No connectivity data found."
@@ -2548,9 +2586,6 @@ msgstr ""
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-msgid "Present"
-msgstr ""
-
 msgid "Absent"
 msgstr ""
 
@@ -2564,9 +2599,6 @@ msgid "Also known as"
 msgstr ""
 
 msgid "Network Scope"
-msgstr ""
-
-msgid "Exchanges"
 msgstr ""
 
 msgid "My organization presence"

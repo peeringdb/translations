@@ -1471,6 +1471,17 @@ msgstr ""
 msgid "Inactive"
 msgstr "نشط / مُفعّل"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "قيد الإنتظار"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "حذف"
+
 msgid "Silver"
 msgstr "فضي"
 
@@ -1592,9 +1603,6 @@ msgstr "رقم النظام المستقل تم إدخاله من قِبل ال�
 
 msgid "The user that made the request"
 msgstr "المستخدم الذي قدم الطلب"
-
-msgid "Pending"
-msgstr "قيد الإنتظار"
 
 msgid "Approved"
 msgstr "تم التأكيد"
@@ -2196,11 +2204,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "حذف"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2815,6 +2818,25 @@ msgstr "انا نقطه تبادل الإنترنت (IXP) ، مركز بيانا
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "يمكن نقاط تبادل الإنترنت مراكز البيانات إضافة معلوماتهم والحفاظ عليها تحديثها في قاعدة البيانات ، مما يزيد من وضوح وجاذبية العملاء الجدد والحاليين. إذا كنت في من المسجلين في قاعدة بيانات التناظر ، فإن ذلك يسهل على الشبكات العثور على معلومات مهمة حول خدماتك والشبكات الأخرى الموجودة في نقطة تبادل الإنترنت أو منشآت مراكز البيانات/ التشغيل."
 
+msgid "Exchanges"
+msgstr "عمليات التبادل"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "اي تبادل بيانات"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Hide unmatched facilities"
+msgstr "دمج مراكز بيانات/ تشغيل"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2827,6 +2849,34 @@ msgstr ""
 
 msgid "Reset"
 msgstr "اعاده ضبط"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "ASN is present at this facility/exchange"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "غير مضبوط"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "ASN is not present at this facility/exchange"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "غير مضبوط"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2937,11 +2987,6 @@ msgstr "وجود تبادل البيانات / التناظر"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "ابحث عن الشبكات الموجودة في إحدى نقاط تبادل الإنترنت وغير موجودة في نقاط آخر"
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "غير مضبوط"
-
 msgid "Absent"
 msgstr ""
 
@@ -2956,9 +3001,6 @@ msgstr "المعروف أيضا باسم"
 
 msgid "Network Scope"
 msgstr "نطاق شبكة الاتصال"
-
-msgid "Exchanges"
-msgstr "عمليات التبادل"
 
 #, fuzzy
 #| msgid "Organization Merges"

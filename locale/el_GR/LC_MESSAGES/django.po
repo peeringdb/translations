@@ -1459,6 +1459,17 @@ msgstr ""
 msgid "Inactive"
 msgstr "ενεργός/η"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "Εκκρεμεί"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Διαγραφή"
+
 msgid "Silver"
 msgstr "Ασημένιοι"
 
@@ -1588,9 +1599,6 @@ msgstr "Το ASN όπως εισήχθηκε από τον χρήστη"
 
 msgid "The user that made the request"
 msgstr "Ο χρήστης που έκανε το αίτημα"
-
-msgid "Pending"
-msgstr "Εκκρεμεί"
 
 msgid "Approved"
 msgstr "Eγκεκριμένο"
@@ -2188,11 +2196,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "Διαγραφή"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2808,6 +2811,25 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr "Exchanges"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Οποιοδήποτε Exchange"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Facilities"
+msgid "Hide unmatched facilities"
+msgstr "Eγκαταστάσεις"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2820,6 +2842,34 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Επαναφορά"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is present at this facility/exchange"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "Δεν έχει ορισθεί"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "Δεν έχει ορισθεί"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2932,11 +2982,6 @@ msgstr "Μοναδικές Παρουσίες "
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "Δεν έχει ορισθεί"
-
 msgid "Absent"
 msgstr ""
 
@@ -2953,9 +2998,6 @@ msgstr "γνωστός/η/ο και ως"
 
 msgid "Network Scope"
 msgstr "Δικτυακό Εύρος"
-
-msgid "Exchanges"
-msgstr "Exchanges"
 
 #, fuzzy
 #| msgid "Organization Merges"

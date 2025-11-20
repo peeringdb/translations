@@ -1304,6 +1304,15 @@ msgstr ""
 msgid "Inactive"
 msgstr "Inativo"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "Pendente"
+
+msgid "Deleted"
+msgstr "Excluído"
+
 msgid "Silver"
 msgstr "Prata"
 
@@ -1417,9 +1426,6 @@ msgstr "A ASN inserido pelo usuário"
 
 msgid "The user that made the request"
 msgstr "O usuário que fez a solicitação"
-
-msgid "Pending"
-msgstr "Pendente"
 
 msgid "Approved"
 msgstr "Aprovado"
@@ -1945,9 +1951,6 @@ msgstr ""
 
 msgid "Added"
 msgstr "Adicionado"
-
-msgid "Deleted"
-msgstr "Excluído"
 
 msgid "User started watching this object at this time"
 msgstr "O usuário começou a assistir a este objeto neste momento"
@@ -2519,6 +2522,25 @@ msgstr "Sou um Internet Exchange (IXP), centro de dados(DC) ou outro PoP de inte
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXPs e os PoPs do data center podem adicionar e manter suas informações no banco de dados, aumentando a visibilidade e seu apelo para clientes novos e existentes. Se você estiver no banco de dados, isso facilita muito para as redes encontrarem informações cruciais sobre seus serviços e as outras redes presentes em seu IXP ou PoPs."
 
+msgid "Exchanges"
+msgstr "Exchanges"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Qualquer Exchange"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "PoPs do Internet Exchange"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2533,6 +2555,32 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Redefinir"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "Número de redes presentes neste PoP"
+
+msgid "Present"
+msgstr "Presente"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Número de redes presentes neste PoP"
+
+#, fuzzy
+#| msgid "Not present"
+msgid "Not Present"
+msgstr "Não presente"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Número de redes presentes neste PoP"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2627,9 +2675,6 @@ msgstr "Presença do Exchange"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "Pesquise por redes que estão presentes em um exchange e ausentes em outro exchange"
 
-msgid "Present"
-msgstr "Presente"
-
 msgid "Absent"
 msgstr "Ausente"
 
@@ -2644,9 +2689,6 @@ msgstr "Também conhecido como"
 
 msgid "Network Scope"
 msgstr "Esopo da rede"
-
-msgid "Exchanges"
-msgstr "Exchanges"
 
 msgid "My organization presence"
 msgstr "Presença de minha organização"

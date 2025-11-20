@@ -1297,6 +1297,15 @@ msgstr ""
 msgid "Inactive"
 msgstr "Inaktiv"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "Ausstehend"
+
+msgid "Deleted"
+msgstr "Gelöscht"
+
 msgid "Silver"
 msgstr "Silber"
 
@@ -1408,9 +1417,6 @@ msgstr "Durch den Benutzer eingetragenes ASN"
 
 msgid "The user that made the request"
 msgstr "Beantragender Benutzer"
-
-msgid "Pending"
-msgstr "Ausstehend"
 
 msgid "Approved"
 msgstr "Genehmigt"
@@ -1936,9 +1942,6 @@ msgstr ""
 
 msgid "Added"
 msgstr "Hinzugefügt"
-
-msgid "Deleted"
-msgstr "Gelöscht"
 
 msgid "User started watching this object at this time"
 msgstr "Der Benutzer hat zu diesem Zeitpunkt begonnen, dieses Objekt zu beobachten"
@@ -2504,6 +2507,25 @@ msgstr "Ich gehöre zu einem Internet Exchange Point (IXP), Rechenzentrum oder a
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr "IXPs und Rechenzentren können ihre Daten der Datenbank hinzufügen und pflegen, wodurch sich ihre Sichtbarkeit und Anziehungskraft für neue und bestehende Kunden erhöhen. Wenn Sie in der Datenbank sind ist es für andere Netzwerke viel einfacher, essentielle Informationen über Ihre Dienste und an Ihrem IXP oder Ihrer Einrichtung anwesende Netzwerke zu finden."
 
+msgid "Exchanges"
+msgstr "Austauschpunkte"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Alle Austauschpunkte"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Internet Exchange facilities"
+msgid "Hide unmatched facilities"
+msgstr "Internet Exchange Standorte"
+
 msgid "ASNs"
 msgstr "ASNs"
 
@@ -2518,6 +2540,32 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Zurücksetzen"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is present at this facility/exchange"
+msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+
+msgid "Present"
+msgstr "Vorhanden"
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
+
+#, fuzzy
+#| msgid "Not present"
+msgid "Not Present"
+msgstr "Nicht vorhanden"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Number of networks present at this facility"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Anzahl der Netzwerke verfügbar an der Liegenschaft"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2612,9 +2660,6 @@ msgstr "Präsenz am Austauschpunkt"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "Suche nach Netzen, die an einem Austauschpunkt, aber nicht an einem anderen präsent sind"
 
-msgid "Present"
-msgstr "Vorhanden"
-
 msgid "Absent"
 msgstr "Nicht vorhanden"
 
@@ -2629,9 +2674,6 @@ msgstr "Auch bekannt als"
 
 msgid "Network Scope"
 msgstr "Netzwerkgeltungsbereich"
-
-msgid "Exchanges"
-msgstr "Austauschpunkte"
 
 msgid "My organization presence"
 msgstr "Präsenz meiner Organisation"

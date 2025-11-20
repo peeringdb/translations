@@ -1425,6 +1425,17 @@ msgstr ""
 msgid "Inactive"
 msgstr "activo"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "Pendiente"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Borrar"
+
 msgid "Silver"
 msgstr "Plata"
 
@@ -1546,9 +1557,6 @@ msgstr "El ASN introducido por el usuario"
 
 msgid "The user that made the request"
 msgstr "El usuario que hizo la solicitud"
-
-msgid "Pending"
-msgstr "Pendiente"
 
 msgid "Approved"
 msgstr "Aprobado"
@@ -2150,11 +2158,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "Borrar"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2769,6 +2772,25 @@ msgstr "Soy un Punto de Intercambio de Internet (IXP), centro de datos u otra in
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr "Punto de intercambio de tráfico"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "Cualquier Punto de Intercambio de tráfico"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Hide unmatched facilities"
+msgstr "Fusionar instalaciones"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2781,6 +2803,34 @@ msgstr ""
 
 msgid "Reset"
 msgstr "Reiniciar"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is present at this facility/exchange"
+msgstr "Punto de Intercambio - Enlace a una Instalación"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "No configurado"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Punto de Intercambio - Enlace a una Instalación"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "No configurado"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Punto de Intercambio - Enlace a una Instalación"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2893,11 +2943,6 @@ msgstr "Presencias únicas de intercambio público"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "No configurado"
-
 msgid "Absent"
 msgstr ""
 
@@ -2914,9 +2959,6 @@ msgstr "También conocido cómo"
 
 msgid "Network Scope"
 msgstr "Alcance de la red"
-
-msgid "Exchanges"
-msgstr "Punto de intercambio de tráfico"
 
 #, fuzzy
 #| msgid "Organization Merges"

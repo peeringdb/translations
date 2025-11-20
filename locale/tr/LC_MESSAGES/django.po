@@ -1418,6 +1418,15 @@ msgstr ""
 msgid "Inactive"
 msgstr "Seçici"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
 msgid "Silver"
 msgstr ""
 
@@ -1534,9 +1543,6 @@ msgid "The ASN entered by the user"
 msgstr ""
 
 msgid "The user that made the request"
-msgstr ""
-
-msgid "Pending"
 msgstr ""
 
 msgid "Approved"
@@ -2146,9 +2152,6 @@ msgstr ""
 msgid "Added"
 msgstr ""
 
-msgid "Deleted"
-msgstr ""
-
 msgid "User started watching this object at this time"
 msgstr ""
 
@@ -2746,6 +2749,27 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+#, fuzzy
+#| msgid "Exchange"
+msgid "Exchanges"
+msgstr "Değişim noktası"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange"
+msgid "Any Matches"
+msgstr "Değişim noktası"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "Hide unmatched facilities"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2760,6 +2784,32 @@ msgstr ""
 #| msgid "Sales"
 msgid "Reset"
 msgstr "Satış"
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is present at this facility/exchange"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "Present"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "ASN is not present at this facility/exchange"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+#, fuzzy
+#| msgid "Not Disclosed"
+msgid "Not Present"
+msgstr "Açıklanmamış"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2862,9 +2912,6 @@ msgstr "Değişim noktası"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr ""
 
-msgid "Present"
-msgstr ""
-
 msgid "Absent"
 msgstr ""
 
@@ -2883,11 +2930,6 @@ msgstr ""
 #| msgid "Facility"
 msgid "Network Scope"
 msgstr "Bina"
-
-#, fuzzy
-#| msgid "Exchange"
-msgid "Exchanges"
-msgstr "Değişim noktası"
 
 #, fuzzy
 #| msgid "Exchange - Facility link"

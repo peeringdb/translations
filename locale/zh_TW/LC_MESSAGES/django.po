@@ -1481,6 +1481,17 @@ msgstr ""
 msgid "Inactive"
 msgstr "活動"
 
+msgid "Ok"
+msgstr ""
+
+msgid "Pending"
+msgstr "等待"
+
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "刪除"
+
 msgid "Silver"
 msgstr "銀"
 
@@ -1606,9 +1617,6 @@ msgstr "用戶輸入的ASN"
 
 msgid "The user that made the request"
 msgstr "發出請求的用戶"
-
-msgid "Pending"
-msgstr "等待"
 
 msgid "Approved"
 msgstr "批准"
@@ -2206,11 +2214,6 @@ msgstr ""
 
 msgid "Added"
 msgstr ""
-
-#, fuzzy
-#| msgid "Delete"
-msgid "Deleted"
-msgstr "刪除"
 
 msgid "User started watching this object at this time"
 msgstr ""
@@ -2825,6 +2828,25 @@ msgstr ""
 msgid "IXPs and data center facilities can add to and maintain their information in the database, increasing visibility and their appeal to new and existing customers. If you’re in the database, this makes it much easier for networks to find crucial information about your services and the other networks present at your IXP or facilities."
 msgstr ""
 
+msgid "Exchanges"
+msgstr "交換點"
+
+msgid "Show All"
+msgstr ""
+
+#, fuzzy
+#| msgid "Any Exchange"
+msgid "Any Matches"
+msgstr "任何交換點"
+
+msgid "All Matches"
+msgstr ""
+
+#, fuzzy
+#| msgid "Merge Facilities"
+msgid "Hide unmatched facilities"
+msgstr "合併設施"
+
 msgid "ASNs"
 msgstr ""
 
@@ -2837,6 +2859,34 @@ msgstr ""
 
 msgid "Reset"
 msgstr "重設"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "ASN is present at this facility/exchange"
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Present"
+msgstr "未設置"
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "ASN is not present at this facility/exchange"
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Not Present"
+msgstr "未設置"
+
+msgid "2 or more ASNs present, but not all searched ASNs"
+msgstr ""
+
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "All searched ASNs are present at this facility/exchange"
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
 msgid "No connectivity data found."
 msgstr ""
@@ -2947,11 +2997,6 @@ msgstr "交換存在"
 msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
-#, fuzzy
-#| msgid "Not Set"
-msgid "Present"
-msgstr "未設置"
-
 msgid "Absent"
 msgstr ""
 
@@ -2966,9 +3011,6 @@ msgstr "別名"
 
 msgid "Network Scope"
 msgstr "網路範圍"
-
-msgid "Exchanges"
-msgstr "交換點"
 
 #, fuzzy
 #| msgid "Organization Merges"
