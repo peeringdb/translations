@@ -1701,6 +1701,11 @@ msgstr "Exchange - Facility link"
 msgid "number of networks at this facility"
 msgstr "Exchange - Facility link"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of carriers at this facility"
+msgstr "Exchange - Facility link"
+
 msgid "Need to specify at least two asns"
 msgstr "Mindst 2 ASNs skal være angivet"
 
@@ -3348,6 +3353,11 @@ msgid "Allow to use for login"
 msgstr ""
 
 #, fuzzy
+#| msgid "Change Password"
+msgid "Current password"
+msgstr "Ændre kodeord"
+
+#, fuzzy
 #| msgid "User is looking to be affiliated to these Organizations"
 msgid "Affiliate with organization"
 msgstr "Brugere søger at blive tilknyttet denne virksomhed"
@@ -4165,6 +4175,9 @@ msgstr "Brugerrettigheder"
 msgid "Delete Organization"
 msgstr "Virksomhed"
 
+msgid "-- Select Country --"
+msgstr ""
+
 #, fuzzy
 #| msgid "Technical"
 msgid "Technical E-mail"
@@ -4411,6 +4424,9 @@ msgstr "Offentlige relationer"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4453,6 +4469,12 @@ msgid "Disable TOTP Authentication"
 msgstr "Offentlige relationer"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4526,6 +4548,9 @@ msgstr ""
 #| msgid "Not Required"
 msgid "Input required"
 msgstr "Ikke påkrævet"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 #, fuzzy
 msgid "Invalid prefix: {}"

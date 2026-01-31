@@ -1716,6 +1716,11 @@ msgstr "Связь IXP - Площадка"
 msgid "number of networks at this facility"
 msgstr "Связь IXP - Площадка"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of carriers at this facility"
+msgstr "Связь IXP - Площадка"
+
 msgid "Need to specify at least two asns"
 msgstr "Укажите минимум две ASN"
 
@@ -3349,6 +3354,11 @@ msgid "Allow to use for login"
 msgstr ""
 
 #, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Действующий пароль"
+
+#, fuzzy
 msgid "Affiliate with organization"
 msgstr "Заявка на связь с организацией"
 
@@ -4154,6 +4164,9 @@ msgstr "Права доступа для Пользователя"
 msgid "Delete Organization"
 msgstr "Организация"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "Технический контакт, емайл"
 
@@ -4395,6 +4408,9 @@ msgstr "Управление OAuth-авторизацией"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4436,6 +4452,12 @@ msgid "Disable TOTP Authentication"
 msgstr "Управление OAuth-авторизацией"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4511,6 +4533,9 @@ msgstr ""
 
 msgid "Input required"
 msgstr "Требуется ввод"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Недействительный префикс: {}"

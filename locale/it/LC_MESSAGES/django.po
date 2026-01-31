@@ -1538,6 +1538,11 @@ msgstr "Numero di exchanges in questa Facility"
 msgid "number of networks at this facility"
 msgstr "Numero di reti in questa facility"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "number of carriers at this facility"
+msgstr "Numero di exchanges in questa Facility"
+
 msgid "Need to specify at least two asns"
 msgstr "Devono essere specificati almeno due ASN"
 
@@ -3042,6 +3047,11 @@ msgstr "Registra chiave di sicurezza"
 msgid "Allow to use for login"
 msgstr "Permetti l'utilizzo per il login"
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Password attuale"
+
 msgid "Affiliate with organization"
 msgstr "Affìliati con l'organizzazione"
 
@@ -3718,6 +3728,9 @@ msgstr "Permessi della chiave API"
 msgid "Delete Organization"
 msgstr "Cancella organizzazione"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "E-mail tecnici"
 
@@ -3933,6 +3946,9 @@ msgstr "Gestisci Applicazioni OAuth"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -3975,6 +3991,12 @@ msgid "Disable TOTP Authentication"
 msgstr "Gestisci Applicazioni OAuth"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4050,6 +4072,9 @@ msgstr ""
 
 msgid "Input required"
 msgstr "Input richiesto"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Prefisso non valido: {}"

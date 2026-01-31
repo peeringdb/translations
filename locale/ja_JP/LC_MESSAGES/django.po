@@ -1591,6 +1591,11 @@ msgstr "このデータセンタ内のエクスチェンジの数"
 msgid "number of networks at this facility"
 msgstr "このデータセンタ内のネットワークの数"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "number of carriers at this facility"
+msgstr "このデータセンタ内のエクスチェンジの数"
+
 msgid "Need to specify at least two asns"
 msgstr "2つ以上のAS番号の記載が必要です"
 
@@ -3104,6 +3109,11 @@ msgstr ""
 msgid "Allow to use for login"
 msgstr ""
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "現在のパスワード"
+
 msgid "Affiliate with organization"
 msgstr "組織に所属しましょう"
 
@@ -3855,6 +3865,9 @@ msgstr "API Key 権限"
 msgid "Delete Organization"
 msgstr "組織を削除"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "技術担当のメールアドレス"
 
@@ -4088,6 +4101,9 @@ msgstr "二要素認証を設定する"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4142,6 +4158,12 @@ msgid "Disable TOTP Authentication"
 msgstr "二要素認証を設定する"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4216,6 +4238,9 @@ msgstr "無効な E.164 形式の電話番号"
 
 msgid "Input required"
 msgstr "必須項目"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "無効なプレフィクス: {}"

@@ -1538,6 +1538,11 @@ msgstr "Numărul de Internet Exchange-uri prezente la această Facilitate"
 msgid "number of networks at this facility"
 msgstr "Numărul de rețele prezente la această Facilitate"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "number of carriers at this facility"
+msgstr "Numărul de Internet Exchange-uri prezente la această Facilitate"
+
 msgid "Need to specify at least two asns"
 msgstr "Trebuie să specificați cel puțin două ASN-uri"
 
@@ -2964,6 +2969,11 @@ msgstr "Înregistrați cheia de securitate"
 msgid "Allow to use for login"
 msgstr "Permite utilizarea pentru autentificare"
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Parola curentă"
+
 msgid "Affiliate with organization"
 msgstr "Afiliați-vă la organizație"
 
@@ -3643,6 +3653,9 @@ msgstr "Permisiunile cheilor API"
 msgid "Delete Organization"
 msgstr "Ștergeți organizația"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "E-mail tehnic"
 
@@ -3865,6 +3878,11 @@ msgstr "Activează autentificarea TOTP"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr "Adresa ta de email trebuie confirmată înainte de a activa autentificarea TOTP."
 
+#, fuzzy
+#| msgid "Your email must be confirmed before enabling two-factor authentication."
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr "Adresa ta de email trebuie confirmată înainte de a activa autentificarea în doi pași."
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr "Ești pe cale să îți crești securitatea contului. Urmează pașii din acest asistent pentru a activa autentificarea TOTP."
 
@@ -3906,6 +3924,12 @@ msgstr "Dezactivează autentificarea TOTP"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
 msgstr "Ești pe cale să dezactivezi autentificarea TOTP. Aceasta ar putea slăbi securitatea contului tău, ești sigur?"
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
+msgstr ""
 
 msgid "Disable"
 msgstr "Dezactivează"
@@ -3973,6 +3997,9 @@ msgstr "Nu este un număr de telefon valid (E.164)"
 
 msgid "Input required"
 msgstr "Este necesară completarea"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Prefixul nu este valid: {}"

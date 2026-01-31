@@ -1754,6 +1754,11 @@ msgstr "Ζεύξη Exchange - Εγκατάστασης"
 msgid "number of networks at this facility"
 msgstr "Ζεύξη Exchange - Εγκατάστασης"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of carriers at this facility"
+msgstr "Ζεύξη Exchange - Εγκατάστασης"
+
 msgid "Need to specify at least two asns"
 msgstr "Πρέπει να ορίσετε τουλάχιστον 2 ASNs"
 
@@ -3387,6 +3392,11 @@ msgstr ""
 msgid "Allow to use for login"
 msgstr ""
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Τρέχων κωδικός"
+
 msgid "Affiliate with organization"
 msgstr "Συσχέτιση με οργανισμό"
 
@@ -4187,6 +4197,9 @@ msgstr "Δικαιώματα Χρήστη"
 msgid "Delete Organization"
 msgstr "Οργανισμός"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "Ε-mail για τεχνικά ζητήματα"
 
@@ -4427,6 +4440,9 @@ msgstr "Διαχείριση εφαρμογών OAuth"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4469,6 +4485,12 @@ msgid "Disable TOTP Authentication"
 msgstr "Διαχείριση εφαρμογών OAuth"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4544,6 +4566,9 @@ msgstr ""
 #| msgid "Not Required"
 msgid "Input required"
 msgstr "Δεν απαιτείται"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Μη έγκυρο prefix: {}"

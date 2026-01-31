@@ -1666,6 +1666,11 @@ msgstr "Point d'échange Internet - Lieu d'installation"
 msgid "number of networks at this facility"
 msgstr "Point d'échange Internet - Lieu d'installation"
 
+#, fuzzy
+#| msgid "Internet Exchange facility"
+msgid "number of carriers at this facility"
+msgstr "Point d'échange Internet - Lieu d'installation"
+
 msgid "Need to specify at least two asns"
 msgstr "Deux numéros d'AS doivent être spécifiés"
 
@@ -3299,6 +3304,11 @@ msgstr ""
 msgid "Allow to use for login"
 msgstr ""
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Mot de passe actuel"
+
 msgid "Affiliate with organization"
 msgstr "S'affilier à l'organisation"
 
@@ -4099,6 +4109,9 @@ msgstr "Permissions de l'utilisateu"
 msgid "Delete Organization"
 msgstr "Organisation"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "Email technique"
 
@@ -4339,6 +4352,9 @@ msgstr "Gérer les applications OAuth"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4381,6 +4397,12 @@ msgid "Disable TOTP Authentication"
 msgstr "Gérer les applications OAuth"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4454,6 +4476,9 @@ msgstr ""
 
 msgid "Input required"
 msgstr "Champs requis"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Préfixe invalide: {}"

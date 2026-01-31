@@ -1558,6 +1558,11 @@ msgstr "Anzahl der Austauschpunkte in dieser Liegenschaft"
 msgid "number of networks at this facility"
 msgstr "Anzahl der Netzwerke verfügbar in dieser Liegenschaft"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "number of carriers at this facility"
+msgstr "Anzahl der Austauschpunkte in dieser Liegenschaft"
+
 msgid "Need to specify at least two asns"
 msgstr "Es müssen zumindest zwei ASNs angegeben werden"
 
@@ -3021,6 +3026,11 @@ msgstr "Registrieren Sie den Sicherheitsschlüssel"
 msgid "Allow to use for login"
 msgstr ""
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Aktuelles Passwort"
+
 msgid "Affiliate with organization"
 msgstr "Zuordnung zu einer Organisation anfordern"
 
@@ -3734,6 +3744,9 @@ msgstr "API-Schlüsselberechtigungen"
 msgid "Delete Organization"
 msgstr "Organisation löschen"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "E-Mail (technisch)"
 
@@ -3965,6 +3978,9 @@ msgstr "TOTP-Authentifizierung hinzufügen"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 #, fuzzy
 #| msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
@@ -4009,6 +4025,12 @@ msgid "Disable TOTP Authentication"
 msgstr "TOTP-Authentifizierung hinzufügen"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4081,6 +4103,9 @@ msgstr "Keine gültige Telefonnummer (E.164)"
 
 msgid "Input required"
 msgstr "Eingabe erforderlich"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Ungültiges Prefix: {}"

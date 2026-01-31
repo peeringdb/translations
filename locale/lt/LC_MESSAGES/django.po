@@ -1534,6 +1534,11 @@ msgstr "mainų skaičius šioje įstaigoje"
 msgid "number of networks at this facility"
 msgstr "šios įstaigos tinklų skaičius"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "number of carriers at this facility"
+msgstr "mainų skaičius šioje įstaigoje"
+
 msgid "Need to specify at least two asns"
 msgstr "Reikia nurodyti bent du asns"
 
@@ -2964,6 +2969,11 @@ msgstr "Užregistruoti saugumo raktą"
 msgid "Allow to use for login"
 msgstr "Leisti naudoti prisijungimui"
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Dabartinis slaptažodis"
+
 msgid "Affiliate with organization"
 msgstr "Susieti su organizacija"
 
@@ -3643,6 +3653,9 @@ msgstr "API rakto leidimai"
 msgid "Delete Organization"
 msgstr "Ištrinti organizaciją"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "Techninis el. paštas"
 
@@ -3865,6 +3878,11 @@ msgstr "Įjungti TOTP autentifikavimą"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr "Prieš įjungiant TOTP autentifikavimą, turi būti patvirtintas jūsų el. pašto adresas."
 
+#, fuzzy
+#| msgid "Your email must be confirmed before enabling two-factor authentication."
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr "Prieš įjungiant dviejų veiksnių autentifikavimą, turi būti patvirtintas jūsų el. paštas."
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr "Netrukus pakelsite savo paskyros saugumą į kitą lygį. Norėdami įjungti TOTP autentifikavimą, atlikite šiame vedlyje nurodytus veiksmus."
 
@@ -3906,6 +3924,12 @@ msgstr "Išjungti TOTP autentifikavimą"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
 msgstr "Ketinate išjungti TOTP autentifikavimą. Tai gali susilpninti jūsų paskyros saugumą, ar esate tikri?"
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
+msgstr ""
 
 msgid "Disable"
 msgstr "Išjungti"
@@ -3971,6 +3995,9 @@ msgstr "Netinkamas telefono numeris (E.164)"
 
 msgid "Input required"
 msgstr "Reikia įvesti"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Netinkamas prefiksas: {}"

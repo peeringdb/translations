@@ -1560,6 +1560,11 @@ msgstr "이 시설의 교환 수"
 msgid "number of networks at this facility"
 msgstr "이 시설의 네트워크 수"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "number of carriers at this facility"
+msgstr "이 시설의 교환 수"
+
 msgid "Need to specify at least two asns"
 msgstr "최소 두 개 이상의 ASN를 지정해야 함"
 
@@ -3045,6 +3050,11 @@ msgstr ""
 msgid "Allow to use for login"
 msgstr ""
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "현재 비밀번호"
+
 msgid "Affiliate with organization"
 msgstr "조직에 가입하기"
 
@@ -3799,6 +3809,9 @@ msgstr "사용자 허용"
 msgid "Delete Organization"
 msgstr "조직 삭제"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "기술부 이메일"
 
@@ -4036,6 +4049,9 @@ msgstr "2단계 인증 관리"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4078,6 +4094,12 @@ msgid "Disable TOTP Authentication"
 msgstr "2단계 인증 관리"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4152,6 +4174,9 @@ msgstr "잘못된 전화 번호(E.164)"
 
 msgid "Input required"
 msgstr "필수 입력란"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "유효하지 않는 프리픽스: {}"

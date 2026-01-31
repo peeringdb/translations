@@ -1567,6 +1567,11 @@ msgstr "número de exchanges neste PoP"
 msgid "number of networks at this facility"
 msgstr "número de redes neste PoP"
 
+#, fuzzy
+#| msgid "number of exchanges at this facility"
+msgid "number of carriers at this facility"
+msgstr "número de exchanges neste PoP"
+
 msgid "Need to specify at least two asns"
 msgstr "Precisa especificar pelo menos dois ASNs"
 
@@ -3044,6 +3049,11 @@ msgstr "Registrar chave de segurança"
 msgid "Allow to use for login"
 msgstr ""
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "Senha atual"
+
 msgid "Affiliate with organization"
 msgstr "Afilie-se à organização"
 
@@ -3769,6 +3779,9 @@ msgstr "Permissões de chave de API"
 msgid "Delete Organization"
 msgstr "Excluir organização"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "E-mail Técnico"
 
@@ -3998,6 +4011,9 @@ msgstr "Adicionar autenticação TOTP"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 #, fuzzy
 #| msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable two-factor authentication."
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
@@ -4042,6 +4058,12 @@ msgid "Disable TOTP Authentication"
 msgstr "Adicionar autenticação TOTP"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4114,6 +4136,9 @@ msgstr "Não é um número de telefone válido (E.164)"
 
 msgid "Input required"
 msgstr "Entrada necessária"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "Prefixo inválido: {}"

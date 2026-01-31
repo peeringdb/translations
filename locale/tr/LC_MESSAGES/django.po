@@ -1701,6 +1701,11 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 msgid "number of networks at this facility"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "number of carriers at this facility"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
 msgid "Need to specify at least two asns"
 msgstr ""
 
@@ -3307,6 +3312,11 @@ msgid "Allow to use for login"
 msgstr ""
 
 #, fuzzy
+#| msgid "Exchange"
+msgid "Current password"
+msgstr "Değişim noktası"
+
+#, fuzzy
 #| msgid "User is looking to be affiliated to these Organizations"
 msgid "Affiliate with organization"
 msgstr "Kullanıcı bu kuruluşa bağlanmak istiyor"
@@ -4112,6 +4122,9 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 msgid "Delete Organization"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 
+msgid "-- Select Country --"
+msgstr ""
+
 #, fuzzy
 #| msgid "Technical"
 msgid "Technical E-mail"
@@ -4354,6 +4367,9 @@ msgstr "Halkla İlişkiler"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4396,6 +4412,12 @@ msgid "Disable TOTP Authentication"
 msgstr "Halkla İlişkiler"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4469,6 +4491,9 @@ msgstr ""
 #| msgid "Not Required"
 msgid "Input required"
 msgstr "Gerekli değil"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr ""

@@ -1772,6 +1772,11 @@ msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路
 msgid "number of networks at this facility"
 msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
 
+#, fuzzy
+#| msgid "Search for networks that are present at one exchange and absent at another exchange"
+msgid "number of carriers at this facility"
+msgstr "搜索在一個交換點存在但不存在於另一個交換點的網路"
+
 msgid "Need to specify at least two asns"
 msgstr "需要至少兩個 ASN"
 
@@ -3384,6 +3389,11 @@ msgstr ""
 msgid "Allow to use for login"
 msgstr ""
 
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current password"
+msgstr "當前密碼"
+
 msgid "Affiliate with organization"
 msgstr "關聯組織"
 
@@ -4180,6 +4190,9 @@ msgstr "用戶許可權"
 msgid "Delete Organization"
 msgstr "組織"
 
+msgid "-- Select Country --"
+msgstr ""
+
 msgid "Technical E-mail"
 msgstr "技術 Email"
 
@@ -4410,6 +4423,9 @@ msgstr "管理 OAuth 應用"
 msgid "Your email must be confirmed before enabling TOTP Authentication."
 msgstr ""
 
+msgid "For your security, please confirm your password before enabling two-factor authentication."
+msgstr ""
+
 msgid "You are about to take your account security to the next level. Follow the steps in this wizard to enable TOTP authentication."
 msgstr ""
 
@@ -4452,6 +4468,12 @@ msgid "Disable TOTP Authentication"
 msgstr "管理 OAuth 應用"
 
 msgid "You are about to disable TOTP authentication. This could weaken your account security, are you sure?"
+msgstr ""
+
+msgid "For security, you must verify your identity with 2FA before disabling it."
+msgstr ""
+
+msgid "A verification code has been sent to your email address. Please check your email and enter the code below."
 msgstr ""
 
 msgid "Disable"
@@ -4526,6 +4548,9 @@ msgstr ""
 #| msgid "Not Required"
 msgid "Input required"
 msgstr "不需要"
+
+msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
 
 msgid "Invalid prefix: {}"
 msgstr "首碼無效：{}"
