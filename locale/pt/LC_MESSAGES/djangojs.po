@@ -77,6 +77,14 @@ msgstr "Sim"
 msgid "No"
 msgstr "Não"
 
+#, fuzzy
+#| msgid "You do not have permissions to perform this action"
+msgid "You do not have permission to perform this action"
+msgstr "Você não tem permissão para executar esta ação"
+
+msgid "The upload failed - This is not related to the apparent file size or type, but appears to be an issue with the file itself."
+msgstr ""
+
 msgid "Queued"
 msgstr ""
 
@@ -106,6 +114,12 @@ msgstr "Você não tem permissão para executar esta ação"
 
 msgid "sponsor"
 msgstr "patrocinador"
+
+msgid "read-only"
+msgstr ""
+
+msgid "read-write"
+msgstr ""
 
 msgid "Remove"
 msgstr "Remover"

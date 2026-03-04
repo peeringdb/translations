@@ -882,9 +882,6 @@ msgstr "Visualizza"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Non si può approvare una richiesta d'affiliazione cancellata"
 
-msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr "Approvazione non possibile finche l'utente non abilita 2FA. - L'organizzazione richiede 2FA"
-
 msgid "Affiliation request was approved and the user was notified."
 msgstr "La richiesta di affiliazione è stata approvata ed è stata inviata una notifica all'utente."
 
@@ -1469,9 +1466,6 @@ msgstr ""
 "1 settimana, 2 settimane, 1 mese,\n"
 "3 mesi, 6 mesi, 1 anno"
 
-msgid "Require users in your organization to activate 2FA."
-msgstr "Richiedi agli utenti della tua organizzazione di attivare l'autenticazione a due fattori (2FA)."
-
 msgid "Organization has active objects under it."
 msgstr "L'organizzazione ha oggetti attivi sotto di essa."
 
@@ -1882,6 +1876,9 @@ msgstr "API: limitazione delle richieste in scrittura"
 msgid "API: Request Organization Users API Limiting"
 msgstr "API: limitazione delle richieste per gli utenti dell'organizzazione"
 
+msgid "Web: Anonymous web page rate limit"
+msgstr ""
+
 msgid "Show last database sync"
 msgstr "Mostra l'ultima sincronizzazione del database"
 
@@ -2248,40 +2245,6 @@ msgstr "L'utente %(u_name)s (%(u_email)s) desidera essere affiliato a %(o_name)s
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "Qui puoi approvare o respingere questa richiesta in qualità di amministratore dell'organizzazione"
 
-msgid ""
-"\n"
-"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
-msgstr ""
-
-#, fuzzy
-#| msgid "Existing affiliations"
-msgid "Drop Affiliations"
-msgstr "Affiliazioni esistenti"
-
-#, fuzzy
-#| msgid "Affiliate"
-msgid "Leave them Affiliated"
-msgstr "Affìliati"
-
-#, fuzzy
-#| msgid "Contract Requirement"
-msgid "Cancel 2FA Requirement"
-msgstr "Requisiti del contratto"
-
-#, python-format
-msgid ""
-"\n"
-"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
-msgstr ""
-
-#, fuzzy
-#| msgid "You may view and edit your organization at"
-msgid "You may view and edit your organization users at"
-msgstr "Puoi visualizzare e modificare la tua organizzazione a"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Se avete domande, non esitate a contattare il supporto peeringdb"
-
 msgid "Ownership of organization was automatically granted to user"
 msgstr "La proprietà dell'organizzazione è stata automaticamente garantita all'utente"
 
@@ -2433,6 +2396,9 @@ msgstr "Questo è il risultato di una revisione manuale della tua richiesta di a
 
 msgid "You may view and edit your organization at"
 msgstr "Puoi visualizzare e modificare la tua organizzazione a"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Se avete domande, non esitate a contattare il supporto peeringdb"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Hai iniziato un processo di reimpostazione password su PeeringDB 2 - Si prega di seguire l'url qui sotto per reimpostare la password."
@@ -2867,9 +2833,6 @@ msgstr ""
 msgid "Registered Users"
 msgstr "Utenti Registrati"
 
-msgid "Confirmation"
-msgstr "Conferma"
-
 msgid " Search here for a network, IX, or facility."
 msgstr " Cerca qui una rete, IXP o Facility"
 
@@ -2936,12 +2899,6 @@ msgstr "Modalità Manutenzione"
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
 
-msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
-msgstr ""
-
-msgid "Activate 2FA for your account"
-msgstr "Attivala la 2FA per il tuo account"
-
 msgid "Login with oAuth"
 msgstr "Collègati con oAuth"
 
@@ -2952,6 +2909,12 @@ msgid "Login with your Facebook account"
 msgstr "Collegati usando il tuo account Facebook"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "read-only"
+msgstr "Sola lettura"
+
+msgid "read-write"
 msgstr ""
 
 msgid "Create"
@@ -3113,9 +3076,6 @@ msgstr "Chiave API"
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
 msgstr "Le chiavi API ti permettono di autenticare un cliente senza fornire i tuoi nome utente e password."
-
-msgid "read-only"
-msgstr "Sola lettura"
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
 msgstr "Stai creando una chiave API per un superuser account. Questa chiave API non può essere resa di sola lettura ed avrà sempre pieno accesso. Procedi con cautela."
@@ -3789,9 +3749,6 @@ msgstr "Gruppo"
 msgid "No 2FA"
 msgstr "Nessuna 2FA"
 
-msgid "Require users in your organization to enable 2FA."
-msgstr "Richiedi che gli utenti nella tua organizzazione abilitino 2FA"
-
 msgid "Restrict user email addresses to these domains"
 msgstr "Limita le email degli utenti a questi domini"
 
@@ -3861,7 +3818,7 @@ msgstr "Rimuovi questo Campus dalla tua Facility."
 msgid "This campus wants to list its presence at this facility."
 msgstr "Questo Campus vuole essere mostrato in questa Facility."
 
-msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
+msgid "For <strong>passwordless login</strong>: <br><br> • Click the \"Sign in with Passkey (passwordless)\" button<br> • Or click on the username field and select from passkey options (right-click may be required on some browsers) <br><br> This only works for security keys/passkeys configured to \"Allow login\" in your profile. <br> Ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
 msgid "Back"
@@ -3927,6 +3884,9 @@ msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Sign in with Passkey (passwordless)"
 msgstr ""
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
@@ -4129,6 +4089,9 @@ msgid "Needs to be 'True', 'False', 1 or 0"
 msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
+msgid "Invalid setting! Acceptable value is a number/period format where period is one of: s (second), m (minute), h (hour), d (day). eg (30/m, 100/h, 10/5m, 800/d)"
 msgstr ""
 
 msgid "Malformed social media data."
@@ -4451,23 +4414,48 @@ msgstr "Imposta la preferenza della lingua"
 msgid "{user} is not member of {org}"
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
-msgid "Invalid member"
-msgstr "Prefisso non valido: {}"
-
-msgid "Action not provided"
-msgstr ""
-
-#, python-brace-format
-msgid "Only admin of the {org} can perform the action"
-msgstr ""
-
-msgid "Login as the organization admin to perform the action"
-msgstr ""
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+#~ msgstr "Approvazione non possibile finche l'utente non abilita 2FA. - L'organizzazione richiede 2FA"
+
+#~ msgid "Require users in your organization to activate 2FA."
+#~ msgstr "Richiedi agli utenti della tua organizzazione di attivare l'autenticazione a due fattori (2FA)."
+
+#, fuzzy
+#~| msgid "Existing affiliations"
+#~ msgid "Drop Affiliations"
+#~ msgstr "Affiliazioni esistenti"
+
+#, fuzzy
+#~| msgid "Affiliate"
+#~ msgid "Leave them Affiliated"
+#~ msgstr "Affìliati"
+
+#, fuzzy
+#~| msgid "Contract Requirement"
+#~ msgid "Cancel 2FA Requirement"
+#~ msgstr "Requisiti del contratto"
+
+#, fuzzy
+#~| msgid "You may view and edit your organization at"
+#~ msgid "You may view and edit your organization users at"
+#~ msgstr "Puoi visualizzare e modificare la tua organizzazione a"
+
+#~ msgid "Confirmation"
+#~ msgstr "Conferma"
+
+#~ msgid "Activate 2FA for your account"
+#~ msgstr "Attivala la 2FA per il tuo account"
+
+#~ msgid "Require users in your organization to enable 2FA."
+#~ msgstr "Richiedi che gli utenti nella tua organizzazione abilitino 2FA"
+
+#, fuzzy
+#~| msgid "Invalid prefix: {}"
+#~ msgid "Invalid member"
+#~ msgstr "Prefisso non valido: {}"
 
 #~ msgid "seconds ago"
 #~ msgstr "secondi fa"

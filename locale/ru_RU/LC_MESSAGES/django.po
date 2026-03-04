@@ -966,11 +966,6 @@ msgstr "Просмотр"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
 
-#, fuzzy
-#| msgid "Your affiliation with %(ar_name)s was denied"
-msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
-
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Заявка на установление связи одобрена, пользователь уведомлен."
 
@@ -1639,9 +1634,6 @@ msgid ""
 "3 Month, 6 Month, 1 Year"
 msgstr ""
 
-msgid "Require users in your organization to activate 2FA."
-msgstr ""
-
 #, fuzzy
 #| msgid "Organization does not exist"
 msgid "Organization has active objects under it."
@@ -2122,6 +2114,9 @@ msgstr ""
 msgid "API: Request Organization Users API Limiting"
 msgstr "Организация"
 
+msgid "Web: Anonymous web page rate limit"
+msgstr ""
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -2518,40 +2513,6 @@ msgstr "Пользователь %(u_name)s (%(u_email)s) подал заявк�
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "В качестве администратора организации вы можете одобрить или отклонить данную заявку здесь"
 
-msgid ""
-"\n"
-"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
-msgstr ""
-
-#, fuzzy
-#| msgid "Existing affiliations"
-msgid "Drop Affiliations"
-msgstr "Имеющиеся связи"
-
-#, fuzzy
-#| msgid "Affiliate"
-msgid "Leave them Affiliated"
-msgstr "Связать"
-
-#, fuzzy
-#| msgid "Contract Requirement"
-msgid "Cancel 2FA Requirement"
-msgstr "Контракт обязателен"
-
-#, python-format
-msgid ""
-"\n"
-"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
-msgstr ""
-
-#, fuzzy
-#| msgid "You may view and edit your organization at"
-msgid "You may view and edit your organization users at"
-msgstr "Вы можете просматривать и изменять инофрмацию о вашей организации здесь"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Если у вас есть вопросы, свяжитесь с техподдержкой PeeringDB по адресу"
-
 msgid "Ownership of organization was automatically granted to user"
 msgstr "Права управления организацией назначены пользователю автоматически"
 
@@ -2707,6 +2668,9 @@ msgstr "Это результат ручной обработки вашей з�
 
 msgid "You may view and edit your organization at"
 msgstr "Вы можете просматривать и изменять инофрмацию о вашей организации здесь"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Если у вас есть вопросы, свяжитесь с техподдержкой PeeringDB по адресу"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Вы инициировали сброс пароля PeeringDB 2 - пожалуйста перейдите по ссылке для сброса пароля."
@@ -3148,11 +3112,6 @@ msgid "Registered Users"
 msgstr "Зарегистрироваться"
 
 #, fuzzy
-#| msgid "Email Confirmation"
-msgid "Confirmation"
-msgstr "Подтверждение емайла"
-
-#, fuzzy
 #| msgid "Search here for a network, IX, or facility."
 msgid " Search here for a network, IX, or facility."
 msgstr "Поиск сети, IX, площадки."
@@ -3232,14 +3191,6 @@ msgstr "Уведомления о перерывах"
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
 
-msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
-msgstr ""
-
-#, fuzzy
-#| msgid "The password for your account"
-msgid "Activate 2FA for your account"
-msgstr "Пароль для вашего аккаунта"
-
 msgid "Login with oAuth"
 msgstr "Войти с oAuth"
 
@@ -3254,6 +3205,12 @@ msgid "Login with your Facebook account"
 msgstr "Войти с реквизитами Facebook"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "read-only"
+msgstr ""
+
+msgid "read-write"
 msgstr ""
 
 msgid "Create"
@@ -3423,9 +3380,6 @@ msgid "API Keys"
 msgstr ""
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
-msgstr ""
-
-msgid "read-only"
 msgstr ""
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
@@ -4232,9 +4186,6 @@ msgstr "Группа"
 msgid "No 2FA"
 msgstr ""
 
-msgid "Require users in your organization to enable 2FA."
-msgstr ""
-
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4322,7 +4273,7 @@ msgstr ""
 msgid "This campus wants to list its presence at this facility."
 msgstr "Связь IXP - Площадка"
 
-msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
+msgid "For <strong>passwordless login</strong>: <br><br> • Click the \"Sign in with Passkey (passwordless)\" button<br> • Or click on the username field and select from passkey options (right-click may be required on some browsers) <br><br> This only works for security keys/passkeys configured to \"Allow login\" in your profile. <br> Ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
 msgid "Back"
@@ -4390,6 +4341,9 @@ msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Sign in with Passkey (passwordless)"
 msgstr ""
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
@@ -4590,6 +4544,9 @@ msgid "Needs to be 'True', 'False', 1 or 0"
 msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
+msgid "Invalid setting! Acceptable value is a number/period format where period is one of: s (second), m (minute), h (hour), d (day). eg (30/m, 100/h, 10/5m, 800/d)"
 msgstr ""
 
 msgid "Malformed social media data."
@@ -4919,23 +4876,48 @@ msgstr "Установить язык"
 msgid "{user} is not member of {org}"
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid prefix: {}"
-msgid "Invalid member"
-msgstr "Недействительный префикс: {}"
-
-msgid "Action not provided"
-msgstr ""
-
-#, python-brace-format
-msgid "Only admin of the {org} can perform the action"
-msgstr ""
-
-msgid "Login as the organization admin to perform the action"
-msgstr ""
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Your affiliation with %(ar_name)s was denied"
+#~ msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+#~ msgstr "Ваша заявка на связь с %(ar_name)s отклонена"
+
+#, fuzzy
+#~| msgid "Existing affiliations"
+#~ msgid "Drop Affiliations"
+#~ msgstr "Имеющиеся связи"
+
+#, fuzzy
+#~| msgid "Affiliate"
+#~ msgid "Leave them Affiliated"
+#~ msgstr "Связать"
+
+#, fuzzy
+#~| msgid "Contract Requirement"
+#~ msgid "Cancel 2FA Requirement"
+#~ msgstr "Контракт обязателен"
+
+#, fuzzy
+#~| msgid "You may view and edit your organization at"
+#~ msgid "You may view and edit your organization users at"
+#~ msgstr "Вы можете просматривать и изменять инофрмацию о вашей организации здесь"
+
+#, fuzzy
+#~| msgid "Email Confirmation"
+#~ msgid "Confirmation"
+#~ msgstr "Подтверждение емайла"
+
+#, fuzzy
+#~| msgid "The password for your account"
+#~ msgid "Activate 2FA for your account"
+#~ msgstr "Пароль для вашего аккаунта"
+
+#, fuzzy
+#~| msgid "Invalid prefix: {}"
+#~ msgid "Invalid member"
+#~ msgstr "Недействительный префикс: {}"
 
 #~ msgid "seconds ago"
 #~ msgstr "секунд назад"

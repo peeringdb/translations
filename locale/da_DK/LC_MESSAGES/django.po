@@ -968,9 +968,6 @@ msgstr "Se"
 msgid "Cannot approve a canceled affiliation request"
 msgstr ""
 
-msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr ""
-
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Anmodning om medlemsskab blev godkendt og brugeren blev adviseret."
 
@@ -1620,9 +1617,6 @@ msgid ""
 "3 Month, 6 Month, 1 Year"
 msgstr ""
 
-msgid "Require users in your organization to activate 2FA."
-msgstr ""
-
 #, fuzzy
 #| msgid "Organization Merge: Entity"
 msgid "Organization has active objects under it."
@@ -2120,6 +2114,9 @@ msgstr ""
 msgid "API: Request Organization Users API Limiting"
 msgstr "Virksomhed"
 
+msgid "Web: Anonymous web page rate limit"
+msgstr ""
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -2533,34 +2530,6 @@ msgstr "Brugere søger at blive tilknyttet denne virksomhed"
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr ""
 
-msgid ""
-"\n"
-"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
-msgstr ""
-
-#, fuzzy
-#| msgid "Organization"
-msgid "Drop Affiliations"
-msgstr "Virksomhed"
-
-msgid "Leave them Affiliated"
-msgstr ""
-
-msgid "Cancel 2FA Requirement"
-msgstr ""
-
-#, python-format
-msgid ""
-"\n"
-"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
-msgstr ""
-
-msgid "You may view and edit your organization users at"
-msgstr ""
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr ""
-
 msgid "Ownership of organization was automatically granted to user"
 msgstr ""
 
@@ -2714,6 +2683,9 @@ msgid "This was the result of a manual review of your affiliation request to the
 msgstr ""
 
 msgid "You may view and edit your organization at"
+msgstr ""
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgstr ""
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
@@ -3148,11 +3120,6 @@ msgstr ""
 msgid "Registered Users"
 msgstr ""
 
-#, fuzzy
-#| msgid "Change Password"
-msgid "Confirmation"
-msgstr "Ændre kodeord"
-
 msgid " Search here for a network, IX, or facility."
 msgstr ""
 
@@ -3225,12 +3192,6 @@ msgstr "Vedligehold"
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr ""
 
-msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
-msgstr ""
-
-msgid "Activate 2FA for your account"
-msgstr ""
-
 msgid "Login with oAuth"
 msgstr ""
 
@@ -3241,6 +3202,12 @@ msgid "Login with your Facebook account"
 msgstr ""
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
+msgstr ""
+
+msgid "read-only"
+msgstr ""
+
+msgid "read-write"
 msgstr ""
 
 msgid "Create"
@@ -3427,9 +3394,6 @@ msgid "API Keys"
 msgstr ""
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
-msgstr ""
-
-msgid "read-only"
 msgstr ""
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
@@ -4251,9 +4215,6 @@ msgstr ""
 msgid "No 2FA"
 msgstr ""
 
-msgid "Require users in your organization to enable 2FA."
-msgstr ""
-
 msgid "Restrict user email addresses to these domains"
 msgstr ""
 
@@ -4337,7 +4298,7 @@ msgstr ""
 msgid "This campus wants to list its presence at this facility."
 msgstr "Exchange - Facility link"
 
-msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
+msgid "For <strong>passwordless login</strong>: <br><br> • Click the \"Sign in with Passkey (passwordless)\" button<br> • Or click on the username field and select from passkey options (right-click may be required on some browsers) <br><br> This only works for security keys/passkeys configured to \"Allow login\" in your profile. <br> Ensure your registered U2F FIDO security key is available / connected."
 msgstr ""
 
 msgid "Back"
@@ -4405,6 +4366,9 @@ msgid ""
 "Use this form for entering backup tokens for logging in.\n"
 "      These tokens have been generated for you to print and keep safe. Please\n"
 "      enter one of these backup tokens to login to your account."
+msgstr ""
+
+msgid "Sign in with Passkey (passwordless)"
 msgstr ""
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
@@ -4602,6 +4566,9 @@ msgid "Needs to be 'True', 'False', 1 or 0"
 msgstr ""
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr ""
+
+msgid "Invalid setting! Acceptable value is a number/period format where period is one of: s (second), m (minute), h (hour), d (day). eg (30/m, 100/h, 10/5m, 800/d)"
 msgstr ""
 
 msgid "Malformed social media data."
@@ -4925,23 +4892,23 @@ msgstr "Ukorrekt formateret organisations id'er"
 msgid "{user} is not member of {org}"
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid export format"
-msgid "Invalid member"
-msgstr "Ugyldigt eksport format"
-
-msgid "Action not provided"
-msgstr ""
-
-#, python-brace-format
-msgid "Only admin of the {org} can perform the action"
-msgstr ""
-
-msgid "Login as the organization admin to perform the action"
-msgstr ""
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Drop Affiliations"
+#~ msgstr "Virksomhed"
+
+#, fuzzy
+#~| msgid "Change Password"
+#~ msgid "Confirmation"
+#~ msgstr "Ændre kodeord"
+
+#, fuzzy
+#~| msgid "Invalid export format"
+#~ msgid "Invalid member"
+#~ msgstr "Ugyldigt eksport format"
 
 #, fuzzy
 #~| msgid "Public Relations"

@@ -878,9 +878,6 @@ msgstr "Žiūrėti"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Negalima patvirtinti atšaukto prašymo dėl prisijungimo"
 
-msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr "Negalima patvirtinti, kai naudotojas išjungęs 2FA - organizacija reikalauja 2FA"
-
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Priklausomybės užklausa buvo patvirtinta ir naudotojui buvo pranešta."
 
@@ -1465,9 +1462,6 @@ msgstr ""
 "1 savaitė, 2 savaitės, 1 mėnuo, \n"
 "3 mėnesių, 6 mėnesių, 1 metų"
 
-msgid "Require users in your organization to activate 2FA."
-msgstr "Reikalauti, kad jūsų organizacijos naudotojai aktyvuotų 2FA."
-
 msgid "Organization has active objects under it."
 msgstr "Organizacija turi aktyvių objektų pagal ją."
 
@@ -1878,6 +1872,9 @@ msgstr "API: Užklausos įrašymo API apribojimas"
 msgid "API: Request Organization Users API Limiting"
 msgstr "API: Užklausa Organizacijos naudotojams API apribojimas"
 
+msgid "Web: Anonymous web page rate limit"
+msgstr ""
+
 msgid "Show last database sync"
 msgstr "Rodyti paskutinį duomenų bazės sinchronizavimą"
 
@@ -2236,36 +2233,6 @@ msgstr "Vartotojas %(u_name)s (%(u_email)s) pageidauja būti prisijungęs prie %
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "Kaip organizacijos administratorius galite patvirtinti arba atmesti šį prašymą čia"
 
-msgid ""
-"\n"
-"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
-msgstr ""
-"\n"
-"Panaikinti partnerystę\n"
-
-msgid "Drop Affiliations"
-msgstr "Palikti juos prisijungusius"
-
-msgid "Leave them Affiliated"
-msgstr "Palikti juos būti partneriais"
-
-msgid "Cancel 2FA Requirement"
-msgstr "Atšaukti 2FA reikalavimą"
-
-#, python-format
-msgid ""
-"\n"
-"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
-msgstr ""
-"\n"
-"Šie su %(org_name)s organizacija susiję naudotojai nėra įjungę 2FA:\n"
-
-msgid "You may view and edit your organization users at"
-msgstr "Galite peržiūrėti ir redaguoti savo organizacijos naudotojus adresu"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Jei turite klausimų, nedvejodami kreipkitės į peeringdb adresu"
-
 msgid "Ownership of organization was automatically granted to user"
 msgstr "Organizacijos nuosavybė automatiškai buvo suteikta naudotojui"
 
@@ -2403,6 +2370,9 @@ msgstr "Tai buvo jūsų prašymo dėl partnerystės organizacijai arba vienam i�
 
 msgid "You may view and edit your organization at"
 msgstr "Savo organizaciją galite peržiūrėti ir redaguoti adresu"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Jei turite klausimų, nedvejodami kreipkitės į peeringdb adresu"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Inicijavote slaptažodžio atkūrimą PeeringDB 2 - Norėdami atkurti slaptažodį, vadovaukitės toliau nurodytu url adresu."
@@ -2789,9 +2759,6 @@ msgstr "Automatiniai tinklai"
 msgid "Registered Users"
 msgstr "Registruoti naudotojai"
 
-msgid "Confirmation"
-msgstr "Patvirtinimas"
-
 msgid " Search here for a network, IX, or facility."
 msgstr " ieškoti čia tinklų, interneto taškų ar centro."
 
@@ -2858,12 +2825,6 @@ msgstr "Techninės priežiūros režimas"
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "Šiuo metu svetainėje veikia techninės priežiūros režimas, kurio metu šis veiksmas yra išjungtas, pabandykite dar kartą po kelių minučių"
 
-msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
-msgstr "Kai kurios jūsų organizacijos prašo įjungti 2FA. Kol to nepadarysite, jūsų prieiga prie jų apribota."
-
-msgid "Activate 2FA for your account"
-msgstr "Suaktyvinkite 2FA savo paskyroje"
-
 msgid "Login with oAuth"
 msgstr "Prisijunkite naudodami oAuth"
 
@@ -2875,6 +2836,12 @@ msgstr "Prisijunkite naudodami \"Facebook\" paskyrą"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
 msgstr "Čia galite suteikti leidimus savo organizacijos API raktams. Jei jūsų neseniai pridėtas API raktas nerodomas šiame sąraše, perkraukite puslapį iš naujo."
+
+msgid "read-only"
+msgstr "tik skaitymui"
+
+msgid "read-write"
+msgstr ""
 
 msgid "Create"
 msgstr "Sukurti"
@@ -3035,9 +3002,6 @@ msgstr "API raktai"
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
 msgstr "API raktai leidžia autentifikuoti klientą nenurodant savo vartotojo vardo ir slaptažodžio."
-
-msgid "read-only"
-msgstr "tik skaitymui"
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
 msgstr "Kuriate API raktą administratoriaus paskyrai. Tokie API raktai negali būti padaryti tik skaitymo ir visada turės visišką prieigą. Elkitės atsargiai."
@@ -3713,9 +3677,6 @@ msgstr "Grupė"
 msgid "No 2FA"
 msgstr "Nėra 2FA"
 
-msgid "Require users in your organization to enable 2FA."
-msgstr "Reikalaukite, kad jūsų organizacijos naudotojai įjungtų 2FA."
-
 msgid "Restrict user email addresses to these domains"
 msgstr "Apribokite naudotojų el. pašto adresus šiais domenais"
 
@@ -3788,8 +3749,8 @@ msgstr "Pašalinkite šią vietą iš savo centro."
 msgid "This campus wants to list its presence at this facility."
 msgstr "Ši kampanija nori įrašyti savo buvimą šioje įstaigoje."
 
-msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
-msgstr "Dėl <strong>paskey</strong> autentiškumo patvirtinimo spustelėkite naudotojo vardą, tada vadovaukitės pateiktomis passkey parinktimis ir įsitikinkite, kad jūsų registruotas U2F FIDO saugumo raktas yra prieinamas / prijungtas."
+msgid "For <strong>passwordless login</strong>: <br><br> • Click the \"Sign in with Passkey (passwordless)\" button<br> • Or click on the username field and select from passkey options (right-click may be required on some browsers) <br><br> This only works for security keys/passkeys configured to \"Allow login\" in your profile. <br> Ensure your registered U2F FIDO security key is available / connected."
+msgstr ""
 
 msgid "Back"
 msgstr "Atgal"
@@ -3862,6 +3823,9 @@ msgstr ""
 "Šią formą naudokite atsarginiams prisijungimo žetonams įvesti.\n"
 "      Šie žetonai buvo sugeneruoti, kad galėtumėte juos atsispausdinti ir saugoti. Prašome\n"
 "      įveskite vieną iš šių atsarginių žetonų, kad galėtumėte prisijungti prie savo paskyros."
+
+msgid "Sign in with Passkey (passwordless)"
+msgstr ""
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
 msgstr "Kraštutiniu atveju galite naudoti atsarginį slaptažodį:"
@@ -4050,6 +4014,11 @@ msgid "Needs to be 'True', 'False', 1 or 0"
 msgstr "Turi būti \"True\", \"False\", 1 arba 0"
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr "Netinkamas nustatymas! Priimtina reikšmė yra skaičius, po kurio eina viena iš šių reikšmių: minutė, valanda, sekundės, diena, savaitė, mėnuo, metai. pvz. (10/min, 1 valanda, 5 dienos, 1 savaitė, 1 mėnuo, 1 mėnuo, 1 metai)"
+
+#, fuzzy
+#| msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgid "Invalid setting! Acceptable value is a number/period format where period is one of: s (second), m (minute), h (hour), d (day). eg (30/m, 100/h, 10/5m, 800/d)"
 msgstr "Netinkamas nustatymas! Priimtina reikšmė yra skaičius, po kurio eina viena iš šių reikšmių: minutė, valanda, sekundės, diena, savaitė, mėnuo, metai. pvz. (10/min, 1 valanda, 5 dienos, 1 savaitė, 1 mėnuo, 1 mėnuo, 1 metai)"
 
 msgid "Malformed social media data."
@@ -4318,21 +4287,69 @@ msgstr "Neteisingai suformuota organizacijos pirmenybė"
 msgid "{user} is not member of {org}"
 msgstr "{user} nėra {org} narys"
 
-msgid "Invalid member"
-msgstr "Neteisingas narys"
-
-msgid "Action not provided"
-msgstr "Veiksmas nepateiktas"
-
-#, python-brace-format
-msgid "Only admin of the {org} can perform the action"
-msgstr "Veiksmą gali atlikti tik {org} administratorius"
-
-msgid "Login as the organization admin to perform the action"
-msgstr "Prisijunkite kaip organizacijos administratorius, kad atliktumėte veiksmą"
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr "Prieš įjungiant dviejų veiksnių autentifikavimą, turi būti patvirtintas jūsų el. paštas."
+
+#~ msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+#~ msgstr "Negalima patvirtinti, kai naudotojas išjungęs 2FA - organizacija reikalauja 2FA"
+
+#~ msgid "Require users in your organization to activate 2FA."
+#~ msgstr "Reikalauti, kad jūsų organizacijos naudotojai aktyvuotų 2FA."
+
+#~ msgid ""
+#~ "\n"
+#~ "Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Panaikinti partnerystę\n"
+
+#~ msgid "Drop Affiliations"
+#~ msgstr "Palikti juos prisijungusius"
+
+#~ msgid "Leave them Affiliated"
+#~ msgstr "Palikti juos būti partneriais"
+
+#~ msgid "Cancel 2FA Requirement"
+#~ msgstr "Atšaukti 2FA reikalavimą"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Šie su %(org_name)s organizacija susiję naudotojai nėra įjungę 2FA:\n"
+
+#~ msgid "You may view and edit your organization users at"
+#~ msgstr "Galite peržiūrėti ir redaguoti savo organizacijos naudotojus adresu"
+
+#~ msgid "Confirmation"
+#~ msgstr "Patvirtinimas"
+
+#~ msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+#~ msgstr "Kai kurios jūsų organizacijos prašo įjungti 2FA. Kol to nepadarysite, jūsų prieiga prie jų apribota."
+
+#~ msgid "Activate 2FA for your account"
+#~ msgstr "Suaktyvinkite 2FA savo paskyroje"
+
+#~ msgid "Require users in your organization to enable 2FA."
+#~ msgstr "Reikalaukite, kad jūsų organizacijos naudotojai įjungtų 2FA."
+
+#~ msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
+#~ msgstr "Dėl <strong>paskey</strong> autentiškumo patvirtinimo spustelėkite naudotojo vardą, tada vadovaukitės pateiktomis passkey parinktimis ir įsitikinkite, kad jūsų registruotas U2F FIDO saugumo raktas yra prieinamas / prijungtas."
+
+#~ msgid "Invalid member"
+#~ msgstr "Neteisingas narys"
+
+#~ msgid "Action not provided"
+#~ msgstr "Veiksmas nepateiktas"
+
+#, python-brace-format
+#~ msgid "Only admin of the {org} can perform the action"
+#~ msgstr "Veiksmą gali atlikti tik {org} administratorius"
+
+#~ msgid "Login as the organization admin to perform the action"
+#~ msgstr "Prisijunkite kaip organizacijos administratorius, kad atliktumėte veiksmą"
 
 #~ msgid "seconds ago"
 #~ msgstr "prieš kelias sekundes"

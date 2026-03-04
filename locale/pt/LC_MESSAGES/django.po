@@ -898,11 +898,6 @@ msgstr "Visualização"
 msgid "Cannot approve a canceled affiliation request"
 msgstr "Não é possível aprovar uma solicitação de afiliação cancelada"
 
-#, fuzzy
-#| msgid "Cannot approve a canceled affiliation request"
-msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
-msgstr "Não é possível aprovar uma solicitação de afiliação cancelada"
-
 msgid "Affiliation request was approved and the user was notified."
 msgstr "Solicitação de afiliação foi aprovada e o usuário/utilizador foi notificado."
 
@@ -1498,9 +1493,6 @@ msgid ""
 "3 Month, 6 Month, 1 Year"
 msgstr ""
 
-msgid "Require users in your organization to activate 2FA."
-msgstr "Exigir que os usuários em sua organização ativem 2FA."
-
 msgid "Organization has active objects under it."
 msgstr "A organização tem objetos ativos sob ela."
 
@@ -1921,6 +1913,9 @@ msgstr ""
 msgid "API: Request Organization Users API Limiting"
 msgstr "Solicitado pela chave de API da organização"
 
+msgid "Web: Anonymous web page rate limit"
+msgstr ""
+
 msgid "Show last database sync"
 msgstr ""
 
@@ -2294,40 +2289,6 @@ msgstr "usuário %(u_name)s (%(u_email)s) deseja ser filiado a %(o_name)s."
 msgid "As the organization's administrator you may approve or deny this request here"
 msgstr "Como administrador da organização você poderá aprovar ou negar o solicitação aqui"
 
-msgid ""
-"\n"
-"Would you like to drop their affiliation or leave it in place? If you drop affiliations, they will not be able to re-affiliate until they have 2FA turned on.\n"
-msgstr ""
-
-#, fuzzy
-#| msgid "Existing affiliations"
-msgid "Drop Affiliations"
-msgstr "Afiliações existentes"
-
-#, fuzzy
-#| msgid "Affiliate"
-msgid "Leave them Affiliated"
-msgstr "Afiliado"
-
-#, fuzzy
-#| msgid "Contract Requirement"
-msgid "Cancel 2FA Requirement"
-msgstr "Requisito de contrato"
-
-#, python-format
-msgid ""
-"\n"
-"The following users affiliated with %(org_name)s organization do not have 2FA turned on:\n"
-msgstr ""
-
-#, fuzzy
-#| msgid "You may view and edit your organization at"
-msgid "You may view and edit your organization users at"
-msgstr "Você pode visualizar e editar sua organização em"
-
-msgid "If you have questions, please don't hesitate to contact peeringdb support at"
-msgstr "Se você tiver dúvidas, por favor, não hesite em contatar o suporte de peeringdb em"
-
 msgid "Ownership of organization was automatically granted to user"
 msgstr "A propriedade da organização foi automaticamente concedida ao usuário"
 
@@ -2465,6 +2426,9 @@ msgstr "Este foi o resultado de uma revisão manual da sua solicitação de afil
 
 msgid "You may view and edit your organization at"
 msgstr "Você pode visualizar e editar sua organização em"
+
+msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgstr "Se você tiver dúvidas, por favor, não hesite em contatar o suporte de peeringdb em"
 
 msgid "You initiated a password reset on PeeringDB 2 - Please follow the url below to reset your password."
 msgstr "Você iniciou uma redefinição de senha em PeeringDB 2 - Favor seguir a url abaixo para redefinir sua senha."
@@ -2852,11 +2816,6 @@ msgid "Registered Users"
 msgstr "Usuários registrados"
 
 #, fuzzy
-#| msgid "Email Confirmation"
-msgid "Confirmation"
-msgstr "Confirmação de e-mail"
-
-#, fuzzy
 #| msgid "Search here for a network, IX, or facility."
 msgid " Search here for a network, IX, or facility."
 msgstr "Pesquisar aqui para uma rede, IX, ou PoP."
@@ -2930,16 +2889,6 @@ msgstr "Modo de Manutenção"
 msgid "The site is currently in maintenance mode, during which this action is disabled, please try again in a few minutes"
 msgstr "O site está atualmente em modo de manutenção, durante o qual esta ação está desativada, tente novamente em alguns minutos"
 
-#, fuzzy
-#| msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
-msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
-msgstr "Algumas de suas organizações solicitam que você confirme seu endereço de e-mail. Seu acesso a eles será restrito até que você o faça."
-
-#, fuzzy
-#| msgid "The password for your account"
-msgid "Activate 2FA for your account"
-msgstr "A senha para a sua conta"
-
 msgid "Login with oAuth"
 msgstr "Login com oAuth"
 
@@ -2951,6 +2900,12 @@ msgstr "Login com sua conta do Facebook"
 
 msgid "Here you can grant permissions to your organization API keys. In case your recently added api key does not show up in this listing, please reload the page."
 msgstr "Aqui você pode conceder permissões às chaves de API da sua organização. Caso sua chave de API adicionada recentemente não apareça nesta listagem, recarregue a página."
+
+msgid "read-only"
+msgstr "somente leitura"
+
+msgid "read-write"
+msgstr ""
 
 msgid "Create"
 msgstr "Criar"
@@ -3115,9 +3070,6 @@ msgstr "Chaves de API"
 
 msgid "API Keys allow you to authenticate a client without providing your username and password."
 msgstr "Chaves de API permitem que você autentique um cliente sem fornecer seu nome de usuário e senha."
-
-msgid "read-only"
-msgstr "somente leitura"
 
 msgid "You are creating an API Key for a superuser account. Such API keys cannot be made read only and will always have full access. Proceed with caution."
 msgstr "Você está criando uma chave de API para uma conta de superusuário. Essas chaves de API não podem se tornar somente leitura e sempre terão acesso total. Prossiga com cuidado."
@@ -3839,9 +3791,6 @@ msgstr "Grupo"
 msgid "No 2FA"
 msgstr ""
 
-msgid "Require users in your organization to enable 2FA."
-msgstr "Exigir que os usuários em sua organização habilitem 2FA."
-
 msgid "Restrict user email addresses to these domains"
 msgstr "Restrinja os endereços de e-mail dos usuários a esses domínios"
 
@@ -3917,10 +3866,8 @@ msgstr "Remova esta operadora de seu PoP."
 msgid "This campus wants to list its presence at this facility."
 msgstr "Esta operadora deseja listar sua presença neste PoP."
 
-#, fuzzy
-#| msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
-msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
-msgstr "Para autenticação <strong>sem senha</strong>, deixe o campo de senha vazio e certifique-se de que sua chave de segurança U2F FIDO registrada esteja disponível/conectada."
+msgid "For <strong>passwordless login</strong>: <br><br> • Click the \"Sign in with Passkey (passwordless)\" button<br> • Or click on the username field and select from passkey options (right-click may be required on some browsers) <br><br> This only works for security keys/passkeys configured to \"Allow login\" in your profile. <br> Ensure your registered U2F FIDO security key is available / connected."
+msgstr ""
 
 msgid "Back"
 msgstr ""
@@ -3993,6 +3940,9 @@ msgstr ""
 "Use este formulário para inserir tokens de backup para fazer login.\n"
 "      Esses tokens foram gerados para você imprimir e manter em segurança. Por favor\n"
 "      insira um desses tokens de backup para fazer login em sua conta."
+
+msgid "Sign in with Passkey (passwordless)"
+msgstr ""
 
 msgid "Or, alternatively, you can request a one time password via one of your recovery options:"
 msgstr "Ou, alternativamente, você pode solicitar uma senha única por meio de uma de suas opções de recuperação:"
@@ -4191,6 +4141,11 @@ msgid "Needs to be 'True', 'False', 1 or 0"
 msgstr "Precisa ser ‘True’, ‘Falso’, 1 ou 0"
 
 msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgstr "Configuração inválida! O valor aceitável é um número seguido por um dos seguintes: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+
+#, fuzzy
+#| msgid "Invalid setting! Acceptable value is a number followed by one of the following: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
+msgid "Invalid setting! Acceptable value is a number/period format where period is one of: s (second), m (minute), h (hour), d (day). eg (30/m, 100/h, 10/5m, 800/d)"
 msgstr "Configuração inválida! O valor aceitável é um número seguido por um dos seguintes: minute, hour, seconds, day, week, month, year. eg (10/minute, 1/hour, 5/day, 1/week, 1/month, 1/year)"
 
 msgid "Malformed social media data."
@@ -4471,23 +4426,64 @@ msgstr "Preferência de organização malformada"
 msgid "{user} is not member of {org}"
 msgstr ""
 
-#, fuzzy
-#| msgid "Invalid member type: {}"
-msgid "Invalid member"
-msgstr "Tipo de membro inválido: {}"
-
-msgid "Action not provided"
-msgstr ""
-
-#, python-brace-format
-msgid "Only admin of the {org} can perform the action"
-msgstr ""
-
-msgid "Login as the organization admin to perform the action"
-msgstr ""
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Cannot approve a canceled affiliation request"
+#~ msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
+#~ msgstr "Não é possível aprovar uma solicitação de afiliação cancelada"
+
+#~ msgid "Require users in your organization to activate 2FA."
+#~ msgstr "Exigir que os usuários em sua organização ativem 2FA."
+
+#, fuzzy
+#~| msgid "Existing affiliations"
+#~ msgid "Drop Affiliations"
+#~ msgstr "Afiliações existentes"
+
+#, fuzzy
+#~| msgid "Affiliate"
+#~ msgid "Leave them Affiliated"
+#~ msgstr "Afiliado"
+
+#, fuzzy
+#~| msgid "Contract Requirement"
+#~ msgid "Cancel 2FA Requirement"
+#~ msgstr "Requisito de contrato"
+
+#, fuzzy
+#~| msgid "You may view and edit your organization at"
+#~ msgid "You may view and edit your organization users at"
+#~ msgstr "Você pode visualizar e editar sua organização em"
+
+#, fuzzy
+#~| msgid "Email Confirmation"
+#~ msgid "Confirmation"
+#~ msgstr "Confirmação de e-mail"
+
+#, fuzzy
+#~| msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
+#~ msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
+#~ msgstr "Algumas de suas organizações solicitam que você confirme seu endereço de e-mail. Seu acesso a eles será restrito até que você o faça."
+
+#, fuzzy
+#~| msgid "The password for your account"
+#~ msgid "Activate 2FA for your account"
+#~ msgstr "A senha para a sua conta"
+
+#~ msgid "Require users in your organization to enable 2FA."
+#~ msgstr "Exigir que os usuários em sua organização habilitem 2FA."
+
+#, fuzzy
+#~| msgid "For <strong>password-less</strong> authentication leave the password field empty and make sure your registered U2F FIDO security key is available / connected."
+#~ msgid "For <strong>passkey</strong> authentication click on username then follow the passkey options provided and ensure your registered U2F FIDO security key is available / connected."
+#~ msgstr "Para autenticação <strong>sem senha</strong>, deixe o campo de senha vazio e certifique-se de que sua chave de segurança U2F FIDO registrada esteja disponível/conectada."
+
+#, fuzzy
+#~| msgid "Invalid member type: {}"
+#~ msgid "Invalid member"
+#~ msgstr "Tipo de membro inválido: {}"
 
 #~ msgid "seconds ago"
 #~ msgstr "segundos atrás"
