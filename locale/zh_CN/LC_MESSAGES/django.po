@@ -1439,6 +1439,9 @@ msgstr "无效速率：{}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "无效速率：{}"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr ""
 
@@ -1896,6 +1899,9 @@ msgstr ""
 
 msgid "RS Peer"
 msgstr "RS 对等"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
@@ -2817,7 +2823,22 @@ msgstr "合并设施"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
+msgstr ""
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
 msgstr ""
 
 #, python-format
@@ -2858,9 +2879,29 @@ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...超过 %(row_limit)s 个实体与查询匹配，请缩小您的查询范围..."
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "验证密码"
+
+msgid "Close"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "取消"
 
 msgid "Address"
 msgstr "地址"
@@ -3007,9 +3048,6 @@ msgstr ""
 #| msgid "Your affiliation with"
 msgid "Delete your affiliation to %(org)s"
 msgstr "您的关联"
-
-msgid "Cancel"
-msgstr "取消"
 
 msgid "Delete"
 msgstr "删除"
@@ -3976,9 +4014,6 @@ msgstr "位置"
 #| msgid "Exchange"
 msgid "exchange"
 msgstr "交换点"
-
-msgid "Close"
-msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import History"

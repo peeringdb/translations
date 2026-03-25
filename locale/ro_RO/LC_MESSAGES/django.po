@@ -1244,6 +1244,9 @@ msgstr "Valoarea vitezei nu este validă: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "Valoare de viteză nevalidă: nu a putut fi analizată"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr "Adresele IP s-au mutat la aceeași intrare"
 
@@ -1638,6 +1641,9 @@ msgstr "Respingerea de către rețea a acestei modificări propuse, care o va as
 
 msgid "RS Peer"
 msgstr "RS Peer"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "Încercarea de a aplica datele PeeringDB a ridicat o problemă"
@@ -2461,8 +2467,23 @@ msgstr "Facilitățile care găzduiesc Internet Exchange-uri"
 msgid "ASNs"
 msgstr "ASN-uri"
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
 msgstr "Caută numere ASN ..."
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
+msgstr ""
 
 #, python-format
 msgid "Maximum %(limit)s ASNs."
@@ -2500,9 +2521,29 @@ msgstr "Numărul de rețele prezente la această facilitate"
 msgid "No connectivity data found."
 msgstr "Nu s-au găsit date de conectivitate."
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Mai mult de %(row_limit)s înregistrări s-au potrivit cu interogarea dvs., refaceți solicitarea..."
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "Verifică parola"
+
+msgid "Close"
+msgstr "Închide"
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Anulați"
 
 msgid "Address"
 msgstr "Adresă"
@@ -2626,9 +2667,6 @@ msgstr "Baza de date a fost sincronizată ultima dată la %(ls_dt)s"
 #, python-format
 msgid "Delete your affiliation to %(org)s"
 msgstr "Ștergeți-vă afilierea la %(org)s"
-
-msgid "Cancel"
-msgstr "Anulați"
 
 msgid "Delete"
 msgstr "Ștergeți"
@@ -3486,9 +3524,6 @@ msgstr "acțiune"
 
 msgid "exchange"
 msgstr "Internet Exchange"
-
-msgid "Close"
-msgstr "Închide"
 
 msgid "IX-F Import Postmortem"
 msgstr "Importul IX-F Postmortem"

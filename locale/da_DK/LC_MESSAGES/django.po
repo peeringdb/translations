@@ -1380,6 +1380,9 @@ msgstr "Intet JSON kunne behandles"
 msgid "Invalid speed value: could not be parsed"
 msgstr "Intet JSON kunne behandles"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr ""
 
@@ -1829,6 +1832,9 @@ msgid "Network's dismissal of this proposed change, which will hide it until fro
 msgstr ""
 
 msgid "RS Peer"
+msgstr ""
+
+msgid "IX-side port location from IX-F data"
 msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
@@ -2777,7 +2783,22 @@ msgstr "Exchange - Facility link"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
+msgstr ""
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
 msgstr ""
 
 #, python-format
@@ -2820,9 +2841,31 @@ msgstr "Exchange - Facility link"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr ""
+
+#, fuzzy
+#| msgid "Change Password"
+msgid "Verify ASNs"
+msgstr "Ændre kodeord"
+
+msgid "Close"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+#, fuzzy
+#| msgid "Balanced"
+msgid "Cancel"
+msgstr "Balanceret"
 
 msgid "Address"
 msgstr ""
@@ -2969,11 +3012,6 @@ msgstr ""
 #| msgid "Public Relations"
 msgid "Delete your affiliation to %(org)s"
 msgstr "Offentlige relationer"
-
-#, fuzzy
-#| msgid "Balanced"
-msgid "Cancel"
-msgstr "Balanceret"
 
 msgid "Delete"
 msgstr ""
@@ -3988,9 +4026,6 @@ msgstr "Aktiv"
 #| msgid "Exchange"
 msgid "exchange"
 msgstr "Exchange"
-
-msgid "Close"
-msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import History"

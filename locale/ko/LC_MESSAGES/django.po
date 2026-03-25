@@ -1264,6 +1264,9 @@ msgstr "잘못된 속도 값: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "잘못된 속도 값: 분석할 수 없습니다"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr "IP 주소가 동일한 항목으로 이동됨"
 
@@ -1666,6 +1669,9 @@ msgstr "고객 대면 네트워크 뷰에서 변경 내용을 숨길 수 있는 
 
 msgid "RS Peer"
 msgstr "RS Peer"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "피어링DB에 데이터를 적용하려고 시도하는 중 문제가 발생함"
@@ -2506,10 +2512,25 @@ msgstr "인터넷 익스체인지 시설"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 #, fuzzy
 #| msgid "Search networks ..."
 msgid "Search ASN numbers ..."
 msgstr "네트워크 검색..."
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
+msgstr ""
 
 #, python-format
 msgid "Maximum %(limit)s ASNs."
@@ -2547,9 +2568,29 @@ msgstr "이 시설에 존재하는 네트워크 수"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...%(row_limit)s 이상의 항목이 쿼리와 일치합니다. 요청을 수정하십시오..."
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "비밀번호 확인"
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "취소"
 
 msgid "Address"
 msgstr "주소"
@@ -2687,9 +2728,6 @@ msgstr ""
 #, python-format
 msgid "Delete your affiliation to %(org)s"
 msgstr "%(org)s(으)로부터 승인 권한 삭제하기"
-
-msgid "Cancel"
-msgstr "취소"
 
 msgid "Delete"
 msgstr "삭제"
@@ -3628,9 +3666,6 @@ msgstr "조치"
 
 msgid "exchange"
 msgstr "익스체인지"
-
-msgid "Close"
-msgstr "닫기"
 
 msgid "IX-F Import Postmortem"
 msgstr "IX-F 사후 불러오기"

@@ -1239,6 +1239,9 @@ msgstr ""
 msgid "Invalid speed value: could not be parsed"
 msgstr ""
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr ""
 
@@ -1625,6 +1628,9 @@ msgid "Network's dismissal of this proposed change, which will hide it until fro
 msgstr ""
 
 msgid "RS Peer"
+msgstr ""
+
+msgid "IX-side port location from IX-F data"
 msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
@@ -2435,7 +2441,22 @@ msgstr ""
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
+msgstr ""
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
 msgstr ""
 
 #, python-format
@@ -2466,8 +2487,26 @@ msgstr ""
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
+msgstr ""
+
+msgid "Verify ASNs"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
 msgstr ""
 
 msgid "Address"
@@ -2591,9 +2630,6 @@ msgstr ""
 
 #, python-format
 msgid "Delete your affiliation to %(org)s"
-msgstr ""
-
-msgid "Cancel"
 msgstr ""
 
 msgid "Delete"
@@ -3444,9 +3480,6 @@ msgid "action"
 msgstr ""
 
 msgid "exchange"
-msgstr ""
-
-msgid "Close"
 msgstr ""
 
 msgid "IX-F Import Postmortem"

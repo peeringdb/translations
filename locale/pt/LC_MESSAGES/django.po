@@ -1270,6 +1270,9 @@ msgstr "Valor de velocidade inválido: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "Valor de velocidade inválido: não foi possível analisar"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr "Endereços IP movidos para a mesma entrada"
 
@@ -1671,6 +1674,9 @@ msgstr "A rejeição da rede a essa alteração proposta, que a ocultará até q
 
 msgid "RS Peer"
 msgstr "Peer RS"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "Tentar aplicar dados ao peeringdb criou um problema"
@@ -2513,10 +2519,25 @@ msgstr "PoPs do Internet Exchange"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 #, fuzzy
 #| msgid "Search networks ..."
 msgid "Search ASN numbers ..."
 msgstr "Pesquisar redes..."
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
+msgstr ""
 
 #, python-format
 msgid "Maximum %(limit)s ASNs."
@@ -2554,9 +2575,29 @@ msgstr "Número de redes presentes neste PoP"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "… mais de %(row_limit)s entradas corresponderam a sua pesquisa, refine sua solicitação …"
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "Verifique a senha"
+
+msgid "Close"
+msgstr "echar"
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Cancelar"
 
 msgid "Address"
 msgstr "Endereço"
@@ -2682,9 +2723,6 @@ msgstr ""
 #, python-format
 msgid "Delete your affiliation to %(org)s"
 msgstr "Delete sua afiliação a %(org)s"
-
-msgid "Cancel"
-msgstr "Cancelar"
 
 msgid "Delete"
 msgstr "Excluir"
@@ -3598,9 +3636,6 @@ msgstr "ação"
 
 msgid "exchange"
 msgstr "exchange"
-
-msgid "Close"
-msgstr "echar"
 
 msgid "IX-F Import Postmortem"
 msgstr "IX-F Importação post mortem"

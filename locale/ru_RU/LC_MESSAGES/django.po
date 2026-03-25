@@ -1387,6 +1387,9 @@ msgstr "Недействительный префикс: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "Недействительный префикс: {}"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr ""
 
@@ -1844,6 +1847,9 @@ msgstr ""
 
 msgid "RS Peer"
 msgstr "Пир с Route Server"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
@@ -2763,7 +2769,22 @@ msgstr "Площадки"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
+msgstr ""
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
 msgstr ""
 
 #, python-format
@@ -2804,9 +2825,29 @@ msgstr "Число сетей на данной площадке"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "… Найдено более %(row_limit)s записей, уточните запрос …"
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "Проверка пароля"
+
+msgid "Close"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Отмена"
 
 msgid "Address"
 msgstr "Адрес"
@@ -2957,9 +2998,6 @@ msgstr ""
 #| msgid "Your affiliation with"
 msgid "Delete your affiliation to %(org)s"
 msgstr "Ваша связь с"
-
-msgid "Cancel"
-msgstr "Отмена"
 
 msgid "Delete"
 msgstr "Удалить"
@@ -3958,9 +3996,6 @@ msgstr "Локация"
 #| msgid "Exchange"
 msgid "exchange"
 msgstr "IXP"
-
-msgid "Close"
-msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import History"

@@ -1244,6 +1244,9 @@ msgstr "Valore di velocità non valido: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "Valore di velocità non valido: non è possibile analizzarlo"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr "Indirizzi IP spostati nella stessa voce"
 
@@ -1638,6 +1641,9 @@ msgstr "Rifiuto da parte della rete di questa modifica proposta, che la nasconde
 
 msgid "RS Peer"
 msgstr "Peer con RS"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "Il tentativo di applicare i dati a PeeringDB ha restituito un errore"
@@ -2492,7 +2498,22 @@ msgstr "Strutture del punto di interscambio"
 msgid "ASNs"
 msgstr "ASNs"
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
+msgstr ""
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
 msgstr ""
 
 #, python-format
@@ -2533,9 +2554,29 @@ msgstr "Numero di reti presenti in questa struttura"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Più di %(row_limit)s entrate corrispondono alla tua query, restringi la tua richiesta..."
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "Verifica Password"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Annulla"
 
 msgid "Address"
 msgstr "Indirizzo"
@@ -2688,9 +2729,6 @@ msgstr ""
 #| msgid "Your affiliation with"
 msgid "Delete your affiliation to %(org)s"
 msgstr "La tua affiliazione con"
-
-msgid "Cancel"
-msgstr "Annulla"
 
 msgid "Delete"
 msgstr "Rimuovi"
@@ -3555,9 +3593,6 @@ msgstr "Azione"
 
 msgid "exchange"
 msgstr "exchange"
-
-msgid "Close"
-msgstr "Chiudi"
 
 #, fuzzy
 #| msgid "IXF Import History"

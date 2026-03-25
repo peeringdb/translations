@@ -1290,6 +1290,9 @@ msgstr "Invalid speed value: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "無効な帯域の値: パースする事が出来ませんでした"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr "同じエントリに IP アドレスが移動しました"
 
@@ -1697,6 +1700,9 @@ msgstr "この提案された変更に伴うネットワークの却下。これ
 
 msgid "RS Peer"
 msgstr "RS ピア"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr "PeeringDB にデータを適用しようとする事で問題が発生しました"
@@ -2561,10 +2567,25 @@ msgstr "Internet Exchange facilities"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 #, fuzzy
 #| msgid "Search networks ..."
 msgid "Search ASN numbers ..."
 msgstr "Search networks ..."
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
+msgstr ""
 
 #, python-format
 msgid "Maximum %(limit)s ASNs."
@@ -2602,9 +2623,29 @@ msgstr "このデータセンタに存在しているネットワークの数"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "%(row_limit)s 個以上のエントリーがあなたの検索に合致しています。検索条件を見直してみてください"
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "パスワード確認"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "キャンセル"
 
 msgid "Address"
 msgstr "アドレス"
@@ -2735,9 +2776,6 @@ msgstr ""
 #| msgid "Your affiliation with"
 msgid "Delete your affiliation to %(org)s"
 msgstr "あなたは"
-
-msgid "Cancel"
-msgstr "キャンセル"
 
 msgid "Delete"
 msgstr "削除"
@@ -3684,9 +3722,6 @@ msgstr "action"
 
 msgid "exchange"
 msgstr "エクスチェンジ"
-
-msgid "Close"
-msgstr "Close"
 
 msgid "IX-F Import Postmortem"
 msgstr "IX-F Import Postmortem"

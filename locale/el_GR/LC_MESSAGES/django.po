@@ -1423,6 +1423,9 @@ msgstr "Μη έγκυρο prefix: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "Μη έγκυρο prefix: {}"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr ""
 
@@ -1882,6 +1885,9 @@ msgstr ""
 
 msgid "RS Peer"
 msgstr "RS Peer"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
@@ -2802,7 +2808,22 @@ msgstr "Eγκαταστάσεις"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
+msgstr ""
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
 msgstr ""
 
 #, python-format
@@ -2843,9 +2864,29 @@ msgstr "Ζεύξη Exchange - Εγκατάστασης"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "...Βρέθηκαν περισσότερες από %(row_limit)s καταχωρήσεις, παρακαλούμε συγκεκριμενοποιήστε το αίτημά σας..."
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "Επαληθεύστε τον Κωδικό"
+
+msgid "Close"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Ακύρωση"
 
 msgid "Address"
 msgstr "Διεύθυνση"
@@ -2996,9 +3037,6 @@ msgstr ""
 #| msgid "Your affiliation with"
 msgid "Delete your affiliation to %(org)s"
 msgstr "Η συσχέτισή σας"
-
-msgid "Cancel"
-msgstr "Ακύρωση"
 
 msgid "Delete"
 msgstr "Διαγραφή"
@@ -3993,9 +4031,6 @@ msgstr "Τοποθεσία"
 #| msgid "Exchange"
 msgid "exchange"
 msgstr "Exchange"
-
-msgid "Close"
-msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import History"

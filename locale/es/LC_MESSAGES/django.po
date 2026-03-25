@@ -1389,6 +1389,9 @@ msgstr "Valor de velocidad inválido: {}"
 msgid "Invalid speed value: could not be parsed"
 msgstr "Valor de velocidad inválido: {}"
 
+msgid "Multiple facility IDs found in connection interfaces: {}"
+msgstr ""
+
 msgid "IP addresses moved to same entry"
 msgstr ""
 
@@ -1842,6 +1845,9 @@ msgstr ""
 
 msgid "RS Peer"
 msgstr "Peer RS"
+
+msgid "IX-side port location from IX-F data"
+msgstr ""
 
 msgid "Trying to apply data to peeringdb raised an issue"
 msgstr ""
@@ -2763,7 +2769,22 @@ msgstr "Fusionar instalaciones"
 msgid "ASNs"
 msgstr ""
 
+msgid "ASN Input Mode"
+msgstr ""
+
+msgid "Autocomplete"
+msgstr ""
+
+msgid "Text Input"
+msgstr ""
+
 msgid "Search ASN numbers ..."
+msgstr ""
+
+msgid "Enter ASNs separated by commas or spaces (e.g., 6939, 8452, 3352)"
+msgstr ""
+
+msgid "Supports comma, space, or newline separated ASNs. 'AS' prefix is optional."
 msgstr ""
 
 #, python-format
@@ -2804,9 +2825,29 @@ msgstr "Punto de Intercambio - Enlace a una Instalación"
 msgid "No connectivity data found."
 msgstr ""
 
+msgid "Authenticate for increased limits."
+msgstr ""
+
 #, python-format
 msgid "...More than %(row_limit)s entries matched your query, refine your request..."
 msgstr "... Más de %(row_limit) s entradas coinciden con su consulta, refinan su solicitud ..."
+
+#, fuzzy
+#| msgid "Verify Password"
+msgid "Verify ASNs"
+msgstr "Verificar contraseña"
+
+msgid "Close"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Validating ASNs..."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Cancelar"
 
 msgid "Address"
 msgstr "Dirección"
@@ -2957,9 +2998,6 @@ msgstr ""
 #| msgid "Your affiliation with"
 msgid "Delete your affiliation to %(org)s"
 msgstr "Su afiliación con"
-
-msgid "Cancel"
-msgstr "Cancelar"
 
 msgid "Delete"
 msgstr "Borrar"
@@ -3954,9 +3992,6 @@ msgstr "Ubicación"
 #| msgid "Exchange"
 msgid "exchange"
 msgstr "Punto de Intercambio"
-
-msgid "Close"
-msgstr ""
 
 #, fuzzy
 #| msgid "IXF Import History"
