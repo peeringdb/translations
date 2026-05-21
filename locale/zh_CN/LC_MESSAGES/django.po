@@ -745,7 +745,9 @@ msgstr ""
 msgid "BFD support"
 msgstr ""
 
-msgid "Speed (mbit/sec)"
+#, fuzzy
+#| msgid "Speed (mbit/sec)"
+msgid "Capacity (mbit/sec)"
 msgstr "速度（Mbit/s）"
 
 #, fuzzy
@@ -1402,6 +1404,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
+msgstr ""
+
 msgid "We found that your IX-F output "
 msgstr ""
 
@@ -1693,6 +1698,14 @@ msgid ""
 "Range of options is available:\n"
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "organization flags"
+msgstr "组织"
+
+msgid "Bitmask to store organization policy toggles"
 msgstr ""
 
 #, fuzzy
@@ -2185,6 +2198,9 @@ msgid "Show last database sync"
 msgstr ""
 
 msgid "Tutorial mode banner message"
+msgstr ""
+
+msgid "Notification banner content (HTML)"
 msgstr ""
 
 msgid "Last Updated"
@@ -2954,8 +2970,8 @@ msgstr "搜索在一个交换点存在但不存在于另一个交换点的网络
 msgid "IP Block"
 msgstr "IP 块"
 
-msgid "Speed"
-msgstr "速率"
+msgid "Capacity"
+msgstr ""
 
 msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
 msgstr ""
@@ -3037,6 +3053,9 @@ msgid "Not present"
 msgstr "未设置"
 
 msgid "ASN Connectivity"
+msgstr ""
+
+msgid "Copy API Query"
 msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
@@ -3204,16 +3223,6 @@ msgstr "在此搜索网络、IX或设施。"
 
 msgid "Advanced Search"
 msgstr "高级搜索"
-
-#, fuzzy
-#| msgid "Advanced Search"
-msgid "Legacy Search"
-msgstr "高级搜索"
-
-#, fuzzy
-#| msgid "Search"
-msgid "v2 Search"
-msgstr "搜索"
 
 #, fuzzy
 #| msgid "Search here for a network, IX, or facility."
@@ -3690,15 +3699,6 @@ msgstr "请求所有权前请确认，您有相关权限。您确认继续吗？
 msgid "Only verified users may request ownership to an organization"
 msgstr "只有经过验证的用户才能申请组织的所有权"
 
-#, python-format
-msgid ""
-"\n"
-"    You are using our new beta search interface.\n"
-"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
-"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
-"    "
-msgstr ""
-
 msgid "Showing results for"
 msgstr ""
 
@@ -3925,8 +3925,8 @@ msgstr "修改"
 msgid "Errors"
 msgstr "错误"
 
-msgid "speed"
-msgstr "速率"
+msgid "capacity"
+msgstr ""
 
 msgid "routeserver"
 msgstr "路由服务器"
@@ -4217,6 +4217,11 @@ msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 或 IPv6 前缀"
 
 #, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member List URL"
+msgstr "IXF 成员导出 URL"
+
+#, fuzzy
 #| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
 msgstr "当前没有用户请求关联"
@@ -4245,6 +4250,15 @@ msgid "Restrict user email addresses to these domains"
 msgstr ""
 
 msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+msgid "Require passkey authentication (disable password login)"
+msgstr ""
+
+msgid "Members must use a non-TOTP MFA method (e.g. security key, passkey)"
+msgstr ""
+
+msgid "Require MFA even when authenticating with a passkey"
 msgstr ""
 
 #, fuzzy
@@ -4906,6 +4920,17 @@ msgstr "对等政策信息"
 msgid "Please wait a bit before trying to login again."
 msgstr "请稍后再尝试登录。"
 
+msgid "Your organization requires passkey authentication. Please log in using a passkey."
+msgstr ""
+
+#, python-format
+msgid "%(org_list)s has disabled TOTP authentication. Please set up a different MFA method to proceed."
+msgstr ""
+
+#, python-format
+msgid "Your organization %(org_list)s requires MFA after passkey authentication. Please set up an MFA method to proceed."
+msgstr ""
+
 #, fuzzy
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
@@ -4917,6 +4942,22 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Speed"
+#~ msgstr "速率"
+
+#, fuzzy
+#~| msgid "Advanced Search"
+#~ msgid "Legacy Search"
+#~ msgstr "高级搜索"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "v2 Search"
+#~ msgstr "搜索"
+
+#~ msgid "speed"
+#~ msgstr "速率"
 
 #, fuzzy
 #~| msgid "Your affiliation with %(ar_name)s was denied"

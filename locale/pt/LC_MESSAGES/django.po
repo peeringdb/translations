@@ -670,7 +670,9 @@ msgstr "RS peer"
 msgid "BFD support"
 msgstr "Suporte 24/7"
 
-msgid "Speed (mbit/sec)"
+#, fuzzy
+#| msgid "Speed (mbit/sec)"
+msgid "Capacity (mbit/sec)"
 msgstr "Velocidade (mbit / seg)"
 
 msgid "Operational"
@@ -1237,6 +1239,9 @@ msgstr "A entrada para (asn e IPv4 e IPv6) não existe no PeeringDB como uma red
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "Diferenças de dados entre o PeeringDB e os dados IX-F da exchange"
 
+msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
+msgstr ""
+
 msgid "We found that your IX-F output "
 msgstr "Descobrimos que sua saída IX-F "
 
@@ -1500,6 +1505,14 @@ msgid ""
 "Range of options is available:\n"
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organizations"
+msgid "organization flags"
+msgstr "Organizações"
+
+msgid "Bitmask to store organization policy toggles"
 msgstr ""
 
 msgid "Organization has active objects under it."
@@ -1932,6 +1945,9 @@ msgid "Show last database sync"
 msgstr ""
 
 msgid "Tutorial mode banner message"
+msgstr ""
+
+msgid "Notification banner content (HTML)"
 msgstr ""
 
 msgid "Last Updated"
@@ -2646,8 +2662,8 @@ msgstr "número de exchanges neste PoP"
 msgid "IP Block"
 msgstr "Bloco de IP"
 
-msgid "Speed"
-msgstr "Velocidade"
+msgid "Capacity"
+msgstr "Capacidade"
 
 msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
 msgstr ""
@@ -2713,6 +2729,9 @@ msgid "Not present"
 msgstr "Não presente"
 
 msgid "ASN Connectivity"
+msgstr ""
+
+msgid "Copy API Query"
 msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
@@ -2866,16 +2885,6 @@ msgstr "Pesquisar aqui para uma rede, IX, ou PoP."
 
 msgid "Advanced Search"
 msgstr "Pesquisa Avançada"
-
-#, fuzzy
-#| msgid "Advanced Search"
-msgid "Legacy Search"
-msgstr "Pesquisa Avançada"
-
-#, fuzzy
-#| msgid "Search"
-msgid "v2 Search"
-msgstr "Pesquisar"
 
 #, fuzzy
 #| msgid "Search here for a network, IX, or facility."
@@ -3330,20 +3339,6 @@ msgstr "Por favor, apenas solicite a propriedade se você tiver certeza de que v
 msgid "Only verified users may request ownership to an organization"
 msgstr "Somente usuários verificados podem solicitar propriedade para uma organização"
 
-#, python-format
-msgid ""
-"\n"
-"    You are using our new beta search interface.\n"
-"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
-"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
-"    "
-msgstr ""
-"\n"
-"    Você está usando nossa nova interface de pesquisa beta.\n"
-"    <a href=\"%(q)s\">Clique aqui</a> para retornar à interface antiga.\n"
-"    <a href=\"%(feedback)s\">Clique aqui</a> para enviar comentários.\n"
-"    "
-
 msgid "Showing results for"
 msgstr "Mostrando resultados para"
 
@@ -3555,8 +3550,10 @@ msgstr "Mudanças"
 msgid "Errors"
 msgstr "Erros"
 
-msgid "speed"
-msgstr "velocidade"
+#, fuzzy
+#| msgid "Capacity"
+msgid "capacity"
+msgstr "Capacidade"
 
 msgid "routeserver"
 msgstr "servidor de rotas"
@@ -3811,6 +3808,11 @@ msgstr "E-mail da Política"
 msgid "IPv4 or IPv6 prefix"
 msgstr "Prefixo IPv4 ou IPv6"
 
+#, fuzzy
+#| msgid "IX-F Member Export URL"
+msgid "IX-F Member List URL"
+msgstr "URL de exportação do membro IX-F"
+
 msgid "Users requesting affiliation"
 msgstr "Usuários solicitando afiliação"
 
@@ -3837,6 +3839,15 @@ msgstr "Restrinja os endereços de e-mail dos usuários a esses domínios"
 
 msgid "Require users to periodically re-confirm their email address: "
 msgstr "Exija que os usuários reconfirmem periodicamente seu endereço de e-mail: "
+
+msgid "Require passkey authentication (disable password login)"
+msgstr ""
+
+msgid "Members must use a non-TOTP MFA method (e.g. security key, passkey)"
+msgstr ""
+
+msgid "Require MFA even when authenticating with a passkey"
+msgstr ""
 
 msgid "Update Options"
 msgstr "Opções de atualização"
@@ -4460,6 +4471,17 @@ msgstr "Informação da Política de Peering"
 msgid "Please wait a bit before trying to login again."
 msgstr "Favor aguardar alguns instantes antes de tentar fazer login novamente."
 
+msgid "Your organization requires passkey authentication. Please log in using a passkey."
+msgstr ""
+
+#, python-format
+msgid "%(org_list)s has disabled TOTP authentication. Please set up a different MFA method to proceed."
+msgstr ""
+
+#, python-format
+msgid "Your organization %(org_list)s requires MFA after passkey authentication. Please set up an MFA method to proceed."
+msgstr ""
+
 msgid "Malformed Organization Preference"
 msgstr "Preferência de organização malformada"
 
@@ -4469,6 +4491,36 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Speed"
+#~ msgstr "Velocidade"
+
+#, fuzzy
+#~| msgid "Advanced Search"
+#~ msgid "Legacy Search"
+#~ msgstr "Pesquisa Avançada"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "v2 Search"
+#~ msgstr "Pesquisar"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "    You are using our new beta search interface.\n"
+#~ "    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
+#~ "    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    Você está usando nossa nova interface de pesquisa beta.\n"
+#~ "    <a href=\"%(q)s\">Clique aqui</a> para retornar à interface antiga.\n"
+#~ "    <a href=\"%(feedback)s\">Clique aqui</a> para enviar comentários.\n"
+#~ "    "
+
+#~ msgid "speed"
+#~ msgstr "velocidade"
 
 #, fuzzy
 #~| msgid "Cannot approve a canceled affiliation request"
@@ -4540,9 +4592,6 @@ msgstr ""
 
 #~ msgid "Local ASN"
 #~ msgstr "ASN local"
-
-#~ msgid "Capacity"
-#~ msgstr "Capacidade"
 
 #, fuzzy
 #~| msgid "Register your security key and use it as a 2FA method or for password-less login."

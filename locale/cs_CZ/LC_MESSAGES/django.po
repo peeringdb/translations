@@ -745,7 +745,9 @@ msgstr ""
 msgid "BFD support"
 msgstr ""
 
-msgid "Speed (mbit/sec)"
+#, fuzzy
+#| msgid "Speed (mbit/sec)"
+msgid "Capacity (mbit/sec)"
 msgstr "Rychlost (mbit/sec)"
 
 #, fuzzy
@@ -1375,6 +1377,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
+msgstr ""
+
 msgid "We found that your IX-F output "
 msgstr ""
 
@@ -1669,6 +1674,14 @@ msgid ""
 "Range of options is available:\n"
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organization"
+msgid "organization flags"
+msgstr "Organizace"
+
+msgid "Bitmask to store organization policy toggles"
 msgstr ""
 
 #, fuzzy
@@ -2156,6 +2169,9 @@ msgid "Show last database sync"
 msgstr ""
 
 msgid "Tutorial mode banner message"
+msgstr ""
+
+msgid "Notification banner content (HTML)"
 msgstr ""
 
 msgid "Last Updated"
@@ -2918,8 +2934,8 @@ msgstr "Propojovací uzel - Zařízení odkaz"
 msgid "IP Block"
 msgstr "IP Block"
 
-msgid "Speed"
-msgstr "Rychlost"
+msgid "Capacity"
+msgstr ""
 
 msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
 msgstr ""
@@ -3005,6 +3021,9 @@ msgid "Not present"
 msgstr "Nenastaveno"
 
 msgid "ASN Connectivity"
+msgstr ""
+
+msgid "Copy API Query"
 msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
@@ -3178,16 +3197,6 @@ msgstr "Vyhledat Síť, Propojovací uzel nebo Zařízení."
 
 msgid "Advanced Search"
 msgstr "Rozšířené hledání"
-
-#, fuzzy
-#| msgid "Advanced Search"
-msgid "Legacy Search"
-msgstr "Rozšířené hledání"
-
-#, fuzzy
-#| msgid "Search"
-msgid "v2 Search"
-msgstr "Hledat"
 
 #, fuzzy
 #| msgid "Search here for a network, IX, or facility."
@@ -3676,15 +3685,6 @@ msgstr "Požádejte o vlastnictví pouze tehdy, pokud jste si jisti, že k tomu 
 msgid "Only verified users may request ownership to an organization"
 msgstr "Pouze ověřený uživatel může požádat o vlastnictví organizace"
 
-#, python-format
-msgid ""
-"\n"
-"    You are using our new beta search interface.\n"
-"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
-"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
-"    "
-msgstr ""
-
 msgid "Showing results for"
 msgstr ""
 
@@ -3918,10 +3918,8 @@ msgstr "Propojovací uzly"
 msgid "Errors"
 msgstr ""
 
-#, fuzzy
-#| msgid "Speed"
-msgid "speed"
-msgstr "Rychlost"
+msgid "capacity"
+msgstr ""
 
 #, fuzzy
 #| msgid "Route Server"
@@ -4222,6 +4220,11 @@ msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4 prefixy"
 
 #, fuzzy
+#| msgid "IXF Member Export URL"
+msgid "IX-F Member List URL"
+msgstr "IXF Member Export URL"
+
+#, fuzzy
 #| msgid "Currently no users requesting affiliation with"
 msgid "Users requesting affiliation"
 msgstr "V současné době nejsou žádní uživatelé žádající o přidružení k"
@@ -4250,6 +4253,15 @@ msgid "Restrict user email addresses to these domains"
 msgstr ""
 
 msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+msgid "Require passkey authentication (disable password login)"
+msgstr ""
+
+msgid "Members must use a non-TOTP MFA method (e.g. security key, passkey)"
+msgstr ""
+
+msgid "Require MFA even when authenticating with a passkey"
 msgstr ""
 
 #, fuzzy
@@ -4917,6 +4929,17 @@ msgstr "Peering Policy Information"
 msgid "Please wait a bit before trying to login again."
 msgstr "Počkejte chvilku před dalším pokusem o přihlášení."
 
+msgid "Your organization requires passkey authentication. Please log in using a passkey."
+msgstr ""
+
+#, python-format
+msgid "%(org_list)s has disabled TOTP authentication. Please set up a different MFA method to proceed."
+msgstr ""
+
+#, python-format
+msgid "Your organization %(org_list)s requires MFA after passkey authentication. Please set up an MFA method to proceed."
+msgstr ""
+
 #, fuzzy
 #| msgid "Set language preference"
 msgid "Malformed Organization Preference"
@@ -4928,6 +4951,24 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Speed"
+#~ msgstr "Rychlost"
+
+#, fuzzy
+#~| msgid "Advanced Search"
+#~ msgid "Legacy Search"
+#~ msgstr "Rozšířené hledání"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "v2 Search"
+#~ msgstr "Hledat"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "speed"
+#~ msgstr "Rychlost"
 
 #, fuzzy
 #~| msgid "Your affiliation with %(ar_name)s was denied"

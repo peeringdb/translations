@@ -717,7 +717,7 @@ msgstr ""
 msgid "BFD support"
 msgstr ""
 
-msgid "Speed (mbit/sec)"
+msgid "Capacity (mbit/sec)"
 msgstr ""
 
 #, fuzzy
@@ -1347,6 +1347,9 @@ msgstr ""
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr ""
 
+msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
+msgstr ""
+
 msgid "We found that your IX-F output "
 msgstr ""
 
@@ -1622,6 +1625,14 @@ msgid ""
 "Range of options is available:\n"
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange - Facility link"
+msgid "organization flags"
+msgstr "Değişim noktası - Bina/Tesis bağlantısı"
+
+msgid "Bitmask to store organization policy toggles"
 msgstr ""
 
 msgid "Organization has active objects under it."
@@ -2126,6 +2137,9 @@ msgid "Show last database sync"
 msgstr ""
 
 msgid "Tutorial mode banner message"
+msgstr ""
+
+msgid "Notification banner content (HTML)"
 msgstr ""
 
 #, fuzzy
@@ -2885,7 +2899,7 @@ msgstr "Değişim noktası - Bina/Tesis bağlantısı"
 msgid "IP Block"
 msgstr ""
 
-msgid "Speed"
+msgid "Capacity"
 msgstr ""
 
 msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
@@ -2966,6 +2980,9 @@ msgid "Not present"
 msgstr ""
 
 msgid "ASN Connectivity"
+msgstr ""
+
+msgid "Copy API Query"
 msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
@@ -3133,12 +3150,6 @@ msgid " Search here for a network, IX, or facility."
 msgstr ""
 
 msgid "Advanced Search"
-msgstr ""
-
-msgid "Legacy Search"
-msgstr ""
-
-msgid "v2 Search"
 msgstr ""
 
 msgid "Search here for a network, IX, or facility."
@@ -3644,15 +3655,6 @@ msgstr ""
 msgid "Only verified users may request ownership to an organization"
 msgstr ""
 
-#, python-format
-msgid ""
-"\n"
-"    You are using our new beta search interface.\n"
-"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
-"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
-"    "
-msgstr ""
-
 msgid "Showing results for"
 msgstr ""
 
@@ -3884,7 +3886,7 @@ msgstr "Değişim noktası"
 msgid "Errors"
 msgstr ""
 
-msgid "speed"
+msgid "capacity"
 msgstr ""
 
 #, fuzzy
@@ -4174,6 +4176,9 @@ msgstr "Satış"
 msgid "IPv4 or IPv6 prefix"
 msgstr ""
 
+msgid "IX-F Member List URL"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before trying to login again."
 msgid "Users requesting affiliation"
@@ -4205,6 +4210,15 @@ msgid "Restrict user email addresses to these domains"
 msgstr ""
 
 msgid "Require users to periodically re-confirm their email address: "
+msgstr ""
+
+msgid "Require passkey authentication (disable password login)"
+msgstr ""
+
+msgid "Members must use a non-TOTP MFA method (e.g. security key, passkey)"
+msgstr ""
+
+msgid "Require MFA even when authenticating with a passkey"
 msgstr ""
 
 #, fuzzy
@@ -4866,6 +4880,17 @@ msgstr "Eşleşme Politikası Bilgileri"
 
 msgid "Please wait a bit before trying to login again."
 msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
+
+msgid "Your organization requires passkey authentication. Please log in using a passkey."
+msgstr ""
+
+#, python-format
+msgid "%(org_list)s has disabled TOTP authentication. Please set up a different MFA method to proceed."
+msgstr ""
+
+#, python-format
+msgid "Your organization %(org_list)s requires MFA after passkey authentication. Please set up an MFA method to proceed."
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"

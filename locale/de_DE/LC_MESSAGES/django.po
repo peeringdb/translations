@@ -672,7 +672,9 @@ msgstr "RS peer"
 msgid "BFD support"
 msgstr "24x7 Unterstützung"
 
-msgid "Speed (mbit/sec)"
+#, fuzzy
+#| msgid "Speed (mbit/sec)"
+msgid "Capacity (mbit/sec)"
 msgstr "Datenrate (mbit/s)"
 
 msgid "Operational"
@@ -1232,6 +1234,9 @@ msgstr "Diese Kombination aus ASN, IPv4- und IPv6-Adresse existiert nicht für e
 msgid "Data differences between PeeringDB and the exchange's IX-F data"
 msgstr "Diskrepanz zwischen Daten von PeeringDB und Internet Exchange"
 
+msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
+msgstr ""
+
 msgid "We found that your IX-F output "
 msgstr "Wir haben herausgefunden, dass Ihr IX-F Output "
 
@@ -1493,6 +1498,14 @@ msgid ""
 "Range of options is available:\n"
 "1 Week, 2 Weeks, 1 Month, \n"
 "3 Month, 6 Month, 1 Year"
+msgstr ""
+
+#, fuzzy
+#| msgid "Organizations"
+msgid "organization flags"
+msgstr "Unternehmen"
+
+msgid "Bitmask to store organization policy toggles"
 msgstr ""
 
 msgid "Organization has active objects under it."
@@ -1925,6 +1938,9 @@ msgid "Show last database sync"
 msgstr ""
 
 msgid "Tutorial mode banner message"
+msgstr ""
+
+msgid "Notification banner content (HTML)"
 msgstr ""
 
 msgid "Last Updated"
@@ -2637,8 +2653,8 @@ msgstr "Anzahl der Austauschpunkte in dieser Liegenschaft"
 msgid "IP Block"
 msgstr "IP-Block"
 
-msgid "Speed"
-msgstr "Geschwindigkeit"
+msgid "Capacity"
+msgstr "Kapazität"
 
 msgid "Only exact matches in the location fields will be shown. To enable geospatial searching please specify concrete values in city."
 msgstr ""
@@ -2707,6 +2723,9 @@ msgstr "Nicht vorhanden"
 #| msgid "IX Connections"
 msgid "ASN Connectivity"
 msgstr "IX-Verbindungen"
+
+msgid "Copy API Query"
+msgstr ""
 
 msgid "This is a beta/testing instance of PeeringDB. Some features may work differently than production. Do not store data here that you intend to keep"
 msgstr "Dies ist eine Beta/Test Instanz von PeeringDB. Manche Funktionen könnten anders als in der Produktion funktionieren. Bitte speichern Sie hier keine Daten, die Sie behalten wollen"
@@ -2859,12 +2878,6 @@ msgstr "Suchen Sie hier nach einem Netzwerk, IX oder einer Liegenschaft."
 
 msgid "Advanced Search"
 msgstr "Erweiterte Suche"
-
-msgid "Legacy Search"
-msgstr "Ältere Suche"
-
-msgid "v2 Search"
-msgstr "v2 Suche"
 
 #, fuzzy
 #| msgid "Search here for a network, IX, or facility."
@@ -3319,15 +3332,6 @@ msgstr "Bitte fordern Sie Eigentumsrechte an Objekten nur dann an, wenn Sie sich
 msgid "Only verified users may request ownership to an organization"
 msgstr "Nur verifizierte Benutzer können die Inhaberschaft einer Organisation beantragen"
 
-#, python-format
-msgid ""
-"\n"
-"    You are using our new beta search interface.\n"
-"    <a href=\"%(q)s\">Click here</a> to return to the old interface.\n"
-"    <a href=\"%(feedback)s\">Click here</a> to provide feedback.\n"
-"    "
-msgstr ""
-
 msgid "Showing results for"
 msgstr "Zeigt Ergebnisse für"
 
@@ -3532,8 +3536,10 @@ msgstr "Änderungen"
 msgid "Errors"
 msgstr "Fehler"
 
-msgid "speed"
-msgstr "Geschwindigkeit"
+#, fuzzy
+#| msgid "Capacity"
+msgid "capacity"
+msgstr "Kapazität"
 
 msgid "routeserver"
 msgstr "Routeserver"
@@ -3788,6 +3794,11 @@ msgstr "E-Mail (Peeringrichtlinien)"
 msgid "IPv4 or IPv6 prefix"
 msgstr "IPv4- oder IPv6-Präfix"
 
+#, fuzzy
+#| msgid "IX-F Member Export URL"
+msgid "IX-F Member List URL"
+msgstr "IX-F Member-Export-URL"
+
 msgid "Users requesting affiliation"
 msgstr "Nutzer die eine Zuordnung anfordern"
 
@@ -3814,6 +3825,15 @@ msgstr "Beschränken Sie die E-Mail-Adressen der Benutzer auf diese Domainnamen"
 
 msgid "Require users to periodically re-confirm their email address: "
 msgstr "Fordern Sie Benutzer auf, ihre E-Mail-Adresse regelmäßig erneut zu bestätigen: "
+
+msgid "Require passkey authentication (disable password login)"
+msgstr ""
+
+msgid "Members must use a non-TOTP MFA method (e.g. security key, passkey)"
+msgstr ""
+
+msgid "Require MFA even when authenticating with a passkey"
+msgstr ""
 
 msgid "Update Options"
 msgstr "Update-Optionen"
@@ -4435,6 +4455,17 @@ msgstr "Peeringrichtlinien-Information"
 msgid "Please wait a bit before trying to login again."
 msgstr "Bitte warten Sie, bevor sie erneut versuchen, sich anzumelden."
 
+msgid "Your organization requires passkey authentication. Please log in using a passkey."
+msgstr ""
+
+#, python-format
+msgid "%(org_list)s has disabled TOTP authentication. Please set up a different MFA method to proceed."
+msgstr ""
+
+#, python-format
+msgid "Your organization %(org_list)s requires MFA after passkey authentication. Please set up an MFA method to proceed."
+msgstr ""
+
 msgid "Malformed Organization Preference"
 msgstr "Ungültige Organisationspräferenz"
 
@@ -4444,6 +4475,18 @@ msgstr "{user} ist kein Mitglied von {org}"
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "Speed"
+#~ msgstr "Geschwindigkeit"
+
+#~ msgid "Legacy Search"
+#~ msgstr "Ältere Suche"
+
+#~ msgid "v2 Search"
+#~ msgstr "v2 Suche"
+
+#~ msgid "speed"
+#~ msgstr "Geschwindigkeit"
 
 #~ msgid "Cannot approve while User has 2FA disabled - organization requires 2FA"
 #~ msgstr "Kann nicht genehmigt werden, wenn der Benutzer 2FA deaktiviert hat - die Organisation verlangt 2FA"
@@ -4522,9 +4565,6 @@ msgstr ""
 
 #~ msgid "Local ASN"
 #~ msgstr "Lokale ASN"
-
-#~ msgid "Capacity"
-#~ msgstr "Kapazität"
 
 #, fuzzy
 #~| msgid "Register your security key and use it as a 2FA method or for password-less login."
