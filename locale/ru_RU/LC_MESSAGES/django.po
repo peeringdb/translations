@@ -1419,6 +1419,9 @@ msgstr ""
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Уведомление о слиянии: {} -> {}"
 
+msgid "AS{} flagged for removal from PeeringDB (RIR status)"
+msgstr ""
+
 #, python-format
 msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
 msgstr ""
@@ -1497,6 +1500,14 @@ msgstr ""
 
 msgid "1 Year"
 msgstr ""
+
+msgid "Speed"
+msgstr "Скорость"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server Peer"
+msgstr "Route Server"
 
 #, fuzzy
 #| msgid "Reset"
@@ -1607,6 +1618,9 @@ msgstr "Элемент с которым ассоциирована данная
 msgid "The item that this queue is attached to was created by this organization api key"
 msgstr "Элемент с которым ассоциирована данная очередь был создан пользователем"
 
+msgid "DeskPRO ticket created when this item entered the queue"
+msgstr ""
+
 msgid "email address"
 msgstr "емайл"
 
@@ -1614,6 +1628,12 @@ msgid "Ticket reference on the DeskPRO side"
 msgstr ""
 
 msgid "Ticket id on the DeskPRO side"
+msgstr ""
+
+msgid "Set when the related pending object was deleted and the ticket should be auto-closed on the DeskPRO side (#1948). Processed asynchronously by pdb_deskpro_publish."
+msgstr ""
+
+msgid "When the auto-close request was processed"
 msgstr ""
 
 msgid "DeskPRO Ticket"
@@ -1906,6 +1926,9 @@ msgstr ""
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Определяет для IXP права добавления записи netixlan для данной сети через данные ixp_member"
 
+msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange - Facility link"
 msgid "number of exchanges at this network"
@@ -2149,6 +2172,9 @@ msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Notification banner content (HTML)"
+msgstr ""
+
+msgid "Auto-IX: Enable automatic IX approval"
 msgstr ""
 
 msgid "Last Updated"
@@ -2493,6 +2519,30 @@ msgstr ""
 #| msgid "API Documentation"
 msgid "PeeringDB API Documentation"
 msgstr "Документация API"
+
+#, python-format
+msgid "The Autonomous System Number (ASN) for your network AS%(asn)s - %(name)s appears to have been reclaimed by its Regional or National Internet Registry (RIR/NIR) and is no longer registered as assigned."
+msgstr ""
+
+#, python-format
+msgid "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s day."
+msgid_plural "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s days."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "If you believe this is an error, or the ASN has been (or will be) re-assigned to your organization, please make sure the registration is up to date with your RIR/NIR. PeeringDB rechecks RIR assignment data regularly and will keep the network if the assignment is restored before the removal date."
+msgstr ""
+
+#, fuzzy
+#| msgid "Network"
+msgid "Network:"
+msgstr "Сеть"
+
+#, fuzzy, python-format
+#| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgid "If you have any questions, please contact us at %(email)s."
+msgstr "Если у вас есть вопросы, свяжитесь с техподдержкой PeeringDB по адресу"
 
 #, python-format
 msgid ""
@@ -4544,6 +4594,13 @@ msgstr "Требуется ввод"
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
 msgstr ""
 
+msgid "Must be a list."
+msgstr ""
+
+#, python-format
+msgid "Invalid field(s): %(fields)s. Valid values: %(valid)s"
+msgstr ""
+
 msgid "Invalid prefix: {}"
 msgstr "Недействительный префикс: {}"
 
@@ -4575,7 +4632,7 @@ msgstr ""
 msgid "IRR AS-SET value must be string type"
 msgstr ""
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+msgid "Invalid formatting: {} - should be AS-SET, ASx, or SOURCE::AS-SET"
 msgstr ""
 
 msgid "Unknown IRR source: {}"
@@ -4896,6 +4953,12 @@ msgstr "Разрешить обновление IXP"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Если установлен, IXP имеет права управления записью о данной сети в своем списке участников"
 
+msgid "IX-F Fields to Exclude"
+msgstr ""
+
+msgid "Fields that will not be automatically updated from IX-F import data"
+msgstr ""
+
 #, fuzzy
 #| msgid "Allow IXP Update"
 msgid "Notify On IXP Update"
@@ -4942,9 +5005,6 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
-
-#~ msgid "Speed"
-#~ msgstr "Скорость"
 
 #, fuzzy
 #~| msgid "Advanced Search"

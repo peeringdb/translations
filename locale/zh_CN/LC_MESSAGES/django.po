@@ -1471,6 +1471,9 @@ msgstr ""
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 合并通知: {} -> {}"
 
+msgid "AS{} flagged for removal from PeeringDB (RIR status)"
+msgstr ""
+
 #, python-format
 msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
 msgstr ""
@@ -1545,6 +1548,14 @@ msgstr ""
 
 msgid "1 Year"
 msgstr ""
+
+msgid "Speed"
+msgstr "速率"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server Peer"
+msgstr "路由服务器"
 
 msgid "Reset Environment"
 msgstr "重置环境"
@@ -1655,6 +1666,9 @@ msgstr "此队列附加到的项目由此用户创建"
 msgid "The item that this queue is attached to was created by this organization api key"
 msgstr "此队列附加到的项目由此用户创建"
 
+msgid "DeskPRO ticket created when this item entered the queue"
+msgstr ""
+
 msgid "email address"
 msgstr "电子邮件"
 
@@ -1662,6 +1676,12 @@ msgid "Ticket reference on the DeskPRO side"
 msgstr ""
 
 msgid "Ticket id on the DeskPRO side"
+msgstr ""
+
+msgid "Set when the related pending object was deleted and the ticket should be auto-closed on the DeskPRO side (#1948). Processed asynchronously by pdb_deskpro_publish."
+msgstr ""
+
+msgid "When the auto-close request was processed"
 msgstr ""
 
 #, fuzzy
@@ -1958,6 +1978,9 @@ msgstr ""
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "声明是否允许 IXP 通过其 IXP 成员数据为此网络添加 netixlan 条目"
 
+msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
 #, fuzzy
 #| msgid "Search for networks that are present at one exchange and absent at another exchange"
 msgid "number of exchanges at this network"
@@ -2201,6 +2224,9 @@ msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Notification banner content (HTML)"
+msgstr ""
+
+msgid "Auto-IX: Enable automatic IX approval"
 msgstr ""
 
 msgid "Last Updated"
@@ -2546,6 +2572,28 @@ msgstr ""
 #| msgid "API Documentation"
 msgid "PeeringDB API Documentation"
 msgstr "API 文档"
+
+#, python-format
+msgid "The Autonomous System Number (ASN) for your network AS%(asn)s - %(name)s appears to have been reclaimed by its Regional or National Internet Registry (RIR/NIR) and is no longer registered as assigned."
+msgstr ""
+
+#, python-format
+msgid "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s day."
+msgid_plural "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s days."
+msgstr[0] ""
+
+msgid "If you believe this is an error, or the ASN has been (or will be) re-assigned to your organization, please make sure the registration is up to date with your RIR/NIR. PeeringDB rechecks RIR assignment data regularly and will keep the network if the assignment is restored before the removal date."
+msgstr ""
+
+#, fuzzy
+#| msgid "Network"
+msgid "Network:"
+msgstr "网络"
+
+#, fuzzy, python-format
+#| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgid "If you have any questions, please contact us at %(email)s."
+msgstr "如果您有任何疑问，请随时联系 PeeringDB 支持"
 
 #, python-format
 msgid ""
@@ -4551,6 +4599,13 @@ msgstr "不需要"
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
 msgstr ""
 
+msgid "Must be a list."
+msgstr ""
+
+#, python-format
+msgid "Invalid field(s): %(fields)s. Valid values: %(valid)s"
+msgstr ""
+
 msgid "Invalid prefix: {}"
 msgstr "前缀无效：{}"
 
@@ -4580,7 +4635,7 @@ msgstr "两个前缀有重叠：{}和{}"
 msgid "IRR AS-SET value must be string type"
 msgstr ""
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+msgid "Invalid formatting: {} - should be AS-SET, ASx, or SOURCE::AS-SET"
 msgstr ""
 
 msgid "Unknown IRR source: {}"
@@ -4896,6 +4951,12 @@ msgstr "允许 IXP 更新"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "如果启用，IXP 可以在其对等列表中管理此网络的条目"
 
+msgid "IX-F Fields to Exclude"
+msgstr ""
+
+msgid "Fields that will not be automatically updated from IX-F import data"
+msgstr ""
+
 #, fuzzy
 #| msgid "Allow IXP Update"
 msgid "Notify On IXP Update"
@@ -4942,9 +5003,6 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
-
-#~ msgid "Speed"
-#~ msgstr "速率"
 
 #, fuzzy
 #~| msgid "Advanced Search"

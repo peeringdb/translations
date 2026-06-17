@@ -1272,6 +1272,9 @@ msgstr "PeeringDB: Gali prireikti veiksmų: IX-F Importerio duomenų neatitikima
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Sujungimo pranešimas: {} -> {}"
 
+msgid "AS{} flagged for removal from PeeringDB (RIR status)"
+msgstr ""
+
 #, python-format
 msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
 msgstr "PeeringDB: %(user_name)s pasenę laukiantys prašymai ištrinti"
@@ -1342,6 +1345,14 @@ msgstr "6 mėnesiai"
 
 msgid "1 Year"
 msgstr "1 metai"
+
+msgid "Speed"
+msgstr "Greitis"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server Peer"
+msgstr "Maršruto serveris"
 
 msgid "Reset Environment"
 msgstr "Iš naujo nustatyti aplinką"
@@ -1434,6 +1445,9 @@ msgstr "Elementą, prie kurio prijungta ši eilė, sukūrė šis naudotojas"
 msgid "The item that this queue is attached to was created by this organization api key"
 msgstr "Elementą, prie kurio prijungta ši eilė, sukūrė šios organizacijos api raktas"
 
+msgid "DeskPRO ticket created when this item entered the queue"
+msgstr ""
+
 msgid "email address"
 msgstr "el. pašto adresas"
 
@@ -1442,6 +1456,12 @@ msgstr "Bilieto nuoroda \"DeskPRO\" pusėje"
 
 msgid "Ticket id on the DeskPRO side"
 msgstr "Bilieto ID DeskPRO pusėje"
+
+msgid "Set when the related pending object was deleted and the ticket should be auto-closed on the DeskPRO side (#1948). Processed asynchronously by pdb_deskpro_publish."
+msgstr ""
+
+msgid "When the auto-close request was processed"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr "DeskPRO bilietas"
@@ -1692,6 +1712,9 @@ msgstr "Negalima ištrinti prefikso {}: IP adresas {} iš tinklo ASN {} vis dar 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Nurodo, ar IXP leidžiama pridėti netixlan įrašą šiam tinklui per savo ixp_member duomenis"
 
+msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
 msgid "number of exchanges at this network"
 msgstr "mainų skaičius šiame tinkle"
 
@@ -1909,6 +1932,9 @@ msgid "Tutorial mode banner message"
 msgstr "Mokomojo režimo reklaminis pranešimas"
 
 msgid "Notification banner content (HTML)"
+msgstr ""
+
+msgid "Auto-IX: Enable automatic IX approval"
 msgstr ""
 
 msgid "Last Updated"
@@ -2209,6 +2235,30 @@ msgstr "Šis objektas šiuo metu turi DoTF apsaugą:"
 
 msgid "PeeringDB API Documentation"
 msgstr "Sujungti pranešimą"
+
+#, python-format
+msgid "The Autonomous System Number (ASN) for your network AS%(asn)s - %(name)s appears to have been reclaimed by its Regional or National Internet Registry (RIR/NIR) and is no longer registered as assigned."
+msgstr ""
+
+#, python-format
+msgid "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s day."
+msgid_plural "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s days."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "If you believe this is an error, or the ASN has been (or will be) re-assigned to your organization, please make sure the registration is up to date with your RIR/NIR. PeeringDB rechecks RIR assignment data regularly and will keep the network if the assignment is restored before the removal date."
+msgstr ""
+
+#, fuzzy
+#| msgid "Network"
+msgid "Network:"
+msgstr "Tinklas"
+
+#, fuzzy, python-format
+#| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgid "If you have any questions, please contact us at %(email)s."
+msgstr "Jei turite klausimų, nedvejodami kreipkitės į peeringdb adresu"
 
 #, python-format
 msgid ""
@@ -4019,6 +4069,13 @@ msgstr "Reikia įvesti"
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
 msgstr ""
 
+msgid "Must be a list."
+msgstr ""
+
+#, python-format
+msgid "Invalid field(s): %(fields)s. Valid values: %(valid)s"
+msgstr ""
+
 msgid "Invalid prefix: {}"
 msgstr "Netinkamas prefiksas: {}"
 
@@ -4048,7 +4105,9 @@ msgstr "prefiksas sutampa su {} prefiksu: {}"
 msgid "IRR AS-SET value must be string type"
 msgstr "IRR AS-SET reikšmė turi būti eilutės tipo"
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+#, fuzzy
+#| msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+msgid "Invalid formatting: {} - should be AS-SET, ASx, or SOURCE::AS-SET"
 msgstr "Netinkamas formatavimas: {} - turėtų būti AS-SET, ASx, AS-SET@SOURCE arba SOURCE::AS-SET"
 
 msgid "Unknown IRR source: {}"
@@ -4318,6 +4377,12 @@ msgstr "Leidimas atnaujinti IXP"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Jei įjungta, IXP gali tvarkyti šio tinklo įrašą savo partnerių sąraše"
 
+msgid "IX-F Fields to Exclude"
+msgstr ""
+
+msgid "Fields that will not be automatically updated from IX-F import data"
+msgstr ""
+
 msgid "Notify On IXP Update"
 msgstr "Pranešti apie IXP atnaujinimą"
 
@@ -4356,9 +4421,6 @@ msgstr "{user} nėra {org} narys"
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr "Prieš įjungiant dviejų veiksnių autentifikavimą, turi būti patvirtintas jūsų el. paštas."
-
-#~ msgid "Speed"
-#~ msgstr "Greitis"
 
 #~ msgid "Legacy Search"
 #~ msgstr "Senoji paieška"

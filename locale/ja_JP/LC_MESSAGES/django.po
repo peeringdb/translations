@@ -1322,6 +1322,9 @@ msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F 
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 統合の通知: {} -> {}"
 
+msgid "AS{} flagged for removal from PeeringDB (RIR status)"
+msgstr ""
+
 #, python-format
 msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
 msgstr ""
@@ -1396,6 +1399,14 @@ msgstr ""
 
 msgid "1 Year"
 msgstr ""
+
+msgid "Speed"
+msgstr "帯域"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server Peer"
+msgstr "ルートサーバ"
 
 msgid "Reset Environment"
 msgstr "環境をリセットします"
@@ -1492,6 +1503,9 @@ msgstr "このユーザによって、このキューに加わっているこの
 msgid "The item that this queue is attached to was created by this organization api key"
 msgstr "この組織の API Key によって、このキューに加わっているこのアイテムが生成されました"
 
+msgid "DeskPRO ticket created when this item entered the queue"
+msgstr ""
+
 msgid "email address"
 msgstr "メールアドレス"
 
@@ -1500,6 +1514,12 @@ msgstr "DeskPRO 側のチケットリファレンス"
 
 msgid "Ticket id on the DeskPRO side"
 msgstr "DeskPRO 側のチケット ID"
+
+msgid "Set when the related pending object was deleted and the ticket should be auto-closed on the DeskPRO side (#1948). Processed asynchronously by pdb_deskpro_publish."
+msgstr ""
+
+msgid "When the auto-close request was processed"
+msgstr ""
 
 msgid "DeskPRO Ticket"
 msgstr "DeskPRO Ticket"
@@ -1753,6 +1773,9 @@ msgstr ""
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "ixp_member のデータを介して、IXP がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
 
+msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
 msgid "number of exchanges at this network"
 msgstr "このネットワークが接続しているエクスチェンジの数"
 
@@ -1980,6 +2003,9 @@ msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Notification banner content (HTML)"
+msgstr ""
+
+msgid "Auto-IX: Enable automatic IX approval"
 msgstr ""
 
 msgid "Last Updated"
@@ -2311,6 +2337,28 @@ msgstr ""
 
 msgid "PeeringDB API Documentation"
 msgstr "API 関連のドキュメント"
+
+#, python-format
+msgid "The Autonomous System Number (ASN) for your network AS%(asn)s - %(name)s appears to have been reclaimed by its Regional or National Internet Registry (RIR/NIR) and is no longer registered as assigned."
+msgstr ""
+
+#, python-format
+msgid "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s day."
+msgid_plural "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s days."
+msgstr[0] ""
+
+msgid "If you believe this is an error, or the ASN has been (or will be) re-assigned to your organization, please make sure the registration is up to date with your RIR/NIR. PeeringDB rechecks RIR assignment data regularly and will keep the network if the assignment is restored before the removal date."
+msgstr ""
+
+#, fuzzy
+#| msgid "Network"
+msgid "Network:"
+msgstr "ネットワーク"
+
+#, fuzzy, python-format
+#| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgid "If you have any questions, please contact us at %(email)s."
+msgstr "もし質問がありましたら、PeeringDB サポートまで連絡ください"
 
 #, python-format
 msgid ""
@@ -4253,6 +4301,13 @@ msgstr "必須項目"
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
 msgstr ""
 
+msgid "Must be a list."
+msgstr ""
+
+#, python-format
+msgid "Invalid field(s): %(fields)s. Valid values: %(valid)s"
+msgstr ""
+
 msgid "Invalid prefix: {}"
 msgstr "無効なプレフィクス: {}"
 
@@ -4282,7 +4337,9 @@ msgstr "プレフィクスが {} のプレフィクスと重複しています"
 msgid "IRR AS-SET value must be string type"
 msgstr "IRR AS-SET は文字列型である必要があります"
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+#, fuzzy
+#| msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+msgid "Invalid formatting: {} - should be AS-SET, ASx, or SOURCE::AS-SET"
 msgstr "不正な形式: {} - AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET である必要があります"
 
 msgid "Unknown IRR source: {}"
@@ -4584,6 +4641,12 @@ msgstr "IXP Update を許可する"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "有効にすると、IXP はピアリングリストにあるこのネットワークのエントリーを管理する事が出来ます"
 
+msgid "IX-F Fields to Exclude"
+msgstr ""
+
+msgid "Fields that will not be automatically updated from IX-F import data"
+msgstr ""
+
 #, fuzzy
 #| msgid "Allow IXP Update"
 msgid "Notify On IXP Update"
@@ -4626,9 +4689,6 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
-
-#~ msgid "Speed"
-#~ msgstr "帯域"
 
 #, fuzzy
 #~| msgid "Advanced Search"

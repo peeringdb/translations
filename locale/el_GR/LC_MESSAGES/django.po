@@ -1455,6 +1455,9 @@ msgstr ""
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Ειδοποιήση Συγχώνευσης: {} -> {}"
 
+msgid "AS{} flagged for removal from PeeringDB (RIR status)"
+msgstr ""
+
 #, python-format
 msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
 msgstr ""
@@ -1533,6 +1536,14 @@ msgstr ""
 
 msgid "1 Year"
 msgstr ""
+
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#, fuzzy
+#| msgid "Route Server"
+msgid "Route Server Peer"
+msgstr "Route Server"
 
 #, fuzzy
 #| msgid "Reset"
@@ -1645,6 +1656,9 @@ msgstr "Το αντικείμενο στου οποίου η σειρά έχει
 msgid "The item that this queue is attached to was created by this organization api key"
 msgstr "Το αντικείμενο στου οποίου η σειρά έχει επισυναφθεί δημιουργήθηκε από αυτόν τον χρήστη"
 
+msgid "DeskPRO ticket created when this item entered the queue"
+msgstr ""
+
 msgid "email address"
 msgstr "διεύθυνση email"
 
@@ -1652,6 +1666,12 @@ msgid "Ticket reference on the DeskPRO side"
 msgstr ""
 
 msgid "Ticket id on the DeskPRO side"
+msgstr ""
+
+msgid "Set when the related pending object was deleted and the ticket should be auto-closed on the DeskPRO side (#1948). Processed asynchronously by pdb_deskpro_publish."
+msgstr ""
+
+msgid "When the auto-close request was processed"
 msgstr ""
 
 msgid "DeskPRO Ticket"
@@ -1944,6 +1964,9 @@ msgstr ""
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Ορίζει αν ο IXP επιτρέπεται να προσθέσει μια καταχώρηση netixlan για αυτό το δίκτυο μέσω των ixp_member δεδομένων του"
 
+msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
 #, fuzzy
 #| msgid "Exchange - Facility link"
 msgid "number of exchanges at this network"
@@ -2185,6 +2208,9 @@ msgid "Tutorial mode banner message"
 msgstr ""
 
 msgid "Notification banner content (HTML)"
+msgstr ""
+
+msgid "Auto-IX: Enable automatic IX approval"
 msgstr ""
 
 msgid "Last Updated"
@@ -2532,6 +2558,29 @@ msgstr ""
 #| msgid "API Documentation"
 msgid "PeeringDB API Documentation"
 msgstr "Εγχειρίδιο API"
+
+#, python-format
+msgid "The Autonomous System Number (ASN) for your network AS%(asn)s - %(name)s appears to have been reclaimed by its Regional or National Internet Registry (RIR/NIR) and is no longer registered as assigned."
+msgstr ""
+
+#, python-format
+msgid "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s day."
+msgid_plural "Unless the assignment is restored, this network will be automatically removed from PeeringDB in %(days)s days."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "If you believe this is an error, or the ASN has been (or will be) re-assigned to your organization, please make sure the registration is up to date with your RIR/NIR. PeeringDB rechecks RIR assignment data regularly and will keep the network if the assignment is restored before the removal date."
+msgstr ""
+
+#, fuzzy
+#| msgid "Network"
+msgid "Network:"
+msgstr "Δίκτυο"
+
+#, fuzzy, python-format
+#| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgid "If you have any questions, please contact us at %(email)s."
+msgstr "Αν έχετε ερωτήσεις, παρακαλούμε μην διστάσετε να επικοινωνήσετε με την υποστήριξη του peeringdb στο"
 
 #, python-format
 msgid ""
@@ -4577,6 +4626,13 @@ msgstr "Δεν απαιτείται"
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
 msgstr ""
 
+msgid "Must be a list."
+msgstr ""
+
+#, python-format
+msgid "Invalid field(s): %(fields)s. Valid values: %(valid)s"
+msgstr ""
+
 msgid "Invalid prefix: {}"
 msgstr "Μη έγκυρο prefix: {}"
 
@@ -4608,7 +4664,7 @@ msgstr ""
 msgid "IRR AS-SET value must be string type"
 msgstr ""
 
-msgid "Invalid formatting: {} - should be AS-SET, ASx, AS-SET@SOURCE or SOURCE::AS-SET"
+msgid "Invalid formatting: {} - should be AS-SET, ASx, or SOURCE::AS-SET"
 msgstr ""
 
 msgid "Unknown IRR source: {}"
@@ -4924,6 +4980,12 @@ msgstr "Έγκριση Ενημέρωσης IXP"
 msgid "If enabled, an IXP may manage this network's entry in their peering list"
 msgstr "Όταν είναι ενεργό, ένας IXP μπορεί να διαχειριστεί αυτή την καταχώρηση του δικτού στην λίστα peering τους"
 
+msgid "IX-F Fields to Exclude"
+msgstr ""
+
+msgid "Fields that will not be automatically updated from IX-F import data"
+msgstr ""
+
 #, fuzzy
 #| msgid "Allow IXP Update"
 msgid "Notify On IXP Update"
@@ -4970,9 +5032,6 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
-
-#~ msgid "Speed"
-#~ msgstr "Ταχύτητα"
 
 #, fuzzy
 #~| msgid "Advanced Search"
