@@ -3468,7 +3468,9 @@ msgstr "Keitimasis"
 msgid "Facility link"
 msgstr "Centro nuoroda"
 
-msgid "Remove this carrier from your facility."
+#, fuzzy
+#| msgid "Remove this carrier from your facility."
+msgid "Remove this facility from your campus."
 msgstr "Pašalinkite šį tiekėją iš savo centro."
 
 msgid "Add Facility"
@@ -3539,6 +3541,9 @@ msgstr "Pridėkite savo mainus"
 
 msgid "Add your carrier"
 msgstr "Pridėkite savo operatorių"
+
+msgid "Remove this carrier from your facility."
+msgstr "Pašalinkite šį tiekėją iš savo centro."
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Šis operatorius nori nurodyti savo buvimo vietą šioje įstaigoje."
@@ -4067,6 +4072,9 @@ msgid "Input required"
 msgstr "Reikia įvesti"
 
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
+
+msgid "Name cannot contain consecutive whitespace characters."
 msgstr ""
 
 msgid "Must be a list."

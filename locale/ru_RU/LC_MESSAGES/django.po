@@ -3908,7 +3908,7 @@ msgstr "IXP"
 msgid "Facility link"
 msgstr "Площадка"
 
-msgid "Remove this carrier from your facility."
+msgid "Remove this facility from your campus."
 msgstr ""
 
 msgid "Add Facility"
@@ -3999,6 +3999,9 @@ msgstr "Новый IXP"
 #| msgid "Carrier"
 msgid "Add your carrier"
 msgstr "Оператор"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 #, fuzzy
 #| msgid "Exchange - Facility link"
@@ -4592,6 +4595,9 @@ msgid "Input required"
 msgstr "Требуется ввод"
 
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
+
+msgid "Name cannot contain consecutive whitespace characters."
 msgstr ""
 
 msgid "Must be a list."

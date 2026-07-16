@@ -3549,7 +3549,9 @@ msgstr "Austauschpunkt"
 msgid "Facility link"
 msgstr "Liegenschaftsname"
 
-msgid "Remove this carrier from your facility."
+#, fuzzy
+#| msgid "Remove this carrier from your facility."
+msgid "Remove this facility from your campus."
 msgstr "Entferne diesen Carrier von deinem Gebäude."
 
 msgid "Add Facility"
@@ -3632,6 +3634,9 @@ msgstr "Exchange hinzufügen"
 #| msgid "Add Carrier"
 msgid "Add your carrier"
 msgstr "Carrier hinzufügen"
+
+msgid "Remove this carrier from your facility."
+msgstr "Entferne diesen Carrier von deinem Gebäude."
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Dieser Carrier möchte seine Präsenz in dieser Liegenschafr auflisten."
@@ -4177,6 +4182,9 @@ msgid "Input required"
 msgstr "Eingabe erforderlich"
 
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
+
+msgid "Name cannot contain consecutive whitespace characters."
 msgstr ""
 
 msgid "Must be a list."

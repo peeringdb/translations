@@ -3593,7 +3593,7 @@ msgstr "익스체인지"
 msgid "Facility link"
 msgstr "시설 이름"
 
-msgid "Remove this carrier from your facility."
+msgid "Remove this facility from your campus."
 msgstr ""
 
 msgid "Add Facility"
@@ -3676,6 +3676,9 @@ msgstr "익스체인지 추가"
 #| msgid "Carrier"
 msgid "Add your carrier"
 msgstr "통신사"
+
+msgid "Remove this carrier from your facility."
+msgstr ""
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "이 통신사를 이 시설에 표시하려고 합니다."
@@ -4239,6 +4242,9 @@ msgid "Input required"
 msgstr "필수 입력란"
 
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
+
+msgid "Name cannot contain consecutive whitespace characters."
 msgstr ""
 
 msgid "Must be a list."

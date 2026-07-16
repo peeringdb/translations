@@ -3468,7 +3468,9 @@ msgstr "Internet Exchange"
 msgid "Facility link"
 msgstr "legătura cu Facilitatea"
 
-msgid "Remove this carrier from your facility."
+#, fuzzy
+#| msgid "Remove this carrier from your facility."
+msgid "Remove this facility from your campus."
 msgstr "Scoateți acest Transportator din Facilitatea dvs."
 
 msgid "Add Facility"
@@ -3541,6 +3543,9 @@ msgstr "Adaugă Internet Exchange-ul tău"
 
 msgid "Add your carrier"
 msgstr "Adaugă operator de transport"
+
+msgid "Remove this carrier from your facility."
+msgstr "Scoateți acest Transportator din Facilitatea dvs."
 
 msgid "This carrier wants to list its presence at this facility."
 msgstr "Acest Transportator dorește să-și înregistreze prezența la această Facilitate."
@@ -4071,6 +4076,9 @@ msgid "Input required"
 msgstr "Este necesară completarea"
 
 msgid "Names cannot contain special characters such as < > { } [ ] \\ ; | $ ` \" ~ ^ @ # % & = ? ! / : or numbers."
+msgstr ""
+
+msgid "Name cannot contain consecutive whitespace characters."
 msgstr ""
 
 msgid "Must be a list."
