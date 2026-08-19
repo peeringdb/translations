@@ -243,10 +243,61 @@ msgstr "Carregar"
 msgid "File size too big"
 msgstr "Tamanho do arquivo muito grande"
 
+msgid "Use"
+msgstr ""
+
+msgid "IRR AS-SET suggestions"
+msgstr ""
+
+msgid "Select an IRR source"
+msgstr ""
+
+msgid "IRR check for each entry:"
+msgstr ""
+
+msgid "IRR lookup unavailable — checked when you save"
+msgstr ""
+
+msgid "not found in any IRR registry we checked"
+msgstr ""
+
+msgid "verified in"
+msgstr ""
+
+msgid "not in"
+msgstr ""
+
+msgid "found in"
+msgstr ""
+
+msgid "no IRR source prefix — found in"
+msgstr ""
+
+msgid "Checking IRR registries…"
+msgstr ""
+
+msgid "Route-set names (RS-*) are not accepted. Publish an AS-SET instead."
+msgstr ""
+
 msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
 msgstr ""
 
 msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""
+msgstr ""
+
+msgid "IRR lookup is temporarily unavailable. The value will be checked when you save."
+msgstr ""
+
+msgid "This AS-SET was not found in any IRR registry we checked. Check the name, or contact support if you believe this is a mistake."
+msgstr ""
+
+msgid "Verified: this AS-SET exists in the selected IRR source."
+msgstr ""
+
+msgid "This AS-SET was not found in the selected IRR source. Choose a source where it exists:"
+msgstr ""
+
+msgid "Choose the IRR source for this AS-SET:"
 msgstr ""
 
 #~ msgid "Permission denied"

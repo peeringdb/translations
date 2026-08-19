@@ -1279,6 +1279,41 @@ msgstr "{} Notifica di Unione: {} -> {}"
 msgid "AS{} flagged for removal from PeeringDB (RIR status)"
 msgstr ""
 
+msgid "AS{} IRR as-set not found in any registry"
+msgstr ""
+
+msgid "AS{} IRR as-set is ambiguous — add a source prefix"
+msgstr ""
+
+msgid "AS{} IRR as-set is a generic placeholder"
+msgstr ""
+
+msgid "AS{} IRR as-set uses a route-set name (not accepted)"
+msgstr ""
+
+msgid "AS{} IRR as-set is improperly formatted"
+msgstr ""
+
+msgid "AS{} lists multiple IRR as-sets"
+msgstr ""
+
+msgid "AS{} IRR as-set updated by PeeringDB — source prefix added"
+msgstr ""
+
+msgid "AS{} IRR as-set partly updated by PeeringDB — an entry still needs you"
+msgstr ""
+
+#, fuzzy
+#| msgid "IP addresses moved to same entry"
+msgid "AS{} IRR as-set has moved to another registry"
+msgstr "Indirizzi IP spostati nella stessa voce"
+
+msgid "AS{} IRR as-set no longer exists"
+msgstr ""
+
+msgid "AS{} IRR as-set needs attention"
+msgstr ""
+
 #, python-format
 msgid "PeeringDB: %(user_name)s's Outdated Pending Requests Deleted"
 msgstr "PeeringDB: richieste in sospeso obsolete di %(user_name)s eliminate"
@@ -1357,6 +1392,22 @@ msgstr "Velocità"
 #| msgid "Route Server"
 msgid "Route Server Peer"
 msgstr "Route Server"
+
+#, fuzzy
+#| msgid "unverified"
+msgid "Not yet verified"
+msgstr "non verificato"
+
+#, fuzzy
+#| msgid "Not Set"
+msgid "Verified present"
+msgstr "Non inserito"
+
+msgid "Moved to another registry"
+msgstr ""
+
+msgid "Gone from every registry"
+msgstr ""
 
 msgid "Reset Environment"
 msgstr "Reimposta ambiente"
@@ -1745,6 +1796,11 @@ msgstr "Velocità minima: {}"
 
 msgid "IP already exists"
 msgstr "L'indirizzo IP esiste già"
+
+#, fuzzy
+#| msgid "number of facilities at this exchange"
+msgid "number of facilities for this carrier"
+msgstr "Numero di facilties per questo exchange"
 
 msgid "username"
 msgstr "nome utente"
@@ -2255,6 +2311,111 @@ msgid "PeeringDB API Documentation"
 msgstr "Documentazione API"
 
 #, python-format
+msgid "This is a notice about the IRR AS-SET published for your network AS%(asn)s - %(name)s in PeeringDB."
+msgstr ""
+
+#, fuzzy
+#| msgid "Current Password"
+msgid "Current value:"
+msgstr "Password attuale"
+
+msgid "One or more of the entries you publish here could not be found in any of the IRR registries we check. Networks use this field to build their prefix filters, so a value that resolves nowhere can cause your routes to be filtered out by peers."
+msgstr ""
+
+msgid "Please update it to an AS-SET (or ASN) that exists in an IRR registry, written in unambiguous SOURCE::NAME form — for example RADB::AS-EXAMPLE for an as-set, or RIPE::AS64496 for an ASN."
+msgstr ""
+
+msgid "One or more of the entries you publish here exists in more than one IRR registry, so it is ambiguous — a peer cannot tell which registry's object you mean when building filters."
+msgstr ""
+
+msgid "Please rewrite it in unambiguous SOURCE::NAME form, naming the registry the object belongs to — for example RADB::AS-EXAMPLE for an as-set, or RIPE::AS64496 for an ASN."
+msgstr ""
+
+msgid "The value you publish here is a generic placeholder such as AS-SET or RS-SET. It does not identify your network's routing-policy object, so peers cannot use it to build prefix filters for your network."
+msgstr ""
+
+msgid "Please replace it with your network's actual AS-SET in unambiguous SOURCE::AS-SET form (for example RADB::AS-EXAMPLE)."
+msgstr ""
+
+msgid "The value you publish here includes a route-set (an RS-... name). PeeringDB no longer accepts route-set names in this field — peers expect an AS-SET (an as-set macro) to build their prefix filters from."
+msgstr ""
+
+msgid "Please replace it with an AS-SET in unambiguous SOURCE::AS-SET form (for example RADB::AS-EXAMPLE)."
+msgstr ""
+
+msgid "The value you publish here is not a valid AS-SET reference — it does not follow the format PeeringDB accepts for this field, so peers cannot use it to build prefix filters for your network. Common causes are a registry name we do not recognize, punctuation or free text in the value, or a name nested more levels deep than is allowed."
+msgstr ""
+
+msgid "Please replace it with your network's AS-SET in unambiguous SOURCE::AS-SET form (for example RADB::AS-EXAMPLE)."
+msgstr ""
+
+msgid "Your network currently lists more than one IRR AS-SET. PeeringDB is moving to a single AS-SET per network so that peers have one unambiguous source to build filters from."
+msgstr ""
+
+#, python-format
+msgid "From %(deadline)s, only a single AS-SET will be accepted. Please consolidate your AS-SETs before then."
+msgstr ""
+
+msgid "Please consolidate to a single AS-SET."
+msgstr ""
+
+msgid "PeeringDB has added the IRR source prefix to this value for you. The name you published was found in exactly one IRR registry, so the registry it refers to could be determined without ambiguity, and peers can now build filters from it without having to guess."
+msgstr ""
+
+msgid "Previous value:"
+msgstr ""
+
+msgid "The change is recorded in your network's version history. If this is not the registry you intended, please edit the value in PeeringDB."
+msgstr ""
+
+msgid "Not every entry could be resolved automatically. At least one still needs you:"
+msgstr ""
+
+msgid "it exists in more than one IRR registry, so please rewrite it in SOURCE::NAME form naming the registry you mean."
+msgstr ""
+
+msgid "it could not be found in any IRR registry we check, so please replace it with an AS-SET (or ASN) that exists, in SOURCE::NAME form."
+msgstr ""
+
+msgid "it is a generic placeholder such as AS-SET, which does not identify your routing-policy object, so please replace it with your network's actual AS-SET in SOURCE::NAME form."
+msgstr ""
+
+msgid "it is a route-set (an RS-... name), which PeeringDB no longer accepts, so please replace it with an AS-SET in SOURCE::NAME form."
+msgstr ""
+
+msgid "No action is needed, and the change is recorded in your network's version history. If this is not the registry you intended, please edit the value in PeeringDB."
+msgstr ""
+
+msgid "The object you publish here is no longer in the IRR registry this value names, so peers building filters from it will not find it."
+msgstr ""
+
+#, python-format
+msgid "We did find it in: %(found_in)s."
+msgstr ""
+
+msgid "If you moved it there deliberately, please update the value in PeeringDB to name that registry, in SOURCE::NAME form — for example RIPE::AS-EXAMPLE."
+msgstr ""
+
+msgid "Please update the value to name the registry the object now belongs to, in SOURCE::NAME form — for example RIPE::AS-EXAMPLE."
+msgstr ""
+
+msgid "The object you publish here could no longer be found in any of the IRR registries we check. Networks use this field to build their prefix filters, so a value that resolves nowhere can cause your routes to be filtered out by peers."
+msgstr ""
+
+msgid "If the object was deleted or expired, please publish an AS-SET (or ASN) that does exist, in unambiguous SOURCE::NAME form — for example RADB::AS-EXAMPLE for an as-set, or RIPE::AS64496 for an ASN."
+msgstr ""
+
+#, fuzzy
+#| msgid "Network"
+msgid "Network:"
+msgstr "Rete"
+
+#, fuzzy, python-format
+#| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
+msgid "If you believe this is a mistake or you have any questions, please contact us at %(email)s."
+msgstr "Se avete domande, non esitate a contattare il supporto peeringdb"
+
+#, python-format
 msgid "The Autonomous System Number (ASN) for your network AS%(asn)s - %(name)s appears to have been reclaimed by its Regional or National Internet Registry (RIR/NIR) and is no longer registered as assigned."
 msgstr ""
 
@@ -2266,11 +2427,6 @@ msgstr[1] ""
 
 msgid "If you believe this is an error, or the ASN has been (or will be) re-assigned to your organization, please make sure the registration is up to date with your RIR/NIR. PeeringDB rechecks RIR assignment data regularly and will keep the network if the assignment is restored before the removal date."
 msgstr ""
-
-#, fuzzy
-#| msgid "Network"
-msgid "Network:"
-msgstr "Rete"
 
 #, fuzzy, python-format
 #| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
@@ -2743,6 +2899,11 @@ msgstr "Rapporto di traffico"
 
 msgid "ASN"
 msgstr "ASN"
+
+#, fuzzy
+#| msgid "IRR as-set/route-set"
+msgid "IRR as-set"
+msgstr "IRR as-set/route-set"
 
 msgid "General Peering Policy"
 msgstr "Peering Policy Generale"
@@ -4200,6 +4361,9 @@ msgstr "Formattazione non valida: {} - dovrebbe essere RS-SET, AS-SET o AS123"
 msgid "Unknown IRR source: {}"
 msgstr ""
 
+msgid "An IRR source prefix is required: {} - use SOURCE::AS-SET (e.g. RIPE::AS-EXAMPLE)"
+msgstr ""
+
 msgid "Maximum AS-SET hierarchy depth: {}"
 msgstr ""
 
@@ -4210,6 +4374,18 @@ msgid "All parts of an hierarchical name have to be of the same type"
 msgstr ""
 
 msgid "At least one component must be an actual set name"
+msgstr ""
+
+msgid "Route-set names (RS-*) are not accepted: {}"
+msgstr ""
+
+msgid "At most {} IRR set name(s) may be listed"
+msgstr ""
+
+msgid "{}::{} (found in: {})"
+msgstr ""
+
+msgid "IRR object does not exist in the specified registry: {}"
 msgstr ""
 
 msgid "Needs to be 'True', 'False', 1 or 0"
@@ -4287,6 +4463,9 @@ msgstr ""
 #| msgid "Please wait a bit before requesting affiliation again."
 msgid "Please wait a bit before requesting accept verified updates again."
 msgstr "Si prega di attendere un po' prima di richiedere di nuovo l'affiliazione."
+
+msgid "Your session expired or cookies are blocked; reload and retry."
+msgstr ""
 
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Si prega di attendere un po' prima di richiedere nuovamente il possesso."
@@ -4496,6 +4675,14 @@ msgstr "stato"
 #| msgid "Last Updated"
 msgid "RIR Status Updated"
 msgstr "Ultimo Aggiornamento"
+
+#, fuzzy
+#| msgid "status"
+msgid "IRR AS-SET Status"
+msgstr "stato"
+
+msgid "IRR AS-SET Verified"
+msgstr ""
 
 msgid "PeeringDB Configuration"
 msgstr "Configurazione di PeeringDB"
