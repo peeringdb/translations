@@ -494,10 +494,14 @@ msgstr "Kontaktai"
 msgid "Contacts"
 msgstr "Kontaktai"
 
-msgid "IRR as-set/route-set"
+#, fuzzy
+#| msgid "IRR as-set/route-set"
+msgid "IRR as-set"
 msgstr "IRR kaip rinkinys/maršruto rinkinys"
 
-msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
+#, fuzzy
+#| msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
+msgid "Reference to an AS-SET in Internet Routing Registry (IRR)"
 msgstr "Nuoroda į AS-SET arba ROUTE-SET interneto maršrutizavimo registre (IRR)"
 
 msgid "Looking Glass URL"
@@ -2848,11 +2852,6 @@ msgstr "Srauto santykis"
 msgid "ASN"
 msgstr "ASN"
 
-#, fuzzy
-#| msgid "IRR as-set/route-set"
-msgid "IRR as-set"
-msgstr "IRR kaip rinkinys/maršruto rinkinys"
-
 msgid "General Peering Policy"
 msgstr "Bendroji susiejimo politika"
 
@@ -4616,6 +4615,9 @@ msgstr "{user} nėra {org} narys"
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr "Prieš įjungiant dviejų veiksnių autentifikavimą, turi būti patvirtintas jūsų el. paštas."
+
+#~ msgid "IRR as-set/route-set"
+#~ msgstr "IRR kaip rinkinys/maršruto rinkinys"
 
 #~ msgid "Legacy Search"
 #~ msgstr "Senoji paieška"

@@ -510,10 +510,14 @@ msgstr "Свяжитесь с нами"
 msgid "Contacts"
 msgstr "Свяжитесь с нами"
 
-msgid "IRR as-set/route-set"
+#, fuzzy
+#| msgid "IRR as-set/route-set"
+msgid "IRR as-set"
 msgstr "IRR as-set/route-set"
 
-msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
+#, fuzzy
+#| msgid "Reference to an AS-SET or ROUTE-SET in Internet Routing Registry (IRR)"
+msgid "Reference to an AS-SET in Internet Routing Registry (IRR)"
 msgstr "Название as-set или route-set в реестре IRR"
 
 msgid "Looking Glass URL"
@@ -3168,11 +3172,6 @@ msgstr "Соотношение трафика"
 msgid "ASN"
 msgstr "ASN"
 
-#, fuzzy
-#| msgid "IRR as-set/route-set"
-msgid "IRR as-set"
-msgstr "IRR as-set/route-set"
-
 msgid "General Peering Policy"
 msgstr "Информация о пиринговой политике"
 
@@ -5196,6 +5195,9 @@ msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "IRR as-set/route-set"
+#~ msgstr "IRR as-set/route-set"
 
 #, fuzzy
 #~| msgid "Advanced Search"
