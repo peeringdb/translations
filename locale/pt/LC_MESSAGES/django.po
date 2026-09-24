@@ -898,6 +898,11 @@ msgstr "O nome já está em uso por outra rede"
 msgid "Not set"
 msgstr "Não configurado"
 
+#, fuzzy
+#| msgid "Key not found"
+msgid "Facility not found"
+msgstr "Chave não encontrada"
+
 msgid "APPROVE selected items"
 msgstr "APROVAR itens selecionados"
 
@@ -1147,6 +1152,15 @@ msgstr "Atualiza um objeto de tipo `{obj_type}` existente."
 msgid "Marks an `{obj_type}` type object as `deleted`."
 msgstr "Marca um objeto do tipo `{obj_type}` como `deleted`."
 
+msgid "Planned Removal"
+msgstr ""
+
+msgid "Planned Activation"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
 msgid "Yes"
 msgstr "Sim"
 
@@ -1303,6 +1317,12 @@ msgstr "PeeringDB: ação pode ser necessária: incompatibilidade de dados do im
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
 msgstr "PeeringDB: ação pode ser necessária: incompatibilidade de dados do importador IX-F entre {} e uma ou mais redes"
 
+msgid "Google place"
+msgstr ""
+
+msgid "Map pin"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Mesclar Notificação: {} -> {}"
 
@@ -1350,6 +1370,17 @@ msgstr ""
 
 #, python-format
 msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
+msgstr ""
+
+msgid "must be an object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Register security key"
+msgid "unregistered metadata key"
+msgstr "Registrar chave de segurança"
+
+msgid "not permitted to set this key"
 msgstr ""
 
 msgid "Inactive"
@@ -1650,6 +1681,11 @@ msgstr "Mesclagem de Organização: Entidade"
 msgid "Organization Merge: Entities"
 msgstr "Mesclagem de Organização: Entidades"
 
+#, fuzzy
+#| msgid "Suggest another facility"
+msgid "Website of the facility"
+msgstr "Sugira outro PoP"
+
 msgid "number of exchanges at this facility"
 msgstr "número de exchanges neste PoP"
 
@@ -1715,6 +1751,9 @@ msgstr "Exchange tem conexão(ões) ativa(s) no PoP: {} ..."
 
 msgid "Exchange has active peer(s)"
 msgstr "O Exchange tem peer(s) ativos"
+
+msgid "Whether the IX-F member export at `ixf_ixp_member_list_url` is imported automatically for this LAN"
+msgstr ""
 
 msgid "IX-F error"
 msgstr "Erro IX-F"
@@ -1793,6 +1832,9 @@ msgstr "Dados do Membro IX-F"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr "Nenhum ipaddresses (endereços ip) adequados ao validar contra os protocolos de rede ativados"
 
+msgid "Whether this prefix is routed in the default-free zone"
+msgstr ""
+
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "IXLanPrefix com status '{}' não pode ser vinculado a um IXLan com status '{}'."
 
@@ -1803,6 +1845,15 @@ msgid "Specifies whether an IXP is allowed to add a netixlan entry for this netw
 msgstr "Especifica se um IXP tem permissão para adicionar uma entrada netixlan para esta rede por meio de seus dados ixp_member"
 
 msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
+msgid "Time the most recently changed exchange connection (`netixlan`) of this network was updated. Read-only"
+msgstr ""
+
+msgid "Time the most recently changed facility presence (`netfac`) of this network was updated. Read-only"
+msgstr ""
+
+msgid "Time the most recently changed point of contact (`poc`) of this network was updated. Read-only"
 msgstr ""
 
 msgid "number of exchanges at this network"
@@ -1849,8 +1900,18 @@ msgstr "Insira um nome de usuário válido."
 msgid "first name"
 msgstr "primeiro nome"
 
+#, fuzzy
+#| msgid "name of the tool"
+msgid "Given name of the user"
+msgstr "nome da ferramenta"
+
 msgid "last name"
 msgstr "último nome"
+
+#, fuzzy
+#| msgid "name of the tool"
+msgid "Family name of the user"
+msgstr "nome da ferramenta"
 
 msgid "staff status"
 msgstr "status da equipe"
@@ -1866,6 +1927,9 @@ msgstr "Indicar se este usuário deve ser tratado como ativo. Desmarcar em vez d
 
 msgid "date joined"
 msgstr "data de adesão"
+
+msgid "Time this user account was registered"
+msgstr ""
 
 msgid "status"
 msgstr "status"
@@ -2175,6 +2239,14 @@ msgstr "Não foi possível encontrar o endereço que você digitou. Revise seus 
 msgid "Invalid value"
 msgstr "Valor inválido"
 
+#, python-format
+msgid "%(key)s also needs a %(part)s."
+msgstr ""
+
+#, python-format
+msgid "Clear this, or also set a %(part)s for %(key)s."
+msgstr ""
+
 msgid "This field is required"
 msgstr "Este campo é obrigatório"
 
@@ -2185,8 +2257,63 @@ msgstr "Erro de pesquisa RDAP"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Este campo é apenas permitido para estes pedidos: {methods}"
 
+msgid "Unique numeric identifier for this object"
+msgstr ""
+
+msgid "Object state: `ok` is live and publicly visible, `pending` is awaiting review, `deleted` is soft-deleted and retained but omitted from normal listings"
+msgstr ""
+
+msgid "Time this object was first created. Soft-deleting and later restoring an object does not reset it, so it may predate the object's current owner"
+msgstr ""
+
+msgid "Time this object was last modified, including status changes"
+msgstr ""
+
+#, python-format
+msgid "Id of the related `%(tag)s` object"
+msgstr ""
+
+#, python-format
+msgid "Related `%(tag)s` objects, listed as ids unless expanded with `depth`"
+msgstr ""
+
 msgid "Required for distance filtering"
 msgstr "Necessário para filtragem de distância"
+
+msgid "Name of the organization this record belongs to"
+msgstr ""
+
+msgid "Expanded `org` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Expanded `campus` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Write-only. Any value present on create, including `false`, files this record under the organization that holds suggested entities, rather than creating it directly"
+msgstr ""
+
+msgid "Latitude in decimal degrees. Geocoded from the postal address on create, where submitted values are ignored. Writable on update: within 1km of the current pair, or within 50km of the new city's centre when `city` changes in the same request. Cannot be cleared once set"
+msgstr ""
+
+msgid "Longitude in decimal degrees. Geocoded from the postal address on create, where submitted values are ignored. Writable on update: within 1km of the current pair, or within 50km of the new city's centre when `city` changes in the same request. Cannot be cleared once set"
+msgstr ""
+
+msgid "Invalid organization"
+msgstr "Organização inválida"
+
+msgid "This value differs from the confirmed location. Select again."
+msgstr ""
+
+msgid "Provide latitude and longitude together."
+msgstr ""
+
+msgid "Facility location selection is not enabled."
+msgstr ""
+
+#, fuzzy
+#| msgid "Selected Organizations"
+msgid "Select an active organization."
+msgstr "Organizações selecionadas"
 
 #, fuzzy
 #| msgid "This field is required"
@@ -2198,11 +2325,96 @@ msgstr "Este campo é obrigatório"
 msgid "Valid longitude is required"
 msgstr "Este campo é obrigatório"
 
+msgid "Expanded `fac` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Expanded `carrier` object, included only when the request `depth` is high enough"
+msgstr ""
+
+#, fuzzy
+#| msgid "number of facilities at this exchange"
+msgid "Name of the facility this record refers to"
+msgstr "número de PoPs neste exchange"
+
+msgid "Expanded `ix` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Country of the facility this record refers to"
+msgstr ""
+
+msgid "City of the facility this record refers to"
+msgstr ""
+
+msgid "Expanded `net` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Id of the facility housing the network side of this connection"
+msgstr ""
+
+msgid "Id of the facility housing the exchange side of this connection"
+msgstr ""
+
+msgid "Expanded `ixlan` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Name of the exchange, suffixed with the LAN name when the LAN is named"
+msgstr ""
+
+msgid "Id of the exchange this connection belongs to"
+msgstr ""
+
+msgid "Supports RFC8950 extended next hop on this connection. Submit null to clear."
+msgstr ""
+
+msgid "Planned change to this connection's status: 'deleted' (the network is leaving the exchange) or 'ok' (the connection goes live). Submit blank together with planned_status_change_date to clear."
+msgstr ""
+
+msgid "Date the planned status change takes effect (YYYY-MM-DD), in the future and within the configured window."
+msgstr ""
+
+msgid "Connection state: `ok` and `not-operational` are published, `pending` awaits approval, and `deleted` is removed. API status changes may only select `ok` or `not-operational`."
+msgstr ""
+
+msgid "Optional attributes using registered metadata keys. Supplying this document replaces stored metadata; flat metadata fields update individual keys."
+msgstr ""
+
+msgid "must be a boolean value"
+msgstr ""
+
+msgid "status may only be set to 'ok' or 'not-operational'"
+msgstr ""
+
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "A rede deve ter um ponto de contato técnico, NOC ou de Política com e-mail válido antes de adicionar o exchange."
 
+#, fuzzy
+#| msgid "number of networks at this facility"
+msgid "Autonomous System Number of the network at this facility"
+msgstr "número de redes neste PoP"
+
 #, python-format
 msgid "Invalid value for info_type: %(value)s"
+msgstr ""
+
+msgid "BGP community this network accepts for remote-triggered blackholing, in standard (asn:value) or large (asn:local1:local2) format. Stored canonically, so leading zeros are dropped. Submit blank to clear."
+msgstr ""
+
+msgid "Preferred IP MTU for private network interconnection. Submit blank or null to clear."
+msgstr ""
+
+msgid "Write-only. Set to exclude `speed` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "Write-only. Set to exclude `is_rs_peer` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "Write-only. Set to exclude `operational` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "`ok` when RIR data shows this network's ASN as allocated, otherwise `null`. The more detailed status kept internally is not exposed here. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Legacy single network type, superseded by `info_types`. Carries one of the network's types, but which one is not defined: it is ordered differently from `info_types` and is not necessarily its first entry. Read `info_types` for the full set. Writing this field replaces `info_types` entirely with the single value sent, discarding any `info_types` in the same request; write `info_types` instead"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2222,11 +2434,74 @@ msgstr "A rede deve ter um ponto de contato técnico, NOC ou de Política com e-
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr "A propriedade `in_dfz` foi descontinuada e defini-la como `False` não é mais suportada"
 
+msgid "Obsolete. Always `false`; the field is deprecated and no longer describes 802.1Q VLAN tagging support. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Write-only. IP prefix to create the exchange's first LAN prefix from. Required on create, ignored on update"
+msgstr ""
+
+msgid "Write-only. IX-F member list URL supplied on create, used to assess auto-approval. Ignored on update, and stored on the LAN only when auto-approval succeeds"
+msgstr ""
+
+msgid "Whether this exchange has an active IPv4 prefix on its LAN. Derived from the prefix records, not a declared capability. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Whether this exchange has an active IPv6 prefix on its LAN. Derived from the prefix records, not a declared capability. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Obsolete. Always `Ethernet`; the field is deprecated and no longer describes the physical media offered. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Especifique pelo menos um endereço de e-mail"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr "O usuário não pode criar um internet exchange com sua organização definida como a organização SUGGEST_ENTITY"
+
+msgid "City of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Country of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "State of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Postal code of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Entity type the asset belongs to: org, fac, net, ix, carrier or campus"
+msgstr ""
+
+msgid "Id of the entity the asset belongs to"
+msgstr ""
+
+msgid "Type of asset. Only `logo` is currently supported"
+msgstr ""
+
+msgid "MIME type of the asset file"
+msgstr ""
+
+msgid "Base64 encoded contents of the asset file"
+msgstr ""
+
+msgid "Time the entity this asset belongs to was created, not the time the asset was uploaded"
+msgstr ""
+
+msgid "Time the entity this asset belongs to was last modified. Moves on any change to that entity, not only on a change to the asset"
+msgstr ""
+
+msgid "This user's role in the organization: `admin` can manage the organization, `member` cannot"
+msgstr ""
+
+msgid "First and last name of the user, combined"
+msgstr ""
+
+msgid "Account state: `ok` once the account has been approved, either by the organization it affiliated with or by PeeringDB staff, `pending` until then. Unrelated to email address confirmation"
+msgstr ""
+
+msgid "Whether this account is enabled. `false` for a closed or administratively disabled account, which cannot sign in"
+msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr "Pop não pode fazer parte de um campus, pois não possui as coordenadas de geolocalização"
@@ -3030,6 +3305,61 @@ msgstr "Você não tem permissão para visualizar esta página."
 msgid "Take me home"
 msgstr "Me leve para o inîcio"
 
+#, fuzzy
+#| msgid "Change Email"
+msgid "Change location"
+msgstr "Alterar seu e-mail"
+
+#, fuzzy
+#| msgid "Facility link"
+msgid "Facility location"
+msgstr "Link do PoP"
+
+msgid "Search for the facility address, select a Google result, then confirm the location below."
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility country"
+msgid "Select country"
+msgstr "País do PoP"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Search address"
+msgstr "E-mail"
+
+msgid "Street address or facility name"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address 1"
+msgid "Address results"
+msgstr "Endereço 1"
+
+msgid "Can't find the right location? Choose on map"
+msgstr ""
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Cancel location change"
+msgstr "Conexões com Exchanges"
+
+msgid "Choose the facility location on the map"
+msgstr ""
+
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirm this location"
+msgstr "Confirmação de e-mail"
+
+#, fuzzy
+#| msgid "Location"
+msgid "Use this location"
+msgstr "Localização"
+
+msgid "If the location or address details are wrong, email support. Include the facility name or ID, entered address, selected point, and what needs correcting."
+msgstr ""
+
 msgid "All Rights Reserved. By using this service, you agree to adhere to our"
 msgstr "Todos os direitos reservados. Ao utilizar este serviço, você concorda em aderir ao nosso"
 
@@ -3799,6 +4129,18 @@ msgstr "Rede - Link do Exchange"
 msgid "Not operational"
 msgstr "Não operacional"
 
+msgid "Announced by the network. Plans are declarations of intent -- nothing happens automatically on this date."
+msgstr ""
+
+msgid "planned removal"
+msgstr ""
+
+msgid "planned activation"
+msgstr ""
+
+msgid "The network supports RFC8950 extended next hop on this connection"
+msgstr ""
+
 #, fuzzy
 #| msgid "Add Exchange"
 msgid "Add your exchange"
@@ -3939,6 +4281,14 @@ msgstr "Adicionará todas as entradas sugeridas"
 msgid "Auto Add"
 msgstr "Adicionar automaticamente"
 
+msgid "RFC8950"
+msgstr ""
+
+#, fuzzy
+#| msgid "Username changed"
+msgid "Planned change"
+msgstr "Nome de usuário alterado"
+
 #, fuzzy
 #| msgid "24/7 Support"
 msgid "BFD Support"
@@ -3946,6 +4296,9 @@ msgstr "Suporte 24/7"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "A entrada precisa ser movida para a rede correta"
+
+msgid "No RFC8950"
+msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "Adicionar Exchange"
@@ -3982,6 +4335,11 @@ msgstr "Permissões de chave de API"
 
 msgid "Delete Organization"
 msgstr "Excluir organização"
+
+#, fuzzy
+#| msgid "Selective"
+msgid "Selected above"
+msgstr "Seletivo"
 
 msgid "-- Select Country --"
 msgstr ""
@@ -4066,7 +4424,9 @@ msgstr ""
 msgid "Update Options"
 msgstr "Opções de atualização"
 
-msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+#, fuzzy
+#| msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+msgid "Here you can grant permissions to members of your organization. Administrative users are listed, but they already have full access through their role, so permissions cannot be assigned to them here."
 msgstr "Aqui você pode conceder permissões aos membros regulares da sua organização. Usuários administrativos não estão listados aqui porque eles têm acesso a tudo por padrão."
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
@@ -4514,9 +4874,6 @@ msgstr ""
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Favor aguardar um pouco antes de solicitar propriedade novamente."
 
-msgid "Invalid organization"
-msgstr "Organização inválida"
-
 #, python-format
 msgid "Organization '%(org_name)s' is already under ownership"
 msgstr "Organização ‘%(org_name)s’ já está sob propriedade"
@@ -4673,6 +5030,20 @@ msgstr "Número máximo recomendado de rotas/prefixos IPv6 a serem configurados 
 msgid "Protocols Supported"
 msgstr "Protocolos suportados"
 
+msgid "RTBH Community"
+msgstr ""
+
+msgid "BGP community this network accepts for remote-triggered blackholing, as asn:value or asn:local1:local2"
+msgstr ""
+
+#, fuzzy
+#| msgid "Preferred"
+msgid "Preferred IP MTU"
+msgstr "Preferido"
+
+msgid "Preferred IP MTU for private network interconnection with this network"
+msgstr ""
+
 msgid "Public Peering Info Updated"
 msgstr "Informações de peering público atualizadas"
 
@@ -4809,11 +5180,6 @@ msgstr ""
 #~ msgstr "Você pode visualizar e editar sua organização em"
 
 #, fuzzy
-#~| msgid "Email Confirmation"
-#~ msgid "Confirmation"
-#~ msgstr "Confirmação de e-mail"
-
-#, fuzzy
 #~| msgid "Some of your organizations request that you confirm your email address. Your access to them has been restricted until you do so."
 #~ msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
 #~ msgstr "Algumas de suas organizações solicitam que você confirme seu endereço de e-mail. Seu acesso a eles será restrito até que você o faça."
@@ -4925,9 +5291,6 @@ msgstr ""
 
 #~ msgid "Change email address"
 #~ msgstr "Alterar endereço de email"
-
-#~ msgid "Change Email"
-#~ msgstr "Alterar seu e-mail"
 
 #, fuzzy
 #~| msgid "RDAP Lookup Error"

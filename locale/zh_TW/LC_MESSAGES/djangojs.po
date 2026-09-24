@@ -75,6 +75,86 @@ msgstr "是"
 msgid "No"
 msgstr "否"
 
+msgid "The facility location changed. Reload and select it again."
+msgstr ""
+
+msgid "Select another location or contact support."
+msgstr ""
+
+msgid "Location lookup is unavailable. Retry, choose on map, or email support."
+msgstr ""
+
+msgid "Location confirmed. Save the form to apply it."
+msgstr ""
+
+msgid "Not provided"
+msgstr ""
+
+msgid "Preview in Google Maps"
+msgstr ""
+
+msgid "Pending Save"
+msgstr ""
+
+msgid "Select a country first."
+msgstr ""
+
+msgid "Searching…"
+msgstr ""
+
+msgid "Select a result to review its address."
+msgstr ""
+
+msgid "No matching location. Try another search or choose on map."
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility"
+msgid "Facility location"
+msgstr "設施"
+
+msgid "Click the map or move the pin to select the facility. You can also drag the pin with the keyboard."
+msgstr ""
+
+msgid "The map could not be loaded. Retry or email support."
+msgstr ""
+
+msgid "Resolving location…"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "State / Province"
+msgstr ""
+
+msgid "Postal code"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Review these exact values before confirming. If they are wrong, choose on map or email support."
+msgstr ""
+
+msgid "The map could not be loaded. Review the resolved address and coordinates, retry, or email support."
+msgstr ""
+
+msgid "Select another location or email support."
+msgstr ""
+
+msgid "Select and confirm a location, or cancel the location change."
+msgstr ""
+
 msgid "You do not have permission to perform this action"
 msgstr ""
 
@@ -197,6 +277,9 @@ msgstr ""
 msgid "Unknown request type:"
 msgstr "未知請求類型："
 
+msgid "Select and confirm the facility location before saving."
+msgstr ""
+
 msgid "not yet been approved"
 msgstr "尚未被批准"
 
@@ -239,6 +322,15 @@ msgstr ""
 msgid "File size too big"
 msgstr ""
 
+msgid "Announced by the network. Plans are declarations of intent -- nothing happens automatically on this date."
+msgstr ""
+
+msgid "planned removal"
+msgstr ""
+
+msgid "planned activation"
+msgstr ""
+
 msgid "Use"
 msgstr ""
 
@@ -275,7 +367,7 @@ msgstr ""
 msgid "Route-set names (RS-*) are not accepted. Publish an AS-SET instead."
 msgstr ""
 
-msgid "Clearly name your AS-SET with a hierarchical name, e.g. RIPE::AS-RIPENCC"
+msgid "Not a valid AS-SET name. Use RIPE::AS-EXAMPLE or RIPE::AS64496:AS-EXAMPLE."
 msgstr ""
 
 msgid "An AS-SET with this name already exists, avoid ambiguity by specifying the name of the IRR you use e.g. \"IRR::AS-MYNAME\""

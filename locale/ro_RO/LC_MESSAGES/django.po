@@ -882,6 +882,11 @@ msgstr "Numele este deja folosit de o altă rețea"
 msgid "Not set"
 msgstr "Nespecificat"
 
+#, fuzzy
+#| msgid "Key not found"
+msgid "Facility not found"
+msgstr "Cheia nu a fost găsită"
+
 msgid "APPROVE selected items"
 msgstr "APROBAȚI elementele selectate"
 
@@ -1127,6 +1132,15 @@ msgstr "Actualizează un tip existent de obiect {obj_type}."
 msgid "Marks an `{obj_type}` type object as `deleted`."
 msgstr "Marchează ca `deleted` un tip de obiect {obj_type}."
 
+msgid "Planned Removal"
+msgstr ""
+
+msgid "Planned Activation"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
 msgid "Yes"
 msgstr "Da"
 
@@ -1277,6 +1291,12 @@ msgstr "PeeringDB: poate fi necesară o acțiune: nepotrivirea datelor din impor
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
 msgstr "PeeringDB: poate fi necesară o acțiune: nepotrivirea datelor din importatorul IX-F între {} și una sau mai multe rețele"
 
+msgid "Google place"
+msgstr ""
+
+msgid "Map pin"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} Îmbină notificarea: {} -> {}"
 
@@ -1325,6 +1345,17 @@ msgstr "PeeringDB: Cererile în așteptare expirate ale utilizatorului %(user_na
 #, python-format
 msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
 msgstr "PeeringDB: Cererile în așteptare expirate ale organizației %(org_name)s au fost șterse"
+
+msgid "must be an object"
+msgstr ""
+
+#, fuzzy
+#| msgid "Register security key"
+msgid "unregistered metadata key"
+msgstr "Înregistrați cheia de securitate"
+
+msgid "not permitted to set this key"
+msgstr ""
 
 msgid "Inactive"
 msgstr "Inactiv"
@@ -1625,6 +1656,11 @@ msgstr "Îmbinarea organizației: entitatea"
 msgid "Organization Merge: Entities"
 msgstr "Îmbinarea organizației: entități"
 
+#, fuzzy
+#| msgid "Suggest another facility"
+msgid "Website of the facility"
+msgstr "Sugerați o altă facilitate"
+
 msgid "number of exchanges at this facility"
 msgstr "Numărul de Internet Exchange-uri prezente la această Facilitate"
 
@@ -1686,6 +1722,9 @@ msgstr "Exchange-ul are conexiuni active la Facilități: {} ..."
 
 msgid "Exchange has active peer(s)"
 msgstr "Exchange-ul are peer-uri active"
+
+msgid "Whether the IX-F member export at `ixf_ixp_member_list_url` is imported automatically for this LAN"
+msgstr ""
 
 msgid "IX-F error"
 msgstr "eroare IX-F"
@@ -1762,6 +1801,9 @@ msgstr "Datele de membru IX-F"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr "Nu există adrese IP adecvate la validarea față de protocoalele de rețea activate"
 
+msgid "Whether this prefix is routed in the default-free zone"
+msgstr ""
+
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "IXLanPrefix cu starea '{}' nu poate fi legat de un IXLan cu starea '{}'."
 
@@ -1772,6 +1814,15 @@ msgid "Specifies whether an IXP is allowed to add a netixlan entry for this netw
 msgstr "Specifică dacă unui IXP i se permite să adauge o intrare netixlan pentru această rețea prin intermediul datelor sale ixp_member"
 
 msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
+msgid "Time the most recently changed exchange connection (`netixlan`) of this network was updated. Read-only"
+msgstr ""
+
+msgid "Time the most recently changed facility presence (`netfac`) of this network was updated. Read-only"
+msgstr ""
+
+msgid "Time the most recently changed point of contact (`poc`) of this network was updated. Read-only"
 msgstr ""
 
 msgid "number of exchanges at this network"
@@ -1818,8 +1869,18 @@ msgstr "Introduceți un nume valid de utilizator."
 msgid "first name"
 msgstr "prenume"
 
+#, fuzzy
+#| msgid "name of the tool"
+msgid "Given name of the user"
+msgstr "numele instrumentului"
+
 msgid "last name"
 msgstr "nume"
+
+#, fuzzy
+#| msgid "name of the tool"
+msgid "Family name of the user"
+msgstr "numele instrumentului"
 
 msgid "staff status"
 msgstr "statutul de personal"
@@ -1835,6 +1896,9 @@ msgstr "Desemnează dacă acest utilizator trebuie tratat ca activ. Deselectați
 
 msgid "date joined"
 msgstr "data înscrierii"
+
+msgid "Time this user account was registered"
+msgstr ""
 
 msgid "status"
 msgstr "stare"
@@ -2131,6 +2195,14 @@ msgstr "Nu am putut găsi adresa pe care ați introdus-o. Vă rugăm să consult
 msgid "Invalid value"
 msgstr "Valoarea nu este validă"
 
+#, python-format
+msgid "%(key)s also needs a %(part)s."
+msgstr ""
+
+#, python-format
+msgid "Clear this, or also set a %(part)s for %(key)s."
+msgstr ""
+
 msgid "This field is required"
 msgstr "Acest câmp este necesar"
 
@@ -2141,8 +2213,63 @@ msgstr "Eroare de căutare RDAP"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "Acest câmp este permis doar pentru aceste solicitări: {methods}"
 
+msgid "Unique numeric identifier for this object"
+msgstr ""
+
+msgid "Object state: `ok` is live and publicly visible, `pending` is awaiting review, `deleted` is soft-deleted and retained but omitted from normal listings"
+msgstr ""
+
+msgid "Time this object was first created. Soft-deleting and later restoring an object does not reset it, so it may predate the object's current owner"
+msgstr ""
+
+msgid "Time this object was last modified, including status changes"
+msgstr ""
+
+#, python-format
+msgid "Id of the related `%(tag)s` object"
+msgstr ""
+
+#, python-format
+msgid "Related `%(tag)s` objects, listed as ids unless expanded with `depth`"
+msgstr ""
+
 msgid "Required for distance filtering"
 msgstr "Necesar pentru filtrarea la distanță"
+
+msgid "Name of the organization this record belongs to"
+msgstr ""
+
+msgid "Expanded `org` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Expanded `campus` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Write-only. Any value present on create, including `false`, files this record under the organization that holds suggested entities, rather than creating it directly"
+msgstr ""
+
+msgid "Latitude in decimal degrees. Geocoded from the postal address on create, where submitted values are ignored. Writable on update: within 1km of the current pair, or within 50km of the new city's centre when `city` changes in the same request. Cannot be cleared once set"
+msgstr ""
+
+msgid "Longitude in decimal degrees. Geocoded from the postal address on create, where submitted values are ignored. Writable on update: within 1km of the current pair, or within 50km of the new city's centre when `city` changes in the same request. Cannot be cleared once set"
+msgstr ""
+
+msgid "Invalid organization"
+msgstr "Organizația nu este validă"
+
+msgid "This value differs from the confirmed location. Select again."
+msgstr ""
+
+msgid "Provide latitude and longitude together."
+msgstr ""
+
+msgid "Facility location selection is not enabled."
+msgstr ""
+
+#, fuzzy
+#| msgid "Selected Organizations"
+msgid "Select an active organization."
+msgstr "Organizații selectate"
 
 msgid "Valid latitude is required"
 msgstr "Este necesară o latitudine validă"
@@ -2150,12 +2277,97 @@ msgstr "Este necesară o latitudine validă"
 msgid "Valid longitude is required"
 msgstr "Este necesară o longitudine validă"
 
+msgid "Expanded `fac` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Expanded `carrier` object, included only when the request `depth` is high enough"
+msgstr ""
+
+#, fuzzy
+#| msgid "number of facilities at this exchange"
+msgid "Name of the facility this record refers to"
+msgstr "numărul de Facilități la acest Internet Exchange"
+
+msgid "Expanded `ix` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Country of the facility this record refers to"
+msgstr ""
+
+msgid "City of the facility this record refers to"
+msgstr ""
+
+msgid "Expanded `net` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Id of the facility housing the network side of this connection"
+msgstr ""
+
+msgid "Id of the facility housing the exchange side of this connection"
+msgstr ""
+
+msgid "Expanded `ixlan` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Name of the exchange, suffixed with the LAN name when the LAN is named"
+msgstr ""
+
+msgid "Id of the exchange this connection belongs to"
+msgstr ""
+
+msgid "Supports RFC8950 extended next hop on this connection. Submit null to clear."
+msgstr ""
+
+msgid "Planned change to this connection's status: 'deleted' (the network is leaving the exchange) or 'ok' (the connection goes live). Submit blank together with planned_status_change_date to clear."
+msgstr ""
+
+msgid "Date the planned status change takes effect (YYYY-MM-DD), in the future and within the configured window."
+msgstr ""
+
+msgid "Connection state: `ok` and `not-operational` are published, `pending` awaits approval, and `deleted` is removed. API status changes may only select `ok` or `not-operational`."
+msgstr ""
+
+msgid "Optional attributes using registered metadata keys. Supplying this document replaces stored metadata; flat metadata fields update individual keys."
+msgstr ""
+
+msgid "must be a boolean value"
+msgstr ""
+
+msgid "status may only be set to 'ok' or 'not-operational'"
+msgstr ""
+
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "Rețeaua trebuie să aibă un punct de contact tehnic, NOC sau de politici cu o adresă e-mail validă înainte de a adăuga un Internet Exchange."
+
+#, fuzzy
+#| msgid "number of networks at this facility"
+msgid "Autonomous System Number of the network at this facility"
+msgstr "Numărul de rețele prezente la această Facilitate"
 
 #, python-format
 msgid "Invalid value for info_type: %(value)s"
 msgstr "Valoare invalidă pentru info_type: %(value)s"
+
+msgid "BGP community this network accepts for remote-triggered blackholing, in standard (asn:value) or large (asn:local1:local2) format. Stored canonically, so leading zeros are dropped. Submit blank to clear."
+msgstr ""
+
+msgid "Preferred IP MTU for private network interconnection. Submit blank or null to clear."
+msgstr ""
+
+msgid "Write-only. Set to exclude `speed` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "Write-only. Set to exclude `is_rs_peer` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "Write-only. Set to exclude `operational` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "`ok` when RIR data shows this network's ASN as allocated, otherwise `null`. The more detailed status kept internally is not exposed here. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Legacy single network type, superseded by `info_types`. Carries one of the network's types, but which one is not defined: it is ordered differently from `info_types` and is not necessarily its first entry. Read `info_types` for the full set. Writing this field replaces `info_types` entirely with the single value sent, discarding any `info_types` in the same request; write `info_types` instead"
+msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
 msgstr "Rețeaua a fost ștearsă. Vă rugăm să contactați {}"
@@ -2172,11 +2384,74 @@ msgstr "Nu poate fi activat – este necesar un contact de tip Tehnic, NOC sau P
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr "Proprietatea `in_dfz` a fost depreciată și setarea acesteia la „False” nu mai este acceptată"
 
+msgid "Obsolete. Always `false`; the field is deprecated and no longer describes 802.1Q VLAN tagging support. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Write-only. IP prefix to create the exchange's first LAN prefix from. Required on create, ignored on update"
+msgstr ""
+
+msgid "Write-only. IX-F member list URL supplied on create, used to assess auto-approval. Ignored on update, and stored on the LAN only when auto-approval succeeds"
+msgstr ""
+
+msgid "Whether this exchange has an active IPv4 prefix on its LAN. Derived from the prefix records, not a declared capability. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Whether this exchange has an active IPv6 prefix on its LAN. Derived from the prefix records, not a declared capability. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Obsolete. Always `Ethernet`; the field is deprecated and no longer describes the physical media offered. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "Specificați cel puțin o adresă e-mail"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr "Utilizatorul nu poate crea un Internet Exchange cu organizația stabilită ca organizație SUGGEST_ENTITY"
+
+msgid "City of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Country of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "State of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Postal code of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Entity type the asset belongs to: org, fac, net, ix, carrier or campus"
+msgstr ""
+
+msgid "Id of the entity the asset belongs to"
+msgstr ""
+
+msgid "Type of asset. Only `logo` is currently supported"
+msgstr ""
+
+msgid "MIME type of the asset file"
+msgstr ""
+
+msgid "Base64 encoded contents of the asset file"
+msgstr ""
+
+msgid "Time the entity this asset belongs to was created, not the time the asset was uploaded"
+msgstr ""
+
+msgid "Time the entity this asset belongs to was last modified. Moves on any change to that entity, not only on a change to the asset"
+msgstr ""
+
+msgid "This user's role in the organization: `admin` can manage the organization, `member` cannot"
+msgstr ""
+
+msgid "First and last name of the user, combined"
+msgstr ""
+
+msgid "Account state: `ok` once the account has been approved, either by the organization it affiliated with or by PeeringDB staff, `pending` until then. Unrelated to email address confirmation"
+msgstr ""
+
+msgid "Whether this account is enabled. `false` for a closed or administratively disabled account, which cannot sign in"
+msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr "Facilitatea nu poate face parte dintr-un campus deoarece îi lipsesc coordonatele de geolocație"
@@ -2977,6 +3252,61 @@ msgstr "Nu aveți permisiuni pentru a vizualiza această pagină."
 msgid "Take me home"
 msgstr "Du-mă acasă"
 
+#, fuzzy
+#| msgid "Change Email"
+msgid "Change location"
+msgstr "Schimbare e-mail"
+
+#, fuzzy
+#| msgid "Facility link"
+msgid "Facility location"
+msgstr "legătura cu Facilitatea"
+
+msgid "Search for the facility address, select a Google result, then confirm the location below."
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility country"
+msgid "Select country"
+msgstr "țară Facilitate"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Search address"
+msgstr "adresă de e-mail"
+
+msgid "Street address or facility name"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address 1"
+msgid "Address results"
+msgstr "Adresă 1"
+
+msgid "Can't find the right location? Choose on map"
+msgstr ""
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Cancel location change"
+msgstr "Conexiuni la Internet Exchange-uri"
+
+msgid "Choose the facility location on the map"
+msgstr ""
+
+#, fuzzy
+#| msgid "Confirmation"
+msgid "Confirm this location"
+msgstr "Confirmare"
+
+#, fuzzy
+#| msgid "Port Location"
+msgid "Use this location"
+msgstr "Locația portului"
+
+msgid "If the location or address details are wrong, email support. Include the facility name or ID, entered address, selected point, and what needs correcting."
+msgstr ""
+
 msgid "All Rights Reserved. By using this service, you agree to adhere to our"
 msgstr "Toate drepturile rezervate. Prin utilizarea acestui serviciu sunteți de acord cu"
 
@@ -3698,6 +4028,18 @@ msgstr "legătura dintre rețea și Internet Exchange"
 msgid "Not operational"
 msgstr "Nu este operațional"
 
+msgid "Announced by the network. Plans are declarations of intent -- nothing happens automatically on this date."
+msgstr ""
+
+msgid "planned removal"
+msgstr ""
+
+msgid "planned activation"
+msgstr ""
+
+msgid "The network supports RFC8950 extended next hop on this connection"
+msgstr ""
+
 msgid "Add your exchange"
 msgstr "Adaugă Internet Exchange-ul tău"
 
@@ -3834,11 +4176,22 @@ msgstr "Se vor adăuga toate intrările sugerate"
 msgid "Auto Add"
 msgstr "Adăugare automată"
 
+msgid "RFC8950"
+msgstr ""
+
+#, fuzzy
+#| msgid "Name changed"
+msgid "Planned change"
+msgstr "Nume schimbat"
+
 msgid "BFD Support"
 msgstr "Suport BFD"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "Înregistrarea trebuie mutată în rețeaua corectă"
+
+msgid "No RFC8950"
+msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "Adăugați Internet Exchange"
@@ -3875,6 +4228,11 @@ msgstr "Permisiunile cheilor API"
 
 msgid "Delete Organization"
 msgstr "Ștergeți organizația"
+
+#, fuzzy
+#| msgid "Selective"
+msgid "Selected above"
+msgstr "Selectiv"
 
 msgid "-- Select Country --"
 msgstr ""
@@ -3959,7 +4317,9 @@ msgstr ""
 msgid "Update Options"
 msgstr "Opțiuni de actualizare"
 
-msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+#, fuzzy
+#| msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+msgid "Here you can grant permissions to members of your organization. Administrative users are listed, but they already have full access through their role, so permissions cannot be assigned to them here."
 msgstr "Aici puteți acorda permisiuni membrilor obișnuiți ai organizației dvs. Utilizatorii administrativi nu sunt enumerați aici, deoarece au acces la orice în mod implicit."
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
@@ -4387,9 +4747,6 @@ msgstr ""
 msgid "Please wait a bit before requesting ownership again."
 msgstr "Vă rugăm să așteptați puțin înainte să solicitați din nou proprietatea."
 
-msgid "Invalid organization"
-msgstr "Organizația nu este validă"
-
 #, python-format
 msgid "Organization '%(org_name)s' is already under ownership"
 msgstr "Organizația '%(org_name)s' este deja deținută de altcineva"
@@ -4540,6 +4897,20 @@ msgstr ""
 msgid "Protocols Supported"
 msgstr "Protocoale acceptate"
 
+msgid "RTBH Community"
+msgstr ""
+
+msgid "BGP community this network accepts for remote-triggered blackholing, as asn:value or asn:local1:local2"
+msgstr ""
+
+#, fuzzy
+#| msgid "Preferred"
+msgid "Preferred IP MTU"
+msgstr "Preferat"
+
+msgid "Preferred IP MTU for private network interconnection with this network"
+msgstr ""
+
 msgid "Public Peering Info Updated"
 msgstr "Informații publice de peering au fost actualizate"
 
@@ -4676,9 +5047,6 @@ msgstr "Adresa ta de email trebuie confirmată înainte de a activa autentificar
 #~ msgid "You may view and edit your organization users at"
 #~ msgstr "Puteți vedea și edita utilizatorii organizației dvs. la"
 
-#~ msgid "Confirmation"
-#~ msgstr "Confirmare"
-
 #~ msgid "Some of your organizations request that you need to enable 2FA. Your access to them has been restricted until you do so."
 #~ msgstr "Unele dintre organizațiile dvs. solicită să activați 2FA. Accesul dumneavoastră la ele a fost restricționat până când veți face acest lucru."
 
@@ -4794,9 +5162,6 @@ msgstr "Adresa ta de email trebuie confirmată înainte de a activa autentificar
 
 #~ msgid "Change email address"
 #~ msgstr "Schimbați adresa e-mail"
-
-#~ msgid "Change Email"
-#~ msgstr "Schimbare e-mail"
 
 #~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
 #~ msgstr "IX-F Importer: Zile până la crearea ticketului DeskPRO"

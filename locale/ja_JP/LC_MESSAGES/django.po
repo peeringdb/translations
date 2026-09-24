@@ -912,6 +912,11 @@ msgstr ""
 msgid "Not set"
 msgstr "設定されていません"
 
+#, fuzzy
+#| msgid "Key not found"
+msgid "Facility not found"
+msgstr "Key が見つかりません"
+
 msgid "APPROVE selected items"
 msgstr "選択したアイテムが承認されました"
 
@@ -1165,6 +1170,15 @@ msgstr "Updates an existing `{obj_type}` type object."
 msgid "Marks an `{obj_type}` type object as `deleted`."
 msgstr "Marks an `{obj_type}` type object as `deleted`."
 
+msgid "Planned Removal"
+msgstr ""
+
+msgid "Planned Activation"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
 msgid "Yes"
 msgstr "有り"
 
@@ -1323,6 +1337,12 @@ msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F 
 msgid "PeeringDB: Action May Be Needed: IX-F Importer data mismatch between {} and one or more networks"
 msgstr "PeeringDB: なにかアクションが必要かもしれません: IX-F Importer data が {} と1つ以上のネットワークの間でミスマッチが発生しています"
 
+msgid "Google place"
+msgstr ""
+
+msgid "Map pin"
+msgstr ""
+
 msgid "{} Merge Notification: {} -> {}"
 msgstr "{} 統合の通知: {} -> {}"
 
@@ -1370,6 +1390,15 @@ msgstr ""
 
 #, python-format
 msgid "PeeringDB: %(org_name)s Outdated Pending Requests Deleted"
+msgstr ""
+
+msgid "must be an object"
+msgstr ""
+
+msgid "unregistered metadata key"
+msgstr ""
+
+msgid "not permitted to set this key"
 msgstr ""
 
 #, fuzzy
@@ -1674,6 +1703,11 @@ msgstr "組織の統合: エンティティ"
 msgid "Organization Merge: Entities"
 msgstr "組織の統合: エンティティ"
 
+#, fuzzy
+#| msgid "Suggest another facility"
+msgid "Website of the facility"
+msgstr "さらにデータセンタ情報追加の提案をする"
+
 msgid "number of exchanges at this facility"
 msgstr "このデータセンタ内のエクスチェンジの数"
 
@@ -1741,6 +1775,9 @@ msgstr "Exchange has active facility connection(s): {} ..."
 
 msgid "Exchange has active peer(s)"
 msgstr "このエクスチェンジはアクティブなピア（ネットワーク）のデータを持っています"
+
+msgid "Whether the IX-F member export at `ixf_ixp_member_list_url` is imported automatically for this LAN"
+msgstr ""
 
 msgid "IX-F error"
 msgstr "IX-F エラー(IX-F error)"
@@ -1819,6 +1856,9 @@ msgstr "IX-F メンバーデータ"
 msgid "No suitable ipaddresses when validating against the enabled network protocols"
 msgstr "有効なネットワークプロトコルなのか検証しましたが、適切な IP アドレスではありません"
 
+msgid "Whether this prefix is routed in the default-free zone"
+msgstr ""
+
 msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 msgstr "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 
@@ -1829,6 +1869,15 @@ msgid "Specifies whether an IXP is allowed to add a netixlan entry for this netw
 msgstr "ixp_member のデータを介して、IXP がこのネットワークの netixlan エントリーに追加出来るかどうか指定します"
 
 msgid "List of IX-F fields to exclude from automatic import updates. Valid values: speed, is_rs_peer, operational"
+msgstr ""
+
+msgid "Time the most recently changed exchange connection (`netixlan`) of this network was updated. Read-only"
+msgstr ""
+
+msgid "Time the most recently changed facility presence (`netfac`) of this network was updated. Read-only"
+msgstr ""
+
+msgid "Time the most recently changed point of contact (`poc`) of this network was updated. Read-only"
 msgstr ""
 
 msgid "number of exchanges at this network"
@@ -1879,8 +1928,18 @@ msgstr "有効なユーザ名を入力してください"
 msgid "first name"
 msgstr "名"
 
+#, fuzzy
+#| msgid "name of the tool"
+msgid "Given name of the user"
+msgstr "ツール名"
+
 msgid "last name"
 msgstr "姓"
+
+#, fuzzy
+#| msgid "name of the tool"
+msgid "Family name of the user"
+msgstr "ツール名"
 
 msgid "staff status"
 msgstr "スタッフの状態"
@@ -1896,6 +1955,9 @@ msgstr "そのユーザがアクティブユーザとして扱われるべきか
 
 msgid "date joined"
 msgstr "参加した日時"
+
+msgid "Time this user account was registered"
+msgstr ""
 
 msgid "status"
 msgstr "ステータス"
@@ -2221,6 +2283,14 @@ msgstr "入力した住所が見つかりませんでした。住所のデータ
 msgid "Invalid value"
 msgstr "不正な値"
 
+#, python-format
+msgid "%(key)s also needs a %(part)s."
+msgstr ""
+
+#, python-format
+msgid "Clear this, or also set a %(part)s for %(key)s."
+msgstr ""
+
 msgid "This field is required"
 msgstr "このフィールドは必須です"
 
@@ -2231,8 +2301,63 @@ msgstr "RDAP 参照エラー"
 msgid "This field is only allowed for these requests: {methods}"
 msgstr "このフィールドは以下のリクエストにのみ使用可能です {methods}"
 
+msgid "Unique numeric identifier for this object"
+msgstr ""
+
+msgid "Object state: `ok` is live and publicly visible, `pending` is awaiting review, `deleted` is soft-deleted and retained but omitted from normal listings"
+msgstr ""
+
+msgid "Time this object was first created. Soft-deleting and later restoring an object does not reset it, so it may predate the object's current owner"
+msgstr ""
+
+msgid "Time this object was last modified, including status changes"
+msgstr ""
+
+#, python-format
+msgid "Id of the related `%(tag)s` object"
+msgstr ""
+
+#, python-format
+msgid "Related `%(tag)s` objects, listed as ids unless expanded with `depth`"
+msgstr ""
+
 msgid "Required for distance filtering"
 msgstr "Required for distance filtering"
+
+msgid "Name of the organization this record belongs to"
+msgstr ""
+
+msgid "Expanded `org` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Expanded `campus` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Write-only. Any value present on create, including `false`, files this record under the organization that holds suggested entities, rather than creating it directly"
+msgstr ""
+
+msgid "Latitude in decimal degrees. Geocoded from the postal address on create, where submitted values are ignored. Writable on update: within 1km of the current pair, or within 50km of the new city's centre when `city` changes in the same request. Cannot be cleared once set"
+msgstr ""
+
+msgid "Longitude in decimal degrees. Geocoded from the postal address on create, where submitted values are ignored. Writable on update: within 1km of the current pair, or within 50km of the new city's centre when `city` changes in the same request. Cannot be cleared once set"
+msgstr ""
+
+msgid "Invalid organization"
+msgstr "無効な組織"
+
+msgid "This value differs from the confirmed location. Select again."
+msgstr ""
+
+msgid "Provide latitude and longitude together."
+msgstr ""
+
+msgid "Facility location selection is not enabled."
+msgstr ""
+
+#, fuzzy
+#| msgid "Selected Organizations"
+msgid "Select an active organization."
+msgstr "組織名"
 
 #, fuzzy
 #| msgid "This field is required"
@@ -2244,11 +2369,96 @@ msgstr "このフィールドは必須です"
 msgid "Valid longitude is required"
 msgstr "このフィールドは必須です"
 
+msgid "Expanded `fac` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Expanded `carrier` object, included only when the request `depth` is high enough"
+msgstr ""
+
+#, fuzzy
+#| msgid "number of facilities at this exchange"
+msgid "Name of the facility this record refers to"
+msgstr "このエクスチェンジがあるデータセンタの数"
+
+msgid "Expanded `ix` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Country of the facility this record refers to"
+msgstr ""
+
+msgid "City of the facility this record refers to"
+msgstr ""
+
+msgid "Expanded `net` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Id of the facility housing the network side of this connection"
+msgstr ""
+
+msgid "Id of the facility housing the exchange side of this connection"
+msgstr ""
+
+msgid "Expanded `ixlan` object, included only when the request `depth` is high enough"
+msgstr ""
+
+msgid "Name of the exchange, suffixed with the LAN name when the LAN is named"
+msgstr ""
+
+msgid "Id of the exchange this connection belongs to"
+msgstr ""
+
+msgid "Supports RFC8950 extended next hop on this connection. Submit null to clear."
+msgstr ""
+
+msgid "Planned change to this connection's status: 'deleted' (the network is leaving the exchange) or 'ok' (the connection goes live). Submit blank together with planned_status_change_date to clear."
+msgstr ""
+
+msgid "Date the planned status change takes effect (YYYY-MM-DD), in the future and within the configured window."
+msgstr ""
+
+msgid "Connection state: `ok` and `not-operational` are published, `pending` awaits approval, and `deleted` is removed. API status changes may only select `ok` or `not-operational`."
+msgstr ""
+
+msgid "Optional attributes using registered metadata keys. Supplying this document replaces stored metadata; flat metadata fields update individual keys."
+msgstr ""
+
+msgid "must be a boolean value"
+msgstr ""
+
+msgid "status may only be set to 'ok' or 'not-operational'"
+msgstr ""
+
 msgid "Network must have a Technical, NOC, or Policy point of contact with valid email before adding exchange point."
 msgstr "エクスチェンジポイントを追加するには、技術担当、NOC、ポリシー担当の有効なメールアドレスが入力されている必要があります。"
 
+#, fuzzy
+#| msgid "number of networks at this facility"
+msgid "Autonomous System Number of the network at this facility"
+msgstr "このデータセンタ内のネットワークの数"
+
 #, python-format
 msgid "Invalid value for info_type: %(value)s"
+msgstr ""
+
+msgid "BGP community this network accepts for remote-triggered blackholing, in standard (asn:value) or large (asn:local1:local2) format. Stored canonically, so leading zeros are dropped. Submit blank to clear."
+msgstr ""
+
+msgid "Preferred IP MTU for private network interconnection. Submit blank or null to clear."
+msgstr ""
+
+msgid "Write-only. Set to exclude `speed` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "Write-only. Set to exclude `is_rs_peer` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "Write-only. Set to exclude `operational` from automatic IX-F updates. Reflected in `ixp_update_exclude`"
+msgstr ""
+
+msgid "`ok` when RIR data shows this network's ASN as allocated, otherwise `null`. The more detailed status kept internally is not exposed here. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Legacy single network type, superseded by `info_types`. Carries one of the network's types, but which one is not defined: it is ordered differently from `info_types` and is not necessarily its first entry. Read `info_types` for the full set. Writing this field replaces `info_types` entirely with the single value sent, discarding any `info_types` in the same request; write `info_types` instead"
 msgstr ""
 
 msgid "Network has been deleted. Please contact {}"
@@ -2268,11 +2478,74 @@ msgstr "エクスチェンジポイントを追加するには、技術担当、
 msgid "The `in_dfz` property has been deprecated and setting it to `False` is no longer supported"
 msgstr "`in_dfz` プロパティは非推奨になり、 `False` への設定はサポートされなくなりました"
 
+msgid "Obsolete. Always `false`; the field is deprecated and no longer describes 802.1Q VLAN tagging support. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Write-only. IP prefix to create the exchange's first LAN prefix from. Required on create, ignored on update"
+msgstr ""
+
+msgid "Write-only. IX-F member list URL supplied on create, used to assess auto-approval. Ignored on update, and stored on the LAN only when auto-approval succeeds"
+msgstr ""
+
+msgid "Whether this exchange has an active IPv4 prefix on its LAN. Derived from the prefix records, not a declared capability. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Whether this exchange has an active IPv6 prefix on its LAN. Derived from the prefix records, not a declared capability. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
+msgid "Obsolete. Always `Ethernet`; the field is deprecated and no longer describes the physical media offered. Read-only; values submitted on create or update are ignored"
+msgstr ""
+
 msgid "Specify at least one email address"
 msgstr "最低限、メールアドレスを1つ指定してください"
 
 msgid "User cannot create an internet exchange withits org set as the SUGGEST_ENTITY organization"
 msgstr "ユーザは、SUGGEST_ENTITY 組織として設定されているインターネットエクスチェンジを作成できません"
+
+msgid "City of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Country of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "State of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Postal code of the first facility in this campus, empty if it has none"
+msgstr ""
+
+msgid "Entity type the asset belongs to: org, fac, net, ix, carrier or campus"
+msgstr ""
+
+msgid "Id of the entity the asset belongs to"
+msgstr ""
+
+msgid "Type of asset. Only `logo` is currently supported"
+msgstr ""
+
+msgid "MIME type of the asset file"
+msgstr ""
+
+msgid "Base64 encoded contents of the asset file"
+msgstr ""
+
+msgid "Time the entity this asset belongs to was created, not the time the asset was uploaded"
+msgstr ""
+
+msgid "Time the entity this asset belongs to was last modified. Moves on any change to that entity, not only on a change to the asset"
+msgstr ""
+
+msgid "This user's role in the organization: `admin` can manage the organization, `member` cannot"
+msgstr ""
+
+msgid "First and last name of the user, combined"
+msgstr ""
+
+msgid "Account state: `ok` once the account has been approved, either by the organization it affiliated with or by PeeringDB staff, `pending` until then. Unrelated to email address confirmation"
+msgstr ""
+
+msgid "Whether this account is enabled. `false` for a closed or administratively disabled account, which cannot sign in"
+msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr ""
@@ -3089,6 +3362,61 @@ msgstr "あなたは、このページを閲覧する権限を持っていませ
 msgid "Take me home"
 msgstr "Take me home"
 
+#, fuzzy
+#| msgid "Change Email"
+msgid "Change location"
+msgstr "メールアドレスを変更する"
+
+#, fuzzy
+#| msgid "Facility name"
+msgid "Facility location"
+msgstr "データセンタの名前"
+
+msgid "Search for the facility address, select a Google result, then confirm the location below."
+msgstr ""
+
+#, fuzzy
+#| msgid "Facility country"
+msgid "Select country"
+msgstr "データセンタの国名"
+
+#, fuzzy
+#| msgid "email address"
+msgid "Search address"
+msgstr "メールアドレス"
+
+msgid "Street address or facility name"
+msgstr ""
+
+#, fuzzy
+#| msgid "Address 1"
+msgid "Address results"
+msgstr "アドレス 1"
+
+msgid "Can't find the right location? Choose on map"
+msgstr ""
+
+#, fuzzy
+#| msgid "Connections to Exchanges"
+msgid "Cancel location change"
+msgstr "エクスチェンジ接続"
+
+msgid "Choose the facility location on the map"
+msgstr ""
+
+#, fuzzy
+#| msgid "Email Confirmation"
+msgid "Confirm this location"
+msgstr "メールアドレス確認"
+
+#, fuzzy
+#| msgid "Location"
+msgid "Use this location"
+msgstr "住所"
+
+msgid "If the location or address details are wrong, email support. Include the facility name or ID, entered address, selected point, and what needs correcting."
+msgstr ""
+
 msgid "All Rights Reserved. By using this service, you agree to adhere to our"
 msgstr "転載を禁じます。このサービスを利用する事は、著作権に従う事に同意している事となります"
 
@@ -3883,6 +4211,18 @@ msgstr "ネットワーク - エクスチェンジ のリンク"
 msgid "Not operational"
 msgstr "非稼働"
 
+msgid "Announced by the network. Plans are declarations of intent -- nothing happens automatically on this date."
+msgstr ""
+
+msgid "planned removal"
+msgstr ""
+
+msgid "planned activation"
+msgstr ""
+
+msgid "The network supports RFC8950 extended next hop on this connection"
+msgstr ""
+
 #, fuzzy
 #| msgid "Add Exchange"
 msgid "Add your exchange"
@@ -4027,6 +4367,14 @@ msgstr "提案された全てのエントリーを追加します"
 msgid "Auto Add"
 msgstr "Auto Add"
 
+msgid "RFC8950"
+msgstr ""
+
+#, fuzzy
+#| msgid "Username"
+msgid "Planned change"
+msgstr "ユーザ名"
+
 #, fuzzy
 #| msgid "24/7 Support"
 msgid "BFD Support"
@@ -4034,6 +4382,9 @@ msgstr "24/7 サポート"
 
 msgid "Entry needs to be moved to correct network"
 msgstr "このエントリーは正しいネットワークに移動させる必要があります"
+
+msgid "No RFC8950"
+msgstr ""
 
 msgid "Add Exchange Point"
 msgstr "このエクスチェンジポイントを追加"
@@ -4072,6 +4423,11 @@ msgstr "API Key 権限"
 
 msgid "Delete Organization"
 msgstr "組織を削除"
+
+#, fuzzy
+#| msgid "Selective"
+msgid "Selected above"
+msgstr "Selective"
 
 msgid "-- Select Country --"
 msgstr ""
@@ -4158,7 +4514,9 @@ msgstr ""
 msgid "Update Options"
 msgstr "Options"
 
-msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+#, fuzzy
+#| msgid "Here you can grant permissions to regular members of your organization. Administrative users are not listed here as they have access to everything by default."
+msgid "Here you can grant permissions to members of your organization. Administrative users are listed, but they already have full access through their role, so permissions cannot be assigned to them here."
 msgstr "ここでは、あなたの組織の所属メンバーに権限を与える事が出来ます。管理者権限を持つユーザはデフォルトで全てのアクセス権を持っている為、ここに表示されていません。"
 
 msgid "Additionally, entities that are pending review cannot be permissioned out to users, and will not appear in the entity list."
@@ -4624,9 +4982,6 @@ msgstr ""
 msgid "Please wait a bit before requesting ownership again."
 msgstr "所有権の再リクエストをするまで少々お待ちください"
 
-msgid "Invalid organization"
-msgstr "無効な組織"
-
 #, python-format
 msgid "Organization '%(org_name)s' is already under ownership"
 msgstr "'%(org_name)s' の組織は既に所有済みです"
@@ -4797,6 +5152,20 @@ msgstr "この AS 番号とのピアで推奨される IPv6 経路数の上限�
 msgid "Protocols Supported"
 msgstr "サポートされているプロトコル"
 
+msgid "RTBH Community"
+msgstr ""
+
+msgid "BGP community this network accepts for remote-triggered blackholing, as asn:value or asn:local1:local2"
+msgstr ""
+
+#, fuzzy
+#| msgid "Preferred"
+msgid "Preferred IP MTU"
+msgstr "推奨"
+
+msgid "Preferred IP MTU for private network interconnection with this network"
+msgstr ""
+
 msgid "Public Peering Info Updated"
 msgstr "エクスチェンジ情報のアップデート日時"
 
@@ -4924,11 +5293,6 @@ msgstr ""
 #~ msgstr "あなたはあなたの組織の閲覧と編集をする事が出来ます"
 
 #, fuzzy
-#~| msgid "Email Confirmation"
-#~ msgid "Confirmation"
-#~ msgstr "メールアドレス確認"
-
-#, fuzzy
 #~| msgid "The password for your account"
 #~ msgid "Activate 2FA for your account"
 #~ msgstr "あなたのアカウントのパスワード"
@@ -5003,9 +5367,6 @@ msgstr ""
 
 #~ msgid "Change email address"
 #~ msgstr "メールアドレスの変更"
-
-#~ msgid "Change Email"
-#~ msgstr "メールアドレスを変更する"
 
 #~ msgid "IX-F Importer: Days until DeskPRO ticket is created"
 #~ msgstr "IX-F Importer: DeskPRO ticket が作成されるまでの日数"
