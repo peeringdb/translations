@@ -1234,8 +1234,8 @@ msgstr "Diferențele datelor între PeeringDB și datele IX-F ale Exchange-ului"
 msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
 msgstr ""
 
-msgid "We found that your IX-F output "
-msgstr "Am constatat că ieșirea dvs. IX-F "
+msgid "We found that your IX-F output contained multiple VLANs for the prefixes defined in the PeeringDB entry for your exchange."
+msgstr ""
 
 msgid "IX-F import url not specified"
 msgstr "URL-ul importului IX-F nu este specificat"
@@ -2455,10 +2455,6 @@ msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr "Facilitatea nu poate face parte dintr-un campus deoarece îi lipsesc coordonatele de geolocație"
-
-#, python-brace-format
-msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
-msgstr "Facilitate în afara limitelor campusului (max. {settings.CAMPUS_MAX_DISTANCE} km)"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -4583,6 +4579,18 @@ msgstr "cheie de securitate U2F"
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Adresa dvs. de email nu se potrivește cu informațiile legate de domeniu pe care le deținem pentru această organizație."
 
+msgid "seconds ago"
+msgstr "secunde în urmă"
+
+msgid "minutes ago"
+msgstr "minute în urmă"
+
+msgid "hours ago"
+msgstr "ore în urmă"
+
+msgid "days ago"
+msgstr "zile în urmă"
+
 msgid "Invalid format"
 msgstr "Format invalid"
 
@@ -4714,14 +4722,6 @@ msgstr "Identificator invalid!"
 msgid "Data is empty"
 msgstr "Datele sunt goale"
 
-#, python-brace-format
-msgid "Unknown object type: {ref_tag}"
-msgstr "Tip de obiect necunoscut: {ref_tag}"
-
-#, python-brace-format
-msgid "object {ref_tag}.{obj_id} not found"
-msgstr "obiectul {ref_tag}.{obj_id} nu a fost găsit"
-
 msgid "Geo coding failed: City not found"
 msgstr "Codificarea geografică a eșuat: Orașul nu a fost găsit"
 
@@ -4733,10 +4733,6 @@ msgstr "Nicio sarcină utilă furnizată"
 
 msgid "Invalid JSON in payload"
 msgstr "JSON invalid în sarcina utilă"
-
-#, python-brace-format
-msgid "Proposed update contains invalid data: {data}"
-msgstr "Actualizarea propusă conține date invalide: {data}"
 
 msgid "Please wait a bit before requesting accept verified updates again."
 msgstr "Vă rugăm să așteptați puțin înainte de a solicita din nou acceptarea actualizărilor verificate."
@@ -4981,12 +4977,31 @@ msgstr ""
 msgid "Malformed Organization Preference"
 msgstr "Preferință organizație incorectă"
 
-#, python-brace-format
-msgid "{user} is not member of {org}"
-msgstr "{user} nu este membru al {org}"
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr "Adresa ta de email trebuie confirmată înainte de a activa autentificarea în doi pași."
+
+#~ msgid "We found that your IX-F output "
+#~ msgstr "Am constatat că ieșirea dvs. IX-F "
+
+#, python-brace-format
+#~ msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
+#~ msgstr "Facilitate în afara limitelor campusului (max. {settings.CAMPUS_MAX_DISTANCE} km)"
+
+#, python-brace-format
+#~ msgid "Unknown object type: {ref_tag}"
+#~ msgstr "Tip de obiect necunoscut: {ref_tag}"
+
+#, python-brace-format
+#~ msgid "object {ref_tag}.{obj_id} not found"
+#~ msgstr "obiectul {ref_tag}.{obj_id} nu a fost găsit"
+
+#, python-brace-format
+#~ msgid "Proposed update contains invalid data: {data}"
+#~ msgstr "Actualizarea propusă conține date invalide: {data}"
+
+#, python-brace-format
+#~ msgid "{user} is not member of {org}"
+#~ msgstr "{user} nu este membru al {org}"
 
 #~ msgid "IRR as-set/route-set"
 #~ msgstr "IRR as-set/route-set"
@@ -5071,18 +5086,6 @@ msgstr "Adresa ta de email trebuie confirmată înainte de a activa autentificar
 
 #~ msgid "Login as the organization admin to perform the action"
 #~ msgstr "Conectați-vă ca administrator al organizației pentru a efectua acțiunea"
-
-#~ msgid "seconds ago"
-#~ msgstr "secunde în urmă"
-
-#~ msgid "minutes ago"
-#~ msgstr "minute în urmă"
-
-#~ msgid "hours ago"
-#~ msgstr "ore în urmă"
-
-#~ msgid "days ago"
-#~ msgstr "zile în urmă"
 
 #~ msgid "Local ASN"
 #~ msgstr "ASN local"

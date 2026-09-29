@@ -1364,7 +1364,7 @@ msgstr ""
 msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
 msgstr ""
 
-msgid "We found that your IX-F output "
+msgid "We found that your IX-F output contained multiple VLANs for the prefixes defined in the PeeringDB entry for your exchange."
 msgstr ""
 
 #, fuzzy
@@ -2696,10 +2696,6 @@ msgid "Whether this account is enabled. `false` for a closed or administratively
 msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
-msgstr ""
-
-#, python-brace-format
-msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, fuzzy, python-format
@@ -5049,6 +5045,18 @@ msgstr ""
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr ""
 
+msgid "seconds ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "hours ago"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
 #, fuzzy
 #| msgid "Please wait a bit before trying to login again."
 msgid "Invalid format"
@@ -5185,14 +5193,6 @@ msgstr "Lütfen tekrar giriş yapmayı denemeden önce biraz bekleyin."
 msgid "Data is empty"
 msgstr ""
 
-#, python-brace-format
-msgid "Unknown object type: {ref_tag}"
-msgstr ""
-
-#, python-brace-format
-msgid "object {ref_tag}.{obj_id} not found"
-msgstr ""
-
 msgid "Geo coding failed: City not found"
 msgstr ""
 
@@ -5205,10 +5205,6 @@ msgid "No payload provided"
 msgstr ""
 
 msgid "Invalid JSON in payload"
-msgstr ""
-
-#, python-brace-format
-msgid "Proposed update contains invalid data: {data}"
 msgstr ""
 
 #, fuzzy
@@ -5501,10 +5497,6 @@ msgstr ""
 #| msgid "Exchange - Facility link"
 msgid "Malformed Organization Preference"
 msgstr "Değişim noktası - Bina/Tesis bağlantısı"
-
-#, python-brace-format
-msgid "{user} is not member of {org}"
-msgstr ""
 
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""

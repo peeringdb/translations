@@ -1255,8 +1255,8 @@ msgstr "Diskrepanz zwischen Daten von PeeringDB und Internet Exchange"
 msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
 msgstr ""
 
-msgid "We found that your IX-F output "
-msgstr "Wir haben herausgefunden, dass Ihr IX-F Output "
+msgid "We found that your IX-F output contained multiple VLANs for the prefixes defined in the PeeringDB entry for your exchange."
+msgstr ""
 
 msgid "IX-F import url not specified"
 msgstr "Keine IX-F-Import-URL vorhanden"
@@ -2496,10 +2496,6 @@ msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr "Die Einrichtung kann nicht Teil eines Campus werden, da ihr die Geolokalisierungskoordinaten fehlen"
-
-#, python-brace-format
-msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
-msgstr "Liegenschaft außerhalb der Campusgrenzen (max. {settings.CAMPUS_MAX_DISTANCE} km)"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -4689,6 +4685,18 @@ msgstr "U2F-Sicherheitsschlüssel"
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Ihre E-Mail-Adresse entspricht nicht den Informationen, die uns zu dieser Organisation bekannt sind."
 
+msgid "seconds ago"
+msgstr "Sekunden her"
+
+msgid "minutes ago"
+msgstr "Minuten her"
+
+msgid "hours ago"
+msgstr "Stunden her"
+
+msgid "days ago"
+msgstr "Tage her"
+
 msgid "Invalid format"
 msgstr "Ungültiges Format"
 
@@ -4823,14 +4831,6 @@ msgstr "Ungültiger Identifier!"
 msgid "Data is empty"
 msgstr "Die Daten sind leer"
 
-#, python-brace-format
-msgid "Unknown object type: {ref_tag}"
-msgstr "Unbekannter Objekttyp: {ref_tag}"
-
-#, python-brace-format
-msgid "object {ref_tag}.{obj_id} not found"
-msgstr "Objekt {ref_tag}.{obj_id} nicht gefunden"
-
 #, fuzzy
 #| msgid "Geo coding failed: {}"
 msgid "Geo coding failed: City not found"
@@ -4844,10 +4844,6 @@ msgstr "Keine Nutzlast vorhanden"
 
 msgid "Invalid JSON in payload"
 msgstr "Ungültiges JSON in Nutzdaten"
-
-#, python-brace-format
-msgid "Proposed update contains invalid data: {data}"
-msgstr "Vorgeschlagene Aktualisierung enthält ungültige Daten: {data}"
 
 msgid "Please wait a bit before requesting accept verified updates again."
 msgstr "Bitte warten Sie ein wenig, bevor Sie erneut die Annahme von verifizierten Updates beantragen."
@@ -5098,12 +5094,31 @@ msgstr ""
 msgid "Malformed Organization Preference"
 msgstr "Ungültige Organisationspräferenz"
 
-#, python-brace-format
-msgid "{user} is not member of {org}"
-msgstr "{user} ist kein Mitglied von {org}"
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "We found that your IX-F output "
+#~ msgstr "Wir haben herausgefunden, dass Ihr IX-F Output "
+
+#, python-brace-format
+#~ msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
+#~ msgstr "Liegenschaft außerhalb der Campusgrenzen (max. {settings.CAMPUS_MAX_DISTANCE} km)"
+
+#, python-brace-format
+#~ msgid "Unknown object type: {ref_tag}"
+#~ msgstr "Unbekannter Objekttyp: {ref_tag}"
+
+#, python-brace-format
+#~ msgid "object {ref_tag}.{obj_id} not found"
+#~ msgstr "Objekt {ref_tag}.{obj_id} nicht gefunden"
+
+#, python-brace-format
+#~ msgid "Proposed update contains invalid data: {data}"
+#~ msgstr "Vorgeschlagene Aktualisierung enthält ungültige Daten: {data}"
+
+#, python-brace-format
+#~ msgid "{user} is not member of {org}"
+#~ msgstr "{user} ist kein Mitglied von {org}"
 
 #~ msgid "IRR as-set/route-set"
 #~ msgstr "IRR as-set/route-set"
@@ -5176,18 +5191,6 @@ msgstr ""
 
 #~ msgid "Login as the organization admin to perform the action"
 #~ msgstr "Melden Sie sich als Administrator der Organisation an, um die Aktion durchzuführen"
-
-#~ msgid "seconds ago"
-#~ msgstr "Sekunden her"
-
-#~ msgid "minutes ago"
-#~ msgstr "Minuten her"
-
-#~ msgid "hours ago"
-#~ msgstr "Stunden her"
-
-#~ msgid "days ago"
-#~ msgstr "Tage her"
 
 #~ msgid "Local ASN"
 #~ msgstr "Lokale ASN"

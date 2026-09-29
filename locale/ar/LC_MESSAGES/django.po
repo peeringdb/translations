@@ -1419,7 +1419,7 @@ msgstr ""
 msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
 msgstr ""
 
-msgid "We found that your IX-F output "
+msgid "We found that your IX-F output contained multiple VLANs for the prefixes defined in the PeeringDB entry for your exchange."
 msgstr ""
 
 #, fuzzy
@@ -2759,10 +2759,6 @@ msgid "Whether this account is enabled. `false` for a closed or administratively
 msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
-msgstr ""
-
-#, python-brace-format
-msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
 msgstr ""
 
 #, python-format
@@ -5104,6 +5100,18 @@ msgstr ""
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "لا يتطابق عنوان بريدك الإلكتروني مع معلومات النطاق (domain information) الموجودة في ملف هذه المؤسسة."
 
+msgid "seconds ago"
+msgstr "منذ ثانية"
+
+msgid "minutes ago"
+msgstr "منذ دقيقة"
+
+msgid "hours ago"
+msgstr "منذ ساعه"
+
+msgid "days ago"
+msgstr "منذ يوم"
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -5242,14 +5250,6 @@ msgstr "صيغة التنسيق لتصدير البيانات غير صحيحه"
 msgid "Data is empty"
 msgstr ""
 
-#, python-brace-format
-msgid "Unknown object type: {ref_tag}"
-msgstr ""
-
-#, python-brace-format
-msgid "object {ref_tag}.{obj_id} not found"
-msgstr ""
-
 #, fuzzy
 #| msgid "Geocoding error"
 msgid "Geo coding failed: City not found"
@@ -5264,10 +5264,6 @@ msgid "No payload provided"
 msgstr ""
 
 msgid "Invalid JSON in payload"
-msgstr ""
-
-#, python-brace-format
-msgid "Proposed update contains invalid data: {data}"
 msgstr ""
 
 #, fuzzy
@@ -5559,10 +5555,6 @@ msgstr ""
 msgid "Malformed Organization Preference"
 msgstr "ضبط اللغة المفضلة"
 
-#, python-brace-format
-msgid "{user} is not member of {org}"
-msgstr ""
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
 
@@ -5616,18 +5608,6 @@ msgstr ""
 #~| msgid "Invalid member type: {}"
 #~ msgid "Invalid member"
 #~ msgstr "نوع العضو غير صحيح: {}"
-
-#~ msgid "seconds ago"
-#~ msgstr "منذ ثانية"
-
-#~ msgid "minutes ago"
-#~ msgstr "منذ دقيقة"
-
-#~ msgid "hours ago"
-#~ msgstr "منذ ساعه"
-
-#~ msgid "days ago"
-#~ msgstr "منذ يوم"
 
 #~ msgid "Local ASN"
 #~ msgstr "رقم النظام المستقل المحلي"

@@ -1230,8 +1230,8 @@ msgstr "Duomenų skirtumai tarp PeeringDB ir biržos IX-F duomenų"
 msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
 msgstr ""
 
-msgid "We found that your IX-F output "
-msgstr "Neteisinga greičio vertė: negalima išanalizuoti "
+msgid "We found that your IX-F output contained multiple VLANs for the prefixes defined in the PeeringDB entry for your exchange."
+msgstr ""
 
 msgid "IX-F import url not specified"
 msgstr "Nenurodytas IX-F importo url"
@@ -2451,10 +2451,6 @@ msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr "Objektas negali būti įtrauktas į kampaniją, nes nėra jo geografinės vietos koordinačių"
-
-#, python-brace-format
-msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
-msgstr "Objektas yra už kampanijos ribų (maks. {settings.CAMPUS_MAX_DISTANCE}km)"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -4579,6 +4575,18 @@ msgstr "U2F saugumo raktas"
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Jūsų el. pašto adresas neatitinka mūsų turimos šios organizacijos domeno informacijos."
 
+msgid "seconds ago"
+msgstr "prieš kelias sekundes"
+
+msgid "minutes ago"
+msgstr "prieš minutes"
+
+msgid "hours ago"
+msgstr "prieš valandas"
+
+msgid "days ago"
+msgstr "prieš kelias dienas"
+
 msgid "Invalid format"
 msgstr "Netinkamas formatas"
 
@@ -4713,14 +4721,6 @@ msgstr "Neteisingas identifikatorius!"
 msgid "Data is empty"
 msgstr "Duomenys yra tušti"
 
-#, python-brace-format
-msgid "Unknown object type: {ref_tag}"
-msgstr "Nežinomas objekto tipas: {ref_tag}"
-
-#, python-brace-format
-msgid "object {ref_tag}.{obj_id} not found"
-msgstr "objektas {ref_tag}.{obj_id} nerastas"
-
 msgid "Geo coding failed: City not found"
 msgstr "Geo kodavimas nepavyko: Miestas nerastas"
 
@@ -4732,10 +4732,6 @@ msgstr "Naudingoji apkrova nepateikta"
 
 msgid "Invalid JSON in payload"
 msgstr "Netinkama JSON įkrovoje"
-
-#, python-brace-format
-msgid "Proposed update contains invalid data: {data}"
-msgstr "Siūlomame atnaujinime yra negaliojančių duomenų: {data}"
 
 msgid "Please wait a bit before requesting accept verified updates again."
 msgstr "Prieš vėl prašydami priimti patikrintus atnaujinimus, šiek tiek palaukite."
@@ -4980,12 +4976,31 @@ msgstr ""
 msgid "Malformed Organization Preference"
 msgstr "Neteisingai suformuota organizacijos pirmenybė"
 
-#, python-brace-format
-msgid "{user} is not member of {org}"
-msgstr "{user} nėra {org} narys"
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr "Prieš įjungiant dviejų veiksnių autentifikavimą, turi būti patvirtintas jūsų el. paštas."
+
+#~ msgid "We found that your IX-F output "
+#~ msgstr "Neteisinga greičio vertė: negalima išanalizuoti "
+
+#, python-brace-format
+#~ msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
+#~ msgstr "Objektas yra už kampanijos ribų (maks. {settings.CAMPUS_MAX_DISTANCE}km)"
+
+#, python-brace-format
+#~ msgid "Unknown object type: {ref_tag}"
+#~ msgstr "Nežinomas objekto tipas: {ref_tag}"
+
+#, python-brace-format
+#~ msgid "object {ref_tag}.{obj_id} not found"
+#~ msgstr "objektas {ref_tag}.{obj_id} nerastas"
+
+#, python-brace-format
+#~ msgid "Proposed update contains invalid data: {data}"
+#~ msgstr "Siūlomame atnaujinime yra negaliojančių duomenų: {data}"
+
+#, python-brace-format
+#~ msgid "{user} is not member of {org}"
+#~ msgstr "{user} nėra {org} narys"
 
 #~ msgid "IRR as-set/route-set"
 #~ msgstr "IRR kaip rinkinys/maršruto rinkinys"
@@ -5070,15 +5085,3 @@ msgstr "Prieš įjungiant dviejų veiksnių autentifikavimą, turi būti patvirt
 
 #~ msgid "Login as the organization admin to perform the action"
 #~ msgstr "Prisijunkite kaip organizacijos administratorius, kad atliktumėte veiksmą"
-
-#~ msgid "seconds ago"
-#~ msgstr "prieš kelias sekundes"
-
-#~ msgid "minutes ago"
-#~ msgstr "prieš minutes"
-
-#~ msgid "hours ago"
-#~ msgstr "prieš valandas"
-
-#~ msgid "days ago"
-#~ msgstr "prieš kelias dienas"

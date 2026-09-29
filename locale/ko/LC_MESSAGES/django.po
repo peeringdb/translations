@@ -1254,8 +1254,8 @@ msgstr "PeeringDB와 익스체인지의 IX-F 데이터 간의 데이터 차이"
 msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
 msgstr ""
 
-msgid "We found that your IX-F output "
-msgstr "당신의 IX-F 출력을 발견했습니다 "
+msgid "We found that your IX-F output contained multiple VLANs for the prefixes defined in the PeeringDB entry for your exchange."
+msgstr ""
 
 msgid "IX-F import url not specified"
 msgstr "IX-F 가져오기 URL이 지정되지 않음"
@@ -2496,10 +2496,6 @@ msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr "지리적 위치 좌표가 없기 때문에 시설을 캠퍼스의 일부로 만들 수 없습니다"
-
-#, python-brace-format
-msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
-msgstr "시설이 캠퍼스 경계를 벗어남(최대 {settings.CAMPUS_MAX_DISTANCE}km)"
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -4745,6 +4741,18 @@ msgstr ""
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "귀하의 이메일 주소가 이 조직의 파일에 있는 도메인 정보와 일치하지 않습니다."
 
+msgid "seconds ago"
+msgstr "초 전"
+
+msgid "minutes ago"
+msgstr "분 전"
+
+msgid "hours ago"
+msgstr "시간 전"
+
+msgid "days ago"
+msgstr "일 전"
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -4879,14 +4887,6 @@ msgstr "유효하지 않은 식별 기능!"
 msgid "Data is empty"
 msgstr ""
 
-#, python-brace-format
-msgid "Unknown object type: {ref_tag}"
-msgstr ""
-
-#, python-brace-format
-msgid "object {ref_tag}.{obj_id} not found"
-msgstr ""
-
 #, fuzzy
 #| msgid "Geo coding failed: {}"
 msgid "Geo coding failed: City not found"
@@ -4901,10 +4901,6 @@ msgid "No payload provided"
 msgstr ""
 
 msgid "Invalid JSON in payload"
-msgstr ""
-
-#, python-brace-format
-msgid "Proposed update contains invalid data: {data}"
 msgstr ""
 
 #, fuzzy
@@ -5192,12 +5188,15 @@ msgstr ""
 msgid "Malformed Organization Preference"
 msgstr "언어 기본 설정"
 
-#, python-brace-format
-msgid "{user} is not member of {org}"
-msgstr ""
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "We found that your IX-F output "
+#~ msgstr "당신의 IX-F 출력을 발견했습니다 "
+
+#, python-brace-format
+#~ msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
+#~ msgstr "시설이 캠퍼스 경계를 벗어남(최대 {settings.CAMPUS_MAX_DISTANCE}km)"
 
 #~ msgid "IRR as-set/route-set"
 #~ msgstr "IRR as-set/route-set"
@@ -5262,18 +5261,6 @@ msgstr ""
 #~| msgid "Invalid member type: {}"
 #~ msgid "Invalid member"
 #~ msgstr "잘못된 멤버 형식: {}"
-
-#~ msgid "seconds ago"
-#~ msgstr "초 전"
-
-#~ msgid "minutes ago"
-#~ msgstr "분 전"
-
-#~ msgid "hours ago"
-#~ msgstr "시간 전"
-
-#~ msgid "days ago"
-#~ msgstr "일 전"
 
 #~ msgid "Local ASN"
 #~ msgstr "로컬 ASN"

@@ -1234,8 +1234,8 @@ msgstr "Differenze tra i dati contenuti su PeeringDB e l'IX-F dell'Exchange"
 msgid "The IP address has been reassigned to a different ASN in the exchange's IX-F data"
 msgstr ""
 
-msgid "We found that your IX-F output "
-msgstr "Abbiamo rilevato che il tuo IX-F output "
+msgid "We found that your IX-F output contained multiple VLANs for the prefixes defined in the PeeringDB entry for your exchange."
+msgstr ""
 
 msgid "IX-F import url not specified"
 msgstr "Indirizzo di import dell'IX-F non specificato"
@@ -2459,10 +2459,6 @@ msgstr ""
 
 msgid "Facility cannot be made part of a campus as it is missing its geolocation coordinates"
 msgstr "La facility non può entrare a far parte di un campus perché mancano le coordinate per geolocalizzarla"
-
-#, python-brace-format
-msgid "Facility out of campus bounds (max. {settings.CAMPUS_MAX_DISTANCE}km)"
-msgstr ""
 
 #, python-format
 msgid "User %(u_name)s wishes to be affiliated to your Organization"
@@ -4654,6 +4650,18 @@ msgstr ""
 msgid "Your email address does not match the domain information we have on file for this organization."
 msgstr "Il tuo indirizzo email non corrisponde alle informazioni del dominio che abbiamo su file per questa organizzazione."
 
+msgid "seconds ago"
+msgstr "secondi fa"
+
+msgid "minutes ago"
+msgstr "minuti fa"
+
+msgid "hours ago"
+msgstr "ore fa"
+
+msgid "days ago"
+msgstr "giorni fa"
+
 #, fuzzy
 #| msgid "Invalid export format"
 msgid "Invalid format"
@@ -4790,14 +4798,6 @@ msgstr "Identificatore non valido!"
 msgid "Data is empty"
 msgstr ""
 
-#, python-brace-format
-msgid "Unknown object type: {ref_tag}"
-msgstr ""
-
-#, python-brace-format
-msgid "object {ref_tag}.{obj_id} not found"
-msgstr ""
-
 #, fuzzy
 #| msgid "Geo coding failed: {}"
 msgid "Geo coding failed: City not found"
@@ -4812,10 +4812,6 @@ msgid "No payload provided"
 msgstr ""
 
 msgid "Invalid JSON in payload"
-msgstr ""
-
-#, python-brace-format
-msgid "Proposed update contains invalid data: {data}"
 msgstr ""
 
 #, fuzzy
@@ -5111,12 +5107,11 @@ msgstr ""
 msgid "Malformed Organization Preference"
 msgstr "Imposta la preferenza della lingua"
 
-#, python-brace-format
-msgid "{user} is not member of {org}"
-msgstr ""
-
 msgid "Your email must be confirmed before enabling two-factor authentication."
 msgstr ""
+
+#~ msgid "We found that your IX-F output "
+#~ msgstr "Abbiamo rilevato che il tuo IX-F output "
 
 #~ msgid "IRR as-set/route-set"
 #~ msgstr "IRR as-set/route-set"
@@ -5166,18 +5161,6 @@ msgstr ""
 #~| msgid "Invalid prefix: {}"
 #~ msgid "Invalid member"
 #~ msgstr "Prefisso non valido: {}"
-
-#~ msgid "seconds ago"
-#~ msgstr "secondi fa"
-
-#~ msgid "minutes ago"
-#~ msgstr "minuti fa"
-
-#~ msgid "hours ago"
-#~ msgstr "ore fa"
-
-#~ msgid "days ago"
-#~ msgstr "giorni fa"
 
 #~ msgid "Local ASN"
 #~ msgstr "ASN Locale"
