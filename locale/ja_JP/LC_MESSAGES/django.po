@@ -848,6 +848,27 @@ msgstr ""
 msgid "User has these Webauthn Security Keys"
 msgstr ""
 
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last updated"
+msgstr "最新のアップデート"
+
+#, fuzzy
+#| msgid "Use Backup Token"
+msgid "User has these Backup Token sets"
+msgstr "バックアップトークを使用する"
+
+msgid "Unused tokens"
+msgstr ""
+
+#, fuzzy
+#| msgid "Email one time password"
+msgid "Email one-time password (auto-provisioned)"
+msgstr "Email one time password"
+
+msgid "Tokens delivered to"
+msgstr ""
+
 msgid "IX-F Import History"
 msgstr "IX-F インポート履歴"
 
@@ -1401,6 +1422,12 @@ msgstr ""
 msgid "not permitted to set this key"
 msgstr ""
 
+msgid "Django admin access requires membership in an organization that requires passkey authentication."
+msgstr ""
+
+msgid "Your organization requires passkey authentication. Please log in again."
+msgstr ""
+
 #, fuzzy
 #| msgid "active"
 msgid "Inactive"
@@ -1863,6 +1890,28 @@ msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'
 msgstr "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'."
 
 msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange has active peer(s)"
+msgid "{} active peer(s)"
+msgstr "このエクスチェンジはアクティブなピア（ネットワーク）のデータを持っています"
+
+#, fuzzy
+#| msgid "Exchange has active facility connection(s): {} ..."
+msgid "{} active facility connection(s)"
+msgstr "Exchange has active facility connection(s): {} ..."
+
+msgid "These are the last {} prefixes for this exchange. Deleting them will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "This is the last prefix for this exchange. Deleting it will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "{}, together with its {}. Do you want to continue?"
+msgstr ""
+
+msgid "{}. Do you want to continue?"
 msgstr ""
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -2788,6 +2837,24 @@ msgstr ""
 #| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgid "If you have any questions, please contact us at %(email)s."
 msgstr "もし質問がありましたら、PeeringDB サポートまで連絡ください"
+
+#, python-format
+msgid "Your PeeringDB OAuth application \"%(name)s\" (client ID %(client_id)s) is configured to sign OpenID Connect ID tokens with HS256. PeeringDB stores client secrets hashed and can no longer issue HS256 ID tokens."
+msgstr ""
+
+msgid "We have switched the application to RS256. ID tokens are now signed with PeeringDB's RSA key. If your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+msgid "Until the application is switched to RS256, sign-ins that request the openid scope will fail. Please select RS256 in the application settings. ID tokens are then signed with PeeringDB's RSA key; if your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+#, fuzzy
+#| msgid "Existing affiliations"
+msgid "Application settings:"
+msgstr "既存の所属先"
+
+msgid "JWKS endpoint:"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -3869,6 +3936,12 @@ msgid "Save Options"
 msgstr "Options"
 
 msgid "Passkeys"
+msgstr ""
+
+msgid "Your organization requires passkey authentication. Register a passkey below, then sign out and log in using that passkey to continue."
+msgstr ""
+
+msgid "Sign out"
 msgstr ""
 
 msgid "Register your security key and use it as a Passkey authentication."
@@ -5020,6 +5093,9 @@ msgstr "言語を選択する"
 msgid "Register on behalf of one of your organizations"
 msgstr ""
 
+msgid "HS256 is no longer supported. Select RS256 and verify ID tokens with the keys published at the JWKS endpoint."
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "メールアドレス変更のリクエストをする前に少々お待ちください"
 
@@ -5072,6 +5148,9 @@ msgstr "10文字以上の文字数でお願いします"
 #| msgid "Password Verification"
 msgid "Password is too long."
 msgstr "パスワード確認"
+
+msgid "Please log in to close your account."
+msgstr ""
 
 #, fuzzy
 #| msgid "Current Password"

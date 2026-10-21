@@ -822,6 +822,27 @@ msgstr "L'utente ha questi dispositivi TOTP"
 msgid "User has these Webauthn Security Keys"
 msgstr "L'utente ha queste chiavi di sicurezza Webauthn"
 
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last updated"
+msgstr "Ultimo Aggiornamento"
+
+#, fuzzy
+#| msgid "User has these TOTP devices"
+msgid "User has these Backup Token sets"
+msgstr "L'utente ha questi dispositivi TOTP"
+
+msgid "Unused tokens"
+msgstr ""
+
+#, fuzzy
+#| msgid "Confirm password"
+msgid "Email one-time password (auto-provisioned)"
+msgstr "Conferma password"
+
+msgid "Tokens delivered to"
+msgstr ""
+
 msgid "IX-F Import History"
 msgstr "Storico delle importazioni IX-F"
 
@@ -1357,6 +1378,12 @@ msgstr "Registra chiave di sicurezza"
 msgid "not permitted to set this key"
 msgstr ""
 
+msgid "Django admin access requires membership in an organization that requires passkey authentication."
+msgstr ""
+
+msgid "Your organization requires passkey authentication. Please log in again."
+msgstr ""
+
 msgid "Inactive"
 msgstr "Inattivo"
 
@@ -1809,6 +1836,28 @@ msgstr "IXLanPrefix con stato '{}' non può essere collegato a un IXLan con stat
 
 msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
 msgstr "Impossibile eliminare il prefisso {}: l'indirizzo IP {} della rete ASN {} sta ancora utilizzando questo prefisso"
+
+#, fuzzy
+#| msgid "Exchange has active peer(s)"
+msgid "{} active peer(s)"
+msgstr "L'exchange ha peer(s) attivii"
+
+#, fuzzy
+#| msgid "Exchange has active facility connection(s): {} ..."
+msgid "{} active facility connection(s)"
+msgstr "L'exchange ha una o più connessioni attive con una struttura: {} ..."
+
+msgid "These are the last {} prefixes for this exchange. Deleting them will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "This is the last prefix for this exchange. Deleting it will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "{}, together with its {}. Do you want to continue?"
+msgstr ""
+
+msgid "{}. Do you want to continue?"
+msgstr ""
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifica se un IXP può aggiungere un'entrata netixlan per questa rete tramite i propri dati ixp_member"
@@ -2707,6 +2756,24 @@ msgstr ""
 #| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgid "If you have any questions, please contact us at %(email)s."
 msgstr "Se avete domande, non esitate a contattare il supporto peeringdb"
+
+#, python-format
+msgid "Your PeeringDB OAuth application \"%(name)s\" (client ID %(client_id)s) is configured to sign OpenID Connect ID tokens with HS256. PeeringDB stores client secrets hashed and can no longer issue HS256 ID tokens."
+msgstr ""
+
+msgid "We have switched the application to RS256. ID tokens are now signed with PeeringDB's RSA key. If your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+msgid "Until the application is switched to RS256, sign-ins that request the openid scope will fail. Please select RS256 in the application settings. ID tokens are then signed with PeeringDB's RSA key; if your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+#, fuzzy
+#| msgid "Application"
+msgid "Application settings:"
+msgstr "Applicazioni"
+
+msgid "JWKS endpoint:"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -3787,6 +3854,12 @@ msgstr "Salva opzioni"
 
 msgid "Passkeys"
 msgstr "Passkeys"
+
+msgid "Your organization requires passkey authentication. Register a passkey below, then sign out and log in using that passkey to continue."
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
 
 msgid "Register your security key and use it as a Passkey authentication."
 msgstr "Registra la tua chiave di sicurezza ed usala come una Passkey di autenticazione."
@@ -4869,6 +4942,9 @@ msgstr "Imposta la preferenza della lingua"
 msgid "Register on behalf of one of your organizations"
 msgstr ""
 
+msgid "HS256 is no longer supported. Select RS256 and verify ID tokens with the keys published at the JWKS endpoint."
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "Si prega di attendere un po' prima di richiedere un altro cambio di email"
 
@@ -4919,6 +4995,9 @@ msgstr "Deve essere almeno 10 caratteri"
 #| msgid "Password Verification"
 msgid "Password is too long."
 msgstr "Verifica Password"
+
+msgid "Please log in to close your account."
+msgstr ""
 
 #, fuzzy
 #| msgid "Current Password"

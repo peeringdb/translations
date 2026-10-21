@@ -822,6 +822,27 @@ msgstr "Utilizatorul are aceste dispozitive TOTP"
 msgid "User has these Webauthn Security Keys"
 msgstr "Utilizatorul are aceste chei de securitate Webauthn"
 
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last updated"
+msgstr "Ultima actualizare"
+
+#, fuzzy
+#| msgid "Use Backup Token"
+msgid "User has these Backup Token sets"
+msgstr "Utilizați token-ul de rezervă"
+
+msgid "Unused tokens"
+msgstr ""
+
+#, fuzzy
+#| msgid "Email one time password"
+msgid "Email one-time password (auto-provisioned)"
+msgstr "Trimiteți prin e-mail o parolă de unică folosință"
+
+msgid "Tokens delivered to"
+msgstr ""
+
 msgid "IX-F Import History"
 msgstr "Istoricul importurilor IX-F"
 
@@ -1357,6 +1378,12 @@ msgstr "Înregistrați cheia de securitate"
 msgid "not permitted to set this key"
 msgstr ""
 
+msgid "Django admin access requires membership in an organization that requires passkey authentication."
+msgstr ""
+
+msgid "Your organization requires passkey authentication. Please log in again."
+msgstr ""
+
 msgid "Inactive"
 msgstr "Inactiv"
 
@@ -1809,6 +1836,28 @@ msgstr "IXLanPrefix cu starea '{}' nu poate fi legat de un IXLan cu starea '{}'.
 
 msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
 msgstr "Nu se poate șterge prefixul {}: Adresa IP {} din rețeaua ASN {} utilizează încă acest prefix"
+
+#, fuzzy
+#| msgid "Exchange has active peer(s)"
+msgid "{} active peer(s)"
+msgstr "Exchange-ul are peer-uri active"
+
+#, fuzzy
+#| msgid "Exchange has active facility connection(s): {} ..."
+msgid "{} active facility connection(s)"
+msgstr "Exchange-ul are conexiuni active la Facilități: {} ..."
+
+msgid "These are the last {} prefixes for this exchange. Deleting them will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "This is the last prefix for this exchange. Deleting it will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "{}, together with its {}. Do you want to continue?"
+msgstr ""
+
+msgid "{}. Do you want to continue?"
+msgstr ""
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
 msgstr "Specifică dacă unui IXP i se permite să adauge o intrare netixlan pentru această rețea prin intermediul datelor sale ixp_member"
@@ -2694,6 +2743,24 @@ msgstr ""
 #| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgid "If you have any questions, please contact us at %(email)s."
 msgstr "Dacă aveți întrebări, nu ezitați să contactați asistența PeeringDB la"
+
+#, python-format
+msgid "Your PeeringDB OAuth application \"%(name)s\" (client ID %(client_id)s) is configured to sign OpenID Connect ID tokens with HS256. PeeringDB stores client secrets hashed and can no longer issue HS256 ID tokens."
+msgstr ""
+
+msgid "We have switched the application to RS256. ID tokens are now signed with PeeringDB's RSA key. If your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+msgid "Until the application is switched to RS256, sign-ins that request the openid scope will fail. Please select RS256 in the application settings. ID tokens are then signed with PeeringDB's RSA key; if your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+#, fuzzy
+#| msgid "Application"
+msgid "Application settings:"
+msgstr "Aplicație"
+
+msgid "JWKS endpoint:"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -3714,6 +3781,12 @@ msgstr "Salvează opțiunile"
 
 msgid "Passkeys"
 msgstr "Chei de acces"
+
+msgid "Your organization requires passkey authentication. Register a passkey below, then sign out and log in using that passkey to continue."
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
 
 msgid "Register your security key and use it as a Passkey authentication."
 msgstr "Înregistrează-ți cheia de securitate și folosește-o pentru autentificare cu cheie de acces."
@@ -4783,6 +4856,9 @@ msgstr "Preferință de limbă incorectă"
 msgid "Register on behalf of one of your organizations"
 msgstr "Înregistrați-vă în numele uneia dintre organizațiile dvs."
 
+msgid "HS256 is no longer supported. Select RS256 and verify ID tokens with the keys published at the JWKS endpoint."
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "Vă rugăm să așteptați puțin înainte de a solicita o altă modificare prin e-mail"
 
@@ -4827,6 +4903,9 @@ msgstr "Parola trebuie să aibă cel puțin 10 caractere."
 
 msgid "Password is too long."
 msgstr "Parola este prea lungă."
+
+msgid "Please log in to close your account."
+msgstr ""
 
 msgid "Incorrect password"
 msgstr "Parolă incorectă"

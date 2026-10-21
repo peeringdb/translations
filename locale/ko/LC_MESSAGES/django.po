@@ -830,6 +830,27 @@ msgstr "사용자에게 이러한 TOTP 장치가 있습니다"
 msgid "User has these Webauthn Security Keys"
 msgstr "사용자에게 다음과 같은 웹 인증 보안 키가 있습니다"
 
+#, fuzzy
+#| msgid "Last Updated"
+msgid "Last updated"
+msgstr "최신 업데이트"
+
+#, fuzzy
+#| msgid "Use Backup Token"
+msgid "User has these Backup Token sets"
+msgstr "백업 토큰 사용하기"
+
+msgid "Unused tokens"
+msgstr ""
+
+#, fuzzy
+#| msgid "Email one time password"
+msgid "Email one-time password (auto-provisioned)"
+msgstr "이메일 일회용 비밀번호"
+
+msgid "Tokens delivered to"
+msgstr ""
+
 msgid "IX-F Import History"
 msgstr "IX-F 수입 히스토리"
 
@@ -1375,6 +1396,12 @@ msgstr ""
 msgid "not permitted to set this key"
 msgstr ""
 
+msgid "Django admin access requires membership in an organization that requires passkey authentication."
+msgstr ""
+
+msgid "Your organization requires passkey authentication. Please log in again."
+msgstr ""
+
 msgid "Inactive"
 msgstr "비활성화"
 
@@ -1832,6 +1859,28 @@ msgid "IXLanPrefix with status '{}' cannot be linked to a IXLan with status '{}'
 msgstr "'{}'상태인 IXLANPrefix는 '{}'상태인 IXLAN에 연결할 수 없음."
 
 msgid "Cannot delete prefix {}: IP address {} from network ASN {} is still using this prefix"
+msgstr ""
+
+#, fuzzy
+#| msgid "Exchange has active peer(s)"
+msgid "{} active peer(s)"
+msgstr "익스체인지에 활성 피어가 있음"
+
+#, fuzzy
+#| msgid "Exchange has active facility connection(s): {} ..."
+msgid "{} active facility connection(s)"
+msgstr "익스체인지에 활성 시설 연결이 있음: {}..."
+
+msgid "These are the last {} prefixes for this exchange. Deleting them will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "This is the last prefix for this exchange. Deleting it will also remove the exchange from PeeringDB"
+msgstr ""
+
+msgid "{}, together with its {}. Do you want to continue?"
+msgstr ""
+
+msgid "{}. Do you want to continue?"
 msgstr ""
 
 msgid "Specifies whether an IXP is allowed to add a netixlan entry for this network via their ixp_member data"
@@ -2733,6 +2782,24 @@ msgstr ""
 #| msgid "If you have questions, please don't hesitate to contact peeringdb support at"
 msgid "If you have any questions, please contact us at %(email)s."
 msgstr "질문이 있으면 주저하지 말고 다음 사이트에서 peeringdb 지원팀에 문의하십시오"
+
+#, python-format
+msgid "Your PeeringDB OAuth application \"%(name)s\" (client ID %(client_id)s) is configured to sign OpenID Connect ID tokens with HS256. PeeringDB stores client secrets hashed and can no longer issue HS256 ID tokens."
+msgstr ""
+
+msgid "We have switched the application to RS256. ID tokens are now signed with PeeringDB's RSA key. If your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+msgid "Until the application is switched to RS256, sign-ins that request the openid scope will fail. Please select RS256 in the application settings. ID tokens are then signed with PeeringDB's RSA key; if your application verifies ID token signatures, it must use the public keys published at the JWKS endpoint below instead of the client secret."
+msgstr ""
+
+#, fuzzy
+#| msgid "Edit application"
+msgid "Application settings:"
+msgstr "응용 프로그램 편집"
+
+msgid "JWKS endpoint:"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -3816,6 +3883,12 @@ msgid "Save Options"
 msgstr "조건"
 
 msgid "Passkeys"
+msgstr ""
+
+msgid "Your organization requires passkey authentication. Register a passkey below, then sign out and log in using that passkey to continue."
+msgstr ""
+
+msgid "Sign out"
 msgstr ""
 
 msgid "Register your security key and use it as a Passkey authentication."
@@ -4958,6 +5031,9 @@ msgstr "언어 기본 설정"
 msgid "Register on behalf of one of your organizations"
 msgstr ""
 
+msgid "HS256 is no longer supported. Select RS256 and verify ID tokens with the keys published at the JWKS endpoint."
+msgstr ""
+
 msgid "Please wait a bit before requesting another email change"
 msgstr "다른 이메일 변경을 요청하기 전에 잠시 기다리십시오"
 
@@ -5008,6 +5084,9 @@ msgstr "최소 10자 이상"
 #| msgid "Password Verification"
 msgid "Password is too long."
 msgstr "비밀번호 확인"
+
+msgid "Please log in to close your account."
+msgstr ""
 
 #, fuzzy
 #| msgid "Current Password"
